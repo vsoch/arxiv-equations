@@ -15,6 +15,23 @@ except:
 
 # Helper Functions
 
+def get_uid(input_file):
+    '''The two "dumps" of arxiv files differ in the unique ids. The old style
+       includes a string category, the new style is all numeric. This function
+       derives an ID that the API will understand, regardless.
+
+       style 1 (based on numbers) xxxx.xxxx
+       style 2 (with string topic) /<topic>/xxxx/xxxxxxx
+    '''
+    if re.search('[0-9]{4}[0-9]{4}.tar.gz$',os.path.basename(input_file)):
+        return os.path.basename(input_file).replace('.tar.gz','')
+
+    # The difference is the identifier for the file
+    suffix = os.path.basename(input_file).replace('.tar.gz','')
+    prefix = input_file.split('/')[-3]
+    return '%s/%s' %(prefix, suffix)
+
+
 def chunks(iterable, n, fillvalue=None):
     '''iterate through a list and return chunks of size n'''
     args = [iter(iterable)] * n

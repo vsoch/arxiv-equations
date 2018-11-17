@@ -44,6 +44,17 @@ result = {'equations': equations,
 output_file = input_file.replace('.tar.gz', '.pkl')
 pickle.dump(result, open(output_file,'wb'))
 
+# Testing older format
+
+input_file = os.path.abspath('bayes-an/9506/9506003.tar.gz')
+
+# The difference is the identifier for the file
+suffix = os.path.basename(input_file).replace('.tar.gz','')
+prefix = input_file.split('/')[-3]
+uid = '%s/%s' %(suffix, prefix)
+
+# We will write a function to parse uid
+
 
 ################################################################################
 # Step 2. Run for Entire Set

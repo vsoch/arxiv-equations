@@ -24,12 +24,13 @@ $ ls 0801 | wc -l
 4516
 ```
 
-## Testing Parsing
-
+## Step 1. Metadata and Text Extraction
 To test parsing and extraction of a .tar.gz within, please reference the script
-[extractMetrics.py](extractMetrics.py). This first extracts a single tex file,
-meaning equations, tex, and metadata, and then loops over the logic to do the remaining.
-If the set ever gets too big we can move to work in a cluster environment.
+[extractMetrics.py](extractMetrics.py). This first section extracts a single tex file,
+meaning equations, tex, and metadata, and the second sections loops over the 
+logic to do the remaining. I did the loop extraction for one .tar.gz, and will
+use the [clusterExtract.py](clusterExtract.py) and [run_clusterExtract.py](run_clusterExtract.py) 
+to do this in parallel for all the .tar.gz. 
 
 The metadata from arxiv includes:
   - id 
@@ -56,6 +57,9 @@ The metadata from arxiv includes:
   - doi
 
 ## Metrics of Interest
+The extraction above, along with the metadata list shown above, also extracts the tex as a 
+string, the length, and a list of equation strings.  This isn't a comprehensive list, 
+but I'll make some notes about metrics that are important.
 
  - **topics or domain of the publication**: this could be determined from the metadata, or by parsing the text itself and doing some kind of tokenization.
  - **journal**: The name of the journal
@@ -85,3 +89,15 @@ was to find a txt file with a note about the paper being withdrawn:
 **Some LaTex files end in TEX**
 
 And so the function should convert to lowercase before any string checking.
+
+## Step 2. Identify Goals
+
+**Summary Metrics**
+I want a table of paper id by features, to be used for different kinds of machine
+learning.
+
+**Visualize Papers**
+
+I would want, for any paper (tex file) to be able to quickly "see" the equations.
+This should look like a simple Github Pages repository that has urls (based on
+the unique id of arxiv) to render (likely with MathJax) the equations from the paper.
