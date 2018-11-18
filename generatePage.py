@@ -7,6 +7,8 @@
 import pickle
 import operator
 import frontmatter
+import os
+import sys
 
 input_pkl = sys.argv[1]
 

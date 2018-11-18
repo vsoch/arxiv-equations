@@ -2,13 +2,14 @@
 
 import os
 import pickle
+import time
 from helpers import ( recursive_find, get_uid )
 
 # git clone https://www.github.com/vsoch/arxiv-equations && cd arxiv-equations
 # module load python/3.6.1
 # pip install --user -r requirements.txt
 
-base = "/scratch/users/vsochat/WORK/arxiv-equations"
+base = "/regal/users/vsochat/WORK/arxiv"
 
 # Create directories if they don't exist
 os.chdir(base)
@@ -36,7 +37,8 @@ for input_file in input_files:
             filey.writelines("#SBATCH --error=.out/%s.err\n" %name)
             filey.writelines("#SBATCH --time=60:00\n")
             filey.writelines("#SBATCH --mem=2000\n")
-            filey.writelines('module load python/3.6.1')
-            filey.writelines("python clusterExtract.py %s %s\n" % (input_file, output_file))
-            filey.writelines("python extractMetrics.py %s\n" % (output_file)) # Output to previous used as input
+            filey.writelines('module load python/3.6.1\n')
+            filey.writelines("python3 clusterExtract.py %s %s\n" % (input_file, output_file))
+            filey.writelines("python3 generatePage.py %s\n" % (output_file)) # Output to previous used as input
+            time.sleep(0.1)
             os.system("sbatch -p owners .job/%s.job" %name)

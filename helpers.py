@@ -38,7 +38,7 @@ def get_uid(input_file):
        style 1 (based on numbers) xxxx.xxxx
        style 2 (with string topic) /<topic>/xxxx/xxxxxxx
     '''
-    if re.search('[0-9]{4}[0-9]{4}.tar.gz$',os.path.basename(input_file)):
+    if re.search('[0-9]{4}[.][0-9]{4}.tar.gz$',os.path.basename(input_file)):
         return os.path.basename(input_file).replace('.tar.gz','')
 
     # The difference is the identifier for the file
