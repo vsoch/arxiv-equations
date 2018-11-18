@@ -74,7 +74,6 @@ for tag in result['metadata']['tags']:
 
 template.metadata['tags'] = tags
 template.metadata['pdf_url'] = result['metadata']['pdf_url']
-template.metadata['length'] = result['metadata']['length']
 template.metadata['arxiv_url'] = result['metadata']['arxiv_url']
 
 # Equations
