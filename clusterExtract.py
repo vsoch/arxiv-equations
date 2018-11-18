@@ -5,7 +5,10 @@ import os
 import tarfile
 
 # Read in arguments
-from helpers import ( extract_tex, get_metadata, get_uid )
+from helpers import ( extract_tex, 
+                      get_metadata, 
+                      find_equations,
+                      get_uid )
 
 ################################################################################
 # Step 1. Test with Input Example
@@ -23,9 +26,7 @@ tex = extract_tex(input_file)
 # Metadata based on uid from filename
 uid = get_uid(input_file)
 metadata = get_metadata(uid)
-
-# Extract the equations from the tex
-equations = re.findall("\\$.*?(?<!\\\\)\\$", str(tex))
+equations = find_equations(tex)
 
 result = {'equations': equations,
           'metadata': metadata,

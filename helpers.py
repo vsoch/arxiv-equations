@@ -15,6 +15,21 @@ except:
 
 # Helper Functions
 
+def find_equations(tex):
+    '''find equations. We assume an equation is either between $$ tags, or
+       a begin/end align or equation.'''
+
+    # Extract the equations from the tex
+    regexps = ["\\$.*?(?<!\\\\)\\$",
+               "\\\\begin{align}.*?(?<!\\\\)\\\\end{align}",
+               "\\\\begin{equation}.*?(?<!\\\\)\\\\end{equation}"]
+
+    equations = []
+    for regexp in regexps:
+        equations = equations + re.findall(regexp, str(tex))
+    return equations
+
+
 def get_uid(input_file):
     '''The two "dumps" of arxiv files differ in the unique ids. The old style
        includes a string category, the new style is all numeric. This function
