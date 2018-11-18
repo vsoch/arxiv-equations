@@ -2,6 +2,7 @@
 
 import sys
 import os
+import pickle
 import tarfile
 
 # Read in arguments

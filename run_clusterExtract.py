@@ -19,7 +19,6 @@ for dirname in ['.job', '.out', 'analysis']:
 
 database = os.path.abspath('data')
 
-
 # Step 1. Generate a lookup table
 input_files = recursive_find(database, '*.tar.gz')
 
@@ -27,15 +26,16 @@ input_files = recursive_find(database, '*.tar.gz')
 for input_file in input_files:
     name = get_uid(input_file).replace('/', '-')
     output_file = os.path.join(output, 'extracted_%s.pkl' % name)
-    print("Processing %s" % name)
-    file_name = ".job/%s.job" %(name)
-    with open(file_name, "w") as filey:
-        filey.writelines("#!/bin/bash\n")
-        filey.writelines("#SBATCH --job-name=%s\n" %name)
-        filey.writelines("#SBATCH --output=.out/%s.out\n" %name)
-        filey.writelines("#SBATCH --error=.out/%s.err\n" %name)
-        filey.writelines("#SBATCH --time=60:00\n")
-        filey.writelines("#SBATCH --mem=2000\n")
-        filey.writelines('module load python/3.6.1')
-        filey.writelines("/bin/bash clusterExtract.py %s\n" % (input_file))
-        os.system("sbatch -p owners .job/%s.job" %name)
+    if not os.path.exists(output_file):
+        print("Processing %s" % name)
+        file_name = ".job/%s.job" %(name)
+        with open(file_name, "w") as filey:
+            filey.writelines("#!/bin/bash\n")
+            filey.writelines("#SBATCH --job-name=%s\n" %name)
+            filey.writelines("#SBATCH --output=.out/%s.out\n" %name)
+            filey.writelines("#SBATCH --error=.out/%s.err\n" %name)
+            filey.writelines("#SBATCH --time=60:00\n")
+            filey.writelines("#SBATCH --mem=2000\n")
+            filey.writelines('module load python/3.6.1')
+            filey.writelines("/bin/bash clusterExtract.py %s\n" % (input_file))
+            os.system("sbatch -p owners .job/%s.job" %name)
