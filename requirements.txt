@@ -1,2 +1,3 @@
 tex2py>=0.0.4
 arxiv>=0.2.2
+python-frontmatter==0.4.2

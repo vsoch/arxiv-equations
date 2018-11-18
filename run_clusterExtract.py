@@ -37,5 +37,6 @@ for input_file in input_files:
             filey.writelines("#SBATCH --time=60:00\n")
             filey.writelines("#SBATCH --mem=2000\n")
             filey.writelines('module load python/3.6.1')
-            filey.writelines("/bin/bash clusterExtract.py %s\n" % (input_file))
+            filey.writelines("python clusterExtract.py %s %s\n" % (input_file, output_file))
+            filey.writelines("python extractMetrics.py %s\n" % (output_file)) # Output to previous used as input
             os.system("sbatch -p owners .job/%s.job" %name)

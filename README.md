@@ -30,7 +30,9 @@ To test parsing and extraction of a .tar.gz within, please reference the script
 meaning equations, tex, and metadata, and the second sections loops over the 
 logic to do the remaining. I did the loop extraction for one .tar.gz, and will
 use the [clusterExtract.py](clusterExtract.py) and [run_clusterExtract.py](run_clusterExtract.py) 
-to do this in parallel for all the .tar.gz. 
+to do this in parallel for all the .tar.gz. The run script also runs 
+[extractmetrics.py](extractmetrics.py) to generate markdown to populate the 
+[arxiv catalog](https://vsoch.github.io/arxiv-catalog/).
 
 The metadata from arxiv includes:
   - id 
@@ -69,6 +71,20 @@ but I'll make some notes about metrics that are important.
 To start (and visualize what we have) it would be useful to generate an index of equations by article.
 It would also be fun to see if we can group articles based on equations, and go further to classify equations and
 then identify which domains use which kinds of equations.
+
+## Step 2: Summary Metrics
+When the above is done, we would be interested to derive:
+
+ - a total list of categories, and description of metrics by category
+ - a breakdown of equations by category
+
+## Step 3: Analysis
+
+We might want to know:
+
+ - what kind of equations cluster together?
+ - what groupings (types) of equations are associated with different topics?
+ - how do topics compare with respect to equations used?
 
 ## Notes about the data
 

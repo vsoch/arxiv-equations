@@ -7,11 +7,11 @@
 # set gets too large to be reasonable to work with locally, we can move to a
 # cluster.
 
-
 import json
 import os
 import tarfile
 from helpers import ( extract_tex, get_metadata, chunks )
+
 
 # Let's get nltk
 import nltk
