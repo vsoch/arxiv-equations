@@ -14,7 +14,7 @@ base = "/regal/users/vsochat/WORK/arxiv"
 # Create directories if they don't exist
 os.chdir(base)
 output = os.path.join(base, 'analysis')
-for dirname in ['.job', '.out', 'analysis']:
+for dirname in ['.job', '.out', 'analysis', '_posts']:
     if not os.path.exists(dirname):
         os.mkdir(dirname)
 
@@ -40,5 +40,4 @@ for input_file in input_files:
             filey.writelines('module load python/3.6.1\n')
             filey.writelines("python3 clusterExtract.py %s %s\n" % (input_file, output_file))
             filey.writelines("python3 generatePage.py %s\n" % (output_file)) # Output to previous used as input
-            time.sleep(0.1)
-            os.system("sbatch -p owners .job/%s.job" %name)
+        os.system("sbatch -p owners .job/%s.job" %name)

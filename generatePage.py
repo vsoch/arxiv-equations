@@ -12,8 +12,6 @@ import sys
 
 input_pkl = sys.argv[1]
 
-result = pickle.load(open(input_pkl,'rb'))
-
 # We should be in directory where script is running
 here = os.path.abspath(os.path.dirname(__file__))
 os.chdir(here)
@@ -30,10 +28,11 @@ if not os.path.exists(here):
 ################################################################################
 
 # Don't continue unless we have metrics file
-if not os.path.exists(result):
+if not os.path.exists(input_pkl):
     print('Cannot find metrics file, exiting')
     sys.exit(1)
 
+result = pickle.load(open(input_pkl,'rb'))
 template = frontmatter.load('%s/templates/article-template.md' %here)
 
 template.content = result['metadata']['summary']
