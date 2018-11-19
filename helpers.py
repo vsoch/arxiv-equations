@@ -28,7 +28,7 @@ def find_equations(tex):
                r"\\begin[{]equation[*][}](.*?(?<!\\\\))\\end[{]equation[*][}]"]
     equations = []
     for regexp in regexps:
-        equations = equations + re.findall(regexp, '%r' %tex))
+        equations = equations + re.findall(regexp, '%r' %tex)
     return equations
 
 
