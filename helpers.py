@@ -15,22 +15,36 @@ except:
 
 # Helper Functions
 
-
 def find_equations(tex):
     '''find equations. We assume an equation is either between $$ tags, or
        a begin/end align or equation.'''
 
     # Extract the equations from the tex
-    regexps = ["\\$.*?(?<!\\\\)\\$",
+    regexps = [
+               r"\$.*?(?<!\\\\)\$",
+               r"\\\[.*?(?<!\\\\)\\\]",
+               r"\\\(.*?(?<!\\\\)\\\)",
                r"\\begin[{]align[}](.*?(?<!\\\\))\\end[{]align[}]",
-               r"\\begin[{]align[*][}](.*?(?<!\\\\))\\end[{]align[*][}]",
+               r"\\begin[{]align[*][}](.*?(?<!\\\\))\\end[{]align\*[}]",
                r"\\begin[{]equation[}](.*?(?<!\\\\))\\end[{]equation[}]",
-               r"\\begin[{]equation[*][}](.*?(?<!\\\\))\\end[{]equation[*][}]"]
+               r"\\begin[{]equation[*][}](.*?(?<!\\\\))\\end[{]equation[*][}]",
+               r"\\begin[{]displaymath[}](.*?(?<!\\\\))\\end[{]displaymath[}]",
+               r"\\begin[{]displaymath[*][}](.*?(?<!\\\\))\\end[{]displaymath[*][}]",
+               r"\\begin[{]eqnarray[}](.*?(?<!\\\\))\\end[{]eqnarray[}]",
+               r"\\begin[{]eqnarray[*][}](.*?(?<!\\\\))\\end[{]eqnarray[*][}]",
+               r"\\begin[{]multline[}](.*?(?<!\\\\))\\end[{]multline[}]",
+               r"\\begin[{]multline[*][}](.*?(?<!\\\\))\\end[{]multline[*][}]",
+               r"\\begin[{]gather[}](.*?(?<!\\\\))\\end[{]gather[}]",
+               r"\\begin[{]gather[*][}](.*?(?<!\\\\))\\end[{]gather[*][}]",
+               r"\\begin[{]falign[}](.*?(?<!\\\\))\\end[{]falign[}]",
+               r"\\begin[{]falign[*][}](.*?(?<!\\\\))\\end[{]falign[*][}]",
+               r"\\begin[{]alignat[}](.*?(?<!\\\\))\\end[{]alignat[}]",
+               r"\\begin[{]alignat[*][}](.*?(?<!\\\\))\\end[{]alignat[*][}]",
+    ]
     equations = []
     for regexp in regexps:
-        equations = equations + re.findall(regexp, '%r' %tex)
+        equations = equations + re.findall(regexp, "%r"%str(tex))
     return equations
-
 
 def get_uid(input_file):
     '''The two "dumps" of arxiv files differ in the unique ids. The old style
@@ -91,7 +105,7 @@ def extract_tex(input_file):
         if member.name.lower().endswith('tex'):
             with tar.extractfile(member) as m:
                 tex = m.read()
-    return tex    
+    return tex.decode('utf-8')
 
 
 def read_file(filename, mode="r"):
