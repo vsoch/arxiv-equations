@@ -13,7 +13,6 @@ More information about naming is [here](https://arxiv.org/help/bulk_data_s3).
 For example, the description of the folder name:
 
 ```bash
-yymm
 Two digit year and month of items in the tar package. Starts with 9108 for 1991-08, rolls past y2k to 0001 for 2000-01, 1008 for 2010-08 etc.
 ```
 
@@ -30,7 +29,20 @@ To test parsing and extraction of a .tar.gz within, please reference the script
 meaning equations, tex, and metadata, and the second sections loops over the 
 logic to do the remaining. I did the loop extraction for one .tar.gz, and will
 use the [clusterExtract.py](clusterExtract.py) and [run_clusterExtract.py](run_clusterExtract.py) 
-to do this in parallel for all the .tar.gz. The run script also runs 
+to do this in parallel for all the .tar.gz. The files were uploaded to the cluster
+with scp, and then extracted as follows:
+
+```bash
+for tarfile in $(ls *.tar)
+    do
+       if [ ! -d "${tarfile%.tar}" ]; then
+           tar -xf $tarfile
+           echo "Extracting $tarfile"
+       fi
+done
+```
+
+The run script also runs 
 [extractmetrics.py](extractmetrics.py) to generate markdown to populate the 
 [arxiv catalog](https://vsoch.github.io/arxiv-catalog/).
 

@@ -20,10 +20,15 @@ for dirname in ['.job', '.out', 'analysis', '_posts']:
 
 database = os.path.abspath('data')
 
-# Step 1. Generate a lookup table
+# Step 1. Find all the .tar.gz extracted files
 input_files = recursive_find(database, '*.tar.gz')
 
-# For each container, run a container-diff job
+def count_queue():
+    user = os.environ['USER']
+    return int(os.popen('squeue -u %s | wc -l' %user).read().strip('\n'))
+
+# Step 2. Generate the job files in advance
+jobs = []
 for input_file in input_files:
     name = get_uid(input_file).replace('/', '-')
     output_file = os.path.join(output, 'extracted_%s.pkl' % name)
@@ -40,4 +45,14 @@ for input_file in input_files:
             filey.writelines('module load python/3.6.1\n')
             filey.writelines("python3 clusterExtract.py %s %s\n" % (input_file, output_file))
             filey.writelines("python3 generatePage.py %s\n" % (output_file)) # Output to previous used as input
-        os.system("sbatch -p owners .job/%s.job" %name)
+        jobs.append(file_name)
+
+# Step 3. Submit to queue (stay under limit)
+count = count_queue()
+job_limit = 1000
+
+while len(jobs) > 0:
+    count = count_queue()
+    while count < job_limit:
+        job = jobs.pop(0)
+        os.system("sbatch -p owners %s" % job)
