@@ -17,18 +17,19 @@ except:
 
 
 def find_equations(tex):
-   '''find equations. We assume an equation is either between $$ tags, or
-      a begin/end align or equation.'''
+    '''find equations. We assume an equation is either between $$ tags, or
+       a begin/end align or equation.'''
 
-   # Extract the equations from the tex
-   regexps = ["\\$.*?(?<!\\\\)\\$",
-              "[\]begin[{]equation[}].*[\]end[{]equation[}]",
-              "[\]begin[{]align[}].*[\]end[{]align[}]"]
-
-   equations = []
-   for regexp in regexps:
-       equations = equations + re.findall(regexp, str(tex))
-   return equations
+    # Extract the equations from the tex
+    regexps = ["\\$.*?(?<!\\\\)\\$",
+               r"\\begin[{]align[}](.*?(?<!\\\\))\\end[{]align[}]",
+               r"\\begin[{]align[*][}](.*?(?<!\\\\))\\end[{]align\*[}]",
+               r"\\begin[{]equation[}](.*?(?<!\\\\))\\end[{]equation[}]",
+               r"\\begin[{]equation[*][}](.*?(?<!\\\\))\\end[{]equation[*][}]"]
+    equations = []
+    for regexp in regexps:
+        equations = equations + re.findall(regexp, str(tex))
+    return equations
 
 
 def get_uid(input_file):
