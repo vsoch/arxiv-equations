@@ -23,7 +23,7 @@ def find_equations(tex):
     # Extract the equations from the tex
     regexps = ["\\$.*?(?<!\\\\)\\$",
                r"\\begin[{]align[}](.*?(?<!\\\\))\\end[{]align[}]",
-               r"\\begin[{]align[*][}](.*?(?<!\\\\))\\end[{]align\*[}]",
+               r"\\begin[{]align[*][}](.*?(?<!\\\\))\\end[{]align[*][}]",
                r"\\begin[{]equation[}](.*?(?<!\\\\))\\end[{]equation[}]",
                r"\\begin[{]equation[*][}](.*?(?<!\\\\))\\end[{]equation[*][}]"]
     equations = []
