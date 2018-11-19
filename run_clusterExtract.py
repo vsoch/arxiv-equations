@@ -35,10 +35,10 @@ for input_file in input_files:
     count = count_queue()
     name = get_uid(input_file).replace('/', '-')
     output_file = os.path.join(output, 'extracted_%s.pkl' % name)
+    file_name = ".job/%s.job" %(name)
     if not os.path.exists(output_file):
         if count < job_limit:
             print("Processing %s" % name)
-            file_name = ".job/%s.job" %(name)
             with open(file_name, "w") as filey:
                 filey.writelines("#!/bin/bash\n")
                 filey.writelines("#SBATCH --job-name=%s\n" %name)
