@@ -27,29 +27,33 @@ def count_queue():
     user = os.environ['USER']
     return int(os.popen('squeue -u %s | wc -l' %user).read().strip('\n'))
 
-# Step 2. Generate the job files in advance
+# Step 2. Generate jobs, add any that don't get to run to list
 jobs = []
+job_limit = 1000
+
 for input_file in input_files:
+    count = count_queue()
     name = get_uid(input_file).replace('/', '-')
     output_file = os.path.join(output, 'extracted_%s.pkl' % name)
     if not os.path.exists(output_file):
-        print("Processing %s" % name)
-        file_name = ".job/%s.job" %(name)
-        with open(file_name, "w") as filey:
-            filey.writelines("#!/bin/bash\n")
-            filey.writelines("#SBATCH --job-name=%s\n" %name)
-            filey.writelines("#SBATCH --output=.out/%s.out\n" %name)
-            filey.writelines("#SBATCH --error=.out/%s.err\n" %name)
-            filey.writelines("#SBATCH --time=60:00\n")
-            filey.writelines("#SBATCH --mem=2000\n")
-            filey.writelines('module load python/3.6.1\n')
-            filey.writelines("python3 clusterExtract.py %s %s\n" % (input_file, output_file))
-            filey.writelines("python3 generatePage.py %s\n" % (output_file)) # Output to previous used as input
-        jobs.append(file_name)
+        if count < job_limit:
+            print("Processing %s" % name)
+            file_name = ".job/%s.job" %(name)
+            with open(file_name, "w") as filey:
+                filey.writelines("#!/bin/bash\n")
+                filey.writelines("#SBATCH --job-name=%s\n" %name)
+                filey.writelines("#SBATCH --output=.out/%s.out\n" %name)
+                filey.writelines("#SBATCH --error=.out/%s.err\n" %name)
+                filey.writelines("#SBATCH --time=60:00\n")
+                filey.writelines("#SBATCH --mem=2000\n")
+                filey.writelines('module load python/3.6.1\n')
+                filey.writelines("python3 clusterExtract.py %s %s\n" % (input_file, output_file))
+                filey.writelines("python3 generatePage.py %s\n" % (output_file)) # Output to previous used as input
+            os.system("sbatch -p owners .job/%s.job" %name)
+        else:
+            jobs.append(file_name)
 
-# Step 3. Submit to queue (stay under limit)
-count = count_queue()
-job_limit = 1000
+# Submit remaining
 
 while len(jobs) > 0:
     count = count_queue()
