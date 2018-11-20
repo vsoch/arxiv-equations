@@ -1,9 +1,20 @@
 # Equation Analysis
 
 This is development of simple analysis to parse a set of papers from [arxiv](https://arxiv.org/help/bulk_data).
+Our goals are the following:
+
+ - to classify equations into groups based on domains of knowledge (math or methods). We will do this by using equations from wikipedia methods pages as a gold standard, and then word2vec (or similar) to represent an equation as a vector.
+ - to classify papers into groups based on the equations, the idea being that a paper mapped to a domain of knowledge can help us to understand:
+    - the domains that are assocated with different kinds of math and methods
+    - gaps / potential for working on a method for a domain that hasn't been tried yet
+    - understanding of what kinds of math are used (and to what degree) across domains, to drive development of Penrose
+ 
+
+## Step 1. Testing Extraction
 We will use one *.tar, a collection of papers from a particular month and
-year, extracted in the folder [0801](0801) to mean (I think) 2001-08 or January of 2008.
-The folder was generated from the tar as follows:
+year, extracted to a local folder `0801` (not included in the repository) to mean 
+January of 2008. The arxiv files were obtained in bulk and procesed both locally 
+and on the Sherlock cluster. The folder was generated from the tar as follows:
 
 ```bash
 tar -xvf 0801.tar
@@ -23,12 +34,17 @@ $ ls 0801 | wc -l
 4516
 ```
 
-## Step 1. Metadata and Text Extraction
 To test parsing and extraction of a .tar.gz within, please reference the script
 [testExtract.py](testExtract.py). This first section extracts a single tex file,
 meaning equations, tex, and metadata, and the second sections loops over the 
-logic to do the remaining. I did the loop extraction for one .tar.gz, and will
-use the [clusterExtract.py](clusterExtract.py) and [run_clusterExtract.py](run_clusterExtract.py) 
+logic to do the remaining. I did the loop extraction for one .tar.gz and it produced
+9009 .tar.gz within, meaning 9009 papers (each with a LaTeX file.
+
+## Step 2. Metadata and Text Extraction
+Once the extraction method was reasonable (meaning that while I didn't get all
+equations with a regular expression, I did get most equations), I wanted to
+run the analysis on the [Sherlock cluster](https://www.sherlock.stanford.edu/) at Stanford, and I used the scripts
+[clusterExtract.py](clusterExtract.py) and [run_clusterExtract.py](run_clusterExtract.py) 
 to do this in parallel for all the .tar.gz. The files were uploaded to the cluster
 with scp, and then extracted as follows:
 
@@ -71,6 +87,7 @@ The metadata from arxiv includes:
   - doi
 
 ### Metrics of Interest
+
 The extraction above, along with the metadata list shown above, also extracts the tex as a 
 string, the length, and a list of equation strings.  This isn't a comprehensive list, 
 but I'll make some notes about metrics that are important.
@@ -129,7 +146,7 @@ I would want, for any paper (tex file) to be able to quickly "see" the equations
 This should look like a simple Github Pages repository that has urls (based on
 the unique id of arxiv) to render (likely with MathJax) the equations from the paper.
 
-## Step 2: Extraction
+## Step 3: Extraction
 
 One challenge I ran into was being able to extract **all** the equations from a 
 particular LaTeX document. I was able to derive regular expressions to get most
@@ -162,4 +179,14 @@ the text. Wikipedia would also give us equations associated with kinds of method
 or math, so we could build some kind of character-based embedding to classify
 new equations.
 
-**TODO** generate wikipedia repo with character-based embeddings.
+### Step 4: Equation Mapping
+
+We would want to be able to classify the equations in a paper to one or more
+domains. to help with this, see the [wikipedia](wikipedia) folder. For this
+sub-analysis, we will build a word2vec model that represents equations (in LaTeX)
+as vectors, and do this for the equations defined for each wikipedia topic. 
+We will then, for each paper equation, use our word2vec model to generate
+an equivalent vector for the equation in question, and calculate similarity of 
+the vector to the various methods / domains to classify it. I would want to be
+able to give an equation to the model and then based on the vector comparison
+know the domains it is most similar to.
