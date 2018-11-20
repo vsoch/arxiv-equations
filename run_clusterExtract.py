@@ -34,11 +34,17 @@ job_limit = 1000
 for input_file in input_files:
     count = count_queue()
     name = get_uid(input_file).replace('/', '-')
-    output_file = os.path.join(output, 'extracted_%s.pkl' % name)
+    datestr = name.split('.')[0]
+    month = datestr[0:2]
+    year = datestr[2:]
+    output_file = os.path.join(output, month, year, 'extracted_%s.pkl' % name)
+    output_dir = os.path.dirname(output_file)
     file_name = ".job/%s.job" %(name)
     if not os.path.exists(output_file):
         if count < job_limit:
             print("Processing %s" % name)
+            if not os.path.exists(output_dir):
+                os.makedirs(output_dir)
             with open(file_name, "w") as filey:
                 filey.writelines("#!/bin/bash\n")
                 filey.writelines("#SBATCH --job-name=%s\n" %name)
@@ -49,9 +55,11 @@ for input_file in input_files:
                 filey.writelines('module load python/3.6.1\n')
                 filey.writelines("python3 clusterExtract.py %s %s\n" % (input_file, output_file))
                 filey.writelines("python3 generatePage.py %s\n" % (output_file)) # Output to previous used as input
+                filey.writelines("rm %s" % os.path.abspath(file_name))
             os.system("sbatch -p owners .job/%s.job" %name)
         else:
             jobs.append(file_name)
+            time.sleep(1)
 
 # Submit remaining
 
