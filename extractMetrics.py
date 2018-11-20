@@ -9,80 +9,23 @@
 
 import json
 import os
+import pandas
 import tarfile
-from helpers import ( extract_tex, get_metadata, chunks )
+import pickle
+from helpers import ( extract_tex, recursive_find, get_equation_counts )
 
+input_files = recursive_find('analysis', '*pkl')
 
-# Let's get nltk
-import nltk
-nltk.download('all')
-
-from nltk import word_tokenize
-
-################################################################################
-# Step 1. Test with Input Example
-################################################################################
-
-# Example file to work with
-input_file = os.path.abspath('0801/0801.4928.tar.gz')
-
-# Extract latex as a long string
-tex = extract_tex(input_file)
-
-# Metadata based on uid from filename
-uid = os.path.basename(input_file).replace('.tar.gz','')
-metadata = get_metadata(uid)
-
-# Extract the equations from the tex
-equations = re.findall("\\$.*?(?<!\\\\)\\$", str(tex))
-
-result = {'equations': equations,
-          'metadata': metadata,
-          'inputFile': input_file,
-          'uid': uid}
-
-output_file = input_file.replace('.tar.gz', '.pkl')
-pickle.dump(result, open(output_file,'wb'))
-
-# Testing older format
-
-input_file = os.path.abspath('bayes-an/9506/9506003.tar.gz')
-
-# The difference is the identifier for the file
-suffix = os.path.basename(input_file).replace('.tar.gz','')
-prefix = input_file.split('/')[-3]
-uid = '%s/%s' %(suffix, prefix)
-
-# We will write a function to parse uid
-
-################################################################################
-# Step 2. Run for Entire Set
-################################################################################
-
-input_files = recursive_find('0801', '*tar.gz')
+# let's just summarize topics, etc.
+topics = pandas.DataFrame()
 
 for input_file in input_files:
 
     print("Parsing %s..." %input_file)
 
-    # Extract latex as a long string
-    tex = extract_tex(input_file)
+    result = pickle.load(open(input_file,'rb'))
 
-    if tex is not None:
+    #get_equation_counts(result['equations'])
 
-        # Metadata based on uid from filename
-        uid = os.path.basename(input_file).replace('.tar.gz','')
-        metadata = get_metadata(uid)
-
-        # Extract the equations from the tex
-        equations = re.findall("\\$.*?(?<!\\\\)\\$", str(tex))
-        metadata['length'] = len(tex)
-
-        result = {'equations': equations,
-                  'metadata': metadata,
-                  'inputFile': input_file,
-                  'latex': tex,
-                  'uid': uid}
-
-        output_file = input_file.replace('.tar.gz', '.pkl')
-        pickle.dump(result, open(output_file,'wb'))
+    # First let's just summarize the data
+    

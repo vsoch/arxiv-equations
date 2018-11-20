@@ -10,6 +10,8 @@ import frontmatter
 import os
 import sys
 
+from helpers import get_equation_counts
+
 input_pkl = sys.argv[1]
 
 # We should be in directory where script is running
@@ -80,11 +82,7 @@ template.metadata['arxiv_url'] = result['metadata']['arxiv_url']
 raw =  [e.replace('\\\\','\\') for e in result['equations']]
 
 # Let's count instead
-equations = dict()
-for e in raw:
-    if e not in equations:
-        equations[e] = 0
-    equations[e] +=1
+equations = get_equation_counts(raw)
 
 # Get total count to calculate percent
 total = 0
@@ -110,6 +108,10 @@ template.metadata['equations'] = equation_list
 template.metadata['equations_total'] = total
 
 # Write to File
-outfile = os.path.join('%s/_posts' %here, '%s-%02d-%02d-%s.md' %(year, month, day, result['uid'].replace('/','-')))
+output_dir = os.path.abspath('%s/_posts/%s/%s' % (here, year, month))  
+if not os.path.exists(output_dir):
+    os.makedirs(output_dir)
+
+outfile = os.path.join(output_dir, '%s-%02d-%02d-%s.md' %(year, month, day, result['uid'].replace('/','-')))
 with open(outfile, 'w') as filey:
     filey.writelines(frontmatter.dumps(template))

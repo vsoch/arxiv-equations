@@ -15,6 +15,17 @@ except:
 
 # Helper Functions
 
+def get_equation_counts(raw):
+    '''return a lookup table of equations (keys) and counts (values)
+    '''
+    equations = dict()
+    for e in raw:
+        if e not in equations:
+            equations[e] = 0
+        equations[e] +=1
+    return equations
+
+
 def find_equations(tex):
     '''find equations. We assume an equation is either between $$ tags, or
        a begin/end align or equation.'''

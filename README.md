@@ -25,7 +25,7 @@ $ ls 0801 | wc -l
 
 ## Step 1. Metadata and Text Extraction
 To test parsing and extraction of a .tar.gz within, please reference the script
-[extractMetrics.py](extractMetrics.py). This first section extracts a single tex file,
+[testExtract.py](testExtract.py). This first section extracts a single tex file,
 meaning equations, tex, and metadata, and the second sections loops over the 
 logic to do the remaining. I did the loop extraction for one .tar.gz, and will
 use the [clusterExtract.py](clusterExtract.py) and [run_clusterExtract.py](run_clusterExtract.py) 
@@ -43,7 +43,7 @@ done
 ```
 
 The run script also runs 
-[extractmetrics.py](extractmetrics.py) to generate markdown to populate the 
+[generatePage.py](generatePage.py) to generate markdown to populate the 
 [arxiv catalog](https://vsoch.github.io/arxiv-catalog/).
 
 The metadata from arxiv includes:
@@ -70,7 +70,7 @@ The metadata from arxiv includes:
   - journal_reference
   - doi
 
-## Metrics of Interest
+### Metrics of Interest
 The extraction above, along with the metadata list shown above, also extracts the tex as a 
 string, the length, and a list of equation strings.  This isn't a comprehensive list, 
 but I'll make some notes about metrics that are important.
@@ -84,13 +84,11 @@ To start (and visualize what we have) it would be useful to generate an index of
 It would also be fun to see if we can group articles based on equations, and go further to classify equations and
 then identify which domains use which kinds of equations.
 
-## Step 2: Summary Metrics
+### What are we interested in?
 When the above is done, we would be interested to derive:
 
  - a total list of categories, and description of metrics by category
  - a breakdown of equations by category
-
-## Step 3: Analysis
 
 We might want to know:
 
@@ -98,7 +96,7 @@ We might want to know:
  - what groupings (types) of equations are associated with different topics?
  - how do topics compare with respect to equations used?
 
-## Notes about the data
+### Notes about the data
 
 **Some entries are withdrawals**
 
@@ -118,9 +116,10 @@ was to find a txt file with a note about the paper being withdrawn:
 
 And so the function should convert to lowercase before any string checking.
 
-## Step 2. Identify Goals
+### What are some potential goals?
 
 **Summary Metrics**
+
 I want a table of paper id by features, to be used for different kinds of machine
 learning.
 
@@ -129,3 +128,38 @@ learning.
 I would want, for any paper (tex file) to be able to quickly "see" the equations.
 This should look like a simple Github Pages repository that has urls (based on
 the unique id of arxiv) to render (likely with MathJax) the equations from the paper.
+
+## Step 2: Extraction
+
+One challenge I ran into was being able to extract **all** the equations from a 
+particular LaTeX document. I was able to derive regular expressions to get most
+of them, but for particular papers missed what seems like a substantial subset.
+For this reason, I stopped parsing at about 50K papers, mainly to do a first
+dummy extraction of the sample. This sample will likely be biased to the .tar.gz
+that I did extract, which are organized by date.
+
+This is how I asked for an interactive node:
+
+```bash
+srun --time 48:00:00 --mem 32000 --pty bash
+
+ml python/3.6.1
+ml py-pandas/0.23.0_py36
+ml py-ipython/6.1.0_py36
+```
+And then I used ipython to test and run the [extractMetrics.py](extractMetrics.py)
+
+## Challenges
+
+We want to identify arxiv domains that are associated with kinds of equations so
+that we can programmatically identify which are important. (and write styles for
+penrose). The problem we run into is finding the equations in a paper - we don't
+have a gold standard set to train on, and regular expressions don't capture them 
+all. We can either choose to work with a biased subset (via regular expressions)
+or derive a model that is able to find the equations in latex. Possibly an avenue
+to do this would be using equations in wikipedia, which are clearly labeled in 
+the text. Wikipedia would also give us equations associated with kinds of methods
+or math, so we could build some kind of character-based embedding to classify
+new equations.
+
+**TODO** generate wikipedia repo with character-based embeddings.
