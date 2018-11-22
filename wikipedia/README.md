@@ -34,7 +34,7 @@ that can be easily extracted! For example:
 
 This was very fun to do! I wanted to call a token either a single character, **or** a known
 latex string (e.g., `/begin`) and put them together in a sentence for word2vec. I did this using
-as the first step in [2.modelEquations.py](2.modelEquations.py).
+as the first step in [1.modelEquations.py](1.modelEquations.py).
 
 ## 4. Build Word2Vec Equations Models
 
