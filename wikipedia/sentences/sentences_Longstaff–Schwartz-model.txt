@@ -1,0 +1,34 @@
+r _ t   \ ,
+r _ t   \ ,
+t
+r _ t   \ ,
+Q
+t
+T
+{ \displaystyle   P ( t , T ) = \operatorname   { E }   ^ { Q } \left [ \left . \exp   { \left ( - \int   _ { t } ^ { T } r _ { s } \,ds \right ) } \right | { \mathcal   { F } } _ { t } \right ] , }
+{ \mathcal   { F } }
+  f ( t , T )   =   -   \frac { \partial } { \partial   T }   \ln ( P ( t , T ) ) .  
+W _ t \ ,
+d W _ t \ ,
+X _ { t }
+r _ t   \ ,
+r _ t   =   \exp { X _ t } \ ,
+r _ t   =   r _ { 0 } + a t + \sigma   W ^ { * } _ { t }
+W ^ { * } _ { t }
+d r _ t   =   ( \theta - \alpha   r _ t ) \,dt   +   \sigma   \, dW_t
+d r _ { t } = a ( b - r _ { t } ) \,dt + \sigma   \,dW_ { t }
+d r _ t   =   \theta   r _ t \, dt   +   \sigma   r _ t \, dW_t
+d r _ t   =   ( \theta - \alpha   r _ t ) \,dt   +   \sqrt { r _ t } \,\sigma \, dW_t
+d r _ t   =   a ( b - r _ t ) \, dt     +   \sqrt { r _ t } \,\sigma \, dW_t
+\sigma   { \sqrt     { r _ { t } } }
+d r _ t   =   \theta_t \, dt   +   \sigma \, dW_t
+d r _ t   =   ( \theta_t - \alpha   r _ t ) \,dt   +   \sigma_t   \, dW_t
+\theta ,   \alpha
+\sigma  
+  d \ln ( r )   =   [ \theta_t   +   \frac { \sigma   ' _ t } { \sigma_t } \ln ( r ) ] d t   +   \sigma_t \, dW_t  
+d \ln ( r )   =   \theta_t \, dt   +   \sigma   \, dW_t  
+d \ln ( r ) = [ \theta   _ { t } - \phi   _ { t } \ln ( r ) ] \,dt + \sigma   _ { t } \,dW_ { t }
+  d   \ln ( r _ t )   =   \theta_t \, dt   +   \sigma \, dW_t
+{ \displaystyle   { \begin { a l i g n e d } d X _ { t } & = ( a _ { t } - b X _ { t } ) \,dt + { \sqrt   { X _ { t } } } \,c_ { t } \,dW_ { 1 t } , \\[3pt ] d Y _ { t } & = ( d _ { t } - e Y _ { t } ) \,dt + { \sqrt   { Y _ { t } } } \,f_ { t } \,dW_ { 2 t } , \end { a l i g n e d } } }
+{ \displaystyle   d r _ { t } = ( \mu   X + \theta   Y ) \,dt + \sigma   _ { t } { \sqrt   { Y } } \,dW_ { 3 t } . }
+{ \displaystyle   { \begin { a l i g n e d } d r _ { t } & = ( \theta   _ { t } - \alpha   _ { t } ) \,dt + { \sqrt   { r _ { t } } } \,\sigma   _ { t } \,dW_ { t } , \\[3pt ] d \alpha   _ { t } & = ( \zeta   _ { t } - \alpha   _ { t } ) \,dt + { \sqrt   { \alpha   _ { t } } } \,\sigma   _ { t } \,dW_ { t } , \\[3pt ] d \sigma   _ { t } & = ( \beta   _ { t } - \sigma   _ { t } ) \,dt + { \sqrt   { \sigma   _ { t } } } \,\eta   _ { t } \,dW_ { t } . \end { a l i g n e d } } }

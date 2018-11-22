@@ -1,0 +1,7 @@
+\delta   _ { i }
+i
+[ 0 , 1 ]
+i
+\mathbb   { P }   ( x ( i ) = c | x ( j ) \forall   j \in   \delta   i ) \propto   e ^ { - { \frac   { \beta   } { 2 \lambda   } } \sum   _ { j \in   \delta   i } ( c - x ( j ) ) ^ { 2 } }
+\beta   \geq   0
+\lambda  

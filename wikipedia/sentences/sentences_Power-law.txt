@@ -1,0 +1,88 @@
+f ( x ) = a x ^ { - k }
+x
+c
+{ \displaystyle   f ( c x ) = a ( c x ) ^ { - k } = c ^ { - k } f ( x ) \propto   f ( x ) , \ ! }
+\propto  
+c
+c ^ { { - k } }
+f ( x )
+x
+{ \displaystyle   x ^ { - k } }
+{ \displaystyle   x \in   [ 1 , \infty   ) }
+{ \displaystyle   k > 2 }
+{ \displaystyle   k > 3 }
+k   >   1
+o ( x ^ k )
+\varepsilon  
+y   =   a x ^ k   +   \varepsilon . \ !
+p ( x )   =   C   x ^ { - \alpha }
+x   >   x _ \text { m i n }
+\alpha  
+a
+x _ \text { m i n }
+2   <   \alpha   <   3
+f ( x )   \propto   x ^ { \alpha_1 }
+x < x _ \text { t h } ,
+f ( x )   \propto   x ^ { \alpha_1 - \alpha_2 } _ \text { t h } x ^ { \alpha_2 } \text {   f o r   }   x > x _ \text { t h }
+f ( x )   \propto   x ^ { \alpha } e ^ { \beta   x } .
+f ( x )   \propto   x ^ { \alpha   +   \beta   x }
+x
+{ \displaystyle   P ( X > x ) \sim   L ( x ) x ^ { - ( \alpha   + 1 ) } }
+\alpha   > 0
+L ( x )
+\lim   _ { { x \rightarrow   \infty   } } L ( r \,x ) / L ( x ) = 1
+r
+L ( x )
+p ( x )
+L ( x )
+L ( x )
+x
+x _ { \mathrm { m i n } }
+x
+p ( x )   =   \frac { \alpha - 1 } { x _ \min }   \left ( \frac { x } { x _ \min } \right ) ^ { - \alpha } ,
+\frac { \alpha - 1 } { x _ \min }
+\langle   x ^ { m }   \rangle   =   \int_ { x _ \min } ^ \infty   x ^ { m }   p ( x )   \,\mathrm { d } x   =   \frac { \alpha - 1 } { \alpha - 1 - m } x _ \min ^ m
+m   <   \alpha   - 1
+m   \geq   \alpha   -   1
+{ \displaystyle   \alpha   \leq   2 }
+2 < \alpha < 3
+p ( x )   \propto   L ( x )   x ^ { - \alpha }   \mathrm { e } ^ { - \lambda   x } .
+\mathrm { e } ^ { - \lambda   x }
+x
+\lambda   = 0
+\alpha  
+\alpha  
+P ( x )   =   \mathrm { P r } ( X   >   x )
+P ( x )   =   \Pr ( X   >   x )   =     C   \int_x ^ \infty   p ( X ) \,\mathrm { d } X   =     \frac { \alpha - 1 } { x _ \min ^ { - \alpha + 1 } }   \int_x ^ \infty   X ^ { - \alpha } \,\mathrm { d } X   =   \left ( \frac { x } { x _ \min }   \right ) ^ { - \alpha + 1 } .
+n
+\left [ 1 , \frac { n - 1 } { n } , \frac { n - 2 } { n } , \dots , \frac { 1 } { n } \right ]
+p ( x )   =   \frac { \alpha - 1 } { x _ \min }   \left ( \frac { x } { x _ \min } \right ) ^ { - \alpha }
+x \geq   x _ \min
+\frac { \alpha - 1 } { x _ \min }
+x _ \min
+{ \displaystyle   { \mathcal   { L } } ( \alpha   ) = \log   \prod   _ { i = 1 } ^ { n } { \frac   { \alpha   - 1 } { x _ { \min   } } } \left ( { \frac   { x _ { i } } { x _ { \min   } } } \right ) ^ { - \alpha   } }
+\alpha  
+\hat { \alpha }   =   1   +   n   \left [   \sum_ { i = 1 } ^ n   \ln   \frac { x _ i } { x _ \min }   \right ] ^ { - 1 }
+\{ x _ i \ }
+n
+x _ { i } \geq   x _ \min
+O ( n ^ { - 1 } )
+\sigma   = { \frac     { { \hat     { \alpha   } } - 1 } { { \sqrt     { n } } } } + O ( n ^ { { - 1 } } )
+\{ x _ i \ }
+x _ i \geq   x _ \min
+\frac { \zeta ' ( \hat \alpha , x _ \min ) } { \zeta ( \hat { \alpha } , x _ \min ) }   =   - \frac { 1 } { n }   \sum_ { i = 1 } ^ n   \ln   \frac { x _ i } { x _ \min }  
+\zeta ( \alpha , x _ { \mathrm { m i n } } )
+\hat { \alpha }
+x _ \min
+L ( x )
+x _ \min
+{ \hat   { \alpha   } }
+\hat { \alpha }
+x _ \min
+L ( x )
+D
+\hat { \alpha }   =   \underset { \alpha } { \operatorname { a r g \,min } }   \, D_ \alpha  
+  D _ \alpha   =   \max_x   |   P _ \mathrm { e m p } ( x )   -   P _ \alpha ( x )   |  
+P _ \mathrm { e m p } ( x )
+P _ \alpha ( x )
+\alpha  

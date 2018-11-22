@@ -1,0 +1,16 @@
+F = { \frac     { { \text { e x p l a i n e d   v a r i a n c e } } } { { \text { u n e x p l a i n e d   v a r i a n c e } } } } ,
+F = { \frac     { { \text { b e t w e e n - g r o u p   v a r i a b i l i t y } } } { { \text { w i t h i n - g r o u p   v a r i a b i l i t y } } } } .
+{ \displaystyle   \sum   _ { i = 1 } ^ { K } n _ { i } ( { \bar   { Y } } _ { i \cdot   } - { \bar   { Y } } ) ^ { 2 } / ( K - 1 ) }
+{ \bar     { Y } } _ { { i \cdot   } }
+n _ { i }
+{ \bar     { Y } }
+K
+{ \displaystyle   \sum   _ { i = 1 } ^ { K } \sum   _ { j = 1 } ^ { n _ { i } } \left ( Y _ { i j } - { \bar   { Y } } _ { i \cdot   } \right ) ^ { 2 } / ( N - K ) , }
+Y _ { { i j } }
+K
+N
+{ \displaystyle   d _ { 1 } = K - 1 }
+{ \displaystyle   d _ { 2 } = N - K }
+{ \displaystyle   F = t ^ { 2 } }
+t
+F = { \frac     { \left ( { \frac     { { \text { R S S } } _ { 1 } - { \text { R S S } } _ { 2 } } { p _ { 2 } - p _ { 1 } } } \right ) } { \left ( { \frac     { { \text { R S S } } _ { 2 } } { n - p _ { 2 } } } \right ) } } ,

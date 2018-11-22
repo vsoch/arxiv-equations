@@ -1,0 +1,5 @@
+{ \mathrm     { S E } } = { \frac     { \sigma   } { { \sqrt     n } } } = { \frac     { 1 2 } { { \sqrt     { 5 5 } } } } = { \frac     { 1 2 } { 7 . 4 2 } } = 1 . 6 2 \ , \ !
+{ \sigma   }
+z = { \frac     { M - \mu   } { { \mathrm     { S E } } } } = { \frac     { 9 6 - 1 0 0 } { 1 . 6 2 } } = - 2 . 4 7 \ , \ !
+\hat { \theta }
+( { \hat     { \theta   } } - \theta   _ { 0 } ) / { { \rm   { S E } } } ( { \hat     { \theta   } } )

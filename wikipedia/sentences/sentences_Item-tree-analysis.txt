@@ -1,0 +1,7 @@
+{ \displaystyle   i \rightarrow   j }
+{ \displaystyle   i \rightarrow   j }
+{ \displaystyle   i \rightarrow   j }
+{ \displaystyle   i \wedge   j \rightarrow   k }
+{ \displaystyle   i \vee   j \rightarrow   k }
+{ \displaystyle   \leq   _ { I I T A } }
+{ \displaystyle   \leq   _ { C I T A } }

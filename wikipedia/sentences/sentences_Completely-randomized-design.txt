@@ -1,0 +1,4 @@
+Y _ { { i , j } } = \mu   + T _ { i } + { \mathrm     { r a n d o m \ error } }
+{ \bar     { Y } }
+{ \bar     { Y } } _ { i } - { \bar     { Y } }
+{ \bar     { Y } } _ { i }

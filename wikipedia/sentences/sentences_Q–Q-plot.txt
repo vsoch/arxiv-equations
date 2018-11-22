@@ -1,0 +1,2 @@
+N ( i ) = G ( U ( i ) )
+{ \displaystyle   m ( i ) = { \begin { c a s e s } 1 - 0 . 5 ^ { 1 / n } & i = 1 \\\\{ \dfrac   { i - 0 . 3 1 7 5 } { n + 0 . 3 6 5 } } & i = 2 , 3 , \ldots   , n - 1 \\\\0 . 5 ^ { 1 / n } & i = n . \end { c a s e s } } }

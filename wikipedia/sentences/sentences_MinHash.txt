@@ -1,0 +1,7 @@
+J ( A , B ) = { { | A \cap   B | }   \over   { | A \cup   B | } } .
+r
+{ \displaystyle   h ( i , 1 ) , h ( i , 2 ) , \ldots   , h ( i , n ) }
+{ \displaystyle   J _ { \mathcal   { W } } ( x , y ) = { \frac   { \sum   _ { i } \min ( x _ { i } , y _ { i } ) } { \sum   _ { i } \max ( x _ { i } , y _ { i } ) } } }
+{ \displaystyle   H ( x ) = { \underset   { i } { \operatorname   { a r g \,max }   } } { \frac   { - \log ( x ) } { x _ { i } } } }
+{ \displaystyle   \Pr   \left [ H ( x ) = H ( y ) \right ] = J _ { \mathcal   { P } } ( x , y ) = \sum   _ { x _ { i } \neq   0 , y _ { i } \neq   0 } { \frac   { 1 } { \sum   _ { j } \max   \left ( { \frac   { x _ { j } } { x _ { i } } } , { \frac   { y _ { j } } { y _ { i } } } \right ) } } }
+\operatorname   { l c m }   ( 1 , 2 , \cdots   , n ) \geq   e ^ { n - o ( n ) }

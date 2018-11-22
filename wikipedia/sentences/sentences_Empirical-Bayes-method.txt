@@ -1,0 +1,71 @@
+y   =   \{ y _ 1 ,   y _ 2 ,   \dots ,   y _ n \ }
+\theta   =   \{ \theta_1 ,   \theta_2 ,   \dots ,   \theta_n \ }
+{ \displaystyle   p ( y \mid   \theta   ) \ , }
+\theta  
+\eta   \ ,
+{ \displaystyle   p ( \theta   \mid   \eta   ) \ , }
+\eta   \ ,
+p ( \eta ) \ ,
+\theta_i \ ;
+\theta \ ;
+\eta \ ;
+{ \displaystyle   p ( \theta   \mid   y ) = { \frac   { p ( y \mid   \theta   ) p ( \theta   ) } { p ( y ) } } = { \frac   { p ( y \mid   \theta   ) } { p ( y ) } } \int   p ( \theta   \mid   \eta   ) p ( \eta   ) \,d \eta   \ , . }
+{ \displaystyle   p ( \theta   \mid   y ) = \int   p ( \theta   \mid   \eta   , y ) p ( \eta   \mid   y ) \;d \eta   = \int   { \frac   { p ( y \mid   \theta   ) p ( \theta   \mid   \eta   ) } { p ( y \mid   \eta   ) } } p ( \eta   \mid   y ) \;d \eta   \ , , }
+{ \displaystyle   p ( \eta   \mid   y ) = \int   p ( \eta   \mid   \theta   ) p ( \theta   \mid   y ) \;d \theta   . }
+{ \displaystyle   p ( \theta   \mid   y ) \ ; }
+{ \displaystyle   p ( \eta   \mid   y ) \ ; }
+{ \displaystyle   p ( \theta   \mid   y ) \ ; }
+\eta  
+{ \displaystyle   p ( \eta   \mid   y ) \ ; }
+{ \displaystyle   p ( \theta   \mid   y ) \ ; }
+{ \displaystyle   p ( \eta   \mid   y ) \ ; }
+{ \displaystyle   p ( \theta   \mid   y ) \ ; }
+{ \displaystyle   p ( \eta   \mid   y ) \ ; }
+{ \displaystyle   p ( \eta   \mid   y ) \ ; }
+{ \displaystyle   p ( \theta   \mid   y ) \ ; }
+\eta \ ;
+\eta ^ { * } \ ;
+{ \displaystyle   p ( \theta   \mid   y ) \simeq   { \frac   { p ( y \mid   \theta   ) \;p ( \theta   \mid   \eta   ^ { * } ) } { p ( y \mid   \eta   ^ { * } ) } } \ , . }
+\eta \ ;
+\eta ^ { * } \ ;
+{ \displaystyle   p ( \theta   \mid   y ) \ ; }
+\eta ^ { * } \ ;
+\eta  
+y _ { i }
+\theta   _ { i }
+{ \displaystyle   p ( y _ { i } \mid   \theta   _ { i } ) = { { \theta   _ { i } } ^ { y _ { i } } e ^ { - \theta   _ { i } }   \over   { y _ { i } } ! } }
+G ( \theta )
+\theta   _ { i }
+{ \displaystyle   \operatorname   { E }   ( \theta   _ { i } \mid   y _ { i } ) = { \int   ( \theta   ^ { y _ { i } + 1 } e ^ { - \theta   } / { y _ { i } } ! ) \,dG ( \theta   )   \over   { \int   ( \theta   ^ { y _ { i } } e ^ { - \theta   } / { y _ { i } } ! ) \,dG ( \theta   } ) } . }
+( { y _ i } + 1 ) / ( { y _ i } + 1 )
+{ \displaystyle   \operatorname   { E }   ( \theta   _ { i } \mid   y _ { i } ) = { { ( y _ { i } + 1 ) p _ { G } ( y _ { i } + 1 ) }   \over   { p _ { G } ( y _ { i } ) } } , }
+{ \displaystyle   \operatorname   { E }   ( \theta   _ { i } \mid   y _ { i } ) \approx   ( y _ { i } + 1 ) { { \#\{ Y _ { j } = y _ { i } + 1 \}} \over   { \#\{ Y _ { j } = y _ { i } \ } } } , }
+\ #
+{ \displaystyle   m ( y \mid   \eta   ) }
+\eta  
+\eta  
+\theta  
+\theta  
+G ( \alpha , \beta )
+\eta   =   ( \alpha , \beta )
+{ \displaystyle   \rho   ( \theta   \mid   \alpha   , \beta   ) = { \frac   { \theta   ^ { \alpha   - 1 } \,e ^ { - \theta   / \beta   } } { \beta   ^ { \alpha   } \Gamma   ( \alpha   ) } } \ \mathrm   { f o r }   \ \theta   > 0 , \alpha   > 0 , \beta   > 0 \ , \ ! . }
+{ \displaystyle   \rho   ( \theta   \mid   y ) \propto   \rho   ( y \mid   \theta   ) \rho   ( \theta   \mid   \alpha   , \beta   ) , }
+\theta  
+\theta  
+{ \displaystyle   \rho   ( \theta   \mid   y ) \propto   ( \theta   ^ { y } \,e ^ { - \theta   } ) ( \theta   ^ { \alpha   - 1 } \,e ^ { - \theta   / \beta   } ) = \theta   ^ { y + \alpha   - 1 } \,e ^ { - \theta   ( 1 + 1 / \beta   ) } . }
+G ( \alpha ' , \beta ' )
+\alpha '   =   y   +   \alpha
+\beta '   =   ( 1 + 1   /   \beta ) ^ { - 1 }
+\Theta  
+{ \displaystyle   \operatorname   { E }   ( \theta   \mid   y ) }
+\mu  
+G ( \alpha ' ,   \beta ' )
+\alpha '   \beta '
+{ \displaystyle   \operatorname   { E }   ( \theta   \mid   y ) = \alpha   ' \beta   ' = { \frac   { { \bar   { y } } + \alpha   } { 1 + 1 / \beta   } } = { \frac   { \beta   } { 1 + \beta   } } { \bar   { y } } + { \frac   { 1 } { 1 + \beta   } } ( \alpha   \beta   ) . }
+\alpha  
+\beta  
+\alpha \beta
+\alpha \beta ^ 2
+{ \displaystyle   \operatorname   { E }   ( \theta   \mid   y ) }
+{ \bar   { y } }
+\mu   =   \alpha \beta

@@ -1,0 +1,52 @@
+{ \displaystyle   d x _ { t } = \theta   ( \mu   - x _ { t } ) \,dt + \sigma   \,dW_ { t } }
+\theta   > 0
+\mu  
+\sigma   > 0
+W _ { t }
+{ \frac   { \partial   f } { \partial   t } } = \theta   { \frac   { \partial   } { \partial   x } } [ ( x - \mu   ) f ] + { \frac   { \sigma   ^ { 2 } } { 2 } } { \frac   { \partial   ^ { 2 } f } { \partial   x ^ { 2 } } }
+D = \sigma   ^ { 2 } / 2
+y
+{ \displaystyle   f ( x , t ) = { \sqrt   { \frac   { \theta   } { 2 \pi   D ( 1 - e ^ { - 2 \theta   t } ) } } } \exp   \left \{ { \frac   { - \theta   } { 2 D } } \left [ { \frac   { ( x - \mu   - ( y - \mu   ) e ^ { - \theta   t } ) ^ { 2 } } { 1 - e ^ { - 2 \theta   t } } } \right ] \right \ } }
+{ \displaystyle   \mu   + ( y - \mu   ) e ^ { - \theta   t } }
+{ \displaystyle   \sigma   ^ { 2 } / ( 2 \theta   ) \left ( 1 - e ^ { - 2 \theta   t } \right ) }
+\mu  
+\sigma   ^ { 2 } / ( 2 \theta   )
+{ \displaystyle   f ( x ) = { \sqrt   { \frac   { \theta   } { \pi   \sigma   ^ { 2 } } } } \,e ^ { - \theta   ( x - \mu   ) ^ { 2 } / \sigma   ^ { 2 } } . }
+k
+\gamma  
+T
+x ( t )
+x _ { 0 }
+{ \begin { a l i g n e d } \theta   & = k / \gamma   , \\\mu   & = x _ { 0 } , \\\sigma   & = { \sqrt   { 2 k _ { B } T / \gamma   } } , \end { a l i g n e d } }
+\sigma  
+D = \sigma   ^ { 2 } / 2 = k _ { B } T / \gamma  
+{ \displaystyle   { \dot   { x } } ( t ) = - { \frac   { k } { \gamma   } } ( x ( t ) - x _ { 0 } ) + \xi   ( t ) }
+\xi   ( t )
+{ \displaystyle   \langle   \xi   ( t _ { 1 } ) \xi   ( t _ { 2 } ) \rangle   = 2 k _ { B } T / \gamma   \,\delta   ( t _ { 1 } - t _ { 2 } ) . }
+{ \displaystyle   \langle   ( x ( t _ { 0 } ) - x _ { 0 } ) ( x ( t _ { 0 } + t ) - x _ { 0 } ) \rangle   = { \frac   { k _ { B } T } { k } } \exp ( - | t | / \tau   ) }
+{ \displaystyle   \tau   = \gamma   / k }
+\langle   E \rangle   = k \langle   ( x - x _ { 0 } ) ^ { 2 } \rangle   / 2 = k _ { B } T / 2
+\mu  
+\sigma  
+\theta  
+\operatorname   { v a r }   ( x _ { t } ) = { \sigma   ^ { 2 }   \over   2 \theta   } . \ ,
+{ \displaystyle   { \sqrt   { n } } \left ( { \begin { p m a t r i x } { \hat   { \theta   } } _ { n } \\{ \hat   { \mu   } } _ { n } \\{ \hat   { \sigma   } } _ { n } \end { p m a t r i x } } - { \begin { p m a t r i x } \theta   \\\mu   \\\sigma   \end { p m a t r i x } } \right ) { \xrightarrow   { d } } \ { \mathcal   { N } } \left ( { \begin { p m a t r i x } 0 \\0 \\0 \end { p m a t r i x } } , { \begin { p m a t r i x } { \frac   { e ^ { 2 t \theta   } - 1 } { t ^ { 2 } } } & 0 & { \frac   { \sigma   } { 2 } } { \frac   { e ^ { 2 t \theta   } - 1 - 2 t \theta   } { t ^ { 2 } \theta   } } \\0 & { \frac   { \sigma   ^ { 2 } \left ( e ^ { t \theta   } + 1 \right ) } { 2 \left ( e ^ { t \theta   } - 1 \right ) \theta   } } & 0 \\{ \frac   { \sigma   } { 2 } } { \frac   { e ^ { 2 t \theta   } - 1 - 2 t \theta   } { t ^ { 2 } \theta   } } & 0 & { \frac   { \sigma   ^ { 2 } } { 4 } } { \frac   { \left ( e ^ { 2 t \theta   } - 1 \right ) ^ { 2 } + 2 t ^ { 2 } \theta   ^ { 2 } \left ( e ^ { 2 t \theta   } + 1 \right ) - 4 t \theta   \left ( e ^ { 2 t \theta   } - 1 \right ) } { t ^ { 2 } \left ( e ^ { 2 t \theta   } - 1 \right ) \theta   ^ { 2 } } } \end { p m a t r i x } } \right ) }
+f ( x _ { t } , t ) = x _ { t } e ^ { \theta   t } \ ,
+{ \displaystyle   { \begin { a l i g n e d } d f ( x _ { t } , t ) & = \theta   \,x_ { t } \,e ^ { \theta   t } \,dt + e ^ { \theta   t } \,dx_ { t } \\[6pt ] & = e ^ { \theta   t } \theta   \,\mu   \,dt + \sigma   \,e ^ { \theta   t } \,dW_ { t } . \end { a l i g n e d } } }
+{ \displaystyle   x _ { t } e ^ { \theta   t } = x _ { 0 } + \int   _ { 0 } ^ { t } e ^ { \theta   s } \theta   \,\mu   \,ds + \int   _ { 0 } ^ { t } \sigma   \,e ^ { \theta   s } \,dW_ { s } \ , }
+{ \displaystyle   x _ { t } = x _ { 0 } \,e ^ { - \theta   t } + \mu   \,( 1 - e ^ { - \theta   t } ) + \sigma   \int   _ { 0 } ^ { t } e ^ { - \theta   ( t - s ) } \,dW_ { s } . \ , }
+E ( x _ { t } ) = x _ { 0 } e ^ { - \theta   t } + \mu   ( 1 - e ^ { - \theta   t } ) \ ! \  
+{ \displaystyle   { \begin { a l i g n e d } \operatorname   { c o v }   ( x _ { s } , x _ { t } ) & = E [ ( x _ { s } - E [ x _ { s } ] ) ( x _ { t } - E [ x _ { t } ] ) ] \\&=E \left [ \int   _ { 0 } ^ { s } \sigma   e ^ { \theta   ( u - s ) } \,dW_ { u } \int   _ { 0 } ^ { t } \sigma   e ^ { \theta   ( v - t ) } \,dW_ { v } \right ] \\&=\sigma   ^ { 2 } e ^ { - \theta   ( s + t ) } E \left [ \int   _ { 0 } ^ { s } e ^ { \theta   u } \,dW_ { u } \int   _ { 0 } ^ { t } e ^ { \theta   v } \,dW_ { v } \right ] \\&={ \frac   { \sigma   ^ { 2 } } { 2 \theta   } } \,e ^ { - \theta   ( s + t ) } ( e ^ { 2 \theta   \min ( s , t ) } - 1 ) \\&={ \frac   { \sigma   ^ { 2 } } { 2 \theta   } } \left ( e ^ { - \theta   | t - s | } - e ^ { - \theta   ( t + s ) } \right ) . \end { a l i g n e d } } }
+t \rightarrow   \infty  
+x _ { t } = \mu   + { \sigma     \over   { \sqrt   { 2 \theta   } } } e ^ { - \theta   t } W _ { e ^ { 2 \theta   t } }
+x _ { t } = x _ { 0 } e ^ { - \theta   t } + \mu   ( 1 - e ^ { - \theta   t } ) + { \sigma     \over   { \sqrt   { 2 \theta   } } } e ^ { - \theta   t } W _ { e ^ { 2 \theta   t } - 1 } .
+n
+X _ { n }
+n
+{ \frac   { X _ { [ n t ] } - n / 2 } { \sqrt   { n } } }
+n
+X
+\sigma   \,x ^ { \gamma   } \,dW_ { t }
+\gamma = 1
+\gamma   = 0
+\gamma   = 1 / 2

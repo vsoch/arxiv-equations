@@ -1,0 +1,7 @@
+{ \displaystyle   p _ { n } ' ( t ) = ( n - 1 ) \beta   p _ { n - 1 } ( t ) - n \beta   p _ { n } ( t ) }
+n
+\beta  
+{ \displaystyle   p _ { n } ( t ) = P r ( N ( t ) = n ) }
+{ \displaystyle   p _ { n } ( t ) = ( n - 1 ) \beta   \mathrm   { e }   ^ { - n \beta   t } \int   _ { 0 } ^ { t } \!p_ { n - 1 } ( s ) \,\mathrm   { e }   ^ { n \beta   s } \mathrm   { d }   s }
+{ \displaystyle   p _ { n } ( t ) }
+{ \displaystyle   p _ { n - 1 } ( t ) }

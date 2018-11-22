@@ -1,0 +1,26 @@
+f \colon   R ^ { r } \to   R
+r
+n \geq   r
+f _ { n } \colon   R ^ { n } \to   R
+\varphi   ( 1 ) , \ldots   , \varphi   ( r )
+r
+f ( x _ { \varphi   } )
+f _ { n } ( x _ { 1 } , \ldots   , x _ { n } ) = \operatorname   { a v e }   f ( x _ { \varphi   ( 1 ) } , \ldots   , x _ { \varphi   ( r ) } )
+r
+\{ 1 , \ldots   , n \ }
+f _ { n } ( x _ { 1 } , \ldots   , x _ { n } )
+f ( x ) = x
+f _ { n } ( x ) = { \bar   { x } } _ { n } = ( x _ { 1 } + \cdots   + x _ { n } ) / n
+f ( x _ { 1 } , x _ { 2 } ) = | x _ { 1 } - x _ { 2 } |
+{ \displaystyle   f _ { n } ( x _ { 1 } , \ldots   , x _ { n } ) = 2 / ( n ( n - 1 ) ) \sum   _ { i > j } | x _ { i } - x _ { j } | }
+n \geq   2
+f ( x _ { 1 } , x _ { 2 } ) = ( x _ { 1 } - x _ { 2 } ) ^ { 2 } / 2
+f _ { n } ( x ) = \sum   ( x _ { i } - { \bar   { x } } _ { n } ) ^ { 2 } / ( n - 1 )
+n - 1
+n \geq   2
+k
+k _ { 3 , n } ( x ) = \sum   ( x _ { i } - { \bar   { x } } _ { n } ) ^ { 3 } n / ( ( n - 1 ) ( n - 2 ) )
+n \geq   3
+f ( x _ { 1 } , x _ { 2 } , x _ { 3 } )
+f _ { n } ( x _ { 1 } , \ldots   , x _ { n } )
+n

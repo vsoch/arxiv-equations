@@ -1,0 +1,9 @@
+\operatorname   { E } { \bigl   [ } ( X ) _ { r } { \bigr   ] } = \operatorname   { E } { \bigl   [ } X ( X - 1 ) ( X - 2 ) \cdots   ( X - r + 1 ) { \bigr   ] } ,
+( x ) _ r   : =   \underbrace { x ( x - 1 ) ( x - 2 ) \cdots ( x - r + 1 ) } _ { r   \text {   f a c t o r s } }   \equiv   \frac { x ! } { ( x - r ) ! }
+{ \displaystyle   \operatorname   { E }   { \bigl   [ } ( X ) _ { r } { \bigr   ] } = \lambda   ^ { r } , }
+{ \displaystyle   \operatorname   { E }   { \bigl   [ } ( X ) _ { r } { \bigr   ] } = { \binom   { n } { r } } p ^ { r } r ! = ( n ) _ { r } p ^ { r } , }
+{ \displaystyle   \textstyle   { \binom   { n } { r } } }
+{ \displaystyle   ( n ) _ { r } }
+{ \displaystyle   \operatorname   { E }   { \bigl   [ } ( X ) _ { r } { \bigr   ] } = { \frac   { { \binom   { K } { r } } { \binom   { n } { r } } r ! } { \binom   { N } { r } } } = { \frac   { ( K ) _ { r } ( n ) _ { r } } { ( N ) _ { r } } } . }
+{ \displaystyle   \operatorname   { E }   { \bigl   [ } ( X ) _ { r } { \bigr   ] } = { \binom   { n } { r } } { \frac   { B ( \alpha   + r , \beta   ) r ! } { B ( \alpha   , \beta   ) } } = ( n ) _ { r } { \frac   { B ( \alpha   + r , \beta   ) } { B ( \alpha   , \beta   ) } } }
+{ \displaystyle   \operatorname   { E }   [ X ^ { n } ] = \sum   _ { r = 0 } ^ { n } \left \{ { n   \atop   r } \right \}\operatorname   { E }   [ ( X ) _ { r } ] , }

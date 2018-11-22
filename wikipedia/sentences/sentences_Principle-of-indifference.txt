@@ -1,0 +1,7 @@
+f ( L )   =   \left | { \partial   V   \over   \partial   L } \right | f ( V ) = 3   L ^ { 2 }   f ( L ^ { 3 } )
+f
+f ( L ) = { K   \over   L }
+K ^ { - 1 } = \int_ { 3 } ^ { 5 } { d L   \over   L }   =   \log \left ( { 5   \over   3 } \right )
+P r ( L < 4 ) = \int   _ { { 3 } } ^ { { 4 } } { d L   \over   L \log ( { 5   \over   3 } ) } = { \log ( { 4   \over   3 } )   \over   \log ( { 5   \over   3 } ) } \approx   0 . 5 6
+f ( V ^ { { { 1   \over   3 } } } ) { 1   \over   3 } V ^ { { - { 2   \over   3 } } } = { 1   \over   3 V \log ( { 5   \over   3 } ) }
+P r ( V < 6 4 ) = \int   _ { { 2 7 } } ^ { { 6 4 } } { d V   \over   3 V \log ( { 5   \over   3 } ) } = { \log ( { 6 4   \over   2 7 } )   \over   3 \log ( { 5   \over   3 } ) } = { 3 \log ( { 4   \over   3 } )   \over   3 \log ( { 5   \over   3 } ) } = { \log ( { 4   \over   3 } )   \over   \log ( { 5   \over   3 } ) } \approx   0 . 5 6

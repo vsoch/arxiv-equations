@@ -1,0 +1,98 @@
+~ \epsilon   _ { t } ~
+~ \epsilon   _ { t } ~
+z _ { t }
+\sigma   _ { t }
+~ \epsilon   _ { t } = \sigma   _ { t } z _ { t } ~
+z _ { t }
+\sigma   _ { t } ^ { 2 }
+\sigma   _ { t } ^ { 2 } = \alpha   _ { 0 } + \alpha   _ { 1 } \epsilon   _ { { t - 1 } } ^ { 2 } + \cdots   + \alpha   _ { q } \epsilon   _ { { t - q } } ^ { 2 } = \alpha   _ { 0 } + \sum   _ { { i = 1 } } ^ { q } \alpha   _ { { i } } \epsilon   _ { { t - i } } ^ { 2 }
+~ \alpha   _ { 0 } > 0 ~
+\alpha   _ { i } \geq   0 , ~ i > 0
+y _ { t } = a _ { 0 } + a _ { 1 } y _ { { t - 1 } } + \cdots   + a _ { q } y _ { { t - q } } + \epsilon   _ { t } = a _ { 0 } + \sum   _ { { i = 1 } } ^ { q } a _ { i } y _ { { t - i } } + \epsilon   _ { t }
+{ \hat     \epsilon   } ^ { 2 }
+{ \hat     \epsilon   } _ { t } ^ { 2 } = { \hat     \alpha   } _ { 0 } + \sum   _ { { i = 1 } } ^ { { q } } { \hat     \alpha   } _ { i } { \hat     \epsilon   } _ { { t - i } } ^ { 2 }
+\alpha   _ { i } = 0
+i = 1 , \cdots   , q
+\alpha   _ { i }
+\chi   ^ { 2 }
+T '
+T ' = T - q
+~ \sigma   ^ { 2 }
+~ \epsilon   ^ { 2 }
+{ \displaystyle   y _ { t } = x ' _ { t } b + \epsilon   _ { t } }
+{ \displaystyle   \epsilon   _ { t } | \psi   _ { t - 1 } \sim   { \mathcal   { N } } ( 0 , \sigma   _ { t } ^ { 2 } ) }
+{ \displaystyle   \sigma   _ { t } ^ { 2 } = \omega   + \alpha   _ { 1 } \epsilon   _ { t - 1 } ^ { 2 } + \cdots   + \alpha   _ { q } \epsilon   _ { t - q } ^ { 2 } + \beta   _ { 1 } \sigma   _ { t - 1 } ^ { 2 } + \cdots   + \beta   _ { p } \sigma   _ { t - p } ^ { 2 } = \omega   + \sum   _ { i = 1 } ^ { q } \alpha   _ { i } \epsilon   _ { t - i } ^ { 2 } + \sum   _ { i = 1 } ^ { p } \beta   _ { i } \sigma   _ { t - i } ^ { 2 } }
+y _ { t } = a _ { 0 } + a _ { 1 } y _ { { t - 1 } } + \cdots   + a _ { q } y _ { { t - q } } + \epsilon   _ { t } = a _ { 0 } + \sum   _ { { i = 1 } } ^ { q } a _ { i } y _ { { t - i } } + \epsilon   _ { t }
+\epsilon   ^ { 2 }
+\rho   = { { \sum   _ { { t = i + 1 } } ^ { T } ( { \hat     \epsilon   } _ { t } ^ { 2 } - { \hat     \sigma   } _ { t } ^ { 2 } ) ( { \hat     \epsilon   } _ { { t - 1 } } ^ { 2 } - { \hat     \sigma   } _ { { t - 1 } } ^ { 2 } ) }   \over   { \sum   _ { { t = 1 } } ^ { T } ( { \hat     \epsilon   } _ { t } ^ { 2 } - { \hat     \sigma   } _ { t } ^ { 2 } ) ^ { 2 } } }
+\rho   ( i )
+1 / { \sqrt     { T } }
+\chi   ^ { 2 }
+\epsilon   _ { t } ^ { 2 }
+{ \displaystyle   ~ \sigma   _ { t } ^ { 2 } = ~ \omega   + ~ \alpha   ( ~ \epsilon   _ { t - 1 } - ~ \theta   ~ \sigma   _ { t - 1 } ) ^ { 2 } + ~ \beta   ~ \sigma   _ { t - 1 } ^ { 2 } }
+{ \displaystyle   ~ \alpha   \geq   0 , ~ \beta   \geq   0 , ~ \omega   > 0 }
+{ \displaystyle   ~ \alpha   ( 1 + ~ \theta   ^ { 2 } ) + ~ \beta   < 1 }
+~ \theta  
+\sum   _ { { i = 1 } } ^ { p } ~ \beta   _ { { i } } + \sum   _ { { i = 1 } } ^ { q } ~ \alpha   _ { { i } } = 1
+\log   \sigma   _ { { t } } ^ { 2 } = \omega   + \sum   _ { { k = 1 } } ^ { { q } } \beta   _ { { k } } g ( Z _ { { t - k } } ) + \sum   _ { { k = 1 } } ^ { { p } } \alpha   _ { { k } } \log   \sigma   _ { { t - k } } ^ { { 2 } }
+g ( Z _ { { t } } ) = \theta   Z _ { { t } } + \lambda   ( | Z _ { { t } } | - E ( | Z _ { { t } } | ) )
+\sigma   _ { { t } } ^ { { 2 } }
+\omega  
+\beta  
+\alpha  
+\theta  
+\lambda  
+Z _ { { t } }
+g ( Z _ { { t } } )
+Z _ { { t } }
+\log   \sigma   _ { { t } } ^ { { 2 } }
+y _ { t } = ~ \beta   x _ { t } + ~ \lambda   ~ \sigma   _ { t } + ~ \epsilon   _ { t }
+~ \epsilon   _ { t }
+~ \epsilon   _ { t } = ~ \sigma   _ { t } ~ \times   z _ { t }
+~ \sigma   _ { t }
+~ \epsilon   _ { t } = ~ \sigma   _ { t } z _ { t }
+z _ { t }
+~ \sigma   _ { t } ^ { 2 } = K + ~ \alpha   ~ \epsilon   _ { { t - 1 } } ^ { 2 } + ~ \beta   ~ \sigma   _ { { t - 1 } } ^ { 2 } + ~ \phi   ~ \epsilon   _ { { t - 1 } }
+~ \epsilon   _ { t } = ~ \sigma   _ { t } z _ { t }
+z _ { t }
+~ \sigma   _ { t } ^ { 2 } = K + ~ \delta   ~ \sigma   _ { { t - 1 } } ^ { 2 } + ~ \alpha   ~ \epsilon   _ { { t - 1 } } ^ { 2 } + ~ \phi   ~ \epsilon   _ { { t - 1 } } ^ { 2 } I _ { { t - 1 } }
+I _ { { t - 1 } } = 0
+~ \epsilon   _ { { t - 1 } } \geq   0
+I _ { { t - 1 } } = 1
+~ \epsilon   _ { { t - 1 } } < 0
+~ \sigma   _ { t } = K + ~ \delta   ~ \sigma   _ { { t - 1 } } + ~ \alpha   _ { 1 } ^ { { + } } ~ \epsilon   _ { { t - 1 } } ^ { { + } } + ~ \alpha   _ { 1 } ^ { { - } } ~ \epsilon   _ { { t - 1 } } ^ { { - } }
+~ \epsilon   _ { { t - 1 } } ^ { { + } } = ~ \epsilon   _ { { t - 1 } }
+~ \epsilon   _ { { t - 1 } } > 0
+~ \epsilon   _ { { t - 1 } } ^ { { + } } = 0
+~ \epsilon   _ { { t - 1 } } \leq   0
+~ \epsilon   _ { { t - 1 } } ^ { { - } } = ~ \epsilon   _ { { t - 1 } }
+~ \epsilon   _ { { t - 1 } } \leq   0
+~ \epsilon   _ { { t - 1 } } ^ { { - } } = 0
+~ \epsilon   _ { { t - 1 } } > 0
+\epsilon   _ { t } = \sigma   _ { t } z _ { t } ,
+\sigma   _ { t } ^ { 2 } = \alpha   _ { 0 } + \alpha   _ { 1 } \epsilon   _ { { t - 1 } } ^ { 2 } + \beta   _ { 1 } \sigma   _ { { t - 1 } } ^ { 2 } = \alpha   _ { 0 } + \alpha   _ { 1 } \sigma   _ { { t - 1 } } ^ { 2 } z _ { { t - 1 } } ^ { 2 } + \beta   _ { 1 } \sigma   _ { { t - 1 } } ^ { 2 } ,
+z _ { t }
+{ \mathrm     { d } } L _ { t }
+( L _ { t } ) _ { { t \geq   0 } }
+z _ { t } ^ { 2 }
+{ \mathrm     { d } } [ L , L ] _ { t } ^ { { \mathrm     { d } } }
+[ L , L ] _ { t } ^ { { \mathrm     { d } } } = \sum   _ { { s \in   [ 0 , t ] } } ( \Delta   L _ { t } ) ^ { 2 } , \quad   t \geq   0 ,
+L
+{ \mathrm     { d } } G _ { t } = \sigma   _ { { t - } } \,{ \mathrm     { d } } L _ { t } ,
+{ \mathrm     { d } } \sigma   _ { t } ^ { 2 } = ( \beta   - \eta   \sigma   _ { t } ^ { 2 } ) \,{ \mathrm     { d } } t + \varphi   \sigma   _ { { t - } } ^ { 2 } \,{ \mathrm     { d } } [ L , L ] _ { t } ^ { { \mathrm     { d } } } ,
+\beta  
+\eta  
+\varphi  
+\alpha   _ { 0 }
+  \alpha_1  
+\beta   _ { 1 }
+( G _ { 0 } , \sigma   _ { 0 } ^ { 2 } )
+( G _ { t } , \sigma   _ { t } ^ { 2 } ) _ { { t \geq   0 } }
+{ \displaystyle   ~ \omega   = 0 }
+~ \epsilon   _ { t } = ~ \sigma   _ { t } z _ { t }
+z _ { t }
+{ \displaystyle   ~ \sigma   _ { t } ^ { 2 } = ~ \alpha   _ { 1 } ~ \epsilon   _ { t - 1 } ^ { 2 } + ~ \beta   _ { 1 } ~ \sigma   _ { t - 1 } ^ { 2 } . }
+{ \displaystyle   ~ \alpha   _ { 1 } + ~ \beta   _ { 1 } = 1 }
+{ \displaystyle   ~ \omega   = 0 }
+{ \displaystyle   ~ \alpha   _ { 1 } }
+{ \displaystyle   ~ \beta   _ { 1 } }

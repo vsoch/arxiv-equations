@@ -1,0 +1,4 @@
+{ \displaystyle   y = a x + b \ ; }
+y = a x ^ { 2 } + b x + c \ ; .
+y = a x ^ { 3 } + b x ^ { 2 } + c x + d \ ; .
+y = f ( x )

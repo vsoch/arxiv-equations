@@ -1,0 +1,37 @@
+y _ { t } = \nu   + A _ { 1 } y _ { { t - 1 } } + \dots   + A _ { p } y _ { { t - p } } + u _ { t }
+Y _ { t } = V + A Y _ { { t - 1 } } + U _ { t }
+A = { \begin { b m a t r i x } A _ { 1 } & A _ { 2 } & \dots   & A _ { { p - 1 } } & A _ { p } \\{ \mathbf     { I } } _ { k } & 0 & \dots   & 0 & 0 \\0 & { \mathbf     { I } } _ { k } & & 0 & 0 \\\vdots   & & \ddots   & \vdots   & \vdots   \\0 & 0 & \dots   & { \mathbf     { I } } _ { k } & 0 \\\end { b m a t r i x } }
+Y = { \begin { b m a t r i x } y _ { 1 } \\\vdots   \\y_ { p } \end { b m a t r i x } }
+V = { \begin { b m a t r i x } \nu   \\0 \\\vdots   \\0 \end { b m a t r i x } }
+U _ { t } = { \begin { b m a t r i x } u _ { t } \\0 \\\vdots   \\0 \end { b m a t r i x } }
+y _ { t }
+\nu  
+u
+k
+A
+k p
+k p
+Y
+V
+U
+k p
+j
+{ \mathbf     { M S E } } [ y _ { { j , t } } ( h ) ] = \sum   _ { { i = 0 } } ^ { { h - 1 } } \sum   _ { { k = 1 } } ^ { { K } } ( e _ { j } ' \Theta   _ { i } e _ { k } ) ^ { 2 } = { \bigg   ( } \sum   _ { { i = 0 } } ^ { { h - 1 } } \Theta   _ { i } \Theta   _ { i } ' { \bigg   ) } _ { { j j } } = { \bigg   ( } \sum   _ { { i = 0 } } ^ { { h - 1 } } \Phi   _ { i } \Sigma   _ { u } \Phi   _ { i } ' { \bigg   ) } _ { { j j } } ,
+e _ { j }
+I _ { K }
+j j
+\Theta   _ { i } = \Phi   _ { i } P ,
+P
+\Sigma   _ { u }
+\Sigma   _ { u } = P P '
+\Sigma   _ { u }
+u _ { t }
+\Phi   _ { i } = J A ^ { i } J ' ,
+J = { \begin { b m a t r i x } { \mathbf     { I } } _ { k } & 0 & \dots   & 0 \end { b m a t r i x } } ,
+J
+k
+k p
+j
+k
+\omega   _ { { j k , h } } ,
+\omega   _ { { j k , h } } = \sum   _ { { i = 0 } } ^ { { h - 1 } } ( e _ { j } ' \Theta   _ { i } e _ { k } ) ^ { 2 } / M S E [ y _ { { j , t } } ( h ) ] .

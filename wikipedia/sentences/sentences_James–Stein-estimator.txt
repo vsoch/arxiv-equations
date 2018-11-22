@@ -1,0 +1,35 @@
+{ \boldsymbol   { \theta   } }
+m
+{ \displaystyle   \sigma   ^ { 2 } I }
+{ \displaystyle   { \mathbf   { Y }   } }
+{ \displaystyle   { \mathbf   { Y }   } \sim   N ( { \boldsymbol   { \theta   } } , \sigma   ^ { 2 } I ) . \ , }
+{ \displaystyle   { \widehat   { \boldsymbol   { \theta   } } } }
+{ \boldsymbol   { \theta   } }
+{ \displaystyle   { \mathbf   { y }   } }
+{ \displaystyle   { \mathbf   { Y }   } }
+\widehat { \boldsymbol   \theta } _ { L S }   =   { \mathbf   y }
+{ \displaystyle   \operatorname   { E }   \left [ \left \|{ \boldsymbol   { \theta   } } - { \widehat   { \boldsymbol   { \theta   } } } \right \|^ { 2 } \right ] }
+\sigma   ^ { 2 }
+  \widehat { \boldsymbol   \theta } _ { J S }   =     \left (   1   -   \frac { ( m - 2 )   \sigma ^ 2 } { \|{ \mathbf   y } \|^ 2 }   \right )   { \mathbf   y } .  
+\widehat { \boldsymbol   \theta } _ { L S }
+m \geq   3
+m \geq   3
+( m - 2 )   \sigma ^ 2 < \|{ \mathbf   y } \|^ 2  
+\mathbf   { y }  
+m
+{ \displaystyle   { \widehat   { \boldsymbol   { \theta   } } } _ { J S } = \left ( 1 - { \frac   { ( m - 3 ) \sigma   ^ { 2 } } { \|{ \mathbf   { y }   } - { \boldsymbol   { \nu   } } \|^ { 2 } } } \right ) ( { \mathbf   { y }   } - { \boldsymbol   { \nu   } } ) + { \boldsymbol   { \nu   } } , m \geq   4 . }
+\|{ \boldsymbol \theta   -   \boldsymbol \nu } \ |
+\sim   N ( 0 ,   A )
+m
+m \leq   2
+\|{ \mathbf   y }   -   { \boldsymbol \nu }   \ | ,
+{ \mathbf   y }   -   { \boldsymbol \nu }
+{ \displaystyle   { \widehat   { \boldsymbol   { \theta   } } } _ { J S + } = \left ( 1 - { \frac   { ( m - 3 ) \sigma   ^ { 2 } } { \|{ \mathbf   { y }   } - { \boldsymbol   { \nu   } } \|^ { 2 } } } \right ) ^ { + } ( { \mathbf   { y }   } - { \boldsymbol   { \nu   } } ) + { \boldsymbol   { \nu   } } , m \geq   4 . }
+\sigma   ^ { 2 }
+\widehat { \sigma } ^ 2   =   \frac { 1 } { n } \sum   (   y _ i - \overline { y }   ) ^ 2
+m   >   2
+n
+  \widehat { \boldsymbol   \theta } _ { J S }   =     \left (   1   -   \frac { ( m - 2 )   \frac { \sigma ^ 2 } { n } } { \|{ \overline { \mathbf   y } } \|^ 2 }   \right )   { \overline { \mathbf   y } } ,  
+{ \overline { \mathbf   y } }
+m
+n

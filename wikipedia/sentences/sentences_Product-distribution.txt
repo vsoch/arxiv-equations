@@ -1,0 +1,105 @@
+Z = X Y
+X
+Y
+f _ { X }
+f _ { Y }
+Z = X Y
+f _ { Z } ( z ) = \int   _ { { - \infty   } } ^ { { \infty   } } f _ { X } \left ( x \right ) f _ { Y } \left ( z / x \right ) { \frac     { 1 } { | x | } } \,dx .
+{ \displaystyle   Z }
+{ \displaystyle   { \begin { a r r a y } { l c l } F _ { Z } \left ( z \right ) & { \overset   { \underset   { \mathrm   { d e f }   } { } } { = } } & \mathbb   { P }   ( Z \leq   z ) \\&=&\mathbb   { P }   ( X Y \leq   z ) \\&=&\mathbb   { P }   ( X Y \leq   z , X \geq   0 ) + \mathbb   { P }   ( X Y \leq   z , X \leq   0 ) \\&=&\mathbb   { P }   ( Y \leq   z / X , X \geq   0 ) + \mathbb   { P }   ( Y \geq   z / X , X \leq   0 ) \\&=&\int   _ { 0 } ^ { \infty   } f _ { X } \left ( x \right ) \int   _ { - \infty   } ^ { z / x } f _ { Y } \left ( y \right ) \,dy \,dx + \int   _ { - \infty   } ^ { 0 } f _ { X } \left ( x \right ) \int   _ { z / x } ^ { \infty   } f _ { Y } \left ( y \right ) \,dy \,dx \end { a r r a y } } }
+z
+z
+{ \displaystyle   { \begin { a r r a y } { l c l } f _ { Z } ( z ) & = & \int   _ { 0 } ^ { \infty   } f _ { X } \left ( x \right ) f _ { Y } \left ( z / x \right ) { \frac   { 1 } { x } } \,dx - \int   _ { - \infty   } ^ { 0 } f _ { X } \left ( x \right ) f _ { Y } \left ( z / x \right ) { \frac   { 1 } { x } } \,dx \\&=&\int   _ { 0 } ^ { \infty   } f _ { X } \left ( x \right ) f _ { Y } \left ( z / x \right ) { \frac   { 1 } { | x | } } \,dx + \int   _ { - \infty   } ^ { 0 } f _ { X } \left ( x \right ) f _ { Y } \left ( z / x \right ) { \frac   { 1 } { | x | } } \,dx \\&=&\int   _ { - \infty   } ^ { \infty   } f _ { X } \left ( x \right ) f _ { Y } \left ( z / x \right ) { \frac   { 1 } { | x | } } \,dx . \end { a r r a y } } }
+{ \displaystyle   Z }
+{ \displaystyle   { \begin { a r r a y } { l c l } F _ { Z } \left ( z \right ) & { \overset   { \underset   { \mathrm   { d e f }   } { } } { = } } & \mathbb   { P }   ( Z \leq   z ) \\&=&\mathbb   { P }   ( X Y \leq   z ) \\&=&\int   _ { - \infty   } ^ { \infty   } \int   _ { - \infty   } ^ { \infty   } f _ { X } \left ( x \right ) f _ { Y } \left ( y \right ) u \left ( z - x y \right ) \,dy \,dx \end { a r r a y } } }
+{ \displaystyle   u \left ( . \right ) }
+x
+y
+{ \displaystyle   x y \leq   z }
+z
+{ \displaystyle   { \begin { a r r a y } { l c l } f _ { Z } ( z ) & = & \int   _ { - \infty   } ^ { \infty   } \int   _ { - \infty   } ^ { \infty   } f _ { X } \left ( x \right ) f _ { Y } \left ( y \right ) \delta   \left ( z - x y \right ) \,dy \,dx \\&=&\int   _ { - \infty   } ^ { \infty   } f _ { X } \left ( x \right ) f _ { Y } \left ( z / x \right ) \left [ \int   _ { - \infty   } ^ { \infty   } \delta   \left ( z - x y \right ) \,dy \right ] \,dx \\&=&\int   _ { - \infty   } ^ { \infty   } f _ { X } \left ( x \right ) f _ { Y } \left ( z / x \right ) { \frac   { 1 } { | x | } } \,dx . \end { a r r a y } } }
+{ \displaystyle   \delta   \left ( . \right ) }
+{ \displaystyle   f _ { X } ( x ) f _ { Y } ( y ) }
+  f ( z )  
+{ \displaystyle   d x d y \;f ( x , y ) }
+{ \displaystyle   d y = - d x \;y / x ^ { 2 } }
+{ \displaystyle   \delta   p = f ( x , y ) d x | d y | = f _ { X } ( x ) f _ { Y } ( z / x ) { \frac   { y } { x ^ { 2 } } } ( d x ) ^ { 2 } }
+{ \displaystyle   { \frac   { y } { x } } \;dx }
+{ \displaystyle   d z }
+{ \displaystyle   \int   f _ { X } ( x ) f _ { Y } ( z / x ) { \frac   { 1 } { | x | } } d x }
+{ \displaystyle   X \sim   f ( x ) }
+{ \displaystyle   f _ { x } ( x ) }
+X
+\theta  
+{ \displaystyle   \theta   X \sim   { \frac   { 1 } { | \theta   | } } f _ { x } \left ( { \frac   { x } { \theta   } } \right ) }
+{ \displaystyle   g _ { x } ( x | \theta   ) = { \frac   { 1 } { | \theta   | } } f _ { x } \left ( { \frac   { x } { \theta   } } \right ) }
+\theta  
+{ \displaystyle   f _ { \theta   } ( \theta   ) }
+{ \displaystyle   f _ { x } ( \theta   X ) = g _ { x } ( x | \theta   ) f _ { \theta   } ( \theta   ) d \theta   }
+\theta  
+{ \displaystyle   h _ { x } ( x ) = \int   _ { - \infty   } ^ { \infty   } g _ { x } ( x | \theta   ) f _ { \theta   } ( \theta   ) d \theta   }
+{ \displaystyle   \theta   X }
+{ \displaystyle   \theta   X \sim   h _ { x } ( x ) }
+g
+{ \displaystyle   h _ { x } ( x ) = \int   _ { - \infty   } ^ { \infty   } { \frac   { 1 } { | \theta   | } } f _ { x } \left ( { \frac   { x } { \theta   } } \right ) f _ { \theta   } ( \theta   ) d \theta   }
+{ \displaystyle   h _ { x } ( x ) }
+  \theta    
+  X    
+{ \displaystyle   \theta   { \text {   h a v e   p r o b a b i l i t y   } } P _ { i } { \text {   a t   l e v e l s   } } \theta   _ { i } { \text {   w i t h   } } \sum   _ { i } P _ { i } = 1 }
+{ \displaystyle   f _ { x } ( X | \theta   _ { i } ) = { \frac   { 1 } { | \theta   _ { i } | } } f _ { x } \left ( { \frac   { x } { \theta   _ { i } } } \right ) }
+{ \displaystyle   f _ { x } ( \theta   X ) = \sum   { { \frac   { P _ { i } } { | \theta   _ { i } | } } f _ { x } \left ( { \frac   { x } { \theta   _ { i } } } \right ) } }
+\operatorname { E } ( X   Y )   =   \operatorname { E } _ Y   (   \operatorname { E } _ { X   Y   \mid   Y }   ( X   Y   \mid   Y ) )
+\operatorname { E } _ { X   Y   \mid   Y }   ( X   Y   \mid   Y )   =   Y \cdot   \operatorname { E } _ { X \mid   Y } [ X ]
+\operatorname { E } ( X   Y )   =   \operatorname { E } _ Y   (   Y \cdot   \operatorname { E } _ { X \mid   Y } [ X ] )
+\operatorname { E } _ { X \mid   Y } [ X ]
+\operatorname { E } ( X   Y )   =   \operatorname { E } _ Y   (   Y \cdot   \operatorname { E } _ { X } [ X ] )
+\operatorname { E } ( X   Y )   =   \operatorname { E } _ X ( X )   \cdot   \operatorname { E } _ Y ( Y )
+{ \displaystyle   \phi   _ { X } ( t ) }
+{ \displaystyle   { \begin { a l i g n e d } \phi   _ { Z } ( t ) & = \operatorname   { E }   ( e ^ { i t X Y } ) \\&=\operatorname   { E }   _ { Y } ( \operatorname   { E }   _ { X Y \mid   Y } ( e ^ { i t X Y } \mid   Y ) ) \\&=\operatorname   { E }   _ { Y } ( \operatorname   { E }   _ { X \mid   Y } ( e ^ { i t X Y } \mid   Y ) ) \\&=\operatorname   { E }   _ { Y } ( \phi   _ { X } ( t Y ) ) \end { a l i g n e d } } }
+{ \displaystyle   \phi   _ { Z } ( t ) = \operatorname   { E }   _ { X } ( \phi   _ { Y } ( t X ) ) }
+f ( x )
+x \geq   0
+X
+{ \displaystyle   { \mathcal   { M } } f ( x ) = \varphi   ( s ) = \int   _ { 0 } ^ { \infty   } x ^ { s - 1 } f ( x ) \,dx = \mathbb   { E }   [ X ^ { s - 1 } ] . }
+{ \displaystyle   { \mathcal   { M } } ^ { - 1 } \varphi   ( s ) = f ( x ) = { \frac   { 1 } { 2 \pi   i } } \int   _ { c - i \infty   } ^ { c + i \infty   } x ^ { - s } \varphi   ( s ) \,ds . }
+{ \displaystyle   X { \text {   a n d   } } Y }
+          \mathcal { M } _ { X Y } ( s )   =   \mathcal { M } _ X ( s ) \mathcal { M } _ Y ( s )      
+{ \displaystyle   \mathbb   { E }   [ ( X Y ) ^ { n } ] = \mathbb   { E }   [ X ^ { n } ] \;\mathbb   { E }   [ Y ^ { n } ] }
+{ \displaystyle   X Y }
+{ \displaystyle   X { \text {   a n d   } } Y }
+{ \displaystyle   \mathbb   { E }   [ { \sqrt [ { p } ] { X Y } } ] = \mathbb   { E }   [ { \sqrt [ { p } ] { X } } ] \;\mathbb   { E }   [ { \sqrt [ { p } ] { Y } } ] }
+X , Y
+{ \displaystyle   \Gamma   ( \theta   ) ^ { - 1 } x ^ { \theta   - 1 } e ^ { - x } }
+{ \displaystyle   \theta   = \alpha   , \beta   }
+{ \displaystyle   E [ X ^ { p } ] = \int   _ { 0 } ^ { \infty   } x ^ { p } \Gamma   ( x , \theta   ) d x = { \frac   { \Gamma   ( \theta   + p ) } { \Gamma   ( \theta   ) } } }
+{ \displaystyle   E [ ( X Y ) ^ { p } ] = E [ X ^ { p } ] \;E [ Y ^ { p } ] = { \frac   { \Gamma   ( \alpha   + p ) } { \Gamma   ( \alpha   ) } } \;{ \frac   { \Gamma   ( \beta   + p ) } { \Gamma   ( \beta   ) } } }
+{ \displaystyle   f ( z , \alpha   , \beta   ) = 2 \Gamma   ( \alpha   ) ^ { - 1 } \Gamma   ( \beta   ) ^ { - 1 } z ^ { { \frac   { \alpha   + \beta   ) } { 2 } } - 1 } K _ { \alpha   - \beta   } ( 2 { \sqrt   { z } } ) , \;z \geq   0 }
+{ \displaystyle   y = 2 { \sqrt   { z } } }
+{ \displaystyle   \int   _ { 0 } ^ { \infty   } z ^ { p } K _ { \nu   } ( 2 { \sqrt   { z } } ) d z = 2 ^ { - 2 p - 1 } \int   _ { 0 } ^ { \infty   } y ^ { 2 p + 1 } K _ { \nu   } ( y ) d y }
+{ \displaystyle   2 \int   _ { 0 } ^ { \infty   } z ^ { { \frac   { \alpha   + \beta   } { 2 } } - 1 } K _ { \alpha   - \beta   } ( 2 { \sqrt   { z } } ) d z = 2 ^ { - ( \alpha   + \beta   ) - 2 p + 1 } \int   _ { 0 } ^ { \infty   } y ^ { ( \alpha   + \beta   ) + 2 p - 1 } K _ { \alpha   - \beta   } ( y ) d y }
+{ \displaystyle   \int   _ { 0 } ^ { \infty   } y ^ { \mu   } K _ { \nu   } ( y ) d y = 2 ^ { \mu   - 1 } \Gamma   \left ( { \frac   { 1 + \mu   + \nu   } { 2 } } \right ) \Gamma   \left ( { \frac   { 1 + \mu   - \nu   } { 2 } } \right ) }
+{ \displaystyle   { \begin { a l i g n e d } E [ Z ^ { p } ] & = { \frac   { 2 ^ { - ( \alpha   + \beta   ) - 2 p + 1 } \;2 ^ { ( \alpha   + \beta   ) + 2 p - 1 } } { \Gamma   ( \alpha   ) \;\Gamma   ( \beta   ) } } \Gamma   \left ( { \frac   { ( \alpha   + \beta   + 2 p ) + ( \alpha   - \beta   ) } { 2 } } \right ) \Gamma   \left ( { \frac   { ( \alpha   + \beta   + 2 p ) - ( \alpha   - \beta   ) } { 2 } } \right ) \\\\&={ \frac   { \Gamma   ( \alpha   + p ) \,\Gamma   ( \beta   + p ) } { \Gamma   ( \alpha   ) \,\Gamma   ( \beta   ) } } \end { a l i g n e d } } }
+{ \displaystyle   u = \ln ( x ) }
+{ \displaystyle   p _ { u } ( u ) = p _ { x } ( x ) / | d u / d x | = { \frac   { 1 } { x ^ { - 1 } } } = e ^ { u } , u \leq   0 }
+{ \displaystyle   c ( z ) = \int   _ { 0 } ^ { z } e ^ { u } e ^ { z - u } d u = - \int   _ { z } ^ { 0 } e ^ { z } d u = - z e ^ { z } , z \leq   0 }
+{ \displaystyle   x = e ^ { z } }
+{ \displaystyle   c _ { x } ( x ) = c _ { z } ( z ) / | d x / d z | = { \frac   { - z e ^ { z } } { e ^ { z } } } = - z = \ln ( 1 / x ) }
+  x ,   y  
+{ \displaystyle   z = x y }
+{ \displaystyle   p _ { z } ( z ) = { \frac   { K _ { 0 } ( | z | ) } { \pi   } } }
+{ \displaystyle   z = x _ { 1 } x _ { 2 } }
+{ \displaystyle   \Gamma   ( x ; k _ { i } , \theta   _ { i } ) = { \frac   { x ^ { k _ { i } - 1 } e ^ { - x / \theta   _ { i } } } { \Gamma   ( k _ { i } ) \theta   _ { i } ^ { k _ { i } - 1 } } } }
+{ \displaystyle   p _ { z } ( z ) = { \frac   { 2 } { \Gamma   ( k _ { 1 } ) \Gamma   ( k _ { 2 } ) \theta   _ { 1 } \theta   _ { 2 } } } y ^ { { \frac   { k _ { 1 } + k _ { 2 } } { 2 } } - 1 } K _ { k _ { 1 } - k _ { 2 } } \left ( 2 { \sqrt   { y } } \right ) }
+{ \displaystyle   y = { \frac   { z } { \theta   _ { 1 } \theta   _ { 2 } } } }
+{ \mathcal   { D } }
+\{ 0 , 1 \}^ { n }
+\mu   _ { 1 } , \mu   _ { 2 } , \dots   , \mu   _ { n }
+\mu   _ { i }
+x \in   \{ 0 , 1 \}^ { n }
+x \sim   { \mathcal     { D } }
+\mu   _ { i } = \operatorname   { P r } _ { { { \mathcal     { D } } } } [ x _ { i } = 1 ]
+\mu   _ { i } = 1 / 2
+\langle   \cdot   , \cdot   \rangle  
+\{ 0 , 1 \}^ { n }
+\langle   f , g \rangle   _ { { \mathcal     { D } } } = \sum   _ { { x \in   \{ 0 , 1 \}^ { n } } } { \mathcal     { D } } ( x ) f ( x ) g ( x ) = { \mathbb     { E } } _ { { { \mathcal     { D } } } } [ f g ]
+\|f \|_ { { { \mathcal     { D } } } } = { \sqrt     { \langle   f , f \rangle   _ { { \mathcal     { D } } } } }

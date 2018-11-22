@@ -1,0 +1,46 @@
+{ \boldsymbol   { X } }
+{ \boldsymbol   { Y } }
+G   =   ( V   ,   E )
+\boldsymbol { Y }   =   ( \boldsymbol { Y } _ v ) _ { v \in   V }
+{ \boldsymbol   { Y } }
+G
+( \boldsymbol { X } ,   \boldsymbol { Y } )
+\boldsymbol { Y } _ v
+{ \boldsymbol   { X } }
+p ( \boldsymbol { Y } _ v   | \boldsymbol { X } ,   \boldsymbol { Y } _ w ,   w   \neq   v )   =   p ( \boldsymbol { Y } _ v   | \boldsymbol { X } ,   \boldsymbol { Y } _ w ,   w   \sim   v )
+\mathit { w }   \sim   v
+w
+v
+G
+{ \boldsymbol   { X } }
+{ \boldsymbol   { Y } }
+p ( \boldsymbol { Y } | \boldsymbol { X } )
+\theta  
+p ( Y _ i | X _ i ;   \theta )
+X
+Y
+Y _ { i }
+Y _ { i - 1 }
+Y _ { i }
+Y _ { i }
+Y _ { i }
+Y
+X
+Y
+X
+Y _ { i }
+X
+f ( i ,   Y _ { i - 1 } ,   Y _ { i } ,   X )
+Y _ { i }
+Y _ { i }
+X
+Y _ { i }
+k
+{ \displaystyle   Y _ { i - k } , . . . , Y _ { i - 1 } }
+k
+k
+Y
+Y _ { i }
+x _ 1 , \dots , x _ n
+y _ { 1 } , \dots   , y _ { n }
+P ( \mathbf { y }   |   \mathbf { x } )   =   \sum_ \mathbf { h }   P ( \mathbf { y } | \mathbf { h } ,   \mathbf { x } )   P ( \mathbf { h }   |   \mathbf { x } )

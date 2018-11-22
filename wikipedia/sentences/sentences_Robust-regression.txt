@@ -1,0 +1,11 @@
+x   \leftarrow   ( x - \mu ) / \sigma
+1 - \varepsilon
+\sigma   ^ { 2 }
+\varepsilon  
+\varepsilon  
+c \sigma ^ 2
+c   >   1
+{ \displaystyle   e _ { i } \sim   ( 1 - \varepsilon   ) N ( 0 , \sigma   ^ { 2 } ) + \varepsilon   N ( 0 , c \sigma   ^ { 2 } ) . }
+\varepsilon   <   0 . 1
+\varepsilon  
+\varepsilon  

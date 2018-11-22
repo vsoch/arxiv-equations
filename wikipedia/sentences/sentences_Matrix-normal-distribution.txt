@@ -1,0 +1,49 @@
+\mathcal { M N } _ { n , p } ( \mathbf { M } ,   \mathbf { U } ,   \mathbf { V } )
+\mathbf   { M }  
+n \times   p
+\mathbf   { U }  
+n \times   n
+\mathbf   { V }  
+p \times   p
+\mathbf { X }   \in   \mathbb { R } ^ { n   \times   p }
+\frac { \exp \left (   - \frac { 1 } { 2 }   \, \mathrm { t r } \left [   \mathbf { V } ^ { - 1 }   ( \mathbf { X }   -   \mathbf { M } ) ^ { T }   \mathbf { U } ^ { - 1 }   ( \mathbf { X }   -   \mathbf { M } )   \right ]   \right ) } { ( 2 \pi ) ^ { n p / 2 }   | \mathbf { V } | ^ { n / 2 }   | \mathbf { U } | ^ { p / 2 } }
+\mathbf   { M }  
+\mathbf   { U }  
+\mathbf   { V }  
+\mathcal { M N } _ { n , p } ( \mathbf { M } ,   \mathbf { U } ,   \mathbf { V } )
+  p ( \mathbf { X } \mid \mathbf { M } ,   \mathbf { U } ,   \mathbf { V } )   =   \frac { \exp \left (   - \frac { 1 } { 2 }   \, \mathrm { t r } \left [   \mathbf { V } ^ { - 1 }   ( \mathbf { X }   -   \mathbf { M } ) ^ { T }   \mathbf { U } ^ { - 1 }   ( \mathbf { X }   -   \mathbf { M } )   \right ]   \right ) } { ( 2 \pi ) ^ { n p / 2 }   | \mathbf { V } | ^ { n / 2 }   | \mathbf { U } | ^ { p / 2 } }  
+\mathrm { t r }
+\mathbf { X }   \sim   \mathcal { M N } _ { n \times   p } ( \mathbf { M } ,   \mathbf { U } ,   \mathbf { V } ) ,
+\mathrm { v e c } ( \mathbf { X } )   \sim   \mathcal { N } _ { n p } ( \mathrm { v e c } ( \mathbf { M } ) ,   \mathbf { V }   \otimes   \mathbf { U } )
+\otimes  
+\mathrm { v e c } ( \mathbf { M } )
+\mathbf   { M }  
+\begin { a l i g n }   & \;\;\;\;-\frac12 \text { t r } \left [   \mathbf { V } ^ { - 1 }   ( \mathbf { X }   -   \mathbf { M } ) ^ { T }   \mathbf { U } ^ { - 1 }   ( \mathbf { X }   -   \mathbf { M } )   \right ] \\  &= -\frac12 \text { v e c } \left ( \mathbf { X }   -   \mathbf { M } \right ) ^ T   \text { v e c } \left ( \mathbf { U } ^ { - 1 }   ( \mathbf { X }   -   \mathbf { M } )   \mathbf { V } ^ { - 1 } \right )   \\  &= -\frac12 \text { v e c } \left ( \mathbf { X }   -   \mathbf { M } \right ) ^ T   \left ( \mathbf { V } ^ { - 1 } \otimes \mathbf { U } ^ { - 1 } \right ) \text { v e c } \left ( \mathbf { X }   -   \mathbf { M } \right )   \\  &= -\frac12 \left [ \text { v e c } ( \mathbf { X } )   -   \text { v e c } ( \mathbf { M } ) \right ] ^ T   \left ( \mathbf { V } \otimes \mathbf { U } \right ) ^ { - 1 } \left [ \text { v e c } ( \mathbf { X } )   -   \text { v e c } ( \mathbf { M } ) \right ]     \end { a l i g n }
+  | \mathbf { V } \otimes   \mathbf { U } |   =   | \mathbf { V } | ^ n   | \mathbf { U } | ^ p .
+\mathbf { X }   \sim   \mathcal { M N } _ { n \times   p } ( \mathbf { M } ,   \mathbf { U } ,   \mathbf { V } )
+E [ \mathbf { X } ]   =   \mathbf { M }
+E [ ( \mathbf { X }   -   \mathbf { M } ) ( \mathbf { X }   -   \mathbf { M } ) ^ { T } ]   =   \mathbf { U } \operatorname { t r } ( \mathbf { V } )    
+E [ ( \mathbf { X }   -   \mathbf { M } ) ^ { T }   ( \mathbf { X }   -   \mathbf { M } ) ]   =   \mathbf { V } \operatorname { t r } ( \mathbf { U } )    
+\operatorname   { t r }  
+\begin { a l i g n }   E [ \mathbf { X } \mathbf { A } \mathbf { X } ^ { T } ]   & =   \mathbf { U } \operatorname { t r } ( \mathbf { A } ^ T \mathbf { V } )   +   \mathbf { M A M } ^ T \\  E [ \mathbf { X } ^ T \mathbf { B } \mathbf { X } ]   & =   \mathbf { V } \operatorname { t r } ( \mathbf { U } \mathbf { B } ^ T )   +   \mathbf { M } ^ T \mathbf { B M } \\  E [ \mathbf { X } \mathbf { C } \mathbf { X } ]   & =   \mathbf { U } \mathbf { C } ^ T \mathbf { V }   +   \mathbf { M C M }   \end { a l i g n }
+\mathbf { X } ^ T   \sim   \mathcal { M N } _ { p \times   n } ( \mathbf { M } ^ T ,   \mathbf { V } ,   \mathbf { U } )  
+\mathbf { D X C } \sim   \mathcal { M N } _ { r \times   s } ( \mathbf { D M C } ,   \mathbf { D U D } ^ T ,   \mathbf { C } ^ T \mathbf { V C } )  
+\mathbf { Y } _ i   \sim   \mathcal { N } _ p ( { \boldsymbol   \mu } ,   { \boldsymbol   \Sigma } )   \text {   w i t h   }   i   \in   \{ 1 , \ldots , n \ }
+\mathbf   { X }  
+\mathbf { Y } _ i
+\mathbf { X }   \sim   \mathcal { M N } _ { n   \times   p } ( \mathbf { M } ,   \mathbf { U } ,   \mathbf { V } )
+\mathbf   { M }  
+{ \boldsymbol   \mu }
+\mathbf { M } = \mathbf { 1 } _ n   \times   { \boldsymbol   \mu } ^ T
+\mathbf   { U }  
+\mathbf { V }   =   { \boldsymbol   \Sigma }
+\mathbf { X } _ 1 ,   \mathbf { X } _ 2 ,   \ldots ,   \mathbf { X } _ k
+  \prod_ { i = 1 } ^ k   \mathcal { M N } _ { n \times   p } ( \mathbf { X } _ i \mid \mathbf { M } , \mathbf { U } , \mathbf { V } ) .  
+  \mathbf { M }   =   \frac { 1 } { k }   \sum_ { i = 1 } ^ k \mathbf { X } _ i  
+  \mathbf { U }   =   \frac { 1 } { k p }   \sum_ { i = 1 } ^ k ( \mathbf { X } _ i - \mathbf { M } ) \mathbf { V } ^ { - 1 } ( \mathbf { X } _ i - \mathbf { M } ) ^ T  
+  \mathbf { V }   =   \frac { 1 } { k n }   \sum_ { i = 1 } ^ k ( \mathbf { X } _ i - \mathbf { M } ) ^ T \mathbf { U } ^ { - 1 } ( \mathbf { X } _ i - \mathbf { M } ) ,  
+  \mathcal { M N } _ { n \times   p } ( \mathbf { X } \mid \mathbf { M } , \mathbf { U } , \mathbf { V } )   =   \mathcal { M N } _ { n \times   p } ( \mathbf { X } \mid \mathbf { M } , s \mathbf { U } , 1 / s \mathbf { V } )   .  
+\mathbf   { X }  
+  \mathbf { X } \sim \mathcal { M N } _ { n \times   p } ( \mathbf { 0 } , \mathbf { I } , \mathbf { I } ) .  
+  \mathbf { Y } = \mathbf { M } + \mathbf { A } \mathbf { X } \mathbf { B } ,  
+  \mathbf { Y } \sim \mathcal { M N } _ { n \times   p } ( \mathbf { M } , \mathbf { A A } ^ T , \mathbf { B } ^ T \mathbf { B } ) ,  

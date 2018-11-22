@@ -1,0 +1,2 @@
+D _ { i } = | x _ { i } - m ( X ) |
+{ \overline   { x } }

@@ -1,0 +1,21 @@
+y _ { t } = \alpha   + X _ { t } \beta   + \varepsilon   _ { t } , \ ,
+y _ { t }
+\beta  
+X _ { { t } }
+\varepsilon   _ { t }
+\varepsilon   _ { t } = \rho   \varepsilon   _ { { t - 1 } } + e _ { t } , \ |\rho   | < 1
+e _ { t }
+{ \displaystyle   y _ { t } - \rho   y _ { t - 1 } = \alpha   ( 1 - \rho   ) + \beta   ( X _ { t } - \rho   X _ { t - 1 } ) + e _ { t } , \ , }
+{ \sqrt     { 1 - \rho   ^ { 2 } } } y _ { 1 } = \alpha   { \sqrt     { 1 - \rho   ^ { 2 } } } + \left ( { \sqrt     { 1 - \rho   ^ { 2 } } } X _ { 1 } \right ) \beta   + { \sqrt     { 1 - \rho   ^ { 2 } } } \varepsilon   _ { 1 } . \ ,
+{ \mathrm     { c o v } } ( \varepsilon   _ { t } , \varepsilon   _ { { t + h } } ) = { \frac     { \rho   ^ { h } } { 1 - \rho   ^ { 2 } } } , { \text {   f o r   } } h = 0 , \pm   1 , \pm   2 , \dots   \ , .
+{ \mathbf     { \Omega   } }
+{ \displaystyle   \mathbf   { \Omega   }   = { \begin { b m a t r i x } { \frac   { 1 } { 1 - \rho   ^ { 2 } } } & { \frac   { \rho   } { 1 - \rho   ^ { 2 } } } & { \frac   { \rho   ^ { 2 } } { 1 - \rho   ^ { 2 } } } & \cdots   & { \frac   { \rho   ^ { T - 1 } } { 1 - \rho   ^ { 2 } } } \\[8pt ] { \frac   { \rho   } { 1 - \rho   ^ { 2 } } } & { \frac   { 1 } { 1 - \rho   ^ { 2 } } } & { \frac   { \rho   } { 1 - \rho   ^ { 2 } } } & \cdots   & { \frac   { \rho   ^ { T - 2 } } { 1 - \rho   ^ { 2 } } } \\[8pt ] { \frac   { \rho   ^ { 2 } } { 1 - \rho   ^ { 2 } } } & { \frac   { \rho   } { 1 - \rho   ^ { 2 } } } & { \frac   { 1 } { 1 - \rho   ^ { 2 } } } & \cdots   & { \frac   { \rho   ^ { T - 3 } } { 1 - \rho   ^ { 2 } } } \\[8pt ] \vdots   & \vdots   & \vdots   & \ddots   & \vdots   \\[8pt ] { \frac   { \rho   ^ { T - 1 } } { 1 - \rho   ^ { 2 } } } & { \frac   { \rho   ^ { T - 2 } } { 1 - \rho   ^ { 2 } } } & { \frac   { \rho   ^ { T - 3 } } { 1 - \rho   ^ { 2 } } } & \cdots   & { \frac   { 1 } { 1 - \rho   ^ { 2 } } } \end { b m a t r i x } } . }
+\rho  
+{ \displaystyle   { \hat   { \Theta   } } = ( \mathbf   { Z }   ^ { \mathsf   { T } } \mathbf   { \Omega   }   ^ { - 1 } \mathbf   { Z }   ) ^ { - 1 } ( \mathbf   { Z }   ^ { \mathsf   { T } } \mathbf   { \Omega   }   ^ { - 1 } \mathbf   { Y }   ) , \ , }
+\mathbf   { Z }  
+\mathbf   { Y }  
+{ \hat     { \Theta   } }
+{ \mathbf     { \Omega   } }
+{ \displaystyle   \mathbf   { \Omega   }   ^ { - 1 } = \mathbf   { G }   ^ { \mathsf   { T } } \mathbf   { G }   }
+{ \mathbf     { G } } = { \begin { b m a t r i x } { \sqrt     { 1 - \rho   ^ { 2 } } } & 0 & 0 & \cdots   & 0 \\-\rho   & 1 & 0 & \cdots   & 0 \\0 & - \rho   & 1 & \cdots   & 0 \\\vdots   & \vdots   & \vdots   & \ddots   & \vdots   \\0 & 0 & 0 & \cdots   & 1 \end { b m a t r i x } } .
+\rho  

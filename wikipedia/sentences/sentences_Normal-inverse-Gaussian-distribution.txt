@@ -1,0 +1,35 @@
+\mu  
+\alpha  
+\beta  
+\delta  
+\gamma   = { \sqrt   { \alpha   ^ { 2 } - \beta   ^ { 2 } } }
+x \in   ( - \infty   ; + \infty   ) \ !
+{ \frac   { \alpha   \delta   K _ { 1 } \left ( \alpha   { \sqrt   { \delta   ^ { 2 } + ( x - \mu   ) ^ { 2 } } } \right ) } { \pi   { \sqrt   { \delta   ^ { 2 } + ( x - \mu   ) ^ { 2 } } } } } \;e ^ { \delta   \gamma   + \beta   ( x - \mu   ) }
+K _ { j }
+\mu   + \delta   \beta   / \gamma  
+\delta   \alpha   ^ { 2 } / \gamma   ^ { 3 }
+3 \beta   / ( \alpha   { \sqrt   { \delta   \gamma   } } )
+3 ( 1 + 4 \beta   ^ { 2 } / \alpha   ^ { 2 } ) / ( \delta   \gamma   )
+e ^ { \mu   z + \delta   ( \gamma   - { \sqrt   { \alpha   ^ { 2 } - ( \beta   + z ) ^ { 2 } } } ) }
+e ^ { i \mu   z + \delta   ( \gamma   - { \sqrt   { \alpha   ^ { 2 } - ( \beta   + i z ) ^ { 2 } } } ) }
+X _ { 1 }
+X _ { 2 }
+\alpha  
+\beta  
+\mu   _ { 1 }
+\delta   _ { 1 }
+\mu   _ { 2 } ,
+\delta   _ { 2 }
+X _ { 1 } + X _ { 2 }
+\alpha   ,
+\beta   ,
+\mu   _ { 1 } + \mu   _ { 2 }
+\delta   _ { 1 } + \delta   _ { 2 } .
+N ( \mu   , \sigma   ^ { 2 } ) ,
+\beta   = 0 , \delta   = \sigma   ^ { 2 } \alpha   ,
+\alpha   \rightarrow   \infty  
+W ^ { ( \gamma   ) } ( t ) = W ( t ) + \gamma   t
+A _ { t } = \inf \{ s > 0 : W ^ { ( \gamma   ) } ( s ) = \delta   t \ } .
+W ^ { ( \beta   ) } ( t ) = { \tilde   { W } } ( t ) + \beta   t
+X _ { t } = W ^ { ( \beta   ) } ( A _ { t } )
+X ( t )

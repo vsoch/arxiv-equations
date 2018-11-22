@@ -1,0 +1,36 @@
+{ \displaystyle   { \mathcal   { L } } ( \theta   ; X ) }
+\theta  
+\theta  
+\theta  
+\theta  
+X
+{ \displaystyle   { \mathcal   { L } } ( \theta   ; X ) }
+V
+{ \displaystyle   V \equiv   V ( \theta   , X ) = { \frac   { \partial   } { \partial   \theta   } } \log   { \mathcal   { L } } ( \theta   ; X ) = { \frac   { 1 } { { \mathcal   { L } } ( \theta   ; X ) } } { \frac   { \partial   { \mathcal   { L } } ( \theta   ; X ) } { \partial   \theta   } } . }
+V
+{ \displaystyle   { \mathcal   { L } } ( \theta   ; X ) }
+V
+\theta  
+X
+\theta  
+\theta  
+{ \displaystyle   { \mathcal   { L } } ( \theta   ; X ) = f ( X + \theta   ) }
+V _ { { { \rm   { l i n e a r } } } } = { \frac     { \partial   } { \partial   X } } \log   f ( X )
+V
+x
+\theta  
+{ \displaystyle   \operatorname   { E }   ( V \mid   \theta   ) }
+{ \mathcal     L }
+{ \displaystyle   { \mathcal   { L } } ( \theta   ; x ) = f ( x ; \theta   ) }
+{ \displaystyle   { \begin { a l i g n e d } \operatorname   { E }   ( V \mid   \theta   ) & = \int   _ { - \infty   } ^ { + \infty   } f ( x ; \theta   ) { \frac   { \partial   } { \partial   \theta   } } \log   { \mathcal   { L } } ( \theta   ; X ) \,dx = \int   _ { - \infty   } ^ { + \infty   } { \frac   { \partial   } { \partial   \theta   } } \log   { \mathcal   { L } } ( \theta   ; X ) f ( x ; \theta   ) \,dx \\[6pt ] & = \int   _ { - \infty   } ^ { + \infty   } { \frac   { 1 } { f ( x ; \theta   ) } } { \frac   { \partial   f ( x ; \theta   ) } { \partial   \theta   } } f ( x ; \theta   ) \,dx = \int   _ { - \infty   } ^ { + \infty   } { \frac   { \partial   f ( x ; \theta   ) } { \partial   \theta   } } \,dx \end { a l i g n e d } } }
+{ \frac     { \partial   } { \partial   \theta   } } \int   _ { { - \infty   } } ^ { { + \infty   } } f ( x ; \theta   ) \,dx = { \frac     { \partial   } { \partial   \theta   } } 1 = 0 .
+\mathcal { I } ( \theta )
+{ \displaystyle   { \mathcal   { I } } ( \theta   ) = \operatorname   { E }   \left \{ \left . \left [ { \frac   { \partial   } { \partial   \theta   } } \log   { \mathcal   { L } } ( \theta   ; X ) \right ] ^ { 2 } \right | \theta   \right \ } . }
+X
+{ \mathcal     L }
+{ \displaystyle   { \mathcal   { L } } ( \theta   ; A , B ) = { \frac   { ( A + B ) ! } { A ! B ! } } \theta   ^ { A } ( 1 - \theta   ) ^ { B } , }
+{ \displaystyle   V = { \frac   { 1 } { \mathcal   { L } } } { \frac   { \partial   { \mathcal   { L } } } { \partial   \theta   } } = { \frac   { A } { \theta   } } - { \frac   { B } { 1 - \theta   } } . }
+E ( V ) = { \frac     { n \theta   } { \theta   } } - { \frac     { n ( 1 - \theta   ) } { 1 - \theta   } } = n - n = 0 .
+V
+{ \begin { a l i g n e d } \operatorname   { v a r } ( V ) & = \operatorname   { v a r } \left ( { \frac     { A } { \theta   } } - { \frac     { n - A } { 1 - \theta   } } \right ) = \operatorname   { v a r } \left ( A \left ( { \frac     { 1 } { \theta   } } + { \frac     { 1 } { 1 - \theta   } } \right ) \right ) \\&=\left ( { \frac     { 1 } { \theta   } } + { \frac     { 1 } { 1 - \theta   } } \right ) ^ { 2 } \operatorname   { v a r } ( A ) = { \frac     { n } { \theta   ( 1 - \theta   ) } } . \end { a l i g n e d } }
+{ \displaystyle   S = Y \log ( p ) + ( 1 - Y ) ( \log ( 1 - p ) ) }

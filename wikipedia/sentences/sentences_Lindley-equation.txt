@@ -1,0 +1,1 @@
+F ( x ) = \int   _ { { 0 ^ { - } } } ^ { \infty   } K ( x - y ) F ( { \text { d } } y ) \quad   x \geq   0

@@ -1,0 +1,1 @@
+V _ { t } \approx   p q \left ( 1 - \exp   \left \{ - { \frac   { t } { 2 N _ { e } } } \right \}\right ) .

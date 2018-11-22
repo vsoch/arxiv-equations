@@ -1,0 +1,7 @@
+P
+\mathrm   { P }   ( A ) = { \frac   { | A | } { | \Omega   | } } \,\ \left ( { \text { a l t e r n a t i v e l y : } } \ \Pr ( A ) = { \frac   { | A | } { | \Omega   | } } \right )
+\{ \omega   \in   \Omega   \mid   u < X ( \omega   ) \leq   v \ } \ ,
+u < X \leq   v \ , .
+\Pr ( u < X \leq   v ) = F ( v ) - F ( u ) \ , .
+\omega   \in   X ^ { - 1 } ( ( u , v ] )
+u < X ( \omega   ) \leq   v

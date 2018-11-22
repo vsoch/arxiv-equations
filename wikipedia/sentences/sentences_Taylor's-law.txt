@@ -1,0 +1,145 @@
+{ \displaystyle   \operatorname   { v a r }   ( Y ) = a \mu   ^ { b } , }
+{ \displaystyle   s ^ { 2 } = a m + b m ^ { 2 } }
+{ \displaystyle   s ^ { 2 } = a m + b m ^ { 2 } }
+\log   V _ { x } = \log   V _ { 1 } + b \log   x \ ,
+K _ { b } ^ { * } ( s ; \theta   , \lambda   ) = \lambda   \kappa   _ { b } ( \theta   ) \left [ \left ( 1 + { s   \over   \theta   } \right ) ^ { \alpha   } - 1 \right ]
+\kappa   _ { b } ( \theta   ) = { ( \alpha   - 1 )   \over   \alpha   } \left ( { \theta     \over   ( \alpha   - 1 ) } \right ) ^ { \alpha   }
+\alpha   = ( b - 2 ) / ( b - 1 )
+a = \lambda   ^ { { 1 / ( \alpha   - 1 ) } }
+s _ { i } ^ { 2 } = a m _ { i } ^ { b }
+\log   s _ { i } ^ { 2 } = \log   a + b \log   m _ { i }
+{ \displaystyle   \mu   _ { 1 } = \mathbb   { E }   ( x ) }
+{ \displaystyle   \mu   _ { 2 } = \mathbb   { E }   ( y ) = \mathbb   { E }   ( c \,x ) = c \,\mathbb   { E }   ( x ) = c \,\mu   _ { 1 } }
+{ \displaystyle   \sigma   _ { 1 } ^ { 2 } = \mathbb   { E }   ( x - \mu   _ { 1 } ) ^ { 2 } }
+{ \displaystyle   \sigma   _ { 2 } ^ { 2 } = \mathbb   { E }   ( y - \mu   _ { 2 } ) ^ { 2 } = \mathbb   { E }   ( c \,x - c \,\mu   _ { 1 } ) ^ { 2 } = c ^ { 2 } \mathbb   { E }   ( x - \mu   _ { 1 } ) ^ { 2 } = c ^ { 2 } \,\sigma   _ { 1 } ^ { 2 } }
+\sigma   _ { 1 } ^ { 2 } = a \mu   _ { 1 } ^ { b }
+{ \displaystyle   \sigma   _ { 2 } ^ { 2 } = a \mu   _ { 2 } ^ { b } = c ^ { 2 } \sigma   _ { 1 } ^ { 2 } = c ^ { 2 } a \mu   _ { 1 } ^ { b } }
+b = { \frac     { f - \varphi   + { \sqrt     { ( f - \varphi   ) ^ { 2 } - 4 r ^ { 2 } f \varphi   } } } { 2 r { \sqrt     { f } } } }
+s ^ { 2 } = ( c n ^ { d } ) ( m ^ { b } )
+S = V + P
+V = a m ^ { b }
+P = m
+S = V + P = a m ^ { b } + m
+{ \displaystyle   v a r _ { b i n } = n p ( 1 - p ) }
+{ \displaystyle   v a r _ { o b s } = a ( v a r _ { b i n } ) ^ { b } }
+{ \displaystyle   \log ( v a r _ { o b s } ) = \log ( a ) + b \log ( v a r _ { b i n } ) }
+p = 1 - e ^ { { - m } }
+p = 1 - e ^ { { - m \log ( s ^ { 2 } / m ) ( s ^ { 2 } / m - 1 ) ^ { { - 1 } } } }
+p = 1 - e ^ { { - m \log ( a m ^ { { b - 1 } } ) ( a m ^ { { b - 1 } } - 1 ) ^ { { - 1 } } } }
+k = m ^ { 2 } / ( s ^ { 2 } - m )
+{ \displaystyle   k = { \frac   { m } { a m ^ { b - 1 } - 1 } } }
+p = 1 - e ^ { { - m \log ( a m ^ { { b - 1 } } ) ( a m ^ { { b - 1 } } - 1 ) ^ { { - 1 } } } }
+P ( x ) = P ( x - 1 ) { \frac     { k + x - 1 } { x } } { \frac     { m k ^ { { - 1 } } } { m k ^ { { - 1 } } - 1 } }
+P ( 0 ) = ( 1 + m / k ) ^ { { - k } }
+{ \displaystyle   \mathrm   { C I }   = t \left ( { \frac   { P ( x ) ( 1 - P ( x ) ) } { N } } \right ) ^ { 1 / 2 } }
+m = { \frac     { w _ { 1 } } { 1 - w _ { 2 } } }
+{ \displaystyle   s ^ { 2 } = { \frac   { w _ { 1 } } { ( 1 - w _ { 2 } ) ^ { 2 } } } }
+{ \displaystyle   { \frac   { w _ { 1 } } { ( 1 - w _ { 2 } ) } } = m }
+{ \displaystyle   { \frac   { w _ { 2 } } { ( 1 - w _ { 2 } ) } } = { \frac   { s ^ { 2 } - m } { m } } }
+{ \displaystyle   p _ { n } = \left ( a + { \frac   { b } { n } } \right ) p _ { n - 1 } }
+a = - \log ( 1 - w _ { 2 } )
+b = 1
+{ \displaystyle   J _ { n } = { \sqrt   { \frac   { n } { 2 } } } { \frac   { s ^ { 2 } - m } { m } } }
+{ \displaystyle   N S = { \sqrt   { \frac   { n - 1 } { 2 } } } \left ( { \frac   { s ^ { 2 } } { m } } - 1 \right ) }
+{ \displaystyle   T = { \frac   { ( n - 1 ) s ^ { 2 } } { m } } }
+{ \displaystyle   J _ { n } = { \sqrt   { \frac   { n } { 2 } } } ( a m ^ { b - 1 } - 1 ) }
+N _ { { t + 1 } } = r N _ { { t } }
+v a r ( r ) = s ^ { 2 } ( \log ( r ) )
+{ \displaystyle   T _ { E } = { \frac   { 2 \log ( N ) } { V a r ( r ) } } ( \log ( K ) - { \frac   { \log ( N ) } { 2 } } ) }
+P ( t ) = 1 - e ^ { { { \frac     { t } { T _ { E } } } } }
+H = m - a m ^ { { ( b - 1 ) } }
+m > a ^ { { { \frac     { 1 } { 2 - b } } } }
+n = ( t / D ) ^ { 2 } / m
+n = ( t / D ) ^ { 2 } ( m + k ) / ( m k )
+n = ( t / D ) ^ { 2 } a m ^ { { ( b - 2 ) } }
+n = a m ^ { b } / D ^ { 2 } \ ,
+n = ( t / d _ { m } ) ^ { 2 } a m ^ { { ( b - 2 ) } }
+d _ { m } = { \frac     { C I } { 2 m } }
+n = ( t / d _ { p } ) ^ { 2 } p ^ { { - 1 } } q
+d _ { p } = { \frac     { C I } { 2 p } }
+{ \displaystyle   N = \left ( { \frac   { t } { D _ { p i } } } \right ) ^ { 2 } { \frac   { 1 - p } { p } } }
+\log   T = { \frac     { \log ( D ^ { 2 } ) - a } { b - 2 } } + ( \log   n ) { \frac     { b - 1 } { b - 2 } }
+n = t | m - T | ^ { { - 2 } } a m ^ { b }
+n = t | m - T | ^ { { - 2 } } p q
+D = ( a n ^ { { 1 - b } } T ^ { { b - 2 } } ) ^ { { 1 / 2 } }
+{ \displaystyle   T _ { n } \geq   \left ( { \frac   { a n ^ { 1 - b } } { D ^ { 2 } } } \right ) ^ { \frac   { 1 } { 2 - b } } }
+T _ { n } \geq   { \frac     { \alpha   - 1 } { D ^ { 2 } - { \frac     { \beta   - 1 } { n } } } }
+s _ { i } ^ { 2 } = a m _ { i } + b m _ { i } ^ { 2 } \ ,
+p _ { 0 } = \exp ( - a m ^ { b } )
+\log   m = c + d \log   p _ { 0 }
+{ \displaystyle   P _ { 1 } = 1 - \exp   \left ( - \exp   \left ( { \frac   { { \frac   { \log   _ { e } \left ( { \frac   { A ^ { 2 } } { a } } \right ) } { b - 2 } } + \log   _ { e } ( n ) \left ( { \frac   { b - 1 } { b - 2 } } - 1 \right ) - c } { d } } \right ) \right ) }
+N = n P _ { 1 }
+{ \displaystyle   A ^ { 2 } = { \frac   { D ^ { 2 } } { z _ { \alpha   / 2 } ^ { 2 } } } }
+{ \displaystyle   \log ( m ) = \log ( a ) + b \log ( - \log ( p _ { 0 } ) ) }
+{ \displaystyle   p _ { 0 } = \exp ( - A m ^ { B } ) }
+P = 1 - a e ^ { { b m } }
+{ \displaystyle   m _ { a } = m \left ( 1 - { \frac   { \operatorname   { v a r }   ( \log ( m _ { i } ) ) } { 2 } } \right ) }
+{ \displaystyle   m _ { a } = m e ^ { ( { \text { M S E } } / 2 ) } }
+{ \displaystyle   \operatorname   { v a r }   ( m ) = m ^ { 2 } ( c _ { 1 } + c _ { 2 } - c _ { 3 } + M S E ) }
+c _ { 1 } = { \frac     { \beta   ^ { 2 } ( 1 - p _ { 0 } ) } { n p _ { 0 } \log   _ { e } ( p _ { 0 } ) ^ { 2 } } }
+{ \displaystyle   c _ { 2 } = { \frac   { \text { M S E } } { N } } + s _ { \beta   } ^ { 2 } ( \log   _ { e } ( \log   _ { e } ( p _ { 0 } ) ) - p ^ { 2 } ) }
+{ \displaystyle   c _ { 3 } = { \frac   { \exp ( a + ( b - 2 ) [ \alpha   - \beta   \log   _ { e } ( p _ { 0 } ) ] ) } { n } } }
+s ^ { 2 } = a + b \log   _ { e } ( m )
+{ \displaystyle   v a r _ { \text { o b s } } = a p ^ { b } ( 1 - p ) ^ { c } }
+{ \displaystyle   \log ( \operatorname   { v a r }   _ { \text { o b s } } ) = \log ( a ) + b \log ( p ) + c \log ( 1 - p ) . }
+{ \displaystyle   \operatorname   { v a r }   _ { \text { o b s } } = a ( p ( 1 - p ) ) ^ { b } }
+{ \displaystyle   \log ( \operatorname   { v a r }   _ { \text { o b s } } / n ^ { 2 } ) = a + b \log ( p ( 1 - p ) / n ) }
+1 / k = a m ^ { { b - 2 } } - 1 / m
+\sum   { \frac     { A _ { x } } { k + x } } = N \log ( 1 + m / k )
+U = s ^ { 2 } - m + m ^ { 2 } / k
+{ \displaystyle   \operatorname   { v a r }   ( U ) = 2 m p ^ { 2 } q \left ( { \frac   { 1 - R ^ { 2 } } { - \log ( 1 - R ) - R } } \right ) + p ^ { 4 } { \frac   { ( 1 - R ) ^ { - k } - 1 - k R } { N ( - \log ( 1 - R ) - R ) ^ { 2 } } } }
+\sigma   ^ { 2 } = \mu   + a \mu   ^ { p }
+k = m ^ { 2 } / ( s ^ { 2 } - m )
+{ \displaystyle   k _ { i } = a + b m _ { i } }
+{ \displaystyle   C = { \frac   { 1 0 0 ( s ^ { 2 } - m ) ^ { 0 . 5 } } { m } } }
+I _ { c } = { \frac     { \Sigma   x ^ { 2 } } { ( \Sigma   x ) ^ { 2 } } }
+{ \displaystyle   I _ { c } = { \frac   { s ^ { 2 } + ( n m ) ^ { 2 } } { ( n m ) ^ { 2 } } } = { \frac   { 1 } { n ^ { 2 } } } { \frac   { s ^ { 2 } } { m ^ { 2 } } } + 1 }
+{ \displaystyle   I _ { c } = { \frac   { a m ^ { b - 2 } } { n ^ { 2 } } } + 1 }
+{ \mathrm     { I M C } } = m + s ^ { 2 } / m - 1
+{ \displaystyle   \mathrm   { I P }   = { \text { I M C } } / m }
+s ^ { 2 } = m + { \frac     { m ^ { 2 } } { k } }
+{ \displaystyle   S E ( I P ) = { \frac   { 1 } { k ^ { 2 } } } [ \operatorname   { v a r }   ( k ) + { \frac   { k ( k + 1 ) ( k + m ) } { m q } } ] }
+{ \displaystyle   \mathrm   { I M C }   = m + a ^ { - 1 } m ^ { 1 - b } - 1 }
+{ \mathrm     { I P } } = 1 + a ^ { { - 1 } } m ^ { { - b } } - { \frac     { 1 } { m } }
+y _ { i } = m _ { i } + s ^ { 2 } / m _ { i } - 1
+{ \displaystyle   n = \left ( { \frac   { t } { D } } \right ) ^ { 2 } ( { \frac   { a + 1 } { m } } + b - 1 ) }
+N _ { u } = i m _ { c } + t ( i ( a + 1 ) m _ { c } + ( b - 1 ) m _ { c } ^ { 2 } ) ^ { { 1 / 2 } }
+N _ { l } = i m _ { c } - t ( i ( a + 1 ) m _ { c } + ( b - 1 ) m _ { c } ^ { 2 } ) ^ { { 1 / 2 } }
+{ \displaystyle   T _ { n } = { \frac   { a + 1 } { D ^ { 2 } - { \frac   { b - 1 } { n } } } } }
+{ \displaystyle   T _ { n } = \left ( 1 - { \frac   { n } { N } } \right ) { \frac   { a + 1 } { D ^ { 2 } - \left ( 1 - { \frac   { n } { N } } \right ) { \frac   { b - 1 } { n } } } } }
+{ \displaystyle   I _ { m } = { \frac   { \sum   x ( x - 1 ) } { n m ( m - 1 ) } } }
+{ \displaystyle   I _ { m } = n { \frac   { \sum   x ^ { 2 } - \sum   x } { ( \sum   x ) ^ { 2 } - \sum   x } } }
+I _ { m } = { \frac     { n I M C } { ( n m - 1 ) } }
+I _ { m } ( \sum   x - 1 ) + n - \sum   x
+z = { \frac     { I _ { m } - 1 } { ( 2 / n m ^ { 2 } ) } }
+M _ { u } = { \frac     { \chi   _ { { 0 . 9 7 5 } } ^ { 2 } - k + \sum   x } { \sum   x - 1 } }
+M _ { c } = { \frac     { \chi   _ { { 0 . 0 2 5 } } ^ { 2 } - k + \sum   x } { \sum   x - 1 } }
+I _ { p } = 0 . 5 + 0 . 5 ( { \frac     { I _ { d } - M _ { c } } { k - M _ { c } } } )
+I _ { p } = 0 . 5 ( { \frac     { I _ { d } - 1 } { M _ { u } - 1 } } )
+I _ { p } = - 0 . 5 ( { \frac     { I _ { d } - 1 } { M _ { u } - 1 } } )
+I _ { p } = - 0 . 5 + 0 . 5 ( { \frac     { I _ { d } - M _ { u } } { M _ { u } } } )
+{ \frac     { 1 } { k } } = { \frac     { m ^ { * } } { m } } - 1
+{ \mathrm     { I D } } = { \frac     { ( n - 1 ) s ^ { 2 } } { m } }
+{ \displaystyle   { \frac   { \sum   x } { n } } > 3 }
+{ \mathrm     { I D } } = ( n - 1 ) a m ^ { { b - 1 } }
+{ \mathrm     { I C S } } = s ^ { 2 } / m - 1
+{ \mathrm     { I C S } } = a m ^ { { b - 1 } } - 1
+{ \displaystyle   C _ { x } = { \frac   { s ^ { 2 } / m - 1 } { n m - 1 } } }
+C _ { x } = { \frac     { a m ^ { { b - 1 } } - 1 } { ( n m - 1 ) } }
+s ^ { 2 } = n p ( 1 - p )
+D = { \frac     { v a r _ { { o b s } } } { v a r _ { { b i n } } } } = { \frac     { s ^ { 2 } } { n p ( 1 - p ) } }
+C = { \frac     { D ( n N - 1 ) - n N } { ( 2 N ( n ^ { 2 } - n ) ) ^ { { 1 / 2 } } } }
+{ \displaystyle   \rho   = 1 - { \frac   { \sum   x _ { i } ( T - x _ { i } ) } { p ( 1 - p ) N T ( T - 1 ) } } }
+\rho   = { \frac     { D - 1 } { n - 1 } }
+D = 1 + { \frac     { ( n - 1 ) \theta   } { 1 + \theta   } }
+{ \displaystyle   m _ { 0 } = \exp ( { \frac   { \log ( a ) } { 1 - b } } ) }
+v a r ( s ^ { 2 } - m ) = { \frac     { 2 t ^ { 2 } } { n - 1 } }
+{ \displaystyle   O _ { T } = { \sqrt   { \frac   { n - 1 } { 2 } } } { \frac   { s ^ { 2 } - m } { m } } }
+\theta   = { \frac     { s ^ { 2 } } { m } }
+{ \displaystyle   V _ { \theta   } = { \frac   { 2 n } { ( n - 1 ) ^ { 2 } } } }
+{ \displaystyle   V _ { \theta   } = { \frac   { 2 } { n - 1 } } }
+\theta   = a m ^ { { b - 1 } }
+\theta   = { \frac     { s ^ { 2 } } { m } } = { \frac     { 1 } { n } } \sum   { ( x _ { i } - { \frac     { n } { N } } ) ^ { 2 } }
+{ \displaystyle   E ( \theta   ) = { \frac   { N } { N - 1 } } }
+{ \displaystyle   V a r ( \theta   ) = { \frac   { ( N - 1 ) ^ { 2 } } { N ^ { 3 } } } - { \frac   { 2 N - 3 } { n N ^ { 2 } } } }
+{ \displaystyle   V a r ( \theta   ) \sim   \ { \frac   { 2 } { N } } ( 1 - { \frac   { 1 } { n } } ) }

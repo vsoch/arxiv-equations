@@ -1,0 +1,38 @@
+p ( H 1 ) = \pi   _ { 1 }
+p ( H 2 ) = \pi   _ { 2 }
+p ( H 1 | y ) = { \frac     { p ( y | H 1 ) \cdot   \pi   _ { 1 } } { p ( y ) } }
+p ( H 2 | y ) = { \frac     { p ( y | H 2 ) \cdot   \pi   _ { 2 } } { p ( y ) } }
+p ( y | H 1 ) \cdot   \pi   _ { 1 } + p ( y | H 2 ) \cdot   \pi   _ { 2 }
+{ \frac     { p ( y | H 2 ) \cdot   \pi   _ { 2 } } { p ( y | H 1 ) \cdot   \pi   _ { 1 } + p ( y | H 2 ) \cdot   \pi   _ { 2 } } } \geq   { \frac     { p ( y | H 1 ) \cdot   \pi   _ { 1 } } { p ( y | H 1 ) \cdot   \pi   _ { 1 } + p ( y | H 2 ) \cdot   \pi   _ { 2 } } }
+\Rightarrow   { \frac     { p ( y | H 2 ) } { p ( y | H 1 ) } } \geq   { \frac     { \pi   _ { 1 } } { \pi   _ { 2 } } }
+{ \frac     { \pi   _ { 1 } } { \pi   _ { 2 } } }
+\tau   _ { { M A P } }
+{ \frac     { p ( y | H 2 ) } { p ( y | H 1 ) } }
+L ( y )
+L ( y ) \geq   \tau   _ { { M A P } }
+U _ { { 1 1 } }
+U _ { { 1 2 } }
+U _ { { 2 1 } }
+U _ { { 2 2 } }
+U _ { { 1 1 } } - U _ { { 2 1 } }
+U _ { { 2 2 } } - U _ { { 1 2 } }
+P _ { { 1 1 } }
+P _ { { 1 2 } }
+U = P _ { { 1 1 } } \cdot   U _ { { 1 1 } } + P _ { { 2 1 } } \cdot   U _ { { 2 1 } } + P _ { { 1 2 } } \cdot   U _ { { 1 2 } } + P _ { { 2 2 } } \cdot   U _ { { 2 2 } }
+U = P _ { { 1 1 } } \cdot   U _ { { 1 1 } } + ( 1 - P _ { { 1 1 } } ) \cdot   U _ { { 2 1 } } + P _ { { 1 2 } } \cdot   U _ { { 1 2 } } + ( 1 - P _ { { 1 2 } } ) \cdot   U _ { { 2 2 } }
+U = U _ { { 2 1 } } + U _ { { 2 2 } } + P _ { { 1 1 } } \cdot   ( U _ { { 1 1 } } - U _ { { 2 1 } } ) - P _ { { 1 2 } } \cdot   ( U _ { { 2 2 } } - U _ { { 1 2 } } )
+U ' = P _ { { 1 1 } } \cdot   ( U _ { { 1 1 } } - U _ { { 2 1 } } ) - P _ { { 1 2 } } \cdot   ( U _ { { 2 2 } } - U _ { { 1 2 } } )
+P _ { { 1 1 } } = \pi   _ { 1 } \cdot   \int   _ { { R _ { 1 } } } p ( y | H 1 ) \,dy
+P _ { { 1 2 } } = \pi   _ { 2 } \cdot   \int   _ { { R _ { 1 } } } p ( y | H 2 ) \,dy
+\pi   _ { 1 }
+\pi   _ { 2 }
+P ( H 1 )
+P ( H 2 )
+R _ { 1 }
+\Rightarrow   U ' = \int   _ { { R _ { 1 } } } \left \{ \pi   _ { 1 } \cdot   ( U _ { { 1 1 } } - U _ { { 2 1 } } ) \cdot   p ( y | H 1 ) - \pi   _ { 2 } \cdot   ( U _ { { 2 2 } } - U _ { { 1 2 } } ) \cdot   p ( y | H 2 ) \right \}\,dy
+U '
+U
+R _ { 1 }
+\pi   _ { 1 } \cdot   ( U _ { { 1 1 } } - U _ { { 2 1 } } ) \cdot   p ( y | H 1 ) - \pi   _ { 2 } \cdot   ( U _ { { 2 2 } } - U _ { { 1 2 } } ) \cdot   p ( y | H 2 ) > 0
+\pi   _ { 2 } \cdot   ( U _ { { 2 2 } } - U _ { { 1 2 } } ) \cdot   p ( y | H 2 ) \geq   \pi   _ { 1 } \cdot   ( U _ { { 1 1 } } - U _ { { 2 1 } } ) \cdot   p ( y | H 1 )
+\Rightarrow   L ( y ) \equiv   { \frac     { p ( y | H 2 ) } { p ( y | H 1 ) } } \geq   { \frac     { \pi   _ { 1 } \cdot   ( U _ { { 1 1 } } - U _ { { 2 1 } } ) } { \pi   _ { 2 } \cdot   ( U _ { { 2 2 } } - U _ { { 1 2 } } ) } } \equiv   \tau   _ { B }

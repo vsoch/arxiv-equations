@@ -1,0 +1,15 @@
+{ \displaystyle   \textstyle   { \frac   { p } { q } } }
+{ \displaystyle   { \overrightarrow   { A } } = ( q , p ) }
+{ \displaystyle   \textstyle   { \frac   { p } { q } } }
+{ \displaystyle   \textstyle   { \frac   { p _ { 1 } } { q _ { 1 } } } }
+{ \displaystyle   \textstyle   { \frac   { p _ { 2 } } { q _ { 2 } } } }
+( q _ { 1 } , p _ { 1 } )
+( q _ { 2 } , p _ { 2 } )
+{ \displaystyle   ( q _ { 1 } + q _ { 2 } , p _ { 1 } + p _ { 2 } ) }
+{ \displaystyle   \textstyle   { \frac   { p _ { 1 } + p _ { 2 } } { q _ { 1 } + q _ { 2 } } } }
+{ \displaystyle   { \overrightarrow   { L _ { 1 } } } }
+{ \displaystyle   { \overrightarrow   { B _ { 1 } } } }
+{ \displaystyle   { \overrightarrow   { L _ { 2 } } } }
+{ \displaystyle   { \overrightarrow   { B _ { 2 } } } }
+{ \displaystyle   { \overrightarrow   { L _ { 1 } } } + { \overrightarrow   { L _ { 2 } } } }
+{ \displaystyle   { \overrightarrow   { B _ { 1 } } } + { \overrightarrow   { B _ { 2 } } } }

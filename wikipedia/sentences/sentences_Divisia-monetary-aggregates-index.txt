@@ -1,0 +1,19 @@
+{ \displaystyle   M _ { t } = \sum   _ { j = 1 } ^ { n } x _ { j t } , }
+{ \displaystyle   x _ { j t } }
+n
+{ \displaystyle   M _ { t } }
+{ \displaystyle   \log   M _ { t } ^ { D } - \log   M _ { t - 1 } ^ { D } = \sum   _ { j = 1 } ^ { n } s _ { j t } ^ { * } ( \log   x _ { j t } - \log   x _ { j , t - 1 } ) }
+{ \displaystyle   s _ { j t } ^ { * } = { \frac   { 1 } { 2 } } ( s _ { j t } + s _ { j , t - 1 } ) , }
+{ \displaystyle   j = 1 , . . . , n }
+{ \displaystyle   s _ { j t } = { \frac   { \pi   _ { j t } x _ { j t } } { \sum   _ { k = 1 } ^ { n } \pi   _ { k t } x _ { k t } } } , }
+j
+t
+{ \displaystyle   \pi   _ { j t } }
+j
+{ \displaystyle   \pi   _ { j t } = { \frac   { R _ { t } - r _ { j t } } { 1 + R _ { t } } } , }
+j
+{ \displaystyle   r _ { j t } }
+j
+{ \displaystyle   R _ { t } }
+{ \displaystyle   M _ { t } ^ { D } }
+{ \displaystyle   M _ { t } }

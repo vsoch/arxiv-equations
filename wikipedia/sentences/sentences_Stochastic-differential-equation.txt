@@ -1,0 +1,40 @@
+{ \displaystyle   { \frac   { d x ( t ) } { d t } } = F ( x ( t ) ) + \sum   _ { \alpha   = 1 } ^ { n } g _ { \alpha   } ( x ( t ) ) \xi   ^ { \alpha   } ( t ) , \ , }
+x \in   X
+X
+{ \displaystyle   F \in   T X }
+{ \displaystyle   g _ { \alpha   } \in   T X }
+{ \displaystyle   \xi   ^ { \alpha   } }
+X
+g
+  g ( x )   \propto   x
+\eta_m
+\eta_m
+  \mathrm { d }   X _ t   =   \mu ( X _ t , t ) \, \mathrm { d }   t   +     \sigma ( X _ t , t ) \, \mathrm { d }   B _ t   ,  
+B
+  X _ { t + s }   -   X _ { t }   =   \int_t ^ { t + s }   \mu ( X _ u , u )   \mathrm { d }   u   +   \int_t ^ { t + s }   \sigma ( X _ u , u ) \, \mathrm { d }   B _ u   .  
+{ \displaystyle   \Omega   , \,{ \mathcal   { F } } , \,P }
+\mathrm { d }   X _ t   =   \mu   X _ t   \, \mathrm { d }   t   +     \sigma   X _ t   \, \mathrm { d }   B _ t .
+\mu   :   \mathbb { R } ^ { n }   \times   [ 0 ,   T ]   \to   \mathbb { R } ^ { n } ;
+\sigma   :   \mathbb { R } ^ { n }   \times   [ 0 ,   T ]   \to   \mathbb { R } ^ { n   \times   m } ;
+\big |   \mu   ( x ,   t )   \big |   +   \big |   \sigma   ( x ,   t )   \big |   \leq   C   \big (   1   +   |   x   |   \big ) ;
+\big |   \mu   ( x ,   t )   -   \mu   ( y ,   t )   \big |   +   \big |   \sigma   ( x ,   t )   -   \sigma   ( y ,   t )   \big |   \leq   D   |   x   -   y   | ;
+|   \sigma   | ^ { 2 }   =   \sum_ { i ,   j   =   1 } ^ { n }   |   \sigma_ { i j }   | ^ { 2 } .
+\mathbb { E }   \big [   |   Z   | ^ { 2 }   \big ]   <   +   \infty .
+\mathrm { d }   X _ { t }   =   \mu   ( X _ { t } ,   t )   \, \mathrm { d }   t   +   \sigma   ( X _ { t } ,   t )   \, \mathrm { d }   B _ { t }   \mbox {   f o r   }   t   \in   [ 0 ,   T ] ;
+X _ { 0 }   =   Z ;
+\mathbb { E }   \left [   \int_ { 0 } ^ { T }   |   X _ { t }   | ^ { 2 }   \, \mathrm { d }   t   \right ]   <   +   \infty .
+d X _ { t } = ( a ( t ) X _ { t } + c ( t ) ) d t + ( b ( t ) X _ { t } + d ( t ) ) d W _ { t }
+X _ { t } = \Phi   _ { { t , t _ { 0 } } } \left ( X _ { { t _ { 0 } } } + \int   _ { { t _ { 0 } } } ^ { t } \Phi   _ { { s , t _ { 0 } } } ^ { { - 1 } } ( c ( s ) - b ( s ) d ( s ) ) d s + \int   _ { { t _ { 0 } } } ^ { t } \Phi   _ { { s , t _ { 0 } } } ^ { { - 1 } } d ( s ) d W _ { s } \right )
+\Phi   _ { { t , t _ { 0 } } } = \exp   \left ( \int   _ { { t _ { 0 } } } ^ { t } \left ( a ( s ) - { \frac     { b ^ { 2 } ( s ) } { 2 } } \right ) d s + \int   _ { { t _ { 0 } } } ^ { t } b ( s ) d W _ { s } \right )
+{ \displaystyle   d X _ { t } = { \frac   { 1 } { 2 } } f ( X _ { t } ) f ' ( X _ { t } ) d t + f ( X _ { t } ) d W _ { t } }
+f
+d X _ { t } = f ( X _ { t } ) \circ   W _ { t }
+X _ { t } = h ^ { { - 1 } } ( W _ { t } + h ( X _ { 0 } ) )
+h ( x ) = \int   ^ { { x } } { \frac     { d s } { f ( s ) } }
+{ \displaystyle   d X _ { t } = \left ( \alpha   f ( X _ { t } ) + { \frac   { 1 } { 2 } } f ( X _ { t } ) f ' ( X _ { t } ) \right ) d t + f ( X _ { t } ) d W _ { t } }
+f
+d X _ { t } = \alpha   f ( X _ { t } ) d t + f ( X _ { t } ) \circ   W _ { t }
+d Y _ { t } = \alpha   d t + d W _ { t }
+Y _ { t } = h ( X _ { t } )
+h
+X _ { t } = h ^ { { - 1 } } ( \alpha   t + W _ { t } + h ( X _ { 0 } ) )

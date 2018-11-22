@@ -1,0 +1,8 @@
+L R + = { \frac     { { \text { s e n s i t i v i t y } } } { 1 - { \text { s p e c i f i c i t y } } } }
+L R + = { \frac     { \Pr ( { T + } | D + ) } { \Pr ( { T + } | D - ) } }
+L R - = { \frac     { 1 - { \text { s e n s i t i v i t y } } } { { \text { s p e c i f i c i t y } } } }
+L R - = { \frac     { \Pr ( { T - } | D + ) } { \Pr ( { T - } | D - ) } }
+{ \displaystyle   { \begin { a l i g n e d } ( 1 ) \ Odds = P r o b a b i l i t y / ( 1 - P r o b a b i l i t y ) \end { a l i g n e d } } }
+{ \displaystyle   { \begin { a l i g n e d } ( 2 ) \ Probability & = O d d s \times   ( 1 - P r o b a b i l i t y ) \\&=Odds - P r o b a b i l i t y \times   O d d s \\\end { a l i g n e d } } }
+{ \displaystyle   { \begin { a l i g n e d } ( 3 ) \ Probability + P r o b a b i l i t y \times   O d d s & = O d d s \\Probability \times   ( 1 + O d d s ) & = O d d s \\\end { a l i g n e d } } }
+{ \displaystyle   { \begin { a l i g n e d } ( 4 ) \ Probability = O d d s / ( 1 + O d d s ) \end { a l i g n e d } } }

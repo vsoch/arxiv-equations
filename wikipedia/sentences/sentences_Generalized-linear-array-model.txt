@@ -1,0 +1,33 @@
+{ \mathbf     Y }
+d
+n _ { 1 } \times   n _ { 2 } \times   \ldots   \times   n _ { d }
+{ \mathbf     y } = { \textbf     { v e c } } ( { \mathbf     Y } )
+n _ { 1 } n _ { 2 } n _ { 3 } \cdots   n _ { d }
+{ \mathbf     X } = { \mathbf     X } _ { d } \otimes   { \mathbf     X } _ { { d - 1 } } \otimes   \ldots   \otimes   { \mathbf     X } _ { 1 } .
+\mathbf   { y }  
+\mathbf   { X }  
+{ \mathbf     X } ' { \tilde     { { \mathbf     W } } } _ { \delta   } { \mathbf     X } { \hat     { { \boldsymbol     \theta   } } } = { \mathbf     X } ' { \tilde     { { \mathbf     W } } } _ { \delta   } { \tilde     { { \mathbf     z } } } ,
+{ \tilde     { { \boldsymbol     \theta   } } }
+{ \boldsymbol   { \theta   } }
+\hat { \boldsymbol \theta }
+{ \mathbf     W } _ { \delta   }
+w _ { { i i } } ^ { { - 1 } } = \left ( { \frac     { \partial   \eta   _ { i } } { \partial   \mu   _ { i } } } \right ) ^ { 2 } { \text { v a r } } ( y _ { i } ) ,
+{ \mathbf     z } = { \boldsymbol     \eta   } + { \mathbf     W } _ { \delta   } ^ { { - 1 } } ( { \mathbf     y } - { \boldsymbol     \mu   } )
+{ \boldsymbol     \eta   } = { \mathbf     X } { \boldsymbol     \theta   }
+{ \mathbf     X } ' { \tilde     { { \mathbf     W } } } _ { \delta   } { \mathbf     X }
+{ \mathbf     X } .
+{ \mathbf     X } = { \mathbf     X } _ { 2 } \otimes   { \mathbf     X } _ { 1 } ,
+{ \mathbf     X } _ { 1 } { \boldsymbol     \Theta   } { \mathbf     X } _ { 2 } '
+{ \boldsymbol     \Theta   }
+G ( { \mathbf     X } _ { 1 } ) ' { \mathbf     W } G ( { \mathbf     X } _ { 2 } )
+{ \mathbf     W }
+G ( { \mathbf     M } )
+r \times   c
+{ \mathbf     M }
+G ( { \mathbf     M } ) = ( { \mathbf     M } \otimes   { \mathbf     1 } ' ) * ( { \mathbf     1 } ' \otimes   { \mathbf     M } )
+*
+{ \mathbf     1 }
+c
+d
+d
+d

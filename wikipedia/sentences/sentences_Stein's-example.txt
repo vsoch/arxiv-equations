@@ -1,0 +1,18 @@
+{ \displaystyle   { \mathbf   { X }   } \sim   N ( { \boldsymbol   { \theta   } } , 1 ) . }
+{ \displaystyle   { \hat   { \boldsymbol   { \theta   } } } = { \mathbf   { X }   } . }
+{ \displaystyle   \operatorname   { E }   \left [ \left \|{ \boldsymbol   { \theta   } } - { \hat   { \boldsymbol   { \theta   } } } \right \|^ { 2 } \right ] . }
+{ \boldsymbol   \theta }
+\hat   { \boldsymbol   \theta } _ 1
+\hat   { \boldsymbol   \theta } _ 2
+{ \boldsymbol   \theta }
+\hat   { \boldsymbol   \theta } _ 1
+\hat   { \boldsymbol   \theta } _ 2
+{ \boldsymbol   \theta }
+{ \displaystyle   \operatorname   { E }   \left [ \left ( { \theta   _ { i } } - { { \hat   { \theta   } } _ { i } } \right ) ^ { 2 } \right ] . }
+\theta   _ { 1 }
+X _ { 1 }
+X _ { 1 }
+\theta   _ { 1 }
+X _ { 1 }
+X _ { i }
+\hat   \theta_i

@@ -1,0 +1,25 @@
+( S , d )
+X : [ 0 , + \infty   ) \times   \Omega   \to   S
+T > 0
+\alpha   , \beta   , K
+{ \displaystyle   \mathbb   { E }   [ d ( X _ { t } , X _ { s } ) ^ { \alpha   } ] \leq   K | t - s | ^ { 1 + \beta   } }
+0 \leq   s , t \leq   T
+{ \tilde   { X } }
+X
+{ \tilde   { X } } : [ 0 , + \infty   ) \times   \Omega   \to   S
+{ \tilde   { X } }
+t \geq   0
+{ \displaystyle   \mathbb   { P }   ( X _ { t } = { \tilde   { X } } _ { t } ) = 1 . }
+{ \tilde   { X } }
+\gamma  
+0 < \gamma   < { \tfrac   { \beta   } { \alpha   } }
+\mathbb   { R }   ^ { n }
+\alpha   = 4
+\beta   = 1
+K = n ( n + 2 )
+m
+{ \displaystyle   \alpha   = 2 m }
+{ \displaystyle   \beta   = m - 1 }
+K
+n
+m

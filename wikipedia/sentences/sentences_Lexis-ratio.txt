@@ -1,0 +1,3 @@
+{ \displaystyle   L ^ { 2 } = Q ^ { 2 } = { \frac   { s ^ { 2 } } { \sigma   _ { 0 } ^ { 2 } } } . }
+{ \displaystyle   s ^ { 2 } }
+\sigma   _ { 0 } ^ { 2 }

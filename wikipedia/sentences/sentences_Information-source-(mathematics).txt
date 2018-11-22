@@ -1,0 +1,4 @@
+{ \displaystyle   H \{ \mathbf   { X }   \}=\lim   _ { n \to   \infty   } H ( X _ { n } | X _ { 0 } , X _ { 1 } , \dots   , X _ { n - 1 } ) }
+{ \displaystyle   X _ { 0 } , X _ { 1 } , \dots   , X _ { n } }
+H ( X _ { n } | X _ { 0 } , X _ { 1 } , \dots   , X _ { { n - 1 } } )
+{ \displaystyle   H \{ \mathbf   { X }   \}=\lim   _ { n \to   \infty   } { \frac   { H ( X _ { 0 } , X _ { 1 } , \dots   , X _ { n - 1 } , X _ { n } ) } { n + 1 } } . }

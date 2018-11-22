@@ -1,0 +1,23 @@
+d S _ { t } = \mu   S _ { t } \,dt + { \sqrt     { \nu   _ { t } } } S _ { t } \,dW_ { t } ^ { S } \ ,
+\nu_t
+d \nu   _ { t } = \kappa   ( \theta   - \nu   _ { t } ) \,dt + \xi   { \sqrt     { \nu   _ { t } } } \,dW_ { t } ^ { { \nu   } } \ ,
+{ \displaystyle   W _ { t } ^ { S } , W _ { t } ^ { \nu   } }
+\nu_t
+2 \kappa   \theta   > \xi   ^ { 2 } \ , .
+{ \displaystyle   d S _ { t } = \mu   _ { t } S _ { t } \,dt + { \sqrt   { \nu   _ { t } } } S _ { t } \,dW_ { t } ^ { S } \ , . }
+\nu_t
+d \nu   _ { t } = \kappa   _ { t } ( \theta   _ { t } - \nu   _ { t } ) \,dt + \xi   _ { t } { \sqrt     { \nu   _ { t } } } \,dW_ { t } ^ { { \nu   } } \ ,
+{ \scriptstyle   d W _ { t } ^ { S } , d W _ { t } ^ { { \nu   } } }
+d S _ { t } = \mu   S _ { t } \,dt + { \sqrt     { \nu   _ { t } ^ { 1 } } } S _ { t } \,dW_ { t } ^ { { S , 1 } } + { \sqrt     { \nu   _ { t } ^ { 2 } } } S _ { t } \,dW_ { t } ^ { { S , 2 } } \ ,
+d \nu   _ { t } ^ { 1 } = \kappa   ^ { 1 } ( \theta   ^ { 1 } - \nu   _ { t } ^ { 1 } ) \,dt + \xi   ^ { 1 } { \sqrt     { \nu   _ { t } ^ { 1 } } } \,dW_ { t } ^ { { \nu   ^ { 1 } } } \ ,
+d \nu   _ { t } ^ { 2 } = \kappa   ^ { 2 } ( \theta   ^ { 2 } - \nu   _ { t } ^ { 2 } ) \,dt + \xi   ^ { 2 } { \sqrt     { \nu   _ { t } ^ { 2 } } } \,dW_ { t } ^ { { \nu   ^ { 2 } } } \ ,
+{ \displaystyle   d r _ { t } = ( \theta   _ { t } - \alpha   _ { t } ) \,dt + { \sqrt   { r _ { t } } } \,\sigma   _ { t } \,dW_ { t } , }
+d \alpha   _ { t } = ( \zeta   _ { t } - \alpha   _ { t } ) \,dt + { \sqrt     { \alpha   _ { t } } } \,\sigma   _ { t } \,dW_ { t } ,
+d \sigma   _ { t } = ( \beta   _ { t } - \sigma   _ { t } ) \,dt + { \sqrt     { \sigma   _ { t } } } \,\eta   _ { t } \,dW_ { t } .
+n
+m
+M
+M
+M
+m - n
+e ^ { { - \rho   t } } S _ { t }

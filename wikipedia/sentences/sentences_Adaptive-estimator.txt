@@ -1,0 +1,6 @@
+\scriptstyle   { \hat     \nu   } _ { n }
+{ \mathcal     { P } } _ { \nu   } ( \eta   _ { 0 } ) = { \big   \{ } P _ { \theta   } : \nu   \in   N , \,\eta   = \eta   _ { 0 } { \big   \ } } .
+I _ { { \nu   \eta   } } ( \theta   ) = \operatorname   { E } [ \,z_ { \nu   } z _ { \eta   } ' \,]=0 \quad   { \text { f o r   a l l   } } \theta   ,
+\scriptstyle   { \mathcal     { P } }
+          \mathcal { P }   =   \Big \{ \ f_ \theta ( x )   =   \tfrac { 1 } { \sqrt { 2 \pi } \sigma }   e ^ {   - \frac { 1 } { 2 \sigma ^ 2 } ( x - \mu ) ^ 2   } \ \Big | \ \mu \in \mathbb { R } ,   \sigma > 0   \ \Big \ } .      
+{ \hat     \mu   } \,=\,{ \bar     { x } }

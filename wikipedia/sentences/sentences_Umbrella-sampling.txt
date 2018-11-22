@@ -1,0 +1,8 @@
+\pi   ( \mathbf   { r }   ^ { N } ) = { \frac   { w ( { \textbf   { r } } ^ { N } ) \exp   { \left ( - { \frac   { U ( \mathbf   { r }   ^ { N } ) } { k _ { B } T } } \right ) } } { \int   { w ( \mathbf   { r ^ { \prime   } }   ^ { N } ) \exp   { \left ( - { \frac   { U ( \mathbf   { r ^ { \prime   } }   ^ { N } ) } { k _ { B } T } } \right ) } d \mathbf   { r ^ { \prime   } }   ^ { N } } } } ,
+\langle   A \rangle   = { \frac   { \langle   A / w \rangle   _ { \pi   } } { \langle   1 / w \rangle   _ { \pi   } } } ,
+\pi  
+V ( \mathbf   { r }   ^ { N } ) = - k _ { B } T \ln   w ( \mathbf   { r }   ^ { N } )
+Q
+F _ { 0 } ( Q ) = F _ { \pi   } ( Q ) - V ( Q )
+F _ { 0 } ( Q )
+F _ { \pi   } ( Q )

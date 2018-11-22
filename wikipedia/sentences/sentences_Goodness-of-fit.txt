@@ -1,0 +1,11 @@
+  \chi ^ 2   =   \sum_ { i = 1 } ^ n   { \frac { ( O _ i   -   E _ i ) } { E _ i } ^ 2 }
+E _ i   \, = \, \bigg (   F ( Y _ u )   \, - \, F ( Y _ l )   \bigg )   \, N
+  \chi ^ 2   =   { ( 4 4   -   5 0 ) ^ 2   \over   5 0 }   +   { ( 5 6   -   5 0 ) ^ 2   \over   5 0 }   =   1 . 4 4
+  \chi ^ 2   =   \sum_ { i = 1 } ^ { k }   { \frac { ( N _ i   -   n p _ i ) ^ 2 } { n p _ i } }   =   \sum_ { \mathrm { a l l \ cells } } ^ { }   { \frac { ( \mathrm { O }   -   \mathrm { E } ) ^ 2 } { \mathrm { E } } } .
+  \sum   N _ i = n
+G = 2 \sum   _ { { i } } { O _ { { i } } \cdot   \ln   \left ( { \frac     { O _ { i } } { E _ { i } } } \right ) } ,
+{ \textstyle   O _ { i } }
+{ \textstyle   E _ { i } }
+{ \textstyle   \ln   }
+{ \displaystyle   \sum   _ { i } O _ { i } = \sum   _ { i } E _ { i } = N }
+{ \textstyle   N }

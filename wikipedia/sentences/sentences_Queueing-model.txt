@@ -1,0 +1,14 @@
+{ \textstyle   \delta }
+{ \textstyle   \mu   }
+{ \textstyle   \sigma   }
+{ \displaystyle   L = { \frac   { \delta   - \sigma   } { \mu   } } }
+{ \displaystyle   { \frac   { \sigma   } { \delta   } } = e ^ { - W { \mu   } } }
+{ \displaystyle   W = { \frac   { 1 } { \mu   } } l n { \frac   { \delta   } { \mu   } } }
+| E - L | \in   \{ 0 , 1 \ }
+\mu   _ { 1 } P _ { 1 } = \lambda   _ { 0 } P _ { 0 }
+\lambda   _ { 0 } P _ { 0 } + \mu   _ { 2 } P _ { 2 } = ( \lambda   _ { 1 } + \mu   _ { 1 } ) P _ { 1 }
+\lambda   _ { { n - 1 } } P _ { { n - 1 } } + \mu   _ { { n + 1 } } P _ { { n + 1 } } = ( \lambda   _ { n } + \mu   _ { n } ) P _ { n }
+P _ { 1 } = { \frac     { \lambda   _ { 0 } } { \mu   _ { 1 } } } P _ { 0 } \;\;\;P_ { 2 } = { \frac     { \lambda   _ { 1 } } { \mu   _ { 2 } } } P _ { 1 } + { \frac     { 1 } { \mu   _ { 2 } } } ( \mu   _ { 1 } P _ { 1 } - \lambda   _ { 0 } P _ { 0 } ) = { \frac     { \lambda   _ { 1 } } { \mu   _ { 2 } } } P _ { 1 } = { \frac     { \lambda   _ { 1 } \lambda   _ { 0 } } { \mu   _ { 2 } \mu   _ { 1 } } } P _ { 0 }
+P _ { n } = { \frac     { \lambda   _ { { n - 1 } } \lambda   _ { { n - 2 } } \cdots   \lambda   _ { 0 } } { \mu   _ { n } \mu   _ { { n - 1 } } \cdots   \mu   _ { 1 } } } P _ { 0 } = P _ { 0 } \prod   _ { { i = 0 } } ^ { { n - 1 } } { \frac     { \lambda   _ { i } } { \mu   _ { { i + 1 } } } }
+\sum   _ { { n = 0 } } ^ { { \infty   } } P _ { n } = P _ { 0 } + P _ { 0 } \sum   _ { { n = 1 } } ^ { { \infty   } } \prod   _ { { i = 0 } } ^ { { n - 1 } } { \frac     { \lambda   _ { i } } { \mu   _ { { i + 1 } } } } = 1
+P _ { 0 } = { \frac     { 1 } { 1 + \sum   _ { { n = 1 } } ^ { { \infty   } } \prod   _ { { i = 0 } } ^ { { n - 1 } } { \frac     { \lambda   _ { i } } { \mu   _ { { i + 1 } } } } } }

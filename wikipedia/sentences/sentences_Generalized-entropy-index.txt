@@ -1,0 +1,9 @@
+\alpha  
+G E ( \alpha   ) = { \begin { c a s e s } { \frac     { 1 } { N \alpha   ( \alpha   - 1 ) } } \sum   _ { { i = 1 } } ^ { N } \left [ \left ( { \frac     { y _ { i } } { \overline   { y } } } \right ) ^ { \alpha   } - 1 \right ] , & \alpha   \neq   0 , 1 , \\{ \frac     { 1 } { N } } \sum   _ { { i = 1 } } ^ { N } { \frac     { y _ { { i } } } { \overline   { y } } } \ln   { \frac     { y _ { { i } } } { \overline   { y } } } , & \alpha   = 1 , \\-{ \frac     { 1 } { N } } \sum   _ { { i = 1 } } ^ { N } \ln   { \frac     { y _ { { i } } } { \overline   { y } } } , & \alpha   = 0 . \end { c a s e s } }
+y _ { i }
+\alpha  
+\alpha  
+\alpha  
+\epsilon = 1 - \alpha
+\alpha  
+\epsilon = 1 - \alpha

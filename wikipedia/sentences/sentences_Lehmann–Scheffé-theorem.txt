@@ -1,0 +1,33 @@
+\vec { X } =   X _ 1 ,   X _ 2 ,   \dots ,   X _ n
+f ( x : \theta   )
+\theta   \in   \Omega  
+Y = u ( { \vec     { X } } )
+{ \displaystyle   \{ f _ { Y } ( y : \theta   ) : \theta   \in   \Omega   \ } }
+{ \displaystyle   \varphi   : \operatorname   { E }   [ \varphi   ( Y ) ] = \theta   }
+{ \displaystyle   \varphi   ( Y ) }
+Z
+{ \displaystyle   \varphi   ( Y ) : = \operatorname   { E }   [ Z \mid   Y ] }
+Z
+W
+{ \displaystyle   \psi   ( Y ) : = \operatorname   { E }   [ W \mid   Y ] }
+W
+{ \displaystyle   \operatorname   { E }   [ \varphi   ( Y ) - \psi   ( Y ) ] = 0 , \theta   \in   \Omega   . }
+{ \displaystyle   \{ f _ { Y } ( y : \theta   ) : \theta   \in   \Omega   \ } }
+{ \displaystyle   \operatorname   { E }   [ \varphi   ( Y ) - \psi   ( Y ) ] = 0 \implies   \varphi   ( y ) - \psi   ( y ) = 0 , \theta   \in   \Omega   }
+\varphi  
+{ \displaystyle   \varphi   ( Y ) }
+X _ 1 ,   \ldots ,   X _ n
+{ \displaystyle   X \sim   U ( ( 1 - k ) \theta   , ( 1 + k ) \theta   ) , }
+{ \displaystyle   \operatorname   { E }   [ X ] = \theta   }
+{ \displaystyle   k \in   ( 0 , 1 ) }
+\theta  
+X _ { 1 }
+\theta  
+X _ { 1 }
+{ \displaystyle   T = \left ( X _ { ( 1 ) } , X _ { ( n ) } \right ) }
+\theta  
+{ \displaystyle   X _ { ( 1 ) } = \min   _ { i } X _ { i } }
+{ \displaystyle   X _ { ( n ) } = \max   _ { i } X _ { i } }
+{ \displaystyle   { \hat   { \theta   } } _ { R B } = \operatorname   { E }   _ { \theta   } [ X _ { 1 } \mid   X _ { ( 1 ) } , X _ { ( n ) } ] = { \frac   { X _ { ( 1 ) } + X _ { ( n ) } } { 2 } } . }
+{ \displaystyle   { \hat   { \theta   } } _ { L V } = { \frac   { 1 } { k ^ { 2 } { \frac   { n - 1 } { n + 1 } } + 1 } } \cdot   { \frac   { ( 1 - k ) X _ { ( 1 ) } + ( 1 + k ) X _ { ( n ) } } { 2 } } . }
+{ \displaystyle   { \hat   { \theta   } } _ { \text { B A Y E S } } = { \frac   { n + 1 } { n } } \left [ 1 - { \frac   { { \frac   { X _ { ( 1 ) } ( 1 + k ) } { X _ { ( n ) } ( 1 - k ) } } - 1 } { \left ( { \frac   { X _ { ( 1 ) } ( 1 + k ) } { X _ { ( n ) } ( 1 - k ) } } \right ) ^ { n + 1 } - 1 } } \right ] { \frac   { X _ { ( n ) } } { 1 + k } } }

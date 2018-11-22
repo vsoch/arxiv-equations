@@ -1,0 +1,19 @@
+{ \displaystyle   \Pr ( X > m + n \mid   X \geq   m ) = \Pr ( X > n ) . }
+{ \displaystyle   \mathrm   { }   \ \Pr ( X > 4 0 \mid   X \geq   3 0 ) = \Pr ( X > 1 0 ) . \ , }
+{ \displaystyle   \mathrm   { }   \ \Pr ( X > 4 0 \mid   X \geq   3 0 ) = \Pr ( X > 4 0 ) \ , }
+\Pr ( X > t + s \mid   X > t ) = \Pr ( X > s ) . \ ,
+G ( t ) = \Pr ( X > t ) . \ ,
+\Pr ( X > t + s | X > t ) = \Pr ( X > s ) \ ,
+{ \Pr ( X > t + s )   \over   \Pr ( X > t ) } = \Pr ( X > s ) .
+G ( t + s ) = G ( t ) G ( s ) \ ,
+G ( 2 ) = G ( 1 ) ^ { 2 }
+G ( 1 / 2 ) = G ( 1 ) ^ { { 1 / 2 } }
+G ( a ) = G ( 1 ) ^ { { a } }
+a
+G ( a ) = G ( 1 ) ^ { { a } } = e ^ { { \ln ( G ( 1 ) ) a } } = e ^ { { - \lambda   a } }
+\lambda   = - \ln ( G ( 1 ) )
+G ( a )
+\lambda   > 0
+G
+x \leq   y
+G ( x ) \geq   G ( y )

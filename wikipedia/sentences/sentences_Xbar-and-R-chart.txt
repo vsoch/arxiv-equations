@@ -1,0 +1,23 @@
+{ \bar   { x } }
+{ \bar     R } = { \frac     { \sum   _ { { i = 1 } } ^ { m } m a x ( x _ { { i j } } ) - m i n ( x _ { { i j } } ) } { m } }
+D _ { 4 } { \bar     R }
+D _ { 3 } { \bar     R }
+{ \bar     x } = { \frac     { \sum   _ { { i = 1 } } ^ { m } \sum   _ { { j = 1 } } ^ { n } x _ { { i j } } } { m n } }
+{ \bar     x } \pm   A _ { 2 } { \bar     R }
+{ \bar     x } _ { i } = { \frac     { \sum   _ { { j = 1 } } ^ { n } x _ { { i j } } } { n } }
+{ \bar   { x } }
+{ \bar   { x } }
+{ \bar   { x } }
+{ \bar   { x } }
+{ \bar     x } _ { i }
+D _ { 3 } { \bar     R }
+D _ { 4 } { \bar     R }
+{ \bar     x } \pm   A _ { 2 } { \bar     R }
+{ \bar   { x } }
+{ \bar     R } = { \frac     { \sum   _ { { i = 1 } } ^ { m } \left ( R _ { { m a x } } - R _ { { m i n } } \right ) } { m } }
+{ \bar   { x } }
+{ \bar   { x } }
+{ \bar   { x } }
+{ \bar   { x } }
+{ \bar   { x } }
+{ \bar   { x } }

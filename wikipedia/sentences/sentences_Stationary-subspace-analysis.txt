@@ -1,0 +1,14 @@
+x ( t )
+s ^ \mathfrak { s } ( t )
+s ^ \mathfrak { n } ( t )
+      x ( t )   =   A   s ( t )   =   \begin { b m a t r i x }   A ^ \mathfrak { s }   &   A ^ \mathfrak { n }   \end { b m a t r i x }   \begin { b m a t r i x }   s ^ \mathfrak { s } ( t )   \\ s ^ \mathfrak { n } ( t )   \\ \end { b m a t r i x } ,  
+A
+A ^ \mathfrak { s }
+A ^ \mathfrak { n }
+x ( t )
+A ^ { - 1 }
+x ( t )
+s ^ \mathfrak { s } ( t )
+A ^ \mathfrak { n }
+s ^ \mathfrak { n } ( t )
+A ^ \mathfrak { s }

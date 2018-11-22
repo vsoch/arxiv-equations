@@ -1,0 +1,30 @@
+P
+Q
+( X , \Sigma   )
+\delta ( P , Q )   \le   \sqrt { \frac { 1 } { 2 }   D _ { \mathrm { K L } } ( P \|Q ) } ,
+\delta ( P , Q ) = \sup   \bigl \{   | P ( A )   -   Q ( A ) |   \big |   A   \in   \Sigma   \text {   i s   a   m e a s u r a b l e   e v e n t }   \bigr \ }
+P
+Q
+{ \displaystyle   D _ { \mathrm   { K L }   } ( P \|Q ) = \operatorname   { E }   _ { P } \left ( \log   { \frac   { \mathrm   { d }   P } { \mathrm   { d }   Q } } \right ) = \int   _ { X } \left ( \log   { \frac   { \mathrm   { d }   P } { \mathrm   { d }   Q } } \right ) \,\mathrm   { d }   P }
+X
+D _ { \mathrm { K L } } ( P \|Q )   =   \sum_ { i   \in   X }   \left (   \log   \frac { P ( i ) } { Q ( i ) } \right )   P ( i ) \ !
+\| P   -   Q   \ |
+P   -   Q
+\| P   -   Q   \| \le   \sqrt { 2   D _ { \mathrm { K L } } ( P \|Q ) } .
+\varepsilon   > 0
+{ \displaystyle   P _ { \varepsilon   } , Q }
+{ \displaystyle   \delta   ( P _ { \varepsilon   } , Q ) \leq   \varepsilon   }
+{ \displaystyle   D _ { \mathrm   { K L }   } ( P _ { \varepsilon   } \|Q ) = \infty   }
+\{ 0 , 1 \ }
+{ \displaystyle   Q ( 0 ) = 0 , Q ( 1 ) = 1 }
+{ \displaystyle   P _ { \varepsilon   } ( 0 ) = \varepsilon   , P _ { \varepsilon   } ( 1 ) = 1 - \varepsilon   }
+X
+Q
+{ \displaystyle   \alpha   _ { Q } : = \min   _ { x \in   X : Q ( x ) > 0 } Q ( x ) }
+P
+Q
+{ \displaystyle   { \frac   { 1 } { 2 } } D _ { \mathrm   { K L }   } ( P \|Q ) \leq   { \frac   { 1 } { \alpha   _ { Q } } } \delta   ( P , Q ) ^ { 2 } . }
+Q
+{ \displaystyle   Q ( x ) > 0 }
+x \in   X
+{ \displaystyle   \delta   ( P , Q ) ^ { 2 } \leq   { \frac   { 1 } { 2 } } D ( P \|Q ) \leq   { \frac   { 1 } { \alpha   _ { Q } } } \delta   ( P , Q ) ^ { 2 } . }

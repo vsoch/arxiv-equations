@@ -1,0 +1,47 @@
+m _ { 0 } = m = 2
+m _ { 0 }
+m \leq   m _ { 0 }
+p _ { i }
+i
+p _ { i } = { \frac     { k _ { i } } { \sum   _ { j } k _ { j } } } ,
+k _ { i }
+i
+j
+m _ { 0 } = 1
+P ( k ) \sim   k ^ { { - 3 } } \ ,
+H ( k ) \sim   k ^ { - 6 }   \ ,  
+m _ { 0 } = 1
+H ( 1 ) \Big | _ { m _ 0 = 1 } = 4 - \pi   \ ,  
+\ell   \sim   { \frac     { \ln   N } { \ln   \ln   N } } .
+n _ { { k \ell   } }
+k
+\ell  
+m = 1
+n _ { { k \ell   } } = { \frac     { 4 \left ( \ell   - 1 \right ) } { k \left ( k + 1 \right ) \left ( k + \ell   \right ) \left ( k + \ell   + 1 \right ) \left ( k + \ell   + 2 \right ) } } + { \frac     { 1 2 \left ( \ell   - 1 \right ) } { k \left ( k + \ell   - 1 \right ) \left ( k + \ell   \right ) \left ( k + \ell   + 1 \right ) \left ( k + \ell   + 2 \right ) } } .
+n _ { { k \ell   } } = k ^ { { - 3 } } \ell   ^ { { - 3 } }
+m
+k
+\ell  
+{ \displaystyle   p ( k , \ell   ) = { \frac   { 2 m ( m + 1 ) } { k ( k + 1 ) \ell   ( \ell   + 1 ) } } \left [ 1 - { \frac   { { \binom   { 2 m + 2 } { m + 1 } } { \binom   { k + \ell   - 2 m } { \ell   - m } } } { \binom   { k + \ell   + 2 } { \ell   + 1 } } } \right ] . }
+p ( \ell   \mid   k )
+k
+p ( \ell   \mid   k ) = { \frac     { m ( k + 2 ) } { k \ell   ( \ell   + 1 ) } } \left [ 1 - { \frac     { { \binom     { 2 m + 2 } { m + 1 } } { \binom     { k + \ell   - 2 m } { \ell   - m } } } { { \binom     { k + \ell   + 2 } { \ell   + 1 } } } } \right ] .
+  k
+\ell  
+p ( \ell   | k )
+C \sim   N ^ { { - 0 . 7 5 } } . \ ,
+C ( k ) = k ^ { { - 1 } } . \ ,
+{ \displaystyle   F ( q , t ) }
+m = 1
+{ \displaystyle   t ^ { 1 / 2 } F ( q , N ) }
+{ \displaystyle   q / t ^ { 1 / 2 } }
+{ \displaystyle   F ( q , t ) }
+q
+k
+k
+{ \displaystyle   F ( q , t ) }
+{ \displaystyle   F ( q , t ) \sim   t ^ { - 1 / 2 } \phi   ( q / t ^ { 1 / 2 } ) . }
+{ \displaystyle   F ( q , t ) }
+q
+{ \displaystyle   F ( q , t ) t ^ { 1 / 2 } }
+{ \displaystyle   q / t ^ { 1 / 2 } }

@@ -1,0 +1,69 @@
+A
+\mathbf   { b }  
+\mathbf   { x }  
+{ \displaystyle   A \mathbf   { x }   = \mathbf   { b }   . }
+\mathbf   { x }  
+\mathbf   { x }  
+A
+\mathbf   { x }  
+\mathbf   { b }  
+\mathbf   { x }  
+A
+\mathbf   { x }  
+{ \displaystyle   \|A \mathbf   { x }   - \mathbf   { b }   \|_ { 2 } ^ { 2 } , }
+\|\cdot   \|_ { 2 }
+{ \displaystyle   \|A \mathbf   { x }   - \mathbf   { b }   \|_ { 2 } ^ { 2 } + \|\Gamma   \mathbf   { x }   \|_ { 2 } ^ { 2 } }
+\Gamma  
+{ \displaystyle   \Gamma   = \alpha   I }
+{ \hat   { x } }
+{ \displaystyle   { \hat   { x } } = ( A ^ { \top   } A + \Gamma   ^ { \top   } \Gamma   ) ^ { - 1 } A ^ { \top   } \mathbf   { b }   . }
+\Gamma  
+\Gamma   = 0
+x
+x
+{ \displaystyle   \|Ax - b \|_ { P } ^ { 2 } + \|x - x _ { 0 } \|_ { Q } ^ { 2 } , }
+{ \displaystyle   \|x \|_ { Q } ^ { 2 } }
+{ \displaystyle   x ^ { \top   } Q x }
+P
+b
+x _ { 0 }
+x
+Q
+x
+{ \displaystyle   Q = \Gamma   ^ { \top   } \Gamma   }
+x ^ { * }
+{ \displaystyle   x ^ { * } = ( A ^ { \top   } P A + Q ) ^ { - 1 } ( A ^ { \top   } P b + Q x _ { 0 } ) , }
+{ \displaystyle   x ^ { * } = x _ { 0 } + ( A ^ { \top   } P A + Q ) ^ { - 1 } ( A ^ { \top   } P ( b - A x _ { 0 } ) ) . }
+A
+x
+b
+A
+{ \displaystyle   A ^ { * } A + \Gamma   ^ { \top   } \Gamma   }
+{ \displaystyle   \Gamma   = \alpha   I }
+{ \displaystyle   A = U \Sigma   V ^ { \top   } }
+\sigma   _ { i }
+{ \displaystyle   { \hat   { x } } = V D U ^ { \top   } b , }
+D
+{ \displaystyle   D _ { i i } = { \frac   { \sigma   _ { i } } { \sigma   _ { i } ^ { 2 } + \alpha   ^ { 2 } } } }
+{ \displaystyle   { \hat   { x } } = \sum   _ { i = 1 } ^ { q } f _ { i } { \frac   { u _ { i } ^ { \top   } b } { \sigma   _ { i } } } v _ { i } , }
+{ \displaystyle   f _ { i } = { \frac   { \sigma   _ { i } ^ { 2 } } { \sigma   _ { i } ^ { 2 } + \alpha   ^ { 2 } } } }
+q
+A
+\alpha  
+{ \displaystyle   G = { \frac   { \operatorname   { R S S }   } { \tau   ^ { 2 } } } = { \frac   { \|X { \hat   { \beta   } } - y \|^ { 2 } } { [ \operatorname   { T r }   ( I - X ( X ^ { T } X + \alpha   ^ { 2 } I ) ^ { - 1 } X ^ { T } ) ] ^ { 2 } } } , }
+\operatorname   { R S S }  
+\tau  
+{ \displaystyle   \operatorname   { R S S }   = \left \|y - \sum   _ { i = 1 } ^ { q } ( u _ { i } ' b ) u _ { i } \right \|^ { 2 } + \left \|\sum   _ { i = 1 } ^ { q } { \frac   { \alpha   ^ { 2 } } { \sigma   _ { i } ^ { 2 } + \alpha   ^ { 2 } } } ( u _ { i } ' b ) u _ { i } \right \|^ { 2 } , }
+{ \displaystyle   \operatorname   { R S S }   = \operatorname   { R S S }   _ { 0 } + \left \|\sum   _ { i = 1 } ^ { q } { \frac   { \alpha   ^ { 2 } } { \sigma   _ { i } ^ { 2 } + \alpha   ^ { 2 } } } ( u _ { i } ' b ) u _ { i } \right \|^ { 2 } , }
+{ \displaystyle   \tau   = m - \sum   _ { i = 1 } ^ { q } { \frac   { \sigma   _ { i } ^ { 2 } } { \sigma   _ { i } ^ { 2 } + \alpha   ^ { 2 } } } = m - q + \sum   _ { i = 1 } ^ { q } { \frac   { \alpha   ^ { 2 } } { \sigma   _ { i } ^ { 2 } + \alpha   ^ { 2 } } } . }
+C _ { M }
+C _ { D }
+C _ { M } = \sigma   _ { M } ^ { 2 } I
+C _ { D } = \sigma   _ { D } ^ { 2 } I
+\alpha   = { \sigma   _ { D } } / { \sigma   _ { M } }
+\Gamma  
+x
+\sigma   _ { x }
+b
+\sigma   _ { b }
+x

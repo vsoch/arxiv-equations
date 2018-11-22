@@ -1,0 +1,33 @@
+S = ( s _ { 1 } , s _ { 2 } , s _ { 3 } , \ldots   s _ { T } )
+s _ { i }
+{ \mathbf   S }
+a _ { i } : { { \mathbf     S } } \rightarrow   { { \mathbf     S } }
+s
+a _ { { s ' } } ^ { { { \rm   { I n s } } } } ( s _ { 1 } , s _ { 2 } , s _ { 3 } , \ldots   s _ { T } ) = ( s _ { 1 } , s _ { 2 } , s _ { 3 } , \ldots   , s ' , \ldots   s _ { T } )
+a _ { { s _ { 2 } } } ^ { { { \rm   { D e l } } } } ( s _ { 1 } , s _ { 2 } , s _ { 3 } , \ldots   s _ { T } ) = ( s _ { 1 } , s _ { 3 } , \ldots   s _ { T } )
+s _ { 1 }
+s ' _ { 1 }
+a _ { { s _ { 1 } , s ' _ { 1 } } } ^ { { { \rm   { S u b } } } } ( s _ { 1 } , s _ { 2 } , s _ { 3 } , \ldots   s _ { T } ) = ( s ' _ { 1 } , s _ { 2 } , s _ { 3 } , \ldots   s _ { T } )
+c ( a _ { i } ) \in   { { \mathbf     R } } _ { 0 } ^ { + }
+S _ { 1 }
+S _ { 2 }
+S _ { 2 }
+S _ { 1 }
+A = { a _ { 1 } , a _ { 2 } , \ldots   a _ { n } }
+A
+S _ { 1 }
+S _ { 2 }
+S _ { 2 } = a _ { 1 } \circ   a _ { 2 } \circ   \ldots   \circ   a _ { { n } } ( S _ { 1 } )
+a _ { 1 } \circ   a _ { 2 }
+c ( A ) = \sum   _ { { i = 1 } } ^ { n } c ( a _ { i } )
+A
+S _ { 1 }
+S _ { 2 }
+d ( S _ { 1 } , S _ { 2 } ) = \min   _ { A } \left \{ c ( A ) ~ { { \rm   { s u c h ~ t h a t } } } ~ S _ { 2 } = A ( S _ { 1 } ) \right \ }
+S _ { 1 }
+S _ { 2 }
+d ( S _ { 1 } , S _ { 2 } )
+d ( S _ { 1 } , S _ { 2 } ) = 0
+S _ { 1 } = S _ { 2 }
+c ( a ^ { { { \rm   { I n s } } } } ) = c ( a ^ { { { \rm   { D e l } } } } )
+c ( a _ { i } )

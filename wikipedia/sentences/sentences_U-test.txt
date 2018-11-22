@@ -1,0 +1,12 @@
+{ \displaystyle   U _ { 1 } = R _ { 1 } - { n _ { 1 } ( n _ { 1 } + 1 )   \over   2 } \ , \ ! }
+{ \displaystyle   U _ { 2 } = R _ { 2 } - { n _ { 2 } ( n _ { 2 } + 1 )   \over   2 } \ , \ ! }
+U _ { 1 } + U _ { 2 } = R _ { 1 } - { n _ { 1 } ( n _ { 1 } + 1 )   \over   2 } + R _ { 2 } - { n _ { 2 } ( n _ { 2 } + 1 )   \over   2 } . \ , \ !
+z = { \frac   { U - m _ { U } } { \sigma   _ { U } } } , \ ,
+{ \displaystyle   m _ { U } = { \frac   { n _ { 1 } ( n _ { 1 } + n _ { 2 } + 1 ) } { 2 } } , \ , }
+\sigma   _ { U } = { \sqrt   { n _ { 1 } n _ { 2 } ( n _ { 1 } + n _ { 2 } + 1 )   \over   1 2 } } . \ ,
+{ \displaystyle   \sigma   _ { \text { c o r r } } = { \sqrt   { { n _ { 1 } n _ { 2 }   \over   1 2 } \left ( ( n + 1 ) - \sum   _ { i = 1 } ^ { k } { { t _ { i } } ^ { 3 } - t _ { i }   \over   n ( n - 1 ) } \right ) } } \ , }
+r = f - u
+{ \displaystyle   r = f - ( 1 - f ) = 2 f - 1 }
+{ \displaystyle   r = 1 - { 2 U   \over   n _ { 1 } n _ { 2 } } \ , }
+{ \displaystyle   \mathrm   { A U C }   _ { 1 } = { U _ { 1 }   \over   n _ { 1 } n _ { 2 } } }
+{ \displaystyle   M = { 1   \over   c ( c - 1 ) } \sum   \mathrm   { A U C }   _ { k , l } }

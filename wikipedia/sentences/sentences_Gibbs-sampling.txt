@@ -1,0 +1,60 @@
+\left . k \right .
+{ \mathbf     { X } } = ( x _ { 1 } , \dots   , x _ { n } )
+{ \displaystyle   p ( x _ { 1 } , \dots   , x _ { n } ) }
+i
+{ \displaystyle   \mathbf   { X }   ^ { ( i ) } = \left ( x _ { 1 } ^ { ( i ) } , \dots   , x _ { n } ^ { ( i ) } \right ) }
+{ \displaystyle   \mathbf   { X }   ^ { ( i ) } }
+{ \displaystyle   \mathbf   { X }   ^ { ( i + 1 ) } }
+{ \displaystyle   \mathbf   { X }   ^ { ( i + 1 ) } = \left ( x _ { 1 } ^ { ( i + 1 ) } , x _ { 2 } ^ { ( i + 1 ) } , \dots   , x _ { n } ^ { ( i + 1 ) } \right ) }
+x _ { j } ^ { { ( i + 1 ) } }
+{ \displaystyle   \mathbf   { X }   ^ { ( i + 1 ) } }
+{ \displaystyle   x _ { j - 1 } ^ { ( i + 1 ) } }
+{ \displaystyle   \mathbf   { X }   ^ { ( i ) } }
+{ \displaystyle   x _ { j + 1 } ^ { ( i ) } }
+{ \displaystyle   x _ { n } ^ { ( i ) } }
+x _ { j } ^ { { ( i + 1 ) } }
+{ \displaystyle   p \left ( x _ { j } ^ { ( i + 1 ) } | x _ { 1 } ^ { ( i + 1 ) } , \dots   , x _ { j - 1 } ^ { ( i + 1 ) } , x _ { j + 1 } ^ { ( i ) } , \dots   , x _ { n } ^ { ( i ) } \right ) }
+j + 1
+i
+i + 1
+k
+n
+n
+p ( x _ { j } | x _ { 1 } , \dots   , x _ { { j - 1 } } , x _ { { j + 1 } } , \dots   , x _ { n } ) = { \frac     { p ( x _ { 1 } , \dots   , x _ { n } ) } { p ( x _ { 1 } , \dots   , x _ { { j - 1 } } , x _ { { j + 1 } } , \dots   , x _ { n } ) } } \propto   p ( x _ { 1 } , \dots   , x _ { n } )
+x _ { j }
+x _ { j }
+x _ { j }
+x _ { j }
+x _ { j }
+x _ { j }
+\left . X \right .
+\theta   \in   \Theta   \ , \ !
+\left . d \right .
+g ( \theta   _ { 1 } , \ldots   , \theta   _ { d } )
+\left . d \right .
+\left . \theta   _ { i } \right .
+\left . \Theta   \right .
+1 \leq   j \leq   d
+\left . \theta   _ { j } \right .
+g ( \theta   _ { 1 } , \ldots   , \theta   _ { { j - 1 } } , \,\cdot   \,,\theta   _ { { j + 1 } } , \ldots   , \theta   _ { d } )
+\left . g \right .
+x \sim   _ { j } y
+\left . x _ { i } = y _ { i } \right .
+i \neq   j
+\left . p _ { { x y } } \right .
+x \in   \Theta  
+y \in   \Theta  
+p _ { { x y } } = { \begin { c a s e s } { \frac     { 1 } { d } } { \frac     { g ( y ) } { \sum   _ { { z \in   \Theta   : z \sim   _ { j } x } } g ( z ) } } & x \sim   _ { j } y \\0 & { \text { o t h e r w i s e } } \end { c a s e s } }
+g ( x ) p _ { { x y } } = { \frac     { 1 } { d } } { \frac     { g ( x ) g ( y ) } { \sum   _ { { z \in   \Theta   : z \sim   _ { j } x } } g ( z ) } } = { \frac     { 1 } { d } } { \frac     { g ( y ) g ( x ) } { \sum   _ { { z \in   \Theta   : z \sim   _ { j } y } } g ( z ) } } = g ( y ) p _ { { y x } }
+x \sim   _ { j } y
+\left . g \right .
+\left . j \right .
+x _ { j } ^ { { ( i ) } }
+x _ { j } ^ { { ( i - 1 ) } }
+x _ { j } ^ { { ( i - 1 ) } }
+x _ { j } ^ { { ( i ) } }
+{ \frac     { 1 } { 2 ( 2 ^ { { 1 0 0 } } - 1 ) } }
+2 ^ { { 1 0 0 } }
+2 ^ { { 9 9 } }
+2 ^ { { 9 9 } }
+2 ^ { { 9 9 } }

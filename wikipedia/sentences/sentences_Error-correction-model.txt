@@ -1,0 +1,31 @@
+x _ { t }
+y _ { t }
+{ \displaystyle   A ( L ) \,\Delta   y _ { t } = \gamma   + B ( L ) \,\Delta   x _ { t } + \alpha   ( y _ { t - 1 } - \beta   _ { 0 } - \beta   _ { 1 } x _ { t - 1 } ) + \nu   _ { t } . }
+{ \displaystyle   y _ { t } = \beta   _ { 0 } + \beta   _ { 1 } x _ { t } + \varepsilon   _ { t } }
+{ \displaystyle   { \hat   { \varepsilon   _ { t } } } = y _ { t } - \beta   _ { 0 } - \beta   _ { 1 } x _ { t } }
+{ \displaystyle   A ( L ) \,\Delta   y _ { t } = \gamma   + B ( L ) \,\Delta   x _ { t } + \alpha   { \hat   { \varepsilon   } } _ { t - 1 } + \nu   _ { t } . }
+\alpha  
+x _ { t }
+\alpha  
+C _ { t }
+Y _ { t }
+C _ { t } = 0 . 9 Y _ { t }
+{ \displaystyle   C _ { t } = \beta   Y _ { t } + \varepsilon   _ { t } }
+Y _ { t }
+C _ { t }
+Y _ { t }
+\Delta   Y _ { t }
+C _ { t }
+\Delta   C _ { t } = 0 . 5 \Delta   Y _ { t }
+\Delta   C _ { t } = C _ { t } - C _ { { t - 1 } }
+{ \displaystyle   \Delta   C _ { t } = 0 . 5 \Delta   Y _ { t } - 0 . 2 ( C _ { t - 1 } - 0 . 9 Y _ { t - 1 } ) + \varepsilon   _ { t } }
+Y _ { t }
+C _ { t }
+\varepsilon   _ { t }
+C _ { { t - 1 } } = 0 . 9 Y _ { { t - 1 } }
+Y _ { t }
+C _ { t }
+C _ { t }
+Y _ { t }
+C _ { t }
+C _ { { t - 1 } }

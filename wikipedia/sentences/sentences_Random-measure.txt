@@ -1,0 +1,74 @@
+E
+{ \displaystyle   { \mathcal   { E } } }
+\sigma  
+{ \displaystyle   \mathbb   { R }   ^ { n } }
+  \zeta  
+{ \displaystyle   ( \Omega   , { \mathcal   { A } } , P ) }
+{ \displaystyle   ( E , { \mathcal   { E } } ) }
+{ \displaystyle   B \in   { \mathcal   { \mathcal   { E } } } }
+{ \displaystyle   \omega   \mapsto   \zeta   ( \omega   , B ) }
+{ \displaystyle   ( \Omega   , { \mathcal   { A } } ) }
+{ \displaystyle   ( \mathbb   { R }   , { \mathcal   { B } } ( \mathbb   { R }   ) ) }
+{ \displaystyle   \omega   \in   \Omega   }
+{ \displaystyle   B \mapsto   \zeta   ( \omega   , B ) \quad   ( B \in   { \mathcal   { E } } ) }
+{ \displaystyle   ( E , { \mathcal   { E } } ) }
+{ \displaystyle   B \mapsto   \zeta   ( \omega   , B ) }
+{ \displaystyle   \zeta   ( \omega   , { \tilde   { B } } ) < \infty   }
+{ \displaystyle   { \tilde   { B } } \in   { \mathcal   { E } } }
+{ \displaystyle   \omega   \in   \Omega   }
+P
+{ \displaystyle   { \tilde   { \mathcal   { M } } } : = \{ \mu   \mid   \mu   { \text {   i s   m e a s u r e   o n   } } ( E , { \mathcal   { E } } ) \ } }
+{ \displaystyle   { \mathcal   { M } } : = \{ \mu   \in   { \tilde   { \mathcal   { M } } } \mid   \mu   ( { \tilde   { B } } ) < \infty   { \text {   f o r   a l l   b o u n d e d   m e a s u r a b l e   } } { \tilde   { B } } \in   { \mathcal   { E } } \ } }
+  \tilde   B  
+{ \displaystyle   I _ { \tilde   { B } } \colon   \mu   \mapsto   \mu   ( { \tilde   { B } } ) }
+{ \displaystyle   { \tilde   { \mathcal   { M } } } }
+\mathbb   { R }  
+{ \displaystyle   { \tilde   { \mathbb   { M }   } } }
+\sigma  
+{ \displaystyle   I _ { \tilde   { B } } }
+{ \displaystyle   { \tilde   { \mathcal   { M } } } }
+{ \displaystyle   \mathbb   { M }   }
+\sigma  
+{ \displaystyle   I _ { \tilde   { B } } }
+{ \displaystyle   { \tilde   { \mathcal   { M } } } }
+{ \displaystyle   { \tilde   { \mathbb   { M }   } } | _ { \mathcal   { M } } = \mathbb   { M }   }
+{ \displaystyle   ( \Omega   , { \mathcal   { A } } , P ) }
+{ \displaystyle   ( { \tilde   { \mathcal   { M } } } , { \tilde   { \mathbb   { M }   } } ) }
+{ \displaystyle   ( { \mathcal   { M } } , \mathbb   { M }   ) }
+\zeta  
+{ \displaystyle   \operatorname   { E }   \zeta   }
+{ \displaystyle   \operatorname   { E }   \left [ \int   f ( x ) \;\zeta   ( \mathrm   { d }   x ) \right ] = \int   f ( x ) \;\operatorname   { E }   \zeta   ( \mathrm   { d }   x ) }
+f
+  \zeta  
+\zeta  
+  \nu  
+{ \displaystyle   \int   f ( x ) \;\zeta   ( \mathrm   { d }   x ) = 0 { \text {   a . s .   } } { \text {   i f f   } } \int   f ( x ) \;\nu   ( \mathrm   { d }   x ) = 0 }
+\zeta  
+\zeta  
+{ \displaystyle   { \mathcal   { L } } _ { \zeta   } ( f ) = \operatorname   { E }   \left [ \exp   \left ( - \int   f ( x ) \;\zeta   ( \mathrm   { d }   x ) \right ) \right ] }
+f
+  \zeta  
+{ \displaystyle   \int   f ( x ) \zeta   ( \mathrm   { d }   x ) }
+{ \displaystyle   \zeta   ( A ) : = \int   \mathbf   { 1 }   _ { A } ( x ) \zeta   ( \mathrm   { d }   x ) }
+{ \displaystyle   { \mathcal   { E } } }
+f
+{ \displaystyle   \int   f ( x ) \zeta   ( \mathrm   { d }   x ) }
+f
+S
+{ \displaystyle   { \mathcal   { I } } \subset   { \mathcal   { E } } }
+{ \displaystyle   { \mathcal   { E } } }
+{ \displaystyle   \sigma   ( { \mathcal   { I } } ) = { \mathcal   { E } } }
+{ \displaystyle   { \mathcal   { I } } }
+f
+  \mu = \mu_d   +   \mu_a   =   \mu_d   +   \sum_ { n = 1 } ^ N   \kappa_n   \delta_ { X _ n } ,  
+\mu   _ { d }
+\mu_a
+  \mu = \sum_ { n = 1 } ^ N   \delta_ { X _ n } ,  
+\delta  
+X _ { n }
+X _ { n }
+\mu   _ { d }
+N _ X
+\mathfrak { B } ( N _ X )
+N _ X
+N   \in   M _ X

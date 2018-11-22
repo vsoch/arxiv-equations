@@ -1,0 +1,35 @@
+n > 0
+p _ { 1 } , \ldots   , p _ { k }
+\Sigma   p _ { i } = 1
+{ \displaystyle   x _ { i } \in   \{ 0 , \dots   , n \},\,\,\,\,i \in   \{ 1 , \dots   , k \ } }
+{ \displaystyle   \Sigma   x _ { i } = n \ ! }
+\frac { n ! } { x _ 1 ! \cdots   x _ k ! }   p _ 1 ^ { x _ 1 }   \cdots   p _ k ^ { x _ k }
+E \{ X _ i \} = np_i
+\textstyle { \mathrm { V a r } } ( X _ i )   =   n   p _ i   ( 1 - p _ i )
+\textstyle   { \mathrm { C o v } } ( X _ i , X _ j )   =   -   n   p _ i   p _ j ~ ~ ( i \neq   j )
+{ \displaystyle   - \log ( n ! ) - n \sum   _ { i = 1 } ^ { k } p _ { i } \log ( p _ { i } ) + \sum   _ { i = 1 } ^ { k } \sum   _ { x _ { i } = 0 } ^ { n } { \binom   { n } { x _ { i } } } p _ { i } ^ { x _ { i } } ( 1 - p _ { i } ) ^ { n - x _ { i } } \log ( x _ { i } ! ) }
+\biggl (   \sum_ { i = 1 } ^ k   p _ i   e ^ { t _ i }   \biggr ) ^ n
+  \left ( \sum_ { j = 1 } ^ k   p _ j e ^ { i t _ j } \right ) ^ n
+i ^ { 2 } = - 1
+\biggl (   \sum_ { i = 1 } ^ k   p _ i   z _ i   \biggr ) ^ n \text {   f o r   } ( z _ 1 , \ldots , z _ k ) \in \mathbb { C } ^ k
+\sum_ { i = 1 } ^ k   p _ i   =   1
+1   \dots   K
+{ \displaystyle   { \begin { a l i g n e d } f ( x _ { 1 } , \ldots   , x _ { k } ; n , p _ { 1 } , \ldots   , p _ { k } ) & { } = \Pr ( X _ { 1 } = x _ { 1 } { \text {   a n d   } } \dots   { \text {   a n d   } } X _ { k } = x _ { k } ) \\&{ } = { \begin { c a s e s } { \displaystyle   { n !   \over   x _ { 1 } ! \cdots   x _ { k } ! } p _ { 1 } ^ { x _ { 1 } } \times   \cdots   \times   p _ { k } ^ { x _ { k } } } , \quad   & { \text { w h e n   } } \sum   _ { i = 1 } ^ { k } x _ { i } = n \\\\0 & { \text { o t h e r w i s e , } } \end { c a s e s } } \end { a l i g n e d } } }
+f ( x _ 1 , \dots ,   x _ { k } ;   p _ 1 , \ldots ,   p _ k )   =   \frac { \Gamma ( \sum_i   x _ i   +   1 ) } { \prod_i   \Gamma ( x _ i + 1 ) }   \prod_ { i = 1 } ^ k   p _ i ^ { x _ i } .
+( p   x _ 1   +   ( 1 - p )   x _ 2 ) ^ n
+{ \displaystyle   ( p _ { 1 } x _ { 1 } + p _ { 2 } x _ { 2 } + p _ { 3 } x _ { 3 } + \cdots   + p _ { k } x _ { k } ) ^ { n } }
+\operatorname { E } ( X _ i )   =   n   p _ i . \ ,
+\operatorname { v a r } ( X _ i ) = n p _ i ( 1 - p _ i ) . \ ,
+\operatorname { c o v } ( X _ i , X _ j ) = - n p _ i   p _ j \ ,
+{ \displaystyle   \operatorname   { c o v }   ( X _ { i } , X _ { j } ) , }
+\rho ( X _ i , X _ i )   =   1 .
+\rho ( X _ i , X _ j )   =   \frac { \operatorname { c o v } ( X _ i , X _ j ) } { \sqrt { \operatorname { v a r } ( X _ i ) \operatorname { v a r } ( X _ j ) } }   =   \frac { - p _ i     p _ j } { \sqrt { p _ i ( 1 - p _ i )   p _ j ( 1 - p _ j ) } }   =   - \sqrt { \frac { p _ i     p _ j } { ( 1 - p _ i ) ( 1 - p _ j ) } } .
+{ \displaystyle   \{ ( n _ { 1 } , \dots   , n _ { k } ) \in   \mathbb   { N }   ^ { k } \mid   n _ { 1 } + \cdots   + n _ { k } = n \ } . \ , }
+{ n + k - 1   \choose   k - 1 } .
+{ \displaystyle   \operatorname   { E }   ( \mathbf   { X }   ) = n \mathbf   { p }   , \ , }
+{ \displaystyle   \operatorname   { v a r }   ( \mathbf   { X }   ) = n \lbrace   \operatorname   { d i a g }   ( \mathbf   { p }   ) - \mathbf   { p }   \mathbf   { p }   ^ { \rm   { T } } \rbrace   , \ , }
+  \Pr ( A = 1 , B = 2 , C = 3 )   =   \frac { 6 ! } { 1 !   2 !   3 ! } ( 0 . 2 ^ 1 )   ( 0 . 3 ^ 2 )   ( 0 . 5 ^ 3 )   =   0 . 1 3 5  
+p _ { 1 } , \ldots   , p _ { k }
+{ \displaystyle   j = \min   \left \{ j ' \in   \{ 1 , \dots   , k \}:\left ( \sum   _ { i = 1 } ^ { j ' } p _ { i } \right ) - X \geq   0 \right \ } . }
+p _ { 1 } , \ldots   , p _ { k }
+( \theta   ^ { 2 } , 2 \theta   ( 1 - \theta   ) , ( 1 - \theta   ) ^ { 2 } )

@@ -1,0 +1,22 @@
+\lambda  
+\alpha  
+\beta  
+\delta  
+\mu  
+\gamma   = { \sqrt   { \alpha   ^ { 2 } - \beta   ^ { 2 } } }
+x \in   ( - \infty   ; + \infty   ) \ !
+{ \frac   { ( \gamma   / \delta   ) ^ { \lambda   } } { { \sqrt   { 2 \pi   } } K _ { \lambda   } ( \delta   \gamma   ) } } \;e ^ { \beta   ( x - \mu   ) } \ !
+\times   { \frac   { K _ { \lambda   - 1 / 2 } \left ( \alpha   { \sqrt   { \delta   ^ { 2 } + ( x - \mu   ) ^ { 2 } } } \right ) } { \left ( { \sqrt   { \delta   ^ { 2 } + ( x - \mu   ) ^ { 2 } } } / \alpha   \right ) ^ { 1 / 2 - \lambda   } } } \ !
+\mu   + { \frac   { \delta   \beta   K _ { \lambda   + 1 } ( \delta   \gamma   ) } { \gamma   K _ { \lambda   } ( \delta   \gamma   ) } }
+{ \frac   { \delta   K _ { \lambda   + 1 } ( \delta   \gamma   ) } { \gamma   K _ { \lambda   } ( \delta   \gamma   ) } } + { \frac   { \beta   ^ { 2 } \delta   ^ { 2 } } { \gamma   ^ { 2 } } } \left ( { \frac   { K _ { \lambda   + 2 } ( \delta   \gamma   ) } { K _ { \lambda   } ( \delta   \gamma   ) } } - { \frac   { K _ { \lambda   + 1 } ^ { 2 } ( \delta   \gamma   ) } { K _ { \lambda   } ^ { 2 } ( \delta   \gamma   ) } } \right )
+{ \frac   { e ^ { \mu   z } \gamma   ^ { \lambda   } } { ( { \sqrt   { \alpha   ^ { 2 } - ( \beta   + z ) ^ { 2 } } } ) ^ { \lambda   } } } { \frac   { K _ { \lambda   } ( \delta   { \sqrt   { \alpha   ^ { 2 } - ( \beta   + z ) ^ { 2 } } } ) } { K _ { \lambda   } ( \delta   \gamma   ) } }
+K _ { \lambda   }
+X \sim   \mathrm   { G H }   ( - { \frac   { \nu   } { 2 } } , 0 , 0 , { \sqrt   { \nu   } } , \mu   ) \ ,
+\nu  
+X \sim   \mathrm   { G H }   ( 1 , \alpha   , \beta   , \delta   , \mu   ) \ ,
+X \sim   \mathrm   { G H }   ( - 1 / 2 , \alpha   , \beta   , \delta   , \mu   ) \ ,
+X \sim   \mathrm   { G H }   ( ? , ? , ? , ? , ? ) \ ,
+X \sim   \mathrm   { G H }   ( ? , ? , ? , ? , ? ) \ ,
+X \sim   \mathrm   { G H }   ( \lambda   , \alpha   , \beta   , 0 , \mu   ) \ ,
+{ \displaystyle   X \sim   \mathrm   { G H }   ( 1 , 1 , 0 , 0 , \mu   ) \ , }
+\mu  

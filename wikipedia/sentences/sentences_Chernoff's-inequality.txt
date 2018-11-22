@@ -1,0 +1,64 @@
+t > 0
+\Pr ( X \geq   a ) = \Pr ( e ^ { t \cdot   X } \geq   e ^ { t \cdot   a } ) \leq   { \frac   { \mathrm   { E }   \left [ e ^ { t \cdot   X } \right ] } { e ^ { t \cdot   a } } } .
+\Pr ( X \geq   a ) \leq   e ^ { - t a } \mathrm   { E }   \left [ \prod   _ { i } e ^ { t \cdot   X _ { i } } \right ] .
+\Pr ( X \geq   a ) \leq   \min   _ { t > 0 } e ^ { - t a } \prod   _ { i } E \left [ e ^ { t X _ { i } } \right ] .
+\Pr ( X \leq   a ) = \Pr   \left ( e ^ { - t X } \geq   e ^ { - t a } \right )
+{ \displaystyle   \Pr ( X \leq   a ) \leq   \min   _ { t > 0 } e ^ { t a } \prod   _ { i } \mathrm   { E }   \left [ e ^ { - t X _ { i } } \right ] }
+\mathrm   { E }   \left [ e ^ { - t \cdot   X _ { i } } \right ]
+X _ { i }
+\mathrm   { E }   \left [ e ^ { t \cdot   X _ { i } } \right ] = 1 + p ( e ^ { t } - 1 ) \leq   e ^ { p ( e ^ { t } - 1 ) }
+\mathrm   { E }   \left [ e ^ { t \cdot   X } \right ] \leq   e ^ { n \cdot   p ( e ^ { t } - 1 ) }
+\delta   > 0
+t = \ln ( 1 + \delta   ) > 0
+a = ( 1 + \delta   ) n p
+\mathrm   { E }   \left [ e ^ { t \cdot   X } \right ] \leq   e ^ { \delta   n p }
+e ^ { - t a } = { \frac   { 1 } { ( 1 + \delta   ) ^ { ( 1 + \delta   ) n p } } }
+{ \displaystyle   \Pr [ X \geq   ( 1 + \delta   ) n p ] \leq   { \frac   { e ^ { \delta   n p } } { ( 1 + \delta   ) ^ { ( 1 + \delta   ) n p } } } = \left [ { \frac   { e ^ { \delta   } } { ( 1 + \delta   ) ^ { 1 + \delta   } } } \right ] ^ { n p } }
+\Pr [ X > { n   \over   2 } ] = \sum   _ { i = \lfloor   { \tfrac   { n } { 2 } } \rfloor   + 1 } ^ { n } { \binom   { n } { i } } p ^ { i } ( 1 - p ) ^ { n - i } .
+\Pr [ X > { n   \over   2 } ] \geq   1 - e ^ { - { \frac   { 1 } { 2 p } } n \left ( p - { \frac   { 1 } { 2 } } \right ) ^ { 2 } } .
+{ \begin { a l i g n e d } \Pr   \left ( X \leq   \left \lfloor   { \tfrac   { n } { 2 } } \right \rfloor   \right ) & = \Pr   \left ( X \leq   \left ( 1 - \left ( 1 - { \tfrac   { 1 } { 2 p } } \right ) \right ) \mu   \right ) \\&\leq   e ^ { - { \frac   { \mu   } { 2 } } \left ( 1 - { \frac   { 1 } { 2 p } } \right ) ^ { 2 } } \\&=e ^ { - { \frac   { n } { 2 p } } \left ( p - { \frac   { 1 } { 2 } } \right ) ^ { 2 } } \end { a l i g n e d } }
+{ \begin { a l i g n e d } \Pr   \left ( { \frac   { 1 } { n } } \sum   X _ { i } \geq   p + \varepsilon   \right ) \leq   \left ( \left ( { \frac   { p } { p + \varepsilon   } } \right ) ^ { p + \varepsilon   } { \left ( { \frac   { 1 - p } { 1 - p - \varepsilon   } } \right ) } ^ { 1 - p - \varepsilon   } \right ) ^ { n } & = e ^ { - D ( p + \varepsilon   \|p ) n } \\\Pr   \left ( { \frac   { 1 } { n } } \sum   X _ { i } \leq   p - \varepsilon   \right ) \leq   \left ( \left ( { \frac   { p } { p - \varepsilon   } } \right ) ^ { p - \varepsilon   } { \left ( { \frac   { 1 - p } { 1 - p + \varepsilon   } } \right ) } ^ { 1 - p + \varepsilon   } \right ) ^ { n } & = e ^ { - D ( p - \varepsilon   \|p ) n } \end { a l i g n e d } }
+D ( x \|y ) = x \ln   { \frac   { x } { y } } + ( 1 - x ) \ln   \left ( { \frac   { 1 - x } { 1 - y } } \right )
+{ \displaystyle   \Pr   \left ( \sum   X _ { i } > n p + x \right ) \leq   \exp   \left ( - { \frac   { x ^ { 2 } } { 2 n p ( 1 - p ) } } \right ) . }
+{ \displaystyle   { \frac   { d ^ { 2 } } { d \varepsilon   ^ { 2 } } } D ( p + \varepsilon   \|p ) = { \frac   { 1 } { ( p + \varepsilon   ) ( 1 - p - \varepsilon   ) } } \geq   4 = { \frac   { d ^ { 2 } } { d \varepsilon   ^ { 2 } } } ( 2 \varepsilon   ^ { 2 } ) . }
+{ \displaystyle   { \begin { a l i g n e d } D ( ( 1 + x ) p \|p ) \geq   { \tfrac   { 1 } { 4 } } x ^ { 2 } p , & \qquad   - { \tfrac   { 1 } { 2 } } \leq   x \leq   { \tfrac   { 1 } { 2 } } , \\D ( x \|y ) \geq   { \tfrac   { 3 ( x - y ) ^ { 2 } } { 2 ( 2 y + x ) } } , \\D ( x \|y ) \geq   { \tfrac   { ( x - y ) ^ { 2 } } { 2 y } } , & \qquad   x \leq   y , \\D ( x \|y ) \geq   { \tfrac   { ( x - y ) ^ { 2 } } { 2 x } } , & \qquad   x \geq   y \\\end { a l i g n e d } } }
+\Pr ( X > ( 1 + \delta   ) \mu   ) < \left ( { \frac   { e ^ { \delta   } } { ( 1 + \delta   ) ^ { ( 1 + \delta   ) } } } \right ) ^ { \mu   } .
+{ \displaystyle   \Pr ( X < ( 1 - \delta   ) \mu   ) < \left ( { \frac   { e ^ { - \delta   } } { ( 1 - \delta   ) ^ { ( 1 - \delta   ) } } } \right ) ^ { \mu   } . }
+{ \displaystyle   \Pr ( X \leq   ( 1 - \delta   ) \mu   ) \leq   e ^ { - { \frac   { \delta   ^ { 2 } \mu   } { 2 } } } , \qquad   0 \leq   \delta   \leq   1 . }
+{ \displaystyle   \Pr ( X \geq   ( 1 + \delta   ) \mu   ) \leq   e ^ { - { \frac   { \delta   ^ { 2 } \mu   } { 2 + \delta   } } } , \qquad   0 \leq   \delta   , }
+{ \displaystyle   \Pr ( X \geq   ( 1 + \delta   ) \mu   ) \leq   e ^ { - { \frac   { \delta   ^ { 2 } \mu   } { 3 } } } , \qquad   0 \leq   \delta   \leq   1 , }
+{ \displaystyle   \Pr ( X \geq   ( 1 + \delta   ) \mu   ) \leq   e ^ { - { \frac   { \delta   \mu   } { 3 } } } , \qquad   1 \leq   \delta   , }
+{ \displaystyle   M _ { i } \in   \mathbb   { C }   ^ { d _ { 1 } \times   d _ { 2 } } }
+{ \displaystyle   \mathbb   { E }   [ M _ { i } ] = 0 }
+{ \displaystyle   \lVert   M \rVert   }
+M
+{ \displaystyle   \lVert   M _ { i } \rVert   \leq   \gamma   }
+{ \displaystyle   i \in   \{ 1 , \ldots   , t \ } }
+{ \displaystyle   \Pr   \left ( \left \|{ \frac   { 1 } { t } } \sum   _ { i = 1 } ^ { t } M _ { i } \right \|>\varepsilon   \right ) \leq   ( d _ { 1 } + d _ { 2 } ) \exp   \left ( - { \frac   { 3 \varepsilon   ^ { 2 } t } { 8 \gamma   ^ { 2 } } } \right ) . }
+t
+{ \displaystyle   d _ { 1 } + d _ { 2 } }
+{ \displaystyle   \log ( \min ( d _ { 1 } , d _ { 2 } ) ) }
+{ \displaystyle   d \times   d }
+{ \displaystyle   \|\mathrm   { E }   [ M ] \|\leq   1 }
+{ \displaystyle   \|M \|\leq   \gamma   }
+t = \Omega   \left ( { \frac   { \gamma   \log ( \gamma   / \varepsilon   ^ { 2 } ) } { \varepsilon   ^ { 2 } } } \right ) .
+r \leq   t
+{ \displaystyle   \Pr   \left ( \left \|{ \frac   { 1 } { t } } \sum   _ { i = 1 } ^ { t } M _ { i } - \mathrm   { E }   [ M ] \right \|>\varepsilon   \right ) \leq   { \frac   { 1 } { \mathbf   { p o l y }   ( t ) } } }
+\mathrm   { P r }   \left ( r _ { S } < ( 1 - d ) \cdot   r \right ) < \exp   \left ( - r \cdot   d ^ { 2 } \cdot   k / 2 \right )
+\mathrm   { P r }   \left ( r _ { S } > 0 . 5 \right ) > 1 - \exp   \left ( - r \cdot   \left ( 1 - { \frac   { 1 } { 2 r } } \right ) ^ { 2 } \cdot   k / 2 \right )
+\Pr   \left ( { \frac   { 1 } { n } } \sum   X _ { i } \geq   q \right ) \leq   \inf   _ { t > 0 } { \frac   { E \left [ \prod   e ^ { t X _ { i } } \right ] } { e ^ { t n q } } } = \inf   _ { t > 0 } \left ( { \frac   { E \left [ e ^ { t X _ { i } } \right ] } { e ^ { t q } } } \right ) ^ { n } .
+\left ( { \frac   { \mathrm   { E }   \left [ e ^ { t X _ { i } } \right ] } { e ^ { t q } } } \right ) ^ { n } = \left ( { \frac   { p e ^ { t } + ( 1 - p ) } { e ^ { t q } } } \right ) ^ { n } = \left ( p e ^ { ( 1 - q ) t } + ( 1 - p ) e ^ { - q t } \right ) ^ { n } .
+{ \frac   { d } { d t } } \left ( p e ^ { ( 1 - q ) t } + ( 1 - p ) e ^ { - q t } \right ) = ( 1 - q ) p e ^ { ( 1 - q ) t } - q ( 1 - p ) e ^ { - q t }
+{ \begin { a l i g n e d } ( 1 - q ) p e ^ { ( 1 - q ) t } & = q ( 1 - p ) e ^ { - q t } \\( 1 - q ) p e ^ { t } & = q ( 1 - p ) \end { a l i g n e d } }
+e ^ { t } = { \frac   { ( 1 - p ) q } { ( 1 - q ) p } } .
+t = \log   \left ( { \frac   { ( 1 - p ) q } { ( 1 - q ) p } } \right ) .
+{ \begin { a l i g n e d } \log   \left ( p e ^ { ( 1 - q ) t } + ( 1 - p ) e ^ { - q t } \right ) & = \log   \left ( e ^ { - q t } ( 1 - p + p e ^ { t } ) \right ) \\&=\log   \left ( e ^ { - q \log   \left ( { \frac   { ( 1 - p ) q } { ( 1 - q ) p } } \right ) } \right ) + \log   \left ( 1 - p + p e ^ { \log   \left ( { \frac   { 1 - p } { 1 - q } } \right ) } e ^ { \log   { \frac   { q } { p } } } \right ) \\&=-q \log   { \frac   { 1 - p } { 1 - q } } - q \log   { \frac   { q } { p } } + \log   \left ( 1 - p + p \left ( { \frac   { 1 - p } { 1 - q } } \right ) { \frac   { q } { p } } \right ) \\&=-q \log   { \frac   { 1 - p } { 1 - q } } - q \log   { \frac   { q } { p } } + \log   \left ( { \frac   { ( 1 - p ) ( 1 - q ) } { 1 - q } } + { \frac   { ( 1 - p ) q } { 1 - q } } \right ) \\&=-q \log   { \frac   { q } { p } } + \left ( - q \log   { \frac   { 1 - p } { 1 - q } } + \log   { \frac   { 1 - p } { 1 - q } } \right ) \\&=-q \log   { \frac   { q } { p } } + ( 1 - q ) \log   { \frac   { 1 - p } { 1 - q } } \\&=-D ( q \|p ) . \end { a l i g n e d } }
+\Pr   \left ( { \tfrac   { 1 } { n } } \sum   X _ { i } \geq   p + \varepsilon   \right ) \leq   e ^ { - D ( p + \varepsilon   \|p ) n } .
+{ \begin { a l i g n e d } \Pr ( X > ( 1 + \delta   ) \mu   ) & \leq   \inf   _ { t > 0 } { \frac   { \mathrm   { E }   \left [ \prod   _ { i = 1 } ^ { n } \exp ( t X _ { i } ) \right ] } { \exp ( t ( 1 + \delta   ) \mu   ) } } \\&=\inf   _ { t > 0 } { \frac   { \prod   _ { i = 1 } ^ { n } \mathrm   { E }   \left [ e ^ { t X _ { i } } \right ] } { \exp ( t ( 1 + \delta   ) \mu   ) } } \\&=\inf   _ { t > 0 } { \frac   { \prod   _ { i = 1 } ^ { n } \left [ p _ { i } e ^ { t } + ( 1 - p _ { i } ) \right ] } { \exp ( t ( 1 + \delta   ) \mu   ) } } \end { a l i g n e d } }
+e ^ { t X _ { i } }
+p _ { i } e ^ { t } + ( 1 - p _ { i } )
+p _ { i } ( e ^ { t } - 1 ) + 1
+1 + x \leq   e ^ { x }
+x = p _ { i } ( e ^ { t } - 1 )
+\Pr ( X > ( 1 + \delta   ) \mu   ) < { \frac   { \prod   _ { i = 1 } ^ { n } \exp ( p _ { i } ( e ^ { t } - 1 ) ) } { \exp ( t ( 1 + \delta   ) \mu   ) } } = { \frac   { \exp   \left ( ( e ^ { t } - 1 ) \sum   _ { i = 1 } ^ { n } p _ { i } \right ) } { \exp ( t ( 1 + \delta   ) \mu   ) } } = { \frac   { \exp ( ( e ^ { t } - 1 ) \mu   ) } { \exp ( t ( 1 + \delta   ) \mu   ) } } .
+{ \frac   { \exp ( ( e ^ { t } - 1 ) \mu   ) } { \exp ( t ( 1 + \delta   ) \mu   ) } } = { \frac   { \exp ( ( 1 + \delta   - 1 ) \mu   ) } { ( 1 + \delta   ) ^ { ( 1 + \delta   ) \mu   } } } = \left [ { \frac   { e ^ { \delta   } } { ( 1 + \delta   ) ^ { ( 1 + \delta   ) } } } \right ] ^ { \mu   }

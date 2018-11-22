@@ -1,0 +1,6 @@
+\lambda  
+\lambda  
+\lambda   = { \frac     { \varepsilon   _ { 1 } - \varepsilon   _ { 2 } } { \varepsilon   _ { 1 } } } .
+\varepsilon   _ { 1 }
+\varepsilon   _ { 2 }
+\lambda   = { \frac     { 1 2 8 - ( 3 0 + 9 8 ) } { 1 2 8 } } = 0

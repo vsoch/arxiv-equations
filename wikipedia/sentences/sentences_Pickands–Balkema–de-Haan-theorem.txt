@@ -1,0 +1,23 @@
+F
+X
+F _ { u }
+X
+u
+{ \displaystyle   F _ { u } ( y ) = P ( X - u \leq   y | X > u ) = { \frac   { F ( u + y ) - F ( u ) } { 1 - F ( u ) } } }
+0 \leq   y \leq   x _ { F } - u
+x _ { F }
+F
+F _ { u }
+u
+( X _ { 1 } , X _ { 2 } , \ldots   )
+F _ { u }
+F
+u
+F _ { u }
+F _ { u } ( y ) \rightarrow   G _ { { k , \sigma   } } ( y ) , { \text {   a s   } } u \rightarrow   \infty  
+G _ { { k , \sigma   } } ( y ) = 1 - ( 1 + k y / \sigma   ) ^ { { - 1 / k } }
+k \neq   0
+G _ { { k , \sigma   } } ( y ) = 1 - e ^ { { - y / \sigma   } }
+k = 0 .
+\sigma  
+[ 0 , \sigma   ]

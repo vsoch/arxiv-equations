@@ -1,0 +1,39 @@
+\theta   \ ,
+y \ ,
+\xi   \ ,
+{ \displaystyle   p ( y \mid   \theta   , \xi   ) \ , }
+y
+\theta  
+\xi  
+p ( \theta   ) \ ,
+{ \displaystyle   p ( y \mid   \xi   ) \ , }
+{ \displaystyle   p ( \theta   \mid   y , \xi   ) \ , }
+U ( \xi   ) \ ,
+\xi  
+U ( y , \xi   ) \ ,
+y
+\xi  
+\theta  
+p ( \theta   )
+{ \displaystyle   p ( y \mid   \theta   , \xi   ) }
+y
+\theta  
+\xi  
+{ \displaystyle   p ( \theta   \mid   y , \xi   ) = { \frac   { p ( y \mid   \theta   , \xi   ) p ( \theta   ) } { p ( y \mid   \xi   ) } } \ , , }
+{ \displaystyle   p ( y \mid   \xi   ) }
+{ \displaystyle   p ( y \mid   \xi   ) = \int   p ( \theta   ) p ( y \mid   \theta   , \xi   ) \,d \theta   \ , . }
+\xi  
+{ \displaystyle   U ( \xi   ) = \int   p ( y \mid   \xi   ) U ( y , \xi   ) \,dy , }
+U ( y , \xi   )
+{ \displaystyle   p ( \theta   \mid   y , \xi   ) }
+y
+\xi  
+{ \displaystyle   U ( y , \xi   ) = \int   \log ( p ( \theta   \mid   y , \xi   ) ) \,p ( \theta   | y , \xi   ) \,d \theta   - \int   \log ( p ( \theta   ) ) \,p ( \theta   ) \,d \theta   \ , . }
+{ \displaystyle   U ( y , \xi   ) = D _ { K L } ( p ( \theta   \mid   y , \xi   ) \|p ( \theta   ) ) \ , , }
+{ \displaystyle   { \begin { a l i g n e d a t } { 2 } U ( \xi   ) & = \int   \int   \log ( p ( \theta   \mid   y , \xi   ) ) \,p ( \theta   , y \mid   \xi   ) \,d \theta   \,dy - \int   \log ( p ( \theta   ) ) \,p ( \theta   ) \,d \theta   \\&=\int   \int   \log ( p ( y \mid   \theta   , \xi   ) ) \,p ( \theta   , y \mid   \xi   ) \,dy \,d \theta   - \int   \log ( p ( y \mid   \xi   ) ) \,p ( y \mid   \xi   ) \,dy , \end { a l i g n e d a t } } \ , }
+{ \displaystyle   p ( \theta   \mid   y , \xi   ) }
+y
+\xi  
+p ( \theta   ) \log   p ( \theta   )
+\xi  
+U ( \xi   ) = I ( \theta   ; y ) \ , ,

@@ -1,0 +1,8 @@
+{ \displaystyle   X _ { 1 } , X _ { 2 } , X _ { 3 } , \dots   }
+{ \displaystyle   X _ { i _ { 1 } } , \dots   , X _ { i _ { n } } { \text {   a n d   } } X _ { j _ { 1 } } , \dots   , X _ { j _ { n } } }
+X _ { 1 } , X _ { 2 } , X _ { 3 } , \ldots  
+X _ { 1 } , X _ { 2 } , X _ { 3 } , \ldots  
+X _ { 1 } , X _ { 2 } , \ldots  
+{ \displaystyle   X _ { 1 } , X _ { 2 } , X _ { 3 } , \dots   }
+\lim   _ { { n \rightarrow   \infty   } } { \frac     { X _ { 1 } + \cdots   + X _ { n } } { n } } = { \begin { c a s e s } 2 / 3 & { \text { w i t h   p r o b a b i l i t y   } } 1 / 2 , \\9 / 1 0 & { \text { w i t h   p r o b a b i l i t y   } } 1 / 2 . \end { c a s e s } }
+{ \displaystyle   X _ { 1 } , \dots   , X _ { n } , }

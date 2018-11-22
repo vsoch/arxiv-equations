@@ -1,0 +1,4 @@
+{ \displaystyle   \mathrm   { P }   ( X > 1 . 9 6 ) \approx   0 . 0 2 5 , \ , }
+{ \displaystyle   \mathrm   { P }   ( X < 1 . 9 6 ) \approx   0 . 9 7 5 , \ , }
+{ \displaystyle   \mathrm   { P }   ( - 1 . 9 6 < X < 1 . 9 6 ) \approx   0 . 9 5 . \ , }
+{ \displaystyle   { \frac   { 1 } { \sqrt   { 2 \pi   } } } \int   _ { - \infty   } ^ { z _ { . 9 7 5 } } e ^ { - x ^ { 2 } / 2 } \,\mathrm   { d }   x = 0 . 9 7 5 . }

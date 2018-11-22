@@ -1,0 +1,5 @@
+{ \displaystyle   { \mathcal   { G } } _ { n , r } }
+{ \displaystyle   r \geq   3 }
+\epsilon  
+{ \displaystyle   ( r - 1 ) ^ { d - 1 } \geq   ( 2 + \epsilon   ) r n \ln   n }
+{ \displaystyle   \lambda   _ { i } = { \frac   { ( r - 1 ) ^ { i } } { 2 i } } }

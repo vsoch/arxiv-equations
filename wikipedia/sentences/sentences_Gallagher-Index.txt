@@ -1,0 +1,5 @@
+V _ { i }
+S _ { i }
+{ \displaystyle   i = 1 . . . n }
+{ \mathrm     { L S q } } = { \sqrt     { { \frac     { 1 } { 2 } } \sum   _ { { i = 1 } } ^ { n } ( V _ { i } - S _ { i } ) ^ { 2 } } }
+{ \mathrm     { S L I } } = \sum   { ( S - V ) ^ { 2 }   \over   V }

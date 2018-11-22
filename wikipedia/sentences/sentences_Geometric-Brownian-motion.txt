@@ -1,0 +1,34 @@
+d S _ { t } = \mu   S _ { t } \,dt + \sigma   S _ { t } \,dW_ { t }
+W _ { t }
+\mu  
+\sigma  
+S _ { t } = S _ { 0 } \exp   \left ( \left ( \mu   - { \frac   { \sigma   ^ { 2 } } { 2 } } \right ) t + \sigma   W _ { t } \right ) .
+S _ { t }
+\int   _ { 0 } ^ { t } { \frac   { d S _ { t } } { S _ { t } } } = \mu   \,t + \sigma   \,W_ { t } \,,\qquad   { \text { a s s u m i n g   } } W _ { 0 } = 0 \ , .
+{ \frac   { d S _ { t } } { S _ { t } } }
+\ln   S _ { t }
+S _ { t }
+{ \displaystyle   d ( \ln   S _ { t } ) = { \frac   { d S _ { t } } { S _ { t } } } - { \frac   { 1 } { 2 } } \,{ \frac   { 1 } { S _ { t } ^ { 2 } } } \,dS_ { t } d S _ { t } }
+{ \displaystyle   d S _ { t } d S _ { t } }
+{ \displaystyle   d [ S ] _ { t } }
+{ \displaystyle   \left \langle   S _ { . } \right \rangle   _ { t } \ , . }
+{ \displaystyle   d S _ { t } d S _ { t } \,=\,\sigma   ^ { 2 } \,S_ { t } ^ { 2 } \,dt . }
+{ \displaystyle   d S _ { t } }
+\ln   { \frac   { S _ { t } } { S _ { 0 } } } = \left ( \mu   - { \frac   { \sigma   ^ { 2 } } { 2 } } \,\right ) t + \sigma   W _ { t } \ , .
+S _ { 0 }
+S _ { t }
+\mathbb   { E }   ( S _ { t } ) = S _ { 0 } e ^ { \mu   t } ,
+{ \displaystyle   \operatorname   { V a r }   ( S _ { t } ) = S _ { 0 } ^ { 2 } e ^ { 2 \mu   t } \left ( e ^ { \sigma   ^ { 2 } t } - 1 \right ) . }
+{ \displaystyle   Z _ { t } = \exp   \left ( \sigma   W _ { t } - { \frac   { 1 } { 2 } } \sigma   ^ { 2 } t \right ) }
+{ \displaystyle   \mathbb   { E }   \left [ \exp   \left ( 2 \sigma   W _ { t } - \sigma   ^ { 2 } t \right ) | { \mathcal   { F } } _ { s } \right ] = e ^ { \sigma   ^ { 2 } ( t - s ) } \exp   \left ( 2 \sigma   W _ { s } - \sigma   ^ { 2 } s \right ) , \quad   \forall   0 \leq   s < t . }
+S _ { t }
+f _ { S _ { t } } ( s ; \mu   , \sigma   , t ) = { \frac   { 1 } { \sqrt   { 2 \pi   } } } \,{ \frac   { 1 } { s \sigma   { \sqrt   { t } } } } \,\exp   \left ( - { \frac   { \left ( \ln   s - \ln   S _ { 0 } - \left ( \mu   - { \frac   { 1 } { 2 } } \sigma   ^ { 2 } \right ) t \right ) ^ { 2 } } { 2 \sigma   ^ { 2 } t } } \right ) .
+{ \begin { a l i g n e d a t } { 2 } d \log ( S ) & = f ^ { \prime   } ( S ) \,dS + { \frac   { 1 } { 2 } } f ^ { \prime   \prime   } ( S ) S ^ { 2 } \sigma   ^ { 2 } \,dt \\&={ \frac   { 1 } { S } } \left ( \sigma   S \,dW_ { t } + \mu   S \,dt \right ) - { \frac   { 1 } { 2 } } \sigma   ^ { 2 } \,dt \\&=\sigma   \,dW_ { t } + ( \mu   - \sigma   ^ { 2 } / 2 ) \,dt . \end { a l i g n e d a t } }
+\mathbb   { E }   \log ( S _ { t } ) = \log ( S _ { 0 } ) + ( \mu   - \sigma   ^ { 2 } / 2 ) t
+{ \begin { a l i g n e d a t } { 2 } \log ( S _ { t } ) & = \log   \left ( S _ { 0 } \exp   \left ( \left ( \mu   - { \frac   { \sigma   ^ { 2 } } { 2 } } \right ) t + \sigma   W _ { t } \right ) \right ) \\&=\log ( S _ { 0 } ) + \left ( \mu   - { \frac   { \sigma   ^ { 2 } } { 2 } } \right ) t + \sigma   W _ { t } . \end { a l i g n e d a t } }
+\mathbb   { E }   \log ( S _ { t } ) = \log ( S _ { 0 } ) + ( \mu   - \sigma   ^ { 2 } / 2 ) t
+d S _ { t } ^ { i } = \mu   _ { i } S _ { t } ^ { i } \,dt + \sigma   _ { i } S _ { t } ^ { i } \,dW_ { t } ^ { i }
+\mathbb   { E }   ( d W _ { t } ^ { i } d W _ { t } ^ { j } ) = \rho   _ { i , j } d t
+\rho   _ { i , i } = 1
+\mathrm   { C o v }   ( S _ { t } ^ { i } , S _ { t } ^ { j } ) = S _ { 0 } ^ { i } S _ { 0 } ^ { j } e ^ { ( \mu   _ { i } + \mu   _ { j } ) t } \left ( e ^ { \rho   _ { i , j } \sigma   _ { i } \sigma   _ { j } t } - 1 \right )
+\sigma  

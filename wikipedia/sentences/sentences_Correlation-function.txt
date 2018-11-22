@@ -1,0 +1,6 @@
+{ \displaystyle   C ( s , t ) = \operatorname   { c o r r }   ( X ( s ) , Y ( t ) ) , }
+\operatorname   { c o r r }
+i , j
+{ \displaystyle   C _ { i j } ( s , t ) = \operatorname   { c o r r }   ( X _ { i } ( s ) , Y _ { j } ( t ) ) . }
+C _ { { i _ { 1 } i _ { 2 } \cdots   i _ { n } } } ( s _ { 1 } , s _ { 2 } , \cdots   , s _ { n } ) = \langle   X _ { { i _ { 1 } } } ( s _ { 1 } ) X _ { { i _ { 2 } } } ( s _ { 2 } ) \cdots   X _ { { i _ { n } } } ( s _ { n } ) \rangle   .
+i , j

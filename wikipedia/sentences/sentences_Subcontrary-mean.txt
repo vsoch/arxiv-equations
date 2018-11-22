@@ -1,0 +1,60 @@
+{ \displaystyle   \left ( { \frac   { 1 ^ { - 1 } + 4 ^ { - 1 } + 4 ^ { - 1 } } { 3 } } \right ) ^ { - 1 } = { \frac   { 3 } { { \frac   { 1 } { 1 } } + { \frac   { 1 } { 4 } } + { \frac   { 1 } { 4 } } } } = { \frac   { 3 } { 1 . 5 } } = 2 \ , . }
+x _ { 1 } , x _ { 2 } , \ldots   , x _ { n }
+{ \displaystyle   H = { \frac   { n } { { \frac   { 1 } { x _ { 1 } } } + { \frac   { 1 } { x _ { 2 } } } + \cdots   + { \frac   { 1 } { x _ { n } } } } } = { \frac   { n } { \sum   \limits   _ { i = 1 } ^ { n } { \frac   { 1 } { x _ { i } } } } } = \left ( { \frac   { \sum   \limits   _ { i = 1 } ^ { n } x _ { i } ^ { - 1 } } { n } } \right ) ^ { - 1 } . }
+{ \displaystyle   H = { \frac   { n \cdot   \prod   \limits   _ { j = 1 } ^ { n } x _ { j } } { \sum   \limits   _ { i = 1 } ^ { n } \left \{ { \frac   { 1 } { x _ { i } } } { \prod   \limits   _ { j = 1 } ^ { n } x _ { j } } \right \ } } } . }
+{ \displaystyle   1 / H ( 1 / x _ { 1 } \ldots   1 / x _ { n } ) = A ( x _ { 1 } \ldots   x _ { n } ) }
+{ \displaystyle   \min ( x _ { 1 } \ldots   x _ { n } ) \leq   H ( x _ { 1 } \ldots   x _ { n } ) \leq   n \min ( x _ { 1 } \ldots   x _ { n } ) }
+{ \displaystyle   H \left ( x _ { 1 } , x _ { 2 } , \ldots   , x _ { n } \right ) = M _ { - 1 } \left ( x _ { 1 } , x _ { 2 } , \ldots   , x _ { n } \right ) = { \frac   { n } { x _ { 1 } ^ { - 1 } + x _ { 2 } ^ { - 1 } + \cdots   + x _ { n } ^ { - 1 } } } }
+{ \displaystyle   H \left ( x _ { 1 } , \ldots   , x _ { n } \right ) = { \frac   { \left ( G \left ( x _ { 1 } , \ldots   , x _ { n } \right ) \right ) ^ { n } } { A \left ( x _ { 2 } x _ { 3 } \cdots   x _ { n } , x _ { 1 } x _ { 3 } \cdots   x _ { n } , \ldots   , x _ { 1 } x _ { 2 } \cdots   x _ { n - 1 } \right ) } } = { \frac   { \left ( G \left ( x _ { 1 } , \ldots   , x _ { n } \right ) \right ) ^ { n } } { A \left ( { \frac   { 1 } { x _ { 1 } } } { \prod   \limits   _ { i = 1 } ^ { n } x _ { i } } , { \frac   { 1 } { x _ { 2 } } } { \prod   \limits   _ { i = 1 } ^ { n } x _ { i } } , \ldots   , { \frac   { 1 } { x _ { n } } } { \prod   \limits   _ { i = 1 } ^ { n } x _ { i } } \right ) } } . }
+x _ { 1 }
+x _ { 2 }
+{ \displaystyle   H = { \frac   { 2 x _ { 1 } x _ { 2 } } { x _ { 1 } + x _ { 2 } } } . }
+A = { \frac   { x _ { 1 } + x _ { 2 } } { 2 } }
+G = { \sqrt   { x _ { 1 } x _ { 2 } } } ,
+{ \displaystyle   H = { \frac   { G ^ { 2 } } { A } } = G \cdot   \left ( { \frac   { G } { A } } \right ) . }
+{ \displaystyle   { \tfrac   { G } { A } } \leq   1 }
+{ \displaystyle   G = { \sqrt   { A H } } }
+x _ { 1 }
+x _ { 2 }
+x _ { 3 }
+{ \displaystyle   H = { \frac   { 3 x _ { 1 } x _ { 2 } x _ { 3 } } { x _ { 1 } x _ { 2 } + x _ { 1 } x _ { 3 } + x _ { 2 } x _ { 3 } } } . }
+{ \displaystyle   { \frac   { A ^ { 3 } } { G ^ { 3 } } } + { \frac   { G ^ { 3 } } { H ^ { 3 } } } + 1 \leq   { \frac   { 3 } { 4 } } \left ( 1 + { \frac   { A } { H } } \right ) ^ { 2 } . }
+w _ { 1 }
+w _ { n }
+x _ { 1 }
+x _ { n }
+{ \displaystyle   H = { \frac   { \sum   \limits   _ { i = 1 } ^ { n } w _ { i } } { \sum   \limits   _ { i = 1 } ^ { n } { \frac   { w _ { i } } { x _ { i } } } } } = \left ( { \frac   { \sum   \limits   _ { i = 1 } ^ { n } w _ { i } x _ { i } ^ { - 1 } } { \sum   \limits   _ { i = 1 } ^ { n } w _ { i } } } \right ) ^ { - 1 } . }
+{ \displaystyle   P / E = 0 . 3 \times   3 0 + 0 . 7 \times   1 0 0 0 = 7 0 9 }
+{ \displaystyle   P / E = { \frac   { 0 . 3 + 0 . 7 } { 0 . 3 / 3 0 + 0 . 7 / 1 0 0 0 } } \approx   9 3 . 4 6 }
+{ \displaystyle   H = { \frac   { \alpha   - 1 } { \alpha   + \beta   - 1 } } { \text {   c o n d i t i o n a l   o n   } } \alpha   > 1 \,\,\&\,\,\beta   > 0 }
+{ \displaystyle   H = { \frac   { \alpha   - 1 } { 2 \alpha   - 1 } } }
+{ \displaystyle   { \begin { a l i g n e d } \lim   _ { \alpha   \to   0 } H & = { \text {   u n d e f i n e d   } } \\\lim   _ { \alpha   \to   1 } H & = \lim   _ { \beta   \to   \infty   } H = 0 \\\lim   _ { \beta   \to   0 } H & = \lim   _ { \alpha   \to   \infty   } H = 1 \end { a l i g n e d } } }
+{ \displaystyle   H _ { 1 - X } = { \frac   { \beta   - 1 } { \alpha   + \beta   - 1 } } { \text {   c o n d i t i o n a l   o n   } } \beta   > 1 \,\,\&\,\,\alpha   > 0 }
+{ \displaystyle   H _ { 1 - X } = { \frac   { \beta   - 1 } { 2 \beta   - 1 } } }
+{ \displaystyle   { \begin { a l i g n e d } \lim   _ { \beta   \to   0 } H _ { 1 - X } & = { \text {   u n d e f i n e d   } } \\\lim   _ { \beta   \to   1 } H _ { 1 - X } & = \lim   _ { \alpha   \to   \infty   } H _ { 1 - X } = 0 \\\lim   _ { \alpha   \to   0 } H _ { 1 - X } & = \lim   _ { \beta   \to   \infty   } H _ { 1 - X } = 1 \end { a l i g n e d } } }
+{ \displaystyle   H = \exp   \left ( \mu   - { \frac   { 1 } { 2 } } \sigma   ^ { 2 } \right ) , }
+{ \displaystyle   { \frac   { \mu   } { H } } = 1 + C _ { v } \ , , }
+{ \displaystyle   H \mu   = G ^ { 2 } . }
+{ \displaystyle   H = k \left ( 1 + { \frac   { 1 } { \alpha   } } \right ) }
+{ \displaystyle   s ^ { 2 } = { \frac   { m \left [ \operatorname   { E }   \left ( { \frac   { 1 } { x } } - 1 \right ) \right ] } { m ^ { 2 } n } } }
+{ \displaystyle   \operatorname   { V a r }   \left ( { \frac   { 1 } { x } } \right ) = { \frac   { m \left [ \operatorname   { E }   \left ( { \frac   { 1 } { x } } - 1 \right ) \right ] } { n m ^ { 2 } } } }
+{ \displaystyle   \operatorname   { V a r }   ( H ) = { \frac   { 1 } { n } } { \frac   { s ^ { 2 } } { m ^ { 4 } } } }
+{ \displaystyle   m = { \frac   { 1 } { n } } \sum   { \frac   { 1 } { x } } . }
+{ \displaystyle   s ^ { 2 } = \operatorname   { V a r }   \left ( { \frac   { 1 } { x } } \right ) }
+{ \displaystyle   m = { \frac   { n } { \sum   { \frac   { 1 } { x } } } } }
+{ \displaystyle   w _ { i } = { \frac   { n - 1 } { \sum   _ { j \neq   i } { \frac   { 1 } { x } } } } . }
+{ \displaystyle   h = { \frac   { 1 } { n } } \sum   { w _ { i } } }
+{ \displaystyle   { \frac   { n - 1 } { n } } \sum   { ( m - h ) } ^ { 2 } . }
+{ \displaystyle   f ^ { * } ( x ) = { \frac   { x f ( x ) } { \mu   } } }
+{ \displaystyle   \operatorname   { E }   ^ { * } ( x ) = \mu   \left [ 1 + { \frac   { \sigma   ^ { 2 } } { \mu   ^ { 2 } } } \right ] }
+{ \displaystyle   \operatorname   { E }   ^ { * } \left ( { \frac   { 1 } { x } } \right ) = \operatorname   { E }   \left ( { \frac   { 1 } { x } } \right ) }
+{ \displaystyle   \operatorname   { V a r }   \left [ { \frac   { 1 } { ( X + \epsilon   ) ^ { q } } } \right ] < \operatorname   { V a r }   \left ( { \frac   { 1 } { X ^ { q } } } \right ) . }
+{ \displaystyle   \operatorname   { E }   \left [ { \frac   { 1 } { X } } \right ] \geq   { \frac   { 1 } { \operatorname   { E }   ( X ) } } }
+{ \displaystyle   \operatorname   { E }   \left ( X ^ { - 1 } \right ) \geq   { \frac   { \operatorname   { E }   \left ( X ^ { n - 1 } \right ) } { \operatorname   { E }   \left ( X ^ { n } \right ) } } . }
+{ \displaystyle   \operatorname   { E }   ( a + X ) ^ { - n } \sim   \operatorname   { E }   \left ( a + X ^ { - n } \right ) }
+{ \displaystyle   { \begin { a l i g n e d } H _ { 1 } & = { \frac   { n } { \sum   \left ( { \frac   { 1 } { x } } \right ) } } \\H_ { 2 } & = { \frac   { \left ( \exp   \left [ { \frac   { 1 } { n } } \sum   \log   _ { e } ( x ) \right ] \right ) ^ { 2 } } { { \frac   { 1 } { n } } \sum   ( x ) } } \\H_ { 3 } & = \exp   \left ( m - { \frac   { 1 } { 2 } } s ^ { 2 } \right ) \end { a l i g n e d } } }
+{ \displaystyle   m = { \frac   { 1 } { n } } \sum   \log   _ { e } ( x ) }
+{ \displaystyle   s ^ { 2 } = { \frac   { 1 } { n } } \sum   \left ( \log   _ { e } ( x ) - m \right ) ^ { 2 } }
+{ \displaystyle   { \begin { a l i g n e d } \operatorname   { b i a s }   \left [ H _ { 1 } \right ] & = { \frac   { H C _ { v } } { n } } \\\operatorname   { V a r }   \left [ H _ { 1 } \right ] & = { \frac   { H ^ { 2 } C _ { v } } { n } } \end { a l i g n e d } } }
+{ \displaystyle   { \begin { a l i g n e d } { \frac   { H \log   _ { e } \left ( 1 + C _ { v } \right ) } { 2 n } } \left [ 1 + { \frac   { 1 + C _ { v } ^ { 2 } } { 2 } } \right ] \\{ \frac   { H \log   _ { e } \left ( 1 + C _ { v } \right ) } { n } } \left [ 1 + { \frac   { 1 + C _ { v } ^ { 2 } } { 4 } } \right ] \end { a l i g n e d } } }
+a ^ { - 2 } + b ^ { - 2 } = d ^ { - 2 }

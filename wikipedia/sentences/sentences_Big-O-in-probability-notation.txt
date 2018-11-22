@@ -1,0 +1,12 @@
+{ \displaystyle   X _ { n } = o _ { p } ( a _ { n } ) }
+\lim   _ { { n \to   \infty   } } P ( | X _ { n } | \geq   \varepsilon   ) = 0 ,
+{ \displaystyle   X _ { n } = O _ { p } ( a _ { n } ) , }
+{ \displaystyle   P ( | X _ { n } / a _ { n } | > M ) < \varepsilon   , \ \forall   n > N . }
+\forall   \varepsilon   \quad   \exists   N _ { \varepsilon } ,   \delta_ { \varepsilon }   \quad     \text {   s u c h   t h a t   }   P ( | X _ n |   \geq   \delta_ { \varepsilon } )   \leq   \varepsilon   \quad   \forall   n >   N _ { \varepsilon }
+{ \displaystyle   \forall   \varepsilon   , \delta   \quad   \exists   N _ { \varepsilon   , \delta   } \quad   { \text {   s u c h   t h a t   } } P ( | X _ { n } | \geq   \delta   ) \leq   \varepsilon   \quad   \forall   n > N _ { \varepsilon   , \delta   } }
+( X _ { n } )
+{ \displaystyle   X _ { n } - E ( X _ { n } ) = O _ { p } ( { \sqrt   { \operatorname   { v a r }   ( X _ { n } ) } } ) }
+a _ { n } ^ { { - 2 } } \operatorname   { v a r } ( X _ { n } ) = \operatorname   { v a r } ( a _ { n } ^ { { - 1 } } X _ { n } )
+( a _ { n } )
+a _ { n } ^ { { - 1 } } ( X _ { n } - E ( X _ { n } ) )
+X _ { n } - E ( X _ { n } ) = o _ { p } ( a _ { n } )

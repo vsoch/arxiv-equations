@@ -1,0 +1,14 @@
+{ \begin { a l i g n e d } H _ { 0 } & : ~ p _ { b } = p _ { c } \\H_ { 1 } & : ~ p _ { b } \neq   p _ { c } \end { a l i g n e d } }
+\chi   ^ { 2 } = { ( b - c ) ^ { 2 }   \over   b + c } .
+\chi   ^ { 2 }
+\chi   ^ { 2 }
+\chi   ^ { 2 }
+{ \displaystyle   { \text { e x a c t - P - v a l u e } } = 2 \sum   _ { i = b } ^ { n } { n   \choose   i } 0 . 5 ^ { i } ( 1 - 0 . 5 ) ^ { n - i } }
+\chi   ^ { 2 } = { ( | b - c | - 1 ) ^ { 2 }   \over   b + c } .
+{ \displaystyle   { \text { m i d - p - v a l u e } } = 2 \left ( \sum   _ { i = b } ^ { n } { n   \choose   i } 0 . 5 ^ { i } ( 1 - 0 . 5 ) ^ { n - i } - 0 . 5 { n   \choose   b } 0 . 5 ^ { b } ( 1 - 0 . 5 ) ^ { n - b } \right ) }
+{ \displaystyle   { \text { m i d - p - v a l u e } } = { \text { e x a c t - p - v a l u e } } - { n   \choose   b } 0 . 5 ^ { b } ( 1 - 0 . 5 ) ^ { n - b } }
+\chi   ^ { 2 } = { ( 1 2 1 - 5 9 ) ^ { 2 }   \over   { 1 2 1 + 5 9 } }
+\chi   ^ { 2 }
+\chi   ^ { 2 }
+{ \begin { a r r a y } { c | c | c } \hline   & { \text { T o n s i l l e c t o m y } } & { \text { N o   t o n s i l l e c t o m y } } \\\hline   { \text { H o d g k i n s } } & 4 1 & 4 4 \\\hline   { \text { C o n t r o l } } & 3 3 & 5 2 \end { a r r a y } }
+{ \begin { a r r a y } { c c } & { \text { S i b l i n g } } \\{ \text { P a t i e n t } } & { \begin { a r r a y } { c | c | c } \hline   & { \text { N o   t o n s i l l e c t o m y } } & { \text { T o n s i l l e c t o m y } } \\\hline   { \text { N o   t o n s i l l e c t o m y } } & 3 7 & 7 \\\hline   { \text { T o n s i l l e c t o m y } } & 1 5 & 2 6 \end { a r r a y } } \end { a r r a y } }

@@ -1,0 +1,11 @@
+{ \displaystyle   W _ { k } ( m ) = { \frac   { 1 + L _ { k } \left ( m - 1 \right ) } { \mu   _ { k } } } . }
+{ \displaystyle   \lambda   _ { m } = { \frac   { m } { \sum   _ { k = 1 } ^ { K } W _ { k } ( m ) v _ { k } } } . }
+{ \displaystyle   L _ { k } ( m ) = v _ { k } \lambda   _ { m } W _ { k } ( m ) . }
+{ \displaystyle   L _ { k } ( m - 1 ) \approx   { \frac   { m - 1 } { m } } L _ { k } ( m ) }
+{ \displaystyle   \lambda   _ { m } = { \frac   { m } { \sum   _ { k = 1 } ^ { K } { \frac   { { \frac   { m - 1 } { m } } L _ { k } ( m ) + 1 } { \mu   _ { k } } } v _ { k } } } }
+{ \displaystyle   L _ { k } ( m ) = v _ { k } \lambda   _ { m } { \frac   { { \frac   { m - 1 } { m } } L _ { k } ( m ) + 1 } { \mu   _ { k } } } }
+{ \displaystyle   W _ { k , r } ( \mathbb   { m }   ) = { \frac   { 1 + L _ { k } \left ( \mathbb   { m }   - 1 _ { r } \right ) } { \mu   _ { k , r } } } . }
+{ \displaystyle   \mathbb   { m }   = ( m _ { 1 } , \ldots   , m _ { R } ) }
+{ \displaystyle   1 _ { r } }
+{ \displaystyle   \mathbb   { m }   }
+{ \displaystyle   m _ { r } \geq   1 }

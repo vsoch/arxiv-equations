@@ -1,0 +1,13 @@
+{ \displaystyle   \sum   _ { i = 1 } ^ { n } a _ { i } ^ { 2 } = 1 . }
+{ \displaystyle   P \left ( \left | \sum   _ { i = 1 } ^ { n } a _ { i } X _ { i } \right | \geq   k \right ) \leq   2 \inf   _ { 0 \leq   c \leq   k } \int   _ { c } ^ { \infty   } \left ( { \frac   { z - c } { k - c } } \right ) ^ { 3 } \phi   ( z ) \,dz = 2 B _ { E } ( k ) , }
+{ \displaystyle   P \left ( \left | \sum   _ { i = 1 } ^ { n } a _ { i } X _ { i } \right | \geq   k \right ) \leq   2 \left ( 1 - \Phi   \left [ k - { \frac   { 1 . 5 } { k } } \right ] \right ) = 2 B _ { E d } ( k ) , }
+{ \displaystyle   B _ { E P } = \min \{ 1 , k ^ { - 2 } , 2 B _ { E } \ } }
+{ \displaystyle   \sum   _ { i = 1 } ^ { n } b _ { i } ^ { 2 } = 1 . }
+{ \displaystyle   a _ { i } b _ { i } + \cdots   + a _ { n } b _ { n } }
+{ \displaystyle   \sum   _ { i = 1 } ^ { n } b _ { i } ^ { 2 } }
+{ \displaystyle   E f ( a _ { i } b _ { i } + \cdots   + a _ { n } b _ { n } ) \leq   E f ( Z ) }
+{ \displaystyle   E f ( a _ { i } b _ { i } + \cdots   + a _ { n } b _ { n } ) \leq   \inf   \left [ { \frac   { E ( e ^ { \lambda   Z } ) } { e ^ { \lambda   x } } } \right ] = e ^ { - x ^ { 2 } / 2 } }
+{ \displaystyle   S _ { n } = a _ { i } b _ { i } + \cdots   + a _ { n } b _ { n } }
+{ \displaystyle   P ( S _ { n } \geq   x ) \leq   { \frac   { 2 e ^ { 3 } } { 9 } } P ( Z \geq   x ) }
+{ \displaystyle   P ( S _ { n } \geq   x ) \leq   e ^ { - x ^ { 2 } / 2 } }
+{ \displaystyle   P ( | \mu   - \sigma   | ) \leq   0 . 5 \ , }

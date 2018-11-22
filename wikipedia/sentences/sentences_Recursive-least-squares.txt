@@ -1,0 +1,187 @@
+\lambda  
+d ( n )
+x ( n ) = \sum   _ { { k = 0 } } ^ { q } b _ { n } ( k ) d ( n - k ) + v ( n )
+v ( n )
+d ( n )
+p + 1
+\mathbf   { w }  
+{ \displaystyle   d ( n ) \approx   \sum   _ { k = 0 } ^ { p } w ( k ) x ( n - k ) = \mathbf   { w }   ^ { \mathit   { T } } \mathbf   { x }   _ { n } }
+{ \displaystyle   \mathbf   { x }   _ { n } = [ x ( n ) \quad   x ( n - 1 ) \quad   \ldots   \quad   x ( n - p ) ] ^ { T } }
+p + 1
+x ( n )
+{ \hat     { d } } ( n ) = \sum   _ { { k = 0 } } ^ { { p } } w _ { n } ( k ) x ( n - k ) = { \mathbf     { w } } _ { n } ^ { { \mathit     { T } } } { \mathbf     { x } } _ { n }
+\mathbf   { w }  
+n
+{ \mathbf     { w } } _ { n }
+{ \mathbf     { w } } _ { { n + 1 } }
+{ \mathbf     { w } } _ { n }
+{ \displaystyle   \mathbf   { w }   _ { n } ^ { \mathit   { T } } }
+{ \displaystyle   \mathbf   { w }   _ { n } ^ { \mathit   { T } } \mathbf   { x }   _ { n } }
+{ \mathbf     { w } } _ { n }
+\mathbf { x } _ n
+{ \hat     { d } } ( n )
+{ \displaystyle   { \hat   { d } } ( n ) - d ( n ) }
+{ \mathbf     { w } } _ { { n + 1 } }
+{ \mathbf     { w } } _ { n }
+C
+{ \mathbf     { w } } _ { n }
+e ( n )
+d ( n )
+{ \hat     { d } } ( n )
+e ( n ) = d ( n ) - { \hat     { d } } ( n )
+C
+e ( n )
+C ( { \mathbf     { w } } _ { n } ) = \sum   _ { { i = 0 } } ^ { { n } } \lambda   ^ { { n - i } } e ^ { { 2 } } ( i )
+0 < \lambda   \leq   1
+k
+{ \mathbf     { w } } _ { { n } }
+{ \frac     { \partial   C ( { \mathbf     { w } } _ { { n } } ) } { \partial   w _ { { n } } ( k ) } } = \sum   _ { { i = 0 } } ^ { { n } } \,2 \lambda   ^ { { n - i } } e ( i ) \,{ \frac     { \partial   e ( i ) } { \partial   w _ { { n } } ( k ) } } = { - } \sum   _ { { i = 0 } } ^ { { n } } \,2 \lambda   ^ { { n - i } } e ( i ) \,x ( i - k ) = 0 \qquad   k = 0 , 1 , \cdots   , p
+e ( n )
+\sum   _ { { i = 0 } } ^ { { n } } \lambda   ^ { { n - i } } \left [ d ( i ) - \sum   _ { { l = 0 } } ^ { { p } } w _ { { n } } ( l ) x ( i - l ) \right ] x ( i - k ) = 0 \qquad   k = 0 , 1 , \cdots   , p
+\sum   _ { { l = 0 } } ^ { { p } } w _ { { n } } ( l ) \left [ \sum   _ { { i = 0 } } ^ { { n } } \lambda   ^ { { n - i } } \,x ( i - l ) x ( i - k ) \right ] = \sum   _ { { i = 0 } } ^ { { n } } \lambda   ^ { { n - i } } d ( i ) x ( i - k ) \qquad   k = 0 , 1 , \cdots   , p
+{ \mathbf     { R } } _ { { x } } ( n ) \,{ \mathbf     { w } } _ { { n } } = { \mathbf     { r } } _ { { d x } } ( n )
+{ \mathbf     { R } } _ { { x } } ( n )
+x ( n )
+{ \mathbf     { r } } _ { { d x } } ( n )
+d ( n )
+x ( n )
+{ \mathbf     { w } } _ { { n } } = { \mathbf     { R } } _ { { x } } ^ { { - 1 } } ( n ) \,{ \mathbf     { r } } _ { { d x } } ( n )
+\lambda  
+\lambda  
+\lambda   = 1
+\lambda  
+\lambda  
+{ \mathbf     { w } } _ { { n } } = { \mathbf     { w } } _ { { n - 1 } } + \Delta   { \mathbf     { w } } _ { { n - 1 } }
+\Delta   { \mathbf     { w } } _ { { n - 1 } }
+{ n - 1 }
+{ \mathbf     { r } } _ { { d x } } ( n )
+{ \mathbf     { r } } _ { { d x } } ( n - 1 )
+{ \mathbf     { r } } _ { { d x } } ( n )
+= \sum   _ { { i = 0 } } ^ { { n } } \lambda   ^ { { n - i } } d ( i ) { \mathbf     { x } } ( i )
+= \sum   _ { { i = 0 } } ^ { { n - 1 } } \lambda   ^ { { n - i } } d ( i ) { \mathbf     { x } } ( i ) + \lambda   ^ { { 0 } } d ( n ) { \mathbf     { x } } ( n )
+= \lambda   { \mathbf     { r } } _ { { d x } } ( n - 1 ) + d ( n ) { \mathbf     { x } } ( n )
+{ \mathbf     { x } } ( i )
+{ p + 1 }
+{ \mathbf     { x } } ( i ) = [ x ( i ) , x ( i - 1 ) , \dots   , x ( i - p ) ] ^ { { T } }
+{ \mathbf     { R } } _ { { x } } ( n )
+{ \mathbf     { R } } _ { { x } } ( n - 1 )
+{ \mathbf     { R } } _ { { x } } ( n )
+= \sum   _ { { i = 0 } } ^ { { n } } \lambda   ^ { { n - i } } { \mathbf     { x } } ( i ) { \mathbf     { x } } ^ { { T } } ( i )
+= \lambda   { \mathbf     { R } } _ { { x } } ( n - 1 ) + { \mathbf     { x } } ( n ) { \mathbf     { x } } ^ { { T } } ( n )
+A
+= \lambda   { \mathbf     { R } } _ { { x } } ( n - 1 )
+( p + 1 )
+( p + 1 )
+U
+= { \mathbf     { x } } ( n )
+( p + 1 )
+V
+= { \mathbf     { x } } ^ { { T } } ( n )
+( p + 1 )
+C
+= { \mathbf     { I } } _ { 1 }
+{ \mathbf     { R } } _ { { x } } ^ { { - 1 } } ( n )
+=
+\left [ \lambda   { \mathbf     { R } } _ { { x } } ( n - 1 ) + { \mathbf     { x } } ( n ) { \mathbf     { x } } ^ { { T } } ( n ) \right ] ^ { { - 1 } }
+=
+\lambda   ^ { { - 1 } } { \mathbf     { R } } _ { { x } } ^ { { - 1 } } ( n - 1 )
+- \lambda   ^ { { - 1 } } { \mathbf     { R } } _ { { x } } ^ { { - 1 } } ( n - 1 ) { \mathbf     { x } } ( n )
+\left \{ 1 + { \mathbf     { x } } ^ { { T } } ( n ) \lambda   ^ { { - 1 } } { \mathbf     { R } } _ { { x } } ^ { { - 1 } } ( n - 1 ) { \mathbf     { x } } ( n ) \right \}^ { { - 1 } } { \mathbf     { x } } ^ { { T } } ( n ) \lambda   ^ { { - 1 } } { \mathbf     { R } } _ { { x } } ^ { { - 1 } } ( n - 1 )
+{ \mathbf     { P } } ( n )
+= { \mathbf     { R } } _ { { x } } ^ { { - 1 } } ( n )
+= \lambda   ^ { { - 1 } } { \mathbf     { P } } ( n - 1 ) - { \mathbf     { g } } ( n ) { \mathbf     { x } } ^ { { T } } ( n ) \lambda   ^ { { - 1 } } { \mathbf     { P } } ( n - 1 )
+g ( n )
+{ \mathbf     { g } } ( n )
+= \lambda   ^ { { - 1 } } { \mathbf     { P } } ( n - 1 ) { \mathbf     { x } } ( n ) \left \{ 1 + { \mathbf     { x } } ^ { { T } } ( n ) \lambda   ^ { { - 1 } } { \mathbf     { P } } ( n - 1 ) { \mathbf     { x } } ( n ) \right \}^ { { - 1 } }
+= { \mathbf     { P } } ( n - 1 ) { \mathbf     { x } } ( n ) \left \{ \lambda   + { \mathbf     { x } } ^ { { T } } ( n ) { \mathbf     { P } } ( n - 1 ) { \mathbf     { x } } ( n ) \right \}^ { { - 1 } }
+{ \mathbf     { g } } ( n )
+{ \mathbf     { g } } ( n ) \left \{ 1 + { \mathbf     { x } } ^ { { T } } ( n ) \lambda   ^ { { - 1 } } { \mathbf     { P } } ( n - 1 ) { \mathbf     { x } } ( n ) \right \ }
+= \lambda   ^ { { - 1 } } { \mathbf     { P } } ( n - 1 ) { \mathbf     { x } } ( n )
+{ \mathbf     { g } } ( n ) + { \mathbf     { g } } ( n ) { \mathbf     { x } } ^ { { T } } ( n ) \lambda   ^ { { - 1 } } { \mathbf     { P } } ( n - 1 ) { \mathbf     { x } } ( n )
+= \lambda   ^ { { - 1 } } { \mathbf     { P } } ( n - 1 ) { \mathbf     { x } } ( n )
+{ \mathbf     { g } } ( n )
+= \lambda   ^ { { - 1 } } { \mathbf     { P } } ( n - 1 ) { \mathbf     { x } } ( n ) - { \mathbf     { g } } ( n ) { \mathbf     { x } } ^ { { T } } ( n ) \lambda   ^ { { - 1 } } { \mathbf     { P } } ( n - 1 ) { \mathbf     { x } } ( n )
+= \lambda   ^ { { - 1 } } \left [ { \mathbf     { P } } ( n - 1 ) - { \mathbf     { g } } ( n ) { \mathbf     { x } } ^ { { T } } ( n ) { \mathbf     { P } } ( n - 1 ) \right ] { \mathbf     { x } } ( n )
+{ \mathbf     { P } } ( n )
+{ \mathbf     { g } } ( n ) = { \mathbf     { P } } ( n ) { \mathbf     { x } } ( n )
+{ \mathbf     { w } } _ { { n } }
+= { \mathbf     { P } } ( n ) \,{ \mathbf     { r } } _ { { d x } } ( n )
+= \lambda   { \mathbf     { P } } ( n ) \,{ \mathbf     { r } } _ { { d x } } ( n - 1 ) + d ( n ) { \mathbf     { P } } ( n ) \,{ \mathbf     { x } } ( n )
+{ \mathbf     { r } } _ { { d x } } ( n )
+{ \mathbf     { P } } ( n )
+{ \mathbf     { g } } ( n )
+{ \mathbf     { w } } _ { { n } }
+= \lambda   \left [ \lambda   ^ { { - 1 } } { \mathbf     { P } } ( n - 1 ) - { \mathbf     { g } } ( n ) { \mathbf     { x } } ^ { { T } } ( n ) \lambda   ^ { { - 1 } } { \mathbf     { P } } ( n - 1 ) \right ] { \mathbf     { r } } _ { { d x } } ( n - 1 ) + d ( n ) { \mathbf     { g } } ( n )
+= { \mathbf     { P } } ( n - 1 ) { \mathbf     { r } } _ { { d x } } ( n - 1 ) - { \mathbf     { g } } ( n ) { \mathbf     { x } } ^ { { T } } ( n ) { \mathbf     { P } } ( n - 1 ) { \mathbf     { r } } _ { { d x } } ( n - 1 ) + d ( n ) { \mathbf     { g } } ( n )
+= { \mathbf     { P } } ( n - 1 ) { \mathbf     { r } } _ { { d x } } ( n - 1 ) + { \mathbf     { g } } ( n ) \left [ d ( n ) - { \mathbf     { x } } ^ { { T } } ( n ) { \mathbf     { P } } ( n - 1 ) { \mathbf     { r } } _ { { d x } } ( n - 1 ) \right ]
+{ \mathbf     { w } } _ { { n - 1 } } = { \mathbf     { P } } ( n - 1 ) { \mathbf     { r } } _ { { d x } } ( n - 1 )
+{ \mathbf     { w } } _ { { n } }
+= { \mathbf     { w } } _ { { n - 1 } } + { \mathbf     { g } } ( n ) \left [ d ( n ) - { \mathbf     { x } } ^ { { T } } ( n ) { \mathbf     { w } } _ { { n - 1 } } \right ]
+= { \mathbf     { w } } _ { { n - 1 } } + { \mathbf     { g } } ( n ) \alpha   ( n )
+\alpha   ( n ) = d ( n ) - { \mathbf     { x } } ^ { { T } } ( n ) { \mathbf     { w } } _ { { n - 1 } }
+e ( n ) = d ( n ) - { \mathbf     { x } } ^ { { T } } ( n ) { \mathbf     { w } } _ { n }
+\Delta   { \mathbf     { w } } _ { { n - 1 } } = { \mathbf     { g } } ( n ) \alpha   ( n )
+\lambda  
+p =
+\lambda   =
+\delta   =
+{ \mathbf     { P } } ( 0 )
+{ \mathbf     { w } } ( n ) = 0
+x ( k ) = 0 , k = - p , \dots   , - 1
+d ( k ) = 0 , k = - p , \dots   , - 1
+{ \displaystyle   \mathbf   { P }   ( 0 ) = \delta   I }
+I
+p + 1
+n = 1 , 2 , \dots  
+{ \mathbf     { x } } ( n ) = \left [ { \begin { m a t r i x } x ( n ) \\x ( n - 1 ) \\\vdots   \\x ( n - p ) \end { m a t r i x } } \right ]
+\alpha   ( n ) = d ( n ) - { \mathbf     { x } } ^ { T } ( n ) { \mathbf     { w } } ( n - 1 )
+{ \displaystyle   \mathbf   { g }   ( n ) = \mathbf   { P }   ( n - 1 ) \mathbf   { x }   ( n ) \left \{ \lambda   + \mathbf   { x }   ^ { T } ( n ) \mathbf   { P }   ( n - 1 ) \mathbf   { x }   ( n ) \right \}^ { - 1 } }
+{ \mathbf     { P } } ( n ) = \lambda   ^ { { - 1 } } { \mathbf     { P } } ( n - 1 ) - { \mathbf     { g } } ( n ) { \mathbf     { x } } ^ { { T } } ( n ) \lambda   ^ { { - 1 } } { \mathbf     { P } } ( n - 1 )
+{ \mathbf     { w } } ( n ) = { \mathbf     { w } } ( n - 1 ) + \,\alpha   ( n ) { \mathbf     { g } } ( n )
+P
+d ( k ) \ , \ !
+d ( k ) = x ( k ) \ , \ !
+x ( k - 1 ) \ , \ !
+d ( k ) = x ( k - i - 1 ) \ , \ !
+x ( k ) \ , \ !
+\kappa   _ { f } ( k , i ) \ , \ !
+\kappa   _ { b } ( k , i ) \ , \ !
+e _ { f } ( k , i ) \ , \ !
+e _ { b } ( k , i ) \ , \ !
+\xi   _ { { b _ { { m i n } } } } ^ { d } ( k , i ) \ , \ !
+\xi   _ { { f _ { { m i n } } } } ^ { d } ( k , i ) \ , \ !
+\gamma   ( k , i ) \ , \ !
+v _ { i } ( k ) \ , \ !
+\epsilon   \ , \ !
+\delta   ( - 1 , i ) = \delta   _ { D } ( - 1 , i ) = 0 \ , \ !
+\xi   _ { { b _ { { m i n } } } } ^ { d } ( - 1 , i ) = \xi   _ { { f _ { { m i n } } } } ^ { d } ( - 1 , i ) = \epsilon  
+\gamma   ( - 1 , i ) = 1 \ , \ !
+e _ { b } ( - 1 , i ) = 0 \ , \ !
+\gamma   ( k , 0 ) = 1 \ , \ !
+e _ { b } ( k , 0 ) = e _ { f } ( k , 0 ) = x ( k ) \ , \ !
+\xi   _ { { b _ { { m i n } } } } ^ { d } ( k , 0 ) = \xi   _ { { f _ { { m i n } } } } ^ { d } ( k , 0 ) = x ^ { 2 } ( k ) + \lambda   \xi   _ { { f _ { { m i n } } } } ^ { d } ( k - 1 , 0 ) \ , \ !
+e ( k , 0 ) = d ( k ) \ , \ !
+\delta   ( k , i ) = \lambda   \delta   ( k - 1 , i ) + { \frac     { e _ { b } ( k - 1 , i ) e _ { f } ( k , i ) } { \gamma   ( k - 1 , i ) } }
+\gamma   ( k , i + 1 ) = \gamma   ( k , i ) - { \frac     { e _ { b } ^ { 2 } ( k , i ) } { \xi   _ { { b _ { { m i n } } } } ^ { d } ( k , i ) } }
+\kappa   _ { b } ( k , i ) = { \frac     { \delta   ( k , i ) } { \xi   _ { { f _ { { m i n } } } } ^ { d } ( k , i ) } }
+\kappa   _ { f } ( k , i ) = { \frac     { \delta   ( k , i ) } { \xi   _ { { b _ { { m i n } } } } ^ { d } ( k - 1 , i ) } }
+e _ { b } ( k , i + 1 ) = e _ { b } ( k - 1 , i ) - \kappa   _ { b } ( k , i ) e _ { f } ( k , i ) \ , \ !
+e _ { f } ( k , i + 1 ) = e _ { f } ( k , i ) - \kappa   _ { f } ( k , i ) e _ { b } ( k - 1 , i ) \ , \ !
+\xi   _ { { b _ { { m i n } } } } ^ { d } ( k , i + 1 ) = \xi   _ { { b _ { { m i n } } } } ^ { d } ( k - 1 , i ) - \delta   ( k , i ) \kappa   _ { b } ( k , i )
+\xi   _ { { f _ { { m i n } } } } ^ { d } ( k , i + 1 ) = \xi   _ { { f _ { { m i n } } } } ^ { d } ( k , i ) - \delta   ( k , i ) \kappa   _ { f } ( k , i )
+\delta   _ { D } ( k , i ) = \lambda   \delta   _ { D } ( k - 1 , i ) + { \frac     { e ( k , i ) e _ { b } ( k , i ) } { \gamma   ( k , i ) } }
+v _ { i } ( k ) = { \frac     { \delta   _ { D } ( k , i ) } { \xi   _ { { b _ { { m i n } } } } ^ { d } ( k , i ) } }
+e ( k , i + 1 ) = e ( k , i ) - v _ { i } ( k ) e _ { b } ( k , i ) \ , \ !
+\overline   { \delta   } ( - 1 , i ) = 0 \ , \ !
+\overline   { \delta   } _ { D } ( - 1 , i ) = 0 \ , \ !
+\overline   { e } _ { b } ( - 1 , i ) = 0 \ , \ !
+\sigma   _ { x } ^ { 2 } ( - 1 ) = \lambda   \sigma   _ { d } ^ { 2 } ( - 1 ) = \epsilon   \ , \ !
+\sigma   _ { x } ^ { 2 } ( k ) = \lambda   \sigma   _ { x } ^ { 2 } ( k - 1 ) + x ^ { 2 } ( k ) \ , \ !
+\sigma   _ { d } ^ { 2 } ( k ) = \lambda   \sigma   _ { d } ^ { 2 } ( k - 1 ) + d ^ { 2 } ( k ) \ , \ !
+\overline   { e } _ { b } ( k , 0 ) = \overline   { e } _ { f } ( k , 0 ) = { \frac     { x ( k ) } { \sigma   _ { x } ( k ) } } \ , \ !
+\overline   { e } ( k , 0 ) = { \frac     { d ( k ) } { \sigma   _ { d } ( k ) } } \ , \ !
+\overline   { \delta   } ( k , i ) = \delta   ( k - 1 , i ) { \sqrt     { ( 1 - \overline   { e } _ { b } ^ { 2 } ( k - 1 , i ) ) ( 1 - \overline   { e } _ { f } ^ { 2 } ( k , i ) ) } } + \overline   { e } _ { b } ( k - 1 , i ) \overline   { e } _ { f } ( k , i )
+\overline { e } _ b ( k , i + 1 )   =   \frac { \overline { e } _ b ( k - 1 , i )   -   \overline { \delta } ( k , i ) \overline { e } _ f ( k , i ) } { \sqrt { ( 1   -   \overline { \delta } ^ 2 ( k , i ) ) ( 1   -   \overline { e } _ f ^ 2 ( k , i ) ) } }
+\overline { e } _ f ( k , i + 1 )   =   \frac { \overline { e } _ f ( k , i )   -   \overline { \delta } ( k , i ) \overline { e } _ b ( k - 1 , i ) } { \sqrt { ( 1   -   \overline { \delta } ^ 2 ( k , i ) ) ( 1   -   \overline { e } _ b ^ 2 ( k - 1 , i ) ) } }
+\overline { \delta } _ D ( k , i )   =   \overline { \delta } _ D ( k - 1 , i ) \sqrt { ( 1   -   \overline { e } _ b ^ 2 ( k , i ) ) ( 1   -   \overline { e } ^ 2 ( k , i ) ) }   +   \overline { e } ( k , i ) \overline { e } _ b ( k , i )
+\overline   { e } ( k , i + 1 ) = { \frac     { 1 } { { \sqrt     { ( 1 - \overline   { e } _ { b } ^ { 2 } ( k , i ) ) ( 1 - \overline   { \delta   } _ { D } ^ { 2 } ( k , i ) ) } } } } [ \overline   { e } ( k , i ) - \overline   { \delta   } _ { D } ( k , i ) \overline   { e } _ { b } ( k , i ) ]

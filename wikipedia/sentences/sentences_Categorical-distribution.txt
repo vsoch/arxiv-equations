@@ -1,0 +1,69 @@
+k > 0
+p _ { 1 } , \ldots   , p _ { k }
+{ \displaystyle   ( p _ { i } > 0 , \,\Sigma   p _ { i } = 1 ) }
+x \in   \{ 1 , \dots   , k \ }
+p ( x = i ) = p _ { i }
+p ( x ) = p _ { 1 } ^ { [ x = 1 ] } \cdots   p _ { k } ^ { [ x = k ] }
+{ \displaystyle   p ( x ) = [ x = 1 ] \cdot   p _ { 1 } \,+\cdots   + \,[x = k ] \cdot   p _ { k } }
+[ x = i ]
+i { \text {   s u c h   t h a t   } } p _ { i } = \max ( p _ { 1 } , \ldots   , p _ { k } )
+{ \displaystyle   f ( x = i \mid   { \boldsymbol   { p } } ) = p _ { i } , }
+{ \displaystyle   { \boldsymbol   { p } } = ( p _ { 1 } , \ldots   , p _ { k } ) }
+p _ { i }
+\textstyle   { \sum   _ { i = 1 } ^ { k } p _ { i } = 1 }
+{ \displaystyle   f ( x \mid   { \boldsymbol   { p } } ) = \prod   _ { i = 1 } ^ { k } p _ { i } ^ { [ x = i ] } , }
+[ x = i ]
+x = i
+{ \displaystyle   f ( \mathbf   { x }   \mid   { \boldsymbol   { p } } ) = \prod   _ { i = 1 } ^ { k } p _ { i } ^ { x _ { i } } , }
+p _ { i }
+\textstyle   { \sum   _ { i } p _ { i } = 1 }
+k = 3
+p _ { 1 } + p _ { 2 } + p _ { 3 } = 1
+p _ { i } = P ( X = i )
+\textstyle   { \sum   _ { i } p _ { i } = 1 }
+( k - 1 )
+p _ { 1 } + p _ { 2 } = 1 , 0 \leq   p _ { 1 } , p _ { 2 } \leq   1 .
+{ \displaystyle   \operatorname   { E }   \left [ \mathbf   { x }   \right ] = { \boldsymbol   { p } } }
+{ \boldsymbol   { X } }
+Y _ { i } = I ( { \boldsymbol   { X } } = i ) ,
+n = 1
+n
+{ \boldsymbol   { p } }
+n
+{ \boldsymbol   { p } } .
+[ x = i ]
+\delta   _ { x i } ,
+p _ { i } .
+{ \begin { a r r a y } { l c l c l } { \boldsymbol   { \alpha   } } & = & ( \alpha   _ { 1 } , \ldots   , \alpha   _ { K } ) & = & { \text { c o n c e n t r a t i o n   h y p e r p a r a m e t e r } } \\\mathbf   { p }   \mid   { \boldsymbol   { \alpha   } } & = & ( p _ { 1 } , \ldots   , p _ { K } ) & \sim   & \operatorname   { D i r }   ( K , { \boldsymbol   { \alpha   } } ) \\\mathbb   { X }   \mid   \mathbf   { p }   & = & ( x _ { 1 } , \ldots   , x _ { K } ) & \sim   & \operatorname   { C a t }   ( K , \mathbf   { p }   ) \end { a r r a y } }
+{ \begin { a r r a y } { l c l c l } \mathbf   { c }   & = & ( c _ { 1 } , \ldots   , c _ { K } ) & = & { \text { n u m b e r   o f   o c c u r r e n c e s   o f   c a t e g o r y   } } i = \sum   _ { j = 1 } ^ { N } [ x _ { j } = i ] \\\mathbf   { p }   \mid   \mathbb   { X }   , { \boldsymbol   { \alpha   } } & \sim   & \operatorname   { D i r }   ( K , \mathbf   { c }   + { \boldsymbol   { \alpha   } } ) & = & \operatorname   { D i r }   ( K , c _ { 1 } + \alpha   _ { 1 } , \ldots   , c _ { K } + \alpha   _ { K } ) \end { a r r a y } }
+{ \displaystyle   \operatorname   { E }   [ p _ { i } \mid   \mathbb   { X }   , { \boldsymbol   { \alpha   } } ] = { \frac   { c _ { i } + \alpha   _ { i } } { N + \sum   _ { k } \alpha   _ { k } } } }
+\alpha   _ { i }
+\alpha   _ { i } - 1
+i
+c _ { i } + \alpha   _ { i }
+c _ { i } + \alpha   _ { i } - 1
+{ \boldsymbol   { \alpha   } } = ( 1 , 1 , \ldots   )
+{ \displaystyle   \cdots   - 1 }
+\alpha   _ { i }
+{ \displaystyle   \operatorname   { a r g \,max }   \limits   _ { \mathbf   { p }   } p ( \mathbf   { p }   \mid   \mathbb   { X }   ) = { \frac   { \alpha   _ { i } + c _ { i } - 1 } { \sum   _ { i } ( \alpha   _ { i } + c _ { i } - 1 ) } } , \qquad   \forall   i \;\alpha   _ { i } + c _ { i } > 1 }
+\forall   i \;\alpha   _ { i } + c _ { i } > 1
+\alpha   _ { i } > 1
+{ \begin { a l i g n e d } p ( \mathbb   { X }   \mid   { \boldsymbol   { \alpha   } } ) & = \int   _ { \mathbf   { p }   } p ( \mathbb   { X }   \mid   \mathbf   { p }   ) p ( \mathbf   { p }   \mid   { \boldsymbol   { \alpha   } } ) { \textrm   { d } } \mathbf   { p }   \\&={ \frac   { \Gamma   \left ( \sum   _ { k } \alpha   _ { k } \right ) } { \Gamma   \left ( N + \sum   _ { k } \alpha   _ { k } \right ) } } \prod   _ { k = 1 } ^ { K } { \frac   { \Gamma   ( c _ { k } + \alpha   _ { k } ) } { \Gamma   ( \alpha   _ { k } ) } } \end { a l i g n e d } }
+{ \tilde   { x } }
+\mathbb   { X }  
+{ \begin { a l i g n e d } p ( { \tilde   { x } } = i \mid   \mathbb   { X }   , { \boldsymbol   { \alpha   } } ) & = \int   _ { \mathbf   { p }   } p ( { \tilde   { x } } = i \mid   \mathbf   { p }   ) \,p ( \mathbf   { p }   \mid   \mathbb   { X }   , { \boldsymbol   { \alpha   } } ) \,{ \textrm   { d } } \mathbf   { p }   \\&=\,{ \frac   { c _ { i } + \alpha   _ { i } } { N + \sum   _ { k } \alpha   _ { k } } } \\&=\,\mathbb   { E }   [ p _ { i } \mid   \mathbb   { X }   , { \boldsymbol   { \alpha   } } ] \\&\propto   \,c_ { i } + \alpha   _ { i } . \\\end { a l i g n e d } }
+{ \displaystyle   { \begin { a l i g n e d } p ( { \tilde   { x } } = i \mid   \mathbb   { X }   , { \boldsymbol   { \alpha   } } ) & = \int   _ { \mathbf   { p }   } p ( { \tilde   { x } } = i \mid   \mathbf   { p }   ) \,p ( \mathbf   { p }   \mid   \mathbb   { X }   , { \boldsymbol   { \alpha   } } ) \,{ \textrm   { d } } \mathbf   { p }   \\&=\,\operatorname   { E }   _ { \mathbf   { p }   \mid   \mathbb   { X }   , { \boldsymbol   { \alpha   } } } \left [ p ( { \tilde   { x } } = i \mid   \mathbf   { p }   ) \right ] \\&=\,\operatorname   { E }   _ { \mathbf   { p }   \mid   \mathbb   { X }   , { \boldsymbol   { \alpha   } } } \left [ p _ { i } \right ] \\&=\,\operatorname   { E }   [ p _ { i } \mid   \mathbb   { X }   , { \boldsymbol   { \alpha   } } ] . \end { a l i g n e d } } }
+\mathbb   { X }  
+x _ { n }
+\mathbb   { X }   ^ { ( - n ) }
+{ \displaystyle   { \begin { a l i g n e d } p ( x _ { n } = i \mid   \mathbb   { X }   ^ { ( - n ) } , { \boldsymbol   { \alpha   } } ) & = \,{ \frac   { c _ { i } ^ { ( - n ) } + \alpha   _ { i } } { N - 1 + \sum   _ { i } \alpha   _ { i } } } & \propto   \,c_ { i } ^ { ( - n ) } + \alpha   _ { i } \end { a l i g n e d } } }
+c _ { i } ^ { ( - n ) }
+p _ { 1 } , \ldots   , p _ { k }
+\mathbb   { R }   ^ { k }
+\gamma   _ { i } = \log   p _ { i } + \alpha  
+\alpha  
+p _ { 1 } , \ldots   , p _ { k }
+g _ { 1 } , \ldots   , g _ { k }
+{ \displaystyle   c = \operatorname   { a r g \,max }   \limits   _ { i } \gamma   _ { i } + g _ { i } }
+u _ { i }
+g _ { i } = - \log ( - \log   u _ { i } )

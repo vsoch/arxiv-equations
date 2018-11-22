@@ -1,0 +1,9 @@
+{ \displaystyle   { \frac   { 1 2 - \rho   } { 8 \mu   ( 1 - \rho   ) } } }
+\rho   = \lambda   / \mu  
+\lambda  
+\mu  
+( n , k )
+k
+n
+( n , k )
+{ \displaystyle   k = n }

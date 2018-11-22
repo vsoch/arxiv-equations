@@ -1,0 +1,129 @@
+k > 0 \ ,
+\lambda   > 0 \ ,
+x \in   [ 0 ; + \infty   ) \ ,
+{ \frac   { 1 } { 2 } } e ^ { - ( x + \lambda   ) / 2 } \left ( { \frac   { x } { \lambda   } } \right ) ^ { k / 4 - 1 / 2 } I _ { k / 2 - 1 } ( { \sqrt   { \lambda   x } } )
+1 - Q _ { \frac   { k } { 2 } } \left ( { \sqrt   { \lambda   } } , { \sqrt   { x } } \right )
+Q _ { M } ( a , b )
+k + \lambda   \ ,
+2 ( k + 2 \lambda   ) \ ,
+{ \frac   { 2 ^ { 3 / 2 } ( k + 3 \lambda   ) } { ( k + 2 \lambda   ) ^ { 3 / 2 } } }
+{ \frac   { 1 2 ( k + 4 \lambda   ) } { ( k + 2 \lambda   ) ^ { 2 } } }
+{ \displaystyle   { \frac   { \exp   \left ( { \frac   { \lambda   t } { 1 - 2 t } } \right ) } { ( 1 - 2 t ) ^ { k / 2 } } } { \text {   f o r   } } 2 t < 1 }
+{ \frac   { \exp   \left ( { \frac   { i \lambda   t } { 1 - 2 i t } } \right ) } { ( 1 - 2 i t ) ^ { k / 2 } } }
+\chi   ^ { 2 }
+{ \displaystyle   ( X _ { 1 } , X _ { 2 } , \ldots   , X _ { i } , \ldots   , X _ { k } }
+\mu   _ { i }
+\sum   _ { i = 1 } ^ { k } X _ { i } ^ { 2 }
+k
+X _ { i }
+\lambda  
+X _ { i }
+\lambda   = \sum   _ { i = 1 } ^ { k } \mu   _ { i } ^ { 2 } .
+\lambda  
+\lambda  
+N ( 0 _ { k } , I _ { k } )
+\chi   ^ { 2 }
+N ( \mu   , I _ { k } )
+0 _ { k }
+\mu   = ( \mu   _ { 1 } , \ldots   , \mu   _ { k } )
+I _ { k }
+f _ { X } ( x ; k , \lambda   ) = \sum   _ { i = 0 } ^ { \infty   } { \frac   { e ^ { - \lambda   / 2 } ( \lambda   / 2 ) ^ { i } } { i ! } } f _ { Y _ { k + 2 i } } ( x ) ,
+Y _ { q }
+q
+\lambda   / 2
+\lambda  
+{ \displaystyle   f _ { X } ( x ; k , \lambda   ) = { \frac   { 1 } { 2 } } e ^ { - ( x + \lambda   ) / 2 } \left ( { \frac   { x } { \lambda   } } \right ) ^ { k / 4 - 1 / 2 } I _ { k / 2 - 1 } ( { \sqrt   { \lambda   x } } ) }
+I _ { \nu   } ( y )
+{ \displaystyle   I _ { \nu   } ( y ) = ( y / 2 ) ^ { \nu   } \sum   _ { j = 0 } ^ { \infty   } { \frac   { ( y ^ { 2 } / 4 ) ^ { j } } { j ! \Gamma   ( \nu   + j + 1 ) } } . }
+{ \displaystyle   f _ { X } ( x ; k , \lambda   ) = { { \rm   { e } } ^ { - \lambda   / 2 } } _ { 0 } F _ { 1 } ( ; k / 2 ; \lambda   x / 4 ) { \frac   { 1 } { 2 ^ { k / 2 } \Gamma   ( k / 2 ) } } { \rm   { e } } ^ { - x / 2 } x ^ { k / 2 - 1 } . }
+M ( t ; k , \lambda   ) = { \frac   { \exp   \left ( { \frac   { \lambda   t } { 1 - 2 t } } \right ) } { ( 1 - 2 t ) ^ { k / 2 } } } .
+\mu   ' _ { 1 } = k + \lambda  
+\mu   ' _ { 2 } = ( k + \lambda   ) ^ { 2 } + 2 ( k + 2 \lambda   )
+\mu   ' _ { 3 } = ( k + \lambda   ) ^ { 3 } + 6 ( k + \lambda   ) ( k + 2 \lambda   ) + 8 ( k + 3 \lambda   )
+\mu   ' _ { 4 } = ( k + \lambda   ) ^ { 4 } + 1 2 ( k + \lambda   ) ^ { 2 } ( k + 2 \lambda   ) + 4 ( 1 1 k ^ { 2 } + 4 4 k \lambda   + 3 6 \lambda   ^ { 2 } ) + 4 8 ( k + 4 \lambda   )
+\mu   _ { 2 } = 2 ( k + 2 \lambda   ) \ ,
+\mu   _ { 3 } = 8 ( k + 3 \lambda   ) \ ,
+\mu   _ { 4 } = 1 2 ( k + 2 \lambda   ) ^ { 2 } + 4 8 ( k + 4 \lambda   ) \ ,
+K _ { n } = 2 ^ { n - 1 } ( n - 1 ) ! ( k + n \lambda   ) . \ ,
+\mu   ' _ { n } = 2 ^ { n - 1 } ( n - 1 ) ! ( k + n \lambda   ) + \sum   _ { j = 1 } ^ { n - 1 } { \frac   { ( n - 1 ) ! 2 ^ { j - 1 } } { ( n - j ) ! } } ( k + j \lambda   ) \mu   ' _ { n - j } .
+P ( x ; k , \lambda   ) = e ^ { - \lambda   / 2 } \;\sum   _ { j = 0 } ^ { \infty   } { \frac   { ( \lambda   / 2 ) ^ { j } } { j ! } } Q ( x ; k + 2 j )
+Q ( x ; k ) \ ,
+Q ( x ; k ) = { \frac   { \gamma   ( k / 2 , x / 2 ) } { \Gamma   ( k / 2 ) } } \ ,
+\gamma   ( k , z ) \ ,
+Q _ { M } ( a , b )
+P ( x ; k , \lambda   ) = 1 - Q _ { \frac   { k } { 2 } } \left ( { \sqrt   { \lambda   } } , { \sqrt   { x } } \right )
+{ \displaystyle   \left ( { \frac   { \chi   ' ^ { 2 } } { k + \lambda   } } \right ) ^ { \frac   { 1 } { 3 } } }
+{ \displaystyle   \sim   { \mathcal   { N } } \left ( 1 - { \frac   { 2 } { 9 f } } , { \frac   { 2 } { 9 f } } \right ) , }
+{ \displaystyle   P ( x ; k , \lambda   ) \approx   \Phi   \left \{ { \frac   { \left ( { \frac   { x } { k + \lambda   } } \right ) ^ { 1 / 3 } - \left ( 1 - { \frac   { 2 } { 9 f } } \right ) } { \sqrt   { \frac   { 2 } { 9 f } } } } \right \},{ \text { w h e r e   } } \ f : = { \frac   { ( k + \lambda   ) ^ { 2 } } { k + 2 \lambda   } } = k + { \frac   { \lambda   ^ { 2 } } { k + 2 \lambda   } } , }
+{ \displaystyle   f = f ( k , \lambda   ) }
+{ \displaystyle   f = k }
+\lambda   = 0
+P ( x ; k , \lambda   ) \approx   \Phi   \left \{ { \frac   { ( { \frac   { x } { k + \lambda   } } ) ^ { h } - ( 1 + h p ( h - 1 - 0 . 5 ( 2 - h ) m p ) ) } { h { \sqrt   { 2 p } } ( 1 + 0 . 5 m p ) } } \right \ }
+\Phi   \lbrace   \cdot   \rbrace   \ ,
+h = 1 - { \frac   { 2 } { 3 } } { \frac   { ( k + \lambda   ) ( k + 3 \lambda   ) } { ( k + 2 \lambda   ) ^ { 2 } } } \ , ;
+p = { \frac   { k + 2 \lambda   } { ( k + \lambda   ) ^ { 2 } } } ;
+m = ( h - 1 ) ( 1 - 3 h ) \ , .
+x
+\sigma   _ { 1 } = \cdots   = \sigma   _ { k } = 1
+X _ { 1 } , \ldots   , X _ { k }
+X = X _ { 1 } ^ { 2 } + \cdots   + X _ { k } ^ { 2 }
+\lambda   = \mu   _ { 1 } ^ { 2 } + \cdots   + \mu   _ { k } ^ { 2 }
+\mu   _ { 1 } = { \sqrt   { \lambda   } }
+\mu   _ { 2 } = \cdots   = \mu   _ { k } = 0
+X = X _ { 1 } ^ { 2 }
+{ \begin { a l i g n e d } f _ { X } ( x , 1 , \lambda   ) & = { \frac   { 1 } { 2 { \sqrt   { x } } } } \left ( \phi   ( { \sqrt   { x } } - { \sqrt   { \lambda   } } ) + \phi   ( { \sqrt   { x } } + { \sqrt   { \lambda   } } ) \right ) \\&={ \frac   { 1 } { \sqrt   { 2 \pi   x } } } e ^ { - ( x + \lambda   ) / 2 } \cosh ( { \sqrt   { \lambda   x } } ) , \end { a l i g n e d } }
+\phi   ( \cdot   )
+X _ { 2 } , \ldots   , X _ { k }
+X _ { 2 } ^ { 2 } + \cdots   + X _ { k } ^ { 2 }
+X _ { 1 } ^ { 2 }
+X _ { 1 } ^ { 2 }
+V
+V \sim   \chi   _ { k } ^ { 2 }
+V
+V \sim   { \chi   ' } _ { k } ^ { 2 } ( 0 )
+V _ { 1 } \sim   { \chi   ' } _ { k _ { 1 } } ^ { 2 } ( \lambda   )
+V _ { 2 } \sim   { \chi   ' } _ { k _ { 2 } } ^ { 2 } ( 0 )
+V _ { 1 }
+V _ { 2 }
+{ \frac   { V _ { 1 } / k _ { 1 } } { V _ { 2 } / k _ { 2 } } } \sim   F ' _ { k _ { 1 } , k _ { 2 } } ( \lambda   )
+J \sim   \mathrm   { P o i s s o n }   \left ( { \lambda   } \right )
+\chi   _ { k + 2 J } ^ { 2 } \sim   { \chi   ' } _ { k } ^ { 2 } ( \lambda   )
+V \sim   { \chi   ' } _ { 2 } ^ { 2 } ( \lambda   )
+{ \sqrt   { V } }
+{ \sqrt   { \lambda   } }
+V \sim   { \chi   ' } _ { k } ^ { 2 } ( \lambda   )
+{ \frac   { V - ( k + \lambda   ) } { \sqrt   { 2 ( k + 2 \lambda   ) } } } \to   N ( 0 , 1 )
+k \to   \infty  
+\lambda   \to   \infty  
+{ \displaystyle   V _ { 1 } \sim   { \chi   ' } _ { k _ { 1 } } ^ { 2 } ( \lambda   _ { 1 } ) }
+{ \displaystyle   V _ { 2 } \sim   { \chi   ' } _ { k _ { 2 } } ^ { 2 } ( \lambda   _ { 2 } ) }
+{ \displaystyle   V _ { 1 } , V _ { 2 } }
+{ \displaystyle   k _ { 1 } = k _ { 2 } }
+{ \displaystyle   W = ( V _ { 1 } + V _ { 2 } ) \sim   { \chi   ' } _ { k } ^ { 2 } ( \lambda   _ { 1 } + \lambda   _ { 2 } ) }
+{ \displaystyle   k = 2 k _ { 1 } = 2 k _ { 2 } }
+{ \displaystyle   V _ { i } \sim   { \chi   ' } _ { k _ { i } } ^ { 2 } ( \lambda   _ { i } ) , i \in   \left \{ 1 . . N \right \ } }
+{ \displaystyle   Y = \sum   _ { i = 1 } ^ { N } V _ { i } }
+{ \displaystyle   Y \sim   { \chi   ' } _ { k _ { y } } ^ { 2 } ( \lambda   _ { y } ) }
+{ \displaystyle   k _ { y } = \sum   _ { i = 1 } ^ { N } k _ { i } , \lambda   _ { y } = \sum   _ { i = 1 } ^ { N } \lambda   _ { i } }
+{ \displaystyle   M _ { Y } ( t ) = M _ { \sum   _ { i = 1 } ^ { N } V _ { i } } ( t ) = \prod   _ { i = 1 } ^ { N } M _ { V _ { i } } ( t ) }
+V _ { i }
+z = [ ( X - b ) / ( k + \lambda   ) ] ^ { 1 / 2 }
+z
+O ( ( k + \lambda   ) ^ { - 4 } )
+b
+b = ( k - 1 ) / 2
+z
+\lambda  
+b = ( k - 1 ) / 3
+z
+\lambda  
+b = ( k - 1 ) / 4
+z
+\lambda  
+z _ { 1 } = ( X - ( k - 1 ) / 2 ) ^ { 1 / 2 }
+( \lambda   + ( k - 1 ) / 2 ) ^ { 1 / 2 }
+O ( ( k + \lambda   ) ^ { - 2 } )
+\sum   _ { 1 } ^ { k } \left ( { \frac   { X _ { i } - \mu   _ { i } } { \sigma   _ { i } } } \right ) ^ { 2 }
+\sum   _ { 1 } ^ { k } \left ( { \frac   { X _ { i } } { \sigma   _ { i } } } \right ) ^ { 2 }
+{ \sqrt   { \sum   _ { 1 } ^ { k } \left ( { \frac   { X _ { i } - \mu   _ { i } } { \sigma   _ { i } } } \right ) ^ { 2 } } }
+{ \sqrt   { \sum   _ { 1 } ^ { k } \left ( { \frac   { X _ { i } } { \sigma   _ { i } } } \right ) ^ { 2 } } }

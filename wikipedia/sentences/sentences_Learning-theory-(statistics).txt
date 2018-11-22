@@ -1,0 +1,37 @@
+\frac { 1 } { R }
+I = { \frac     { 1 } { R } } V
+X
+Y
+Z   =   X   \times   Y
+p ( z ) = p ( { \vec     { x } } , y )
+n
+S = \{ ( { \vec     { x } } _ { 1 } , y _ { 1 } ) , \dots   , ( { \vec     { x } } _ { n } , y _ { n } ) \}=\{ { \vec     { z } } _ { 1 } , \dots   , { \vec     { z } } _ { n } \ }
+{ \vec   { x } } _ { i }
+y _ { i }
+f : X \to   Y
+f ( { \vec     { x } } ) \sim   y
+{ \mathcal   { H } }
+f : X \to   Y
+V ( f ( { \vec     { x } } ) , y )
+f ( { \vec   { x } } )
+y
+{ \displaystyle   I [ f ] = \displaystyle   \int   _ { X \times   Y } V ( f ( { \vec   { x } } ) , y ) \,p ( { \vec   { x } } , y ) \,d { \vec   { x } } \,dy }
+f
+f
+{ \displaystyle   f = \inf   _ { h \in   { \mathcal   { H } } } I [ h ] }
+p ( { \vec     { x } } , y )
+I _ { S } [ f ] = { \frac     { 1 } { n } } \displaystyle   \sum   _ { { i = 1 } } ^ { n } V ( f ( { \vec     { x } } _ { i } ) , y _ { i } )
+f _ S
+f _ S
+V ( f ( { \vec     { x } } ) , y ) = ( y - f ( { \vec     { x } } ) ) ^ { 2 }
+V ( f ( { \vec     { x } } ) , y ) = | y - f ( { \vec     { x } } ) |
+{ \displaystyle   Y = \{ - 1 , 1 \ } }
+{ \displaystyle   V ( f ( { \vec   { x } } ) , y ) = \theta   ( - y f ( { \vec   { x } } ) ) }
+\theta  
+{ \mathcal   { H } }
+{ \mathcal   { H } }
+{ \mathcal   { H } }
+p
+{ \frac     { 1 } { n } } \displaystyle   \sum   _ { { i = 1 } } ^ { n } V ( f ( { \vec     { x } } _ { i } , y _ { i } ) ) + \gamma   \|f \|_ { { { \mathcal     { H } } } } ^ { 2 }
+\gamma  
+{ \mathcal   { H } }

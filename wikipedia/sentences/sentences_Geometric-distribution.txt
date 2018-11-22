@@ -1,0 +1,64 @@
+0 < p < 1
+0 < p \leq   1
+{ \displaystyle   k \in   \{ 1 , 2 , 3 , \dots   \ } }
+{ \displaystyle   k \in   \{ 0 , 1 , 2 , 3 , \dots   \ } }
+{ \displaystyle   ( 1 - p ) ^ { k - 1 } p }
+{ \displaystyle   ( 1 - p ) ^ { k } p }
+{ \displaystyle   1 - ( 1 - p ) ^ { k } }
+{ \displaystyle   1 - ( 1 - p ) ^ { k + 1 } }
+{ \frac   { 1 } { p } }
+{ \frac     { 1 - p } { p } }
+{ \displaystyle   \left \lceil   { \frac   { - 1 } { \log   _ { 2 } ( 1 - p ) } } \right \rceil   }
+- 1 / \log   _ { 2 } ( 1 - p )
+{ \displaystyle   \left \lceil   { \frac   { - 1 } { \log   _ { 2 } ( 1 - p ) } } \right \rceil   - 1 }
+- 1 / \log   _ { 2 } ( 1 - p )
+1
+{ \displaystyle   0 }
+{ \displaystyle   { \frac   { 1 - p } { p ^ { 2 } } } }
+{ \displaystyle   { \frac   { 1 - p } { p ^ { 2 } } } }
+{ \displaystyle   { \frac   { 2 - p } { \sqrt   { 1 - p } } } }
+{ \displaystyle   { \frac   { 2 - p } { \sqrt   { 1 - p } } } }
+{ \displaystyle   6 + { \frac   { p ^ { 2 } } { 1 - p } } }
+{ \displaystyle   6 + { \frac   { p ^ { 2 } } { 1 - p } } }
+{ \displaystyle   { \tfrac   { - ( 1 - p ) \log   _ { 2 } ( 1 - p ) - p \log   _ { 2 } p } { p } } }
+{ \displaystyle   { \tfrac   { - ( 1 - p ) \log   _ { 2 } ( 1 - p ) - p \log   _ { 2 } p } { p } } }
+{ \displaystyle   { \frac   { p e ^ { t } } { 1 - ( 1 - p ) e ^ { t } } } , }
+{ \displaystyle   t < - \ln ( 1 - p ) }
+{ \displaystyle   { \frac   { p } { 1 - ( 1 - p ) e ^ { t } } } }
+{ \displaystyle   { \frac   { p e ^ { i t } } { 1 - ( 1 - p ) e ^ { i t } } } }
+{ \displaystyle   { \frac   { p } { 1 - ( 1 - p ) e ^ { i t } } } }
+{ \displaystyle   \Pr ( X = k ) = ( 1 - p ) ^ { k - 1 } p }
+{ \displaystyle   \Pr ( Y = k ) = ( 1 - p ) ^ { k } p }
+{ \displaystyle   \Pr ( Y = 0 ) = q ^ { 0 } \,p \ =0 . 4 ^ { 0 } \times   0 . 6 = 1 \times   0 . 6 = 0 . 6 . }
+\times  
+{ \displaystyle   \Pr ( Y = 1 ) = q ^ { 1 } \,p \ =0 . 4 ^ { 1 } \times   0 . 6 = 0 . 4 \times   0 . 6 = 0 . 2 4 . }
+\times  
+\times  
+{ \displaystyle   \Pr ( Y = 2 ) = q ^ { 2 } \,p , = 0 . 4 ^ { 2 } \times   0 . 6 = 0 . 0 9 6 . }
+\Pr ( Y = k ) = q ^ { k } \,p .
+{ \displaystyle   \Pr ( Y = 0 ) = q ^ { 0 } \,p \ =0 . 5 ^ { 0 } \times   0 . 5 = 1 \times   0 . 5 = 0 . 5 . }
+{ \displaystyle   \Pr ( Y = 1 ) = q ^ { 1 } \,p \ =0 . 5 ^ { 1 } \times   0 . 5 = 0 . 5 \times   0 . 5 = 0 . 2 5 . }
+{ \displaystyle   \Pr ( Y = 2 ) = q ^ { 2 } \,p \ =0 . 5 ^ { 2 } \times   0 . 5 = 0 . 1 2 5 . }
+{ \displaystyle   \operatorname   { E }   ( X ) = { \frac   { 1 } { p } } , \qquad   \operatorname   { v a r }   ( X ) = { \frac   { 1 - p } { p ^ { 2 } } } . }
+{ \displaystyle   \operatorname   { E }   ( Y ) = { \frac   { 1 - p } { p } } , \qquad   \operatorname   { v a r }   ( Y ) = { \frac   { 1 - p } { p ^ { 2 } } } . }
+\kappa   _ { n }
+\kappa   _ { n + 1 } = \mu   ( \mu   + 1 ) { \frac   { d \kappa   _ { n } } { d \mu   } } .
+{ \begin { a l i g n e d } \mathrm   { E }   ( Y ) & { } = \sum   _ { k = 0 } ^ { \infty   } ( 1 - p ) ^ { k } p \cdot   k \\&{ } = p \sum   _ { k = 0 } ^ { \infty   } ( 1 - p ) ^ { k } k \\&{ } = p ( 1 - p ) \sum   _ { k = 0 } ^ { \infty   } ( 1 - p ) ^ { k - 1 } \cdot   k \\&{ } = p ( 1 - p ) \left [ { \frac   { d } { d p } } \left ( - \sum   _ { k = 0 } ^ { \infty   } ( 1 - p ) ^ { k } \right ) \right ] \\&{ } = p ( 1 - p ) { \frac   { d } { d p } } \left ( - { \frac   { 1 } { p } } \right ) = { \frac   { 1 - p } { p } } . \end { a l i g n e d } }
+{ \widehat   { p } } = \left ( { \frac   { 1 } { n } } \sum   _ { i = 1 } ^ { n } k _ { i } \right ) ^ { - 1 } = { \frac   { n } { \sum   _ { i = 1 } ^ { n } k _ { i } } } . \ !
+p \sim   \mathrm   { B e t a }   \left ( \alpha   + n , \ \beta   + \sum   _ { i = 1 } ^ { n } ( k _ { i } - 1 ) \right ) . \ !
+{ \widehat   { p } }
+{ \widehat   { p } } = \left ( 1 + { \frac   { 1 } { n } } \sum   _ { i = 1 } ^ { n } k _ { i } \right ) ^ { - 1 } = { \frac   { n } { \sum   _ { i = 1 } ^ { n } k _ { i } + n } } . \ !
+p \sim   \mathrm   { B e t a }   \left ( \alpha   + n , \ \beta   + \sum   _ { i = 1 } ^ { n } k _ { i } \right ) . \ !
+{ \widehat   { p } }
+{ \begin { a l i g n e d } G _ { X } ( s ) & = { \frac   { s \,p } { 1 - s \,( 1 - p ) } } , \\[10pt ] G _ { Y } ( s ) & = { \frac   { p } { 1 - s \,( 1 - p ) } } , \quad   | s | < ( 1 - p ) ^ { - 1 } . \end { a l i g n e d } }
+\Pr ( D = d ) = { q ^ { 1 0 0 d }   \over   1 + q ^ { 1 0 0 } + q ^ { 2 0 0 } + \cdots   + q ^ { 9 0 0 } } ,
+Z = \sum   _ { m = 1 } ^ { r } Y _ { m }
+{ \displaystyle   W = \min   _ { m \in   1 , \ldots   , r } Y _ { m } \ , }
+p = 1 - \prod   _ { m } ( 1 - p _ { m } ) .
+\sum   _ { k = 1 } ^ { \infty   } k \,X_ { k }
+Y = \lfloor   X \rfloor   ,
+\lfloor   \quad   \rfloor  
+\lfloor   \ln ( U ) / \ln ( 1 - p ) \rfloor  
+p
+U
+{ \displaystyle   { \begin { a l i g n e d } P ( X > a ) & = ( 1 - p ) ^ { a } = \left ( 1 - { \frac   { 1 } { n } } \right ) ^ { n { \frac   { 1 } { n } } ( a ) } = \left [ \left ( 1 - { \frac   { 1 } { n } } \right ) ^ { n } \right ] ^ { { \frac   { 1 } { n } } ( a ) } \\&\to   [ e ^ { - 1 } ] ^ { { \frac   { 1 } { n } } ( a ) } = e ^ { - { \frac   { 1 } { n } } a } { \text {   a s   } } n \to   \infty   . \end { a l i g n e d } } }

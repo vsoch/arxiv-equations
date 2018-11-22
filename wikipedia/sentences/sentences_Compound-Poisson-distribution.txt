@@ -1,0 +1,42 @@
+N \sim   \operatorname   { P o i s s o n } ( \lambda   ) ,
+X _ { 1 } , X _ { 2 } , X _ { 3 } , \dots  
+N
+{ \displaystyle   Y = \sum   _ { n = 1 } ^ { N } X _ { n } }
+{ \displaystyle   \operatorname   { E }   ( Y ) = \operatorname   { E }   \left [ \operatorname   { E }   ( Y \mid   N ) \right ] = \operatorname   { E }   \left [ N \operatorname   { E }   ( X ) \right ] = \operatorname   { E }   ( N ) \operatorname   { E }   ( X ) , }
+{ \displaystyle   { \begin { a l i g n e d } \operatorname   { V a r }   ( Y ) & = E \left [ \operatorname   { V a r }   ( Y \mid   N ) \right ] + \operatorname   { V a r }   \left [ E ( Y \mid   N ) \right ] = \operatorname   { E }   \left [ N \operatorname   { V a r }   ( X ) \right ] + \operatorname   { V a r }   \left [ N \operatorname   { E }   ( X ) \right ] , \\[6pt ] & = \operatorname   { E }   ( N ) \operatorname   { V a r }   ( X ) + \left ( \operatorname   { E }   ( X ) \right ) ^ { 2 } \operatorname   { V a r }   ( N ) . \end { a l i g n e d } } }
+\operatorname   { E } ( Y ) = \operatorname   { E } ( N ) \operatorname   { E } ( X ) ,
+\operatorname   { V a r } ( Y ) = E ( N ) ( \operatorname   { V a r } ( X ) + { E ( X ) } ^ { 2 } ) = E ( N ) { E ( X ^ { 2 } ) } .
+{ \displaystyle   \varphi   _ { Y } ( t ) = \operatorname   { E }   ( e ^ { i t Y } ) = \operatorname   { E }   _ { N } ( \left ( \operatorname   { E }   ( e ^ { i t X } ) ) ^ { N } \right ) = \operatorname   { E }   ( ( \varphi   _ { X } ( t ) ) ^ { N } ) , \ , }
+\varphi   _ { Y } ( t ) = { \textrm     { e } } ^ { { \lambda   ( \varphi   _ { X } ( t ) - 1 ) } } . \ ,
+{ \displaystyle   K _ { Y } ( t ) = \ln   E [ e ^ { t Y } ] = \ln   \operatorname   { E }   [ \operatorname   { E }   [ e ^ { t Y } \mid   N ] ] = \ln   \operatorname   { E }   [ e ^ { N K _ { X } ( t ) } ] = K _ { N } ( K _ { X } ( t ) ) . \ , }
+X _ { 1 } , X _ { 2 } , X _ { 3 } , \dots  
+{ \displaystyle   P ( X _ { 1 } = k ) = \alpha   _ { k } , \ ( k = 1 , 2 , \ldots   ) }
+Y
+P _ { Y } ( z ) = \sum   \limits   _ { { i = 0 } } ^ { \infty   } P ( Y = i ) z ^ { i } = \exp   \left ( \sum   \limits   _ { { k = 1 } } ^ { \infty   } \alpha   _ { k } \lambda   ( z ^ { k } - 1 ) \right ) , \quad   ( | z | \leq   1 )
+( \alpha   _ { 1 } \lambda   , \alpha   _ { 2 } \lambda   , \ldots   ) \in   { \mathbb     { R } } ^ { \infty   } \left ( \sum   _ { { i = 1 } } ^ { \infty   } \alpha   _ { i } = 1 , \alpha   _ { i } \geq   0 , \lambda   > 0 \right )
+{ \displaystyle   X \sim   { \text { D C P } } ( \lambda   { \alpha   _ { 1 } } , \lambda   { \alpha   _ { r } } , \ldots   ) }
+{ \displaystyle   X \sim   { \operatorname   { D C P }   } ( \lambda   { \alpha   _ { 1 } } , \ldots   , \lambda   { \alpha   _ { r } } ) }
+X
+r
+r = 1 , 2
+r = 3 , 4
+X
+\alpha   _ { k }
+Y
+G _ { Y } ( z ) = \sum   \limits   _ { { n = 0 } } ^ { \infty   } P ( Y = n ) z ^ { n } = \exp   \left ( \sum   \limits   _ { { k = 1 } } ^ { \infty   } \alpha   _ { k } \lambda   ( z ^ { k } - 1 ) \right ) , \quad   ( | z | \leq   1 )
+{ \displaystyle   ( \lambda   _ { 1 } , \lambda   _ { 2 } , \ldots   ) = : ( \alpha   _ { 1 } \lambda   , \alpha   _ { 2 } \lambda   , \ldots   ) \in   \mathbb   { R }   ^ { \infty   } \left ( { \sum   \limits   _ { k = 1 } ^ { \infty   } { \alpha   _ { k } } = 1 , \sum   \limits   _ { k = 1 } ^ { \infty   } { \left | { \alpha   _ { k } } \right | } < \infty   , { \alpha   _ { k } } \in   { \mathbb   { R }   } , \lambda   > 0 } \right ) }
+{ \displaystyle   N \sim   \operatorname   { P o i s s o n }   ( \lambda   ) , }
+{ \displaystyle   X _ { i } \sim   \operatorname   { \Gamma   }   ( \alpha   , \beta   ) }
+{ \displaystyle   Y = \sum   _ { i = 1 } ^ { N } X _ { i } }
+{ \displaystyle   E D ( \mu   , \sigma   ^ { 2 } ) }
+{ \displaystyle   { \begin { a l i g n e d } \operatorname   { E }   [ Y ] & = \lambda   { \frac   { \alpha   } { \beta   } } = : \mu   , \\\operatorname   { V a r }   [ Y ] & = \lambda   { \frac   { \alpha   ( 1 + \alpha   ) } { \beta   ^ { 2 } } } = : \sigma   ^ { 2 } \mu   ^ { p } . \end { a l i g n e d } } }
+{ \displaystyle   \mu   , \sigma   ^ { 2 } , p }
+{ \displaystyle   \lambda   , \alpha   , \beta   }
+{ \displaystyle   { \begin { a l i g n e d } \lambda   & = { \frac   { \mu   ^ { 2 - p } } { ( 2 - p ) \sigma   ^ { 2 } } } , \\\alpha   & = { \frac   { 2 - p } { p - 1 } } , \\\beta   & = { \frac   { \mu   ^ { 1 - p } } { ( p - 1 ) \sigma   ^ { 2 } } } . \end { a l i g n e d } } }
+\lambda   > 0
+\{ \,Y ( t ) : t \geq   0 \ , \ }
+Y ( t ) = \sum   _ { { i = 1 } } ^ { { N ( t ) } } D _ { i } ,
+\{ \,N ( t ) : t \geq   0 \ , \ }
+\lambda  
+\{ \,D_ { i } : i \geq   1 \ , \ }
+\{ \,N ( t ) : t \geq   0 \ , \ } . \ ,

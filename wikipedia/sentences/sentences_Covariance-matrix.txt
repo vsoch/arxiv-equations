@@ -1,0 +1,95 @@
+{ \displaystyle   { \begin { b m a t r i x } 1 & 0 . 5 \\0 . 5 & 1 \end { b m a t r i x } } }
+\mathbf   { X }  
+\mathbf   { Y }  
+X _ { i }
+Y _ { i }
+{ \displaystyle   \mathbf   { X }   = { \begin { b m a t r i x } X _ { 1 } \\\vdots   \\X_ { n } \end { b m a t r i x } } }
+\Sigma  
+( i , j )
+{ \displaystyle   \Sigma   _ { i j } = \operatorname   { c o v }   ( X _ { i } , X _ { j } ) = \operatorname   { E }   [ ( X _ { i } - \mu   _ { i } ) ( X _ { j } - \mu   _ { j } ) ] = \operatorname   { E }   [ X _ { i } X _ { j } ] - \mu   _ { i } \mu   _ { j } , }
+\operatorname   { E }  
+{ \displaystyle   \mu   _ { i } = \operatorname   { E }   ( X _ { i } ) }
+\mathbf   { X }  
+{ \displaystyle   \Sigma   = { \begin { b m a t r i x } \operatorname   { E }   [ ( X _ { 1 } - \mu   _ { 1 } ) ( X _ { 1 } - \mu   _ { 1 } ) ] & \operatorname   { E }   [ ( X _ { 1 } - \mu   _ { 1 } ) ( X _ { 2 } - \mu   _ { 2 } ) ] & \cdots   & \operatorname   { E }   [ ( X _ { 1 } - \mu   _ { 1 } ) ( X _ { n } - \mu   _ { n } ) ] \\\\\operatorname   { E }   [ ( X _ { 2 } - \mu   _ { 2 } ) ( X _ { 1 } - \mu   _ { 1 } ) ] & \operatorname   { E }   [ ( X _ { 2 } - \mu   _ { 2 } ) ( X _ { 2 } - \mu   _ { 2 } ) ] & \cdots   & \operatorname   { E }   [ ( X _ { 2 } - \mu   _ { 2 } ) ( X _ { n } - \mu   _ { n } ) ] \\\\\vdots   & \vdots   & \ddots   & \vdots   \\\\\operatorname   { E }   [ ( X _ { n } - \mu   _ { n } ) ( X _ { 1 } - \mu   _ { 1 } ) ] & \operatorname   { E }   [ ( X _ { n } - \mu   _ { n } ) ( X _ { 2 } - \mu   _ { 2 } ) ] & \cdots   & \operatorname   { E }   [ ( X _ { n } - \mu   _ { n } ) ( X _ { n } - \mu   _ { n } ) ] \end { b m a t r i x } } . }
+\Sigma   ^ { - 1 }
+{ \displaystyle   \Sigma   = \operatorname   { E }   \left [ ( \mathbf   { X }   - \operatorname   { E }   [ \mathbf   { X }   ] ) ( \mathbf   { X }   - \operatorname   { E }   [ \mathbf   { X }   ] ) ^ { \rm   { T } } \right ] . }
+{ \displaystyle   \sigma   ^ { 2 } = \operatorname   { v a r }   ( X ) = \operatorname   { E }   [ ( X - \operatorname   { E }   ( X ) ) ^ { 2 } ] = \operatorname   { E }   [ ( X - \operatorname   { E }   ( X ) ) \cdot   ( X - \operatorname   { E }   ( X ) ) ] . }
+\Sigma  
+\mathbf   { X }  
+\mathbf   { X }  
+{ \displaystyle   \operatorname   { c o r r }   ( \mathbf   { X }   ) = { \big   ( } \operatorname   { d i a g }   ( \Sigma   ) { \big   ) } ^ { - { \frac   { 1 } { 2 } } } \,\Sigma   \,{ \big   ( } \operatorname   { d i a g }   ( \Sigma   ) { \big   ) } ^ { - { \frac   { 1 } { 2 } } } , }
+{ \displaystyle   \operatorname   { d i a g }   ( \Sigma   ) }
+\Sigma  
+X _ { i }
+i = 1 , \dots   , n
+X _ { i } / \sigma   ( X _ { i } )
+i = 1 , \dots   , n
+\Sigma  
+X
+X
+{ \displaystyle   \operatorname   { v a r }   ( \mathbf   { X }   ) = \operatorname   { c o v }   ( \mathbf   { X }   ) = \operatorname   { E }   \left [ ( \mathbf   { X }   - \operatorname   { E }   [ \mathbf   { X }   ] ) ( \mathbf   { X }   - \operatorname   { E }   [ \mathbf   { X }   ] ) ^ { \rm   { T } } \right ] . }
+\Sigma  
+{ \displaystyle   \operatorname   { c o v }   ( \mathbf   { X }   , \mathbf   { Y }   ) = C _ { \mathbf   { X }   , \mathbf   { Y }   } = \operatorname   { E }   \left [ ( \mathbf   { X }   - \operatorname   { E }   [ \mathbf   { X }   ] ) ( \mathbf   { Y }   - \operatorname   { E }   [ \mathbf   { Y }   ] ) ^ { \rm   { T } } \right ] . }
+{ \displaystyle   \Sigma   = \operatorname   { v a r }   ( \mathbf   { X }   ) = \operatorname   { E }   \left [ \left ( \mathbf   { X }   - \operatorname   { E }   [ \mathbf   { X }   ] \right ) \left ( \mathbf   { X }   - \operatorname   { E }   [ \mathbf   { X }   ] \right ) ^ { \rm   { T } } \right ] }
+{ \displaystyle   { \boldsymbol   { \mu   } } = \operatorname   { E }   ( { \textbf   { X } } ) }
+\mathbf   { X }  
+p
+{ \displaystyle   \Sigma   = \operatorname   { E }   ( \mathbf   { X X ^ { \rm   { T } } }   ) - { \boldsymbol   { \mu   } } { \boldsymbol   { \mu   } } ^ { \rm   { T } } }
+\Sigma   \ ,
+{ \displaystyle   \operatorname   { v a r }   ( \mathbf   { A X }   + \mathbf   { a }   ) = \mathbf   { A }   \,\operatorname   { v a r }   ( \mathbf   { X }   ) \,\mathbf   { A ^ { \rm   { T } } }   }
+\mathbf   { Y }  
+\mathbf   { X }  
+{ \displaystyle   \operatorname   { v a r }   ( \mathbf   { X }   + \mathbf   { Y }   ) = \operatorname   { v a r }   ( \mathbf   { X }   ) + \operatorname   { c o v }   ( \mathbf   { X }   , \mathbf   { Y }   ) + \operatorname   { c o v }   ( \mathbf   { Y }   , \mathbf   { X }   ) + \operatorname   { v a r }   ( \mathbf   { Y }   ) }
+\mathbf   { a }  
+p \times   1
+\mathbf   { A }  
+p \times   p
+{ \displaystyle   \operatorname   { c o v }   ( \mathbf   { X }   , \mathbf   { Y }   ) }
+\mathbf   { X }  
+\mathbf   { Y }  
+{ \boldsymbol   { \mu   } } _ { X , Y }
+{ \boldsymbol   { \Sigma   } } _ { X , Y }
+{ \boldsymbol   { X } }
+{ \boldsymbol   { Y } }
+{ \boldsymbol   { \mu   } } _ { X , Y } = { \begin { b m a t r i x } { \boldsymbol   { \mu   } } _ { X } \\{ \boldsymbol   { \mu   } } _ { Y } \end { b m a t r i x } } , \qquad   { \boldsymbol   { \Sigma   } } _ { X , Y } = { \begin { b m a t r i x } { \boldsymbol   { \Sigma   } } _ { \mathit   { X X } } & { \boldsymbol   { \Sigma   } } _ { \mathit   { X Y } } \\{ \boldsymbol   { \Sigma   } } _ { \mathit   { Y X } } & { \boldsymbol   { \Sigma   } } _ { \mathit   { Y Y } } \end { b m a t r i x } }
+{ \displaystyle   { \boldsymbol   { \Sigma   } } _ { X X } = \operatorname   { v a r }   ( { \boldsymbol   { X } } ) , { \boldsymbol   { \Sigma   } } _ { Y Y } = \operatorname   { v a r }   ( { \boldsymbol   { Y } } ) , }
+{ \displaystyle   { \boldsymbol   { \Sigma   } } _ { X Y } = { \boldsymbol   { \Sigma   } } _ { \mathit   { Y X } } ^ { T } = \operatorname   { c o v }   ( { \boldsymbol   { X } } , { \boldsymbol   { Y } } ) }
+{ \boldsymbol   { \Sigma   } } _ { X X }
+{ \boldsymbol   { \Sigma   } } _ { Y Y }
+{ \boldsymbol   { X } }
+{ \boldsymbol   { Y } }
+{ \boldsymbol   { X } }
+{ \boldsymbol   { Y } }
+{ \displaystyle   { \boldsymbol   { X } } , { \boldsymbol   { Y } } \sim   \ { \mathcal   { N } } ( { \boldsymbol   { \mu   } } _ { X , Y } , { \boldsymbol   { \Sigma   } } _ { X , Y } ) }
+{ \boldsymbol   { Y } }
+{ \boldsymbol   { X } }
+{ \displaystyle   { \boldsymbol   { Y } } | { \boldsymbol   { X } } \sim   \ { \mathcal   { N } } ( { \boldsymbol   { \mu   } } _ { Y | X } , { \boldsymbol   { \Sigma   } } _ { Y | X } ) }
+{ \boldsymbol   { \mu   } } _ { Y | X } = { \boldsymbol   { \mu   } } _ { Y } + { \boldsymbol   { \Sigma   } } _ { Y X } { \boldsymbol   { \Sigma   } } _ { X X } ^ { - 1 } \left ( \mathbf   { x }   - { \boldsymbol   { \mu   } } _ { X } \right )
+{ \boldsymbol   { \Sigma   } } _ { Y | X } = { \boldsymbol   { \Sigma   } } _ { Y Y } - { \boldsymbol   { \Sigma   } } _ { \mathit   { Y X } } { \boldsymbol   { \Sigma   } } _ { \mathit   { X X } } ^ { - 1 } { \boldsymbol   { \Sigma   } } _ { \mathit   { X Y } } .
+{ \displaystyle   { \boldsymbol   { \Sigma   } } _ { Y X } { \boldsymbol   { \Sigma   } } _ { X X } ^ { - 1 } }
+{ \displaystyle   { \boldsymbol   { \Sigma   } } _ { Y | X } }
+{ \boldsymbol   { \Sigma   } } _ { X X }
+{ \boldsymbol   { \Sigma   } } _ { X , Y }
+{ \displaystyle   { \boldsymbol   { \Sigma   } } _ { X X } ^ { - 1 } { \boldsymbol   { \Sigma   } } _ { X Y } }
+{ \displaystyle   \mathbf   { c }   ^ { \rm   { T } } \Sigma   = \operatorname   { c o v }   ( \mathbf   { c }   ^ { \rm   { T } } \mathbf   { X }   , \mathbf   { X }   ) }
+{ \displaystyle   \mathbf   { d }   ^ { \rm   { T } } \Sigma   \mathbf   { c }   = \operatorname   { c o v }   ( \mathbf   { d }   ^ { \rm   { T } } \mathbf   { X }   , \mathbf   { c }   ^ { \rm   { T } } \mathbf   { X }   ) }
+{ \displaystyle   \mathbf   { c }   ^ { \rm   { T } } \Sigma   \mathbf   { c }   }
+{ \displaystyle   \langle   c - \mu   | \Sigma   ^ { + } | c - \mu   \rangle   }
+\mathbf   { b }  
+( p \times   1 )
+\operatorname   { v a r }   ( \mathbf   { b }   ^ { \rm   { T } } \mathbf   { X }   ) = \mathbf   { b }   ^ { \rm   { T } } \operatorname   { v a r }   ( \mathbf   { X }   ) \mathbf   { b }   , \ ,
+{ \displaystyle   w ^ { \rm   { T } } \operatorname   { E }   \left [ ( \mathbf   { X }   - \operatorname   { E }   [ \mathbf   { X }   ] ) ( \mathbf   { X }   - \operatorname   { E }   [ \mathbf   { X }   ] ) ^ { \rm   { T } } \right ] w = \operatorname   { E }   \left [ w ^ { \rm   { T } } ( \mathbf   { X }   - \operatorname   { E }   [ \mathbf   { X }   ] ) ( \mathbf   { X }   - \operatorname   { E }   [ \mathbf   { X }   ] ) ^ { \rm   { T } } w \right ] = \operatorname   { E }   \left [ ( w ^ { \rm   { T } } ( \mathbf   { X }   - \operatorname   { E }   [ \mathbf   { X }   ] ) ) ^ { 2 } \right ] \geq   0 }
+\mathbf   { X }  
+{ \displaystyle   \operatorname   { v a r }   ( \mathbf   { M }   ^ { 1 / 2 } \mathbf   { X }   ) = \mathbf   { M }   ^ { 1 / 2 } \,\operatorname   { v a r }   ( \mathbf   { X }   ) \,\mathbf   { M }   ^ { 1 / 2 } = \mathbf   { M }   . }
+{ \displaystyle   \operatorname   { v a r }   ( \mathbf   { Z }   ) = \operatorname   { E }   [ ( \mathbf   { Z }   - \mathbf   { \mu   }   ) ( \mathbf   { Z }   - \mathbf   { \mu   }   ) ^ { * } ] , }
+z
+z ^ { * }
+\mathbf   { Z }  
+{ \displaystyle   \operatorname   { E }   \left [ ( \mathbf   { Z }   - \mathbf   { \mu   }   ) ( \mathbf   { Z }   - \mathbf   { \mu   }   ) ^ { \dagger   } \right ] , }
+{ \displaystyle   \mathbf   { Z }   ^ { \dagger   } }
+\mathbf   { M }   _ { \mathbf   { X }   }
+\mathbf   { M }   _ { \mathbf   { Y }   }
+\mathbf   { Q }   _ { \mathbf   { X }   }
+\mathbf   { Q }   _ { \mathbf   { X Y }   }
+{ \displaystyle   \mathbf   { Q }   _ { \mathbf   { X }   } = { \frac   { 1 } { n - 1 } } \mathbf   { M }   _ { \mathbf   { X }   } ^ { \rm   { T } } \mathbf   { M }   _ { \mathbf   { X }   } , \qquad   \mathbf   { Q }   _ { \mathbf   { X Y }   } = { \frac   { 1 } { n - 1 } } \mathbf   { M }   _ { \mathbf   { X }   } ^ { \rm   { T } } \mathbf   { M }   _ { \mathbf   { Y }   } }
+{ \displaystyle   \mathbf   { Q }   _ { \mathbf   { X }   } = { \frac   { 1 } { n } } \mathbf   { M }   _ { \mathbf   { X }   } ^ { \rm   { T } } \mathbf   { M }   _ { \mathbf   { X }   } , \qquad   \mathbf   { Q }   _ { \mathbf   { X Y }   } = { \frac   { 1 } { n } } \mathbf   { M }   _ { \mathbf   { X }   } ^ { \rm   { T } } \mathbf   { M }   _ { \mathbf   { Y }   } . }

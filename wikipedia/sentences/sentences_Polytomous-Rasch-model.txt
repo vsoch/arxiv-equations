@@ -1,0 +1,33 @@
+X _ { { n i } } = x \in   \{ 0 , 1 , \dots   , m _ { i } \ } \ ,
+  m _ i  
+X _ { { n i } }
+  m _ i  
+X _ { { n i } } = x
+\Pr \{ X _ { { n i } } = x , x > 0 \}={ \frac     { \exp   { { \sum   _ { { k = 1 } } ^ { x } ( \beta   _ { n } } - { \tau   _ { { k i } } } ) } } { 1 + \sum   _ { { j = 1 } } ^ { { m _ { i } } } \exp   { { \sum   _ { { k = 1 } } ^ { j } ( \beta   _ { n } } - { \tau   _ { { k i } } } ) } } } ;
+\Pr \{ X _ { { n i } } = 0 \}={ \frac     { 1 } { 1 + \sum   _ { { j = 1 } } ^ { { m _ { i } } } \exp   { { \sum   _ { { k = 1 } } ^ { j } ( \beta   _ { n } } - { \tau   _ { { k i } } } ) } } }
+\tau   _ { { k i } }
+\beta   _ { n }
+  m _ i  
+\Pr \{ X _ { { n i } } = x \}={ \frac     { \exp   { { \sum   _ { { k = 0 } } ^ { x } ( \beta   _ { n } } - { \tau   _ { { k i } } } ) } } { \sum   _ { { j = 0 } } ^ { { m _ { i } } } \exp   { { \sum   _ { { k = 0 } } ^ { j } ( \beta   _ { n } } - { \tau   _ { { k i } } } ) } } }
+\tau   _ { { 0 i } }
+{ \displaystyle   \sum   _ { k = 0 } ^ { m _ { i } } ( \beta   _ { n } - \tau   _ { k i } ) \equiv   0 }
+\Pr \{ X _ { { n i } } = x \}={ \frac     { \exp   { { \sum   _ { { k = 0 } } ^ { x } ( \beta   _ { n } } - ( { \delta   _ { i } - \tau   _ { { k } } } ) ) } } { \sum   _ { { j = 0 } } ^ { m } \exp   { { \sum   _ { { k = 0 } } ^ { j } ( \beta   _ { n } } - { ( \delta   _ { i } - \tau   _ { { k } } } ) ) } } }
+\delta   _ { { i } }
+\tau   _ { { k } }
+\tau   _ { { 0 } }
+\tau   _ { { k i } }
+\tau   _ { { 1 i } }
+Y _ { { n k } } = y \in   \{ 0 , 1 \},k \in   \{ 0 , 1 , \dots   , m \ } \ ,
+\Omega   ' \ { \stackrel     { { \mathrm     { d e f } } } { = } } \ \{ 1 , \dots   , 1 , 0 , \dots   , 0 \ }
+0 , 0 \Leftrightarrow   0
+1 , 0 \Leftrightarrow   1
+1 , 1 \Leftrightarrow   2
+P _ { { n x i } } = { \frac     { \exp ( { \beta   _ { n } } - { \tau   _ { { k i } } } ) } { 1 + \exp ( { \beta   _ { n } } - { \tau   _ { { k i } } } ) } } , \ k = x , \ ,
+Y _ { { n k i } } = 1
+Q _ { { n x i } } = 1 - P _ { { n x i } }
+{ \frac     { P _ { { n 1 } } Q _ { { n 2 } } } { Q _ { { n 1 } } Q _ { { n 2 } } + P _ { { n 1 } } Q _ { { n 2 } } + P _ { { n 1 } } P _ { { n 2 } } } } .
+{ \frac     { \exp   { { \sum   _ { { k = 1 } } ^ { 1 } ( \beta   _ { n } } - { \tau   _ { { k } } } ) } } { 1 + \sum   _ { { j = 1 } } ^ { 2 } \exp   { { \sum   _ { { k = 1 } } ^ { j } ( \beta   _ { n } } - { \tau   _ { { k } } } ) } } }
+P r \{ X _ { { n i } } = 1 \ }
+\{ 0 , 0 \},\{ 1 , 0 \ } ,
+\{ 1 , 1 \ }
+\Omega '

@@ -1,0 +1,15 @@
+B ( T ) = \exp   \left ( \int   _ { 0 } ^ { T } r ( u ) \,du \right )
+D ( T ) = 1 / B ( T ) = \exp   \left ( - \int   _ { 0 } ^ { T } r ( u ) \,du \right )
+Q _ { * }
+Q _ { T }
+{ \frac     { d Q _ { T } } { d Q _ { * } } } = { \frac     { 1 } { B ( T ) E _ { { Q _ { * } } } [ 1 / B ( T ) ] } } = { \frac     { D ( T ) } { E _ { { Q _ { * } } } [ D ( T ) ] } } .
+P ( t , T ) = E _ { { Q _ { * } } } \left [ { \frac     { B ( t ) } { B ( T ) } } | { \mathcal     { F } } ( t ) \right ] = E _ { { Q _ { * } } } \left [ { \frac     { D ( T ) } { D ( t ) } } | { \mathcal     { F } } ( t ) \right ]
+{ \mathcal     { F } } ( t )
+{ \frac     { d Q _ { T } } { d Q _ { * } } } = { \frac     { B ( 0 ) P ( T , T ) } { B ( T ) P ( 0 , T ) } }
+S ( t ) D ( t ) = E _ { { Q _ { * } } } [ D ( T ) S ( T ) | { \mathcal     { F } } ( t ) ] . \ ,
+F _ { S } ( t , T ) = { \frac     { S ( t ) } { P ( t , T ) } }
+F _ { S } ( T , T ) = S ( T )
+F _ { S } ( t , T ) = { \frac     { E _ { { Q _ { * } } } [ D ( T ) S ( T ) | { \mathcal     { F } } ( t ) ] } { D ( t ) P ( t , T ) } } = E _ { { Q _ { T } } } [ F _ { S } ( T , T ) | { \mathcal     { F } } ( t ) ] { \frac     { E _ { { Q _ { * } } } [ D ( T ) | { \mathcal     { F } } ( t ) ] } { D ( t ) P ( t , T ) } }
+{ \displaystyle   { \frac   { d Q _ { T } } { d Q _ { * } } } }
+F _ { S } ( T , T ) = S ( T )
+F _ { S } ( t , T ) = E _ { { Q _ { T } } } [ F _ { S } ( T , T ) | { \mathcal     { F } } ( t ) ] . \ ,

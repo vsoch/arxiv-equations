@@ -1,0 +1,55 @@
+{ \displaystyle   Y : \Omega   \rightarrow   X }
+{ \displaystyle   G : \Omega   \rightarrow   Z }
+\Omega  
+{ \displaystyle   f _ { Y } : X \rightarrow   V }
+{ \displaystyle   f _ { G } : Z \rightarrow   V }
+Y
+G
+Y = y
+y \in   X
+{ \displaystyle   S : Z \times   X \rightarrow   \mathbb   { R }   }
+{ \displaystyle   S ( G , y ) }
+G
+y
+{ \displaystyle   S ( G , y ) }
+G
+G ^ *
+{ \displaystyle   S ( G , y ) > S ( G ^ { * } , y ) }
+G
+G ^ *
+{ \displaystyle   { \bar   { S } } ( G ) = \int   _ { - \infty   } ^ { \infty   } f _ { Y } ( y ) S ( G , y ) d y }
+{ \displaystyle   L ( G ) = { \bar   { S } } ( Y ) - { \bar   { S } } ( G ) }
+{ \displaystyle   S ( G , y ) }
+G
+E ( G )
+\mathbf   { r }  
+i
+S ( { \mathbf     { r } } , i )
+i
+L ( { \mathbf     { r } } , i ) = \ln ( r _ { i } )
+L ( { \mathbf     { r } } , i ) = \log   _ { b } ( r _ { i } )
+b > 1
+Q ( { \mathbf     { r } } , i ) = 2 r _ { i } - { \mathbf     { r } } \cdot   { \mathbf     { r } } = 2 r _ { i } - \sum   _ { { j = 1 } } ^ { C } r _ { j } ^ { 2 }
+r _ { i }
+C
+B ( { \mathbf     { r } } , i ) = \sum   _ { { j = 1 } } ^ { C } ( y _ { j } - r _ { j } ) ^ { 2 }
+y _ { j } = 1
+j
+y _ { j } = 0
+C
+S ( { \mathbf     { r } } , i ) = { \frac     { r _ { i } } { \lVert   { \mathbf     { r } } \rVert   } } = { \frac     { r _ { i } } { { \sqrt     { r _ { 1 } ^ { 2 } + \cdots   + r _ { c } ^ { 2 } } } } }
+S ( { \mathbf     { r } } , i )
+a + b S ( { \mathbf     { r } } , i )
+b > 0
+r _ { i }
+1 - r _ { i }
+S
+{ \displaystyle   E ( S ) = \mathrm   { U N C }   + \mathrm   { R E L }   - \mathrm   { R E S }   . }
+{ \displaystyle   \mathrm   { U N C }   = { \bar   { x } } ( 1 - { \bar   { x } } ) }
+{ \displaystyle   \mathrm   { R E L }   = E ( p - \pi   ( p ) ) ^ { 2 } }
+{ \displaystyle   \mathrm   { R E S }   = E ( \pi   ( p ) - { \bar   { x } } ) ^ { 2 } }
+{ \bar   { x } }
+x
+\pi   ( p )
+p
+\pi   ( p ) = P ( x = 1 \mid   p )

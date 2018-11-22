@@ -1,0 +1,57 @@
+{ \displaystyle   \Pr ( A , B , C , D , E , F ) \propto   f _ { 1 } ( A , B , D ) f _ { 2 } ( A , C , D ) f _ { 3 } ( C , D , F ) f _ { 4 } ( C , E , F ) }
+C
+D
+{ \displaystyle   A , B \perp   E , F | C , D }
+{ \displaystyle   C , D }
+A , B
+{ \displaystyle   E , F }
+C
+D
+{ \displaystyle   \Pr ( A , B , E , F | C , D ) \propto   [ f _ { 1 } ( A , B , D ) f _ { 2 } ( A , C , D ) ] \cdot   [ f _ { 3 } ( C , D , F ) f _ { 4 } ( C , E , F ) ] = g _ { 1 } ( A , B ) g _ { 2 } ( E , F ) }
+{ \displaystyle   g _ { 1 } ( A , B ) = f _ { 1 } ( A , B , D ) f _ { 2 } ( A , C , D ) }
+{ \displaystyle   g _ { 2 } ( E , F ) = f _ { 3 } ( C , D , F ) f _ { 4 } ( C , E , F ) }
+{ \displaystyle   A , B \perp   E , F | C , D }
+U
+{ \displaystyle   \Theta   , \Phi   _ { 1 } , \Phi   _ { 2 } , \dots   , \Phi   _ { n } \subseteq   U }
+{ \displaystyle   \Psi   _ { 1 } , \Psi   _ { 2 } , \dots   , \Psi   _ { m } \subseteq   U }
+X
+X
+X
+{ \displaystyle   \Pr ( U ) = f ( \Theta   ) \prod   _ { i = 1 } ^ { n } g _ { i } ( \Phi   _ { i } ) = \prod   _ { j = 1 } ^ { m } h _ { j } ( \Psi   _ { j } ) }
+{ \displaystyle   f , g _ { 1 } , g _ { 2 } , \dots   g _ { n } }
+{ \displaystyle   h _ { 1 } , h _ { 2 } , \dots   , h _ { m } }
+{ \displaystyle   h ' _ { 1 } , h ' _ { 2 } , \dots   , h ' _ { m } }
+{ \displaystyle   g ' _ { 1 } , g ' _ { 2 } , \dots   , g ' _ { n } }
+{ \displaystyle   \Pr ( U ) = { \bigg   ( } \prod   _ { j = 1 } ^ { m } h ' _ { j } ( \Theta   \cap   \Psi   _ { j } ) { \bigg   ) } { \bigg   ( } \prod   _ { i = 1 } ^ { n } g ' _ { i } ( \Phi   _ { i } ) { \bigg   ) } }
+{ \displaystyle   \prod   _ { j = 1 } ^ { m } h _ { j } ( \Psi   _ { j } ) }
+f ( \Theta   )
+{ \bar   { \theta   } }
+{ \displaystyle   U \setminus   \Theta   }
+X
+{ \displaystyle   { \bar   { \theta   } } [ X ] }
+{ \bar   { \theta   } }
+X
+{ \displaystyle   \Pr ( U ) = { \bigg   ( } f ( \Theta   ) \prod   _ { i = 1 } ^ { n } g _ { i } ( \Phi   _ { i } \cap   \Theta   , { \bar   { \theta   } } [ \Phi   _ { i } ] ) { \bigg   ) } { \bigg   ( } \prod   _ { i = 1 } ^ { n } { \frac   { g _ { i } ( \Phi   _ { i } ) } { g _ { i } ( \Phi   _ { i } \cap   \Theta   , { \bar   { \theta   } } [ \Phi   _ { i } ] ) } } { \bigg   ) } }
+{ \displaystyle   f ' ( \Theta   ) = f ( \Theta   ) \prod   _ { i = 1 } ^ { n } g _ { i } ( \Phi   _ { i } \cap   \Theta   , { \bar   { \theta   } } [ \Phi   _ { i } ] ) }
+{ \displaystyle   g ' _ { i } ( \Phi   _ { i } ) = { \frac   { g _ { i } ( \Phi   _ { i } ) } { g _ { i } ( \Phi   _ { i } \cap   \Theta   , { \bar   { \theta   } } [ \Phi   _ { i } ] ) } } }
+i   =   1 ,   2 ,   \dots ,   n
+{ \displaystyle   \Pr ( U ) = f ' ( \Theta   ) \prod   _ { i = 1 } ^ { n } g ' _ { i } ( \Phi   _ { i } ) = \prod   _ { j = 1 } ^ { m } h _ { j } ( \Psi   _ { j } ) }
+{ \displaystyle   \Pr ( \Theta   , { \bar   { \theta   } } ) = f ' ( \Theta   ) \prod   _ { i = 1 } ^ { n } g ' _ { i } ( \Phi   _ { i } \cap   \Theta   , { \bar   { \theta   } } [ \Phi   _ { i } ] ) = \prod   _ { j = 1 } ^ { m } h _ { j } ( \Psi   _ { j } \cap   \Theta   , { \bar   { \theta   } } [ \Psi   _ { j } ] ) }
+{ \displaystyle   g ' _ { i } ( \Phi   _ { i } \cap   \Theta   , { \bar   { \theta   } } [ \Phi   _ { i } ] ) = 1 }
+{ \displaystyle   f ' ( \Theta   ) = \prod   _ { j = 1 } ^ { m } h _ { j } ( \Psi   _ { j } \cap   \Theta   , { \bar   { \theta   } } [ \Psi   _ { j } ] ) }
+{ \displaystyle   h ' _ { j } ( \Theta   \cap   \Psi   _ { j } ) = h _ { j } ( \Psi   _ { j } \cap   \Theta   , { \bar   { \theta   } } [ \Psi   _ { j } ] ) }
+{ \displaystyle   \Pr ( U ) = { \bigg   ( } \prod   _ { j = 1 } ^ { m } h ' _ { j } ( \Theta   \cap   \Psi   _ { j } ) { \bigg   ) } { \bigg   ( } \prod   _ { i = 1 } ^ { n } g ' _ { i } ( \Phi   _ { i } ) { \bigg   ) } }
+x _ { 1 }
+x _ { 2 }
+x _ { 3 }
+{ \displaystyle   \{ x _ { 1 } \}\cup   \partial   x _ { 1 } }
+{ \displaystyle   \{ x _ { 2 } \}\cup   \partial   x _ { 2 } }
+{ \displaystyle   \{ x _ { 3 } \}\cup   \partial   x _ { 3 } }
+{ \displaystyle   \Pr ( U ) }
+x \in   U
+f _ { x }
+{ \displaystyle   f _ { - x } }
+{ \displaystyle   \Pr ( U ) = f _ { x } ( x , \partial   x ) f _ { - x } ( U \setminus   \{ x \ } ) }
+{ \displaystyle   \partial   x }
+x
+{ \displaystyle   \Pr ( U ) }

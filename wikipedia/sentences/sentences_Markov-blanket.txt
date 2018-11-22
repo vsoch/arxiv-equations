@@ -1,0 +1,10 @@
+A
+\partial   A
+A
+{ \displaystyle   \operatorname   { M B }   ( A ) }
+A
+\partial   A
+A
+A
+B
+\Pr ( A \mid   \partial   A , B ) = \Pr ( A \mid   \partial   A ) . \ !

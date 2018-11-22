@@ -1,0 +1,7 @@
+H _ { 0 } : \sigma   _ { { { \text { T x   A } } - { \text { T x   B } } } } ^ { 2 } = \sigma   _ { { { \text { T x   A } } - { \text { T x   C } } } } ^ { 2 } = \sigma   _ { { { \text { T x   B } } - { \text { T x   C } } } } ^ { 2 }
+H _ { 1 } : \sigma   _ { { { \text { T x   A } } - { \text { T x   B } } } } ^ { 2 } \neq   \sigma   _ { { { \text { T x   A } } - { \text { T x   C } } } } ^ { 2 } \neq   \sigma   _ { { { \text { T x   B } } - { \text { T x   C } } } } ^ { 2 }
+\alpha  
+\alpha  
+\alpha  
+\alpha  
+\alpha  

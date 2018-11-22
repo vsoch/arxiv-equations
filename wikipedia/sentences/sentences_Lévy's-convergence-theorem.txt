@@ -1,0 +1,13 @@
+\scriptstyle   \{ X _ n \}_ { n = 1 } ^ \infty
+\scriptstyle   \{ \varphi_n \}_ { n = 1 } ^ \infty
+\varphi_n ( t )   =   \operatorname { E } \, e ^ { i t X _ n }   \quad   \forall   t \in \mathbb { R } , \ \forall   n \in \mathbb { N } ,
+\operatorname   { E }  
+\varphi  
+\varphi_n ( t ) \to \varphi ( t )   \quad   \forall   t \in \mathbb { R } ,
+X _ { n }
+X _ n \ \xrightarrow { \mathcal   D } \ X ,
+\scriptstyle   \{ X _ n \}_ { n = 1 } ^ \infty
+\lim_ { x \to \infty } \left (   \sup_n   \operatorname { P } \big [ \, |X_n | > x   \,\big ] \right )   =   0 ;
+\varphi   ( t )
+\varphi   ( t )
+\varphi   ( t )

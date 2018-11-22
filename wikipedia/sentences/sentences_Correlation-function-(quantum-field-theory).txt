@@ -1,0 +1,3 @@
+n
+{ \displaystyle   C _ { n } ( x _ { 1 } , x _ { 2 } , \ldots   , x _ { n } ) : = \left \langle   \phi   ( x _ { 1 } ) \phi   ( x _ { 2 } ) \ldots   \phi   ( x _ { n } ) \right \rangle   = { \frac   { \int   { \mathcal   { D } } \phi   \;e ^ { - S [ \phi   ] } \phi   ( x _ { 1 } ) \ldots   \phi   ( x _ { n } ) } { \int   { \mathcal   { D } } \phi   \;e ^ { - S [ \phi   ] } } } }
+T

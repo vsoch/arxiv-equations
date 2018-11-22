@@ -1,0 +1,30 @@
+{ \displaystyle   { \begin { a l i g n e d } M _ { \text { l m } } ( x , y ) & = \lim   _ { ( \xi   , \eta   ) \to   ( x , y ) } { \frac   { \eta   - \xi   } { \ln ( \eta   ) - \ln ( \xi   ) } } \\[6pt ] & = { \begin { c a s e s } 0 & { \text { i f   } } x = 0 { \text {   o r   } } y = 0 , \\x & { \text { i f   } } x = y , \\{ \frac   { y - x } { \ln ( y ) - \ln ( x ) } } & { \text { o t h e r w i s e , } } \end { c a s e s } } \end { a l i g n e d } } }
+x , y
+{ \displaystyle   { \sqrt   { x y } } \leq   M _ { \text { l m } } ( x , y ) \leq   { \frac   { x + y } { 2 } } \qquad   { \text {   f o r   a l l   } } x \geq   0 { \text {   a n d   } } y \geq   0 . }
+{ \displaystyle   \exists   \xi   \in   ( x , y ) : \ f ' ( \xi   ) = { \frac   { f ( x ) - f ( y ) } { x - y } } }
+\xi  
+\ln  
+f
+{ \displaystyle   { \frac   { 1 } { \xi   } } = { \frac   { \ln ( x ) - \ln ( y ) } { x - y } } }
+\xi  
+{ \displaystyle   \xi   = { \frac   { x - y } { \ln ( x ) - \ln ( y ) } } }
+{ \displaystyle   { \begin { a l i g n e d } L ( x , y ) = { } & \int   _ { 0 } ^ { 1 } x ^ { 1 - t } y ^ { t } \ \mathrm   { d }   t = { } \int   _ { 0 } ^ { 1 } \left ( { \frac   { y } { x } } \right ) ^ { t } x \ \mathrm   { d }   t = { } x \int   _ { 0 } ^ { 1 } \left ( { \frac   { y } { x } } \right ) ^ { t } \mathrm   { d }   t \\[3pt ] = { } & \left . { \frac   { x } { \ln   \left ( { \frac   { y } { x } } \right ) } } \left ( { \frac   { y } { x } } \right ) ^ { t } \right | _ { t = 0 } ^ { 1 } = { } { \frac   { x } { \ln   \left ( { \frac   { y } { x } } \right ) } } \left ( { \frac   { y } { x } } - 1 \right ) = { } { \frac   { y - x } { \ln   \left ( { \frac   { y } { x } } \right ) } } \\[3pt ] = { } & { \frac   { y - x } { \ln   \left ( y \right ) - \ln   \left ( x \right ) } } \end { a l i g n e d } } }
+x
+y
+{ \displaystyle   L ( c x , c y ) = c L ( x , y ) }
+{ \displaystyle   { 1   \over   L ( x , y ) } = \int   _ { 0 } ^ { 1 } { \operatorname   { d }   \!t   \over   t x + ( 1 - t ) y } }
+{ \displaystyle   { 1   \over   L ( x , y ) } = \int   _ { 0 } ^ { \infty   } { \operatorname   { d }   \!t   \over   ( t + x ) \,( t + y ) } . }
+n + 1
+n
+{ \displaystyle   L _ { \text { M V } } ( x _ { 0 } , \,\dots   , \,x_ { n } ) = { \sqrt [ { - n } ] { ( - 1 ) ^ { ( n + 1 ) } n \ln   \left ( \left [ x _ { 0 } , \,\dots   , \,x_ { n } \right ] \right ) } } }
+{ \displaystyle   \ln   \left ( \left [ x _ { 0 } , \,\dots   , \,x_ { n } \right ] \right ) }
+n = 2
+{ \displaystyle   L _ { \text { M V } } ( x , y , z ) = { \sqrt   { \frac   { ( x - y ) \left ( y - z \right ) \left ( z - x \right ) } { 2 \left ( \left ( y - z \right ) \ln   \left ( x \right ) + \left ( z - x \right ) \ln   \left ( y \right ) + \left ( x - y \right ) \ln   \left ( z \right ) \right ) } } } }
+{ \textstyle   S }
+{ \textstyle   S = \{ \left ( \alpha   _ { 0 } , \,\dots   , \,\alpha   _ { n } \right ) : \left ( \alpha   _ { 0 } + \dots   + \alpha   _ { n } = 1 \right ) \land   \left ( \alpha   _ { 0 } \geq   0 \right ) \land   \dots   \land   \left ( \alpha   _ { n } \geq   0 \right ) \ } }
+{ \textstyle   \mathrm   { d }   \alpha   }
+{ \displaystyle   L _ { \text { I } } \left ( x _ { 0 } , \,\dots   , \,x_ { n } \right ) = \int   _ { S } x _ { 0 } ^ { \alpha   _ { 0 } } \cdot   \,\cdots   \,\cdot   x _ { n } ^ { \alpha   _ { n } } \ \mathrm   { d }   \alpha   }
+{ \displaystyle   L _ { \text { I } } \left ( x _ { 0 } , \,\dots   , \,x_ { n } \right ) = n ! \exp   \left [ \ln   \left ( x _ { 0 } \right ) , \,\dots   , \,\ln   \left ( x _ { n } \right ) \right ] }
+{ \textstyle   n = 2 }
+{ \displaystyle   L _ { \text { I } } ( x , y , z ) = - 2 { \frac   { x \left ( \ln   \left ( y \right ) - \ln   \left ( z \right ) \right ) + y \left ( \ln   \left ( z \right ) - \ln   \left ( x \right ) \right ) + z \left ( \ln   \left ( x \right ) - \ln   \left ( y \right ) \right ) } { \left ( \ln   \left ( x \right ) - \ln   \left ( y \right ) \right ) \left ( \ln   \left ( y \right ) - \ln   \left ( z \right ) \right ) \left ( \ln   \left ( z \right ) - \ln   \left ( x \right ) \right ) } } }
+{ \displaystyle   { \frac   { L \left ( x ^ { 2 } , y ^ { 2 } \right ) } { L ( x , y ) } } = { \frac   { x + y } { 2 } } }

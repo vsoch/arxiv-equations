@@ -1,0 +1,10 @@
+\{ y _ { i } , \,x_ { i 1 } , \ldots   , x _ { i p } \}_ { i = 1 } ^ { n }
+\{ x _ { { i 1 } } , \ldots   , x _ { { i p } } \}_ { { i = 1 } } ^ { n }
+y _ { i }
+E [ y _ { i } | x _ { { i 1 } } , \ldots   , x _ { { i p } } ] = \beta   _ { 0 } + \sum   _ { { j = 1 } } ^ { p } f _ { j } ( x _ { { i j } } )
+Y = \beta   _ { 0 } + \sum   _ { { j = 1 } } ^ { p } f _ { j } ( X _ { { j } } ) + \varepsilon  
+E [ \epsilon   ] = 0
+V a r ( \epsilon   ) = \sigma   ^ { 2 }
+E [ f _ { j } ( X _ { { j } } ) ] = 0
+f _ { j } ( x _ { { i j } } )
+f _ { j } ( x _ { { i j } } )

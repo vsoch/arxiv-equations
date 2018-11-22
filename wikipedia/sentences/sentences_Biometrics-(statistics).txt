@@ -1,0 +1,6 @@
+{ \displaystyle   N = f _ { 1 } + f _ { 2 } + f _ { 3 } + . . . + f _ { n } }
+{ \displaystyle   n _ { i } = { \frac   { f _ { i } } { N } } }
+{ \displaystyle   G e n e s = 2 , 3 , 3 , 4 , 5 , 3 , 3 , 3 , 3 , 4 }
+{ \displaystyle   { x _ { 1 } + x _ { 2 } + x _ { 3 } + \cdots   + x _ { n } } }
+{ n }
+{ \displaystyle   { \bar   { x } } = { \frac   { 1 } { n } } \left ( \sum   _ { i = 1 } ^ { n } { x _ { i } } \right ) = { \frac   { x _ { 1 } + x _ { 2 } + \cdots   + x _ { n } } { n } } }

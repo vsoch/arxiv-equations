@@ -1,0 +1,5 @@
+p _ { { i _ { 1 } , i _ { 2 } , \ldots   , i _ { N } } } \approx   \sum   _ { t } ^ { T } p _ { t } \,\prod   _ { n } ^ { N } p _ { { i _ { n } , t } } ^ { n } ,
+T
+p _ { t }
+p _ { { i _ { n } , t } } ^ { n }
+p _ { { i j } } \approx   \sum   _ { t } ^ { T } p _ { t } \,p_ { { i t } } \,p_ { { j t } } .

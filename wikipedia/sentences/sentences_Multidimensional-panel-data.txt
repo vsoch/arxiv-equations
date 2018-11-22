@@ -1,0 +1,2 @@
+{ \displaystyle   X _ { i s t h } , \;i = 1 , \dots   , N , \;s = 1 , \dots   , S , \;t = 1 , \dots   , T , \;h = 1 , \dots   , H , \ , }
+{ \displaystyle   y _ { i s t h } = \alpha   + X _ { s i t h } \beta   + u _ { s i t h } . \ , }

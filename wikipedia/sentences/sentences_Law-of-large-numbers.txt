@@ -1,0 +1,48 @@
+{ \displaystyle   { \frac   { 1 + 2 + 3 + 4 + 5 + 6 } { 6 } } = 3 . 5 }
+{ \overline   { X } } _ { n } = { \frac   { 1 } { n } } ( X _ { 1 } + \cdots   + X _ { n } )
+{ \displaystyle   { \begin { m a t r i x } { } \\{ \overline   { X } } _ { n } \,\to   \,\mu   \qquad   { \textrm   { f o r } } \qquad   n \to   \infty   , \\{ } \end { m a t r i x } } }
+{ \displaystyle   { \begin { m a t r i x } { } \\{ \overline   { X } } _ { n } \ { \xrightarrow   { P } } \ \mu   \qquad   { \textrm   { w h e n } } \ n \to   \infty   . \\{ } \end { m a t r i x } } }
+\lim   _ { n \to   \infty   } \Pr   \!\left ( \,|{ \overline   { X } } _ { n } - \mu   | > \varepsilon   \,\right ) = 0 .
+{ \displaystyle   2 n / \log ( n + 1 ) . }
+{ \displaystyle   n ^ { 2 } / \log   n }
+{ \displaystyle   1 / \log   n }
+{ \displaystyle   { \begin { m a t r i x } { } \\{ \bar   { X } } _ { n } \ { \xrightarrow   { \text { a . s . } } } \ \mu   \qquad   { \textrm   { w h e n } } \ n \to   \infty   . \\{ } \end { m a t r i x } } }
+{ \displaystyle   \Pr   \!\left ( \lim   _ { n \to   \infty   } { \bar   { X } } _ { n } = \mu   \right ) = 1 . }
+{ \displaystyle   { \bar   { X } } _ { n } - \operatorname   { E }   { \big   [ } { \bar   { X } } _ { n } { \big   ] } \ { \xrightarrow   { \text { a . s . } } } \ 0 , }
+\sum   _ { k = 1 } ^ { \infty   } { \frac   { 1 } { k ^ { 2 } } } \operatorname   { V a r }   [ X _ { k } ] < \infty   .
+{ \displaystyle   { \sqrt   { k / \log   \log   \log   k } } }
+{ \displaystyle   k / \log   \log   \log   k . }
+{ \displaystyle   \log   n / \log   \log   \log   n }
+{ \displaystyle   { \sqrt   { k / \log   \log   \log   k } } , }
+{ \displaystyle   1 / { \sqrt   { 2 \log   \log   \log   n } } }
+{ \overline   { X } } _ { n }
+| { \overline   { X } } _ { n } - \mu   | > \varepsilon  
+{ \displaystyle   | { \overline   { X } } _ { n } - \mu   | \neq   0 }
+| { \overline   { X } } _ { n } - \mu   | < \varepsilon  
+{ \displaystyle   \sin ( X ) e ^ { X } X ^ { - 1 } }
+{ \displaystyle   E \left ( { \frac   { \sin ( X ) e ^ { X } } { X } } \right ) = \ \int   _ { 0 } ^ { \infty   } { \frac   { \sin ( x ) e ^ { x } } { x } } e ^ { - x } d x = { \frac   { \pi   } { 2 } } }
+{ \displaystyle   2 ^ { X } ( - 1 ) ^ { X } X ^ { - 1 } }
+{ \displaystyle   E \left ( { \frac   { 2 ^ { X } ( - 1 ) ^ { X } } { X } } \right ) = \ \sum   _ { 1 } ^ { \infty   } { \frac   { 2 ^ { x } ( - 1 ) ^ { x } } { x } } 2 ^ { - x } = - \ln ( 2 ) }
+1 - F ( x ) = { \frac   { e } { 2 x \ln ( x ) } } , x \geq   e
+F ( x ) = { \frac   { e } { - 2 x \ln ( - x ) } } , x \leq   - e
+\left \|f ( x , \theta   ) \right \|\leq   d ( x ) \quad   { \text { f o r   a l l } } \ \theta   \in   \Theta   .
+\sup   _ { \theta   \in   \Theta   } \left \|{ \frac   { 1 } { n } } \sum   _ { i = 1 } ^ { n } f ( X _ { i } , \theta   ) - \operatorname   { E }   [ f ( X , \theta   ) ] \right \|{ \xrightarrow   { \mathrm   { a . s . }   } } \ 0 .
+{ \displaystyle   { \frac   { N _ { n } ( E ) } { n } } \to   p { \text {   a s   } } n \to   \infty   . }
+\Pr ( | X - \mu   | \geq   k \sigma   ) \leq   { \frac   { 1 } { k ^ { 2 } } } .
+{ \overline   { X } } _ { n } = { \tfrac   { 1 } { n } } ( X _ { 1 } + \cdots   + X _ { n } ) .
+{ \displaystyle   { \begin { m a t r i x } { } \\{ \overline   { X } } _ { n } \ { \xrightarrow   { P } } \ \mu   \qquad   { \textrm   { w h e n } } \ n \to   \infty   . \\{ } \end { m a t r i x } } }
+\operatorname   { V a r }   ( X _ { i } ) = \sigma   ^ { 2 }
+i
+\operatorname   { V a r }   ( { \overline   { X } } _ { n } ) = \operatorname   { V a r }   ( { \tfrac   { 1 } { n } } ( X _ { 1 } + \cdots   + X _ { n } ) ) = { \frac   { 1 } { n ^ { 2 } } } \operatorname   { V a r }   ( X _ { 1 } + \cdots   + X _ { n } ) = { \frac   { n \sigma   ^ { 2 } } { n ^ { 2 } } } = { \frac   { \sigma   ^ { 2 } } { n } } .
+E ( { \overline   { X } } _ { n } ) = \mu   .
+{ \overline   { X } } _ { n }
+\operatorname   { P }   ( \left | { \overline   { X } } _ { n } - \mu   \right | \geq   \varepsilon   ) \leq   { \frac   { \sigma   ^ { 2 } } { n \varepsilon   ^ { 2 } } } .
+\operatorname   { P }   ( \left | { \overline   { X } } _ { n } - \mu   \right | < \varepsilon   ) = 1 - \operatorname   { P }   ( \left | { \overline   { X } } _ { n } - \mu   \right | \geq   \varepsilon   ) \geq   1 - { \frac   { \sigma   ^ { 2 } } { n \varepsilon   ^ { 2 } } } .
+{ \displaystyle   { \begin { m a t r i x } { } \\{ \overline   { X } } _ { n } \ { \xrightarrow   { P } } \ \mu   \qquad   { \textrm   { w h e n } } \ n \to   \infty   . \\{ } \end { m a t r i x } } }
+\varphi   _ { X } ( t ) = 1 + i t \mu   + o ( t ) , \quad   t \rightarrow   0 .
+\varphi   _ { { \frac   { 1 } { n } } X } ( t ) = \varphi   _ { X } ( { \tfrac   { t } { n } } ) \quad   { \text { a n d } } \quad   \varphi   _ { X + Y } ( t ) = \varphi   _ { X } ( t ) \varphi   _ { Y } ( t ) \quad  
+\scriptstyle   { \overline   { X } } _ { n }
+\varphi   _ { { \overline   { X } } _ { n } } ( t ) = \left [ \varphi   _ { X } \left ( { t   \over   n } \right ) \right ] ^ { n } = \left [ 1 + i \mu   { t   \over   n } + o \left ( { t   \over   n } \right ) \right ] ^ { n } \,\rightarrow   \,e ^ { i t \mu   } , \quad   { \text { a s } } \quad   n \rightarrow   \infty   .
+\scriptstyle   { \overline   { X } } _ { n }
+{ \overline   { X } } _ { n } \,{ \xrightarrow   { \mathcal   { D } } } \,\mu   \qquad   { \text { f o r } } \qquad   n \to   \infty   .
+{ \displaystyle   { \begin { m a t r i x } { } \\{ \overline   { X } } _ { n } \ { \xrightarrow   { P } } \ \mu   \qquad   { \textrm   { w h e n } } \ n \to   \infty   . \\{ } \end { m a t r i x } } }

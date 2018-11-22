@@ -1,0 +1,73 @@
+S _ { n } : = { \frac   { X _ { 1 } + \cdots   + X _ { n } } { n } }
+{ \displaystyle   { \sqrt   { n } } \left ( S _ { n } - \mu   \right ) \ { \xrightarrow   { d } } \ N \left ( 0 , \sigma   ^ { 2 } \right ) . }
+{ \displaystyle   \lim   _ { n \to   \infty   } \Pr   \left [ { \sqrt   { n } } ( S _ { n } - \mu   ) \leq   z \right ] = \Phi   \left ( { \frac   { z } { \sigma   } } \right ) , }
+{ \displaystyle   \lim   _ { n \to   \infty   } \sup   _ { z \in   \mathbb   { R }   } \left | \Pr   \left [ { \sqrt   { n } } ( S _ { n } - \mu   ) \leq   z \right ] - \Phi   \left ( { \frac   { z } { \sigma   } } \right ) \right | = 0 , }
+s _ { n } ^ { 2 } = \sum   _ { i = 1 } ^ { n } \sigma   _ { i } ^ { 2 }
+{ \displaystyle   \lim   _ { n \to   \infty   } { \frac   { 1 } { s _ { n } ^ { 2 + \delta   } } } \sum   _ { i = 1 } ^ { n } \operatorname   { E }   \left [ | X _ { i } - \mu   _ { i } | ^ { 2 + \delta   } \right ] = 0 }
+{ \displaystyle   { \frac   { 1 } { s _ { n } } } \sum   _ { i = 1 } ^ { n } \left ( X _ { i } - \mu   _ { i } \right ) \ { \xrightarrow   { d } } \ N ( 0 , 1 ) . }
+{ \displaystyle   \lim   _ { n \to   \infty   } { \frac   { 1 } { s _ { n } ^ { 2 } } } \sum   _ { i = 1 } ^ { n } \operatorname   { E }   \left [ ( X _ { i } - \mu   _ { i } ) ^ { 2 } \cdot   \mathbf   { 1 }   _ { \{ | X _ { i } - \mu   _ { i } | > \varepsilon   s _ { n } \}}\right ] = 0 }
+{ \frac   { 1 } { s _ { n } } } \sum   _ { i = 1 } ^ { n } \left ( X _ { i } - \mu   _ { i } \right )
+{ \displaystyle   \mathbf   { X }   _ { i } = { \begin { b m a t r i x } X _ { i ( 1 ) } \\\vdots   \\X_ { i ( k ) } \end { b m a t r i x } } }
+{ \displaystyle   { \begin { b m a t r i x } X _ { 1 ( 1 ) } \\\vdots   \\X_ { 1 ( k ) } \end { b m a t r i x } } + { \begin { b m a t r i x } X _ { 2 ( 1 ) } \\\vdots   \\X_ { 2 ( k ) } \end { b m a t r i x } } + \cdots   + { \begin { b m a t r i x } X _ { n ( 1 ) } \\\vdots   \\X_ { n ( k ) } \end { b m a t r i x } } = { \begin { b m a t r i x } \sum   _ { i = 1 } ^ { n } \left [ X _ { i ( 1 ) } \right ] \\\vdots   \\\sum   _ { i = 1 } ^ { n } \left [ X _ { i ( k ) } \right ] \end { b m a t r i x } } = \sum   _ { i = 1 } ^ { n } \mathbf   { X }   _ { i } }
+{ \displaystyle   { \frac   { 1 } { n } } \sum   _ { i = 1 } ^ { n } \mathbf   { X }   _ { i } = { \frac   { 1 } { n } } { \begin { b m a t r i x } \sum   _ { i = 1 } ^ { n } X _ { i ( 1 ) } \\\vdots   \\\sum   _ { i = 1 } ^ { n } X _ { i ( k ) } \end { b m a t r i x } } = { \begin { b m a t r i x } { \bar   { X } } _ { i ( 1 ) } \\\vdots   \\{ \bar   { X } } _ { i ( k ) } \end { b m a t r i x } } = \mathbf   { { \bar   { X } } _ { n } }   }
+{ \displaystyle   { \frac   { 1 } { \sqrt   { n } } } \sum   _ { i = 1 } ^ { n } \left [ \mathbf   { X }   _ { i } - \operatorname   { E }   \left ( X _ { i } \right ) \right ] = { \frac   { 1 } { \sqrt   { n } } } \sum   _ { i = 1 } ^ { n } ( \mathbf   { X }   _ { i } - { \boldsymbol   { \mu   } } ) = { \sqrt   { n } } \left ( { \overline   { \mathbf   { X }   } } _ { n } - { \boldsymbol   { \mu   } } \right ) . }
+{ \displaystyle   { \sqrt   { n } } \left ( { \overline   { \mathbf   { X }   } } _ { n } - { \boldsymbol   { \mu   } } \right ) \ { \stackrel   { D } { \rightarrow   } } \ N_ { k } ( 0 , { \boldsymbol   { \Sigma   } } ) }
+{ \displaystyle   { \boldsymbol   { \Sigma   } } = { \begin { b m a t r i x } { \operatorname   { V a r }   \left ( X _ { 1 ( 1 ) } \right ) } & \operatorname   { C o v }   \left ( X _ { 1 ( 1 ) } , X _ { 1 ( 2 ) } \right ) & \operatorname   { C o v }   \left ( X _ { 1 ( 1 ) } , X _ { 1 ( 3 ) } \right ) & \cdots   & \operatorname   { C o v }   \left ( X _ { 1 ( 1 ) } , X _ { 1 ( k ) } \right ) \\\operatorname   { C o v }   \left ( X _ { 1 ( 2 ) } , X _ { 1 ( 1 ) } \right ) & \operatorname   { V a r }   \left ( X _ { 1 ( 2 ) } \right ) & \operatorname   { C o v }   \left ( X _ { 1 ( 2 ) } , X _ { 1 ( 3 ) } \right ) & \cdots   & \operatorname   { C o v }   \left ( X _ { 1 ( 2 ) } , X _ { 1 ( k ) } \right ) \\\operatorname   { C o v }   \left ( X _ { 1 ( 3 ) } , X _ { 1 ( 1 ) } \right ) & \operatorname   { C o v }   \left ( X _ { 1 ( 3 ) } , X _ { 1 ( 2 ) } \right ) & \operatorname   { V a r }   \left ( X _ { 1 ( 3 ) } \right ) & \cdots   & \operatorname   { C o v }   \left ( X _ { 1 ( 3 ) } , X _ { 1 ( k ) } \right ) \\\vdots   & \vdots   & \vdots   & \ddots   & \vdots   \\\operatorname   { C o v }   \left ( X _ { 1 ( k ) } , X _ { 1 ( 1 ) } \right ) & \operatorname   { C o v }   \left ( X _ { 1 ( k ) } , X _ { 1 ( 2 ) } \right ) & \operatorname   { C o v }   \left ( X _ { 1 ( k ) } , X _ { 1 ( 3 ) } \right ) & \cdots   & \operatorname   { V a r }   \left ( X _ { 1 ( k ) } \right ) \\\end { b m a t r i x } } . }
+X _ { 1 } , \dots   , X _ { n }
+R ^ { d }
+{ \displaystyle   S = \sum   _ { i = 1 } ^ { n } X _ { i } }
+{ \displaystyle   \Sigma   = \operatorname   { C o v }   [ S ] }
+{ \displaystyle   Z \sim   N ( 0 , \Sigma   ) }
+d
+S
+{ \displaystyle   U \subseteq   R ^ { d } }
+{ \displaystyle   | \Pr [ S \in   U ] - \Pr [ Z \in   U ] | \leq   C d ^ { 1 / 4 } \gamma   , }
+C
+{ \displaystyle   \gamma   = \sum   _ { i = 1 } ^ { n } \operatorname   { E }   [ \|\Sigma   ^ { - 1 / 2 } X _ { i } \|_ { 2 } ^ { 3 } ] }
+\|\cdot   \|_ { 2 }
+R ^ { d }
+{ \displaystyle   d ^ { 1 / 4 } }
+{ \displaystyle   \sigma   ^ { 2 } = \lim   _ { n } { \frac   { \operatorname   { E }   \left ( S _ { n } ^ { 2 } \right ) } { n } } }
+{ \displaystyle   \sigma   ^ { 2 } = \operatorname   { E }   \left ( X _ { 1 } ^ { 2 } \right ) + 2 \sum   _ { k = 1 } ^ { \infty   } \operatorname   { E }   \left ( X _ { 1 } X _ { 1 + k } \right ) , }
+\sum   _ { n } \alpha   _ { n } ^ { \frac   { \delta   } { 2 ( 2 + \delta   ) } } < \infty   .
+{ \displaystyle   { \frac   { 1 } { n } } \sum   _ { k = 1 } ^ { n } \operatorname   { E }   \left ( \left ( M _ { k } - M _ { k - 1 } \right ) ^ { 2 } | M _ { 1 } , \dots   , M _ { k - 1 } \right ) \to   1 }
+{ \displaystyle   { \frac   { 1 } { n } } \sum   _ { k = 1 } ^ { n } \operatorname   { E }   \left ( \left ( M _ { k } - M _ { k - 1 } \right ) ^ { 2 } ; | M _ { k } - M _ { k - 1 } | > \varepsilon   { \sqrt   { n } } \right ) \to   0 }
+{ \displaystyle   Z _ { n } \ =\ { \frac   { X _ { 1 } + \cdots   + X _ { n } - n \mu   } { \sqrt   { n \sigma   ^ { 2 } } } } \ =\ \sum   _ { i = 1 } ^ { n } { \frac   { X _ { i } - \mu   } { \sqrt   { n \sigma   ^ { 2 } } } } \ =\ \sum   _ { i = 1 } ^ { n } { \frac   { 1 } { \sqrt   { n } } } Y _ { i } , }
+{ \displaystyle   \varphi   _ { Z _ { n } } \!( t ) \ =\ \varphi   _ { \sum   _ { i = 1 } ^ { n } { { \frac   { 1 } { \sqrt   { n } } } Y _ { i } } } \!( t ) \ =\ \varphi   _ { Y _ { 1 } } \!\!\left ( { \frac   { t } { \sqrt   { n } } } \right ) \varphi   _ { Y _ { 2 } } \!\!\left ( { \frac   { t } { \sqrt   { n } } } \right ) \cdots   \varphi   _ { Y _ { n } } \!\!\left ( { \frac   { t } { \sqrt   { n } } } \right ) \ =\ \left [ \varphi   _ { Y _ { 1 } } \!\!\left ( { \frac   { t } { \sqrt   { n } } } \right ) \right ] ^ { n } , }
+{ \displaystyle   \varphi   _ { Y _ { 1 } } \!\!\left ( { \frac   { t } { \sqrt   { n } } } \right ) \ =\ 1 - { \frac   { t ^ { 2 } } { 2 n } } + o \!\!\left ( { \frac   { t ^ { 2 } } { n } } \right ) , \quad   { \bigg   ( } { \frac   { t } { \sqrt   { n } } } { \bigg   ) } \rightarrow   0 }
+{ \displaystyle   \varphi   _ { Z _ { n } } ( t ) = \left ( 1 - { \frac   { t ^ { 2 } } { 2 n } } + o \left ( { \frac   { t ^ { 2 } } { n } } \right ) \right ) ^ { n } \rightarrow   e ^ { - { \frac   { 1 } { 2 } } t ^ { 2 } } , \quad   n \rightarrow   \infty   . }
+{ \displaystyle   S _ { n } = { \frac   { X _ { 1 } + \cdots   + X _ { n } } { n } } }
+{ \displaystyle   f ( n ) = a _ { 1 } \varphi   _ { 1 } ( n ) + a _ { 2 } \varphi   _ { 2 } ( n ) + O { \big   ( } \varphi   _ { 3 } ( n ) { \big   ) } \qquad   ( n \rightarrow   \infty   ) . }
+\lim   _ { n \to   \infty   } { \frac   { f ( n ) } { \varphi   _ { 1 } ( n ) } } = a _ { 1 } .
+\lim   _ { n \to   \infty   } { \frac   { f ( n ) - a _ { 1 } \varphi   _ { 1 } ( n ) } { \varphi   _ { 2 } ( n ) } } = a _ { 2 } .
+{ \frac   { S _ { n } - n \mu   } { \sqrt   { n } } } \rightarrow   \xi   ,
+{ \displaystyle   S _ { n } \approx   \mu   n + \xi   { \sqrt   { n } } . }
+{ \frac   { S _ { n } - a _ { n } } { b _ { n } } } \rightarrow   \Xi   ,
+{ \displaystyle   S _ { n } \approx   a _ { n } + \Xi   b _ { n } . }
+X _ { 1 } , X _ { 2 } , \dots  
+{ \displaystyle   \mathbb   { E }   ( X _ { i } ) = 0 }
+i
+{ \displaystyle   g : [ 0 , 1 ] \rightarrow   \mathbb   { R }   }
+{ \displaystyle   S _ { n } = \sum   _ { i = 1 } ^ { n } g ( { \tfrac   { i } { n } } ) X _ { i } }
+{ \displaystyle   \sigma   ^ { 2 } = \mathbb   { E }   ( X _ { 1 } ^ { 2 } ) + 2 \sum   _ { i = 1 } ^ { \infty   } \mathbb   { E }   ( X _ { 1 } X _ { 1 + i } ) }
+{ \displaystyle   \sum   _ { i = 1 } ^ { \infty   } \mathbb   { E }   ( X _ { 1 } X _ { 1 + i } ) }
+{ \displaystyle   \left | \int   _ { 0 } ^ { 1 } g ( x ) g ' ( x ) \,dx \right | < \infty   }
+{ \displaystyle   0 < \int   _ { 0 } ^ { 1 } ( g ( x ) ) ^ { 2 } d x < \infty   }
+{ \displaystyle   \mathrm   { V a r }   ( S _ { n } ) / ( n \gamma   _ { n } ) \rightarrow   \sigma   ^ { 2 } }
+n \rightarrow   \infty  
+{ \displaystyle   \gamma   _ { n } = { \frac   { 1 } { n } } \sum   _ { i = 1 } ^ { n } ( g ( { \tfrac   { i } { n } } ) ) ^ { 2 } }
+\sigma   > 0
+{ \displaystyle   S _ { n } / { \sqrt   { \mathrm   { V a r }   ( S _ { n } ) } } }
+{ \displaystyle   { \mathcal   { N } } ( 0 , 1 ) }
+n \rightarrow   \infty  
+{ \displaystyle   S _ { n } / ( \sigma   { \sqrt   { n \gamma   _ { n } } } ) }
+{ \displaystyle   { \mathcal   { N } } ( 0 , 1 ) }
+n \rightarrow   \infty  
+{ \frac   { X _ { 1 } + \cdots   + X _ { n } } { \sqrt   { n } } }
+{ \displaystyle   \left | \mathbb   { P }   \left ( a \leq   { \frac   { X _ { 1 } + \cdots   + X _ { n } } { \sqrt   { n } } } \leq   b \right ) - { \frac   { 1 } { \sqrt   { 2 \pi   } } } \int   _ { a } ^ { b } \mathrm   { e }   ^ { - { \frac   { 1 } { 2 } } t ^ { 2 } } \,dt \right | \leq   { \frac   { C } { n } } }
+{ \displaystyle   \left | \mathbb   { P }   \left ( a \leq   c _ { 1 } X _ { 1 } + \cdots   + c _ { n } X _ { n } \leq   b \right ) - { \frac   { 1 } { \sqrt   { 2 \pi   } } } \int   _ { a } ^ { b } \mathrm   { e }   ^ { - { \frac   { 1 } { 2 } } t ^ { 2 } } \,dt \right | \leq   C \left ( c _ { 1 } ^ { 4 } + \dots   + c _ { n } ^ { 4 } \right ) . }
+{ \displaystyle   r _ { 1 } ^ { 2 } + r _ { 2 } ^ { 2 } + \cdots   = \infty   \quad   { \text {   a n d   } } \quad   { \frac   { r _ { k } ^ { 2 } } { r _ { 1 } ^ { 2 } + \cdots   + r _ { k } ^ { 2 } } } \to   0 , }
+{ \frac   { X _ { 1 } + \cdots   + X _ { k } } { \sqrt   { r _ { 1 } ^ { 2 } + \cdots   + r _ { k } ^ { 2 } } } }
+{ \frac   { X _ { n } - \mathrm   { E }   ( X _ { n } ) } { \sqrt   { \operatorname   { V a r }   ( X _ { n } ) } } }
+{ \displaystyle   { \frac   { X _ { n _ { 1 } } + \cdots   + X _ { n _ { k } } } { \sqrt   { k } } } }
+\mathbb   { R }   ^ { d }

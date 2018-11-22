@@ -1,0 +1,4 @@
+{ \displaystyle   R \cdot   U ( \$100 ) + ( 1 - R ) \cdot   U ( \$0 ) > B \cdot   U ( \$100 ) + ( 1 - B ) \cdot   U ( \$0 ) }
+{ \displaystyle   R [ U ( \$100 ) - U ( \$0 ) ] > B [ U ( \$100 ) - U ( \$0 ) ] \Longleftrightarrow   R > B \ ; }
+{ \displaystyle   B \cdot   U ( \$100 ) + Y \cdot   U ( \$100 ) + R \cdot   U ( \$0 ) > R \cdot   U ( \$100 ) + Y \cdot   U ( \$100 ) + B \cdot   U ( \$0 ) }
+{ \displaystyle   B [ U ( \$100 ) - U ( \$0 ) ] > R [ U ( \$100 ) - U ( \$0 ) ] \Longleftrightarrow   B > R \ ; }

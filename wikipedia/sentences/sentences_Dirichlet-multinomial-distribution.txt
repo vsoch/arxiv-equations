@@ -1,0 +1,136 @@
+n > 0
+{ \displaystyle   \alpha   _ { 1 } , \ldots   , \alpha   _ { K } > 0 }
+{ \displaystyle   x _ { i } \in   \{ 0 , \dots   , n \ } }
+{ \displaystyle   \Sigma   x _ { i } = n \ ! }
+{ \displaystyle   { \frac   { \left ( n ! \right ) \Gamma   \left ( \sum   \alpha   _ { k } \right ) } { \Gamma   \left ( n + \sum   \alpha   _ { k } \right ) } } \prod   _ { k = 1 } ^ { K } { \frac   { \Gamma   ( x _ { k } + \alpha   _ { k } ) } { \left ( x _ { k } ! \right ) \Gamma   ( \alpha   _ { k } ) } } }
+{ \displaystyle   E ( X _ { i } ) = n { \frac   { \alpha   _ { i } } { \sum   \alpha   _ { k } } } }
+{ \displaystyle   V a r ( X _ { i } ) = n { \frac   { \alpha   _ { i } } { \sum   \alpha   _ { k } } } \left ( 1 - { \frac   { \alpha   _ { i } } { \sum   \alpha   _ { k } } } \right ) \left ( { \frac   { n + \sum   \alpha   _ { k } } { 1 + \sum   \alpha   _ { k } } } \right ) }
+{ \displaystyle   \textstyle   { \mathrm   { C o v }   } ( X _ { i } , X _ { j } ) = - n { \frac   { \alpha   _ { i } \alpha   _ { j } } { ( \sum   \alpha   _ { k } ) ^ { 2 } } } \left ( { \frac   { n + \sum   \alpha   _ { k } } { 1 + \sum   \alpha   _ { k } } } \right ) ~ ~ ( i \neq   j ) }
+{ \displaystyle   E ( \prod   \limits   _ { k = 1 } ^ { K } { e } ^ { t _ { k } \cdot   x _ { k } } ) = { \frac   { \Gamma   ( n + 1 ) \Gamma   ( \sum   \alpha   _ { k } ) } { \Gamma   ( \sum   \alpha   _ { k } + n ) } } \cdot   D _ { n } ( { \boldsymbol   { \alpha   } } , ( e ^ { t _ { 1 } } , . . . , e ^ { t _ { K } } ) ) }
+{ \displaystyle   D _ { n } = { \frac   { 1 } { n } } \sum   \limits   _ { u = 1 } ^ { n } \left [ \left ( \sum   \limits   _ { k = 1 } ^ { K } \alpha   _ { k } \cdot   { e } ^ { t _ { k } \cdot   u } \right ) D _ { n - u } \right ] , D _ { 0 } = 1 }
+{ \displaystyle   E ( \prod   \limits   _ { k = 1 } ^ { K } { e } ^ { i t _ { k } \cdot   x _ { k } } ) = { \frac   { \Gamma   ( n + 1 ) \Gamma   ( \sum   \alpha   _ { k } ) } { \Gamma   ( \sum   \alpha   _ { k } + n ) } } \cdot   D _ { n } ( { \boldsymbol   { \alpha   } } , ( e ^ { i t _ { 1 } } , . . . , e ^ { i t _ { K } } ) ) }
+{ \displaystyle   D _ { n } = { \frac   { 1 } { n } } \sum   \limits   _ { u = 1 } ^ { n } \left [ \left ( \sum   \limits   _ { k = 1 } ^ { K } \alpha   _ { k } \cdot   { e } ^ { i t _ { k } \cdot   u } \right ) D _ { n - u } \right ] , D _ { 0 } = 1 }
+{ \displaystyle   E ( \prod   \limits   _ { k = 1 } ^ { K } { z _ { k } } ^ { x _ { k } } ) = { \frac   { \Gamma   ( n + 1 ) \Gamma   ( \sum   \alpha   _ { k } ) } { \Gamma   ( \sum   \alpha   _ { k } + n ) } } \cdot   D _ { n } ( { \boldsymbol   { \alpha   } } , \mathbf   { z }   ) }
+{ \displaystyle   D _ { n } = { \frac   { 1 } { n } } \sum   \limits   _ { u = 1 } ^ { n } \left [ \left ( \sum   \limits   _ { k = 1 } ^ { K } \alpha   _ { k } \cdot   { z _ { k } } ^ { u } \right ) D _ { n - u } \right ] , D _ { 0 } = 1 }
+{ \boldsymbol   { \alpha   } }
+{ \displaystyle   \mathbf   { x }   = ( x _ { 1 } , \dots   , x _ { K } ) }
+\Pr ( { \mathbf     { x } } \mid   { \boldsymbol     { \alpha   } } ) = \int   _ { { { \mathbf     { p } } } } \Pr ( { \mathbf     { x } } \mid   { \mathbf     { p } } ) \Pr ( { \mathbf     { p } } \mid   { \boldsymbol     { \alpha   } } ) { \textrm     { d } } { \mathbf     { p } }
+{ \displaystyle   \Pr ( \mathbf   { x }   \mid   { \boldsymbol   { \alpha   } } ) = { \frac   { \left ( n ! \right ) \Gamma   \left ( \alpha   _ { 0 } \right ) } { \Gamma   \left ( n + \alpha   _ { 0 } \right ) } } \prod   _ { k = 1 } ^ { K } { \frac   { \Gamma   ( x _ { k } + \alpha   _ { k } ) } { \left ( x _ { k } ! \right ) \Gamma   ( \alpha   _ { k } ) } } }
+\alpha   _ { 0 }
+{ \displaystyle   \alpha   _ { 0 } = \sum   \alpha   _ { k } }
+{ \displaystyle   \Pr ( \mathbf   { x }   \mid   { \boldsymbol   { \alpha   } } ) = { \frac   { n B \left ( \alpha   _ { 0 } , n \right ) } { \prod   _ { k : x _ { k } > 0 } x _ { k } B \left ( \alpha   _ { k } , x _ { k } \right ) } } . }
+K = 2
+\alpha_ { 0 }
+\alpha_ { 0 }
+\alpha_ { 0 }
+\alpha   _ { { i } }
+x
+{ \displaystyle   \alpha   _ { 0 } = \sum   \alpha   _ { k } }
+{ \displaystyle   p _ { i } = { \frac   { \alpha   _ { i } } { \sum   \alpha   _ { k } } } = { \frac   { \alpha   _ { i } } { \alpha   _ { 0 } } } }
+{ \displaystyle   \operatorname   { E }   ( X _ { i } ) = n p _ { i } = n { \frac   { \alpha   _ { i } } { \alpha   _ { 0 } } } . \ , }
+{ \displaystyle   \operatorname   { v a r }   ( X _ { i } ) = n p _ { i } ( 1 - p _ { i } ) \left ( { \frac   { n + \sum   \alpha   _ { k } } { 1 + \sum   \alpha   _ { k } } } \right ) = n { \frac   { \alpha   _ { i } } { \alpha   _ { 0 } } } \left ( 1 - { \frac   { \alpha   _ { i } } { \alpha   _ { 0 } } } \right ) \left ( { \frac   { n + \alpha   _ { 0 } } { 1 + \alpha   _ { 0 } } } \right ) . \ , }
+{ \displaystyle   \operatorname   { c o v }   ( X _ { i } , X _ { j } ) = - n p _ { i } p _ { j } \left ( { \frac   { n + \sum   \alpha   _ { k } } { 1 + \sum   \alpha   _ { k } } } \right ) = - n { \frac   { \alpha   _ { i } \alpha   _ { j } } { \alpha   _ { 0 } ^ { 2 } } } \left ( { \frac   { n + \alpha   _ { 0 } } { 1 + \alpha   _ { 0 } } } \right ) \ , }
+\rho ( X _ i , X _ i )   =   1 .
+{ \displaystyle   \rho   ( X _ { i } , X _ { j } ) = { \frac   { \operatorname   { c o v }   ( X _ { i } , X _ { j } ) } { \sqrt   { \operatorname   { v a r }   ( X _ { i } ) \operatorname   { v a r }   ( X _ { j } ) } } } = { \frac   { - p _ { i } p _ { j } ( { \frac   { n + \alpha   _ { 0 } } { 1 + \alpha   _ { 0 } } } ) } { \sqrt   { p _ { i } ( 1 - p _ { i } ) ( { \frac   { n + \alpha   _ { 0 } } { 1 + \alpha   _ { 0 } } } ) p _ { j } ( 1 - p _ { j } ) ( { \frac   { n + \alpha   _ { 0 } } { 1 + \alpha   _ { 0 } } } ) } } } = - { \sqrt   { \frac   { \alpha   _ { i } \alpha   _ { j } } { ( \alpha   _ { 0 } - \alpha   _ { i } ) ( \alpha   _ { 0 } - \alpha   _ { j } ) } } } . }
+\{ ( n _ 1 , \dots , n _ k ) \in   \mathbb { N } ^ { k } |   n _ 1 + \cdots + n _ k = n \ } . \ ,
+{ n + k - 1   \choose   k - 1 } .
+{ \displaystyle   \operatorname   { E }   ( \mathbf   { X }   ) = n \mathbf   { p }   , \ , }
+{ \displaystyle   \operatorname   { v a r }   ( \mathbf   { X }   ) = n \lbrace   \operatorname   { d i a g }   ( \mathbf   { p }   ) - \mathbf   { p }   \mathbf   { p }   ^ { \rm   { T } } \rbrace   \left ( { \frac   { n + \alpha   _ { 0 } } { 1 + \alpha   _ { 0 } } } \right ) , \ , }
+{ \displaystyle   \alpha   _ { 0 } = { \frac   { 1 - \rho   ^ { 2 } } { \rho   ^ { 2 } } } \ , }
+{ \displaystyle   \operatorname   { v a r }   ( \mathbf   { X }   ) = n \lbrace   \operatorname   { d i a g }   ( \mathbf   { p }   ) - \mathbf   { p }   \mathbf   { p }   ^ { \rm   { T } } \rbrace   ( 1 + \rho   ^ { 2 } ( n - 1 ) ) , \ , }
+{ \displaystyle   \rho   \ ! }
+{ \displaystyle   X = ( X _ { 1 } , \cdots   , X _ { K } ) \sim   \operatorname   { D M }   ( \alpha   _ { 1 } , \cdots   , \alpha   _ { K } ) }
+{ \displaystyle   X ' = ( X _ { 1 } , \cdots   , X _ { i } + X _ { j } , \cdots   , X _ { K } ) \sim   \operatorname   { D M }   \left ( \alpha   _ { 1 } , \cdots   , \alpha   _ { i } + \alpha   _ { j } , \cdots   , \alpha   _ { K } \right ) . }
+X _ { i }
+z _ { n }
+n = 1 \dots   N
+k
+k = 1 \dots   K
+n _ { k }
+\sum   _ { k } n _ { k } = N
+N
+z _ { 1 } , \dots   , z _ { N }
+{ \mathbf     { x } } = ( n _ { 1 } , \dots   , n _ { K } )
+{ \mathbf     { p } } = ( p _ { 1 } , p _ { 2 } , \dots   , p _ { K } ) ,
+p _ { k }
+k
+\mathbf   { p }  
+P ( { \mathbf     { x } } | { \mathbf     { p } } )
+\mathbf   { p }  
+{ \boldsymbol     \alpha   } = ( \alpha   _ { 1 } , \alpha   _ { 2 } , \ldots   , \alpha   _ { K } )
+\mathbf   { p }  
+{ \mathbb     { Z } } = z _ { 1 } , \dots   , z _ { N }
+\mathbf   { p }  
+\Pr ( { \mathbb     { Z } } \mid   { \boldsymbol     { \alpha   } } ) = \int   _ { { { \mathbf     { p } } } } \Pr ( { \mathbb     { Z } } \mid   { \mathbf     { p } } ) \Pr ( { \mathbf     { p } } \mid   { \boldsymbol     { \alpha   } } ) { \textrm     { d } } { \mathbf     { p } }
+\Pr ( { \mathbb     { Z } } \mid   { \boldsymbol     { \alpha   } } ) = { \frac     { \Gamma   \left ( A \right ) } { \Gamma   \left ( N + A \right ) } } \prod   _ { { k = 1 } } ^ { K } { \frac     { \Gamma   ( n _ { { k } } + \alpha   _ { { k } } ) } { \Gamma   ( \alpha   _ { { k } } ) } }
+\Gamma  
+A = \sum   _ { k } \alpha   _ { k } { \text {   a n d   } } N = \sum   _ { k } n _ { k } { \text { ,   a n d   w h e r e   } } n _ { k } = { \text { n u m b e r   o f   } } z _ { n } { \text { ' s   w i t h   t h e   v a l u e   } } k { \text { . } }
+z _ { 1 } , \dots   , z _ { N }
+n _ { k }
+z _ { n }
+{ \mathbb     { Z } } ^ { { ( - n ) } }
+\Pr ( z _ { n } = k \mid   { \mathbb     { Z } } ^ { { ( - n ) } } , { \boldsymbol     { \alpha   } } ) \propto   n _ { k } ^ { { ( - n ) } } + \alpha   _ { k }
+n _ { k } ^ { { ( - n ) } }
+k
+z _ { n }
+z _ { 1 } , \dots   , z _ { N }
+z _ { n }
+n _ { k } ^ { { ( - n ) } }
+n _ { j } = { \begin { c a s e s } n _ { j } ^ { { ( - n ) } } , & { \text { i f   } } j \not   = k \\n_ { j } ^ { { ( - n ) } } + 1 , & { \text { i f   } } j = k \end { c a s e s } }
+\Gamma   ( n + 1 ) = n \Gamma   ( n )
+  \begin { a l i g n }   &   \Pr ( z _ n = k \mid \mathbb { Z } ^ { ( - n ) } , \boldsymbol { \alpha } ) \\  \propto \ & \Pr ( z _ n = k , \mathbb { Z } ^ { ( - n ) } \mid \boldsymbol { \alpha } )   \\ =\ &\ \frac { \Gamma \left ( A \right ) } { \Gamma \left ( N + A \right ) } \prod_ { j = 1 } ^ K \frac { \Gamma ( n _ { j } + \alpha_ { j } ) } { \Gamma ( \alpha_ { j } ) }   \\ \propto \ & \prod_ { j = 1 } ^ K \Gamma ( n _ { j } + \alpha_ { j } )   \\ =\ & \Gamma ( n _ { k } + \alpha_ { k } ) \prod_ { j \not = k } \Gamma ( n _ { j } + \alpha_ { j } )   \\ =\ & \Gamma ( n _ k ^ { ( - n ) } + 1 + \alpha_ { k } ) \prod_ { j \not = k } \Gamma ( n _ j ^ { ( - n ) } + \alpha_ { j } )   \\ =\ & ( n _ k ^ { ( - n ) } + \alpha_ { k } )   \Gamma ( n _ k ^ { ( - n ) } + \alpha_ { k } ) \prod_ { j \not = k } \Gamma ( n _ j ^ { ( - n ) } + \alpha_ { j } )   \\ =\ & ( n _ k ^ { ( - n ) } + \alpha_ { k } )   \prod_ { j } \Gamma ( n _ j ^ { ( - n ) } + \alpha_ { j } )   \\ \propto \ & n_k ^ { ( - n ) } + \alpha_ { k } \\ \end { a l i g n }  
+\sum   _ { k } \left ( n _ { k } ^ { { ( - n ) } } + \alpha   _ { k } \right ) = A + \sum   _ { k } n _ { k } ^ { { ( - n ) } } = A + N - 1
+\Pr ( z _ { n } = k \mid   { \mathbb     { Z } } ^ { { ( - n ) } } , { \boldsymbol     { \alpha   } } ) = { \frac     { n _ { k } ^ { { ( - n ) } } + \alpha   _ { k } } { A + N - 1 } }
+K \to   \infty  
+\operatorname   { D i r M u l t } ( { \mathbb     { Z } } \mid   { \boldsymbol     { \alpha   } } )
+\Pr ( \mathbb { Z } \mid \boldsymbol { \alpha } ) = \operatorname { D i r M u l t } ( \mathbb { Z } \mid \boldsymbol { \alpha } ) = \frac { \Gamma \left ( \sum_k   \alpha_k \right ) }   { \Gamma \left ( \sum_k   n _ k + \alpha_k \right ) } \prod_ { k = 1 } ^ K \frac { \Gamma ( n _ { k } + \alpha_ { k } ) } { \Gamma ( \alpha_ { k } ) }
+{ \begin { a r r a y } { l c l } { \boldsymbol     \alpha   } & \sim   & { \text { s o m e   d i s t r i b u t i o n } } \\{ \boldsymbol     \theta   } _ { { d = 1 \dots   M } } & \sim   & \operatorname   { D i r i c h l e t } _ { K } ( { \boldsymbol     \alpha   } ) \\z_ { { d = 1 \dots   M , n = 1 \dots   N _ { d } } } & \sim   & \operatorname   { C a t e g o r i c a l } _ { K } ( { \boldsymbol     \theta   } _ { d } ) \end { a r r a y } }
+\Pr ( { \mathbb     { Z } } \mid   { \boldsymbol     \alpha   } ) = \prod   _ { d } \operatorname   { D i r M u l t } ( { \mathbb     { Z } } _ { d } \mid   { \boldsymbol     \alpha   } )
+{ \mathbb     { Z } } _ { d }
+\Pr ( z _ { { d n } } = k \mid   { \mathbb     { Z } } ^ { { ( - d n ) } } , { \boldsymbol     \alpha   } ) \ \propto   \ n_ { { k , d } } ^ { { ( - n ) } } + \alpha   _ { k }
+n _ { { k , d } } ^ { { ( - n ) } }
+{ \mathbb     { Z } } _ { d }
+z _ { { d n } }
+k
+{ \begin { a r r a y } { l c l } { \boldsymbol     \alpha   } & \sim   & { \text { s o m e   d i s t r i b u t i o n } } \\{ \boldsymbol     \theta   } _ { { d = 1 \dots   M } } & \sim   & \operatorname   { D i r i c h l e t } _ { K } ( { \boldsymbol     \alpha   } ) \\z_ { { d = 1 \dots   M , n = 1 \dots   N _ { d } } } & \sim   & \operatorname   { C a t e g o r i c a l } _ { K } ( { \boldsymbol     \theta   } _ { d } ) \\{ \boldsymbol     \phi   } & \sim   & { \text { s o m e   o t h e r   d i s t r i b u t i o n } } \\w_ { { d = 1 \dots   M , n = 1 \dots   N _ { d } } } & \sim   & \operatorname   { F } ( w _ { { d n } } \mid   z _ { { d n } } , { \boldsymbol     \phi   } ) \end { a r r a y } }
+\Pr ( { \mathbb     { Z } } , { \mathbb     { W } } \mid   { \boldsymbol     \alpha   } , { \boldsymbol     \phi   } ) = \prod   _ { d } \operatorname   { D i r M u l t } ( { \mathbb     { Z } } _ { d } \mid   { \boldsymbol     \alpha   } ) \prod   _ { { d = 1 } } ^ { { M } } \prod   _ { { n = 1 } } ^ { { N _ { d } } } \operatorname   { F } ( w _ { { d n } } \mid   z _ { { d n } } , { \boldsymbol     \phi   } )
+z _ { { d n } }
+{ \mathbb     { Z } } ^ { { ( - d n ) } }
+\alpha  
+\Pr ( z _ { { d n } } = k \mid   { \mathbb     { Z } } ^ { { ( - d n ) } } , { \mathbb     { W } } , { \boldsymbol     \alpha   } , { \boldsymbol     \phi   } ) \ \propto   \ ( n _ { { k , d } } ^ { { ( - n ) } } + \alpha   _ { k } ) \operatorname   { F } ( w _ { { d n } } \mid   z _ { { d n } } , { \boldsymbol     \phi   } )
+\operatorname   { F }
+z _ { { d n } }
+z _ { { d n } }
+{ \begin { a r r a y } { l c l } { \boldsymbol     \theta   } & \sim   & { \text { s o m e   d i s t r i b u t i o n } } \\z_ { { n = 1 \dots   N } } & \sim   & \operatorname   { C a t e g o r i c a l } _ { K } ( { \boldsymbol     \theta   } ) \\{ \boldsymbol     \alpha   } & \sim   & { \text { s o m e   d i s t r i b u t i o n } } \\{ \boldsymbol     \phi   } _ { { k = 1 \dots   K } } & \sim   & \operatorname   { D i r i c h l e t } _ { V } ( { \boldsymbol     \alpha   } ) \\w_ { { n = 1 \dots   N } } & \sim   & \operatorname   { C a t e g o r i c a l } _ { V } ( { \boldsymbol     \phi   } _ { { z _ { { n } } } } ) \\\end { a r r a y } }
+\mathbb   { W }  
+K
+V
+\mathbb   { Z }  
+K
+\Pr ( { \mathbb     { W } } \mid   { \boldsymbol     \alpha   } , { \mathbb     { Z } } ) = \prod   _ { { k = 1 } } ^ { K } \operatorname   { D i r M u l t } ( { \mathbb     { W } } _ { k } \mid   { \mathbb     { Z } } , { \boldsymbol     \alpha   } ) = \prod   _ { { k = 1 } } ^ { K } \left [ { \frac     { \Gamma   \left ( \sum   _ { v } \alpha   _ { v } \right ) } { \Gamma   \left ( \sum   _ { v } n _ { v } ^ { { k } } + \alpha   _ { v } \right ) } } \prod   _ { { v = 1 } } ^ { V } { \frac     { \Gamma   ( n _ { v } ^ { { k } } + \alpha   _ { { v } } ) } { \Gamma   ( \alpha   _ { { v } } ) } } \right ]
+n _ { v } ^ { { k } }
+\Pr ( w _ { n } = v \mid   { \mathbb     { W } } ^ { { ( - n ) } } , { \mathbb     { Z } } , { \boldsymbol     \alpha   } ) \ \propto   \ n_ { v } ^ { { k , ( - n ) } } + \alpha   _ { v }
+n _ { v } ^ { { k , ( - n ) } }
+{ \begin { a r r a y } { l c l } { \boldsymbol     \alpha   } & \sim   & { \text { A   D i r i c h l e t   h y p e r p r i o r ,   e i t h e r   a   c o n s t a n t   o r   a   r a n d o m   v a r i a b l e } } \\{ \boldsymbol     \beta   } & \sim   & { \text { A   D i r i c h l e t   h y p e r p r i o r ,   e i t h e r   a   c o n s t a n t   o r   a   r a n d o m   v a r i a b l e } } \\{ \boldsymbol     \theta   } _ { { d = 1 \dots   M } } & \sim   & \operatorname   { D i r i c h l e t } _ { K } ( { \boldsymbol     \alpha   } ) \\{ \boldsymbol     \phi   } _ { { k = 1 \dots   K } } & \sim   & \operatorname   { D i r i c h l e t } _ { V } ( { \boldsymbol     \beta   } ) \\z_ { { d = 1 \dots   M , n = 1 \dots   N _ { d } } } & \sim   & \operatorname   { C a t e g o r i c a l } _ { K } ( { \boldsymbol     \theta   } _ { d } ) \\w_ { { d = 1 \dots   M , n = 1 \dots   N _ { d } } } & \sim   & \operatorname   { C a t e g o r i c a l } _ { V } ( { \boldsymbol     \phi   } _ { { z _ { { d n } } } } ) \\\end { a r r a y } }
+{ \begin { a r r a y } { l c l } \Pr ( w _ { { d n } } = v \mid   { \mathbb     { W } } ^ { { ( - d n ) } } , { \mathbb     { Z } } , { \boldsymbol     \beta   } ) \ &\propto   \ &\#{ \mathbb     { W } } _ { v } ^ { { k , ( - d n ) } } + \beta   _ { v } \\\Pr ( z _ { { d n } } = k \mid   { \mathbb     { Z } } ^ { { ( - d n ) } } , w _ { { d n } } = v , { \mathbb     { W } } ^ { { ( - d n ) } } , { \boldsymbol     \alpha   } ) \ &\propto   \ &( \#{ \mathbb     { Z } } _ { k } ^ { { d , ( - d n ) } } + \alpha   _ { k } ) \Pr ( w _ { { d n } } = v \mid   { \mathbb     { W } } ^ { { ( - d n ) } } , { \mathbb     { Z } } , { \boldsymbol     \beta   } ) \\\end { a r r a y } }
+{ \begin { a r r a y } { l c l } \#{ \mathbb     { W } } _ { v } ^ { { k , ( - d n ) } } & = & { \text { n u m b e r   o f   w o r d s   h a v i n g   v a l u e   } } v { \text {   a m o n g   t o p i c   } } k { \text {   e x c l u d i n g   } } w _ { { d n } } \\\#{ \mathbb     { Z } } _ { k } ^ { { d , ( - d n ) } } & = & { \text { n u m b e r   o f   t o p i c s   h a v i n g   v a l u e   } } k { \text {   a m o n g   d o c u m e n t   } } d { \text {   e x c l u d i n g   } } z _ { { d n } } \\\end { a r r a y } }
+{ \begin { a r r a y } { r c l } \Pr ( z _ { { d n } } = k \mid   { \mathbb     { Z } } ^ { { ( - d n ) } } , w _ { { d n } } = v , { \mathbb     { W } } ^ { { ( - d n ) } } , { \boldsymbol     \alpha   } ) \ &\propto   \ &{ \bigl   ( } \#{ \mathbb     { Z } } _ { k } ^ { { d , ( - d n ) } } + \alpha   _ { k } { \bigr   ) } { \dfrac     { \#{ \mathbb     { W } } _ { v } ^ { { k , ( - d n ) } } + \beta   _ { v } } { \sum   _ { { v ' = 1 } } ^ { { V } } ( \#{ \mathbb     { W } } _ { { v ' } } ^ { { k , ( - d n ) } } + \beta   _ { { v ' } } ) } } \\&&\\&=&{ \bigl   ( } \#{ \mathbb     { Z } } _ { k } ^ { { d , ( - d n ) } } + \alpha   _ { k } { \bigr   ) } { \dfrac     { \#{ \mathbb     { W } } _ { v } ^ { { k , ( - d n ) } } + \beta   _ { v } } { \#{ \mathbb     { W } } ^ { { k } } + B - 1 } } \end { a r r a y } }
+{ \begin { a r r a y } { l c l } \#{ \mathbb     { W } } ^ { { k } } & = & { \text { n u m b e r   o f   w o r d s   g e n e r a t e d   b y   t o p i c   } } k \\B & = & \sum   _ { { v = 1 } } ^ { { V } } \beta   _ { v } \\\end { a r r a y } }
+z
+\operatorname   { F } ( \dots   \mid   z )
+z
+z _ { { d n } }
+w _ { { d n } }
+{ \mathbb     { W } } ^ { { k } }
+z _ { { d n } }
+w _ { { d n } }
+{ \begin { a r r a y } { l c l } p ( { \mathbb     { W } } ^ { { k } } \mid   z _ { { d n } } ) & = & p ( w _ { { d n } } \mid   { \mathbb     { W } } ^ { { k , ( - d n ) } } , z _ { { d n } } ) \,p ( { \mathbb     { W } } ^ { { k , ( - d n ) } } \mid   z _ { { d n } } ) \\&=&p ( w _ { { d n } } \mid   { \mathbb     { W } } ^ { { k , ( - d n ) } } , z _ { { d n } } ) \,p ( { \mathbb     { W } } ^ { { k , ( - d n ) } } ) \\&\sim   & p ( w _ { { d n } } \mid   { \mathbb     { W } } ^ { { k , ( - d n ) } } , z _ { { d n } } ) \end { a r r a y } }
+{ \mathbb     { W } } ^ { { k , ( - d n ) } }
+{ \mathbb     { W } } ^ { { k } }
+w _ { { d n } }
+z _ { { d n } }
+{ \begin { a r r a y } { l c l } { \boldsymbol     \alpha   } & \sim   & { \text { A   D i r i c h l e t   h y p e r p r i o r ,   e i t h e r   a   c o n s t a n t   o r   a   r a n d o m   v a r i a b l e } } \\{ \boldsymbol     \beta   } & \sim   & { \text { A   D i r i c h l e t   h y p e r p r i o r ,   e i t h e r   a   c o n s t a n t   o r   a   r a n d o m   v a r i a b l e } } \\{ \boldsymbol     \theta   } _ { { d = 1 \dots   M } } & \sim   & \operatorname   { D i r i c h l e t } _ { K } ( { \boldsymbol     \alpha   } ) \\{ \boldsymbol     \phi   } _ { { k = 1 \dots   K } } & \sim   & \operatorname   { D i r i c h l e t } _ { V } ( { \boldsymbol     \beta   } ) \\z_ { { d = 1 \dots   M } } & \sim   & \operatorname   { C a t e g o r i c a l } _ { K } ( { \boldsymbol     \theta   } _ { d } ) \\w_ { { d = 1 \dots   M , n = 1 \dots   N _ { d } } } & \sim   & \operatorname   { C a t e g o r i c a l } _ { V } ( { \boldsymbol     \phi   } _ { { z _ { { d } } } } ) \\\end { a r r a y } }
+{ \begin { a r r a y } { l c l } \Pr ( w _ { { d n } } = v \mid   { \mathbb     { W } } ^ { { ( - d n ) } } , { \mathbb     { Z } } , { \boldsymbol     \beta   } ) \ &\propto   \ &\#{ \mathbb     { W } } _ { v } ^ { { k , ( - d n ) } } + \beta   _ { v } \\\end { a r r a y } }
+{ \begin { a r r a y } { l c l } \#{ \mathbb     { W } } _ { v } ^ { { k , ( - d n ) } } & = & { \text { n u m b e r   o f   w o r d s   h a v i n g   v a l u e   } } v { \text {   a m o n g   d o c u m e n t s   w i t h   l a b e l   } } k { \text {   e x c l u d i n g   } } w _ { { d n } } \\\end { a r r a y } }
+\operatorname   { F } ( \dots   \mid   z _ { d } )
+z _ { d }

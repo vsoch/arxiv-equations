@@ -1,0 +1,21 @@
+v \in   { \mathbb     { R } } ^ { p }
+{ \begin { a l i g n e d } \max   \quad   & v ^ { { T } } \Sigma   v \\{ \text { s u b j e c t   t o } } \quad   & \left \Vert   v \right \Vert   _ { { 2 } } = 1 \\&\left \Vert   v \right \Vert   _ { { 0 } } \leq   k . \end { a l i g n e d } }
+\left \Vert   v \right \Vert   _ { { 0 } }
+\Sigma   _ { 1 } = \Sigma   - ( v ^ { T } \Sigma   v ) v v ^ { T } ,
+V
+{ \begin { a l i g n e d } \max   \quad   & T r ( \Sigma   V ) \\{ \text { s u b j e c t   t o } } \quad   & T r ( V ) = 1 \\&\Vert   V \Vert   _ { { 0 } } \leq   k ^ { { 2 } } \\&Rank ( V ) = 1 , V \succeq   0 . \end { a l i g n e d } }
+\Vert   V \Vert   _ { { 0 } }
+V = v v ^ { T }
+  \begin { a l i g n }   \max   \quad   &   T r ( \Sigma   V ) \\ \text { s u b j e c t   t o } \quad   &   T r ( V ) = 1 \\  & \mathbf { 1 } ^ T   | V | \mathbf { 1 }   \leq   k \\  & V \succeq   0 .   \end { a l i g n }  
+\mathbf   { 1 }  
+V
+V
+\scriptstyle   p \gg   n .
+X
+X
+\theta  
+H _ { 0 } : X \sim   N ( 0 , I _ { p } ) , \quad   H _ { 1 } : X \sim   N ( 0 , I _ { p } + \theta   v v ^ { T } ) ,
+v \in   { \mathbb     { R } } ^ { p }
+\theta   > \Theta   ( { \sqrt     { k \log ( p ) / n } } )
+\theta   > \Theta   ( { \sqrt     { k ^ { 2 } \log ( p ) / n } } )
+\sqrt { k }

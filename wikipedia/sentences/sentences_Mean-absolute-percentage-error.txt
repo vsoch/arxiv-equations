@@ -1,0 +1,3 @@
+{ \displaystyle   { \mbox { M } } = { \frac   { 1 0 0 \%}{ n } } \sum   _ { t = 1 } ^ { n } \left | { \frac   { A _ { t } - F _ { t } } { A _ { t } } } \right | , }
+{ \displaystyle   A _ { t } = 0 }
+{ \displaystyle   A _ { t } < F _ { t } }

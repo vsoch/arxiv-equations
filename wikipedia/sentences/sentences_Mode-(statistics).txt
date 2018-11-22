@@ -1,0 +1,9 @@
+\scriptstyle   { \bar     { x } } = { \frac     { 1 } { n } } \sum   _ { { i = 1 } } ^ { n } x _ { i }
+{ \sqrt   { 3 } }
+\begin { a r r a y } { r l l l }   \text { m e a n }       &   =   e ^ { \mu   +   \sigma ^ 2   /   2 }   &   =   e ^ { 0   +   0 . 2 5 ^ 2   /   2 }   &   \approx   1 . 0 3 2   \\ \text { m o d e }       &   =   e ^ { \mu   -   \sigma ^ 2 }           &   =   e ^ { 0   -   0 . 2 5 ^ 2 }           &   \approx   0 . 9 3 9   \\ \text { m e d i a n }   &   =   e ^ \mu                                     &   =   e ^ 0                                 &   =   1   \end { a r r a y }
+\begin { a r r a y } { r l l l }   \text { m e a n }       &   =   e ^ { \mu   +   \sigma ^ 2   /   2 }   &   =   e ^ { 0   +   1 ^ 2   /   2 }   &   \approx   1 . 6 4 9   \\ \text { m o d e }       &   =   e ^ { \mu   -   \sigma ^ 2 }           &   =   e ^ { 0   -   1 ^ 2 }           &   \approx   0 . 3 6 8   \\ \text { m e d i a n }   &   =   e ^ \mu                                     &   =   e ^ 0                           &   =   1   \end { a r r a y }
+{ \tilde   { X } }
+{ \bar   { X } }
+{ \frac   { \left | { \tilde   { X } } - { \bar   { X } } \right | } { \sigma   } } \leq   ( 3 / 5 ) ^ { 1 / 2 }
+| \cdot   |
+{ \frac   { \left | { \tilde   { X } } - \mathrm   { m o d e }   \right | } { \sigma   } } \leq   3 ^ { 1 / 2 } .

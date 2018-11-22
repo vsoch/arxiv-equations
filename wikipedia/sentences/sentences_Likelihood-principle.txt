@@ -1,0 +1,15 @@
+{ \mathcal     L }
+{ \displaystyle   { \mathcal   { L } } ( \theta   \mid   X = 3 ) = { \binom   { 1 2 } { 3 } } \theta   ^ { 3 } ( 1 - \theta   ) ^ { 9 } = 2 2 0 \theta   ^ { 3 } ( 1 - \theta   ) ^ { 9 } , }
+{ \displaystyle   { \mathcal   { L } } ( \theta   \mid   Y = 1 2 ) = { \binom   { 1 1 } { 2 } } \theta   ^ { 3 } ( 1 - \theta   ) ^ { 9 } = 5 5 \theta   ^ { 3 } ( 1 - \theta   ) ^ { 9 } . }
+{ \displaystyle   \Lambda   = { { \mathcal   { L } } ( a \mid   X = x )   \over   { \mathcal   { L } } ( b \mid   X = x ) } = { P ( X = x \mid   a )   \over   P ( X = x \mid   b ) } }
+\theta  
+\theta  
+T ( X )
+\theta  
+x _ { 1 }
+x _ { 2 }
+T ( x _ { 1 } ) = T ( x _ { 2 } )
+\theta  
+{ \displaystyle   p ^ { 3 } ( 1 - p ) ^ { 9 } . }
+\left ( { 1 2   \choose   9 } + { 1 2   \choose   1 0 } + { 1 2   \choose   1 1 } + { 1 2   \choose   1 2 } \right ) \left ( { 1   \over   2 } \right ) ^ { { 1 2 } }
+{ \displaystyle   1 - \left ( { 1 0   \choose   2 } \left ( { 1   \over   2 } \right ) ^ { 1 1 } + { 9   \choose   2 } \left ( { 1   \over   2 } \right ) ^ { 1 0 } + \cdots   + { 2   \choose   2 } \left ( { 1   \over   2 } \right ) ^ { 3 } \right ) }

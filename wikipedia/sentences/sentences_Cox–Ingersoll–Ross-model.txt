@@ -1,0 +1,44 @@
+d r _ { t } = a ( b - r _ { t } ) \,dt + \sigma   { \sqrt     { r _ { t } } } \,dW_ { t }
+W _ { t }
+a
+b
+\sigma   \ ,
+a
+{ \displaystyle   b , }
+\sigma   \ ,
+a ( b - r _ { t } )
+b
+a
+\sigma   { \sqrt     { r _ { t } } }
+a
+b
+2 a b \geq   \sigma   ^ { 2 } \ ,
+r _ { t }
+\sigma   { \sqrt     { r _ { t } } }
+r _ { { t + T } } = { \frac     { Y } { 2 c } }
+c = { \frac     { 2 a } { ( 1 - e ^ { { - a T } } ) \sigma   ^ { 2 } } }
+{ \frac     { 4 a b } { \sigma   ^ { 2 } } }
+2 c r _ { t } e ^ { { - a T } }
+f ( r _ { { t + T } } ; r _ { t } , a , b , \sigma   ) = c \,e ^ { { - u - v } } \left ( { \frac     { v } { u } } \right ) ^ { { q / 2 } } I _ { { q } } ( 2 { \sqrt     { u v } } )
+q = { \frac     { 2 a b } { \sigma   ^ { 2 } } } - 1
+u = c r _ { t } e ^ { { - a T } }
+v = c r _ { { t + T } }
+{ \displaystyle   I _ { q } ( 2 { \sqrt   { u v } } ) }
+q
+r _ { { \infty   } }
+f ( r _ { { \infty   } } ; a , b , \sigma   ) = { \frac     { \omega   ^ { \nu   } } { \Gamma   ( \nu   ) } } r _ { \infty   } ^ { { \nu   - 1 } } e ^ { { - \omega   r _ { \infty   } } }
+\omega   = 2 a / \sigma   ^ { 2 }
+\nu   = 2 a b / \sigma   ^ { 2 }
+\sigma   { \sqrt     { r _ { t } } }
+r _ { 0 }
+2 a b \geq   \sigma   ^ { 2 }
+E [ r _ { t } | r _ { 0 } ] = r _ { 0 } e ^ { { - a t } } + b ( 1 - e ^ { { - a t } } )
+b
+V a r [ r _ { t } | r _ { 0 } ] = r _ { 0 } { \frac     { \sigma   ^ { 2 } } { a } } ( e ^ { { - a t } } - e ^ { { - 2 a t } } ) + { \frac     { b \sigma   ^ { 2 } } { 2 a } } ( 1 - e ^ { { - a t } } ) ^ { 2 }
+{ \displaystyle   r _ { t + \Delta   t } - r _ { t } = a ( b - r _ { t } ) \,\Delta   t + \sigma   \,{ \sqrt   { r _ { t } \Delta   t } } \epsilon   _ { t } }
+{ \displaystyle   { \frac   { r _ { t + \Delta   t } - r _ { t } } { { \sqrt   { r } } _ { t } } } = { \frac   { a b \Delta   t } { { \sqrt   { r } } _ { t } } } - a { \sqrt   { r } } _ { t } \Delta   t + \sigma   \,{ \sqrt   { \Delta   t } } \epsilon   _ { t } }
+\epsilon   _ { t }
+P ( t , T ) = A ( t , T ) \exp ( - B ( t , T ) r _ { t } ) \ !
+A ( t , T ) = \left ( { \frac     { 2 h \exp ( ( a + h ) ( T - t ) / 2 ) } { 2 h + ( a + h ) ( \exp ( ( T - t ) h ) - 1 ) } } \right ) ^ { { 2 a b / \sigma   ^ { 2 } } }
+B ( t , T ) = { \frac     { 2 ( \exp ( ( T - t ) h ) - 1 ) } { 2 h + ( a + h ) ( \exp ( ( T - t ) h ) - 1 ) } }
+h = { \sqrt     { a ^ { 2 } + 2 \sigma   ^ { 2 } } }

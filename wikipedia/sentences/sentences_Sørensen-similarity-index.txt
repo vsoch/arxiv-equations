@@ -1,0 +1,9 @@
+{ \displaystyle   D S C = { \frac   { 2 | X \cap   Y | } { | X | + | Y | } } }
+{ \displaystyle   D S C = { \frac   { 2 T P } { 2 T P + F P + F N } } }
+{ \displaystyle   s _ { v } = { \frac   { 2 | { \bf   { { a } \cdot   { \bf   { { b } | } } } } } { | { \bf   { { a } | ^ { 2 } + | { \bf   { { b } | ^ { 2 } } } } } } } }
+s   =   \frac { 2   n _ t } { n _ x   +   n _ y }
+S
+J
+{ \displaystyle   J = S / ( 2 - S ) }
+{ \displaystyle   S = 2 J / ( 1 + J ) }
+d   =   1   -     \frac { 2   |   X   \cap   Y   | } { |   X   |   +   |   Y   | }  

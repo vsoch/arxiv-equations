@@ -1,0 +1,12 @@
+X = [ { \mathbf     { x } } _ { 1 } , { \mathbf     { x } } _ { 2 } , \ldots   , { \mathbf     { x } } _ { n } ]
+\overline   { { \mathbf     { x } } } = { \frac     { 1 } { n } } \sum   _ { { j = 1 } } ^ { n } { \mathbf     { x } } _ { j }
+\mathbf   { x }   _ { j }
+X
+S   =   \sum_ { j = 1 } ^ n   ( \mathbf { x } _ j - \overline { \mathbf { x } } ) ( \mathbf { x } _ j - \overline { \mathbf { x } } ) ^ T   =   \sum_ { j = 1 } ^ n   ( \mathbf { x } _ j - \overline { \mathbf { x } } ) \otimes ( \mathbf { x } _ j - \overline { \mathbf { x } } )   =   \left (   \sum_ { j = 1 } ^ n   \mathbf { x } _ j   \mathbf { x } _ j ^ T   \right )   -   n   \overline { \mathbf { x } }   \overline { \mathbf { x } } ^ T  
+T
+S = X \,C_ { n } \,X ^ { T }
+\,C_ { n }
+C _ { { M L } } = { \frac     { 1 } { n } } S .
+X
+S
+X X ^ { \top   }

@@ -1,0 +1,26 @@
+e
+e
+\tau   _ { { - } }
+\tau   _ { { + } }
+W
+\{ e ( t ) : \ { 0 \leq   t \leq   1 } \}\ { \stackrel     { d } { = } } \ \left \{ { \frac     { | W ( ( 1 - t ) \tau   _ { { - } } + t \tau   _ { { + } } ) | } { { \sqrt     { \tau   _ { + } - \tau   _ { { - } } } } } } : \ 0 \leq   t \leq   1 \right \ } .
+\tau   _ { m }
+W _ { 0 }
+{ \displaystyle   \{ e ( t ) : \ { 0 \leq   t \leq   1 } \}\ { \stackrel   { d } { = } } \ \left \{ W _ { 0 } ( \tau   _ { m } + t { \bmod   { 1 } } ) - W _ { 0 } ( \tau   _ { m } ) : \ 0 \leq   t \leq   1 \right \ } . }
+e
+M _ { { + } } \equiv   \sup   _ { { 0 \leq   t \leq   1 } } e ( t ) \ { \stackrel     { d } { = } } \ \sup   _ { { 0 \leq   t \leq   1 } } W _ { 0 } ( t ) - \inf   _ { { 0 \leq   t \leq   1 } } W _ { 0 } ( t ) ,
+\int   _ { 0 } ^ { 1 } e ( t ) \,dt \ { \stackrel     { d } { = } } \ \int   _ { 0 } ^ { 1 } W _ { 0 } ( t ) \,dt - \inf   _ { { 0 \leq   t \leq   1 } } W _ { 0 } ( t ) .
+E M _ { + } = { \sqrt     { \pi   / 2 } } \approx   1 . 2 5 3 3 1 \ldots   , \ ,
+{ \displaystyle   E M _ { + } ^ { 2 } \approx   1 . 6 4 4 9 3 \ldots   \ ,\ \ \operatorname   { V a r }   ( M _ { + } ) \approx   0 . 0 7 4 1 3 3 7 \ldots   . }
+\int   _ { 0 } ^ { 1 } e ( t ) \,dt
+W
+W
+A _ { + } \equiv   \int   _ { 0 } ^ { 1 } e ( t ) \,dt
+A _ { + }
+{ \displaystyle   f _ { A _ { + } } ( x ) = { \frac   { 2 { \sqrt   { 6 } } } { x ^ { 2 } } } \sum   _ { j = 1 } ^ { \infty   } v _ { j } ^ { 2 / 3 } e ^ { - v _ { j } } U \left ( - { \frac   { 5 } { 6 } } , { \frac   { 4 } { 3 } } ; v _ { j } \right ) \ \ { \text {   w i t h   } } \ \ v_ { j } = { \frac   { 2 | a _ { j } | ^ { 3 } } { 2 7 x ^ { 2 } } } }
+a _ { j }
+U
+{ \displaystyle   f _ { A _ { + } } ( x ) \sim   { \frac   { 7 2 { \sqrt   { 6 } } } { \sqrt   { \pi   } } } x ^ { 2 } e ^ { - 6 x ^ { 2 } } \ \ { \text {   a s   } } \ \ x \rightarrow   \infty   , }
+{ \displaystyle   P ( A _ { + } > x ) \sim   { \frac   { 6 { \sqrt   { 6 } } } { \sqrt   { \pi   } } } x e ^ { - 6 x ^ { 2 } } \ \ { \text {   a s   } } \ \ x \rightarrow   \infty   . }
+A _ { + }
+{ \displaystyle   E ( A _ { + } ) = { \frac   { 1 } { 2 } } { \sqrt   { \frac   { \pi   } { 2 } } } , \ \ E ( A _ { + } ^ { 2 } ) = { \frac   { 5 } { 1 2 } } \approx   0 . 4 1 6 6 6 6 \ldots   , \ \ \operatorname   { V a r }   ( A _ { + } ) = { \frac   { 5 } { 1 2 } } - { \frac   { \pi   } { 8 } } \approx   . 0 2 3 9 6 7 5 \ldots   \   . }

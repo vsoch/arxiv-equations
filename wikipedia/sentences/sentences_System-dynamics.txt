@@ -1,0 +1,15 @@
+\ { \mbox { P o t e n t i a l   a d o p t e r s } } = \int   _ { { 0 } } ^ { { t } } { \mbox { - N e w   a d o p t e r s   } } \,dt
+\ { \mbox { A d o p t e r s } } = \int   _ { { 0 } } ^ { { t } } { \mbox { N e w   a d o p t e r s   } } \,dt
+1 ) \ { \mbox { P r o b a b i l i t y   t h a t   c o n t a c t   h a s   n o t   y e t   a d o p t e d } } = { \mbox { P o t e n t i a l   a d o p t e r s } } / ( { \mbox { P o t e n t i a l   a d o p t e r s   } } + { \mbox {   A d o p t e r s } } )
+2 ) \ { \mbox { I m i t a t o r s } } = q \cdot   { \mbox { A d o p t e r s } } \cdot   { \mbox { P r o b a b i l i t y   t h a t   c o n t a c t   h a s   n o t   y e t   a d o p t e d } }
+3 ) \ { \mbox { I n n o v a t o r s } } = p \cdot   { \mbox { P o t e n t i a l   a d o p t e r s } }
+4 ) \ { \mbox { N e w   a d o p t e r s } } = { \mbox { I n n o v a t o r s } } + { \mbox { I m i t a t o r s } }
+{ \displaystyle   4 . 1 ) \ { \mbox { P o t e n t i a l   a d o p t e r s } } \ -={ \mbox { N e w   a d o p t e r s   } } }
+{ \displaystyle   4 . 2 ) \ { \mbox { A d o p t e r s } } \ +={ \mbox { N e w   a d o p t e r s   } } }
+\ p = 0 . 0 3
+\ q = 0 . 4
+1 0 ) \ { \mbox { V a l v e   N e w   a d o p t e r s } } \ ={ \mbox { N e w   a d o p t e r s } } \cdot   T i m e S t e p
+1 0 . 1 ) \ { \mbox { P o t e n t i a l   a d o p t e r s } } \ -={ \mbox { V a l v e   N e w   a d o p t e r s } }
+1 0 . 2 ) \ { \mbox { A d o p t e r s } } \ +={ \mbox { V a l v e   N e w   a d o p t e r s   } }
+\ TimeStep = 1 / 4
+\ { \mbox { V a l v e   N e w   a d o p t e r s } } \ ={ \mbox { N e w   a d o p t e r s   } } \cdot   T i m e S t e p

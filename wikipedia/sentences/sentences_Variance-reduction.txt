@@ -1,0 +1,9 @@
+X _ { { 1 j } }
+X _ { { 2 j } }
+\xi   = E ( X _ { { 1 j } } ) - E ( X _ { { 2 j } } ) = \mu   _ { 1 } - \mu   _ { 2 } . \ ,
+Z _ { j } = X _ { { 1 j } } - X _ { { 2 j } } \quad   { \mbox { f o r   } } j = 1 , 2 , \ldots   , n ,
+E ( Z _ { j } ) = \xi  
+Z ( n ) = { \frac     { \sum   _ { { j = 1 , \ldots   , n } } Z _ { j } } { n } }
+\xi  
+Z _ { j }
+\operatorname   { V a r } [ Z ( n ) ] = { \frac     { \operatorname   { V a r } ( Z _ { j } ) } { n } } .

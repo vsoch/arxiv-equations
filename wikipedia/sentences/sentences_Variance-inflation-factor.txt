@@ -1,0 +1,10 @@
+\sigma   ^ { 2 }
+{ { \rm   { \widehat   { v a r } } } } ( { \hat     { \beta   } } _ { j } ) = { \frac     { s ^ { 2 } } { ( n - 1 ) \widehat   { { \rm   { v a r } } } ( X _ { j } ) } } \cdot   { \frac     { 1 } { 1 - R _ { j } ^ { 2 } } } ,
+\widehat   { { \rm   { v a r } } } ( X _ { j } )
+{ \displaystyle   X _ { 1 } = \alpha   _ { 0 } + \alpha   _ { 2 } X _ { 2 } + \alpha   _ { 3 } X _ { 3 } + \cdots   + \alpha   _ { k } X _ { k } + e }
+\alpha   _ { 0 }
+{ \hat     \beta   } _ { i }
+{ \displaystyle   \mathrm   { V I F _ { i } }   = { \frac   { 1 } { 1 - R _ { i } ^ { 2 } } } }
+X _ { i }
+\operatorname   { V I F } ( { \hat     \beta   } _ { i } )
+\operatorname   { V I F } ( { \hat     \beta   } _ { i } ) > 1 0

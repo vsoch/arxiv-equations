@@ -1,0 +1,14 @@
+{ \displaystyle   \Pr   \left ( \max   _ { 1 \leq   k \leq   n } | S _ { k } | \geq   \lambda   \right ) \leq   { \frac   { 1 } { \lambda   ^ { 2 } } } \operatorname   { V a r }   [ S _ { n } ] \equiv   { \frac   { 1 } { \lambda   ^ { 2 } } } \sum   _ { k = 1 } ^ { n } \operatorname   { V a r }   [ X _ { k } ] = { \frac   { 1 } { \lambda   ^ { 2 } } } \sum   _ { k = 1 } ^ { n } { \text { E } } [ X _ { k } ^ { 2 } ] , }
+S _ { 1 } , S _ { 2 } , \dots   , S _ { n }
+S _ { 0 } = 0
+S _ { i } \geq   0
+i
+( Z _ { i } ) _ { { i = 0 } } ^ { n }
+Z _ { 0 } = 0
+Z _ { { i + 1 } } = \left \{ { \begin { a r r a y } { l l } S _ { { i + 1 } } & { \text {   i f   } } \displaystyle   \max   _ { { 1 \leq   j \leq   i } } S _ { j } < \lambda   \\Z_ { i } & { \text {   o t h e r w i s e } } \end { a r r a y } } \right .
+i
+( Z _ { i } ) _ { { i = 0 } } ^ { n }
+S _ { i } - S _ { { i - 1 } }
+{ \begin { a l i g n e d } \sum   _ { { i = 1 } } ^ { n } { \text { E } } [ ( S _ { i } - S _ { { i - 1 } } ) ^ { 2 } ] & = \sum   _ { { i = 1 } } ^ { n } { \text { E } } [ S _ { i } ^ { 2 } - 2 S _ { i } S _ { { i - 1 } } + S _ { { i - 1 } } ^ { 2 } ] \\&=\sum   _ { { i = 1 } } ^ { n } { \text { E } } \left [ S _ { i } ^ { 2 } - 2 ( S _ { { i - 1 } } + S _ { { i } } - S _ { { i - 1 } } ) S _ { { i - 1 } } + S _ { { i - 1 } } ^ { 2 } \right ] \\&=\sum   _ { { i = 1 } } ^ { n } { \text { E } } \left [ S _ { i } ^ { 2 } - S _ { { i - 1 } } ^ { 2 } \right ] - 2 { \text { E } } \left [ S _ { { i - 1 } } ( S _ { { i } } - S _ { { i - 1 } } ) \right ] \\&={ \text { E } } [ S _ { n } ^ { 2 } ] - { \text { E } } [ S _ { 0 } ^ { 2 } ] = { \text { E } } [ S _ { n } ^ { 2 } ] . \end { a l i g n e d } }
+( Z _ { i } ) _ { { i = 0 } } ^ { n }
+{ \begin { a l i g n e d } { \text { P r } } \left ( \max   _ { { 1 \leq   i \leq   n } } S _ { i } \geq   \lambda   \right ) & = { \text { P r } } [ Z _ { n } \geq   \lambda   ] \\&\leq   { \frac     { 1 } { \lambda   ^ { 2 } } } { \text { E } } [ Z _ { n } ^ { 2 } ] = { \frac     { 1 } { \lambda   ^ { 2 } } } \sum   _ { { i = 1 } } ^ { n } { \text { E } } [ ( Z _ { i } - Z _ { { i - 1 } } ) ^ { 2 } ] \\&\leq   { \frac     { 1 } { \lambda   ^ { 2 } } } \sum   _ { { i = 1 } } ^ { n } { \text { E } } [ ( S _ { i } - S _ { { i - 1 } } ) ^ { 2 } ] = { \frac     { 1 } { \lambda   ^ { 2 } } } { \text { E } } [ S _ { n } ^ { 2 } ] = { \frac     { 1 } { \lambda   ^ { 2 } } } { \text { V a r } } [ S _ { n } ] \end { a l i g n e d } }

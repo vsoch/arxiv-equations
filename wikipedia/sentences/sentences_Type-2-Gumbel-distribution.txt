@@ -1,0 +1,15 @@
+a \ !
+{ \displaystyle   b \ ! }
+{ \displaystyle   a b x ^ { - a - 1 } e ^ { - b x ^ { - a } } \ ! }
+{ \displaystyle   e ^ { - b x ^ { - a } } \ ! }
+{ \displaystyle   b ^ { 1 / a } \Gamma   ( 1 - 1 / a ) \ ! }
+{ \displaystyle   b ^ { 2 / a } ( \Gamma   ( 1 - 1 / a ) - { \Gamma   ( 1 - 1 / a ) } ^ { 2 } ) \ ! }
+{ \displaystyle   f ( x | a , b ) = a b x ^ { - a - 1 } e ^ { - b x ^ { - a } } \ , }
+{ \displaystyle   0 < x < \infty   }
+{ \displaystyle   b = \lambda   ^ { - k } }
+{ \displaystyle   a = - k }
+{ \displaystyle   0 < a \leq   1 }
+{ \displaystyle   0 < a \leq   2 }
+{ \displaystyle   F ( x | a , b ) = e ^ { - b x ^ { - a } } \ , }
+{ \displaystyle   E [ X ^ { k } ] \ , }
+{ \displaystyle   k < a \ , }

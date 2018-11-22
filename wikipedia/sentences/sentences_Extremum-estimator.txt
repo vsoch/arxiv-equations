@@ -1,0 +1,13 @@
+\scriptstyle   { \hat   { \theta   } }
+\scriptstyle \hat { Q } _ n
+{ \displaystyle   { \hat   { \theta   } } = { \underset   { \theta   \in   \Theta   } { \operatorname   { a r g \;max }   } } \ { \widehat   { Q } } _ { n } ( \theta   ) , }
+          \widehat   Q _ n ( \hat \theta )   \geq     \max_ { \theta \in \Theta } \,\widehat   Q _ n ( \theta )   -   o _ p ( 1 ) ,      
+\scriptstyle   { \hat   { \theta   } }
+\scriptscriptstyle \hat \theta
+\scriptstyle \hat { Q } _ n ( \theta )
+\scriptstyle   { \hat   { \theta   } }
+\scriptstyle \hat { Q } _ n ( \theta )
+          \sup_ { \theta \in \Theta }   \big |   \hat { Q } _ n ( \theta )   -   Q _ 0 ( \theta )   \big |   \ \xrightarrow { p } \ 0 .      
+Q _ { { n } }
+          \hat { Q } _ n ( \theta )   =   \frac1n   \sum_ { i = 1 } ^ n   \ln   f ( x _ i | \theta ) ,      
+          \hat { Q } _ n ( \theta )   =   -   \Bigg ( \frac1n \sum_ { i = 1 } ^ n   g ( x _ i , \theta ) \Bigg ) '   \hat { W } _ n   \Bigg ( \frac1n \sum_ { i = 1 } ^ n   g ( x _ i , \theta ) \Bigg ) ,      

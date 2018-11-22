@@ -1,0 +1,10 @@
+M _ { X } ( t ) = \operatorname   { E } { \bigl   [ } t ^ { { X } } { \bigr   ] }
+| t | = 1
+M _ X
+M _ { X } ( t )
+| t | \leq   1
+M _ X
+\operatorname   { E } [ ( X ) _ { n } ] = M _ { X } ^ { { ( n ) } } ( 1 ) = \left . { \frac     { { \mathrm     { d } } ^ { n } } { { \mathrm     { d } } t ^ { n } } } \right | _ { { t = 1 } } M _ { X } ( t ) ,
+( x ) _ { n } = x ( x - 1 ) ( x - 2 ) \cdots   ( x - n + 1 ) . \ ,
+M _ { X } ( t ) = \sum   _ { { k = 0 } } ^ { \infty   } t ^ { k } \underbrace   { \operatorname   { P } ( X = k ) } _ { { = \,\lambda   ^ { k } e ^ { { - \lambda   } } / k ! } } = e ^ { { - \lambda   } } \sum   _ { { k = 0 } } ^ { \infty   } { \frac     { ( t \lambda   ) ^ { k } } { k ! } } = e ^ { { \lambda   ( t - 1 ) } } , \qquad   t \in   { \mathbb     { C } } ,
+\operatorname   { E } [ ( X ) _ { n } ] = \lambda   ^ { n } .

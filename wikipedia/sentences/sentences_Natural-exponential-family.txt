@@ -1,0 +1,61 @@
+{ \displaystyle   f _ { X } ( x \mid   \theta   ) = h ( x ) \ \exp   { \Big   ( } \ \eta   ( \theta   ) T ( x ) - A ( \theta   ) \ { \Big   ) } \ , \ ! , }
+h ( x )
+A ( \theta   )
+{ \displaystyle   f _ { X } ( x \mid   \theta   ) = h ( x ) \ \exp   { \Big   ( } \ \theta   x - A ( \theta   ) \ { \Big   ) } \ , \ ! . }
+\mathbf   { x }   \in   { \mathcal   { X } } \subseteq   \mathbb   { R }   ^ { p }
+{ \displaystyle   f _ { X } ( \mathbf   { x }   \mid   { \boldsymbol   { \theta   } } ) = h ( \mathbf   { x }   ) \ \exp   { \Big   ( } { \boldsymbol   { \theta   } } ^ { \rm   { T } } \mathbf   { x }   - A ( { \boldsymbol   { \theta   } } ) \ { \Big   ) } \ , \ ! , }
+{ \boldsymbol   { \theta   } } \in   \mathbb   { R }   ^ { p } .
+M _ { X } ( \mathbf   { t }   ) = \exp   { \Big   ( } \ A ( { \boldsymbol   { \theta   } } + \mathbf   { t }   ) - A ( { \boldsymbol   { \theta   } } ) \ { \Big   ) } \ , .
+K _ { X } ( \mathbf   { t }   ) = A ( { \boldsymbol   { \theta   } } + \mathbf   { t }   ) - A ( { \boldsymbol   { \theta   } } ) \ , .
+r
+\theta   = \log ( \lambda   )
+f ( k ; \theta   ) = { \frac   { 1 } { k ! } } \exp   { \Big   ( } \ \theta   \ k - \exp ( \theta   ) \ { \Big   ) } \   ,
+\theta   \in   \mathbb   { R }  
+{ \displaystyle   h ( k ) = { \frac   { 1 } { k ! } } , { \text {   a n d   } } A ( \theta   ) = \exp ( \theta   ) \   . }
+K _ { X } ( t ) = A ( \theta   + t ) - A ( \theta   ) \ , .
+{ \displaystyle   \kappa   _ { 1 } = K _ { X } ' ( t ) { \big   | } _ { t = 0 } = { \frac   { d } { d t } } A ( \theta   + t ) { \big   | } _ { t = 0 } \ , . }
+{ \displaystyle   \mu   _ { 1 } = \kappa   _ { 1 } = \mathrm   { E }   [ X ] = K ' _ { X } ( 0 ) = A ' ( \theta   ) \ , . }
+{ \displaystyle   \operatorname   { V a r }   [ X ] = \kappa   _ { 2 } = \mu   _ { 2 } - \mu   _ { 1 } ^ { 2 } \ , , }
+{ \displaystyle   \operatorname   { V a r }   [ X ] = K ' ' _ { X } ( 0 ) = A ' ' ( \theta   ) \ , . }
+{ \displaystyle   \kappa   _ { n } = A ^ { ( n ) } ( \theta   ) \ , . }
+X _ { 1 } , \ldots   , X _ { n }
+\sum   _ { i = 1 } ^ { n } X _ { i } \ ,
+{ \displaystyle   \operatorname   { V a r }   ( X ) = V ( \mu   ) . }
+{ \displaystyle   X \sim   \operatorname   { N E F }   [ \mu   , V ( \mu   ) ] . }
+{ \displaystyle   \operatorname   { E }   [ X ] = \nabla   A ( { \boldsymbol   { \theta   } } ) { \text {   a n d   } } \operatorname   { C o v }   [ X ] = \nabla   \nabla   ^ { \rm   { T } } A ( { \boldsymbol   { \theta   } } ) \ , , }
+\nabla  
+\nabla   \nabla   ^ { \rm   { T } }
+{ \displaystyle   \operatorname   { V a r }   ( X ) = V ( \mu   ) = \nu   _ { 0 } + \nu   _ { 1 } \mu   + \nu   _ { 2 } \mu   ^ { 2 } . }
+{ \displaystyle   X \sim   N ( \mu   , \sigma   ^ { 2 } ) }
+{ \displaystyle   \operatorname   { V a r }   ( X ) = V ( \mu   ) = \sigma   ^ { 2 } }
+{ \displaystyle   X \sim   \operatorname   { P o i s s o n }   ( \mu   ) }
+{ \displaystyle   \operatorname   { V a r }   ( X ) = V ( \mu   ) = \mu   }
+{ \displaystyle   X \sim   \operatorname   { G a m m a }   ( r , \lambda   ) }
+\mu   = r \lambda  
+{ \displaystyle   \operatorname   { V a r }   ( X ) = V ( \mu   ) = \mu   ^ { 2 } / r }
+{ \displaystyle   X \sim   \operatorname   { B i n o m i a l }   ( n , p ) }
+\mu   = n p
+{ \displaystyle   \operatorname   { V a r }   ( X ) = n p ( 1 - p ) }
+V ( X ) = - n p ^ { 2 } + n p = - \mu   ^ { 2 } / n + \mu   .
+{ \displaystyle   X \sim   \operatorname   { N e g B i n }   ( n , p ) }
+\mu   = n p / ( 1 - p )
+V ( \mu   ) = \mu   ^ { 2 } / n + \mu   .
+V ( \mu   ) = \mu   ^ { 2 } / n + n
+\mu   > 0 .
+X _ { 1 } , \ldots   , X _ { n }
+Y = \sum   _ { i = 1 } ^ { n } ( X _ { i } - b ) / c \ ,
+\mu   ^ { * } = n ( \mu   - b ) / c \ ,
+{ \displaystyle   \operatorname   { V a r }   ( X ) = V ( \mu   ) = \nu   _ { 0 } + \nu   _ { 1 } \mu   + \nu   _ { 2 } \mu   ^ { 2 } , }
+{ \displaystyle   \operatorname   { V a r }   ( Y ) = V ^ { * } ( \mu   ^ { * } ) = \nu   _ { 0 } ^ { * } + \nu   _ { 1 } ^ { * } \mu   + \nu   _ { 2 } ^ { * } \mu   ^ { 2 } , }
+\nu   _ { 0 } ^ { * } = n V ( b ) / c ^ { 2 } \ , ,
+\nu   _ { 1 } ^ { * } = V ' ( b ) / c \ , ,
+\nu   _ { 2 } ^ { * } / n = \nu   _ { 2 } / n \ , .
+X _ { 1 }
+X _ { 2 }
+Y = X _ { 1 } + X _ { 2 }
+X _ { 1 }
+{ \displaystyle   f ( X _ { 1 } \mid   Y ) }
+X _ { 1 }
+X _ { 2 }
+{ \displaystyle   f ( X _ { 1 } \mid   Y ) }
+{ \displaystyle   X \mid   \mu   }

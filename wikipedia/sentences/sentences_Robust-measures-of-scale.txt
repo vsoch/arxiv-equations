@@ -1,0 +1,7 @@
+\sigma  
+{ \displaystyle   \sigma   \approx   1 . 4 8 2 6 \ \operatorname   { M A D }   }
+{ \begin { a l i g n e d } S _ { n } & : = 1 . 1 9 2 6 \,\operatorname   { m e d } _ { i } \left ( \operatorname   { m e d } _ { j } ( \,\left | x _ { i } - x _ { j } \right | \,)\right ) , \\Q_ { n } & : = c _ { n } { \text { f i r s t   q u a r t i l e   o f } } \left ( \left | x _ { i } - x _ { j } \right | : i < j \right ) , \end { a l i g n e d } }
+c _ { n }
+n
+{ \frac     { n * \sum   _ { { i = 1 } } ^ { n } ( x _ { i } - Q ) ^ { 2 } ( 1 - u _ { i } ^ { 2 } ) ^ { 4 } I ( | u _ { i } | < 1 ) } { ( \sum   _ { i } ( 1 - u _ { i } ^ { 2 } ) ( 1 - 5 u _ { i } ^ { 2 } ) I ( | u _ { i } | < 1 ) ) ^ { 2 } } } ,
+u _ { i } = { \frac     { x _ { i } - Q } { 9 \cdot   { { \rm   { M A D } } } } } .

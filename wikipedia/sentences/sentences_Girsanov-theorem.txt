@@ -1,0 +1,30 @@
+\{ W _ { t } \ }
+\{ \Omega   , { \mathcal   { F } } , P \ }
+X _ { t }
+\{ { \mathcal   { F } } _ { t } ^ { W } \ }
+X _ { 0 } = 0
+{ \mathcal   { E } } ( X ) _ { t }
+{ \mathcal   { E } } ( X ) _ { t } = \exp   \left ( X _ { t } - { \frac   { 1 } { 2 } } [ X ] _ { t } \right ) ,
+{ \displaystyle   [ X ] _ { t } }
+X _ { t }
+{ \mathcal   { E } } ( X ) _ { t }
+\{ \Omega   , { \mathcal   { F } } \ }
+{ \displaystyle   { \frac   { d Q } { d P } } { \bigg   | } _ { { \mathcal   { F } } _ { t } } = { \mathcal   { E } } ( X ) _ { t } }
+{ \mathcal   { F } } _ { t } ^ { W }
+{ \mathcal   { F } } _ { t } ^ { W }
+{ \tilde   { Y } } _ { t } = Y _ { t } - \left [ Y , X \right ] _ { t }
+\{ \Omega   , F , Q , \{ F _ { t } ^ { W } \ } \ }
+{ \tilde   { W } } _ { t } = W _ { t } - \left [ W , X \right ] _ { t }
+{ \tilde   { W } } _ { t }
+\left [ { \tilde   { W } } \right ] _ { t } = \left [ W _ { t } , W _ { t } \right ] - 2 \left [ W _ { t } , [ W , X ] _ { t } \right ] + \left [ [ W , X ] _ { t } , [ W , X ] _ { t } \right ] = \left [ W \right ] _ { t } = t
+X _ { t } = \int   _ { 0 } ^ { t } Y _ { s } \,dW_ { s } .
+{ \mathcal   { E } } ( X )
+E _ { P } \left [ \exp   \left ( { \frac   { 1 } { 2 } } \int   _ { 0 } ^ { T } Y _ { s } ^ { 2 } \,ds \right ) \right ] < \infty   .
+{ \mathcal   { E } } ( X )
+Z _ { t } = 1 + \int   _ { 0 } ^ { t } Z _ { s } \,dX_ { s } . \ ,
+{ \mathcal   { F } } _ { \infty   }
+\lambda   \neq   0
+{ \frac   { d Q } { d P } } = { \mathcal   { E } } \left ( \int   _ { 0 } ^ { \cdot   } { \frac   { r - \mu   } { \sigma   } } \,dW_ { s } \right )
+r
+\mu  
+\sigma  

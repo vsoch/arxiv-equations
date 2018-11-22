@@ -1,0 +1,41 @@
+X = \{ X _ { t } : t \geq   0 \ }
+X _ { 0 } = 0 \ ,
+0 \leq   t _ { 1 } < t _ { 2 } < \cdots   < t _ { n } < \infty  
+X _ { t _ { 2 } } - X _ { t _ { 1 } } , X _ { t _ { 3 } } - X _ { t _ { 2 } } , \dots   , X _ { t _ { n } } - X _ { t _ { n - 1 } }
+s < t \ ,
+X _ { t } - X _ { s } \ ,
+X _ { t - s } . \ ,
+\epsilon   > 0
+t \geq   0
+\lim   _ { h \rightarrow   0 } P ( | X _ { t + h } - X _ { t } | > \epsilon   ) = 0
+X
+X
+t \mapsto   X _ { t }
+X
+X
+F
+X
+X _ { 1 }
+F
+\mu   _ { n } ( t ) = E ( X _ { t } ^ { n } )
+\mu   _ { n } ( t + s ) = \sum   _ { k = 0 } ^ { n } { n   \choose   k } \mu   _ { k } ( t ) \mu   _ { n - k } ( s ) .
+X = ( X _ { t } ) _ { t \geq   0 }
+\phi   _ { X } ( \theta   )
+{ \displaystyle   \phi   _ { X } ( \theta   ) ( t ) : = \mathbb   { E }   \left [ e ^ { i \theta   X ( t ) } \right ] = \exp   { \left ( t \left ( a i \theta   - { \frac   { 1 } { 2 } } \sigma   ^ { 2 } \theta   ^ { 2 } + \int   _ { \{ 0 \}^ { \mathsf   { c } } } { \left ( e ^ { i \theta   x } - 1 - i \theta   x \mathbf   { I }   _ { | x | < 1 } \right ) \,\Pi   ( d x ) } \right ) \right ) } }
+a \in   \mathbb   { R }  
+\sigma   \geq   0
+\Pi  
+X
+{ \displaystyle   \int   _ { \{ 0 \}^ { \mathsf   { c } } } { ( 1 \wedge   x ^ { 2 } ) \,\Pi   ( d x ) } < \infty   . }
+\mathbf   { I }  
+\mathbb   { R }  
+( a , \sigma   ^ { 2 } , \Pi   )
+{ \displaystyle   \nu   = { \frac   { \Pi   | _ { ( - 1 , 1 ) ^ { \mathsf   { c } } } } { \Pi   ( ( - 1 , 1 ) ^ { \mathsf   { c } } ) } } }
+\Pi  
+{ \displaystyle   \mathbb   { R }   \setminus   ( - 1 , 1 ) }
+{ \displaystyle   \mu   = \Pi   | _ { ( - 1 , 1 ) \setminus   \{ 0 \ } } }
+{ \displaystyle   \int   _ { \{ 0 \}^ { \mathsf   { c } } } { \left ( e ^ { i \theta   x } - 1 - i \theta   x \mathbf   { I }   _ { | x | < 1 } \right ) \,\Pi   ( d x ) } = \Pi   ( ( - 1 , 1 ) ^ { \mathsf   { c } } ) \int   _ { \mathbb   { R }   } { ( e ^ { i \theta   x } - 1 ) \,\nu   ( d x ) } + \int   _ { \mathbb   { R }   } { ( e ^ { i \theta   x } - 1 - i \theta   x ) \,\mu   ( d x ) } }
+{ \displaystyle   \Pi   ( ( - 1 , 1 ) ^ { \mathsf   { c } } ) }
+\nu  
+1
+{ \displaystyle   \int   _ { \mathbb   { R }   } { | x | \,\mu   ( d x ) } < \infty   }

@@ -1,0 +1,6 @@
+{ \displaystyle   { \hat   { \theta   } } = T ( { \hat   { F } } _ { n } ) \ , , }
+{ \displaystyle   T ( F _ { \theta   } ) = \theta   \ , . }
+{ \displaystyle   T \left ( \lim   _ { n \rightarrow   \infty   } { \hat   { F } } _ { n } \right ) = \theta   . \ , }
+{ \displaystyle   n ^ { - 1 } \sum   _ { i = 1 } ^ { n } \sum   _ { j = 1 } ^ { m } I ( X _ { i } = Z _ { j } ) Z _ { j } , }
+{ \displaystyle   n ^ { - 1 } \sum   _ { i = 1 } ^ { n } \sum   _ { j = 1 } ^ { m } p _ { j } Z _ { j } = n ^ { - 1 } \sum   _ { i = 1 } ^ { n } \mu   = \mu   , }
+{ \displaystyle   E \left [ { \frac   { d \ln   L } { d b } } \right ] = 0 { \text {   a t   } } b = b _ { 0 } , \ , }

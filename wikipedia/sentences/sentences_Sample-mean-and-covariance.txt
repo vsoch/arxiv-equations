@@ -1,0 +1,38 @@
+x _ { i j }
+\mathbf   { x }   _ { i }
+\mathbf   { \bar   { x } }  
+\bar { x } _ { j }
+  \bar { x } _ { j } = \frac { 1 } { N } \sum_ { i = 1 } ^ { N } x _ { i j } , \quad   j = 1 , \ldots , K .  
+{ \displaystyle   \mathbf   { \bar   { x } }   = { \frac   { 1 } { N } } \sum   _ { i = 1 } ^ { N } \mathbf   { x }   _ { i } = { \begin { b m a t r i x } { \bar   { x } } _ { 1 } \\\vdots   \\{ \bar   { x } } _ { j } \\\vdots   \\{ \bar   { x } } _ { K } \end { b m a t r i x } } }
+\textstyle   \mathbf { Q } = \left [     q _ { j k } \right ]    
+  q _ { j k } = \frac { 1 } { N - 1 } \sum_ { i = 1 } ^ { N } \left (     x _ { i j } - \bar { x } _ j   \right )     \left (   x _ { i k } - \bar { x } _ k   \right ) ,  
+q _ { j k }
+{ \displaystyle   \mathbf   { Q }   = { 1   \over   { N - 1 } } \sum   _ { i = 1 } ^ { N } ( \mathbf   { x }   _ { i } . - \mathbf   { \bar   { x } }   ) ( \mathbf   { x }   _ { i } . - \mathbf   { \bar   { x } }   ) ^ { \mathrm   { T }   } , }
+\mathbf { F }   =   \begin { b m a t r i x } \mathbf { x } _ 1   &   \mathbf { x } _ 2   &   \dots   &   \mathbf { x } _ N   \end { b m a t r i x }
+\mathbf { Q }   =   \frac { 1 } { N - 1 } (   \mathbf { F }   -   \mathbf { \bar { x } }   \,\mathbf { 1 } _ N ^ \mathrm { T }   )   (   \mathbf { F }   -   \mathbf { \bar { x } }   \,\mathbf { 1 } _ N ^ \mathrm { T }   ) ^ \mathrm { T }
+\mathbf { 1 } _ N
+\mathbf   { \bar   { x } }  
+\mathbf { M } = \mathbf { F } ^ \mathrm { T }
+{ \displaystyle   \mathbf   { Q }   = { \frac   { 1 } { N - 1 } } ( \mathbf   { M }   - \mathbf   { 1 }   _ { N } \mathbf   { { \bar   { x } } ^ { \mathrm   { T }   } }   ) ^ { \mathrm   { T }   } ( \mathbf   { M }   - \mathbf   { 1 }   _ { N } \mathbf   { { \bar   { x } } ^ { \mathrm   { T }   } }   ) . }
+\mathbf   { A }  
+{ \displaystyle   \mathbf   { A }   ^ { T } \mathbf   { A }   }
+{ \displaystyle   \mathbf   { x }   _ { i } . - \mathbf   { \bar   { x } }   }
+\textstyle   \mathbf   { X }  
+\textstyle   N - 1
+\textstyle   N
+\operatorname { E } ( \mathbf { X } )
+  q _ { j k } = \frac { 1 } { N } \sum_ { i = 1 } ^ N   \left (     x _ { i j } - \operatorname { E } ( X _ j ) \right )     \left (   x _ { i k } - \operatorname { E } ( X _ k ) \right ) ,  
+\textstyle   N
+  q _ { j k } = \frac { 1 } { N } \sum_ { i = 1 } ^ N   \left (     x _ { i j } - \bar { x } _ j   \right )     \left (   x _ { i k } - \bar { x } _ k   \right )  
+E ( X _ j )
+  \frac { \sigma ^ 2 _ j } { N } ,
+\sigma ^ 2 _ j
+\textstyle   { \textbf   { x } } _ { i }
+\textstyle   w _ { i } \geq   0
+\sum   _ { i = 1 } ^ { N } w _ { i } = 1 .
+\textstyle   \mathbf { \bar { x } }
+  \mathbf { \bar { x } } = \sum_ { i = 1 } ^ N   w _ i   \mathbf { x } _ i .
+q _ { j k }
+\textstyle   \mathbf { Q }
+{ \displaystyle   q _ { j k } = { \frac   { 1 } { 1 - \sum   _ { i = 1 } ^ { N } w _ { i } ^ { 2 } } } \sum   _ { i = 1 } ^ { N } w _ { i } \left ( x _ { i j } - { \bar   { x } } _ { j } \right ) \left ( x _ { i k } - { \bar   { x } } _ { k } \right ) . }
+\textstyle   w _ { i } = 1 / N

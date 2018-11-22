@@ -1,0 +1,15 @@
+{ \displaystyle   F _ { i j } = G * M _ { i } * M _ { j } / { D _ { i j } } }
+{ \displaystyle   F _ { i j } = G { \frac   { M _ { i } ^ { \beta   _ { 1 } } M _ { j } ^ { \beta   _ { 2 } } } { D _ { i j } ^ { \beta   _ { 3 } } } } \eta   _ { i j } }
+F _ { i j }
+i
+j
+M _ { i }
+M _ j
+i
+j
+D _ { i j }
+\eta  
+\beta   _ { 0 }
+{ \displaystyle   \ln ( F _ { i j } ) = \beta   _ { 0 } + \beta   _ { 1 } \ln ( M _ { i } ) + \beta   _ { 2 } \ln ( M _ { j } ) - \beta   _ { 3 } \ln ( D _ { i j } ) + \varepsilon   _ { i j } . }
+F _ { i j }
+{ \displaystyle   F _ { i j } = \exp [ \beta   _ { 0 } + \beta   _ { 1 } \ln ( M _ { i } ) + \beta   _ { 2 } \ln ( M _ { j } ) - \beta   _ { 3 } \ln ( D _ { i j } ) ] \eta   _ { i j } , }

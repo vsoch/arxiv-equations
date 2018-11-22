@@ -1,0 +1,36 @@
+\Omega  
+E \in   \Gamma   = [ E _ { \min   } , E _ { \max   } ]
+\rho   ( E )
+{ \displaystyle   { \hat   { \rho   } } ( E ) \equiv   \exp ( S ( E ) ) }
+\Gamma  
+\Delta  
+{ \displaystyle   N = { \frac   { E _ { \max   } - E _ { \min   } } { \Delta   } } }
+S ( E _ { i } ) = 0 \ \ i = 1 , 2 , . . . , N
+f = 1
+{ \boldsymbol     { r } } \in   \Omega  
+{ \displaystyle   P ( { \boldsymbol   { r } } ) = 1 / { \hat   { \rho   } } ( E ( { \boldsymbol   { r } } ) ) = \exp ( - S ( E ( { \boldsymbol   { r } } ) ) ) }
+g ( { \boldsymbol     { r } } \rightarrow   { \boldsymbol     { r } } ' )
+H ( E )
+{ \boldsymbol     { r } } ' \in   \Omega  
+g ( { \boldsymbol     { r } } \rightarrow   { \boldsymbol     { r } } ' )
+A ( { \boldsymbol     { r } } \rightarrow   { \boldsymbol     { r } } ' ) = \min   \left ( 1 , e ^ { { S - S ' } } { \frac     { g ( { \boldsymbol     { r } } ' \rightarrow   { \boldsymbol     { r } } ) } { g ( { \boldsymbol     { r } } \rightarrow   { \boldsymbol     { r } } ' ) } } \right )
+S = S ( E ( { \boldsymbol     { r } } ) )
+S ' = S ( E ( { \boldsymbol     { r } } ' ) )
+E _ { i }
+H ( E _ { i } )
+S ( E _ { i } ) \leftarrow   S ( E _ { i } ) + f
+E _ { i }
+H ( E )
+f \leftarrow   f / 2
+1 / t
+t
+E ( x ) = x ^ { 2 } , \ ,
+{ \displaystyle   \rho   ( E ) = \int   \delta   ( E ( x ) - E ) \,dx = \int   \delta   ( x ^ { 2 } - E ) \,dx , }
+{ \displaystyle   \rho   ( E ) \propto   { \begin { c a s e s } E ^ { - 1 / 2 } , { \text { f o r   } } x \in   \mathbb   { R }   ^ { 1 } \\{ \text { c o n s t } } , { \text { f o r   } } x \in   \mathbb   { R }   ^ { 2 } \\E ^ { 1 / 2 } , { \text { f o r   } } x \in   \mathbb   { R }   ^ { 3 } \\\end { c a s e s } } }
+{ \displaystyle   { \hat   { \rho   } } ( E ) }
+\rho   ( E )
+{ \displaystyle   g ( { \boldsymbol   { x } } ' \rightarrow   { \boldsymbol   { x } } ) = g ( { \boldsymbol   { x } } \rightarrow   { \boldsymbol   { x } } ' ) }
+{ \displaystyle   T ' ( E ) \rightarrow   { \dfrac   { \partial   S ( E ) } { \partial   E } } \cdot   T ( E ) , }
+S ( E )
+T ( E )
+T ' ( E )

@@ -1,0 +1,23 @@
+\varepsilon  
+{ \displaystyle   \mathbb   { P }   \left ( \left | { \frac   { 1 } { n } } \sum   _ { i = 1 } ^ { n } X _ { i } \right | > \varepsilon   \right ) \leq   2 \exp   \left ( - { \frac   { n \varepsilon   ^ { 2 } } { 2 ( 1 + { \frac   { \varepsilon   } { 3 } } ) } } \right ) . }
+X _ 1 ,   \ldots ,   X _ n
+{ \displaystyle   | X _ { i } | \leq   M }
+i .
+t
+{ \displaystyle   \mathbb   { P }   \left ( \sum   _ { i = 1 } ^ { n } X _ { i } > t \right ) \leq   \exp   \left ( - { \frac   { { \tfrac   { 1 } { 2 } } t ^ { 2 } } { \sum   \mathbb   { E }   \left [ X _ { j } ^ { 2 } \right ] + { \tfrac   { 1 } { 3 } } M t } } \right ) . }
+X _ 1 ,   \ldots ,   X _ n
+L
+k > 1
+{ \displaystyle   \mathbb   { E }   \left [ \left | X _ { i } ^ { k } \right | \right ] \leq   { \frac   { 1 } { 2 } } \mathbb   { E }   \left [ X _ { i } ^ { 2 } \right ] L ^ { k - 2 } k ! }
+{ \displaystyle   \mathbb   { P }   \left ( \sum   _ { i = 1 } ^ { n } X _ { i } \geq   2 t { \sqrt   { \sum   \mathbb   { E }   \left [ X _ { i } ^ { 2 } \right ] } } \right ) < \exp ( - t ^ { 2 } ) , \qquad   { \text { f o r } } \quad   0 < t \leq   { \frac   { 1 } { 2 L } } { \sqrt   { \sum   \mathbb   { E }   \left [ X _ { j } ^ { 2 } \right ] } } . }
+X _ 1 ,   \ldots ,   X _ n
+{ \displaystyle   \mathbb   { E }   \left [ \left | X _ { i } ^ { k } \right | \right ] \leq   { \frac   { k ! } { 4 ! } } \left ( { \frac   { L } { 5 } } \right ) ^ { k - 4 } }
+{ \displaystyle   k > 3 . }
+{ \displaystyle   A _ { k } = \sum   \mathbb   { E }   \left [ X _ { i } ^ { k } \right ] . }
+{ \displaystyle   \mathbb   { P }   \left ( \left | \sum   _ { j = 1 } ^ { n } X _ { j } - { \frac   { A _ { 3 } t ^ { 2 } } { 3 A _ { 2 } } } \right | \geq   { \sqrt   { 2 A _ { 2 } } } \,t \left [ 1 + { \frac   { A _ { 4 } t ^ { 2 } } { 6 A _ { 2 } ^ { 2 } } } \right ] \right ) < 2 \exp ( - t ^ { 2 } ) , \qquad   { \text { f o r } } \quad   0 < t \leq   { \frac   { 5 { \sqrt   { 2 A _ { 2 } } } } { 4 L } } . }
+X _ 1 ,   \ldots ,   X _ n
+i > 0
+{ \displaystyle   { \begin { a l i g n e d } \mathbb   { E }   \left . \left [ X _ { i } \right | X _ { 1 } , \ldots   , X _ { i - 1 } \right ] & = 0 , \\\mathbb   { E }   \left . \left [ X _ { i } ^ { 2 } \right | X _ { 1 } , \ldots   , X _ { i - 1 } \right ] & \leq   R _ { i } \mathbb   { E }   \left [ X _ { i } ^ { 2 } \right ] , \\\mathbb   { E }   \left . \left [ X _ { i } ^ { k } \right | X _ { 1 } , \ldots   , X _ { i - 1 } \right ] & \leq   { \tfrac   { 1 } { 2 } } \mathbb   { E }   \left . \left [ X _ { i } ^ { 2 } \right | X _ { 1 } , \ldots   , X _ { i - 1 } \right ] L ^ { k - 2 } k ! \end { a l i g n e d } } }
+{ \displaystyle   \mathbb   { P }   \left ( \sum   _ { i = 1 } ^ { n } X _ { i } \geq   2 t { \sqrt   { \sum   _ { i = 1 } ^ { n } R _ { i } \mathbb   { E }   \left [ X _ { i } ^ { 2 } \right ] } } \right ) < \exp ( - t ^ { 2 } ) , \qquad   { \text { f o r } } \quad   0 < t \leq   { \frac   { 1 } { 2 L } } { \sqrt   { \sum   _ { i = 1 } ^ { n } R _ { i } \mathbb   { E }   \left [ X _ { i } ^ { 2 } \right ] } } . }
+\exp   \left ( \lambda   \sum   _ { { j = 1 } } ^ { n } X _ { j } \right ) ,
+\lambda   > 0

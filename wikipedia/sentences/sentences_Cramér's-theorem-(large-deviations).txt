@@ -1,0 +1,11 @@
+{ \displaystyle   \Lambda   ( t ) = \log   \operatorname   { E }   [ \exp ( t X _ { 1 } ) ] . }
+{ \displaystyle   X _ { 1 } , X _ { 2 } , \dots   }
+{ \displaystyle   \Lambda   ( t ) < \infty   }
+{ \displaystyle   t \in   \mathbb   { R }   }
+\Lambda  
+{ \displaystyle   \Lambda   ^ { * } ( x ) : = \sup   _ { t \in   \mathbb   { R }   } \left ( t x - \Lambda   ( t ) \right ) }
+{ \displaystyle   \lim   _ { n \to   \infty   } { \frac   { 1 } { n } } \log   \left ( P \left ( \sum   _ { i = 1 } ^ { n } X _ { i } \geq   n x \right ) \right ) = - \Lambda   ^ { * } ( x ) }
+{ \displaystyle   x > \operatorname   { E }   [ X _ { 1 } ] . }
+{ \displaystyle   X _ { 1 } , X _ { 2 } , \dots   }
+{ \displaystyle   \left ( { \mathcal   { L } } ( { \tfrac   { 1 } { n } } \sum   _ { i = 1 } ^ { n } X _ { i } ) \right ) _ { n \in   \mathbb   { N }   } }
+{ \displaystyle   \Lambda   ^ { * } }

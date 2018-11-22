@@ -1,0 +1,9 @@
+f ( y ; \alpha   , \lambda   , y _ { 0 } ) = { \frac     { n } { \cosh [ \alpha   ( y - y _ { 0 } ) ] + \lambda   } } , \qquad   - \infty   < y < \infty   ,
+\alpha   , \lambda   , y _ { 0 }
+f ( y ) = { \frac     { n } { 1 / 2 e ^ { { \alpha   ( y - y _ { 0 } ) } } + \lambda   + 1 / 2 e ^ { { - \alpha   ( y - y _ { 0 } ) } } } } ,
+\cosh   y = ( e ^ { y } + e ^ { { - y } } ) / 2 .
+\lambda   = 1
+y _ { 0 } = 0 , \alpha   = 1 , \lambda   = 1
+f ( y ) = { \frac     { 1 } { e ^ { y } + 2 + e ^ { { - y } } } } = { \frac     { e ^ { y } } { ( 1 + e ^ { y } ) ^ { 2 } } } ,
+f ( x ) = { \frac     { n } { x [ 1 / 2 ( x / x _ { 0 } ) ^ { { - \alpha   } } + \lambda   + a / 2 ( x / x _ { 0 } ) ^ { \alpha   } ] } } , \qquad   x > 0 ,
+f ( x ) = { \frac     { \alpha   x ^ { { \alpha   - 1 } } } { x _ { 0 } ^ { \alpha   } [ 1 + ( x / x _ { 0 } ) ^ { \alpha   } ] ^ { 2 } } } , \qquad   x > 0 .

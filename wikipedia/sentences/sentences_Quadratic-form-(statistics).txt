@@ -1,0 +1,48 @@
+\varepsilon  
+n
+\Lambda  
+n
+{ \displaystyle   \varepsilon   ^ { T } \Lambda   \varepsilon   }
+\varepsilon  
+{ \displaystyle   \operatorname   { E }   \left [ \varepsilon   ^ { T } \Lambda   \varepsilon   \right ] = \operatorname   { t r }   \left [ \Lambda   \Sigma   \right ] + \mu   ^ { T } \Lambda   \mu   }
+\mu  
+\Sigma  
+\varepsilon  
+\mu  
+\Sigma  
+\varepsilon  
+{ \displaystyle   \varepsilon   ^ { T } \Lambda   \varepsilon   = \operatorname   { t r }   ( \varepsilon   ^ { T } \Lambda   \varepsilon   ) }
+{ \displaystyle   \operatorname   { E }   [ \operatorname   { t r }   ( \varepsilon   ^ { T } \Lambda   \varepsilon   ) ] = \operatorname   { E }   [ \operatorname   { t r }   ( \Lambda   \varepsilon   \varepsilon   ^ { T } ) ] . }
+{ \displaystyle   \operatorname   { E }   [ \operatorname   { t r }   ( \Lambda   \varepsilon   \varepsilon   ^ { T } ) ] = \operatorname   { t r }   ( \Lambda   \operatorname   { E }   ( \varepsilon   \varepsilon   ^ { T } ) ) . }
+{ \displaystyle   \operatorname   { t r }   ( \Lambda   ( \Sigma   + \mu   \mu   ^ { T } ) ) . }
+{ \displaystyle   \operatorname   { t r }   ( \Lambda   \Sigma   ) + \operatorname   { t r }   ( \Lambda   \mu   \mu   ^ { T } ) = \operatorname   { t r }   ( \Lambda   \Sigma   ) + \operatorname   { t r }   ( \mu   ^ { T } \Lambda   \mu   ) = \operatorname   { t r }   ( \Lambda   \Sigma   ) + \mu   ^ { T } \Lambda   \mu   . }
+\varepsilon  
+\varepsilon  
+\Lambda  
+{ \displaystyle   \operatorname   { v a r }   \left [ \varepsilon   ^ { T } \Lambda   \varepsilon   \right ] = 2 \operatorname   { t r }   \left [ \Lambda   \Sigma   \Lambda   \Sigma   \right ] + 4 \mu   ^ { T } \Lambda   \Sigma   \Lambda   \mu   }
+\varepsilon  
+\Lambda   _ { 1 }
+\Lambda   _ { 2 }
+{ \displaystyle   \operatorname   { c o v }   \left [ \varepsilon   ^ { T } \Lambda   _ { 1 } \varepsilon   , \varepsilon   ^ { T } \Lambda   _ { 2 } \varepsilon   \right ] = 2 \operatorname   { t r }   \left [ \Lambda   _ { 1 } \Sigma   \Lambda   _ { 2 } \Sigma   \right ] + 4 \mu   ^ { T } \Lambda   _ { 1 } \Sigma   \Lambda   _ { 2 } \mu   }
+\Lambda  
+\Lambda  
+{ \displaystyle   \varepsilon   ^ { T } \Lambda   ^ { T } \varepsilon   = \varepsilon   ^ { T } \Lambda   \varepsilon   }
+{ \displaystyle   \varepsilon   ^ { T } { \tilde   { \Lambda   } } \varepsilon   = \varepsilon   ^ { T } \left ( \Lambda   + \Lambda   ^ { T } \right ) \varepsilon   / 2 }
+{ \tilde     { \Lambda   } } = \left ( \Lambda   + \Lambda   ^ { T } \right ) / 2
+\Lambda  
+{ \tilde     { \Lambda   } }
+y
+H
+y
+{ \displaystyle   { \textrm   { R S S } } = y ^ { T } ( I - H ) ^ { T } ( I - H ) y . }
+H
+\sigma   ^ { 2 } I
+{ \textrm     { R S S } } / \sigma   ^ { 2 }
+k
+\lambda  
+{ \displaystyle   k = \operatorname   { t r }   \left [ ( I - H ) ^ { T } ( I - H ) \right ] }
+{ \displaystyle   \lambda   = \mu   ^ { T } ( I - H ) ^ { T } ( I - H ) \mu   / 2 }
+H y
+\mu  
+\lambda  
+{ \textrm     { R S S } } / \sigma   ^ { 2 }

@@ -1,0 +1,3 @@
+{ \displaystyle   { \text { P o p u l a t i o n } } _ { t + 1 } = { \text { P o p u l a t i o n } } _ { t } + { \text { N a t u r a l   I n c r e a s e } } _ { t } + { \text { N e t   M i g r a t i o n } } _ { t } }
+{ \displaystyle   { \text { N a t u r a l   I n c r e a s e } } _ { t } = { \text { B i r t h s } } _ { t } - { \text { D e a t h s } } _ { t } }
+{ \displaystyle   { \text { N e t   M i g r a t i o n } } _ { t } = { \text { I m m i g r a t i o n } } _ { t } - { \text { E m i g r a t i o n } } _ { t } }

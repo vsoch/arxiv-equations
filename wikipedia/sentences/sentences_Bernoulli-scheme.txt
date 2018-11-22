@@ -1,0 +1,33 @@
+p _ { i }
+\sum   _ { { i = 1 } } ^ { N } p _ { i } = 1 .
+X = \{ 1 , \ldots   , N \}^ { { \mathbb     { Z } } }
+X = \{ x = ( \ldots   , x _ { { - 1 } } , x _ { 0 } , x _ { 1 } , \ldots   ) : x _ { k } \in   \{ 1 , \ldots   , N \}\;\forall   k \in   { \mathbb     { Z } } \ } .
+\mu   = \{ p _ { 1 } , \ldots   , p _ { N } \}^ { { \mathbb     { Z } } }
+{ \mathcal   { A } }
+( X , { \mathcal     { A } } , \mu   )
+{ \mathcal   { A } }
+[ x _ { 0 } , x _ { 1 } , \ldots   , x _ { n } ]
+\mu   \left ( [ x _ { 0 } , x _ { 1 } , \ldots   , x _ { n } ] \right ) = \prod   _ { { i = 0 } } ^ { n } p _ { { x _ { i } } }
+\mu   \left ( [ x _ { 0 } , x _ { 1 } , \ldots   , x _ { n } ] \right ) = { \mathrm     { P r } } ( X _ { 0 } = x _ { 0 } , X _ { 1 } = x _ { 1 } , \ldots   , X _ { n } = x _ { n } )
+\{ X _ { k } \ }
+{ \displaystyle   ( T x ) _ { k } = x _ { k + 1 } . }
+( X , { \mathcal     { A } } , \mu   , T )
+B S ( p ) = B S ( p _ { 1 } , \ldots   , p _ { N } ) .
+( Y , { \mathcal     { B } } , \nu   )
+( X , { \mathcal     { A } } , \mu   ) = ( Y , { \mathcal     { B } } , \nu   ) ^ { { \mathbb     { Z } } }
+\mathbb   { Z }  
+G
+( X , { \mathcal     { A } } , \mu   ) = ( Y , { \mathcal     { B } } , \nu   ) ^ { G }
+g x ( f ) = x ( g ^ { { - 1 } } f )
+f , g \in   G
+x \in   Y ^ { G }
+x : G \to   Y
+Y ^ { G }
+[ G \to   Y ]
+\mu  
+\mu   ( g x ) = \mu   ( x ) . \ ,
+H = - \sum   _ { { i = 1 } } ^ { N } p _ { i } \log   p _ { i } .
+( Y , { \mathcal     { B } } , \nu   )
+Y ' \subset   Y
+\nu   ( Y ' ) = 1
+H _ { { Y ' } } = - \sum   _ { { y ' \in   Y ' } } \nu   ( y ' ) \log   \nu   ( y ' ) .

@@ -1,0 +1,41 @@
+U
+{ \displaystyle   f : U \rightarrow   \mathbb   { R }   }
+u \in   U
+F
+{ \displaystyle   z \in   [ 0 , \infty   ) }
+{ \displaystyle   f ( u ) = F ( z ) + e }
+e
+F
+T
+S
+{ \displaystyle   F _ { T } ( z ) = F _ { S } ( \rho   z ) }
+z
+\rho   > 0
+T
+{ \displaystyle   x = z ^ { \lambda   } }
+\lambda   > 0
+{ \displaystyle   x = \log ( z ) }
+{ \displaystyle   \lambda   \downarrow   0 }
+\lambda   = 0
+{ \displaystyle   F _ { T } ( x ) = F _ { S } ( \rho   ^ { \lambda   } x ) }
+x
+{ \displaystyle   { \hat   { F } } }
+F
+F
+F
+F
+F
+\rho  
+F
+\lambda   > 0
+F
+\lambda   = 0
+F
+\lambda   = 0
+e
+u
+f ( u )
+z
+{ \displaystyle   x = \log ( z ) }
+{ \displaystyle   \log ( { \hat   { \rho   } } ) }
+\rho  

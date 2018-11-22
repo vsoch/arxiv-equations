@@ -1,0 +1,11 @@
+y = \alpha   + \beta   x , \ ,
+\min   _ { \alpha   , \,\beta   } Q ( \alpha   , \beta   )
+Q ( \alpha   , \beta   ) = \sum   _ { i = 1 } ^ { n } { \hat   { \varepsilon   } } _ { i } ^ { \,2 } = \sum   _ { i = 1 } ^ { n } ( y _ { i } - \alpha   - \beta   x _ { i } ) ^ { 2 } \  
+{ \begin { a l i g n e d } & { \hat   { \beta   } } = { \frac   { \sum   _ { i = 1 } ^ { n } ( x _ { i } - { \bar   { x } } ) ( y _ { i } - { \bar   { y } } ) } { \sum   _ { i = 1 } ^ { n } ( x _ { i } - { \bar   { x } } ) ^ { 2 } } } = { \frac   { { \overline   { x y } } - { \bar   { x } } { \bar   { y } } } { { \overline   { x ^ { 2 } } } - { \bar   { x } } ^ { 2 } } } = { \frac   { \operatorname   { C o v }   [ x , y ] } { \operatorname   { V a r }   [ x ] } } = r _ { x y } { \frac   { s _ { y } } { s _ { x } } } , \\&{ \hat   { \alpha   } } = { \bar   { y } } - { \hat   { \beta   } } \,{ \bar   { x } } , \end { a l i g n e d } }
+{ \overline   { x y } } = { \tfrac   { 1 } { n } } \textstyle   \sum   _ { i = 1 } ^ { n } x _ { i } y _ { i } \   .
+{ \hat   { \alpha   } }
+{ \hat   { \beta   } }
+y = \alpha   + \beta   x , \ ,
+{ \hat   { y } } = { \hat   { \alpha   } } + { \hat   { \beta   } } x , \ ,
+{ \frac   { { \hat   { y } } - { \bar   { y } } } { s _ { y } } } = r _ { x y } { \frac   { x - { \bar   { x } } } { s _ { x } } }
+{ \displaystyle   { \frac   { E ( Y \mid   X ) - E [ Y ] } { \sigma   _ { y } } } = r { \frac   { X - E [ X ] } { \sigma   _ { x } } } , }

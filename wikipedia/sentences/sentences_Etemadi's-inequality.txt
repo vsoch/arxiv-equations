@@ -1,0 +1,3 @@
+S _ { { k } } = X _ { { 1 } } + \cdots   + X _ { { k } } . \ ,
+{ \displaystyle   \mathbb   { P }   { \Bigl   ( } \max   _ { 1 \leq   k \leq   n } | S _ { k } | \geq   3 \alpha   { \Bigr   ) } \leq   3 \max   _ { 1 \leq   k \leq   n } \mathbb   { P }   { \bigl   ( } | S _ { k } | \geq   \alpha   { \bigr   ) } . }
+{ \displaystyle   \mathbb   { P }   { \Bigl   ( } \max   _ { 1 \leq   k \leq   n } | S _ { k } | \geq   \alpha   { \Bigr   ) } \leq   { \frac   { 2 7 } { \alpha   ^ { 2 } } } \mathrm   { V a r }   ( S _ { n } ) . }

@@ -1,0 +1,100 @@
+X = ( x _ { 1 } , \dots   , x _ { n } ) '
+Y = ( y _ { 1 } , \dots   , y _ { m } ) '
+\Sigma   _ { X Y } = \operatorname   { c o v }   ( X , Y )
+n \times   m
+( i , j )
+\operatorname   { c o v }   ( x _ { i } , y _ { j } )
+X
+Y
+a
+a
+{ \displaystyle   \in   \mathbb   { R }   ^ { n } }
+b
+{ \displaystyle   b \in   \mathbb   { R }   ^ { m } }
+{ \displaystyle   a ' ^ { T } X }
+{ \displaystyle   b ' ^ { T } Y }
+{ \displaystyle   \rho   = \operatorname   { c o r r }   ( a ' ^ { T } X , b ' ^ { T } Y ) }
+{ \displaystyle   U = a ' ^ { T } X }
+{ \displaystyle   V = b ' ^ { T } Y }
+\min \{ m , n \ }
+{ \displaystyle   ( a ' , b ' ) = { \underset   { a , b } { \operatorname   { a r g m a x }   } } \operatorname   { c o r r }   ( a ^ { T } X , b ^ { T } Y ) }
+\Sigma   _ { X X } = \operatorname   { c o v }   ( X , X )
+\Sigma   _ { Y Y } = \operatorname   { c o v }   ( Y , Y )
+{ \displaystyle   \rho   = { \frac   { a ^ { T } \Sigma   _ { X Y } b } { { \sqrt   { a ^ { T } \Sigma   _ { X X } a } } { \sqrt   { b ^ { T } \Sigma   _ { Y Y } b } } } } . }
+c = \Sigma   _ { X X } ^ { 1 / 2 } a ,
+d = \Sigma   _ { Y Y } ^ { 1 / 2 } b .
+{ \displaystyle   \rho   = { \frac   { c ^ { T } \Sigma   _ { X X } ^ { - 1 / 2 } \Sigma   _ { X Y } \Sigma   _ { Y Y } ^ { - 1 / 2 } d } { { \sqrt   { c ^ { T } c } } { \sqrt   { d ^ { T } d } } } } . }
+{ \displaystyle   \left ( c ^ { T } \Sigma   _ { X X } ^ { - 1 / 2 } \Sigma   _ { X Y } \Sigma   _ { Y Y } ^ { - 1 / 2 } \right ) ( d ) \leq   \left ( c ^ { T } \Sigma   _ { X X } ^ { - 1 / 2 } \Sigma   _ { X Y } \Sigma   _ { Y Y } ^ { - 1 / 2 } \Sigma   _ { Y Y } ^ { - 1 / 2 } \Sigma   _ { Y X } \Sigma   _ { X X } ^ { - 1 / 2 } c \right ) ^ { 1 / 2 } \left ( d ^ { T } d \right ) ^ { 1 / 2 } , }
+{ \displaystyle   \rho   \leq   { \frac   { \left ( c ^ { T } \Sigma   _ { X X } ^ { - 1 / 2 } \Sigma   _ { X Y } \Sigma   _ { Y Y } ^ { - 1 } \Sigma   _ { Y X } \Sigma   _ { X X } ^ { - 1 / 2 } c \right ) ^ { 1 / 2 } } { \left ( c ^ { T } c \right ) ^ { 1 / 2 } } } . }
+d
+{ \displaystyle   \Sigma   _ { Y Y } ^ { - 1 / 2 } \Sigma   _ { Y X } \Sigma   _ { X X } ^ { - 1 / 2 } c }
+c
+{ \displaystyle   \Sigma   _ { X X } ^ { - 1 / 2 } \Sigma   _ { X Y } \Sigma   _ { Y Y } ^ { - 1 } \Sigma   _ { Y X } \Sigma   _ { X X } ^ { - 1 / 2 } }
+c
+{ \displaystyle   \Sigma   _ { X X } ^ { - 1 / 2 } \Sigma   _ { X Y } \Sigma   _ { Y Y } ^ { - 1 } \Sigma   _ { Y X } \Sigma   _ { X X } ^ { - 1 / 2 } }
+d
+{ \displaystyle   \Sigma   _ { Y Y } ^ { - 1 / 2 } \Sigma   _ { Y X } \Sigma   _ { X X } ^ { - 1 / 2 } c }
+d
+{ \displaystyle   \Sigma   _ { Y Y } ^ { - 1 / 2 } \Sigma   _ { Y X } \Sigma   _ { X X } ^ { - 1 } \Sigma   _ { X Y } \Sigma   _ { Y Y } ^ { - 1 / 2 } }
+c
+{ \displaystyle   \Sigma   _ { X X } ^ { - 1 / 2 } \Sigma   _ { X Y } \Sigma   _ { Y Y } ^ { - 1 / 2 } d }
+a
+{ \displaystyle   \Sigma   _ { X X } ^ { - 1 } \Sigma   _ { X Y } \Sigma   _ { Y Y } ^ { - 1 } \Sigma   _ { Y X } }
+b
+{ \displaystyle   \Sigma   _ { Y Y } ^ { - 1 } \Sigma   _ { Y X } a ; }
+b
+{ \displaystyle   \Sigma   _ { Y Y } ^ { - 1 } \Sigma   _ { Y X } \Sigma   _ { X X } ^ { - 1 } \Sigma   _ { X Y } , }
+a
+{ \displaystyle   \Sigma   _ { X X } ^ { - 1 } \Sigma   _ { X Y } b }
+{ \displaystyle   U = c ' \Sigma   _ { X X } ^ { - 1 / 2 } X = a ' X }
+{ \displaystyle   V = d ' \Sigma   _ { Y Y } ^ { - 1 / 2 } Y = b ' Y }
+i
+p
+{ \widehat   { \rho   } } _ { i }
+i = 1 , \dots   , \min \{ m , n \ }
+i
+{ \displaystyle   \chi   ^ { 2 } = - \left ( p - 1 - { \frac   { 1 } { 2 } } ( m + n + 1 ) \right ) \ln   \prod   _ { j = i } ^ { \min \{ m , n \}}( 1 - { \widehat   { \rho   } } _ { j } ^ { 2 } ) , }
+( m - i + 1 ) ( n - i + 1 )
+p
+\min \{ m , n \ }
+p
+X = x _ { 1 }
+\operatorname   { E }   ( X ) = 0
+Y = X
+X
+Y
+a = 1
+b = 1
+U = X
+V = Y = X
+Y = - X
+X
+Y
+a = 1
+b = - 1
+U = X
+V = - Y = X
+U = V
+X = ( x _ { 1 } , \dots   , x _ { n } ) '
+Y = ( y _ { 1 } , \dots   , y _ { m } ) '
+\operatorname   { E }   ( X ) = \operatorname   { E }   ( Y ) = 0
+\Sigma   _ { X X } = \operatorname   { C o v }   ( X , X ) = \operatorname   { E }   [ X X ' ]
+\Sigma   _ { Y Y } = \operatorname   { C o v }   ( Y , Y ) = \operatorname   { E }   [ Y Y ' ]
+X
+Y
+x _ { i }
+X
+y _ { j }
+Y
+\operatorname   { c o v }   ( x _ { i } , y _ { j } )
+U
+V
+X
+Y
+\operatorname   { c o r r }   ( U , V )
+X
+Y
+{ \displaystyle   X ^ { C C A } }
+{ \displaystyle   Y ^ { C C A } }
+{ \displaystyle   X ^ { C C A } }
+{ \displaystyle   Y ^ { C C A } }

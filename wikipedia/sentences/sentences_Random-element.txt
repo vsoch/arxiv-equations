@@ -1,0 +1,59 @@
+( \Omega   , { \mathcal   { F } } , P )
+( E , { \mathcal   { E } } )
+( { \mathcal   { F } } , { \mathcal   { E } } )
+B \in   { \mathcal   { E } }
+{ \mathcal   { F } }
+E
+E
+( E ,   \mathcal { E } ) = ( \mathbb { R } ,   \mathcal { B } ( \mathbb { R } ) )
+\mathbb   { R }  
+{ \mathcal   { B } } ( \mathbb   { R }   )
+X
+B
+\sigma  
+X :   \Omega   \rightarrow   B
+f   \circ   X
+X
+X \colon   \Omega   \to   \mathbb   { R }  
+\Omega  
+\mathbb   { R }  
+X
+X
+X
+X
+\mathbf   { X }   = ( X _ { 1 } , . . . , X _ { n } ) ^ { T }
+( \Omega   , { \mathcal   { F } } , P )
+\Omega  
+{ \mathcal   { F } }
+P
+( \Omega   , { \mathcal   { F } } , P )
+  \{   F _ t   :   t   \in   T   \ }
+F _ t
+P ( X _ i = x _ i | X _ j = x _ j ,   i \neq   j )   = P ( X _ i = x _ i | \partial_i ) ,   \ ,
+\partial   _ { i }
+  P ( X _ i = x _ i | \partial_i )   =   \frac { P ( \omega ) } { \sum_ { \omega ' } P ( \omega ' ) } ,    
+\mathfrak { B } ( X )
+M _ X
+\mathfrak { B } ( X )
+M _ X
+\mathfrak { B } ( M _ X )
+  \mu = \mu_d   +   \mu_a   =   \mu_d   +   \sum_ { n = 1 } ^ N   \kappa_n   \delta_ { X _ n } ,  
+\mu   _ { d }
+\mu_a
+( M , d )
+{ \mathcal   { K } }
+M
+h
+{ \mathcal   { K } }
+h ( K _ { 1 } , K _ { 2 } ) : = \max   \left \{ \sup   _ { a \in   K _ { 1 } } \inf   _ { b \in   K _ { 2 } } d ( a , b ) , \sup   _ { b \in   K _ { 2 } } \inf   _ { a \in   K _ { 1 } } d ( a , b ) \right \ } .
+( { \mathcal   { K } } , h )
+{ \mathcal   { K } }
+{ \mathcal   { B } } ( { \mathcal   { K } } )
+{ \mathcal   { K } }
+K
+( \Omega   , { \mathcal   { F } } , \mathbb   { P }   )
+( { \mathcal   { K } } , { \mathcal   { B } } ( { \mathcal   { K } } ) )
+K \colon   \Omega   \to   2 ^ { M }
+K ( \omega   )
+\omega   \mapsto   \inf   _ { b \in   K ( \omega   ) } d ( x , b )
+x \in   M

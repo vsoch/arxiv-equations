@@ -1,0 +1,42 @@
+x   \in   [ 0 , 1 ]
+f ( x ) = { \frac     { 1 } { \pi   { \sqrt     { x ( 1 - x ) } } } }
+F ( x ) = { \frac     { 2 } { \pi   } } \arcsin   \left ( { \sqrt     x } \right )
+{ \frac   { 1 } { 2 } }
+{ \frac   { 1 } { 2 } }
+x \in   \{ 0 , 1 \ }
+{ \tfrac   { 1 } { 8 } }
+{ \displaystyle   0 }
+- { \tfrac     { 3 } { 2 } }
+\ln   { \tfrac     { \pi   } { 4 } }
+1 + \sum   _ { { k = 1 } } ^ { { \infty   } } \left ( \prod   _ { { r = 0 } } ^ { { k - 1 } } { \frac     { 2 r + 1 } { 2 r + 2 } } \right ) { \frac     { t ^ { k } } { k ! } }
+{ } _ { 1 } F _ { 1 } ( { \tfrac     { 1 } { 2 } } ; 1 ; i \,t ) \  
+F ( x ) = { \frac     { 2 } { \pi   } } \arcsin   \left ( { \sqrt     x } \right ) = { \frac     { \arcsin ( 2 x - 1 ) } { \pi   } } + { \frac     { 1 } { 2 } }
+f ( x ) = { \frac     { 1 } { \pi   { \sqrt     { x ( 1 - x ) } } } }
+X
+{ \displaystyle   X \sim   { \rm   { B e t a } } { \bigl   ( } { \tfrac   { 1 } { 2 } } , { \tfrac   { 1 } { 2 } } { \bigr   ) } }
+- \infty   < a < b < \infty   \ ,
+x \in   [ a , b ]
+f ( x ) = { \frac     { 1 } { \pi   { \sqrt     { ( x - a ) ( b - x ) } } } }
+F ( x ) = { \frac     { 2 } { \pi   } } \arcsin   \left ( { \sqrt     { \frac     { x - a } { b - a } } } \right )
+{ \frac     { a + b } { 2 } }
+{ \frac     { a + b } { 2 } }
+x \in   { a , b }
+{ \tfrac     { 1 } { 8 } } ( b - a ) ^ { 2 }
+{ \displaystyle   0 }
+- { \tfrac     { 3 } { 2 } }
+F ( x ) = { \frac     { 2 } { \pi   } } \arcsin   \left ( { \sqrt     { \frac     { x - a } { b - a } } } \right )
+f ( x ) = { \frac     { 1 } { \pi   { \sqrt     { ( x - a ) ( b - x ) } } } }
+f ( x ; \alpha   ) = { \frac     { \sin   \pi   \alpha   } { \pi   } } x ^ { { - \alpha   } } ( 1 - x ) ^ { { \alpha   - 1 } }
+{ { \rm   { B e t a } } } ( 1 - \alpha   , \alpha   )
+\alpha   = { \tfrac   { 1 } { 2 } }
+X \sim   { { \rm   { A r c s i n e } } } ( a , b ) \ { \text { t h e n   } } k X + c \sim   { { \rm   { A r c s i n e } } } ( a k + c , b k + c )
+X \sim   { { \rm   { A r c s i n e } } } ( - 1 , 1 ) \ { \text { t h e n   } } X ^ { 2 } \sim   { { \rm   { A r c s i n e } } } ( 0 , 1 )
+\sin ( U )
+\sin ( 2 U )
+- \cos ( 2 U )
+\sin ( U + V )
+\sin ( U - V )
+{ { \rm   { A r c s i n e } } } ( - 1 , 1 )
+X
+\alpha  
+{ \frac     { X - a } { b - a } } \sim   { { \rm   { B e t a } } } ( 1 - \alpha   , \alpha   ) \  

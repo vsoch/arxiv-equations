@@ -1,0 +1,44 @@
+( p - 1 )
+\mathbb   { R }   ^ { p }
+p = 2
+\mathbf   { x }   \ ,
+{ \displaystyle   f _ { p } ( \mathbf   { x }   ; { \boldsymbol   { \mu   } } , \kappa   ) = C _ { p } ( \kappa   ) \exp   \left ( { \kappa   { \boldsymbol   { \mu   } } ^ { T } \mathbf   { x }   } \right ) }
+{ \displaystyle   \kappa   \geq   0 , \left \Vert   { \boldsymbol   { \mu   } } \right \Vert   = 1 \ , }
+C _ { p } ( \kappa   ) \ ,
+C _ { p } ( \kappa   ) = { \frac   { \kappa   ^ { p / 2 - 1 } } { ( 2 \pi   ) ^ { p / 2 } I _ { p / 2 - 1 } ( \kappa   ) } } . \ ,
+I _ { v }
+v
+p = 3
+C _ { 3 } ( \kappa   ) = { \frac   { \kappa   } { 4 \pi   \sinh   \kappa   } } = { \frac   { \kappa   } { 2 \pi   ( e ^ { \kappa   } - e ^ { - \kappa   } ) } } . \ ,
+\mu   \ ,
+\kappa   \ ,
+\kappa   \ ,
+\mu   \ ,
+\kappa   > 0 \ ,
+\kappa   = 0 \ ,
+p = 3
+x _ { i }
+  A _ { p } ( \kappa ) = \frac   { I _ { p / 2 } ( \kappa ) }   { I _ { p / 2 - 1 } ( \kappa ) }   .   \ ,  
+\mu   \ ,
+\kappa   \ ,
+  \mu   =   \frac { \sum_i ^ N   x _ i } { \|\sum_i ^ N   x _ i \ | }   ,  
+  \kappa   =   A _ p ^ { - 1 } ( \bar { R } )   .  
+\kappa   \ ,
+  A _ p ( \kappa )   =   \frac { \|\sum_i ^ N   x _ i \|}{ N }   =   \bar { R }   .  
+\kappa  
+  \hat { \kappa }   =   \frac { \bar { R } ( p - \bar { R } ^ 2 ) } { 1 - \bar { R } ^ 2 }   ,  
+  \hat { \kappa } _ 1   =   \hat { \kappa }   -   \frac { A _ p ( \hat { \kappa } ) - \bar { R } } { 1 - A _ p ( \hat { \kappa } ) ^ 2 - \frac { p - 1 } { \hat { \kappa } } A _ p ( \hat { \kappa } ) }   ,  
+  \hat { \kappa } _ 2   =   \hat { \kappa } _ 1   -   \frac { A _ p ( \hat { \kappa } _ 1 ) - \bar { R } } { 1 - A _ p ( \hat { \kappa } _ 1 ) ^ 2 - \frac { p - 1 } { \hat { \kappa } _ 1 } A _ p ( \hat { \kappa } _ 1 ) }   .  
+\hat { \sigma }   =   \left ( \frac { d } { N \bar { R } ^ 2 } \right ) ^ { 1 / 2 }
+d   =   1   -   \frac { 1 } { N } \sum_i ^ N   ( \mu ^ T x _ i ) ^ 2  
+1 0 0 ( 1 - \alpha ) \ %
+\mu  
+q   =   \arcsin ( e _ \alpha ^ { 1 / 2 } \hat { \sigma } )   ,
+e _ \alpha   =   - \ln ( \alpha ) .
+\alpha   =   0 . 0 5 ,   e _ \alpha   =   - \ln ( 0 . 0 5 )   =   2 . 9 9 6 ,
+q   =   \arcsin ( 1 . 7 3 1 \hat { \sigma } ) .
+{ \displaystyle   f _ { n , p } ( \mathbf   { X }   ; \mathbf   { F }   ) \propto   \exp ( \operatorname   { t r }   ( \mathbf   { F }   ^ { T } \mathbf   { X }   ) ) }
+n \times   p
+\mathbf   { X }  
+\mathbf   { F }  
+n \times   p

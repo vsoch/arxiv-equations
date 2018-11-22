@@ -1,0 +1,5 @@
+{ \displaystyle   ( I _ { u } - I _ { e } ) / I _ { u } }
+I _ e
+I _ { u }
+{ \displaystyle   ( I _ { e } - I _ { u } ) / I _ { u } }
+{ \displaystyle   ( I _ { e } - I _ { u } ) / I _ { u } }

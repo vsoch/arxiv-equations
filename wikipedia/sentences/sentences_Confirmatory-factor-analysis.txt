@@ -1,0 +1,11 @@
+\xi  
+{ \displaystyle   Y = \Lambda   \xi   + \epsilon   }
+Y
+\xi  
+\Lambda  
+Y
+\xi  
+\epsilon  
+{ \displaystyle   F _ { M L } = l n | \Lambda   \Omega   \Lambda   { ' } + I - d i a g ( \Lambda   \Omega   \Lambda   { ' } ) | + t r ( R ( \Lambda   \Omega   \Lambda   { ' } + I - d i a g ( \Lambda   \Omega   \Lambda   { ' } ) ^ { - 1 } ) - l n ( R ) - p }
+{ \displaystyle   \Lambda   \Omega   \Lambda   { ' } + I - d i a g ( \Lambda   \Omega   \Lambda   { ' } ) }
+R

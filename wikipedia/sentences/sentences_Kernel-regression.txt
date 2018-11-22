@@ -1,0 +1,16 @@
+Y
+X
+\operatorname   { E } ( Y | X ) = m ( X )
+m
+m
+{ \displaystyle   { \widehat   { m } } _ { h } ( x ) = { \frac   { \sum   _ { i = 1 } ^ { n } K _ { h } ( x - x _ { i } ) y _ { i } } { \sum   _ { j = 1 } ^ { n } K _ { h } ( x - x _ { j } ) } } }
+K
+h
+\operatorname   { E } ( Y | X = x ) = \int   y f ( y | x ) d y = \int   y { \frac     { f ( x , y ) } { f ( x ) } } d y
+{ \displaystyle   { \hat   { f } } ( x , y ) = { \frac   { 1 } { n } } \sum   _ { i = 1 } ^ { n } K _ { h } \left ( x - x _ { i } \right ) K _ { h } \left ( y - y _ { i } \right ) }
+{ \displaystyle   { \hat   { f } } ( x ) = { \frac   { 1 } { n } } \sum   _ { i = 1 } ^ { n } K _ { h } \left ( x - x _ { i } \right ) }
+{ \displaystyle   { \begin { a l i g n e d } \operatorname   { \hat   { E } }   ( Y | X = x ) & = \int   { \frac   { y \sum   _ { i = 1 } ^ { n } K _ { h } \left ( x - x _ { i } \right ) K _ { h } \left ( y - y _ { i } \right ) } { \sum   _ { j = 1 } ^ { n } K _ { h } \left ( x - x _ { j } \right ) } } d y , \\&={ \frac   { \sum   _ { i = 1 } ^ { n } K _ { h } \left ( x - x _ { i } \right ) \int   y \,K_ { h } \left ( y - y _ { i } \right ) d y } { \sum   _ { j = 1 } ^ { n } K _ { h } \left ( x - x _ { j } \right ) } } , \\&={ \frac   { \sum   _ { i = 1 } ^ { n } K _ { h } \left ( x - x _ { i } \right ) y _ { i } } { \sum   _ { j = 1 } ^ { n } K _ { h } \left ( x - x _ { j } \right ) } } , \end { a l i g n e d } } }
+{ \displaystyle   { \widehat   { m } } _ { P C } ( x ) = h ^ { - 1 } \sum   _ { i = 2 } ^ { n } ( x _ { i } - x _ { i - 1 } ) K \left ( { \frac   { x - x _ { i } } { h } } \right ) y _ { i } }
+h
+\widehat   { m } _ { { G M } } ( x ) = h ^ { { - 1 } } \sum   _ { { i = 1 } } ^ { n } \left [ \int   _ { { s _ { { i - 1 } } } } ^ { { s _ { i } } } K \left ( { \frac     { x - u } { h } } \right ) d u \right ] y _ { i }
+s _ { i } = { \frac     { x _ { { i - 1 } } + x _ { i } } { 2 } }

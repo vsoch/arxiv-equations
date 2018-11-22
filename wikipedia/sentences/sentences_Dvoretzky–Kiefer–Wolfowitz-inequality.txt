@@ -1,0 +1,12 @@
+F _ { n } ( x ) = { \frac     1 n } \sum   _ { { i = 1 } } ^ { n } { \mathbf     { 1 } } _ { { \{ X _ { i } \leq   x \}}},\qquad   x \in   { \mathbb     { R } } .
+F ( x )
+X
+x
+F _ n ( x )
+x
+\Pr   { \Bigl   ( } \sup   _ { { x \in   { \mathbb     R } } } { \bigl   ( } F _ { n } ( x ) - F ( x ) { \bigr   ) } > \varepsilon   { \Bigr   ) } \leq   e ^ { { - 2 n \varepsilon   ^ { 2 } } } \qquad   { \text { f o r   e v e r y   } } \varepsilon   \geq   { \sqrt     { { \tfrac     { 1 } { 2 n } } \ln   2 } } ,
+\Pr   { \Bigl   ( } \sup   _ { { x \in   { \mathbb     R } } } | F _ { n } ( x ) - F ( x ) | > \varepsilon   { \Bigr   ) } \leq   2 e ^ { { - 2 n \varepsilon   ^ { 2 } } } \qquad   { \text { f o r   e v e r y   } } \varepsilon   > 0 .
+{ \displaystyle   \sup   _ { x \in   \mathbb   { R }   } | F _ { n } ( x ) - F ( x ) | \;{ \stackrel   { d } { = } } \;\sup   _ { x \in   \mathbb   { R }   } | G _ { n } ( F ( x ) ) - F ( x ) | \leq   \sup   _ { 0 \leq   t \leq   1 } | G _ { n } ( t ) - t | , }
+F ( x )
+1 - \alpha
+{ \displaystyle   F _ { n } ( x ) - \varepsilon   \leq   F ( x ) \leq   F _ { n } ( x ) + \varepsilon   \;{ \text {   w h e r e   } } \varepsilon   = { \sqrt   { \frac   { \ln   { \frac   { 2 } { \alpha   } } } { 2 n } } } . }

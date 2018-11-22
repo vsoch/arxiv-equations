@@ -1,0 +1,10 @@
+p ^ { 2 } ( 1 - F ) + p F { \text {   f o r   } } \mathbf   { A A }   ; \ 2pq ( 1 - F ) { \text {   f o r   } } \mathbf   { A a }   ; { \text {   a n d   } } q ^ { 2 } ( 1 - F ) + q F { \text {   f o r   } } \mathbf   { a a }   .
+{ \displaystyle   F = 1 - { \frac   { \operatorname   { O }   ( f ( \mathbf   { A a }   ) ) } { \operatorname   { E }   ( f ( \mathbf   { A a }   ) ) } } = 1 - { \frac   { \operatorname   { O b s e r v e d F r e q u e n c y }   ( \mathbf   { A a }   ) } { \operatorname   { E }   ( f ( \mathbf   { A a }   ) ) } } , \ ! }
+\operatorname   { E }   ( f ( \mathbf   { A a }   ) ) = 2 p q , \ !
+p = { 2 \times   \mathrm   { o b s }   ( A A ) + \mathrm   { o b s }   ( A a )   \over   2 \times   ( \mathrm   { o b s }   ( A A ) + \mathrm   { o b s }   ( A a ) + \mathrm   { o b s }   ( a a ) ) } = 0 . 9 5 4
+q = 1 - p = 0 . 0 4 6 \ ,
+{ \displaystyle   F = 1 - { \frac   { \mathrm   { o b s }   ( A a ) / n } { 2 p q } } = 1 - { 1 3 8 / 1 6 1 2   \over   2 ( 0 . 9 5 4 ) ( 0 . 0 4 6 ) } = 0 . 0 2 3 }
+( 1 - F _ { I S } ) ( 1 - F _ { S T } ) = 1 - F _ { I T } , \ ,
+1 - F _ { I T } = ( 1 - F _ { I S } ) \,( 1 - F _ { S T } ) . \ !
+1 - F = \prod   _ { i = 0 } ^ { i = I } ( 1 - F _ { i , i + 1 } ) \ !
+F _ { S T } = { \frac   { \operatorname   { v a r }   ( \mathbf   { p }   ) } { p \,( 1 - p ) } } \ !

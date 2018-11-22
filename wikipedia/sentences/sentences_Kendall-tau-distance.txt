@@ -1,0 +1,36 @@
+\tau   _ { 1 }
+\tau   _ { 2 }
+{ \displaystyle   K ( \tau   _ { 1 } , \tau   _ { 2 } ) = | \{ ( i , j ) : i < j , ( \tau   _ { 1 } ( i ) < \tau   _ { 1 } ( j ) \wedge   \tau   _ { 2 } ( i ) > \tau   _ { 2 } ( j ) ) \vee   ( \tau   _ { 1 } ( i ) > \tau   _ { 1 } ( j ) \wedge   \tau   _ { 2 } ( i ) < \tau   _ { 2 } ( j ) ) \ } | . }
+\tau   _ { 1 } ( i )
+\tau   _ { 2 } ( i )
+i
+\tau   _ { 1 }
+\tau   _ { 2 }
+K ( \tau   _ { 1 } , \tau   _ { 2 } )
+n ( n - 1 ) / 2
+n
+n ( n - 1 ) / 2
+K ( \tau   _ { 1 } , \tau   _ { 2 } ) = { \begin { m a t r i x } \sum   _ { { \{ i , j \}\in   P } } { \bar     { K } } _ { { i , j } } ( \tau   _ { 1 } , \tau   _ { 2 } ) \end { m a t r i x } }
+\tau   _ { 1 }
+\tau   _ { 2 }
+{ \bar     { K } } _ { { i , j } } ( \tau   _ { 1 } , \tau   _ { 2 } )
+\tau   _ { 1 }
+\tau   _ { 2 }
+{ \bar     { K } } _ { { i , j } } ( \tau   _ { 1 } , \tau   _ { 2 } )
+\tau   _ { 1 }
+\tau   _ { 2 } .
+K ( L 1 , L 2 )
+K ( \tau   _ { 1 } , \tau   _ { 2 } )
+\tau   _ { 1 }
+\tau   _ { 2 }
+L 1
+L 2
+{ \frac     { 4 } { 5 ( 5 - 1 ) / 2 } } = 0 . 4 .
+\tau_1 , \tau_2
+{ \displaystyle   \tau   _ { 1 } = ( 1 , 2 , 3 , . . . ) }
+\tau   _ { 2 }
+i , j
+i < j
+{ \displaystyle   \tau   _ { 2 } ( i ) > \tau   _ { 2 } ( j ) }
+O ( n \log   n )
+{ \displaystyle   O ( n { \sqrt   { \log   { n } } } ) }

@@ -1,0 +1,72 @@
+{ \displaystyle   X ( h e a d s ) = 0 }
+{ \displaystyle   X ( t a i l s ) = 1 }
+{ \tfrac   { 3 } { 6 } } = { \tfrac   { 1 } { 2 } }
+\Omega  
+x \in   \Omega   \ ,
+f ( x ) \ ,
+f ( x ) \in   [ 0 , 1 ] { \mbox {   f o r   a l l   } } x \in   \Omega   \ , ;
+\sum   _ { x \in   \Omega   } f ( x ) = 1 \ , .
+E \ ,
+\Omega   \ ,
+E \ ,
+P ( E ) = \sum   _ { x \in   E } f ( x ) \ , .
+f ( x ) \ ,
+\mathbb   { R }  
+F \ ,
+F ( x ) = P ( X \leq   x ) \ ,
+F \ ,
+\lim   _ { x \rightarrow   - \infty   } F ( x ) = 0 \ , ;
+\lim   _ { x \rightarrow   \infty   } F ( x ) = 1 \ , .
+F \ ,
+f ( x ) = { \frac   { d F ( x ) } { d x } } \ , .
+E \subseteq   \mathbb   { R }  
+E \ ,
+P ( X \in   E ) = \int   _ { x \in   E } d F ( x ) \ , .
+P ( X \in   E ) = \int   _ { x \in   E } f ( x ) \,dx \ , .
+\mathbb   { R }   \ , .
+\mathbb   { R }   ^ { n }
+( \delta   [ x ] + \varphi   ( x ) ) / 2
+\delta   [ x ]
+\Omega   \ ,
+{ \mathcal   { F } } \ ,
+P \ ,
+{ \mathcal   { F } } \ ,
+P ( \Omega   ) = 1 . \ ,
+{ \mathcal   { F } } \ ,
+{ \mathcal   { F } } \ ,
+E \ ,
+{ \mathcal   { F } } \ ,
+P ( E ) = \int   _ { \omega   \in   E } \mu   _ { F } ( d \omega   ) \ ,
+\mu   _ { F } \ ,
+F \ , .
+\mathbb   { R }   ^ { n }
+X _ { 1 } , X _ { 2 } , \dots   , \ ,
+X \ ,
+F _ { 1 } , F _ { 2 } , \dots   \ ,
+F \ ,
+X \ ,
+F \ ,
+{ \displaystyle   \displaystyle   X _ { n } \,{ \xrightarrow   { \mathcal   { D } } } \,X }
+X _ { 1 } , X _ { 2 } , \dots   \ ,
+X \ ,
+\lim   _ { n \rightarrow   \infty   } P \left ( \left | X _ { n } - X \right | \geq   \varepsilon   \right ) = 0
+{ \displaystyle   \displaystyle   X _ { n } \,{ \xrightarrow   { P } } \,X }
+X _ { 1 } , X _ { 2 } , \dots   \ ,
+X \ ,
+P ( \lim   _ { n \rightarrow   \infty   } X _ { n } = X ) = 1
+{ \displaystyle   \displaystyle   X _ { n } \,{ \xrightarrow   { \mathrm   { a . s . }   } } \,X }
+{ \overline   { X } } _ { n } = { \frac   { 1 } { n } } { \sum   _ { k = 1 } ^ { n } X _ { k } }
+X _ { k }
+\mu  
+| X _ { k } |
+{ \displaystyle   \displaystyle   { \overline   { X } } _ { n } \,{ \xrightarrow   { P } } \,\mu   }
+n \to   \infty  
+{ \displaystyle   \displaystyle   { \overline   { X } } _ { n } \,{ \xrightarrow   { \mathrm   { a . \,s . }   } } \,\mu   }
+{ \displaystyle   n \to   \infty   . }
+Y _ { 1 } , Y _ { 2 } , . . . \ ,
+{ \textrm   { E } } ( Y _ { i } ) = p
+{ \bar   { Y } } _ { n }
+X _ { 1 } , X _ { 2 } , \dots   \ ,
+\mu  
+\sigma   ^ { 2 } > 0 . \ ,
+Z _ { n } = { \frac   { \sum   _ { i = 1 } ^ { n } ( X _ { i } - \mu   ) } { \sigma   { \sqrt   { n } } } } \ ,

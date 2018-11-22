@@ -1,0 +1,13 @@
+Y = F _ X ( X )   \ , ,
+X
+Y   =   F _ X   ( X )
+  \begin { a l i g n }   F _ Y   ( y )   & =   \operatorname { P } ( Y \leq   y )   \\         &= \operatorname { P } ( F _ X   ( X ) \leq   y )   \\         &= \operatorname { P } ( X \leq   F ^ { - 1 } _ X   ( y ) )   \\         &= F_X   ( F ^ { - 1 } _ X   ( y ) )   \\         &= y   \end { a l i g n }  
+F _ Y
+\mathrm { U n i f o r m } ( 0 , 1 )
+Y
+[ 0 , 1 ]
+\Phi   ( x ) = { \frac     { 1 } { { \sqrt     { 2 \pi   } } } } \int   _ { { - \infty   } } ^ { x } e ^ { { - t ^ { 2 } / 2 } } \,dt = { \frac     1 2 } { \Big   [ } \,1 + \operatorname   { e r f } { \Big   ( } { \frac     { x } { { \sqrt     { 2 } } } } { \Big   ) } \,{ \Big   ] } , \quad   x \in   { \mathbb     { R } } , \ ,
+\operatorname { e r f } ( ) ,
+F ( x ) = 1 - \exp ( - x ) ,
+Y = 1 - \exp ( - X )
+Y ' = \exp ( - X )

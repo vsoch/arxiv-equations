@@ -1,0 +1,63 @@
+{ \displaystyle   k \in   \{ 1 , 2 , 3 , \ldots   \ } , }
+{ \displaystyle   \lambda   \in   ( 0 , \infty   ) , }
+{ \displaystyle   \mu   = 1 / \lambda   , }
+{ \displaystyle   x \in   [ 0 , \infty   ) }
+{ \displaystyle   { \frac   { \lambda   ^ { k } x ^ { k - 1 } e ^ { - \lambda   x } } { ( k - 1 ) ! } } }
+{ \displaystyle   { \frac   { \gamma   ( k , \lambda   x ) } { ( k - 1 ) ! } } = 1 - \sum   _ { n = 0 } ^ { k - 1 } { \frac   { 1 } { n ! } } e ^ { - \lambda   x } ( \lambda   x ) ^ { n } }
+{ \displaystyle   { \frac   { k } { \lambda   } } }
+{ \displaystyle   { \frac   { 1 } { \lambda   } } ( k - 1 ) }
+{ \displaystyle   { \frac   { k } { \lambda   ^ { 2 } } } }
+{ \displaystyle   { \frac   { 2 } { \sqrt   { k } } } }
+{ \displaystyle   { \frac   { 6 } { k } } }
+{ \displaystyle   ( 1 - k ) \psi   ( k ) + \ln   \left [ { \frac   { \Gamma   ( k ) } { \lambda   } } \right ] + k }
+{ \displaystyle   \left ( 1 - { \frac   { t } { \lambda   } } \right ) ^ { - k } }
+{ \displaystyle   t < \lambda   }
+{ \displaystyle   \left ( 1 - { \frac   { i t } { \lambda   } } \right ) ^ { - k } }
+{ \displaystyle   x \in   [ 0 , \infty   ) }
+k ,
+{ \displaystyle   \lambda   , }
+\mu   ,
+k = 1
+k
+1 / \lambda  
+f ( x ; k , \lambda   ) = { \lambda   ^ { k } x ^ { { k - 1 } } e ^ { { - \lambda   x } }   \over   ( k - 1 ) ! } \quad   { \mbox { f o r   } } x , \lambda   \geq   0 ,
+\lambda  
+\mu  
+\mu   = 1 / \lambda  
+f ( x ; k , \mu   ) = { \frac     { x ^ { { k - 1 } } e ^ { { - { \frac     { x } { \mu   } } } } } { \mu   ^ { k } ( k - 1 ) ! } } \quad   { \mbox { f o r   } } x , \mu   \geq   0 .
+\mu  
+k = 2
+F ( x ; k , \lambda   ) = { \frac     { \gamma   ( k , \lambda   x ) } { ( k - 1 ) ! } } ,
+\gamma  
+F ( x ; k , \lambda   ) = 1 - \sum   _ { { n = 0 } } ^ { { k - 1 } } { \frac     { 1 } { n ! } } e ^ { { - \lambda   x } } ( \lambda   x ) ^ { n } .
+{ \displaystyle   { \frac   { k } { \lambda   } } \left ( 1 - { \dfrac   { 1 } { 3 k + 0 . 2 } } \right ) , }
+{ \displaystyle   { \frac   { k } { \lambda   } } . }
+U \in   ( 0 , 1 ]
+E ( k , \lambda   ) \approx   - { \frac     { 1 } \lambda   } \ln   \prod   _ { { i = 1 } } ^ { k } U _ { { i } }
+X
+\lambda   / k
+k > 1
+x
+x = 0
+\lambda  
+x
+{ \displaystyle   X \sim   \operatorname   { E r l a n g }   ( k , \lambda   ) }
+{ \displaystyle   a \cdot   X \sim   \operatorname   { E r l a n g }   \left ( k , { \frac   { \lambda   } { a } } \right ) }
+a \in   { \mathbb     { R } }
+{ \displaystyle   X \sim   \operatorname   { E r l a n g }   ( k _ { 1 } , \lambda   ) }
+{ \displaystyle   Y \sim   \operatorname   { E r l a n g }   ( k _ { 2 } , \lambda   ) }
+{ \displaystyle   X + Y \sim   \operatorname   { E r l a n g }   ( k _ { 1 } + k _ { 2 } , \lambda   ) }
+{ \displaystyle   X _ { i } \sim   \operatorname   { E x p o n e n t i a l }   ( \lambda   ) , }
+{ \displaystyle   \sum   _ { i = 1 } ^ { k } { X _ { i } } \sim   \operatorname   { E r l a n g }   ( k , \lambda   ) }
+{ \displaystyle   X \sim   \operatorname   { G a m m a }   ( k , \lambda   ) , }
+{ \displaystyle   X \sim   \operatorname   { E r l a n g }   ( k , \lambda   ) }
+{ \displaystyle   U \sim   \operatorname   { E x p o n e n t i a l }   ( \lambda   ) }
+{ \displaystyle   V \sim   \operatorname   { E r l a n g }   ( n , \lambda   ) }
+{ \displaystyle   { \frac   { U } { V } } + 1 \sim   \operatorname   { P a r e t o }   ( 1 , n ) }
+{ \displaystyle   X \sim   \operatorname   { E r l a n g }   ( k , \lambda   ) }
+{ \displaystyle   2 \lambda   X \sim   \chi   _ { 2 k } ^ { 2 } }
+{ \displaystyle   S _ { n } = \sum   _ { i = 1 } ^ { n } X _ { i } }
+{ \displaystyle   X _ { i } \sim   \operatorname   { E x p o n e n t i a l }   ( \lambda   ) , }
+{ \displaystyle   S _ { n } \sim   \operatorname   { E r l a n g }   ( n , \lambda   ) }
+{ \displaystyle   \operatorname   { P r }   ( N ( x ) \leq   n ) = \operatorname   { P r }   ( S _ { n } \geq   x ) = 1 - F _ { X } ( x ; n , \lambda   ) = \sum   _ { k = 0 } ^ { n - 1 } { \frac   { 1 } { k ! } } e ^ { - \lambda   x } ( \lambda   x ) ^ { k } . }
+n

@@ -1,0 +1,19 @@
+{ \displaystyle   C _ { \nu   } ( d ) = \sigma   ^ { 2 } { \frac   { 2 ^ { 1 - \nu   } } { \Gamma   ( \nu   ) } } { \Bigg   ( } { \sqrt   { 2 \nu   } } { \frac   { d } { \rho   } } { \Bigg   ) } ^ { \nu   } K _ { \nu   } { \Bigg   ( } { \sqrt   { 2 \nu   } } { \frac   { d } { \rho   } } { \Bigg   ) } }
+\Gamma  
+K _ { \nu   }
+{ \displaystyle   \lceil   \nu   \rceil   }
+{ \displaystyle   \nu   = p + 1 / 2 , \ p \in   \mathbb   { N }   ^ { + } }
+p
+{ \displaystyle   C _ { p + 1 / 2 } ( d ) = \sigma   ^ { 2 } \exp   \left ( - { \frac   { { \sqrt   { 2 p + 1 } } d } { \rho   } } \right ) { \frac   { p ! } { ( 2 p ) ! } } \sum   _ { i = 0 } ^ { p } { \frac   { ( p + i ) ! } { i ! ( p - i ) ! } } \left ( { \frac   { 2 { \sqrt   { 2 p + 1 } } d } { \rho   } } \right ) ^ { p - i } , }
+{ \displaystyle   \nu   = 1 / 2 \ ( p = 0 ) }
+{ \displaystyle   C _ { 1 / 2 } ( d ) = \sigma   ^ { 2 } \exp   \left ( - { \frac   { d } { \rho   } } \right ) }
+{ \displaystyle   \nu   = 3 / 2 \ ( p = 1 ) }
+{ \displaystyle   C _ { 3 / 2 } ( d ) = \sigma   ^ { 2 } \left ( 1 + { \frac   { { \sqrt   { 3 } } d } { \rho   } } \right ) \exp   \left ( - { \frac   { { \sqrt   { 3 } } d } { \rho   } } \right ) }
+{ \displaystyle   \nu   = 5 / 2 \ ( p = 2 ) }
+{ \displaystyle   C _ { 5 / 2 } ( d ) = \sigma   ^ { 2 } \left ( 1 + { \frac   { { \sqrt   { 5 } } d } { \rho   } } + { \frac   { 5 d ^ { 2 } } { 3 \rho   ^ { 2 } } } \right ) \exp   \left ( - { \frac   { { \sqrt   { 5 } } d } { \rho   } } \right ) }
+\nu   \rightarrow   \infty  
+{ \displaystyle   \lim   _ { \nu   \rightarrow   \infty   } C _ { \nu   } ( d ) = \sigma   ^ { 2 } \exp   \left ( - { \frac   { d ^ { 2 } } { 2 \rho   ^ { 2 } } } \right ) }
+{ \displaystyle   d \rightarrow   0 }
+{ \displaystyle   C _ { \nu   } ( d ) = \sigma   ^ { 2 } \left ( 1 + { \frac   { \nu   } { 2 ( 1 - \nu   ) } } \left ( { \frac   { d } { \rho   } } \right ) ^ { 2 } + { \frac   { \nu   ^ { 2 } } { 8 ( 2 - 3 \nu   + \nu   ^ { 2 } ) } } \left ( { \frac   { d } { \rho   } } \right ) ^ { 4 } + { \mathcal   { O } } \left ( d ^ { 5 } \right ) \right ) . }
+{ \displaystyle   \lambda   _ { 0 } = C _ { \nu   } ( 0 ) = \sigma   ^ { 2 } }
+{ \displaystyle   \lambda   _ { 2 } = - \left . { \frac   { \partial   ^ { 2 } C _ { \nu   } ( d ) } { \partial   d ^ { 2 } } } \right | _ { d = 0 } = { \frac   { \sigma   ^ { 2 } \nu   } { \rho   ^ { 2 } ( \nu   - 1 ) } } }

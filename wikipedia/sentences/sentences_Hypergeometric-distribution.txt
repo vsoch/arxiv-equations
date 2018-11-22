@@ -1,0 +1,101 @@
+{ \begin { a l i g n e d } N & \in   \left \{ 0 , 1 , 2 , \dots   \right \}\\K & \in   \left \{ 0 , 1 , 2 , \dots   , N \right \}\\n & \in   \left \{ 0 , 1 , 2 , \dots   , N \right \}\end { a l i g n e d } } \ ,
+\scriptstyle   { k \,\in   \,\left \{ \max   { ( 0 , \,n + K - N ) } , \,\dots   , \,\min   { ( n , \,K ) } \right \ } } \ ,
+{ { { K   \choose   k } { { N - K }   \choose   { n - k } } }   \over   { N   \choose   n } }
+{ \displaystyle   1 - { { { n   \choose   { k + 1 } } { { N - n }   \choose   { K - k - 1 } } }   \over   { N   \choose   K } } \,_ { 3 } F _ { 2 } \!\!\left [ { \begin { a r r a y } { c } 1 , \ k + 1 - K , \ k + 1 - n \\k + 2 , \ N + k + 2 - K - n \end { a r r a y } } ; 1 \right ] , }
+{ \displaystyle   \,_ { p } F _ { q } }
+n { K   \over   N }
+{ \displaystyle   \left \lceil   { \frac   { ( n + 1 ) ( K + 1 ) } { N + 2 } } \right \rceil   - 1 , \left \lfloor   { \frac   { ( n + 1 ) ( K + 1 ) } { N + 2 } } \right \rfloor   }
+n { K   \over   N } { ( N - K )   \over   N } { N - n   \over   N - 1 }
+{ \frac   { ( N - 2 K ) ( N - 1 ) ^ { \frac   { 1 } { 2 } } ( N - 2 n ) } { [ n K ( N - K ) ( N - n ) ] ^ { \frac   { 1 } { 2 } } ( N - 2 ) } }
+\left . { \frac   { 1 } { n K ( N - K ) ( N - n ) ( N - 2 ) ( N - 3 ) } } \cdot   \right .
+{ \displaystyle   { \Big   [ } ( N - 1 ) N ^ { 2 } { \Big   ( } N ( N + 1 ) - 6 K ( N - K ) - 6 n ( N - n ) { \Big   ) } + { } }
+{ \displaystyle   { } + 6 n K ( N - K ) ( N - n ) ( 5 N - 6 ) { \Big   ] } }
+{ \frac   { { N - K   \choose   n } \scriptstyle   { \,_ { 2 } F _ { 1 } ( - n , - K ; N - K - n + 1 ; e ^ { t } ) } } { N   \choose   n } } \ , \ !
+{ \frac   { { N - K   \choose   n } \scriptstyle   { \,_ { 2 } F _ { 1 } ( - n , - K ; N - K - n + 1 ; e ^ { i t } ) } } { N   \choose   n } }
+k
+n
+N
+K
+k
+n
+k
+n
+X
+{ \displaystyle   p _ { X } ( k ) = \Pr ( X = k ) = { \frac   { { \binom   { K } { k } } { \binom   { N - K } { n - k } } } { \binom   { N } { n } } } , }
+N
+K
+n
+k
+{ \textstyle   \textstyle   { a   \choose   b } }
+\max ( 0 , n + K - N ) \leq   k \leq   \min ( K , n )
+N
+K
+n
+{ \textstyle   X \sim   \operatorname   { H y p e r g e o m e t r i c }   ( N , K , n ) }
+{ \textstyle   p _ { X } ( k ) }
+{ \displaystyle   \sum   _ { 0 \leq   k \leq   n } { { K   \choose   k } { N - K   \choose   n - k }   \over   { N   \choose   n } } = 1 , }
+{ \displaystyle   { { K   \choose   k } { N - K   \choose   n - k }   \over   { N   \choose   n } } = { { { n   \choose   k } { { N - n }   \choose   { K - k } } }   \over   { N   \choose   K } } , }
+P ( X = k ) = f ( k ; N , K , n ) = { { { K   \choose   k } { { N - K }   \choose   { n - k } } }   \over   { N   \choose   n } } .
+P ( X = 4 ) = f ( 4 ; 5 0 , 5 , 1 0 ) = { { { 5   \choose   4 } { { 4 5 }   \choose   { 6 } } }   \over   { 5 0   \choose   1 0 } } = { 5 \cdot   8 1 4 5 0 6 0   \over   1 0 2 7 2 2 7 8 1 7 0 } = 0 . 0 0 3 9 6 4 5 8 3 \dots   .
+P ( X = 5 ) = f ( 5 ; 5 0 , 5 , 1 0 ) = { { { 5   \choose   5 } { { 4 5 }   \choose   { 5 } } }   \over   { 5 0   \choose   1 0 } } = { 1 \cdot   1 2 2 1 7 5 9   \over   1 0 2 7 2 2 7 8 1 7 0 } = 0 . 0 0 0 1 1 8 9 3 7 5 \dots   ,
+{ \displaystyle   { \begin { a l i g n e d } \Pr ( X = 0 ) & = { \frac   { { \binom   { \text { H a c k } } { 0 } } { \binom   { N - { \text { H a c k } } } { n - 0 } } } { \binom   { N } { n } } } = { \frac   { \binom   { N - { \text { H a c k } } } { n } } { \binom   { N } { n } } } = { \frac   { \frac   { ( N - { \text { H a c k } } ) ! } { n ! ( N - { \text { H a c k } } - n ) ! } } { \frac   { N ! } { n ! ( N - n ) ! } } } = { \frac   { \frac   { ( N - { \text { H a c k } } ) ! } { ( N - { \text { H a c k } } - n ) ! } } { \frac   { N ! } { ( N - n ) ! } } } \\[8pt ] & = { \frac   { \binom   { 1 0 0 - 5 } { 3 } } { \binom   { 1 0 0 } { 3 } } } = { \frac   { \frac   { ( 1 0 0 - 5 ) ! } { ( 1 0 0 - 5 - 3 ) ! } } { \frac   { 1 0 0 ! } { ( 1 0 0 - 3 ) ! } } } = { \frac   { \frac   { 9 5 ! } { 9 2 ! } } { \frac   { 1 0 0 ! } { 9 7 ! } } } = { \frac   { 9 5 \times   9 4 \times   9 3 } { 1 0 0 \times   9 9 \times   9 8 } } = 8 6 \%\end { a l i g n e d } } }
+{ \displaystyle   P ( X = 0 ) = { \frac   { \binom   { 1 0 0 - 5 } { 4 5 } } { \binom   { 1 0 0 } { 4 5 } } } = { \frac   { \frac   { 9 5 ! } { 5 0 ! } } { \frac   { 1 0 0 ! } { 5 5 ! } } } = { \frac   { 9 5 \times   9 4 \times   \cdots   \times   5 1 } { 1 0 0 \times   9 9 \times   \cdots   \times   5 6 } } = { \frac   { 5 5 \times   5 4 \times   5 3 \times   5 2 \times   5 1 } { 1 0 0 \times   9 9 \times   9 8 \times   9 7 \times   9 6 } } = 4 . 6 \ % }
+5 2 - 5 = 4 7
+k = 1 , n = 2 , K = 9
+N = 4 7
+k = 2 , n = 2 , K = 9
+N = 4 7
+k = 0 , n = 2 , K = 9
+N = 4 7
+f ( k ; N , K , n ) = f ( n - k ; N , N - K , n )
+f ( k ; N , K , n ) = f ( K - k ; N , K , N - n )
+f ( k ; N , K , n ) = f ( k ; N , n , K )
+k
+n
+N
+K
+k
+n
+k
+i ^ { \text { t h } }
+{ \displaystyle   P ( G _ { i } ) = { \frac   { K } { N } } . }
+{ \displaystyle   X \sim   \operatorname   { H y p e r g e o m e t r i c }   ( K , N , n ) }
+p = K / N
+n = 1
+X
+p
+Y
+n
+p
+N
+K
+n
+p
+X
+Y
+P ( X \leq   k ) \approx   P ( Y \leq   k )
+n
+N
+K
+n
+p
+P ( X \leq   k ) \approx   \Phi   \left ( { \frac   { k - n p } { \sqrt   { n p ( 1 - p ) } } } \right )
+\Phi  
+X
+{ \displaystyle   X \sim   \operatorname   { H y p e r g e o m e t r i c }   ( K , N , n ) }
+p = K / N
+{ \displaystyle   { \begin { a l i g n e d } \Pr [ X \leq   ( p - t ) n ] & \leq   e ^ { - n { \text { D } } ( p - t \parallel   p ) } \leq   e ^ { - 2 t ^ { 2 } n } \\\Pr [ X \geq   ( p + t ) n ] & \leq   e ^ { - n { \text { D } } ( p + t \parallel   p ) } \leq   e ^ { - 2 t ^ { 2 } n } \\\end { a l i g n e d } } \ ! }
+{ \displaystyle   D ( a \parallel   b ) = a \log   { \frac   { a } { b } } + ( 1 - a ) \log   { \frac   { 1 - a } { 1 - b } } }
+{ \displaystyle   D ( a , b ) \geq   2 ( a - b ) ^ { 2 } }
+{ \displaystyle   { \begin { a l i g n e d } \Pr [ X \leq   ( p - t ) n ] & \leq   e ^ { - ( N - n ) { \text { D } } ( p + { \tfrac   { t n } { N - n } } | | p ) } \leq   e ^ { - 2 t ^ { 2 } n { \tfrac   { n } { N - n } } } \\\\\Pr [ X \geq   ( p + t ) n ] & \leq   e ^ { - ( N - n ) { \text { D } } ( p - { \tfrac   { t n } { N - n } } | | p ) } \leq   e ^ { - 2 t ^ { 2 } n { \tfrac   { n } { N - n } } } \\\end { a l i g n e d } } \ ! }
+c \in   \mathbb   { N }   = \lbrace   0 , 1 , \ldots   \rbrace  
+( K _ { 1 } , \ldots   , K _ { c } ) \in   \mathbb   { N }   ^ { c }
+N = \sum   _ { i = 1 } ^ { c } K _ { i }
+n \in   \lbrace   0 , \ldots   , N \rbrace  
+\left \{ \mathbf   { k }   \in   \mathbb   { Z }   _ { 0 + } ^ { c } \,:\,\forall   i \ k_ { i } \leq   K _ { i } , \sum   _ { i = 1 } ^ { c } k _ { i } = n \right \ }
+{ \displaystyle   { \frac   { \prod   _ { i = 1 } ^ { c } { \binom   { K _ { i } } { k _ { i } } } } { \binom   { N } { n } } } }
+{ \displaystyle   \operatorname   { E }   ( X _ { i } ) = { \frac   { n K _ { i } } { N } } }
+{ \displaystyle   \operatorname   { V a r }   ( X _ { i } ) = { \frac   { K _ { i } } { N } } \left ( 1 - { \frac   { K _ { i } } { N } } \right ) n { \frac   { N - n } { N - 1 } } }
+{ \displaystyle   \operatorname   { C o v }   ( X _ { i } , X _ { j } ) = - { \frac   { n K _ { i } K _ { j } } { N ^ { 2 } } } { \frac   { N - n } { N - 1 } } }
+{ \displaystyle   N = \sum   _ { i = 1 } ^ { c } K _ { i } }
+P ( 2 { \text {   b l a c k } } , 2 { \text {   w h i t e } } , 2 { \text {   r e d } } ) = { { { 5   \choose   2 } { 1 0   \choose   2 } { 1 5   \choose   2 } }   \over   { 3 0   \choose   6 } } = 0 . 0 7 9 5 7 5 5 9 6 8 1 6 9 7 6

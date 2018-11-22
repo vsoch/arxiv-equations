@@ -1,0 +1,19 @@
+d
+c
+P ( c | d )
+w
+P ( w | c )
+d
+w
+c
+( w , d )
+P ( w , d ) = \sum   _ { c } P ( c ) P ( d | c ) P ( w | c ) = P ( d ) \sum   _ { c } P ( c | d ) P ( w | c )
+w
+d
+c
+P ( d | c )
+P ( w | c )
+d
+P ( c | d )
+P ( w | c )
+c d + w c

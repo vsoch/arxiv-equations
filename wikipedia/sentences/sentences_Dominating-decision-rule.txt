@@ -1,0 +1,10 @@
+\delta   _ { 1 }
+\delta   _ { 2 }
+{ \displaystyle   R ( \theta   , \delta   ) }
+\delta  
+\theta  
+\delta   _ { 1 }
+\delta   _ { 2 }
+{ \displaystyle   R ( \theta   , \delta   _ { 1 } ) \leq   R ( \theta   , \delta   _ { 2 } ) }
+\theta  
+\theta  

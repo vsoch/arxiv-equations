@@ -1,0 +1,31 @@
+k
+i
+a ( i )
+i
+a ( i )
+i
+i
+c
+i
+c
+b ( i )
+i
+i
+i
+i
+s ( i )   =   \frac { b ( i )   -   a ( i ) } { \max \{ a ( i ) , b ( i ) \ } }  
+s ( i )   =   \begin { c a s e s }       1 - a ( i ) / b ( i ) ,   &   \mbox { i f   }   a ( i )   <   b ( i )   \\   0 ,     &   \mbox { i f   }   a ( i )   =   b ( i )   \\   b ( i ) / a ( i ) - 1 ,   &   \mbox { i f   }   a ( i )   >   b ( i )   \\ \end { c a s e s }  
+  - 1   \le   s ( i )   \le   1  
+s ( i )
+a ( i )   \ll   b ( i )
+a ( i )
+i
+b ( i )
+i
+s ( i )
+s ( i )
+i
+s ( i )
+s ( i )
+s ( i )
+k

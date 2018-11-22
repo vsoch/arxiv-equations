@@ -1,0 +1,31 @@
+  \hat   p   =   X / n
+{ \hat   { p } }
+{ \displaystyle   \left ( { \hat   { p } } - 1 . 9 6 { \sqrt   { \frac   { 0 . 2 5 } { n } } } , { \hat   { p } } + 1 . 9 6 { \sqrt   { \frac   { 0 . 2 5 } { n } } } \right ) }
+{ \displaystyle   4 { \sqrt   { \frac   { 0 . 2 5 } { n } } } = W }
+{ \displaystyle   { \frac   { \sigma   } { \sqrt   { n } } } . }
+{ \displaystyle   \left ( { \bar   { x } } - { \frac   { 1 . 9 6 \sigma   } { \sqrt   { n } } } , { \bar   { x } } + { \frac   { 1 . 9 6 \sigma   } { \sqrt   { n } } } \right ) . }
+{ \displaystyle   { \frac   { 4 \sigma   } { \sqrt   { n } } } = W }
+  E   =   N   -   B   -   T ,
+  H _ 0 : \mu = 0  
+  H _ a : \mu = \mu ^ *  
+  \Pr ( \bar   x   > z _ { \alpha } \sigma / \sqrt { n } | H _ 0   \text {   t r u e } ) = \alpha  
+{ \bar   { x } }
+z _ { \alpha } \sigma / \sqrt { n }
+  \Pr ( \bar   x   > z _ { \alpha } \sigma / \sqrt { n } | H _ a   \text {   t r u e } ) \geq   1 - \beta  
+  n   \geq   \left ( \frac { z _ { \alpha } + \Phi ^ { - 1 } ( 1 - \beta ) } { \mu ^ { * } / \sigma } \right ) ^ 2  
+\Phi  
+  \bar   x _ w     =   \sum_ { h = 1 } ^ H   W _ h   \bar   x _ h ,  
+  \operatorname { V a r } ( \bar   x _ w )   =   \sum_ { h = 1 } ^ H   W _ h ^ 2   \,\operatorname { V a r } ( \bar   x _ h ) .  
+W _ h
+W _ h = N _ h / N
+{ \displaystyle   n = \sum   { n _ { h } } }
+{ \displaystyle   \operatorname   { V a r }   ( { \bar   { x } } _ { w } ) = \sum   _ { h = 1 } ^ { H } W _ { h } ^ { 2 } \operatorname   { V a r }   ( { \bar   { x } } _ { h } ) \left ( { \frac   { 1 } { n _ { h } } } - { \frac   { 1 } { N _ { h } } } \right ) , }
+  n _ h / N _ h = k   S _ h  
+{ \displaystyle   S _ { h } = { \sqrt   { \operatorname   { V a r }   ( { \bar   { x } } _ { h } ) } } }
+k
+  \sum { n _ h }   =   n  
+C _ h
+  \frac { n _ h } { N _ h }   =   \frac { K   S _ h } { \sqrt { C _ h } } ,  
+K
+  \sum { n _ h }   =   n  
+  n _ h   =   \frac { K '   W _ h   S _ h } { \sqrt { C _ h } } .  

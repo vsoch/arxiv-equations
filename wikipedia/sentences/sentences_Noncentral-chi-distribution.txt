@@ -1,0 +1,43 @@
+k > 0 \ ,
+\lambda   > 0 \ ,
+x \in   [ 0 ; + \infty   ) \ ,
+{ \displaystyle   { \frac   { e ^ { - ( x ^ { 2 } + \lambda   ^ { 2 } ) / 2 } x ^ { k } \lambda   } { ( \lambda   x ) ^ { k / 2 } } } I _ { k / 2 - 1 } ( \lambda   x ) }
+{ \displaystyle   1 - Q _ { \frac   { k } { 2 } } \left ( \lambda   , x \right ) }
+Q _ { M } ( a , b )
+{ \displaystyle   { \sqrt   { \frac   { \pi   } { 2 } } } L _ { 1 / 2 } ^ { ( k / 2 - 1 ) } \left ( { \frac   { - \lambda   ^ { 2 } } { 2 } } \right ) \ , }
+{ \displaystyle   k + \lambda   ^ { 2 } - \mu   ^ { 2 } \ , }
+X _ { i }
+\mu   _ { i }
+\sigma_i ^ 2
+{ \displaystyle   Z = { \sqrt   { \sum   _ { i = 1 } ^ { k } \left ( { \frac   { X _ { i } } { \sigma   _ { i } } } \right ) ^ { 2 } } } }
+k
+X _ { i }
+\lambda  
+X _ { i }
+{ \displaystyle   \lambda   = { \sqrt   { \sum   _ { i = 1 } ^ { k } \left ( { \frac   { \mu   _ { i } } { \sigma   _ { i } } } \right ) ^ { 2 } } } }
+{ \displaystyle   f ( x ; k , \lambda   ) = { \frac   { e ^ { - ( x ^ { 2 } + \lambda   ^ { 2 } ) / 2 } x ^ { k } \lambda   } { ( \lambda   x ) ^ { k / 2 } } } I _ { k / 2 - 1 } ( \lambda   x ) }
+{ \displaystyle   I _ { \nu   } ( z ) }
+{ \displaystyle   \mu   _ { 1 } ^ { ' } = { \sqrt   { \frac   { \pi   } { 2 } } } L _ { 1 / 2 } ^ { ( k / 2 - 1 ) } \left ( { \frac   { - \lambda   ^ { 2 } } { 2 } } \right ) }
+{ \displaystyle   \mu   _ { 2 } ^ { ' } = k + \lambda   ^ { 2 } }
+{ \displaystyle   \mu   _ { 3 } ^ { ' } = 3 { \sqrt   { \frac   { \pi   } { 2 } } } L _ { 3 / 2 } ^ { ( k / 2 - 1 ) } \left ( { \frac   { - \lambda   ^ { 2 } } { 2 } } \right ) }
+{ \displaystyle   \mu   _ { 4 } ^ { ' } = ( k + \lambda   ^ { 2 } ) ^ { 2 } + 2 ( k + 2 \lambda   ^ { 2 } ) }
+{ \displaystyle   L _ { n } ^ { ( a ) } ( z ) }
+n
+n
+\lambda  
+\lambda   ^ { 2 }
+{ \displaystyle   X _ { j } = ( X _ { 1 j } , X _ { 2 j } ) , j = 1 , 2 , \dots   n }
+{ \displaystyle   N ( \mu   _ { i } , \sigma   _ { i } ^ { 2 } ) , i = 1 , 2 }
+\rho  
+{ \displaystyle   E ( X _ { j } ) = \mu   = ( \mu   _ { 1 } , \mu   _ { 2 } ) ^ { T } , \qquad   \Sigma   = { \begin { b m a t r i x } \sigma   _ { 1 1 } & \sigma   _ { 1 2 } \\\sigma   _ { 2 1 } & \sigma   _ { 2 2 } \end { b m a t r i x } } = { \begin { b m a t r i x } \sigma   _ { 1 } ^ { 2 } & \rho   \sigma   _ { 1 } \sigma   _ { 2 } \\\rho   \sigma   _ { 1 } \sigma   _ { 2 } & \sigma   _ { 2 } ^ { 2 } \end { b m a t r i x } } , }
+\Sigma  
+{ \displaystyle   U = \left [ \sum   _ { j = 1 } ^ { n } { \frac   { X _ { 1 j } ^ { 2 } } { \sigma   _ { 1 } ^ { 2 } } } \right ] ^ { 1 / 2 } , \qquad   V = \left [ \sum   _ { j = 1 } ^ { n } { \frac   { X _ { 2 j } ^ { 2 } } { \sigma   _ { 2 } ^ { 2 } } } \right ] ^ { 1 / 2 } . }
+{ \displaystyle   \mu   _ { 1 } \neq   0 }
+{ \displaystyle   \mu   _ { 2 } \neq   0 }
+X
+X ^ { 2 }
+X
+{ \displaystyle   X \sim   \chi   _ { k } }
+X
+{ \displaystyle   X \sim   N C \chi   _ { k } ( 0 ) }
+{ \displaystyle   \sigma   = 1 }

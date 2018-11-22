@@ -1,0 +1,96 @@
+W _ { t }
+{ \displaystyle   d X _ { t } = \mu   ( X _ { t } , t ) \,dt + \sigma   ( X _ { t } , t ) \,dW_ { t } }
+{ \displaystyle   \mu   ( X _ { t } , t ) }
+{ \displaystyle   D ( X _ { t } , t ) = \sigma   ^ { 2 } ( X _ { t } , t ) / 2 }
+{ \displaystyle   p ( x , t ) }
+X _ { t }
+{ \displaystyle   { \frac   { \partial   } { \partial   t } } p ( x , t ) = - { \frac   { \partial   } { \partial   x } } \left [ \mu   ( x , t ) p ( x , t ) \right ] + { \frac   { \partial   ^ { 2 } } { \partial   x ^ { 2 } } } \left [ D ( x , t ) p ( x , t ) \right ] . }
+{ \displaystyle   \sigma   = { \sqrt   { 2 D } } }
+{ \mathcal   { L } }
+{ \displaystyle   { \mathcal   { L } } p ( X _ { t } ) = \lim   _ { \Delta   t \to   0 } { \frac   { 1 } { \Delta   t } } \left ( \mathbb   { E }   { \big   [ } p ( X _ { t + \Delta   t } ) \mid   X _ { t } = x { \big   ] } - p ( x ) \right ) . }
+{ \displaystyle   \mathbb   { P }   _ { t , t ' } ( x \mid   x ' ) }
+{ \displaystyle   ( t ' , x ' ) }
+{ \displaystyle   ( t , x ) }
+{ \displaystyle   \mathbb   { E }   ( p ( X _ { t + \Delta   t } ) \mid   X _ { t } = x ) = \int   p ( y ) \,\mathbb   { P }   _ { t + \Delta   t , t } ( y \mid   x ) \,dy . }
+{ \mathcal   { L } }
+{ \displaystyle   \mathbb   { P }   _ { t , t ' } ( x \mid   x ' ) }
+d x
+{ \displaystyle   \int   p ( y ) \int   \mathbb   { P }   _ { t + \Delta   t , t } ( y \mid   x ) \,\mathbb   { P }   _ { t , t ' } ( x \mid   x ' ) \,dx \,dy - \int   p ( x ) \,\mathbb   { P }   _ { t , t ' } ( x \mid   x ' ) \,dx . }
+{ \displaystyle   \int   \mathbb   { P }   _ { t + \Delta   t , t } ( y \mid   x ) \,\mathbb   { P }   _ { t , t ' } ( x \mid   x ' ) \,dx = \mathbb   { P }   _ { t + \Delta   t , t ' } ( y \mid   x ' ) , }
+y
+x
+{ \displaystyle   { \begin { a l i g n e d } \int   p ( x ) \lim   _ { \Delta   t \to   0 } { \frac   { 1 } { \Delta   t } } \left ( \mathbb   { P }   _ { t + \Delta   t , t ' } ( x \mid   x ' ) - \mathbb   { P }   _ { t , t ' } ( x \mid   x ' ) \right ) \,dx , \end { a l i g n e d } } }
+{ \displaystyle   \int   [ { \mathcal   { L } } p ( x ) ] \mathbb   { P }   _ { t , t ' } ( x \mid   x ' ) \,dx = \int   p ( x ) \,\partial   _ { t } \mathbb   { P }   _ { t , t ' } ( x \mid   x ' ) \,dx . }
+{ \mathcal   { L } }
+{ \displaystyle   { \mathcal   { L } } ^ { \dagger   } }
+{ \displaystyle   \int   [ { \mathcal   { L } } p ( x ) ] \mathbb   { P }   _ { t , t ' } ( x \mid   x ' ) \,dx = \int   p ( x ) [ { \mathcal   { L } } ^ { \dagger   } \mathbb   { P }   _ { t , t ' } ( x \mid   x ' ) ] \,dx , }
+{ \displaystyle   p ( x , t ) = \mathbb   { P }   _ { t , t ' } ( x \mid   x ' ) }
+{ \displaystyle   { \mathcal   { L } } ^ { \dagger   } p ( x , t ) = \partial   _ { t } p ( x , t ) . }
+{ \mathcal   { L } }
+{ \displaystyle   \mathbb   { E }   { \big   ( } p ( X _ { t } ) { \big   ) } = p ( X _ { 0 } ) + \mathbb   { E }   \left ( \int   _ { 0 } ^ { t } \left ( \partial   _ { t } + \mu   \partial   _ { x } + { \frac   { \sigma   ^ { 2 } } { 2 } } \partial   _ { x } ^ { 2 } \right ) p ( X _ { t ' } ) \,dt ' \right ) . }
+d W _ { t }
+{ \displaystyle   { \mathcal   { L } } = \mu   \partial   _ { x } + { \frac   { \sigma   ^ { 2 } } { 2 } } \partial   _ { x } ^ { 2 } , }
+{ \displaystyle   { \mathcal   { L } } ^ { \dagger   } = - \partial   _ { x } ( \mu   \cdot   ) + { \frac   { 1 } { 2 } } \partial   _ { x } ^ { 2 } ( \sigma   ^ { 2 } \cdot   ) , }
+{ \displaystyle   \partial   _ { t } p ( x , t ) = - \partial   _ { x } { \big   ( } \mu   ( x , t ) \cdot   p ( x , t ) { \big   ) } + \partial   _ { x } ^ { 2 } \left ( { \frac   { \sigma   ( x , t ) ^ { 2 } } { 2 } } \,p ( x , t ) \right ) . }
+{ \displaystyle   d X _ { t } = \left [ \mu   ( X _ { t } , t ) - { \frac   { 1 } { 2 } } { \frac   { \partial   } { \partial   X _ { t } } } D ( X _ { t } , t ) \right ] \,dt + { \sqrt   { 2 D ( X _ { t } , t ) } } \circ   d W _ { t } . }
+{ \displaystyle   { \frac   { \partial   } { \partial   t } } p ( x , t ) = D _ { 0 } { \frac   { \partial   ^ { 2 } } { \partial   x ^ { 2 } } } \left [ p ( x , t ) \right ] . }
+{ \displaystyle   \{ 0 \leqslant   x \leqslant   L \ } }
+{ \displaystyle   p ( 0 , t ) = p ( L , t ) = 0 , }
+{ \displaystyle   p ( x , 0 ) = p _ { 0 } ( x ) . }
+{ \displaystyle   \Delta   x \Delta   v \geqslant   D _ { 0 } . }
+D _ { 0 }
+D _ { j }
+\Delta   x
+\Delta   v
+d \mathbf   { X }   _ { t } = { \boldsymbol   { \mu   } } ( \mathbf   { X }   _ { t } , t ) \,dt + { \boldsymbol   { \sigma   } } ( \mathbf   { X }   _ { t } , t ) \,d \mathbf   { W }   _ { t } ,
+\mathbf   { X }   _ { t }
+{ \boldsymbol   { \mu   } } ( \mathbf   { X }   _ { t } , t )
+{ \boldsymbol   { \sigma   } } ( \mathbf   { X }   _ { t } , t )
+\times  
+\mathbf   { W }   _ { t }
+p ( \mathbf   { x }   , t )
+\mathbf   { X }   _ { t }
+{ \displaystyle   { \frac   { \partial   p ( \mathbf   { x }   , t ) } { \partial   t } } = - \sum   _ { i = 1 } ^ { N } { \frac   { \partial   } { \partial   x _ { i } } } \left [ \mu   _ { i } ( \mathbf   { x }   , t ) p ( \mathbf   { x }   , t ) \right ] + \sum   _ { i = 1 } ^ { N } \sum   _ { j = 1 } ^ { N } { \frac   { \partial   ^ { 2 } } { \partial   x _ { i } \,\partial   x _ { j } } } \left [ D _ { i j } ( \mathbf   { x }   , t ) p ( \mathbf   { x }   , t ) \right ] , }
+{ \boldsymbol   { \mu   } } = ( \mu   _ { 1 } , \ldots   , \mu   _ { N } )
+{ \displaystyle   \mathbf   { D }   = { \frac   { 1 } { 2 } } { \boldsymbol   { \sigma   \sigma   } } ^ { \mathsf   { T } } }
+{ \displaystyle   D _ { i j } ( \mathbf   { x }   , t ) = { \frac   { 1 } { 2 } } \sum   _ { k = 1 } ^ { M } \sigma   _ { i k } ( \mathbf   { x }   , t ) \sigma   _ { j k } ( \mathbf   { x }   , t ) . }
+d \mathbf   { X }   _ { t } = { \boldsymbol   { \mu   } } ( \mathbf   { X }   _ { t } , t ) \,dt + { \boldsymbol   { \sigma   } } ( \mathbf   { X }   _ { t } , t ) \circ   d \mathbf   { W }   _ { t } ,
+{ \frac   { \partial   p ( \mathbf   { x }   , t ) } { \partial   t } } = - \sum   _ { i = 1 } ^ { N } { \frac   { \partial   } { \partial   x _ { i } } } \left [ \mu   _ { i } ( \mathbf   { x }   , t ) \,p ( \mathbf   { x }   , t ) \right ] + { \frac   { 1 } { 2 } } \sum   _ { k = 1 } ^ { M } \sum   _ { i = 1 } ^ { N } { \frac   { \partial   } { \partial   x _ { i } } } \left \{ \sigma   _ { i k } ( \mathbf   { x }   , t ) \sum   _ { j = 1 } ^ { N } { \frac   { \partial   } { \partial   x _ { j } } } \left [ \sigma   _ { j k } ( \mathbf   { x }   , t ) \,p ( \mathbf   { x }   , t ) \right ] \right \ }
+d X _ { t } = d W _ { t } .
+{ \frac   { \partial   p ( x , t ) } { \partial   t } } = { \frac   { 1 } { 2 } } { \frac   { \partial   ^ { 2 } p ( x , t ) } { \partial   x ^ { 2 } } } ,
+p ( x , 0 ) = \delta   ( x )
+p ( x , t ) = { \frac   { 1 } { \sqrt   { 2 \pi   t } } } e ^ { - { x ^ { 2 } } / ( { 2 t } ) } .
+d X _ { t } = - a X _ { t } d t + \sigma   d W _ { t }
+a > 0
+{ \frac   { \partial   p ( x , t ) } { \partial   t } } = a { \frac   { \partial   } { \partial   x } } \left ( x \,p ( x , t ) \right ) + { \frac   { \sigma   ^ { 2 } } { 2 } } { \frac   { \partial   ^ { 2 } p ( x , t ) } { \partial   x ^ { 2 } } } ,
+\partial   _ { t } p = 0
+p ( x , t ) = { \sqrt   { \frac   { a } { \pi   \sigma   ^ { 2 } } } } e ^ { - { \frac   { a x ^ { 2 } } { \sigma   ^ { 2 } } } } .
+s
+p _ { s } \left ( { \vec   { x } } , { \vec   { v } } , t \right )
+{ \frac   { \partial   p _ { s } } { \partial   t } } + { \vec   { v } } \cdot   { \vec   { \nabla   } } p _ { s } + { \frac   { Z _ { s } e } { m _ { s } } } \left ( { \vec   { E } } + { \vec   { v } } \times   { \vec   { B } } \right ) \cdot   { \vec   { \nabla   } } _ { v } p _ { s } = - { \frac   { \partial   } { \partial   v _ { i } } } \left ( p _ { s } \langle   \Delta   v _ { i } \rangle   \right ) + { \frac   { 1 } { 2 } } { \frac   { \partial   ^ { 2 } } { \partial   v _ { i } \partial   v _ { j } } } \left ( p _ { s } \langle   \Delta   v _ { i } \Delta   v _ { j } \rangle   \right )
+\langle   \Delta   v _ { i } \rangle  
+\langle   \Delta   v _ { i } \Delta   v _ { j } \rangle  
+s
+f ( \mathbf   { v }   , t ) d \mathbf   { v }  
+( \mathbf   { v }   , \mathbf   { v }   + d \mathbf   { v }   )
+\mathbf   { v }   _ { 0 }
+f _ { 0 } ( x )
+{ \dot   { f } } _ { 0 } ( x ) = 0
+{ \sigma   } ( \mathbf   { X }   _ { t } , t )
+{ \sigma   } ( \mathbf   { X }   _ { t } , t )
+{ \sigma   } ( \mathbf   { X }   _ { t } , t )
+{ \displaystyle   { \begin { a l i g n e d } { \frac   { \partial   } { \partial   t } } p \!\left ( x ^ { \prime   } , t \right ) & = - { \frac   { \partial   } { \partial   x ' } } \left [ D _ { 1 } ( x ' , t ) p ( x ' , t ) \right ] + { \frac   { \partial   ^ { 2 } } { \partial   { x ' } ^ { 2 } } } \left [ D _ { 2 } ( x ' , t ) p ( x ' , t ) \right ] \\&=\int   _ { - \infty   } ^ { \infty   } d x \left ( \left [ D _ { 1 } \left ( x , t \right ) { \frac   { \partial   } { \partial   x } } + D _ { 2 } \left ( x , t \right ) { \frac   { \partial   ^ { 2 } } { \partial   x ^ { 2 } } } \right ] \delta   \left ( x ^ { \prime   } - x \right ) \right ) p \!\left ( x , t \right ) . \end { a l i g n e d } } }
+\delta  
+p ( x , t )
+\varepsilon  
+p \!\left ( x ^ { \prime   } , t + \varepsilon   \right ) = \int   _ { - \infty   } ^ { \infty   } \,dx \left ( \left ( 1 + \varepsilon   \left [ D _ { 1 } \left ( x , t \right ) { \frac   { \partial   } { \partial   x } } + D _ { 2 } \left ( x , t \right ) { \frac   { \partial   ^ { 2 } } { \partial   x ^ { 2 } } } \right ] \right ) \delta   \left ( x ^ { \prime   } - x \right ) \right ) p \!\left ( x , t \right ) + O \left ( \varepsilon   ^ { 2 } \right ) .
+\delta   \left ( x ^ { \prime   } - x \right ) = \int   _ { - i \infty   } ^ { i \infty   } { \frac   { d { \tilde   { x } } } { 2 \pi   i } } e ^ { { \tilde   { x } } \left ( x - x ^ { \prime   } \right ) }
+\delta  
+{ \begin { a l i g n e d } p \!\left ( x ^ { \prime   } , t + \varepsilon   \right ) & = \int   _ { - \infty   } ^ { \infty   } d x \int   _ { - i \infty   } ^ { i \infty   } { \frac   { d { \tilde   { x } } } { 2 \pi   i } } \left ( 1 + \varepsilon   \left [ { \tilde   { x } } D _ { 1 } \left ( x , t \right ) + { \tilde   { x } } ^ { 2 } D _ { 2 } \left ( x , t \right ) \right ] \right ) e ^ { { \tilde   { x } } \left ( x - x ^ { \prime   } \right ) } p \!\left ( x , t \right ) + O \left ( \varepsilon   ^ { 2 } \right ) \\&=\int   _ { - \infty   } ^ { \infty   } d x \int   _ { - i \infty   } ^ { i \infty   } { \frac   { d { \tilde   { x } } } { 2 \pi   i } } \exp   \left ( \varepsilon   \left [ - { \tilde   { x } } { \frac   { \left ( x ^ { \prime   } - x \right ) } { \varepsilon   } } + { \tilde   { x } } D _ { 1 } \left ( x , t \right ) + { \tilde   { x } } ^ { 2 } D _ { 2 } \left ( x , t \right ) \right ] \right ) p \!\left ( x , t \right ) + O \left ( \varepsilon   ^ { 2 } \right ) . \end { a l i g n e d } }
+p \!\left ( x ^ { \prime   } , t + \varepsilon   \right )
+p \!\left ( x , t \right )
+\left ( t ^ { \prime   } - t \right ) / \varepsilon  
+\varepsilon   \rightarrow   0
+{ \displaystyle   S = \int   d t \left [ { \tilde   { x } } D _ { 1 } \left ( x , t \right ) + { \tilde   { x } } ^ { 2 } D _ { 2 } \left ( x , t \right ) - { \tilde   { x } } { \frac   { \partial   x } { \partial   t } } \right ] . }
+{ \tilde   { x } }
+x

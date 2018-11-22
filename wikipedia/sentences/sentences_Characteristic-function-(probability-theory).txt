@@ -1,0 +1,79 @@
+F _ { X } ( x ) = \operatorname   { E }   \left [ \mathbf   { 1 }   _ { \{ X \leq   x \}}\right ]
+\varphi   _ { X } ( t ) = \operatorname   { E }   \left [ e ^ { i t X } \right ] ,
+M _ { X } ( t )
+\varphi   _ { X } ( - i t ) = M _ { X } ( t ) .
+{ \displaystyle   { \begin { c a s e s } \varphi   _ { X } \!:\mathbb   { R }   \to   \mathbb   { C }   \\\varphi   _ { X } ( t ) = \operatorname   { E }   \left [ e ^ { i t X } \right ] = \int   _ { \mathbb   { R }   } e ^ { i t x } \,dF_ { X } ( x ) = \int   _ { \mathbb   { R }   } e ^ { i t x } f _ { X } ( x ) \,dx = \int   _ { 0 } ^ { 1 } e ^ { i t Q _ { X } ( p ) } \,dp \end { c a s e s } } }
+\scriptstyle   { \hat   { p } }
+\scriptstyle   { \hat   { f } }
+\varphi   _ { X } ( t ) = \operatorname   { E }   \left [ \exp ( { i \,t ^ { T } \!X } ) \right ] ,
+\varphi   _ { X } ( t ) = \operatorname   { E }   \left [ \exp   \left ( { i \,\operatorname   { t r }   ( t ^ { T } \!X ) } \right ) \right ] ,
+\varphi   _ { X } ( t ) = \operatorname   { E }   \left [ \exp ( { i \,\operatorname   { R e }   ( { \overline   { t } } X ) } ) \right ] ,
+\varphi   _ { X } ( t ) = \operatorname   { E }   \left [ \exp ( { i \,\operatorname   { R e }   ( t ^ { * } \!X ) } ) \right ] ,
+\varphi   _ { X } ( t ) = \operatorname   { E }   \left [ \exp   \left ( { i \int   _ { \mathbf   { R }   } t ( s ) X ( s ) d s } \right ) \right ] .
+{ } ^ { T }
+{ \displaystyle   \!\,e ^ { i t a } }
+{ \displaystyle   \!\,1 - p + p e ^ { i t } }
+{ \displaystyle   \!\,( 1 - p + p e ^ { i t } ) ^ { n } }
+{ \displaystyle   \,{ \biggl   ( } { \frac   { 1 - p } { 1 - p e ^ { i \,t } } } { \biggr   ) } ^ { \!r } }
+{ \displaystyle   \!\,e ^ { \lambda   ( e ^ { i t } - 1 ) } }
+{ \displaystyle   \!\,{ \frac   { e ^ { i t b } - e ^ { i t a } } { i t ( b - a ) } } }
+{ \displaystyle   { \frac   { e ^ { a i t } - e ^ { ( b + 1 ) i t } } { ( b - a + 1 ) ( 1 - e ^ { i t } ) } } }
+{ \displaystyle   \!\,{ \frac   { e ^ { i t \mu   } } { 1 + b ^ { 2 } t ^ { 2 } } } }
+{ \displaystyle   \!\,e ^ { i t \mu   - { \frac   { 1 } { 2 } } \sigma   ^ { 2 } t ^ { 2 } } }
+{ \displaystyle   \!\,( 1 - 2 i t ) ^ { - k / 2 } }
+{ \displaystyle   \!\,e ^ { i t \mu   - \theta   | t | } }
+{ \displaystyle   \!\,( 1 - i t \theta   ) ^ { - k } }
+{ \displaystyle   \!\,( 1 - i t \lambda   ^ { - 1 } ) ^ { - 1 } }
+{ \displaystyle   \!\,{ \frac   { p } { 1 - e ^ { i t } ( 1 - p ) } } }
+{ \displaystyle   \!\,{ \frac   { p } { e ^ { - i t } - ( 1 - p ) } } }
+{ \displaystyle   e ^ { \mathbf   { t }   ^ { \mathrm   { T }   } \left ( i { \boldsymbol   { \mu   } } - { \frac   { 1 } { 2 } } { \boldsymbol   { \Sigma   } } \mathbf   { t }   \right ) } }
+{ \displaystyle   \!\,e ^ { i \mathbf   { t }   ^ { \mathrm   { T }   } { \boldsymbol   { \mu   } } - { \sqrt   { \mathbf   { t }   ^ { \mathrm   { T }   } { \boldsymbol   { \Sigma   } } \mathbf   { t }   } } } }
+\varphi   _ { X _ { 1 } } = \varphi   _ { X _ { 2 } }
+\operatorname   { E }   [ X ^ { k } ] = ( - i ) ^ { k } \varphi   _ { X } ^ { ( k ) } ( 0 ) .
+\varphi   _ { X } ^ { ( k ) } ( 0 ) = i ^ { k } \operatorname   { E }   [ X ^ { k } ]
+\varphi   _ { a _ { 1 } X _ { 1 } + \cdots   + a _ { n } X _ { n } } ( t ) = \varphi   _ { X _ { 1 } } ( a _ { 1 } t ) \cdots   \varphi   _ { X _ { n } } ( a _ { n } t ) .
+\varphi   _ { X _ { 1 } + X _ { 2 } } ( t ) = \varphi   _ { X _ { 1 } } ( t ) \cdot   \varphi   _ { X _ { 2 } } ( t ) .
+Y = a X + b
+X
+Y
+{ \displaystyle   \varphi   _ { Y } ( t ) = e ^ { i t b } \varphi   _ { X } ( a t ) }
+X
+{ \displaystyle   Y = A X + B }
+{ \displaystyle   \varphi   _ { Y } ( t ) = e ^ { i t ^ { \top   } B } \varphi   _ { X } ( A ^ { \top   } t ) }
+f _ { X } ( x ) = F _ { X } ' ( x ) = { \frac   { 1 } { 2 \pi   } } \int   _ { \mathbf   { R }   } e ^ { - i t x } \varphi   _ { X } ( t ) d t ,
+f _ { X } ( x ) = { \frac   { d \mu   _ { X } } { d \lambda   } } ( x ) = { \frac   { 1 } { ( 2 \pi   ) ^ { n } } } \int   _ { \mathbf   { R }   ^ { n } } e ^ { - i ( t \cdot   x ) } \varphi   _ { X } ( t ) \lambda   ( d t ) .
+F _ { X } ( b ) - F _ { X } ( a ) = { \frac   { 1 } { 2 \pi   } } \lim   _ { T \to   \infty   } \int   _ { - T } ^ { + T } { \frac   { e ^ { - i t a } - e ^ { - i t b } } { i t } } \,\varphi   _ { X } ( t ) \,dt .
+{ \frac   { F ( x + h ) - F ( x - h ) } { 2 h } } = { \frac   { 1 } { 2 \pi   } } \int   _ { - \infty   } ^ { \infty   } { \frac   { \sin   h t } { h t } } e ^ { - i t x } \varphi   _ { X } ( t ) \,dt .
+F ( b )
+a
+F ( a ) = 0 .
+a \to   - \infty  
+F ( b )
+\mu   _ { X } { \big   ( } \{ a < x < b \}{ \big   ) } = { \frac   { 1 } { ( 2 \pi   ) ^ { n } } } \lim   _ { T _ { 1 } \to   \infty   } \cdots   \lim   _ { T _ { n } \to   \infty   } \int   \limits   _ { - T _ { 1 } \leq   t _ { 1 } \leq   T _ { 1 } } \cdots   \int   \limits   _ { - T _ { n } \leq   t _ { n } \leq   T _ { n } } \prod   _ { k = 1 } ^ { n } \left ( { \frac   { e ^ { - i t _ { k } a _ { k } } - e ^ { - i t _ { k } b _ { k } } } { i t _ { k } } } \right ) \varphi   _ { X } ( t ) \lambda   ( d t _ { 1 } \times   \cdots   \times   d t _ { n } )
+F _ { X } ( a ) - F _ { X } ( a - 0 ) = \lim   _ { T \to   \infty   } { \frac   { 1 } { 2 T } } \int   _ { - T } ^ { + T } e ^ { - i t a } \varphi   _ { X } ( t ) d t
+\mu   _ { X } ( \{ a \})=\lim   _ { T _ { 1 } \to   \infty   } \cdots   \lim   _ { T _ { n } \to   \infty   } \left ( \prod   _ { k = 1 } ^ { n } { \frac   { 1 } { 2 T _ { k } } } \right ) \int   _ { - T } ^ { T } e ^ { - i ( t \cdot   a ) } \varphi   _ { X } ( t ) \lambda   ( d t )
+F _ { X } ( x ) = { \frac   { 1 } { 2 } } - { \frac   { 1 } { \pi   } } \int   _ { 0 } ^ { \infty   } { \frac   { \operatorname   { I m }   [ e ^ { - i t x } \varphi   _ { X } ( t ) ] } { t } } \,dt .
+z
+\mathrm   { I m }   ( z ) = ( z - z ^ { * } ) / 2 i
+\scriptstyle   \sum   _ { n } a _ { n } \varphi   _ { n } ( t )
+\scriptstyle   a _ { n } \geq   0 , \ \sum   _ { n } a _ { n } = 1
+\bar { \Phi }
+\varphi   ( t ) = \int   _ { \mathbf   { R }   } g ( t + \theta   ) { \overline   { g ( \theta   ) } } d \theta   .
+( - 1 ) ^ { n } \left ( \int   _ { \mathbf   { R }   } \varphi   ( p t ) e ^ { - { \frac   { t ^ { 2 } } { 2 } } } H _ { 2 n } ( t ) d t \right ) \geq   0
+{ \displaystyle   \varphi   ( 0 ) = 1 }
+\varphi  
+{ \displaystyle   t > 0 }
+{ \displaystyle   \varphi   ( \infty   ) = 0 }
+S _ { n } = \sum   _ { i = 1 } ^ { n } a _ { i } X _ { i } , \ , \ !
+\varphi   _ { S _ { n } } ( t ) = \varphi   _ { X _ { 1 } } ( a _ { 1 } t ) \varphi   _ { X _ { 2 } } ( a _ { 2 } t ) \cdots   \varphi   _ { X _ { n } } ( a _ { n } t ) \ , \ !
+\varphi   _ { X + Y } ( t ) = \operatorname   { E }   \left [ e ^ { i t ( X + Y ) } \right ] = \operatorname   { E }   \left [ e ^ { i t X } e ^ { i t Y } \right ] = \operatorname   { E }   \left [ e ^ { i t X } \right ] E \left [ e ^ { i t Y } \right ] = \varphi   _ { X } ( t ) \varphi   _ { Y } ( t )
+\varphi   _ { \overline   { X } } ( t ) = \varphi   _ { X } \!\left ( { \tfrac   { t } { n } } \right ) ^ { n }
+\operatorname   { E }   \left [ X ^ { n } \right ] = i ^ { - n } \,\varphi   _ { X } ^ { ( n ) } ( 0 ) = i ^ { - n } \,\left [ { \frac   { d ^ { n } } { d t ^ { n } } } \varphi   _ { X } ( t ) \right ] _ { t = 0 } \ , \ !
+( 1 - \theta   \,i \,t ) ^ { - k } .
+X ~ \sim   \Gamma   ( k _ { 1 } , \theta   ) { \mbox {   a n d   } } Y \sim   \Gamma   ( k _ { 2 } , \theta   ) \ ,
+\varphi   _ { X } ( t ) = ( 1 - \theta   \,i \,t ) ^ { - k _ { 1 } } , \,\qquad   \varphi   _ { Y } ( t ) = ( 1 - \theta   \,i \,t ) ^ { - k _ { 2 } }
+\varphi   _ { X + Y } ( t ) = \varphi   _ { X } ( t ) \varphi   _ { Y } ( t ) = ( 1 - \theta   \,i \,t ) ^ { - k _ { 1 } } ( 1 - \theta   \,i \,t ) ^ { - k _ { 2 } } = \left ( 1 - \theta   \,i \,t \right ) ^ { - ( k _ { 1 } + k _ { 2 } ) } .
+X + Y \sim   \Gamma   ( k _ { 1 } + k _ { 2 } , \theta   ) \ ,
+\forall   i \in   \{ 1 , \ldots   , n \}:X_ { i } \sim   \Gamma   ( k _ { i } , \theta   ) \qquad   \Rightarrow   \qquad   \sum   _ { i = 1 } ^ { n } X _ { i } \sim   \Gamma   \left ( \sum   _ { i = 1 } ^ { n } k _ { i } , \theta   \right ) .
+\varphi   _ { X } ( t ) = \langle   e ^ { i t X } \rangle   = \int   _ { \mathbf   { R }   } e ^ { i t x } p ( x ) \,dx = { \overline   { \left ( \int   _ { \mathbf   { R }   } e ^ { - i t x } p ( x ) \,dx \right ) } } = { \overline   { P ( t ) } } ,
+p ( x ) = { \frac   { 1 } { 2 \pi   } } \int   _ { \mathbf   { R }   } e ^ { i t x } P ( t ) \,dt = { \frac   { 1 } { 2 \pi   } } \int   _ { \mathbf   { R }   } e ^ { i t x } { \overline   { \varphi   _ { X } ( t ) } } \,dt .

@@ -1,0 +1,28 @@
+{ \displaystyle   { \frac   { \text { b a n k r o l l } } { N } } }
+{ \displaystyle   { \begin { a l i g n e d } P _ { 1 } & = { \frac   { n _ { 2 } } { n _ { 1 } + n _ { 2 } } } \\[5pt ] P _ { 2 } & = { \frac   { n _ { 1 } } { n _ { 1 } + n _ { 2 } } } \end { a l i g n e d } } }
+( P _ { 1 } )
+P _ { 2 }
+{ \displaystyle   { \begin { a l i g n e d } P _ { 1 } & = { \frac   { 5 } { 8 + 5 } } = { \frac   { 5 } { 1 3 } } = 0 . 3 8 4 6 { \text {   o r   } } 3 8 . 4 6 \%\\[6pt ] P _ { 2 } & = { \frac   { 8 } { 8 + 5 } } = { \frac   { 8 } { 1 3 } } = 0 . 6 1 5 4 { \text {   o r   } } 6 1 . 5 4 \%\end { a l i g n e d } } }
+{ \displaystyle   { \begin { a l i g n e d } P _ { 1 } & = { \frac   { 6 } { 6 + 6 } } = { \frac   { 6 } { 1 2 } } = { \frac   { 1 } { 2 } } = 0 . 5 \\[5pt ] P _ { 2 } & = { \frac   { 6 } { 6 + 6 } } = { \frac   { 6 } { 1 2 } } = { \frac   { 1 } { 2 } } = 0 . 5 \end { a l i g n e d } } }
+{ \displaystyle   { \begin { a l i g n e d } P _ { 1 } & = { \frac   { 1 - ( { \frac   { p } { q } } ) ^ { n _ { 2 } } } { 1 - ( { \frac   { p } { q } } ) ^ { n _ { 1 } + n _ { 2 } } } } \\[5pt ] P _ { 2 } & = { \frac   { 1 - ( { \frac   { q } { p } } ) ^ { n _ { 1 } } } { 1 - ( { \frac   { q } { p } } ) ^ { n _ { 1 } + n _ { 2 } } } } \end { a l i g n e d } } }
+n > 1
+P ( R _ { n } )
+{ \displaystyle   P ( R _ { n } ) = P ( R _ { n } \mid   W ) P ( W ) + P ( R _ { n } \mid   { \bar   { W } } ) P ( { \bar   { W } } ) , }
+P ( W ) = p
+P ( { \bar   { W } } ) = 1 - p = q
+{ \displaystyle   P ( R _ { n } \mid   W ) }
+n + 1
+P ( R _ { n + 1 } )
+{ \displaystyle   P ( R _ { n } \mid   { \bar   { W } } ) }
+n - 1
+P ( R _ { n - 1 } )
+q _ { n } = P ( R _ { n } )
+{ \displaystyle   q _ { n } = q _ { n + 1 } p + q _ { n - 1 } q , }
+q _ { 0 } = 1
+q _ { n _ { 1 } + n _ { 2 } } = 0
+N \geq   2 \ , \ ,
+{ \displaystyle   x _ { 1 } , x _ { 2 } , \ldots   , x _ { N } \ , \ , }
+N = 2 \ ,
+x _ { 1 } , x _ { 2 } \ ,
+N \geq   3
+N \geq   3

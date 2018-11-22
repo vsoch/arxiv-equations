@@ -1,0 +1,1 @@
+\exp   \left ( c + \sum   _ { i } w _ { i } f _ { i } ( X ) \right )

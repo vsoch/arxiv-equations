@@ -1,0 +1,38 @@
+k
+\theta_ { 1 } ,   \theta_ { 2 } ,   \dots ,   \theta_ { k }
+f _ { W } ( w ;   \theta )
+W
+k
+\theta  
+\mu_ { 1 }   \equiv   E [ W ] = g _ { 1 } ( \theta_ { 1 } ,   \theta_ { 2 } ,   \dots ,   \theta_ { k } )   ,  
+\mu_ { 2 }   \equiv   E [ W ^ 2 ] = g _ { 2 } ( \theta_ { 1 } ,   \theta_ { 2 } ,   \dots ,   \theta_ { k } )     ,
+\vdots  
+\mu_ { k }   \equiv   E [ W ^ k ] = g _ { k } ( \theta_ { 1 } ,   \theta_ { 2 } ,   \dots ,   \theta_ { k } )     .
+n
+w _ 1 ,   \dots ,   w _ n
+j = 1 , \dots , k
+\hat { \mu } _ { j } = \frac { 1 } { n } \sum_ { i = 1 } ^ { n }   w _ { i } ^ { j }
+\mu   _ { j }
+\theta_ { 1 } ,   \theta_ { 2 } ,   \dots ,   \theta_ { k }
+\hat { \theta } _ { 1 } ,   \hat { \theta } _ { 2 } ,   \dots ,   \hat { \theta } _ { k }
+\hat   \mu_ { 1 }   =   g _ { 1 } ( \hat { \theta } _ { 1 } ,   \hat { \theta } _ { 2 } ,   \dots ,   \hat { \theta } _ { k } )   ,
+\hat   \mu_ { 2 }   =   g _ { 2 } ( \hat { \theta } _ { 1 } ,   \hat { \theta } _ { 2 } ,   \dots ,   \hat { \theta } _ { k } )   ,
+\vdots    
+\hat   \mu_ { k }   =   g _ { k } ( \hat { \theta } _ { 1 } ,   \hat { \theta } _ { 2 } ,   \dots ,   \hat { \theta } _ { k } )   .
+N
+[ a , b ]
+[ a , b ]
+{ \displaystyle   U ( a , b ) }
+{ \displaystyle   W \sim   U ( a , b ) }
+{ \displaystyle   \mu   _ { 1 } = E [ W ] = { \frac   { 1 } { 2 } } ( a + b ) }
+{ \displaystyle   \mu   _ { 2 } = E [ W ^ { 2 } ] = { \frac   { 1 } { 3 } } ( a ^ { 2 } + a b + b ^ { 2 } ) }
+{ \displaystyle   ( a , b ) = ( \mu   _ { 1 } - { \sqrt   { 3 ( \mu   _ { 2 } - \mu   _ { 1 } ^ { 2 } ) } } , \mu   _ { 1 } + { \sqrt   { 3 ( \mu   _ { 2 } - \mu   _ { 1 } ^ { 2 } ) } } ) }
+\{ w _ { i } \ }
+{ \displaystyle   { \hat   { \mu   } } _ { 1 } }
+{ \displaystyle   { \hat   { \mu   } } _ { 2 } }
+a
+b
+{ \displaystyle   \{ 0 , 0 , 0 , 0 , 1 \ } }
+{ \displaystyle   b = { \frac   { 1 } { 5 } } + { \frac   { 2 { \sqrt   { 3 } } } { 5 } } }
+{ \displaystyle   \{ 0 , 0 , 0 , 0 , 1 \ } }
+{ \displaystyle   U ( a , b ) }

@@ -1,0 +1,161 @@
+x _ { 0 } \ !
+\gamma   > 0
+\displaystyle   x   \in   ( - \infty ,   + \infty ) \ !
+\frac { 1 } { \pi \gamma \,\left [ 1   +   \left ( \frac { x - x _ 0 } { \gamma } \right ) ^ 2 \right ] } \ !
+\frac { 1 } { \pi }   \arctan \left ( \frac { x - x _ 0 } { \gamma } \right ) + \frac { 1 } { 2 } \ !
+x _ 0 + \gamma \,\tan [ \pi ( F - \tfrac { 1 } { 2 } ) ]
+x _ { 0 } \ !
+x _ { 0 } \ !
+{ \displaystyle   \log ( 4 \pi   \gamma   ) \ ! }
+\displaystyle   \exp ( x _ 0 \,i \,t - \gamma \,|t | ) \ !
+f ( x ; x _ { 0 } , \gamma   )
+( x _ { 0 } , \gamma   )
+f ( x ; x _ { 0 } , \gamma   ) = { \frac     { 1 } { \pi   \gamma   \left [ 1 + \left ( { \frac     { x - x _ { 0 } } { \gamma   } } \right ) ^ { 2 } \right ] } } = { 1   \over   \pi   \gamma   } \left [ { \gamma   ^ { 2 }   \over   ( x - x _ { 0 } ) ^ { 2 } + \gamma   ^ { 2 } } \right ] ,
+x _ { 0 }
+\gamma  
+2 \gamma  
+\gamma  
+{ \displaystyle   { \frac   { 1 } { \pi   \gamma   } } }
+x = x _ 0
+{ \displaystyle   \psi   = x _ { 0 } + i \gamma   }
+{ \displaystyle   f ( x ; \psi   ) = { \frac   { 1 } { \pi   } } \,{ \textrm   { I m } } \left ( { \frac   { 1 } { x - \psi   } } \right ) = { \frac   { 1 } { \pi   } } \,{ \textrm   { R e } } \left ( { \frac   { - i } { x - \psi   } } \right ) }
+x _ { 0 } = 0
+\gamma   = 1
+  f ( x ;   0 , 1 )   =   \frac { 1 } { \pi   ( 1   +   x ^ 2 ) } .   \ !
+f ( x ;   x _ 0 , \gamma , I )   =   \frac { I } { \left [ 1   +   \left ( \frac { x - x _ 0 } { \gamma } \right ) ^ 2 \right ] }   =   I   \left [   {   \gamma ^ 2   \over   ( x   -   x _ 0 ) ^ 2   +   \gamma ^ 2     }   \right ] ,  
+I
+{ \displaystyle   I = { \frac   { 1 } { \pi   \gamma   } } . \ ! }
+F ( x ;   x _ 0 , \gamma ) = \frac { 1 } { \pi }   \arctan \left ( \frac { x - x _ 0 } { \gamma } \right ) + \frac { 1 } { 2 }
+Q ( p ;   x _ 0 , \gamma )   =   x _ 0   +   \gamma \,\tan \left [ \pi \left ( p - \tfrac { 1 } { 2 } \right ) \right ] .
+{ \displaystyle   ( x _ { 0 } - \gamma   , x _ { 0 } + \gamma   ) }
+2 \gamma  
+\arctan ( x )
+F ( x ;   0 , 1 ) = \frac { 1 } { \pi }   \arctan \left ( x \right ) + \frac { 1 } { 2 }
+{ \displaystyle   { \begin { a l i g n e d } H ( \gamma   ) & = - \int   _ { - \infty   } ^ { \infty   } f ( x ; x _ { 0 } , \gamma   ) \log ( f ( x ; x _ { 0 } , \gamma   ) ) \,dx \\[6pt ] & = \log ( 4 \pi   \gamma   ) \end { a l i g n e d } } }
+{ \displaystyle   Q ' ( p ; \gamma   ) = \gamma   \,\pi   \,{ \sec   } ^ { 2 } \left [ \pi   \left ( p - { \tfrac   { 1 } { 2 } } \right ) \right ] . \ ! }
+{ \displaystyle   H ( \gamma   ) = \int   _ { 0 } ^ { 1 } \log   \,( Q ' ( p ; \gamma   ) ) \,\mathrm   { d }   p = \log ( 4 \pi   \gamma   ) }
+X
+{ \displaystyle   \operatorname   { E }   [ \log ( 1 + ( X - x _ { 0 } ) ^ { 2 } / \gamma   ^ { 2 } ) ] = \log   4 }
+X
+{ \displaystyle   \operatorname   { E }   [ \log ( 1 + ( X - x _ { 0 } ) ^ { 2 } ) ] = 2 \log ( 1 + \gamma   ) . }
+X
+{ \displaystyle   \operatorname   { E }   \!\left [ \ln ( 1 + X ^ { 2 } ) \right ] = \ln   4 . }
+x _ { 0 }
+U
+V
+{ \displaystyle   U / V }
+\Sigma  
+p \times   p
+{ \displaystyle   X , Y \sim   N ( 0 , \Sigma   ) }
+p
+w
+X
+Y
+{ \displaystyle   w _ { 1 } + \cdots   + w _ { p } = 1 }
+{ \displaystyle   w _ { i } \geq   0 , i = 1 , \ldots   , p , }
+{ \displaystyle   \sum   _ { j = 1 } ^ { p } w _ { j } { \frac   { X _ { j } } { Y _ { j } } } \sim   \mathrm   { C a u c h y }   ( 0 , 1 ) . }
+X _ 1 ,   \ldots ,   X _ n
+{ \displaystyle   ( X _ { 1 } + \cdots   + X _ { n } ) / n }
+{ \displaystyle   \varphi   _ { \overline   { X } } ( t ) = \mathrm   { E }   \left [ e ^ { i { \overline   { X } } t } \right ] }
+{ \overline   { X } }
+X
+{ \displaystyle   \varphi   _ { X } ( t ; x _ { 0 } , \gamma   ) = \operatorname   { E }   \left [ e ^ { i X t } \right ] = \int   _ { - \infty   } ^ { \infty   } f ( x ; x _ { 0 } , \gamma   ) e ^ { i x t } \,dx = e ^ { i x _ { 0 } t - \gamma   | t | } . }
+{ \displaystyle   f ( x ; x _ { 0 } , \gamma   ) = { \frac   { 1 } { 2 \pi   } } \int   _ { - \infty   } ^ { \infty   } \varphi   _ { X } ( t ; x _ { 0 } , \gamma   ) e ^ { - i x t } \,dt \ ! }
+t = 0
+f ( x )
+\int_ { - \infty } ^ \infty   x   f ( x ) \,dx .   \qquad \qquad   ( 1 ) \ !
+\int_a ^ \infty   x   f ( x ) \,dx + \int_ { - \infty } ^ a   x   f ( x ) \,dx . \qquad \qquad   ( 2 )   \ !
+a
+\lim_ { a \to \infty } \int_ { - a } ^ a   x   f ( x ) \,dx ,   \ !
+\lim_ { a \to \infty } \int_ { - 2 a } ^ a   x   f ( x ) \,dx ,   \ !
+{ \displaystyle   { \begin { a l i g n e d } \operatorname   { E }   [ X ^ { 2 } ] & \propto   \int   _ { - \infty   } ^ { \infty   } { \frac   { x ^ { 2 } } { 1 + x ^ { 2 } } } \,dx = \int   _ { - \infty   } ^ { \infty   } 1 - { \frac   { 1 } { 1 + x ^ { 2 } } } \,dx \\[8pt ] & = \int   _ { - \infty   } ^ { \infty   } d x - \int   _ { - \infty   } ^ { \infty   } { \frac   { 1 } { 1 + x ^ { 2 } } } \,dx = \int   _ { - \infty   } ^ { \infty   } d x - \pi   = \infty   . \end { a l i g n e d } } }
+\infty   - \infty  
+{ \displaystyle   { \bar   { x } } = { \frac   { 1 } { n } } \sum   _ { i = 1 } ^ { n } x _ { i } }
+x _ { i }
+x _ { 0 }
+x _ { 0 }
+x _ { 0 }
+\gamma  
+x _ { 0 }
+\gamma  
+x _ { 0 }
+x _ { 0 }
+\gamma  
+n
+{ \hat     \ell   } ( \!x_ { 0 } , \gamma   \mid   x _ { 1 } , \dotsc   , x _ { n } ) = - n \log ( \gamma   \pi   ) - \sum   _ { { i = 1 } } ^ { n } \log   \left ( 1 + \left ( { \frac     { x _ { i } - x _ { 0 } } { \gamma   } } \right ) ^ { 2 } \right )
+x _ { 0 }
+\gamma  
+  \sum_ { i = 1 } ^ n   \frac { x _ i   -   x _ 0 } { \gamma ^ 2   +   [ x _ i   -   \!x_0 ] ^ 2 }   =   0
+  \sum_ { i = 1 } ^ n   \frac { \gamma ^ 2 } { \gamma ^ 2   +   [ x _ i   -   x _ 0 ] ^ 2 }   -   \frac { n } { 2 }   =   0
+  \sum_ { i = 1 } ^ n   \frac { \gamma ^ 2 } { \gamma ^ 2   +   [ x _ i   -   x _ 0 ] ^ 2 }  
+\gamma  
+\gamma  
+  \min   | x _ i - x _ 0 | \le   \gamma \le   \max   | x _ i - x _ 0 | .  
+x _ { 0 }
+2 n - 1
+\gamma  
+n
+\gamma   ^ { 2 }
+x _ { 0 }
+x _ { 0 }
+x _ { 0 }
+x _ { 0 }
+x _ { 0 }
+{ \displaystyle   X = ( X _ { 1 } , \ldots   , X _ { k } ) ' }
+{ \displaystyle   Y = a _ { 1 } X _ { 1 } + \cdots   + a _ { k } X _ { k } }
+{ \displaystyle   a \in   \mathbb   { R }   ^ { k } }
+{ \displaystyle   Y = a ' X }
+{ \displaystyle   \varphi   _ { X } ( t ) = e ^ { i x _ { 0 } ( t ) - \gamma   ( t ) } , \ ! }
+x _ 0 ( t )
+\gamma   ( t )
+x _ 0 ( t )
+\gamma   ( t )
+x _ 0 ( a t )   =   a x _ 0 ( t ) ,
+\gamma   ( a t )   =   | a | \gamma   ( t ) ,
+t
+f ( x ,   y ;   x _ 0 , y _ 0 , \gamma ) =   {   1   \over   2   \pi   }   \left [   {   \gamma   \over   ( ( x   -   x _ 0 ) ^ 2   +   ( y   -   y _ 0 ) ^ 2   + \gamma ^ 2 ) ^ { 1 . 5 }     }   \right ]   .
+x
+y
+{ \displaystyle   f ( z ; z _ { 0 } , \gamma   ) = { 1   \over   2 \pi   } \left [ { \gamma     \over   ( | z - z _ { 0 } | ^ { 2 } + \gamma   ^ { 2 } ) ^ { 1 . 5 } } \right ] . }
+k
+f ( { \mathbf   x } ;   { \mathbf \mu } , { \mathbf \Sigma } ,   k ) =   \frac { \Gamma \left ( \frac { 1 + k } { 2 } \right ) } { \Gamma ( \frac { 1 } { 2 } ) \pi ^ { \frac { k } { 2 } } \left | { \mathbf \Sigma } \right | ^ { \frac { 1 } { 2 } } \left [ 1 + ( { \mathbf   x } - { \mathbf \mu } ) ^ T { \mathbf \Sigma } ^ { - 1 } ( { \mathbf   x } - { \mathbf \mu } ) \right ] ^ { \frac { 1 + k } { 2 } } }   .
+{ \displaystyle   X \sim   \operatorname   { C a u c h y }   ( x _ { 0 } , \gamma   ) \ , }
+{ \displaystyle   k X + \ell   \sim   { \textrm   { C a u c h y } } ( x _ { 0 } k + \ell   , \gamma   | k | ) \ , }
+{ \displaystyle   X \sim   \operatorname   { C a u c h y }   ( x _ { 0 } , \gamma   _ { 0 } ) \ , }
+{ \displaystyle   Y \sim   \operatorname   { C a u c h y }   ( x _ { 1 } , \gamma   _ { 1 } ) \ , }
+{ \displaystyle   X + Y \sim   \operatorname   { C a u c h y }   ( x _ { 0 } + x _ { 1 } , \gamma   _ { 0 } + \gamma   _ { 1 } ) \ , }
+{ \displaystyle   X - Y \sim   \operatorname   { C a u c h y }   ( x _ { 0 } - x _ { 1 } , \gamma   _ { 0 } + \gamma   _ { 1 } ) \ , }
+{ \displaystyle   X \sim   \operatorname   { C a u c h y }   ( 0 , \gamma   ) \ , }
+{ \displaystyle   { \tfrac   { 1 } { X } } \sim   \operatorname   { C a u c h y }   ( 0 , { \tfrac   { 1 } { \gamma   } } ) \ , }
+\psi = x _ 0 + i \gamma
+{ \displaystyle   X \sim   \operatorname   { C a u c h y }   ( \psi   ) }
+{ \displaystyle   X \sim   \operatorname   { C a u c h y }   ( x _ { 0 } , | \gamma   | ) }
+{ \displaystyle   X \sim   \operatorname   { C a u c h y }   ( \psi   ) }
+{ \displaystyle   { \frac   { a X + b } { c X + d } } \sim   \operatorname   { C a u c h y }   \left ( { \frac   { a \psi   + b } { c \psi   + d } } \right ) }
+a
+b
+c
+d
+{ \displaystyle   X \sim   \operatorname   { C a u c h y }   ( \psi   ) }
+{ \displaystyle   { \frac   { X - i } { X + i } } \sim   \operatorname   { C C a u c h y }   \left ( { \frac   { \psi   - i } { \psi   + i } } \right ) }
+{ \displaystyle   \operatorname   { C C a u c h y }   }
+\gamma  
+{ \displaystyle   X \sim   \operatorname   { S t a b l e }   ( \gamma   , 0 , 0 ) \ , }
+{ \displaystyle   \operatorname   { E }   \left ( e ^ { i x X } \right ) = \exp   \left ( \int   _ { \mathbb   { R }   } ( e ^ { i x y } - 1 ) \Pi   _ { \gamma   } ( d y ) \right ) }
+{ \displaystyle   \Pi   _ { \gamma   } ( d y ) = \left ( c _ { 1 , \gamma   } { \frac   { 1 } { y ^ { 1 + \gamma   } } } 1 _ { \left \{ y > 0 \right \}}+c_ { 2 , \gamma   } { \frac   { 1 } { | y | ^ { 1 + \gamma   } } } 1 _ { \left \{ y < 0 \right \}}\right ) \,dy }
+{ \displaystyle   c _ { 1 , \gamma   } , c _ { 2 , \gamma   } }
+\gamma   = 1
+{ \displaystyle   c _ { 1 , \gamma   } = c _ { 2 , \gamma   } }
+{ \displaystyle   | x | = \int   _ { \mathbb   { R }   } ( 1 - e ^ { i x y } ) \,{ \frac   { d y } { y ^ { 2 } } } }
+{ \displaystyle   \operatorname   { C a u c h y }   ( 0 , 1 ) \sim   { \textrm   { t } } ( \mathrm   { d f }   = 1 ) \ , }
+{ \displaystyle   \operatorname   { C a u c h y }   ( \mu   , \sigma   ) \sim   { \textrm   { t } } _ { ( \mathrm   { d f }   = 1 ) } ( \mu   , \sigma   ) \ , }
+X ,   Y   \sim   \textrm { N } ( 0 , 1 ) \, X ,   Y
+{ \displaystyle   { \tfrac   { X } { Y } } \sim   { \textrm   { C a u c h y } } ( 0 , 1 ) \ , }
+X   \sim   \textrm { U } ( 0 , 1 ) \ ,
+{ \displaystyle   \tan   \left ( \pi   \left ( X - { \tfrac   { 1 } { 2 } } \right ) \right ) \sim   { \textrm   { C a u c h y } } ( 0 , 1 ) \ , }
+{ \displaystyle   X \sim   \operatorname   { L o g - C a u c h y }   ( 0 , 1 ) }
+{ \displaystyle   \ln ( X ) \sim   { \textrm   { C a u c h y } } ( 0 , 1 ) }
+{ \displaystyle   X \sim   { \textrm   { S t a b l e } } ( 1 , 0 , \gamma   , \mu   ) }
+{ \displaystyle   X \sim   \operatorname   { C a u c h y }   ( \mu   , \gamma   ) }
+\hat { \beta }
+{ \displaystyle   x _ { t + 1 } = \beta   { x } _ { t } + \varepsilon   _ { t + 1 } , \beta   > 1 }

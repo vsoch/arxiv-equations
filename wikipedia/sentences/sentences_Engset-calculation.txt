@@ -1,0 +1,18 @@
+c
+N
+c
+c > 0
+{ \displaystyle   N > c }
+\lambda   > 0
+{ \displaystyle   h > 0 }
+{ \displaystyle   P = { \frac   { { \binom   { N - 1 } { c } } \left ( \lambda   h \right ) ^ { c } } { \sum   _ { i = 0 } ^ { c } { \binom   { N - 1 } { i } } \left ( \lambda   h \right ) ^ { i } } } . }
+{ \displaystyle   P = { \frac   { 1 } { { } _ { 2 } F _ { 1 } ( 1 , - c ; N - c ; - 1 / ( \lambda   h ) ) } } }
+{ \displaystyle   { } _ { 2 } F _ { 1 } }
+P
+\lambda  
+\alpha   > 0
+{ \displaystyle   \lambda   h = { \frac   { \alpha   } { 1 - \alpha   ( 1 - P ) } } }
+{ \displaystyle   P = f ( P ) }
+{ \displaystyle   f ( P ) = { \frac   { 1 } { { } _ { 2 } F _ { 1 } ( 1 , - c ; N - c ; 1 - P - 1 / \alpha   ) } } . }
+\lambda  
+f

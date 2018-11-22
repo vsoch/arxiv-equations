@@ -1,0 +1,52 @@
+X _ { t } ^ { { \tau   _ { { k } } } } : = X _ { { \min \{ t , \tau   _ { k } \ } } }
+\displaystyle   X _ { t } = { \begin { c a s e s } W _ { { \min ( { \tfrac     { t } { 1 - t } } , T ) } } & { \text { f o r   } } 0 \leq   t < 1 , \\-1 & { \text { f o r   } } 1 \leq   t < \infty   . \end { c a s e s } }
+  X _ t  
+\displaystyle   { \mathbb     { E } } X _ { t } = { \begin { c a s e s } 0 & { \text { f o r   } } 0 \leq   t < 1 , \\-1 & { \text { f o r   } } 1 \leq   t < \infty   . \end { c a s e s } }
+\tau   _ { k } = \min \{ t : X _ { t } = k \ }
+{ \mathbb     { E } } | f ( W _ { 1 } ) | < \infty   .
+\displaystyle   X _ { t } = { \mathbb     { E } } ( f ( W _ { 1 } ) | F _ { t } ) = { \begin { c a s e s } f _ { { 1 - t } } ( W _ { t } ) & { \text { f o r   } } 0 \leq   t < 1 , \\f ( W _ { 1 } ) & { \text { f o r   } } 1 \leq   t < \infty   ; \end { c a s e s } }
+{ \displaystyle   \displaystyle   f _ { s } ( x ) = \mathbb   { E }   f ( x + W _ { s } ) = \int   f ( x + y ) { \frac   { 1 } { \sqrt   { 2 \pi   s } } } \mathrm   { e }   ^ { - y ^ { 2 } / ( 2 s ) } d y . }
+\delta  
+f ,
+Y _ { t } = { \mathbb     { E } } ( \delta   ( W _ { 1 } ) | F _ { t } )
+\displaystyle   Y _ { t } = { \begin { c a s e s } \delta   _ { { 1 - t } } ( W _ { t } ) & { \text { f o r   } } 0 \leq   t < 1 , \\0 & { \text { f o r   } } 1 \leq   t < \infty   , \end { c a s e s } }
+\displaystyle   \delta   _ { s } ( x ) = { \frac     1 { { \sqrt     { 2 \pi   s } } } } { \mathrm     { e } } ^ { { - x ^ { 2 } / ( 2 s ) } } .
+Y _ { t }
+W _ { 1 } \neq   0
+\displaystyle   { \mathbb     { E } } Y _ { t } = { \begin { c a s e s } 1 / { \sqrt     { 2 \pi   } } & { \text { f o r   } } 0 \leq   t < 1 , \\0 & { \text { f o r   } } 1 \leq   t < \infty   . \end { c a s e s } }
+\tau   _ { k } = \min \{ t : Y _ { t } = k \ } .
+Z _ { t }
+\displaystyle   X _ { t } = \ln   | Z _ { t } - 1 | \ , .
+  X _ t  
+Z _ { t }
+u \mapsto   \ln   | u - 1 |
+\tau   _ { k } = \min \{ t : X _ { t } = - k \ } .
+\displaystyle   { \mathbb     { E } } X _ { t } \to   \infty  
+t \to   \infty   ,
+\ln   | u - 1 |
+| u | = r
+r \to   \infty  
+\ln   r
+M _ { t }
+M _ { t } ^ { { \tau   _ { k } } } \to   M _ { t }
+k \to   \infty  
+{ \mathbb     { E } } | M _ { t } ^ { { \tau   _ { k } } } - M _ { t } | \to   0 ;
+M _ { t } ^ { { \tau   _ { k } } } = M _ { { t \wedge   \tau   _ { k } } }
+\tau   _ { k } \to   \infty  
+M _ { t } ^ { { \tau   _ { k } } } \to   M _ { t }
+\textstyle   ( * ) \quad   { \mathbb     { E } } \sup   _ { k } | M _ { t } ^ { { \tau   _ { k } } } | < \infty  
+M _ { t }
+\textstyle   ( * * ) \quad   { \mathbb     { E } } \sup   _ { { s \in   [ 0 , t ] } } | M _ { s } | < \infty  
+\textstyle   \sup   _ { { s \in   [ 0 , t ] } } { \mathbb     { E } } | M _ { s } | < \infty  
+\textstyle   \sup   _ { { t \in   [ 0 , \infty   ) } } { \mathbb     { E } } { \mathrm     { e } } ^ { { | M _ { t } | } } < \infty  
+\textstyle   M _ { t } = f ( t , W _ { t } ) ,
+W _ { t }
+f : [ 0 , \infty   ) \times   { \mathbb     { R } } \to   { \mathbb     { R } }
+M _ { t }
+{ \Big   ( } { \frac     { \partial   } { \partial   t } } + { \frac     1 2 } { \frac     { \partial   ^ { 2 } } { \partial   x ^ { 2 } } } { \Big   ) } f ( t , x ) = 0 .
+M _ { t }
+  \varepsilon > 0  
+C = C ( \varepsilon   , t )
+\textstyle   | f ( s , x ) | \leq   C { \mathrm     { e } } ^ { { \varepsilon   x ^ { 2 } } }
+s \in   [ 0 , t ]
+x \in   { \mathbb     { R } } .

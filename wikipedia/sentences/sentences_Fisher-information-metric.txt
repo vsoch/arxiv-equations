@@ -1,0 +1,90 @@
+\theta   = ( \theta   _ { 1 } , \theta   _ { 2 } , \ldots   , \theta   _ { n } )
+p ( x , \theta )
+\theta  
+x
+\int_X   p ( x , \theta )   \,dx   =   1
+  g _ { j k } ( \theta )   =   \int_X     \frac { \partial   \log   p ( x , \theta ) } { \partial   \theta_j }     \frac { \partial   \log   p ( x , \theta ) } { \partial   \theta_k }     p ( x , \theta )   \, dx .  
+\theta  
+\theta  
+i ( x , \theta )   =   - \log { } p ( x , \theta )
+g _ { { j k } } ( \theta   ) = \int   _ { X } { \frac     { \partial   ^ { 2 } i ( x , \theta   ) } { \partial   \theta   _ { j } \,\partial   \theta   _ { k } } } p ( x , \theta   ) \,dx = { \mathrm     { E } } \left [ { \frac     { \partial   ^ { 2 } i ( x , \theta   ) } { \partial   \theta   _ { j } \,\partial   \theta   _ { k } } } \right ] .
+  \mathrm { E }   \left [     \frac { \partial \log { } p ( x , \theta ) } { \partial   \theta_j }   \right ] = 0  
+{ \displaystyle   { \frac   { \partial   } { \partial   \theta   _ { k } } } }
+{ \displaystyle   P ( \theta   ) }
+{ \displaystyle   P ( \theta   _ { 0 } ) }
+{ \displaystyle   P ( \theta   ) = P ( \theta   _ { 0 } ) + \sum   _ { j } \Delta   \theta   ^ { j } \left . { \frac   { \partial   P } { \partial   \theta   ^ { j } } } \right | _ { \theta   _ { 0 } } }
+\Delta   \theta   ^ { j }
+\theta  
+{ \displaystyle   D _ { \mathrm   { K L }   } [ P ( \theta   ) \|P ( \theta   _ { 0 } ) ] }
+{ \displaystyle   P ( \theta   ) = P ( \theta   _ { 0 } ) }
+\theta   =   \theta_0
+{ \displaystyle   f _ { \theta   _ { 0 } } ( \theta   ) : = D _ { \mathrm   { K L }   } [ P ( \theta   ) \|P ( \theta   _ { 0 } ) ] = { \frac   { 1 } { 2 } } \sum   _ { j k } \Delta   \theta   ^ { j } \Delta   \theta   ^ { k } g _ { j k } ( \theta   _ { 0 } ) + \mathrm   { O }   ( \Delta   \theta   ^ { 3 } ) }
+g _ { j k }
+{ \displaystyle   f _ { \theta   _ { 0 } } ( \theta   ) }
+\theta   _ { 0 }
+A = \frac { 1 } { 2 } \int_a ^ b     \frac { \partial \theta ^ j } { \partial   t }   g _ { j k } ( \theta ) \frac { \partial \theta ^ k } { \partial   t }   d t
+\Delta   S = ( b - a ) A \ ,
+( b - a ) \int   _ { a } ^ { b } { \frac     { \partial   \theta   ^ { j } } { \partial   t } } g _ { { j k } } { \frac     { \partial   \theta   ^ { k } } { \partial   t } } \,dt = 8 \int   _ { a } ^ { b } d J S D
+\int   _ { a } ^ { b } { \sqrt     { { \frac     { \partial   \theta   ^ { j } } { \partial   t } } g _ { { j k } } { \frac     { \partial   \theta   ^ { k } } { \partial   t } } } } \,dt = { \sqrt     { 8 } } \int   _ { a } ^ { b } { \sqrt     { d J S D } }
+{ \displaystyle   y = ( y _ { 0 } , \cdots   , y _ { n } ) }
+{ \displaystyle   h = \sum   _ { i = 0 } ^ { N } d y _ { i } \;dy_ { i } }
+\textstyle   d y _ i
+\textstyle   \frac { \partial } { \partial   y _ j }
+  d y _ j \left ( \frac { \partial } { \partial   y _ k } \right )   =   \delta_ { j k }
+h ^ \mathrm { f l a t } _ { j k }   =   h \left ( \frac { \partial } { \partial   y _ j } ,   \frac { \partial } { \partial   y _ k } \right )   =   \delta_ { j k }
+y
+{ \displaystyle   \sum   _ { i = 0 } ^ { N } y _ { i } ^ { 2 } = 1 }
+p _ i = y _ i ^ 2
+\sum_i   p _ i   =   1
+\begin { a l i g n }   h   & = \sum_i   d y _ i   \; dy_i   =   \sum_i   d \sqrt { p _ i }   \; d \sqrt { p _ i }   \\ &= \frac { 1 } { 4 } \sum_i   \frac { d p _ i   \; dp_i } { p _ i }     =   \frac { 1 } { 4 } \sum_i   p _ i \; d ( \log   p _ i )   \; d ( \log   p _ i )   \end { a l i g n }
+\theta  
+p _ i   =   p _ i ( \theta )
+\begin { a l i g n }   h   &   =   \frac { 1 } { 4 } \sum_i   p _ i ( \theta )   \; d ( \log   p _ i ( \theta ) ) \; d ( \log   p _ i ( \theta ) )   \\ &= \frac { 1 } { 4 } \sum_ { j k }   \sum_i   p _ i ( \theta )   \; \frac { \partial   \log   p _ i ( \theta ) }   { \partial   \theta_j }   \frac { \partial   \log   p _ i ( \theta ) }   { \partial   \theta_k }   d \theta_j   d \theta_k   \end { a l i g n }
+  \begin { a l i g n }   g _ { j k } ( \theta )     =   4 h _ { j k } ^ \mathrm { f i s h e r }   & =   4   h \left ( \frac { \partial } { \partial   \theta_j } ,   \frac { \partial } { \partial   \theta_k } \right )   \\ & = \sum_i   p _ i ( \theta )   \; \frac { \partial   \log   p _ i ( \theta ) }   { \partial   \theta_j }   \; \frac { \partial   \log   p _ i ( \theta ) }   { \partial   \theta_k }     \\ & = \mathrm { E } \left [   \frac { \partial   \log   p _ i ( \theta ) }   { \partial   \theta_j }   \; \frac { \partial   \log   p _ i ( \theta ) }   { \partial   \theta_k }   \right ]   \end { a l i g n }
+d \theta   _ { j } \left ( { \frac     { \partial   } { \partial   \theta   _ { k } } } \right ) = \delta   _ { { j k } } .
+\theta  
+p
+\psi ( x ; \theta )   =   \sqrt { p ( x ;   \theta ) }   \; e ^ { i \alpha ( x ; \theta ) }  
+\psi ( x ; \theta )
+p ( x ;   \theta )
+\alpha ( x ; \theta )  
+\alpha ( x ; \theta ) = 0
+\int   _ { X } p ( x ; \theta   ) \,dx = 1
+\int   _ { X } \vert   \psi   ( x ; \theta   ) \vert   ^ { 2 } \,dx = 1
+\psi ( x ; \theta )
+d s ^ { 2 } = { \frac     { \langle   \delta   \psi   \mid   \delta   \psi   \rangle   } { \langle   \psi   \mid   \psi   \rangle   } } - { \frac     { \langle   \delta   \psi   \mid   \psi   \rangle   \;\langle   \psi   \mid   \delta   \psi   \rangle   } { { \langle   \psi   \mid   \psi   \rangle   } ^ { 2 } } } .
+\langle   x \mid   \psi   \rangle   = \psi   ( x ; \theta   )
+\langle   \phi   \mid   \psi   \rangle   = \int   _ { X } \phi   ^ { * } ( x ; \theta   ) \psi   ( x ; \theta   ) \,dx .
+\vert   \delta   \psi   \rangle
+\delta \psi   =   \left ( \frac { \delta   p } { 2 p }   +   i   \delta   \alpha \right )   \psi
+{ \displaystyle   { \begin { a l i g n e d } d s ^ { 2 } = { } & { \frac   { 1 } { 4 } } \int   _ { X } ( \delta   \log   p ) ^ { 2 } \;p \,dx \\[8pt ] { } & + \int   _ { X } ( \delta   \alpha   ) ^ { 2 } \;p \,dx - \left ( \int   _ { X } \delta   \alpha   \;p \,dx \right ) ^ { 2 } \\[8pt ] & { } - { \frac   { i } { 2 } } \int   _ { X } ( \delta   \log   p \delta   \alpha   - \delta   \alpha   \delta   \log   p ) \;p \,dx \end { a l i g n e d } } }
+\delta \alpha = 0
+\delta   \to   d
+d s ^ 2 \to   h
+{ \displaystyle   { \begin { a l i g n e d } h = { } & { \frac   { 1 } { 4 } } \mathrm   { E }   \left [ ( d \log   p ) ^ { 2 } \right ] + \mathrm   { E }   \left [ ( d \alpha   ) ^ { 2 } \right ] - \left ( \mathrm   { E }   \left [ d \alpha   \right ] \right ) ^ { 2 } \\[8pt ] { } & - { \frac   { i } { 2 } } \mathrm   { E }   \left [ d \log   p \wedge   d \alpha   \right ] \end { a l i g n e d } } }
+{ \displaystyle   { \begin { a l i g n e d } h _ { j k } = { } & h \left ( { \frac   { \partial   } { \partial   \theta   _ { j } } } , { \frac   { \partial   } { \partial   \theta   _ { k } } } \right ) \\[8pt ] = { } & { \frac   { 1 } { 4 } } \mathrm   { E }   \left [ { \frac   { \partial   \log   p } { \partial   \theta   _ { j } } } { \frac   { \partial   \log   p } { \partial   \theta   _ { k } } } \right ] \\[8pt ] { } & + \mathrm   { E }   \left [ { \frac   { \partial   \alpha   } { \partial   \theta   _ { j } } } { \frac   { \partial   \alpha   } { \partial   \theta   _ { k } } } \right ] - \mathrm   { E }   \left [ { \frac   { \partial   \alpha   } { \partial   \theta   _ { j } } } \right ] \mathrm   { E }   \left [ { \frac   { \partial   \alpha   } { \partial   \theta   _ { k } } } \right ] \\[8pt ] & { } - { \frac   { i } { 2 } } \mathrm   { E }   \left [ { \frac   { \partial   \log   p } { \partial   \theta   _ { j } } } { \frac   { \partial   \alpha   } { \partial   \theta   _ { k } } } - { \frac   { \partial   \alpha   } { \partial   \theta   _ { j } } } { \frac   { \partial   \log   p } { \partial   \theta   _ { k } } } \right ] \end { a l i g n e d } } }
+\alpha   = 0
+( X , \Sigma , \mu )
+( \Omega ,   \mathcal { F } , P )
+\Omega = X
+\mathcal { F } = \Sigma
+P = \mu  
+\mu  
+\Sigma  
+\mu \in   S ( X )
+T _ \mu   S
+g ( \sigma_1 , \sigma_2 ) = \int_X   \frac { d \sigma_1 } { d \mu } \frac { d \sigma_2 } { d \mu } d \mu
+\sigma   _ { 1 }
+\sigma   _ { 2 }
+\sigma_1 , \sigma_2 \in   T _ \mu   S
+\mu  
+\mu  
+\theta  
+\theta  
+\theta  
+\sigma \in   T _ \mu   S
+p = \exp ( \sigma )
+p \in   S ( X )
+\mu  
+p \in   S ( X )
+\mu  

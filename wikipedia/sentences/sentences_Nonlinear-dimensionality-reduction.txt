@@ -1,0 +1,49 @@
+E ( W ) = \sum   _ { i } | { \mathbf   { X }   _ { i } - \sum   _ { j } { \mathbf   { W }   _ { i j } \mathbf   { X }   _ { j } } | } ^ { \mathsf   { 2 } }
+\sum   _ { j } { \mathbf   { W }   _ { i j } } = 1
+C ( Y ) = \sum   _ { i } | { \mathbf   { Y }   _ { i } - \sum   _ { j } { \mathbf   { W }   _ { i j } \mathbf   { Y }   _ { j } } | } ^ { \mathsf   { 2 } }
+{ \displaystyle   t \in   [ 0 , 1 ] }
+  t = 0  
+m \times   n
+\mathbf   { X }  
+C = { \frac   { 1 } { m } } \sum   _ { i = 1 } ^ { m } { \mathbf   { x }   _ { i } \mathbf   { x }   _ { i } ^ { \mathsf   { T } } } .
+C = { \frac   { 1 } { m } } \sum   _ { i = 1 } ^ { m } { \Phi   ( \mathbf   { x }   _ { i } ) \Phi   ( \mathbf   { x }   _ { i } ) ^ { \mathsf   { T } } } .
+\Phi   ( \mathbf   { x }   )
+\Phi  
+\mathbf   { X }   = [ x _ { 1 } , x _ { 2 } , \ldots   , x _ { n } ] \in   \Omega   \subset   \mathbf   { R ^ { D } }  
+\mathbf   { d }  
+\mu  
+{ \mathit   { k } }
+k ( x , y ) = k ( y , x ) , \ ,
+k ( x , y ) \geq   0 \qquad   \forall   x , y , k
+K _ { i j } = { \begin { c a s e s } e ^ { - \|x_ { i } - x _ { j } \|_ { 2 } ^ { 2 } / \sigma   ^ { 2 } } & { \text { i f   } } x _ { i } \sim   x _ { j } \\0 & { \text { o t h e r w i s e } } \end { c a s e s } }
+x _ { i } \sim   x _ { j }
+x _ { i }
+x _ { j }
+\sigma  
+\|x_ { i } - x _ { j } \|_ { 2 } \gg   \sigma  
+K _ { i j } = 0
+\|x_ { i } - x _ { j } \|_ { 2 } \ll   \sigma  
+K _ { i j } = 1
+\sigma  
+K
+D
+P = D ^ { - 1 } K . \ ,
+P
+P ( x _ { i } , x _ { j } )
+x _ { i }
+x _ { j }
+x _ { i }
+x _ { j }
+P ^ { t } ( x _ { i } , x _ { j } )
+P ^ { t }
+P
+P
+K
+D _ { t }
+_ { t \in   N }
+D _ { t } ^ { 2 } ( x , y ) = | | p _ { t } ( x , \cdot   ) - p _ { t } ( y , \cdot   ) | | ^ { 2 }
+D _ { t }
+D _ { t } ( x , y )
+D _ { t } ( x , y )
+D _ { t }
+D _ { t }

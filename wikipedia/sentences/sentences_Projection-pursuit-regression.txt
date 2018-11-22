@@ -1,0 +1,45 @@
+{ \displaystyle   y _ { i } = \beta   _ { 0 } + \sum   _ { j = 1 } ^ { r } f _ { j } ( \beta   _ { j } ^ { \mathrm   { T }   } x _ { i } ) + \varepsilon   , }
+{ \displaystyle   \{ ( y _ { i } , x _ { i } ) \}_ { i = 1 } ^ { n } }
+{ \displaystyle   \min   _ { f _ { j } , \beta   _ { j } } S = \sum   _ { i = 1 } ^ { n } \left [ y _ { i } - \sum   _ { j = 1 } ^ { r } f _ { j } ( \beta   _ { j } ^ { \mathrm   { T }   } x _ { i } ) \right ] ^ { 2 } }
+f _ { j }
+\beta   _ { j }
+{ \displaystyle   ( f _ { j } , \beta   _ { j } ) }
+{ \displaystyle   r _ { i } = y _ { i } - \sum   _ { l \neq   j } f _ { l } ( \beta   _ { l } ^ { \mathrm   { T }   } x _ { i } ) }
+{ \displaystyle   \min   _ { f _ { j } , \beta   _ { j } } S ' = \sum   _ { i = 1 } ^ { n } \left [ r _ { i } - f _ { j } ( \beta   _ { j } ^ { \mathrm   { T }   } x _ { i } ) \right ] ^ { 2 } }
+{ \displaystyle   ( f _ { j } , \beta   _ { j } ) }
+{ \displaystyle   ( f _ { j } , \beta   _ { j } ) }
+\beta   _ { j }
+X
+f _ { j }
+f _ { j }
+f _ { j }
+\beta   _ { j }
+{ \displaystyle   f _ { j } ( \beta   _ { j } ^ { T } x _ { i } ) \approx   f _ { j } ( \beta   _ { j , o l d } ^ { T } x _ { i } ) + { \dot   { f _ { j } } } ( \beta   _ { j , o l d } ^ { T } x _ { i } ) ( \beta   _ { j } ^ { T } x _ { i } - \beta   _ { j , o l d } ^ { T } x _ { i } ) }
+S '
+{ \displaystyle   \min   _ { \beta   _ { j } } S ' \approx   \sum   _ { i = 1 } ^ { n } \underbrace   { { \dot   { f _ { j } } } ( \beta   _ { j , o l d } ^ { T } x _ { i } ) ^ { 2 } }   _ { w } { \Bigg   [ } { \bigg   ( } \underbrace   { \beta   _ { j , o l d } ^ { T } x _ { i } + { \frac   { r _ { i } - f _ { j } ( \beta   _ { j , o l d } ^ { T } x _ { i } ) } { { \dot   { f _ { j } } } ( \beta   _ { j , o l d } ^ { T } x _ { i } ) } } }   _ { \hat   { b } } { \bigg   ) } - \beta   _ { j } ^ { T } x _ { i } { \Bigg   ] } ^ { 2 } }
+w
+W
+\hat { b }
+X
+x _ { i }
+\beta   _ { j }
+{ \displaystyle   { \underset   { \beta   _ { j } } { \operatorname   { a r g \,min }   } } { \Big   \|}{ \vec   { \hat   { b } } } - X \beta   _ { j } { \Big   \|}_ { W } ^ { 2 } = ( X ^ { \mathrm   { T }   } W X ) ^ { - 1 } X ^ { \mathrm   { T }   } W { \vec   { \hat   { b } } } }
+\beta   _ { j }
+X
+f _ { j }
+f _ { j }
+\beta   _ { j }
+{ \displaystyle   ( f _ { j } , \beta   _ { j } ) }
+\beta   _ { j }
+f _ { j }
+\beta   _ { j }
+f _ { j }
+{ \displaystyle   \beta   _ { j } ^ { T } X ^ { T } }
+f _ { j }
+f _ { j }
+X
+\{ f _ { j } \ }
+\beta   _ { j }
+\beta   _ { j }
+f _ { j }
+f _ { j }

@@ -1,0 +1,75 @@
+{ \hat   { \rho   } }
+\rho  
+\eta   ^ { 2 } = { \frac   { S S _ { \text { T r e a t m e n t } } } { S S _ { \text { T o t a l } } } } .
+{ \displaystyle   \omega   ^ { 2 } = { \frac   { { \text { S S } } _ { \text { t r e a t m e n t } } - d f _ { \text { t r e a t m e n t } } \cdot   { \text { M S } } _ { \text { e r r o r } } } { { \text { S S } } _ { \text { t o t a l } } + { \text { M S } } _ { \text { e r r o r } } } } . }
+f ^ { 2 } = { R ^ { 2 }   \over   1 - R ^ { 2 } }
+f ^ { 2 } = { \eta   ^ { 2 }   \over   1 - \eta   ^ { 2 } }
+f ^ { 2 } = { \omega   ^ { 2 }   \over   1 - \omega   ^ { 2 } }
+f ^ { 2 }
+f ^ { 2 } = { R _ { A B } ^ { 2 } - R _ { A } ^ { 2 }   \over   1 - R _ { A B } ^ { 2 } }
+{ \hat   { f } }
+{ \hat   { f } } _ { \text { e f f e c t } } = { \sqrt   { ( d f _ { \text { e f f e c t } } / N ) ( F _ { \text { e f f e c t } } - 1 ) } } .
+f ^ { 2 }
+{ { S S ( \mu   _ { 1 } , \mu   _ { 2 } , \dots   , \mu   _ { K } ) }   \over   { K \times   \sigma   ^ { 2 } } , }
+{ \displaystyle   q = { \frac   { 1 } { 2 } } \log   { \frac   { 1 + r _ { 1 } } { 1 - r _ { 1 } } } - { \frac   { 1 } { 2 } } \log   { \frac   { 1 + r _ { 2 } } { 1 - r _ { 2 } } } }
+{ \displaystyle   \operatorname   { v a r }   ( q ) = { \frac   { 1 } { N _ { 1 } - 3 } } + { \frac   { 1 } { N _ { 2 } - 3 } } }
+{ \displaystyle   \theta   = { \frac   { \mu   _ { 1 } - \mu   _ { 2 } } { \sigma   } } , }
+{ \sqrt   { n } }
+{ \displaystyle   d = { \frac   { { \bar   { x } } _ { 1 } - { \bar   { x } } _ { 2 } } { s } } = { \frac   { \mu   _ { 1 } - \mu   _ { 2 } } { s } } . }
+s = { \sqrt   { \frac   { ( n _ { 1 } - 1 ) s _ { 1 } ^ { 2 } + ( n _ { 2 } - 1 ) s _ { 2 } ^ { 2 } } { n _ { 1 } + n _ { 2 } - 2 } } }
+{ \displaystyle   s _ { 1 } ^ { 2 } = { \frac   { 1 } { n _ { 1 } - 1 } } \sum   _ { i = 1 } ^ { n _ { 1 } } ( x _ { 1 , i } - { \bar   { x } } _ { 1 } ) ^ { 2 } , }
+s = { \sqrt   { \frac   { ( n _ { 1 } - 1 ) s _ { 1 } ^ { 2 } + ( n _ { 2 } - 1 ) s _ { 2 } ^ { 2 } } { n _ { 1 } + n _ { 2 } } } }
+{ \displaystyle   t = { \frac   { { \bar   { X } } _ { 1 } - { \bar   { X } } _ { 2 } } { \text { S E } } } = { \frac   { { \bar   { X } } _ { 1 } - { \bar   { X } } _ { 2 } } { \frac   { \text { S D } } { \sqrt   { N } } } } = { \frac   { { \sqrt   { N } } ( { \bar   { X } } _ { 1 } - { \bar   { X } } _ { 2 } ) } { S D } } }
+{ \displaystyle   d = { \frac   { { \bar   { X } } _ { 1 } - { \bar   { X } } _ { 2 } } { \text { S D } } } = { \frac   { t } { \sqrt   { N } } } }
+\Delta   = { \frac   { { \bar   { x } } _ { 1 } - { \bar   { x } } _ { 2 } } { s _ { 2 } } }
+g = { \frac   { { \bar   { x } } _ { 1 } - { \bar   { x } } _ { 2 } } { s ^ { * } } }
+s ^ { * }
+s ^ { * } = { \sqrt   { \frac   { ( n _ { 1 } - 1 ) s _ { 1 } ^ { 2 } + ( n _ { 2 } - 1 ) s _ { 2 } ^ { 2 } } { n _ { 1 } + n _ { 2 } - 2 } } } .
+g ^ { * } = J ( n _ { 1 } + n _ { 2 } - 2 ) \,\,g \,\approx   \,\left ( 1 - { \frac   { 3 } { 4 ( n _ { 1 } + n _ { 2 } ) - 9 } } \right ) \,\,g
+g ^ { * }
+J ( a ) = { \frac   { \Gamma   ( a / 2 ) } { { \sqrt   { a / 2 \,}}\,\Gamma   ( ( a - 1 ) / 2 ) } } .
+{ \displaystyle   \Psi   = { \sqrt   { { \frac   { 1 } { k - 1 } } \cdot   { \frac   { \sum   ( { \bar   { x } } _ { j } - { \bar   { X } } ) ^ { 2 } } { M S _ { \text { e r r o r } } } } } } }
+{ \sqrt   { n _ { 1 } n _ { 2 } / ( n _ { 1 } + n _ { 2 } ) } } \,g
+{ \sqrt   { n _ { 1 } n _ { 2 } / ( n _ { 1 } + n _ { 2 } ) } } \theta  
+{ \hat   { \sigma   } } ^ { 2 } ( g ^ { * } ) = { \frac   { n _ { 1 } + n _ { 2 } } { n _ { 1 } n _ { 2 } } } + { \frac   { ( g ^ { * } ) ^ { 2 } } { 2 ( n _ { 1 } + n _ { 2 } ) } } .
+\phi   = { \sqrt   { \frac   { \chi   ^ { 2 } } { N } } }
+\phi   _ { c } = { \sqrt   { \frac   { \chi   ^ { 2 } } { N ( k - 1 ) } } }
+{ \displaystyle   w = { \sqrt   { \sum   _ { i = 1 } ^ { N } { \frac   { ( p _ { 0 i } - p _ { 1 i } ) ^ { 2 } } { p _ { 0 i } } } } } }
+{ \displaystyle   h = 2 ( \arcsin   { \sqrt   { p _ { 1 } } } - \arcsin   { \sqrt   { p _ { 2 } } } ) }
+d
+d
+{ \displaystyle   d = { \frac   { \sum   _ { i , j } [ x _ { i } > x _ { j } ] - [ x _ { i } < x _ { j } ] } { m n } } }
+n
+m
+x _ { i }
+x _ { j }
+{ \displaystyle   [ \cdot   ] }
+d
+U
+d
+d = { \frac   { 2 U } { m n } } - 1
+{ d }
+{ f } ^ { 2 }
+{ \displaystyle   t : = { \frac   { M } { \text { S E } } } = { \frac   { M } { { \text { S D } } / { \sqrt   { n } } } } = { \frac   { { \sqrt   { n } } { \frac   { M - \mu   } { \sigma   } } + { \sqrt   { n } } { \frac   { \mu   - \mu   _ { \text { b a s e l i n e } } } { \sigma   } } } { \frac   { \text { S D } } { \sigma   } } } }
+{ \displaystyle   n c p = { \sqrt   { n } } { \frac   { \mu   - \mu   _ { \text { b a s e l i n e } } } { \sigma   } } }
+{ \displaystyle   d : = { \frac   { M - \mu   _ { \text { b a s e l i n e } } } { \text { S D } } } }
+{ \displaystyle   { \frac   { \mu   - \mu   _ { \text { b a s e l i n e } } } { \sigma   } } . }
+{ \displaystyle   { \tilde   { d } } = { \frac   { n c p } { \sqrt   { n } } } . }
+{ \displaystyle   t : = { \frac   { M _ { 1 } - M _ { 2 } } { { \text { S D } } _ { \text { w i t h i n } } / { \sqrt   { \frac   { n _ { 1 } n _ { 2 } } { n _ { 1 } + n _ { 2 } } } } } } , }
+{ \displaystyle   { \text { S D } } _ { \text { w i t h i n } } : = { \sqrt   { \frac   { { \text { S S } } _ { \text { w i t h i n } } } { { \text { d f } } _ { \text { w i t h i n } } } } } = { \sqrt   { \frac   { ( n _ { 1 } - 1 ) { \text { S D } } _ { 1 } ^ { 2 } + ( n _ { 2 } - 1 ) { \text { S D } } _ { 2 } ^ { 2 } } { n _ { 1 } + n _ { 2 } - 2 } } } . }
+{ \displaystyle   n c p = { \sqrt   { \frac   { n _ { 1 } n _ { 2 } } { n _ { 1 } + n _ { 2 } } } } { \frac   { \mu   _ { 1 } - \mu   _ { 2 } } { \sigma   } } }
+d : = { \frac   { M _ { 1 } - M _ { 2 } } { S D _ { \text { w i t h i n } } } }
+{ \displaystyle   { \frac   { \mu   _ { 1 } - \mu   _ { 2 } } { \sigma   } } . }
+{ \tilde   { d } } = { \frac   { n c p } { \sqrt   { \frac   { n _ { 1 } n _ { 2 } } { n _ { 1 } + n _ { 2 } } } } } .
+\sigma  
+{ \displaystyle   F : = { \frac   { { \frac   { { \text { S S } } _ { \text { b e t w e e n } } } { \sigma   ^ { 2 } } } / { \text { d f } } _ { \text { b e t w e e n } } } { { \frac   { { \text { S S } } _ { \text { w i t h i n } } } { \sigma   ^ { 2 } } } / { \text { d f } } _ { \text { w i t h i n } } } } }
+{ \displaystyle   M _ { i } ( X _ { i , j } ) : = { \frac   { \sum   _ { w = 1 } ^ { n _ { i } } X _ { i , w } } { n _ { i } } } ; \;\mu   _ { i } ( X _ { i , j } ) : = \mu   _ { i } . }
+{ \displaystyle   { \begin { a l i g n e d } { \text { S S } } _ { \text { b e t w e e n } } / \sigma   ^ { 2 } & = { \frac   { { \text { S S } } \left ( M _ { i } ( X _ { i , j } ) ; i = 1 , 2 , \dots   , K , \;j = 1 , 2 , \dots   , n _ { i } \right ) } { \sigma   ^ { 2 } } } \\&={ \text { S S } } \left ( { \frac   { M _ { i } ( X _ { i , j } - \mu   _ { i } ) } { \sigma   } } + { \frac   { \mu   _ { i } } { \sigma   } } ; i = 1 , 2 , \dots   , K , \;j = 1 , 2 , \dots   , n _ { i } \right ) \\&\sim   \chi   ^ { 2 } \left ( { \text { d f } } = K - 1 , \;ncp = S S \left ( { \frac   { \mu   _ { i } ( X _ { i , j } ) } { \sigma   } } ; i = 1 , 2 , \dots   , K , \;j = 1 , 2 , \dots   , n _ { i } \right ) \right ) \end { a l i g n e d } } }
+\chi   ^ { 2 }
+{ \displaystyle   { \text { S S } } \left ( \mu   _ { i } ( X _ { i , j } ) / \sigma   ; i = 1 , 2 , \dots   , K , \;j = 1 , 2 , \dots   , n _ { i } \right ) . }
+n : = n _ { 1 } = n _ { 2 } = \cdots   = n _ { K }
+{ \displaystyle   { \text { C o h e n s   } } { \tilde   { f } } ^ { 2 } : = { \frac   { { \text { S S } } ( \mu   _ { 1 } , \mu   _ { 2 } , \dots   , \mu   _ { K } ) } { K \cdot   \sigma   ^ { 2 } } } = { \frac   { { \text { S S } } \left ( \mu   _ { i } ( X _ { i , j } ) / \sigma   ; i = 1 , 2 , \dots   , K , \;j = 1 , 2 , \dots   , n _ { i } \right ) } { n \cdot   K } } = { \frac   { n c p } { n \cdot   K } } = { \frac   { n c p } { N } } . }
+n c p _ { F }
+n c p _ { t }
+n c p _ { F } = n c p _ { t } ^ { 2 }
+{ \tilde   { f } } = \left | { \frac   { \tilde   { d } } { 2 } } \right |

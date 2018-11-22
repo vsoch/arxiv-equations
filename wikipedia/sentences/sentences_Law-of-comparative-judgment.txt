@@ -1,0 +1,17 @@
+S _ { i } - S _ { j } = x _ { { i j } } { \sqrt     { \sigma   _ { i } ^ { 2 } + \sigma   _ { j } ^ { 2 } - 2 r _ { { i j } } \sigma   _ { i } \sigma   _ { j } } } ,
+S _ { i }
+x _ { i j }
+\sigma   _ { i }
+R _ { i }
+r _ { i j }
+R _ { i }
+S _ { i }
+x _ { { i j } } = { \frac     { S _ { i } - S _ { j } } { \sigma   } } \ ,
+{ \sigma   } = { \sqrt     { \sigma   _ { i } ^ { 2 } + \sigma   _ { j } ^ { 2 } } } . \ ,
+{ S _ { i } - S _ { j } }
+x _ { i j }
+\sigma   = 1
+P _ { i j }
+P _ { { i j } } = 0 . 8 4
+x _ { i j }
+S _ { i } - S _ { j } \cong   1

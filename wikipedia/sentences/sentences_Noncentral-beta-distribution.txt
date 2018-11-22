@@ -1,0 +1,35 @@
+x   \in   [ 0 ;   1 ] \ !
+\sum_ { j   =   0 } ^ { \infty }   e ^ { - \lambda / 2 }   \frac { \left ( \frac { \lambda } { 2 } \right ) ^ j } { j ! } \frac { x ^ { \alpha   +   j   -   1 } \left ( 1 - x \right ) ^ { \beta   -   1 } } { \mathrm { B } \left ( \alpha   +   j , \beta \right ) }
+\sum_ { j   =   0 } ^ { \infty }   e ^ { - \lambda / 2 }   \frac { \left ( \frac { \lambda } { 2 } \right ) ^ j } { j ! }   I _ x   \left ( \alpha   +   j , \beta \right )
+e ^ { - \frac { \lambda } { 2 } } \frac { \Gamma \left ( \alpha   +   1 \right ) } { \Gamma \left ( \alpha \right ) }   \frac { \Gamma \left ( \alpha + \beta \right ) } { \Gamma \left ( \alpha   +   \beta   +   1 \right ) }   { } _ 2 F _ 2 \left ( \alpha + \beta , \alpha + 1 ; \alpha , \alpha + \beta + 1 ; \frac { \lambda } { 2 } \right )
+e ^ { - \frac { \lambda } { 2 } } \frac { \Gamma \left ( \alpha   +   2 \right ) } { \Gamma \left ( \alpha \right ) }   \frac { \Gamma \left ( \alpha + \beta \right ) } { \Gamma \left ( \alpha   +   \beta   +   2 \right ) }   { } _ 2 F _ 2 \left ( \alpha + \beta , \alpha + 2 ; \alpha , \alpha + \beta + 2 ; \frac { \lambda } { 2 } \right )   -   \mu ^ 2
+\mu  
+    X   =   \frac { \chi ^ 2 _ m ( \lambda ) } { \chi ^ 2 _ m ( \lambda )   +   \chi ^ 2 _ n } ,  
+\chi ^ 2 _ m ( \lambda )
+\lambda  
+\chi   _ { n } ^ { 2 }
+\chi ^ 2 _ m ( \lambda )
+X   \sim   \mbox { B e t a } \left ( \frac { m } { 2 } , \frac { n } { 2 } , \lambda \right )
+  Y   =   \frac { \chi ^ 2 _ n } { \chi ^ 2 _ n   +   \chi ^ 2 _ m ( \lambda ) } ,  
+Y
+X   =   1   -   Y
+  F ( x )   =   \sum_ { j = 0 } ^ \infty   P ( j )   I _ x ( \alpha + j , \beta ) ,    
+I _ { x } ( a , b )
+  F ( x )   =   \sum_ { j = 0 } ^ \infty   \frac { 1 } { j ! } \left ( \frac { \lambda } { 2 } \right ) ^ j e ^ { - \lambda / 2 } I _ x ( \alpha + j , \beta ) .  
+  F ( x )   =   \sum_ { j = 0 } ^ \infty   P ( j )   I _ x ( \alpha , \beta + j ) .  
+  f ( x )   =   \sum_ { j = 0 } ^ \infin   \frac { 1 } { j ! } \left ( \frac { \lambda } { 2 } \right ) ^ j e ^ { - \lambda / 2 } \frac { x ^ { \alpha + j - 1 } ( 1 - x ) ^ { \beta - 1 } } { B ( \alpha + j , \beta ) } .  
+B
+\alpha  
+\beta  
+\lambda  
+X \sim \mbox { B e t a } \left ( \alpha , \beta , \lambda \right )
+\frac { \beta   X } { \alpha   ( 1 - X ) }
+2 \alpha ,   2 \beta
+\lambda  
+X
+F _ { \mu_ { 1 } ,   \mu_ { 2 } } \left (   \lambda   \right )
+\mu   _ { { 1 } }
+\mu   _ { { 2 } }
+  Z   =   \cfrac { \cfrac { \mu_ { 2 } } { \mu_ { 1 } } } { \cfrac { \mu_ { 2 } } { \mu_ { 1 } }   +   X ^ { - 1 }   }  
+  Z   \sim   \mbox { B e t a } \left ( \frac { 1 } { 2 } \mu_ { 1 } , \frac { 1 } { 2 } \mu_ { 2 } , \lambda \right )
+\lambda   = 0

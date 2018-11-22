@@ -1,0 +1,27 @@
+1 / 1 0 0
+x _ { { A i } }
+x _ { { A i } } = 1 9 8
+i = 1 , \dots   , 5 0
+x _ { { A i } } = 2 0 2
+i = 5 1 , \dots   , 1 0 0
+1 / 1 0 0
+x _ { { B i } }
+x _ { { B 1 } } = 1 0 0
+x _ { { B i } } = 2 0 0
+i = 2 , \dots   , 9 9
+x _ { { B 1 0 0 } } = 3 0 0
+x _ { A }
+x _ { B }
+x _ { B } { \overset     { d } { = } } ( x _ { A } + z )
+z
+E ( z \mid   x _ { A } ) = 0
+x _ { A }
+{ \overset     { d } { = } }
+F _ { A }
+F _ { B }
+F _ { A }
+x
+F _ { B }
+x
+x
+x

@@ -1,0 +1,75 @@
+\sigma   > 0
+{ \displaystyle   x \in   [ 0 , \infty   ) }
+{ \displaystyle   { \frac   { x } { \sigma   ^ { 2 } } } e ^ { - x ^ { 2 } / \left ( 2 \sigma   ^ { 2 } \right ) } }
+{ \displaystyle   1 - e ^ { - x ^ { 2 } / \left ( 2 \sigma   ^ { 2 } \right ) } }
+{ \displaystyle   Q ( F ; \sigma   ) = \sigma   { \sqrt   { - 2 \ln ( 1 - F ) } } }
+\sigma   { \sqrt   { \frac   { \pi   } { 2 } } }
+{ \displaystyle   \sigma   { \sqrt   { 2 \ln ( 2 ) } } }
+\sigma  
+{ \frac   { 4 - \pi   } { 2 } } \sigma   ^ { 2 }
+{ \frac   { 2 { \sqrt   { \pi   } } ( \pi   - 3 ) } { ( 4 - \pi   ) ^ { 3 / 2 } } }
+- { \frac   { 6 \pi   ^ { 2 } - 2 4 \pi   + 1 6 } { ( 4 - \pi   ) ^ { 2 } } }
+1 + \ln   \left ( { \frac   { \sigma   } { \sqrt   { 2 } } } \right ) + { \frac   { \gamma   } { 2 } }
+{ \displaystyle   1 + \sigma   t e ^ { \sigma   ^ { 2 } t ^ { 2 } / 2 } { \sqrt   { \frac   { \pi   } { 2 } } } \left ( \operatorname   { e r f }   \left ( { \frac   { \sigma   t } { \sqrt   { 2 } } } \right ) + 1 \right ) }
+{ \displaystyle   1 - \sigma   t e ^ { - \sigma   ^ { 2 } t ^ { 2 } / 2 } { \sqrt   { \frac   { \pi   } { 2 } } } \left ( \operatorname   { e r f i }   \left ( { \frac   { \sigma   t } { \sqrt   { 2 } } } \right ) - i \right ) }
+f ( x ; \sigma   ) = { \frac   { x } { \sigma   ^ { 2 } } } e ^ { - x ^ { 2 } / ( 2 \sigma   ^ { 2 } ) } , \quad   x \geq   0 ,
+\sigma  
+F ( x ; \sigma   ) = 1 - e ^ { - x ^ { 2 } / ( 2 \sigma   ^ { 2 } ) }
+x \in   [ 0 , \infty   ) .
+Y = ( U , V )
+U
+V
+{ \displaystyle   f _ { U } ( x ; \sigma   ) = f _ { V } ( x ; \sigma   ) = { \frac   { e ^ { - x ^ { 2 } / ( 2 \sigma   ^ { 2 } ) } } { \sqrt   { 2 \pi   \sigma   ^ { 2 } } } } . }
+X
+Y
+{ \displaystyle   X = { \sqrt   { U ^ { 2 } + V ^ { 2 } } } . }
+X
+{ \displaystyle   F _ { X } ( x ; \sigma   ) = \iint   _ { D _ { x } } f _ { U } ( u ; \sigma   ) f _ { V } ( v ; \sigma   ) \,dA , }
+D _ { x }
+{ \displaystyle   D _ { x } = \left \{ ( u , v ) : { \sqrt   { u ^ { 2 } + v ^ { 2 } } } < x \right \ } . }
+{ \displaystyle   F _ { X } ( x ; \sigma   ) = { \frac   { 1 } { 2 \pi   \sigma   ^ { 2 } } } \int   _ { 0 } ^ { 2 \pi   } \int   _ { 0 } ^ { x } r e ^ { - r ^ { 2 } / ( 2 \sigma   ^ { 2 } ) } \,dr \,d \theta   = { \frac   { 1 } { \sigma   ^ { 2 } } } \int   _ { 0 } ^ { x } r e ^ { - r ^ { 2 } / ( 2 \sigma   ^ { 2 } ) } \,dr . }
+X
+{ \displaystyle   f _ { X } ( x ; \sigma   ) = { \frac   { d } { d x } } F _ { X } ( x ; \sigma   ) = { \frac   { x } { \sigma   ^ { 2 } } } e ^ { - x ^ { 2 } / ( 2 \sigma   ^ { 2 } ) } , }
+{ \displaystyle   \mu   _ { j } = \sigma   ^ { j } 2 ^ { j / 2 } \,\Gamma   \left ( 1 + { \frac   { j } { 2 } } \right ) , }
+\Gamma   ( z )
+{ \displaystyle   \mu   ( X ) = \sigma   { \sqrt   { \frac   { \pi   } { 2 } } } \ \approx   1 . 2 5 3 \ \sigma   . }
+{ \displaystyle   \operatorname   { v a r }   ( X ) = \mu   _ { 2 } - \mu   _ { 1 } ^ { 2 } = \left ( 2 - { \frac   { \pi   } { 2 } } \right ) \sigma   ^ { 2 } \approx   0 . 4 2 9 \ \sigma   ^ { 2 } }
+\sigma   ,
+{ \displaystyle   f _ { \max   } = f ( \sigma   ; \sigma   ) = { \frac   { 1 } { \sigma   } } e ^ { - 1 / 2 } \approx   { \frac   { 0 . 6 0 6 } { \sigma   } } . }
+{ \displaystyle   \gamma   _ { 1 } = { \frac   { 2 { \sqrt   { \pi   } } ( \pi   - 3 ) } { ( 4 - \pi   ) ^ { 3 / 2 } } } \approx   0 . 6 3 1 }
+\gamma   _ { 2 } = - { \frac   { 6 \pi   ^ { 2 } - 2 4 \pi   + 1 6 } { ( 4 - \pi   ) ^ { 2 } } } \approx   0 . 2 4 5
+{ \displaystyle   \varphi   ( t ) = 1 - \sigma   t e ^ { - { \frac   { 1 } { 2 } } \sigma   ^ { 2 } t ^ { 2 } } { \sqrt   { \frac   { \pi   } { 2 } } } \left [ \operatorname   { e r f i }   \left ( { \frac   { \sigma   t } { \sqrt   { 2 } } } \right ) - i \right ] }
+\operatorname   { e r f i }   ( z )
+{ \displaystyle   M ( t ) = 1 + \sigma   t \,e ^ { { \frac   { 1 } { 2 } } \sigma   ^ { 2 } t ^ { 2 } } { \sqrt   { \frac   { \pi   } { 2 } } } \left [ \operatorname   { e r f }   \left ( { \frac   { \sigma   t } { \sqrt   { 2 } } } \right ) + 1 \right ] }
+\operatorname   { e r f }   ( z )
+{ \displaystyle   H = 1 + \ln   \left ( { \frac   { \sigma   } { \sqrt   { 2 } } } \right ) + { \frac   { \gamma   } { 2 } } }
+\gamma  
+x _ { i }
+\sigma  
+{ \displaystyle   { \widehat   { \sigma   } } ^ { 2 } \approx   \!\,{ \frac   { 1 } { 2 N } } \sum   _ { i = 1 } ^ { N } x _ { i } ^ { 2 } }
+{ \displaystyle   { \widehat   { \sigma   } } \approx   { \sqrt   { { \frac   { 1 } { 2 N } } \sum   _ { i = 1 } ^ { N } x _ { i } ^ { 2 } } } }
+{ \displaystyle   \sigma   = { \widehat   { \sigma   } } { \frac   { \Gamma   ( N ) { \sqrt   { N } } } { \Gamma   ( N + { \frac   { 1 } { 2 } } ) } } = { \widehat   { \sigma   } } { \frac   { 4 ^ { N } N ! ( N - 1 ) ! { \sqrt   { N } } } { ( 2 N ) ! { \sqrt   { \pi   } } } } }
+[ a , b ]
+{ \displaystyle   P ( \chi   _ { 2 N } ^ { 2 } \leq   a ) = \alpha   / 2 , \quad   P ( \chi   _ { 2 N } ^ { 2 } \leq   b ) = 1 - \alpha   / 2 }
+{ \displaystyle   { \frac   { { 2 N } { \overline   { x ^ { 2 } } } } { b } } \leq   { \sigma   } ^ { 2 } \leq   { \frac   { { 2 N } { \overline   { x ^ { 2 } } } } { a } } }
+{ \displaystyle   X = \sigma   { \sqrt   { - 2 \ln   U } } \ , }
+\sigma  
+R \sim   \mathrm   { R a y l e i g h }   ( \sigma   )
+R = { \sqrt   { X ^ { 2 } + Y ^ { 2 } } }
+X \sim   N ( 0 , \sigma   ^ { 2 } )
+Y \sim   N ( 0 , \sigma   ^ { 2 } )
+R \sim   \mathrm   { R a y l e i g h }   ( 1 )
+R ^ { 2 }
+N
+[ Q = R ^ { 2 } ] \sim   \chi   ^ { 2 } ( N ) \   .
+R \sim   \mathrm   { R a y l e i g h }   ( \sigma   )
+\sum   _ { i = 1 } ^ { N } R _ { i } ^ { 2 }
+N
+2 \sigma   ^ { 2 }
+\left [ Y = \sum   _ { i = 1 } ^ { N } R _ { i } ^ { 2 } \right ] \sim   \Gamma   ( N , 2 \sigma   ^ { 2 } ) .
+{ \displaystyle   \mathrm   { R a y l e i g h }   ( \sigma   ) = \mathrm   { R i c e }   ( 0 , \sigma   ) }
+\sigma  
+\lambda   = \sigma   { \sqrt   { 2 } } .
+X
+X \sim   \mathrm   { E x p o n e n t i a l }   ( \lambda   )
+{ \displaystyle   Y = { \sqrt   { X } } \sim   \mathrm   { R a y l e i g h }   ( 1 / { \sqrt   { 2 \lambda   } } ) . }

@@ -1,0 +1,6 @@
+T _ { t }
+C _ { t }
+S _ { t }
+I _ t
+{ \displaystyle   y _ { t } = T _ { t } + C _ { t } + S _ { t } + I _ { t } , }
+{ \displaystyle   y _ { t } = T _ { t } \times   C _ { t } \times   S _ { t } \times   I _ { t } . \ , }

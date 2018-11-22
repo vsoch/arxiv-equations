@@ -1,0 +1,5 @@
+\mu   _ { a }
+\mu   _ { b }
+\sigma   _ { a }
+\sigma   _ { b }
+D _ { { s n } } = { ( \mu   _ { a } - \mu   _ { b } )   \over   ( \sigma   _ { a } + \sigma   _ { b } ) }

@@ -1,0 +1,17 @@
+\widehat   { g }
+{ \displaystyle   { \widehat   { g } } , }
+y
+{ \hat   { y } }
+{ \displaystyle   { \hat   { y } } = L y , }
+\operatorname   { M S P E } ( L ) = \operatorname   { E } \left [ \left ( g ( x _ { i } ) - \widehat   { g } ( x _ { i } ) \right ) ^ { 2 } \right ] .
+{ \displaystyle   n \cdot   \operatorname   { M S P E }   ( L ) = \sum   _ { i = 1 } ^ { n } \left ( \operatorname   { E }   \left [ { \widehat   { g } } ( x _ { i } ) \right ] - g ( x _ { i } ) \right ) ^ { 2 } + \sum   _ { i = 1 } ^ { n } \operatorname   { v a r }   \left [ { \widehat   { g } } ( x _ { i } ) \right ] . }
+y _ { i } = g ( x _ { i } ) + \sigma   \varepsilon   _ { i }
+\varepsilon   _ { i } \sim   { \mathcal     { N } } ( 0 , 1 )
+{ \displaystyle   n \cdot   \operatorname   { M S P E }   ( L ) = g ^ { \text { T } } ( I - L ) ^ { \text { T } } ( I - L ) g + \sigma   ^ { 2 } \operatorname   { t r }   \left [ L ^ { \text { T } } L \right ] . }
+{ \displaystyle   \sum   _ { i = 1 } ^ { n } \left ( \operatorname   { E }   \left [ g ( x _ { i } ) - { \widehat   { g } } ( x _ { i } ) \right ] \right ) ^ { 2 } = \operatorname   { E }   \left [ \sum   _ { i = 1 } ^ { n } \left ( y _ { i } - { \widehat   { g } } ( x _ { i } ) \right ) ^ { 2 } \right ] - \sigma   ^ { 2 } \operatorname   { t r }   \left [ \left ( I - L \right ) ^ { T } \left ( I - L \right ) \right ] . }
+{ \displaystyle   n \cdot   \operatorname   { M S P E }   ( L ) = \operatorname   { E }   \left [ \sum   _ { i = 1 } ^ { n } \left ( y _ { i } - { \widehat   { g } } ( x _ { i } ) \right ) ^ { 2 } \right ] - \sigma   ^ { 2 } \left ( n - \operatorname   { t r }   \left [ L \right ] \right ) . }
+\sigma   ^ { 2 }
+\widehat   { \sigma   } ^ { 2 }
+{ \displaystyle   n \cdot   \operatorname   { \widehat   { M S P E } }   ( L ) = \sum   _ { i = 1 } ^ { n } \left ( y _ { i } - { \widehat   { g } } ( x _ { i } ) \right ) ^ { 2 } - { \widehat   { \sigma   } } ^ { 2 } \left ( n - \operatorname   { t r }   \left [ L \right ] \right ) . }
+{ \displaystyle   C _ { p } = { \frac   { \sum   _ { i = 1 } ^ { n } \left ( y _ { i } - { \widehat   { g } } ( x _ { i } ) \right ) ^ { 2 } } { { \widehat   { \sigma   } } ^ { 2 } } } - n + 2 p . }
+\widehat   { \sigma   } ^ { 2 }

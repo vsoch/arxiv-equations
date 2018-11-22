@@ -1,0 +1,174 @@
+\mathbb   { U }  
+\mathbb   { Z }  
+U _ { t }
+t   \in   \mathrm { Z }
+u _ t ^ s :   U _ s   \to   U _ t
+s \leq   t
+u _ t ^ t = 1
+t
+{ \displaystyle   u _ { t } ^ { s } u _ { s } ^ { r } = u _ { t } ^ { r } }
+r   \leq   s   \leq   t .
+\mathbb   { Z }  
+P H
+P H _ k ( X ) =   \prod   H _ k ( X _ r )
+X _ r
+r
+X
+H _ { k }
+\mathbb   { R }  
+\Delta  
+: =   \{ ( u , v )   \in   \mathbb { R } ^ 2 |   u , v   \geq   0 ,   u   \leq   v \ }
+X
+Y
+{ \displaystyle   W _ { p } [ L _ { q } ] ( X , Y ) : = \inf   _ { \phi   : X \to   Y } [ ~ \sum   _ { x \in   X } \Vert   x - \phi   ( x ) \Vert   _ { q } ~ ] ^ { \frac   { 1 } { p } } }
+1   \leq   p , q   \leq   \infty
+\phi  
+X
+Y
+X
+Y
+{ \displaystyle   W _ { \infty   } [ L _ { q } ] ( X , Y ) : = \inf   _ { \phi   : X \to   Y } \sup   _ { x \in   X } \Vert   x - \phi   ( x ) \Vert   _ { q } . }
+p = \infty
+C
+F
+{ \displaystyle   H ( C ; F ) \simeq   \bigoplus   _ { i } x ^ { t _ { i } } \cdot   F [ x ] \oplus   \left ( \bigoplus   _ { j } x ^ { r _ { j } } \cdot   ( F [ x ] / ( x ^ { s _ { j } } \cdot   F [ x ] ) ) \right ) . }
+t _ { i }
+r _ j
+s _ { j }
+s _ j + r _ j
+X
+f , g : X \to   \mathbb { R }
+{ \displaystyle   \{ H _ { k } ( f ^ { - 1 } ( [ 0 , r ] ) ) \ } }
+{ \displaystyle   \{ H _ { k } ( g ^ { - 1 } ( [ 0 , r ] ) ) \ } }
+W _ { \infty } ( D ( f ) , D ( g ) )   \leq   \lVert   f - g   \rVert_ { \infty }
+{ \displaystyle   W _ { \infty   } }
+D
+k
+\to  
+\to  
+\to  
+X
+X
+{ \displaystyle   X _ { r } }
+{ \displaystyle   H _ { i } ( X _ { r _ { 0 } } ) \to   H _ { i } ( X _ { r _ { 1 } } ) \to   H _ { i } ( X _ { r _ { 2 } } ) \to   \cdots   }
+F _ { 2 }
+X
+Z
+f : X \to   Z
+\mathbb { U }   =   \{ U _ { \alpha } \}_ { \alpha   \in   A }
+Z
+{ \textstyle   M ( \mathbb { U } , f ) : = N ( f ^ { - 1 } ( \mathbb { U } ) ) }
+Z
+\mathbb   { R }  
+\mathbb   { R }   ^ { 2 }
+f ^ { - 1 } ( U )
+{ \textstyle   M ( \mathbb { U } , f ) }
+i \geq   0
+{ \displaystyle   H _ { i } ( X ) \simeq   H _ { 0 } ( N ( \mathbb   { U }   ) ; { \hat   { F } } _ { i } ) \oplus   H _ { 1 } ( N ( \mathbb   { U }   ) ; { \hat   { F } } _ { i - 1 } ) . }
+\mathbb   { R }   ^ { n }
+V _ s
+s = ( s _ 1 , . . . , s _ n )
+\rho_s ^ t : V _ s   \to   V _ t
+s \leq   t
+s _ i   \leq   t _ i ,   i = 1 , . . . , n )
+\rho_r ^ t = \rho_s ^ t   \circ   \rho_r ^ s
+r   \leq   s   \leq   t
+\rho_M ( u , v )
+\rho_M ( u , v ) = \mathrm { r a n k } ( x ^ { u - v } : M _ u \to   M _ v )
+M
+f : X \to   \mathrm { R } ^ k
+\beta_f :   \Delta ^ { + }   \to   \mathrm { N }
+( u , v )   \in   \Delta ^ { + }
+\beta_f ( u , v ) : =   \mathrm { r a n k }   ( H ( X ( f \leq   u ) \to   H ( X ( f \leq   v ) ) )
+\Delta ^ { + }   : =   \{ ( u , v ) \in   \mathbb { R } \times \mathbb { R } : u \leq   v \ }
+X ( f \leq   u ) : = \{ x \in   X : f ( x ) \leq   u \ }
+X
+\mathbb   { R }   ^ { n }
+( u , v )   ( u \leq   v )
+u
+\rho_M   ( \star , v )
+v
+\rho   ( u , \star )
+f \in   C ^ 0 ( X , \mathrm { R } ^ k )
+X
+{ \textstyle   P }
+\mathbb   { N }  
+\mathbb   { R }  
+D
+{ \textstyle   \mathrm { V e c t } _ { \mathbb { F } } }
+{ \textstyle   P   \to   D }
+D
+{ \textstyle   P }
+V _ r ( X )   \subset   C _ { \sqrt { 2 } r } ( X )   \subset   V _ { 2 r } ( X )
+\stackrel { F } { \longrightarrow }
+\stackrel { H } { \longrightarrow }
+\stackrel { J } { \longrightarrow }
+H F
+J
+d _ I
+F , G :   P \to   D
+{ \textstyle   P }
+\Gamma ,   K   \in   \mathrm { T r a n s _ P }
+{ \textstyle   P }
+{ \textstyle   P }
+x   \leq   \Gamma ( x )
+{ \textstyle   x \in   P }
+( \Gamma ,   K )
+\varphi :   F   \Rightarrow   G \Gamma
+\psi :   G   \Rightarrow   F K
+{ \displaystyle   ( \psi   \Gamma   ) = \varphi   F \eta   _ { K \Gamma   } }
+( \varphi \Gamma ) = \psi   G \eta_ { \Gamma   K }
+{ \textstyle   P }
+{ \textstyle   H : D   \to   E }
+{ \textstyle   D , E }
+{ \textstyle   F , G : P \to   D }
+{ \textstyle   d _ I ( H F , H G )   \leq   d _ I ( F , G ) }
+{ \textstyle   P }
+{ \textstyle   Y }
+{ \textstyle   X }
+{ \textstyle   f , g : X \to   Y }
+{ \textstyle   F , G }
+d _ I ( F , G )   \leq   d _ { \infty } ( f , g ) : = \sup_ { x \in   X } d _ Y ( f ( x ) , g ( x ) )
+( \mathbb   { R }   , \leq   )
+\mathbb   { R }  
+\mathbb   { R }  
+( \mathbb   { R }   , \leq   )
+I   \subset   \mathbb { R }
+r ,   t   \in   I
+s \in   \mathbb   { R }  
+r   \leq   s   \leq   t
+s \in   I
+k _ I
+s \in   I
+k
+\mathbb { R }   /   I
+\rho_s ^ t
+s , t   \in   I
+s \leq   t
+\rho_s ^ t
+\rho_s ^ t
+s \leq   t
+\mathrm { O b }
+\mathrm { P e r s } / \mathrm { E p h }
+\mathrm { E p h }
+\mathrm { P e r s }
+\rho ^ t _ s = 0
+s   <   t
+\mathbb   { R }  
+B _ { \infty }
+\coprod_n   B _ { n } /   \backsim
+B _ { { n } }
+n
+\{ [ x _ 1 , y _ 1 ] , [ x _ 2 , y _ 2 ] , . . . , [ x _ n , y _ n ] \} \backsim   \{ [ x _ 1 , y _ 1 ] , [ x _ 2 , y _ 2 ] , . . . , [ x _ { n - 1 } , y _ { n - 1 } ] \ }
+x _ n   =   y _ n
+D _ p
+{ \displaystyle   D _ { p } : = \left \{ d | \sum   _ { x \in   d } \left ( 2 \inf   _ { y \in   \Delta   } \lVert   x - y \rVert   \right ) ^ { p } \right \ } }
+\Delta  
+\mathbb   { R }   ^ { 2 }
+D _ p
+{ \displaystyle   W _ { p } ( u , v ) = \left ( \inf   _ { \gamma   \in   \Gamma   ( u , v ) } \int   _ { \mathbb   { X }   \times   \mathbb   { X }   } \rho   ^ { p } ( x , y ) \mathrm   { d }   \gamma   ( x , y ) \right ) ^ { \frac   { 1 } { p } } }
+M
+\lambda : \mathbb { N } \times \mathbb { R } \to   \bar { \mathbb { R } }
+\lambda ( k , t ) : = \sup ( m \geq   0 | \beta ^ { t - m , t - m } \geq   k )
+\bar { \mathbb { R } }
+\beta ^ { a , b } = \mathrm { d i m } ( \mathrm { i m } ( M ( a \leq   b ) ) )

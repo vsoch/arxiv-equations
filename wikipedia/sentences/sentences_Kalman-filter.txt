@@ -1,0 +1,235 @@
+{ \hat   { x } } _ { k \mid   k - 1 }
+{ \displaystyle   P _ { k \mid   k - 1 } }
+{ \displaystyle   \mathbf   { x }   _ { k } = \mathbf   { F }   _ { k } \mathbf   { x }   _ { k - 1 } + \mathbf   { B }   _ { k } \mathbf   { u }   _ { k } + \mathbf   { w }   _ { k } }
+{ \mathcal   { N } }
+{ \displaystyle   \mathbf   { w }   _ { k } \sim   { \mathcal   { N } } \left ( 0 , \mathbf   { Q }   _ { k } \right ) }
+{ \displaystyle   \mathbf   { z }   _ { k } = \mathbf   { H }   _ { k } \mathbf   { x }   _ { k } + \mathbf   { v }   _ { k } }
+{ \displaystyle   \mathbf   { v }   _ { k } \sim   { \mathcal   { N } } \left ( 0 , \mathbf   { R }   _ { k } \right ) }
+{ \hat   { \mathbf   { x }   } } _ { n \mid   m }
+\mathbf   { x }  
+{ \hat   { \mathbf   { x }   } } _ { k \mid   k }
+\mathbf   { P }   _ { k \mid   k }
+{ \displaystyle   { \hat   { \mathbf   { x }   } } _ { k \mid   k - 1 } = \mathbf   { F }   _ { k } { \hat   { \mathbf   { x }   } } _ { k - 1 \mid   k - 1 } + \mathbf   { B }   _ { k } \mathbf   { u }   _ { k } }
+{ \displaystyle   \mathbf   { P }   _ { k \mid   k - 1 } = \mathbf   { F }   _ { k } \mathbf   { P }   _ { k - 1 \mid   k - 1 } \mathbf   { F }   _ { k } ^ { \mathrm   { T }   } + \mathbf   { Q }   _ { k } }
+{ \tilde   { \mathbf   { y }   } } _ { k } = \mathbf   { z }   _ { k } - \mathbf   { H }   _ { k } { \hat   { \mathbf   { x }   } } _ { k \mid   k - 1 }
+{ \displaystyle   \mathbf   { S }   _ { k } = \mathbf   { R }   _ { k } + \mathbf   { H }   _ { k } \mathbf   { P }   _ { k \mid   k - 1 } \mathbf   { H }   _ { k } ^ { \mathrm   { T }   } }
+{ \displaystyle   \mathbf   { K }   _ { k } = \mathbf   { P }   _ { k \mid   k - 1 } \mathbf   { H }   _ { k } ^ { \mathrm   { T }   } \mathbf   { S }   _ { k } ^ { - 1 } }
+{ \hat   { \mathbf   { x }   } } _ { k \mid   k } = { \hat   { \mathbf   { x }   } } _ { k \mid   k - 1 } + \mathbf   { K }   _ { k } { \tilde   { \mathbf   { y }   } } _ { k }
+{ \displaystyle   \mathbf   { P }   _ { k | k } = ( \mathbf   { I }   - \mathbf   { K }   _ { k } \mathbf   { H }   _ { k } ) \mathbf   { P }   _ { k | k - 1 } ( \mathbf   { I }   - \mathbf   { K }   _ { k } \mathbf   { H }   _ { k } ) ^ { T } + \mathbf   { K }   _ { k } \mathbf   { R }   _ { k } \mathbf   { K }   _ { k } ^ { T } }
+{ \displaystyle   { \tilde   { \mathbf   { y }   } } _ { k \mid   k } = \mathbf   { z }   _ { k } - \mathbf   { H }   _ { k } { \hat   { \mathbf   { x }   } } _ { k \mid   k } }
+{ \displaystyle   \mathbf   { P }   _ { k | k } = ( \mathbf   { I }   - \mathbf   { K }   _ { k } \mathbf   { H }   _ { k } ) \mathbf   { P }   _ { k | k - 1 } }
+{ \hat   { \mathbf   { x }   } } _ { 0 \mid   0 }
+\mathbf   { P }   _ { 0 \mid   0 }
+{ \displaystyle   { \begin { a l i g n e d } \operatorname   { E }   [ \mathbf   { x }   _ { k } - { \hat   { \mathbf   { x }   } } _ { k \mid   k } ] & = \operatorname   { E }   [ \mathbf   { x }   _ { k } - { \hat   { \mathbf   { x }   } } _ { k \mid   k - 1 } ] = 0 \\\operatorname   { E }   [ { \tilde   { \mathbf   { y }   } } _ { k } ] & = 0 \end { a l i g n e d } } }
+{ \displaystyle   \operatorname   { E }   [ \xi   ] }
+\xi  
+{ \displaystyle   { \begin { a l i g n e d } \mathbf   { P }   _ { k \mid   k } & = \operatorname   { c o v }   ( \mathbf   { x }   _ { k } - { \hat   { \mathbf   { x }   } } _ { k \mid   k } ) \\\mathbf   { P }   _ { k \mid   k - 1 } & = \operatorname   { c o v }   ( \mathbf   { x }   _ { k } - { \hat   { \mathbf   { x }   } } _ { k \mid   k - 1 } ) \\\mathbf   { S }   _ { k } & = \operatorname   { c o v }   ( { \tilde   { \mathbf   { y }   } } _ { k } ) \end { a l i g n e d } } }
+{ \displaystyle   \mathbf   { F }   , \mathbf   { H }   , \mathbf   { R }   , \mathbf   { Q }   }
+{ \displaystyle   \mathbf   { x }   _ { k } = { \begin { b m a t r i x } x \\{ \dot   { x } } \end { b m a t r i x } } }
+{ \dot   { x } }
+{ \displaystyle   \mathbf   { x }   _ { k } = \mathbf   { F }   \mathbf   { x }   _ { k - 1 } + \mathbf   { G }   a _ { k } }
+\mathbf   { B }   u
+\mathbf   { G }  
+{ \displaystyle   { \begin { a l i g n e d } \mathbf   { F }   & = { \begin { b m a t r i x } 1 & \Delta   t \\0 & 1 \end { b m a t r i x } } \\[4pt ] \mathbf   { G }   & = { \begin { b m a t r i x } { \frac   { 1 } { 2 } } { \Delta   t } ^ { 2 } \\[6pt ] \Delta   t \end { b m a t r i x } } \end { a l i g n e d } } }
+{ \displaystyle   \mathbf   { x }   _ { k } = \mathbf   { F }   \mathbf   { x }   _ { k - 1 } + \mathbf   { w }   _ { k } }
+{ \displaystyle   { \begin { a l i g n e d } \mathbf   { w }   _ { k } & \sim   N ( 0 , \mathbf   { Q }   ) \\\mathbf   { Q }   & = \mathbf   { G }   \mathbf   { G }   ^ { \mathrm   { T }   } \sigma   _ { a } ^ { 2 } = { \begin { b m a t r i x } { \frac   { 1 } { 4 } } { \Delta   t } ^ { 4 } & { \frac   { 1 } { 2 } } { \Delta   t } ^ { 3 } \\[6pt ] { \frac   { 1 } { 2 } } { \Delta   t } ^ { 3 } & { \Delta   t } ^ { 2 } \end { b m a t r i x } } \sigma   _ { a } ^ { 2 } . \end { a l i g n e d } } }
+\mathbf   { Q }  
+{ \displaystyle   \Delta   t \neq   0 }
+{ \displaystyle   N ( 0 , \mathbf   { Q }   ) }
+{ \displaystyle   \mathbf   { w }   _ { k } \sim   \mathbf   { G }   \cdot   N \left ( 0 , \sigma   _ { a } ^ { 2 } \right ) . }
+{ \displaystyle   \mathbf   { z }   _ { k } = \mathbf   { H x }   _ { k } + \mathbf   { v }   _ { k } }
+\mathbf   { H }   = { \begin { b m a t r i x } 1 & 0 \end { b m a t r i x } }
+{ \displaystyle   \mathbf   { R }   = \mathrm   { E }   \left [ \mathbf   { v }   _ { k } \mathbf   { v }   _ { k } ^ { \mathrm   { T }   } \right ] = { \begin { b m a t r i x } \sigma   _ { z } ^ { 2 } \end { b m a t r i x } } }
+{ \displaystyle   { \hat   { \mathbf   { x }   } } _ { 0 \mid   0 } = { \begin { b m a t r i x } 0 \\0 \end { b m a t r i x } } }
+{ \displaystyle   \mathbf   { P }   _ { 0 \mid   0 } = { \begin { b m a t r i x } 0 & 0 \\0 & 0 \end { b m a t r i x } } }
+{ \displaystyle   \mathbf   { P }   _ { 0 \mid   0 } = { \begin { b m a t r i x } \sigma   _ { x } ^ { 2 } & 0 \\0 & \sigma   _ { \dot   { x } } ^ { 2 } \end { b m a t r i x } } }
+{ \displaystyle   \mathbf   { P }   _ { k \mid   k } = \operatorname   { c o v }   \left ( \mathbf   { x }   _ { k } - { \hat   { \mathbf   { x }   } } _ { k \mid   k } \right ) }
+{ \displaystyle   { \hat   { \mathbf   { x }   } } _ { k \mid   k } }
+{ \displaystyle   \mathbf   { P }   _ { k \mid   k } = \operatorname   { c o v }   \left [ \mathbf   { x }   _ { k } - \left ( { \hat   { \mathbf   { x }   } } _ { k \mid   k - 1 } + \mathbf   { K }   _ { k } { \tilde   { \mathbf   { y }   } } _ { k } \right ) \right ] }
+{ \tilde   { \mathbf   { y }   } } _ { k }
+{ \displaystyle   \mathbf   { P }   _ { k \mid   k } = \operatorname   { c o v }   \left ( \mathbf   { x }   _ { k } - \left [ { \hat   { \mathbf   { x }   } } _ { k \mid   k - 1 } + \mathbf   { K }   _ { k } \left ( \mathbf   { z }   _ { k } - \mathbf   { H }   _ { k } { \hat   { \mathbf   { x }   } } _ { k \mid   k - 1 } \right ) \right ] \right ) }
+\mathbf   { z }   _ { k }
+{ \displaystyle   \mathbf   { P }   _ { k \mid   k } = \operatorname   { c o v }   \left ( \mathbf   { x }   _ { k } - \left [ { \hat   { \mathbf   { x }   } } _ { k \mid   k - 1 } + \mathbf   { K }   _ { k } \left ( \mathbf   { H }   _ { k } \mathbf   { x }   _ { k } + \mathbf   { v }   _ { k } - \mathbf   { H }   _ { k } { \hat   { \mathbf   { x }   } } _ { k \mid   k - 1 } \right ) \right ] \right ) }
+{ \displaystyle   \mathbf   { P }   _ { k \mid   k } = \operatorname   { c o v }   \left [ \left ( \mathbf   { I }   - \mathbf   { K }   _ { k } \mathbf   { H }   _ { k } ) ( \mathbf   { x }   _ { k } - { \hat   { \mathbf   { x }   } } _ { k \mid   k - 1 } \right ) - \mathbf   { K }   _ { k } \mathbf   { v }   _ { k } \right ] }
+{ \displaystyle   \mathbf   { P }   _ { k \mid   k } = \operatorname   { c o v }   \left [ \left ( \mathbf   { I }   - \mathbf   { K }   _ { k } \mathbf   { H }   _ { k } \right ) \left ( \mathbf   { x }   _ { k } - { \hat   { \mathbf   { x }   } } _ { k \mid   k - 1 } \right ) \right ] + \operatorname   { c o v }   \left [ \mathbf   { K }   _ { k } \mathbf   { v }   _ { k } \right ] }
+{ \displaystyle   \mathbf   { P }   _ { k \mid   k } = \left ( \mathbf   { I }   - \mathbf   { K }   _ { k } \mathbf   { H }   _ { k } ) \operatorname   { c o v }   ( \mathbf   { x }   _ { k } - { \hat   { \mathbf   { x }   } } _ { k \mid   k - 1 } \right ) \left ( \mathbf   { I }   - \mathbf   { K }   _ { k } \mathbf   { H }   _ { k } \right ) ^ { \mathrm   { T }   } + \mathbf   { K }   _ { k } \operatorname   { c o v }   \left ( \mathbf   { v }   _ { k } \right ) \mathbf   { K }   _ { k } ^ { \mathrm   { T }   } }
+{ \displaystyle   \mathbf   { P }   _ { k \mid   k } = ( \mathbf   { I }   - \mathbf   { K }   _ { k } \mathbf   { H }   _ { k } ) \mathbf   { P }   _ { k \mid   k - 1 } ( \mathbf   { I }   - \mathbf   { K }   _ { k } \mathbf   { H }   _ { k } ) ^ { \mathrm   { T }   } + \mathbf   { K }   _ { k } \mathbf   { R }   _ { k } \mathbf   { K }   _ { k } ^ { \mathrm   { T }   } }
+{ \displaystyle   \mathbf   { x }   _ { k } - { \hat   { \mathbf   { x }   } } _ { k \mid   k } }
+{ \displaystyle   \operatorname   { E }   \left [ \left \|\mathbf   { x }   _ { k } - { \hat   { \mathbf   { x }   } } _ { k | k } \right \|^ { 2 } \right ] }
+\mathbf   { P }   _ { k | k }
+{ \displaystyle   { \begin { a l i g n e d } \mathbf   { P }   _ { k \mid   k } & = \mathbf   { P }   _ { k \mid   k - 1 } - \mathbf   { K }   _ { k } \mathbf   { H }   _ { k } \mathbf   { P }   _ { k \mid   k - 1 } - \mathbf   { P }   _ { k \mid   k - 1 } \mathbf   { H }   _ { k } ^ { \mathrm   { T }   } \mathbf   { K }   _ { k } ^ { \mathrm   { T }   } + \mathbf   { K }   _ { k } ( \mathbf   { H }   _ { k } \mathbf   { P }   _ { k \mid   k - 1 } \mathbf   { H }   _ { k } ^ { \mathrm   { T }   } + \mathbf   { R }   _ { k } ) \mathbf   { K }   _ { k } ^ { \mathrm   { T }   } \\[6pt ] & = \mathbf   { P }   _ { k \mid   k - 1 } - \mathbf   { K }   _ { k } \mathbf   { H }   _ { k } \mathbf   { P }   _ { k \mid   k - 1 } - \mathbf   { P }   _ { k \mid   k - 1 } \mathbf   { H }   _ { k } ^ { \mathrm   { T }   } \mathbf   { K }   _ { k } ^ { \mathrm   { T }   } + \mathbf   { K }   _ { k } \mathbf   { S }   _ { k } \mathbf   { K }   _ { k } ^ { \mathrm   { T }   } \end { a l i g n e d } } }
+{ \displaystyle   { \frac   { \partial   \;\mathrm   { t r }   ( \mathbf   { P }   _ { k \mid   k } ) } { \partial   \;\mathbf   { K }   _ { k } } } = - 2 ( \mathbf   { H }   _ { k } \mathbf   { P }   _ { k \mid   k - 1 } ) ^ { \mathrm   { T }   } + 2 \mathbf   { K }   _ { k } \mathbf   { S }   _ { k } = 0 . }
+{ \displaystyle   { \begin { a l i g n e d } \mathbf   { K }   _ { k } \mathbf   { S }   _ { k } & = ( \mathbf   { H }   _ { k } \mathbf   { P }   _ { k \mid   k - 1 } ) ^ { \mathrm   { T }   } = \mathbf   { P }   _ { k \mid   k - 1 } \mathbf   { H }   _ { k } ^ { \mathrm   { T }   } \\\mathbf   { K }   _ { k } & = \mathbf   { P }   _ { k \mid   k - 1 } \mathbf   { H }   _ { k } ^ { \mathrm   { T }   } \mathbf   { S }   _ { k } ^ { - 1 } \end { a l i g n e d } } }
+\mathbf   { K }   _ { k } \mathbf   { S }   _ { k } \mathbf   { K }   _ { k } ^ { \mathrm   { T }   } = \mathbf   { P }   _ { k \mid   k - 1 } \mathbf   { H }   _ { k } ^ { \mathrm   { T }   } \mathbf   { K }   _ { k } ^ { \mathrm   { T }   }
+\mathbf   { P }   _ { k \mid   k } = \mathbf   { P }   _ { k \mid   k - 1 } - \mathbf   { K }   _ { k } \mathbf   { H }   _ { k } \mathbf   { P }   _ { k \mid   k - 1 } - \mathbf   { P }   _ { k \mid   k - 1 } \mathbf   { H }   _ { k } ^ { \mathrm   { T }   } \mathbf   { K }   _ { k } ^ { \mathrm   { T }   } + \mathbf   { K }   _ { k } \mathbf   { S }   _ { k } \mathbf   { K }   _ { k } ^ { \mathrm   { T }   }
+{ \displaystyle   \mathbf   { P }   _ { k \mid   k } = \mathbf   { P }   _ { k \mid   k - 1 } - \mathbf   { K }   _ { k } \mathbf   { H }   _ { k } \mathbf   { P }   _ { k \mid   k - 1 } = ( \mathbf   { I }   - \mathbf   { K }   _ { k } \mathbf   { H }   _ { k } ) \mathbf   { P }   _ { k \mid   k - 1 } . }
+{ \hat   { \mathbf   { x }   } } _ { k \mid   k }
+\mathbf   { P }   _ { k \mid   k }
+\mathbf   { Q }   _ { k }
+\mathbf   { R }   _ { k }
+\mathbf   { P }   _ { k \mid   k } = ( \mathbf   { I }   - \mathbf   { K }   _ { k } \mathbf   { H }   _ { k } ) \mathbf   { P }   _ { k \mid   k - 1 } ( \mathbf   { I }   - \mathbf   { K }   _ { k } \mathbf   { H }   _ { k } ) ^ { \mathrm   { T }   } + \mathbf   { K }   _ { k } \mathbf   { R }   _ { k } \mathbf   { K }   _ { k } ^ { \mathrm   { T }   }
+{ \displaystyle   \mathbf   { P }   _ { k \mid   k } \neq   E \left [ \left ( \mathbf   { x }   _ { k } - { \hat   { \mathbf   { x }   } } _ { k \mid   k } \right ) \left ( \mathbf   { x }   _ { k } - { \hat   { \mathbf   { x }   } } _ { k \mid   k } \right ) ^ { \mathrm   { T }   } \right ] }
+\mathbf { F } _ k
+{ \displaystyle   \mathbf   { H }   _ { k } }
+{ \displaystyle   \mathbf   { Q }   _ { k } ^ { a } }
+{ \displaystyle   \mathbf   { R }   _ { k } ^ { a } }
+\mathbf   { Q }   _ { k }
+\mathbf   { R }   _ { k }
+{ \displaystyle   \mathbf   { P }   _ { k \mid   k } ^ { a } }
+{ \displaystyle   \mathbf   { P }   _ { k \mid   k } }
+{ \displaystyle   \mathbf   { Q }   _ { k } \equiv   \mathbf   { Q }   _ { k } ^ { a } }
+{ \displaystyle   \mathbf   { R }   _ { k } \equiv   \mathbf   { R }   _ { k } ^ { a } }
+{ \displaystyle   \mathbf   { P }   _ { k \mid   k } = \mathbf   { P }   _ { k \mid   k } ^ { a } }
+{ \displaystyle   \mathbf   { P }   _ { k \mid   k } ^ { a } = E \left [ \left ( \mathbf   { x }   _ { k } - { \hat   { \mathbf   { x }   } } _ { k \mid   k } \right ) \left ( \mathbf   { x }   _ { k } - { \hat   { \mathbf   { x }   } } _ { k \mid   k } \right ) ^ { \mathrm   { T }   } \right ] }
+{ \displaystyle   { \widehat   { \mathbf   { x }   } } _ { k \mid   k } }
+{ \displaystyle   E \left [ \mathbf   { w }   _ { k } \mathbf   { w }   _ { k } ^ { \mathrm   { T }   } \right ] = \mathbf   { Q }   _ { k } ^ { a } }
+{ \displaystyle   E \left [ \mathbf   { v }   _ { k } \mathbf   { v }   _ { k } ^ { \mathrm   { T }   } \right ] = \mathbf   { R }   _ { k } ^ { a } }
+{ \displaystyle   \mathbf   { P }   _ { k \mid   k } ^ { a } }
+{ \displaystyle   \mathbf   { P }   _ { k \mid   k - 1 } ^ { a } = \mathbf   { F }   _ { k } \mathbf   { P }   _ { k - 1 \mid   k - 1 } ^ { a } \mathbf   { F }   _ { k } ^ { \mathrm   { T }   } + \mathbf   { Q }   _ { k } ^ { a } }
+{ \displaystyle   \mathbf   { P }   _ { k \mid   k } ^ { a } = \left ( \mathbf   { I }   - \mathbf   { K }   _ { k } \mathbf   { H }   _ { k } \right ) \mathbf   { P }   _ { k \mid   k - 1 } ^ { a } \left ( \mathbf   { I }   - \mathbf   { K }   _ { k } \mathbf   { H }   _ { k } \right ) ^ { \mathrm   { T }   } + \mathbf   { K }   _ { k } \mathbf   { R }   _ { k } ^ { a } \mathbf   { K }   _ { k } ^ { \mathrm   { T }   } }
+{ \displaystyle   \mathbf   { P }   _ { k \mid   k } }
+{ \displaystyle   E \left [ \mathbf   { w }   _ { k } \mathbf   { w }   _ { k } ^ { \mathrm   { T }   } \right ] = \mathbf   { Q }   _ { k } }
+{ \displaystyle   E \left [ \mathbf   { v }   _ { k } \mathbf   { v }   _ { k } ^ { \mathrm   { T }   } \right ] = \mathbf   { R }   _ { k } }
+{ \displaystyle   \mathbf   { P }   _ { k \mid   k } ^ { a } }
+{ \displaystyle   \mathbf   { P }   _ { k \mid   k } }
+{ \displaystyle   \mathbf   { Q }   _ { k } ^ { a } }
+{ \displaystyle   \mathbf   { R }   _ { k } ^ { a } }
+\mathbf   { Q }   _ { k }
+\mathbf   { R }   _ { k }
+{ \displaystyle   p ( \mathbf   { x }   _ { k } \mid   \mathbf   { x }   _ { 0 } , \dots   , \mathbf   { x }   _ { k - 1 } ) = p ( \mathbf   { x }   _ { k } \mid   \mathbf   { x }   _ { k - 1 } ) }
+{ \displaystyle   p ( \mathbf   { z }   _ { k } \mid   \mathbf   { x }   _ { 0 } , \dots   , \mathbf   { x }   _ { k } ) = p ( \mathbf   { z }   _ { k } \mid   \mathbf   { x }   _ { k } ) }
+{ \displaystyle   p ( \mathbf   { x }   _ { 0 } , \dots   , \mathbf   { x }   _ { k } , \mathbf   { z }   _ { 1 } , \dots   , \mathbf   { z }   _ { k } ) = p ( \mathbf   { x }   _ { 0 } ) \prod   _ { i = 1 } ^ { k } p ( \mathbf   { z }   _ { i } \mid   \mathbf   { x }   _ { i } ) p ( \mathbf   { x }   _ { i } \mid   \mathbf   { x }   _ { i - 1 } ) }
+{ \displaystyle   Z _ { k - 1 } }
+{ \displaystyle   p ( \mathbf   { x }   _ { k } \mid   \mathbf   { Z }   _ { k - 1 } ) = \int   p ( \mathbf   { x }   _ { k } \mid   \mathbf   { x }   _ { k - 1 } ) p ( \mathbf   { x }   _ { k - 1 } \mid   \mathbf   { Z }   _ { k - 1 } ) \,d \mathbf   { x }   _ { k - 1 } }
+{ \displaystyle   \mathbf   { Z }   _ { t } = \left \{ \mathbf   { z }   _ { 1 } , \dots   , \mathbf   { z }   _ { t } \right \ } }
+{ \displaystyle   p ( \mathbf   { x }   _ { k } \mid   \mathbf   { Z }   _ { k } ) = { \frac   { p ( \mathbf   { z }   _ { k } \mid   \mathbf   { x }   _ { k } ) p ( \mathbf   { x }   _ { k } \mid   \mathbf   { Z }   _ { k - 1 } ) } { p ( \mathbf   { z }   _ { k } \mid   \mathbf   { Z }   _ { k - 1 } ) } } }
+{ \displaystyle   p ( \mathbf   { z }   _ { k } \mid   \mathbf   { Z }   _ { k - 1 } ) = \int   p ( \mathbf   { z }   _ { k } \mid   \mathbf   { x }   _ { k } ) p ( \mathbf   { x }   _ { k } \mid   \mathbf   { Z }   _ { k - 1 } ) \,d \mathbf   { x }   _ { k } }
+{ \displaystyle   { \begin { a l i g n e d } p ( \mathbf   { x }   _ { k } \mid   \mathbf   { x }   _ { k - 1 } ) & = { \mathcal   { N } } ( \mathbf   { F }   _ { k } \mathbf   { x }   _ { k - 1 } , \mathbf   { Q }   _ { k } ) \\p ( \mathbf   { z }   _ { k } \mid   \mathbf   { x }   _ { k } ) & = { \mathcal   { N } } ( \mathbf   { H }   _ { k } \mathbf   { x }   _ { k } , \mathbf   { R }   _ { k } ) \\p ( \mathbf   { x }   _ { k - 1 } \mid   \mathbf   { Z }   _ { k - 1 } ) & = { \mathcal   { N } } ( { \hat   { \mathbf   { x }   } } _ { k - 1 } , \mathbf   { P }   _ { k - 1 } ) \end { a l i g n e d } } }
+\mathbf   { x }   _ { k }
+\mathbf   { Z }   _ { k }
+\mathbf   { x }   _ { 0 }
+{ \displaystyle   p ( \mathbf   { x }   _ { 0 } ) = { \mathcal   { N } } ( { \hat   { \mathbf   { x }   } } _ { 0 \mid   0 } , \mathbf   { P }   _ { 0 \mid   0 } ) }
+\mathbf   { z }   _ { 0 }
+{ \displaystyle   p ( \mathbf   { z }   _ { 0 } \mid   \mathbf   { x }   _ { 0 } ) = { \mathcal   { N } } ( \mathbf   { H }   _ { 0 } \mathbf   { x }   _ { 0 } , \mathbf   { R }   _ { 0 } ) }
+{ \displaystyle   k = 1 , 2 , 3 , \ldots   }
+\mathbf   { x }   _ { k }
+{ \displaystyle   p ( \mathbf   { x }   _ { k } \mid   \mathbf   { x }   _ { k - 1 } ) = { \mathcal   { N } } ( \mathbf   { F }   _ { k } \mathbf   { x }   _ { k - 1 } + \mathbf   { B }   _ { k } \mathbf   { u }   _ { k } , \mathbf   { Q }   _ { k } ) . }
+\mathbf   { z }   _ { k }
+{ \displaystyle   p ( \mathbf   { z }   _ { k } \mid   \mathbf   { x }   _ { k } ) = { \mathcal   { N } } ( \mathbf   { H }   _ { k } \mathbf   { x }   _ { k } , \mathbf   { R }   _ { k } ) . }
+p ( \mathbf   { z }   ) = \prod   _ { k = 0 } ^ { T } p ( \mathbf   { z }   _ { k } \mid   \mathbf   { z }   _ { k - 1 } , \ldots   , \mathbf   { z }   _ { 0 } )
+{ \displaystyle   { \hat   { \mathbf   { x }   } } _ { k \mid   k - 1 } , \mathbf   { P }   _ { k \mid   k - 1 } . }
+{ \displaystyle   { \begin { a l i g n e d } p ( \mathbf   { z }   ) & = \prod   _ { k = 0 } ^ { T } \int   p ( \mathbf   { z }   _ { k } \mid   \mathbf   { x }   _ { k } ) p ( \mathbf   { x }   _ { k } \mid   \mathbf   { z }   _ { k - 1 } , \ldots   , \mathbf   { z }   _ { 0 } ) d \mathbf   { x }   _ { k } \\&=\prod   _ { k = 0 } ^ { T } \int   { \mathcal   { N } } ( \mathbf   { z }   _ { k } ; \mathbf   { H }   _ { k } \mathbf   { x }   _ { k } , \mathbf   { R }   _ { k } ) { \mathcal   { N } } ( \mathbf   { x }   _ { k } ; { \hat   { \mathbf   { x }   } } _ { k \mid   k - 1 } , \mathbf   { P }   _ { k \mid   k - 1 } ) d \mathbf   { x }   _ { k } \\&=\prod   _ { k = 0 } ^ { T } { \mathcal   { N } } ( \mathbf   { z }   _ { k } ; \mathbf   { H }   _ { k } { \hat   { \mathbf   { x }   } } _ { k \mid   k - 1 } , \mathbf   { R }   _ { k } + \mathbf   { H }   _ { k } \mathbf   { P }   _ { k \mid   k - 1 } \mathbf   { H }   _ { k } ^ { T } ) \\&=\prod   _ { k = 0 } ^ { T } { \mathcal   { N } } ( \mathbf   { z }   _ { k } ; \mathbf   { H }   _ { k } { \hat   { \mathbf   { x }   } } _ { k \mid   k - 1 } , \mathbf   { S }   _ { k } ) , \end { a l i g n e d } } }
+{ \displaystyle   \mathbf   { H }   _ { k } { \hat   { \mathbf   { x }   } } _ { k \mid   k - 1 } , \mathbf   { S }   _ { k } }
+\ell   = \log   p ( \mathbf   { z }   )
+\ell   ^ { ( - 1 ) } = 0
+{ \displaystyle   \ell   ^ { ( k ) } = \ell   ^ { ( k - 1 ) } - { \frac   { 1 } { 2 } } \left ( { \tilde   { \mathbf   { y }   } } _ { k } ^ { T } \mathbf   { S }   _ { k } ^ { - 1 } { \tilde   { \mathbf   { y }   } } _ { k } + \log   \left | \mathbf   { S }   _ { k } \right | + d _ { y } \log   2 \pi   \right ) , }
+d _ { y }
+{ \displaystyle   { \begin { a l i g n e d } \mathbf   { Y }   _ { k \mid   k } & = \mathbf   { P }   _ { k \mid   k } ^ { - 1 } \\{ \hat   { \mathbf   { y }   } } _ { k \mid   k } & = \mathbf   { P }   _ { k \mid   k } ^ { - 1 } { \hat   { \mathbf   { x }   } } _ { k \mid   k } \end { a l i g n e d } } }
+{ \displaystyle   { \begin { a l i g n e d } \mathbf   { Y }   _ { k \mid   k - 1 } & = \mathbf   { P }   _ { k \mid   k - 1 } ^ { - 1 } \\{ \hat   { \mathbf   { y }   } } _ { k \mid   k - 1 } & = \mathbf   { P }   _ { k \mid   k - 1 } ^ { - 1 } { \hat   { \mathbf   { x }   } } _ { k \mid   k - 1 } \end { a l i g n e d } } }
+{ \displaystyle   { \begin { a l i g n e d } \mathbf   { I }   _ { k } & = \mathbf   { H }   _ { k } ^ { \mathrm   { T }   } \mathbf   { R }   _ { k } ^ { - 1 } \mathbf   { H }   _ { k } \\\mathbf   { i }   _ { k } & = \mathbf   { H }   _ { k } ^ { \mathrm   { T }   } \mathbf   { R }   _ { k } ^ { - 1 } \mathbf   { z }   _ { k } \end { a l i g n e d } } }
+{ \displaystyle   { \begin { a l i g n e d } \mathbf   { Y }   _ { k \mid   k } & = \mathbf   { Y }   _ { k \mid   k - 1 } + \mathbf   { I }   _ { k } \\{ \hat   { \mathbf   { y }   } } _ { k \mid   k } & = { \hat   { \mathbf   { y }   } } _ { k \mid   k - 1 } + \mathbf   { i }   _ { k } \end { a l i g n e d } } }
+{ \displaystyle   { \begin { a l i g n e d } \mathbf   { Y }   _ { k \mid   k } & = \mathbf   { Y }   _ { k \mid   k - 1 } + \sum   _ { j = 1 } ^ { N } \mathbf   { I }   _ { k , j } \\{ \hat   { \mathbf   { y }   } } _ { k \mid   k } & = { \hat   { \mathbf   { y }   } } _ { k \mid   k - 1 } + \sum   _ { j = 1 } ^ { N } \mathbf   { i }   _ { k , j } \end { a l i g n e d } } }
+{ \displaystyle   { \begin { a l i g n e d } \mathbf   { M }   _ { k } & = \left [ \mathbf   { F }   _ { k } ^ { - 1 } \right ] ^ { \mathrm   { T }   } \mathbf   { Y }   _ { k - 1 \mid   k - 1 } \mathbf   { F }   _ { k } ^ { - 1 } \\\mathbf   { C }   _ { k } & = \mathbf   { M }   _ { k } \left [ \mathbf   { M }   _ { k } + \mathbf   { Q }   _ { k } ^ { - 1 } \right ] ^ { - 1 } \\\mathbf   { L }   _ { k } & = \mathbf   { I }   - \mathbf   { C }   _ { k } \\\mathbf   { Y }   _ { k \mid   k - 1 } & = \mathbf   { L }   _ { k } \mathbf   { M }   _ { k } \mathbf   { L }   _ { k } ^ { \mathrm   { T }   } + \mathbf   { C }   _ { k } \mathbf   { Q }   _ { k } ^ { - 1 } \mathbf   { C }   _ { k } ^ { \mathrm   { T }   } \\{ \hat   { \mathbf   { y }   } } _ { k \mid   k - 1 } & = \mathbf   { L }   _ { k } \left [ \mathbf   { F }   _ { k } ^ { - 1 } \right ] ^ { \mathrm   { T }   } { \hat   { \mathbf   { y }   } } _ { k - 1 \mid   k - 1 } \end { a l i g n e d } } }
+{ \displaystyle   { \hat   { \mathbf   { x }   } } _ { k - N \mid   k } }
+N
+{ \displaystyle   \mathbf   { z }   _ { 1 } }
+\mathbf   { z }   _ { k }
+{ \displaystyle   { \begin { b m a t r i x } { \hat   { \mathbf   { x }   } } _ { t \mid   t } \\{ \hat   { \mathbf   { x }   } } _ { t - 1 \mid   t } \\\vdots   \\{ \hat   { \mathbf   { x }   } } _ { t - N + 1 \mid   t } \\\end { b m a t r i x } } = { \begin { b m a t r i x } \mathbf   { I }   \\0 \\\vdots   \\0 \\\end { b m a t r i x } } { \hat   { \mathbf   { x }   } } _ { t \mid   t - 1 } + { \begin { b m a t r i x } 0 & \ldots   & 0 \\\mathbf   { I }   & 0 & \vdots   \\\vdots   & \ddots   & \vdots   \\0 & \ldots   & \mathbf   { I }   \\\end { b m a t r i x } } { \begin { b m a t r i x } { \hat   { \mathbf   { x }   } } _ { t - 1 \mid   t - 1 } \\{ \hat   { \mathbf   { x }   } } _ { t - 2 \mid   t - 1 } \\\vdots   \\{ \hat   { \mathbf   { x }   } } _ { t - N + 1 \mid   t - 1 } \\\end { b m a t r i x } } + { \begin { b m a t r i x } \mathbf   { K }   ^ { ( 0 ) } \\\mathbf   { K }   ^ { ( 1 ) } \\\vdots   \\\mathbf   { K }   ^ { ( N - 1 ) } \\\end { b m a t r i x } } \mathbf   { y }   _ { t \mid   t - 1 } }
+{ \displaystyle   { \hat   { \mathbf   { x }   } } _ { t \mid   t - 1 } }
+{ \displaystyle   \mathbf   { y }   _ { t \mid   t - 1 } = \mathbf   { z }   _ { t } - \mathbf   { H }   { \hat   { \mathbf   { x }   } } _ { t \mid   t - 1 } }
+{ \displaystyle   { \hat   { \mathbf   { x }   } } _ { t - i \mid   t } }
+{ \displaystyle   i = 1 , \ldots   , N - 1 }
+{ \displaystyle   \mathbf   { K }   ^ { ( i + 1 ) } = \mathbf   { P }   ^ { ( i ) } \mathbf   { H }   ^ { \mathrm   { T }   } \left [ \mathbf   { H }   \mathbf   { P }   \mathbf   { H }   ^ { \mathrm   { T }   } + \mathbf   { R }   \right ] ^ { - 1 } }
+{ \displaystyle   \mathbf   { P }   ^ { ( i ) } = \mathbf   { P }   \left [ \left ( \mathbf   { F }   - \mathbf   { K }   \mathbf   { H }   \right ) ^ { \mathrm   { T }   } \right ] ^ { i } }
+{ \mathbf     { P } }
+  \mathbf { K }  
+{ \displaystyle   \mathbf   { P }   _ { t \mid   t - 1 } }
+{ \displaystyle   \mathbf   { P }   _ { i } : = E \left [ \left ( \mathbf   { x }   _ { t - i } - { \hat   { \mathbf   { x }   } } _ { t - i \mid   t } \right ) ^ { * } \left ( \mathbf   { x }   _ { t - i } - { \hat   { \mathbf   { x }   } } _ { t - i \mid   t } \right ) \mid   z _ { 1 } \ldots   z _ { t } \right ] , }
+{ \displaystyle   \mathbf   { x }   _ { t - i } }
+{ \displaystyle   \mathbf   { P }   - \mathbf   { P }   _ { i } = \sum   _ { j = 0 } ^ { i } \left [ \mathbf   { P }   ^ { ( j ) } \mathbf   { H }   ^ { \mathrm   { T }   } \left ( \mathbf   { H }   \mathbf   { P }   \mathbf   { H }   ^ { \mathrm   { T }   } + \mathbf   { R }   \right ) ^ { - 1 } \mathbf   { H }   \left ( \mathbf   { P }   ^ { ( i ) } \right ) ^ { \mathrm   { T }   } \right ] }
+{ \displaystyle   { \hat   { \mathbf   { x }   } } _ { k \mid   n } }
+k < n
+{ \displaystyle   \mathbf   { z }   _ { 1 } }
+{ \mathbf     { z } } _ { n }
+{ \displaystyle   { \hat   { \mathbf   { x }   } } _ { k \mid   k - 1 } }
+{ \displaystyle   { \hat   { \mathbf   { x }   } } _ { k \mid   k } }
+{ \displaystyle   \mathbf   { P }   _ { k \mid   k - 1 } }
+{ \displaystyle   \mathbf   { P }   _ { k \mid   k } }
+{ \displaystyle   { \hat   { \mathbf   { x }   } } _ { k \mid   n } }
+{ \displaystyle   \mathbf   { P }   _ { k \mid   n } }
+{ \displaystyle   { \hat   { \mathbf   { x }   } } _ { k \mid   n } = { \hat   { \mathbf   { x }   } } _ { k \mid   k } + \mathbf   { C }   _ { k } ( { \hat   { \mathbf   { x }   } } _ { k + 1 \mid   n } - { \hat   { \mathbf   { x }   } } _ { k + 1 \mid   k } ) }
+{ \displaystyle   \mathbf   { P }   _ { k \mid   n } = \mathbf   { P }   _ { k \mid   k } + \mathbf   { C }   _ { k } ( \mathbf   { P }   _ { k + 1 \mid   n } - \mathbf   { P }   _ { k + 1 \mid   k } ) \mathbf   { C }   _ { k } ^ { \mathrm   { T }   } }
+{ \displaystyle   \mathbf   { C }   _ { k } = \mathbf   { P }   _ { k \mid   k } \mathbf   { F }   _ { k + 1 } ^ { \mathrm   { T }   } \mathbf   { P }   _ { k + 1 \mid   k } ^ { - 1 } }
+{ \displaystyle   \mathbf   { x }   _ { k \mid   k } }
+k
+{ \displaystyle   \mathbf   { x }   _ { k + 1 \mid   k } }
+k + 1
+{ \displaystyle   { \begin { a l i g n e d } { \tilde   { \Lambda   } } _ { k } & = \mathbf   { H }   _ { k } ^ { \mathrm   { T }   } \mathbf   { S }   _ { k } ^ { - 1 } \mathbf   { H }   _ { k } + { \hat   { \mathbf   { C }   } } _ { k } ^ { \mathrm   { T }   } { \hat   { \Lambda   } } _ { k } { \hat   { \mathbf   { C }   } } _ { k } \\{ \hat   { \Lambda   } } _ { k - 1 } & = \mathbf   { F }   _ { k } ^ { \mathrm   { T }   } { \tilde   { \Lambda   } } _ { k } \mathbf   { F }   _ { k } \\{ \hat   { \Lambda   } } _ { n } & = 0 \\{ \tilde   { \lambda   } } _ { k } & = - \mathbf   { H }   _ { k } ^ { \mathrm   { T }   } \mathbf   { S }   _ { k } ^ { - 1 } \mathbf   { y }   _ { k } + { \hat   { \mathbf   { C }   } } _ { k } ^ { \mathrm   { T }   } { \hat   { \lambda   } } _ { k } \\{ \hat   { \lambda   } } _ { k - 1 } & = \mathbf   { F }   _ { k } ^ { \mathrm   { T }   } { \tilde   { \lambda   } } _ { k } \\{ \hat   { \lambda   } } _ { n } & = 0 \end { a l i g n e d } } }
+{ \mathbf     { S } } _ { k }
+{ \displaystyle   { \hat   { \mathbf   { C }   } } _ { k } = \mathbf   { I }   - \mathbf   { K }   _ { k } \mathbf   { H }   _ { k } }
+{ \displaystyle   { \begin { a l i g n e d } \mathbf   { P }   _ { k \mid   n } & = \mathbf   { P }   _ { k \mid   k } - \mathbf   { P }   _ { k \mid   k } { \hat   { \Lambda   } } _ { k } \mathbf   { P }   _ { k \mid   k } \\\mathbf   { x }   _ { k \mid   n } & = \mathbf   { x }   _ { k \mid   k } - \mathbf   { P }   _ { k \mid   k } { \hat   { \lambda   } } _ { k } \end { a l i g n e d } } }
+{ \displaystyle   { \begin { a l i g n e d } \mathbf   { P }   _ { k \mid   n } & = \mathbf   { P }   _ { k \mid   k - 1 } - \mathbf   { P }   _ { k \mid   k - 1 } { \tilde   { \Lambda   } } _ { k } \mathbf   { P }   _ { k \mid   k - 1 } \\\mathbf   { x }   _ { k \mid   n } & = \mathbf   { x }   _ { k \mid   k - 1 } - \mathbf   { P }   _ { k \mid   k - 1 } { \tilde   { \lambda   } } _ { k } . \end { a l i g n e d } } }
+{ \displaystyle   { \hat   { \mathbf   { x }   } } _ { k + 1 \mid   k } = \mathbf   { ( F }   _ { k } - \mathbf   { K }   _ { k } \mathbf   { H }   _ { k } ) { \hat   { \mathbf   { x }   } } _ { k \mid   k - 1 } + \mathbf   { K }   _ { k } \mathbf   { z }   _ { k } }
+{ \displaystyle   { \alpha   } _ { k } = - \mathbf   { S }   _ { k } ^ { - { \frac   { 1 } { 2 } } } \mathbf   { H }   _ { k } { \hat   { \mathbf   { x }   } } _ { k \mid   k - 1 } + \mathbf   { S }   _ { k } ^ { - { \frac   { 1 } { 2 } } } \mathbf   { z }   _ { k } }
+\beta   _ { k }
+\alpha   _ { k }
+{ \displaystyle   { \hat   { \mathbf   { y }   } } _ { k \mid   N } = \mathbf   { z }   _ { k } - \mathbf   { R }   _ { k } \beta   _ { k } }
+{ \displaystyle   { \hat   { \mathbf   { y }   } } _ { k \mid   k } = \mathbf   { z }   _ { k } - \mathbf   { R }   _ { k } \mathbf   { S }   _ { k } ^ { - { \frac   { 1 } { 2 } } } \alpha   _ { k } }
+{ \displaystyle   \mathbf   { y }   - { \hat   { \mathbf   { y }   } } }
+\mathbf   { W }  
+{ \displaystyle   \mathbf   { W }   \left ( \mathbf   { y }   - { \hat   { \mathbf   { y }   } } \right ) }
+{ \displaystyle   \mathbf   { W }   ^ { - 1 } { \hat   { \mathbf   { y }   } } }
+\mathbf   { W }  
+\mathbf   { W }  
+{ \displaystyle   \mathbf   { x }   _ { k } = f ( \mathbf   { x }   _ { k - 1 } , \mathbf   { u }   _ { k } ) + \mathbf   { w }   _ { k } }
+{ \displaystyle   \mathbf   { z }   _ { k } = h ( \mathbf   { x }   _ { k } ) + \mathbf   { v }   _ { k } }
+f
+h
+{ \displaystyle   { \begin { a l i g n e d } \mathbf   { x }   _ { k - 1 \mid   k - 1 } ^ { a } & = \left [ { \hat   { \mathbf   { x }   } } _ { k - 1 \mid   k - 1 } ^ { \mathrm   { T }   } \quad   E \left [ \mathbf   { w }   _ { k } ^ { \mathrm   { T }   } \right ] \right ] ^ { \mathrm   { T }   } \\\mathbf   { P }   _ { k - 1 \mid   k - 1 } ^ { a } & = { \begin { b m a t r i x } \mathbf   { P }   _ { k - 1 \mid   k - 1 } & & 0 \\0 & & \mathbf   { Q }   _ { k } \end { b m a t r i x } } \end { a l i g n e d } } }
+{ \displaystyle   { \begin { a l i g n e d } \chi   _ { k - 1 \mid   k - 1 } ^ { 0 } & = \mathbf   { x }   _ { k - 1 \mid   k - 1 } ^ { a } \\\chi   _ { k - 1 \mid   k - 1 } ^ { i } & = \mathbf   { x }   _ { k - 1 \mid   k - 1 } ^ { a } + \left ( { \sqrt   { ( L + \lambda   ) \mathbf   { P }   _ { k - 1 \mid   k - 1 } ^ { a } } } \right ) _ { i } , \qquad   i = 1 , \ldots   , L \\\chi   _ { k - 1 \mid   k - 1 } ^ { i } & = \mathbf   { x }   _ { k - 1 \mid   k - 1 } ^ { a } - \left ( { \sqrt   { ( L + \lambda   ) \mathbf   { P }   _ { k - 1 \mid   k - 1 } ^ { a } } } \right ) _ { i - L } , \qquad   i = L + 1 , \ldots   , 2 L \end { a l i g n e d } } }
+{ \displaystyle   \left ( { \sqrt   { ( L + \lambda   ) \mathbf   { P }   _ { k - 1 \mid   k - 1 } ^ { a } } } \right ) _ { i } }
+{ \displaystyle   ( L + \lambda   ) \mathbf   { P }   _ { k - 1 \mid   k - 1 } ^ { a } }
+\mathbf   { A }  
+\mathbf   { B }  
+{ \displaystyle   \mathbf   { B }   \triangleq   \mathbf   { A }   \mathbf   { A }   . \ , }
+{ \displaystyle   \chi   _ { k \mid   k - 1 } ^ { i } = f \left ( \chi   _ { k - 1 \mid   k - 1 } ^ { i } \right ) \quad   i = 0 , \dots   , 2 L }
+{ \displaystyle   f : R ^ { L } \rightarrow   R ^ { | \mathbf   { x }   | } }
+{ \displaystyle   { \begin { a l i g n e d } { \hat   { \mathbf   { x }   } } _ { k \mid   k - 1 } & = \sum   _ { i = 0 } ^ { 2 L } W _ { s } ^ { i } \chi   _ { k \mid   k - 1 } ^ { i } \\\mathbf   { P }   _ { k \mid   k - 1 } & = \sum   _ { i = 0 } ^ { 2 L } W _ { c } ^ { i } \ \left [ \chi   _ { k \mid   k - 1 } ^ { i } - { \hat   { \mathbf   { x }   } } _ { k \mid   k - 1 } \right ] \left [ \chi   _ { k \mid   k - 1 } ^ { i } - { \hat   { \mathbf   { x }   } } _ { k \mid   k - 1 } \right ] ^ { \mathrm   { T }   } \end { a l i g n e d } } }
+{ \displaystyle   { \begin { a l i g n e d } W _ { s } ^ { 0 } & = { \frac   { \lambda   } { L + \lambda   } } \\W_ { c } ^ { 0 } & = { \frac   { \lambda   } { L + \lambda   } } + ( 1 - \alpha   ^ { 2 } + \beta   ) \\W_ { s } ^ { i } & = W _ { c } ^ { i } = { \frac   { 1 } { 2 ( L + \lambda   ) } } \\\lambda   & = \alpha   ^ { 2 } ( L + \kappa   ) - L \end { a l i g n e d } } }
+\alpha  
+\kappa  
+\beta  
+x
+{ \displaystyle   \alpha   = 1 0 ^ { - 3 } }
+\kappa   =   0
+{ \displaystyle   \beta   = 2 }
+\alpha  
+\alpha   = 1
+x
+{ \displaystyle   \beta   = 2 }
+{ \displaystyle   { \begin { a l i g n e d } \mathbf   { x }   _ { k \mid   k - 1 } ^ { a } & = \left [ { \hat   { \mathbf   { x }   } } _ { k \mid   k - 1 } ^ { \mathrm   { T }   } \quad   E \left [ \mathbf   { v }   _ { k } ^ { \mathrm   { T }   } \right ] \right ] ^ { \mathrm   { T }   } \\\mathbf   { P }   _ { k \mid   k - 1 } ^ { a } & = { \begin { b m a t r i x } \mathbf   { P }   _ { k \mid   k - 1 } & & 0 \\0 & & \mathbf   { R }   _ { k } \end { b m a t r i x } } \end { a l i g n e d } } }
+{ \displaystyle   { \begin { a l i g n e d } \chi   _ { k \mid   k - 1 } ^ { 0 } & = \mathbf   { x }   _ { k \mid   k - 1 } ^ { a } \\[6pt ] \chi   _ { k \mid   k - 1 } ^ { i } & = \mathbf   { x }   _ { k \mid   k - 1 } ^ { a } + \left ( { \sqrt   { ( L + \lambda   ) \mathbf   { P }   _ { k \mid   k - 1 } ^ { a } } } \right ) _ { i } , \qquad   i = 1 , \dots   , L \\[6pt ] \chi   _ { k \mid   k - 1 } ^ { i } & = \mathbf   { x }   _ { k \mid   k - 1 } ^ { a } - \left ( { \sqrt   { ( L + \lambda   ) \mathbf   { P }   _ { k \mid   k - 1 } ^ { a } } } \right ) _ { i - L } , \qquad   i = L + 1 , \dots   , 2 L \end { a l i g n e d } } }
+{ \displaystyle   \chi   _ { k \mid   k - 1 } : = \left [ \chi   _ { k \mid   k - 1 } ^ { \mathrm   { T }   } \quad   E \left [ \mathbf   { v }   _ { k } ^ { \mathrm   { T }   } \right ] \right ] ^ { \mathrm   { T }   } \pm   { \sqrt   { ( L + \lambda   ) \mathbf   { R }   _ { k } ^ { a } } } }
+{ \displaystyle   \mathbf   { R }   _ { k } ^ { a } = { \begin { b m a t r i x } 0 & & 0 \\0 & & \mathbf   { R }   _ { k } \end { b m a t r i x } } }
+{ \displaystyle   \gamma   _ { k } ^ { i } = h ( \chi   _ { k \mid   k - 1 } ^ { i } ) \quad   i = 0 , \ldots   , 2 L }
+{ \displaystyle   { \begin { a l i g n e d } { \hat   { \mathbf   { z }   } } _ { k } & = \sum   _ { i = 0 } ^ { 2 L } W _ { s } ^ { i } \gamma   _ { k } ^ { i } \\\mathbf   { P }   _ { z _ { k } z _ { k } } & = \sum   _ { i = 0 } ^ { 2 L } W _ { c } ^ { i } \left [ \gamma   _ { k } ^ { i } - { \hat   { \mathbf   { z }   } } _ { k } \right ] \left [ \gamma   _ { k } ^ { i } - { \hat   { \mathbf   { z }   } } _ { k } \right ] ^ { \mathrm   { T }   } \end { a l i g n e d } } }
+{ \displaystyle   \mathbf   { P }   _ { x _ { k } z _ { k } } = \sum   _ { i = 0 } ^ { 2 L } W _ { c } ^ { i } \ [\chi   _ { k \mid   k - 1 } ^ { i } - { \hat   { \mathbf   { x }   } } _ { k \mid   k - 1 } ] [ \gamma   _ { k } ^ { i } - { \hat   { \mathbf   { z }   } } _ { k } ] ^ { \mathrm   { T }   } }
+{ \displaystyle   K _ { k } = \mathbf   { P }   _ { x _ { k } z _ { k } } \mathbf   { P }   _ { z _ { k } z _ { k } } ^ { - 1 } }
+{ \displaystyle   { \hat   { \mathbf   { x }   } } _ { k \mid   k } = { \hat   { \mathbf   { x }   } } _ { k \mid   k - 1 } + K _ { k } ( \mathbf   { z }   _ { k } - { \hat   { \mathbf   { z }   } } _ { k } ) }
+{ \displaystyle   \mathbf   { P }   _ { k \mid   k } = \mathbf   { P }   _ { k \mid   k - 1 } - K _ { k } \mathbf   { P }   _ { z _ { k } z _ { k } } K _ { k } ^ { \mathrm   { T }   } }
+{ \displaystyle   { \begin { a l i g n e d } { \frac   { d } { d t } } \mathbf   { x }   ( t ) & = \mathbf   { F }   ( t ) \mathbf   { x }   ( t ) + \mathbf   { B }   ( t ) \mathbf   { u }   ( t ) + \mathbf   { w }   ( t ) \\\mathbf   { z }   ( t ) & = \mathbf   { H }   ( t ) \mathbf   { x }   ( t ) + \mathbf   { v }   ( t ) \end { a l i g n e d } } }
+\mathbf   { Q }   ( t )
+\mathbf   { R }   ( t )
+\mathbf   { w }   ( t )
+\mathbf   { v }   ( t )
+{ \displaystyle   { \begin { a l i g n e d } { \frac   { d } { d t } } { \hat   { \mathbf   { x }   } } ( t ) & = \mathbf   { F }   ( t ) { \hat   { \mathbf   { x }   } } ( t ) + \mathbf   { B }   ( t ) \mathbf   { u }   ( t ) + \mathbf   { K }   ( t ) \left ( \mathbf   { z }   ( t ) - \mathbf   { H }   ( t ) { \hat   { \mathbf   { x }   } } ( t ) \right ) \\{ \frac   { d } { d t } } \mathbf   { P }   ( t ) & = \mathbf   { F }   ( t ) \mathbf   { P }   ( t ) + \mathbf   { P }   ( t ) \mathbf   { F }   ^ { T } ( t ) + \mathbf   { Q }   ( t ) - \mathbf   { K }   ( t ) \mathbf   { R }   ( t ) \mathbf   { K }   ^ { \mathrm   { T }   } ( t ) \end { a l i g n e d } } }
+{ \displaystyle   \mathbf   { K }   ( t ) = \mathbf   { P }   ( t ) \mathbf   { H }   ^ { \mathrm   { T }   } ( t ) \mathbf   { R }   ^ { - 1 } ( t ) }
+\mathbf   { K }   ( t )
+\mathbf   { R }   ( t )
+{ \tilde   { \mathbf   { y }   } } ( t ) = \mathbf   { z }   ( t ) - \mathbf   { H }   ( t ) { \hat   { \mathbf   { x }   } } ( t )
+{ \displaystyle   { \begin { a l i g n e d } { \dot   { \mathbf   { x }   } } ( t ) & = \mathbf   { F }   ( t ) \mathbf   { x }   ( t ) + \mathbf   { B }   ( t ) \mathbf   { u }   ( t ) + \mathbf   { w }   ( t ) , & \mathbf   { w }   ( t ) & \sim   N \left ( \mathbf   { 0 }   , \mathbf   { Q }   ( t ) \right ) \\\mathbf   { z }   _ { k } & = \mathbf   { H }   _ { k } \mathbf   { x }   _ { k } + \mathbf   { v }   _ { k } , & \mathbf   { v }   _ { k } & \sim   N ( \mathbf   { 0 }   , \mathbf   { R }   _ { k } ) \end { a l i g n e d } } }
+{ \displaystyle   \mathbf   { x }   _ { k } = \mathbf   { x }   ( t _ { k } ) }
+{ \displaystyle   { \hat   { \mathbf   { x }   } } _ { 0 \mid   0 } = E \left [ \mathbf   { x }   ( t _ { 0 } ) \right ] , \mathbf   { P }   _ { 0 \mid   0 } = \operatorname   { V a r }   \left [ \mathbf   { x }   ( t _ { 0 } ) \right ] }
+{ \displaystyle   { \begin { a l i g n e d } { \dot   { \hat   { \mathbf   { x }   } } } ( t ) & = \mathbf   { F }   ( t ) { \hat   { \mathbf   { x }   } } ( t ) + \mathbf   { B }   ( t ) \mathbf   { u }   ( t ) { \text { ,   w i t h   } } { \hat   { \mathbf   { x }   } } ( t _ { k - 1 } ) = { \hat   { \mathbf   { x }   } } _ { k - 1 \mid   k - 1 } \\\Rightarrow   { \hat   { \mathbf   { x }   } } _ { k \mid   k - 1 } & = { \hat   { \mathbf   { x }   } } ( t _ { k } ) \\{ \dot   { \mathbf   { P }   } } ( t ) & = \mathbf   { F }   ( t ) \mathbf   { P }   ( t ) + \mathbf   { P }   ( t ) \mathbf   { F }   ( t ) ^ { \mathrm   { T }   } + \mathbf   { Q }   ( t ) { \text { ,   w i t h   } } \mathbf   { P }   ( t _ { k - 1 } ) = \mathbf   { P }   _ { k - 1 \mid   k - 1 } \\\Rightarrow   \mathbf   { P }   _ { k \mid   k - 1 } & = \mathbf   { P }   ( t _ { k } ) \end { a l i g n e d } } }
+{ \displaystyle   \mathbf   { K }   ( t ) = 0 }
+{ \displaystyle   { \begin { a l i g n e d } \mathbf   { K }   _ { k } & = \mathbf   { P }   _ { k \mid   k - 1 } \mathbf   { H }   _ { k } ^ { \mathrm   { T }   } \left ( \mathbf   { H }   _ { k } \mathbf   { P }   _ { k \mid   k - 1 } \mathbf   { H }   _ { k } ^ { \mathrm   { T }   } + \mathbf   { R }   _ { k } \right ) ^ { - 1 } \\{ \hat   { \mathbf   { x }   } } _ { k \mid   k } & = { \hat   { \mathbf   { x }   } } _ { k \mid   k - 1 } + \mathbf   { K }   _ { k } ( \mathbf   { z }   _ { k } - \mathbf   { H }   _ { k } { \hat   { \mathbf   { x }   } } _ { k \mid   k - 1 } ) \\\mathbf   { P }   _ { k \mid   k } & = ( \mathbf   { I }   - \mathbf   { K }   _ { k } \mathbf   { H }   _ { k } ) \mathbf   { P }   _ { k \mid   k - 1 } \end { a l i g n e d } } }

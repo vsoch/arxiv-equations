@@ -1,0 +1,18 @@
+{ \displaystyle   m _ { n } = \int   _ { - \infty   } ^ { \infty   } x ^ { n } \,d \mu   ( x ) \ , . }
+{ \displaystyle   m _ { n } = \int   _ { - \infty   } ^ { \infty   } M _ { n } ( x ) \,d \mu   ( x ) \ , . }
+{ \displaystyle   ( H _ { n } ) _ { i j } = m _ { i + j } \ , , }
+\Lambda  
+{ \displaystyle   \Lambda   ( x ^ { n } ) = m _ { n } }
+{ \displaystyle   \Lambda   ( f ^ { 2 } ) \geq   0 }
+\Lambda  
+{ \displaystyle   \mathbb   { R }   [ x ] ^ { * } }
+\Lambda  
+{ \displaystyle   \Lambda   ( x ^ { n } ) = \int   _ { - \infty   } ^ { \infty   } x ^ { n } d \mu   }
+\mu  
+\scriptstyle \varphi
+{ \displaystyle   P ( x ) = \sum   _ { k } a _ { k } x ^ { k } }
+{ \displaystyle   \sum   _ { k } a _ { k } m _ { k } . }
+\phi  
+{ \displaystyle   \qquad   \varphi   ( f ) \geq   0 { \text {   f o r   a n y   } } f \in   C _ { 0 } ( [ a , b ] ) , \;f \geq   0 }
+{ \displaystyle   \varphi   ( f ) = \int   f \,d \mu   }
+\mu  

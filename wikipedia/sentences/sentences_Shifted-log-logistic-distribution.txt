@@ -1,0 +1,50 @@
+{ \displaystyle   \mu   = 0 , \sigma   = 1 , }
+\xi  
+{ \displaystyle   \mu   = 0 , \sigma   = 1 , }
+\xi  
+{ \displaystyle   \mu   \in   ( - \infty   , + \infty   ) \ , }
+{ \displaystyle   \sigma   \in   ( 0 , + \infty   ) \ , }
+{ \displaystyle   \xi   \in   ( - \infty   , + \infty   ) \ , }
+{ \displaystyle   x \geqslant   \mu   - \sigma   / \xi   \,\;( \xi   > 0 ) }
+{ \displaystyle   x \leqslant   \mu   - \sigma   / \xi   \,\;( \xi   < 0 ) }
+{ \displaystyle   x \in   ( - \infty   , + \infty   ) \,\;( \xi   = 0 ) }
+{ \displaystyle   { \frac   { ( 1 + \xi   z ) ^ { - ( 1 / \xi   + 1 ) } } { \sigma   \left ( 1 + ( 1 + \xi   z ) ^ { - 1 / \xi   } \right ) ^ { 2 } } } }
+{ \displaystyle   z = ( x - \mu   ) / \sigma   \ , }
+{ \displaystyle   \left ( 1 + ( 1 + \xi   z ) ^ { - 1 / \xi   } \right ) ^ { - 1 } \ , }
+{ \displaystyle   z = ( x - \mu   ) / \sigma   \ , }
+{ \displaystyle   \mu   + { \frac   { \sigma   } { \xi   } } ( \alpha   \csc ( \alpha   ) - 1 ) }
+{ \displaystyle   \alpha   = \pi   \xi   \ , }
+\mu   \ ,
+{ \displaystyle   \mu   + { \frac   { \sigma   } { \xi   } } \left [ \left ( { \frac   { 1 - \xi   } { 1 + \xi   } } \right ) ^ { \xi   } - 1 \right ] }
+{ \displaystyle   { \frac   { \sigma   ^ { 2 } } { \xi   ^ { 2 } } } [ 2 \alpha   \csc ( 2 \alpha   ) - ( \alpha   \csc ( \alpha   ) ) ^ { 2 } ] }
+{ \displaystyle   \alpha   = \pi   \xi   \ , }
+\delta  
+X
+{ \displaystyle   X + \delta   }
+Y
+{ \displaystyle   \log ( Y - \delta   ) }
+{ \displaystyle   F ( x ; \mu   , \sigma   , \xi   ) = { \frac   { 1 } { 1 + \left ( 1 + { \frac   { \xi   ( x - \mu   ) } { \sigma   } } \right ) ^ { - 1 / \xi   } } } }
+{ \displaystyle   1 + \xi   ( x - \mu   ) / \sigma   \geqslant   0 }
+\mu \in \mathbb   R
+\sigma   > 0 \ ,
+\xi \in \mathbb   R
+{ \displaystyle   \kappa   = - \xi   \ , \ ! }
+{ \displaystyle   f ( x ; \mu   , \sigma   , \xi   ) = { \frac   { \left ( 1 + { \frac   { \xi   ( x - \mu   ) } { \sigma   } } \right ) ^ { - ( 1 / \xi   + 1 ) } } { \sigma   \left [ 1 + \left ( 1 + { \frac   { \xi   ( x - \mu   ) } { \sigma   } } \right ) ^ { - 1 / \xi   } \right ] ^ { 2 } } } , }
+{ \displaystyle   1 + \xi   ( x - \mu   ) / \sigma   \geqslant   0 . }
+\xi  
+{ \displaystyle   | \xi   | > 1 }
+{ \displaystyle   x = \mu   - \sigma   / \xi   }
+\xi  
+{ \displaystyle   x = \mu   . }
+{ \displaystyle   \mu   = \sigma   / \xi   , }
+\xi  
+\xi   = 1
+{ \displaystyle   \xi   = 1 . }
+\alpha  
+\beta  
+\gamma  
+{ \displaystyle   f ( x ) = { \frac   { \alpha   } { \beta   } } { \bigg   ( } { \frac   { x - \gamma   } { \beta   } } { \bigg   ) } ^ { \alpha   - 1 } { \bigg   ( } 1 + { \bigg   ( } { \frac   { x - \gamma   } { \beta   } } { \bigg   ) } ^ { \alpha   } { \bigg   ) } ^ { - 2 } }
+{ \displaystyle   F ( x ) = { \bigg   ( } 1 + { \bigg   ( } { \frac   { \beta   } { x - \gamma   } } { \bigg   ) } ^ { \alpha   } { \bigg   ) } ^ { - 1 } }
+{ \displaystyle   \beta   \theta   \csc ( \theta   ) + \gamma   }
+{ \displaystyle   \beta   ^ { 2 } \theta   [ 2 \csc ( 2 \theta   ) - \theta   \csc   ^ { 2 } ( \theta   ) ] }
+{ \displaystyle   \theta   = { \frac   { \pi   } { \alpha   } } }

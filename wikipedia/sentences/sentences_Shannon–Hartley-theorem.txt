@@ -1,0 +1,19 @@
+  C   =     B   \log_2   \left (   1 + \frac { S } { N }   \right )  
+{ \displaystyle   f _ { p } \leq   2 B }
+    M     =       1   +     {     A   \over   \Delta   V   } .    
+{ \displaystyle   R = f _ { p } \log   _ { 2 } ( M ) , }
+  R   \le   2 B   \log_2 ( M ) .  
+{ \displaystyle   R < C }
+{ \displaystyle   R > C }
+2 B   \log_2 ( M )   =   B   \log_2   \left (   1 + \frac { S } { N }   \right )  
+M   =   \sqrt { 1 + \frac { S } { N } } .
+S / N
+  C   =   \int_ { 0 } ^ B     \log_2   \left (   1 + \frac { S ( f ) } { N ( f ) }   \right )   d f    
+S ( f )
+N ( f )
+  C   \approx   0 . 3 3 2   \cdot   B   \cdot   \mathrm { S N R \ ( i n \ dB ) }  
+\mathrm { S N R \ ( i n   \ dB ) }   =   1 0 \log_ { 1 0 } { S   \over   N } .  
+  C   \approx   1 . 4 4   \cdot   B   \cdot   { S   \over   N } .
+N _ { 0 }
+B   \cdot   N _ 0
+  C   \approx   1 . 4 4     \cdot   { S   \over   N _ 0 }

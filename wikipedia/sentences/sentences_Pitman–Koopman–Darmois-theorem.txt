@@ -1,0 +1,357 @@
+f _ { X } ( x \mid   \theta   ) = h ( x ) \exp   \left ( \eta   ( \theta   ) \cdot   T ( x ) - A ( \theta   ) \right )
+f _ { X } ( x \mid   \theta   ) = h ( x ) g ( \theta   ) \exp   \left ( \eta   ( \theta   ) \cdot   T ( x ) \right )
+f _ { X } ( x \mid   \theta   ) = \exp   \left ( \eta   ( \theta   ) \cdot   T ( x ) - A ( \theta   ) + B ( x ) \right )
+{ \displaystyle   f _ { X } \left ( x \mid   \theta   \right ) }
+x
+{ \displaystyle   f _ { X } \left ( x \mid   \theta   \right ) }
+\theta  
+{ \displaystyle   x \geq   x _ { m } }
+x _ { m }
+{ \displaystyle   x _ { m } }
+{ \displaystyle   f _ { \alpha   , x _ { m } } ( x ) }
+\eta   ( \theta   ) ' \cdot   T ( x )
+\exp ( - c \cdot   T ( x ) )
+f ( x ) , g ( \theta   ) , c ^ { f ( x ) } , c ^ { g ( \theta   ) } , { [ f ( x ) ] } ^ { c } , { [ g ( \theta   ) ] } ^ { c } , { [ f ( x ) ] } ^ { g ( \theta   ) } , { [ g ( \theta   ) ] } ^ { f ( x ) } , { [ f ( x ) ] } ^ { h ( x ) g ( \theta   ) } , { \text {   o r   } } { [ g ( \theta   ) ] } ^ { h ( x ) j ( \theta   ) } ,
+{ [ f ( x ) g ( \theta   ) ] } ^ { h ( x ) j ( \theta   ) } , \qquad   { [ f ( x ) ] } ^ { h ( x ) j ( \theta   ) } [ g ( \theta   ) ] ^ { h ( x ) j ( \theta   ) } ,
+{ [ f ( x ) g ( \theta   ) ] } ^ { h ( x ) j ( \theta   ) } = { [ f ( x ) ] } ^ { h ( x ) j ( \theta   ) } [ g ( \theta   ) ] ^ { h ( x ) j ( \theta   ) } = e ^ { [ h ( x ) \ln   f ( x ) ] j ( \theta   ) + h ( x ) [ j ( \theta   ) \ln   g ( \theta   ) ] } ,
+{ [ f ( x ) ] } ^ { g ( \theta   ) }
+{ [ f ( x ) ] } ^ { g ( \theta   ) } = e ^ { g ( \theta   ) \ln   f ( x ) }
+{ [ f ( x ) ] } ^ { h ( x ) g ( \theta   ) } = e ^ { h ( x ) g ( \theta   ) \ln   f ( x ) } = e ^ { [ h ( x ) \ln   f ( x ) ] g ( \theta   ) }
+1 + f ( x ) g ( \theta   )
+{ \displaystyle   { \boldsymbol   { \theta   } } = \left ( \theta   _ { 1 } , \theta   _ { 2 } , \ldots   , \theta   _ { s } \right ) ^ { T } . }
+f _ { X } ( x \mid   { \boldsymbol   { \theta   } } ) = h ( x ) \exp   \left ( \sum   _ { i = 1 } ^ { s } \eta   _ { i } ( { \boldsymbol   { \theta   } } ) T _ { i } ( x ) - A ( { \boldsymbol   { \theta   } } ) \right )
+f _ { X } ( x \mid   { \boldsymbol   { \theta   } } ) = h ( x ) \exp   { \Big   ( } { \boldsymbol   { \eta   } } ( { \boldsymbol   { \theta   } } ) \cdot   \mathbf   { T }   ( x ) - A ( { \boldsymbol   { \theta   } } ) { \Big   ) }
+{ \boldsymbol   { \eta   } } ( { \boldsymbol   { \theta   } } )
+\mathbf   { T }   ( x )
+f _ { X } ( x \mid   { \boldsymbol   { \theta   } } ) = h ( x ) g ( { \boldsymbol   { \theta   } } ) \exp   { \Big   ( } { \boldsymbol   { \eta   } } ( { \boldsymbol   { \theta   } } ) \cdot   \mathbf   { T }   ( x ) { \Big   ) }
+\forall   i : \quad   \eta   _ { i } ( { \boldsymbol   { \theta   } } ) = \theta   _ { i } .
+{ \boldsymbol   { \theta   } } = \left ( \theta   _ { 1 } , \theta   _ { 2 } , \ldots   , \theta   _ { d } \right ) ^ { T }
+{ \boldsymbol   { \eta   } } ( { \boldsymbol   { \theta   } } ) = \left ( \eta   _ { 1 } ( { \boldsymbol   { \theta   } } ) , \eta   _ { 2 } ( { \boldsymbol   { \theta   } } ) , \ldots   , \eta   _ { s } ( { \boldsymbol   { \theta   } } ) \right ) ^ { T } .
+A ( { \boldsymbol   { \theta   } } )
+g ( { \boldsymbol   { \theta   } } )
+{ \boldsymbol   { \eta   } }
+{ \boldsymbol   { \eta   } }
+{ \boldsymbol   { \theta   } }
+f _ { X } ( x \mid   { \boldsymbol   { \eta   } } ) = h ( x ) \exp   { \Big   ( } { \boldsymbol   { \eta   } } \cdot   \mathbf   { T }   ( x ) - A ( { \boldsymbol   { \eta   } } ) { \Big   ) }
+f _ { X } ( x \mid   { \boldsymbol   { \eta   } } ) = h ( x ) g ( { \boldsymbol   { \eta   } } ) \exp   { \Big   ( } { \boldsymbol   { \eta   } } \cdot   \mathbf   { T }   ( x ) { \Big   ) }
+{ \boldsymbol   { \eta   } } ^ { T } \mathbf   { T }   ( x )
+{ \boldsymbol   { \eta   } } \cdot   \mathbf   { T }   ( x )
+\mathbf   { x }   = \left ( x _ { 1 } , x _ { 2 } , \cdots   , x _ { k } \right ) .
+{ \boldsymbol   { \eta   } }
+f _ { X } ( \mathbf   { x }   \mid   { \boldsymbol   { \theta   } } ) = h ( \mathbf   { x }   ) \exp   \left ( \sum   _ { i = 1 } ^ { s } \eta   _ { i } ( { \boldsymbol   { \theta   } } ) T _ { i } ( \mathbf   { x }   ) - A ( { \boldsymbol   { \theta   } } ) \right )
+f _ { X } ( \mathbf   { x }   \mid   { \boldsymbol   { \theta   } } ) = h ( \mathbf   { x }   ) \exp   { \Big   ( } { \boldsymbol   { \eta   } } ( { \boldsymbol   { \theta   } } ) \cdot   \mathbf   { T }   ( \mathbf   { x }   ) - A ( { \boldsymbol   { \theta   } } ) { \Big   ) }
+f _ { X } ( \mathbf   { x }   \mid   { \boldsymbol   { \theta   } } ) = h ( \mathbf   { x }   ) \ g ( { \boldsymbol   { \theta   } } ) \ \exp   { \Big   ( } { \boldsymbol   { \eta   } } ( { \boldsymbol   { \theta   } } ) \cdot   \mathbf   { T }   ( \mathbf   { x }   ) { \Big   ) }
+d F ( \mathbf   { x }   \mid   { \boldsymbol   { \eta   } } ) = e ^ { { \boldsymbol   { \eta   } } ^ { \rm   { T } } \mathbf   { T }   ( \mathbf   { x }   ) - A ( { \boldsymbol   { \eta   } } ) } d H ( \mathbf   { x }   ) .
+x
+x
+y
+{ \displaystyle   { \frac   { f ( x ; \theta   _ { 1 } ) } { f ( x ; \theta   _ { 2 } ) } } = { \frac   { f ( y ; \theta   _ { 1 } ) } { f ( y ; \theta   _ { 2 } ) } } }
+{ \displaystyle   T ( x ) = T ( y ) }
+d ( x , y ) > 0
+f _ { X } ( x ; \theta   )
+f _ { X } ( x ; \theta   )
+{ \displaystyle   A ( \eta   ) = \ln   \left ( \int   _ { x } h ( x ) \exp ( \eta   ( \theta   ) \cdot   T ( x ) ) \,\mathrm   { d }   x \right ) }
+{ \displaystyle   \operatorname   { E }   [ \ln   x ] }
+K ( u \mid   \eta   ) = A ( \eta   + u ) - A ( \eta   ) ,
+{ \displaystyle   f _ { \sigma   } ( x ; \mu   ) = { \frac   { 1 } { \sqrt   { 2 \pi   \sigma   ^ { 2 } } } } e ^ { - ( x - \mu   ) ^ { 2 } / ( 2 \sigma   ^ { 2 } ) } . }
+{ \displaystyle   { \begin { a l i g n e d } h _ { \sigma   } ( x ) & = { \frac   { 1 } { \sqrt   { 2 \pi   \sigma   ^ { 2 } } } } e ^ { - x ^ { 2 } / ( 2 \sigma   ^ { 2 } ) } \\[4pt ] T _ { \sigma   } ( x ) & = { \frac   { x } { \sigma   } } \\[4pt ] A _ { \sigma   } ( \mu   ) & = { \frac   { \mu   ^ { 2 } } { 2 \sigma   ^ { 2 } } } \\[4pt ] \eta   _ { \sigma   } ( \mu   ) & = { \frac   { \mu   } { \sigma   } } . \end { a l i g n e d } } }
+f ( x ; \mu   , \sigma   ) = { \frac   { 1 } { \sqrt   { 2 \pi   \sigma   ^ { 2 } } } } e ^ { - { \frac   { ( x - \mu   ) ^ { 2 } } { 2 \sigma   ^ { 2 } } } } .
+{ \begin { a l i g n e d } { \boldsymbol   { \eta   } } & = \left ( { \frac   { \mu   } { \sigma   ^ { 2 } } } , - { \frac   { 1 } { 2 \sigma   ^ { 2 } } } \right ) ^ { \rm   { T } } \\h ( x ) & = { \frac   { 1 } { \sqrt   { 2 \pi   } } } \\T ( x ) & = \left ( x , x ^ { 2 } \right ) ^ { \rm   { T } } \\A ( { \boldsymbol   { \eta   } } ) & = { \frac   { \mu   ^ { 2 } } { 2 \sigma   ^ { 2 } } } + \ln   | \sigma   | = - { \frac   { \eta   _ { 1 } ^ { 2 } } { 4 \eta   _ { 2 } } } + { \frac   { 1 } { 2 } } \ln   \left | { \frac   { 1 } { 2 \eta   _ { 2 } } } \right | \end { a l i g n e d } }
+f ( x ) = { n   \choose   x } p ^ { x } ( 1 - p ) ^ { n - x } , \quad   x \in   \{ 0 , 1 , 2 , \ldots   , n \ } .
+f ( x ) = { n   \choose   x } \exp   \left ( x \log   \left ( { \frac   { p } { 1 - p } } \right ) + n \log ( 1 - p ) \right ) ,
+\eta   = \log   { \frac   { p } { 1 - p } } .
+{ \displaystyle   f _ { X } ( x \mid   \theta   ) = h ( x ) \exp   { \Big   ( } \eta   ( { \theta   } ) T ( x ) - A ( { \eta   } ) { \Big   ) } }
+f _ { X } ( x \mid   { \boldsymbol   { \theta   } } ) = h ( x ) \exp   { \Big   ( } { \boldsymbol   { \eta   } } ( { \boldsymbol   { \theta   } } ) \cdot   \mathbf   { T }   ( x ) - A ( { \boldsymbol   { \eta   } } ) { \Big   ) }
+f _ { X } ( x \mid   { \boldsymbol   { \theta   } } ) = h ( x ) g ( { \boldsymbol   { \theta   } } ) \exp   { \Big   ( } { \boldsymbol   { \eta   } } ( { \boldsymbol   { \theta   } } ) \cdot   \mathbf   { T }   ( x ) { \Big   ) }
+f _ { X } ( \mathbf   { x }   \mid   { \boldsymbol   { \theta   } } ) = h ( \mathbf   { x }   ) \exp   { \Big   ( } { \boldsymbol   { \eta   } } ( { \boldsymbol   { \theta   } } ) \cdot   \mathbf   { T }   ( \mathbf   { x }   ) - A ( { \boldsymbol   { \eta   } } ) { \Big   ) }
+A ( { \boldsymbol   { \eta   } } )
+{ \boldsymbol   { \theta   } }
+g ( { \boldsymbol   { \eta   } } )
+A ( { \boldsymbol   { \eta   } } ) = - \ln   g ( { \boldsymbol   { \eta   } } )
+g ( { \boldsymbol   { \eta   } } ) = e ^ { - A ( { \boldsymbol   { \eta   } } ) }
+{ \boldsymbol   { \theta   } }
+{ \boldsymbol   { \eta   } }
+h ( x )
+T ( x )
+A ( { \boldsymbol   { \eta   } } )
+A ( { \boldsymbol   { \theta   } } )
+\ln   { \frac   { p } { 1 - p } }
+{ \frac   { 1 } { 1 + e ^ { - \eta   } } } = { \frac   { e ^ { \eta   } } { 1 + e ^ { \eta   } } }
+1
+x
+\ln ( 1 + e ^ { \eta   } )
+- \ln ( 1 - p )
+\ln   { \frac   { p } { 1 - p } }
+{ \frac   { 1 } { 1 + e ^ { - \eta   } } } = { \frac   { e ^ { \eta   } } { 1 + e ^ { \eta   } } }
+{ n   \choose   x }
+x
+n \ln ( 1 + e ^ { \eta   } )
+- n \ln ( 1 - p )
+\ln   \lambda  
+e ^ { \eta   }
+{ \frac   { 1 } { x ! } }
+x
+e ^ { \eta   }
+\lambda  
+\ln   p
+e ^ { \eta   }
+{ x + r - 1   \choose   x }
+x
+- r \ln ( 1 - e ^ { \eta   } )
+- r \ln ( 1 - p )
+- \lambda  
+- \eta  
+1
+x
+- \ln ( - \eta   )
+- \ln   \lambda  
+- \alpha   - 1
+- 1 - \eta  
+1
+\ln   x
+- \ln ( - 1 - \eta   ) + ( 1 + \eta   ) \ln   x _ { \mathrm   { m }   }
+- \ln   \alpha   - \alpha   \ln   x _ { \mathrm   { m }   }
+- { \frac   { 1 } { \lambda   ^ { k } } }
+{ \displaystyle   ( - \eta   ) ^ { - { \frac   { 1 } { k } } } }
+x ^ { k - 1 }
+x ^ { k }
+{ \displaystyle   - \ln ( - \eta   ) - \ln   k }
+k \ln   \lambda   - \ln   k
+- { \frac   { 1 } { b } }
+- { \frac   { 1 } { \eta   } }
+1
+| x - \mu   |
+\ln   \left ( - { \frac   { 2 } { \eta   } } \right )
+\ln   2 b
+{ \frac   { \nu   } { 2 } } - 1
+2 ( \eta   + 1 )
+e ^ { - { \frac   { x } { 2 } } }
+\ln   x
+\ln   \Gamma   ( \eta   + 1 ) + ( \eta   + 1 ) \ln   2
+\ln   \Gamma   \left ( { \frac   { \nu   } { 2 } } \right ) + { \frac   { \nu   } { 2 } } \ln   2
+{ \frac   { \mu   } { \sigma   } }
+\sigma   \eta  
+{ \frac   { e ^ { - { \frac   { x ^ { 2 } } { 2 \sigma   ^ { 2 } } } } } { { \sqrt   { 2 \pi   } } \sigma   } }
+{ \frac   { x } { \sigma   } }
+{ \frac   { \eta   ^ { 2 } } { 2 } }
+{ \frac   { \mu   ^ { 2 } } { 2 \sigma   ^ { 2 } } }
+{ \begin { b m a t r i x } { \dfrac   { \mu   } { \sigma   ^ { 2 } } } \\[10pt ] - { \dfrac   { 1 } { 2 \sigma   ^ { 2 } } } \end { b m a t r i x } }
+{ \begin { b m a t r i x } - { \dfrac   { \eta   _ { 1 } } { 2 \eta   _ { 2 } } } \\[15pt ] - { \dfrac   { 1 } { 2 \eta   _ { 2 } } } \end { b m a t r i x } }
+{ \frac   { 1 } { \sqrt   { 2 \pi   } } }
+{ \begin { b m a t r i x } x \\x ^ { 2 } \end { b m a t r i x } }
+- { \frac   { \eta   _ { 1 } ^ { 2 } } { 4 \eta   _ { 2 } } } - { \frac   { 1 } { 2 } } \ln ( - 2 \eta   _ { 2 } )
+{ \frac   { \mu   ^ { 2 } } { 2 \sigma   ^ { 2 } } } + \ln   \sigma  
+{ \begin { b m a t r i x } { \dfrac   { \mu   } { \sigma   ^ { 2 } } } \\[10pt ] - { \dfrac   { 1 } { 2 \sigma   ^ { 2 } } } \end { b m a t r i x } }
+{ \begin { b m a t r i x } - { \dfrac   { \eta   _ { 1 } } { 2 \eta   _ { 2 } } } \\[15pt ] - { \dfrac   { 1 } { 2 \eta   _ { 2 } } } \end { b m a t r i x } }
+{ \frac   { 1 } { { \sqrt   { 2 \pi   } } x } }
+{ \begin { b m a t r i x } \ln   x \\( \ln   x ) ^ { 2 } \end { b m a t r i x } }
+- { \frac   { \eta   _ { 1 } ^ { 2 } } { 4 \eta   _ { 2 } } } - { \frac   { 1 } { 2 } } \ln ( - 2 \eta   _ { 2 } )
+{ \frac   { \mu   ^ { 2 } } { 2 \sigma   ^ { 2 } } } + \ln   \sigma  
+{ \begin { b m a t r i x } - { \dfrac   { \lambda   } { 2 \mu   ^ { 2 } } } \\[15pt ] - { \dfrac   { \lambda   } { 2 } } \end { b m a t r i x } }
+{ \begin { b m a t r i x } { \sqrt   { \dfrac   { \eta   _ { 2 } } { \eta   _ { 1 } } } } \\[15pt ] - 2 \eta   _ { 2 } \end { b m a t r i x } }
+{ \frac   { 1 } { { \sqrt   { 2 \pi   } } x ^ { \frac   { 3 } { 2 } } } }
+{ \begin { b m a t r i x } x \\[5pt ] { \dfrac   { 1 } { x } } \end { b m a t r i x } }
+- 2 { \sqrt   { \eta   _ { 1 } \eta   _ { 2 } } } - { \frac   { 1 } { 2 } } \ln ( - 2 \eta   _ { 2 } )
+- { \frac   { \lambda   } { \mu   } } - { \frac   { 1 } { 2 } } \ln   \lambda  
+{ \begin { b m a t r i x } \alpha   - 1 \\-\beta   \end { b m a t r i x } }
+{ \begin { b m a t r i x } \eta   _ { 1 } + 1 \\-\eta   _ { 2 } \end { b m a t r i x } }
+1
+{ \begin { b m a t r i x } \ln   x \\x \end { b m a t r i x } }
+\ln   \Gamma   ( \eta   _ { 1 } + 1 ) - ( \eta   _ { 1 } + 1 ) \ln ( - \eta   _ { 2 } )
+\ln   \Gamma   ( \alpha   ) - \alpha   \ln   \beta  
+{ \begin { b m a t r i x } k - 1 \\[5pt ] - { \dfrac   { 1 } { \theta   } } \end { b m a t r i x } }
+{ \begin { b m a t r i x } \eta   _ { 1 } + 1 \\[5pt ] - { \dfrac   { 1 } { \eta   _ { 2 } } } \end { b m a t r i x } }
+\ln   \Gamma   ( k ) + k \ln   \theta  
+{ \begin { b m a t r i x } - \alpha   - 1 \\-\beta   \end { b m a t r i x } }
+{ \begin { b m a t r i x } - \eta   _ { 1 } - 1 \\-\eta   _ { 2 } \end { b m a t r i x } }
+1
+{ \begin { b m a t r i x } \ln   x \\{ \frac   { 1 } { x } } \end { b m a t r i x } }
+\ln   \Gamma   ( - \eta   _ { 1 } - 1 ) - ( - \eta   _ { 1 } - 1 ) \ln ( - \eta   _ { 2 } )
+\ln   \Gamma   ( \alpha   ) - \alpha   \ln   \beta  
+{ \begin { b m a t r i x } - { \dfrac   { \nu   } { 2 } } - 1 \\[10pt ] - { \dfrac   { \nu   \sigma   ^ { 2 } } { 2 } } \end { b m a t r i x } }
+{ \begin { b m a t r i x } - 2 ( \eta   _ { 1 } + 1 ) \\[10pt ] { \dfrac   { \eta   _ { 2 } } { \eta   _ { 1 } + 1 } } \end { b m a t r i x } }
+1
+{ \begin { b m a t r i x } \ln   x \\{ \frac   { 1 } { x } } \end { b m a t r i x } }
+\ln   \Gamma   ( - \eta   _ { 1 } - 1 ) - ( - \eta   _ { 1 } - 1 ) \ln ( - \eta   _ { 2 } )
+\ln   \Gamma   \left ( { \frac   { \nu   } { 2 } } \right ) - { \frac   { \nu   } { 2 } } \ln   { \frac   { \nu   \sigma   ^ { 2 } } { 2 } }
+{ \displaystyle   { \begin { b m a t r i x } \alpha   \\\beta   \end { b m a t r i x } } }
+{ \displaystyle   { \begin { b m a t r i x } \eta   _ { 1 } \\\eta   _ { 2 } \end { b m a t r i x } } }
+{ \displaystyle   { \frac   { 1 } { x ( 1 - x ) } } }
+{ \begin { b m a t r i x } \ln   x \\\ln ( 1 - x ) \end { b m a t r i x } }
+\ln   \Gamma   ( \eta   _ { 1 } ) + \ln   \Gamma   ( \eta   _ { 2 } ) - \ln   \Gamma   ( \eta   _ { 1 } + \eta   _ { 2 } )
+\ln   \Gamma   ( \alpha   ) + \ln   \Gamma   ( \beta   ) - \ln   \Gamma   ( \alpha   + \beta   )
+{ \begin { b m a t r i x } { \boldsymbol   { \Sigma   } } ^ { - 1 } { \boldsymbol   { \mu   } } \\[5pt ] - { \frac   { 1 } { 2 } } { \boldsymbol   { \Sigma   } } ^ { - 1 } \end { b m a t r i x } }
+{ \begin { b m a t r i x } - { \frac   { 1 } { 2 } } { \boldsymbol   { \eta   } } _ { 2 } ^ { - 1 } { \boldsymbol   { \eta   } } _ { 1 } \\[5pt ] - { \frac   { 1 } { 2 } } { \boldsymbol   { \eta   } } _ { 2 } ^ { - 1 } \end { b m a t r i x } }
+( 2 \pi   ) ^ { - { \frac   { k } { 2 } } }
+{ \begin { b m a t r i x } \mathbf   { x }   \\[5pt ] \mathbf   { x }   \mathbf   { x }   ^ { \mathrm   { T }   } \end { b m a t r i x } }
+- { \frac   { 1 } { 4 } } { \boldsymbol   { \eta   } } _ { 1 } ^ { \rm   { T } } { \boldsymbol   { \eta   } } _ { 2 } ^ { - 1 } { \boldsymbol   { \eta   } } _ { 1 } - { \frac   { 1 } { 2 } } \ln   \left | - 2 { \boldsymbol   { \eta   } } _ { 2 } \right |
+{ \frac   { 1 } { 2 } } { \boldsymbol   { \mu   } } ^ { \rm   { T } } { \boldsymbol   { \Sigma   } } ^ { - 1 } { \boldsymbol   { \mu   } } + { \frac   { 1 } { 2 } } \ln   | { \boldsymbol   { \Sigma   } } |
+\textstyle   \sum   _ { i = 1 } ^ { k } p _ { i } = 1
+{ \begin { b m a t r i x } \ln   p _ { 1 } \\\vdots   \\\ln   p _ { k } \end { b m a t r i x } }
+{ \begin { b m a t r i x } e ^ { \eta   _ { 1 } } \\\vdots   \\e ^ { \eta   _ { k } } \end { b m a t r i x } }
+\textstyle   \sum   _ { i = 1 } ^ { k } e ^ { \eta   _ { i } } = 1
+1
+{ \begin { b m a t r i x } [ x = 1 ] \\\vdots   \\{ [ x = k ] } \end { b m a t r i x } }
+[ x = i ]
+x = i
+  0
+  0
+\textstyle   \sum   _ { i = 1 } ^ { k } p _ { i } = 1
+{ \begin { b m a t r i x } \ln   p _ { 1 } + C \\\vdots   \\\ln   p _ { k } + C \end { b m a t r i x } }
+{ \begin { b m a t r i x } { \dfrac   { 1 } { C } } e ^ { \eta   _ { 1 } } \\\vdots   \\{ \dfrac   { 1 } { C } } e ^ { \eta   _ { k } } \end { b m a t r i x } } =
+{ \begin { b m a t r i x } { \dfrac   { e ^ { \eta   _ { 1 } } } { \sum   _ { i = 1 } ^ { k } e ^ { \eta   _ { i } } } } \\[10pt ] \vdots   \\[5pt ] { \dfrac   { e ^ { \eta   _ { k } } } { \sum   _ { i = 1 } ^ { k } e ^ { \eta   _ { i } } } } \end { b m a t r i x } }
+\textstyle   \sum   _ { i = 1 } ^ { k } e ^ { \eta   _ { i } } = C
+1
+{ \begin { b m a t r i x } [ x = 1 ] \\\vdots   \\{ [ x = k ] } \end { b m a t r i x } }
+[ x = i ]
+x = i
+  0
+  0
+p _ { k } = 1 - \textstyle   \sum   _ { i = 1 } ^ { k - 1 } p _ { i }
+{ \begin { b m a t r i x } \ln   { \dfrac   { p _ { 1 } } { p _ { k } } } \\[10pt ] \vdots   \\[5pt ] \ln   { \dfrac   { p _ { k - 1 } } { p _ { k } } } \\[15pt ] 0 \end { b m a t r i x } } =
+{ \begin { b m a t r i x } \ln   { \dfrac   { p _ { 1 } } { 1 - \sum   _ { i = 1 } ^ { k - 1 } p _ { i } } } \\[10pt ] \vdots   \\[5pt ] \ln   { \dfrac   { p _ { k - 1 } } { 1 - \sum   _ { i = 1 } ^ { k - 1 } p _ { i } } } \\[15pt ] 0 \end { b m a t r i x } }
+{ \begin { b m a t r i x } { \dfrac   { e ^ { \eta   _ { 1 } } } { \sum   _ { i = 1 } ^ { k } e ^ { \eta   _ { i } } } } \\[10pt ] \vdots   \\[5pt ] { \dfrac   { e ^ { \eta   _ { k } } } { \sum   _ { i = 1 } ^ { k } e ^ { \eta   _ { i } } } } \end { b m a t r i x } } =
+{ \begin { b m a t r i x } { \dfrac   { e ^ { \eta   _ { 1 } } } { 1 + \sum   _ { i = 1 } ^ { k - 1 } e ^ { \eta   _ { i } } } } \\[10pt ] \vdots   \\[5pt ] { \dfrac   { e ^ { \eta   _ { k - 1 } } } { 1 + \sum   _ { i = 1 } ^ { k - 1 } e ^ { \eta   _ { i } } } } \\[15pt ] { \dfrac   { 1 } { 1 + \sum   _ { i = 1 } ^ { k - 1 } e ^ { \eta   _ { i } } } } \end { b m a t r i x } }
+1
+{ \begin { b m a t r i x } [ x = 1 ] \\\vdots   \\{ [ x = k ] } \end { b m a t r i x } }
+[ x = i ]
+x = i
+\ln   \left ( \sum   _ { i = 1 } ^ { k } e ^ { \eta   _ { i } } \right ) = \ln   \left ( 1 + \sum   _ { i = 1 } ^ { k - 1 } e ^ { \eta   _ { i } } \right )
+- \ln   p _ { k } = - \ln   \left ( 1 - \sum   _ { i = 1 } ^ { k - 1 } p _ { i } \right )
+\textstyle   \sum   _ { i = 1 } ^ { k } p _ { i } = 1
+{ \begin { b m a t r i x } \ln   p _ { 1 } \\\vdots   \\\ln   p _ { k } \end { b m a t r i x } }
+{ \begin { b m a t r i x } e ^ { \eta   _ { 1 } } \\\vdots   \\e ^ { \eta   _ { k } } \end { b m a t r i x } }
+\textstyle   \sum   _ { i = 1 } ^ { k } e ^ { \eta   _ { i } } = 1
+{ \frac   { n ! } { \prod   _ { i = 1 } ^ { k } x _ { i } ! } }
+{ \begin { b m a t r i x } x _ { 1 } \\\vdots   \\x_ { k } \end { b m a t r i x } }
+  0
+  0
+\textstyle   \sum   _ { i = 1 } ^ { k } p _ { i } = 1
+{ \begin { b m a t r i x } \ln   p _ { 1 } + C \\\vdots   \\\ln   p _ { k } + C \end { b m a t r i x } }
+{ \begin { b m a t r i x } { \dfrac   { 1 } { C } } e ^ { \eta   _ { 1 } } \\\vdots   \\{ \dfrac   { 1 } { C } } e ^ { \eta   _ { k } } \end { b m a t r i x } } =
+{ \begin { b m a t r i x } { \dfrac   { e ^ { \eta   _ { 1 } } } { \sum   _ { i = 1 } ^ { k } e ^ { \eta   _ { i } } } } \\[10pt ] \vdots   \\[5pt ] { \dfrac   { e ^ { \eta   _ { k } } } { \sum   _ { i = 1 } ^ { k } e ^ { \eta   _ { i } } } } \end { b m a t r i x } }
+\textstyle   \sum   _ { i = 1 } ^ { k } e ^ { \eta   _ { i } } = C
+{ \frac   { n ! } { \prod   _ { i = 1 } ^ { k } x _ { i } ! } }
+{ \begin { b m a t r i x } x _ { 1 } \\\vdots   \\x_ { k } \end { b m a t r i x } }
+  0
+  0
+p _ { k } = 1 - \textstyle   \sum   _ { i = 1 } ^ { k - 1 } p _ { i }
+{ \begin { b m a t r i x } \ln   { \dfrac   { p _ { 1 } } { p _ { k } } } \\[10pt ] \vdots   \\[5pt ] \ln   { \dfrac   { p _ { k - 1 } } { p _ { k } } } \\[15pt ] 0 \end { b m a t r i x } } =
+{ \begin { b m a t r i x } \ln   { \dfrac   { p _ { 1 } } { 1 - \sum   _ { i = 1 } ^ { k - 1 } p _ { i } } } \\[10pt ] \vdots   \\[5pt ] \ln   { \dfrac   { p _ { k - 1 } } { 1 - \sum   _ { i = 1 } ^ { k - 1 } p _ { i } } } \\[15pt ] 0 \end { b m a t r i x } }
+{ \begin { b m a t r i x } { \dfrac   { e ^ { \eta   _ { 1 } } } { \sum   _ { i = 1 } ^ { k } e ^ { \eta   _ { i } } } } \\[10pt ] \vdots   \\[5pt ] { \dfrac   { e ^ { \eta   _ { k } } } { \sum   _ { i = 1 } ^ { k } e ^ { \eta   _ { i } } } } \end { b m a t r i x } } =
+{ \begin { b m a t r i x } { \dfrac   { e ^ { \eta   _ { 1 } } } { 1 + \sum   _ { i = 1 } ^ { k - 1 } e ^ { \eta   _ { i } } } } \\[10pt ] \vdots   \\[5pt ] { \dfrac   { e ^ { \eta   _ { k - 1 } } } { 1 + \sum   _ { i = 1 } ^ { k - 1 } e ^ { \eta   _ { i } } } } \\[15pt ] { \dfrac   { 1 } { 1 + \sum   _ { i = 1 } ^ { k - 1 } e ^ { \eta   _ { i } } } } \end { b m a t r i x } }
+{ \frac   { n ! } { \prod   _ { i = 1 } ^ { k } x _ { i } ! } }
+{ \begin { b m a t r i x } x _ { 1 } \\\vdots   \\x_ { k } \end { b m a t r i x } }
+n \ln   \left ( \sum   _ { i = 1 } ^ { k } e ^ { \eta   _ { i } } \right ) = n \ln   \left ( 1 + \sum   _ { i = 1 } ^ { k - 1 } e ^ { \eta   _ { i } } \right )
+- n \ln   p _ { k } = - n \ln   \left ( 1 - \sum   _ { i = 1 } ^ { k - 1 } p _ { i } \right )
+{ \displaystyle   { \begin { b m a t r i x } \alpha   _ { 1 } \\\vdots   \\\alpha   _ { k } \end { b m a t r i x } } }
+{ \displaystyle   { \begin { b m a t r i x } \eta   _ { 1 } \\\vdots   \\\eta   _ { k } \end { b m a t r i x } } }
+{ \displaystyle   { \frac   { 1 } { \prod   _ { i = 1 } ^ { k } x _ { i } } } }
+{ \begin { b m a t r i x } \ln   x _ { 1 } \\\vdots   \\\ln   x _ { k } \end { b m a t r i x } }
+{ \displaystyle   \sum   _ { i = 1 } ^ { k } \ln   \Gamma   ( \eta   _ { i } ) - \ln   \Gamma   \left ( \sum   _ { i = 1 } ^ { k } \eta   _ { i } \right ) }
+\sum   _ { i = 1 } ^ { k } \ln   \Gamma   ( \alpha   _ { i } ) - \ln   \Gamma   \left ( \sum   _ { i = 1 } ^ { k } \alpha   _ { i } \right )
+{ \begin { b m a t r i x } - { \frac   { 1 } { 2 } } \mathbf   { V }   ^ { - 1 } \\[5pt ] { \dfrac   { n - p - 1 } { 2 } } \end { b m a t r i x } }
+{ \begin { b m a t r i x } - { \frac   { 1 } { 2 } } { { \boldsymbol   { \eta   } } _ { 1 } } ^ { - 1 } \\[5pt ] 2 \eta   _ { 2 } + p + 1 \end { b m a t r i x } }
+1
+{ \begin { b m a t r i x } \mathbf   { X }   \\\ln   | \mathbf   { X }   | \end { b m a t r i x } }
+- \left ( \eta   _ { 2 } + { \frac   { p + 1 } { 2 } } \right ) \ln   | - { \boldsymbol   { \eta   } } _ { 1 } |
++ \ln   \Gamma   _ { p } \left ( \eta   _ { 2 } + { \frac   { p + 1 } { 2 } } \right ) =
+- { \frac   { n } { 2 } } \ln   | - { \boldsymbol   { \eta   } } _ { 1 } | + \ln   \Gamma   _ { p } \left ( { \frac   { n } { 2 } } \right ) =
+\left ( \eta   _ { 2 } + { \frac   { p + 1 } { 2 } } \right ) ( p \ln   2 + \ln   | \mathbf   { V }   | )
++ \ln   \Gamma   _ { p } \left ( \eta   _ { 2 } + { \frac   { p + 1 } { 2 } } \right )
+{ \frac   { n } { 2 } } ( p \ln   2 + \ln   | \mathbf   { V }   | ) + \ln   \Gamma   _ { p } \left ( { \frac   { n } { 2 } } \right )
+{ \rm   { t r } } ( \mathbf   { A }   ^ { \rm   { T } } \mathbf   { B }   ) = \operatorname   { v e c }   ( \mathbf   { A }   ) \cdot   \operatorname   { v e c }   ( \mathbf   { B }   ) ,
+\mathbf   { V }   ^ { \rm   { T } } = \mathbf   { V }   .
+{ \begin { b m a t r i x } - { \frac   { 1 } { 2 } } { \boldsymbol   { \Psi   } } \\[5pt ] - { \dfrac   { m + p + 1 } { 2 } } \end { b m a t r i x } }
+{ \begin { b m a t r i x } - 2 { \boldsymbol   { \eta   } } _ { 1 } \\[5pt ] - ( 2 \eta   _ { 2 } + p + 1 ) \end { b m a t r i x } }
+1
+{ \begin { b m a t r i x } \mathbf   { X }   ^ { - 1 } \\\ln   | \mathbf   { X }   | \end { b m a t r i x } }
+\left ( \eta   _ { 2 } + { \frac   { p + 1 } { 2 } } \right ) \ln   | - { \boldsymbol   { \eta   } } _ { 1 } |
++ \ln   \Gamma   _ { p } \left ( - { \Big   ( } \eta   _ { 2 } + { \frac   { p + 1 } { 2 } } { \Big   ) } \right ) =
+- { \frac   { m } { 2 } } \ln   | - { \boldsymbol   { \eta   } } _ { 1 } | + \ln   \Gamma   _ { p } \left ( { \frac   { m } { 2 } } \right ) =
+- \left ( \eta   _ { 2 } + { \frac   { p + 1 } { 2 } } \right ) ( p \ln   2 - \ln   | { \boldsymbol   { \Psi   } } | )
++ \ln   \Gamma   _ { p } \left ( - { \Big   ( } \eta   _ { 2 } + { \frac   { p + 1 } { 2 } } { \Big   ) } \right )
+{ \frac   { m } { 2 } } ( p \ln   2 - \ln   | { \boldsymbol   { \Psi   } } | ) + \ln   \Gamma   _ { p } \left ( { \frac   { m } { 2 } } \right )
+{ \begin { b m a t r i x } \alpha   - { \frac   { 1 } { 2 } } \\-\beta   - { \dfrac   { \lambda   \mu   ^ { 2 } } { 2 } } \\\lambda   \mu   \\-{ \dfrac   { \lambda   } { 2 } } \end { b m a t r i x } }
+{ \begin { b m a t r i x } \eta   _ { 1 } + { \frac   { 1 } { 2 } } \\-\eta   _ { 2 } + { \dfrac   { \eta   _ { 3 } ^ { 2 } } { 4 \eta   _ { 4 } } } \\-{ \dfrac   { \eta   _ { 3 } } { 2 \eta   _ { 4 } } } \\-2 \eta   _ { 4 } \end { b m a t r i x } }
+{ \dfrac   { 1 } { \sqrt   { 2 \pi   } } }
+{ \begin { b m a t r i x } \ln   \tau   \\\tau   \\\tau   x \\\tau   x ^ { 2 } \end { b m a t r i x } }
+\ln   \Gamma   \left ( \eta   _ { 1 } + { \frac   { 1 } { 2 } } \right ) - { \frac   { 1 } { 2 } } \ln   \left ( - 2 \eta   _ { 4 } \right ) -
+- \left ( \eta   _ { 1 } + { \frac   { 1 } { 2 } } \right ) \ln   \left ( - \eta   _ { 2 } + { \dfrac   { \eta   _ { 3 } ^ { 2 } } { 4 \eta   _ { 4 } } } \right )
+\ln   \Gamma   \left ( \alpha   \right ) - \alpha   \ln   \beta   - { \frac   { 1 } { 2 } } \ln   \lambda  
+p _ { i }
+\sum   _ { i = 1 } ^ { k } p _ { i } = 1 .
+C = - \ln   p _ { k } .
+p ( x ) = { \frac   { 1 } { Z } } f ( x )
+{ \displaystyle   Z = \int   _ { x } f ( x ) \,dx . }
+p ( x ; { \boldsymbol   { \eta   } } ) = g ( { \boldsymbol   { \eta   } } ) h ( x ) e ^ { { \boldsymbol   { \eta   } } \cdot   \mathbf   { T }   ( x ) } ,
+K ( x ) = h ( x ) e ^ { { \boldsymbol   { \eta   } } \cdot   \mathbf   { T }   ( x ) }
+{ \displaystyle   Z = \int   _ { x } h ( x ) e ^ { { \boldsymbol   { \eta   } } \cdot   \mathbf   { T }   ( x ) } \,dx . }
+{ \displaystyle   1 = \int   _ { x } g ( { \boldsymbol   { \eta   } } ) h ( x ) e ^ { { \boldsymbol   { \eta   } } \cdot   \mathbf   { T }   ( x ) } \,dx = g ( { \boldsymbol   { \eta   } } ) \int   _ { x } h ( x ) e ^ { { \boldsymbol   { \eta   } } \cdot   \mathbf   { T }   ( x ) } \,dx = g ( { \boldsymbol   { \eta   } } ) Z . }
+g ( { \boldsymbol   { \eta   } } ) = { \frac   { 1 } { Z } }
+A ( { \boldsymbol   { \eta   } } ) = - \ln   g ( { \boldsymbol   { \eta   } } ) = \ln   Z .
+{ \displaystyle   M _ { T } ( u ) \equiv   E [ e ^ { u ^ { \rm   { T } } T ( x ) } \mid   \eta   ] = \int   _ { x } h ( x ) e ^ { ( \eta   + u ) ^ { \rm   { T } } T ( x ) - A ( \eta   ) } \,dx = e ^ { A ( \eta   + u ) - A ( \eta   ) } }
+K ( u \mid   \eta   ) = A ( \eta   + u ) - A ( \eta   )
+{ \displaystyle   \operatorname   { E }   ( T _ { j } ) = { \frac   { \partial   A ( \eta   ) } { \partial   \eta   _ { j } } } }
+{ \displaystyle   \operatorname   { c o v }   \left ( T _ { i } , T _ { j } \right ) = { \frac   { \partial   ^ { 2 } A ( \eta   ) } { \partial   \eta   _ { i } \,\partial   \eta   _ { j } } } . }
+p ( x ) = g ( \eta   ) h ( x ) e ^ { \eta   T ( x ) } .
+{ \displaystyle   1 = \int   _ { x } p ( x ) \,dx = \int   _ { x } g ( \eta   ) h ( x ) e ^ { \eta   T ( x ) } \,dx = g ( \eta   ) \int   _ { x } h ( x ) e ^ { \eta   T ( x ) } \,dx . }
+{ \displaystyle   { \begin { a l i g n e d } 0 & = g ( \eta   ) { \frac   { d } { d \eta   } } \int   _ { x } h ( x ) e ^ { \eta   T ( x ) } \,dx + g ' ( \eta   ) \int   _ { x } h ( x ) e ^ { \eta   T ( x ) } \,dx \\&=g ( \eta   ) \int   _ { x } h ( x ) \left ( { \frac   { d } { d \eta   } } e ^ { \eta   T ( x ) } \right ) \,dx + g ' ( \eta   ) \int   _ { x } h ( x ) e ^ { \eta   T ( x ) } \,dx \\&=g ( \eta   ) \int   _ { x } h ( x ) e ^ { \eta   T ( x ) } T ( x ) \,dx + g ' ( \eta   ) \int   _ { x } h ( x ) e ^ { \eta   T ( x ) } \,dx \\&=\int   _ { x } T ( x ) g ( \eta   ) h ( x ) e ^ { \eta   T ( x ) } \,dx + { \frac   { g ' ( \eta   ) } { g ( \eta   ) } } \int   _ { x } g ( \eta   ) h ( x ) e ^ { \eta   T ( x ) } \,dx \\&=\int   _ { x } T ( x ) p ( x ) \,dx + { \frac   { g ' ( \eta   ) } { g ( \eta   ) } } \int   _ { x } p ( x ) \,dx \\&=\operatorname   { E }   [ T ( x ) ] + { \frac   { g ' ( \eta   ) } { g ( \eta   ) } } \\&=\operatorname   { E }   [ T ( x ) ] + { \frac   { d } { d \eta   } } \ln   g ( \eta   ) \end { a l i g n e d } } }
+{ \displaystyle   \operatorname   { E }   [ T ( x ) ] = - { \frac   { d } { d \eta   } } \ln   g ( \eta   ) = { \frac   { d } { d \eta   } } A ( \eta   ) . }
+p ( x ) = { \frac   { \beta   ^ { \alpha   } } { \Gamma   ( \alpha   ) } } x ^ { \alpha   - 1 } e ^ { - \beta   x } .
+\eta   _ { 1 } = \alpha   - 1 ,
+\eta   _ { 2 } = - \beta   ,
+\alpha   = \eta   _ { 1 } + 1 ,
+\beta   = - \eta   _ { 2 } ,
+( \ln   x , x ) ,
+A ( \eta   _ { 1 } , \eta   _ { 2 } ) = \ln   \Gamma   ( \eta   _ { 1 } + 1 ) - ( \eta   _ { 1 } + 1 ) \ln ( - \eta   _ { 2 } ) .
+{ \displaystyle   { \begin { a l i g n e d } \operatorname   { E }   [ \ln   x ] & = { \frac   { \partial   A ( \eta   _ { 1 } , \eta   _ { 2 } ) } { \partial   \eta   _ { 1 } } } = { \frac   { \partial   } { \partial   \eta   _ { 1 } } } \left ( \ln   \Gamma   ( \eta   _ { 1 } + 1 ) - ( \eta   _ { 1 } + 1 ) \ln ( - \eta   _ { 2 } ) \right ) \\&=\psi   ( \eta   _ { 1 } + 1 ) - \ln ( - \eta   _ { 2 } ) \\&=\psi   ( \alpha   ) - \ln   \beta   , \end { a l i g n e d } } }
+\psi   ( x )
+{ \displaystyle   { \begin { a l i g n e d } \operatorname   { E }   [ x ] & = { \frac   { \partial   A ( \eta   _ { 1 } , \eta   _ { 2 } ) } { \partial   \eta   _ { 2 } } } = { \frac   { \partial   } { \partial   \eta   _ { 2 } } } \left ( \ln   \Gamma   ( \eta   _ { 1 } + 1 ) - ( \eta   _ { 1 } + 1 ) \ln ( - \eta   _ { 2 } ) \right ) \\&=-( \eta   _ { 1 } + 1 ) { \frac   { 1 } { - \eta   _ { 2 } } } ( - 1 ) = { \frac   { \eta   _ { 1 } + 1 } { - \eta   _ { 2 } } } \\&={ \frac   { \alpha   } { \beta   } } , \end { a l i g n e d } } }
+{ \begin { a l i g n e d } \operatorname   { V a r }   ( x ) & = { \frac   { \partial   ^ { 2 } A \left ( \eta   _ { 1 } , \eta   _ { 2 } \right ) } { \partial   \eta   _ { 2 } ^ { 2 } } } = { \frac   { \partial   } { \partial   \eta   _ { 2 } } } { \frac   { \eta   _ { 1 } + 1 } { - \eta   _ { 2 } } } \\&={ \frac   { \eta   _ { 1 } + 1 } { \eta   _ { 2 } ^ { 2 } } } \\&={ \frac   { \alpha   } { \beta   ^ { 2 } } } . \end { a l i g n e d } }
+p _ { \theta   } ( x ) = { \frac   { \theta   e ^ { - x } } { \left ( 1 + e ^ { - x } \right ) ^ { \theta   + 1 } } }
+\theta   \in   ( 0 , \infty   )
+{ \frac   { e ^ { - x } } { 1 + e ^ { - x } } } \exp   \left ( - \theta   \log   \left ( 1 + e ^ { - x } \right ) + \log ( \theta   ) \right )
+\eta   = - \theta   ,
+T = \log   \left ( 1 + e ^ { - x } \right ) ,
+A ( \eta   ) = - \log ( \theta   ) = - \log ( - \eta   )
+{ \displaystyle   \operatorname   { E }   ( \log ( 1 + e ^ { - X } ) ) = \operatorname   { E }   ( T ) = { \frac   { \partial   A ( \eta   ) } { \partial   \eta   } } = { \frac   { \partial   } { \partial   \eta   } } [ - \log ( - \eta   ) ] = { \frac   { 1 } { - \eta   } } = { \frac   { 1 } { \theta   } } , }
+{ \displaystyle   \operatorname   { v a r }   ( \log   \left ( 1 + e ^ { - X } \right ) ) = { \frac   { \partial   ^ { 2 } A ( \eta   ) } { \partial   \eta   ^ { 2 } } } = { \frac   { \partial   } { \partial   \eta   } } \left [ { \frac   { 1 } { - \eta   } } \right ] = { \frac   { 1 } { ( - \eta   ) ^ { 2 } } } = { \frac   { 1 } { \theta   ^ { 2 } } } . }
+{ \boldsymbol   { \eta   } } _ { 1 } = - { \frac   { 1 } { 2 } } \mathbf   { V }   ^ { - 1 } ,
+\eta   _ { 2 } = { \frac   { n - p - 1 } { 2 } } ,
+\mathbf   { V }   = - { \frac   { 1 } { 2 } } { { \boldsymbol   { \eta   } } _ { 1 } } ^ { - 1 } ,
+n = 2 \eta   _ { 2 } + p + 1 ,
+( \mathbf   { X }   , \ln   | \mathbf   { X }   | ) .
+A ( { \boldsymbol   { \eta   } } _ { 1 } , n ) = - { \frac   { n } { 2 } } \ln   | - { \boldsymbol   { \eta   } } _ { 1 } | + \ln   \Gamma   _ { p } \left ( { \frac   { n } { 2 } } \right ) ,
+A ( \mathbf   { V }   , \eta   _ { 2 } ) = \left ( \eta   _ { 2 } + { \frac   { p + 1 } { 2 } } \right ) ( p \ln   2 + \ln   | \mathbf   { V }   | ) + \ln   \Gamma   _ { p } \left ( \eta   _ { 2 } + { \frac   { p + 1 } { 2 } } \right ) .
+{ \frac   { \partial   \ln   | a \mathbf   { X }   | } { \partial   \mathbf   { X }   } } = ( \mathbf   { X }   ^ { - 1 } ) ^ { \rm   { T } }
+{ \displaystyle   { \begin { a l i g n e d } \operatorname   { E }   [ \mathbf   { X }   ] & = { \frac   { \partial   A \left ( { \boldsymbol   { \eta   } } _ { 1 } , \cdots   \right ) } { \partial   { \boldsymbol   { \eta   } } _ { 1 } } } \\&={ \frac   { \partial   } { \partial   { \boldsymbol   { \eta   } } _ { 1 } } } \left [ - { \frac   { n } { 2 } } \ln   | - { \boldsymbol   { \eta   } } _ { 1 } | + \ln   \Gamma   _ { p } \left ( { \frac   { n } { 2 } } \right ) \right ] \\&=-{ \frac   { n } { 2 } } ( { \boldsymbol   { \eta   } } _ { 1 } ^ { - 1 } ) ^ { \rm   { T } } \\&={ \frac   { n } { 2 } } ( - { \boldsymbol   { \eta   } } _ { 1 } ^ { - 1 } ) ^ { \rm   { T } } \\&=n ( \mathbf   { V }   ) ^ { \rm   { T } } \\&=n \mathbf   { V }   \end { a l i g n e d } } }
+\ln   \Gamma   _ { p } ( a ) = \ln   \left ( \pi   ^ { \frac   { p ( p - 1 ) } { 4 } } \prod   _ { j = 1 } ^ { p } \Gamma   \left ( a + { \frac   { 1 - j } { 2 } } \right ) \right ) = { \frac   { p ( p - 1 ) } { 4 } } \ln   \pi   + \sum   _ { j = 1 } ^ { p } \ln   \Gamma   \left [ a + { \frac   { 1 - j } { 2 } } \right ]
+\psi   ( x ) = { \frac   { d } { d x } } \ln   \Gamma   ( x ) .
+{ \displaystyle   { \begin { a l i g n e d } \operatorname   { E }   [ \ln   | \mathbf   { X }   | ] & = { \frac   { \partial   A \left ( \ldots   , \eta   _ { 2 } \right ) } { \partial   \eta   _ { 2 } } } \\&={ \frac   { \partial   } { \partial   \eta   _ { 2 } } } \left [ - \left ( \eta   _ { 2 } + { \frac   { p + 1 } { 2 } } \right ) ( p \ln   2 + \ln   | \mathbf   { V }   | ) + \ln   \Gamma   _ { p } \left ( \eta   _ { 2 } + { \frac   { p + 1 } { 2 } } \right ) \right ] \\&={ \frac   { \partial   } { \partial   \eta   _ { 2 } } } \left [ \left ( \eta   _ { 2 } + { \frac   { p + 1 } { 2 } } \right ) ( p \ln   2 + \ln   | \mathbf   { V }   | ) + { \frac   { p ( p - 1 ) } { 4 } } \ln   \pi   + \sum   _ { j = 1 } ^ { p } \ln   \Gamma   \left ( \eta   _ { 2 } + { \frac   { p + 1 } { 2 } } + { \frac   { 1 - j } { 2 } } \right ) \right ] \\&=p \ln   2 + \ln   | \mathbf   { V }   | + \sum   _ { j = 1 } ^ { p } \psi   \left ( \eta   _ { 2 } + { \frac   { p + 1 } { 2 } } + { \frac   { 1 - j } { 2 } } \right ) \\&=p \ln   2 + \ln   | \mathbf   { V }   | + \sum   _ { j = 1 } ^ { p } \psi   \left ( { \frac   { n - p - 1 } { 2 } } + { \frac   { p + 1 } { 2 } } + { \frac   { 1 - j } { 2 } } \right ) \\&=p \ln   2 + \ln   | \mathbf   { V }   | + \sum   _ { j = 1 } ^ { p } \psi   \left ( { \frac   { n + 1 - j } { 2 } } \right ) \end { a l i g n e d } } }
+S [ d F \mid   d H ] = - \int   { \frac   { d F } { d H } } \ln   { \frac   { d F } { d H } } \,dH
+S [ d F \mid   d H ] = \int   \ln   { \frac   { d H } { d F } } \,dF
+S = - \sum   _ { i \in   I } p _ { i } \ln   p _ { i }
+{ \boldsymbol   { \eta   } }
+{ \displaystyle   f ( x \mid   { \boldsymbol   { \eta   } } ) = h ( x ) \exp   \left ( { \boldsymbol   { \eta   } } ^ { \rm   { T } } \mathbf   { T }   ( x ) - A ( { \boldsymbol   { \eta   } } ) \right ) }
+p _ { \pi   } ( { \boldsymbol   { \eta   } } \mid   { \boldsymbol   { \chi   } } , \nu   ) = f ( { \boldsymbol   { \chi   } } , \nu   ) \exp   \left ( { \boldsymbol   { \eta   } } ^ { \rm   { T } } { \boldsymbol   { \chi   } } - \nu   A ( { \boldsymbol   { \eta   } } ) \right ) ,
+p _ { \pi   } ( { \boldsymbol   { \eta   } } \mid   { \boldsymbol   { \chi   } } , \nu   ) = f ( { \boldsymbol   { \chi   } } , \nu   ) g ( { \boldsymbol   { \eta   } } ) ^ { \nu   } \exp   \left ( { \boldsymbol   { \eta   } } ^ { \rm   { T } } { \boldsymbol   { \chi   } } \right ) , \qquad   { \boldsymbol   { \chi   } } \in   \mathbb   { R }   ^ { s }
+{ \boldsymbol   { \eta   } }
+\nu   > 0
+{ \boldsymbol   { \chi   } }
+\nu  
+{ \boldsymbol   { \chi   } }
+f ( { \boldsymbol   { \chi   } } , \nu   )
+A ( { \boldsymbol   { \eta   } } )
+g ( { \boldsymbol   { \eta   } } )
+p _ { F } ( x \mid   { \boldsymbol   { \eta   } } ) = h ( x ) g ( { \boldsymbol   { \eta   } } ) \exp   \left ( { \boldsymbol   { \eta   } } ^ { \rm   { T } } \mathbf   { T }   ( x ) \right )
+\mathbf   { X }   = ( x _ { 1 } , \ldots   , x _ { n } )
+p ( \mathbf   { X }   \mid   { \boldsymbol   { \eta   } } ) = \left ( \prod   _ { i = 1 } ^ { n } h ( x _ { i } ) \right ) g ( { \boldsymbol   { \eta   } } ) ^ { n } \exp   \left ( { \boldsymbol   { \eta   } } ^ { \rm   { T } } \sum   _ { i = 1 } ^ { n } \mathbf   { T }   ( x _ { i } ) \right )
+{ \begin { a l i g n e d } p _ { \pi   } ( { \boldsymbol   { \eta   } } \mid   { \boldsymbol   { \chi   } } , \nu   ) & = f ( { \boldsymbol   { \chi   } } , \nu   ) g ( { \boldsymbol   { \eta   } } ) ^ { \nu   } \exp ( { \boldsymbol   { \eta   } } ^ { \rm   { T } } { \boldsymbol   { \chi   } } ) \propto   g ( { \boldsymbol   { \eta   } } ) ^ { \nu   } \exp ( { \boldsymbol   { \eta   } } ^ { \rm   { T } } { \boldsymbol   { \chi   } } ) \end { a l i g n e d } }
+{ \begin { a l i g n e d } p ( { \boldsymbol   { \eta   } } \mid   \mathbf   { X }   , { \boldsymbol   { \chi   } } , \nu   ) & \propto   p ( \mathbf   { X }   \mid   { \boldsymbol   { \eta   } } ) p _ { \pi   } ( { \boldsymbol   { \eta   } } \mid   { \boldsymbol   { \chi   } } , \nu   ) \\&=\left ( \prod   _ { i = 1 } ^ { n } h ( x _ { i } ) \right ) g ( { \boldsymbol   { \eta   } } ) ^ { n } \exp   \left ( { \boldsymbol   { \eta   } } ^ { \rm   { T } } \sum   _ { i = 1 } ^ { n } \mathbf   { T }   ( x _ { i } ) \right ) f ( { \boldsymbol   { \chi   } } , \nu   ) g ( { \boldsymbol   { \eta   } } ) ^ { \nu   } \exp ( { \boldsymbol   { \eta   } } ^ { \rm   { T } } { \boldsymbol   { \chi   } } ) \\&\propto   g ( { \boldsymbol   { \eta   } } ) ^ { n } \exp   \left ( { \boldsymbol   { \eta   } } ^ { \rm   { T } } \sum   _ { i = 1 } ^ { n } \mathbf   { T }   ( x _ { i } ) \right ) g ( { \boldsymbol   { \eta   } } ) ^ { \nu   } \exp ( { \boldsymbol   { \eta   } } ^ { \rm   { T } } { \boldsymbol   { \chi   } } ) \\&\propto   g ( { \boldsymbol   { \eta   } } ) ^ { \nu   + n } \exp   \left ( { \boldsymbol   { \eta   } } ^ { \rm   { T } } \left ( { \boldsymbol   { \chi   } } + \sum   _ { i = 1 } ^ { n } \mathbf   { T }   ( x _ { i } ) \right ) \right ) \end { a l i g n e d } }
+p ( { \boldsymbol   { \eta   } } \mid   \mathbf   { X }   , { \boldsymbol   { \chi   } } , \nu   ) = p _ { \pi   } \left ( { \boldsymbol   { \eta   } } \mid   { \boldsymbol   { \chi   } } + \sum   _ { i = 1 } ^ { n } \mathbf   { T }   ( x _ { i } ) , \nu   + n \right )
+\mathbf   { T }   ( \mathbf   { X }   ) = \sum   _ { i = 1 } ^ { n } \mathbf   { T }   ( x _ { i } ) ,
+{ \boldsymbol   { \eta   } }
+{ \begin { a l i g n e d } { \boldsymbol   { \chi   } } ' & = { \boldsymbol   { \chi   } } + \mathbf   { T }   ( \mathbf   { X }   ) \\&={ \boldsymbol   { \chi   } } + \sum   _ { i = 1 } ^ { n } \mathbf   { T }   ( x _ { i } ) \\\nu   ' & = \nu   + n \end { a l i g n e d } }
+{ \boldsymbol   { \eta   } }
+{ \boldsymbol   { \theta   } } .

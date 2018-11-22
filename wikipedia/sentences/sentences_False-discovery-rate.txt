@@ -1,0 +1,104 @@
+m _ { 0 }
+m _ { 0 }
+{ \displaystyle   \left ( E [ V ] / R \right ) }
+{ \displaystyle   Q = V / R = V / ( V + S ) }
+{ \displaystyle   \mathrm   { F D R }   = Q _ { e } = \mathrm   { E }   \!\left [ Q \right ] , }
+Q
+  R   =   0  
+  R   =   0  
+{ \displaystyle   \mathrm   { F D R }   = \mathrm   { E }   \!\left [ V / R | R > 0 \right ] \cdot   \mathrm   { P }   \!\left ( R > 0 \right ) }
+V
+S
+R
+U
+T
+m   -   R
+m _ { 0 }
+m   -   m _ 0
+m
+m
+m _ { 0 }
+m   -   m _ 0
+V
+S
+T
+U
+{ \displaystyle   R = V + S }
+m
+m _ { 0 }
+R
+S
+T
+U
+V
+H _ 1   \ldots   H _ m
+P _ 1   \ldots   P _ m
+P _ { ( 1 ) }   \ldots   P _ { ( m ) }
+\alpha  
+\alpha  
+P _ { ( k ) }   \leq   \frac { k } { m }   \alpha .
+H _ { ( i ) }
+i   =   1 ,   \ldots ,   k
+{ \displaystyle   P _ { ( k ) } }
+{ \displaystyle   { \frac   { \alpha   } { m } } }
+E ( Q )   \leq   \frac { m _ 0 } { m } \alpha   \leq   \alpha
+m _ { 0 }
+\alpha  
+\frac { \alpha ( m + 1 ) } { 2 m }
+\alpha  
+\alpha  
+\alpha  
+P _ { ( k ) }   \leq   \frac { k } { m   \cdot   c ( m ) }   \alpha  
+c ( m ) = 1
+c ( m )   =   \sum   _ { i = 1 }   ^ m   \frac { 1 } { i }
+c ( m )
+{ \displaystyle   \sum   _ { i = 1 } ^ { m } { \frac   { 1 } { i } } \approx   \ln ( m ) + \gamma   + { \frac   { 1 } { 2 m } } . }
+\alpha  
+=   \frac \mathrm { M F D R } { c ( m ) }
+q = 5 \ %
+q = 5 \ %
+\mathrm { F D R }   \le   \frac { m _ 0 } { m } q
+\mathrm { F D R }   =   \frac { m _ 0 } { m } q
+\mathrm { F D R }   \le   \frac { m _ 0 } { m } q
+{ \displaystyle   \mathrm   { F D R }   \leq   { \frac   { m _ { 0 } } { m } } q / \left ( 1 + { \frac   { 1 } { 2 } } + { \frac   { 1 } { 3 } } + \cdots   + { \frac   { 1 } { m } } \right ) \approx   { \frac   { m _ { 0 } } { m } } q / ( \ln ( m ) + \gamma   + { \frac   { 1 } { 2 m } } ) }
+\gamma  
+m _ 0 = m
+\mathrm { F W E R } = P \left (   V   \ge   1   \right )   =   E \left (   \frac { V } { R }   \right )   =   \mathrm { F D R }   \le   q
+{ \displaystyle   \{ V \geq   1 \ } }
+{ \displaystyle   \{ V / R = 1 \ } }
+{ \displaystyle   \{ V = 0 \ } }
+{ \displaystyle   \{ V / R = 0 \ } }
+{ \displaystyle   V = R = 0 }
+{ \displaystyle   V / R = 0 }
+m _ 0 < m
+\mathrm { P C E R }   =   E   \left [   \frac { V } { m }   \right ]  
+\mathrm { P C E R }   \le   \alpha  
+\mathrm { F W E R }   =   P ( V   \ge   1 )  
+k { \text { - F W E R } }
+k \text { - F W E R }   =   P ( V   \ge   k )   \le   q
+k { \text { - F D R } }
+k { \text { - F D R } } = E \left ( { \frac     { V } { R } } I _ { { ( V > k ) } } \right ) \leq   q
+Q '
+Q '   =   \frac { E [ V ] } { R }  
+m _ 0 = m
+\mathrm { F D R } _ { - 1 }
+\mathrm { F D R } _ { - 1 }   =   F d r   =   \frac { E [ V ] } { E [ R ] }  
+m   =   m _ 0
+\mathrm { F D R } _ { + 1 }
+\mathrm { F D R } _ { + 1 }   =   p F D R   =   E   \left [   \left .   { \frac { V } { R } }   \right |   R > 0   \right ]  
+m   =   m _ 0
+\mathrm { P }   \left (   \frac { V } { R }   >   q   \right )  
+W { \text { - F D R } }
+w _ i   \ge   0
+W { \text { - F D R } } = E \left ( { \frac     { \sum   w _ { i } V _ { i } } { \sum   w _ { i } R _ { i } } } \right )
+\mathrm { c } _ i
+H _ { 0 0 }
+c _ { 0 }
+\mathrm { F D C R }   =   E \left (   c _ 0   V _ 0   +   \frac { \sum   c _ i   V _ i   } { c _ 0   R _ 0   +   \sum   c _ i   R _ i   }   \right )
+\mathrm { P F E R }   =   E ( V )
+\mathrm { F N R }   =   E \left (   \frac { T } { m   -   R }   \right )   =   E \left (   \frac { m   -   m _ 0   -   ( R   -   V ) } { m   -   R }   \right )  
+\mathrm { F D R } ( z )
+\mathrm { F D R } ( z )   =   \frac { p _ 0   F _ 0   ( z ) } { F ( z ) }  
+\mathrm { F D R }
+\mathrm { F D R }   =   \frac { p _ 0   f _ 0   ( z ) } { f ( z ) }  
+1 - \alpha

@@ -1,0 +1,7 @@
+I R
+I R   =   \frac { E [ R _ p - R _ b ] } { \sigma }   =   \frac { \alpha } { \omega }   =   \frac { E [ R _ p - R _ b ] } { \sqrt { \mathrm { v a r } [ R _ p - R _ b ] } }
+R _ { p }
+R _ b
+\alpha   =   E [ R _ p - R _ b ]
+\omega   =   \sigma
+\alpha  

@@ -1,0 +1,106 @@
+( \Omega   , { \mathcal   { F } } , P )
+\Omega  
+{ \mathcal   { F } }
+P
+{ \mathcal   { F } }
+P
+\omega  
+\Omega  
+{ \mathcal   { F } }
+\omega  
+\Omega  
+P
+( \Omega   , { \mathcal   { F } } , P )
+\Omega  
+{ \mathcal   { F } }
+P
+\Omega  
+{ \mathcal   { F } }
+P
+P
+P : { \mathcal   { F } } \rightarrow   [ 0 , 1 ]
+{ \text { H e a d } }
+{ \text { T a i l } }
+P ( { \text { H e a d } } \cup   { \text { T a i l } } )
+{ \text { H e a d } }
+{ \text { T a i l } }
+P ( { \text { H e a d } } ) + P ( { \text { T a i l } } )
+\Omega  
+P ( \{ { \text { H e a d } } , { \text { T a i l } } \ } )
+{ \text { H e a d } }
+{ \text { T a i l } }
+\Omega  
+( \Omega   , { \mathcal   { F } } , P )
+\Omega  
+{ \displaystyle   { \mathcal   { F } } \subseteq   2 ^ { \Omega   } }
+\Omega  
+{ \mathcal   { F } }
+{ \displaystyle   \Omega   \in   { \mathcal   { F } } }
+{ \mathcal   { F } }
+A \in \mathcal { F }
+{ \displaystyle   ( \Omega   \setminus   A ) \in   { \mathcal   { F } } }
+{ \mathcal   { F } }
+{ \displaystyle   A _ { i } \in   { \mathcal   { F } } }
+{ \displaystyle   i = 1 , 2 , \dots   }
+{ \displaystyle   \textstyle   ( \bigcup   _ { i = 1 } ^ { \infty   } A _ { i } ) \in   { \mathcal   { F } } }
+{ \mathcal   { F } }
+{ \displaystyle   A _ { i } \in   { \mathcal   { F } } }
+{ \displaystyle   i = 1 , 2 , \dots   }
+{ \displaystyle   \textstyle   ( \bigcap   _ { i = 1 } ^ { \infty   } A _ { i } ) \in   { \mathcal   { F } } }
+{ \displaystyle   P : { \mathcal   { F } } \to   [ 0 , 1 ] }
+{ \mathcal   { F } }
+{ \displaystyle   \{ A _ { i } \}_ { i = 1 } ^ { \infty   } \subseteq   { \mathcal   { F } } }
+{ \displaystyle   \textstyle   P ( \bigcup   _ { i = 1 } ^ { \infty   } A _ { i } ) = \sum   _ { i = 1 } ^ { \infty   } P ( A _ { i } ) , }
+{ \displaystyle   P ( \Omega   ) = 1 }
+\Omega  
+\Omega  
+{ \displaystyle   p : \Omega   \to   [ 0 , 1 ] }
+{ \displaystyle   \textstyle   \sum   _ { \omega   \in   \Omega   } p ( \omega   ) = 1 }
+\Omega  
+{ \displaystyle   { \mathcal   { F } } = 2 ^ { \Omega   } }
+{ \displaystyle   ( * ) \qquad   P ( A ) = \sum   _ { \omega   \in   A } p ( \omega   ) \quad   { \text { f o r   a l l   } } A \subseteq   \Omega   . }
+{ \displaystyle   { \mathcal   { F } } = 2 ^ { \Omega   } }
+{ \displaystyle   { \mathcal   { F } } \subseteq   2 ^ { \Omega   } }
+{ \displaystyle   \Omega   = B _ { 1 } \cup   B _ { 2 } \cup   \dots   }
+A \in \mathcal { F }
+{ \displaystyle   A = B _ { k _ { 1 } } \cup   B _ { k _ { 2 } } \cup   \dots   }
+{ \displaystyle   p ( \omega   ) = 0 }
+\omega  
+\scriptstyle   { \mathcal   { F } }
+\scriptstyle   { \mathcal   { F } }
+{ \displaystyle   ( \Omega   , \;{ \mathcal   { F } } , \;P ) }
+{ \displaystyle   B \,\in   \,{ \mathcal   { F } } }
+{ \displaystyle   P ( B ) \,=\;0 }
+{ \displaystyle   A \;\subset   \;B }
+{ \displaystyle   A \;\in   \;{ \mathcal   { F } } }
+{ \displaystyle   \Omega   = \{ { \text { H } } , { \text { T } } \ } }
+{ \displaystyle   { \mathcal   { F } } = 2 ^ { \Omega   } }
+{ \displaystyle   2 ^ { 2 } = 4 }
+{ \displaystyle   \{ { \text { H } } \ } }
+{ \displaystyle   \{ { \text { T } } \ } }
+\{ \ }
+{ \displaystyle   \{ { \text { H } } , { \text { T } } \ } }
+{ \displaystyle   { \mathcal   { F } } = \{ \{ \},\{ { \text { H } } \},\{ { \text { T } } \},\{ { \text { H } } , { \text { T } } \ } \ } }
+{ \displaystyle   P ( \{ \})=0 }
+{ \displaystyle   P ( \{ { \text { H } } \})=0 . 5 }
+{ \displaystyle   P ( \{ { \text { T } } \})=0 . 5 }
+{ \displaystyle   P ( \{ { \text { H } } , { \text { T } } \})=1 }
+\scriptstyle   { \mathcal   { F } }
+\scriptstyle   { \mathcal   { F } }
+\scriptstyle   { \mathcal   { F } }
+\scriptstyle   { \mathcal   { F } }
+\scriptstyle   { \mathcal   { F } }
+\scriptstyle   { \mathcal   { F } }
+\scriptstyle   { \mathcal   { F } }
+\scriptstyle   { \mathcal   { F } }
+\scriptstyle   { \mathcal   { F } }
+\scriptstyle   { \mathcal   { F } }
+\scriptstyle   { \mathcal   { F } }
+\scriptstyle   { \mathcal   { F } }
+\scriptstyle   { \mathcal   { F } }
+\scriptstyle   { \mathcal   { F } }
+\scriptstyle   { \mathcal   { F } }
+\scriptstyle   { \mathcal   { F } }
+\scriptstyle   { \mathcal   { F } }
+\scriptstyle   { \mathcal   { F } }
+P ( B | A ) = { P ( B \cap   A )   \over   P ( A ) }

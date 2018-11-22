@@ -1,0 +1,43 @@
+{ \mathcal   { U } } ( a , b )
+\mathrm   { u n i f }   ( a , b )
+- \infty   < a < b < \infty   \ ,
+x \in   [ a , b ]
+{ \begin { c a s e s } { \frac   { 1 } { b - a } } & { \text { f o r   } } x \in   [ a , b ] \\0 & { \text { o t h e r w i s e } } \end { c a s e s } }
+{ \begin { c a s e s } 0 & { \text { f o r   } } x < a \\{ \frac   { x - a } { b - a } } & { \text { f o r   } } x \in   [ a , b ) \\1 & { \text { f o r   } } x \geq   b \end { c a s e s } }
+{ \tfrac   { 1 } { 2 } } ( a + b )
+{ \tfrac   { 1 } { 2 } } ( a + b )
+( a , b )
+{ \tfrac   { 1 } { 1 2 } } ( b - a ) ^ { 2 }
+- { \tfrac   { 6 } { 5 } }
+\ln ( b - a ) \ ,
+{ \begin { c a s e s } { \frac   { \mathrm   { e }   ^ { t b } - \mathrm   { e }   ^ { t a } } { t ( b - a ) } } & { \text { f o r   } } t \neq   0 \\1 & { \text { f o r   } } t = 0 \end { c a s e s } }
+{ \frac   { \mathrm   { e }   ^ { i t b } - \mathrm   { e }   ^ { i t a } } { i t ( b - a ) } }
+f ( x ) = { \begin { c a s e s } { \frac   { 1 } { b - a } } & \mathrm   { f o r }   \ a \leq   x \leq   b , \\[8pt ] 0 & \mathrm   { f o r }   \ x < a \ \mathrm   { o r }   \ x > b \end { c a s e s } }
+f ( x ) = { \begin { c a s e s } { \frac   { 1 } { 2 \sigma   { \sqrt   { 3 } } } } & { \mbox { f o r   } } - \sigma   { \sqrt   { 3 } } \leq   x - \mu   \leq   \sigma   { \sqrt   { 3 } } \\0 & { \text { o t h e r w i s e } } \end { c a s e s } }
+F ( x ) = { \begin { c a s e s } 0 & { \text { f o r   } } x < a \\[8pt ] { \frac   { x - a } { b - a } } & { \text { f o r   } } a \leq   x \leq   b \\[8pt ] 1 & { \text { f o r   } } x > b \end { c a s e s } }
+F ^ { - 1 } ( p ) = a + p ( b - a ) \,\,{ \text {   f o r   } } 0 < p < 1
+F ( x ) = { \begin { c a s e s } 0 & { \text { f o r   } } x - \mu   < - \sigma   { \sqrt   { 3 } } \\{ \frac   { 1 } { 2 } } \left ( { \frac   { x - \mu   } { \sigma   { \sqrt   { 3 } } } } + 1 \right ) & { \text { f o r   } } - \sigma   { \sqrt   { 3 } } \leq   x - \mu   < \sigma   { \sqrt   { 3 } } \\1 & { \text { f o r   } } x - \mu   \geq   \sigma   { \sqrt   { 3 } } \end { c a s e s } }
+F ^ { - 1 } ( p ) = \sigma   { \sqrt   { 3 } } ( 2 p - 1 ) + \mu   \,\,{ \text {   f o r   } } 0 \leq   p \leq   1
+M _ { x } = E ( e ^ { t x } ) = { \frac   { e ^ { t b } - e ^ { t a } } { t ( b - a ) } } \ , \ !
+m _ { 1 } = { \frac   { a + b } { 2 } } , \ , \ !
+m _ { 2 } = { \frac   { a ^ { 2 } + a b + b ^ { 2 } } { 3 } } , \ , \ !
+m _ { k } = { \frac   { 1 } { k + 1 } } \sum   _ { i = 0 } ^ { k } a ^ { i } b ^ { k - i } . \ , \ !
+{ \displaystyle   f ( x ) = { \begin { c a s e s } { \frac   { 1 } { 2 b } } & { \text { f o r } } \ -b \leq   x \leq   b , \\[8pt ] 0 & { \text { o t h e r w i s e } } , \end { c a s e s } } }
+{ \displaystyle   M _ { x } = { \frac   { \sinh   b t } { b t } } . }
+E ( X ) = { \frac   { 1 } { 2 } } ( a + b ) .
+V ( X ) = { \frac   { 1 } { 1 2 } } ( b - a ) ^ { 2 }
+\operatorname   { E }   ( X _ { ( k ) } ) = { k   \over   n + 1 } .
+\operatorname   { V }   ( X _ { ( k ) } ) = { k ( n - k + 1 )   \over   ( n + 1 ) ^ { 2 } ( n + 2 ) } .
+P \left ( X \in   \left [ x , x + d \right ] \right ) = \int   _ { x } ^ { x + d } { \frac   { \mathrm   { d }   y } { b - a } } \,={ \frac   { d } { b - a } } \ , \ !
+a = 0
+b = 1
+f ( x ) = { \frac   { \operatorname   { H }   ( x - a ) - \operatorname   { H }   ( x - b ) } { b - a } } , \ , \ !
+f ( x ) = { \frac   { 1 } { b - a } } \,\operatorname   { r e c t }   \left ( { \frac   { x - \left ( { \frac   { a + b } { 2 } } \right ) } { b - a } } \right ) .
+f ( x ) = { \frac   { \operatorname   { s g n }   { ( x - a ) } - \operatorname   { s g n }   { ( x - b ) } } { 2 ( b - a ) } } .
+{ \displaystyle   { \hat   { b } } _ { \text { U M V U } } = { \frac   { k + 1 } { k } } m = m + { \frac   { m } { k } } }
+{ \hat   { b } } _ { M L } = m
+m = X _ { ( n ) }
+{ \displaystyle   { \hat   { b } } _ { M M } = 2 { \bar   { X } } - a }
+{ \bar   { X } }
+{ \displaystyle   f _ { n } ( X _ { ( n ) } ) = n { \frac   { 1 } { L } } \left ( { \frac   { X _ { ( n ) } } { L } } \right ) ^ { n - 1 } = n { \frac   { X _ { ( n ) } ^ { n - 1 } } { L ^ { n } } } , 0 < X _ { ( n ) } < L }
+{ \displaystyle   X _ { ( n ) } \leq   L \leq   X _ { ( n ) } / \alpha   ^ { 1 / n } }

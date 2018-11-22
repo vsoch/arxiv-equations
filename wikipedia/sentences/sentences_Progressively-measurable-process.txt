@@ -1,0 +1,32 @@
+( \Omega   , { \mathcal   { F } } , \mathbb   { P }   )
+( { \mathbb     { X } } , { \mathcal     { A } } )
+\{ { \mathcal     { F } } _ { { t } } \mid   t \geq   0 \ }
+{ \mathcal   { F } }
+X : [ 0 , \infty   ) \times   \Omega   \to   { \mathbb     { X } }
+[ 0 , T ]
+{ \mathbb     { N } } _ { { 0 } }
+[ 0 , \infty   )
+{ \displaystyle   \mathrm   { B o r e l }   ( [ 0 , t ] ) }
+[ 0 , t ]
+X
+t
+[ 0 , t ] \times   \Omega   \to   { \mathbb     { X } }
+( s , \omega   ) \mapsto   X _ { { s } } ( \omega   )
+{ \mathrm     { B o r e l } } ( [ 0 , t ] ) \otimes   { \mathcal     { F } } _ { { t } }
+X
+{ \mathcal     { F } } _ { { t } }
+P \subseteq   [ 0 , \infty   ) \times   \Omega  
+X _ { { s } } ( \omega   ) : = \chi   _ { { P } } ( s , \omega   )
+\chi   _ { { P } }
+P
+P
+[ 0 , \infty   ) \times   \Omega  
+{ \mathrm     { P r o g } }
+X
+{ \mathrm     { P r o g } }
+L ^ { 2 } ( B )
+X : [ 0 , T ] \times   \Omega   \to   { \mathbb     { R } } ^ { n }
+\int   _ { 0 } ^ { T } X _ { t } \,{ \mathrm     { d } } B _ { t }
+B
+{ \mathrm     { P r o g } }
+{ \displaystyle   L ^ { 2 } ( [ 0 , T ] \times   \Omega   ; \mathbb   { R }   ^ { n } ) }

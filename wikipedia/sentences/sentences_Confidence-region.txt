@@ -1,0 +1,32 @@
+{ \boldsymbol   { \beta   } }
+\mathbf { Y }   =   \mathbf { X } \boldsymbol { \beta }   +   \boldsymbol { \varepsilon }
+{ \boldsymbol   { \beta   } }
+\boldsymbol { \varepsilon }
+\sigma   ^ { 2 }
+{ \boldsymbol   { \beta   } }
+{ \displaystyle   ( { \boldsymbol   { \hat   { \beta   } } } - \mathbf   { b }   ) ^ { \prime   } \mathbf   { X }   ^ { \prime   } \mathbf   { X }   ( { \boldsymbol   { \hat   { \beta   } } } - \mathbf   { b }   ) \leq   p s ^ { 2 } F _ { 1 - \alpha   } ( p , \nu   ) , }
+\boldsymbol { \beta } ,
+{ \displaystyle   { \boldsymbol   { \hat   { \beta   } } } }
+\sigma   ^ { 2 }
+s ^ 2 = \frac { \varepsilon ^ \prime \varepsilon } { n   -   p } .
+  \nu   =   n   -   p
+\alpha  
+X ^ \prime
+X
+{ \displaystyle   ( { \boldsymbol   { \hat   { \beta   } } } - \mathbf   { b }   ) ^ { \prime   } \mathbf   { C }   _ { \mathbf   { \beta   }   } ^ { - 1 } ( { \boldsymbol   { \hat   { \beta   } } } - \mathbf   { b }   ) \leq   p F _ { 1 - \alpha   } ( p , \nu   ) , }
+{ \displaystyle   \mathbf   { C }   _ { \mathbf   { \beta   }   } = s ^ { 2 } \left ( \mathbf   { X }   ^ { \prime   } \mathbf   { X }   \right ) ^ { - 1 } }
+{ \displaystyle   { \boldsymbol   { \hat   { \beta   } } } }
+{ \displaystyle   { \boldsymbol   { \hat   { \beta   } } } }
+\boldsymbol { \varepsilon }
+\boldsymbol { \varepsilon }
+\mathbf { V } \sigma ^ 2
+\mathbf   { I }  
+\mathbf { P } ^ \prime \mathbf { P }   =   \mathbf { P } \mathbf { P }   =   \mathbf { V }
+\mathbf { Y }   =   \mathbf { X } \boldsymbol { \beta }   +   \boldsymbol { \varepsilon }
+\mathbf { Z }   =   \mathbf { Q } \boldsymbol { \beta }   +   \mathbf { f }   ,
+\mathbf { Z }   =   \mathbf { P } ^ { - 1 } \mathbf { Y }
+\mathbf { Q }   =   \mathbf { P } ^ { - 1 } \mathbf { X }
+\mathbf { f }   =   \mathbf { P } ^ { - 1 } \boldsymbol { \varepsilon }
+{ \boldsymbol   { \beta   } }
+{ \displaystyle   ( \mathbf   { b }   - { \boldsymbol   { \hat   { \beta   } } } ) ^ { \prime   } \mathbf   { Q }   ^ { \prime   } \mathbf   { Q }   ( \mathbf   { b }   - { \boldsymbol   { \hat   { \beta   } } } ) = { \frac   { p } { n - p } } ( \mathbf   { Z }   ^ { \prime   } \mathbf   { Z }   - \mathbf   { b }   ^ { \prime   } \mathbf   { Q }   ^ { \prime   } \mathbf   { Z }   ) F _ { 1 - \alpha   } ( p , n - p ) . }
+\chi   ^ { 2 }

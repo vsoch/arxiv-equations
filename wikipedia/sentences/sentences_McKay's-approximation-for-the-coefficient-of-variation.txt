@@ -1,0 +1,17 @@
+x _ { i }
+{ \displaystyle   i = 1 , 2 , \ldots   , n }
+n
+{ \displaystyle   N ( \mu   , \sigma   ^ { 2 } ) }
+{ \displaystyle   c _ { v } = \sigma   / \mu   }
+{ \bar   { x } }
+{ \displaystyle   s \ , }
+{ \displaystyle   { \hat   { c } } _ { v } = s / { \bar   { x } } }
+{ \displaystyle   K = \left ( 1 + { \frac   { 1 } { c _ { v } ^ { 2 } } } \right ) \ { \frac   { ( n - 1 ) \ { \hat   { c } } _ { v } ^ { 2 } } { 1 + ( n - 1 ) \ { \hat   { c } } _ { v } ^ { 2 } / n } } }
+c _ { v }
+K
+{ \displaystyle   n - 1 }
+K
+\sigma   ^ { 2 }
+n
+{ \displaystyle   n - 1 }
+K

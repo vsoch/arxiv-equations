@@ -1,0 +1,35 @@
+P ( N ) = { \frac   { k } { N } }
+P ( N \mid   n ) = { \frac   { P ( n \mid   N ) P ( N ) } { P ( n ) } } .
+P ( n \mid   N ) = { \frac   { 1 } { N } }
+P ( n ) = { \frac   { k } { n } }
+P ( N \mid   n ) = { \frac   { n } { N ^ { 2 } } }
+P ( N \leq   Z ) = \int   _ { N = n } ^ { N = Z } P ( N | n ) \,dN
+= { \frac   { Z - n } { Z } }
+P ( N \leq   2 0 n ) = { \frac   { 1 9 } { 2 0 } }
+P ( N \leq   4 0 [ 2 0 0 0 0 0 ] ) = { \frac   { 3 9 } { 4 0 } }
+N = { \frac   { e ^ { U ( 0 , q ] } } { c } }
+\Pr ( N ) = { \frac   { k } { N ^ { \alpha   } } } , 0 < \alpha   < 1 .
+\alpha  
+\Pr ( n ) = \int   _ { N = n } ^ { N = \infty   } \Pr ( n \mid   N ) \Pr ( N ) \,dN = \int   _ { n } ^ { \infty   } { \frac   { k } { N ^ { ( \alpha   + 1 ) } } } \,dN = { \frac   { k } { { \alpha   } n ^ { \alpha   } } }
+\Pr ( N \mid   n ) = { \frac   { { \alpha   } n ^ { \alpha   } } { N ^ { ( 1 + \alpha   ) } } } .
+\Pr ( N > x n ) = \int   _ { N = x n } ^ { N = \infty   } \Pr ( N \mid   n ) \,dN = { \frac   { 1 } { x ^ { \alpha   } } } .
+\alpha  
+\Pr ( N > 2 0 n ) = { \frac   { 1 } { \sqrt   { 2 0 } } } \simeq   2 2 . 3 \ % .
+\alpha  
+\alpha  
+\alpha  
+\alpha   \to   0
+\alpha   \leq   1
+\alpha  
+E ( N ) = \int   _ { 0 } ^ { 1 } { n   \over   f } \,df = n \ln ( 1 ) - n \ln ( 0 ) = + \infty   .
+P ( H _ { T S } | D _ { p } X ) / P ( H _ { T L } | D _ { p } X ) = [ P ( H _ { F S } | X ) / P ( H _ { F L } | X ) ] \cdot   [ P ( D _ { p } | H _ { T S } X ) / P ( D _ { p } | H _ { T L } X ) ]
+\mathbb   { P }   ( A \mid   E ) = { \frac   { \mathbb   { P }   ( E \mid   A ) \cdot   \mathbb   { P }   ( A ) } { \mathbb   { P }   ( E ) } }
+\mathbb   { P }   ( E \mid   A ) = 1 0 \%\ ,\ \mathbb   { P }   ( E \mid   B ) = 0 . 1 0 \ %
+\mathbb   { P }   ( A ) = { \frac   { 1 } { 1 0 0 } } \ ,\ \mathbb   { P }   ( B ) = { \frac   { 9 9 } { 1 0 0 } }
+\mathbb   { P }   ( E ) = \mathbb   { P }   ( E \cap   A ) + \mathbb   { P }   ( E \cap   B ) = \mathbb   { P }   ( E \mid   A ) \cdot   \mathbb   { P }   ( A ) + \mathbb   { P }   ( E \mid   B ) \cdot   \mathbb   { P }   ( B ) = { \frac   { 1 9 . 9 } { 1 0 0 0 0 } }
+{ \displaystyle   \mathbb   { P }   ( A \mid   E ) = { \frac   { 1 0 } { 1 9 . 9 } } = 5 0 . 2 5 \ % }
+{ \displaystyle   \mathbb   { P }   ( B \mid   E ) = { \frac   { 9 . 9 } { 1 9 . 9 } } = 4 9 . 7 5 \ % }
+{ \displaystyle   \mathbb   { P }   ( B \mid   E ) = { \frac   { 0 . 1 \%\times   5 \cdot   1 0 ^ { 1 2 } \times   9 9 \%}{ 0 . 1 \%\times   5 \cdot   1 0 ^ { 1 2 } \times   9 9 \%+10 \%\times   5 0 \cdot   1 0 ^ { 9 } \times   1 \%}}={ \frac   { 9 9 \%}{ 9 9 \%+1 \%}}=99 \%=\mathbb   { P }   ( B ) }
+\mathbb   { P }   ( A \mid   E ) = { \frac   { 1 \%}{ 9 9 \%+1 \%}}=1 \%=\mathbb   { P }   ( A )
+P ( n ) = \int   _ { N = n } ^ { N = \infty   } P ( n \mid   N ) P ( N ) \,dN = \int   _ { n } ^ { \infty   } { \frac   { k } { N ^ { 2 } } } \,dN
+= { \frac   { k } { n } } .

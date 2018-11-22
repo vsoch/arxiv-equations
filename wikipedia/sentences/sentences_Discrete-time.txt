@@ -1,0 +1,19 @@
+f ( t ) = \sin ( t ) , \quad   t \in   { \mathbb     { R } }
+f ( t ) = \sin ( t ) , \quad   t \in   [ - \pi   , \pi   ]
+f ( t ) = 0
+f ( t ) = { \frac     { 1 } { t } } , \quad   t \in   [ 0 , 1 ]
+f ( t ) = 0
+t = 0 \ ,
+t ^ { - 1 }
+t ^ { { - 2 } }
+x _ { { t + 1 } } = r x _ { t } ( 1 - x _ { t } ) ,
+r = 4
+x _ { 1 } = 1 / 3
+x _ { 2 } = 4 ( 1 / 3 ) ( 2 / 3 ) = 8 / 9
+x _ { 3 } = 4 ( 8 / 9 ) ( 1 / 9 ) = 3 2 / 8 1
+P _ { { t + 1 } } = P _ { t } + \delta   \cdot   f ( P _ { t } , . . . )
+\delta  
+f
+{ \frac     { d P } { d t } } = \lambda   \cdot   f ( P , . . . )
+\lambda  
+f

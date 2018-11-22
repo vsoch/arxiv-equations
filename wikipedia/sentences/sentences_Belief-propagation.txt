@@ -1,0 +1,23 @@
+{ \displaystyle   p _ { X _ { i } } ( x _ { i } ) = \sum   _ { \mathbf   { x }   ' : x ' _ { i } \neq   x _ { i } } p ( \mathbf   { x }   ' ) . }
+p ( \mathbf   { x }   ) = \prod   _ { a \in   F } f _ { a } ( \mathbf   { x }   _ { a } )
+\mu   _ { v \to   a }
+\mu   _ { a \to   v }
+\forall   x _ { v } \in   D o m ( v ) , \;\mu   _ { v \to   a } ( x _ { v } ) = \prod   _ { a ^ { * } \in   N ( v ) \setminus   \{ a \}}\mu   _ { a ^ { * } \to   v } ( x _ { v } ) .
+N ( v ) \setminus   \{ a \ }
+\mu   _ { v \to   a } ( x _ { v } )
+{ \displaystyle   \forall   x _ { v } \in   D o m ( v ) , \;\mu   _ { a \to   v } ( x _ { v } ) = \sum   _ { \mathbf   { x }   ' _ { a } : x ' _ { v } = x _ { v } } f _ { a } ( \mathbf   { x }   ' _ { a } ) \prod   _ { v ^ { * } \in   N ( a ) \setminus   \{ v \}}\mu   _ { v ^ { * } \to   a } ( x ' _ { v ^ { * } } ) . }
+N ( a ) \setminus   \{ v \ }
+\mu   _ { a \to   v } ( x _ { v } ) = f _ { a } ( x _ { v } )
+x _ { v } = x _ { a }
+p _ { X _ { v } } ( x _ { v } ) \propto   \prod   _ { a \in   N ( v ) } \mu   _ { a \to   v } ( x _ { v } ) .
+p _ { X _ { a } } ( \mathbf   { x }   _ { a } ) \propto   f _ { a } ( \mathbf   { x }   _ { a } ) \prod   _ { v \in   N ( a ) } \mu   _ { v \to   a } ( x _ { v } ) .
+\mathbf   { x }  
+{ \displaystyle   \operatorname   { * }   { \arg   \max   } _ { \mathbf   { x }   } g ( \mathbf   { x }   ) . }
+P ( \mathbf   { X }   ) = { \frac   { 1 } { Z } } \prod   _ { f _ { j } } f _ { j } ( x _ { j } )
+E ( \mathbf   { X }   ) = \log   \prod   _ { f _ { j } } f _ { j } ( x _ { j } ) .
+F = U - H = \sum   _ { \mathbf   { X }   } P ( \mathbf   { X }   ) E ( \mathbf   { X }   ) + \sum   _ { \mathbf   { X }   } P ( \mathbf   { X }   ) \log   P ( \mathbf   { X }   ) .
+P ( x _ { i } ) = { \frac   { 1 } { Z } } \int   _ { j \neq   i } \exp ( - 1 / 2 x ^ { T } A x + b ^ { T } x ) \,dx_ { j }
+{ \underset   { x } { \operatorname   { a r g m a x }   } } \ P ( x ) = { \frac   { 1 } { Z } } \exp ( - 1 / 2 x ^ { T } A x + b ^ { T } x ) .
+{ \underset   { x } { \operatorname   { m i n }   } } \ 1 / 2 x ^ { T } A x - b ^ { T } x .
+A x = b .
+\rho   ( I - | D ^ { - 1 / 2 } A D ^ { - 1 / 2 } | ) < 1 \ ,

@@ -1,0 +1,1 @@
+{ \displaystyle   { \text { t o t a l   c a s e s } } = A + C = 1 . 9 6 ^ { 2 } ( 1 + N ) \left ( { \frac   { 1 } { \ln ( O R ) } } \right ) ^ { 2 } \left ( { \frac   { O R + 2 { \sqrt   { O R } } + 1 } { \sqrt   { O R } } } \right ) \approx   1 5 . 5 ( 1 + N ) \left ( { \frac   { 1 } { \ln ( O R ) } } \right ) ^ { 2 } }

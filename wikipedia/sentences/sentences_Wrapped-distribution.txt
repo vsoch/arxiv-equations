@@ -1,0 +1,70 @@
+p ( \phi   )
+\theta   = \phi   \mod   2 \pi  
+2 \pi  
+p _ { w } ( \theta   ) = \sum   _ { { k = - \infty   } } ^ { \infty   } { p ( \theta   + 2 \pi   k ) } .
+2 \pi  
+( - \pi   < \theta   \leq   \pi   )
+\ln ( e ^ { { i \theta   } } ) = \arg ( e ^ { { i \theta   } } ) = \theta  
+\phi  
+p ( \phi   )
+\theta  
+2 \pi  
+[ 0 , 2 \pi )
+\phi  
+\phi   + 2 \pi   a
+\theta   = \phi   + 2 \pi   a .
+\langle   f ( \theta   ) \rangle   = \int   _ { { - \infty   } } ^ { \infty   } p ( \phi   ) f ( \phi   + 2 \pi   a ) d \phi   .
+2 \pi  
+2 \pi  
+\langle   f ( \theta   ) \rangle   = \sum   _ { { k = - \infty   } } ^ { \infty   } \int   _ { { 2 \pi   k } } ^ { { 2 \pi   ( k + 1 ) } } p ( \phi   ) f ( \phi   + 2 \pi   a ) d \phi   .
+\theta   ' = \phi   - 2 \pi   k
+\langle   f ( \theta   ) \rangle   = \int   _ { 0 } ^ { { 2 \pi   } } p _ { w } ( \theta   ' ) f ( \theta   ' + 2 \pi   a ' ) d \theta   '
+p _ { w } ( \theta   ' )
+f ( \theta   )
+z = e ^ { i \theta   }
+\phi  
+z = e ^ { { i \theta   } } = e ^ { { i \phi   } } .
+\langle   f ( z ) \rangle   = \int   _ { 0 } ^ { { 2 \pi   } } p _ { w } ( \theta   ' ) f ( e ^ { { i \theta   ' } } ) d \theta   '
+\theta  
+{ \displaystyle   \langle   f ( z ) \rangle   = \oint   p _ { w z } ( z ) f ( z ) \,dz }
+p _ { w } ( z )
+{ \displaystyle   p _ { w } ( \theta   ) \,|d \theta   | = p _ { w z } ( z ) \,|dz | }
+F
+p _ { w } ( { \vec     \theta   } ) = \sum   _ { { k _ { 1 } , . . . , k _ { F } = - \infty   } } ^ { { \infty   } } { p ( { \vec     \theta   } + 2 \pi   k _ { 1 } { \mathbf     { e } } _ { 1 } + \dots   + 2 \pi   k _ { F } { \mathbf     { e } } _ { F } ) }
+\mathbf   { e }   _ { k } = ( 0 , \dots   , 0 , 1 , 0 , \dots   , 0 ) ^ { \mathsf   { T } }
+k
+\Delta   _ { { 2 \pi   } } ( \theta   ) = \sum   _ { { k = - \infty   } } ^ { { \infty   } } { \delta   ( \theta   + 2 \pi   k ) } .
+p _ { w } ( \theta   ) = \sum   _ { { k = - \infty   } } ^ { { \infty   } } \int   _ { { - \infty   } } ^ { \infty   } p ( \theta   ' ) \delta   ( \theta   - \theta   ' + 2 \pi   k ) \,d \theta   ' .
+p _ { w } ( \theta   ) = \int   _ { { - \infty   } } ^ { \infty   } p ( \theta   ' ) \Delta   _ { { 2 \pi   } } ( \theta   - \theta   ' ) \,d \theta   ' .
+p _ { w } ( \theta   ) = { \frac     { 1 } { 2 \pi   } } \,\int   _ { { - \infty   } } ^ { \infty   } p ( \theta   ' ) \sum   _ { { n = - \infty   } } ^ { { \infty   } } e ^ { { i n ( \theta   - \theta   ' ) } } \,d \theta   '
+{ \displaystyle   p _ { w } ( \theta   ) = { \frac   { 1 } { 2 \pi   } } \,\sum   _ { n = - \infty   } ^ { \infty   } \int   _ { - \infty   } ^ { \infty   } p ( \theta   ' ) e ^ { i n ( \theta   - \theta   ' ) } \,d \theta   ' }
+\phi   ( s )
+p ( \theta   )
+{ \displaystyle   p _ { w } ( \theta   ) = { \frac   { 1 } { 2 \pi   } } \,\sum   _ { n = - \infty   } ^ { \infty   } \phi   ( n ) \,e ^ { - i n \theta   } }
+{ \displaystyle   p _ { w z } ( z ) = { \frac   { 1 } { 2 \pi   } } \,\sum   _ { n = - \infty   } ^ { \infty   } \phi   ( n ) \,z ^ { - n } . }
+\phi   ( m )
+p _ { w } ( z )
+{ \displaystyle   \langle   z ^ { m } \rangle   = \oint   p _ { w z } ( z ) z ^ { m } \,dz . }
+p _ { w } ( z )
+{ \displaystyle   \langle   z ^ { m } \rangle   = { \frac   { 1 } { 2 \pi   } } \sum   _ { n = - \infty   } ^ { \infty   } \phi   ( n ) \oint   z ^ { m - n } \,dz . }
+{ \displaystyle   \oint   z ^ { m - n } \,dz = 2 \pi   \delta   _ { m - n } }
+\delta   _ { k }
+{ \displaystyle   \langle   z ^ { m } \rangle   = \phi   ( m ) . }
+{ \displaystyle   Z = e ^ { i X } }
+{ \displaystyle   \theta   = \arg ( Z ) }
+{ \displaystyle   - \pi   < \theta   \leq   \pi   }
+{ \displaystyle   p _ { w } ( \theta   ) }
+{ \displaystyle   H = - \int   _ { \Gamma   } p _ { w } ( \theta   ) \,\ln ( p _ { w } ( \theta   ) ) \,d \theta   }
+\Gamma  
+2 \pi  
+\phi   ( n )
+{ \displaystyle   p _ { w } ( \theta   ) = { \frac   { 1 } { 2 \pi   } } \sum   _ { n = - \infty   } ^ { \infty   } \phi   _ { n } e ^ { - i n \theta   } }
+{ \displaystyle   \ln ( p _ { w } ( \theta   ) ) = \sum   _ { m = - \infty   } ^ { \infty   } c _ { m } e ^ { i m \theta   } }
+{ \displaystyle   c _ { m } = { \frac   { 1 } { 2 \pi   } } \int   _ { \Gamma   } \ln ( p _ { w } ( \theta   ) ) e ^ { - i m \theta   } \,d \theta   }
+{ \displaystyle   H = - { \frac   { 1 } { 2 \pi   } } \sum   _ { m = - \infty   } ^ { \infty   } \sum   _ { n = - \infty   } ^ { \infty   } c _ { m } \phi   _ { n } \int   _ { \Gamma   } e ^ { i ( m - n ) \theta   } \,d \theta   }
+{ \displaystyle   H = - \sum   _ { n = - \infty   } ^ { \infty   } c _ { n } \phi   _ { n } }
+{ \displaystyle   c _ { - m } = c _ { m } }
+{ \displaystyle   \ln ( p _ { w } ( \theta   ) ) = c _ { 0 } + 2 \sum   _ { m = 1 } ^ { \infty   } c _ { m } \cos ( m \theta   ) }
+{ \displaystyle   c _ { m } = { \frac   { 1 } { 2 \pi   } } \int   _ { \Gamma   } \ln ( p _ { w } ( \theta   ) ) \cos ( m \theta   ) \,d \theta   }
+{ \displaystyle   \phi   _ { 0 } = 1 }
+{ \displaystyle   H = - c _ { 0 } - 2 \sum   _ { n = 1 } ^ { \infty   } c _ { n } \phi   _ { n } }

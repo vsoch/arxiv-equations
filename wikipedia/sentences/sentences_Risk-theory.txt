@@ -1,0 +1,40 @@
+X _ t   =   x   +   c t   -   \sum_ { i = 1 } ^ { N _ t }   \xi_i   \quad   \text {   f o r   t }   \geq   0 .
+\psi ( x ) = \mathbb { P } ^ x \{ \tau < \infty \ }
+\scriptstyle   \tau = \inf \{ t > 0   \,:\, X ( t ) < 0 \ }
+\scriptstyle   \inf \varnothing = \infty
+\psi ( x ) = \left ( 1 - \frac { \lambda   \mu } { c } \right )   \sum_ { n = 0 } ^ \infty   \left ( \frac { \lambda   \mu } { c } \right ) ^ n   ( 1 - F ^ { \ast   n } _ l ( x ) )
+\scriptstyle   F ^ { \ast   n } _ l ( x )
+F _ l ( x )   =   \frac { 1 } { \mu }   \int_0 ^ x   \left ( 1 - F ( u ) \right )   \text { d } u .
+{ \displaystyle   \psi   ( x ) = { \frac   { \lambda   \mu   } { c } } e ^ { - \left ( { \frac   { 1 } { \mu   } } - { \frac   { \lambda   } { c } } \right ) x } . }
+X _ t   =   x   +   c t   -   \sum_ { i = 1 } ^ { N _ t }   \xi_i   \quad   \text {   f o r   } t   \geq   0 ,
+( N _ { t } ) _ { { t \geq   0 } }
+( \xi   _ { i } ) _ { { i \in   { \mathbb     { N } } } }
+\xi   _ { i } > 0
+( N _ { t } ) _ { { t \geq   0 } }
+( \xi   _ { i } ) _ { { i \in   { \mathbb     { N } } } }
+m ( x ) = \mathbb { E } ^ x [ e ^ { - \delta \tau } K _ { \tau } ]
+\delta  
+K _ { \tau }
+\mathbb { E } ^ x
+\mathbb { P } ^ x
+m ( x ) = \mathbb { E } ^ x [ e ^ { - \delta \tau } w ( X _ { \tau - } , X _ { \tau } ) \mathbb { I } ( \tau < \infty ) ]
+\delta  
+w ( X _ { \tau - } , X _ { \tau } )
+X _ { \tau - }
+X _ { \tau }
+\mathbb { E } ^ x
+\mathbb { P } ^ x
+\mathbb { I } ( \tau < \infty )
+\tau  
+e ^ { - \delta \tau }
+\tau  
+\mathbb { P } ^ x \{ \tau < \infty \ }
+\delta = 0 , w ( x _ 1 , x _ 2 ) = 1
+\mathbb { P } ^ x \{ X _ { \tau - } < x , X _ \tau < y \ }
+\delta = 0 , w ( x _ 1 , x _ 2 ) = \mathbb { I } ( x _ 1 < x , x _ 2 < y )
+\mathbb { P } ^ x \{ X _ { \tau - } - X _ \tau < z \ }
+\delta = 0 , w ( x _ 1 , x _ 2 ) = \mathbb { I } ( x _ 1 + x _ 2 < z )
+\mathbb { E } ^ x [ e ^ { - \delta   \tau   - s   X _ { \tau - } - z   X _ \tau } ]
+w ( x _ 1 , x _ 2 ) = e ^ { - s   x _ 1 - z   x _ 2 }
+\mathbb { E } ^ x [ X _ { \tau - } ^ j X _ \tau ^ k ]
+\delta = 0 , w ( x _ 1 , x _ 2 ) = x _ 1 ^ j x _ 2 ^ k

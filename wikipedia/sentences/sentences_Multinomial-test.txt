@@ -1,0 +1,36 @@
+N
+k
+{ \mathbf     { x } } = ( x _ { 1 } , x _ { 2 } , \dots   , x _ { k } )
+\textstyle   \sum   _ { { i = 1 } } ^ { k } x _ { { i } } = N
+H _ { 0 } : { \mathbf     { \pi   } } = ( \pi   _ { { 1 } } , \pi   _ { { 2 } } , \dots   , \pi   _ { { k } } )
+\textstyle   \sum   _ { { i = 1 } } ^ { k } \pi   _ { { i } } = 1
+{ \mathbf     { x } }
+\Pr ( { \mathbf     { x ) _ { 0 } } } = N ! \prod   _ { { i = 1 } } ^ { k } { \frac     { \pi   _ { { i } } ^ { { x _ { i } } } } { x _ { i } ! } } .
+\Pr ( { \mathbf     { s i g } } ) = \sum   _ { { y : P r ( { \mathbf     { y } } ) \leq   P r ( { \mathbf     { x ) _ { 0 } } } } } \Pr ( { \mathbf     { y } } )
+k
+N
+\pi   _ { { i } }
+p _ { { i } } = x _ { { i } } / N
+{ \mathbf     { x } }
+\Pr ( { \mathbf     { x ) _ { A } } } = N ! \prod   _ { { i = 1 } } ^ { k } { \frac     { p _ { { i } } ^ { { x _ { i } } } } { x _ { i } ! } } .
+- 2
+{ \displaystyle   - 2 \ln ( L / R ) = \textstyle   - 2 \sum   _ { i = 1 } ^ { k } x _ { i } \ln ( \pi   _ { i } / p _ { i } ) . }
+N
+- 2 \ln ( L R )
+k - 1
+- 2 \ln ( L R )
+N ^ { { - 1 } }
+N ^ { { - 2 } }
+q _ { 1 } = 1 + { \frac     { \sum   _ { { i = 1 } } ^ { k } \pi   _ { { i } } ^ { { - 1 } } - 1 } { 6 N ( k - 1 ) } } .
+\pi   _ { { i } }
+1 / k
+q _ { 1 } = 1 + { \frac     { k + 1 } { 6 N } } .
+N ^ { { - 3 } }
+\pi   _ { { i } }
+q _ { 2 } = 1 + { \frac     { k + 1 } { 6 N } } + { \frac     { k ^ { 2 } } { 6 N ^ { 2 } } } .
+\chi   ^ { 2 } = \sum   _ { { i = 1 } } ^ { { k } } { ( x _ { i } - E _ { i } ) ^ { 2 }   \over   E _ { i } }
+E _ { i } = N \pi   _ { i }
+i
+k - 1
+- 2 \ln ( L R )
+- 2 \ln ( L R )

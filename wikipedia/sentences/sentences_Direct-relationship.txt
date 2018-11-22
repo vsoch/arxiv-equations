@@ -1,0 +1,7 @@
+{ \displaystyle   y = k x . }
+{ \displaystyle   y \propto   x , }
+{ \displaystyle   k = { \frac   { y } { x } } }
+y = k x
+x = \left ( { \frac   { 1 } { k } } \right ) y ,
+y = \left ( { \frac   { k } { x } } \right )
+{ \displaystyle   x y = k . }

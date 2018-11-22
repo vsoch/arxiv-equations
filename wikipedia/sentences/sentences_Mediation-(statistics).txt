@@ -1,0 +1,30 @@
+\to  
+Y = \beta   _ { { 1 0 } } + \beta   _ { { 1 1 } } X + \varepsilon   _ { 1 }
+\to  
+M e = \beta   _ { { 2 0 } } + \beta   _ { { 2 1 } } X + \varepsilon   _ { 2 }
+Y = \beta   _ { { 3 0 } } + \beta   _ { { 3 1 } } X + \beta   _ { { 3 2 } } M e + \varepsilon   _ { 3 }
+\to  
+\to  
+Y = \beta   _ { { 4 0 } } + \beta   _ { { 4 1 } } X + \beta   _ { { 4 2 } } M o + \beta   _ { { 4 3 } } X M o + \varepsilon   _ { 4 }
+M e = \beta   _ { { 5 0 } } + \beta   _ { { 5 1 } } X + \beta   _ { { 5 2 } } M o + \beta   _ { { 5 3 } } X M o + \varepsilon   _ { 5 }
+Y = \beta   _ { { 6 0 } } + \beta   _ { { 6 1 } } X + \beta   _ { { 6 2 } } M o + \beta   _ { { 6 3 } } X M o + \beta   _ { { 6 4 } } M e + \beta   _ { { 6 5 } } M e M o + \varepsilon   _ { 6 }
+{ \displaystyle   X = f ( \varepsilon   _ { 1 } ) , ~ ~ M = g ( X , \varepsilon   _ { 2 } ) , ~ ~ Y = h ( X , M , \varepsilon   _ { 3 } ) , }
+{ \displaystyle   X = f ( \varepsilon   _ { 1 } ) , ~ ~ M = m , ~ ~ Y = h ( X , m , \varepsilon   _ { 3 } ) }
+{ \displaystyle   X = x , M = g ( x , \varepsilon   _ { 2 } ) , Y = h ( x , M , \varepsilon   _ { 3 } ) }
+T E = E [ Y ( 1 ) - Y ( 0 ) ]
+C D E ( m ) = E [ Y ( 1 , m ) - Y ( 0 , m ) ]
+N D E = E [ Y ( 1 , M ( 0 ) ) - Y ( 0 , M ( 0 ) ) ]
+  N I E   =   E   [ Y ( 0 , M ( 1 ) )   -   Y ( 0 , M ( 0 ) ) ]  
+T E = N D E - N I E _ { r }
+{ \displaystyle   { \begin { a l i g n e d } T E & = C + A B \\CDE ( m ) & = N D E = C , { \text {   i n d e p e n d e n t   o f   } } m \\NIE & = A B . \end { a l i g n e d } } }
+{ \displaystyle   { \begin { a l i g n e d } T E & = E ( Y \mid   X = 1 ) - E ( Y \mid   X = 0 ) \\CDE ( m ) & = E ( Y \mid   X = 1 , M = m ) - E ( Y \mid   X = 0 , M = m ) \\NDE & = \sum   _ { m } [ E ( Y | X = 1 , M = m ) - E ( Y \mid   X = 0 , M = m ) ] P ( M = m \mid   X = 0 ) \\NIE & = \sum   _ { m } [ P ( M = m \mid   X = 1 ) - P ( M = m \mid   X = 0 ) ] E ( Y \mid   X = 0 , M = m ) . \end { a l i g n e d } } }
+{ \displaystyle   { \begin { a l i g n e d } X & = \varepsilon   _ { 1 } \\M & = b _ { 0 } + b _ { 1 } X + \varepsilon   _ { 2 } \\Y & = c _ { 0 } + c _ { 1 } X + c _ { 2 } M + c _ { 3 } X M + \varepsilon   _ { 3 } \end { a l i g n e d } } }
+c _ { 3 }
+T E
+T E
+b _ { 1 } c _ { 2 } / T E
+( T E - c _ { 1 } ) / T E
+{ \begin { a l i g n e d } N D E & = c _ { 1 } + b _ { 0 } c _ { 3 } \\NIE & = b _ { 1 } c _ { 2 } \\TE & = c _ { 1 } + b _ { 0 } c _ { 3 } + b _ { 1 } ( c _ { 2 } + c _ { 3 } ) \\&=NDE + N I E + b _ { 1 } c _ { 3 } . \end { a l i g n e d } }
+{ \displaystyle   { \frac   { N I E } { T E } } = { \frac   { b _ { 1 } c _ { 2 } } { c _ { 1 } + b _ { 0 } c _ { 3 } + b _ { 1 } ( c _ { 2 } + c _ { 3 } ) } } , }
+{ \displaystyle   1 - { \frac   { N D E } { T E } } = { \frac   { b _ { 1 } ( c _ { 2 } + c _ { 3 } ) } { c _ { 1 } + b _ { 0 } c _ { 3 } + b _ { 1 } ( c _ { 2 } + c _ { 3 } ) } } . }
+c _ { 1 }

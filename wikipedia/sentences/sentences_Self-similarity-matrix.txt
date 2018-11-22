@@ -1,0 +1,5 @@
+V = ( v _ { 1 } , v _ { 2 } , \ldots   , v _ { n } )
+v _ { i }
+S ( j , k ) = s ( v _ { j } , v _ { k } ) \quad   j , k \in   ( 1 , \ldots   , n )
+s ( v _ { j } , v _ { k } )
+s ( v _ { j } , v _ { k } ) = v _ { j } \cdot   v _ { k }

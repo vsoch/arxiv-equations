@@ -1,0 +1,40 @@
+{ \displaystyle   { \frac   { \sqrt   { \frac   { ( d _ { 1 } \,x ) ^ { d _ { 1 } } \,\,d_ { 2 } ^ { d _ { 2 } } } { ( d _ { 1 } \,x + d _ { 2 } ) ^ { d _ { 1 } + d _ { 2 } } } } } { x \,\mathrm   { B }   \!\left ( { \frac   { d _ { 1 } } { 2 } } , { \frac   { d _ { 2 } } { 2 } } \right ) } } \ ! }
+I _ { { { \frac     { d _ { 1 } x } { d _ { 1 } x + d _ { 2 } } } } } \left ( { \tfrac     { d _ { 1 } } { 2 } } , { \tfrac     { d _ { 2 } } { 2 } } \right )
+{ \frac     { d _ { 2 } } { d _ { 2 } - 2 } } \ !
+{ \frac     { d _ { 1 } - 2 } { d _ { 1 } } } \;{ \frac     { d _ { 2 } } { d _ { 2 } + 2 } }
+{ \frac     { 2 \,d_ { 2 } ^ { 2 } \,( d _ { 1 } + d _ { 2 } - 2 ) } { d _ { 1 } ( d _ { 2 } - 2 ) ^ { 2 } ( d _ { 2 } - 4 ) } } \ !
+{ \frac     { ( 2 d _ { 1 } + d _ { 2 } - 2 ) { \sqrt     { 8 ( d _ { 2 } - 4 ) } } } { ( d _ { 2 } - 6 ) { \sqrt     { d _ { 1 } ( d _ { 1 } + d _ { 2 } - 2 ) } } } } \ !
+{ \displaystyle   \ln   \Gamma   \left ( { \tfrac   { d _ { 1 } } { 2 } } \right ) + \ln   \Gamma   \left ( { \tfrac   { d _ { 2 } } { 2 } } \right ) - \ln   \Gamma   \left ( { \tfrac   { d _ { 1 } + d _ { 2 } } { 2 } } \right ) + \ ! }
+{ \displaystyle   \left ( 1 - { \tfrac   { d _ { 1 } } { 2 } } \right ) \psi   \left ( 1 + { \tfrac   { d _ { 1 } } { 2 } } \right ) - \left ( 1 + { \tfrac   { d _ { 2 } } { 2 } } \right ) \psi   \left ( 1 + { \tfrac   { d _ { 2 } } { 2 } } \right ) \ ! }
+{ \displaystyle   + \left ( { \tfrac   { d _ { 1 } + d _ { 2 } } { 2 } } \right ) \psi   \left ( { \tfrac   { d _ { 1 } + d _ { 2 } } { 2 } } \right ) + \ln   { \frac   { d _ { 1 } } { d _ { 2 } } } \ ! }
+{ \begin { a l i g n e d } f ( x ; d _ { 1 } , d _ { 2 } ) & = { \frac     { { \sqrt     { { \frac     { ( d _ { 1 } \,x ) ^ { { d _ { 1 } } } \,\,d_ { 2 } ^ { { d _ { 2 } } } } { ( d _ { 1 } \,x + d _ { 2 } ) ^ { { d _ { 1 } + d _ { 2 } } } } } } } } { x \,{ \mathrm     { B } } \!\left ( { \frac     { d _ { 1 } } { 2 } } , { \frac     { d _ { 2 } } { 2 } } \right ) } } \\&={ \frac     { 1 } { { \mathrm     { B } } \!\left ( { \frac     { d _ { 1 } } { 2 } } , { \frac     { d _ { 2 } } { 2 } } \right ) } } \left ( { \frac     { d _ { 1 } } { d _ { 2 } } } \right ) ^ { { { \frac     { d _ { 1 } } { 2 } } } } x ^ { { { \frac     { d _ { 1 } } { 2 } } - 1 } } \left ( 1 + { \frac     { d _ { 1 } } { d _ { 2 } } } \,x \right ) ^ { { - { \frac     { d _ { 1 } + d _ { 2 } } { 2 } } } } \end { a l i g n e d } }
+\mathrm { B }
+F ( x ; d _ { 1 } , d _ { 2 } ) = I _ { { { \frac     { d _ { 1 } x } { d _ { 1 } x + d _ { 2 } } } } } \left ( { \tfrac     { d _ { 1 } } { 2 } } , { \tfrac     { d _ { 2 } } { 2 } } \right ) ,
+\gamma   _ { 2 } = 1 2 { \frac     { d _ { 1 } ( 5 d _ { 2 } - 2 2 ) ( d _ { 1 } + d _ { 2 } - 2 ) + ( d _ { 2 } - 4 ) ( d _ { 2 } - 2 ) ^ { 2 } } { d _ { 1 } ( d _ { 2 } - 6 ) ( d _ { 2 } - 8 ) ( d _ { 1 } + d _ { 2 } - 2 ) } }
+\mu   _ { { X } } ( k ) = \left ( { \frac     { d _ { { 2 } } } { d _ { { 1 } } } } \right ) ^ { { k } } { \frac     { \Gamma   \left ( { \tfrac     { d _ { 1 } } { 2 } } + k \right ) } { \Gamma   \left ( { \tfrac     { d _ { 1 } } { 2 } } \right ) } } { \frac     { \Gamma   \left ( { \tfrac     { d _ { 2 } } { 2 } } - k \right ) } { \Gamma   \left ( { \tfrac     { d _ { 2 } } { 2 } } \right ) } }
+\varphi   _ { { d _ { 1 } , d _ { 2 } } } ^ { F } ( s ) = { \frac     { \Gamma   ( { \frac     { d _ { 1 } + d _ { 2 } } { 2 } } ) } { \Gamma   ( { \tfrac     { d _ { 2 } } { 2 } } ) } } U \!\left ( { \frac     { d _ { 1 } } { 2 } } , 1 - { \frac     { d _ { 2 } } { 2 } } , - { \frac     { d _ { 2 } } { d _ { 1 } } } \imath   s \right )
+X = { \frac     { U _ { 1 } / d _ { 1 } } { U _ { 2 } / d _ { 2 } } }
+X = { \frac     { s _ { 1 } ^ { 2 } } { \sigma   _ { 1 } ^ { 2 } } } \;/\;{ \frac     { s _ { 2 } ^ { 2 } } { \sigma   _ { 2 } ^ { 2 } } }
+{ \displaystyle   s _ { 1 } ^ { 2 } = { \frac   { S _ { 1 } ^ { 2 } } { d _ { 1 } } } }
+{ \displaystyle   s _ { 2 } ^ { 2 } = { \frac   { S _ { 2 } ^ { 2 } } { d _ { 2 } } } }
+X \sim   \chi   _ { { d _ { 1 } } } ^ { 2 }
+Y \sim   \chi   _ { { d _ { 2 } } } ^ { 2 }
+{ \frac     { X / d _ { 1 } } { Y / d _ { 2 } } } \sim   { \mathrm     { F } } ( d _ { 1 } , d _ { 2 } )
+{ \displaystyle   X _ { k } \sim   \Gamma   ( \alpha   _ { k } , \beta   _ { k } ) \ , }
+{ \displaystyle   { \frac   { \alpha   _ { 2 } \beta   _ { 1 } X _ { 1 } } { \alpha   _ { 1 } \beta   _ { 2 } X _ { 2 } } } \sim   \mathrm   { F }   ( 2 \alpha   _ { 1 } , 2 \alpha   _ { 2 } ) }
+X \sim   \operatorname   { B e t a } ( d _ { 1 } / 2 , d _ { 2 } / 2 )
+{ \frac     { d _ { 2 } X } { d _ { 1 } ( 1 - X ) } } \sim   \operatorname   { F } ( d _ { 1 } , d _ { 2 } )
+{ \frac     { d _ { 1 } X / d _ { 2 } } { 1 + d _ { 1 } X / d _ { 2 } } } \sim   \operatorname   { B e t a } ( d _ { 1 } / 2 , d _ { 2 } / 2 )
+{ \displaystyle   { \frac   { d _ { 1 } } { d _ { 2 } } } X }
+{ \displaystyle   { \frac   { d _ { 1 } } { d _ { 2 } } } X \sim   \operatorname   { \beta   ^ { \prime   } }   ( { \tfrac   { d _ { 1 } } { 2 } } , { \tfrac   { d _ { 2 } } { 2 } } ) }
+Y = \lim   _ { { d _ { 2 } \to   \infty   } } d _ { 1 } X
+\chi   _ { { d _ { 1 } } } ^ { 2 }
+{ \frac     { d _ { 2 } } { d _ { 1 } ( d _ { 1 } + d _ { 2 } - 1 ) } } \operatorname   { T } ^ { 2 } ( d _ { 1 } , d _ { 1 } + d _ { 2 } - 1 )
+X ^ { { 2 } } \sim   \operatorname   { F } ( 1 , n )
+X ^ { { - 2 } } \sim   \operatorname   { F } ( n , 1 )
+  \tfrac { | X - \mu | } { | Y - \mu | }   \sim   \operatorname { F } ( 2 , 2 )  
+{ \tfrac     { \log   { X } } { 2 } } \sim   \operatorname   { F i s h e r Z } ( n , m )
+\lambda   _ { 1 } = \lambda   _ { 2 } = 0
+\operatorname   { Q } _ { X } ( p )
+\operatorname   { Q } _ { Y } ( 1 - p )
+\operatorname   { Q } _ { X } ( p ) = { \frac     { 1 } { \operatorname   { Q } _ { Y } ( 1 - p ) } }

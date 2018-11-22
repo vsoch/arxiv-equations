@@ -1,0 +1,4 @@
+S _ { 1 }
+S _ { 2 }
+S ( x , y ) = \left ( { \frac   { S _ { 1 } + S _ { 2 } } { 2 } } , S _ { 1 } - S _ { 2 } \right ) .
+S ( x , y ) = \left ( { \frac   { \log   _ { 2 } { S _ { 1 } } + \log   _ { 2 } { S _ { 2 } } } { 2 } } , \log   _ { 2 } { S _ { 1 } } - \log   _ { 2 } { S _ { 2 } } \right ) .

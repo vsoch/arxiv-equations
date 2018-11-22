@@ -1,0 +1,9 @@
+y = f ( x )
+z = f ( x , y )
+X \times   Y
+{ \displaystyle   y _ { i } = a + b x _ { i } + e _ { i } }
+y _ { i }
+x _ { i }
+e _ { i }
+{ \displaystyle   y _ { i } = a + b x _ { 1 , i } + b x _ { 2 , i } + . . . + b x _ { n , i } + e _ { i } }
+{ \displaystyle   e _ { I } }

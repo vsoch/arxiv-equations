@@ -1,0 +1,24 @@
+g
+Y
+Y = \alpha   +   \beta   V + \sigma   \sqrt { V } X ,
+\alpha  
+\beta  
+\sigma   > 0
+X
+V
+X
+V
+g
+Y
+V
+\alpha   +   \beta   V
+\sigma ^ 2   V
+\beta  
+\sigma   ^ { 2 }
+g
+g
+f ( x )   =   \int_0 ^ \infty   \frac { 1 } { \sqrt { 2   \pi   \sigma ^ 2   v } }   \exp   \left (   \frac { - ( x   -   \alpha   -   \beta   v ) ^ 2 } { 2   \sigma ^ 2   v }   \right )   g ( v )   \, dv
+M ( s )   =   \exp ( \alpha     s )   \, M_g   \left ( \beta   s   +   \frac12   \sigma ^ 2   s ^ 2   \right ) ,
+M _ g
+g
+M _ g ( s )   =   E \left ( \exp (   s   V ) \right )   =   \int_0 ^ \infty   \exp ( s   v )   g ( v )   \, dv .

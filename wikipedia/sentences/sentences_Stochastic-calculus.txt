@@ -1,0 +1,4 @@
+\int   H \,dX
+X
+  \int_0 ^ t   X _ { s - }   \circ   d   Y _ s   :   =   \int_0 ^ t   X _ { s - }   d   Y _ s   +   \frac { 1 } { 2 }   \left   [   X ,   Y \right ] _ t ^ c ,
+  \int_0 ^ t   X _ s   \, \partial   Y _ s  

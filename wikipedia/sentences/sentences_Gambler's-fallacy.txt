@@ -1,0 +1,4 @@
+\Pr \left ( \bigcap_ { i = 1 } ^ n   A _ i \right ) = \prod_ { i = 1 } ^ n   \Pr ( A _ i ) = { 1 \over2 ^ n }
+\Pr \left ( A _ 5 | A _ 1   \cap   A _ 2   \cap   A _ 3   \cap   A _ 4   \right ) = \Pr \left ( A _ 5 \right ) = \frac { 1 } { 2 }
+1 - \left [ \frac { 1 5 } { 1 6 } \right ] ^ { 1 6 }   \,=\, 64 . 3 9 \ %
+1 - \left [ \frac { 1 5 } { 1 6 } \right ] ^ { 1 5 }   \,=\, 62 . 0 2 \ %

@@ -1,0 +1,18 @@
+n
+( n - 1 )
+{ \bar     { x } } _ { i }
+{ \displaystyle   { \bar   { x } } _ { i } = { \frac   { 1 } { n - 1 } } \sum   _ { j = 1 , j \neq   i } ^ { n } x _ { j } , \quad   \quad   i = 1 , \dots   , n . }
+{ \displaystyle   { \bar   { x } } = { \frac   { 1 } { n } } \sum   _ { i = 1 } ^ { n } { \bar   { x } } _ { i } . }
+{ \displaystyle   { \bar   { x } } _ { i } : }
+{ \displaystyle   \operatorname   { V a r }   ( { \bar   { x } } ) = { \frac   { n - 1 } { n } } \sum   _ { i = 1 } ^ { n } ( { \bar   { x } } _ { i } - { \bar   { x } } ) ^ { 2 } . }
+\hat { \theta }
+{ n }
+{ \hat     { \theta   } } _ { { \mathrm     { ( . ) } } } = { \frac     { 1 } { n } } \sum   _ { { i = 1 } } ^ { n } { \hat     { \theta   } } _ { { \mathrm     { ( i ) } } }
+{ \hat     { \theta   } } _ { { \mathrm     { ( i ) } } }
+{ \hat     { \theta   } } _ { { \mathrm     { ( . ) } } }
+\hat { \theta }
+{ \displaystyle   { \widehat   { \text { B i a s } } } _ { \mathrm   { ( \theta   ) }   } = ( n - 1 ) ( { \hat   { \theta   } } _ { \mathrm   { ( . ) }   } - { \hat   { \theta   } } ) }
+\theta  
+{ \displaystyle   { \hat   { \theta   } } _ { \text { J a c k } } = n { \hat   { \theta   } } - ( n - 1 ) { \hat   { \theta   } } _ { \mathrm   { ( . ) }   } }
+O ( n ^ { - 1 } )
+{ \displaystyle   O ( n ^ { - 2 } ) }

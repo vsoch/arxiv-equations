@@ -1,0 +1,131 @@
+\mathbb   { R }   ^ { m }
+( x , y )
+x
+y
+x ^ { 2 } + y ^ { 2 } \leq   1
+X
+f ( x )
+Y
+g ( x )
+X
+Y
+Y
+{ \displaystyle   f ( x ) / ( M g ( x ) ) }
+Y
+M
+f ( x ) / g ( x )
+{ \displaystyle   1 < M < \infty   }
+X
+{ \displaystyle   f ( x ) \leq   M g ( x ) }
+x
+Y
+X
+{ \displaystyle   g ( x ) > 0 }
+{ \displaystyle   f ( x ) > 0 }
+{ \textstyle   ( x , v = u \cdot   M g ( x ) ) }
+{ \textstyle   M g ( x ) }
+{ \textstyle   u < f ( x ) / ( M g ( x ) ) }
+( x , v )
+f ( x )
+f ( x ) .
+f ( x )
+f ( x )
+{ \displaystyle   { \begin { a l i g n e d } \mathbb   { P }   \left ( U \leq   { \frac   { f ( Y ) } { M g ( Y ) } } \right ) & = \operatorname   { E }   \left [ \mathbb   { P }   \left ( U \leq   { \frac   { f ( Y ) } { M g ( Y ) } } \right ) { \biggr   | } Y \right ] \\&=E \left [ { \frac   { f ( Y ) } { M g ( Y ) } } \right ] & ( { \text { b e c a u s e   } } \Pr ( U \leq   u ) = u , { \text { w h e n   } } U { \text {   i s   u n i f o r m   o n   } } ( 0 , 1 ) ) \\&=\int   \limits   _ { y : g ( y ) > 0 } { \frac   { f ( y ) } { M g ( y ) } } g ( y ) d y \\&={ \frac   { 1 } { M } } \int   \limits   _ { y : g ( y ) > 0 } f ( y ) d y \\&={ \frac   { 1 } { M } } & ( { \text { s i n c e   s u p p o r t   o f   } } Y { \text {   i n c l u d e s   s u p p o r t   o f   } } X ) \end { a l i g n e d } } }
+{ \displaystyle   U \sim   \mathrm   { U n i f }   ( 0 , 1 ) }
+y
+{ \displaystyle   g ( . ) }
+Y
+Y
+{ \displaystyle   1 / M }
+M
+M
+{ \displaystyle   M = { \frac   { 1 } { \mathbb   { P }   \left ( U \leq   { \frac   { f ( y ) } { M g ( y ) } } \right ) } } }
+{ \textstyle   1 \leq   M < \infty   }
+{ \textstyle   \mathbb   { P }   \left ( U \leq   { \frac   { f ( Y ) } { M g ( Y ) } } \right ) }
+[ 0 , 1 ]
+M
+M
+{ \textstyle   f ( x ) / g ( x ) }
+M
+M
+{ \displaystyle   f ( x ) \leq   M g ( x ) }
+g ( x )
+f ( x )
+M
+f ( x ) = g ( x )
+f ( x )
+{ \displaystyle   f ( x ) / ( M g ( x ) ) }
+X
+f
+Y
+g
+y
+Y
+u
+{ \displaystyle   \mathrm   { U n i f }   ( 0 , 1 ) }
+{ \textstyle   u < f ( y ) / M g ( y ) }
+y
+f
+y
+M
+{ \textstyle   X \sim   F ( \cdot   ) }
+X
+A
+{ \textstyle   X | X \in   A }
+{ \textstyle   X }
+{ \textstyle   X \sim   F ( \cdot   ) }
+{ \displaystyle   \{ n \geq   1 : X _ { n } \in   A \ } }
+{ \displaystyle   \{ X _ { 1 } , X _ { 2 } , . . . , X _ { N } : X _ { i } \in   A , i = 1 , . . . , N \ } }
+{ \textstyle   \mathbb   { P }   ( X \in   A ) \approx   0 }
+{ \displaystyle   { \frac   { 1 } { \mathbb   { P }   ( X \in   A ) } } }
+M
+M
+M
+{ \displaystyle   X \sim   F ( \cdot   ) }
+{ \displaystyle   F ( x ) = \mathbb   { P }   ( X \leq   x ) }
+f ( x )
+{ \displaystyle   { \begin { a l i g n e d } F _ { \theta   } ( x ) & = \mathbb   { E }   \left [ \mathrm   { e x p }   ( \theta   X - \psi   ( \theta   ) ) \mathbb   { I }   ( X \leq   x ) \right ] \\&=\int   _ { - \infty   } ^ { x } e ^ { \theta   y - \psi   ( \theta   ) } f ( y ) d y \\g_ { \theta   } ( x ) & = F _ { \theta   } ^ { ' } ( x ) = e ^ { \theta   x - \psi   ( \theta   ) } f ( x ) \end { a l i g n e d } } }
+{ \displaystyle   \psi   ( \theta   ) = \mathrm   { l o g }   \left ( \mathbb   { E }   \mathrm   { e x p }   ( \theta   X ) \right ) }
+{ \displaystyle   \Theta   = \{ \theta   : \psi   ( \theta   ) < \infty   \ } }
+{ \displaystyle   \{ F _ { \theta   } ( \cdot   ) \}_ { \theta   \in   \Theta   } }
+{ \displaystyle   Z ( x ) = { \frac   { f ( x ) } { g _ { \theta   } ( x ) } } = { \frac   { f ( x ) } { e ^ { \theta   x - \psi   ( \theta   ) } f ( x ) } } = e ^ { - \theta   x + \psi   ( \theta   ) } }
+{ \displaystyle   \psi   ( \theta   ) < \infty   }
+{ \displaystyle   \psi   ( \theta   ) = \log   \mathbb   { E }   { \exp ( t X ) } | _ { t = \theta   } = \log   M _ { X } ( t ) | _ { t = \theta   } }
+{ \displaystyle   { \begin { a l i g n e d } \psi   _ { \theta   } ( \eta   ) & = \log   \left ( \mathbb   { E }   _ { \theta   } \exp ( \eta   X ) \right ) = \psi   ( \theta   + \eta   ) - \psi   ( \theta   ) < \infty   \\\mathbb   { E }   _ { \theta   } ( X ) & = { \frac   { \partial   \psi   _ { \theta   } ( \eta   ) } { \partial   \eta   } } \mid   _ { \eta   = 0 } \\Var_ { \theta   } ( X ) & = { \frac   { \partial   ^ { 2 } \psi   _ { \theta   } ( \eta   ) } { \partial   ^ { 2 } \eta   } } \mid   _ { \eta   = 0 } \end { a l i g n e d } } }
+F ( \cdot   )
+{ \displaystyle   X \sim   \mathrm   { N }   ( \mu   , \sigma   ^ { 2 } ) }
+{ \textstyle   \psi   ( \theta   ) = \theta   \mu   + { \frac   { \sigma   ^ { 2 } \theta   ^ { 2 } } { 2 } } }
+{ \displaystyle   X | X \in   \left [ b , \infty   \right ] }
+{ \displaystyle   b > \mu   }
+{ \displaystyle   F _ { \theta   } ( \cdot   ) }
+{ \textstyle   \psi   _ { \theta   } ( \eta   ) = \psi   ( \theta   + \eta   ) - \psi   ( \eta   ) = \eta   ( \mu   + \theta   \sigma   ^ { 2 } ) + { \frac   { \sigma   ^ { 2 } \eta   ^ { 2 } } { 2 } } }
+{ \displaystyle   \mathrm   { N }   ( \mu   + \theta   \sigma   ^ { 2 } , \sigma   ^ { 2 } ) }
+\theta ^ *
+\theta ^ *
+{ \displaystyle   \mathbb   { E }   _ { \theta   } ( X ) = \mu   + \theta   \sigma   ^ { 2 } = b }
+{ \displaystyle   \theta   ^ { * } = { \frac   { b - \mu   } { \sigma   ^ { 2 } } } }
+{ \displaystyle   { \begin { a l i g n e d } f _ { X | X \geq   b } ( x ) & = { \frac   { f ( x ) \mathbb   { I }   ( x \geq   b ) } { \mathbb   { P }   ( x \geq   b ) } } \\g_ { \theta   ^ { * } } ( x ) & = f ( x ) \exp ( \theta   ^ { * } x - \psi   ( \theta   ^ { * } ) ) \\Z ( x ) & = { \frac   { f _ { X | X \geq   b } ( x ) } { g _ { \theta   ^ { * } } ( x ) } } = { \frac   { \exp ( - \theta   ^ { * } x + \psi   ( \theta   ^ { * } ) ) \mathbb   { I }   ( x \geq   b ) } { \mathbb   { P }   ( x \geq   b ) } } \end { a l i g n e d } } }
+M
+{ \displaystyle   z ( x ) }
+{ \displaystyle   x \in   [ b , \infty   ] }
+{ \displaystyle   M = Z ( b ) = { \frac   { \exp ( - \theta   ^ { * } b + \psi   ( \theta   ^ { * } ) ) } { \mathbb   { P }   ( X \geq   b ) } } = { \frac   { \exp ( - { \frac   { ( b - \mu   ) ^ { 2 } } { 2 \sigma   ^ { 2 } } } ) } { \mathbb   { P }   ( X \geq   b ) } } = { \frac   { \exp ( - { \frac   { ( b - \mu   ) ^ { 2 } } { 2 \sigma   ^ { 2 } } } ) } { \mathbb   { P }   ( \mathrm   { N }   ( 0 , 1 ) \geq   { \frac   { b - \mu   } { \sigma   } } ) } } }
+{ \displaystyle   U \sim   \mathrm   { U n i f }   ( 0 , 1 ) }
+{ \displaystyle   U \leq   { \frac   { Z ( x ) } { M } } = e ^ { - \theta   ^ { * } ( x - b ) } \mathbb   { I }   ( x \geq   b ) }
+X
+{ \textstyle   X \sim   _ { i . i . d . } \mathrm   { N }   ( \mu   + \theta   ^ { * } \sigma   ^ { 2 } , \sigma   ^ { 2 } ) }
+{ \textstyle   U \sim   \mathrm   { U n i f }   ( 0 , 1 ) }
+{ \displaystyle   M ( b ) = O ( b ) }
+{ \textstyle   { \frac   { 1 } { \mathbb   { P }   ( X \geq   b ) } } = O ( b \cdot   e ^ { \frac   { ( b - \mu   ) ^ { 2 } } { 2 \sigma   ^ { 2 } } } ) }
+X
+{ \displaystyle   X \in   A }
+h \left ( x \right ) = { \mathrm     { l o g } } \;g \left ( x \right )
+g \left ( x \right )
+f \left ( x \right )
+{ \mathrm     { l o g } } \;f \left ( x \right )
+f \left ( x \right )
+h \left ( x \right )
+f \left ( x \right )
+h \left ( x \right )
+f \left ( x \right )
+g _ { l } \left ( x \right )
+h _ { l } \left ( x \right )

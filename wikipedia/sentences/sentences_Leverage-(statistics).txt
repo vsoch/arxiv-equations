@@ -1,0 +1,23 @@
+{ \displaystyle   h _ { i i } = \left [ \mathbf   { H }   \right ] _ { i i } , }
+{ \displaystyle   \mathbf   { H }   = \mathbf   { X }   \left ( \mathbf   { X }   ^ { \mathsf   { T } } \mathbf   { X }   \right ) ^ { - 1 } \mathbf   { X }   ^ { \mathsf   { T } } }
+\mathbf   { X }  
+h _ { { i i } } = { \frac     { \partial   { \hat     { y } } _ { i } } { \partial   y _ { i } } } ,
+{ \hat     { y } } _ { i }
+{ y } _ { i }
+  0   \leq   h _ { i i }   \leq   1   .
+  H ^ 2 = X ( X ^ { \top } X ) ^ { - 1 } X ^ { \top } X ( X ^ { \top } X ) ^ { - 1 } X ^ { \top } = X I ( X ^ { \top } X ) ^ { - 1 } X ^ { \top } = H   .
+H
+  h _ { i i } = h _ { i i } ^ 2 + \sum_ { j \neq   i } h _ { i j } ^ 2   \geq   0  
+  h _ { i i }   \geq   h _ { i i } ^ 2   \implies   h _ { i i }   \leq   1   .
+\epsilon_i ,
+Y = X \beta   + \epsilon  
+\operatorname { V a r } ( \epsilon ) = \sigma ^ 2 I  
+  \operatorname { V a r } ( e _ i ) = ( 1 - h _ { i i } ) \sigma ^ 2  
+e _ { i } = Y _ { i } - { \hat     { Y } } _ { i }
+\epsilon  
+I - H
+  \operatorname { V a r } ( e ) = \operatorname { V a r } ( ( I - H ) Y ) = ( I - H ) \operatorname { V a r } ( Y ) ( I - H ) ^ { \top } = \sigma ^ 2 ( I - H ) ^ 2 = \sigma ^ 2 ( I - H ) .  
+  \operatorname { V a r } ( e _ i ) = ( 1 - h _ { i i } ) \sigma ^ 2   .
+t _ i   =   { e _ i \over   \widehat { \sigma }   \sqrt { 1 - h _ { i i } \     } }
+\widehat { \sigma }
+\sigma   .

@@ -1,0 +1,15 @@
+{ \displaystyle   { \hat   { y } } = h ( x ) . }
+{ \displaystyle   { \hat   { y _ { i } } } = h ( x _ { i } ) }
+{ \displaystyle   { \hat   { y _ { j } } } = h ( x _ { j } ) \approx   y _ { j } }
+{ \displaystyle   { \begin { a l i g n e d } P ( A | B ) & = { \frac   { P ( B | A ) P ( A ) } { P ( B | A ) P ( A ) + P ( B | \neg   A ) P ( \neg   A ) } } \\\\&={ \frac   { 0 . 9 9 \times   0 . 0 0 1 } { 0 . 9 9 \times   0 . 0 0 1 + 0 . 0 5 \times   0 . 9 9 9 } } \\~\\&\approx   0 . 0 1 9 . \end { a l i g n e d } } }
+{ \displaystyle   P ( A | B ) = { \frac   { 0 . 9 9 \times   0 . 0 0 1 } { 0 . 9 9 \times   0 . 0 0 1 + 0 . 0 0 1 \times   0 . 9 9 9 } } \approx   0 . 5 , }
+{ \displaystyle   { \begin { a l i g n e d } P ( A | \neg   B ) & = { \frac   { P ( \neg   B | A ) P ( A ) } { P ( \neg   B | A ) P ( A ) + P ( \neg   B | \neg   A ) P ( \neg   A ) } } \\\\&={ \frac   { 0 . 0 1 \times   0 . 0 0 1 } { 0 . 0 1 \times   0 . 0 0 1 + 0 . 9 5 \times   0 . 9 9 9 } } \\~\\&\approx   0 . 0 0 0 0 1 0 5 . \end { a l i g n e d } } }
+{ \displaystyle   { \begin { a l i g n e d } P ( A | \neg   B ) & = { \frac   { P ( \neg   B | A ) P ( A ) } { P ( \neg   B | A ) P ( A ) + P ( \neg   B | \neg   A ) P ( \neg   A ) } } \\\\&={ \frac   { 0 . 0 1 \times   0 . 6 } { 0 . 0 1 \times   0 . 6 + 0 . 9 5 \times   0 . 4 } } \\~\\&\approx   0 . 0 1 5 5 . \end { a l i g n e d } } }
+p
+q = 1 - p
+p
+q
+p ^ { 2 }
+p q
+{ \displaystyle   p ^ { 2 } / ( p ^ { 2 } + p q ) = p }
+{ \displaystyle   q ^ { 2 } / ( q ^ { 2 } + p q ) = q }

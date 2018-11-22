@@ -1,0 +1,2 @@
+X _ n = \left ( 1 - \frac { 1 } { 5 0 ^ 6 } \right ) ^ n .
+\sum_ { k = 1 } ^ \infty   P ( E _ k )   =   \sum_ { k = 1 } ^ \infty   p   =   \infty ,

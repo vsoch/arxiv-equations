@@ -1,0 +1,31 @@
+F _ { { t _ { { n - 1 } } } }
+t _ { { n - 1 } }
+{ \displaystyle   H _ { \mathit   { \Phi   } } ( \mu   ) }
+H _ { t } ( \mu   )
+{ \displaystyle   H _ { \Phi   } ( \mu   ) = { \mathit   { \Phi   } } \left ( { \frac   { { \sqrt   { n } } ( \mu   - { \bar   { X } } ) } { \sigma   } } \right ) , \quad   { \text { a n d } } \quad   H _ { t } ( \mu   ) = F _ { t _ { n - 1 } } \left ( { \frac   { { \sqrt   { n } } ( \mu   - { \bar   { X } } ) } { s } } \right ) , }
+{ \displaystyle   H _ { A } ( \mu   ) = { \mathit   { \Phi   } } \left ( { \frac   { { \sqrt   { n } } ( \mu   - { \bar   { X } } ) } { s } } \right ) }
+H _ { { t } } ( \mu   )
+H _ { { A } } ( \mu   )
+N ( { \bar     { X } } , \sigma   ^ { 2 } )
+N ( { \bar     { X } } , s ^ { 2 } )
+\mu  
+{ \displaystyle   H _ { \mathit   { \Phi   } } ( \mu   ) }
+H _ { { t } } ( \mu   )
+H _ { { A } } ( \mu   )
+{ \displaystyle   H _ { \chi   ^ { 2 } } ( \theta   ) = 1 - F _ { \chi   _ { n - 1 } ^ { 2 } } ( ( n - 1 ) s ^ { 2 } / \theta   ) }
+F _ { { \chi   _ { { n - 1 } } ^ { 2 } } }
+\chi   _ { { n - 1 } } ^ { 2 }
+{ \displaystyle   H _ { \mathit   { \Phi   } } ( \mu   ) = { \mathit   { \Phi   } } \left ( { \frac   { { \sqrt   { n } } ( \mu   - { \bar   { X } } ) } { \sigma   } } \right ) }
+H _ { { t } } ( \mu   ) = F _ { { t _ { { n - 1 } } } } \left ( { \frac     { { \sqrt     { n } } ( \mu   - { \bar     { X } } ) } { s } } \right )
+z = { 1   \over   2 } \ln   { 1 + r   \over   1 - r }
+N ( { 1   \over   2 } \ln   { { 1 + \rho   }   \over   { 1 - \rho   } } , { 1   \over   n - 3 } )
+{ \displaystyle   H _ { n } ( \rho   ) = 1 - { \mathit   { \Phi   } } \left ( { \sqrt   { n - 3 } } \left ( { 1   \over   2 } \ln   { 1 + r   \over   1 - r } - { 1   \over   2 } \ln   { { 1 + \rho   }   \over   { 1 - \rho   } } \right ) \right ) }
+( - \infty   , H _ { n } ^ { { - 1 } } ( 1 - \alpha   ) ] , [ H _ { n } ^ { { - 1 } } ( \alpha   ) , \infty   )
+[ H _ { n } ^ { { - 1 } } ( \alpha   / 2 ) , H _ { n } ^ { { - 1 } } ( 1 - \alpha   / 2 ) ]
+[ H _ { n } ^ { { - 1 } } ( \alpha   _ { 1 } ) , H _ { n } ^ { { - 1 } } ( 1 - \alpha   _ { 2 } ) ]
+H _ { n } ^ { { - 1 } } ( \beta   )
+H _ { n } ( \theta   )
+H _ { n } ( \theta   ) = \beta  
+{ \displaystyle   { \bar   { \theta   } } _ { n } = \int   _ { - \infty   } ^ { \infty   } t \,\mathrm   { d }   H _ { n } ( t ) }
+\widehat   { \theta   } _ { n } = \arg   \max   _ { \theta   } h _ { n } ( \theta   ) , h _ { n } ( \theta   ) = H ' _ { n } ( \theta   ) .
+{ \displaystyle   p _ { s } ( C ) = H _ { n } ( C ) = \int   _ { C } \mathrm   { d }   H ( \theta   ) . }

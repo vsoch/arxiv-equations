@@ -1,0 +1,37 @@
+{ \displaystyle   \sigma   = 1 }
+{ \displaystyle   \sigma   = 1 }
+\sigma   > 0
+x \in [ 0 , \infty )
+f ( x ; \sigma   ) = { \frac     { { \sqrt     { 2 } } } { \sigma   { \sqrt     { \pi   } } } } \exp   \left ( - { \frac     { x ^ { 2 } } { 2 \sigma   ^ { 2 } } } \right ) \quad   x > 0
+{ \displaystyle   F ( x ; \sigma   ) = \operatorname   { e r f }   \left ( { \frac   { x } { \sigma   { \sqrt   { 2 } } } } \right ) }
+{ \displaystyle   Q ( F ; \sigma   ) = \sigma   { \sqrt   { 2 } } \operatorname   { e r f }   ^ { - 1 } ( F ) }
+{ \frac     { \sigma   { \sqrt     { 2 } } } { { \sqrt     { \pi   } } } }
+{ \displaystyle   \sigma   { \sqrt   { 2 } } \operatorname   { e r f }   ^ { - 1 } ( 1 / 2 ) }
+{ \displaystyle   0 }
+{ \displaystyle   \sigma   ^ { 2 } \left ( 1 - { \frac   { 2 } { \pi   } } \right ) }
+{ \displaystyle   { \frac   { { \sqrt   { 2 } } ( 4 - \pi   ) } { ( \pi   - 2 ) ^ { 3 / 2 } } } \approx   0 . 9 9 5 2 7 1 7 }
+{ \frac     { 1 } { 2 } } \log   \left ( { \frac     { \pi   \sigma   ^ { 2 } } { 2 } } \right ) + { \frac     { 1 } { 2 } }
+X
+N ( 0 , \sigma   ^ { 2 } )
+Y = | X |
+\sigma  
+{ \displaystyle   f _ { Y } ( y ; \sigma   ) = { \frac   { \sqrt   { 2 } } { \sigma   { \sqrt   { \pi   } } } } \exp   \left ( - { \frac   { y ^ { 2 } } { 2 \sigma   ^ { 2 } } } \right ) \quad   y \geq   0 , }
+E [ Y ] = \mu   = { \frac     { \sigma   { \sqrt     { 2 } } } { { \sqrt     { \pi   } } } }
+\sigma  
+\theta   = { \frac     { { \sqrt     { \pi   } } } { \sigma   { \sqrt     { 2 } } } }
+{ \displaystyle   f _ { Y } ( y ; \theta   ) = { \frac   { 2 \theta   } { \pi   } } \exp   \left ( - { \frac   { y ^ { 2 } \theta   ^ { 2 } } { \pi   } } \right ) \quad   y \geq   0 , }
+E [ Y ] = \mu   = { \frac     { 1 } { \theta   } }
+F _ { Y } ( y ; \sigma   ) = \int   _ { 0 } ^ { y } { \frac     { 1 } { \sigma   } } { \sqrt     { { \frac     { 2 } { \pi   } } } } \,\exp   \left ( - { \frac     { x ^ { 2 } } { 2 \sigma   ^ { 2 } } } \right ) \,dx
+z = x / ( { \sqrt     { 2 } } \sigma   )
+{ \displaystyle   F _ { Y } ( y ; \sigma   ) = { \frac   { 2 } { \sqrt   { \pi   } } } \,\int   _ { 0 } ^ { y / ( { \sqrt   { 2 } } \sigma   ) } \exp   \left ( - z ^ { 2 } \right ) d z = \operatorname   { e r f }   \left ( { \frac   { y } { { \sqrt   { 2 } } \sigma   } } \right ) , }
+{ \displaystyle   Q ( F ; \sigma   ) = \sigma   { \sqrt   { 2 } } \operatorname   { e r f }   ^ { - 1 } ( F ) }
+0 \leq   F \leq   1
+\operatorname   { e r f } ^ { { - 1 } }
+E ( Y ) = \sigma   { \sqrt     { 2 / \pi   } } ,
+{ \displaystyle   \operatorname   { v a r }   ( Y ) = \sigma   ^ { 2 } \left ( 1 - { \frac   { 2 } { \pi   } } \right ) . }
+{ \displaystyle   H ( Y ) = { \frac   { 1 } { 2 } } \log   \left ( { \frac   { \pi   \sigma   ^ { 2 } } { 2 } } \right ) + { \frac   { 1 } { 2 } } . }
+\{ x _ { i } \}_ { { i = 1 } } ^ { n }
+\sigma  
+{ \hat     \sigma   } = { \sqrt     { { \frac     1 n } \sum   _ { { i = 1 } } ^ { n } x _ { i } ^ { 2 } } }
+{ \displaystyle   { \sqrt   { 2 } } \sigma   }
+\theta   = { \frac     { 1 } { \sigma   } } { \sqrt     { \pi   / 2 } }

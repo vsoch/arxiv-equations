@@ -1,0 +1,2 @@
+\scriptstyle   { \sqrt   { 2 } }
+\varphi   \Delta   = { \tfrac   { h } { \surd   \pi   } } \,e ^ { - h h \Delta   \Delta   } .

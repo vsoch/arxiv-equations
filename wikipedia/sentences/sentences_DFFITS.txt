@@ -1,0 +1,9 @@
+\text { D F F I T S }   =   { \widehat { y _ i }   -   \widehat { y _ { i ( i ) } }   \over   s _ { ( i ) }   \sqrt { h _ { i i } } }
+\widehat { y _ i }
+\widehat { y _ { i ( i ) } }
+s _ { ( i ) }
+h _ { i i }
+\sqrt { h _ { i i } / ( 1 - h _ { i i } ) }
+\sqrt { h _ { i i } / ( 1 - h _ { i i } ) }
+\sqrt { p   \over   n - p }   \approx   \sqrt { p   \over   n }
+2 \sqrt { p   \over   n }

@@ -1,0 +1,4 @@
+\mu   = { \frac     { \sum   _ { { v \in   V } } d ( v ) } { | V | } } = { \frac     { 2 | E | } { | V | } } .
+{ \frac     { \sum   _ { { v \in   V } } d ( v ) ^ { 2 } } { 2 | E | } } = \mu   + { \frac     { \sigma   ^ { 2 } } { \mu   } } ,
+{ \sigma   } ^ { { 2 } }
+{ \sigma   } ^ { { 2 } }

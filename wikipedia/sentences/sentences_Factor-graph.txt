@@ -1,0 +1,19 @@
+g ( X _ 1 , X _ 2 , \dots , X _ n )
+g ( X _ 1 , X _ 2 , \dots , X _ n )   =   \prod_ { j = 1 } ^ m   f _ j ( S _ j ) ,
+  S _ j   \subseteq   \{ X _ 1 , X _ 2 , \dots , X _ n \ }
+  G = ( X , F , E )
+X = \{ X _ 1 , X _ 2 , \dots , X _ n \ }
+F = \{ f _ 1 , f _ 2 , \dots , f _ m \ }
+E
+f _ { j }
+  X _ k  
+  X _ k   \in   S _ j
+g ( X _ 1 , X _ 2 , \dots , X _ n )   \in   \Bbb { R }  
+g ( X _ 1 , X _ 2 , \dots , X _ n )
+g ( X _ 1 , X _ 2 , X _ 3 )   =   f _ 1 ( X _ 1 ) f _ 2 ( X _ 1 , X _ 2 ) f _ 3 ( X _ 1 , X _ 2 ) f _ 4 ( X _ 2 , X _ 3 )
+  f _ 2 ( X _ 1 , X _ 2 ) f _ 3 ( X _ 1 , X _ 2 )  
+  X _ k  
+  g _ k ( X _ k )   =   \sum_ { X _ { \bar { k } } }   g ( X _ 1 , X _ 2 , \dots , X _ n )
+X _ { \bar { k } }  
+  X _ k  
+  g ( X _ 1 , X _ 2 , \dots , X _ n )

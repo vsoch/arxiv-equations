@@ -1,0 +1,4 @@
+{ \displaystyle   { \hat   { \theta   } } _ { n } \ { \xrightarrow   { \overset   { } { p } } } \ \theta   _ { 0 } . }
+{ \displaystyle   b _ { n } ( { \hat   { \theta   } } _ { n } - a _ { n } ) \ { \xrightarrow   { d } } \ G , }
+{ \displaystyle   \textstyle   { \hat   { \theta   } } _ { n } }
+{ \displaystyle   { \sqrt   { n } } ( { \hat   { \theta   } } _ { n } - \theta   _ { 0 } ) \ { \xrightarrow   { d } } \ { \mathcal   { N } } ( 0 , V ) . }

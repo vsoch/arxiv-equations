@@ -1,0 +1,8 @@
+T \pm   L { \frac     { S } { { \sqrt     n } } } { \sqrt     { { \frac     { \lambda   } { 2 - \lambda   } } \lbrack   1 - \left ( 1 - \lambda   \right ) ^ { { 2 i } } \rbrack   } }
+z _ { i } = \lambda   { \bar     x } _ { i } + \left ( 1 - \lambda   \right ) z _ { { i - 1 } }
+{ \bar     x } _ { i }
+z _ { i } = \lambda   { \bar     x } _ { i } + \left ( 1 - \lambda   \right ) z _ { { i - 1 } }
+T \pm   L { \frac     { S } { { \sqrt     n } } } { \sqrt     { { \frac     { \lambda   } { 2 - \lambda   } } \lbrack   1 - \left ( 1 - \lambda   \right ) ^ { { 2 i } } \rbrack   } }
+{ \displaystyle   \pm   L { \frac   { \hat   { \sigma   } } { \sqrt   { n } } } { \sqrt   { \frac   { \lambda   } { 2 - \lambda   } } } }
+{ \bar   { x } }
+{ \bar   { x } }

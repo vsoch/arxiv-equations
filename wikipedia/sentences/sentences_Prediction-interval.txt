@@ -1,0 +1,60 @@
+X _ { 1 } , \dots   , X _ { n } .
+{ \displaystyle   \gamma   = P ( \ell   < X < u ) = P \left ( { \frac   { \ell   - \mu   } { \sigma   } } < { \frac   { X - \mu   } { \sigma   } } < { \frac   { u - \mu   } { \sigma   } } \right ) = P \left ( { \frac   { \ell   - \mu   } { \sigma   } } < Z < { \frac   { u - \mu   } { \sigma   } } \right ) , }
+Z = { \frac     { X - \mu   } { \sigma   } }
+{ \displaystyle   { \frac   { \ell   - \mu   } { \sigma   } } = - z , \quad   { \frac   { u - \mu   } { \sigma   } } = z , }
+{ \displaystyle   \ell   = \mu   - z \sigma   , \quad   u = \mu   + z \sigma   , }
+\gamma   = P ( - z < Z < z ) .
+{ \tfrac     1 2 } ( 1 - \gamma   ) = P ( Z > z ) .
+\left [ \mu   - z \sigma   , \ \mu   + z \sigma   \right ] .
+{ \overline   { X } }
+( n - 1 )
+\Phi   _ { { \overline   { X } , s ^ { 2 } } } ^ { { - 1 } }
+\overline   { X } = \overline   { X } _ { n } = ( X _ { 1 } + \cdots   + X _ { n } ) / n
+s ^ { 2 } = s _ { n } ^ { 2 } = { 1   \over   n - 1 } \sum   _ { { i = 1 } } ^ { n } ( X _ { i } - \overline   { X } _ { n } ) ^ { 2 } .
+{ \overline   { X } }
+X _ { 1 } , \dots   , X _ { n }
+N ( \mu   , 1 / n ) ,
+X _ { { n + 1 } }
+N ( \mu   , 1 ) .
+1 + ( 1 / n ) ,
+{ \frac     { X _ { { n + 1 } } - \overline   { X } } { { \sqrt     { 1 + ( 1 / n ) } } } } \sim   N ( 0 , 1 ) .
+X _ { { n + 1 } }
+N ( \overline   { X } , 1 + ( 1 / n ) ) ,
+X _ { { n + 1 } }
+{ \overline   { X } }
+1 + ( 1 / n )
+\sigma   ^ { 2 }
+s ^ { 2 }
+X _ { 1 } , \dots   , X _ { n }
+\scriptstyle   \chi   _ { { n - 1 } } ^ { 2 }
+{ \frac     { ( n - 1 ) s _ { n } ^ { 2 } } { \sigma   ^ { 2 } } } \sim   \chi   _ { { n - 1 } } ^ { 2 } .
+X _ { { n + 1 } }
+N ( 0 , \sigma   ^ { 2 } ) .
+{ \displaystyle   { \frac   { X _ { n + 1 } } { s } } \sim   T ^ { n - 1 } . }
+X _ { { n + 1 } }
+s T ^ { { n - 1 } } ,
+s
+N ( \mu   , \sigma   ^ { 2 } )
+{ \frac     { X _ { { n + 1 } } - \overline   { X } _ { n } } { s _ { n } { \sqrt     { 1 + 1 / n } } } } \sim   T ^ { { n - 1 } } .
+X _ { { n + 1 } }
+\overline   { X } _ { n } + s _ { n } { \sqrt     { 1 + 1 / n } } \cdot   T ^ { { n - 1 } } .
+X _ { { n + 1 } }
+\Pr   \left ( \overline   { X } _ { n } - T _ { a } s _ { n } { \sqrt     { 1 + ( 1 / n ) } } \leq   X _ { { n + 1 } } \leq   \overline   { X } _ { n } + T _ { a } s _ { n } { \sqrt     { 1 + ( 1 / n ) } } \,\right ) = p
+{ \displaystyle   { \overline   { X } } _ { n } \pm   T _ { a } s _ { n } { \sqrt   { 1 + ( 1 / n ) } } }
+X _ { { n + 1 } }
+{ \overline   { X } } _ { n }
+S _ { n }
+X _ { { n + 1 } }
+{ \displaystyle   y _ { i } = \alpha   + \beta   x _ { i } + \varepsilon   _ { i } \ , }
+y _ { i }
+x _ { i }
+\alpha  
+\beta  
+\hat   \alpha
+{ \hat   { \beta   } }
+\hat { y } _ d = \hat \alpha + \hat \beta   x _ d   ,
+{ \displaystyle   y _ { d } = \alpha   + \beta   x _ { d } + \varepsilon   _ { d } . \ , }
+{ \hat     { y } } _ { d }
+{ \displaystyle   E ( y \mid   x _ { d } ) . }
+{ \hat   { \alpha   } }
+{ \hat   { \beta   } }

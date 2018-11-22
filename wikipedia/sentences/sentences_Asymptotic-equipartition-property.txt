@@ -1,0 +1,62 @@
+X
+{ \displaystyle   ( \Omega   , B , p ) }
+{ \displaystyle   - { \frac   { 1 } { n } } \log   p ( X _ { 1 } , X _ { 2 } , \dots   , X _ { n } ) \to   H ( X ) \quad   { \text {   a s   } } \quad   n \to   \infty   }
+H ( X )
+H
+X
+{ \displaystyle   | \Omega   | < \infty   }
+H
+X
+X _ { 1 } , \ldots   , X _ { n }
+H ( X )
+\lim   _ { { n \to   \infty   } } \Pr   \left [ \left | - { \frac     { 1 } { n } } \log   p ( X _ { 1 } , X _ { 2 } , \ldots   , X _ { n } ) - H ( X ) \right | > \epsilon   \right ] = 0 \qquad   \forall   \epsilon   > 0 .
+- { \frac     { 1 } { n } } \log   p ( X _ { 1 } , X _ { 2 } , \ldots   , X _ { n } ) .
+\Pr   \left [ \lim   _ { { n \to   \infty   } } - { \frac     { 1 } { n } } \log   p ( X _ { 1 } , X _ { 2 } , \ldots   , X _ { n } ) = H ( X ) \right ] = 1
+X : = \{ X _ { n } \ }
+{ \displaystyle   ( \Omega   , B , p ) }
+{ \displaystyle   x = X ( A ) }
+A \in   B
+j ( n , x ) : = p \left ( x _ { 0 } ^ { { n - 1 } } \right ) .
+c ( i , k , x ) : = p \left ( x _ { i } \mid   x _ { { i - k } } ^ { { i - 1 } } \right ) .
+c ( i , x ) : = p \left ( x _ { i } \mid   x _ { { - \infty   } } ^ { { i - 1 } } \right ) .
+\lim   _ { { n \to   \infty   } } { \mathrm     { E } } [ - \log   j ( n , X ) ] \quad   { \text { a n d } } \quad   \lim   _ { { n \to   \infty   } } { \mathrm     { E } } [ - \log   c ( n , n , X ) ]
+{ \begin { a l i g n e d } c ( i , k , X ) & : = \left \{ p \left ( X _ { i } \mid   X _ { { i - k } } ^ { { i - 1 } } \right ) \right \}\\c ( i , X ) & : = \left \{ p \left ( X _ { i } \mid   X _ { { - \infty   } } ^ { { i - 1 } } \right ) \right \}\end { a l i g n e d } }
+a ( n , k , x )
+a ( n , k , x ) : = p \left ( X _ { 0 } ^ { { k - 1 } } \right ) \prod   _ { { i = k } } ^ { { n - 1 } } p \left ( X _ { i } \mid   X _ { { i - k } } ^ { { i - 1 } } \right ) = j ( k , x ) \prod   _ { { i = k } } ^ { { n - 1 } } c ( i , k , x )
+a ( n , k , X ( \Omega   ) )
+- { \frac     1 n } \log   a ( n , k , X )
+c ( i , k , X )
+a ( n , x ) : = p \left ( x _ { 0 } ^ { { n - 1 } } \mid   x _ { { - \infty   } } ^ { { - 1 } } \right ) .
+- { \frac     1 n } \log   a ( n , X )
+c ( i , X )
+H ^ { k } \searrow   H
+{ \mathrm     { E } } \left [ { \frac     { a ( n , k , X ) } { j ( n , X ) } } \right ] = a ( n , k , X ( \Omega   ) )
+{ \mathrm     { E } } \left [ { \frac     { j ( n , X ) } { a ( n , X ) } } \right ] = 1
+X _ { { - \infty   } } ^ { { - 1 } }
+\forall   \alpha   \in   { \mathbb     { R } } \ :\ \Pr   \left [ { \frac     { a ( n , k , X ) } { j ( n , X ) } } \geq   \alpha   \right ] \leq   { \frac     { a ( n , k , X ( \Omega   ) ) } { \alpha   } }
+\forall   \alpha   \in   { \mathbb     { R } } \ :\ \Pr   \left [ { \frac     { j ( n , X ) } { a ( n , X ) } } \geq   \alpha   \right ] \leq   { \frac     { 1 } { \alpha   } } ,
+\forall   \alpha   \in   { \mathbb     { R } } \ :\ \Pr   \left [ { \frac     1 n } \log   { \frac     { j ( n , X ) } { a ( n , X ) } } \geq   { \frac     { 1 } { n } } \log   \alpha   \right ] \leq   { \frac     { 1 } { \alpha   } } .
+{ \frac     1 n } \log   { \frac     { a ( n , k , X ) } { j ( n , X ) } } \quad   { \text { a n d } } \quad   { \frac     { 1 } { n } } \log   { \frac     { j ( n , X ) } { a ( n , X ) } }
+- { \frac     { 1 } { n } } \log   j ( n , X )
+{ \displaystyle   \mathrm   { V a r }   [ \log   p ( X _ { i } ) ] < M }
+\lim   _ { { n \to   \infty   } } \Pr   \left [ \,\left | - { \frac     { 1 } { n } } \log   p ( X _ { 1 } , X _ { 2 } , \ldots   , X _ { n } ) - \overline   { H } _ { n } ( X ) \right | < \epsilon   \right ] = 1 \qquad   \forall   \epsilon   > 0
+\overline   { H } _ { n } ( X ) = { \frac     { 1 } { n } } H ( X _ { 1 } , X _ { 2 } , \ldots   , X _ { n } )
+\log ( p ( X _ { i } ) )
+{ \displaystyle   { \begin { a l i g n e d } \Pr   \left [ \left | - { \frac   { 1 } { n } } \log   p ( X _ { 1 } , X _ { 2 } , \ldots   , X _ { n } ) - { \overline   { H } } ( X ) \right | > \epsilon   \right ] & \leq   { \frac   { 1 } { n ^ { 2 } \epsilon   ^ { 2 } } } \mathrm   { V a r }   \left [ \sum   _ { i = 1 } ^ { n } \left ( \log ( p ( X _ { i } ) \right ) ^ { 2 } \right ] \\&\leq   { \frac   { M } { n \epsilon   ^ { 2 } } } \to   0 { \text {   a s   } } n \to   \infty   \end { a l i g n e d } } }
+{ \displaystyle   \mathrm   { E }   \left [ | \log   p ( X _ { i } ) | ^ { r } \right ] }
+\Box   { }
+{ \tilde     { X } } : = f \circ   X
+- { \frac     { 1 } { n } } \log   p ( { \tilde     { X } } _ { 0 } ^ { \tau   } ) \to   H ( X )
+{ \mathcal     { L } } _ { 2 }
+P ^ { N } = P \times   \cdots   \times   P
+\pi   : P \to   Q
+P ' \subset   P
+Q ' \subset   Q
+| P - Q | _ { \pi   } = | P \smallsetminus   P ' | + | Q \smallsetminus   Q ' |
+| P - Q | _ { \pi   }
+{ \displaystyle   | \log   P : Q | _ { \pi   } = { \frac   { \sup   _ { p \in   P ^ { ' } } | \log   p - \log   \pi   ( p ) | } { \log   \min   \left ( | \operatorname   { s e t }   ( P ' ) | , | \operatorname   { s e t }   ( Q ' ) | \right ) } } }
+| \operatorname   { s e t } ( P ) |
+{ \text { d i s t } } _ { \pi   } ( P , Q ) = | P - Q | _ { \pi   } + | \log   P : Q | _ { \pi   }
+\pi   _ { N } : P _ { N } \to   Q _ { N }
+{ \text { d i s t } } _ { { \pi   _ { N } } } ( P _ { N } , Q _ { N } ) \to   0 \quad   { \text {   a s   } } \quad   N \to   \infty  
+{ \displaystyle   H ( P ) = \lim   _ { N \to   \infty   } { \frac   { 1 } { N } } | \operatorname   { s e t }   ( H _ { N } ) | }

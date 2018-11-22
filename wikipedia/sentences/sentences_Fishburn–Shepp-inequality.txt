@@ -1,0 +1,2 @@
+{ \displaystyle   P ( x < y ) P ( x < z ) \leqslant   P ( ( x < y ) \wedge   ( x < z ) ) }
+{ \displaystyle   P ( x < z ) < P ( x < z \mid   x < y ) . }

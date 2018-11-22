@@ -1,0 +1,67 @@
+{ \displaystyle   \{ x _ { 1 } , \ldots   , x _ { m } \ } }
+{ \boldsymbol   { \theta   } }
+{ \boldsymbol     \Theta   }
+{ \displaystyle   \{ s _ { 1 } , \ldots   , s _ { k } \ } }
+{ \displaystyle   \{ x _ { 1 } , \ldots   , x _ { m } \ } }
+x _ { i }
+z _ { i }
+{ \displaystyle   ( g _ { \boldsymbol   { \theta   } } , Z ) }
+s _ { j }
+{ \displaystyle   { \boldsymbol   { x } } = \{ x _ { 1 } , \ldots   , x _ { m } \ } }
+{ \displaystyle   ( g _ { \boldsymbol   { \theta   } } , Z ) }
+{ \displaystyle   { \boldsymbol   { x } } = \{ g _ { \boldsymbol   { \theta   } } ( z _ { 1 } ) , \ldots   , g _ { \boldsymbol   { \theta   } } ( z _ { m } ) \ } }
+{ \displaystyle   { \boldsymbol   { \theta   } } = ( \theta   _ { 1 } , \ldots   , \theta   _ { k } ) }
+{ \displaystyle   s _ { 1 } = h _ { 1 } ( x _ { 1 } , \ldots   , x _ { m } ) , }
+{ \displaystyle   \vdots   \ \ \ \ \ \ \ \ \ \ \ \ \ \ \vdots   }
+{ \displaystyle   s _ { k } = h _ { k } ( x _ { 1 } , \ldots   , x _ { m } ) , }
+{ \displaystyle   s _ { 1 } = h _ { 1 } ( g _ { \boldsymbol   { \theta   } } ( z _ { 1 } ) , \ldots   , g _ { \boldsymbol   { \theta   } } ( z _ { m } ) ) = \rho   _ { 1 } ( { \boldsymbol   { \theta   } } ; z _ { 1 } , \ldots   , z _ { m } ) }
+{ \displaystyle   \vdots   \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \vdots   \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \vdots   }
+{ \displaystyle   s _ { k } = h _ { k } ( g _ { \boldsymbol   { \theta   } } ( z _ { 1 } ) , \ldots   , g _ { \boldsymbol   { \theta   } } ( z _ { m } ) ) = \rho   _ { k } ( { \boldsymbol   { \theta   } } ; z _ { 1 } , \ldots   , z _ { m } ) . }
+{ \displaystyle   \{ z _ { 1 } , \ldots   , z _ { m } \ } }
+{ \boldsymbol   { \theta   } }
+s _ { i }
+\Theta   _ { j }
+{ \displaystyle   { \widehat   { F } } _ { \Theta   _ { j } } ( \theta   ) = \sum   _ { i = 1 } ^ { N } { \frac   { 1 } { N } } I _ { ( - \infty   , \theta   ] } ( { \breve   { \theta   } } _ { j , i } ) }
+{ \displaystyle   { \breve   { \theta   } } _ { j , i } }
+{ \displaystyle   I _ { ( - \infty   , \theta   ] } ( { \breve   { \theta   } } _ { j , i } ) }
+{ \displaystyle   { \breve   { \theta   } } _ { j , i } }
+{ \displaystyle   ( - \infty   , \theta   ] . }
+{ \boldsymbol     \Theta   }
+{ \displaystyle   { \boldsymbol   { s } } _ { \boldsymbol   { \Theta   } } }
+{ \displaystyle   \{ x _ { 1 } , \ldots   , x _ { m } \ } }
+{ \boldsymbol   { \theta   } }
+{ \displaystyle   { \boldsymbol   { S } } }
+{ \boldsymbol     \Theta   }
+{ \displaystyle   { \boldsymbol   { s } } _ { \boldsymbol   { \Theta   } } }
+{ \displaystyle   { \boldsymbol   { S } } }
+{ \displaystyle   { \breve   { \boldsymbol   { z } } } _ { i } }
+{ \displaystyle   { \breve   { \boldsymbol   { \theta   } } } _ { i } = \mathrm   { I n v }   ( { \boldsymbol   { s } } , { \boldsymbol   { z } } _ { i } ) }
+{ \displaystyle   { \boldsymbol   { s } } = { \boldsymbol   { s } } _ { \boldsymbol   { \Theta   } } }
+{ \displaystyle   { \boldsymbol   { z } } _ { i } = \{ { \breve   { z } } _ { 1 } , \ldots   , { \breve   { z } } _ { m } \ } }
+{ \displaystyle   { \breve   { \boldsymbol   { \theta   } } } _ { i } }
+{ \boldsymbol     \Theta   }
+{ \displaystyle   s _ { \Lambda   } = 6 . 3 6 }
+{ \displaystyle   s _ { A } = 9 . 9 1 }
+{ \displaystyle   s _ { \Lambda   } = \sum   _ { j = 1 } ^ { m } x _ { j } }
+{ \displaystyle   { \text {   i i i )   I n v } } ( s _ { \Lambda   } , { \boldsymbol   { u } } _ { i } ) = \sum   _ { j = 1 } ^ { m } ( - \log   u _ { i j } ) / s _ { \Lambda   } }
+{ \displaystyle   [ 0 , a ] }
+{ \displaystyle   s _ { A } = \max   _ { j = 1 , \ldots   , m } x _ { j } }
+{ \displaystyle   { \text { i i i )   I n v } } ( s _ { A } , { \boldsymbol   { u } } _ { i } ) = s _ { A } / \max   _ { j = 1 , \ldots   , m } \{ u _ { i j } \ } }
+{ \boldsymbol   { x } }
+a
+( A , K )
+{ \displaystyle   m = 3 0 , s _ { 1 } = 8 3 . 2 4 }
+{ \displaystyle   s _ { 2 } = 8 . 3 7 }
+{ \displaystyle   F _ { X } ( x ) = 1 - \left ( { \frac   { k } { x } } \right ) ^ { a } }
+{ \displaystyle   ( g _ { ( a , k ) } , U ) }
+[ 0 , 1 ]
+g _ { { ( a , k ) } }
+{ \displaystyle   x = g _ { ( a , k ) } = ( 1 - u ) ^ { - { \frac   { 1 } { a } } } k }
+{ \displaystyle   { \boldsymbol   { s } } _ { \boldsymbol   { \Theta   } } }
+A
+{ \displaystyle   s _ { 1 } = \sum   _ { i = 1 } ^ { m } \log   x _ { i } , s _ { 2 } = \min \{ x _ { i } \ } }
+{ \displaystyle   s _ { 1 } = \sum   _ { i = 1 } ^ { m } - { \frac   { 1 } { a } } \log ( 1 - u _ { i } ) + m \log   k }
+{ \displaystyle   s _ { 2 } = ( 1 - u _ { \min   } ) ^ { - { \frac   { 1 } { a } } } k }
+{ \displaystyle   u _ { \min   } = \min \{ u _ { i } \ } }
+( A , K )
+x _ { \mathrm { m i n } }

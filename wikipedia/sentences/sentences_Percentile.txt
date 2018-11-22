@@ -1,0 +1,96 @@
+C = 1 / 2
+C = 1
+C = 0
+\sigma  
+\sigma  
+\sigma  
+\sigma  
+\sigma  
+\sigma  
+\sigma  
+\sigma  
+\sigma  
+\sigma  
+\sigma  
+( 0 < P \leq   1 0 0 )
+{ \displaystyle   n = \left \lceil   { \frac   { P } { 1 0 0 } } \times   N \right \rceil   . }
+{ \displaystyle   \left \lceil   { \frac   { 5 } { 1 0 0 } } \times   5 \right \rceil   = \lceil   0 . 2 5 \rceil   = 1 }
+{ \displaystyle   \left \lceil   { \frac   { 3 0 } { 1 0 0 } } \times   5 \right \rceil   = \lceil   1 . 5 \rceil   = 2 }
+{ \displaystyle   \left \lceil   { \frac   { 4 0 } { 1 0 0 } } \times   5 \right \rceil   = \lceil   2 . 0 \rceil   = 2 }
+{ \displaystyle   \left \lceil   { \frac   { 5 0 } { 1 0 0 } } \times   5 \right \rceil   = \lceil   2 . 5 \rceil   = 3 }
+{ \displaystyle   \left \lceil   { \frac   { 1 0 0 } { 1 0 0 } } \times   5 \right \rceil   = \lceil   5 \rceil   = 5 }
+{ \displaystyle   \left \lceil   { \frac   { 2 5 } { 1 0 0 } } \times   1 0 \right \rceil   = \lceil   2 . 5 \rceil   = 3 }
+{ \displaystyle   \left \lceil   { \frac   { 5 0 } { 1 0 0 } } \times   1 0 \right \rceil   = \lceil   5 . 0 \rceil   = 5 }
+{ \displaystyle   \left \lceil   { \frac   { 7 5 } { 1 0 0 } } \times   1 0 \right \rceil   = \lceil   7 . 5 \rceil   = 8 }
+{ \displaystyle   \left \lceil   { \frac   { 2 5 } { 1 0 0 } } \times   1 1 \right \rceil   = \lceil   2 . 7 5 \rceil   = 3 }
+{ \displaystyle   \left \lceil   { \frac   { 5 0 } { 1 0 0 } } \times   1 1 \right \rceil   = \lceil   5 . 5 0 \rceil   = 6 }
+{ \displaystyle   \left \lceil   { \frac   { 7 5 } { 1 0 0 } } \times   1 1 \right \rceil   = \lceil   8 . 2 5 \rceil   = 9 }
+\{ v _ { i } , i = 1 , 2 , . . . , N : v _ { i + 1 } \geq   v _ { i } , \forall   i = 1 , 2 , . . . N - 1 \ } ,
+( v _ { i } , i )
+{ \displaystyle   v ( x ) = v _ { \lfloor   x \rfloor   } + ( x \%1 ) ( v _ { \lfloor   x \rfloor   + 1 } - v _ { \lfloor   x \rfloor   } ) , \forall   x \in   [ 1 , N ] : v ( i ) = v _ { i } { \text { ,   f o r   } } i = 1 , 2 , \ldots   , N , }
+\lfloor   x \rfloor  
+x
+{ \displaystyle   x \%1 }
+x = N
+v _ { \lfloor   x \rfloor   + 1 }
+{ \displaystyle   x \%1 = 0 }
+x
+i
+v
+x
+P = 1 0 0 p
+N
+x = f ( p , N ) = ( N + c _ { 1 } ) p + c _ { 2 } .
+( 1 , N )
+p = 0 . 5
+f ( 0 . 5 , N ) = { \frac   { N + c _ { 1 } } { 2 } } + c _ { 2 } = { \frac   { N + 1 } { 2 } } \therefore   2 c _ { 2 } + c _ { 1 } = 1 ,
+x = f ( p , N ) = ( N + 1 - 2 C ) p + C .
+[ 0 , 1 ]
+p
+f ( p , N )
+[ 1 , N ]
+C = 1 / 2
+x = f ( p ) = { \begin { c a s e s } N p + { \frac   { 1 } { 2 } } , \forall   p \in   \left [ p _ { 1 } , p _ { N } \right ] , \\1 , \forall   p \in   \left [ 0 , p _ { 1 } \right ] , \\N , \forall   p \in   \left [ p _ { N } , 1 \right ] . \end { c a s e s } } ,
+p _ { i } = { \frac   { 1 } { N } } \left ( i - { \frac   { 1 } { 2 } } \right ) , i \in   [ 1 , N ] \cap   \mathbb   { N }  
+\therefore   p _ { 1 } = { \frac   { 1 } { 2 N } } , p _ { N } = { \frac   { 2 N - 1 } { 2 N } } .
+P _ { i } = 1 0 0 p _ { i } .
+p = { \frac   { 1 } { N } } \left ( x - { \frac   { 1 } { 2 } } \right ) , x \in   ( 1 , N ) \cap   \mathbb   { R }   .
+v _ { i }
+i
+N
+P _ { i }
+{ \frac   { 1 0 0 } { 5 } } \left ( 1 - { \frac   { 1 } { 2 } } \right ) = 1 0 .
+{ \frac   { 1 0 0 } { 5 } } \left ( 2 - { \frac   { 1 } { 2 } } \right ) = 3 0 .
+{ \frac   { 1 0 0 } { 5 } } \left ( 3 - { \frac   { 1 } { 2 } } \right ) = 5 0 .
+{ \frac   { 1 0 0 } { 5 } } \left ( 4 - { \frac   { 1 } { 2 } } \right ) = 7 0 .
+{ \frac   { 1 0 0 } { 5 } } \left ( 5 - { \frac   { 1 } { 2 } } \right ) = 9 0 .
+P
+N
+P < P _ { 1 }
+P > P _ { n }
+P
+v ( f ( p ) )
+v = 2 0 + 5 \times   { \frac   { 4 0 - 3 0 } { 1 0 0 } } ( 3 5 - 2 0 ) = 2 7 . 5
+C = 1
+x = f ( p , N ) = p ( N - 1 ) + 1 { \text { ,   } } p \in   [ 0 , 1 ]
+\therefore   p = { \frac   { x - 1 } { N - 1 } } { \text { ,   } } x \in   [ 1 , N ] .
+x \leftrightarrow   p
+p \in   [ 0 , 1 ]
+x = { \frac   { 4 0 } { 1 0 0 } } ( 5 - 1 ) + 1 = 2 . 6
+\lfloor   x \rfloor   = 2
+{ \displaystyle   x \%1 = 0 . 6 }
+v ( 2 . 6 ) = v _ { 2 } + 0 . 6 ( v _ { 3 } - v _ { 2 } ) = 2 0 + 0 . 6 ( 3 5 - 2 0 ) = 2 9 .
+x = { \frac   { 7 5 } { 1 0 0 } } ( 4 - 1 ) + 1 = 3 . 2 5
+v ( 3 . 2 5 ) = v _ { 3 } + 0 . 2 5 ( v _ { 4 } - v _ { 3 } ) = 3 + 0 . 2 5 ( 4 - 3 ) = 3 . 2 5 .
+C = 0
+p \in   ( 0 , 1 )
+{ \displaystyle   x = f ( p , N ) = { \begin { c a s e s } 1 { \text { ,   } } p \in   \left [ 0 , { \frac   { 1 } { N + 1 } } \right ] \\p ( N + 1 ) { \text { ,   } } p \in   \left ( { \frac   { 1 } { N + 1 } } , { \frac   { N } { N + 1 } } \right ) \\N { \text { ,   } } p \in   \left [ { \frac   { N } { N + 1 } } , 1 \right ] \end { c a s e s } } . }
+p = { \frac   { x } { N + 1 } } { \text { ,   } } x \in   ( 0 , N ) .
+x = { \frac   { 4 0 } { 1 0 0 } } ( 5 + 1 ) = 2 . 4
+\lfloor   x \rfloor   = 2
+{ \displaystyle   x \%1 = 0 . 4 }
+v ( 2 . 4 ) = v _ { 2 } + 0 . 4 ( v _ { 3 } - v _ { 2 } ) = 2 0 + 0 . 4 ( 3 5 - 2 0 ) = 2 6
+w _ { 1 } , w _ { 2 } , w _ { 3 } , \dots   , w _ { N }
+{ \displaystyle   S _ { N } = \sum   _ { k = 1 } ^ { N } w _ { k } , }
+{ \displaystyle   p _ { n } = { \frac   { 1 } { S _ { N } } } \left ( x _ { n } - { \frac   { w _ { n } } { 2 } } \right ) }
+{ \displaystyle   v = v _ { k } + { \frac   { P - p _ { k } } { p _ { k + 1 } - p _ { k } } } ( v _ { k + 1 } - v _ { k } ) . }

@@ -1,0 +1,74 @@
+x \in   X
+y   \in   X
+\{ x , y \}\in   R _ { i }
+x , y \in   X
+\{ x , y \}\in   R _ { k }
+z \in   X
+\{ x , z \}\in   R _ { i }
+\{ z , y \}\in   R _ { j }
+p _ { i j } ^ { k }
+( D _ { i } ) _ { { x , y } } = { \begin { c a s e s } 1 , & { \text { i f   } } \left ( x , y \right ) \in   R _ { { i } } , \\0 , & { \text { o t h e r w i s e . } } \end { c a s e s } } \qquad   ( 1 )
+{ \mathcal   { A } }
+\sideset   { } { _ { { i = 0 } } ^ { { n } } } \sum   a _ { { i } } D _ { { i } }
+a _ { i }
+D _ { { i } }
+D _ { i }
+\sum   _ { { i = 0 } } ^ { n } D _ { { i } } = J
+D _ { 0 } = I ,
+D _ { i } D _ { j } = \sum   _ { { k = 0 } } ^ { n } p _ { { i j } } ^ { k } D _ { k } = D _ { j } D _ { i } , \qquad   i , j = 0 , \ldots   , n .
+D _ { i }
+v _ { i }
+D _ { i } J = J D _ { i } = v _ { i } J . \qquad   ( 2 )
+D _ { { 0 } } , \ldots   , D _ { { n } }
+{ \mathcal   { A } }
+n + 1
+{ \mathcal   { A } }
+{ \mathcal   { A } }
+{ \mathcal   { A } }
+S
+A \in   { \mathcal     { A } }
+\Lambda   _ { { A } }
+S ^ { { - 1 } } A S = \Lambda   _ { { A } }
+{ \mathcal   { A } }
+J _ { { 0 } } , \ldots   , J _ { { n } }
+J _ { i } ^ { 2 } = J _ { i } , i = 0 , \ldots   , n , \qquad   ( 3 )
+J _ { i } J _ { k } = 0 , i \neq   k , \qquad   ( 4 )
+\sum   _ { { i = 0 } } ^ { n } J _ { i } = I . \qquad   ( 5 )
+D _ { i }
+E _ { k }
+D _ { { i } } = \sum   _ { { k = 0 } } ^ { n } p _ { i } ( k ) E _ { k } , \qquad   ( 6 )
+| X | E _ { { k } } = \sum   _ { { i = 0 } } ^ { n } q _ { k } \left ( i \right ) D _ { i } . \qquad   ( 7 )
+p _ { i } ( k )
+q _ { k } ( i )
+D _ { i }
+{ \displaystyle   p _ { i } ( k ) }
+q _ { k } ( i )
+\sum   _ { { k = 0 } } ^ { n } \mu   _ { i } p _ { i } ( k ) p _ { \ell   } ( k ) = v v _ { i } \delta   _ { { i \ell   } } , \quad   ( 8 )
+\sum   _ { { k = 0 } } ^ { n } \mu   _ { i } q _ { k } ( i ) q _ { \ell   } ( i ) = v \mu   _ { k } \delta   _ { { k \ell   } } . \quad   ( 9 )
+\mu   _ { j } p _ { i } ( j ) = v _ { i } q _ { j } ( i ) , \quad   i , j = 0 , \ldots   , n . \quad   ( 1 0 )
+P ^ { T } \Delta   _ { \mu   } P = v \Delta   _ { v } , \quad   ( 1 1 )
+Q ^ { T } \Delta   _ { v } Q = v \Delta   _ { \mu   } , \quad   ( 1 2 )
+\Delta   _ { v } = \operatorname   { d i a g } \{ v _ { 0 } , v _ { 1 } , \ldots   , v _ { n } \},\qquad   \Delta   _ { \mu   } = \operatorname   { d i a g } \{ \mu   _ { 0 } , \mu   _ { 1 } , \ldots   , \mu   _ { n } \ } .
+D _ { i } D _ { \ell   }
+p _ { i } ( k ) p _ { \ell   } ( k )
+\mu   _ { k }
+v v _ { i } \delta   _ { { i \ell   } } = \operatorname   { t r a c e } D _ { i } D _ { \ell   } = \sum   _ { { k = 0 } } ^ { n } \mu   _ { i } p _ { i } ( k ) p _ { \ell   } ( k ) , \quad   ( 1 3 )
+\left ( 8 \right )
+\left ( 1 1 \right )
+Q = v P ^ { { - 1 } } = \Delta   _ { v } ^ { { - 1 } } P ^ { T } \Delta   _ { \mu   } , \quad   ( 1 4 )
+( 9 )
+( 1 0 )
+( 1 2 )
+\Box  
+n
+X = { \mathcal     { F } } ^ { { n } }
+{ \mathcal   { F } }
+\left ( { \mathcal     { F } } , K \right )
+X = { \mathcal     { F } } ^ { { n } }
+n
+\left ( { \mathcal     { F } } , K \right ) _ { { \otimes   } } ^ { { n } }
+\left ( { \mathcal     { F } } , K \right )
+X = { \mathcal     { F } } ^ { { n } }
+\left ( { \mathcal     { F } } , K \right ) _ { { \otimes   } } ^ { { n } }
+F \left [ X \right ]
+\mathbb   { F }  

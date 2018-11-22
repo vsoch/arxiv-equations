@@ -1,0 +1,4 @@
+\delta   = { \frac     { \mu   _ { t } - \mu   _ { c } } { \sigma   } } ,
+\mu   _ { t }
+\mu   _ { c }
+\sigma   ^ { 2 }

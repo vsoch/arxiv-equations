@@ -1,0 +1,3 @@
+{ \displaystyle   X _ { 1 } + X _ { 2 } + \ldots   + X _ { n } { \stackrel   { d } { = } } c _ { n } X + d _ { n } , }
+{ \displaystyle   c _ { n } = n ^ { 1 / \alpha   } \ , }
+{ \displaystyle   0 < \alpha   \leq   2 . }

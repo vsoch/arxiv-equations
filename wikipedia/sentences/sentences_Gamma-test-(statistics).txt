@@ -1,0 +1,6 @@
+G = { \frac     { N _ { s } - N _ { d } } { N _ { s } + N _ { d } } } \   .
+\gamma  
+\gamma   = { \frac     { P _ { s } - P _ { d } } { P _ { s } + P _ { d } } } \   ,
+t \approx   G { \sqrt     { { \frac     { N _ { s } + N _ { d } } { n ( 1 - G ^ { 2 } ) } } } } \   ,
+n \neq   N _ { s } + N _ { d } . \ ,
+Q = { \frac     { a d - b c } { a d + b c } } \   .

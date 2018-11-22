@@ -1,0 +1,12 @@
+{ \frac   { X - \mu   } { \sigma   } }
+{ \frac   { X - { \overline   { X } } } { s } }
+{ \frac   { { \hat   { \epsilon   } } _ { i } } { { \hat   { \sigma   } } _ { i } } } = { \frac   { X _ { i } - { \hat   { \mu   } } _ { i } } { { \hat   { \sigma   } } _ { i } } }
+{ \frac   { \mu   _ { k } } { \sigma   ^ { k } } }
+\sigma  
+{ \frac   { \sigma   } { \mu   } }
+\mu  
+{ \displaystyle   X ' = { \frac   { X - X _ { \min   } } { X _ { \max   } - X _ { \min   } } } }
+a
+b
+{ \displaystyle   X ' = a + { \frac   { \left ( X - X _ { \min   } \right ) \left ( b - a \right ) } { X _ { \max   } - X _ { \min   } } } }
+\left ( { \frac   { \sigma   ^ { 2 } } { \mu   } } \right )

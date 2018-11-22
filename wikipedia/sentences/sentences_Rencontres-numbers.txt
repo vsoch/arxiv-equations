@@ -1,0 +1,11 @@
+_ { n } \!\!\diagdown   \!\!^ { k }
+D _ { { 0 , 0 } } = 1 , \ !
+D _ { { 1 , 0 } } = 0 , \ !
+D _ { { n + 2 , 0 } } = ( n + 1 ) ( D _ { { n + 1 , 0 } } + D _ { { n , 0 } } ) \ !
+{ \displaystyle   D _ { n , 0 } = \left \lceil   { \frac   { n ! } { e } } \right \rfloor   , }
+k \geq   0
+D _ { { n , k } } = { n   \choose   k } \cdot   D _ { { n - k , 0 } } .
+D _ { { n , m } } = { \frac     { n ! } { m ! } } [ z ^ { { n - m } } ] { \frac     { e ^ { { - z } } } { 1 - z } } = { \frac     { n ! } { m ! } } \sum   _ { { k = 0 } } ^ { { n - m } } { \frac     { ( - 1 ) ^ { k } } { k ! } } .
+D _ { { n , m } } = { n   \choose   m } D _ { { n - m , 0 } } \;\;{ \mbox {   a n d   } } \;\;{ \frac     { D _ { { n , m } } } { n ! } } \approx   { \frac     { e ^ { { - 1 } } } { m ! } }
+{ D _ { { n , k } }   \over   n ! } .
+\lim   _ { { n \to   \infty   } } { D _ { { n , k } }   \over   n ! } = { e ^ { { - 1 } }   \over   k ! } .

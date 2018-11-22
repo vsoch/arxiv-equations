@@ -1,0 +1,26 @@
+d
+D
+o = f ( d )
+O
+U _ { O } ( o )
+d
+U _ { D } ( d ) \ =\ U_ { O } ( f ( d ) ) . \ ,
+d _ { { \mathrm     { o p t } } }
+U _ { D } ( d )
+d _ { { \mathrm     { o p t } } } = \arg   \max   \limits   _ { { d \in   D } } U _ { D } ( d ) . \ ,
+o
+d ;
+U _ { O } ( o )
+o ;
+d
+U _ { D } ( d ) .
+d
+p ( o | d )
+U _ { D } ( d )
+d
+d
+{ \text { E } } U _ { D } ( d ) = \int   { p ( o | d ) U ( o ) d o } \ ,
+O
+d _ { { \mathrm     { o p t } } }
+{ \text { E } } U _ { D } ( d )
+d _ { { \mathrm     { o p t } } } = \arg   \max   \limits   _ { { d \in   D } } { \text { E } } U _ { D } ( d ) . \ ,

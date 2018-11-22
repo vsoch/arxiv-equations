@@ -1,0 +1,2 @@
+{ \displaystyle   { \begin { a l i g n e d } & { } \quad   F _ { X _ { n } , X _ { n + 1 } , \dots   , X _ { n + N - 1 } } ( x _ { n } , x _ { n + 1 } , \dots   , x _ { n + N - 1 } ) \\&=F_ { X _ { n + k } , X _ { n + k + 1 } , \dots   , X _ { n + k + N - 1 } } ( x _ { n } , x _ { n + 1 } , \dots   , x _ { n + N - 1 } ) , \end { a l i g n e d } } }
+{ \displaystyle   E ( X [ n ] ) = \mu   \quad   { \text { f o r   a l l   } } n . }

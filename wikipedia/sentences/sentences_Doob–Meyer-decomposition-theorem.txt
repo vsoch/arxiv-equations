@@ -1,0 +1,7 @@
+Z
+Z _ { 0 } = 0
+\{ Z _ { T } \mid   { \text { T   a   f i n i t e   v a l u e d   s t o p p i n g   t i m e } } \ }
+Z
+A
+A _ { 0 } = 0
+M _ { t } = Z _ { t } - A _ { t }

@@ -1,0 +1,11 @@
+t _ { i }
+{ \displaystyle   t _ { \min   } }
+{ \displaystyle   t _ { \max   } }
+{ \displaystyle   s _ { i } = \left \lceil   { \frac   { f _ { \max   } \cdot   ( t _ { i } - t _ { \min   } ) } { t _ { \max   } - t _ { \min   } } } \right \rceil   }
+{ \displaystyle   t _ { i } > t _ { \min   } }
+s _ { { i } } = 1
+s _ { i }
+{ \displaystyle   f _ { \max   } }
+t _ { i }
+{ \displaystyle   t _ { \min   } }
+{ \displaystyle   t _ { \max   } }

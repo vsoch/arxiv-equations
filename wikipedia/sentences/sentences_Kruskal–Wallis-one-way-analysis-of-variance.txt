@@ -1,0 +1,20 @@
+H   =   ( N - 1 ) \frac { \sum_ { i = 1 } ^ g   n _ i ( \bar { r } _ { i \cdot }   -   \bar { r } ) ^ 2 } { \sum_ { i = 1 } ^ g \sum_ { j = 1 } ^ { n _ i } ( r _ { i j }   -   \bar { r } ) ^ 2 } ,
+n _ { i }
+i
+r _ { i j }
+j
+i
+N
+\bar { r } _ { i \cdot }   =   \frac { \sum_ { j = 1 } ^ { n _ i } { r _ { i j } } } { n _ i }
+i
+\bar { r }   = \tfrac   1 2   ( N + 1 )
+r _ { i j }
+H
+( N - 1 ) N ( N + 1 ) / 1 2
+\bar { r } = \tfrac { N + 1 } { 2 }
+  \begin { a l i g n }   H   &   =   \frac { 1 2 } { N ( N + 1 ) } \sum_ { i = 1 } ^ g   n _ i   \left ( \bar { r } _ { i \cdot }   -   \frac { N + 1 } { 2 } \right ) ^ 2   \\ & = \frac { 1 2 } { N ( N + 1 ) } \sum_ { i = 1 } ^ g   n _ i   \bar { r } _ { i \cdot   } ^ 2   - \ 3 ( N + 1 ) .   \end { a l i g n }  
+H
+1   -   \frac { \sum_ { i = 1 } ^ G   ( t _ i ^ 3   -   t _ i ) } { N ^ 3 - N }
+\Pr ( \chi ^ 2 _ { g - 1 }   \ge   H )
+n _ { i }
+\chi ^ 2 _ { \alpha :   g - 1 }

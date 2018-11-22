@@ -1,0 +1,19 @@
+r _ { a } \approx   \alpha   + \beta   r _ { b }
+{ \displaystyle   r _ { a , t } = \alpha   + \beta   r _ { b , t } + \varepsilon   _ { t } , }
+{ \displaystyle   \beta   = { \frac   { \mathrm   { C o v }   ( r _ { a } , r _ { b } ) } { \mathrm   { V a r }   ( r _ { b } ) } } , }
+{ \displaystyle   \sigma   _ { a } = { \sqrt   { \mathrm   { V a r }   ( r _ { a } ) } } }
+{ \displaystyle   \sigma   _ { b } = { \sqrt   { \mathrm   { V a r }   ( r _ { b } ) } } }
+{ \displaystyle   \rho   _ { a , b } = \mathrm   { C o v }   ( r _ { a } , r _ { b } ) / { \sqrt   { \mathrm   { V a r }   ( r _ { a } ) \mathrm   { V a r }   ( r _ { b } ) } } }
+\beta   =   \rho_ { a , b } \frac { \sigma_a } { \sigma_b }
+{ \mathrm     { S C L } } : r _ { { a , t } } = \alpha   _ { a } + \beta   _ { a } r _ { { m , t } } + \varepsilon   _ { { a , t } }
+\alpha   _ { a }
+\beta   _ { a }
+{ \mathrm     { S M L } } : E ( R _ { i } ) - R _ { f } = \beta   _ { i } ( E ( R _ { M } ) - R _ { f } ) . ~
+Z = ( 1 - \delta   ) X + \delta   Y .
+{ \displaystyle   \operatorname   { V a r }   ( Z ) = ( 1 - \delta   ) ^ { 2 } \operatorname   { V a r }   ( X ) + 2 \delta   ( 1 - \delta   ) \operatorname   { C o v }   ( X , Y ) + \delta   ^ { 2 } \operatorname   { V a r }   ( Y ) }
+{ \displaystyle   \operatorname   { V a r }   ( Z ) \approx   ( 1 - 2 \delta   ) \operatorname   { V a r }   ( X ) + 2 \delta   \operatorname   { C o v }   ( X , Y ) . }
+{ \displaystyle   \beta   = \operatorname   { C o v }   ( X , Y ) / \operatorname   { V a r }   ( X ) , }
+{ \displaystyle   \operatorname   { V a r }   ( Z ) / \operatorname   { V a r }   ( X ) \approx   1 + 2 \delta   ( \beta   - 1 ) . }
+{ \displaystyle   K _ { E } = R _ { F } + \beta   _ { E } ( R _ { M } - R _ { F } ) }
+\beta   _ { E } = \beta   = \left [ \beta   _ { A } - \beta   _ { D } \left ( { \frac     { D } { V } } \right ) \right ] { \frac     { V } { E } }
+\beta   _ { A } = \beta   _ { D } \left ( { \frac     { D } { V } } \right ) + \beta   _ { E } \left ( { \frac     { E } { V } } \right )

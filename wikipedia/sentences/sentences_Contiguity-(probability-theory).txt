@@ -1,0 +1,2 @@
+( \Omega   _ { n } , { \mathcal     { F } } _ { n } )
+Q ( A ) = \int   _ { A } f \,{ \mathrm     { d } } P , \ ,

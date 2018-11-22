@@ -1,0 +1,9 @@
+{ \displaystyle   W = { \left ( \sum   _ { i = 1 } ^ { n } a _ { i } x _ { ( i ) } \right ) ^ { 2 }   \over   \sum   _ { i = 1 } ^ { n } ( x _ { i } - { \overline   { x } } ) ^ { 2 } } , }
+x _ { { ( i ) } }
+x _ { i }
+\overline   { x } = \left ( x _ { 1 } + \cdots   + x _ { n } \right ) / n
+a _ { i }
+{ \displaystyle   ( a _ { 1 } , \dots   , a _ { n } ) = { m ^ { \mathsf   { T } } V ^ { - 1 }   \over   ( m ^ { \mathsf   { T } } V ^ { - 1 } V ^ { - 1 } m ) ^ { 1 / 2 } } , }
+m = ( m _ { 1 } , \dots   , m _ { n } ) ^ { { { \mathsf     { T } } } } \ ,
+m _ { 1 } , \ldots   , m _ { n }
+V

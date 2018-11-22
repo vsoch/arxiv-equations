@@ -1,0 +1,157 @@
+\mathbf   { X }  
+\theta  
+T ( \mathbf   { X }   )
+T ( \mathbf   { X }   )
+{ \displaystyle   p ( \mathbf   { X }   ) = h ( \mathbf   { X }   ) \,g ( \theta   , T ( \mathbf   { X }   ) ) }
+\theta  
+\mathbf   { X }  
+T ( \mathbf   { X }   )
+{ \displaystyle   \Pr ( x \mid   t , \theta   ) = \Pr ( x \mid   t ) . }
+{ \displaystyle   \Pr ( \theta   \mid   t , x ) = \Pr ( \theta   \mid   t ) , }
+{ \displaystyle   \Pr ( \theta   , x \mid   t ) = \Pr ( \theta   \mid   t ) \Pr ( x \mid   t ) , }
+{ \displaystyle   f _ { \theta   } ( x ) = h ( x ) \,g_ { \theta   } ( T ( x ) ) , }
+X _ { 1 } , X _ { 2 } , \ldots   , X _ { n }
+{ \displaystyle   \prod   _ { i = 1 } ^ { n } f ( x _ { i } ; \theta   ) = g _ { 1 } \left [ u _ { 1 } ( x _ { 1 } , x _ { 2 } , \dots   , x _ { n } ) ; \theta   \right ] H ( x _ { 1 } , x _ { 2 } , \dots   , x _ { n } ) . }
+{ \displaystyle   \prod   _ { i = 1 } ^ { n } f ( x _ { i } ; \theta   ) = g _ { 1 } \left [ u _ { 1 } ( x _ { 1 } , x _ { 2 } , \dots   , x _ { n } ) ; \theta   \right ] H ( x _ { 1 } , x _ { 2 } , \dots   , x _ { n } ) . }
+J = \left [ w _ { i } / y _ { j } \right ]
+\prod   _ { i = 1 } ^ { n } f \left [ w _ { i } ( y _ { 1 } , y _ { 2 } , \dots   , y _ { n } ) ; \theta   \right ] = | J | g _ { 1 } ( y _ { 1 } ; \theta   ) H \left [ w _ { 1 } ( y _ { 1 } , y _ { 2 } , \dots   , y _ { n } ) , \dots   , w _ { n } ( y _ { 1 } , y _ { 2 } , \dots   , y _ { n } ) \right ] .
+g _ { 1 } ( y _ { 1 } ; \theta   )
+Y _ { 1 }
+H [ w _ { 1 } , \dots   , w _ { n } ] | J |
+g ( y _ { 1 } , \dots   , y _ { n } ; \theta   )
+g _ { 1 } ( y _ { 1 } ; \theta   )
+{ \displaystyle   h ( y _ { 2 } , \dots   , y _ { n } \mid   y _ { 1 } ; \theta   ) }
+Y _ { 2 } , \dots   , Y _ { n }
+Y _ { 1 } = y _ { 1 }
+H ( x _ { 1 } , x _ { 2 } , \dots   , x _ { n } )
+H \left [ w _ { 1 } ( y _ { 1 } , \dots   , y _ { n } ) , \dots   , w _ { n } ( y _ { 1 } , \dots   , y _ { n } ) ) \right ]
+\theta  
+\theta  
+J
+{ \displaystyle   h ( y _ { 2 } , \dots   , y _ { n } \mid   y _ { 1 } ; \theta   ) }
+\theta  
+Y _ { 1 }
+\theta  
+{ \displaystyle   g ( y _ { 1 } , \dots   , y _ { n } ; \theta   ) = g _ { 1 } ( y _ { 1 } ; \theta   ) h ( y _ { 2 } , \dots   , y _ { n } \mid   y _ { 1 } ) , }
+{ \displaystyle   h ( y _ { 2 } , \dots   , y _ { n } \mid   y _ { 1 } ) }
+\theta  
+Y _ { 2 } . . . Y _ { n }
+X _ { 1 } . . . X _ { n }
+\Theta  
+Y _ { 1 }
+J
+y _ { 1 } , \dots   , y _ { n }
+u _ { 1 } ( x _ { 1 } , \dots   , x _ { n } ) , \dots   , u _ { n } ( x _ { 1 } , \dots   , x _ { n } )
+x _ { 1 } , \dots   , x _ { n }
+{ \displaystyle   { \frac   { g \left [ u _ { 1 } ( x _ { 1 } , \dots   , x _ { n } ) , \dots   , u _ { n } ( x _ { 1 } , \dots   , x _ { n } ) ; \theta   \right ] } { | J * | } } = g _ { 1 } \left [ u _ { 1 } ( x _ { 1 } , \dots   , x _ { n } ) ; \theta   \right ] { \frac   { h ( u _ { 2 } , \dots   , u _ { n } \mid   u _ { 1 } ) } { | J * | } } }
+J *
+y _ { 1 } , \dots   , y _ { n }
+x _ { 1 } , \dots   , x _ { n }
+f ( x _ { 1 } ; \theta   ) \cdots   f ( x _ { n } ; \theta   )
+X _ { 1 } , \dots   , X _ { n }
+{ \displaystyle   h ( y _ { 2 } , \dots   , y _ { n } \mid   y _ { 1 } ) }
+{ \displaystyle   h ( u _ { 2 } , \dots   , u _ { n } \mid   u _ { 1 } ) }
+\theta  
+{ \displaystyle   H ( x _ { 1 } , \dots   , x _ { 2 } ) = { \frac   { h ( u _ { 2 } , \dots   , u _ { n } \mid   u _ { 1 } ) } { | J * | } } }
+\theta  
+( X , T ( X ) )
+f _ { \theta   } ( x , t )
+T
+X
+f _ { \theta   } ( x , t ) = f _ { \theta   } ( x )
+{ \displaystyle   t = T ( x ) }
+{ \displaystyle   { \begin { a l i g n e d } f _ { \theta   } ( x ) & = f _ { \theta   } ( x , t ) \\&=f_ { \theta   } ( x \mid   t ) f _ { \theta   } ( t ) \\&=f ( x \mid   t ) f _ { \theta   } ( t ) \end { a l i g n e d } } }
+f _ { \theta   } ( x ) = a ( x ) b _ { \theta   } ( t )
+{ \displaystyle   a ( x ) = f _ { X \mid   t } ( x ) }
+b _ { \theta   } ( t ) = f _ { \theta   } ( t )
+f _ { \theta   } ( x ) = a ( x ) b _ { \theta   } ( t )
+{ \begin { a l i g n e d } f _ { \theta   } ( t ) & = \sum   _ { x : T ( x ) = t } f _ { \theta   } ( x , t ) \\&=\sum   _ { x : T ( x ) = t } f _ { \theta   } ( x ) \\&=\sum   _ { x : T ( x ) = t } a ( x ) b _ { \theta   } ( t ) \\&=\left ( \sum   _ { x : T ( x ) = t } a ( x ) \right ) b _ { \theta   } ( t ) . \end { a l i g n e d } }
+t
+{ \displaystyle   f _ { \theta   \mid   t } ( x ) }
+{ \displaystyle   X | T ( X ) }
+{ \displaystyle   { \begin { a l i g n e d } f _ { \theta   \mid   t } ( x ) & = { \frac   { f _ { \theta   } ( x , t ) } { f _ { \theta   } ( t ) } } \\&={ \frac   { f _ { \theta   } ( x ) } { f _ { \theta   } ( t ) } } \\&={ \frac   { a ( x ) b _ { \theta   } ( t ) } { \left ( \sum   _ { x : T ( x ) = t } a ( x ) \right ) b _ { \theta   } ( t ) } } \\&={ \frac   { a ( x ) } { \sum   _ { x : T ( x ) = t } a ( x ) } } . \end { a l i g n e d } } }
+\theta  
+T
+{ \frac   { f _ { \theta   } ( x ) } { f _ { \theta   } ( y ) } }
+\Longleftrightarrow  
+P _ { \theta   }
+{ \displaystyle   \left \{ { \frac   { L ( \theta   _ { 1 } \mid   X ) } { L ( \theta   _ { 2 } \mid   X ) } } \right \ } }
+{ \displaystyle   P ( X \mid   \theta   ) }
+\Pr \{ X = x \}=\Pr \{ X _ { 1 } = x _ { 1 } , X _ { 2 } = x _ { 2 } , \ldots   , X _ { n } = x _ { n } \ } .
+{ \displaystyle   p ^ { x _ { 1 } } ( 1 - p ) ^ { 1 - x _ { 1 } } p ^ { x _ { 2 } } ( 1 - p ) ^ { 1 - x _ { 2 } } \cdots   p ^ { x _ { n } } ( 1 - p ) ^ { 1 - x _ { n } } }
+{ \displaystyle   p ^ { \sum   x _ { i } } ( 1 - p ) ^ { n - \sum   x _ { i } } = p ^ { T ( x ) } ( 1 - p ) ^ { n - T ( x ) } }
+{ \begin { a l i g n e d } f _ { X } ( x _ { 1 } , \ldots   , x _ { n } ) & = { \frac   { 1 } { \theta   } } \mathbf   { 1 }   _ { \{ 0 \leq   x _ { 1 } \leq   \theta   \}}\cdots   { \frac   { 1 } { \theta   } } \mathbf   { 1 }   _ { \{ 0 \leq   x _ { n } \leq   \theta   \}}\\&={ \frac   { 1 } { \theta   ^ { n } } } \mathbf   { 1 }   _ { \{ 0 \leq   \min \{ x _ { i } \}\}}\mathbf   { 1 }   _ { \{ \max \{ x _ { i } \}\leq   \theta   \}}\end { a l i g n e d } }
+{ \frac   { n + 1 } { n } } T ( X ) .
+X _ { 1 } , . . . , X _ { n }
+{ \displaystyle   [ \alpha   , \beta   ] }
+\alpha  
+\beta  
+{ \displaystyle   T ( X _ { 1 } ^ { n } ) = \left ( \min   _ { 1 \leq   i \leq   n } X _ { i } , \max   _ { 1 \leq   i \leq   n } X _ { i } \right ) }
+( \alpha   \,,\,\beta   )
+X _ { 1 } ^ { n } = ( X _ { 1 } , \ldots   , X _ { n } )
+{ \begin { a l i g n e d } f _ { X _ { 1 } ^ { n } } ( x _ { 1 } ^ { n } ) & = \prod   _ { i = 1 } ^ { n } \left ( { 1   \over   \beta   - \alpha   } \right ) \mathbf   { 1 }   _ { \{ \alpha   \leq   x _ { i } \leq   \beta   \}}=\left ( { 1   \over   \beta   - \alpha   } \right ) ^ { n } \mathbf   { 1 }   _ { \{ \alpha   \leq   x _ { i } \leq   \beta   , \,\forall   \,i = 1 , \ldots   , n \}}\\&=\left ( { 1   \over   \beta   - \alpha   } \right ) ^ { n } \mathbf   { 1 }   _ { \{ \alpha   \,\leq   \,\min   _ { 1 \leq   i \leq   n } X _ { i } \}}\mathbf   { 1 }   _ { \{ \max   _ { 1 \leq   i \leq   n } X _ { i } \,\leq   \,\beta   \}}.\end { a l i g n e d } }
+{ \begin { a l i g n e d } h ( x _ { 1 } ^ { n } ) = 1 , \quad   g _ { ( \alpha   , \beta   ) } ( x _ { 1 } ^ { n } ) = \left ( { 1   \over   \beta   - \alpha   } \right ) ^ { n } \mathbf   { 1 }   _ { \{ \alpha   \,\leq   \,\min   _ { 1 \leq   i \leq   n } X _ { i } \}}\mathbf   { 1 }   _ { \{ \max   _ { 1 \leq   i \leq   n } X _ { i } \,\leq   \,\beta   \}}.\end { a l i g n e d } }
+h ( x _ { 1 } ^ { n } )
+( \alpha   , \beta   )
+g _ { ( \alpha   \,,\,\beta   ) } ( x _ { 1 } ^ { n } )
+x _ { 1 } ^ { n }
+{ \displaystyle   T ( X _ { 1 } ^ { n } ) = \left ( \min   _ { 1 \leq   i \leq   n } X _ { i } , \max   _ { 1 \leq   i \leq   n } X _ { i } \right ) , }
+{ \displaystyle   T ( X _ { 1 } ^ { n } ) = \left ( \min   _ { 1 \leq   i \leq   n } X _ { i } , \max   _ { 1 \leq   i \leq   n } X _ { i } \right ) }
+( \alpha   \,,\,\beta   )
+{ \displaystyle   \Pr ( X = x ) = P ( X _ { 1 } = x _ { 1 } , X _ { 2 } = x _ { 2 } , \ldots   , X _ { n } = x _ { n } ) . }
+{ \displaystyle   { e ^ { - \lambda   } \lambda   ^ { x _ { 1 } }   \over   x _ { 1 } ! } \cdot   { e ^ { - \lambda   } \lambda   ^ { x _ { 2 } }   \over   x _ { 2 } ! } \cdots   { e ^ { - \lambda   } \lambda   ^ { x _ { n } }   \over   x _ { n } ! } }
+{ \displaystyle   e ^ { - n \lambda   } \lambda   ^ { ( x _ { 1 } + x _ { 2 } + \cdots   + x _ { n } ) } \cdot   { 1   \over   x _ { 1 } ! x _ { 2 } ! \cdots   x _ { n } ! } }
+X _ { 1 } , \cdots   , X _ { n }
+\theta  
+{ \displaystyle   \sigma   ^ { 2 } , }
+{ \displaystyle   T ( X _ { 1 } ^ { n } ) = { \overline   { x } } = { \frac   { 1 } { n } } \sum   _ { i = 1 } ^ { n } X _ { i } }
+\theta   .
+X _ { 1 } ^ { n } = ( X _ { 1 } , \dots   , X _ { n } )
+{ \displaystyle   { \begin { a l i g n e d } f _ { X _ { 1 } ^ { n } } ( x _ { 1 } ^ { n } ) & = \prod   _ { i = 1 } ^ { n } { \frac   { 1 } { \sqrt   { 2 \pi   \sigma   ^ { 2 } } } } \exp   \left ( - { \frac   { ( x _ { i } - \theta   ) ^ { 2 } } { 2 \sigma   ^ { 2 } } } \right ) \\[6pt ] & = ( 2 \pi   \sigma   ^ { 2 } ) ^ { - { \frac   { n } { 2 } } } \exp   \left ( - \sum   _ { i = 1 } ^ { n } { \frac   { ( x _ { i } - \theta   ) ^ { 2 } } { 2 \sigma   ^ { 2 } } } \right ) \\[6pt ] & = ( 2 \pi   \sigma   ^ { 2 } ) ^ { - { \frac   { n } { 2 } } } \exp   \left ( - \sum   _ { i = 1 } ^ { n } { \frac   { \left ( \left ( x _ { i } - { \overline   { x } } \right ) - \left ( \theta   - { \overline   { x } } \right ) \right ) ^ { 2 } } { 2 \sigma   ^ { 2 } } } \right ) \\[6pt ] & = ( 2 \pi   \sigma   ^ { 2 } ) ^ { - { \frac   { n } { 2 } } } \exp   \left ( - { 1   \over   2 \sigma   ^ { 2 } } \left ( \sum   _ { i = 1 } ^ { n } ( x _ { i } - { \overline   { x } } ) ^ { 2 } + \sum   _ { i = 1 } ^ { n } ( \theta   - { \overline   { x } } ) ^ { 2 } - 2 \sum   _ { i = 1 } ^ { n } ( x _ { i } - { \overline   { x } } ) ( \theta   - { \overline   { x } } ) \right ) \right ) \\[6pt ] & = ( 2 \pi   \sigma   ^ { 2 } ) ^ { - { \frac   { n } { 2 } } } \exp   \left ( - { 1   \over   2 \sigma   ^ { 2 } } \left ( \sum   _ { i = 1 } ^ { n } ( x _ { i } - { \overline   { x } } ) ^ { 2 } + n ( \theta   - { \overline   { x } } ) ^ { 2 } \right ) \right ) & & \sum   _ { i = 1 } ^ { n } ( x _ { i } - { \overline   { x } } ) ( \theta   - { \overline   { x } } ) = 0 \\[6pt ] & = ( 2 \pi   \sigma   ^ { 2 } ) ^ { - { \frac   { n } { 2 } } } \exp   \left ( - { 1   \over   2 \sigma   ^ { 2 } } \sum   _ { i = 1 } ^ { n } ( x _ { i } - { \overline   { x } } ) ^ { 2 } \right ) \exp   \left ( - { \frac   { n } { 2 \sigma   ^ { 2 } } } ( \theta   - { \overline   { x } } ) ^ { 2 } \right ) \end { a l i g n e d } } }
+{ \displaystyle   { \begin { a l i g n e d } h ( x _ { 1 } ^ { n } ) & = ( 2 \pi   \sigma   ^ { 2 } ) ^ { - { \frac   { n } { 2 } } } \exp   \left ( - { 1   \over   2 \sigma   ^ { 2 } } \sum   _ { i = 1 } ^ { n } ( x _ { i } - { \overline   { x } } ) ^ { 2 } \right ) \\[6pt ] g _ { \theta   } ( x _ { 1 } ^ { n } ) & = \exp   \left ( - { \frac   { n } { 2 \sigma   ^ { 2 } } } ( \theta   - { \overline   { x } } ) ^ { 2 } \right ) \end { a l i g n e d } } }
+h ( x _ { 1 } ^ { n } )
+\theta  
+g _ { \theta   } ( x _ { 1 } ^ { n } )
+x _ { 1 } ^ { n }
+{ \displaystyle   T ( X _ { 1 } ^ { n } ) = { \overline   { x } } = { \frac   { 1 } { n } } \sum   _ { i = 1 } ^ { n } X _ { i } , }
+{ \displaystyle   T ( X _ { 1 } ^ { n } ) }
+\theta  
+\sigma   ^ { 2 }
+{ \displaystyle   s ^ { 2 } = { \frac   { 1 } { n - 1 } } \sum   _ { i = 1 } ^ { n } \left ( x _ { i } - { \overline   { x } } \right ) ^ { 2 } }
+{ \displaystyle   { \begin { a l i g n e d } f _ { X _ { 1 } ^ { n } } ( x _ { 1 } ^ { n } ) = ( 2 \pi   \sigma   ^ { 2 } ) ^ { - { \frac   { n } { 2 } } } \exp ( - { \frac   { n - 1 } { 2 \sigma   ^ { 2 } } } s ^ { 2 } ) \exp   \left ( - { \frac   { n } { 2 \sigma   ^ { 2 } } } ( \theta   - { \overline   { x } } ) ^ { 2 } \right ) \end { a l i g n e d } } }
+{ \displaystyle   ( { \overline   { x } } , s ^ { 2 } ) }
+{ \displaystyle   ( \theta   , \sigma   ^ { 2 } ) }
+X _ { 1 } , \dots   , X _ { n }
+T ( X _ { 1 } ^ { n } ) = \sum   _ { i = 1 } ^ { n } X _ { i }
+X _ { 1 } ^ { n } = ( X _ { 1 } , \dots   , X _ { n } )
+{ \begin { a l i g n e d } f _ { X _ { 1 } ^ { n } } ( x _ { 1 } ^ { n } ) & = \prod   _ { i = 1 } ^ { n } { 1   \over   \theta   } \,e ^ { { - 1   \over   \theta   } x _ { i } } = { 1   \over   \theta   ^ { n } } \,e ^ { { - 1   \over   \theta   } \sum   _ { i = 1 } ^ { n } x _ { i } } . \end { a l i g n e d } }
+{ \begin { a l i g n e d } h ( x _ { 1 } ^ { n } ) = 1 , \,\,\,g_ { \theta   } ( x _ { 1 } ^ { n } ) = { 1   \over   \theta   ^ { n } } \,e ^ { { - 1   \over   \theta   } \sum   _ { i = 1 } ^ { n } x _ { i } } . \end { a l i g n e d } }
+h ( x _ { 1 } ^ { n } )
+\theta  
+g _ { \theta   } ( x _ { 1 } ^ { n } )
+x _ { 1 } ^ { n }
+T ( X _ { 1 } ^ { n } ) = \sum   _ { i = 1 } ^ { n } X _ { i }
+T ( X _ { 1 } ^ { n } ) = \sum   _ { i = 1 } ^ { n } X _ { i }
+\theta  
+X _ { 1 } , \dots   , X _ { n }
+{ \displaystyle   \Gamma   ( \alpha   \,,\,\beta   ) }
+\alpha  
+\beta  
+{ \displaystyle   T ( X _ { 1 } ^ { n } ) = \left ( \prod   _ { i = 1 } ^ { n } { X _ { i } } , \sum   _ { i = 1 } ^ { n } X _ { i } \right ) }
+( \alpha   , \beta   )
+X _ { 1 } ^ { n } = ( X _ { 1 } , \dots   , X _ { n } )
+{ \begin { a l i g n e d } f _ { X _ { 1 } ^ { n } } ( x _ { 1 } ^ { n } ) & = \prod   _ { i = 1 } ^ { n } \left ( { 1   \over   \Gamma   ( \alpha   ) \beta   ^ { \alpha   } } \right ) x _ { i } ^ { \alpha   - 1 } e ^ { { - 1   \over   \beta   } x _ { i } } & = \left ( { 1   \over   \Gamma   ( \alpha   ) \beta   ^ { \alpha   } } \right ) ^ { n } \left ( \prod   _ { i = 1 } ^ { n } x _ { i } \right ) ^ { \alpha   - 1 } e ^ { { - 1   \over   \beta   } \sum   _ { i = 1 } ^ { n } { x _ { i } } } . \end { a l i g n e d } }
+{ \begin { a l i g n e d } h ( x _ { 1 } ^ { n } ) = 1 , \,\,\,g_ { ( \alpha   \,,\,\beta   ) } ( x _ { 1 } ^ { n } ) = \left ( { 1   \over   \Gamma   ( \alpha   ) \beta   ^ { \alpha   } } \right ) ^ { n } \left ( \prod   _ { i = 1 } ^ { n } x _ { i } \right ) ^ { \alpha   - 1 } e ^ { { - 1   \over   \beta   } \sum   _ { i = 1 } ^ { n } { x _ { i } } } . \end { a l i g n e d } }
+h ( x _ { 1 } ^ { n } )
+( \alpha   \,,\,\beta   )
+g _ { ( \alpha   \,,\,\beta   ) } ( x _ { 1 } ^ { n } )
+x _ { 1 } ^ { n }
+{ \displaystyle   T ( x _ { 1 } ^ { n } ) = \left ( \prod   _ { i = 1 } ^ { n } { x _ { i } } , \sum   _ { i = 1 } ^ { n } { x _ { i } } \right ) , }
+{ \displaystyle   T ( X _ { 1 } ^ { n } ) = \left ( \prod   _ { i = 1 } ^ { n } { X _ { i } } , \sum   _ { i = 1 } ^ { n } { X _ { i } } \right ) }
+( \alpha   \,,\,\beta   ) .
+X _ { n } , n = 1 , 2 , 3 , \dots  
+T ( X _ { 1 } , \dots   , X _ { n } )
+{ \displaystyle   \Pr ( \theta   \mid   X = x ) = \Pr ( \theta   \mid   T ( X ) = t ( x ) ) . }
+{ \displaystyle   \Pr ( X ' = x ' \mid   X = x ) = \Pr ( X ' = x ' \mid   T ( X ) = t ( x ) ) . }
+{ \displaystyle   { \hat   { E } } [ Y \mid   X ] }
+{ \displaystyle   { \hat   { E } } [ \theta   \mid   X ] = { \hat   { E } } [ \theta   \mid   T ( X ) ] . }

@@ -1,0 +1,32 @@
+S
+x _ { i }
+S
+\alpha   _ { i }
+{ \displaystyle   \mathrm   { C o n v }   ( S ) = \left \{ \left . \sum   _ { i = 1 } ^ { | S | } \alpha   _ { i } x _ { i } \ \right | ( \forall   i : \alpha   _ { i } \geq   0 ) \wedge   \sum   _ { i = 1 } ^ { | S | } \alpha   _ { i } = 1 \right \ } . }
+{ \displaystyle   S \subsetneq   \mathbb   { R }   ^ { n } }
+\mathbb   { R }   ^ { n }
+x _ { i }
+S
+{ \displaystyle   x _ { i } \notin   \operatorname   { C o n v }   ( S \setminus   \{ x _ { i } \ } ) }
+\operatorname { C o n v } ( S )
+\mathbb   { R }   ^ { n }
+S
+S
+S
+S
+O ( n ^ { \lfloor   d / 2 \rfloor } )
+S _ { 1 }
+S _ { 2 }
+{ \displaystyle   S _ { 1 } + S _ { 2 } }
+{ \displaystyle   S _ { 1 } + S _ { 2 } = \{ x _ { 1 } + x _ { 2 } : x _ { 1 } \in   S _ { 1 } , x _ { 2 } \in   S _ { 2 } \ } . }
+S _ { n }
+{ \displaystyle   \sum   S _ { n } = \left \{ \sum   x _ { n } : x _ { n } \in   S _ { n } \right \ } . }
+S _ { 1 }
+S _ { 2 }
+{ \displaystyle   { \text { C o n v } } ( S _ { 1 } + S _ { 2 } ) = { \text { C o n v } } ( S _ { 1 } ) + { \text { C o n v } } ( S _ { 2 } ) . }
+{ \displaystyle   { \text { C o n v } } \left ( \sum   S _ { n } \right ) = \sum   { \text { C o n v } } ( S _ { n } ) . }
+{ \displaystyle   { \text { C o n v } } ( S ) \cup   { \text { C o n v } } ( T ) \subseteq   { \text { C o n v } } ( S \cup   T ) }
+{ \displaystyle   { \text { C o n v } } ( S ) \vee   { \text { C o n v } } ( T ) = { \text { C o n v } } ( S \cup   T ) = { \text { C o n v } } ( { \text { C o n v } } ( S ) \cup   { \text { C o n v } } ( T ) ) . }
+\mathbb   { R }   ^ { n }
+{ \displaystyle   \mathbb   { R }   ^ { n + 1 } . }
+{ \displaystyle   \left \{ ( x , y ) \left | y \geq   { \frac   { 1 } { 1 + x ^ { 2 } } } \right \}\right . }

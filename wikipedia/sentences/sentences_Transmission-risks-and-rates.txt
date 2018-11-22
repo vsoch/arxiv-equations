@@ -1,0 +1,2 @@
+{ \displaystyle   \beta   = \gamma   \times   p \ , }
+{ \displaystyle   p = { \frac   { x } { n } } . }

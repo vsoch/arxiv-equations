@@ -1,0 +1,3 @@
+{ \displaystyle   S _ { n } = \sum   _ { i = 1 } ^ { n } X _ { i } }
+{ \displaystyle   \sigma   ^ { 2 } = \sum   _ { i = 1 } ^ { n } \operatorname   { E }   ( X _ { i } ^ { 2 } ) . }
+{ \displaystyle   \Pr   \left ( S _ { n } > t \right ) \leq   \exp   \left ( - { \frac   { \sigma   ^ { 2 } } { a ^ { 2 } } } h \left ( { \frac   { a t } { \sigma   ^ { 2 } } } \right ) \right ) , }

@@ -1,0 +1,14 @@
+\Beta
+y _ { { i r } } = x _ { { i r } } ^ { { \mathsf     { T } } } \;\!\beta   _ { i } + \varepsilon   _ { { i r } } , \quad   i = 1 , \ldots   , m .
+x _ { { i r } }
+\infty  
+y _ { i } = X _ { i } \beta   _ { i } + \varepsilon   _ { i } , \quad   i = 1 , \ldots   , m ,
+{ \begin { p m a t r i x } y _ { 1 } \\y_ { 2 } \\\vdots   \\y_ { m } \end { p m a t r i x } } = { \begin { p m a t r i x } X _ { 1 } & 0 & \ldots   & 0 \\0 & X _ { 2 } & \ldots   & 0 \\\vdots   & \vdots   & \ddots   & \vdots   \\0 & 0 & \ldots   & X _ { m } \end { p m a t r i x } } { \begin { p m a t r i x } \beta   _ { 1 } \\\beta   _ { 2 } \\\vdots   \\\beta   _ { m } \end { p m a t r i x } } + { \begin { p m a t r i x } \varepsilon   _ { 1 } \\\varepsilon   _ { 2 } \\\vdots   \\\varepsilon   _ { m } \end { p m a t r i x } } = X \beta   + \varepsilon   \ , .
+\Omega   \equiv   \operatorname   { E } [ \,\varepsilon   \varepsilon   ^ { { \mathsf     { T } } } \,|X \,]=\Sigma   \otimes   I _ { R } ,
+\Sigma  
+{ \hat     \sigma   } _ { { i j } } = { \frac     1 R } \,{ \hat     \varepsilon   } _ { i } ^ { { \mathsf     { T } } } { \hat     \varepsilon   } _ { j } .
+\scriptstyle   { \hat     \Omega   } \;=\;{ \hat     \Sigma   } \,\otimes   \,I_ { R }
+{ \hat     \beta   } = { \Big   ( } X ^ { { \mathsf     { T } } } ( { \hat     \Sigma   } ^ { { - 1 } } \otimes   I _ { R } ) X { \Big   ) } ^ { { \!-1 } } X ^ { { \mathsf     { T } } } ( { \hat     \Sigma   } ^ { { - 1 } } \otimes   I _ { R } ) \,y .
+{ \sqrt     { R } } ( { \hat     \beta   } - \beta   ) \ { \xrightarrow     { d } } \ { \mathcal     { N } } { \Big   ( } \,0 , \;{ \Big   ( } { \tfrac     1 R } X ^ { { \mathsf     { T } } } ( \Sigma   ^ { { - 1 } } \otimes   I _ { R } ) X { \Big   ) } ^ { { \!-1 } } \,{ \Big   ) } .
+\scriptstyle   { \hat     \Sigma   }
+\scriptstyle   { \hat   { \beta   } }

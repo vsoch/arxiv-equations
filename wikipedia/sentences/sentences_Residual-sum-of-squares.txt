@@ -1,0 +1,28 @@
+{ \displaystyle   R S S = \sum   _ { i = 1 } ^ { n } ( y _ { i } - f ( x _ { i } ) ) ^ { 2 } }
+f ( x _ { i } )
+{ \hat   { y _ { i } } }
+y _ { i } = a + b x _ { i } + \varepsilon   _ { i } \ ,
+{ \displaystyle   R S S = \sum   _ { i = 1 } ^ { n } ( \varepsilon   _ { i } ) ^ { 2 } = \sum   _ { i = 1 } ^ { n } ( y _ { i } - ( \alpha   + \beta   x _ { i } ) ) ^ { 2 } }
+\alpha  
+a
+\beta  
+y = X \beta   + e
+\beta  
+\beta  
+{ \displaystyle   X { \hat   { \beta   } } = y \iff   }
+{ \displaystyle   X ^ { T } X { \hat   { \beta   } } = X ^ { T } y \iff   }
+{ \hat   { \beta   } } = ( X ^ { T } X ) ^ { - 1 } X ^ { T } y .
+{ \hat   { e } }
+y - X { \hat   { \beta   } } = y - X ( X ^ { T } X ) ^ { - 1 } X ^ { T } y
+{ \displaystyle   R S S = { \hat   { e } } ^ { T } { \hat   { e } } = \|e \|^ { 2 } }
+R S S = y ^ { T } y - y ^ { T } X ( X ^ { T } X ) ^ { - 1 } X ^ { T } y = y ^ { T } [ I - X ( X ^ { T } X ) ^ { - 1 } X ^ { T } ] y = y ^ { T } [ I - H ] y
+y = a x + b
+{ \displaystyle   b = { \bar   { y } } - a { \bar   { x } } }
+{ \displaystyle   a = { \frac   { S _ { x y } } { S _ { x x } } } }
+{ \displaystyle   S _ { x y } = \sum   _ { i = 1 } ^ { n } ( { \bar   { x } } - x _ { i } ) ( { \bar   { y } } - y _ { i } ) }
+{ \displaystyle   S _ { x x } = \sum   _ { i = 1 } ^ { n } ( { \bar   { x } } - x _ { i } ) ^ { 2 } . }
+{ \displaystyle   R S S = \sum   _ { i = 1 } ^ { n } ( y _ { i } - f ( x _ { i } ) ) ^ { 2 } = \sum   _ { i = 1 } ^ { n } ( y _ { i } - ( a x _ { i } + b ) ) ^ { 2 } = \sum   _ { i = 1 } ^ { n } ( y _ { i } - a x _ { i } - { \bar   { y } } + a { \bar   { x } } ) ^ { 2 } }
+{ \displaystyle   = \sum   _ { i = 1 } ^ { n } ( a ( { \bar   { x } } - x _ { i } ) - ( { \bar   { y } } - y _ { i } ) ) ^ { 2 } = a ^ { 2 } S _ { x x } - 2 a S _ { x y } + S _ { y y } = S _ { y y } - a S _ { x y } = S _ { y y } ( 1 - { \frac   { S _ { x y } ^ { 2 } } { S _ { x x } S _ { y y } } } ) }
+{ \displaystyle   S _ { y y } = \sum   _ { i = 1 } ^ { n } ( { \bar   { y } } - y _ { i } ) ^ { 2 } . }
+{ \displaystyle   r = { \frac   { S _ { x y } } { \sqrt   { S _ { x x } S _ { y y } } } } ; }
+{ \displaystyle   R S S = S _ { y y } ( 1 - r ^ { 2 } ) . }

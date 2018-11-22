@@ -1,0 +1,56 @@
+{ \frac     { 1 } { \sigma   { \sqrt     { 2 \pi   } } } } \,e ^ { { - { \frac     { ( x - \mu   ) ^ { 2 } } { 2 \sigma   ^ { 2 } } } } } + { \frac     { 1 } { \sigma   { \sqrt     { 2 \pi   } } } } \,e ^ { { - { \frac     { ( x + \mu   ) ^ { 2 } } { 2 \sigma   ^ { 2 } } } } }
+{ \frac     { 1 } { 2 } } \left [ { \mbox { e r f } } \left ( { \frac     { x + \mu   } { \sigma   { \sqrt     { 2 } } } } \right ) + { \mbox { e r f } } \left ( { \frac     { x - \mu   } { \sigma   { \sqrt     { 2 } } } } \right ) \right ]
+\mu   _ { Y } = \sigma   { \sqrt     { { \tfrac     { 2 } { \pi   } } } } \,e ^ { { ( - \mu   ^ { 2 } / 2 \sigma   ^ { 2 } ) } } + \mu   \left ( 1 - 2 \,\Phi   ( { \tfrac     { - \mu   } { \sigma   } } ) \right )
+\sigma   _ { Y } ^ { 2 } = \mu   ^ { 2 } + \sigma   ^ { 2 } - \mu   _ { Y } ^ { 2 }
+{ \displaystyle   f _ { Y } ( x ; \mu   , \sigma   ^ { 2 } ) = { \frac   { 1 } { \sqrt   { 2 \pi   \sigma   ^ { 2 } } } } \,e ^ { - { \frac   { ( x - \mu   ) ^ { 2 } } { 2 \sigma   ^ { 2 } } } } + { \frac   { 1 } { \sqrt   { 2 \pi   \sigma   ^ { 2 } } } } \,e ^ { - { \frac   { ( x + \mu   ) ^ { 2 } } { 2 \sigma   ^ { 2 } } } } }
+{ \displaystyle   f \left ( x \right ) = { \sqrt   { \frac   { 2 } { \pi   \sigma   ^ { 2 } } } } e ^ { - { \frac   { \left ( x ^ { 2 } + \mu   ^ { 2 } \right ) } { 2 \sigma   ^ { 2 } } } } \cosh   { \left ( { \frac   { \mu   x } { \sigma   ^ { 2 } } } \right ) } }
+{ \displaystyle   F _ { Y } ( x ; \mu   , \sigma   ^ { 2 } ) = { \frac   { 1 } { 2 } } \left [ { \mbox { e r f } } \left ( { \frac   { x + \mu   } { \sqrt   { 2 \sigma   ^ { 2 } } } } \right ) + { \mbox { e r f } } \left ( { \frac   { x - \mu   } { \sqrt   { 2 \sigma   ^ { 2 } } } } \right ) \right ] }
+{ \displaystyle   \mu   _ { Y } = \sigma   { \sqrt   { \frac   { 2 } { \pi   } } } \,\,\exp   \left ( { \frac   { - \mu   ^ { 2 } } { 2 \sigma   ^ { 2 } } } \right ) + \mu   \,{ \mbox { e r f } } \left ( { \frac   { \mu   } { \sqrt   { 2 \sigma   ^ { 2 } } } } \right ) }
+{ \displaystyle   \mu   _ { Y } = { \sqrt   { \frac   { 2 } { \pi   } } } \sigma   e ^ { - { \frac   { \mu   ^ { 2 } } { 2 \sigma   ^ { 2 } } } } + \mu   \left [ 1 - 2 \Phi   \left ( - { \frac   { \mu   } { \sigma   } } \right ) \right ] }
+\Phi  
+{ \displaystyle   \Phi   ( x ) \;=\;{ \frac   { 1 } { 2 } } \left [ 1 + \operatorname   { e r f }   \left ( { \frac   { x } { \sqrt   { 2 } } } \right ) \right ] . }
+\sigma   _ { Y } ^ { 2 } = \mu   ^ { 2 } + \sigma   ^ { 2 } - \mu   _ { Y } ^ { 2 } .
+x
+x
+{ \displaystyle   { \frac   { d f ( x ) } { d x } } = 0 \Rightarrow   - { \frac   { \left ( x - \mu   \right ) } { \sigma   ^ { 2 } } } e ^ { - { \frac   { 1 } { 2 } } { \frac   { \left ( x - \mu   \right ) ^ { 2 } } { \sigma   ^ { 2 } } } } - { \frac   { \left ( x + \mu   \right ) } { \sigma   ^ { 2 } } } e ^ { - { \frac   { 1 } { 2 } } { \frac   { \left ( x + \mu   \right ) ^ { 2 } } { \sigma   ^ { 2 } } } } = 0 }
+{ \displaystyle   x \left [ e ^ { - { \frac   { 1 } { 2 } } { \frac   { \left ( x - \mu   \right ) ^ { 2 } } { \sigma   ^ { 2 } } } } + e ^ { - { \frac   { 1 } { 2 } } { \frac   { \left ( x + \mu   \right ) ^ { 2 } } { \sigma   ^ { 2 } } } } \right ] - \mu   \left [ e ^ { - { \frac   { 1 } { 2 } } { \frac   { \left ( x - \mu   \right ) ^ { 2 } } { \sigma   ^ { 2 } } } } - e ^ { - { \frac   { 1 } { 2 } } { \frac   { \left ( x + \mu   \right ) ^ { 2 } } { \sigma   ^ { 2 } } } } \right ] = 0 }
+{ \displaystyle   x \left ( 1 + e ^ { - { \frac   { 2 \mu   x } { \sigma   ^ { 2 } } } } \right ) - \mu   \left ( 1 - e ^ { - { \frac   { 2 \mu   x } { \sigma   ^ { 2 } } } } \right ) = 0 }
+{ \displaystyle   \left ( \mu   + x \right ) e ^ { - { \frac   { 2 \mu   x } { \sigma   ^ { 2 } } } } = \mu   - x }
+{ \displaystyle   x = - { \frac   { \sigma   ^ { 2 } } { 2 \mu   } } \log   { \frac   { \mu   - x } { \mu   + x } } }
+{ \displaystyle   \mu   < \sigma   }
+{ \displaystyle   x = 0 }
+{ \displaystyle   \mu   }
+{ \displaystyle   3 \sigma   }
+{ \displaystyle   \mu   }
+{ \displaystyle   \varphi   _ { x } \left ( t \right ) = e ^ { { \frac   { - \sigma   ^ { 2 } t ^ { 2 } } { 2 } } + i \mu   t } \left [ 1 - \Phi   \left ( - { \frac   { \mu   } { \sigma   } } + i \sigma   t \right ) \right ] + e ^ { - { \frac   { \sigma   ^ { 2 } t ^ { 2 } } { 2 } } - i \mu   t } \left [ 1 - \Phi   \left ( { \frac   { \mu   } { \sigma   } } + i \sigma   t \right ) \right ] }
+{ \displaystyle   M _ { x } \left ( t \right ) = \varphi   _ { x } \left ( - i t \right ) = e ^ { { \frac   { \sigma   ^ { 2 } t ^ { 2 } } { 2 } } + \mu   t } \left [ 1 - \Phi   \left ( - { \frac   { \mu   } { \sigma   } } - \sigma   t \right ) \right ] + e ^ { { \frac   { \sigma   ^ { 2 } t ^ { 2 } } { 2 } } - \mu   t } \left [ 1 - \Phi   \left ( { \frac   { \mu   } { \sigma   } } - \sigma   t \right ) \right ] }
+{ \displaystyle   K _ { x } \left ( t \right ) = \log   { M _ { x } \left ( t \right ) } = \left ( { \frac   { \sigma   ^ { 2 } t ^ { 2 } } { 2 } } + \mu   t \right ) + \log   { \left \lbrace   1 - \Phi   \left ( - { \frac   { \mu   } { \sigma   } } - \sigma   t \right ) + e ^ { { \frac   { \sigma   ^ { 2 } t ^ { 2 } } { 2 } } - \mu   t } \left [ 1 - \Phi   \left ( { \frac   { \mu   } { \sigma   } } - \sigma   t \right ) \right ] \right \rbrace   } }
+{ \displaystyle   E \left ( e ^ { - t x } \right ) = e ^ { { \frac   { \sigma   ^ { 2 } t ^ { 2 } } { 2 } } - \mu   t } \left [ 1 - \Phi   \left ( - { \frac   { \mu   } { \sigma   } } + \sigma   t \right ) \right ] + e ^ { { \frac   { \sigma   ^ { 2 } t ^ { 2 } } { 2 } } + \mu   t } \left [ 1 - \Phi   \left ( { \frac   { \mu   } { \sigma   } } + \sigma   t \right ) \right ] }
+{ \displaystyle   { \hat   { f } } \left ( t \right ) = \phi   _ { x } \left ( - 2 \pi   t \right ) = e ^ { { \frac   { - 4 \pi   ^ { 2 } \sigma   ^ { 2 } t ^ { 2 } } { 2 } } - i 2 \pi   \mu   t } \left [ 1 - \Phi   \left ( - { \frac   { \mu   } { \sigma   } } - i 2 \pi   \sigma   t \right ) \right ] + e ^ { - { \frac   { 4 \pi   ^ { 2 } \sigma   ^ { 2 } t ^ { 2 } } { 2 } } + i 2 \pi   \mu   t } \left [ 1 - \Phi   \left ( { \frac   { \mu   } { \sigma   } } - i 2 \pi   \sigma   t \right ) \right ] }
+x _ { i }
+n
+{ \displaystyle   l = - { \frac   { n } { 2 } } \log   { 2 \pi   \sigma   ^ { 2 } } + \sum   _ { i = 1 } ^ { n } \log   { \left [ e ^ { - { \frac   { \left ( x _ { i } - \mu   \right ) ^ { 2 } } { 2 \sigma   ^ { 2 } } } } + e ^ { - { \frac   { \left ( x _ { i } + \mu   \right ) ^ { 2 } } { 2 \sigma   ^ { 2 } } } } \right ] } }
+{ \displaystyle   l = - { \frac   { n } { 2 } } \log   { 2 \pi   \sigma   ^ { 2 } } + \sum   _ { i = 1 } ^ { n } \log   { \left [ e ^ { - { \frac   { \left ( x _ { i } - \mu   \right ) ^ { 2 } } { 2 \sigma   ^ { 2 } } } } \left ( 1 + e ^ { - { \frac   { \left ( x _ { i } + \mu   \right ) ^ { 2 } } { 2 \sigma   ^ { 2 } } } } e ^ { \frac   { \left ( x _ { i } - \mu   \right ) ^ { 2 } } { 2 \sigma   ^ { 2 } } } \right ) \right ] } }
+{ \displaystyle   l = - { \frac   { n } { 2 } } \log   { 2 \pi   \sigma   ^ { 2 } } - \sum   _ { i = 1 } ^ { n } { \frac   { \left ( x _ { i } - \mu   \right ) ^ { 2 } } { 2 \sigma   ^ { 2 } } } + \sum   _ { i = 1 } ^ { n } \log   { \left ( 1 + e ^ { - { \frac   { 2 \mu   x _ { i } } { \sigma   ^ { 2 } } } } \right ) } }
+\mu  
+\sigma   ^ { 2 }
+\mu  
+\mu  
+{ \displaystyle   { \frac   { \partial   l } { \partial   \mu   } } = { \frac   { \sum   _ { i = 1 } ^ { n } \left ( x _ { i } - \mu   \right ) } { \sigma   ^ { 2 } } } - { \frac   { 2 } { \sigma   ^ { 2 } } } \sum   _ { i = 1 } ^ { n } { \frac   { x _ { i } e ^ { \frac   { - 2 \mu   x _ { i } } { \sigma   ^ { 2 } } } } { 1 + e ^ { \frac   { - 2 \mu   x _ { i } } { \sigma   ^ { 2 } } } } } }
+{ \displaystyle   { \frac   { \partial   l } { \partial   \mu   } } = { \frac   { \sum   _ { i = 1 } ^ { n } \left ( x _ { i } - \mu   \right ) } { \sigma   ^ { 2 } } } - { \frac   { 2 } { \sigma   ^ { 2 } } } \sum   _ { i = 1 } ^ { n } { \frac   { x _ { i } } { 1 + e ^ { \frac   { 2 \mu   x _ { i } } { \sigma   ^ { 2 } } } } } \ \ { \text { a n d } } }
+{ \displaystyle   { \frac   { \partial   l } { \partial   \sigma   ^ { 2 } } } = - { \frac   { n } { 2 \sigma   ^ { 2 } } } + { \frac   { \sum   _ { i = 1 } ^ { n } \left ( x _ { i } - \mu   \right ) ^ { 2 } } { 2 \sigma   ^ { 4 } } } + { \frac   { 2 \mu   } { \sigma   ^ { 4 } } } \sum   _ { i = 1 } ^ { n } { \frac   { x _ { i } e ^ { - { \frac   { 2 \mu   x _ { i } } { \sigma   ^ { 2 } } } } } { 1 + e ^ { - { \frac   { 2 \mu   x _ { i } } { \sigma   ^ { 2 } } } } } } }
+{ \displaystyle   { \frac   { \partial   l } { \partial   \sigma   ^ { 2 } } } = - { \frac   { n } { 2 \sigma   ^ { 2 } } } + { \frac   { \sum   _ { i = 1 } ^ { n } \left ( x _ { i } - \mu   \right ) ^ { 2 } } { 2 \sigma   ^ { 4 } } } + { \frac   { 2 \mu   } { \sigma   ^ { 4 } } } \sum   _ { i = 1 } ^ { n } { \frac   { x _ { i } } { 1 + e ^ { \frac   { 2 \mu   x _ { i } } { \sigma   ^ { 2 } } } } } }
+{ \displaystyle   \sum   _ { i = 1 } ^ { n } { \frac   { x _ { i } } { 1 + e ^ { \frac   { 2 \mu   x _ { i } } { \sigma   ^ { 2 } } } } } = { \frac   { \sum   _ { i = 1 } ^ { n } \left ( x _ { i } - \mu   \right ) } { 2 } } }
+{ \displaystyle   \sigma   ^ { 2 } }
+{ \displaystyle   \sigma   ^ { 2 } = { \frac   { \sum   _ { i = 1 } ^ { n } \left ( x _ { i } - \mu   \right ) ^ { 2 } } { n } } + { \frac   { 2 \mu   \sum   _ { i = 1 } ^ { n } \left ( x _ { i } - \mu   \right ) } { n } } = { \frac   { \sum   _ { i = 1 } ^ { n } \left ( x _ { i } ^ { 2 } - \mu   ^ { 2 } \right ) } { n } } = { \frac   { \sum   _ { i = 1 } ^ { n } x _ { i } ^ { 2 } } { n } } - \mu   ^ { 2 } }
+\mu  
+\sigma   ^ { 2 }
+\sigma   ^ { 2 }
+\mu  
+\sigma   ^ { 2 }
+{ \displaystyle   2 \sum   _ { i = 1 } ^ { n } { \frac   { x _ { i } } { 1 + e ^ { \frac   { 2 \mu   x _ { i } } { \sigma   ^ { 2 } } } } } - \sum   _ { i = 1 } ^ { n } { \frac   { x _ { i } \left ( 1 + e ^ { \frac   { 2 \mu   x _ { i } } { \sigma   ^ { 2 } } } \right ) } { 1 + e ^ { \frac   { 2 \mu   x _ { i } } { \sigma   ^ { 2 } } } } } + n \mu   = 0 }
+{ \displaystyle   \sum   _ { i = 1 } ^ { n } { \frac   { x _ { i } \left ( 1 - e ^ { \frac   { 2 \mu   x _ { i } } { \sigma   ^ { 2 } } } \right ) } { 1 + e ^ { \frac   { 2 \mu   x _ { i } } { \sigma   ^ { 2 } } } } } + n \mu   = 0 }
+\mu  
+\mu  
+- \mu  
+{ \displaystyle   + \mu   }

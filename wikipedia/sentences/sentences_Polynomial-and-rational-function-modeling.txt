@@ -1,0 +1,4 @@
+  y   =   a _ { n } x ^ { n }   +   a _ { n - 1 } x ^ { n - 1 }   +   \cdots   +   a _ { 2 } x ^ { 2 }   +   a _ { 1 } x   +   a _ { 0 }    
+  y   =   \frac { a _ { n } x ^ { n }   +   a _ { n - 1 } x ^ { n - 1 }   +   \ldots   +   a _ { 2 } x ^ { 2 }   +   a _ { 1 } x   +   a _ { 0 } }   { b _ { m } x ^ { m }   +   b _ { m - 1 } x ^ { m - 1 }   +   \ldots   +   b _ { 2 } x ^ { 2 }   +   b _ { 1 } x   +   b _ { 0 } }    
+{ \displaystyle   y = { \frac   { A _ { 0 } + A _ { 1 } x } { 1 + B _ { 1 } x + B _ { 2 } x ^ { 2 } } } , }
+{ \displaystyle   y = A _ { 0 } + A _ { 1 } x - B _ { 1 } x y - B _ { 2 } x ^ { 2 } y , }

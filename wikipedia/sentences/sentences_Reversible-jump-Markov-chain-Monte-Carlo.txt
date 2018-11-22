@@ -1,0 +1,32 @@
+n _ { m } \in   N _ { m } = \{ 1 , 2 , \ldots   , I \ } \ ,
+M = \bigcup   _ { { n _ { m } = 1 } } ^ { I } \mathbb { R }   ^ { { d _ { m } } }
+d _ { m }
+n _ { m }
+( M , N _ { m } )
+( m , n _ { m } )
+m '
+g _ { { 1 m m ' } }
+m
+u
+u
+U
+q
+\mathbb { R }   ^ { { d _ { { m m ' } } } }
+( m ' , n _ { m } ' )
+( m ' , n _ { m } ' ) = ( g _ { { 1 m m ' } } ( m , u ) , n _ { m } ' ) \ ,
+g _ { { m m ' } } : = { \Bigg   ( } ( m , u ) \mapsto   { \bigg   ( } ( m ' , u ' ) = { \big   ( } g _ { { 1 m m ' } } ( m , u ) , g _ { { 2 m m ' } } ( m , u ) { \big   ) } { \bigg   ) } { \Bigg   ) } \ ,
+{ \mathrm     { s u p p } } ( g _ { { m m ' } } ) \neq   \varnothing   \ ,
+g _ { { m m ' } } ^ { { - 1 } } = g _ { { m ' m } } \ ,
+( m , u )
+( m ' , u ' )
+d _ { m } + d _ { { m m ' } } = d _ { { m ' } } + d _ { { m ' m } } \ ,
+d _ { { m m ' } }
+u
+\mathbb { R }   ^ { { d _ { m } } } \subset   \mathbb { R }   ^ { { d _ { { m ' } } } }
+d _ { m } + d _ { { m m ' } } = d _ { { m ' } } \ ,
+( m , u ) = g _ { { m ' m } } ( m ) . \ ,
+a ( m , m ' ) = \min   \left ( 1 , { \frac     { p _ { { m ' m } } p _ { { m ' } } f _ { { m ' } } ( m ' ) } { p _ { { m m ' } } q _ { { m m ' } } ( m , u ) p _ { { m } } f _ { m } ( m ) } } \left | \det   \left ( { \frac     { \partial   g _ { { m m ' } } ( m , u ) } { \partial   ( m , u ) } } \right ) \right | \right ) ,
+| \cdot   |
+p _ { m } f _ { m }
+p _ { m } f _ { m } = c ^ { { - 1 } } p ( y | m , n _ { m } ) p ( m | n _ { m } ) p ( n _ { m } ) , \ ,
+c

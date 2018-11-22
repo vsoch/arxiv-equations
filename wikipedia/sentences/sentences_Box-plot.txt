@@ -1,0 +1,3 @@
+{ \displaystyle   \pm   { \frac   { 1 . 5 8 I Q R } { \sqrt   { n } } } }
+{ \displaystyle   { \begin { m a t r i x } 1 . 5 I Q R \cdot   e ^ { 3 M C } , & 1 . 5 I Q R \cdot   e ^ { - 4 M C } { \text {   i f   } } M C \geq   0 \\1 . 5 I Q R \cdot   e ^ { 4 M C } , & 1 . 5 I Q R \cdot   e ^ { - 3 M C } { \text {   i f   } } M C \leq   0 \end { m a t r i x } } }
+{ \displaystyle   1 . 5 I Q R }

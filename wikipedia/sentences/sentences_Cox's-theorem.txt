@@ -1,0 +1,48 @@
+A
+X
+{ \displaystyle   A \mid   X }
+A B
+A
+B
+X
+A
+X
+B
+{ \displaystyle   A X }
+{ \displaystyle   A B \mid   X = g ( A \mid   X , B \mid   A X ) }
+g
+g
+w
+{ \displaystyle   w ( A B \mid   X ) = w ( A \mid   X ) w ( B \mid   A X ) }
+f
+{ \displaystyle   w ( { \text { n o t   } } A \mid   X ) = f ( w ( A \mid   X ) ) }
+{ \displaystyle   f ( f ( x ) ) = x , }
+f
+f
+{ \displaystyle   w ( A B \mid   X ) = w ( A \mid   X ) f ( w ( { \text { n o t   } } B \mid   A X ) ) = w ( A \mid   X ) f \left ( { w ( A { \text {   n o t   } } B \mid   X )   \over   w ( A \mid   X ) } \right ) }
+A B
+B A
+{ \displaystyle   w ( A \mid   X ) f \left ( { w ( A { \text {   n o t   } } B \mid   X )   \over   w ( A \mid   X ) } \right ) = w ( B \mid   X ) f \left ( { w ( B { \text {   n o t   } } A \mid   X )   \over   w ( B \mid   X ) } \right ) }
+{ \displaystyle   B = { \text {   n o t   } } ( A D ) }
+{ \displaystyle   A { \text {   n o t   } } B = { \text { n o t   } } B }
+{ \displaystyle   B { \text {   n o t   } } A = { \text {   n o t   } } A }
+{ \displaystyle   w ( A { \text {   n o t   } } B \mid   X ) = w ( { \text { n o t   } } B \mid   X ) = f ( w ( B \mid   X ) ) }
+{ \displaystyle   w ( B { \text {   n o t   } } A \mid   X ) = w ( { \text { n o t   } } A \mid   X ) = f ( w ( A \mid   X ) ) }
+{ \displaystyle   w ( A \mid   X ) = x }
+{ \displaystyle   w ( B \mid   X ) = y }
+{ \displaystyle   x \,f \left ( { f ( y )   \over   x } \right ) = y \,f \left ( { f ( x )   \over   y } \right ) }
+{ \displaystyle   A \mid   B }
+A
+B
+w
+m
+{ \displaystyle   w ( A \mid   B ) = 1 . }
+{ \displaystyle   w ^ { m } ( A | B ) + w ^ { m } ( { \text { n o t   } } A \mid   B ) = 1 . }
+{ \displaystyle   w ( A B \mid   C ) = w ( A \mid   C ) w ( B \mid   A C ) = w ( B \mid   C ) w ( A \mid   B C ) . }
+P
+\Pr
+{ \displaystyle   w ^ { m } }
+{ \displaystyle   \Pr ( A \mid   B ) = 1 }
+{ \displaystyle   \Pr ( A \mid   B ) = 0 . }
+{ \displaystyle   \Pr ( A \mid   B ) + \Pr ( { \text { n o t   } } A \mid   B ) = 1 . }
+{ \displaystyle   \Pr ( A B \mid   C ) = \Pr ( A \mid   C ) \Pr ( B \mid   A C ) = \Pr ( B \mid   C ) \Pr ( A \mid   B C ) . }

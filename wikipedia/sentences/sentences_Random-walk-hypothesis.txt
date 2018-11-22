@@ -1,0 +1,11 @@
+X _ { t } = \mu   + X _ { t - 1 } + \epsilon   _ { t } \ ,
+X _ { t }
+t
+\mu  
+\epsilon   _ { t }
+\mathbb   { E }   [ \epsilon   _ { t } ] = 0
+\mathbb   { E }   [ \epsilon   _ { t } \epsilon   _ { \tau   } ] = 0
+\tau   \neq   t
+( X _ { t } - X _ { t + \tau   } )
+\tau  
+\epsilon   _ { t }

@@ -1,0 +1,11 @@
+{ \displaystyle   \Sigma   _ { \text { m o d e l } } }
+{ \displaystyle   \Sigma   _ { \text { r e s } } ^ { - 1 } }
+{ \displaystyle   A = \Sigma   _ { \text { m o d e l } } \times   \Sigma   _ { \text { r e s } } ^ { - 1 } }
+{ \displaystyle   \Sigma   _ { \text { m o d e l } } = \Sigma   _ { \text { r e s i d u a l } } }
+A   \sim   I
+\lambda_p
+A
+{ \displaystyle   \Lambda   _ { \text { W i l k s } } = \prod   _ { 1 \ldots   p } { \frac   { 1 } { 1 + \lambda   _ { p } } } = \det ( I + A ) ^ { - 1 } = { \frac   { \det ( \Sigma   _ { \text { r e s } } ) } { \det ( \Sigma   _ { \text { r e s } } + \Sigma   _ { \text { m o d e l } } ) } } }
+{ \displaystyle   \Lambda   _ { \text { P i l l a i } } = \sum   _ { 1 \ldots   p } { \frac   { 1 } { 1 + \lambda   _ { p } } } = \operatorname   { t r }   ( ( I + A ) ^ { - 1 } ) }
+{ \displaystyle   \Lambda   _ { \text { L H } } = \sum   _ { 1 \ldots   p } \lambda   _ { p } = \operatorname   { t r }   ( A ) }
+{ \displaystyle   \Lambda   _ { \text { R o y } } = \max   _ { p } ( \lambda   _ { p } ) = \|A \|_ { \infty   } }

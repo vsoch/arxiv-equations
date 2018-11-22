@@ -1,0 +1,40 @@
+{ \underline   { v _ { i } } } = \max   _ { a _ { i } } \min   _ { a _ { - i } } { v _ { i } ( a _ { i } , a _ { - i } ) }
+- i
+a _ { i }
+a _ { { - i } }
+v _ { i }
+{ \underline   { v _ { r o w } } } = 2
+{ \displaystyle   - 2 0 }
+{ \underline   { v _ { c o l } } } = 0
+{ \displaystyle   ( T , L ) }
+( 3 , 1 )
+{ \overline   { v _ { i } } } = \min   _ { a _ { - i } } \max   _ { a _ { i } } { v _ { i } ( a _ { i } , a _ { - i } ) }
+\overline { v _ { r o w } }   =   4
+\overline { v _ { c o l } }   =   1
+\underline { v _ i }   \leq   \overline { v _ i }
+{ \displaystyle   { \overline   { v _ { i } } } = \min   _ { a _ { - i } } \max   _ { a _ { i } } { v _ { i } ( a _ { i } , a _ { - i } ) } = \min   _ { a _ { - i } } { \Big   ( } \max   _ { a _ { i } } { v _ { i } ( a _ { i } , a _ { - i } ) } { \Big   ) } }
+{ \displaystyle   v _ { i } ( a _ { i } , a _ { - i } ) }
+{ \displaystyle   { a _ { i } } }
+{ \displaystyle   { a _ { - i } } }
+{ \displaystyle   { a _ { i } } }
+{ \displaystyle   v _ { i } ( a _ { i } , a _ { - i } ) }
+{ \displaystyle   { a _ { i } } }
+{ \displaystyle   { a _ { - i } } }
+{ \displaystyle   v ' _ { i } ( a _ { - i } ) }
+{ \displaystyle   { a _ { - i } } }
+{ \displaystyle   { a _ { - i } } }
+{ \displaystyle   { \underline   { v _ { r o w } } } \leq   { \overline   { v _ { r o w } } } }
+{ \displaystyle   { \underline   { v _ { c o l } } } \leq   { \overline   { v _ { c o l } } } }
+{ \displaystyle   ( 2 , - 2 0 ) }
+{ \displaystyle   ( T , R ) }
+{ \displaystyle   ( - 1 0 , 1 ) }
+{ \displaystyle   ( M , R ) }
+( 3 , 1 )
+\max ( a , b )   =   - \min ( - a , - b )
+\delta  
+\theta   \in   \Theta  
+R ( \theta , \delta )
+\tilde { \delta }
+\sup_ \theta   R ( \theta , \tilde { \delta } )   =   \inf_ \delta   \sup_ \theta   R ( \theta , \delta ) .
+\Pi  
+\int_ \Theta   R ( \theta , \delta ) \,d \Pi ( \theta ) .

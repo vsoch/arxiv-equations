@@ -1,0 +1,101 @@
+p _ { M } , p _ { M - 1 } , \dots   , p _ { M - ( n - 1 ) }
+{ \displaystyle   { \begin { a l i g n e d } { \overline   { p } } _ { \text { S M } } & = { \frac   { p _ { M } + p _ { M - 1 } + \cdots   + p _ { M - ( n - 1 ) } } { n } } \\&={ \frac   { 1 } { n } } \sum   _ { i = 0 } ^ { n - 1 } p _ { M - i } \end { a l i g n e d } } }
+{ \displaystyle   { \overline   { p } } _ { \text { S M } } = { \overline   { p } } _ { { \text { S M } } , { \text { p r e v } } } + { p _ { M }   \over   n } - { p _ { M - n }   \over   n } }
+x _ { 1 } . \ldots   , x _ { n }
+{ \textit   { C M A } } _ { n } = { { x _ { 1 } + \cdots   + x _ { n } }   \over   n } \ , .
+x _ { n + 1 }
+{ \displaystyle   { \textit   { C M A } } _ { n + 1 } = { { x _ { n + 1 } + n \cdot   { \textit   { C M A } } _ { n } }   \over   { n + 1 } } . }
+x _ { 1 } + \cdots   + x _ { n } = n \cdot   { \textit   { C M A } } _ { n }
+{ \displaystyle   { \begin { a l i g n e d } x _ { n + 1 } & = ( x _ { 1 } + \cdots   + x _ { n + 1 } ) - ( x _ { 1 } + \cdots   + x _ { n } ) \\[6pt ] \end { a l i g n e d } } }
+{ \textit   { C M A } } _ { n + 1 }
+{ \displaystyle   { \begin { a l i g n e d } { \textit   { C M A } } _ { n + 1 } & = { x _ { n + 1 } + n \cdot   { \textit   { C M A } } _ { n }   \over   { n + 1 } } \\[6pt ] & = { x _ { n + 1 } + ( n + 1 - 1 ) \cdot   { \textit   { C M A } } _ { n }   \over   { n + 1 } } \\[6pt ] & = { ( n + 1 ) \cdot   { \textit   { C M A } } _ { n } + x _ { n + 1 } - { \textit   { C M A } } _ { n }   \over   { n + 1 } } \\[6pt ] & = { { \textit   { C M A } } _ { n } } + { { x _ { n + 1 } - { \textit   { C M A } } _ { n } }   \over   { n + 1 } } \end { a l i g n e d } } }
+{ \text { W M A } } _ { M } = { n p _ { M } + ( n - 1 ) p _ { M - 1 } + \cdots   + 2 p _ { ( M - n + 2 ) } + p _ { ( M - n + 1 ) }   \over   n + ( n - 1 ) + \cdots   + 2 + 1 }
+{ \displaystyle   { \frac   { n ( n + 1 ) } { 2 } } . }
+{ \displaystyle   { \begin { a l i g n e d } { \text { T o t a l } } _ { M + 1 } & = { \text { T o t a l } } _ { M } + p _ { M + 1 } - p _ { M - n + 1 } \\[3pt ] { \text { N u m e r a t o r } } _ { M + 1 } & = { \text { N u m e r a t o r } } _ { M } + n p _ { M + 1 } - { \text { T o t a l } } _ { M } \\[3pt ] { \text { W M A } } _ { M + 1 } & = { { \text { N u m e r a t o r } } _ { M + 1 }   \over   n + ( n - 1 ) + \cdots   + 2 + 1 } \end { a l i g n e d } } }
+{ \displaystyle   S _ { t } = { \begin { c a s e s } Y _ { 1 } , & t = 1 \\\alpha   \cdot   Y _ { t } + ( 1 - \alpha   ) \cdot   S _ { t - 1 } , & t > 1 \end { c a s e s } } }
+{ \displaystyle   { \begin { a l i g n e d } S _ { t } = \alpha   & \left [ Y _ { t - 1 } + ( 1 - \alpha   ) Y _ { t - 2 } + ( 1 - \alpha   ) ^ { 2 } Y _ { t - 3 } + \cdots   \right . \\[6pt ] & \left . \cdots   + ( 1 - \alpha   ) ^ { k } Y _ { t - ( k + 1 ) } \right ] + ( 1 - \alpha   ) ^ { k + 1 } S _ { t - ( k + 1 ) } \end { a l i g n e d } } }
+Y _ { t - i }
+{ \displaystyle   \alpha   \left ( 1 - \alpha   \right ) ^ { i - 1 } }
+{ \displaystyle   S _ { t , { \text {   a l t e r n a t e } } } = \alpha   \cdot   Y _ { t } + ( 1 - \alpha   ) \cdot   S _ { t - 1 } }
+{ \displaystyle   { \text { E M A } } _ { \text { t o d a y } } = { \text { E M A } } _ { \text { y e s t e r d a y } } + \alpha   \left [ { \text { p r i c e } } _ { \text { t o d a y } } - { \text { E M A } } _ { \text { y e s t e r d a y } } \right ] }
+{ \displaystyle   { \text { E M A } } _ { \text { y e s t e r d a y } } }
+{ \displaystyle   { \text { E M A } } _ { \text { t o d a y } } = { \alpha   \left [ p _ { 1 } + ( 1 - \alpha   ) p _ { 2 } + ( 1 - \alpha   ) ^ { 2 } p _ { 3 } + ( 1 - \alpha   ) ^ { 3 } p _ { 4 } + \cdots   \right ] } }
+p _ { 1 }
+{ \displaystyle   { \text { p r i c e } } _ { \text { t o d a y } } }
+p _ { 2 }
+{ \displaystyle   { \text { p r i c e } } _ { \text { y e s t e r d a y } } }
+{ \displaystyle   { \text { E M A } } _ { \text { t o d a y } } = { \frac   { p _ { 1 } + ( 1 - \alpha   ) p _ { 2 } + ( 1 - \alpha   ) ^ { 2 } p _ { 3 } + ( 1 - \alpha   ) ^ { 3 } p _ { 4 } + \cdots   } { 1 + ( 1 - \alpha   ) + ( 1 - \alpha   ) ^ { 2 } + ( 1 - \alpha   ) ^ { 3 } + \cdots   } } , }
+{ \displaystyle   1 / \alpha   = 1 + ( 1 - \alpha   ) + ( 1 - \alpha   ) ^ { 2 } + \cdots   }
+{ \displaystyle   { \text { E M A } } _ { n } = { \frac   { { \text { W e i g h t e d S u m } } _ { n } } { { \text { W e i g h t e d C o u n t } } _ { n } } } }
+{ \displaystyle   { \text { W e i g h t e d S u m } } _ { n } = p _ { n } + ( 1 - \alpha   ) { \text { W e i g h t e d S u m } } _ { n - 1 } }
+{ \displaystyle   { \text { W e i g h t e d C o u n t } } _ { n } = 1 + ( 1 - \alpha   ) { \text { W e i g h t e d C o u n t } } _ { n - 1 } = { \frac   { 1 - ( 1 - \alpha   ) ^ { n } } { 1 - ( 1 - \alpha   ) } } }
+{ \displaystyle   { \text { W e i g h t e d S u m } } _ { 0 } = { \text { W e i g h t e d C o u n t } } _ { 0 } = 0 }
+{ \displaystyle   \alpha   \left [ ( 1 - \alpha   ) ^ { k } + ( 1 - \alpha   ) ^ { k + 1 } + ( 1 - \alpha   ) ^ { k + 2 } + \cdots   \right ] , }
+{ \displaystyle   \alpha   ( 1 - \alpha   ) ^ { k } \left [ 1 + ( 1 - \alpha   ) + ( 1 - \alpha   ) ^ { 2 } + \cdots   \right ] , }
+{ \displaystyle   { \begin { a l i g n e d } & { \frac   { { \text { w e i g h t   o m i t t e d   b y   s t o p p i n g   a f t e r   } } k { \text {   t e r m s } } } { \text { t o t a l   w e i g h t } } } \\[6pt ] = { } & { \frac   { \alpha   \left [ ( 1 - \alpha   ) ^ { k } + ( 1 - \alpha   ) ^ { k + 1 } + ( 1 - \alpha   ) ^ { k + 2 } + \cdots   \right ] } { \alpha   \left [ 1 + ( 1 - \alpha   ) + ( 1 - \alpha   ) ^ { 2 } + \cdots   \right ] } } \\[6pt ] = { } & { \frac   { \alpha   ( 1 - \alpha   ) ^ { k } { \frac   { 1 } { 1 - ( 1 - \alpha   ) } } } { \frac   { \alpha   } { 1 - ( 1 - \alpha   ) } } } \\[6pt ] = { } & ( 1 - \alpha   ) ^ { k } \end { a l i g n e d } } }
+{ \displaystyle   k = { \log ( 0 . 0 0 1 )   \over   \log ( 1 - \alpha   ) } }
+\alpha   \to   0
+N \to   \infty  
+\log   \,( 1 - \alpha   )
+- \alpha  
+{ \displaystyle   k \approx   { \log ( 0 . 0 0 1 )   \over   { - \alpha   } } }
+\alpha  
+{ \displaystyle   \alpha   = { 2   \over   N + 1 } }
+{ \displaystyle   k \approx   3 . 4 5 ( N + 1 ) \ , }
+\alpha  
+\alpha  
+\alpha   = 2 / ( N + 1 )
+{ \displaystyle   \alpha   _ { \mathrm   { R M A }   } = 2 / \left ( N _ { \mathrm   { S M A }   } + 1 \right ) }
+N
+{ \displaystyle   R ^ { \mathrm   { t h }   } }
+{ \displaystyle   R = { \frac   { N + 1 } { 2 } } }
+{ \displaystyle   R = \left ( N - 1 \right ) / 2 }
+{ \displaystyle   R _ { \mathrm   { E M A }   } = \alpha   \left [ 1 + 2 * ( 1 - \alpha   ) + 3 * ( 1 - \alpha   ) ^ { 2 } + . . . + k * ( 1 - \alpha   ) ^ { k - 1 } \right ] }
+{ \displaystyle   R _ { \mathrm   { E M A }   } = \alpha   \sum   _ { k = 1 } ^ { k = \infty   } \!\,k * \left ( 1 - \alpha   \right ) ^ { k - 1 } }
+{ \displaystyle   1 / ( 1 - x ) = \sum   _ { k = 0 } ^ { k = \infty   } \!\,x ^ { k } }
+x
+{ \displaystyle   ( x - 1 ) ^ { - 2 } = \sum   _ { k = 0 } ^ { k = \infty   } \!\,k * x ^ { k - 1 } }
+{ \displaystyle   ( x - 1 ) ^ { - 2 } = 0 + \sum   _ { k = 1 } ^ { k = \infty   } \!\,k * x ^ { k - 1 } }
+{ \displaystyle   x = 1 - \alpha   }
+{ \displaystyle   R _ { \mathrm   { E M A }   } = \alpha   \left ( \alpha   \right ) ^ { - 2 } }
+{ \displaystyle   R _ { \mathrm   { E M A }   } = \left ( \alpha   \right ) ^ { - 1 } }
+\alpha  
+{ \displaystyle   R _ { \mathrm   { S M A }   } = R _ { \mathrm   { R M A }   } }
+{ \displaystyle   { \frac   { N _ { \mathrm   { S M A }   } + 1 } { 2 } } = \left ( \alpha   _ { \mathrm   { E M A }   } \right ) ^ { - 1 } }
+{ \displaystyle   { \frac   { 2 } { N _ { \mathrm   { S M A }   } + 1 } } = \alpha   _ { \mathrm   { E M A }   } }
+{ \displaystyle   2 / \left ( N + 1 \right ) }
+\alpha  
+\alpha   = 2 / ( N + 1 )
+N
+1 - ( 1 - \alpha   ) ^ { N + 1 }
+N
+{ \displaystyle   1 - \left [ 1 - ( 1 - \alpha   ) ^ { N + 1 } \right ] = ( 1 - \alpha   ) ^ { N + 1 } }
+\alpha   = 2 / ( N + 1 )
+N
+{ \displaystyle   \lim   _ { n \to   \infty   } \left ( 1 + { a   \over   n } \right ) ^ { n } = e ^ { a } }
+{ \displaystyle   { \frac   { \alpha   \left [ 1 + ( 1 - \alpha   ) + ( 1 - \alpha   ) ^ { 2 } + \cdots   + ( 1 - \alpha   ) ^ { N } \right ] } { \alpha   \left [ 1 + ( 1 - \alpha   ) + ( 1 - \alpha   ) ^ { 2 } + \cdots   \right ] ) } } = 1 - { \left ( 1 - { 2   \over   N + 1 } \right ) } ^ { N + 1 } }
+{ \displaystyle   \lim   _ { N \to   \infty   } \left [ 1 - { \left ( 1 - { 2   \over   N + 1 } \right ) } ^ { N + 1 } \right ] }
+{ \displaystyle   1 - e ^ { - 2 } \approx   0 . 8 6 4 7 }
+N
+N
+{ \displaystyle   \alpha   = 2 / \left ( N + 1 \right ) }
+\alpha  
+\alpha  
+{ \displaystyle   N = \left ( 2 / \alpha   \right ) - 1 }
+{ \displaystyle   { \text { E M A } } _ { 1 } = x _ { 1 } }
+{ \displaystyle   { \text { E M V a r } } _ { 1 } = 0 }
+{ \displaystyle   { \begin { a l i g n e d } \delta   & = x _ { i } - { \text { E M A } } _ { i - 1 } \\{ \text { E M A } } _ { i } & = { \text { E M A } } _ { i - 1 } + \alpha   \cdot   \delta   \\{ \text { E M V a r } } _ { i } & = \left ( 1 - \alpha   \right ) \cdot   \left ( { \text { E M V a r } } _ { i - 1 } + \alpha   \cdot   \delta   ^ { 2 } \right ) \end { a l i g n e d } } }
+{ \displaystyle   { \text { E W S D } } _ { i } = { \sqrt   { { \text { E M V a r } } _ { i } } } }
+{ \displaystyle   { \overline   { p } } _ { M M , { \text { t o d a y } } } = { \frac   { ( N - 1 ) { \overline   { p } } _ { M M , { \text { y e s t e r d a y } } } + p _ { \text { t o d a y } } } { N } } }
+{ \displaystyle   \alpha   = 1 / N }
+{ \displaystyle   S _ { n } = \alpha   ( t _ { n } - t _ { n - 1 } ) Y _ { n } + \left [ 1 - \alpha   ( t _ { n } - t _ { n - 1 } ) \right ] S _ { n - 1 } . }
+{ \displaystyle   \alpha   ( t _ { n } - t _ { n - 1 } ) = 1 - \exp   \left ( { - { \frac   { t _ { n } - t _ { n - 1 } } { W \cdot   6 0 } } } \right ) }
+{ \displaystyle   S _ { n } = \left [ 1 - \exp   \left ( - { { t _ { n } - t _ { n - 1 } }   \over   { W \cdot   6 0 } } \right ) \right ] Y _ { n } + \exp   \left ( - { { t _ { n } - t _ { n - 1 } }   \over   { W \cdot   6 0 } } \right ) S _ { n - 1 } }
+{ \displaystyle   { \begin { a l i g n e d } L _ { n } & = \left [ 1 - \exp   \left ( { - { \frac   { 5 } { 1 5 \cdot   6 0 } } } \right ) \right ] Q _ { n } + e ^ { - { \frac   { 5 } { 1 5 \cdot   6 0 } } } L _ { n - 1 } \\[6pt ] & = \left [ 1 - \exp   \left ( { - { \frac   { 1 } { 1 8 0 } } } \right ) \right ] Q _ { n } + e ^ { - { \frac   { 1 } { 1 8 0 } } } L _ { n - 1 } \\[6pt ] & = Q _ { n } + e ^ { - { \frac   { 1 } { 1 8 0 } } } \left ( L _ { n - 1 } - Q _ { n } \right ) \end { a l i g n e d } } }
+{ \displaystyle   { \widetilde   { p } } _ { \text { S M } } = { \text { M e d i a n } } ( p _ { M } , p _ { M - 1 } , \ldots   , p _ { M - n + 1 } ) }
+{ \displaystyle   1 / ( 1 - x ) }
+{ \displaystyle   1 + x + x ^ { 2 } + \cdots   }
+\alpha   \to   0
+{ \displaystyle   \log ( 1 - \alpha   ) = - \alpha   - \alpha   ^ { 2 } / 2 - \cdots   }
+- \alpha  
+{ \displaystyle   \alpha   \left [ { 1 - ( 1 - \alpha   ) ^ { N + 1 }   \over   1 - ( 1 - \alpha   ) } \right ] }

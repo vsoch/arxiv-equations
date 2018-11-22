@@ -1,0 +1,57 @@
+{ 1   \over   2 }   ( 2 A )   +   { 1   \over   2 }   \left ( { A   \over   2 } \right )   =   { 5   \over   4 } A
+{ \displaystyle   c = 3 x }
+x
+2 x
+x
+x
+2 x
+x
+{ \displaystyle   G = { 1   \over   2 } ( x ) + { 1   \over   2 } ( - x ) = { 1   \over   2 } ( x - x ) = 0 }
+{ \displaystyle   \operatorname   { E }   = { \frac   { 1 } { 2 } } 2 x + { \frac   { 1 } { 2 } } x = { \frac   { 3 } { 2 } } x }
+{ \begin { a l i g n e d } \operatorname   { E } ( B ) & = \operatorname   { E } ( B \mid   A < B ) P ( A < B ) + \operatorname   { E } ( B \mid   A > B ) P ( A > B ) \\&=\operatorname   { E } ( 2 A \mid   A < B ) { \frac     1 2 } + \operatorname   { E } \left ( { \frac     1 2 } A \mid   A > B \right ) { \frac     1 2 } \\&=\operatorname   { E } ( A \mid   A < B ) + { \frac     1 4 } \operatorname   { E } ( A \mid   A > B ) \end { a l i g n e d } }
+\operatorname   { E } ( B ) = { \frac     1 2 } 2 x + { \frac     1 2 } x = { \frac     3 2 } x
+\operatorname   { E } ( B ) = \operatorname   { E } ( A \mid   A < B ) + { \frac     1 4 } \operatorname   { E } ( A \mid   A > B ) = x + { \frac     1 4 } 2 x = { \frac     3 2 } x
+E = { \frac     { 1 } { 2 } } \cdot   { \frac     { + A } { 3 A / 2 } } + { \frac     { 1 } { 2 } } \cdot   { \frac     { - A / 2 } { 3 A / 4 } } = 0
+{ \displaystyle   E = { \frac   { 1 } { 2 } } \cdot   { \frac   { + 1 0 0 } { 1 5 0 } } + { \frac   { 1 } { 2 } } \cdot   { \frac   { - 5 0 } { 7 5 } } = 0 }
+E ( B | A = a ) > a
+\begin { a l i g n }   P ( \{ 1 , 2 \} \mid   2 )   & =   \frac { P ( \{ 1 , 2 \})/2 } { P ( \{ 1 , 2 \})/2 + P ( \{ 2 , 4 \})/2 }   \\ &= \frac { P ( \{ 1 , 2 \})}{ P ( \{ 1 , 2 \})+P ( \{ 2 , 4 \})} \\ &= \frac { 1 / 3 } { 1 / 3   +   2 / 9 }   =   3 / 5 ,   \end { a l i g n }
+P ( \{ 1 , 2 \})/2
+P ( \{ 2 , 4 \})/2
+\frac { 3 } { 5 }   \frac { a } { 2 }   +   \frac { 2 } { 5 }   2 a   =   \frac { 1 1 } { 1 0 } a
+E ( B | A = a ) > a
+E ( X ) = \infty  
+E ( B | A = a ) < a
+E ( X ) = \infty  
+E ( B ) = E ( A ) = \infty
+A = a
+E ( B | A = a ) > a
+E ( B ) = E ( A ) = \infty
+E ( B ) = E ( A ) = \infty
+u ( w )
+E ( u ( W + B ) | A = a ) < u ( W + a )
+A = a
+u ( w )
+\beta < \infty
+u ( w ) < \beta
+E ( u ( W + A ) ) = E ( u ( W + B ) ) < \infty
+u ( W + A )
+u ( W + B )
+u ( W + A )   \leq   u ( W + M )
+u ( W + B )   \leq   u ( W + M )
+E ( X ) = \infty  
+p ( x )
+p ( a ) / ( p ( a / 2 ) + p ( a ) )
+p ( a / 2 ) / ( p ( a / 2 ) + p ( a ) )
+  p ( a / 2 )   <   2 p ( a )  
+  p ( a / 2 )   >   2 p ( a )  
+f ( x )
+2 f ( a ) / ( f ( a / 2 ) + 2 f ( a ) )
+f ( a / 2 ) / ( f ( a / 2 ) + 2 f ( a ) )
+  f ( a / 2 )   <   4 f ( a )  
+f ( a )   \cdot   h   \cdot   ( 1 / 2 )
+f ( a / 2 )   \cdot   ( h / 2 )   \cdot   ( 1 / 2 )
+f ( a )   \cdot   h   \cdot   ( 1 / 2 ) / ( f ( a )   \cdot   h   \cdot   ( 1 / 2 ) + f ( a / 2 )   \cdot   ( h / 2 )   \cdot   ( 1 / 2 ) )   =   2 f ( a ) / ( 2 f ( a ) + f ( a / 2 ) )
+p ( a / 2 )   <   p ( a )
+  f ( a / 2 )   <   2 f ( a )  
+q ( a )
+E ( B | A = a ) > a

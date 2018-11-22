@@ -1,0 +1,1 @@
+{ \displaystyle   [ { \text { M O S } } - 2 \sigma   , { \text { M O S } } + 2 \sigma   ] }

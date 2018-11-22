@@ -1,0 +1,59 @@
+\psi ( t ) = 2 \,\operatorname { s i n c } ( 2 t ) - \,\operatorname { s i n c } ( t ) = \frac { \sin ( 2 \pi   t ) - \sin ( \pi   t ) } { \pi   t }
+\psi_ { a , b }   ( t )   =   \frac1 { \sqrt   a   } \psi   \left (   \frac { t   -   b } { a }   \right ) ,
+x _ a ( t ) = \int_ \R   W T _ \psi \{ x \}( a , b ) \cdot \psi_ { a , b } ( t ) \,db
+W T _ \psi \{ x \}( a , b ) = \langle   x , \psi_ { a , b } \rangle = \int_ \R   x ( t ) { \psi_ { a , b } ( t ) } \,dt .
+{ \displaystyle   \psi   _ { m , n } ( t ) = { \frac   { 1 } { \sqrt   { a ^ { m } } } } \psi   \left ( { \frac   { t - n b } { a ^ { m } } } \right ) . }
+  x ( t ) = \sum_ { m \in \Z } \sum_ { n \in \Z } \langle   x , \,\psi_ { m , n } \rangle \cdot \psi_ { m , n } ( t )
+\{ \psi_ { m , n } : m , n \in \Z \ }
+V _ m = \operatorname { s p a n } ( \phi_ { m , n } : n \in \Z ) , \text {   w h e r e   } \phi_ { m , n } ( t ) = 2 ^ { - m / 2 } \phi ( 2 ^ { - m } t - n )
+W _ m = \operatorname { s p a n } ( \psi_ { m , n } : n \in \Z ) , \text {   w h e r e   } \psi_ { m , n } ( t ) = 2 ^ { - m / 2 } \psi ( 2 ^ { - m } t - n ) .
+V _ { i }
+W _ { i }
+\{ 0 \}\subset \dots \subset   V _ { 1 } \subset   V _ { 0 } \subset   V _ { - 1 } \subset   V _ { - 2 } \subset \dots \subset   L ^ 2 ( \R )
+\dots , W _ 1 , W _ 0 , W _ { - 1 } , \dots \dots
+V _ m \oplus   W _ m = V _ { m - 1 } .
+V _ 0 \oplus   W _ 0 = V _ { - 1 }
+h = \{ h _ n \}_ { n \in \Z }
+g = \{ g _ n \}_ { n \in \Z }
+g _ n = \langle \phi_ { 0 , 0 } , \,\phi_ { - 1 , n } \rangle
+\phi ( t ) = \sqrt2   \sum_ { n \in \Z }   g _ n \phi ( 2 t - n ) ,
+h _ n = \langle \psi_ { 0 , 0 } , \,\phi_ { - 1 , n } \rangle
+\psi ( t ) = \sqrt2   \sum_ { n \in \Z }   h _ n \phi ( 2 t - n ) .
+L ^ 2 = V _ { j _ 0 } \oplus   W _ { j _ 0 } \oplus   W _ { j _ 0 - 1 } \oplus   W _ { j _ 0 - 2 } \oplus   W _ { j _ 0 - 3 } \oplus \dots
+S \in   L ^ 2
+S   =   \sum_ { k }   c _ { j _ 0 , k } \phi_ { j _ 0 , k }   +   \sum_ { j \le   j _ 0 } \sum_ { k }   d _ { j , k } \psi_ { j , k }
+c _ { j _ 0 , k }   =   \langle   S , \phi_ { j _ 0 , k } \rangle  
+d _ { j , k }   =   \langle   S , \psi_ { j , k } \rangle  
+L ^ 1 ( \R ) \cap   L ^ 2 ( \R ) .
+\int_ { - \infty } ^ { \infty }   | \psi   ( t ) | \, dt   < \infty
+\int_ { - \infty } ^ { \infty }   | \psi   ( t ) | ^ 2   \, dt   < \infty .
+\int_ { - \infty } ^ { \infty }   \psi   ( t ) \, dt   =   0
+\int_ { - \infty } ^ { \infty }   | \psi   ( t ) | ^ 2 \, dt   =   1
+\int_ { - \infty } ^ { \infty }   t ^ m \,\psi   ( t ) \, dt   =   0 .
+\psi   _ { a , b }   ( t )   =   { 1   \over   \sqrt   a } \psi   \left (   { t   -   b   \over   a }   \right ) .
+  \frac { 1 } { \sqrt { a } }   \int_ { - \infty } ^ \infty   \varphi_ { a 1 , b 1 } ( t ) \varphi \left ( \frac { t - b } { a } \right )   \, dt
+\Psi   ( t )
+\psi   ( t )   =   e ^ { - 2   \pi   i   t }
+  \psi   ( t )   =   g ( t - u )   e ^ { - 2   \pi   i   t }  
+g ( t - u )
+\rm { r e c t } \left ( \frac { t - u } { \Delta_t } \right )
+\Delta_t
+{ \displaystyle   E = \int   _ { - \infty   } ^ { \infty   } | \psi   ( t ) | ^ { 2 } \,dt = { \frac   { 1 } { 2 \pi   } } \int   _ { - \infty   } ^ { \infty   } | { \hat   { \psi   } } ( \omega   ) | ^ { 2 } \,d \omega   }
+  \sigma_t ^ 2   =   \frac { 1 } { E } \int   | t - u | ^ 2 | \psi ( t ) | ^ 2   \, dt  
+\xi  
+  \sigma_ \omega ^ 2   = \frac { 1 } { 2 \pi   E }   \int   | \omega - \xi | ^ 2 | \hat { \psi } ( \omega ) | ^ 2   \, d \omega  
+\rm { s i n c ( \Delta_t \omega ) }
+\Delta_t   \rightarrow   \infty
+x ( t )
+x   =   s   +   v  
+v   \ \sim \ \mathcal { N } ( 0 , \,\sigma ^ 2 I )
+y   =   W ^ T x   =   W ^ T s   +   W ^ T v   =   p   +   z
+z   \ \sim \ \ \mathcal { N } ( 0 , \,\sigma ^ 2 I )
+p   \ \sim \ a \mathcal { N } ( 0 , \,\sigma_1 ^ 2 )   + ( 1 -   a ) \mathcal { N } ( 0 , \,\sigma_2 ^ 2 )
+\sigma_1 ^ 2
+\sigma_2 ^ 2
+\tilde   p   =   E ( p / y )   =   \tau ( y )   y
+\tau ( y )
+\sigma_1 ^ 2
+\sigma_2 ^ 2
+  \tilde   s   =   W   \tilde   p

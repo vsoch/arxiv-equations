@@ -1,0 +1,61 @@
+{ \binom   { 2 n - 1 } { n } }
+{ \bar   { x } } = { \frac   { 1 } { 1 0 } } ( x _ { 1 } + x _ { 2 } + \ldots   + x _ { 1 0 } )
+{ \bar   { x } }
+N
+i
+{ \mathcal   { D } } ^ { J }
+w _ { i } ^ { J } = x _ { i } ^ { J } - x _ { i - 1 } ^ { J }
+\mathbf   { x }   ^ { J }
+N - 1
+[ 0 , 1 ]
+{ \mathcal   { D } } ^ { J }
+{ \hat   { y } } _ { i }
+{ \hat   { \epsilon   } } _ { i } = y _ { i } - { \hat   { y } } _ { i } , ( i = 1 , \dots   , n )
+{ \hat   { \epsilon   } } _ { j }
+{ \hat   { y } } _ { i }
+{ \displaystyle   y _ { i } ^ { * } = { \hat   { y _ { i } } } + { \hat   { \epsilon   } } _ { j } }
+y _ { i } ^ { * }
+{ \hat   { \mu   } } _ { i } ^ { * }
+y _ { i } ^ { * }
+y
+y _ { i } ^ { * } = { \hat   { y } } _ { i } + { \hat   { \epsilon   } } _ { i } v _ { i }
+v _ { i }
+v _ { i }
+{ \displaystyle   v _ { i } = \left \{ { \begin { m a t r i x } - ( { \sqrt   { 5 } } - 1 ) / 2 & { \mbox { w i t h   p r o b .   } } ( { \sqrt   { 5 } } + 1 ) / ( 2 { \sqrt   { 5 } } ) \\( { \sqrt   { 5 } } + 1 ) / 2 & { \mbox { w i t h   p r o b .   } } ( { \sqrt   { 5 } } - 1 ) / ( 2 { \sqrt   { 5 } } ) \end { m a t r i x } } \right . }
+{ \displaystyle   v _ { i } = \left \{ { \begin { m a t r i x } - 0 . 6 1 8 0 & { \mbox { w i t h   p r o b .   } } 0 . 7 2 8 6 \\1 . 6 1 8 0 & { \mbox { w i t h   p r o b .   } } 0 . 2 7 6 4 \end { m a t r i x } } \right . }
+{ \displaystyle   v _ { i } = \left \{ { \begin { m a t r i x } - 1 & { \mbox { w i t h   p r o b .   } } 1 / 2 \\1 & { \mbox { w i t h   p r o b .   } } 1 / 2 \end { m a t r i x } } \right . }
+{ \displaystyle   ( 2 { \hat   { \theta   } } - \theta   _ { ( 1 - \alpha   / 2 ) } ^ { * } , 2 { \hat   { \theta   } } - \theta   _ { ( \alpha   / 2 ) } ^ { * } ) }
+\theta   _ { ( 1 - \alpha   / 2 ) } ^ { * }
+1 - \alpha   / 2
+\theta   ^ { * }
+{ \displaystyle   ( \theta   _ { ( \alpha   / 2 ) } ^ { * } , \theta   _ { ( 1 - \alpha   / 2 ) } ^ { * } ) }
+\theta   _ { ( 1 - \alpha   / 2 ) } ^ { * }
+1 - \alpha   / 2
+\theta   ^ { * }
+{ \displaystyle   ( \theta   - t _ { ( 1 - \alpha   / 2 ) } ^ { * } \cdot   { \hat   { s e } } _ { \theta   } , \theta   - t _ { ( \alpha   / 2 ) } ^ { * } \cdot   { \hat   { s e } } _ { \theta   } ) }
+t _ { ( 1 - \alpha   / 2 ) } ^ { * }
+1 - \alpha   / 2
+t ^ { * } = ( { \hat   { \theta   } } ^ { * } - { \hat   { \theta   } } ) / { \hat   { s e } } _ { { \hat   { \theta   } } ^ { * } }
+{ \hat   { s e } } _ { \theta   }
+{ \displaystyle   x _ { 1 } , . . . , x _ { n } }
+{ \bar   { x } }
+\sigma   _ { x } ^ { 2 }
+{ \displaystyle   y _ { 1 } , . . . , y _ { m } }
+{ \bar   { y } }
+\sigma   _ { y } ^ { 2 }
+{ \displaystyle   t = { \frac   { { \bar   { x } } - { \bar   { y } } } { \sqrt   { \sigma   _ { x } ^ { 2 } / n + \sigma   _ { y } ^ { 2 } / m } } } }
+{ \displaystyle   x _ { i } ^ { ' } = x _ { i } - { \bar   { x } } + { \bar   { z } } }
+{ \displaystyle   y _ { i } ^ { ' } = y _ { i } - { \bar   { y } } + { \bar   { z } } }
+{ \bar   { z } }
+{ \displaystyle   x _ { i } ^ { * } }
+n
+{ \displaystyle   x _ { i } ^ { ' } }
+{ \displaystyle   y _ { i } ^ { * } }
+m
+{ \displaystyle   y _ { i } ^ { ' } }
+{ \displaystyle   t ^ { * } = { \frac   { { \bar   { x ^ { * } } } - { \bar   { y ^ { * } } } } { \sqrt   { \sigma   _ { x } ^ { * 2 } / n + \sigma   _ { y } ^ { * 2 } / m } } } }
+B
+{ \displaystyle   B = 1 0 0 0 }
+B
+{ \displaystyle   p = { \frac   { \#\{ t ^ { * } \geq   t \}}{ B } } }
+\sigma   = 1 / { \sqrt   { n } }

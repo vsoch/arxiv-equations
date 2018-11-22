@@ -1,0 +1,6 @@
+P _ { c } ( t ) = \left ( 1 - { \frac   { 1 } { 2 N _ { e } } } \right ) ^ { t - 1 } \left ( { \frac   { 1 } { 2 N _ { e } } } \right ) .
+P _ { { c } } ( t ) = { \frac     { 1 } { 2 N _ { e } } } e ^ { { - { \frac     { t - 1 } { 2 N _ { e } } } } } .
+{ \bar   { H } }
+2 \mu  
+{ \displaystyle   { \begin { a l i g n e d } { \bar   { H } } & = { \frac   { 2 \mu   } { 2 \mu   + { \frac   { 1 } { 2 N _ { e } } } } } \\[3pt ] & = { \frac   { 4 N _ { e } \mu   } { 1 + 4 N _ { e } \mu   } } \\[3pt ] & = { \frac   { \theta   } { 1 + \theta   } } \end { a l i g n e d } } }
+4 N _ { e } \mu   \gg   1

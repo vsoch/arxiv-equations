@@ -1,0 +1,30 @@
+A
+B
+\bar { x } _ { A }
+\bar { x } _ { B }
+n _ { A }
+n _ { B }
+_ { 0 }
+A
+B
+n _ { A }
+n _ { B }
+\scriptstyle \ N  
+\scriptstyle \ N   =   1 0 0 0 0
+\scriptstyle \ \hat { p } = 0 . 0 5  
+\scriptstyle \ p  
+{ \displaystyle   \scriptstyle   \ [0 . 0 4 5 , 0 . 0 5 5 ] }
+\scriptstyle \ p   \leq   \alpha  
+\scriptstyle \ \alpha  
+\scriptstyle \ \alpha = 0 . 0 5
+\scriptstyle \ \alpha = 0 . 0 5  
+\scriptstyle \ p   \leq   \alpha  
+\scriptstyle \ \alpha
+\scriptstyle \ p   \leq   \alpha  
+\scriptstyle \ \epsilon  
+\scriptstyle \ \hat { p }   >   \alpha  
+\scriptstyle \ p   \leq   \alpha  
+\scriptstyle \ p   \leq   \alpha  
+\scriptstyle \ p   >   \alpha  
+\scriptstyle \ 1 - \epsilon  
+\scriptstyle \ \epsilon  

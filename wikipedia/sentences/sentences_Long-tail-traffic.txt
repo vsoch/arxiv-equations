@@ -1,0 +1,11 @@
+\rho   ( k ) \sim   k ^ { { - \alpha   } }
+P ( a ) = \left ( { \frac   { \mu   ^ { a } } { a ! } } \right ) e ^ { - \mu   } ,
+\mu  
+P ( d ) = \left ( { \frac   { \lambda   ^ { d } } { d ! } } \right ) e ^ { - \lambda   } ,
+\lambda  
+P [ T \geq   \ t ] = e ^ { { { \frac     { - t } { h } } } } ,
+P [ X > x ] \sim   x ^ { { - \alpha   } } , \ { \text { a s } } \ x \to   \infty   , 0 < \alpha   < 2
+p ( x ) = \alpha   k ^ { { \alpha   } } x ^ { { - \alpha   - 1 } } , \ \alpha   , k > 0 , \ x \geq   k
+F ( x ) = P [ X \leq   \ x ] = 1 - \left ( { \frac     { k } { x } } \right ) ^ { { \alpha   } }
+{ \mathcal     { 1 } }
+\alpha  

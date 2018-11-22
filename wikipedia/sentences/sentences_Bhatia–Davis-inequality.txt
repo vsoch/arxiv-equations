@@ -1,0 +1,1 @@
+{ \displaystyle   \sigma   ^ { 2 } \leq   ( M - \mu   ) ( \mu   - m ) . \ , }

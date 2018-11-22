@@ -1,0 +1,2 @@
+  Q   =   a _ S   +     b _ S   P   +   c X   \ ,  
+  Q   =   a _ D   +   b _ D     P   +     d   Z   \ ,  

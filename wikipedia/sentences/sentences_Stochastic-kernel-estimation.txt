@@ -1,0 +1,61 @@
+{ \displaystyle   ( X , { \mathcal   { A } } ) , ( Y , { \mathcal   { B } } ) }
+( X , { \mathcal   { A } } )
+( Y , { \mathcal   { B } } )
+{ \displaystyle   \kappa   : X \times   { \mathcal   { B } } \to   [ 0 , 1 ] }
+x \mapsto   \kappa   ( x , B )
+{ \mathcal   { A } }
+{ \displaystyle   B \in   { \mathcal   { B } } . }
+B \mapsto   \kappa   ( x , B )
+( Y , { \mathcal   { B } } )
+x \in   X
+x \in   X
+{ \displaystyle   \kappa   ( x , \cdot   ) }
+( Y , { \mathcal   { B } } )
+B \in   { \mathcal   { B } }
+x \mapsto   \kappa   ( x , B )
+\sigma  
+{ \mathcal     A } .
+{ \displaystyle   X = Y = \mathbb   { Z }   , { \mathcal   { A } } = { \mathcal   { B } } = { \mathcal   { P } } ( \mathbb   { Z }   ) }
+\mathbb   { Z }  
+\kappa  
+{ \displaystyle   \kappa   ( x , B ) = { \frac   { 1 } { 2 } } \mathbf   { 1 }   _ { B } ( x - 1 ) + { \frac   { 1 } { 2 } } \mathbf   { 1 }   _ { B } ( x + 1 ) , \quad   \forall   x \in   \mathbb   { Z }   , \quad   \forall   B \in   { \mathcal   { P } } ( \mathbb   { Z }   ) , }
+\mathbf   { 1 }  
+{ \displaystyle   \mathbb   { Z }   . }
+{ \displaystyle   X = Y = \mathbb   { N }   , { \mathcal   { A } } = { \mathcal   { B } } = { \mathcal   { P } } ( \mathbb   { N }   ) , }
+{ \displaystyle   \kappa   ( x , B ) = { \begin { c a s e s } \mathbf   { 1 }   _ { B } ( 0 ) & x = 0 \\\Pr ( \xi   _ { 1 } + \cdots   + \xi   _ { x } \in   B ) & x \neq   0 \\\end { c a s e s } } }
+\xi   _ { i }
+{ \displaystyle   X = Y , { \mathcal   { A } } = { \mathcal   { B } } = { \mathcal   { P } } ( X ) = { \mathcal   { P } } ( Y ) }
+{ \displaystyle   | X | = | Y | = n , }
+( K _ { i j } ) _ { 1 \leq   i , j \leq   n }
+{ \displaystyle   \forall   i \in   X : \qquad   \sum   _ { j \in   Y } K _ { i j } = 1 . }
+{ \displaystyle   \kappa   ( i , B ) = \sum   _ { j \in   B } K _ { i j } , \qquad   \forall   i \in   X , \quad   \forall   B \in   { \mathcal   { B } } }
+\nu  
+( Y , { \mathcal   { B } } )
+{ \displaystyle   k : X \times   Y \to   \mathbb   { R }   _ { + } }
+\sigma  
+{ \mathcal   { A } } \otimes   { \mathcal   { B } }
+{ \displaystyle   \forall   x \in   X \qquad   \int   _ { Y } k ( x , y ) \nu   ( \mathrm   { d }   y ) = 1 , }
+{ \displaystyle   { \begin { c a s e s } \kappa   : X \times   { \mathcal   { B } } \to   [ 0 , 1 ] \\\kappa   ( x , B ) = \int   _ { B } k ( x , y ) \nu   ( \mathrm   { d }   y ) \end { c a s e s } } }
+( X , { \mathcal   { A } } , P )
+\kappa  
+( X , { \mathcal   { A } } )
+( Y , { \mathcal   { B } } )
+Q
+( X \times   Y , { \mathcal   { A } } \otimes   { \mathcal   { B } } )
+{ \displaystyle   Q ( A \times   B ) = \int   _ { A } \kappa   ( x , B ) \,dP ( x ) , \quad   \forall   A \in   { \mathcal   { A } } , \quad   \forall   B \in   { \mathcal   { B } } . }
+( S , Y )
+X
+( S , Y )
+( \Omega   , { \mathcal   { F } } , P )
+{ \mathcal   { G } } \subseteq   { \mathcal   { F } }
+\sigma  
+\kappa  
+( \Omega   , { \mathcal   { G } } )
+( S , Y )
+{ \displaystyle   \kappa   ( \cdot   , B ) }
+{ \displaystyle   \mathbb   { E }   [ \mathbf   { 1 }   _ { \{ X \in   B \}}\mid   { \mathcal   { G } } ] }
+B \in   Y
+{ \displaystyle   P ( X \in   B \mid   { \mathcal   { G } } ) = \mathbb   { E }   \left [ \mathbf   { 1 }   _ { \{ X \in   B \}}\mid   { \mathcal   { G } } \right ] = \kappa   ( \omega   , B ) , \qquad   P { \text { - a . s . } } \,\,\forall   B \in   { \mathcal   { G } } . }
+X
+{ \mathcal   { G } }
+{ \displaystyle   B \mapsto   \kappa   ( x , B ) }

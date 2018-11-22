@@ -1,0 +1,61 @@
+\mu   \ ,
+\lambda   > 0 \ ,
+\alpha   > 0 \ ,
+\beta   > 0 \ ,
+x   \in   ( - \infty ,   \infty ) \,\!, \; \sigma ^ 2   \in   ( 0 , \infty )
+{ \displaystyle   { \frac   { \sqrt   { \lambda   } } { \sqrt   { 2 \pi   \sigma   ^ { 2 } } } } { \frac   { \beta   ^ { \alpha   } } { \Gamma   ( \alpha   ) } } \left ( { \frac   { 1 } { \sigma   ^ { 2 } } } \right ) ^ { \alpha   + 1 } \exp   \left ( - { \frac   { 2 \beta   + \lambda   ( x - \mu   ) ^ { 2 } } { 2 \sigma   ^ { 2 } } } \right ) }
+{ \displaystyle   \operatorname   { E }   [ x ] = \mu   }
+{ \displaystyle   \operatorname   { E }   [ \sigma   ^ { 2 } ] = { \frac   { \beta   } { \alpha   - 1 } } }
+{ \displaystyle   \alpha   > 1 }
+{ \displaystyle   x = \mu   \;{ \textrm   { ( u n i v a r i a t e ) } } , x = { \boldsymbol   { \mu   } } \;{ \textrm   { ( m u l t i v a r i a t e ) } } }
+{ \displaystyle   \sigma   ^ { 2 } = { \frac   { \beta   } { \alpha   + 1 + 1 / 2 } } \;{ \textrm   { ( u n i v a r i a t e ) } } , \sigma   ^ { 2 } = { \frac   { \beta   } { \alpha   + 1 + k / 2 } } \;{ \textrm   { ( m u l t i v a r i a t e ) } } }
+{ \displaystyle   \operatorname   { V a r }   [ x ] = { \frac   { \beta   } { ( \alpha   - 1 ) \lambda   } } }
+\alpha   > 1
+{ \displaystyle   \operatorname   { V a r }   [ \sigma   ^ { 2 } ] = { \frac   { \beta   ^ { 2 } } { ( \alpha   - 1 ) ^ { 2 } ( \alpha   - 2 ) } } }
+\alpha   > 2
+{ \displaystyle   \operatorname   { C o v }   [ x , \sigma   ^ { 2 } ] = 0 }
+\alpha   > 1
+{ \displaystyle   x \mid   \sigma   ^ { 2 } , \mu   , \lambda   \sim   \mathrm   { N }   ( \mu   , \sigma   ^ { 2 } / \lambda   ) \ , \ ! }
+\mu  
+  \sigma ^ 2   /   \lambda
+{ \displaystyle   \sigma   ^ { 2 } \mid   \alpha   , \beta   \sim   \Gamma   ^ { - 1 } ( \alpha   , \beta   ) \ ! }
+( x , \sigma ^ 2 )  
+  ( x , \sigma ^ 2 )   \sim   \text { N - } \Gamma ^ { - 1 } ( \mu , \lambda , \alpha , \beta )   \ !   .  
+\text { N I G }
+\text { N - } \Gamma ^ { - 1 } .
+{ \displaystyle   \mathbf   { x }   \mid   \sigma   ^ { 2 } , { \boldsymbol   { \mu   } } , \mathbf   { V }   ^ { - 1 } \sim   \mathrm   { N }   ( { \boldsymbol   { \mu   } } , \sigma   ^ { 2 } \mathbf   { V }   ^ { - 1 } ) \ , \ ! }
+\sigma   ^ { 2 }
+    \mathbf { x }  
+k \times   1
+{ \boldsymbol   { \mu   } }
+{ \displaystyle   \sigma   ^ { 2 } \mathbf   { V }   ^ { - 1 } }
+{ \displaystyle   \sigma   ^ { 2 } \mid   \alpha   , \beta   \sim   \Gamma   ^ { - 1 } ( \alpha   , \beta   ) \ ! }
+{ \displaystyle   f ( x , \sigma   ^ { 2 } \mid   \mu   , \lambda   , \alpha   , \beta   ) = { \frac   { \sqrt   { \lambda   } } { \sigma   { \sqrt   { 2 \pi   } } } } \,{ \frac   { \beta   ^ { \alpha   } } { \Gamma   ( \alpha   ) } } \,\left ( { \frac   { 1 } { \sigma   ^ { 2 } } } \right ) ^ { \alpha   + 1 } \exp   \left ( - { \frac   { 2 \beta   + \lambda   ( x - \mu   ) ^ { 2 } } { 2 \sigma   ^ { 2 } } } \right ) }
+    \mathbf { x }  
+k \times   1
+{ \displaystyle   f ( \mathbf   { x }   , \sigma   ^ { 2 } \mid   \mu   , \mathbf   { V }   ^ { - 1 } , \alpha   , \beta   ) = | \mathbf   { V }   | ^ { - 1 / 2 } { ( 2 \pi   ) ^ { - k / 2 } } \,{ \frac   { \beta   ^ { \alpha   } } { \Gamma   ( \alpha   ) } } \,\left ( { \frac   { 1 } { \sigma   ^ { 2 } } } \right ) ^ { \alpha   + 1 + k / 2 } \exp   \left ( - { \frac   { 2 \beta   + ( \mathbf   { x }   - { \boldsymbol   { \mu   } } ) ' \mathbf   { V }   ^ { - 1 } ( \mathbf   { x }   - { \boldsymbol   { \mu   } } ) } { 2 \sigma   ^ { 2 } } } \right ) . }
+| \mathbf { V } |
+  k   \times   k  
+\mathbf   { V }  
+k = 1
+\mathbf { x } ,   \mathbf { V } ,   \boldsymbol { \mu }
+  \gamma   =   1   /   \lambda
+{ \displaystyle   f ( x , \sigma   ^ { 2 } \mid   \mu   , \gamma   , \alpha   , \beta   ) = { \frac   { 1 } { \sigma   { \sqrt   { 2 \pi   \gamma   } } } } \,{ \frac   { \beta   ^ { \alpha   } } { \Gamma   ( \alpha   ) } } \,\left ( { \frac   { 1 } { \sigma   ^ { 2 } } } \right ) ^ { \alpha   + 1 } \exp   \left ( - { \frac   { 2 \gamma   \beta   + ( x - \mu   ) ^ { 2 } } { 2 \gamma   \sigma   ^ { 2 } } } \right ) }
+\mathbf   { V }  
+\mathbf   { V }   ^ { - 1 }
+{ \displaystyle   F ( x , \sigma   ^ { 2 } \mid   \mu   , \lambda   , \alpha   , \beta   ) = { \frac   { e ^ { - { \frac   { \beta   } { \sigma   ^ { 2 } } } } \left ( { \frac   { \beta   } { \sigma   ^ { 2 } } } \right ) ^ { \alpha   } \left ( \operatorname   { e r f }   \left ( { \frac   { { \sqrt   { \lambda   } } ( x - \mu   ) } { { \sqrt   { 2 } } \sigma   } } \right ) + 1 \right ) } { 2 \sigma   ^ { 2 } \Gamma   ( \alpha   ) } } }
+  ( x , \sigma ^ 2 )   \sim   \text { N - } \Gamma ^ { - 1 } ( \mu , \lambda , \alpha , \beta )   \ !   .  
+\sigma   ^ { 2 }
+\sigma ^ 2   \sim   \Gamma ^ { - 1 } ( \alpha , \beta )   \ !
+  \sqrt { \frac { \alpha \lambda } { \beta } }   ( x   -   \mu )  
+  2   \alpha  
+\mathbf   { x }  
+{ \displaystyle   \mathbf   { x }   \sim   t _ { 2 \alpha   } ( { \boldsymbol   { \mu   } } , { \frac   { \beta   } { \alpha   } } \mathbf   { V }   ^ { - 1 } ) \ ! }
+\sigma   ^ { 2 }
+\alpha  
+\beta  
+x
+\mu  
+\sigma ^ 2 / \lambda
+\sigma ^ 2   \mathbf { V }
+\sigma   ^ { 2 }

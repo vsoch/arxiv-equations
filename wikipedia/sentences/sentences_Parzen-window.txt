@@ -1,0 +1,17 @@
+{ \displaystyle   { \hat   { f } } _ { h } ( x ) = { \frac   { 1 } { n } } \sum   _ { i = 1 } ^ { n } K _ { h } ( x - x _ { i } ) = { \frac   { 1 } { n h } } \sum   _ { i = 1 } ^ { n } K { \Big   ( } { \frac   { x - x _ { i } } { h } } { \Big   ) } , }
+{ \displaystyle   \operatorname   { M I S E }   ( h ) = \operatorname   { E }   \!\left [ \,\int   ( { \hat   { f } } _ { h } ( x ) - f ( x ) ) ^ { 2 } \,dx \right ] . }
+\operatorname { A M I S E } ( h )   =   \frac { R ( K ) } { n h }   +   \frac { 1 } { 4 }   m _ 2 ( K ) ^ 2   h ^ 4   R ( f ' ' )
+R ( g )   =   \int   g ( x ) ^ 2   \, dx
+m _ 2 ( K )   =   \int   x ^ 2   K ( x )   \, dx
+  \frac { \partial } { \partial   h }   \operatorname { A M I S E } ( h )   =   - \frac { R ( K ) } { n h ^ 2 }   +     m _ 2 ( K ) ^ 2   h ^ 3   R ( f ' ' )   =   0  
+h _ { \operatorname { A M I S E } }   =   \frac {   R ( K ) ^ { 1 / 5 } } { m _ 2 ( K ) ^ { 2 / 5 } R ( f ' ' ) ^ { 1 / 5 }   n ^ { 1 / 5 } } .
+h   =   \left ( \frac { 4 \hat { \sigma } ^ 5 } { 3 n } \right ) ^ { \frac { 1 } { 5 } }   \approx   1 . 0 6   \hat { \sigma }   n ^ { - 1 / 5 } ,
+{ \hat   { \sigma   } }
+{ \displaystyle   \textstyle   { \frac   { 1 } { 2 { \sqrt   { 2 \pi   } } } } e ^ { - { \frac   { 1 } { 2 } } ( x - 1 0 ) ^ { 2 } } + { \frac   { 1 } { 2 { \sqrt   { 2 \pi   } } } } e ^ { - { \frac   { 1 } { 2 } } ( x + 1 0 ) ^ { 2 } } }
+          \hat \varphi ( t )   =   \frac { 1 } { n }   \sum_ { j = 1 } ^ n   e ^ { i t x _ j }      
+\scriptstyle \hat \varphi ( t )
+\scriptstyle \hat \varphi ( t )
+\scriptstyle \hat \varphi ( t )
+\scriptstyle \hat \varphi ( t )
+\begin { a l i g n }           \hat { f } ( x )   & =   \frac { 1 } { 2 \pi }   \int_ { - \infty } ^ { + \infty }   \hat \varphi ( t ) \psi_h ( t )   e ^ { - i t x } d t                                   =   \frac { 1 } { 2 \pi }   \int_ { - \infty } ^ { + \infty }   \frac { 1 } { n }   \sum_ { j = 1 } ^ n   e ^ { i t ( x _ j - x ) }   \psi ( h t )   d t   \\                &= \frac { 1 } { n h }   \sum_ { j = 1 } ^ n   \frac { 1 } { 2 \pi }   \int_ { - \infty } ^ { + \infty }   e ^ { - i ( h t ) \frac { x - x _ j } { h } }   \psi ( h t )   d ( h t )                                   =   \frac { 1 } { n h }   \sum_ { j = 1 } ^ n   K \Big ( \frac { x - x _ j } { h } \Big ) ,       \end { a l i g n }
+S E ( 3 )

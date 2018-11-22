@@ -1,0 +1,1 @@
+{ \mathit     { A I C } } = 2 k - 2 \ln ( L ) \ ,

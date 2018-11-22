@@ -1,0 +1,8 @@
+( X _ { t } ) _ { { 0 \leq   t \leq   T } }
+\left ( \Omega   , ( { \mathcal     { F } } _ { t } ) , { \mathbb     { P } } \right )
+( W _ { t } ) _ { { 0 \leq   t \leq   T } }
+{ \displaystyle   \mathbb   { E }   \left [ e ^ { { \frac   { 1 } { 2 } } \int   _ { 0 } ^ { T } | X | _ { t } ^ { 2 } \,dt } \right ] < \infty   }
+{ \displaystyle   \ { \mathcal   { E } } \left ( \int   _ { 0 } ^ { t } X _ { s } \;dW_ { s } \right ) \ =e ^ { \int   _ { 0 } ^ { t } X _ { s } \,dW_ { s } - { \frac   { 1 } { 2 } } \int   _ { 0 } ^ { t } X _ { s } ^ { 2 } \,ds } , \quad   0 \leq   t \leq   T }
+\mathbb   { P }  
+{ \mathcal   { F } }
+{ \mathcal   { E } }

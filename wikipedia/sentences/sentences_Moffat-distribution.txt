@@ -1,0 +1,5 @@
+{ \displaystyle   R = { \sqrt   { X ^ { 2 } + Y ^ { 2 } } } . }
+{ \displaystyle   f ( x , y ; \alpha   , \beta   ) = { \frac   { \beta   - 1 } { \pi   \alpha   ^ { 2 } } } \left [ 1 + \left ( { \frac   { x ^ { 2 } + y ^ { 2 } } { \alpha   ^ { 2 } } } \right ) \right ] ^ { - \beta   } , \ , }
+\alpha  
+\beta  
+{ \displaystyle   f ( r ; \alpha   , \beta   ) = 2 { \frac   { \beta   - 1 } { \alpha   ^ { 2 } } } r \left [ 1 + \left ( { \frac   { r ^ { 2 } } { \alpha   ^ { 2 } } } \right ) \right ] ^ { - \beta   } . \ , }

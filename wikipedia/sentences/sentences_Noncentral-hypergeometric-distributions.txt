@@ -1,0 +1,10 @@
+m _ { 1 }
+m _ { 2 }
+N = m _ { 1 } + m _ { 2 }
+n
+\omega   _ { 1 }
+\omega   _ { 2 }
+p _ { 1 } = { \frac     { m _ { 1 } \omega   _ { 1 } } { m _ { 1 } \omega   _ { 1 } + m _ { 2 } \omega   _ { 2 } } } .
+m _ { 1 }
+m _ { 2 }
+\omega   = \omega   _ { 1 } / \omega   _ { 2 }

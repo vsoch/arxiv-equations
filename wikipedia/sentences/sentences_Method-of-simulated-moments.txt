@@ -1,0 +1,5 @@
+{ \hat     { \beta   } } _ { { G M M } } = \operatorname   { a r g m i n } \,m ( x , \beta   ) ' W m ( x , \beta   )
+m ( x , \beta   )
+{ \hat     { \beta   } } _ { { M S M } } = \operatorname   { a r g m i n } \,{ \hat     { m } } ( x , \beta   ) ' W { \hat     { m } } ( x , \beta   )
+{ \hat     { m } } ( x , \beta   )
+E [ { \hat     { m } } ( x , \beta   ) ] = m ( x , \beta   )

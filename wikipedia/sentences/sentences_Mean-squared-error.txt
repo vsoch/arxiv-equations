@@ -1,0 +1,54 @@
+\hat { Y }
+n
+Y
+{ \displaystyle   \operatorname   { M S E }   = { \frac   { 1 } { n } } \sum   _ { i = 1 } ^ { n } ( Y _ { i } - { \hat   { Y _ { i } } } ) ^ { 2 } . }
+{ \displaystyle   \left ( { \frac   { 1 } { n } } \sum   _ { i = 1 } ^ { n } \right ) }
+{ \displaystyle   ( Y _ { i } - { \hat   { Y _ { i } } } ) ^ { 2 } }
+{ \displaystyle   \operatorname   { M S P E }   = { \frac   { 1 } { q } } \sum   _ { i = n + 1 } ^ { n + q } ( Y _ { i } - { \hat   { Y _ { i } } } ) ^ { 2 } . }
+\hat { \theta }
+\theta  
+{ \displaystyle   \operatorname   { M S E }   ( { \hat   { \theta   } } ) = \operatorname   { E }   _ { \hat   { \theta   } } \left [ ( { \hat   { \theta   } } - \theta   ) ^ { 2 } \right ] . }
+{ \displaystyle   \operatorname   { M S E }   ( { \hat   { \theta   } } ) = \operatorname   { V a r }   _ { \hat   { \theta   } } ( { \hat   { \theta   } } ) + \operatorname   { B i a s }   ( { \hat   { \theta   } } , \theta   ) ^ { 2 } . }
+{ \displaystyle   { \begin { a l i g n e d } \operatorname   { M S E }   ( { \hat   { \theta   } } ) & = \operatorname   { E }   _ { \hat   { \theta   } } \left [ ( { \hat   { \theta   } } - \theta   ) ^ { 2 } \right ] \\&=\operatorname   { E }   _ { \hat   { \theta   } } \left [ \left ( { \hat   { \theta   } } - \operatorname   { E }   _ { \hat   { \theta   } } [ { \hat   { \theta   } } ] + \operatorname   { E }   _ { \hat   { \theta   } } [ { \hat   { \theta   } } ] - \theta   \right ) ^ { 2 } \right ] \\&=\operatorname   { E }   _ { \hat   { \theta   } } \left [ \left ( { \hat   { \theta   } } - \operatorname   { E }   _ { \hat   { \theta   } } [ { \hat   { \theta   } } ] \right ) ^ { 2 } + 2 \left ( { \hat   { \theta   } } - \operatorname   { E }   _ { \hat   { \theta   } } [ { \hat   { \theta   } } ] \right ) \left ( \operatorname   { E }   _ { \hat   { \theta   } } [ { \hat   { \theta   } } ] - \theta   \right ) + \left ( \operatorname   { E }   _ { \hat   { \theta   } } [ { \hat   { \theta   } } ] - \theta   \right ) ^ { 2 } \right ] \\&=\operatorname   { E }   _ { \hat   { \theta   } } \left [ \left ( { \hat   { \theta   } } - \operatorname   { E }   _ { \hat   { \theta   } } [ { \hat   { \theta   } } ] \right ) ^ { 2 } \right ] + \operatorname   { E }   _ { \hat   { \theta   } } \left [ 2 \left ( { \hat   { \theta   } } - \operatorname   { E }   _ { \hat   { \theta   } } [ { \hat   { \theta   } } ] \right ) \left ( \operatorname   { E }   _ { \hat   { \theta   } } [ { \hat   { \theta   } } ] - \theta   \right ) \right ] + \operatorname   { E }   _ { \hat   { \theta   } } \left [ \left ( \operatorname   { E }   _ { \hat   { \theta   } } [ { \hat   { \theta   } } ] - \theta   \right ) ^ { 2 } \right ] \\&=\operatorname   { E }   _ { \hat   { \theta   } } \left [ \left ( { \hat   { \theta   } } - \operatorname   { E }   _ { \hat   { \theta   } } [ { \hat   { \theta   } } ] \right ) ^ { 2 } \right ] + 2 \left ( \operatorname   { E }   _ { \hat   { \theta   } } [ { \hat   { \theta   } } ] - \theta   \right ) \operatorname   { E }   _ { \hat   { \theta   } } \left [ { \hat   { \theta   } } - \operatorname   { E }   _ { \hat   { \theta   } } [ { \hat   { \theta   } } ] \right ] + \left ( \operatorname   { E }   _ { \hat   { \theta   } } [ { \hat   { \theta   } } ] - \theta   \right ) ^ { 2 } & & \operatorname   { E }   _ { \hat   { \theta   } } [ { \hat   { \theta   } } ] - \theta   = { \text { c o n s t . } } \\&=\operatorname   { E }   _ { \hat   { \theta   } } \left [ \left ( { \hat   { \theta   } } - \operatorname   { E }   _ { \hat   { \theta   } } [ { \hat   { \theta   } } ] \right ) ^ { 2 } \right ] + 2 \left ( \operatorname   { E }   _ { \hat   { \theta   } } [ { \hat   { \theta   } } ] - \theta   \right ) \left ( \operatorname   { E }   _ { \hat   { \theta   } } [ { \hat   { \theta   } } ] - \operatorname   { E }   _ { \hat   { \theta   } } [ { \hat   { \theta   } } ] \right ) + \left ( \operatorname   { E }   _ { \hat   { \theta   } } [ { \hat   { \theta   } } ] - \theta   \right ) ^ { 2 } & & \operatorname   { E }   _ { \hat   { \theta   } } [ { \hat   { \theta   } } ] = { \text { c o n s t . } } \\&=\operatorname   { E }   _ { \hat   { \theta   } } \left [ \left ( { \hat   { \theta   } } - \operatorname   { E }   _ { \hat   { \theta   } } [ { \hat   { \theta   } } ] \right ) ^ { 2 } \right ] + \left ( \operatorname   { E }   _ { \hat   { \theta   } } [ { \hat   { \theta   } } ] - \theta   \right ) ^ { 2 } \\&=\operatorname   { V a r }   _ { \hat   { \theta   } } ( { \hat   { \theta   } } ) + \operatorname   { B i a s }   _ { \hat   { \theta   } } ( { \hat   { \theta   } } , \theta   ) ^ { 2 } \end { a l i g n e d } } }
+n
+X _ { 1 } , \dots   , X _ { n }
+n
+n
+\mu  
+\overline { X } = \frac { 1 } { n } \sum_ { i = 1 } ^ n   X _ i  
+\mu  
+{ \displaystyle   \operatorname   { M S E }   \left ( { \overline   { X } } \right ) = \operatorname   { E }   \left [ \left ( { \overline   { X } } - \mu   \right ) ^ { 2 } \right ] = \left ( { \frac   { \sigma   } { \sqrt   { n } } } \right ) ^ { 2 } = { \frac   { \sigma   ^ { 2 } } { n } } }
+\sigma   ^ { 2 }
+{ \displaystyle   S _ { n - 1 } ^ { 2 } = { \frac   { 1 } { n - 1 } } \sum   _ { i = 1 } ^ { n } \left ( X _ { i } - { \overline   { X } } \right ) ^ { 2 } = { \frac   { 1 } { n - 1 } } \left ( \sum   _ { i = 1 } ^ { n } X _ { i } ^ { 2 } - n { \overline   { X } } ^ { 2 } \right ) . }
+\sigma   ^ { 2 }
+{ \displaystyle   \operatorname   { M S E }   ( S _ { n - 1 } ^ { 2 } ) = { \frac   { 1 } { n } } \left ( \mu   _ { 4 } - { \frac   { n - 3 } { n - 1 } } \sigma   ^ { 4 } \right ) = { \frac   { 1 } { n } } \left ( \gamma   _ { 2 } + { \frac   { 2 n } { n - 1 } } \right ) \sigma   ^ { 4 } , }
+\mu   _ { 4 }
+\gamma_2 = \mu_4 / \sigma ^ 4 - 3
+\sigma   ^ { 2 }
+S ^ 2 _ { n - 1 }
+{ \displaystyle   S _ { a } ^ { 2 } = { \frac   { n - 1 } { a } } S _ { n - 1 } ^ { 2 } = { \frac   { 1 } { a } } \sum   _ { i = 1 } ^ { n } \left ( X _ { i } - { \overline   { X } } \,\right ) ^ { 2 } }
+{ \displaystyle   { \begin { a l i g n e d } \operatorname   { M S E }   ( S _ { a } ^ { 2 } ) & = \operatorname   { E }   \left [ \left ( { \frac   { n - 1 } { a } } S _ { n - 1 } ^ { 2 } - \sigma   ^ { 2 } \right ) ^ { 2 } \right ] \\&=\operatorname   { E }   \left [ { \frac   { ( n - 1 ) ^ { 2 } } { a ^ { 2 } } } S _ { n - 1 } ^ { 4 } - 2 \left ( { \frac   { n - 1 } { a } } S _ { n - 1 } ^ { 2 } \right ) \sigma   ^ { 2 } + \sigma   ^ { 4 } \right ] \\&={ \frac   { ( n - 1 ) ^ { 2 } } { a ^ { 2 } } } \operatorname   { E }   \left [ S _ { n - 1 } ^ { 4 } \right ] - 2 \left ( { \frac   { n - 1 } { a } } \right ) \operatorname   { E }   \left [ S _ { n - 1 } ^ { 2 } \right ] \sigma   ^ { 2 } + \sigma   ^ { 4 } \\&={ \frac   { ( n - 1 ) ^ { 2 } } { a ^ { 2 } } } \operatorname   { E }   \left [ S _ { n - 1 } ^ { 4 } \right ] - 2 \left ( { \frac   { n - 1 } { a } } \right ) \sigma   ^ { 4 } + \sigma   ^ { 4 } & & \operatorname   { E }   \left [ S _ { n - 1 } ^ { 2 } \right ] = \sigma   ^ { 2 } \\&={ \frac   { ( n - 1 ) ^ { 2 } } { a ^ { 2 } } } \left ( { \frac   { \gamma   _ { 2 } } { n } } + { \frac   { n + 1 } { n - 1 } } \right ) \sigma   ^ { 4 } - 2 \left ( { \frac   { n - 1 } { a } } \right ) \sigma   ^ { 4 } + \sigma   ^ { 4 } & & \operatorname   { E }   \left [ S _ { n - 1 } ^ { 4 } \right ] = \operatorname   { M S E }   ( S _ { n - 1 } ^ { 2 } ) + \sigma   ^ { 4 } \\&={ \frac   { n - 1 } { n a ^ { 2 } } } \left ( ( n - 1 ) \gamma   _ { 2 } + n ^ { 2 } + n \right ) \sigma   ^ { 4 } - 2 \left ( { \frac   { n - 1 } { a } } \right ) \sigma   ^ { 4 } + \sigma   ^ { 4 } \end { a l i g n e d } } }
+a = \frac { ( n - 1 ) \gamma_2 + n ^ 2 + n } { n }   =   n + 1 + \frac { n - 1 } { n } \gamma_2 .
+\gamma_2 = 0
+a = n + 1
+\gamma_2 = - 2
+{ \displaystyle   a = n - 1 + { \tfrac   { 2 } { n } } . }
+S ^ 2 _ { n - 1 } .
+{ \displaystyle   \theta   = \mu   }
+\hat { \theta }
+\overline { X } = \frac { 1 } { n } \sum_ { i = 1 } ^ n ( X _ i )
+\operatorname { M S E } ( \overline { X } ) = \operatorname { E } ( ( \overline { X } - \mu ) ^ 2 ) = \left ( \frac { \sigma } { \sqrt { n } } \right ) ^ 2
+{ \displaystyle   \theta   = \sigma   ^ { 2 } }
+\hat { \theta }
+S ^ 2 _ { n - 1 }   =   \frac { 1 } { n - 1 } \sum_ { i = 1 } ^ n \left ( X _ i - \overline { X } \,\right ) ^ 2
+\operatorname { M S E } ( S ^ 2 _ { n - 1 } ) = \operatorname { E } ( ( S ^ 2 _ { n - 1 } - \sigma ^ 2 ) ^ 2 ) = \frac { 2 } { n   -   1 } \sigma ^ 4
+{ \displaystyle   \theta   = \sigma   ^ { 2 } }
+\hat { \theta }
+S ^ 2 _ { n }   =   \frac { 1 } { n } \sum_ { i = 1 } ^ n \left ( X _ i - \overline { X } \,\right ) ^ 2
+\operatorname { M S E } ( S ^ 2 _ { n } ) = \operatorname { E } ( ( S ^ 2 _ { n } - \sigma ^ 2 ) ^ 2 ) = \frac { 2 n   -   1 } { n ^ 2 } \sigma ^ 4
+{ \displaystyle   \theta   = \sigma   ^ { 2 } }
+\hat { \theta }
+S ^ 2 _ { n + 1 }   =   \frac { 1 } { n + 1 } \sum_ { i = 1 } ^ n \left ( X _ i - \overline { X } \,\right ) ^ 2
+\operatorname { M S E } ( S ^ 2 _ { n + 1 } ) = \operatorname { E } ( ( S ^ 2 _ { n + 1 } - \sigma ^ 2 ) ^ 2 ) = \frac { 2 } { n   +   1 } \sigma ^ 4
+\hat { \theta }
+\theta  

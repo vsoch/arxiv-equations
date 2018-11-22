@@ -1,0 +1,11 @@
+{ \displaystyle   p ( x _ { t } | z _ { 1 : t } ) \approx   \sum   _ { i = 1 } ^ { M } \omega   _ { t } ^ { ( i ) } \delta   \left ( x _ { t } - x _ { t } ^ { ( i ) } \right ) . }
+k
+t - 1
+t
+{ \displaystyle   \mu   _ { t } ^ { ( i ) } }
+{ \displaystyle   x _ { t } | x _ { t - 1 } }
+{ \displaystyle   k ^ { ( i ) } \sim   P ( i = k | z _ { t } ) \propto   \omega   _ { t } ^ { ( i ) } p ( z _ { t } | \mu   _ { t } ^ { ( i ) } ) }
+{ \displaystyle   i = 1 , 2 , \dots   , M }
+{ \displaystyle   x _ { t } ^ { ( i ) } \sim   p ( x | x _ { t - 1 } ^ { k ^ { ( i ) } } ) . }
+{ \displaystyle   \mu   _ { t } ^ { k ^ { ( i ) } } }
+{ \displaystyle   \omega   _ { t } ^ { ( i ) } \propto   { \frac   { p ( z _ { t } | x _ { t } ^ { ( i ) } ) } { p ( z _ { t } | \mu   _ { t } ^ { k ^ { ( i ) } } ) } } . }

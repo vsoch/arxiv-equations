@@ -1,0 +1,59 @@
+\mathbf   { P }  
+\mathbf { H }
+\mathbf   { y }  
+{ \displaystyle   \mathbf   { \hat   { y } }   }
+{ \displaystyle   \mathbf   { \hat   { y } }   = \mathbf   { P }   \mathbf   { y }   . }
+{ \displaystyle   \mathbf   { \hat   { y } }   }
+\mathbf   { y }  
+\mathbf   { u }  
+{ \displaystyle   \mathbf   { u }   = \mathbf   { y }   - \mathbf   { \hat   { y } }   = \mathbf   { y }   - \mathbf   { P }   \mathbf   { y }   = \left ( \mathbf   { I }   - \mathbf   { P }   \right ) \mathbf   { y }   . }
+\mathbf   { I }  
+{ \displaystyle   \mathbf   { M }   \equiv   \left ( \mathbf   { I }   - \mathbf   { P }   \right ) }
+\mathbf   { P }  
+{ \displaystyle   { \begin { a l i g n e d } p _ { i j } = \operatorname   { C o v }   \left [ { \hat   { y } } _ { i } , y _ { j } \right ] / \operatorname   { V a r }   \left [ y _ { j } \right ] \end { a l i g n e d } } }
+\mathbf   { u }  
+{ \displaystyle   \mathbf   { \Sigma   }   _ { \mathbf   { u }   } = \left ( \mathbf   { I }   - \mathbf   { P }   \right ) ^ { \mathsf   { T } } \mathbf   { \Sigma   }   \left ( \mathbf   { I }   - \mathbf   { P }   \right ) }
+\mathbf { \Sigma }
+{ \displaystyle   \mathbf   { \Sigma   }   = \sigma   ^ { 2 } \mathbf   { I }   }
+{ \displaystyle   \mathbf   { \Sigma   }   _ { \mathbf   { u }   } = \left ( \mathbf   { I }   - \mathbf   { P }   \right ) \sigma   ^ { 2 } }
+{ \displaystyle   \mathbf   { y }   = \mathbf   { X }   { \boldsymbol   { \beta   } } + { \boldsymbol   { \varepsilon   } } , }
+{ \displaystyle   { \hat   { \boldsymbol   { \beta   } } } = \left ( \mathbf   { X }   ^ { \mathsf   { T } } \mathbf   { X }   \right ) ^ { - 1 } \mathbf   { X }   ^ { \mathsf   { T } } \mathbf   { y }   , }
+{ \displaystyle   { \hat   { \mathbf   { y }   } } = \mathbf   { X }   { \hat   { \boldsymbol   { \beta   } } } = \mathbf   { X }   \left ( \mathbf   { X }   ^ { \mathsf   { T } } \mathbf   { X }   \right ) ^ { - 1 } \mathbf   { X }   ^ { \mathsf   { T } } \mathbf   { y }   . }
+{ \displaystyle   \mathbf   { P }   \equiv   \mathbf   { X }   \left ( \mathbf   { X }   ^ { \mathsf   { T } } \mathbf   { X }   \right ) ^ { - 1 } \mathbf   { X }   ^ { \mathsf   { T } } . }
+{ \displaystyle   { \hat   { \mathbf   { \beta   }   } } _ { \text { G L S } } = \left ( \mathbf   { X }   ^ { \top   } \mathbf   { \Psi   }   ^ { - 1 } \mathbf   { X }   \right ) ^ { - 1 } \mathbf   { X }   ^ { \top   } \mathbf   { \Psi   }   ^ { - 1 } \mathbf   { y }   }
+{ \displaystyle   H = \mathbf   { X }   \left ( \mathbf   { X }   ^ { \top   } \mathbf   { \Psi   }   ^ { - 1 } \mathbf   { X }   \right ) ^ { - 1 } \mathbf   { X }   ^ { \top   } \mathbf   { \Psi   }   ^ { - 1 } }
+{ \displaystyle   H ^ { 2 } = H \cdot   H = H }
+\mathbf   { X }  
+{ \displaystyle   \left ( \mathbf   { X }   ^ { \mathsf   { T } } \mathbf   { X }   \right ) ^ { - 1 } \mathbf   { X }   ^ { \mathsf   { T } } }
+{ \displaystyle   \mathbf   { u }   = ( \mathbf   { I }   - \mathbf   { P }   ) \mathbf   { y }   , }
+{ \displaystyle   \mathbf   { u }   = \mathbf   { y }   - \mathbf   { P }   \mathbf   { y }   \perp   \mathbf   { X }   . }
+\mathbf   { P }  
+{ \displaystyle   \mathbf   { M }   \equiv   \left ( \mathbf   { I }   - \mathbf   { P }   \right ) }
+\mathbf   { P }  
+{ \displaystyle   \mathbf   { P }   ^ { 2 } = \mathbf   { P }   }
+\mathbf   { M }  
+\mathbf   { X }  
+{ \displaystyle   \operatorname   { r a n k }   ( \mathbf   { X }   ) = r }
+{ \displaystyle   \operatorname   { r a n k }   ( \mathbf   { P }   ) = r }
+\mathbf   { P }  
+\mathbf   { M }  
+\mathbf   { X }  
+\mathbf   { P }  
+{ \displaystyle   \mathbf   { P X }   = \mathbf   { X }   , }
+{ \displaystyle   \left ( \mathbf   { I }   - \mathbf   { P }   \right ) \mathbf   { X }   = \mathbf   { 0 }   }
+{ \displaystyle   \left ( \mathbf   { I }   - \mathbf   { P }   \right ) \mathbf   { P }   = \mathbf   { P }   \left ( \mathbf   { I }   - \mathbf   { P }   \right ) = \mathbf   { 0 }   . }
+\mathbf   { P }  
+{ \displaystyle   \mathbf   { P }   ^ { 2 } = \mathbf   { P }   }
+\mathbf   { X }  
+\mathbf   { y }  
+X
+{ \displaystyle   X = [ A ~ ~ ~ B ] }
+{ \displaystyle   P \{ X \}=X \left ( X ^ { \top   } X \right ) ^ { - 1 } X ^ { \top   } }
+{ \displaystyle   M \{ X \}=I - P \{ X \ } }
+{ \displaystyle   P \{ X \}=P \{ A \}+P \{ M \{ A \}B \ } , }
+{ \displaystyle   P \{ A \}=A \left ( A ^ { \top   } A \right ) ^ { - 1 } A ^ { \top   } }
+{ \displaystyle   M \{ A \}=I - P \{ A \ } }
+A
+A
+X
+X

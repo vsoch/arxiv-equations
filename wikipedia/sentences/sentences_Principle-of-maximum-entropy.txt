@@ -1,0 +1,21 @@
+p _ { i } = { \frac   { 1 } { n } } \ { \rm   { f o r \ all } } \ i \in   \{ \,1 , \dots   , n \ , \ } .
+{ \displaystyle   \sum   _ { i = 1 } ^ { n } \Pr ( x _ { i } ) f _ { k } ( x _ { i } ) \geq   F _ { k } \qquad   k = 1 , \ldots   , m . }
+\sum   _ { i = 1 } ^ { n } \Pr ( x _ { i } ) = 1 .
+\Pr ( x _ { i } ) = { \frac   { 1 } { Z ( \lambda   _ { 1 } , \ldots   , \lambda   _ { m } ) } } \exp   \left [ \lambda   _ { 1 } f _ { 1 } ( x _ { i } ) + \cdots   + \lambda   _ { m } f _ { m } ( x _ { i } ) \right ] .
+Z ( \lambda   _ { 1 } , \ldots   , \lambda   _ { m } ) = \sum   _ { i = 1 } ^ { n } \exp   \left [ \lambda   _ { 1 } f _ { 1 } ( x _ { i } ) + \cdots   + \lambda   _ { m } f _ { m } ( x _ { i } ) \right ] ,
+F _ { k } = { \frac   { \partial   } { \partial   \lambda   _ { k } } } \log   Z ( \lambda   _ { 1 } , \ldots   , \lambda   _ { m } ) .
+H _ { c } = - \int   p ( x ) \log   { \frac   { p ( x ) } { m ( x ) } } \,dx
+{ \displaystyle   \int   p ( x ) f _ { k } ( x ) \,dx \geq   F _ { k } \qquad   k = 1 , \dotsc   , m . }
+{ \displaystyle   \int   p ( x ) \,dx = 1 . }
+p ( x ) = { \frac   { 1 } { Z ( \lambda   _ { 1 } , \dotsc   , \lambda   _ { m } ) } } m ( x ) \exp   \left [ \lambda   _ { 1 } f _ { 1 } ( x ) + \dotsb   + \lambda   _ { m } f _ { m } ( x ) \right ]
+{ \displaystyle   Z ( \lambda   _ { 1 } , \dotsc   , \lambda   _ { m } ) = \int   m ( x ) \exp   \left [ \lambda   _ { 1 } f _ { 1 } ( x ) + \dotsb   + \lambda   _ { m } f _ { m } ( x ) \right ] \,dx . }
+\lambda   _ { k }
+F _ { k } = { \frac   { \partial   } { \partial   \lambda   _ { k } } } \log   Z ( \lambda   _ { 1 } , \dotsc   , \lambda   _ { m } ) .
+p ( x ) = A \cdot   m ( x ) , \qquad   a < x < b
+p _ { i } = { \frac   { n _ { i } } { N } }
+P r ( \mathbf   { p }   ) = W \cdot   m ^ { - N }
+W = { \frac   { N ! } { n _ { 1 } ! \,n_ { 2 } ! \,\dotsb   \,n_ { m } ! } }
+{ \displaystyle   { \begin { a l i g n e d } { \frac   { 1 } { N } } \log   W & = { \frac   { 1 } { N } } \log   { \frac   { N ! } { n _ { 1 } ! \,n_ { 2 } ! \,\dotsb   \,n_ { m } ! } } \\[6pt ] & = { \frac   { 1 } { N } } \log   { \frac   { N ! } { ( N p _ { 1 } ) ! \,( N p _ { 2 } ) ! \,\dotsb   \,( N p _ { m } ) ! } } \\[6pt ] & = { \frac   { 1 } { N } } \left ( \log   N ! - \sum   _ { i = 1 } ^ { m } \log ( ( N p _ { i } ) ! ) \right ) . \end { a l i g n e d } } }
+N \to   \infty  
+{ \displaystyle   { \begin { a l i g n e d } \lim   _ { N \to   \infty   } \left ( { \frac   { 1 } { N } } \log   W \right ) & = { \frac   { 1 } { N } } \left ( N \log   N - \sum   _ { i = 1 } ^ { m } N p _ { i } \log ( N p _ { i } ) \right ) \\[6pt ] & = \log   N - \sum   _ { i = 1 } ^ { m } p _ { i } \log ( N p _ { i } ) \\[6pt ] & = \log   N - \log   N \sum   _ { i = 1 } ^ { m } p _ { i } - \sum   _ { i = 1 } ^ { m } p _ { i } \log   p _ { i } \\[6pt ] & = \left ( 1 - \sum   _ { i = 1 } ^ { m } p _ { i } \right ) \log   N - \sum   _ { i = 1 } ^ { m } p _ { i } \log   p _ { i } \\[6pt ] & = - \sum   _ { i = 1 } ^ { m } p _ { i } \log   p _ { i } \\[6pt ] & = H ( \mathbf   { p }   ) . \end { a l i g n e d } } }
+N

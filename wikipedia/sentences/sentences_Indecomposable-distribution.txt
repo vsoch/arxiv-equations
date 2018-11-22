@@ -1,0 +1,12 @@
+X = { \begin { c a s e s } 1 & { \text { w i t h   p r o b a b i l i t y   } } p , \\0 & { \text { w i t h   p r o b a b i l i t y   } } 1 - p , \end { c a s e s } }
+X = { \begin { c a s e s } 2 & { \text { w i t h   p r o b a b i l i t y   } } a , \\1 & { \text { w i t h   p r o b a b i l i t y   } } b , \\0 & { \text { w i t h   p r o b a b i l i t y   } } c . \end { c a s e s } }
+{ \sqrt     { a } } + { \sqrt     { c } } \leq   1 \  
+{ \begin { m a t r i x } U = { \begin { c a s e s } 1 & { \text { w i t h   p r o b a b i l i t y   } } p , \\0 & { \text { w i t h   p r o b a b i l i t y   } } 1 - p , \end { c a s e s } } & { \mbox { a n d } } & V = { \begin { c a s e s } 1 & { \text { w i t h   p r o b a b i l i t y   } } q , \\0 & { \text { w i t h   p r o b a b i l i t y   } } 1 - q , \end { c a s e s } } \end { m a t r i x } }
+a = p q , \ ,
+c = ( 1 - p ) ( 1 - q ) , \ ,
+b = 1 - a - c . \ ,
+{ \sqrt     { a } } + { \sqrt     { c } } \leq   1 . \  
+f ( x ) = { 1   \over   { \sqrt     { 2 \pi   \,}}}x ^ { 2 } e ^ { { - x ^ { 2 } / 2 } }
+\sum   _ { { n = 1 } } ^ { \infty   } { X _ { n }   \over   2 ^ { n } } ,
+{ \displaystyle   \Pr ( Y = n ) = ( 1 - p ) ^ { n } p \ , }
+Y = \sum   _ { { n = 1 } } ^ { \infty   } { D _ { n }   \over   2 ^ { n } } ,

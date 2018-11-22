@@ -1,0 +1,21 @@
+  s = x ^ 2 + y ^ 2   <   1 ,   \ ,
+{ \displaystyle   x { \sqrt   { \frac   { - 2 \ln ( s ) } { s } } } \,,\ \ y { \sqrt   { \frac   { - 2 \ln ( s ) } { s } } } , }
+{ \displaystyle   { \frac   { x } { \sqrt   { s } } } { \sqrt   { - 2 \ln ( s ) } } \,,\ \ { \frac   { y } { \sqrt   { s } } } { \sqrt   { - 2 \ln ( s ) } } , }
+{ \displaystyle   x / { \sqrt   { s } } }
+{ \displaystyle   y / { \sqrt   { s } } }
+\Pr ( \rho < a ) = \int_0 ^ a   r e ^ { - r ^ 2 / 2 } \,dr  
+  \left ( \rho \cos ( 2 \pi   u ) , \rho \sin ( 2 \pi   u ) \right )  
+I = \int_ { - \infty } ^ \infty   e ^ { - x ^ 2 / 2 } \,dx  
+I ^ 2   =   \int_ { - \infty } ^ \infty \int_ { - \infty } ^ \infty   e ^ { - ( x ^ 2 + y ^ 2 ) / 2 } \,dx \,dy           = \int_0 ^ { 2 \pi } \int_0 ^ \infty   r e ^ { - r ^ 2 / 2 }   \, dr   \, d \theta .
+r e ^ { - r ^ 2 / 2 } .   \ ,  
+x = \sqrt { - 2 \ln ( u _ 1 ) } \cos ( 2 \pi   u _ 2 ) , \quad     y = \sqrt { - 2 \ln ( u _ 1 ) } \sin ( 2 \pi   u _ 2 )
+{ \displaystyle   { \sqrt   { - 2 \ln ( u _ { 1 } ) } } , }
+\text { e x p i } ( z )   =   e ^ { i   z }   =   \cos ( z )   +   i   \sin ( z ) ,   \ ,  
+{ \displaystyle   r = { \sqrt   { - 2 l n ( u _ { 1 } ) } } }
+{ \displaystyle   z = 2 \pi   u _ { 2 } }
+{ \displaystyle   \ re ^ { i z } = { \sqrt   { - 2 l n ( u _ { 1 } ) } } e ^ { i 2 \pi   u _ { 2 } } = { \sqrt   { - 2 l n ( u _ { 1 } ) } } \left [ \cos ( 2 \pi   u _ { 2 } ) + i \sin ( 2 \pi   u _ { 2 } ) \right ] }
+\sqrt { x ^ 2   +   y ^ 2 }
+{ \displaystyle   s = x ^ { 2 } + y ^ { 2 } }
+\left (   \frac { x } { \sqrt { s } } ,   \frac { y } { \sqrt { s } }   \right ) ,   \ ,  
+\pi / 4   \approx   7 9 \ %
+\sqrt { - 2 \ln ( s ) } ,   \ ,  

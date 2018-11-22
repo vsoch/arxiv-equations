@@ -1,0 +1,4 @@
+X _ { n } + Y _ { n } \ { \xrightarrow   { d } } \ X + c ;
+X _ { n } Y _ { n } \ { \xrightarrow   { d } } \ cX ;
+X _ { n } / Y _ { n } \ { \xrightarrow   { d } } \ X / c ,
+{ \xrightarrow   { d } }

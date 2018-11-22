@@ -1,0 +1,11 @@
+F _ { { X , Y } } ( x , y )
+F _ { X , Y } ( x , y )   =   F _ X ( x )   F _ Y ( y ) ,
+f _ { { X , Y } } ( x , y )
+f _ { X , Y } ( x , y )   =   f _ X ( x )   f _ Y ( y ) .
+( X , Y , Z ) = \left \{ { \begin { m a t r i x } ( 0 , 0 , 0 ) & { \text { w i t h   p r o b a b i l i t y } } \ 1 / 4 , \\( 0 , 1 , 1 ) & { \text { w i t h   p r o b a b i l i t y } } \ 1 / 4 , \\( 1 , 0 , 1 ) & { \text { w i t h   p r o b a b i l i t y } } \ 1 / 4 , \\( 1 , 1 , 0 ) & { \text { w i t h   p r o b a b i l i t y } } \ 1 / 4 . \end { m a t r i x } } \right .
+f _ { X } ( 0 ) = f _ { Y } ( 0 ) = f _ { Z } ( 0 ) = 1 / 2 ,
+f _ { X } ( 1 ) = f _ { Y } ( 1 ) = f _ { Z } ( 1 ) = 1 / 2 .
+f _ { { X , Y } } = f _ { { X , Z } } = f _ { { Y , Z } } ,
+f _ { { X , Y } } ( 0 , 0 ) = f _ { { X , Y } } ( 0 , 1 ) = f _ { { X , Y } } ( 1 , 0 ) = f _ { { X , Y } } ( 1 , 1 ) = 1 / 4 .
+{ \displaystyle   f _ { X , Y , Z } ( x , y , z ) \neq   f _ { X } ( x ) f _ { Y } ( y ) f _ { Z } ( z ) , }
+\{ X , Y , Z \ }

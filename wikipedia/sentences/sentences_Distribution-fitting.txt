@@ -1,0 +1,16 @@
+\mu  
+\sigma   ^ { 2 }
+{ \displaystyle   m = \sum   { X } / n }
+X
+n
+s = \sqrt { \frac { 1 } { n - 1 } \sum { ( X - m ) ^ 2 } }
+Y = a X + b
+X
+Y = - \ln ( - \ln   P )
+P
+X
+P
+a
+b
+Y
+X

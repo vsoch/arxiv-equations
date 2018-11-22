@@ -1,0 +1,4 @@
+U _ { { - t } } = \pi   \,U_ { { t } } \,\pi  
+{ \displaystyle   \mathbf   { p }   \rightarrow   \mathbf   { - p }   }
+{ \displaystyle   p ( x _ { t } , x _ { t + \tau   _ { 1 } } , x _ { t + \tau   _ { 2 } } , \ldots   , x _ { t + \tau   _ { k } } ) = p ( x _ { t ' } , x _ { t ' - \tau   _ { 1 } } , x _ { t ' - \tau   _ { 2 } } , \ldots   , x _ { t ' - \tau   _ { k } } ) }
+p ( x _ { t } = i , x _ { { t + 1 } } = j ) = \,p ( x _ { t } = j , x _ { { t + 1 } } = i )

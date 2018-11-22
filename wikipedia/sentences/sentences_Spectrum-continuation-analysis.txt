@@ -1,0 +1,7 @@
+{ \displaystyle   f ( x ) = \sum   _ { n = - \infty   } ^ { \infty   } F _ { n } \,e ^ { i n x } }
+F _ { n }
+{ \displaystyle   f ( x ) = \sum   _ { n = - \infty   } ^ { \infty   } F _ { n } \,e ^ { i \omega   _ { n } x } . }
+2 \pi  
+{ \displaystyle   f ( x ) = \sum   _ { n = 0 } ^ { \infty   } \left [ A _ { n } \cos ( \omega   _ { n } x ) + B _ { n } \sin ( \omega   _ { n } x ) \right ] + C ( x ) }
+\omega   _ { n }
+C ( x )

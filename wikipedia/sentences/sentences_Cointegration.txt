@@ -1,0 +1,16 @@
+{ \displaystyle   1 : I ( 1 ) }
+{ \displaystyle   I ( 1 ) }
+{ \displaystyle   I ( 1 ) }
+{ \displaystyle   I ( 1 ) }
+{ \displaystyle   I ( 1 ) }
+{ \displaystyle   I ( 1 ) }
+x _ { t }
+y _ { t }
+  y _ t   -   \beta   x _ t   =   u _ t   \ ,  
+u _ { t }
+u _ { t }
+u _ { t }
+u _ { t }
+\hat { u } _ t
+{ \hat     { u } } _ { { t - 1 } }
+{ \displaystyle   I ( 1 ) }

@@ -1,0 +1,18 @@
+m _ n   =   \int_ { - \infty } ^ \infty   x ^ n \,d   \mu ( x ) \     ?
+[ 0 , + \infty )
+  A   =   \left ( \begin { m a t r i x }   m _ 0   &   m _ 1   &   m _ 2   &   \cdots           \\ m_1   &   m _ 2   &   m _ 3   &   \cdots     \\ m_2   &   m _ 3   &   m _ 4   &   \cdots     \\ \vdots   &   \vdots   &   \vdots   &   \ddots     \\ \end { m a t r i x } \right )
+  \sum_ { j , k \ge0 } m _ { j + k } c _ j \bar   c _ k \ge0  
+  \sum_ { j , k \ge0 } m _ { j + k } c _ j \bar   c _ k =   \int_ { - \infty } ^ \infty   \left | \sum_ { j \geq   0 }   c _ j   x ^ j \right | ^ 2 \,d   \mu ( x )  
+\mu  
+( \mathcal { H } ,   \langle ,   \; \rangle )
+\langle   [ e _ { n + 1 } ] ,   [ e _ m ]   \rangle   =   A _ { m , n + 1 }   =   m _ { m + n + 1 }   =   \langle   [ e _ n ] ,   [ e _ { m + 1 } ] \rangle .
+{ \mathcal   { H } }
+m _ n   =   \int_ { - \infty } ^ \infty   x ^ n \,d   \mu ( x ) .
+{ \displaystyle   { \bar   { T } } }
+{ \displaystyle   { \bar   { T } } }
+\langle   \bar { T } ^ n   [ 1 ] ,   [ 1 ]   \rangle   =   \int   x ^ n   d   \mu ( x ) .
+{ \displaystyle   \langle   { \bar   { T } } ^ { n } [ 1 ] , [ 1 ] \rangle   = \langle   T ^ { n } [ e _ { 0 } ] , [ e _ { 0 } ] \rangle   = m _ { n } . }
+\Delta_n = \left [ \begin { m a t r i x }   m _ 0   &   m _ 1   &   m _ 2   &   \cdots   &   m _ { n }         \\ m_1   &   m _ 2   &   m _ 3   &   \cdots   &   m _ { n + 1 }   \\ m_2   &   m _ 3   &   m _ 4   &   \cdots   &   m _ { n + 2 }   \\ \vdots   &   \vdots   &   \vdots   &   \ddots   &   \vdots   \\ m_ { n }   &   m _ { n + 1 }   &   m _ { n + 2 }   &   \cdots   &   m _ { 2 n }   \end { m a t r i x } \right ] .
+( \mathcal { H } ,   \langle ,   \; \rangle )
+{ \displaystyle   { \bar   { T } } }
+m ( t ) = \sum_ { n = 0 } m _ n \frac { t ^ n } { n ! } ,

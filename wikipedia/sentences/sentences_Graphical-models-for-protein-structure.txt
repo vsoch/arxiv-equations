@@ -1,0 +1,27 @@
+X _ u   \perp \!\!\!\perp   X _ v   |   X _ { V   \setminus   \{ u , v \}} \quad   \text { i f   }   \{ u , v \} \notin   E .
+p ( X   =   x | \Theta )   =   p ( X _ b   =   x _ b ) p ( X _ s   =   x _ s | X _ b , \Theta ) ,   \ ,
+\Theta  
+\Theta  
+p ( X _ s   =   x _ s | X _ b   =   x _ b )   =   \frac { 1 } { Z }   \prod_ { c \in   C ( G ) } \Phi_c   ( x _ s ^ c , x _ b ^ c )
+\Phi  
+\Phi  
+\Phi ( x _ s ^ { i _ p } , x _ b ^ { j _ q } )   =   \exp   (   - E ( x _ s ^ { i _ p } , x _ b ^ { j _ q } ) / K _ B T )
+E ( x _ s ^ { i _ p } , x _ b ^ { j _ q } )
+X _ i ^ s
+X _ j ^ s
+k _ { B }
+G = E - T S
+G = \sum_ { x } p ( x ) E ( x ) - T \sum_xp ( x ) \ln ( p ( x ) )   \ ,
+\Theta = [ \theta_1 ,   \theta_2 ,   \dots ,   \theta_n ]
+n
+n
+f ( \Theta = D )
+f ( \Theta = D )   =   \frac { 1 } { Z }   \exp \left \{ - \frac { 1 } { 2 } ( D - \mu ) ^ T \Sigma ^ { - 1 } ( D - \mu ) \right \ }
+Z   =   ( 2 \pi ) ^ { n / 2 } | \Sigma | ^ { 1 / 2 }
+\mu  
+\Sigma  
+\mu  
+\Sigma   ^ { - 1 }
+\Sigma   ^ { - 1 }
+\mu  
+\Sigma   ^ { - 1 }

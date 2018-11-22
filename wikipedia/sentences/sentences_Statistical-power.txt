@@ -1,0 +1,33 @@
+{ \displaystyle   { \text { p o w e r } } = \Pr   { \big   ( } { \text { r e j e c t   } } H _ { 0 } \mid   H _ { 1 } { \text {   i s   t r u e } } { \big   ) } . }
+H _ { 1 }
+H _ { 0 }
+{ \displaystyle   H _ { 0 } : \mu   = 0 }
+\mu   ,
+{ \displaystyle   H _ { 1 } : \mu   \neq   0 }
+A _ { i }
+B _ { i }
+{ \displaystyle   D _ { i } = B _ { i } - A _ { i } , }
+{ \displaystyle   H _ { 0 } : \mu   _ { D } = 0 . }
+{ \displaystyle   H _ { 1 } : \mu   _ { D } > 0 . }
+{ \displaystyle   T _ { n } = { \frac   { { \bar   { D } } _ { n } - 0 } { { \hat   { \sigma   } } _ { D } / { \sqrt   { n } } } } , }
+{ \displaystyle   { \bar   { D } } _ { n } = { \frac   { 1 } { n } } \sum   _ { i = 1 } ^ { n } D _ { i } , }
+{ \hat     { \sigma   } } _ { D } / { \sqrt     { n } }
+{ \displaystyle   \alpha   = 0 . 0 5 . }
+\Phi   ^ { - 1 }
+T _ { n } > 1 . 6 4 .
+\mu   _ { D } = \theta  
+{ \displaystyle   { \begin { a l i g n e d } B ( \theta   ) & = \Pr   \left ( T _ { n } > 1 . 6 4 \mid   \mu   _ { D } = \theta   \right ) \\&=\Pr   \left ( { \frac   { { \bar   { D } } _ { n } - 0 } { { \hat   { \sigma   } } _ { D } / { \sqrt   { n } } } } > 1 . 6 4 \mid   \mu   _ { D } = \theta   \right ) \\&=\Pr   \left ( { \frac   { { \bar   { D } } _ { n } - \theta   + \theta   } { { \hat   { \sigma   } } _ { D } / { \sqrt   { n } } } } > 1 . 6 4 \mid   \mu   _ { D } = \theta   \right ) \\&=\Pr   \left ( { \frac   { { \bar   { D } } _ { n } - \theta   } { { \hat   { \sigma   } } _ { D } / { \sqrt   { n } } } } > 1 . 6 4 - { \frac   { \theta   } { { \hat   { \sigma   } } _ { D } / { \sqrt   { n } } } } \mid   \mu   _ { D } = \theta   \right ) \\&=1 - \Pr   \left ( { \frac   { { \bar   { D } } _ { n } - \theta   } { { \hat   { \sigma   } } _ { D } / { \sqrt   { n } } } } < 1 . 6 4 - { \frac   { \theta   } { { \hat   { \sigma   } } _ { D } / { \sqrt   { n } } } } \mid   \mu   _ { D } = \theta   \right ) \\\end { a l i g n e d } } }
+{ \displaystyle   { \frac   { { \bar   { D } } _ { n } - \theta   } { { \hat   { \sigma   } } _ { D } / { \sqrt   { n } } } } }
+{ \displaystyle   B ( \theta   ) \approx   1 - \Phi   \left ( 1 . 6 4 - { \frac   { \theta   } { { \hat   { \sigma   } } _ { D } / { \sqrt   { n } } } } \right ) . }
+\theta   .
+\theta  
+\theta   ,
+\theta  
+\alpha ,
+\theta   = 0
+{ \displaystyle   \theta   > 1 , }
+{ \displaystyle   B ( 1 ) \approx   1 - \Phi   \left ( 1 . 6 4 - { \frac   { \sqrt   { n } } { { \hat   { \sigma   } } _ { D } } } \right ) > 0 . 9 0 , }
+{ \displaystyle   \Phi   \left ( 1 . 6 4 - { \frac   { \sqrt   { n } } { { \hat   { \sigma   } } _ { D } } } \right ) < 0 . 1 0 . }
+{ \displaystyle   { \frac   { \sqrt   { n } } { { \hat   { \sigma   } } _ { D } } } > 1 . 6 4 - z _ { 0 . 1 0 } = 1 . 6 4 + 1 . 2 8 \approx   2 . 9 2 \qquad   { \text { o r } } \qquad   n > 8 . 5 6 { \hat   { \sigma   } } _ { D } ^ { 2 } , }
+z _ { 0 . 1 0 }
+\Phi  

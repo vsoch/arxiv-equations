@@ -1,0 +1,39 @@
+- 1
+1
+{ \displaystyle   ( x _ { i } , y _ { i } ) }
+{ \displaystyle   ( x _ { j } , y _ { j } ) }
+{ \displaystyle   x _ { i } > x _ { j } }
+{ \displaystyle   y _ { i } > y _ { j } }
+{ \displaystyle   x _ { i } < x _ { j } }
+{ \displaystyle   y _ { i } < y _ { j } }
+{ \displaystyle   ( x _ { i } , y _ { i } ) }
+{ \displaystyle   ( x _ { j } , y _ { j } ) }
+{ \displaystyle   x _ { i } > x _ { j } }
+{ \displaystyle   y _ { i } < y _ { j } }
+{ \displaystyle   x _ { i } < x _ { j } }
+{ \displaystyle   y _ { i } > y _ { j } }
+x _ { i } = x _ { j }
+{ \displaystyle   y _ { i } = y _ { j } }
+{ \displaystyle   ( x _ { 1 } , y _ { 1 } ) , ( x _ { 2 } , y _ { 2 } ) , \ldots   , ( x _ { n } , y _ { n } ) }
+\tau  
+{ \displaystyle   \tau   = { \frac   { N _ { C } - N _ { D } } { n ( n - 1 ) / 2 } } , }
+N _ { C }
+N _ { D }
+{ \displaystyle   D _ { Y X } = \tau   ( X , Y ) / \tau   ( X , X ) }
+{ \displaystyle   \tau   ( X , X ) }
+( X _ { 1 } , Y _ { 1 } )
+( X _ { 2 } , Y _ { 2 } )
+{ \displaystyle   \operatorname   { P }   _ { X Y } }
+{ \displaystyle   \operatorname   { P }   _ { X Y } }
+{ \displaystyle   { \begin { a l i g n e d } \tau   ( X , Y ) & = \operatorname   { E }   { \Bigl   ( } \operatorname   { s g n } ( X _ { 1 } - X _ { 2 } ) \operatorname   { s g n } ( Y _ { 1 } - Y _ { 2 } ) { \Bigr   ) } \\&=\operatorname   { P }   { \Bigl   ( } \operatorname   { s g n } ( X _ { 1 } - X _ { 2 } ) \operatorname   { s g n } ( Y _ { 1 } - Y _ { 2 } ) = 1 { \Bigr   ) } - \operatorname   { P }   { \Bigl   ( } \operatorname   { s g n } ( X _ { 1 } - X _ { 2 } ) \operatorname   { s g n } ( Y _ { 1 } - Y _ { 2 } ) = - 1 { \Bigr   ) } , \\\end { a l i g n e d } } }
+{ \displaystyle   D _ { Y X } = \tau   ( X , Y ) / \tau   ( X , X ) }
+{ \displaystyle   D _ { Y X } }
+{ \displaystyle   \tau   ( X , X ) = 1 }
+{ \displaystyle   D _ { Y X } = \operatorname   { P }   ( Y = 1 \mid   X = 1 ) - \operatorname   { P }   ( Y = 1 \mid   X = 0 ) . }
+{ \displaystyle   \mathrm   { A U C }   = { \frac   { D _ { Y X } + 1 } { 2 } } }
+{ \displaystyle   D _ { Y X } = { \frac   { N _ { C } - N _ { D } } { N _ { C } + N _ { D } + N _ { T } } } , }
+{ \displaystyle   N _ { T } }
+{ \displaystyle   N _ { C } = 3 \times   7 + 3 \times   6 + 5 \times   6 = 6 9 . }
+{ \displaystyle   N _ { D } = 1 \times   5 + 1 \times   2 + 7 \times   2 = 2 1 . }
+{ \displaystyle   N _ { T } = 3 \times   1 + 5 \times   7 + 2 \times   6 = 5 0 . }
+{ \displaystyle   D _ { X Y } = { \frac   { 6 9 - 2 1 } { 6 9 + 2 1 + 5 0 } } \approx   0 . 3 4 3 . }

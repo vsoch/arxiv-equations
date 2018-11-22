@@ -1,0 +1,26 @@
+a > 0
+{ \displaystyle   d > 0 , p > 0 }
+x \;\in   \;( 0 , \,\infty   )
+{ \frac     { p / a ^ { d } } { \Gamma   ( d / p ) } } x ^ { { d - 1 } } e ^ { { - ( x / a ) ^ { p } } }
+{ \frac     { \gamma   ( d / p , ( x / a ) ^ { p } ) } { \Gamma   ( d / p ) } }
+a { \frac     { \Gamma   ( ( d + 1 ) / p ) } { \Gamma   ( d / p ) } }
+{ \displaystyle   a \left ( { \frac   { d - 1 } { p } } \right ) ^ { \frac   { 1 } { p } } \mathrm   { f o r }   \;d > 1 , \mathrm   { o t h e r w i s e }   \;0 }
+a ^ { 2 } \left ( { \frac     { \Gamma   ( ( d + 2 ) / p ) } { \Gamma   ( d / p ) } } - \left ( { \frac     { \Gamma   ( ( d + 1 ) / p ) } { \Gamma   ( d / p ) } } \right ) ^ { 2 } \right )
+\ln   \frac { a   \Gamma ( d / p ) } { p }   +   \frac { d } { p }   +   \left ( \frac { 1 } { p } - \frac { d } { p } \right ) \psi \left ( \frac { d } { p } \right )
+a > 0
+d > 0
+p > 0
+f ( x ; a , d , p ) = { \frac     { ( p / a ^ { d } ) x ^ { { d - 1 } } e ^ { { - ( x / a ) ^ { p } } } } { \Gamma   ( d / p ) } } ,
+\Gamma   ( \cdot   )
+F ( x ; a , d , p ) = { \frac     { \gamma   ( d / p , ( x / a ) ^ { p } ) } { \Gamma   ( d / p ) } } ,
+\gamma   ( \cdot   )
+d = p
+p = 1
+\operatorname   { E } ( X ^ { r } ) = a ^ { r } { \frac     { \Gamma   ( { \frac     { d + r } { p } } ) } { \Gamma   ( { \frac     { d } { p } } ) } } .
+f _ { 1 }
+f _ { 2 }
+{ \begin { a l i g n e d } D _ { { K L } } ( f _ { 1 } \parallel   f _ { 2 } ) & = \int   _ { { 0 } } ^ { { \infty   } } f _ { 1 } ( x ; a _ { 1 } , d _ { 1 } , p _ { 1 } ) \,\ln   { \frac     { f _ { 1 } ( x ; a _ { 1 } , d _ { 1 } , p _ { 1 } ) } { f _ { 2 } ( x ; a _ { 2 } , d _ { 2 } , p _ { 2 } ) } } \,dx \\&=\ln   { \frac     { p _ { 1 } \,a_ { 2 } ^ { { d _ { 2 } } } \,\Gamma   \left ( d _ { 2 } / p _ { 2 } \right ) } { p _ { 2 } \,a_ { 1 } ^ { { d _ { 1 } } } \,\Gamma   \left ( d _ { 1 } / p _ { 1 } \right ) } } + \left [ { \frac     { \psi   \left ( d _ { 1 } / p _ { 1 } \right ) } { p _ { 1 } } } + \ln   a _ { 1 } \right ] ( d _ { 1 } - d _ { 2 } ) + { \frac     { \Gamma   { \bigl   ( } ( d _ { 1 } + p _ { 2 } ) / p _ { 1 } { \bigr   ) } } { \Gamma   \left ( d _ { 1 } / p _ { 1 } \right ) } } \left ( { \frac     { a _ { 1 } } { a _ { 2 } } } \right ) ^ { { p _ { 2 } } } - { \frac     { d _ { 1 } } { p _ { 1 } } } \end { a l i g n e d } }
+\psi   ( \cdot   )
+\mu   = \ln   a + { \frac     { \ln   d - \ln   p } { p } }
+\sigma   = { \frac     { 1 } { { \sqrt     { p d } } } }
+Q = { \sqrt     { { \frac     { p } { d } } } }

@@ -1,0 +1,23 @@
+N
+\{ P _ { i } \}=\{ P _ { 1 } , P _ { 2 } , . . . , P _ { N } \ }
+R ( P _ { i } ) = R _ { i }
+| R _ { i } | = n _ { i }
+\prod   n _ { i }
+P ( X , Y , Z )
+p ( u , v )
+P ( X , Y , Z )
+p _ { { x y } } ( X , Y ) , p _ { { y z } } ( Y , Z ) , p _ { { z x } } ( Z , X )
+X = \{ n _ { i } \ }
+m a x ( S )
+S
+T = m a x ( X ) \times   m a x ( X \setminus   m a x ( X ) )
+n = m a x ( X )
+m = m a x ( X \setminus   m a x ( X ) )
+\prod   n _ { i }
+X = \{ n _ { i } \ }
+P = \{ P _ { i } \ }
+N
+P _ { s } = < P _ { i } > \;;\;i < j \implies   | R ( P _ { i } ) | < | R ( P _ { j } ) |
+X ( 2 ) = \{ P _ { { N - 1 } } , P _ { { N - 2 } } \ }
+X ( 3 ) = \{ P _ { { N - 1 } } , P _ { { N - 2 } } , P _ { { N - 3 } } \ }
+X ( T ) = \{ P _ { { N - 1 } } , P _ { { N - 2 } } , . . . , P _ { { N - T } } \ }

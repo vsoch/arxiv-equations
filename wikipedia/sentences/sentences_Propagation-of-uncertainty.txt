@@ -1,0 +1,140 @@
+\{ f _ { k } ( x _ { 1 } , x _ { 2 } , \dots   , x _ { n } ) \ }
+n
+x _ { 1 } , x _ { 2 } , \dots   , x _ { n }
+{ \displaystyle   A _ { k 1 } , A _ { k 2 } , \dots   , A _ { k n } , ( k = 1 , \dots   , m ) }
+{ \displaystyle   f _ { k } = \sum   _ { i = 1 } ^ { n } A _ { k i } x _ { i } { \text {   o r   } } \mathrm   { f }   = \mathrm   { A x }   \   . }
+{ \displaystyle   \Sigma   ^ { x } \ , }
+{ \displaystyle   \Sigma   ^ { x } = { \begin { p m a t r i x } \sigma   _ { 1 } ^ { 2 } & \sigma   _ { 1 2 } & \sigma   _ { 1 3 } & \cdots   \\\sigma   _ { 1 2 } & \sigma   _ { 2 } ^ { 2 } & \sigma   _ { 2 3 } & \cdots   \\\sigma   _ { 1 3 } & \sigma   _ { 2 3 } & \sigma   _ { 3 } ^ { 2 } & \cdots   \\\vdots   & \vdots   & \vdots   & \ddots   \end { p m a t r i x } } = { \begin { p m a t r i x } { \Sigma   } _ { 1 1 } ^ { x } & { \Sigma   } _ { 1 2 } ^ { x } & { \Sigma   } _ { 1 3 } ^ { x } & \cdots   \\{ \Sigma   } _ { 1 2 } ^ { x } & { \Sigma   } _ { 2 2 } ^ { x } & { \Sigma   } _ { 2 3 } ^ { x } & \cdots   \\{ \Sigma   } _ { 1 3 } ^ { x } & { \Sigma   } _ { 2 3 } ^ { x } & { \Sigma   } _ { 3 3 } ^ { x } & \cdots   \\\vdots   & \vdots   & \vdots   & \ddots   \end { p m a t r i x } } }
+{ \displaystyle   \Sigma   ^ { f } \ , }
+{ \displaystyle   { \Sigma   } _ { i j } ^ { f } = \sum   _ { k } ^ { n } \sum   _ { \ell   } ^ { n } A _ { i k } { \Sigma   } _ { k \ell   } ^ { x } A _ { j \ell   } , }
+{ \displaystyle   \Sigma   ^ { f } = \mathrm   { A }   \Sigma   ^ { x } \mathrm   { A }   ^ { \top   } . }
+{ \displaystyle   { \Sigma   } _ { i j } ^ { f } = \sum   _ { k } ^ { n } A _ { i k } { \Sigma   } _ { k } ^ { x } A _ { j k } . }
+{ \displaystyle   { \Sigma   } _ { k } ^ { x } = \sigma   _ { x _ { k } } ^ { 2 } }
+{ \mathrm     { \Sigma   ^ { x } } }
+{ \mathrm     { \Sigma   ^ { f } } }
+{ \displaystyle   f = \sum   _ { i } ^ { n } a _ { i } x _ { i } : f = \mathrm   { a }   x \ , }
+{ \displaystyle   \sigma   _ { f } ^ { 2 } = \sum   _ { i } ^ { n } \sum   _ { j } ^ { n } a _ { i } { \Sigma   } _ { i j } ^ { x } a _ { j } = \mathrm   { a }   \Sigma   ^ { x } \mathrm   { a }   ^ { \top   } }
+\sigma   _ { i j }
+\rho   _ { { i j } } \ ,
+\sigma   _ { { i j } } = \rho   _ { { i j } } \sigma   _ { i } \sigma   _ { j } \ ,
+{ \displaystyle   \sigma   _ { f } ^ { 2 } = \sum   _ { i } ^ { n } a _ { i } ^ { 2 } \sigma   _ { i } ^ { 2 } + \sum   _ { i } ^ { n } \sum   _ { j ( j \neq   i ) } ^ { n } a _ { i } a _ { j } \rho   _ { i j } \sigma   _ { i } \sigma   _ { j } . }
+{ \displaystyle   \sigma   _ { f } ^ { 2 } = \sum   _ { i } ^ { n } a _ { i } ^ { 2 } \sigma   _ { i } ^ { 2 } . }
+{ \displaystyle   \sigma   _ { f } = { \sqrt   { n } } a \sigma   . }
+f _ { k } \approx   f _ { k } ^ { 0 } + \sum   _ { i } ^ { n } { \frac     { \partial   f _ { k } } { \partial   { x _ { i } } } } x _ { i }
+\partial   f _ { k } / \partial   x _ { i }
+{ \mathrm     { f } } \approx   { \mathrm     { f } } ^ { 0 } + { \mathrm     { J } } { \mathrm     { x } } \ ,
+{ \frac     { \partial   f _ { k } } { \partial   x _ { i } } }
+{ \frac     { \partial   f _ { k } } { \partial   x _ { j } } }
+{ \displaystyle   \mathrm   { \Sigma   }   ^ { \mathrm   { f }   } = \mathrm   { J }   \mathrm   { \Sigma   }   ^ { \mathrm   { x }   } \mathrm   { J }   ^ { \top   } . }
+\mathrm { J   =   A }
+{ \displaystyle   s _ { f } = { \sqrt   { \left ( { \frac   { \partial   f } { \partial   x } } \right ) ^ { 2 } s _ { x } ^ { 2 } + \left ( { \frac   { \partial   f } { \partial   y } } \right ) ^ { 2 } s _ { y } ^ { 2 } + \left ( { \frac   { \partial   f } { \partial   z } } \right ) ^ { 2 } s _ { z } ^ { 2 } + \cdots   } } }
+s _ { f }
+f
+s _ { x }
+x
+s _ { y }
+y
+f
+f
+{ \displaystyle   s _ { x } , s _ { y } , s _ { z } , \ldots   }
+f
+f
+{ \displaystyle   s _ { x } , s _ { y } , s _ { z } , \ldots   }
+f ( a , b )
+a
+b
+f \approx   f ^ { 0 } + { \frac     { \partial   f } { \partial   a } } a + { \frac     { \partial   f } { \partial   b } } b
+{ \displaystyle   \sigma   _ { f } ^ { 2 } \approx   \left | { \frac   { \partial   f } { \partial   a } } \right | ^ { 2 } \sigma   _ { a } ^ { 2 } + \left | { \frac   { \partial   f } { \partial   b } } \right | ^ { 2 } \sigma   _ { b } ^ { 2 } + 2 { \frac   { \partial   f } { \partial   a } } { \frac   { \partial   f } { \partial   b } } \sigma   _ { a b } }
+{ \displaystyle   \sigma   _ { f } }
+f
+{ \displaystyle   \sigma   _ { a } }
+a
+{ \displaystyle   \sigma   _ { b } }
+b
+\sigma_ { a b }
+a
+b
+f = a b \ !
+{ \frac     { \partial   f } { \partial   a } } = b , { \frac     { \partial   f } { \partial   b } } = a
+\sigma   _ { f } ^ { 2 } \approx   b ^ { 2 } \sigma   _ { a } ^ { 2 } + a ^ { 2 } \sigma   _ { b } ^ { 2 } + 2 a b \,\sigma   _ { { a b } }
+{ \displaystyle   \left ( { \frac   { \sigma   _ { f } } { f } } \right ) ^ { 2 } \approx   \left ( { \frac   { \sigma   _ { a } } { a } } \right ) ^ { 2 } + \left ( { \frac   { \sigma   _ { b } } { b } } \right ) ^ { 2 } + 2 \left ( { \frac   { \sigma   _ { a } } { a } } \right ) \left ( { \frac   { \sigma   _ { b } } { b } } \right ) \rho   _ { a b } }
+{ \displaystyle   \rho   _ { a b } }
+a
+b
+a
+b
+{ \displaystyle   \rho   _ { a b } = 0 }
+{ \displaystyle   \left ( { \frac   { \sigma   _ { f } } { f } } \right ) ^ { 2 } \approx   \left ( { \frac   { \sigma   _ { a } } { a } } \right ) ^ { 2 } + \left ( { \frac   { \sigma   _ { b } } { b } } \right ) ^ { 2 } . }
+1 / B
+B = N ( 0 , 1 )
+{ \frac     { 1 } { p - B } }
+B = N ( \mu   , \sigma   )
+p
+\mu  
+{ \frac     { { \sqrt     { 2 } } } { \sigma   } } F \left ( { \frac     { p - \mu   } { { \sqrt     { 2 } } \sigma   } } \right )
+p - \mu  
+\operatorname   { I m } ( p - \mu   )
+p - \mu  
+p - \mu  
+p _ { 1 }
+p _ { 2 }
+B
+A , B \ !
+{ \displaystyle   \sigma   _ { A } , \sigma   _ { B } , \ , }
+\sigma   _ { { A B } }
+a , b \ ,
+\sigma   _ { a } = \sigma   _ { b } = 0
+f = a A \ ,
+\sigma   _ { f } ^ { 2 } = a ^ { 2 } \sigma   _ { A } ^ { 2 }
+\sigma_f   =   | a | \sigma_A
+{ \displaystyle   f = a A + b B \ , }
+\sigma   _ { f } ^ { 2 } = a ^ { 2 } \sigma   _ { A } ^ { 2 } + b ^ { 2 } \sigma   _ { B } ^ { 2 } + 2 a b \,\sigma   _ { { A B } }
+\sigma   _ { f } = { \sqrt     { a ^ { 2 } \sigma   _ { A } ^ { 2 } + b ^ { 2 } \sigma   _ { B } ^ { 2 } + 2 a b \,\sigma   _ { { A B } } } }
+{ \displaystyle   f = a A - b B \ , }
+\sigma   _ { f } ^ { 2 } = a ^ { 2 } \sigma   _ { A } ^ { 2 } + b ^ { 2 } \sigma   _ { B } ^ { 2 } - 2 a b \,\sigma   _ { { A B } }
+\sigma   _ { f } = { \sqrt     { a ^ { 2 } \sigma   _ { A } ^ { 2 } + b ^ { 2 } \sigma   _ { B } ^ { 2 } - 2 a b \,\sigma   _ { { A B } } } }
+f = A B \ ,
+{ \displaystyle   \sigma   _ { f } ^ { 2 } \approx   f ^ { 2 } \left [ \left ( { \frac   { \sigma   _ { A } } { A } } \right ) ^ { 2 } + \left ( { \frac   { \sigma   _ { B } } { B } } \right ) ^ { 2 } + 2 { \frac   { \sigma   _ { A B } } { A B } } \right ] }
+{ \displaystyle   \sigma   _ { f } \approx   \left | f \right | { \sqrt   { \left ( { \frac   { \sigma   _ { A } } { A } } \right ) ^ { 2 } + \left ( { \frac   { \sigma   _ { B } } { B } } \right ) ^ { 2 } + 2 { \frac   { \sigma   _ { A B } } { A B } } } } }
+f = { \frac     { A } { B } } \ ,
+\sigma   _ { f } ^ { 2 } \approx   f ^ { 2 } \left [ \left ( { \frac     { \sigma   _ { A } } { A } } \right ) ^ { 2 } + \left ( { \frac     { \sigma   _ { B } } { B } } \right ) ^ { 2 } - 2 { \frac     { \sigma   _ { { A B } } } { A B } } \right ]
+\sigma   _ { f } \approx   \left | f \right | { \sqrt     { \left ( { \frac     { \sigma   _ { A } } { A } } \right ) ^ { 2 } + \left ( { \frac     { \sigma   _ { B } } { B } } \right ) ^ { 2 } - 2 { \frac     { \sigma   _ { { A B } } } { A B } } } }
+f = a A ^ { { b } } \ ,
+\sigma   _ { f } ^ { 2 } \approx   \left ( { a } { b } { A } ^ { { b - 1 } } { \sigma   _ { A } } \right ) ^ { 2 } = \left ( { \frac     { { f } { b } { \sigma   _ { A } } } { A } } \right ) ^ { 2 }
+\sigma   _ { f } \approx   \left | { a } { b } { A } ^ { { b - 1 } } { \sigma   _ { A } } \right | = \left | { \frac     { { f } { b } { \sigma   _ { A } } } { A } } \right |
+f = a \ln ( b A ) \ ,
+\sigma   _ { f } ^ { 2 } \approx   \left ( a { \frac     { \sigma   _ { A } } { A } } \right ) ^ { 2 }
+\sigma   _ { f } \approx   \left | a { \frac     { \sigma   _ { A } } { A } } \right |
+{ \displaystyle   f = a \log   _ { 1 0 } ( b A ) \ , }
+\sigma   _ { f } ^ { 2 } \approx   \left ( a { \frac     { \sigma   _ { A } } { A \ln ( 1 0 ) } } \right ) ^ { 2 }
+\sigma   _ { f } \approx   \left | a { \frac     { \sigma   _ { A } } { A \ln ( 1 0 ) } } \right |
+f = a e ^ { { b A } } \ ,
+\sigma   _ { f } ^ { 2 } \approx   f ^ { 2 } \left ( b \sigma   _ { A } \right ) ^ { 2 }
+\sigma   _ { f } \approx   \left | f \left ( b \sigma   _ { A } \right ) \right |
+f = a ^ { { b A } } \ ,
+{ \displaystyle   \sigma   _ { f } ^ { 2 } \approx   f ^ { 2 } ( b \ln ( a ) \sigma   _ { A } ) ^ { 2 } }
+{ \displaystyle   \sigma   _ { f } \approx   \left | f ( b \ln ( a ) \sigma   _ { A } ) \right | }
+{ \displaystyle   f = a \sin ( b A ) \ , }
+{ \displaystyle   \sigma   _ { f } ^ { 2 } \approx   \left [ a b \cos ( b A ) \sigma   _ { A } \right ] ^ { 2 } }
+{ \displaystyle   \sigma   _ { f } \approx   \left | a b \cos ( b A ) \sigma   _ { A } \right | }
+{ \displaystyle   f = a \cos   \left ( b A \right ) \ , }
+{ \displaystyle   \sigma   _ { f } ^ { 2 } \approx   \left [ a b \sin ( b A ) \sigma   _ { A } \right ] ^ { 2 } }
+{ \displaystyle   \sigma   _ { f } \approx   \left | a b \sin ( b A ) \sigma   _ { A } \right | }
+f = A ^ { B } \ ,
+\sigma   _ { f } ^ { 2 } \approx   f ^ { 2 } \left [ \left ( { \frac     { B } { A } } \sigma   _ { A } \right ) ^ { 2 } + \left ( \ln ( A ) \sigma   _ { B } \right ) ^ { 2 } + 2 { \frac     { B \ln ( A ) } { A } } \sigma   _ { { A B } } \right ]
+\sigma   _ { f } \approx   \left | f \right | { \sqrt     { \left ( { \frac     { B } { A } } \sigma   _ { A } \right ) ^ { 2 } + \left ( \ln ( A ) \sigma   _ { B } \right ) ^ { 2 } + 2 { \frac     { B \ln ( A ) } { A } } \sigma   _ { { A B } } } }
+{ \displaystyle   f = { \sqrt   { a A ^ { 2 } \pm   b B ^ { 2 } } } \ , }
+{ \displaystyle   \sigma   _ { f } ^ { 2 } \approx   \left ( { \frac   { A } { f } } \right ) ^ { 2 } a ^ { 2 } \sigma   _ { A } ^ { 2 } + \left ( { \frac   { B } { f } } \right ) ^ { 2 } b ^ { 2 } \sigma   _ { B } ^ { 2 } \pm   2 a b { \frac   { A B } { f ^ { 2 } } } \,\sigma   _ { A B } }
+{ \displaystyle   \sigma   _ { f } \approx   { \sqrt   { \left ( { \frac   { A } { f } } \right ) ^ { 2 } a ^ { 2 } \sigma   _ { A } ^ { 2 } + \left ( { \frac   { B } { f } } \right ) ^ { 2 } b ^ { 2 } \sigma   _ { B } ^ { 2 } \pm   2 a b { \frac   { A B } { f ^ { 2 } } } \,\sigma   _ { A B } } } }
+\rho   _ { { A B } } = 0
+\sigma   _ { { A B } } = \rho   _ { { A B } } \sigma   _ { A } \sigma   _ { B } \ ,
+{ \displaystyle   f = A B C ; \qquad   \left ( { \frac   { \sigma   _ { f } } { f } } \right ) ^ { 2 } \approx   \left ( { \frac   { \sigma   _ { A } } { A } } \right ) ^ { 2 } + \left ( { \frac   { \sigma   _ { B } } { B } } \right ) ^ { 2 } + \left ( { \frac   { \sigma   _ { C } } { C } } \right ) ^ { 2 } . }
+f = A B
+V ( X Y ) = E ( X ) ^ { 2 } V ( Y ) + E ( Y ) ^ { 2 } V ( X ) + E ( ( X - E ( X ) ) ^ { 2 } ( Y - E ( Y ) ) ^ { 2 } )
+\sigma   _ { f } ^ { 2 } = A ^ { 2 } \sigma   _ { B } ^ { 2 } + B ^ { 2 } \sigma   _ { A } ^ { 2 } + \sigma   _ { A } ^ { 2 } \sigma   _ { B } ^ { 2 }
+f ( x ) = \arctan ( x ) ,
+\Delta_x
+{ \frac     { d f } { d x } } = { \frac     { 1 } { 1 + x ^ { 2 } } } .
+{ \displaystyle   \Delta   _ { f } \approx   { \frac   { \Delta   _ { x } } { 1 + x ^ { 2 } } } , }
+{ \displaystyle   \Delta   _ { f } }
+\sigma_R   \approx   \sqrt {   \sigma_V ^ 2   \left ( \frac { 1 } { I } \right ) ^ 2   +   \sigma_I ^ 2   \left ( \frac { - V } { I ^ 2 } \right ) ^ 2   }   =   R \sqrt {   \left ( \frac { \sigma_V } { V } \right ) ^ 2   +   \left ( \frac { \sigma_I } { I } \right ) ^ 2   } .

@@ -1,0 +1,30 @@
+Z _ 0   =   R   \cos ( \Theta )   = \sqrt { - 2   \ln   U _ 1 }   \cos ( 2   \pi   U _ 2 ) \ ,
+Z _ 1   =   R   \sin ( \Theta )   =   \sqrt { - 2   \ln   U _ 1 }   \sin ( 2   \pi   U _ 2 ) . \ ,
+R ^ 2   =   - 2 \cdot \ln   U _ 1 \ ,
+\Theta   =   2 \pi   U _ 2 .   \ ,
+\scriptstyle   R   =   \sqrt { s }
+\scriptstyle   \sqrt { s }
+\scriptstyle \pi
+\scriptstyle   2   \pi
+\scriptstyle   \theta / ( 2   \pi )
+\scriptstyle   \cos   \theta   =   \cos   2   \pi   U _ 2
+\scriptstyle   \sin   \theta   =   \sin   2   \pi   U _ 2
+\scriptstyle \cos   \theta   =   u / R   =   u / \sqrt { s }
+\scriptstyle \sin   \theta   =   v / R   =   v / \sqrt { s }
+z _ 0   =   \sqrt { - 2   \ln   U _ 1 }   \cos ( 2   \pi   U _ 2 )   =   \sqrt { - 2   \ln   s }   \left ( \frac { u } { \sqrt { s } } \right )   =   u   \cdot   \sqrt { \frac { - 2   \ln   s } { s } }
+z _ 1   =   \sqrt { - 2   \ln   U _ 1 }   \sin ( 2   \pi   U _ 2 )   =   \sqrt { - 2   \ln   s } \left (   \frac { v } { \sqrt { s } } \right )   =   v   \cdot   \sqrt { \frac { - 2   \ln   s } { s } } .
+{ \displaystyle   \exp ( i z ) = e ^ { i z } = \cos   z + i \sin   z , \ , }
+{ \displaystyle   r = { \sqrt   { - 2 \ln ( u _ { 1 } ) } } }
+{ \displaystyle   z = 2 \pi   u _ { 2 } . }
+{ \displaystyle   r e ^ { i z } = { \sqrt   { - 2 \ln ( u _ { 1 } ) } } e ^ { i 2 \pi   u _ { 2 } } = { \sqrt   { - 2 \ln ( u _ { 1 } ) } } \left [ \cos ( 2 \pi   u _ { 2 } ) + i \sin ( 2 \pi   u _ { 2 } ) \right ] . }
+2 ^ { - 3 2 }
+U _ { 1 }
+U _ { 2 }
+\sqrt { - 2   \ln ( 2 ^ { - 3 2 } ) }   \cos ( 2   \pi   2 ^ { - 3 2 } ) \approx   6 . 6 6
+2 . 7 4   \times   1 0 ^ { - 1 1 }  
+\mu  
+\sigma   ^ { 2 }
+Z
+X = Z \sigma   + \mu  
+\mu  
+\sigma  

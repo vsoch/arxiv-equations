@@ -1,0 +1,3 @@
+{ \displaystyle   f ( x | \mu   , b ) = { \frac   { 1 } { 2 b x } } \exp   \left ( - { \frac   { | \ln   x - \mu   | } { b } } \right ) }
+{ \displaystyle   = { \frac   { 1 } { 2 b x } } \left \{ { \begin { m a t r i x } \exp   \left ( - { \frac   { \mu   - \ln   x } { b } } \right ) & { \mbox { i f   } } \ln   x < \mu   \\[8pt ] \exp   \left ( - { \frac   { \ln   x - \mu   } { b } } \right ) & { \mbox { i f   } } \ln   x \geq   \mu   \end { m a t r i x } } \right . }
+{ \displaystyle   F ( y ) = 0 . 5 \,[1 + \operatorname   { s g n } ( \ln ( y ) - \mu   ) \,( 1 - \exp ( - | \ln ( y ) - \mu   | / b ) ) ] . }

@@ -1,0 +1,12 @@
+x ( t ) = \begin { c a s e s }   \cos (     \pi   t ) ;     &   t     < 1 0   \\ \cos ( 3   \pi   t ) ;     &   1 0   \le   t   <   2 0   \\ \cos ( 2   \pi   t ) ;     &   t     >   2 0   \end { c a s e s }
+x _ 1   ( t ) = \begin { c a s e s }   \cos (     \pi   t ) ;     &   t     < 1 0   \\ \cos ( 3   \pi   t ) ;     &   1 0   \le   t   <   2 0   \\ \cos ( 2   \pi   t ) ;     &   t     >   2 0   \end { c a s e s }
+x _ 2   ( t ) = \begin { c a s e s }   \cos (     \pi   t ) ;     &   t     < 1 0   \\ \cos ( 2   \pi   t ) ;     &   1 0   \le   t   <   2 0   \\ \cos ( 3   \pi   t ) ;     &   t     >   2 0   \end { c a s e s }
+\frac { 1 } { 2   \pi }     \frac { d } { d t }   \phi   ( t ) ,  
+\phi   ( t )
+\begin { b m a t r i x }       x     \\   y   \end { b m a t r i x } ,
+\begin { b m a t r i x }       x     \\   y   \end { b m a t r i x }
+{ \begin { b m a t r i x } a & b \\c & d \end { b m a t r i x } } = { \begin { b m a t r i x } 1 & \lambda   z \\0 & 1 \end { b m a t r i x } } ,
+\lambda  
+{ \begin { b m a t r i x } a & b \\c & d \end { b m a t r i x } } = { \begin { b m a t r i x } 1 & 0 \\-{ \frac     { 1 } { \lambda   f } } & 1 \end { b m a t r i x } }
+{ \begin { b m a t r i x } a & b \\c & d \end { b m a t r i x } } = { \begin { b m a t r i x } 1 & 0 \\{ \frac     { 1 } { \lambda   R } } & 1 \end { b m a t r i x } }
+\begin { b m a t r i x }       a   &   b   \\   c   &   d   \end { b m a t r i x }   \begin { b m a t r i x }       x   \\   y   \end { b m a t r i x } .  

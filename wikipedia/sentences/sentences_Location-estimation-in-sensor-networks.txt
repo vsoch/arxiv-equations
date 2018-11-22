@@ -1,0 +1,75 @@
+\theta  
+N
+x _ n   =   \theta   +   w _ n
+w _ { n }
+n
+x _ { n }
+m _ n ( x _ n )
+\hat { \theta } = f ( m _ 1 ( x _ 1 ) , \cdot , m _ N ( x _ N ) )
+m _ n , \, 1 \leq   n \leq   N
+f ( m _ 1 ( x _ 1 ) , \cdot , m _ N ( x _ N ) )
+\mathbb { E } \|\theta - \hat { \theta } \|^ 2
+x _ { n }
+m _ n ( x _ n ) = x _ n
+\hat { \theta }   =   \frac { 1 } { N } \sum_ { n = 1 } ^ N   x _ n
+\mathbb { E } \|\theta - \hat { \theta } \|^ 2   =   \text { v a r } ( \hat { \theta } )   =   \frac { \sigma ^ 2 } { N }
+w _ n \sim \mathcal { N } ( 0 , \sigma ^ 2 )
+m _ n ( x _ n )
+w _ n \sim \mathcal { N } ( 0 , \sigma ^ 2 )
+  m _ n ( x _ n ) = I ( x _ n - \tau ) =   \begin { c a s e s }     1   &   x _ n   >   \tau     \\  0   &   x _ n \leq   \tau   \end { c a s e s }  
+  \hat { \theta } = \tau - F ^ { - 1 } \left ( \frac { 1 } { N } \sum \limits_ { n = 1 } ^ { N } m _ n ( x _ n ) \right ) , \quad   F ( x ) = \frac { 1 } { \sqrt { 2 \pi } \sigma }   \int \limits_ { x } ^ { \infty }   e ^ { - w ^ 2 / 2 \sigma ^ 2 }   \, dw  
+\tau  
+\theta  
+m _ n ( x _ n )
+( q = F ( \tau - \theta ) )
+\hat { q }
+q
+\theta  
+\tau = \theta
+\frac { \pi \sigma ^ 2 } { 4 }
+\pi   / 2
+\tau  
+\theta  
+| \tau - \theta | \sim \sigma
+\tau  
+\theta  
+\theta  
+w _ { n }
+[ - U , U ]
+\frac { \sigma ^ 2 } { N }
+U
+\tau  
+\sigma  
+\tau_1 , \tau_2
+N / 2
+m _ A ( x ) = I ( x - \tau_1 )
+N / 2
+m _ B ( x ) = I ( x - \tau_2 )
+  \hat { q } _ 1 = \frac { 2 } { N } \sum \limits_ { n = 1 } ^ { N / 2 } m _ A ( x _ n ) ,   \quad   \hat { q } _ 2 = \frac { 2 } { N } \sum \limits_ { n = 1 + N / 2 } ^ { N } m _ B ( x _ n )  
+  \hat { \theta } = \frac { F ^ { - 1 } ( \hat { q } _ 2 ) \tau_1 - F ^ { - 1 } ( \hat { q } _ 1 ) \tau_2 } { F ^ { - 1 } ( \hat { q } _ 2 ) - F ^ { - 1 } ( \hat { q } _ 1 ) } , \quad   F ( x ) = \frac { 1 } { \sqrt { 2 \pi } } \int \limits_ { x } ^ { \infty } e ^ { - v ^ 2 / 2 } d w  
+\tau_1 , \tau_2
+  x _ n = \theta + w _ n , \quad   n = 1 , \dots , N  
+  \theta \in [ - U , U ]  
+  w _ n \in \mathcal { P } ,   \text {   t h a t   i s   } :   w _ n   \text {   i s   b o u n d e d   t o   }   [ - U , U ] ,   \mathbb { E } ( w _ n ) = 0  
+  m _ n ( x _ n ) =   \begin { c a s e s }     1   &   x \in   S _ n     \\   0   &   x   \notin   S _ n   \end { c a s e s }  
+S _ { n }
+[ - 2 U , 2 U ]
+\hat { \theta } = \sum \limits_ { n = 1 } ^ { N } \alpha_n   m _ n ( x _ n )
+S _ { n }
+\alpha_n
+N / 2
+\theta  
+[ 0 , 2 U ]
+N / 4
+[ - U , 0 ] \cup [ U , 2 U ]
+\alpha_n
+\delta  
+| \mathbb { E } ( \theta - \hat { \theta } ) | < \delta
+\theta \in [ - U , U ]
+w _ n \in \mathcal { P }
+N \geq \lceil \log \frac { 8 U } { \delta } \rceil
+\delta  
+N \geq \lceil \log \frac { 2 U } { \delta } \rceil
+\mathbb { E } \|\theta - \hat { \theta } \|\leq \epsilon ^ 2
+\epsilon  
+m _ n ( \cdot )

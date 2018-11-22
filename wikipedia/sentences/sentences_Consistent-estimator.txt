@@ -1,0 +1,16 @@
+{ \underset     { n \to   \infty   } { \operatorname   { p l i m } } } \;T_ { n } = \theta   .
+{ \underset     { n \to   \infty   } { \operatorname   { p l i m } } } \;T_ { n } ( X ^ { { \theta   } } ) = g ( \theta   ) , \ \ { \text { f o r   a l l } } \ \theta   \in   \Theta   .
+\scriptstyle   ( T _ { n } - \mu   ) / ( \sigma   / { \sqrt     { n } } )
+\Pr   \!\left [ \,|T_ { n } - \mu   | \geq   \varepsilon   \,\right ] = \Pr   \!\left [ { \frac     { { \sqrt     { n } } \,{ \big   | } T _ { n } - \mu   { \big   | } } { \sigma   } } \geq   { \sqrt     { n } } \varepsilon   / \sigma   \right ] = 2 \left ( 1 - \Phi   \left ( { \frac     { { \sqrt     { n } } \,\varepsilon   } { \sigma   } } \right ) \right ) \to   0
+\Phi  
+{ \displaystyle   \Pr   \!{ \big   [ } h ( T _ { n } - \theta   ) \geq   \varepsilon   { \big   ] } \leq   { \frac   { \operatorname   { E }   { \big   [ } h ( T _ { n } - \theta   ) { \big   ] } } { h ( \varepsilon   ) } } , }
+T _ { n } \ { \xrightarrow     { p } } \ \theta   \ \quad   \Rightarrow   \quad   g ( T _ { n } ) \ { \xrightarrow     { p } } \ g ( \theta   )
+{ \displaystyle   { \begin { a l i g n e d } & T _ { n } + S _ { n } \ { \xrightarrow   { d } } \ \alpha   + \beta   , \\&T_ { n } S _ { n } \ { \xrightarrow   { d } } \ \alpha   \beta   , \\&T_ { n } / S _ { n } \ { \xrightarrow   { d } } \ \alpha   / \beta   , { \text {   p r o v i d e d   t h a t   } } \beta   \neq   0 \end { a l i g n e d } } }
+{ \frac     { 1 } { n } } \sum   _ { { i = 1 } } ^ { n } g ( X _ { i } ) \ { \xrightarrow     { p } } \ \operatorname   { E } [ \,g ( X ) \ , ]
+{ 1   \over   n } \sum   x _ { i } + { 1   \over   n }
+n \rightarrow   \infty  
+T _ { n }
+\theta  
+{ \displaystyle   \Pr ( T _ { n } ) = { \begin { c a s e s } 1 - 1 / n , & { \mbox { i f   } } T _ { n } = \theta   \\1 / n , & { \mbox { i f   } } T _ { n } = n \delta   + \theta   \end { c a s e s } } }
+{ \displaystyle   T _ { n } { \xrightarrow   { p } } \theta   }
+{ \displaystyle   \operatorname   { E }   [ T _ { n } ] = \theta   + \delta   }

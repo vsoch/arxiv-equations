@@ -1,0 +1,57 @@
+{ \displaystyle   N _ { E } , }
+{ \displaystyle   D _ { E } }
+H _ E
+{ \displaystyle   N _ { N } , }
+D _ N
+{ \displaystyle   H _ { N } }
+{ \displaystyle   N _ { E } = D _ { E } + H _ { E } }
+{ \displaystyle   N _ { N } }
+D _ { { E } }
+H _ { { E } }
+{ \displaystyle   D _ { N } }
+{ \displaystyle   H _ { N } }
+D _ { { E } } / N _ { { E } }
+{ \displaystyle   N _ { E } = D _ { E } + H _ { E } }
+{ \displaystyle   D _ { N } / N _ { N } . }
+{ \displaystyle   R R = { \frac   { D _ { E } / N _ { E } } { D _ { N } / N _ { N } } } \ , , }
+{ \displaystyle   R R = { \frac   { D _ { E } N _ { N } } { D _ { N } N _ { E } } } = { \frac   { D _ { E } / D _ { N } } { N _ { E } / N _ { N } } } . }
+{ \displaystyle   D _ { E } / H _ { E } \ , , }
+{ \displaystyle   D _ { N } / H _ { N } \ , . }
+{ \displaystyle   O R = { \frac   { D _ { E } / H _ { E } } { D _ { N } / H _ { N } } } \ , , }
+{ \displaystyle   O R = { \frac   { D _ { E } H _ { N } } { D _ { N } H _ { E } } } = { \frac   { D _ { E } / D _ { N } } { H _ { E } / H _ { N } } } . }
+{ \displaystyle   D _ { E } \ll   H _ { E } , }
+{ \displaystyle   D _ { E } + H _ { E } \approx   H _ { E } ; }
+{ \displaystyle   D _ { E } / ( D _ { E } + H _ { E } ) \approx   D _ { E } / H _ { E } , }
+{ \displaystyle   N _ { E } \approx   H _ { E } }
+{ \displaystyle   N _ { N } \approx   H _ { N } , }
+{ \displaystyle   N _ { E } / N _ { N } \approx   H _ { E } / H _ { N } , }
+{ \displaystyle   D _ { E } / D _ { N } , }
+{ \displaystyle   H _ { E } / H _ { N } , }
+N _ { { E } } \approx   H _ { { E } }
+{ \displaystyle   N _ { N } \approx   H _ { N } , }
+{ \displaystyle   N _ { E } / N _ { N } \approx   H _ { E } / H _ { N } . }
+{ \displaystyle   H _ { E } / H _ { N } , }
+{ \displaystyle   N _ { E } / N _ { N } , }
+{ \displaystyle   D _ { E } / D _ { N } , }
+{ p _ { 1 } / ( 1 - p _ { 1 } )   \over   p _ { 2 } / ( 1 - p _ { 2 } ) } = { p _ { 1 } / q _ { 1 }   \over   p _ { 2 } / q _ { 2 } } = { \frac     { \;p_ { 1 } q _ { 2 } \;}{ \;p_ { 2 } q _ { 1 } \ ; } } ,
+  \begin { a r r a y } { c | c c }   &   Y   =   1   &   Y   =   0   \\ \hline   X   =   1   &   p _ { 1 1 }   &   p _ { 1 0 }   \\ X   =   0   &   p _ { 0 1 }   &   p _ { 0 0 }   \end { a r r a y }  
+  \begin { a r r a y } { c | c c }   &   Y   =   1   &   Y   =   0   \\ \hline   X   =   1   &   \frac { p _ { 1 1 } } { p _ { 1 1 } + p _ { 1 0 } }   &   \frac { p _ { 1 0 } } { p _ { 1 1 } + p _ { 1 0 } }   \\ X   =   0   &   \frac { p _ { 0 1 } } { p _ { 0 1 } + p _ { 0 0 } }   &   \frac { p _ { 0 0 } } { p _ { 0 1 } + p _ { 0 0 } }     \end { a r r a y }  
+{ \dfrac { p _ { 1 1 } / ( p _ { 1 1 } + p _ { 1 0 } ) } { p _ { 1 0 } / ( p _ { 1 1 } + p _ { 1 0 } ) } \bigg / { \dfrac { p _ { 0 1 } / ( p _ { 0 1 } + p _ { 0 0 } ) } { p _ { 0 0 } / ( p _ { 0 1 } + p _ { 0 0 } ) } } }   =   \dfrac { p _ { 1 1 } p _ { 0 0 } } { p _ { 1 0 } p _ { 0 1 } }
+\begin { a r r a y } { c | c c }   &   Y   =   1   &   Y   =   0   \\ \hline   X   =   1   &   \frac { p _ { 1 1 } } { p _ { 1 1 } + p _ { 0 1 } }   &   \frac { p _ { 1 0 } } { p _ { 1 0 } + p _ { 0 0 } }   \\ X   =   0   &   \frac { p _ { 0 1 } } { p _ { 1 1 } + p _ { 0 1 } }   &   \frac { p _ { 0 0 } } { p _ { 1 0 } + p _ { 0 0 } }   \end { a r r a y }  
+{ { \dfrac     { p _ { { 1 1 } } / ( p _ { { 1 1 } } + p _ { { 0 1 } } ) } { p _ { { 0 1 } } / ( p _ { { 1 1 } } + p _ { { 0 1 } } ) } } { \bigg   / } { \dfrac     { p _ { { 1 0 } } / ( p _ { { 1 0 } } + p _ { { 0 0 } } ) } { p _ { { 0 0 } } / ( p _ { { 1 0 } } + p _ { { 0 0 } } ) } } } = { \dfrac     { p _ { { 1 1 } } p _ { { 0 0 } } } { p _ { { 1 0 } } p _ { { 0 1 } } } } .
+\begin { a r r a y } { c | c c }   &   Y   =   1   &   Y   =   0   \\ \hline   X   =   1   &   p _ x p _ y   &   p _ x ( 1 - p _ y )   \\ X   =   0   &   ( 1 - p _ x ) p _ y   &   ( 1 - p _ x ) ( 1 - p _ y )   \end { a r r a y }  
+p _ { { 1 1 } } = { \frac     { 1 + ( p _ { { 1 \cdot   } } + p _ { { \cdot   1 } } ) ( R - 1 ) - S } { 2 ( R - 1 ) } }
+S = { \sqrt     { ( 1 + ( p _ { { 1 \cdot   } } + p _ { { \cdot   1 } } ) ( R - 1 ) ) ^ { 2 } + 4 R ( 1 - R ) p _ { { 1 \cdot   } } p _ { { \cdot   1 } } } } .
+{ \displaystyle   { 0 . 9 / 0 . 1   \over   0 . 2 / 0 . 8 } = { \frac   { \;0 . 9 \times   0 . 8 \;}{ \;0 . 1 \times   0 . 2 \;}}={ 0 . 7 2   \over   0 . 0 2 } = 3 6 }
+{ \log   \left ( { \frac     { p _ { { 1 1 } } p _ { { 0 0 } } } { p _ { { 0 1 } } p _ { { 1 0 } } } } \right ) = \log ( p _ { { 1 1 } } ) + \log ( p _ { { 0 0 } } { \big   ) } - \log ( p _ { { 1 0 } } ) - \log ( p _ { { 0 1 } } ) } . \ ,
+\begin { a r r a y } { c | c c }   &   Y   =   1   &   Y   =   0   \\ \hline   X   =   1   &   n _ { 1 1 }   &   n _ { 1 0 }   \\ X   =   0   &   n _ { 0 1 }   &   n _ { 0 0 }   \end { a r r a y }  
+\begin { a r r a y } { c | c c }   &   Y   =   1   &   Y   =   0   \\ \hline   X   =   1   &   \hat { p } _ { 1 1 }   &   \hat { p } _ { 1 0 }   \\ X   =   0   &   \hat { p } _ { 0 1 }   &   \hat { p } _ { 0 0 }   \end { a r r a y }  
+{ L = \log   \left ( { \dfrac     { { \hat     { p } } _ { { 1 1 } } { \hat     { p } } _ { { 0 0 } } } { { \hat     { p } } _ { { 1 0 } } { \hat     { p } } _ { { 0 1 } } } } \right ) = \log   \left ( { \dfrac     { n _ { { 1 1 } } n _ { { 0 0 } } } { n _ { { 1 0 } } n _ { { 0 1 } } } } \right ) }
+{ \displaystyle   L \ \sim   \ { \mathcal   { N } } ( \log ( O R ) , \,\sigma   ^ { 2 } ) . \ , }
+{ { { \rm   { S E } } } = { \sqrt     { { \dfrac     { 1 } { n _ { { 1 1 } } } } + { \dfrac     { 1 } { n _ { { 1 0 } } } } + { \dfrac     { 1 } { n _ { { 0 1 } } } } + { \dfrac     { 1 } { n _ { { 0 0 } } } } } } }
+{ \hat     { \beta   } } _ { x }
+\exp ( \beta   _ { x } ) = { \frac     { P ( Y = 1 \mid   X = 1 , Z _ { 1 } , \ldots   , Z _ { p } ) / P ( Y = 0 \mid   X = 1 , Z _ { 1 } , \ldots   , Z _ { p } ) } { P ( Y = 1 \mid   X = 0 , Z _ { 1 } , \ldots   , Z _ { p } ) / P ( Y = 0 \mid   X = 0 , Z _ { 1 } , \ldots   , Z _ { p } ) } } ,
+\exp ( { \hat     { \beta   } } _ { x } )
+\exp ( { \hat     { \beta   } } _ { x } )
+\begin { a r r a y } { c | c c }   &   Y   =   1   &   Y   =   0   \\ \hline   X   =   1   &   \frac { f p _ { 1 1 } } { p _ { 1 1 } + p _ { 1 0 } }   &   \frac { f p _ { 1 0 } } { p _ { 1 1 } + p _ { 1 0 } }   \\ X   =   0   &   \frac { ( 1 - f ) p _ { 0 1 } } { p _ { 0 1 } + p _ { 0 0 } }   &   \frac { ( 1 - f ) p _ { 0 0 } } { p _ { 0 1 } + p _ { 0 0 } }   \end { a r r a y }  
+R R \approx   { \frac     { O R } { 1 - R _ { C } + ( R _ { C } \times   O R ) } }

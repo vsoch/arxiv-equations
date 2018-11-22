@@ -1,0 +1,27 @@
+W
+W = { \frac     { ( N - k ) } { ( k - 1 ) } } { \frac     { \sum   _ { { i = 1 } } ^ { k } N _ { i } ( Z _ { { i \cdot   } } - Z _ { { \cdot   \cdot   } } ) ^ { 2 } } { \sum   _ { { i = 1 } } ^ { k } \sum   _ { { j = 1 } } ^ { { N _ { i } } } ( Z _ { { i j } } - Z _ { { i \cdot   } } ) ^ { 2 } } } ,
+k
+N _ { i }
+i
+N
+Y _ { { i j } }
+j
+i
+{ \displaystyle   Z _ { i j } = { \begin { c a s e s } | Y _ { i j } - { \bar   { Y } } _ { i \cdot   } | , & { \bar   { Y } } _ { i \cdot   } { \text {   i s   a   m e a n   o f   t h e   } } i { \text { - t h   g r o u p } } , \\|Y_ { i j } - { \tilde   { Y } } _ { i \cdot   } | , & { \tilde   { Y } } _ { i \cdot   } { \text {   i s   a   m e d i a n   o f   t h e   } } i { \text { - t h   g r o u p } } . \end { c a s e s } } }
+Z _ { { i \cdot   } } = { \frac     { 1 } { N _ { i } } } \sum   _ { { j = 1 } } ^ { { N _ { i } } } Z _ { { i j } }
+Z _ { i j }
+i
+{ \displaystyle   Z _ { \cdot   \cdot   } = { \frac   { 1 } { N } } \sum   _ { i = 1 } ^ { k } \sum   _ { j = 1 } ^ { N _ { i } } Z _ { i j } }
+Z _ { i j }
+W
+k - 1
+N - k
+w
+W
+F ( \alpha   , k - 1 , N - k )
+F
+k - 1
+N - k
+\alpha  
+{ \bar     { Y } }
+{ \tilde     { Y } }

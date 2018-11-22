@@ -1,0 +1,8 @@
+\rho   _ { X , Y } = \mathrm   { c o r r }   ( X , Y ) = { \mathrm   { c o v }   ( X , Y )   \over   \sigma   _ { X } \sigma   _ { Y } } = { E [ ( X - \mu   _ { X } ) ( Y - \mu   _ { Y } ) ]   \over   \sigma   _ { X } \sigma   _ { Y } } ,
+{ \displaystyle   r _ { x y } = { \frac   { \sum   \limits   _ { i = 1 } ^ { n } ( x _ { i } - { \bar   { x } } ) ( y _ { i } - { \bar   { y } } ) } { ( n - 1 ) s _ { x } s _ { y } } } = { \frac   { \sum   \limits   _ { i = 1 } ^ { n } ( x _ { i } - { \bar   { x } } ) ( y _ { i } - { \bar   { y } } ) } { \sqrt   { \sum   \limits   _ { i = 1 } ^ { n } ( x _ { i } - { \bar   { x } } ) ^ { 2 } \sum   \limits   _ { i = 1 } ^ { n } ( y _ { i } - { \bar   { y } } ) ^ { 2 } } } } , }
+{ \displaystyle   { \begin { a l i g n e d } r _ { x y } & = { \frac   { \sum   x _ { i } y _ { i } - n { \bar   { x } } { \bar   { y } } } { n s ' _ { x } s ' _ { y } } } \\&={ \frac   { n \sum   x _ { i } y _ { i } - \sum   x _ { i } \sum   y _ { i } } { { \sqrt   { n \sum   x _ { i } ^ { 2 } - ( \sum   x _ { i } ) ^ { 2 } } } ~ { \sqrt   { n \sum   y _ { i } ^ { 2 } - ( \sum   y _ { i } ) ^ { 2 } } } } } . \end { a l i g n e d } } }
+X _ { i } / \sigma   ( X _ { i } )
+i = 1 , \dots   , n
+E ( Y \mid   X ) = E ( Y ) + r \sigma   _ { y } { \frac   { X - E ( X ) } { \sigma   _ { x } } } ,
+E ( X )
+{ \displaystyle   E ( Y ) }

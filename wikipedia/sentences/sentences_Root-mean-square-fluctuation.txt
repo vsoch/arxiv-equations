@@ -1,0 +1,40 @@
+{ \displaystyle   { \rm   { M S D } } \equiv   \langle   ( x - x _ { 0 } ) ^ { 2 } \rangle   = { \frac   { 1 } { N } } \sum   _ { n = 1 } ^ { N } ( x _ { n } ( t ) - x _ { n } ( 0 ) ) ^ { 2 } }
+{ \displaystyle   x _ { n } ( 0 ) = x _ { 0 } }
+{ \displaystyle   x _ { n } ( t ) }
+{ \displaystyle   { \frac   { \partial   p ( x , t \mid   x _ { 0 } ) } { \partial   t } } = D { \frac   { \partial   ^ { 2 } p ( x , t \mid   x _ { 0 } ) } { \partial   x ^ { 2 } } } , }
+p ( x _ { { 0 } } , t = { 0 } \mid   x _ { { 0 } } ) = \delta   ( x - x _ { { 0 } } )
+x ( t )
+x _ { 0 }
+D
+m ^ { 2 } s ^ { { - 1 } }
+x ( t )
+P ( x , t ) = { \frac     { 1 } { { \sqrt     { 4 \pi   D t } } } } \exp   \left ( - { \frac     { ( x - x _ { 0 } ) ^ { 2 } } { 4 D t } } \right ) .
+x ( t )
+{ \displaystyle   { \rm   { F W H M } } \sim   { \sqrt   { t } } . }
+L
+t
+{ \displaystyle   \langle   L ( t ) \rangle   \equiv   \int   _ { - \infty   } ^ { \infty   } L ( x , t ) P ( x , t ) \,dx , }
+{ \displaystyle   { \rm   { M S D } } \equiv   \langle   ( x ( t ) - x _ { 0 } ) ^ { 2 } \rangle   , }
+{ \displaystyle   \langle   ( x - x _ { 0 } ) ^ { 2 } \rangle   = \langle   x ^ { 2 } \rangle   + x _ { 0 } ^ { 2 } - 2 x _ { 0 } \langle   x \rangle   , }
+\langle   x ^ { 2 } \rangle  
+\langle   x \rangle  
+k ^ { \textrm   { t h } }
+\langle   x \rangle  
+\langle   x ^ { 2 } \rangle  
+{ \displaystyle   G ( k ) = \langle   e ^ { i k x } \rangle   \equiv   \int   _ { I } e ^ { i k x } P ( x , t \mid   x _ { 0 } ) \,dx , }
+{ \displaystyle   G ( k ) = \sum   _ { m = 0 } ^ { \infty   } { \frac   { ( i k ) ^ { m } } { m ! } } \mu   _ { m } . }
+{ \displaystyle   \ln ( G ( k ) ) = \sum   _ { m = 1 } ^ { \infty   } { \frac   { ( i k ) ^ { m } } { m ! } } \kappa   _ { m } , }
+\kappa   _ { m }
+{ \displaystyle   m { \textrm   { t h } } }
+x
+\mu  
+\kappa   _ { 1 } = \mu   _ { 1 } ;
+\kappa   _ { 2 } = \mu   _ { 2 } - \mu   _ { 1 } ^ { 2 } ,
+\sigma   ^ { 2 }
+{ \displaystyle   G ( k ) = { \frac   { 1 } { \sqrt   { 4 \pi   D t } } } \int   _ { I } \exp ( i k x ) \exp   \left ( - { \frac   { ( x - x _ { 0 } ) ^ { 2 } } { 4 D t } } \right ) \,dx ; }
+G ( k ) = \exp ( i k x _ { 0 } - k ^ { 2 } D t ) .
+i k
+\kappa   _ { 1 } = x _ { 0 } ,
+{ \displaystyle   \kappa   _ { 2 } = 2 D t , \ , }
+\mu   _ { 2 } = \kappa   _ { 2 } + \mu   _ { 1 } ^ { 2 } = 2 D t + x _ { 0 } ^ { 2 } .
+{ \displaystyle   \langle   ( x ( t ) - x _ { 0 } ) ^ { 2 } \rangle   = 2 D t . }

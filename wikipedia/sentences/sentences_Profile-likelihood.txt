@@ -1,0 +1,99 @@
+\theta  
+X
+p
+\theta  
+{ \displaystyle   { \mathcal   { L } } ( \theta   \mid   x ) = p _ { \theta   } ( x ) = P _ { \theta   } ( X = x ) }
+\theta  
+\theta  
+x
+X
+x
+X
+\theta  
+X
+f
+\theta  
+{ \displaystyle   { \mathcal   { L } } ( \theta   \mid   x ) = f _ { \theta   } ( x ) , \ , }
+\theta  
+\theta  
+x
+X
+x
+X
+\theta  
+f ( x | \theta   )
+\mathcal { L } ( \theta   | x )
+p _ \text { H }
+p _ \text { H }
+p _ \text { H }
+{ \displaystyle   P ( { \text { H H } } \mid   p _ { \text { H } } = 0 . 5 ) = 0 . 5 ^ { 2 } = 0 . 2 5 . }
+p _ \text { H }
+{ \displaystyle   { \mathcal   { L } } ( p _ { \text { H } } = 0 . 5 \mid   { \text { H H } } ) = 0 . 2 5 . }
+p _ \text { H }   =   0 . 5
+{ \displaystyle   p _ { \text { H } } = 0 . 3 }
+{ \displaystyle   P ( { \text { H H } } \mid   p _ { \text { H } } = 0 . 3 ) = 0 . 3 ^ { 2 } = 0 . 0 9 . }
+{ \displaystyle   { \mathcal   { L } } ( p _ { \text { H } } = 0 . 3 \mid   { \text { H H } } ) = 0 . 0 9 . }
+p _ \text { H }
+\alpha  
+\beta  
+{ \displaystyle   { \mathcal   { L } } ( \alpha   , \beta   \mid   x ) = { \frac   { \beta   ^ { \alpha   } } { \Gamma   ( \alpha   ) } } x ^ { \alpha   - 1 } e ^ { - \beta   x } . }
+\beta  
+x
+{ \displaystyle   \log   { \mathcal   { L } } ( \alpha   , \beta   \mid   x ) = \alpha   \log   \beta   - \log   \Gamma   ( \alpha   ) + ( \alpha   - 1 ) \log   x - \beta   x . \ , }
+\beta  
+{ \displaystyle   { \frac   { \partial   \log   { \mathcal   { L } } ( \alpha   , \beta   \mid   x ) } { \partial   \beta   } } = { \frac   { \alpha   } { \beta   } } - x . }
+x _ { 1 } , \ldots   , x _ { n }
+{ \displaystyle   { \begin { a l i g n e d } & { \frac   { \partial   \log   { \mathcal   { L } } ( \alpha   , \beta   \mid   x _ { 1 } , \ldots   , x _ { n } ) } { \partial   \beta   } } \\={ } & { \frac   { \partial   \log   { \mathcal   { L } } ( \alpha   , \beta   \mid   x _ { 1 } ) } { \partial   \beta   } } + \cdots   + { \frac   { \partial   \log   { \mathcal   { L } } ( \alpha   , \beta   \mid   x _ { n } ) } { \partial   \beta   } } = { \frac   { n \alpha   } { \beta   } } - \sum   _ { i = 1 } ^ { n } x _ { i } . \end { a l i g n e d } } }
+\beta  
+\hat \beta   =   \frac { \alpha } { \bar { x } } .
+{ \hat   { \beta   } }
+{ \displaystyle   \textstyle   { \bar   { x } } = { \frac   { 1 } { n } } \sum   _ { i = 1 } ^ { n } x _ { i } }
+x \mapsto   f ( x \mid \theta ) ,   \ !
+\theta  
+\theta \mapsto   f ( x \mid \theta ) ,   \ !
+\mathcal { L } ( \theta   \mid   x ) = f ( x \mid \theta ) ,   \ !
+x
+f ( x | \theta   )
+x
+\theta  
+\theta  
+x
+f ( x | \theta   )
+x
+\theta  
+x _ { j }
+{ \displaystyle   [ x _ { j } , x _ { j } + h ] }
+{ \displaystyle   h > 0 }
+{ \displaystyle   { \mathcal   { L } } ( \theta   \mid   x \in   [ x _ { j } , x _ { j } + h ] ) }
+{ \displaystyle   \arg   \max   _ { \theta   } { \mathcal   { L } } ( \theta   \mid   x \in   [ x _ { j } , x _ { j } + h ] ) = \arg   \max   _ { \theta   } { \frac   { 1 } { h } } { \mathcal   { L } } ( \theta   \mid   x \in   [ x _ { j } , x _ { j } + h ] ) }
+h
+{ \displaystyle   \arg   \max   _ { \theta   } { \frac   { 1 } { h } } { \mathcal   { L } } ( \theta   \mid   x \in   [ x _ { j } , x _ { j } + h ] ) = \arg   \max   _ { \theta   } { \frac   { 1 } { h } } \Pr ( x _ { j } \leq   x \leq   x _ { j } + h \mid   \theta   ) = \arg   \max   _ { \theta   } { \frac   { 1 } { h } } \int   _ { x _ { j } } ^ { x _ { j } + h } f ( x \mid   \theta   ) \,dx }
+{ \displaystyle   f ( x \mid   \theta   ) }
+{ \displaystyle   \arg   \max   _ { \theta   } { \mathcal   { L } } ( \theta   \mid   x \in   [ x _ { j } , x _ { j } + h ] ) = \arg   \max   _ { \theta   } { \frac   { 1 } { h } } \int   _ { x _ { j } } ^ { x _ { j } + h } f ( x \mid   \theta   ) \,dx }
+{ \displaystyle   { \begin { a l i g n e d } & \lim   _ { h \to   0 ^ { + } } { \frac   { 1 } { h } } \int   _ { x _ { j } } ^ { x _ { j } + h } f ( x \mid   \theta   ) \,dx = \lim   _ { h \to   0 ^ { + } } { \frac   { { \frac   { d } { d h } } \int   _ { x _ { j } } ^ { x _ { j } + h } f ( x \mid   \theta   ) \,dx } { \frac   { d h } { d h } } } \\[4pt ] = { } & \lim   _ { h \to   0 ^ { + } } { \frac   { f ( x _ { j } + h \mid   \theta   ) } { 1 } } = f ( x _ { j } \mid   \theta   ) . \end { a l i g n e d } } }
+{ \displaystyle   { \begin { a l i g n e d } & \arg   \max   _ { \theta   } { \mathcal   { L } } ( \theta   \mid   x _ { j } ) = \arg   \max   _ { \theta   } \left [ \lim   _ { h \to   0 ^ { + } } { \mathcal   { L } } ( \theta   \mid   x \in   [ x _ { j } , x _ { j } + h ] ) \right ] \\[4pt ] = { } & \arg   \max   _ { \theta   } \left [ \lim   _ { h \to   0 ^ { + } } { \frac   { 1 } { h } } \int   _ { x _ { j } } ^ { x _ { j } + h } f ( x \mid   \theta   ) \,dx \right ] = \arg   \max   _ { \theta   } f ( x _ { j } \mid   \theta   ) . \end { a l i g n e d } } }
+{ \displaystyle   \arg   \max   _ { \theta   } { \mathcal   { L } } ( \theta   \mid   x _ { j } ) = \arg   \max   _ { \theta   } f ( x _ { j } \mid   \theta   ) , \ ! }
+x _ { j }
+x _ { j }
+{ \displaystyle   p _ { k } \theta   }
+f ( x | \theta   )
+p
+f
+\mathcal { L } ( \theta   \mid   x   ) =   p _ k ( \theta ) ,   \ !
+k
+x
+x
+x
+\theta  
+{ \displaystyle   P ( n \mid   N ) = { \frac   { [ n \leq   N ] } { N } } }
+{ \displaystyle   \sum   _ { N = 1 } ^ { \infty   } P ( n \mid   N ) = \sum   _ { N } { \frac   { [ N \geq   n ] } { N } } = \sum   _ { N = n } ^ { \infty   } { \frac   { 1 } { N } } }
+{ \displaystyle   P ( \{ n _ { 1 } , n _ { 2 } \}\mid   N ) = { \frac   { [ n _ { 2 } \leq   N ] } { \binom   { N } { 2 } } } . }
+{ \displaystyle   \sum   _ { N = 1 } ^ { \infty   } P ( \{ n _ { 1 } , n _ { 2 } \}\mid   N ) = \sum   _ { N } { \frac   { [ N \geq   n _ { 2 } ] } { \binom   { N } { 2 } } } = { \frac   { 2 } { n _ { 2 } - 1 } } }
+{ \hat   { \theta   } }
+{ \hat   { \theta   } }
+{ \hat   { \theta   } }
+{ \displaystyle   \left \{ \theta   : { \frac   { { \mathcal   { L } } ( \theta   \mid   x ) } { { \mathcal   { L } } ( { \hat   { \theta   } } \mid   x ) } } \geq   0 . 1 0 \right \ } , }
+{ \displaystyle   \left \{ \theta   : { \frac   { { \mathcal   { L } } ( \theta   \mid   x ) } { { \mathcal   { L } } ( { \hat   { \theta   } } \mid   x ) } } \geq   { \frac   { p } { 1 0 0 } } \right \ } . }
+{ \displaystyle   = { \hat   { \theta   } } }
+{ \displaystyle   \exp   \left ( { \frac   { \operatorname   { A I C }   ( M _ { 1 } ) - \operatorname   { A I C }   ( M _ { 2 } ) } { 2 } } \right ) }
+{ \hat   { \theta   } }

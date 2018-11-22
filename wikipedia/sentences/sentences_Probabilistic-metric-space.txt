@@ -1,0 +1,18 @@
+\mathbb   { R }  
+{ \displaystyle   D ( X , Y ) = \int   _ { - \infty   } ^ { \infty   } \int   _ { - \infty   } ^ { \infty   } | x - y | F ( x , y ) \,dxdy }
+{ \displaystyle   D ( X , Y ) = \int   _ { - \infty   } ^ { \infty   } \int   _ { - \infty   } ^ { \infty   } | x - y | f ( x ) g ( y ) \,dxdy }
+{ \displaystyle   D ( X , Y ) = \int   _ { - \infty   } ^ { \infty   } \int   _ { - \infty   } ^ { \infty   } | x - y | \delta   ( x - \mu   _ { x } ) \delta   ( y - \mu   _ { y } ) \,dxdy = | \mu   _ { x } - \mu   _ { y } | }
+\mu   _ { x }
+\mu   _ { y }
+{ \displaystyle   D \left ( X , X \right ) > 0 }
+\sigma   =   0 ,   \sigma   =   0 . 2 ,   \sigma   =   0 . 4 ,   \sigma   =   0 . 6 ,   \sigma   =   0 . 8 ,   \sigma   =   1
+m _ { x y }   =   | \mu_x - \mu_y |
+\sigma  
+{ \displaystyle   D \left ( X , Y \right ) }
+{ \displaystyle   D _ { N N } ( X , Y ) = \mu   _ { x y } + { \frac   { 2 \sigma   } { \sqrt   { \pi   } } } \operatorname   { e x p }   \left ( - { \frac   { \mu   _ { x y } ^ { 2 } } { 4 \sigma   ^ { 2 } } } \right ) - \mu   _ { x y } \operatorname   { e r f c }   \left ( { \frac   { \mu   _ { x y } } { 2 \sigma   } } \right ) }
+{ \displaystyle   \mu   _ { x y } = \left | \mu   _ { x } - \mu   _ { y } \right | }
+{ \displaystyle   \operatorname   { e r f c }   ( x ) }
+{ \displaystyle   \lim   _ { \mu   _ { x y } \to   0 } D _ { N N } ( X , Y ) = D _ { N N } ( X , X ) = { \frac   { 2 \sigma   } { \sqrt   { \pi   } } } }
+| x - y |
+{ \displaystyle   D ( \mathbf   { X }   , \mathbf   { Y }   ) = \int   _ { \Omega   } \int   _ { \Omega   } d ( \mathbf   { x }   , \mathbf   { y }   ) F ( \mathbf   { x }   , \mathbf   { y }   ) \,d \Omega   _ { x } d \Omega   _ { y } }
+{ \displaystyle   D ( \mathbf   { X }   , \mathbf   { Y }   ) = \int   _ { \Omega   } \int   _ { \Omega   } { \sqrt   { \sum   _ { i } | x _ { i } - y _ { i } | ^ { 2 } } } F ( \mathbf   { x }   ) G ( \mathbf   { y }   ) \,d \Omega   _ { x } d \Omega   _ { y } }

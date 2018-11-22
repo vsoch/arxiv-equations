@@ -1,0 +1,8 @@
+y = \lambda   a ^ { { \gamma   x } }
+\log   _ { a } y = \gamma   x + \log   _ { a } \lambda   .
+\gamma  
+\log   _ { a } \lambda  
+\log ( y ) = ( \gamma   \log ( a ) ) x + \log ( \lambda   ) .
+\log   _ { { 1 0 } } ( F ( x ) ) = m x + b
+F ( x ) = 1 0 ^ { { m x + b } } = ( 1 0 ^ { { m x } } ) ( 1 0 ^ { b } ) .
+F ( x ) = m \log   _ { { 1 0 } } ( x ) + b . \ ,

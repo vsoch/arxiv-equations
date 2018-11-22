@@ -1,0 +1,50 @@
+x ( t )
+{ \displaystyle   \operatorname   { E }   [ x ( t ) ] }
+{ \displaystyle   R _ { x } ( t , \tau   ) = \operatorname   { E }   \{ x ( t + \tau   ) x ^ { * } ( t ) \ } , \ , }
+T _ { 0 }
+{ \displaystyle   \operatorname   { E }   [ x ( t ) ] }
+{ \displaystyle   R _ { x } ( t , \tau   ) }
+t
+T _ { 0 } ,
+{ \displaystyle   \operatorname   { E }   [ x ( t ) ] = \operatorname   { E }   [ x ( t + T _ { 0 } ) ] { \text {   f o r   a l l   } } t }
+{ \displaystyle   R _ { x } ( t , \tau   ) = R _ { x } ( t + T _ { 0 } ; \tau   ) { \text {   f o r   a l l   } } t , \tau   . }
+{ \displaystyle   R _ { x } ( t , \tau   ) = \sum   _ { n = - \infty   } ^ { \infty   } R _ { x } ^ { n / T _ { 0 } } ( \tau   ) e ^ { j 2 \pi   { \frac   { n } { T _ { 0 } } } t } }
+{ \displaystyle   R _ { x } ^ { n / T _ { 0 } } ( \tau   ) }
+{ \displaystyle   R _ { x } ^ { n / T _ { 0 } } ( \tau   ) = { \frac   { 1 } { T _ { 0 } } } \int   _ { - T _ { 0 } / 2 } ^ { T _ { 0 } / 2 } R _ { x } ( t , \tau   ) e ^ { - j 2 \pi   { \frac   { n } { T _ { 0 } } } t } \mathrm   { d }   t . }
+{ \displaystyle   n / T _ { 0 } , \,n \in   \mathbb   { Z }   , }
+{ \displaystyle   R _ { x } ^ { 0 } ( \tau   ) \neq   0 }
+{ \displaystyle   { \hat   { R } } _ { x } ^ { n / T _ { 0 } } ( \tau   ) = \lim   _ { T \rightarrow   + \infty   } { \frac   { 1 } { T } } \int   _ { - T / 2 } ^ { T / 2 } x ( t + \tau   ) x ^ { * } ( t ) e ^ { - j 2 \pi   { \frac   { n } { T _ { 0 } } } t } \mathrm   { d }   t . }
+{ \displaystyle   R _ { x } ^ { n / T _ { 0 } } ( \tau   ) = \operatorname   { E }   \left [ { \hat   { R } } _ { x } ^ { n / T _ { 0 } } ( \tau   ) \right ] }
+{ \displaystyle   R _ { x } ^ { n / T _ { 0 } } ( \tau   ) = { \hat   { R } } _ { x } ^ { n / T _ { 0 } } ( \tau   ) }
+{ \displaystyle   S _ { x } ^ { \alpha   } ( f ) = \int   _ { - \infty   } ^ { + \infty   } R _ { x } ^ { \alpha   } ( \tau   ) e ^ { - j 2 \pi   f \tau   } \mathrm   { d }   \tau   . }
+x ( t )
+X ( f )
+{ \displaystyle   1 / T _ { 0 } }
+{ \displaystyle   \operatorname   { E }   \left [ X ( f _ { 1 } ) X ^ { * } ( f _ { 2 } ) \right ] = \sum   _ { n = - \infty   } ^ { \infty   } S _ { x } ^ { n / T _ { 0 } } ( f _ { 1 } ) \delta   \left ( f _ { 1 } - f _ { 2 } + { \frac   { n } { T _ { 0 } } } \right ) }
+{ \displaystyle   \delta   ( f ) }
+f _ { { 1 , 2 } }
+{ \displaystyle   S _ { x } ^ { n / T _ { 0 } } ( f ) \neq   0 }
+n = 0
+{ \displaystyle   x ( t ) = \sum   _ { k = - \infty   } ^ { \infty   } a _ { k } p ( t - k T _ { 0 } ) }
+{ \displaystyle   a _ { k } \in   \mathbb   { C }   }
+p ( t )
+P ( f )
+{ \displaystyle   \operatorname   { E }   [ a _ { k } ] = 0 }
+{ \displaystyle   \operatorname   { E }   [ | a _ { k } | ^ { 2 } ] = \sigma   _ { a } ^ { 2 } }
+{ \displaystyle   { \begin { a l i g n e d } R _ { x } ( t , \tau   ) & = \operatorname   { E }   [ x ( t + \tau   ) x ^ { * } ( t ) ] \\&=\sum   _ { k , n } \operatorname   { E }   [ a _ { k } a _ { n } ^ { * } ] p ( t + \tau   - k T _ { 0 } ) p ^ { * } ( t - n T _ { 0 } ) \\&=\sigma   _ { a } ^ { 2 } \sum   _ { k } p ( t + \tau   - k T _ { 0 } ) p ^ { * } ( t - k T _ { 0 } ) . \end { a l i g n e d } } }
+x ( t )
+T _ { 0 }
+{ \displaystyle   { \begin { a l i g n e d } R _ { x } ^ { n / T _ { 0 } } ( \tau   ) & = { \frac   { 1 } { T _ { 0 } } } \int   _ { - T _ { 0 } } ^ { T _ { 0 } } R _ { x } ( t , \tau   ) e ^ { - j 2 \pi   { \frac   { n } { T _ { 0 } } } t } \mathrm   { d }   t \\&={ \frac   { 1 } { T _ { 0 } } } \int   _ { - T _ { 0 } } ^ { T _ { 0 } } \sigma   _ { a } ^ { 2 } \sum   _ { k = - \infty   } ^ { \infty   } p ( t + \tau   - k T _ { 0 } ) p ^ { * } ( t - k T _ { 0 } ) e ^ { - j 2 \pi   { \frac   { n } { T _ { 0 } } } t } \mathrm   { d }   t \\&={ \frac   { \sigma   _ { a } ^ { 2 } } { T _ { 0 } } } \sum   _ { k = - \infty   } ^ { \infty   } \int   _ { - T _ { 0 } - k T _ { 0 } } ^ { T _ { 0 } - k T _ { 0 } } p ( \lambda   + \tau   ) p ^ { * } ( \lambda   ) e ^ { - j 2 \pi   { \frac   { n } { T _ { 0 } } } ( \lambda   + k T _ { 0 } ) } \mathrm   { d }   \lambda   \\&={ \frac   { \sigma   _ { a } ^ { 2 } } { T _ { 0 } } } \int   _ { - \infty   } ^ { \infty   } p ( \lambda   + \tau   ) p ^ { * } ( \lambda   ) e ^ { - j 2 \pi   { \frac   { n } { T _ { 0 } } } \lambda   } \mathrm   { d }   \lambda   \\&={ \frac   { \sigma   _ { a } ^ { 2 } } { T _ { 0 } } } p ( \tau   ) * \left \{ p ^ { * } ( - \tau   ) e ^ { j 2 \pi   { \frac   { n } { T _ { 0 } } } \tau   } \right \}.\end { a l i g n e d } } }
+*
+{ \displaystyle   S _ { x } ^ { n / T _ { 0 } } ( f ) = { \frac   { \sigma   _ { a } ^ { 2 } } { T _ { 0 } } } P ( f ) P ^ { * } \left ( f - { \frac   { n } { T _ { 0 } } } \right ) . }
+{ \displaystyle   n = - 1 , 0 , 1 }
+{ \displaystyle   R _ { x } ( \theta   , \tau   ) = \operatorname   { E }   \{ x ( t ( \theta   ) + \tau   ) x ^ { * } ( t ( \theta   ) ) \ } , \ , }
+\theta  
+t ( \theta   )
+\theta  
+\tau  
+{ \displaystyle   R _ { x } ( \theta   ; \tau   ) = R _ { x } ( \theta   + \Theta   ; \tau   ) }
+\Theta  
+{ \displaystyle   S _ { x } ^ { \alpha   } ( f ) = \lim   _ { S \rightarrow   + \infty   } { \frac   { 1 } { S } } \int   _ { - S / 2 } ^ { S / 2 } \int   _ { - \infty   } ^ { + \infty   } R _ { x } ( \theta   , \tau   ) e ^ { - j 2 \pi   f \tau   } e ^ { - j 2 \pi   \alpha   { \frac   { \theta   } { \Theta   } } } \mathrm   { d }   \tau   \mathrm   { d }   \theta   }
+\alpha  
+f

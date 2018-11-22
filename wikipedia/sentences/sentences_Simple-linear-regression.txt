@@ -1,0 +1,57 @@
+y = \alpha   + \beta   x ,
+  y _ i   =   \alpha   +   \beta   x _ i   +   \varepsilon_i .
+{ \hat   { \alpha   } }
+{ \hat   { \beta   } }
+{ \displaystyle   { \hat   { \varepsilon   } } _ { i } }
+a
+b
+{ \displaystyle   { \hat   { \varepsilon   } } _ { i } = y _ { i } - a - b x _ { i } . }
+{ \hat   { \alpha   } }
+{ \hat   { \beta   } }
+{ \displaystyle   { \text { F i n d   } } \min   _ { a , \,b } Q ( a , b ) , \quad   { \text { f o r   } } Q ( a , b ) = \sum   _ { i = 1 } ^ { n } { \hat   { \varepsilon   } } _ { i } ^ { \,2 } = \sum   _ { i = 1 } ^ { n } ( y _ { i } - a - b x _ { i } ) ^ { 2 } \   . }
+a
+b ,
+a
+b
+\hat { \alpha }
+\hat { \beta }
+{ \displaystyle   { \begin { a l i g n e d } { \hat   { \alpha   } } & = { \bar   { y } } - { \hat   { \beta   } } \,{ \bar   { x } } , \\{ \hat   { \beta   } } & = { \frac   { \sum   _ { i = 1 } ^ { n } ( x _ { i } - { \bar   { x } } ) ( y _ { i } - { \bar   { y } } ) } { \sum   _ { i = 1 } ^ { n } ( x _ { i } - { \bar   { x } } ) ^ { 2 } } } \\[6pt ] & = { \frac   { \operatorname   { C o v }   ( x , y ) } { \operatorname   { V a r }   ( x ) } } \\&=r_ { x y } { \frac   { s _ { y } } { s _ { x } } } . \\[6pt ] \end { a l i g n e d } } }
+{ \bar   { x } }
+{ \bar   { y } }
+\hat { \alpha }
+\hat { \beta }
+{ \displaystyle   f = { \hat   { \alpha   } } + { \hat   { \beta   } } x , }
+{ \displaystyle   { \frac   { f - { \bar   { y } } } { s _ { y } } } = r _ { x y } { \frac   { x - { \bar   { x } } } { s _ { x } } } . }
+{ \bar   { x } }
+{ \displaystyle   { \overline   { x y } } = { \frac   { 1 } { n } } \sum   _ { i = 1 } ^ { n } x _ { i } y _ { i } . }
+{ \displaystyle   r _ { x y } = { \frac   { { \overline   { x y } } - { \bar   { x } } { \bar   { y } } } { \sqrt   { \left ( { \overline   { x ^ { 2 } } } - { \bar   { x } } ^ { 2 } \right ) \left ( { \overline   { y ^ { 2 } } } - { \bar   { y } } ^ { 2 } \right ) } } } . }
+r _ { x y } ^ 2
+{ \displaystyle   { \hat   { \beta   } } = { \frac   { \sum   _ { i = 1 } ^ { n } x _ { i } y _ { i } } { \sum   _ { i = 1 } ^ { n } x _ { i } ^ { 2 } } } = { \frac   { \overline   { x y } } { \overline   { x ^ { 2 } } } } }
+{ \displaystyle   { \begin { a l i g n e d } { \hat   { \beta   } } & = { \frac   { \overline   { ( x - h ) ( y - k ) } } { \overline   { ( x - h ) ^ { 2 } } } } \\[6pt ] & = { \frac   { { \overline   { x y } } + k { \bar   { x } } - h { \bar   { y } } - h k } { { \overline   { x ^ { 2 } } } - 2 h { \bar   { x } } + h ^ { 2 } } } \\[6pt ] & = { \frac   { { \overline   { x y } } - { \bar   { x } } { \bar   { y } } + ( { \bar   { x } } - h ) ( { \bar   { y } } - k ) } { { \overline   { x ^ { 2 } } } - { \bar   { x } } ^ { 2 } + ( { \bar   { x } } - h ) ^ { 2 } } } \\[6pt ] & = { \frac   { \operatorname   { C o v }   ( x , y ) + ( { \bar   { x } } - h ) ( { \bar   { y } } - k ) } { \operatorname   { V a r }   ( x ) + ( { \bar   { x } } - h ) ^ { 2 } } } , \end { a l i g n e d } } }
+{ \displaystyle   ( { \bar   { x } } , \,{ \bar   { y } } ) }
+{ \displaystyle   \sum   _ { i = 1 } ^ { n } { \hat   { \varepsilon   } } _ { i } = 0 . }
+{ \displaystyle   \sum   _ { i = 1 } ^ { n } x _ { i } { \hat   { \varepsilon   } } _ { i } \;=\;0 }
+\hat { \alpha }
+\hat { \beta }
+{ \hat   { \alpha   } }
+{ \hat   { \beta   } }
+\hat { \alpha }
+\hat { \beta }
+{ \displaystyle   \sigma   ^ { 2 } / \sum   ( x _ { i } - { \bar   { x } } ) ^ { 2 } , }
+\hat { \beta }
+{ \displaystyle   t = { \frac   { { \hat   { \beta   } } - \beta   } { s _ { \hat   { \beta   } } } } \ \sim   \ t_ { n - 2 } , }
+{ \displaystyle   s _ { \hat   { \beta   } } = { \sqrt   { \frac   { { \frac   { 1 } { n - 2 } } \sum   _ { i = 1 } ^ { n } { \hat   { \varepsilon   } } _ { i } ^ { \,2 } } { \sum   _ { i = 1 } ^ { n } ( x _ { i } - { \bar   { x } } ) ^ { 2 } } } } }
+\hat { \beta }
+{ \displaystyle   \beta   \in   \left [ { \hat   { \beta   } } - s _ { \hat   { \beta   } } t _ { n - 2 } ^ { * } , \ { \hat   { \beta   } } + s _ { \hat   { \beta   } } t _ { n - 2 } ^ { * } \right ] , }
+{ \displaystyle   t _ { n - 2 } ^ { * } }
+{ \displaystyle   \scriptstyle   \left ( 1 \;-\;{ \frac   { \gamma   } { 2 } } \right ) { \text { - t h } } }
+{ \displaystyle   \alpha   \in   \left [ { \hat   { \alpha   } } - s _ { \hat   { \alpha   } } t _ { n - 2 } ^ { * } , \ { \hat   { \alpha   } } + s _ { \hat   { \alpha   } } t _ { n - 2 } ^ { * } \right ] , }
+{ \displaystyle   s _ { \hat   { \alpha   } } = s _ { \hat   { \beta   } } { \sqrt   { { \frac   { 1 } { n } } \sum   _ { i = 1 } ^ { n } x _ { i } ^ { 2 } } } = { \sqrt   { { \frac   { 1 } { n ( n - 2 ) } } \left ( \sum   _ { i = 1 } ^ { n } { \hat   { \varepsilon   } } _ { j } ^ { \,2 } \right ) { \frac   { \sum   _ { i = 1 } ^ { n } x _ { i } ^ { 2 } } { \sum   _ { i = 1 } ^ { n } ( x _ { i } - { \bar   { x } } ) ^ { 2 } } } } } }
+{ \displaystyle   { \hat   { \alpha   } } = 0 . 8 5 9 , \qquad   { \hat   { \beta   } } = - 1 . 8 1 7 . }
+{ \displaystyle   \alpha   \in   \left [ 0 . 7 6 , 0 . 9 6 \right ] , \qquad   \beta   \in   \left [ - 2 . 0 6 , - 1 . 5 8 \right ] . }
+{ \displaystyle   ( \alpha   + \beta   \xi   ) \in   \left [ { \hat   { \alpha   } } + { \hat   { \beta   } } \xi   \pm   t _ { n - 2 } ^ { * } { \sqrt   { \left ( { \frac   { 1 } { n - 2 } } \sum   { \hat   { \varepsilon   } } _ { i } ^ { \,2 } \right ) \cdot   \left ( { \frac   { 1 } { n } } + { \frac   { ( \xi   - { \bar   { x } } ) ^ { 2 } } { \sum   ( x _ { i } - { \bar   { x } } ) ^ { 2 } } } \right ) } } \right ] . }
+{ \displaystyle   { \begin { a l i g n e d } & S _ { x } = \sum   x _ { i } = 2 4 . 7 6 , \quad   S _ { y } = \sum   y _ { i } = 9 3 1 . 1 7 \\&S_ { x x } = \sum   x _ { i } ^ { 2 } = 4 1 . 0 5 3 2 , \quad   S _ { x y } = \sum   x _ { i } y _ { i } = 1 5 4 8 . 2 4 5 3 , \quad   S _ { y y } = \sum   y _ { i } ^ { 2 } = 5 8 4 9 8 . 5 4 3 9 \end { a l i g n e d } } }
+{ \displaystyle   { \begin { a l i g n e d } { \hat   { \beta   } } & = { \frac   { n S _ { x y } - S _ { x } S _ { y } } { n S _ { x x } - S _ { x } ^ { 2 } } } = 6 1 . 2 7 2 \\{ \hat   { \alpha   } } & = { \frac   { 1 } { n } } S _ { y } - { \hat   { \beta   } } { \frac   { 1 } { n } } S _ { x } = - 3 9 . 0 6 2 \\s_ { \varepsilon   } ^ { 2 } & = { \frac   { 1 } { n ( n - 2 ) } } \left [ n S _ { y y } - S _ { y } ^ { 2 } - { \hat   { \beta   } } ^ { 2 } ( n S _ { x x } - S _ { x } ^ { 2 } ) \right ] = 0 . 5 7 6 2 \\s_ { \hat   { \beta   } } ^ { 2 } & = { \frac   { n s _ { \varepsilon   } ^ { 2 } } { n S _ { x x } - S _ { x } ^ { 2 } } } = 3 . 1 5 3 9 \\s_ { \hat   { \alpha   } } ^ { 2 } & = s _ { \hat   { \beta   } } ^ { 2 } { \frac   { 1 } { n } } S _ { x x } = 8 . 6 3 1 8 5 \end { a l i g n e d } } }
+{ \displaystyle   { \begin { a l i g n e d } & \alpha   \in   [ \,{ \hat   { \alpha   } } \mp   t _ { 1 3 } ^ { * } s _ { \alpha   } \,]=[\,{ - 4 5 . 4 } , \ { - 3 2 . 7 } \,]\\&\beta   \in   [ \,{ \hat   { \beta   } } \mp   t _ { 1 3 } ^ { * } s _ { \beta   } \,]=[\,57 . 4 , \ 65 . 1 \,]\end { a l i g n e d } } }
+{ \displaystyle   { \hat   { r } } = { \frac   { n S _ { x y } - S _ { x } S _ { y } } { \sqrt   { ( n S _ { x x } - S _ { x } ^ { 2 } ) ( n S _ { y y } - S _ { y } ^ { 2 } ) } } } = 0 . 9 9 4 5 }
+\hat \beta   =   6 1 . 6 7 4 6 ,   \qquad   \hat \alpha   =   - 3 9 . 7 4 6 8 .

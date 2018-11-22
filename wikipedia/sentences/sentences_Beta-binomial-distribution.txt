@@ -1,0 +1,65 @@
+\alpha   > 0
+\beta   > 0
+{ \displaystyle   { \binom   { n } { k } } { \frac   { \mathrm   { B }   ( k + \alpha   , n - k + \beta   ) } { \mathrm   { B }   ( \alpha   , \beta   ) } } \ ! }
+{ \displaystyle   { \begin { c a s e s } 0 , & k < 0 \\{ \binom   { n } { k } } { \tfrac   { \mathrm   { B }   ( k + \alpha   , n - k + \beta   ) } { \mathrm   { B }   ( \alpha   , \beta   ) } } { } _ { 3 } \!F_ { 2 } ( { \boldsymbol   { a } } , { \boldsymbol   { b } } , k ) , & 0 \leq   k < n \\1 , & k \geq   n \end { c a s e s } } }
+{ \displaystyle   { } _ { 3 } \!F_ { 2 } ( 1 , - k , n \!-\!k \!+\!\beta   ; n \!-\!k \!-\!1 , 1 \!-\!k \!-\!\alpha   ; 1 ) \ ! }
+{ \frac     { n \alpha   } { \alpha   + \beta   } } \ !
+{ \frac     { n \alpha   \beta   ( \alpha   + \beta   + n ) } { ( \alpha   + \beta   ) ^ { 2 } ( \alpha   + \beta   + 1 ) } } \ !
+{ \tfrac     { ( \alpha   + \beta   + 2 n ) ( \beta   - \alpha   ) } { ( \alpha   + \beta   + 2 ) } } { \sqrt     { { \tfrac     { 1 + \alpha   + \beta   } { n \alpha   \beta   ( n + \alpha   + \beta   ) } } } } \ !
+_ { { 2 } } F _ { { 1 } } ( - n , \alpha   ; \alpha   + \beta   ; 1 - e ^ { { t } } ) \ !
+{ \text { f o r   } } t < \log   _ { e } ( 2 )
+_ { { 2 } } F _ { { 1 } } ( - n , \alpha   ; \alpha   + \beta   ; 1 - e ^ { { i t } } ) \ !
+{ \text { f o r   } } | t | < \log   _ { e } ( 2 )
+p
+{ \displaystyle   { \begin { a l i g n e d } X & \sim   \operatorname   { B i n }   ( n , p ) \\\end { a l i g n e d } } }
+{ \displaystyle   { \begin { a l i g n e d } P ( X = k \mid   p , n ) & = L ( p \mid   k ) = { n   \choose   k } p ^ { k } ( 1 - p ) ^ { n - k } \end { a l i g n e d } } }
+{ \displaystyle   { \begin { a l i g n e d } \pi   ( p \mid   \alpha   , \beta   ) & = \mathrm   { B e t a }   ( \alpha   , \beta   ) \\&={ \frac   { p ^ { \alpha   - 1 } ( 1 - p ) ^ { \beta   - 1 } } { \mathrm   { B }   ( \alpha   , \beta   ) } } \end { a l i g n e d } } }
+{ \displaystyle   { \begin { a l i g n e d } f ( k \mid   n , \alpha   , \beta   ) & = \int   _ { 0 } ^ { 1 } L ( p \mid   k ) \pi   ( p \mid   \alpha   , \beta   ) \,dp \\&={ n   \choose   k } { \frac   { 1 } { \mathrm   { B }   ( \alpha   , \beta   ) } } \int   _ { 0 } ^ { 1 } p ^ { k + \alpha   - 1 } ( 1 - p ) ^ { n - k + \beta   - 1 } \,dp \\&={ n   \choose   k } { \frac   { \mathrm   { B }   ( k + \alpha   , n - k + \beta   ) } { \mathrm   { B }   ( \alpha   , \beta   ) } } . \end { a l i g n e d } } }
+{ \displaystyle   f ( k \mid   n , \alpha   , \beta   ) = { \frac   { \Gamma   ( n + 1 ) } { \Gamma   ( k + 1 ) \Gamma   ( n - k + 1 ) } } { \frac   { \Gamma   ( k + \alpha   ) \Gamma   ( n - k + \beta   ) } { \Gamma   ( n + \alpha   + \beta   ) } } { \frac   { \Gamma   ( \alpha   + \beta   ) } { \Gamma   ( \alpha   ) \Gamma   ( \beta   ) } } . }
+{ \begin { a l i g n e d } \mu   _ { 1 } & = { \frac     { n \alpha   } { \alpha   + \beta   } } \\[8pt ] \mu   _ { 2 } & = { \frac     { n \alpha   [ n ( 1 + \alpha   ) + \beta   ] } { ( \alpha   + \beta   ) ( 1 + \alpha   + \beta   ) } } \\[8pt ] \mu   _ { 3 } & = { \frac     { n \alpha   [ n ^ { { 2 } } ( 1 + \alpha   ) ( 2 + \alpha   ) + 3 n ( 1 + \alpha   ) \beta   + \beta   ( \beta   - \alpha   ) ] } { ( \alpha   + \beta   ) ( 1 + \alpha   + \beta   ) ( 2 + \alpha   + \beta   ) } } \end { a l i g n e d } }
+          \beta_2   =   \frac { ( \alpha   +   \beta ) ^ 2   ( 1 + \alpha + \beta ) } { n   \alpha   \beta (   \alpha   +   \beta   +   2 ) ( \alpha   +   \beta   +   3 ) ( \alpha   +   \beta   +   n )   }   \left [   ( \alpha   +   \beta ) ( \alpha   +   \beta   -   1   +   6 n )   +   3   \alpha \beta ( n   -   2 )   +   6 n ^ 2   - \frac { 3 \alpha \beta   n ( 6 - n ) } { \alpha   +   \beta }   -   \frac { 1 8 \alpha \beta   n ^ { 2 } } { ( \alpha + \beta ) ^ 2 }   \right ] .  
+\pi   = { \frac     { \alpha   } { \alpha   + \beta   } } \ !
+\mu   = { \frac     { n \alpha   } { \alpha   + \beta   } } = n \pi   \ !
+\sigma   ^ { 2 } = { \frac     { n \alpha   \beta   ( \alpha   + \beta   + n ) } { ( \alpha   + \beta   ) ^ { 2 } ( \alpha   + \beta   + 1 ) } } = n \pi   ( 1 - \pi   ) { \frac     { \alpha   + \beta   + n } { \alpha   + \beta   + 1 } } = n \pi   ( 1 - \pi   ) [ 1 + ( n - 1 ) \rho   ] \ !
+\rho   = { \tfrac     { 1 } { \alpha   + \beta   + 1 } } \ !
+{ \displaystyle   \rho   \ ! }
+{ \begin { a l i g n e d } \mu   _ { 1 } & = { \frac     { n \alpha   } { \alpha   + \beta   } } \\\mu   _ { 2 } & = { \frac     { n \alpha   [ n ( 1 + \alpha   ) + \beta   ] } { ( \alpha   + \beta   ) ( 1 + \alpha   + \beta   ) } } \end { a l i g n e d } }
+{ \displaystyle   { \begin { a l i g n e d } { \hat   { \mu   } } _ { 1 } & : = m _ { 1 } = { \frac   { 1 } { N } } \sum   _ { i = 1 } ^ { N } X _ { i } \\{ \hat   { \mu   } } _ { 2 } & : = m _ { 2 } = { \frac   { 1 } { N } } \sum   _ { i = 1 } ^ { N } X _ { i } ^ { 2 } \end { a l i g n e d } } }
+{ \begin { a l i g n e d } { \hat     { \alpha   } } & = { \frac     { n m _ { 1 } - m _ { 2 } } { n ( { \frac     { m _ { 2 } } { m _ { 1 } } } - m _ { 1 } - 1 ) + m _ { 1 } } } \\{ \hat     { \beta   } } & = { \frac     { ( n - m _ { 1 } ) ( n - { \frac     { m _ { 2 } } { m _ { 1 } } } ) } { n ( { \frac     { m _ { 2 } } { m _ { 1 } } } - m _ { 1 } - 1 ) + m _ { 1 } } } . \end { a l i g n e d } }
+{ \begin { a l i g n e d } m _ { 1 } & = 6 . 2 3 \\m_ { 2 } & = 4 2 . 3 1 \\n & = 1 2 \end { a l i g n e d } }
+{ \begin { a l i g n e d } { \hat     { \alpha   } } & = 3 4 . 1 3 5 0 \\{ \hat     { \beta   } } & = 3 1 . 6 0 8 5 . \end { a l i g n e d } }
+{ \begin { a l i g n e d } { \hat     \alpha   } _ { { \mathrm     { m l e } } } & = 3 4 . 0 9 5 5 8 \\{ \hat     \beta   } _ { { \mathrm     { m l e } } } & = 3 1 . 5 7 1 5 \end { a l i g n e d } }
+\log   { \mathcal     { L } } = - 1 2 4 9 2 . 9
+{ \mathit     { A I C } } = 2 4 9 8 9 . 7 4 .
+{ \displaystyle   { \begin { a l i g n e d } \pi   ( \theta   \mid   \mu   , M ) & = \operatorname   { B e t a }   ( M \mu   , M ( 1 - \mu   ) ) \\&={ \frac   { \Gamma   ( M ) } { \Gamma   ( M \mu   ) \Gamma   ( M ( 1 - \mu   ) ) } } \theta   ^ { M \mu   - 1 } ( 1 - \theta   ) ^ { M ( 1 - \mu   ) - 1 } \end { a l i g n e d } } }
+  \begin { a l i g n }         \mu   & =   \frac { \alpha } { \alpha + \beta }     \\      M   & =   \alpha + \beta     \end { a l i g n }  
+{ \displaystyle   { \begin { a l i g n e d } \operatorname   { E }   ( \theta   \mid   \mu   , M ) & = \mu   \\\operatorname   { V a r }   ( \theta   \mid   \mu   , M ) & = { \frac   { \mu   ( 1 - \mu   ) } { M + 1 } } . \end { a l i g n e d } } }
+{ \displaystyle   { \begin { a l i g n e d } \rho   ( \theta   \mid   k ) & \propto   \ell   ( k \mid   \theta   ) \pi   ( \theta   \mid   \mu   , M ) \\&=\operatorname   { B e t a }   ( k + M \mu   , n - k + M ( 1 - \mu   ) ) \\&={ \frac   { \Gamma   ( M ) } { \Gamma   ( M \mu   ) \Gamma   ( M ( 1 - \mu   ) ) } } { n   \choose   k } \theta   ^ { k + M \mu   - 1 } ( 1 - \theta   ) ^ { n - k + M ( 1 - \mu   ) - 1 } \end { a l i g n e d } } }
+{ \displaystyle   \operatorname   { E }   ( \theta   \mid   k ) = { \frac   { k + M \mu   } { n + M } } . }
+{ \displaystyle   { \begin { a l i g n e d } m ( k \mid   \mu   , M ) & = \int   _ { 0 } ^ { 1 } \ell   ( k \mid   \theta   ) \pi   ( \theta   \mid   \mu   , M ) \,d \theta   \\&={ \frac   { \Gamma   ( M ) } { \Gamma   ( M \mu   ) \Gamma   ( M ( 1 - \mu   ) ) } } { n   \choose   k } \int   _ { 0 } ^ { 1 } \theta   ^ { k + M \mu   - 1 } ( 1 - \theta   ) ^ { n - k + M ( 1 - \mu   ) - 1 } \,d \theta   \\&={ \frac   { \Gamma   ( M ) } { \Gamma   ( M \mu   ) \Gamma   ( M ( 1 - \mu   ) ) } } { n   \choose   k } { \frac   { \Gamma   ( k + M \mu   ) \Gamma   ( n - k + M ( 1 - \mu   ) ) } { \Gamma   ( n + M ) } } . \end { a l i g n e d } } }
+\alpha  
+\beta  
+{ \displaystyle   m ( k \mid   \alpha   , \beta   ) = { \frac   { \Gamma   ( n + 1 ) } { \Gamma   ( k + 1 ) \Gamma   ( n - k + 1 ) } } { \frac   { \Gamma   ( k + \alpha   ) \Gamma   ( n - k + \beta   ) } { \Gamma   ( n + \alpha   + \beta   ) } } { \frac   { \Gamma   ( \alpha   + \beta   ) } { \Gamma   ( \alpha   ) \Gamma   ( \beta   ) } } . }
+  n ,   \alpha  
+\beta  
+{ \begin { a l i g n e d } k _ { i } & \sim   \operatorname   { B i n } ( n _ { i } , \theta   _ { i } ) \\\theta   _ { i } & \sim   \operatorname   { B e t a } ( \mu   , M ) , \ { \mathrm     { i . i . d . } } \end { a l i g n e d } }
+{ \displaystyle   \operatorname   { E }   \left ( { \frac   { k } { n } } \right ) = \operatorname   { E }   \left [ \operatorname   { E }   \left ( \left . { \frac   { k } { n } } \right | \theta   \right ) \right ] = \operatorname   { E }   ( \theta   ) = \mu   }
+{ \displaystyle   { \begin { a l i g n e d } \operatorname   { v a r }   \left ( { \frac   { k } { n } } \right ) & = \operatorname   { E }   \left [ \operatorname   { v a r }   \left ( \left . { \frac   { k } { n } } \right | \theta   \right ) \right ] + \operatorname   { v a r }   \left [ \operatorname   { E }   \left ( \left . { \frac   { k } { n } } \right | \theta   \right ) \right ] \\&=\operatorname   { E }   \left [ \left ( \left . { \frac   { 1 } { n } } \right ) \theta   ( 1 - \theta   ) \right | \mu   , M \right ] + \operatorname   { v a r }   \left ( \theta   \mid   \mu   , M \right ) \\&={ \frac   { 1 } { n } } \left ( \mu   ( 1 - \mu   ) \right ) + { \frac   { n - 1 } { n } } { \frac   { ( \mu   ( 1 - \mu   ) ) } { M + 1 } } \\&={ \frac   { \mu   ( 1 - \mu   ) } { n } } \left ( 1 + { \frac   { n - 1 } { M + 1 } } \right ) . \end { a l i g n e d } } }
+\mu  
+M
+{ \hat   { \mu   } }
+{ \hat     { \mu   } } = { \frac     { \sum   _ { { i = 1 } } ^ { N } k _ { i } } { \sum   _ { { i = 1 } } ^ { N } n _ { i } } } .
+s ^ { 2 } = { \frac     { 1 } { N } } \sum   _ { { i = 1 } } ^ { N } \operatorname   { v a r } \left ( { \frac     { k _ { { i } } } { n _ { { i } } } } \right ) = { \frac     { 1 } { N } } \sum   _ { { i = 1 } } ^ { N } { \frac     { { \hat     { \mu   } } ( 1 - { \hat     { \mu   } } ) } { n _ { i } } } \left [ 1 + { \frac     { n _ { i } - 1 } { \widehat   { M } + 1 } } \right ]
+\widehat   { M } = { \frac     { { \hat     { \mu   } } ( 1 - { \hat     { \mu   } } ) - s ^ { 2 } } { s ^ { 2 } - { \frac     { { \hat     { \mu   } } ( 1 - { \hat     { \mu   } } ) } { N } } \sum   _ { { i = 1 } } ^ { N } 1 / n _ { i } } } ,
+s ^ { 2 } = { \frac     { N \sum   _ { { i = 1 } } ^ { N } n _ { i } ( { \hat     { \theta   _ { i } } } - { \hat     { \mu   } } ) ^ { 2 } } { ( N - 1 ) \sum   _ { { i = 1 } } ^ { N } n _ { i } } } .
+{ \hat   { \mu   } }
+\widehat   { M }
+{ \tilde     { \theta   } } _ { i }
+{ \hat     { \theta   _ { i } } } = k _ { i } / n _ { i }
+{ \hat   { \mu   } }
+{ \displaystyle   { \tilde   { \theta   _ { i } } } = E ( \theta   \mid   k _ { i } ) = { \frac   { k _ { i } + { \widehat   { M } } { \hat   { \mu   } } } { n _ { i } + { \widehat   { M } } } } = { \frac   { \widehat   { M } } { n _ { i } + { \widehat   { M } } } } { \hat   { \mu   } } + { \frac   { n _ { i } } { n _ { i } + { \widehat   { M } } } } { \frac   { k _ { i } } { n _ { i } } } . }
+{ \tilde     { \theta   } } _ { i } = { \hat     { B } } _ { i } \,{ \hat     { \mu   } } + ( 1 - { \hat     { B } } _ { i } ) { \hat     { \theta   } } _ { i }
+{ \hat     { B } } _ { i }
+{ \hat     { B _ { i } } } = { \frac     { { \hat     { M } } } { { \hat     { M } } + n _ { i } } }
+B B ( 1 , 1 , n ) \sim   U ( 0 , n ) \ ,
+U ( a , b ) \ ,

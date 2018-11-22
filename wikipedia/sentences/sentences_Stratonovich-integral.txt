@@ -1,0 +1,21 @@
+W : [ 0 , T ] \times   \Omega   \to   { \mathbb     { R } }
+X : [ 0 , T ] \times   \Omega   \to   { \mathbb     { R } }
+\int   _ { 0 } ^ { T } X _ { { t } } \circ   { \mathrm     { d } } W _ { t }
+: \Omega   \to   { \mathbb     { R } }
+\sum   _ { { i = 0 } } ^ { { k - 1 } } { X _ { { t _ { { i + 1 } } } } + X _ { { t _ { i } } }   \over   2 } \left ( W _ { { t _ { { i + 1 } } } } - W _ { { t _ { i } } } \right )
+0 = t _ { { 0 } } < t _ { { 1 } } < \dots   < t _ { { k } } = T
+[ 0 , T ]
+\int   _ { 0 } ^ { T } f ' ( W _ { t } ) \circ   { \mathrm     { d } } W _ { t } = f ( W _ { T } ) - f ( W _ { 0 } )
+\int   _ { 0 } ^ { T } { \partial   f   \over   \partial   W } ( W _ { t } , t ) \circ   { \mathrm     { d } } W _ { t } + \int   _ { 0 } ^ { T } { \partial   f   \over   \partial   t } ( W _ { t } , t ) \,{ \mathrm     { d } } t = f ( W _ { T } , T ) - f ( W _ { 0 } , 0 ) .
+X _ { T } - X _ { 0 } = \int   _ { 0 } ^ { T } Y _ { { t } } \circ   { \mathrm     { d } } W _ { t } + \int   _ { 0 } ^ { T } Z _ { { t } } \,{ \mathrm     { d } } t
+{ \mathrm     { d } } X = Y \circ   { \mathrm     { d } } W + Z \,{ \mathrm     { d } } t .
+{ \mathrm     { d } } ( t ^ { 2 } \,W ^ { 3 } ) = 3 t ^ { 2 } W ^ { 2 } \circ   { \mathrm     { d } } W + 2 t W ^ { 3 } \,{ \mathrm     { d } } t .
+\int   _ { 0 } ^ { T } X _ { { t } } \,{ \mathrm     { d } } W _ { t }
+X
+X _ { { t _ { { i } } } }
+{ \displaystyle   ( X _ { t _ { i + 1 } } + X _ { t _ { i } } ) / 2 }
+\int   _ { { 0 } } ^ { { T } } f ( W _ { { t } } , t ) \circ   { \mathrm     { d } } W _ { { t } } = { \frac     { 1 } { 2 } } \int   _ { { 0 } } ^ { { T } } { \partial   f   \over   \partial   W } ( W _ { { t } } , t ) \,{ \mathrm     { d } } t + \int   _ { { 0 } } ^ { { T } } f ( W _ { { t } } , t ) \,{ \mathrm     { d } } W _ { { t } } ,
+{ \mathrm     { d } } X _ { t } = \mu   ( X _ { t } ) \,{ \mathrm     { d } } t + \sigma   ( X _ { t } ) \,{ \mathrm     { d } } W _ { t }
+{ \displaystyle   \int   _ { 0 } ^ { T } \sigma   ( X _ { t } ) \circ   \mathrm   { d }   W _ { t } = { \frac   { 1 } { 2 } } \int   _ { 0 } ^ { T } { \frac   { d \sigma   } { d x } } ( X _ { t } ) \sigma   ( X _ { t } ) \,\mathrm   { d }   t + \int   _ { 0 } ^ { T } \sigma   ( X _ { t } ) \,\mathrm   { d }   W _ { t } . }
+\int   _ { { 0 } } ^ { { T } } X _ { { s - } } \circ   { \mathrm     { d } } Y _ { s } = \int   _ { 0 } ^ { T } X _ { { s - } } \,{ \mathrm     { d } } Y _ { s } + { \frac     { 1 } { 2 } } [ X , Y ] _ { T } ^ { c } ,
+[ X , Y ] _ { T } ^ { c }

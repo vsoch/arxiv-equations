@@ -1,0 +1,21 @@
+{ \displaystyle   \mathrm   { T P R }   = { \frac   { \mathrm   { T P }   } { P } } = { \frac   { \mathrm   { T P }   } { \mathrm   { T P }   + \mathrm   { F N }   } } = 1 - \mathrm   { F N R }   }
+{ \displaystyle   \mathrm   { T N R }   = { \frac   { \mathrm   { T N }   } { N } } = { \frac   { \mathrm   { T N }   } { \mathrm   { T N }   + \mathrm   { F P }   } } = 1 - \mathrm   { F P R }   }
+{ \displaystyle   \mathrm   { P P V }   = { \frac   { \mathrm   { T P }   } { \mathrm   { T P }   + \mathrm   { F P }   } } }
+{ \displaystyle   \mathrm   { N P V }   = { \frac   { \mathrm   { T N }   } { \mathrm   { T N }   + \mathrm   { F N }   } } }
+{ \displaystyle   \mathrm   { F N R }   = { \frac   { \mathrm   { F N }   } { P } } = { \frac   { \mathrm   { F N }   } { \mathrm   { F N }   + \mathrm   { T P }   } } = 1 - \mathrm   { T P R }   }
+{ \displaystyle   \mathrm   { F P R }   = { \frac   { \mathrm   { F P }   } { N } } = { \frac   { \mathrm   { F P }   } { \mathrm   { F P }   + \mathrm   { T N }   } } = 1 - \mathrm   { T N R }   }
+{ \displaystyle   \mathrm   { F D R }   = { \frac   { \mathrm   { F P }   } { \mathrm   { F P }   + \mathrm   { T P }   } } = 1 - \mathrm   { P P V }   }
+{ \displaystyle   \mathrm   { F O R }   = { \frac   { \mathrm   { F N }   } { \mathrm   { F N }   + \mathrm   { T N }   } } = 1 - \mathrm   { N P V }   }
+{ \displaystyle   \mathrm   { A C C }   = { \frac   { \mathrm   { T P }   + \mathrm   { T N }   } { P + N } } = { \frac   { \mathrm   { T P }   + \mathrm   { T N }   } { \mathrm   { T P }   + \mathrm   { T N }   + \mathrm   { F P }   + \mathrm   { F N }   } } }
+{ \displaystyle   F _ { 1 } = 2 \cdot   { \frac   { \mathrm   { P P V }   \cdot   \mathrm   { T P R }   } { \mathrm   { P P V }   + \mathrm   { T P R }   } } = { \frac   { 2 \mathrm   { T P }   } { 2 \mathrm   { T P }   + \mathrm   { F P }   + \mathrm   { F N }   } } }
+{ \displaystyle   \mathrm   { M C C }   = { \frac   { \mathrm   { T P }   \times   \mathrm   { T N }   - \mathrm   { F P }   \times   \mathrm   { F N }   } { \sqrt   { ( \mathrm   { T P }   + \mathrm   { F P }   ) ( \mathrm   { T P }   + \mathrm   { F N }   ) ( \mathrm   { T N }   + \mathrm   { F P }   ) ( \mathrm   { T N }   + \mathrm   { F N }   ) } } } }
+{ \displaystyle   \mathrm   { B M }   = \mathrm   { T P R }   + \mathrm   { T N R }   - 1 }
+{ \displaystyle   \mathrm   { M K }   = \mathrm   { P P V }   + \mathrm   { N P V }   - 1 }
+{ \displaystyle   { \begin { a l i g n e d } { \text { s e n s i t i v i t y } } & = { \frac   { \text { n u m b e r   o f   t r u e   p o s i t i v e s } } { { \text { n u m b e r   o f   t r u e   p o s i t i v e s } } + { \text { n u m b e r   o f   f a l s e   n e g a t i v e s } } } } \\[8pt ] & = { \frac   { \text { n u m b e r   o f   t r u e   p o s i t i v e s } } { \text { t o t a l   n u m b e r   o f   s i c k   i n d i v i d u a l s   i n   p o p u l a t i o n } } } \\[8pt ] & = { \text { p r o b a b i l i t y   o f   a   p o s i t i v e   t e s t   g i v e n   t h a t   t h e   p a t i e n t   h a s   t h e   d i s e a s e } } \end { a l i g n e d } } }
+{ \displaystyle   { \begin { a l i g n e d } { \text { s p e c i f i c i t y } } & = { \frac   { \text { n u m b e r   o f   t r u e   n e g a t i v e s } } { { \text { n u m b e r   o f   t r u e   n e g a t i v e s } } + { \text { n u m b e r   o f   f a l s e   p o s i t i v e s } } } } \\[8pt ] & = { \frac   { \text { n u m b e r   o f   t r u e   n e g a t i v e s } } { \text { t o t a l   n u m b e r   o f   w e l l   i n d i v i d u a l s   i n   p o p u l a t i o n } } } \\[8pt ] & = { \text { p r o b a b i l i t y   o f   a   n e g a t i v e   t e s t   g i v e n   t h a t   t h e   p a t i e n t   i s   w e l l } } \end { a l i g n e d } } }
+\mu   _ { S }
+\sigma   _ { S }
+\mu   _ { N }
+\sigma   _ { N }
+d ' = { \frac   { \mu   _ { S } - \mu   _ { N } } { \sqrt   { { \frac   { 1 } { 2 } } ( \sigma   _ { S } ^ { 2 } + \sigma   _ { N } ^ { 2 } ) } } }
+F = 2 \times   { \frac   { { \text { p r e c i s i o n } } \times   { \text { r e c a l l } } } { { \text { p r e c i s i o n } } + { \text { r e c a l l } } } }

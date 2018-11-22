@@ -1,0 +1,24 @@
+\lambda   ( t | \theta   ) = \theta   \lambda   _ { 0 } ( \theta   t )
+\theta  
+\theta   = \exp ( - [ \beta   _ { 1 } X _ { 1 } + \cdots   + \beta   _ { p } X _ { p } ] )
+f ( t | \theta   ) = \theta   f _ { 0 } ( \theta   t )
+S ( t | \theta   ) = S _ { 0 } ( \theta   t )
+T
+T \theta  
+T _ { 0 }
+{ \displaystyle   \log ( T ) }
+{ \displaystyle   \log ( T ) = - \log ( \theta   ) + \log ( T \theta   ) : = - \log ( \theta   ) + \epsilon   }
+{ \displaystyle   \log ( T _ { 0 } ) }
+\theta  
+{ \displaystyle   - \log ( \theta   ) }
+\epsilon  
+\epsilon  
+T _ { 0 }
+T _ { i } > t _ { i }
+T _ { i } = t _ { i }
+T _ { 0 }
+\theta  
+\theta   = 2
+\lambda   ( t | \theta   )
+{ \displaystyle   \log ( T _ { 0 } ) }
+S ( t | \theta   ) = 1 - F ( t | \theta   )

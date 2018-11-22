@@ -1,0 +1,17 @@
+\text { D i a g n o s t i c   o d d s   r a t i o ,   D O R }   =   \frac { T P / F P } { F N / T N }
+T P
+F N
+F P
+T N
+{ \displaystyle   \mathrm   { S E }   \left ( \ln   { \text { D O R } } \right ) = { \sqrt   { { \frac   { 1 } { T P } } + { \frac   { 1 } { F N } } + { \frac   { 1 } { F P } } + { \frac   { 1 } { T N } } } } }
+{ \displaystyle   \ln   { \text { D O R } } \pm   1 . 9 6 \times   \mathrm   { S E }   \left ( \ln   { \text { D O R } } \right ) }
+\text { D O R }   =   \frac { \text { s e n s i t i v i t y } \times \text { s p e c i f i c i t y } } { \left ( 1 - \text { s e n s i t i v i t y } \right ) \times \left ( 1 - \text { s p e c i f i c i t y } \right ) }
+\text { D O R }   =   \frac { \text { P P V } \times \text { N P V } } { \left ( 1 - \text { P P V } \right ) \times \left ( 1 - \text { N P V } \right ) }
+L R +
+L R -
+\text { D O R }   =   \frac { L R + } { L R - }
+S
+D   =   \log { \text { D O R } }   =   \log { \left [ \frac { T P R } { ( 1 - T P R ) } \times \frac { ( 1 - F P R ) } { F P R } \right ] }   =   \operatorname { l o g i t } ( T P R )   -   \operatorname { l o g i t } ( F P R )
+S   =   \operatorname { l o g i t } ( T P R )   +   \operatorname { l o g i t } ( F P R )
+D   =   a   +   b S
+\text { D O R }   =   \frac { T P / F P } { F N / T N }   =   \frac { 2 6 / 1 2 } { 3 / 4 8 }   =   3 4 . 6 6 6 \ldots   \approx   3 5

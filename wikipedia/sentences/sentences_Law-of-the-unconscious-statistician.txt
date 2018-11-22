@@ -1,0 +1,24 @@
+\operatorname   { E } [ g ( X ) ] = \sum   _ { x } g ( x ) f _ { X } ( x ) , \ ,
+{ \displaystyle   \operatorname   { E }   [ g ( X ) ] = \int   _ { - \infty   } ^ { \infty   } g ( x ) f _ { X } ( x ) \,\mathrm   { d }   x }
+{ \displaystyle   \operatorname   { E }   [ g ( X ) ] = \int   _ { - \infty   } ^ { \infty   } g ( x ) \,\mathrm   { d }   F _ { X } ( x ) }
+{ \displaystyle   \operatorname   { E }   [ g ( X , Y ) ] = \sum   _ { y } \sum   _ { x } g ( x , y ) f ( x , y ) }
+{ \displaystyle   \operatorname   { E }   [ g ( X , Y ) ] = \int   _ { - \infty   } ^ { \infty   } \int   _ { - \infty   } ^ { \infty   } g ( x , y ) f ( x , y ) \,\mathrm   { d }   x \,\mathrm   { d }   y }
+{ \displaystyle   { \frac   { d } { d y } } ( g ^ { - 1 } ( y ) ) = { \frac   { 1 } { g ^ { \prime   } ( g ^ { - 1 } ( y ) ) } } }
+{ \displaystyle   d x = { \frac   { 1 } { g ^ { \prime   } ( g ^ { - 1 } ( y ) ) } } d y }
+{ \displaystyle   \int   _ { - \infty   } ^ { \infty   } g ( x ) f _ { X } ( x ) d x = \int   _ { - \infty   } ^ { \infty   } y f _ { X } ( g ^ { - 1 } ( y ) ) { \frac   { 1 } { g ^ { \prime   } ( g ^ { - 1 } ( y ) ) } } d y }
+{ \displaystyle   F _ { Y } ( y ) = P ( Y \leq   y ) }
+{ \displaystyle   F _ { Y } ( y ) = F _ { X } ( g ^ { - 1 } ( y ) ) }
+{ \displaystyle   F _ { Y } ( y ) = f _ { X } ( g ^ { - 1 } ( y ) ) { \frac   { 1 } { g ^ { \prime   } ( g ^ { - 1 } ( y ) ) } } }
+{ \displaystyle   \int   _ { - \infty   } ^ { \infty   } g ( x ) f _ { X } ( x ) d x = \int   _ { - \infty   } ^ { \infty   } y F _ { Y } ( y ) d y }
+{ \displaystyle   E [ g ( X ) ] = \int   _ { - \infty   } ^ { \infty   } g ( x ) f _ { X } ( x ) d x }
+{ \displaystyle   E [ g ( X ) ] = { \underset   { y } { \sum   } } y f _ { Y } ( y ) }
+{ \displaystyle   E [ g ( X ) ] = { \underset   { y } { \sum   } } y P ( g ( X ) = y ) }
+{ \displaystyle   E [ g ( X ) ] = { \underset   { y } { \sum   } } y { \underset   { x : g ( x ) = y } { \sum   } } f _ { X } ( x ) }
+{ \displaystyle   E [ g ( X ) ] = { \underset   { x } { \sum   } } g ( x ) f _ { X } ( x ) }
+{ \displaystyle   \int   _ { \Omega   } g \circ   X \,\mathrm   { d }   P = \int   _ { \mathbb   { R }   } g \,\mathrm   { d }   ( X _ { * } P ) }
+X
+{ \displaystyle   \mathrm   { d }   ( X _ { * } P ) }
+\mu  
+{ \displaystyle   \mathrm   { d }   ( X _ { * } P ) = f \,\mathrm   { d }   \mu   }
+f : { \mathbb     { R } } \to   { \mathbb     { R } }
+{ \displaystyle   \operatorname   { E }   [ g ( X ) ] = \int   _ { \Omega   } g \circ   X \,\mathrm   { d }   P = \int   _ { \mathbb   { R }   } g ( x ) f ( x ) \,\mathrm   { d }   x }

@@ -1,0 +1,14 @@
+{ \displaystyle   T = { \sqrt   { \frac   { \phi   ^ { 2 } } { \sqrt   { ( r - 1 ) ( c - 1 ) } } } } }
+{ \displaystyle   \pi   _ { i j } }
+( i , j )
+{ \displaystyle   \pi   _ { i + } = \sum   _ { j = 1 } ^ { c } \pi   _ { i j } }
+{ \displaystyle   \pi   _ { + j } = \sum   _ { i = 1 } ^ { r } \pi   _ { i j } . }
+{ \displaystyle   \phi   ^ { 2 } = \sum   _ { i = 1 } ^ { r } \sum   _ { j = 1 } ^ { c } { \frac   { ( \pi   _ { i j } - \pi   _ { i + } \pi   _ { + j } ) ^ { 2 } } { \pi   _ { i + } \pi   _ { + j } } } , }
+{ \displaystyle   T = { \sqrt   { \frac   { \phi   ^ { 2 } } { \sqrt   { ( r - 1 ) ( c - 1 ) } } } } . }
+{ \displaystyle   \pi   _ { i j } = \pi   _ { i + } \pi   _ { + j } }
+{ \displaystyle   \pi   _ { i j } > 0 }
+{ \displaystyle   { \hat   { T } } = { \sqrt   { \frac   { \sum   _ { i = 1 } ^ { r } \sum   _ { j = 1 } ^ { c } { \frac   { ( p _ { i j } - p _ { i + } p _ { + j } ) ^ { 2 } } { p _ { i + } p _ { + j } } } } { \sqrt   { ( r - 1 ) ( c - 1 ) } } } } , }
+{ \displaystyle   p _ { i j } = n _ { i j } / n }
+( i , j )
+\chi   ^ { 2 }
+{ \displaystyle   { \hat   { T } } = { \sqrt   { \frac   { \chi   ^ { 2 } / n } { \sqrt   { ( r - 1 ) ( c - 1 ) } } } } . }

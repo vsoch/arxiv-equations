@@ -1,0 +1,57 @@
+{ \displaystyle   Y = \beta   _ { 0 } + \beta   _ { 1 } X + \varepsilon   }
+Y
+X
+b _ { 0 }
+b _ { 1 }
+\beta   _ { 0 }
+\beta   _ { 1 }
+{ \displaystyle   E ( Y _ { i } ) }
+{ \displaystyle   X = x _ { i } }
+{ \displaystyle   { \hat   { Y _ { i } } } = b _ { 0 } + b _ { 1 } x _ { i } }
+1 - \alpha  
+X
+{ \displaystyle   { \hat   { y } } _ { i } \in   \left [ b _ { 0 } + b _ { 1 } x _ { i } \pm   t _ { \alpha   / 2 , { \text { d f } } = n - 2 } { \sqrt   { \left ( { \frac   { 1 } { n - 2 } } \sum   _ { j = 1 } ^ { n } e _ { i } ^ { \,2 } \right ) \cdot   \left ( { \frac   { 1 } { n } } + { \frac   { ( x _ { i } - { \bar   { x } } ) ^ { 2 } } { \sum   _ { j = 1 } ^ { n } ( x _ { j } - { \bar   { x } } ) ^ { 2 } } } \right ) } } \right ] , }
+{ \displaystyle   \left ( { \frac   { 1 } { n - 2 } } \sum   _ { j = 1 } ^ { n } e _ { j } i ^ { \,2 } \right ) }
+{ \displaystyle   t _ { \alpha   / 2 , { \text { d f } } = n - 2 } }
+{ \displaystyle   { \frac   { \alpha   } { 2 } } ^ { \text { t h } } }
+n - 2
+1 - \alpha  
+{ \displaystyle   { \hat   { y } } _ { i } \in   \left [ b _ { 0 } + b _ { 1 } x _ { i } \pm   W { \sqrt   { \left ( { \frac   { 1 } { n - 2 } } \sum   _ { j = 1 } ^ { n } e _ { j } ^ { \,2 } \right ) \cdot   \left ( { \frac   { 1 } { n } } + { \frac   { ( x _ { i } - { \bar   { x } } ) ^ { 2 } } { \sum   _ { j = 1 } ^ { n } ( x _ { j } - { \bar   { x } } ) ^ { 2 } } } \right ) } } \right ] , }
+{ \displaystyle   W ^ { 2 } = 2 F _ { \alpha   , { \text { d f } } = ( 2 , n - 2 ) } }
+F
+{ \displaystyle   \alpha   ^ { \text { t h } } }
+{ \displaystyle   ( 2 , n - 2 ) }
+1 - \alpha  
+X
+{ \displaystyle   x _ { i } \in   \mathbb   { R }   }
+{ \displaystyle   \mathbf   { Y }   = \mathbf   { X }   { \boldsymbol   { \beta   } } + { \boldsymbol   { \varepsilon   } } , \ , }
+{ \displaystyle   \mathbf   { Y }   = { \begin { p m a t r i x } Y _ { 1 } \\Y_ { 2 } \\\vdots   \\Y_ { n } \end { p m a t r i x } } , \quad   \mathbf   { X }   = { \begin { p m a t r i x } \mathbf   { x }   _ { 1 } ^ { \rm   { T } } \\\mathbf   { x }   _ { 2 } ^ { \rm   { T } } \\\vdots   \\\mathbf   { x }   _ { n } ^ { \rm   { T } } \end { p m a t r i x } } = { \begin { p m a t r i x } x _ { 1 1 } & \cdots   & x _ { 1 p } \\x_ { 2 1 } & \cdots   & x _ { 2 p } \\\vdots   & \ddots   & \vdots   \\x_ { n 1 } & \cdots   & x _ { n p } \end { p m a t r i x } } , { \boldsymbol   { \beta   } } = { \begin { p m a t r i x } \beta   _ { 1 } \\\beta   _ { 2 } \\\vdots   \\\beta   _ { p } \end { p m a t r i x } } , \quad   { \boldsymbol   { \varepsilon   } } = { \begin { p m a t r i x } \varepsilon   _ { 1 } \\\varepsilon   _ { 2 } \\\vdots   \\\varepsilon   _ { n } \end { p m a t r i x } } . }
+{ \displaystyle   E ( Y _ { i } ) = \mathbf   { x }   _ { i } ^ { \rm   { T } } { \boldsymbol   { \beta   } } }
+{ \displaystyle   { \hat   { Y } } _ { i } = \mathbf   { x }   _ { i } ^ { \rm   { T } } \mathbf   { b }   }
+\mathbf   { b }  
+{ \boldsymbol   { \beta   } }
+{ \displaystyle   \mathbf   { b }   = ( \mathbf   { X }   ^ { \rm   { T } } \mathbf   { X }   ) ^ { - 1 } \mathbf   { X }   ^ { \rm   { T } } \mathbf   { Y }   }
+1 - \alpha  
+{ \displaystyle   { \hat   { y } } _ { i } \in   \left [ \mathbf   { x }   _ { i } ^ { \rm   { T } } \mathbf   { b }   \pm   t _ { \alpha   / 2 , { \text { d f } } = n - p } { \sqrt   { \operatorname   { M S E }   ( \mathbf   { x }   _ { i } ^ { \rm   { T } } ( \mathbf   { X }   ^ { \rm   { T } } \mathbf   { X }   ) ^ { - 1 } \mathbf   { x }   _ { i } } } ) \right ] , }
+{ \displaystyle   \operatorname   { M S E }   }
+{ \displaystyle   ( Y ^ { \rm   { T } } Y - \mathbf   { b }   ^ { \rm   { T } } X ^ { \rm   { T } } Y ) }
+{ \displaystyle   { \hat   { y } } _ { i } \in   \left [ \mathbf   { x }   _ { i } ^ { \rm   { T } } \mathbf   { b }   \pm   W { \sqrt   { \operatorname   { M S E }   ( \mathbf   { x }   _ { i } ^ { \rm   { T } } ( \mathbf   { X }   ^ { \rm   { T } } \mathbf   { X }   ) ^ { - 1 } \mathbf   { x }   _ { i } } } ) \right ] , }
+{ \displaystyle   W ^ { 2 } = 2 F _ { \alpha   , { \text { d f } } = ( p , n - p ) } }
+{ \displaystyle   \beta   _ { 0 } + \beta   _ { 1 } ( x _ { i } - { \bar   { x } } ) \in   \left [ b _ { 0 } + b _ { 1 } ( x _ { i } - { \bar   { x } } ) \pm   m _ { \alpha   , 2 , { \text { d f } } = n - 2 } \cdot   \left ( { \frac   { 1 } { \sqrt   { n } } } + { \frac   { | x _ { i } - { \bar   { x } } | } { \sqrt   { \sum   _ { j = 1 } ^ { n } ( x _ { j } - { \bar   { x } } ) } } } \right ) \right ] }
+{ \displaystyle   m _ { \alpha   , 2 , { \text { d f } } = n - 2 } }
+{ \displaystyle   \alpha   ^ { \text { t h } } }
+n   -   2
+b _ { 0 }
+b _ { 1 }
+W ^ { 2 }
+{ \displaystyle   F _ { 0 . 9 5 , { \text { d f } } = ( 2 , 1 5 - 2 ) } = 2 . 7 5 8 8 2 8 }
+{ \displaystyle   { \bar   { x } } = 1 . 6 5 1 }
+{ \displaystyle   \sum   _ { j = 1 } ^ { n } e _ { j } ^ { \,2 } = 7 . 4 9 0 5 5 8 }
+{ \displaystyle   \operatorname   { M S E }   = 0 . 5 7 6 1 9 6 8 }
+{ \displaystyle   \sum   _ { j = 1 } ^ { n } ( x _ { j } - { \bar   { x } } ) ^ { 2 } = 6 9 3 . 3 7 2 6 }
+{ \displaystyle   { \hat   { y } } _ { i } \in   \left [ - 3 9 . 0 6 + 6 1 . 2 7 x _ { i } \pm   { \sqrt   { 2 . 7 5 8 8 2 8 \cdot   0 . 5 7 6 1 9 6 8 \cdot   \left ( { \frac   { 1 } { 1 5 } } + { \frac   { ( x _ { i } - 1 . 6 5 1 ) ^ { 2 } } { 6 9 3 . 3 7 2 6 } } \right ) } } \right ] , }
+1 - \alpha  
+{ \displaystyle   x _ { i } \in   \mathbb   { R }   }
+{ \displaystyle   \pm   { \sqrt   { W } } }
+{ \displaystyle   \pm   t _ { 1 - \alpha   / g , { \text { d f } } = n - p } }
+g

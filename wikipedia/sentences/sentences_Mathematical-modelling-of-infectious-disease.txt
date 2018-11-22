@@ -1,0 +1,47 @@
+\ R_ { 0 } \ =1 .
+S = { \frac     { A } { L } } .
+S = { \frac     { 1 } { R _ { 0 } } } .
+{ \frac     { 1 } { R _ { 0 } } } = { \frac     { A } { L } } \Rightarrow   R _ { 0 } = { \frac     { L } { A } } .
+R _ { 0 } = 1 + { \frac     { L } { A } } .
+S ( t )
+I ( t )
+R ( t )
+S ( t )
+I ( t )
+R ( t )
+{ \color   { b l u e } { { \mathcal     { S } } \rightarrow   { \mathcal     { I } } \rightarrow   { \mathcal     { R } } } }
+N = S ( t ) + I ( t ) + R ( t )
+{ \frac     { d S } { d t } } = - { \frac     { \beta   S I } { N } }
+{ \frac     { d I } { d t } } = { \frac     { \beta   S I } { N } } - \gamma   I
+{ \frac     { d R } { d t } } = \gamma   I
+\beta  
+\beta   N
+S / N
+\beta   N ( S / N )
+\beta   N ( S / N ) I = \beta   S I
+\gamma  
+1 / \gamma  
+{ \textstyle   E [ m i n ( T _ { L } | T _ { S } ) ] }
+{ \textstyle   T _ { L } }
+{ \textstyle   T _ { S } }
+{ \displaystyle   E [ m i n ( T _ { L } | T _ { S } ) ] = \int   _ { 0 } ^ { \inf [ } e x p ^ { - ( \mu   + \delta   ) } = { \frac   { 1 } { \mu   + \delta   } } }
+{ \textstyle   \mu   N }
+{ \displaystyle   S = { \frac   { \mu   N } { \mu   + \lambda   } } }
+{ \textstyle   \lambda   = { \frac   { \beta   I } { N } } }
+{ \textstyle   { \frac   { 1 } { \mu   + v } } }
+{ \displaystyle   I = { \frac   { \mu   N } { \mu   + \lambda   } } \lambda   { \frac   { 1 } { \mu   + v } } }
+\ R_ { 0 } \cdot   S = 1 .
+{ \displaystyle   R _ { 0 } = { \frac   { N } { S } } = { \frac   { \mu   N E ( T _ { L } ) } { \mu   N E [ m i n ( T _ { L } , T _ { S } ) } } = { \frac   { E ( T _ { L } ) } { E [ m i n ( T _ { L } , T _ { S } ) ] } } }
+{ \displaystyle   { \frac   { E ( T _ { L } ) } { E ( T _ { S } ) } } = 1 + { \frac   { \lambda   } { \mu   } } = { \frac   { \beta   N } { v } } }
+\ R_ { 0 } \cdot   ( 1 - q ) = 1 ,
+1 - q = { \frac     { 1 } { R _ { 0 } } } ,
+q = 1 - { \frac     { 1 } { R _ { 0 } } } .
+q _ { c } = 1 - { \frac     { 1 } { R _ { 0 } } }
+{ \displaystyle   \lim   _ { t - > \inf   } S ( t ) = \exp   ^ { - \int   _ { 0 } ^ { \inf   } { \lambda   ( t ) d t } } = 1 - p }
+{ \displaystyle   p = 1 - \exp   ^ { - \int   _ { 0 } ^ { \inf   } { \beta   I ( t ) d t } } = 1 - \exp   ^ { - R _ { 0 } p } }
+{ \displaystyle   \ R_ { 0 } }
+{ \displaystyle   { R _ { 0 } } = { \frac   { - l n ( 1 - p ) } { p } } }
+\ R_ { q } = R _ { 0 } ( 1 - q )
+\ R_ { q } = { \frac     { L } { A _ { q } } } ,
+\ A_ { q } = { \frac     { L } { R _ { q } } } = { \frac     { L } { R _ { 0 } ( 1 - q ) } } .
+\ { A _ { q } } = { \frac     { L } { ( L / A ) ( 1 - q ) } } = { \frac     { A L } { L ( 1 - q ) } } = { \frac     { A } { 1 - q } } .

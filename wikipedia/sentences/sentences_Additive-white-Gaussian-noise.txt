@@ -1,0 +1,111 @@
+Y _ { i }
+i
+Y _ { i }
+X _ { i }
+Z _ { i }
+Z _ { i }
+N
+Z _ { i }
+X _ { i }
+Z _ { i } \sim   { \mathcal     { N } } ( 0 , N ) \ , \ !
+{ \displaystyle   Y _ { i } = X _ { i } + Z _ { i } . \ , \ ! }
+X _ { i }
+( x _ { 1 } , x _ { 2 } , \dots   , x _ { k } )
+{ \frac     { 1 } { k } } \sum   _ { { i = 1 } } ^ { k } x _ { i } ^ { 2 } \leq   P ,
+P
+C = \max   _ { { f ( x ) { \text {   s . t .   } } E \left ( X ^ { 2 } \right ) \leq   P } } I ( X ; Y ) \ , \ !
+f ( x )
+X
+I ( X ; Y )
+{ \begin { a l i g n e d } I ( X ; Y ) = h ( Y ) - h ( Y | X ) & = h ( Y ) - h ( X + Z | X ) & = h ( Y ) - h ( Z | X ) \end { a l i g n e d } } \ , \ !
+X
+Z
+I ( X ; Y ) = h ( Y ) - h ( Z ) \ , \ !
+h ( Z ) = { \frac     { 1 } { 2 } } \log ( 2 \pi   e N ) \ , \ !
+X
+Z
+Y
+{ \displaystyle   E ( Y ^ { 2 } ) = E ( ( X + Z ) ^ { 2 } ) = E ( X ^ { 2 } ) + 2 E ( X ) E ( Z ) + E ( Z ^ { 2 } ) = P + N \ , \ ! }
+h ( Y ) \leq   { \frac     { 1 } { 2 } } \log ( 2 \pi   e ( P + N ) ) \ , \ !
+I ( X ; Y ) \leq   { \frac     { 1 } { 2 } } \log ( 2 \pi   e ( P + N ) ) - { \frac     { 1 } { 2 } } \log ( 2 \pi   e N ) \ , \ !
+I ( X ; Y )
+X \sim   { \mathcal     { N } } ( 0 , P ) \ , \ !
+C
+C = { \frac     { 1 } { 2 } } \log   \left ( 1 + { \frac     { P } { N } } \right ) \ , \ !
+1
+M
+M
+n
+R
+R = { \frac     { \log   M } { n } } \ , \ !
+n
+C
+n
+N
+N
+{ \sqrt     { n ( N + \epsilon   ) } }
+n
+n ( P + N )
+{ \sqrt     { n ( P + N ) } }
+{ \sqrt     { n N } }
+r ^ { n }
+{ \frac     { ( n ( P + N ) ) ^ { { \frac     { n } { 2 } } } } { ( n N ) ^ { { \frac     { n } { 2 } } } } } = 2 ^ { { { \frac     { n } { 2 } } \log ( 1 + P / N ) } } \ , \ !
+{ \frac     { 1 } { 2 } } \log ( 1 + P / N )
+P - \epsilon  
+X ^ { n } ( i )
+i
+Y ^ { n }
+U
+P
+V
+E _ { j }
+( X ^ { n } ( j ) , Y ^ { n } )
+A _ { \epsilon   } ^ { { ( n ) } }
+i \neq   j
+U
+V
+E _ { i }
+P ( U )
+P ( V )
+n
+P ( U )
+P ( V )
+\epsilon  
+X ^ { n } ( i )
+X ^ { n } ( j )
+i \neq   j
+X ^ { n } ( i )
+Y ^ { n }
+P ( E _ { j } ) = 2 ^ { { - n ( I ( X ; Y ) - 3 \epsilon   ) } }
+P _ { e } ^ { { ( n ) } }
+{ \begin { a l i g n e d } P _ { e } ^ { { ( n ) } } & \leq   P ( U ) + P ( V ) + \sum   _ { { j \neq   i } } P ( E _ { j } ) \\&\leq   \epsilon   + \epsilon   + \sum   _ { { j \neq   i } } 2 ^ { { - n ( I ( X ; Y ) - 3 \epsilon   ) } } \\&\leq   2 \epsilon   + ( 2 ^ { { n R } } - 1 ) 2 ^ { { - n ( I ( X ; Y ) - 3 \epsilon   ) } } \\&\leq   2 \epsilon   + ( 2 ^ { { 3 n \epsilon   } } ) 2 ^ { { - n ( I ( X ; Y ) - R ) } } \\&\leq   3 \epsilon   \end { a l i g n e d } }
+P _ { e } ^ { { ( n ) } }
+R < I ( X ; Y ) - 3 \epsilon  
+C = { \frac     { 1 } { 2 } } \log ( 1 + { \frac     { P } { N } } )
+W
+{ \hat     { W } }
+W \longrightarrow   X ^ { { ( n ) } } ( W ) \longrightarrow   Y ^ { { ( n ) } } \longrightarrow   { \hat     { W } }
+H ( W | { \hat     { W } } ) \leq   1 + n R P _ { e } ^ { { ( n ) } } = n \epsilon   _ { n }
+\epsilon   _ { n } \rightarrow   0
+P _ { e } ^ { { ( n ) } } \rightarrow   0
+X _ { i }
+{ \displaystyle   { \begin { a l i g n e d } n R & = H ( W ) \\&=I ( W ; { \hat   { W } } ) + H ( W | { \hat   { W } } ) \\&\leq   I ( W ; { \hat   { W } } ) + n \epsilon   _ { n } \\&\leq   I ( X ^ { ( n ) } ; Y ^ { ( n ) } ) + n \epsilon   _ { n } \\&=h ( Y ^ { ( n ) } ) - h ( Y ^ { ( n ) } | X ^ { ( n ) } ) + n \epsilon   _ { n } \\&=h ( Y ^ { ( n ) } ) - h ( Z ^ { ( n ) } ) + n \epsilon   _ { n } \\&\leq   \sum   _ { i = 1 } ^ { n } h ( Y _ { i } ) - h ( Z ^ { ( n ) } ) + n \epsilon   _ { n } \\&\leq   \sum   _ { i = 1 } ^ { n } I ( X _ { i } ; Y _ { i } ) + n \epsilon   _ { n } \end { a l i g n e d } } }
+P _ { i }
+P _ { i } = { \frac     { 1 } { 2 ^ { { n R } } } } \sum   _ { { w } } x _ { i } ^ { 2 } ( w ) \ , \ !
+w
+X _ { i }
+Z _ { i }
+Y _ { i }
+N
+E ( Y _ { i } ^ { 2 } ) = P _ { i } + N \ , \ !
+Y _ { i }
+h ( Y _ { i } ) \leq   { \frac     { 1 } { 2 } } \log   { 2 \pi   e } ( P _ { i } + N ) \ , \ !
+{ \begin { a l i g n e d } n R & \leq   \sum   ( h ( Y _ { i } ) - h ( Z _ { i } ) ) + n \epsilon   _ { n } \\&\leq   \sum   \left ( { \frac     { 1 } { 2 } } \log ( 2 \pi   e ( P _ { i } + N ) ) - { \frac     { 1 } { 2 } } \log ( 2 \pi   e N ) \right ) + n \epsilon   _ { n } \\&=\sum   { \frac     { 1 } { 2 } } \log ( 1 + { \frac     { P _ { i } } { N } } ) + n \epsilon   _ { n } \end { a l i g n e d } }
+\log ( 1 + x )
+{ \frac     { 1 } { n } } \sum   _ { { i = 1 } } ^ { { n } } { \frac     { 1 } { 2 } } \log   \left ( 1 + { \frac     { P _ { i } } { N } } \right ) \leq   { \frac     { 1 } { 2 } } \log   \left ( 1 + { \frac     { 1 } { n } } \sum   _ { { i = 1 } } ^ { { n } } { \frac     { P _ { i } } { N } } \right ) \ , \ !
+{ \frac     { 1 } { n } } \sum   _ { { i = 1 } } ^ { { n } } { \frac     { P _ { i } } { N } } \ , \ !
+{ \frac     { 1 } { 2 } } \log   \left ( 1 + { \frac     { 1 } { n } } \sum   _ { { i = 1 } } ^ { { n } } { \frac     { P _ { i } } { N } } \right ) \leq   { \frac     { 1 } { 2 } } \log   \left ( 1 + { \frac     { P } { N } } \right ) \ , \ !
+R \leq   { \frac     { 1 } { 2 } } \log   \left ( 1 + { \frac     { P } { N } } \right ) + \epsilon   _ { n }
+\epsilon   _ { n } \rightarrow   0
+{ \frac     { { \mathrm     { p o s i t i v e \ zero \ crossings } } } { { \mathrm     { s e c o n d } } } } = { \frac     { { \mathrm     { n e g a t i v e \ zero \ crossings } } } { { \mathrm     { s e c o n d } } } }
+= f _ { 0 } { \sqrt     { { \frac     { { \mathrm     { S N R } } + 1 + { \frac     { B ^ { 2 } } { 1 2 f _ { 0 } ^ { 2 } } } } { { \mathrm     { S N R } } + 1 } } } }

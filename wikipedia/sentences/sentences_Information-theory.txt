@@ -1,0 +1,17 @@
+\lim   _ { p \rightarrow   0 + } p \log   p = 0
+{ \displaystyle   H = - \sum   _ { i } p _ { i } \log   _ { 2 } ( p _ { i } ) }
+x \in   \mathbb   { X }  
+H ( X ) = \mathbb   { E }   _ { X } [ I ( x ) ] = - \sum   _ { x \in   \mathbb   { X }   } p ( x ) \log   p ( x ) .
+H _ { \mathrm   { b }   } ( p ) = - p \log   _ { 2 } p - ( 1 - p ) \log   _ { 2 } ( 1 - p ) .
+H ( X , Y ) = \mathbb   { E }   _ { X , Y } [ - \log   p ( x , y ) ] = - \sum   _ { x , y } p ( x , y ) \log   p ( x , y ) \ ,
+{ \displaystyle   H ( X | Y ) = \mathbb   { E }   _ { Y } [ H ( X | y ) ] = - \sum   _ { y \in   Y } p ( y ) \sum   _ { x \in   X } p ( x | y ) \log   p ( x | y ) = - \sum   _ { x , y } p ( x , y ) \log   p ( x | y ) . }
+H ( X | Y ) = H ( X , Y ) - H ( Y ) . \ ,
+I ( X ; Y ) = \mathbb   { E }   _ { X , Y } [ S I ( x , y ) ] = \sum   _ { x , y } p ( x , y ) \log   { \frac   { p ( x , y ) } { p ( x ) \,p ( y ) } }
+I ( X ; Y ) = H ( X ) - H ( X | Y ) . \ ,
+I ( X ; Y ) = I ( Y ; X ) = H ( X ) + H ( Y ) - H ( X , Y ) . \ ,
+I ( X ; Y ) = \mathbb   { E }   _ { p ( y ) } [ D _ { \mathrm   { K L }   } ( p ( X | Y = y ) \|p ( X ) ) ] .
+I ( X ; Y ) = D _ { \mathrm   { K L }   } ( p ( X , Y ) \|p ( X ) p ( Y ) ) .
+D _ { \mathrm   { K L }   } ( p ( X ) \|q ( X ) ) = \sum   _ { x \in   X } - p ( x ) \log   { q ( x ) } \,-\,\sum   _ { x \in   X } - p ( x ) \log   { p ( x ) } = \sum   _ { x \in   X } p ( x ) \log   { \frac   { p ( x ) } { q ( x ) } } .
+r = \lim   _ { n \to   \infty   } H ( X _ { n } | X _ { n - 1 } , X _ { n - 2 } , X _ { n - 3 } , \ldots   ) ;
+r = \lim   _ { n \to   \infty   } { \frac   { 1 } { n } } H ( X _ { 1 } , X _ { 2 } , \dots   X _ { n } ) ;
+C = \max   _ { f } I ( X ; Y ) . \ !

@@ -1,0 +1,15 @@
+\mu  
+\sigma   ^ { 2 }
+{ \overline   { X } }
+S ^ { 2 }
+Z = { \sqrt     { n } } ( \overline   { X } - \mu   ) / \sigma   \sim   N ( 0 , 1 )
+{ \displaystyle   U = n S ^ { 2 } / \sigma   ^ { 2 } \sim   \chi   _ { n - 1 } ^ { 2 } }
+\rho   = \mu   / \sigma  
+\rho  
+{ \displaystyle   R = { \frac   { { \overline   { x } } S } { s \sigma   } } - { \frac   { { \overline   { X } } - \mu   } { \sigma   } } = { \frac   { \overline   { x } } { s } } { \frac   { \sqrt   { U } } { \sqrt   { n } } } ~ - ~ { \frac   { Z } { \sqrt   { n } } } }
+{ \overline   { x } }
+{ \overline   { X } }
+S
+s
+\rho  
+R

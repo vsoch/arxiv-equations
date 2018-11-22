@@ -1,0 +1,23 @@
+B _ { t }
+( \Omega   , { \mathcal   { F } } , { \mathcal   { F } } _ { t } , P )
+{ \mathcal   { G } } _ { t }
+B
+{ \mathcal   { G } } _ { \infty   }
+{ \mathcal   { G } } _ { t }
+X = E ( X ) + \int   _ { 0 } ^ { \infty   } C _ { s } \,dB_ { s } .
+E ( X | { \mathcal   { G } } _ { t } ) = E ( X ) + \int   _ { 0 } ^ { t } C _ { s } \,dB_ { s } .
+\left ( M _ { t } \right ) _ { 0 \leq   t < \infty   }
+\sigma   _ { t }
+\left ( N _ { t } \right ) _ { 0 \leq   t < \infty   }
+{ \mathcal   { F } }
+\phi  
+\int   _ { 0 } ^ { T } \phi   _ { t } ^ { 2 } \sigma   _ { t } ^ { 2 } \,dt < \infty  
+N _ { t } = N _ { 0 } + \int   _ { 0 } ^ { t } \phi   _ { s } \,dM_ { s } .
+\phi   _ { t }
+\psi   _ { t } B _ { t } = C _ { t } - \phi   _ { t } Z _ { t }
+Z _ { t }
+t
+C _ { t }
+t
+V _ { T } = \phi   _ { T } S _ { T } + \psi   _ { T } B _ { T } = C _ { T } = X
+\left ( d V _ { t } = \phi   _ { t } d S _ { t } + \psi   _ { t } \,dB_ { t } \right )

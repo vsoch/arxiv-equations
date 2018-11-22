@@ -1,0 +1,34 @@
+\Pr ( R \cap   B \mid   Y ) = \Pr ( R \mid   Y ) \Pr ( B \mid   Y ) \ ,
+\Pr ( R \cap   B \mid   { \text { n o t   } } Y ) \not   = \Pr ( R \mid   { \text { n o t   } } Y ) \Pr ( B \mid   { \text { n o t   } } Y ) . \ ,
+\Pr ( R \cap   B \mid   Y ) = \Pr ( R \mid   Y ) \Pr ( B \mid   Y ) , \ ,
+\Pr ( R \mid   B \cap   Y ) = \Pr ( R \mid   Y ) . \ ,
+\Pr ( R \cap   B \mid   \Sigma   ) = \Pr ( R \mid   \Sigma   ) \Pr ( B \mid   \Sigma   ) \ a . s .
+\Pr ( A \mid   \Sigma   )
+A
+\chi   _ { A }
+\Sigma  
+\Pr ( A \mid   \Sigma   ) : = \operatorname   { E }   [ \chi   _ { A } \mid   \Sigma   ] .
+X \perp   \!\!\!\perp   Y \mid   W
+X \perp   Y \mid   W
+( X \perp   \!\!\!\perp   Y ) \mid   W
+X \perp   \!\!\!\perp   Y \Rightarrow   Y \perp   \!\!\!\perp   X
+X \perp   \!\!\!\perp   Y \mid   K \Rightarrow   Y \perp   \!\!\!\perp   X \mid   K
+X \perp   \!\!\!\perp   Y \quad   \Rightarrow   \quad   Y \perp   \!\!\!\perp   X
+X \perp   \!\!\!\perp   A , B \quad   \Rightarrow   \quad   { \text {   a n d   } } { \begin { c a s e s } X \perp   \!\!\!\perp   A \\X \perp   \!\!\!\perp   B \end { c a s e s } }
+p _ { X , A , B } ( x , a , b ) = p _ { X } ( x ) p _ { A , B } ( a , b )
+X \perp   \!\!\!\perp   A , B
+\int   _ { B } \!p_ { X , A , B } ( x , a , b ) = \int   _ { B } \!p_ { X } ( x ) p _ { A , B } ( a , b )
+p _ { X , A } ( x , a ) = p _ { X } ( x ) p _ { A } ( a )
+X \perp   \!\!\!\perp   A , B \quad   \Rightarrow   \quad   { \text {   a n d   } } { \begin { c a s e s } X \perp   \!\!\!\perp   A \mid   B \\X \perp   \!\!\!\perp   B \mid   A \end { c a s e s } }
+\Pr ( X ) = \Pr ( X \mid   A , B )
+X \perp   \!\!\!\perp   B
+\Pr ( X ) = \Pr ( X \mid   B )
+\Pr ( X \mid   B ) = \Pr ( X \mid   A , B )
+X \perp   \!\!\!\perp   A \mid   B
+\left . { \begin { a l i g n e d } X \perp   \!\!\!\perp   A \mid   B \\X \perp   \!\!\!\perp   B \end { a l i g n e d } } \right \}{ \text {   a n d   } } \quad   \Rightarrow   \quad   X \perp   \!\!\!\perp   A , B
+\Pr ( X \mid   A , B ) = \Pr ( X \mid   B ) = \Pr ( X )
+X \perp   \!\!\!\perp   A \mid   B
+X \perp   \!\!\!\perp   B
+\left . { \begin { a l i g n e d } X \perp   \!\!\!\perp   A \mid   B \\X \perp   \!\!\!\perp   B \end { a l i g n e d } } \right \}{ \text {   a n d   } } \quad   \iff   \quad   X \perp   \!\!\!\perp   A , B \quad   \Rightarrow   \quad   { \text {   a n d   } } { \begin { c a s e s } X \perp   \!\!\!\perp   A \mid   B \\X \perp   \!\!\!\perp   B \\X \perp   \!\!\!\perp   B \mid   A \\X \perp   \!\!\!\perp   A \\\end { c a s e s } }
+\left . { \begin { a l i g n e d } X \perp   \!\!\!\perp   A \mid   C , B \\X \perp   \!\!\!\perp   B \mid   C , A \end { a l i g n e d } } \right \}{ \text {   a n d   } } \quad   \Rightarrow   \quad   X \perp   \!\!\!\perp   B , A \mid   C
+X \perp   \!\!\!\perp   A \mid   B

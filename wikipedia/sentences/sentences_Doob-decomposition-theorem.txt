@@ -1,0 +1,11 @@
+A _ n = \sum_ { k = 1 } ^ n \bigl ( \mathbb { E } [ X _ k \,|\,\mathcal { F } _ { k - 1 } ] - X _ { k - 1 } \bigr )
+M _ n = X _ 0 + \sum_ { k = 1 } ^ n \bigl ( X _ k - \mathbb { E } [ X _ k \,|\,\mathcal { F } _ { k - 1 } ] \bigr ) ,
+\mathbb { E } [ M _ n - M _ { n - 1 } \,|\,\mathcal { F } _ { n - 1 } ] = 0
+\mathbb { E } [ Y _ n \,|\,\mathcal { F } _ { n - 1 } ] = Y _ { n - 1 }
+\mathbb { E } [ Y _ n \,|\,\mathcal { F } _ { n - 1 } ] =   Y _ n
+\mathbb { E } [ X _ k \,|\,\mathcal { F } _ { k - 1 } ] \ge   X _ { k - 1 }
+A _ n = \sum_ { k = 1 } ^ { n } \bigl ( \mathbb { E } [ X _ k ] - X _ { k - 1 } \bigr ) , \quad   n \in \mathbb { N } _ 0 ,
+M _ n = X _ 0 + \sum_ { k = 1 } ^ { n } \bigl ( X _ k - \mathbb { E } [ X _ k ] \bigr ) , \quad   n \in \mathbb { N } _ 0 .
+A _ n = - \sum_ { k = 0 } ^ { n - 1 } X _ k
+M _ n = \sum_ { k = 0 } ^ { n } X _ k , \quad   n \in \mathbb { N } _ 0 ,
+\tau_ { \text { m a x } } : = \begin { c a s e s } N & \text { i f   } A _ N = 0 , \\\min \{ n \in \{ 0 , \dots , N - 1 \}\mid   A _ { n + 1 } < 0 \}&\text { i f   }   A _ N < 0 . \end { c a s e s }

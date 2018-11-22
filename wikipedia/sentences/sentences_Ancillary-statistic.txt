@@ -1,0 +1,3 @@
+\overline { X } _ n   =   \frac { X _ 1 + \,\cdots \,+X_n } { n }
+\hat { \sigma } ^ 2 : = \,\frac { \sum   \left ( X _ i - \overline { X } \right ) ^ 2 } { n }
+{ \overline   { X } }

@@ -1,0 +1,25 @@
+{ \bar   { x } }
+{ \displaystyle   { \bar   { s } } = { \frac   { \sum   _ { i = 1 } ^ { m } { \sqrt   { \frac   { \sum   _ { j = 1 } ^ { n } \left ( x _ { i j } - { \bar   { \bar   { x } } } \right ) ^ { 2 } } { n - 1 } } } } { m } } }
+{ \displaystyle   B _ { 4 } { \bar   { S } } }
+{ \displaystyle   B _ { 3 } { \bar   { S } } }
+{ \displaystyle   { \bar   { s } } _ { i } = { \sqrt   { \frac   { \sum   _ { j = 1 } ^ { n } \left ( x _ { i j } - { \bar   { x } } _ { i } \right ) ^ { 2 } } { n - 1 } } } }
+{ \bar     x } = { \frac     { \sum   _ { { i = 1 } } ^ { m } \sum   _ { { j = 1 } } ^ { n } x _ { { i j } } } { m n } }
+{ \displaystyle   { \bar   { x } } \pm   A _ { 3 } { \bar   { s } } }
+{ \bar     x } _ { i } = { \frac     { \sum   _ { { j = 1 } } ^ { n } x _ { { i j } } } { n } }
+{ \bar   { x } }
+{ \bar   { x } }
+{ \bar   { x } }
+{ \bar   { x } }
+{ \bar     x } _ { i }
+{ \displaystyle   s = { \sqrt   { \frac   { \sum   _ { i = 1 } ^ { n } { \left ( x _ { i } - { \bar   { x } } \right ) } ^ { 2 } } { n - 1 } } } }
+{ \displaystyle   B _ { 3 } { \bar   { s } } }
+{ \displaystyle   B _ { 4 } { \bar   { s } } }
+{ \displaystyle   { \bar   { x } } \pm   A _ { 3 } { \bar   { s } } }
+{ \bar   { x } }
+{ \displaystyle   { \bar   { s } } = { \frac   { \sum   _ { i = 1 } ^ { m } s _ { i } } { m } } }
+{ \bar   { x } }
+{ \bar   { x } }
+{ \bar   { x } }
+{ \bar   { x } }
+{ \bar   { x } }
+{ \bar   { x } }

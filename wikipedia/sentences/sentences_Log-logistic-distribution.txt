@@ -1,0 +1,66 @@
+\alpha = 1 ,
+\beta  
+\alpha = 1 ,
+\beta  
+\alpha   > 0
+\beta >   0
+x \in [ 0 , \infty )
+  \frac {   ( \beta / \alpha ) ( x / \alpha ) ^ { \beta - 1 }   }                                                 {   \left   ( 1 + ( x / \alpha ) ^ { \beta }   \right ) ^ 2     }
+{   1   \over   1 + ( x / \alpha ) ^ { - \beta }   }
+{ \alpha \,\pi / \beta   \over   \sin ( \pi / \beta ) }
+\beta > 1
+\alpha   \ ,
+\alpha \left ( \frac { \beta - 1 } { \beta + 1 } \right ) ^ { 1 / \beta }
+\beta >   1
+\alpha   > 0
+\beta   > 0
+\beta > 1
+\beta  
+{ \begin { a l i g n e d } F ( x ; \alpha   , \beta   ) & = { 1   \over   1 + ( x / \alpha   ) ^ { { - \beta   } } } \\&={ ( x / \alpha   ) ^ { \beta   }   \over   1 + ( x / \alpha   ) ^ { \beta   } } \\&={ x ^ { \beta   }   \over   \alpha   ^ { \beta   } + x ^ { \beta   } } \end { a l i g n e d } }
+x > 0
+\alpha   > 0
+\beta   > 0 .
+f ( x ; \alpha   , \beta   ) = { \frac     { ( \beta   / \alpha   ) ( x / \alpha   ) ^ { { \beta   - 1 } } } { \left ( 1 + ( x / \alpha   ) ^ { { \beta   } } \right ) ^ { 2 } } }
+\mu   , s
+\mu   = \ln ( \alpha   )
+s = 1 / \beta  
+k
+k < \beta   ,
+{ \begin { a l i g n e d } \operatorname   { E } ( X ^ { k } ) & = \alpha   ^ { k } \,\operatorname   { B } ( 1 - k / \beta   , \,1 + k / \beta   ) \\&=\alpha   ^ { k } \,{ k \,\pi   / \beta     \over   \sin ( k \,\pi   / \beta   ) } \end { a l i g n e d } }
+b = \pi   / \beta  
+\operatorname   { E } ( X ) = \alpha   b / \sin   b , \quad   \beta   > 1 ,
+\operatorname   { V a r } ( X ) = \alpha   ^ { 2 } \left ( 2 b / \sin   2 b - b ^ { 2 } / \sin   ^ { 2 } b \right ) , \quad   \beta   > 2 .
+\beta  
+\alpha  
+F ^ { { - 1 } } ( p ; \alpha   , \beta   ) = \alpha   \left ( { \frac     { p } { 1 - p } } \right ) ^ { { 1 / \beta   } } .
+\alpha  
+{ \displaystyle   3 ^ { - 1 / \beta   } \alpha   }
+{ \displaystyle   3 ^ { 1 / \beta   } \alpha   }
+\alpha = 1 ,
+\beta  
+\beta   > 1 ,
+\beta  
+\alpha  
+\alpha  
+\beta  
+\log ( \alpha   )
+S ( t ) = 1 - F ( t ) = [ 1 + ( t / \alpha   ) ^ { { \beta   } } ] ^ { { - 1 } } , \ ,
+h ( t ) = { \frac     { f ( t ) } { S ( t ) } } = { \frac     { ( \beta   / \alpha   ) ( t / \alpha   ) ^ { { \beta   - 1 } } } { 1 + ( t / \alpha   ) ^ { { \beta   } } } } .
+1 / \beta  
+{ \displaystyle   X \sim   L L ( \alpha   , \beta   ) }
+{ \displaystyle   k X \sim   L L ( k \alpha   , \beta   ) . }
+{ \displaystyle   L L ( \alpha   , \beta   ) \sim   { \textrm   { D a g u m } } ( 1 , \alpha   , \beta   ) }
+{ \displaystyle   L L ( \alpha   , \beta   ) \sim   { \textrm   { S i n g h M a d d a l a } } ( 1 , \alpha   , \beta   ) }
+{ \displaystyle   { \textrm   { L L } } ( \gamma   , \sigma   ) \sim   \beta   ' ( 1 , 1 , \gamma   , \sigma   ) }
+\alpha  
+\beta  
+\log ( \alpha   )
+{ \displaystyle   1 / \beta   . }
+\beta  
+{ \displaystyle   L L ( \alpha   , \beta   ) \to   L ( \alpha   , \alpha   / \beta   ) \quad   { \text { a s } } \quad   \beta   \to   \infty   . }
+\beta   = 1
+\alpha  
+\mu   = 0
+\xi   = 1
+\alpha   :
+{ \displaystyle   L L ( \alpha   , 1 ) = G P D ( 1 , \alpha   , 1 ) . }

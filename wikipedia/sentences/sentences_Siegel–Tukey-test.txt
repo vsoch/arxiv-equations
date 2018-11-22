@@ -1,0 +1,3 @@
+{ \displaystyle   \Pr   \left [ X \leq   \min ( U _ { A } , U _ { B } ) \right ] \ ! }
+{ \displaystyle   X \sim   { \text { W i l c o x o n } } ( m , n ) \ , \ ! }
+{ \displaystyle   \Pr   \left [ x \leq   1 6 \right ] = 0 . 2 6 6 9 . \ , \ ! }

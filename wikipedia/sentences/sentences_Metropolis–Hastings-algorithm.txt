@@ -1,0 +1,111 @@
+P ( x )
+f ( x )
+P
+f ( x )
+P ( x )
+f ( x )
+P ( x )
+f ( x )
+P ( x )
+x _ { 0 }
+{ \displaystyle   g ( x | y ) }
+Q ( x | y )
+x
+y
+g
+{ \displaystyle   g ( x | y ) = g ( y | x ) }
+{ \displaystyle   g ( x | y ) }
+y
+y
+g
+x '
+{ \displaystyle   g ( x ' | x _ { t } ) }
+{ \textstyle   \alpha   = f ( x ' ) / f ( x _ { t } ) }
+{ \displaystyle   \alpha   = f ( x ' ) / f ( x _ { t } ) = P ( x ' ) / P ( x _ { t } ) }
+{ \displaystyle   u \leq   \alpha   }
+{ \displaystyle   x _ { t + 1 } = x ' }
+{ \displaystyle   u > \alpha   }
+{ \displaystyle   x _ { t + 1 } = x _ { t } }
+\alpha  
+\displaystyle   P ( x )
+\displaystyle   P ( x )
+\displaystyle   P ( x )
+\displaystyle   P ( x )
+\displaystyle   P ( x )
+P ( x )
+\pi   ( x )
+{ \displaystyle   \pi   ( x ) = P ( x ) }
+{ \displaystyle   P ( x ' | x ) }
+x
+x '
+\pi   ( x )
+\pi   ( x )
+{ \displaystyle   x \rightarrow   x ' }
+{ \displaystyle   x , x ' }
+x '
+x
+{ \displaystyle   \pi   ( x ) P ( x ' | x ) = \pi   ( x ' ) P ( x | x ' ) }
+\pi   ( x )
+\pi   ( x )
+P ( x )
+{ \displaystyle   P ( x ' | x ) P ( x ) = P ( x ' , x ) = P ( x | x ' ) P ( x ' ) }
+{ \displaystyle   { \frac   { P ( x ' | x ) } { P ( x | x ' ) } } = { \frac   { P ( x ' ) } { P ( x ) } } }
+{ \displaystyle   \displaystyle   g ( x ' | x ) }
+x '
+x
+{ \displaystyle   \displaystyle   A ( x ' , x ) }
+x '
+{ \displaystyle   P ( x ' | x ) = g ( x ' | x ) A ( x ' , x ) }
+{ \displaystyle   { \frac   { A ( x ' , x ) } { A ( x , x ' ) } } = { \frac   { P ( x ' ) } { P ( x ) } } { \frac   { g ( x | x ' ) } { g ( x ' | x ) } } }
+{ \displaystyle   A ( x ' , x ) = \min   \left ( 1 , { \frac   { P ( x ' ) } { P ( x ) } } { \frac   { g ( x | x ' ) } { g ( x ' | x ) } } \right ) }
+x _ { 0 }
+t = 0
+{ \displaystyle   g ( x ' | x _ { t } ) }
+{ \textstyle   A ( x ' , x _ { t } ) = \min   \left ( 1 , { \frac   { P ( x ' ) } { P ( x _ { t } ) } } { \frac   { g ( x _ { t } | x ' ) } { g ( x ' | x _ { t } ) } } \right ) }
+{ \displaystyle   u \in   [ 0 , 1 ] }
+{ \displaystyle   u \leq   A ( x ' , x _ { t } ) }
+{ \displaystyle   x _ { t + 1 } = x ' }
+{ \displaystyle   u > A ( x ' , x _ { t } ) }
+{ \displaystyle   x _ { t + 1 } = x _ { t } }
+{ \textstyle   t = t + 1 }
+{ \displaystyle   x _ { 0 } , \ldots   , x _ { T } }
+P ( x )
+T
+P ( x )
+P ( x )
+{ \displaystyle   \displaystyle   g ( x ' | x ) }
+{ \displaystyle   \Omega   \subset   \mathbb   { R }   }
+\Omega  
+x   \in   \Omega
+{ \displaystyle   P ( E ) = \int   _ { \Omega   } A ( x ) P ( x ) d x }
+{ \displaystyle   P ( E ) = \int   _ { \Omega   } P ( E | x ) P ( x ) d x = \int   _ { \Omega   } \delta   ( E - E ( x ) ) P ( x ) d x = E _ { X } ( P ( E | X ) ) }
+{ \displaystyle   A _ { E } ( x ) \equiv   \mathbf   { 1 }   _ { E } ( x ) }
+{ \displaystyle   E ( x ) \in   [ E , E + \Delta   E ] }
+\pi   ( x )
+{ \displaystyle   \pi   ( x ) \propto   e ^ { a E } }
+x _ { t } \ ,
+x ' \ ,
+{ \displaystyle   g ( x ' | x _ { t } ) \ , }
+a = a _ { 1 } a _ { 2 } \ ,
+a _ { 1 } = { \frac   { P ( x ' ) } { P ( x _ { t } ) } } \ , \ !
+x ' \ ,
+x _ { t } \ ,
+{ \displaystyle   a _ { 2 } = { \frac   { g ( x _ { t } | x ' ) } { g ( x ' | x _ { t } ) } } }
+x _ { t } \ ,
+x ' \ ,
+\displaystyle   x _ { t + 1 }
+{ \begin { m a t r i x } { \mbox { I f   } } a \geq   1 : & \\&x_ { t + 1 } = x ' , \end { m a t r i x } }
+{ \begin { m a t r i x } { \mbox { e l s e } } & \\&x_ { t + 1 } = \left \{ { \begin { a r r a y } { l r } x ' & { \mbox {   w i t h   p r o b a b i l i t y   } } a \\x_ { t } & { \mbox {   w i t h   p r o b a b i l i t y   } } 1 - a . \end { a r r a y } } \right . \end { m a t r i x } }
+\displaystyle   x _ { 0 }
+x
+P ( x )
+\displaystyle   P ( x )
+{ \displaystyle   g ( x ' | x _ { t } ) \approx   P ( x ' ) \ , \ ! }
+\displaystyle   g
+\displaystyle   \sigma   ^ { 2 }
+\displaystyle   N
+\displaystyle   N
+\displaystyle   \sigma   ^ { 2 }
+\displaystyle   P ( x )
+\displaystyle   \sigma   ^ { 2 }
+\displaystyle   a _ { 1 }

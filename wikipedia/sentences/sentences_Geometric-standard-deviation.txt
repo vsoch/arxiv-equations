@@ -1,0 +1,13 @@
+{ \displaystyle   \sigma   _ { g } = \exp   \left ( { \sqrt   { \sum   _ { i = 1 } ^ { n } \left ( \ln   { A _ { i }   \over   \mu   _ { g } } \right ) ^ { 2 }   \over   n } } \right ) . \qquad   \qquad   ( 1 ) }
+\mu   _ { g } = { \sqrt [   { n } ] { A _ { 1 } A _ { 2 } \cdots   A _ { n } } } . \ ,
+\ln   \mu   _ { g } = { 1   \over   n } \ln ( A _ { 1 } A _ { 2 } \cdots   A _ { n } ) .
+A _ { i }
+i
+\ln   \mu   _ { g } = { 1   \over   n } [ \ln   A _ { 1 } + \ln   A _ { 2 } + \cdots   + \ln   A _ { n } ] . \ ,
+\ln   \,\mu   _ { g }
+\{ \ln   A _ { 1 } , \ln   A _ { 2 } , \dots   , \ln   A _ { n } \ }
+\ln   \sigma   _ { g } = { \sqrt     { \sum   _ { { i = 1 } } ^ { n } ( \ln   A _ { i } - \ln   \mu   _ { g } ) ^ { 2 }   \over   n } } .
+{ \displaystyle   \sigma   _ { g } = \exp   { \sqrt   { \sum   _ { i = 1 } ^ { n } \left ( \ln   { A _ { i }   \over   \mu   _ { g } } \right ) ^ { 2 }   \over   n } } . }
+z = { { \ln ( x ) - \ln ( \mu   _ { g } ) }   \over   \ln   \sigma   _ { g } } = { \log   _ { { \sigma   _ { g } } } ( x / \mu   _ { g } ) } . \ ,
+x = \mu   _ { g } { \sigma   _ { g } } ^ { z } .
+\sigma   _ { g } = \exp ( \operatorname   { s t d e v } ( \ln ( A ) ) )

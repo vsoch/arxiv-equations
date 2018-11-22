@@ -1,0 +1,10 @@
+x _ { i }
+R _ { { x x } } ( k ) , k = 0 , 1 , \dots   P
+R _ { { x x } } ( k ) = \alpha   _ { k }
+\alpha   _ { k }
+P
+x _ { i } = - \sum   _ { { k = 1 } } ^ { P } a _ { k } x _ { { i - k } } + y _ { i }
+y _ { i }
+\sigma   ^ { 2 }
+a _ { k }
+x _ { i }

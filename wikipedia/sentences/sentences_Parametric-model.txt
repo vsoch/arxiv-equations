@@ -1,0 +1,28 @@
+          \mathcal { P }   =   \big \{   P _ \theta \ \big | \ \theta \in \Theta   \big \ } .      
+          \mathcal { P }   =   \big \{   f _ \theta \ \big | \ \theta \in \Theta   \big \ } .      
+          \mathcal { P }   =   \Big \{ \ p_ \lambda ( j )   =   \tfrac { \lambda ^ j } { j ! } e ^ { - \lambda } , \ j = 0 , 1 , 2 , 3 , \dots   \ \Big | \ \lambda > 0   \ \Big \ } ,      
+          \mathcal { P }   =   \Big \{ \ f_ \theta ( x )   =   \tfrac { 1 } { \sqrt { 2 \pi } \sigma }   e ^ {   - \frac { 1 } { 2 \sigma ^ 2 } ( x - \mu ) ^ 2   } \ \Big | \ \mu \in \mathbb { R } ,   \sigma > 0   \ \Big \ } .      
+          \mathcal { P }   =   \Big \{ \        f_ \theta ( x )   =   \tfrac { \beta } { \lambda }                                             \left ( \tfrac { x - \mu } { \lambda } \right ) ^ { \beta - 1 } \!                     \exp \!\big ( \!-\!\big ( \tfrac { x - \mu } { \lambda } \big ) ^ \beta   \big ) \,                     \mathbf { 1 } _ { \{ x > \mu \}}       \ \Big | \        \lambda > 0 , \, \beta > 0 , \, \mu \in \mathbb { R }           \ \Big \ } .      
+\mu  
+{ \displaystyle   ( \Omega   , { \mathcal   { F } } ) }
+\scriptstyle   \mathcal { M } _ \mu
+\mu  
+\mathcal { P } \!=\!\{   P _ \theta | \, \theta \in \Theta   \} \subseteq   \mathcal { M } _ \mu
+\Theta  
+{ \displaystyle   \mathbb   { R }   ^ { k } }
+\theta \mapsto   s ( \theta ) = \sqrt { d P _ \theta / d \mu }
+\Theta  
+{ \displaystyle   L ^ { 2 } ( \mu   ) }
+\dot { s } ( \theta )   =   ( \dot { s } _ 1 ( \theta ) , \,\ldots , \,\dot { s } _ k ( \theta ) )
+{ \displaystyle   \lVert   s ( \theta   + h ) - s ( \theta   ) - { \dot   { s } } ( \theta   ) ' h \rVert   = o ( | h | ) { \text {   a s   } } h \to   0 , }
+\theta \mapsto \dot { s } ( \theta )
+\Theta  
+k \times   k
+I ( \theta )   =   4 \int   \dot { s } ( \theta ) \dot { s } ( \theta ) ' d \mu
+x
+{ \displaystyle   \nabla   f _ { \theta   } }
+          z _ \theta   =   \frac { \nabla   f _ \theta } { f _ \theta }   \cdot   \mathbf { 1 } _ { \{ f _ \theta > 0 \ } }      
+{ \displaystyle   L ^ { 2 } ( P _ { \theta   } ) }
+P _ { \theta   }
+          I _ \theta   =   \int   \!z_ \theta   z _ \theta '   \,dP_ \theta      
+\scriptstyle   \sqrt { n }

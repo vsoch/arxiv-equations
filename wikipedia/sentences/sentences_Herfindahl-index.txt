@@ -1,0 +1,14 @@
+H   = \sum_ { i = 1 } ^ N   s _ i ^ 2
+H ^ *   =   { \left   (   H   -   1 / N   \right   )   \over   1 - 1 / N   }
+H ^ *   =   1
+N
+x _ { i }
+{ \displaystyle   s _ { i } = x _ { i } / \sum   _ { j = 1 } ^ { n } x _ { j } }
+{ \displaystyle   H = { \frac   { 1 } { N } } + N \sigma   ^ { 2 } }
+\sigma   ^ { 2 }
+{ \displaystyle   \sigma   ^ { 2 } = { \frac   { 1 } { N } } \sum   _ { i = 1 } ^ { N } \left ( s _ { i } - \mu   \right ) ^ { 2 } }
+{ \displaystyle   \mu   = { \frac   { 1 } { N } } }
+{ \displaystyle   s _ { i } = 1 / N }
+\sigma   ^ { 2 }
+H
+1 / N

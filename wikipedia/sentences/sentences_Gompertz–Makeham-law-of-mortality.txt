@@ -1,0 +1,8 @@
+\alpha   > 0
+\beta   > 0
+\lambda   > 0
+x \in   \mathbb   { R }   ^ { + }
+{ \displaystyle   \left ( \alpha   e ^ { \beta   x } + \lambda   \right ) \cdot   \exp   \left ( - \lambda   x - { \frac   { \alpha   } { \beta   } } \left ( e ^ { \beta   x } - 1 \right ) \right ) }
+{ \displaystyle   1 - \exp   \left ( - \lambda   x - { \frac   { \alpha   } { \beta   } } \left ( e ^ { \beta   x } - 1 \right ) \right ) }
+h ( x ) = \alpha   e ^ { \beta   x } + \lambda  
+Q ( u ) = { \frac   { \alpha   } { \beta   \lambda   } } - { \frac   { 1 } { \lambda   } } \ln ( 1 - u ) - { \frac   { 1 } { \beta   } } W _ { 0 } \left ( { \frac   { \alpha   e ^ { \alpha   / \lambda   } ( 1 - u ) ^ { - ( \beta   / \lambda   ) } } { \lambda   } } \right )

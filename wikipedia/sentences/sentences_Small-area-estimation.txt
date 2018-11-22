@@ -1,0 +1,3 @@
+{ \displaystyle   y _ { i j } = x _ { i j } ' \beta   + \mu   _ { i } + \epsilon   _ { i j } \ , }
+\beta   \ ,
+{ \displaystyle   \mu   \ , }

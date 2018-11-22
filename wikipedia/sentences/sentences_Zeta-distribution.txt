@@ -1,0 +1,44 @@
+s \in   ( 1 , \infty   )
+k \in   \{ 1 , 2 , \ldots   \ }
+{ \frac     { 1 / k ^ { s } } { \zeta   ( s ) } }
+{ \frac     { H _ { { k , s } } } { \zeta   ( s ) } }
+{ \frac     { \zeta   ( s - 1 ) } { \zeta   ( s ) } } ~ { \textrm     { f o r } } ~ s > 2
+1 \ ,
+{ \frac     { \zeta   ( s ) \zeta   ( s - 2 ) - \zeta   ( s - 1 ) ^ { 2 } } { \zeta   ( s ) ^ { 2 } } } ~ { \textrm     { f o r } } ~ s > 3
+\sum   _ { { k = 1 } } ^ { \infty   } { \frac     { 1 / k ^ { s } } { \zeta   ( s ) } } \log ( k ^ { s } \zeta   ( s ) ) . \ , \ !
+{ \frac     { \operatorname   { L i } _ { s } ( e ^ { t } ) } { \zeta   ( s ) } }
+{ \frac     { \operatorname   { L i } _ { s } ( e ^ { { i t } } ) } { \zeta   ( s ) } }
+f _ { s } ( k ) = k ^ { { - s } } / \zeta   ( s ) \ ,
+k ^ { { - s } }
+k \geq   1
+{ \displaystyle   P ( x = k ) = { \frac   { 1 } { \zeta   ( s ) } } k ^ { - s } }
+s > 1
+\zeta   ( s )
+{ \displaystyle   P ( x \leq   k ) = { \frac   { H _ { k , s } } { \zeta   ( s ) } } , }
+{ \displaystyle   H _ { k , s } }
+{ \displaystyle   H _ { k , s } = \sum   _ { i = 1 } ^ { k } { \frac   { 1 } { i ^ { s } } } . }
+m _ { n } = E ( X ^ { n } ) = { \frac     { 1 } { \zeta   ( s ) } } \sum   _ { { k = 1 } } ^ { \infty   } { \frac     { 1 } { k ^ { { s - n } } } }
+m _ { n } = \left \{ { \begin { m a t r i x } \zeta   ( s - n ) / \zeta   ( s ) & { \textrm     { f o r } } ~ n < s - 1 \\\infty   & { \textrm     { f o r } } ~ n \geq   s - 1 \end { m a t r i x } } \right .
+M ( t ; s ) = E ( e ^ { { t X } } ) = { \frac     { 1 } { \zeta   ( s ) } } \sum   _ { { k = 1 } } ^ { \infty   } { \frac     { e ^ { { t k } } } { k ^ { s } } } .
+e ^ { t } < 1
+M ( t ; s ) = { \frac     { \operatorname   { L i } _ { s } ( e ^ { t } ) } { \zeta   ( s ) } } { \text {   f o r   } } t < 0 .
+\sum   _ { { n = 0 } } ^ { \infty   } { \frac     { m _ { n } t ^ { n } } { n ! } } ,
+{ \frac     { 1 } { \zeta   ( s ) } } \sum   _ { { n = 0 , n \neq   s - 1 } } ^ { \infty   } { \frac     { \zeta   ( s - n ) } { n ! } } \,t ^ { n } = { \frac     { \operatorname   { L i } _ { s } ( e ^ { t } ) - \Phi   ( s , t ) } { \zeta   ( s ) } }
+\scriptstyle   | t | \,<\,2 \pi  
+\scriptstyle   \Phi   ( s , t )
+\Phi   ( s , t ) = \Gamma   ( 1 - s ) ( - t ) ^ { { s - 1 } } { \text {   f o r   } } s \neq   1 , 2 , 3 \ldots  
+\Phi   ( s , t ) = { \frac     { t ^ { { s - 1 } } } { ( s - 1 ) ! } } \left [ H _ { s } - \ln ( - t ) \right ] { \text {   f o r   } } s = 2 , 3 , 4 \ldots  
+\Phi   ( s , t ) = - \ln ( - t ) { \text {   f o r   } } s = 1 , \ ,
+{ \displaystyle   \lim   _ { n \to   \infty   } { \frac   { N ( A , n ) } { n } } }
+{ \displaystyle   \lim   _ { s \to   1 ^ { + } } P ( X \in   A ) \ , }
+{ \displaystyle   \log ( d + 1 ) - \log ( d ) = \log   \left ( 1 + { \frac   { 1 } { d } } \right ) , \ , }
+p
+{ \displaystyle   X ( p ^ { - s } ) }
+p ^ { { - s } }
+{ \displaystyle   \quad   \quad   \quad   \mathbb   { P }   \left ( X ( p ^ { - s } ) = k \right ) = p ^ { - k s } ( 1 - p ^ { - s } ) }
+{ \displaystyle   ( X ( p ^ { - s } ) ) _ { p \in   { \mathcal   { P } } } }
+Z _ { s }
+{ \displaystyle   \quad   \quad   \quad   Z _ { s } = \prod   _ { p \in   { \mathcal   { P } } } p ^ { X ( p ^ { - s } ) } }
+{ \displaystyle   \mathbb   { P }   \left ( Z _ { s } = n \right ) = { \frac   { 1 } { n ^ { s } \zeta   ( s ) } } }
+{ \displaystyle   \log ( Z _ { s } ) = \sum   _ { p \in   { \mathcal   { P } } } X ( p ^ { - s } ) \,\log ( p ) }
+{ \displaystyle   \quad   \quad   \quad   \Pi   _ { s } ( d x ) = \sum   _ { p \in   { \mathcal   { P } } } \sum   _ { k \geqslant   1 } { \frac   { p ^ { - k s } } { k } } \delta   _ { k \log ( p ) } ( d x ) }

@@ -1,0 +1,6 @@
+  f ( E )   =   \frac { k } { \left ( E ^ 2 - M ^ 2 \right ) ^ 2 + M ^ 2 \Gamma ^ 2 } ~ ,  
+  k   =   \frac { 2   \sqrt { 2 }   M   \Gamma     \gamma   } { \pi   \sqrt { M ^ 2 + \gamma } }   ~ ~ ~ ~
+~ ~ ~ ~   \gamma = \sqrt { M ^ 2 \left ( M ^ 2 + \Gamma ^ 2 \right ) }     ~ .
+\frac { \sqrt { k } } { \left ( E ^ 2 - M ^ 2 \right ) + i M \Gamma } ~ .  
+{ \displaystyle   f ' ( { \text { E } } ) \left ( \left ( { \text { E } } ^ { 2 } - M ^ { 2 } \right ) ^ { 2 } + \Gamma   ^ { 2 } M ^ { 2 } \right ) - 4 { \text { E } } f ( { \text { E } } ) ( M - { \text { E } } ) ( { \text { E } } + M ) = 0 , }
+{ \displaystyle   f ( M ) = { \frac   { k } { \Gamma   ^ { 2 } M ^ { 2 } } } ~ }

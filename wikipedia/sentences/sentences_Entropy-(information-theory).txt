@@ -1,0 +1,83 @@
+{ \displaystyle   S = - \sum   _ { i } P _ { i } \ln   { P _ { i } } }
+\log   _ { 2 } 2 = 1
+\log   _ { 2 } 3
+{ \textstyle   X }
+{ \textstyle   \left \{ x _ { 1 } , \ldots   , x _ { n } \right \ } }
+{ \textstyle   \mathrm   { P }   ( X ) }
+{ \displaystyle   \mathrm   { H }   ( X ) = \mathbb   { E }   [ \operatorname   { I }   ( X ) ] = \mathbb   { E }   [ - \log ( \mathrm   { P }   ( X ) ) ] . }
+\mathbb   { E }  
+{ \displaystyle   \mathrm   { H }   ( X ) = \sum   _ { i = 1 } ^ { n } { \mathrm   { P }   ( x _ { i } ) \,\mathrm   { I }   ( x _ { i } ) } = - \sum   _ { i = 1 } ^ { n } { \mathrm   { P }   ( x _ { i } ) \log   _ { b } \mathrm   { P }   ( x _ { i } ) } , }
+\lim   _ { p \to   0 + } p \log ( p ) = 0 .
+{ \displaystyle   \mathrm   { H }   ( X | Y ) = - \sum   _ { i , j } p ( x _ { i } , y _ { j } ) \log   { \frac   { p ( x _ { i } , y _ { j } ) } { p ( y _ { j } ) } } }
+{ \displaystyle   { \begin { a l i g n e d } \mathrm   { H }   ( X ) & = - \sum   _ { i = 1 } ^ { n } { \mathrm   { P }   ( x _ { i } ) \log   _ { b } \mathrm   { P }   ( x _ { i } ) } \\&=-\sum   _ { i = 1 } ^ { 2 } { { \frac   { 1 } { 2 } } \log   _ { 2 } { \frac   { 1 } { 2 } } } \\&=-\sum   _ { i = 1 } ^ { 2 } { { \frac   { 1 } { 2 } } \cdot   ( - 1 ) } = 1 \end { a l i g n e d } } }
+{ \displaystyle   { \begin { a l i g n e d } \mathrm   { H }   ( X ) & = - p \log   _ { 2 } ( p ) - q \log   _ { 2 } ( q ) \\&=-0 . 7 \log   _ { 2 } ( 0 . 7 ) - 0 . 3 \log   _ { 2 } ( 0 . 3 ) \\&\approx   - 0 . 7 \cdot   ( - 0 . 5 1 5 ) - 0 . 3 \cdot   ( - 1 . 7 3 7 ) \\&=0 . 8 8 1 6 < 1 \end { a l i g n e d } } }
+{ \displaystyle   \mathrm   { I }   ( p ) = \log   \left ( { \tfrac   { 1 } { p } } \right ) = - \log ( p ) : }
+{ \textstyle   I }
+{ \displaystyle   { \begin { a r r a y } { l c l } I ( p _ { 1 } p _ { 2 } ) & = & I ( p _ { 1 } ) + I ( p _ { 2 } ) \\p_ { 2 } I ' ( p _ { 1 } p _ { 2 } ) & = & I ' ( p _ { 1 } ) \\I ' ( p _ { 1 } p _ { 2 } ) + p _ { 1 } p _ { 2 } I ' ' ( p _ { 1 } p _ { 2 } ) & = & 0 \\I ' ( u ) + u I ' ' ( u ) & = & 0 \\( u \mapsto   u I ' ( u ) ) ' & = & 0 \end { a r r a y } } }
+{ \displaystyle   I ( u ) = k \log   u }
+{ \displaystyle   k \in   \mathbb   { R }   }
+k < 0
+k  
+{ \displaystyle   k = - 1 / \log   x }
+x > 1
+{ \displaystyle   \sum   _ { i } { n _ { i } \mathrm   { I }   ( p _ { i } ) } = - \sum   _ { i } { N p _ { i } \log   { p _ { i } } } }
+{ \displaystyle   - \sum   _ { i } { p _ { i } \log   { p _ { i } } } . }
+{ \displaystyle   S = - k _ { \text { B } } \sum   p _ { i } \ln   p _ { i } \ , }
+{ \displaystyle   S = - k _ { \text { B } } \,{ \rm   { T r } } ( \rho   \ln   \rho   ) \ , }
+{ \displaystyle   S = k _ { \text { B } } \ln ( W ) }
+2 ^ { 1 2 8 - 1 }
+{ \displaystyle   \mathrm   { H }   ( { \mathcal   { S } } ) = - \sum   p _ { i } \log   _ { 2 } p _ { i } , }
+{ \displaystyle   \mathrm   { H }   ( { \mathcal   { S } } ) = - \sum   _ { i } p _ { i } \sum   _ { j } \ p_ { i } ( j ) \log   _ { 2 } p _ { i } ( j ) , }
+p _ { i } ( j )
+{ \displaystyle   \mathrm   { H }   ( { \mathcal   { S } } ) = - \sum   _ { i } p _ { i } \sum   _ { j } p _ { i } ( j ) \sum   _ { k } p _ { i , j } ( k ) \ \log   _ { 2 } \ p_ { i , j } ( k ) . }
+{ \mathcal   { S } }
+{ \displaystyle   \mathrm   { H }   _ { b } ( { \mathcal   { S } } ) = - \sum   _ { i = 1 } ^ { n } p _ { i } \log   _ { b } p _ { i } , }
+{ \displaystyle   \eta   ( X ) = - \sum   _ { i = 1 } ^ { n } { \frac   { p ( x _ { i } ) \log   _ { b } ( p ( x _ { i } ) ) } { \log   _ { b } ( n ) } } = \log   _ { n } ( \prod   _ { i = 1 } ^ { n } p ( x _ { i } ) ^ { - p ( x _ { i } ) } ) }
+{ \log   _ { b } ( n ) }
+- K \sum   _ { i = 1 } ^ { n } p _ { i } \log ( p _ { i } )
+\mathrm   { H }   _ { n } \left ( p _ { 1 } , p _ { 2 } , \ldots   \right ) = \mathrm   { H }   _ { n } \left ( p _ { 2 } , p _ { 1 } , \ldots   \right )
+\mathrm   { H }   _ { n } ( p _ { 1 } , \ldots   , p _ { n } ) \leq   \mathrm   { H }   _ { n } \left ( { \frac   { 1 } { n } } , \ldots   , { \frac   { 1 } { n } } \right ) = \log   _ { b } ( n ) .
+\mathrm   { H }   _ { n } { \bigg   ( } \underbrace   { { \frac   { 1 } { n } } , \ldots   , { \frac   { 1 } { n } } }   _ { n } { \bigg   ) } = \log   _ { b } ( n ) < \log   _ { b } ( n + 1 ) = \mathrm   { H }   _ { n + 1 } { \bigg   ( } \underbrace   { { \frac   { 1 } { n + 1 } } , \ldots   , { \frac   { 1 } { n + 1 } } }   _ { n + 1 } { \bigg   ) } .
+{ \displaystyle   \mathrm   { H }   _ { n } \left ( { \frac   { 1 } { n } } , \ldots   , { \frac   { 1 } { n } } \right ) = \mathrm   { H }   _ { k } \left ( { \frac   { b _ { 1 } } { n } } , \ldots   , { \frac   { b _ { k } } { n } } \right ) = \sum   _ { i = 1 } ^ { k } { \frac   { b _ { i } } { n } } \,\mathrm   { H }   _ { b _ { i } } \left ( { \frac   { 1 } { b _ { i } } } , \ldots   , { \frac   { 1 } { b _ { i } } } \right ) . }
+\mathrm   { H }   _ { n + 1 } ( p _ { 1 } , \ldots   , p _ { n } , 0 ) = \mathrm   { H }   _ { n } ( p _ { 1 } , \ldots   , p _ { n } )
+{ \displaystyle   \mathrm   { H }   ( X ) \geq   0 }
+\mathrm   { H }   ( X ) = \operatorname   { E }   \left [ \log   _ { b } \left ( { \frac   { 1 } { p ( X ) } } \right ) \right ] \leq   \log   _ { b } \left ( \operatorname   { E }   \left [ { \frac   { 1 } { p ( X ) } } \right ] \right ) = \log   _ { b } ( n )
+\mathrm   { H }   ( X , Y ) = \mathrm   { H }   ( X | Y ) + \mathrm   { H }   ( Y ) = \mathrm   { H }   ( Y | X ) + \mathrm   { H }   ( X ) .
+Y = f ( X )
+f
+{ \displaystyle   H ( f ( X ) | X ) = 0 }
+{ \displaystyle   H ( X , f ( X ) ) }
+\mathrm   { H }   ( X ) + \mathrm   { H }   ( f ( X ) | X ) = \mathrm   { H }   ( f ( X ) ) + \mathrm   { H }   ( X | f ( X ) ) ,
+{ \displaystyle   H ( f ( X ) | X ) \leq   H ( X ) }
+\mathrm   { H }   ( X | Y ) = \mathrm   { H }   ( X ) .
+\mathrm   { H }   ( X , Y ) \leq   \mathrm   { H }   ( X ) + \mathrm   { H }   ( Y ) .
+{ \displaystyle   \mathrm   { H }   ( p ) }
+p
+{ \displaystyle   \mathrm   { H }   ( \lambda   p _ { 1 } + ( 1 - \lambda   ) p _ { 2 } ) \geq   \lambda   \mathrm   { H }   ( p _ { 1 } ) + ( 1 - \lambda   ) \mathrm   { H }   ( p _ { 2 } ) }
+{ \displaystyle   p _ { 1 } , p _ { 2 } }
+{ \displaystyle   0 \leq   \lambda   \leq   1 }
+\mathbb   { X }  
+h [ f ] = \operatorname   { E }   [ - \ln ( f ( x ) ) ] = - \int   _ { \mathbb   { X }   } f ( x ) \ln ( f ( x ) ) \,dx .
+\Delta  
+f ( x _ { i } ) \Delta   = \int   _ { i \Delta   } ^ { ( i + 1 ) \Delta   } f ( x ) \,dx
+\int   _ { - \infty   } ^ { \infty   } f ( x ) \,dx = \lim   _ { \Delta   \to   0 } \sum   _ { i = - \infty   } ^ { \infty   } f ( x _ { i } ) \Delta  
+{ \displaystyle   \mathrm   { H }   ^ { \Delta   } : = - \sum   _ { i = - \infty   } ^ { \infty   } f ( x _ { i } ) \Delta   \log   \left ( f ( x _ { i } ) \Delta   \right ) }
+\mathrm   { H }   ^ { \Delta   } = - \sum   _ { i = - \infty   } ^ { \infty   } f ( x _ { i } ) \Delta   \log ( f ( x _ { i } ) ) - \sum   _ { i = - \infty   } ^ { \infty   } f ( x _ { i } ) \Delta   \log ( \Delta   ) .
+{ \begin { a l i g n e d } \sum   _ { i = - \infty   } ^ { \infty   } f ( x _ { i } ) \Delta   & \to   \int   _ { - \infty   } ^ { \infty   } f ( x ) \,dx = 1 \\\sum   _ { i = - \infty   } ^ { \infty   } f ( x _ { i } ) \Delta   \log ( f ( x _ { i } ) ) & \to   \int   _ { - \infty   } ^ { \infty   } f ( x ) \log   f ( x ) \,dx . \end { a l i g n e d } }
+h [ f ] = \lim   _ { \Delta   \to   0 } \left ( \mathrm   { H }   ^ { \Delta   } + \log   \Delta   \right ) = - \int   _ { - \infty   } ^ { \infty   } f ( x ) \log   f ( x ) \,dx ,
+{ \displaystyle   H = \int   _ { - \infty   } ^ { \infty   } f ( x ) \log ( f ( x ) \,\Delta   ) \,dx }
+{ \displaystyle   N \rightarrow   \infty   }
+{ \displaystyle   \log ( N ) }
+D _ { \mathrm   { K L }   } ( p \|m ) = \int   \log ( f ( x ) ) p ( d x ) = \int   f ( x ) \log ( f ( x ) ) m ( d x ) .
+| A | ^ { d - 1 } \leq   \prod   _ { i = 1 } ^ { d } | P _ { i } ( A ) |
+P _ { i } ( A ) = \{ ( x _ { 1 } , \ldots   , x _ { i - 1 } , x _ { i + 1 } , \ldots   , x _ { d } ) : ( x _ { 1 } , \ldots   , x _ { d } ) \in   A \ } .
+\mathrm   { H }   [ ( X _ { 1 } , \ldots   , X _ { d } ) ] \leq   { \frac   { 1 } { r } } \sum   _ { i = 1 } ^ { n } \mathrm   { H }   [ ( X _ { j } ) _ { j \in   S _ { i } } ]
+( X _ { j } ) _ { j \in   S _ { i } }
+( X _ { j } ) _ { j \in   S _ { i } }
+\mathrm   { H }   [ ( X _ { j } ) _ { j \in   S _ { i } } ] \leq   \log   | P _ { i } ( A ) |
+{ \frac   { 2 ^ { n \mathrm   { H }   ( q ) } } { n + 1 } } \leq   { \tbinom   { n } { k } } \leq   2 ^ { n \mathrm   { H }   ( q ) } ,
+\mathrm   { H }   ( q ) = - q \log   _ { 2 } ( q ) - ( 1 - q ) \log   _ { 2 } ( 1 - q ) .
+{ \tbinom   { n } { k } } q ^ { q n } ( 1 - q ) ^ { n - n q }
+\sum   _ { i = 0 } ^ { n } { \tbinom   { n } { i } } q ^ { i } ( 1 - q ) ^ { n - i } = ( q + ( 1 - q ) ) ^ { n } = 1 .
+{ \displaystyle   { \binom   { n } { k } } q ^ { q n } ( 1 - q ) ^ { n - n q } \geq   { \frac   { 1 } { n + 1 } } }
+2 ^ { n \mathrm   { H }   ( k / n ) }

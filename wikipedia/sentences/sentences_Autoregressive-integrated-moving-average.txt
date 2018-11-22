@@ -1,0 +1,36 @@
+{ \displaystyle   A R M A ( p ' , q ) }
+{ \displaystyle   X _ { t } - \alpha   _ { 1 } X _ { t - 1 } - \dots   - \alpha   _ { p ' } X _ { t - p ' } = \varepsilon   _ { t } + \theta   _ { 1 } \varepsilon   _ { t - 1 } + \cdots   + \theta   _ { q } \varepsilon   _ { t - q } , }
+\left ( 1 - \sum   _ { i = 1 } ^ { p ' } \alpha   _ { i } L ^ { i } \right ) X _ { t } = \left ( 1 + \sum   _ { i = 1 } ^ { q } \theta   _ { i } L ^ { i } \right ) \varepsilon   _ { t } \ ,
+L
+\alpha   _ { i }
+\theta   _ { i }
+\varepsilon   _ { t }
+\varepsilon   _ { t }
+{ \displaystyle   \textstyle   \left ( 1 - \sum   _ { i = 1 } ^ { p ' } \alpha   _ { i } L ^ { i } \right ) }
+{ \displaystyle   ( 1 - L ) }
+{ \displaystyle   \left ( 1 - \sum   _ { i = 1 } ^ { p ' } \alpha   _ { i } L ^ { i } \right ) = \left ( 1 - \sum   _ { i = 1 } ^ { p ' - d } \phi   _ { i } L ^ { i } \right ) \left ( 1 - L \right ) ^ { d } . }
+{ \displaystyle   \left ( 1 - \sum   _ { i = 1 } ^ { p } \phi   _ { i } L ^ { i } \right ) ( 1 - L ) ^ { d } X _ { t } = \left ( 1 + \sum   _ { i = 1 } ^ { q } \theta   _ { i } L ^ { i } \right ) \varepsilon   _ { t } \ , }
+{ \displaystyle   \left ( 1 - \sum   _ { i = 1 } ^ { p } \phi   _ { i } L ^ { i } \right ) ( 1 - L ) ^ { d } X _ { t } = \delta   + \left ( 1 + \sum   _ { i = 1 } ^ { q } \theta   _ { i } L ^ { i } \right ) \varepsilon   _ { t } . \ , }
+{ \displaystyle   { \frac   { \delta   } { 1 - \sum   \phi   _ { i } } } }
+{ \displaystyle   ( 1 - L ^ { s } ) }
+\left ( 1 - { \sqrt   { 3 } } L + L ^ { 2 } \right )
+{ \displaystyle   y _ { t } ' = y _ { t } - y _ { t - 1 } \ , }
+{ \displaystyle   { \begin { a l i g n e d } y _ { t } ^ { * } & = y _ { t } ' - y _ { t - 1 } ' \\&=( y _ { t } - y _ { t - 1 } ) - ( y _ { t - 1 } - y _ { t - 2 } ) \\&=y_ { t } - 2 y _ { t - 1 } + y _ { t - 2 } \end { a l i g n e d } } }
+{ \displaystyle   y _ { t } ' = y _ { t } - y _ { t - m } \quad   { \text { w h e r e   } } m = { \text { n u m b e r   o f   s e a s o n s } } . }
+X _ { t } = X _ { t - 1 } + \varepsilon   _ { t }
+X _ { t } = c + X _ { t - 1 } + \varepsilon   _ { t }
+{ \displaystyle   X _ { t } = 2 X _ { t - 1 } - X _ { t - 2 } + ( \alpha   + \beta   - 2 ) \varepsilon   _ { t - 1 } + ( 1 - \alpha   ) \varepsilon   _ { t - 2 } + \varepsilon   _ { t } }
+{ \displaystyle   { \text { A I C } } = - 2 \log ( L ) + 2 ( p + q + k ) , }
+{ \displaystyle   A I C c = A I C + ( 2 ( p + q + k ) ( p + q + k + 1 ) ) / ( T - p - q - k - 1 ) . }
+{ \displaystyle   B I C = A I C + ( \log ( T ) - 2 ) ( p + q + k ) . }
+{ \displaystyle   Y _ { t } = ( 1 - L ) ^ { d } X _ { t } }
+{ \displaystyle   \left ( 1 - \sum   _ { i = 1 } ^ { p } \phi   _ { i } L ^ { i } \right ) Y _ { t } = \left ( 1 + \sum   _ { i = 1 } ^ { q } \theta   _ { i } L ^ { i } \right ) \varepsilon   _ { t } \ , . }
+Y _ { t }
+{ \displaystyle   { \hat   { y } } _ { T + h | T } \pm   1 . 9 6 { \sqrt   { v _ { T + h | T } } } }
+{ \displaystyle   v _ { T + h | T } }
+{ \displaystyle   y _ { T + h } | y _ { 1 } , \dots   , y _ { T } }
+h = 1
+{ \displaystyle   v _ { T + h | T } = { \hat   { \sigma   } } ^ { 2 } }
+{ \displaystyle   y _ { t } = e _ { t } + \sum   _ { i = 1 } ^ { q } \theta   _ { i } e _ { t - i } . }
+{ \displaystyle   v _ { T + h \mid   T } = { \hat   { \sigma   } } ^ { 2 } \left [ 1 + \sum   _ { i = 1 } ^ { h - 1 } \theta   _ { i } e _ { t - i } \right ] , { \text {   f o r   } } h = 2 , 3 , \ldots   }
+X _ { t }

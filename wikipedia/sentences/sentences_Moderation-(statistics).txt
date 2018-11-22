@@ -1,0 +1,4 @@
+Y = b _ { 0 } + b _ { 1 } x _ { 1 } + b _ { 2 } x _ { 2 } + b _ { 3 } ( x _ { 1 } \times   x _ { 2 } ) + \varepsilon   \ ,
+x _ { 1 } x _ { 2 }
+Y = b _ { 0 } + b _ { 1 } A + b _ { 2 } B + b _ { 3 } A * B + \varepsilon  
+{ \displaystyle   Y = b _ { 0 } + b _ { 1 } A + b _ { 2 } B + b _ { 3 } C + b _ { 4 } A \cdot   B + b _ { 5 } A \cdot   C + b _ { 6 } B \cdot   C + b _ { 7 } A \cdot   B \cdot   C + \varepsilon   . }

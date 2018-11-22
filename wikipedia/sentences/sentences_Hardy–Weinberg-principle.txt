@@ -1,0 +1,65 @@
+\chi   ^ { 2 }
+{ \displaystyle   f _ { t } ( { \text { A } } ) = f _ { t } ( { \text { A A } } ) + { \tfrac   { 1 } { 2 } } f _ { t } ( { \text { A a } } ) }
+{ \displaystyle   f _ { t } ( { \text { a } } ) = f _ { t } ( { \text { a a } } ) + { \tfrac   { 1 } { 2 } } f _ { t } ( { \text { A a } } ) }
+f _ { 1 } ( { \text { A A } } ) = p ^ { 2 } = f _ { 0 } ( { \text { A } } ) ^ { 2 }
+f _ { 1 } ( { \text { A a } } ) = p q + q p = 2 p q = 2 f _ { 0 } ( { \text { A } } ) f _ { 0 } ( { \text { a } } )
+f _ { 1 } ( { \text { a a } } ) = q ^ { 2 } = f _ { 0 } ( { \text { a } } ) ^ { 2 }
+{ \displaystyle   { \begin { a l i g n e d } f _ { 1 } ( { \text { A } } ) & = f _ { 1 } ( { \text { A A } } ) + { \tfrac   { 1 } { 2 } } f _ { 1 } ( { \text { A a } } ) = p ^ { 2 } + p q = p ( p + q ) = p = f _ { 0 } ( { \text { A } } ) \\f_ { 1 } ( { \text { a } } ) & = f _ { 1 } ( { \text { a a } } ) + { \tfrac   { 1 } { 2 } } f _ { 1 } ( { \text { A a } } ) = q ^ { 2 } + p q = q ( p + q ) = q = f _ { 0 } ( { \text { a } } ) \end { a l i g n e d } } }
+{ \displaystyle   \left [ ( { \text { A A } } , { \text { A A } } ) , ( { \text { A A } } , { \text { A a } } ) , ( { \text { A A } } , { \text { a a } } ) , ( { \text { A a } } , { \text { A a } } ) , ( { \text { A a } } , { \text { a a } } ) , ( { \text { a a } } , { \text { a a } } ) \right ] }
+{ \displaystyle   { \begin { a l i g n e d } & \left [ f _ { t + 1 } ( { \text { A A } } ) , f _ { t + 1 } ( { \text { A a } } ) , f _ { t + 1 } ( { \text { a a } } ) \right ] = \\&\qquad   = f _ { t } ( { \text { A A } } ) f _ { t } ( { \text { A A } } ) \left [ 1 , 0 , 0 \right ] + 2 f _ { t } ( { \text { A A } } ) f _ { t } ( { \text { A a } } ) \left [ { \tfrac   { 1 } { 2 } } , { \tfrac   { 1 } { 2 } } , 0 \right ] + 2 f _ { t } ( { \text { A A } } ) f _ { t } ( { \text { a a } } ) \left [ 0 , 1 , 0 \right ] \\&\qquad   \qquad   + f _ { t } ( { \text { A a } } ) f _ { t } ( { \text { A a } } ) \left [ { \tfrac   { 1 } { 4 } } , { \tfrac   { 1 } { 2 } } , { \tfrac   { 1 } { 4 } } \right ] + 2 f _ { t } ( { \text { A a } } ) f _ { t } ( { \text { a a } } ) \left [ 0 , { \tfrac   { 1 } { 2 } } , { \tfrac   { 1 } { 2 } } \right ] + f _ { t } ( { \text { a a } } ) f _ { t } ( { \text { a a } } ) \left [ 0 , 0 , 1 \right ] \\&\qquad   = \left [ \left ( f _ { t } ( { \text { A A } } ) + { \tfrac   { 1 } { 2 } } f _ { t } ( { \text { A a } } ) \right ) ^ { 2 } , 2 \left ( f _ { t } ( { \text { A A } } ) + { \tfrac   { 1 } { 2 } } f _ { t } ( { \text { A a } } ) \right ) \left ( f _ { t } ( { \text { a a } } ) + { \tfrac   { 1 } { 2 } } f _ { t } ( { \text { A a } } ) \right ) , \left ( f _ { t } ( { \text { a a } } ) + { \tfrac   { 1 } { 2 } } f _ { t } ( { \text { A a } } ) \right ) ^ { 2 } \right ] \\&\qquad   = \left [ f _ { t } ( { \text { A } } ) ^ { 2 } , 2 f _ { t } ( { \text { A } } ) f _ { t } ( { \text { a } } ) , f _ { t } ( { \text { a } } ) ^ { 2 } \right ] \end { a l i g n e d } } }
+( p + q + r ) ^ { 2 } = p ^ { 2 } + q ^ { 2 } + r ^ { 2 } + 2 p q + 2 p r + 2 q r \ ,
+( p _ { 1 } + \cdots   + p _ { n } ) ^ { 2 } \ ,
+f ( A _ { i } A _ { i } ) = p _ { i } ^ { 2 } \ ,
+f ( A _ { i } A _ { j } ) = 2 p _ { i } p _ { j } \ ,
+( p + q ) ^ { 2 } \ ,
+( p + q ) ^ { c } \ ,
+p ^ { 4 }
+4 p ^ { 3 } q
+6 p ^ { 2 } q ^ { 2 }
+4 p q ^ { 3 }
+q ^ { 4 }
+n
+c
+( p _ { 1 } + \cdots   + p _ { n } ) ^ { c }
+( p _ { 1 } + \cdots   + p _ { n } ) ^ { c } = \sum   _ { { k _ { 1 } , \ldots   , k _ { n } \ \in   { \mathbb     { N } } : k _ { 1 } + \cdots   + k _ { n } = c } } { c   \choose   k _ { 1 } , \ldots   , k _ { n } } p _ { 1 } ^ { { k _ { 1 } } } \cdots   p _ { n } ^ { { k _ { n } } }
+q
+q = { \sqrt     { f ( { \text { a a } } ) } }
+p
+q
+p ^ { 2 }
+2 p q
+\chi   ^ { 2 }
+{ \begin { a l i g n e d } p & = { 2 \times   { \mathrm     { o b s } } ( { \text { A A } } ) + { \mathrm     { o b s } } ( { \text { A a } } )   \over   2 \times   ( { \mathrm     { o b s } } ( { \text { A A } } ) + { \mathrm     { o b s } } ( { \text { A a } } ) + { \mathrm     { o b s } } ( { \text { a a } } ) ) } \\\\&={ 1 4 6 9 \times   2 + 1 3 8   \over   2 \times   ( 1 4 6 9 + 1 3 8 + 5 ) } \\\\&={ 3 0 7 6   \over   3 2 2 4 } \\\\&=0 . 9 5 4 \end { a l i g n e d } }
+{ \begin { a l i g n e d } q & = 1 - p \\&=1 - 0 . 9 5 4 \\&=0 . 0 4 6 \end { a l i g n e d } }
+{ \begin { a l i g n e d } { \mathrm     { E x p } } ( { \text { A A } } ) & = p ^ { 2 } n = 0 . 9 5 4 ^ { 2 } \times   1 6 1 2 = 1 4 6 7 . 4 \\{ \mathrm     { E x p } } ( { \text { A a } } ) & = 2 p q n = 2 \times   0 . 9 5 4 \times   0 . 0 4 6 \times   1 6 1 2 = 1 4 1 . 2 \\{ \mathrm     { E x p } } ( { \text { a a } } ) & = q ^ { 2 } n = 0 . 0 4 6 ^ { 2 } \times   1 6 1 2 = 3 . 4 \end { a l i g n e d } }
+{ \begin { a l i g n e d } \chi   ^ { 2 } & = \sum   { ( O - E ) ^ { 2 }   \over   E } \\&={ ( 1 4 6 9 - 1 4 6 7 . 4 ) ^ { 2 }   \over   1 4 6 7 . 4 } + { ( 1 3 8 - 1 4 1 . 2 ) ^ { 2 }   \over   1 4 1 . 2 } + { ( 5 - 3 . 4 ) ^ { 2 }   \over   3 . 4 } \\&=0 . 0 0 1 + 0 . 0 7 3 + 0 . 7 5 6 \\&=0 . 8 3 \end { a l i g n e d } }
+\operatorname   { p r o b } [ n _ { { 1 2 } } | n _ { 1 } ] = { \frac     { { \binom     { n } { n _ { { 1 1 } } , n _ { { 1 2 } } , n _ { { 2 2 } } } } } { { \binom     { 2 n } { n _ { 1 } , n _ { 2 } } } } } 2 ^ { { n _ { { 1 2 } } } } ,
+n _ { 1 } = 2 n _ { { 1 1 } } + n _ { { 1 2 } }
+F = { \frac     { \operatorname   { E } { ( f ( { \text { A a } } ) ) } - \operatorname   { O } ( f ( { \text { A a } } ) ) } { \operatorname   { E } ( f ( { \text { A a } } ) ) } } = 1 - { \frac     { \operatorname   { O } ( f ( { \text { A a } } ) ) } { \operatorname   { E } ( f ( { \text { A a } } ) ) } } ,
+\operatorname   { E } ( f ( { \text { A a } } ) ) = 2 p q
+F = 1 - { 1 3 8   \over   1 4 1 . 2 } = 0 . 0 2 3 .
+\textstyle   t
+{ \displaystyle   \textstyle   A _ { t } }
+{ \displaystyle   \textstyle   A A _ { t - 1 } }
+{ \displaystyle   \textstyle   A a _ { t - 1 } }
+{ \displaystyle   { \begin { a l i g n e d } p _ { t } & = P ( A _ { t } , A _ { t } ) = P ( A _ { t } ) ^ { 2 } \\&=\left ( P ( A _ { t } | A A _ { t - 1 } ) P ( A A _ { t - 1 } ) + P ( A _ { t } | A a _ { t - 1 } ) P ( A a _ { t - 1 } ) \right ) ^ { 2 } \\&=\left ( ( 1 ) p _ { t - 1 } + ( 0 . 5 ) 2 q _ { t - 1 } \right ) ^ { 2 } \\&=\left ( p _ { t - 1 } + q _ { t - 1 } \right ) ^ { 2 } \end { a l i g n e d } } }
+\textstyle   t
+{ \displaystyle   \textstyle   0 = p _ { t } - p _ { t - 1 } }
+{ \displaystyle   \textstyle   0 = q _ { t } - q _ { t - 1 } }
+{ \displaystyle   \textstyle   0 = r _ { t } - r _ { t - 1 } }
+{ \displaystyle   { \begin { a l i g n e d } 0 & = p _ { t } - p _ { t - 1 } \\&=p_ { t - 1 } ^ { 2 } + 2 p _ { t - 1 } q _ { t - 1 } + q _ { t - 1 } ^ { 2 } - p _ { t - 1 } \end { a l i g n e d } } }
+{ \displaystyle   \textstyle   p _ { t - 1 } = 0 }
+{ \displaystyle   \textstyle   q _ { t - 1 } = 0 }
+{ \displaystyle   \textstyle   r _ { t - 1 } = 1 }
+{ \displaystyle   \textstyle   p _ { t - 1 } }
+\textstyle   0
+{ \displaystyle   { \begin { a l i g n e d } 0 & = p _ { t - 1 } ( p _ { t - 1 } + 2 q _ { t - 1 } + q _ { t - 1 } ^ { 2 } / p _ { t - 1 } - 1 ) \\&=q_ { t - 1 } ^ { 2 } / p _ { t - 1 } - r _ { t - 1 } \end { a l i g n e d } } }
+{ \displaystyle   \textstyle   q _ { t - 1 } ^ { 2 } = p _ { t - 1 } r _ { t - 1 } }
+{ \begin { a l i g n e d } { \text { s u m } } & = { { \mathrm     { o b s } } ( { \text { A A } } ) + 2 \times   { \mathrm     { o b s } } ( { \text { A a } } ) + { \mathrm     { o b s } } ( { \text { a a } } ) } = { 1 4 6 9 + 2 \times   1 3 8 + 5 } \\&=1750 \end { a l i g n e d } }
+{ \begin { a l i g n e d } p & = { 1 4 6 9   \over   1 7 5 0 } = 0 . 8 3 9 4 3 \\2q & = { 2 \times   1 3 8   \over   1 7 5 0 } = 0 . 1 5 7 7 1 \\r & = { 5   \over   1 7 5 0 } = 0 . 0 0 2 8 6 \end { a l i g n e d } }
+p + 2 q + r = 0 . 8 3 9 4 3 + 0 . 1 5 7 7 1 + 0 . 0 0 2 8 6 = 1 . 0 0 0 0 0 \ ,
+E _ { 0 } = q ^ { 2 } - p r = 0 . 0 0 3 8 2 . \ ,
+{ \begin { a l i g n e d } q & = { 0 . 1 5 7 7 1   \over   2 } = 0 . 0 7 8 8 6 \\\\p_ { 1 } & = ( p + q ) ^ { 2 } = 0 . 8 4 3 2 5 \\2q_ { 1 } & = 2 ( p + q ) ( q + r ) = 0 . 1 5 0 0 7 \\r_ { 1 } & = ( q + r ) ^ { 2 } = 0 . 0 0 6 6 8 . \end { a l i g n e d } }
+p _ { 1 } + 2 q _ { 1 } + r _ { 1 } = 0 . 8 4 3 2 5 + 0 . 1 5 0 0 7 + 0 . 0 0 6 6 8 = 1 . 0 0 0 0 0 \ ,
+E _ { 1 } = q _ { 1 } ^ { 2 } - p _ { 1 } r _ { 1 } = 0 . 0 0 0 0 0 \ ,
+( \theta   ^ { 2 } , 2 \theta   ( 1 - \theta   ) , ( 1 - \theta   ) ^ { 2 } )

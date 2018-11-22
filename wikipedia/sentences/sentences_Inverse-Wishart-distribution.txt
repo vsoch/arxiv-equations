@@ -1,0 +1,82 @@
+  \mathcal { W } ^ { - 1 } ( { \mathbf \Psi } , \nu )
+  \nu   >   p - 1    
+\mathbf { \Psi }   >   0
+p \times   p
+\mathbf   { X }  
+\frac { \left | { \mathbf \Psi } \right | ^ { \frac { \nu } { 2 } } } { 2 ^ { \frac { \nu   p } { 2 } } \Gamma_p ( \frac { \nu } { 2 } ) }   \left | \mathbf { X } \right | ^ { - \frac { \nu + p + 1 } { 2 } } e ^ { - \frac { 1 } { 2 } \operatorname { t r } ( { \mathbf \Psi } \mathbf { X } ^ { - 1 } ) }
+\Gamma_p
+\mathrm { t r }
+\frac { \mathbf { \Psi } } { \nu   -   p   -   1 }
+\nu   >   p   +   1
+\frac { \mathbf { \Psi } } { \nu   +   p   +   1 }
+\mathbf   { X }  
+  \mathbf { X } \sim   \mathcal { W } ^ { - 1 } ( { \mathbf \Psi } , \nu )
+  \mathbf { X } ^ { - 1 }
+  \mathcal { W } ( { \mathbf   \Psi } ^ { - 1 } ,   \nu )  
+{ \displaystyle   f ( { \mathbf   { X }   } ; { \mathbf   { \Psi   }   } , \nu   ) = { \frac   { \left | { \mathbf   { \Psi   }   } \right | ^ { \nu   / 2 } } { 2 ^ { \nu   p / 2 } \Gamma   _ { p } ( { \frac   { \nu   } { 2 } } ) } } \left | \mathbf   { X }   \right | ^ { - ( \nu   + p + 1 ) / 2 } e ^ { - { \frac   { 1 } { 2 } } \operatorname   { t r }   ( { \mathbf   { \Psi   }   } \mathbf   { X }   ^ { - 1 } ) } }
+\mathbf   { X }  
+{ \mathbf \Psi }
+p \times   p
+{ \mathbf   A } \sim   \mathcal { W } ( { \mathbf \Sigma } , \nu )
+{ \mathbf \Sigma }
+p \times   p
+\mathbf { X } = { \mathbf   A } ^ { - 1 }
+\mathbf { X } \sim   \mathcal { W } ^ { - 1 } ( { \mathbf \Sigma } ^ { - 1 } , \nu )
+{ \mathbf   A } \sim   \mathcal { W } ^ { - 1 } ( { \mathbf \Psi } , \nu )
+  { \mathbf   A }  
+  { \mathbf \Psi }  
+          { \mathbf { A } }   =   \begin { b m a t r i x }   \mathbf { A } _ { 1 1 }   &   \mathbf { A } _ { 1 2 }   \\ \mathbf { A } _ { 2 1 }   &   \mathbf { A } _ { 2 2 }   \end { b m a t r i x } ,   \;     { \mathbf { \Psi } }   =   \begin { b m a t r i x }   \mathbf { \Psi } _ { 1 1 }   &   \mathbf { \Psi } _ { 1 2 }   \\ \mathbf { \Psi } _ { 2 1 }   &   \mathbf { \Psi } _ { 2 2 }   \end { b m a t r i x }  
+{ \mathbf   A _ { i j } }
+{ \mathbf   \Psi_ { i j } }  
+  p _ { i } \times   p _ { j }
+  { \mathbf   A _ { 1 1 }   }  
+  { \mathbf   A } _ { 1 1 } ^ { - 1 } { \mathbf   A } _ { 1 2 }  
+  { \mathbf   A } _ { 2 2 \cdot   1 }  
+{ \mathbf   A _ { 2 2 \cdot   1 } }   =   { \mathbf   A } _ { 2 2 }   -   { \mathbf   A } _ { 2 1 } { \mathbf   A } _ { 1 1 } ^ { - 1 } { \mathbf   A } _ { 1 2 }
+  { \mathbf   A _ { 1 1 }   }  
+  { \mathbf   A }  
+  { \mathbf   A _ { 1 1 }   }   \sim   \mathcal { W } ^ { - 1 } ( { \mathbf   \Psi_ { 1 1 }   } ,   \nu - p _ { 2 } )  
+{ \displaystyle   { \mathbf   { A }   } _ { 1 1 } ^ { - 1 } { \mathbf   { A }   } _ { 1 2 } \mid   { \mathbf   { A }   } _ { 2 2 \cdot   1 } \sim   M N _ { p _ { 1 } \times   p _ { 2 } } ( { \mathbf   { \Psi   }   } _ { 1 1 } ^ { - 1 } { \mathbf   { \Psi   }   } _ { 1 2 } , { \mathbf   { A }   } _ { 2 2 \cdot   1 } \otimes   { \mathbf   { \Psi   }   } _ { 1 1 } ^ { - 1 } ) }
+  M N _ { p \times   q } ( \cdot , \cdot )  
+  { \mathbf   A } _ { 2 2 \cdot   1 }   \sim     \mathcal { W } ^ { - 1 } ( { \mathbf   \Psi } _ { 2 2 \cdot   1 } ,   \nu )  
+{ \mathbf   \Psi_ { 2 2 \cdot   1 } }   =   { \mathbf   \Psi } _ { 2 2 }   -   { \mathbf   \Psi } _ { 2 1 } { \mathbf   \Psi } _ { 1 1 } ^ { - 1 } { \mathbf   \Psi } _ { 1 2 }
+{ \mathbf { \Sigma } }
+{ p ( \mathbf { \Sigma } ) }
+\mathcal { W } ^ { - 1 } ( { \mathbf \Psi } , \nu )
+\mathbf { X } = [ \mathbf { x } _ 1 , \ldots , \mathbf { x } _ n ]
+N ( \mathbf { 0 } , { \mathbf   \Sigma } )
+{ \displaystyle   { p ( \mathbf   { \Sigma   }   \mid   \mathbf   { X }   ) } }
+\mathcal { W } ^ { - 1 } ( { \mathbf   A } + { \mathbf \Psi } , n + \nu )
+{ \mathbf { A } } = \mathbf { X } \mathbf { X } ^ T
+\mathbf { \Sigma }
+{ \displaystyle   P ( \mathbf   { X }   \mid   \mathbf   { \Psi   }   , \nu   ) = \int   P ( \mathbf   { X }   \mid   \mathbf   { \Sigma   }   ) P ( \mathbf   { \Sigma   }   \mid   \mathbf   { \Psi   }   , \nu   ) d \mathbf   { \Sigma   }   = { \frac   { | \mathbf   { \Psi   }   | ^ { \frac   { \nu   } { 2 } } \Gamma   _ { p } \left ( { \frac   { \nu   + n } { 2 } } \right ) } { \pi   ^ { \frac   { n p } { 2 } } | \mathbf   { \Psi   }   + \mathbf   { A }   | ^ { \frac   { \nu   + n } { 2 } } \Gamma   _ { p } ( { \frac   { \nu   } { 2 } } ) } } }
+\mathbf { \Sigma }
+{ \mathbf \Psi }
+{ \mathbf   A }
+{ \displaystyle   \operatorname   { E }   ( \mathbf   { X }   ) = { \frac   { \mathbf   { \Psi   }   } { \nu   - p - 1 } } . }
+\mathbf   { X }  
+  \operatorname { V a r } ( x _ { i j } )   =   \frac { ( \nu - p + 1 ) \psi_ { i j } ^ 2   +   ( \nu - p - 1 ) \psi_ { i i } \psi_ { j j } }   { ( \nu - p ) ( \nu - p - 1 ) ^ 2 ( \nu - p - 3 ) }
+i = j
+  \operatorname { V a r } ( x _ { i i } )   =   \frac { 2 \psi_ { i i } ^ 2 } { ( \nu - p - 1 ) ^ 2 ( \nu - p - 3 ) } .
+\mathbf   { X }  
+  \operatorname { C o v } ( x _ { i j } , x _ { k l } )   =   \frac { 2 \psi_ { i j } \psi_ { k l }   +   ( \nu - p - 1 )   ( \psi_ { i k } \psi_ { j l }   +   \psi_ { i l } \psi_ { k j } ) } { ( \nu - p ) ( \nu - p - 1 ) ^ 2 ( \nu - p - 3 ) }
+p = 1
+\alpha   =   \nu / 2
+\beta   =   \mathbf { \Psi } / 2
+x = \mathbf { X }
+{ \displaystyle   p ( x \mid   \alpha   , \beta   ) = { \frac   { \beta   ^ { \alpha   } \,x ^ { - \alpha   - 1 } \exp ( - \beta   / x ) } { \Gamma   _ { 1 } ( \alpha   ) } } . }
+\Gamma_1 ( \cdot )
+\mathcal { G W } ^ { - 1 }
+  p   \times   p
+\mathbf   { X }  
+\mathcal { G W } ^ { - 1 } ( \mathbf { \Psi } , \nu , \mathbf { S } )
+\mathbf { Y }   =   \mathbf { X } ^ { 1 / 2 } \mathbf { S } ^ { - 1 } \mathbf { X } ^ { 1 / 2 }
+\mathcal { W } ^ { - 1 } ( \mathbf { \Psi } , \nu )
+\mathbf { X } ^ { 1 / 2 }
+\mathbf   { X }  
+\mathbf { \Psi } , \mathbf { S }
+  p   \times   p
+\nu  
+2 p
+\mathbf   { S }  
+\mathcal { G W } ^ { - 1 } ( \mathbf { \Psi } , \nu , \mathbf { S } )   =   \mathcal { W } ^ { - 1 } ( \mathbf { \Psi } , \nu )

@@ -1,0 +1,17 @@
+{ \displaystyle   \operatorname   { P r o b }   ( D = 1 | Z ) = \Phi   ( Z \gamma   ) , }
+\gamma  
+{ \displaystyle   w ^ { * } = X \beta   + u }
+w ^ { * }
+{ \displaystyle   E [ w | X , D = 1 ] = X \beta   + E [ u | X , D = 1 ] . }
+{ \displaystyle   E [ w | X , D = 1 ] = X \beta   + \rho   \sigma   _ { u } \lambda   ( Z \gamma   ) , }
+\varepsilon  
+u
+\lambda  
+Z \gamma  
+\lambda  
+\gamma  
+\lambda  
+\sigma   _ { u } > 0
+\lambda  
+\rho   = 0
+\lambda  

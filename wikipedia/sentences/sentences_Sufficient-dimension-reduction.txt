@@ -1,0 +1,94 @@
+{ \textbf   { x } }
+{ \displaystyle   y | { \textbf   { x } } }
+y
+{ \textbf   { x } }
+{ \displaystyle   R ( { \textbf   { x } } ) }
+{ \textbf   { x } }
+\mathbb   { R }   ^ { k }
+{ \textbf   { x } }
+{ \displaystyle   R ( { \textbf   { x } } ) }
+{ \textbf   { x } }
+{ \displaystyle   R ( { \textbf   { x } } ) }
+{ \displaystyle   y | R ( { \textbf   { x } } ) }
+{ \displaystyle   y | { \textbf   { x } } }
+{ \textbf   { x } }
+{ \displaystyle   y | { \textbf   { x } } }
+y
+{ \textbf   { x } }
+{ \displaystyle   p \geq   3 }
+{ \displaystyle   R ( { \textbf   { x } } ) }
+y
+{ \displaystyle   R ( { \textbf   { x } } ) }
+{ \displaystyle   y | { \textbf   { x } } }
+{ \textbf   { x } }
+{ \displaystyle   R ( { \textbf   { x } } ) = A ^ { T } { \textbf   { x } } }
+A
+{ \displaystyle   p \times   k }
+{ \displaystyle   k \leq   p }
+{ \displaystyle   y | { \textbf   { x } } }
+{ \displaystyle   y | A ^ { T } { \textbf   { x } } }
+y
+{ \displaystyle   A ^ { T } { \textbf   { x } } }
+A
+\eta  
+A
+\eta  
+{ \displaystyle   { \mathcal   { S } } ( \eta   ) }
+{ \displaystyle   F _ { y | x } = F _ { y | \eta   ^ { T } x } , }
+F
+{ \displaystyle   y \perp   \!\!\!\perp   { \textbf   { x } } \,|\,\eta   ^ { T } { \textbf   { x } } , }
+y
+{ \textbf   { x } }
+{ \displaystyle   \eta   ^ { T } { \textbf   { x } } }
+{ \displaystyle   { \mathcal   { S } } ( \eta   ) }
+{ \displaystyle   y | { \textbf   { x } } }
+d
+{ \textbf   { x } }
+{ \displaystyle   y | { \textbf   { x } } }
+{ \textbf   { x } }
+\mathbb   { R }   ^ { d }
+{ \mathcal   { S } }
+{ \displaystyle   y | { \textbf   { x } } }
+{ \displaystyle   y | { \textbf   { x } } }
+{ \mathcal   { S } }
+d
+{ \displaystyle   y | { \textbf   { x } } }
+{ \mathcal   { S } }
+\eta  
+{ \displaystyle   \eta   ^ { T } { \textbf   { x } } }
+{ \mathcal   { S } }
+{ \displaystyle   y | { \textbf   { x } } }
+{ \displaystyle   { \mathcal   { S } } \subset   { \mathcal   { S } } _ { d r s } }
+{ \displaystyle   { \mathcal   { S } } _ { d r s } }
+{ \displaystyle   { \mathcal   { S } } _ { y | x } }
+{ \displaystyle   y | { \textbf   { x } } }
+{ \displaystyle   \cap   { \mathcal   { S } } _ { d r s } }
+{ \displaystyle   { \mathcal   { S } } _ { y | x } }
+{ \displaystyle   { \mathcal   { S } } _ { y | x } }
+{ \displaystyle   \cap   { \mathcal   { S } } _ { d r s } }
+{ \displaystyle   { \mathcal   { S } } _ { y | x } }
+{ \displaystyle   { \mathcal   { S } } _ { y | x } }
+{ \displaystyle   { \mathcal   { S } } _ { 1 } }
+{ \displaystyle   { \mathcal   { S } } _ { 2 } }
+{ \displaystyle   y | { \textbf   { x } } }
+{ \textbf   { x } }
+{ \displaystyle   f ( a ) > 0 }
+{ \displaystyle   a \in   \Omega   _ { x } }
+f ( a )   =   0
+\Omega   _ { x }
+{ \displaystyle   { \mathcal   { S } } _ { 1 } \cap   { \mathcal   { S } } _ { 2 } }
+{ \displaystyle   { \mathcal   { S } } _ { y | x } }
+{ \textbf   { x } }
+{ \displaystyle   y = \alpha   + \beta   ^ { T } { \textbf   { x } } + \varepsilon   , { \text {   w h e r e   } } \varepsilon   \perp   \!\!\!\perp   { \textbf   { x } } . }
+{ \displaystyle   y | { \textbf   { x } } }
+{ \displaystyle   y | \beta   ^ { T } { \textbf   { x } } }
+\beta  
+\beta  
+{ \displaystyle   \beta   = { \textbf   { 0 } } }
+d = 1
+\hat { \beta }
+\beta  
+\hat { \beta }
+{ \displaystyle   { \mathcal   { S } } _ { y | x } }
+y
+{ \displaystyle   { \hat   { \beta   } } ^ { T } { \textbf   { x } } }

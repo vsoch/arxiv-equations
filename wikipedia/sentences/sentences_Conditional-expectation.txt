@@ -1,0 +1,267 @@
+X
+Y
+Y
+X
+Y
+{ \displaystyle   E ( X | Y ) }
+Y
+X
+Y
+y
+{ \displaystyle   E ( X | Y = y ) }
+{ \displaystyle   E [ A ] = ( 0 + 1 + 0 + 1 + 0 + 1 ) / 6 = 1 / 2 }
+{ \displaystyle   E [ A | B = 1 ] = ( 1 + 0 + 0 ) / 3 = 1 / 3 }
+{ \displaystyle   E [ A | B = 0 ] = ( 0 + 1 + 1 ) / 3 = 2 / 3 }
+{ \displaystyle   E [ B | A = 1 ] = ( 1 + 0 + 0 ) / 3 = 1 / 3 }
+{ \displaystyle   E [ B | A = 0 ] = ( 0 + 1 + 1 ) / 3 = 2 / 3 }
+X
+H
+Y = y
+Y
+X
+H
+{ \displaystyle   \operatorname   { E }   ( X \mid   H ) = { \frac   { \sum   _ { \omega   \in   H } X ( \omega   ) } { | H | } } , }
+| H |
+H
+X ( \omega   )
+{ \mathcal   { X } }
+X
+{ \displaystyle   \operatorname   { E }   ( X \mid   H ) = \sum   _ { x \in   { \mathcal   { X } } } x \,{ \frac   { | \{ \omega   \in   H \mid   X ( \omega   ) = x \}|}{ | H | } } . }
+H
+Y
+y
+Y
+H
+Y = y
+( \Omega   , { \mathcal   { F } } , P )
+X
+{ \displaystyle   H \in   { \mathcal   { F } } }
+{ \displaystyle   P ( H ) > 0 }
+X
+H
+{ \displaystyle   \operatorname   { E }   ( X \mid   H ) = { \frac   { \operatorname   { E }   ( 1 _ { H } X ) } { P ( H ) } } = \int   _ { \mathcal   { X } } x \,\mathrm   { d }   P ( x \mid   H ) , }
+{ \mathcal   { X } }
+X
+{ \displaystyle   P ( \cdot   \mid   H ) }
+A
+{ \displaystyle   P ( A \mid   H ) = P ( A \cap   H ) / P ( H ) }
+A
+H
+{ \displaystyle   P ( H ) = 0 }
+Y
+H
+Y = y
+H
+( \Omega   , { \mathcal   { F } } , P )
+{ \mathcal   { Y } }
+{ \displaystyle   E ( X \mid   Y ) }
+{ \mathcal   { Y } }
+{ \displaystyle   \operatorname   { E }   ( X \mid   Y ) ( y ) = \operatorname   { E }   ( X \mid   Y = y ) . }
+\Omega  
+{ \mathcal   { Y } }
+{ \displaystyle   \operatorname   { E }   ( X \mid   \sigma   ( Y ) ) ( \omega   ) = \operatorname   { E }   ( X \mid   Y = Y ( \omega   ) ) . }
+{ \displaystyle   \operatorname   { E }   ( X \mid   \sigma   ( Y ) ) = \operatorname   { E }   ( X \mid   Y ) \circ   Y . }
+{ \displaystyle   \operatorname   { E }   ( X \mid   Y ) }
+\Omega  
+{ \displaystyle   H _ { y } ^ { \epsilon   } = \{ \omega   \mid   \|Y ( \omega   ) - y \|<\epsilon   \ } }
+{ \displaystyle   H _ { y } ^ { \epsilon   } }
+{ \displaystyle   P ( H _ { y } ^ { \epsilon   } ) > 0 }
+\epsilon   > 0
+{ \displaystyle   H _ { y } ^ { \epsilon   } }
+\epsilon  
+{ \displaystyle   g ( y ) = \lim   _ { \epsilon   \to   0 } \operatorname   { E }   ( X \mid   H _ { y } ^ { \varepsilon   } ) . }
+( \Omega   , { \mathcal   { F } } , P )
+{ \displaystyle   { \mathcal   { A } } = { \mathcal   { F } } }
+{ \mathcal   { B } }
+{ \mathcal   { C } }
+( \Omega   , { \mathcal   { F } } , P )
+{ \displaystyle   X : \Omega   \to   \mathbb   { R }   ^ { n } }
+{ \displaystyle   { \mathcal   { H } } \subseteq   { \mathcal   { F } } }
+{ \mathcal   { F } }
+{ \mathcal   { H } }
+{ \mathcal   { F } }
+{ \displaystyle   X : \Omega   \to   \mathbb   { R }   ^ { n } }
+{ \mathcal   { H } }
+{ \textstyle   \int   _ { H } X \,dP | _ { \mathcal   { H } } }
+{ \displaystyle   H \in   { \mathcal   { H } } }
+{ \displaystyle   P | _ { \mathcal   { H } } }
+P
+{ \mathcal   { H } }
+{ \textstyle   \int   _ { H } X \,dP }
+{ \displaystyle   ( \Omega   , { \mathcal   { H } } , P | _ { \mathcal   { H } } ) }
+{ \mathcal   { H } }
+{ \displaystyle   \operatorname   { E }   ( X \mid   { \mathcal   { H } } ) }
+{ \mathcal   { H } }
+\Omega   \to   \mathbb { R } ^ n
+{ \displaystyle   \int   _ { H } \operatorname   { E }   ( X \mid   { \mathcal   { H } } ) \,\mathrm   { d }   P = \int   _ { H } X \,\mathrm   { d }   P }
+H \in   { \mathcal     { H } }
+{ \displaystyle   \operatorname   { E }   ( X \mid   { \mathcal   { H } } ) }
+{ \textstyle   \mu   ^ { X } : F \mapsto   \int   _ { F } X \,\mathrm   { d }   P }
+F \in   { \mathcal     { F } }
+( \Omega ,   \mathcal { F } )
+P
+h
+{ \mathcal   { H } }
+{ \mathcal   { F } }
+{ \displaystyle   \mu   ^ { X } \circ   h = \mu   ^ { X } | _ { \mathcal   { H } } }
+{ \displaystyle   \mu   ^ { X } }
+{ \mathcal   { H } }
+{ \displaystyle   P \circ   h = P | _ { \mathcal   { H } } }
+P
+{ \mathcal   { H } }
+{ \displaystyle   \mu   ^ { X } \circ   h }
+{ \displaystyle   P \circ   h }
+{ \displaystyle   P \circ   h ( H ) = 0 \iff   P ( h ( H ) ) = 0 }
+{ \displaystyle   \mu   ^ { X } ( h ( H ) ) = 0 \iff   \mu   ^ { X } \circ   h ( H ) = 0 . }
+{ \displaystyle   \operatorname   { E }   ( X \mid   { \mathcal   { H } } ) = { \frac   { \mathrm   { d }   \mu   ^ { X } | _ { \mathcal   { H } } } { \mathrm   { d }   P | _ { \mathcal   { H } } } } = { \frac   { \mathrm   { d }   ( \mu   ^ { X } \circ   h ) } { \mathrm   { d }   ( P \circ   h ) } } , }
+( U , \Sigma   )
+{ \displaystyle   Y : \Omega   \to   U }
+{ \displaystyle   g : U \to   \mathbb   { R }   ^ { n } }
+\Sigma  
+\Sigma  
+{ \displaystyle   f : U \to   \mathbb   { R }   ^ { n } }
+{ \displaystyle   \int   g ( Y ) f ( Y ) \,\mathrm   { d }   P = \int   X f ( Y ) \,\mathrm   { d }   P . }
+{ \displaystyle   g ( Y ) }
+{ \displaystyle   \operatorname   { E }   ( X \mid   Y ) }
+Y
+\sigma  
+{ \mathcal   { F } }
+{ \displaystyle   { \mathcal   { H } } = Y ^ { - 1 } ( \Sigma   ) = \{ Y ^ { - 1 } ( B ) : B \in   \Sigma   \ } , }
+{ \displaystyle   \operatorname   { E }   ( X \mid   Y ) = \operatorname   { E }   ( X \mid   { \mathcal   { H } } ) = { \frac   { \mathrm   { d }   ( \mu   ^ { X } \circ   Y ^ { - 1 } ) } { \mathrm   { d }   ( P \circ   Y ^ { - 1 } ) } } \circ   Y }
+{ \displaystyle   \operatorname   { E }   ( X \mid   { \mathcal   { H } } ) }
+{ \displaystyle   \operatorname   { E }   ( X \mid   H ) }
+H
+{ \mathcal   { H } }
+\Omega   \to   \mathbb { R } ^ n
+\mathbb   { R }   ^ { n }
+H
+{ \mathcal   { H } }
+{ \displaystyle   E ( X \mid   { \mathcal   { H } } ) }
+{ \mathcal   { H } }
+Y
+( U , \Sigma   )
+\Sigma  
+U
+U
+{ \displaystyle   Y \colon   \Omega   \to   U }
+{ \displaystyle   Y ^ { - 1 } ( B ) \in   { \mathcal   { F } } }
+B \in   \Sigma
+Y
+{ \displaystyle   P _ { Y } : \Sigma   \to   \mathbb   { R }   }
+{ \displaystyle   Y _ { * } P }
+{ \displaystyle   P _ { Y } ( B ) = P ( Y ^ { - 1 } ( B ) ) }
+X : \Omega   \to   \mathbb   { R }  
+\operatorname   { E } ( X \mid   Y ) : U \to   { \mathbb     { R } }
+{ \displaystyle   P _ { Y } }
+{ \displaystyle   \int   _ { Y ^ { - 1 } ( B ) } X \,\mathrm   { d }   P = \int   _ { B } \operatorname   { E }   ( X \mid   Y ) \,\mathrm   { d }   P _ { Y } , }
+B \in   \Sigma  
+\mu   : \Sigma   \to   { \mathbb     { R } }
+{ \textstyle   \mu   ( B ) = \int   _ { Y ^ { - 1 } ( B ) } X \,\mathrm   { d }   P }
+\mu  
+{ \displaystyle   P _ { Y } }
+{ \displaystyle   P _ { Y } ( B ) = 0 }
+{ \displaystyle   P ( Y ^ { - 1 } ( B ) ) = 0 }
+\mu  
+{ \displaystyle   P _ { Y } }
+\operatorname   { E } ( X \mid   Y )
+\square  
+\operatorname { E } ( X   \mid   Y )   \circ   Y =   \operatorname { E } \left ( X   \mid   Y ^ { - 1 }   \left ( \Sigma \right ) \right ) .
+{ \displaystyle   \int   _ { Y ^ { - 1 } ( B ) } X \,\mathrm   { d }   P = \int   _ { Y ^ { - 1 } ( B ) } ( \operatorname   { E }   ( X \mid   Y ) \circ   Y ) \,\mathrm   { d }   P . }
+X
+\operatorname   { E } ( X \mid   Y ) \circ   Y
+Y ^ { { - 1 } } ( B )
+B \in   \Sigma  
+{ \displaystyle   \operatorname   { E }   ( X \mid   Y = y ) = \sum   _ { x \in   { \mathcal   { X } } } x \,P ( X = x \mid   Y = y ) = \sum   _ { x \in   { \mathcal   { X } } } x \,{ \frac   { P ( X = x , Y = y ) } { P ( Y = y ) } } , }
+{ \mathcal   { X } }
+{ \displaystyle   \operatorname   { E }   ( X \mid   Y = y ) = \int   _ { \mathcal   { X } } x f _ { X } ( x \mid   Y = y ) \,\mathrm   { d }   x , }
+{ \displaystyle   f _ { X } ( x \mid   Y = y ) = { \frac   { f _ { X , Y } ( x , y ) } { P ( Y = y ) } } }
+{ \displaystyle   \operatorname   { E }   ( X \mid   Y = y ) = \int   _ { \mathcal   { X } } x f _ { X \mid   Y } ( x \mid   y ) \,\mathrm   { d }   x , }
+{ \displaystyle   f _ { X \mid   Y } ( x \mid   y ) = { \frac   { f _ { X , Y } ( x , y ) } { f _ { Y } ( y ) } } }
+{ \mathcal   { H } }
+Z
+X
+{ \mathcal   { H } }
+{ \displaystyle   E ( X \mid   { \mathcal   { H } } ) = E ( X ) }
+{ \displaystyle   B \in   { \mathcal   { H } } }
+X
+1 _ { B }
+{ \displaystyle   \int   _ { B } X \,dP = E ( X 1 _ { B } ) = E ( X ) E ( 1 _ { B } ) = E ( X ) P ( B ) = \int   _ { B } E ( X ) \,dP . }
+E ( X )
+X
+\sigma   ( Y , { \mathcal     { H } } )
+{ \displaystyle   E ( X Y \mid   { \mathcal   { H } } ) = E ( X ) \,E ( Y \mid   { \mathcal   { H } } ) }
+X
+{ \mathcal   { H } }
+Y
+X , Y
+{ \mathcal     { G } } , { \mathcal     { H } }
+X
+{ \mathcal   { H } }
+Y
+{ \mathcal   { G } }
+{ \displaystyle   E ( E ( X Y \mid   { \mathcal   { G } } ) \mid   { \mathcal   { H } } ) = E ( X ) E ( Y ) = E ( E ( X Y \mid   { \mathcal   { H } } ) \mid   { \mathcal   { G } } ) }
+X
+{ \mathcal   { H } }
+{ \displaystyle   E ( X \mid   { \mathcal   { H } } ) = X }
+\operatorname   { E } ( f ( Z ) \mid   Z ) = f ( Z )
+\operatorname   { E } ( Z \mid   Z ) = Z
+X
+{ \mathcal   { H } }
+{ \displaystyle   E ( X Y \mid   { \mathcal   { H } } ) = X \,E ( Y \mid   { \mathcal   { H } } ) }
+\operatorname   { E } ( f ( Z ) Y \mid   Z ) = f ( Z ) \operatorname   { E } ( Y \mid   Z )
+E ( E ( X \mid   { \mathcal     { H } } ) ) = E ( X )
+{ \mathcal     { H } } _ { 1 } \subset   { \mathcal     { H } } _ { 2 } \subset   { \mathcal     { F } }
+{ \displaystyle   E ( E ( X \mid   { \mathcal   { H } } _ { 2 } ) \mid   { \mathcal   { H } } _ { 1 } ) = E ( X \mid   { \mathcal   { H } } _ { 1 } ) }
+{ \mathcal   { H } }
+{ \displaystyle   \sigma   ( Z ) \subset   { \mathcal   { H } } }
+{ \displaystyle   E ( E ( X \mid   { \mathcal   { H } } ) \mid   Z ) = E ( X \mid   Z ) }
+{ \displaystyle   Z = E ( X \mid   { \mathcal   { H } } ) }
+{ \mathcal   { H } }
+\operatorname   { E } ( Z \mid   Z ) = Z
+E ( X \mid   E ( X \mid   { \mathcal     { H } } ) ) = E ( X \mid   { \mathcal     { H } } )
+X , Y
+{ \displaystyle   E ( E ( X \mid   Y ) \mid   f ( Y ) ) = E ( X \mid   f ( Y ) ) }
+X , Y , Z
+{ \displaystyle   E ( E ( X \mid   Y , Z ) \mid   Y ) = E ( X \mid   Y ) }
+{ \displaystyle   E ( X _ { 1 } + X _ { 2 } \mid   { \mathcal   { H } } ) = E ( X _ { 1 } \mid   { \mathcal   { H } } ) + E ( X _ { 2 } \mid   { \mathcal   { H } } ) }
+{ \displaystyle   E ( a X \mid   { \mathcal   { H } } ) = a \,E ( X \mid   { \mathcal   { H } } ) }
+a \in   \mathbb { R }  
+{ \displaystyle   X \geq   0 }
+{ \displaystyle   E ( X \mid   { \mathcal   { H } } ) \geq   0 }
+{ \displaystyle   X _ { 1 } \leq   X _ { 2 } }
+{ \displaystyle   E ( X _ { 1 } \mid   { \mathcal   { H } } ) \leq   E ( X _ { 2 } \mid   { \mathcal   { H } } ) }
+{ \displaystyle   0 \leq   X _ { n } \uparrow   X }
+{ \displaystyle   E ( X _ { n } \mid   { \mathcal   { H } } ) \uparrow   E ( X \mid   { \mathcal   { H } } ) }
+{ \displaystyle   X _ { n } \to   X }
+{ \displaystyle   | X _ { n } | \leq   Y }
+{ \displaystyle   Y \in   L ^ { 1 } }
+{ \displaystyle   E ( X _ { n } \mid   { \mathcal   { H } } ) \to   E ( X \mid   { \mathcal   { H } } ) }
+{ \displaystyle   \textstyle   E ( \inf   _ { n } X _ { n } \mid   { \mathcal   { H } } ) > - \infty   }
+{ \displaystyle   \textstyle   E ( \liminf   _ { n \to   \infty   } X _ { n } \mid   { \mathcal   { H } } ) \leq   \liminf   _ { n \to   \infty   } E ( X _ { n } \mid   { \mathcal   { H } } ) }
+{ \displaystyle   f \colon   \mathbb   { R }   \rightarrow   \mathbb   { R }   }
+{ \displaystyle   f ( E ( X \mid   { \mathcal   { H } } ) ) \leq   E ( f ( X ) \mid   { \mathcal   { H } } ) }
+\operatorname   { V a r } ( X \mid   { \mathcal     { H } } ) = \operatorname   { E } { \bigl   ( } ( X - \operatorname   { E } ( X \mid   { \mathcal     { H } } ) ) ^ { 2 } \mid   { \mathcal     { H } } { \bigr   ) }
+\operatorname   { V a r } ( X \mid   { \mathcal     { H } } ) = \operatorname   { E } ( X ^ { 2 } \mid   { \mathcal     { H } } ) - { \bigl   ( } \operatorname   { E } ( X \mid   { \mathcal     { H } } ) { \bigr   ) } ^ { 2 }
+\operatorname   { V a r } ( X ) = \operatorname   { E } ( \operatorname   { V a r } ( X \mid   { \mathcal     { H } } ) ) + \operatorname   { V a r } ( \operatorname   { E } ( X \mid   { \mathcal     { H } } ) )
+X
+E ( X \mid   { \mathcal     { H } } _ { n } ) \to   E ( X \mid   { \mathcal     { H } } )
+{ \mathcal     { H } } _ { 1 } \subset   { \mathcal     { H } } _ { 2 } \subset   \dotsb  
+{ \displaystyle   \textstyle   { \mathcal   { H } } = \sigma   ( \bigcup   _ { n = 1 } ^ { \infty   } { \mathcal   { H } } _ { n } ) }
+{ \mathcal     { H } } _ { 1 } \supset   { \mathcal     { H } } _ { 2 } \supset   \dotsb  
+{ \displaystyle   \textstyle   { \mathcal   { H } } = \bigcap   _ { n = 1 } ^ { \infty   } { \mathcal   { H } } _ { n } }
+L ^ { 2 }
+X , Y
+{ \mathcal   { H } }
+Y
+{ \displaystyle   E ( Y ( X - E ( X \mid   { \mathcal   { H } } ) ) ) = 0 }
+{ \displaystyle   E ( X \mid   { \mathcal   { H } } ) }
+X
+{ \mathcal   { H } }
+X \mapsto   \operatorname   { E } ( X \mid   { \mathcal     { H } } )
+\operatorname   E ( X \operatorname   E ( Y \mid   { \mathcal     { H } } ) ) = \operatorname   E \left ( \operatorname   E ( X \mid   { \mathcal     { H } } ) \operatorname   E ( Y \mid   { \mathcal     { H } } ) \right ) = \operatorname   E ( \operatorname   E ( X \mid   { \mathcal     { H } } ) Y )
+{ \displaystyle   L ^ { p } ( \Omega   , { \mathcal   { F } } , P ) \rightarrow   L ^ { p } ( \Omega   , { \mathcal   { H } } , P ) }
+{ \displaystyle   \operatorname   { E }   { \big   ( } | \operatorname   { E }   ( X \mid   { \mathcal   { H } } ) | ^ { p } { \big   ) } \leq   \operatorname   { E }   { \big   ( } | X | ^ { p } { \big   ) } }
+X , Y
+Z
+{ \displaystyle   P ( X \in   B \mid   Y , Z ) = P ( X \in   B \mid   Z ) }
+{ \displaystyle   E ( 1 _ { \{ X \in   B \}}\mid   Y , Z ) = E ( 1 _ { \{ X \in   B \}}\mid   Z ) }

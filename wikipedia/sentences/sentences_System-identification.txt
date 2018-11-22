@@ -1,0 +1,19 @@
+{ \displaystyle   G _ { 0 } ( s ) }
+{ \displaystyle   G _ { 0 } ( s ) = { \frac   { 1 } { s + 1 } } }
+{ \displaystyle   { \hat   { G } } ( s ) }
+{ \displaystyle   { \hat   { G } } ( s ) = { \frac   { 1 } { s } } . }
+{ \displaystyle   { \hat   { G } } ( s ) }
+{ \displaystyle   G _ { 0 } ( s ) }
+{ \displaystyle   { \hat   { G } } ( s ) }
+{ \displaystyle   G _ { 0 } ( s ) }
+{ \displaystyle   G _ { 0 } ( s ) }
+{ \displaystyle   { \hat   { G } } ( s ) }
+{ \displaystyle   { \hat   { G } } ( s ) }
+K
+{ \displaystyle   G _ { 0 } ( s ) }
+{ \displaystyle   { \frac   { K G _ { 0 } ( s ) } { 1 + K G _ { 0 } ( s ) } } = { \frac   { K } { s + 1 + K } } }
+{ \displaystyle   { \hat   { G } } ( s ) }
+{ \displaystyle   { \frac   { K { \hat   { G } } ( s ) } { 1 + K { \hat   { G } } ( s ) } } = { \frac   { K } { s + K } } . }
+K
+{ \displaystyle   1 + K \approx   K }
+{ \displaystyle   { \hat   { G } } ( s ) }

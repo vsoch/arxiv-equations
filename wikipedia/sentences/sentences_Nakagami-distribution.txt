@@ -1,0 +1,33 @@
+{ \displaystyle   m \ or \ \mu   \geq   0 . 5 }
+{ \displaystyle   \Omega \ or \ \omega   >   0 }
+x > 0 \ !
+{ \displaystyle   \frac { 2 m ^ m } { \Gamma ( m ) \Omega ^ m }   x ^ { 2 m - 1 }   \exp \left ( - \frac { m } { \Omega } x ^ 2   \right ) }
+{ \displaystyle   \frac { \gamma   \left ( m , \frac { m } { \Omega }   x ^ 2 \right ) } { \Gamma ( m ) } }
+{ \displaystyle   \frac { \Gamma ( m + \frac { 1 } { 2 } ) } { \Gamma ( m ) } \left ( \frac { \Omega } { m } \right ) ^ { 1 / 2 } }
+{ \displaystyle   \frac { \sqrt { 2 } } { 2 }   \left ( \frac { ( 2 m - 1 ) \Omega } { m } \right ) ^ { 1 / 2 } }
+{ \displaystyle   \Omega \left ( 1 - \frac { 1 } { m } \left ( \frac { \Gamma ( m + \frac { 1 } { 2 } ) } { \Gamma ( m ) } \right ) ^ 2 \right ) }
+{ \displaystyle   m \geq   1 / 2 }
+{ \displaystyle   \Omega   > 0 }
+{ \displaystyle   f ( x ; \,m , \Omega   ) = { \frac   { 2 m ^ { m } } { \Gamma   ( m ) \Omega   ^ { m } } } x ^ { 2 m - 1 } \exp   \left ( - { \frac   { m } { \Omega   } } x ^ { 2 } \right ) , \forall   x \geq   0 . ~ ~ ( m \geq   1 / 2 , { \text {   a n d   } } \Omega   > 0 ) }
+{ \displaystyle     F ( x ; \,m , \Omega )   =   P \left ( m ,   \frac { m } { \Omega } x ^ 2 \right ) }
+m
+\Omega  
+{ \displaystyle     m   =   \frac { \operatorname { E } ^ 2   \left [ X ^ 2   \right ] }                                         { \operatorname { V a r }   \left [ X ^ 2   \right ] } ,   }
+{ \displaystyle     \Omega   =   \operatorname { E }   \left [ X ^ 2   \right ] .   }
+\Omega  
+{ \displaystyle     \Gamma ( m ) =   \frac { x ^ { 2 m } } { \sigma ^ m } ,   }
+{ \displaystyle     \sigma =   \frac { x ^ 2 } { m }   }
+{ \displaystyle   Y   \, \sim   \textrm { G a m m a } ( k ,   \theta ) }
+{ \displaystyle   X   \, \sim   \textrm { N a k a g a m i }   ( m ,   \Omega ) }
+k = m
+{ \displaystyle   \theta = \Omega   /   m   }
+Y
+{ \displaystyle     X   =   \sqrt { Y }   \ , }
+{ \displaystyle   f ( y ;   \,m , \Omega ) }
+k
+2 m
+X
+{ \displaystyle   Y   \sim   \chi ( 2 m )   }
+{ \displaystyle   X = { \sqrt   { ( \Omega   / 2 m ) } } Y . }
+2 m
+m

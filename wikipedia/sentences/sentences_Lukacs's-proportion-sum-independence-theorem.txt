@@ -1,0 +1,4 @@
+{ \displaystyle   W = Y _ { 1 } + Y _ { 2 } { \text {   a n d   } } P = { \frac   { Y _ { 1 } } { Y _ { 1 } + Y _ { 2 } } } }
+{ \displaystyle   P _ { i } = { \frac   { Y _ { i } } { \sum   _ { i = 1 } ^ { k } Y _ { i } } } }
+{ \displaystyle   W = \sum   _ { i = 1 } ^ { k } Y _ { i } }
+\beta  

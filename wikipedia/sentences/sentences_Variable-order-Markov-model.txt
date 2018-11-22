@@ -1,0 +1,14 @@
+| A |
+x _ 1 ^ { n } = x _ 1 x _ 2 \dots   x _ n
+  x _ i \in     A
+{ \displaystyle   \scriptstyle   ( 1 \leq   i \leq   n ) }
+x _ { i }
+x _ { i + 1 }
+x _ i x _ { i + 1 }
+x _ 1 ^ { n }
+{ \displaystyle   P ( x _ { i } \mid   s ) }
+x _ i   \in   A
+s \in   A ^ *
+{ \displaystyle   P ( x _ { i } \mid   s ) }
+{ \displaystyle   | s | \leq   D }
+{ \displaystyle   | s | = D }

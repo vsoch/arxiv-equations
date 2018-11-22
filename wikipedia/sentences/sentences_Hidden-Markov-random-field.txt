@@ -1,0 +1,11 @@
+  Y _ i  
+{ \displaystyle   i \in   S }
+  Y _ i  
+X _ { i }
+{ \displaystyle   i \in   S }
+N _ { i }
+{ \displaystyle   X _ { i } , X _ { i } }
+X _ { j }
+X _ { i }
+X _ { i }
+  Y _ i  

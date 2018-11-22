@@ -1,0 +1,83 @@
+\textstyle   x
+\textstyle   H _ 0
+\textstyle   H _ { 1 }
+\textstyle   \pi
+\textstyle   x
+\textstyle   x
+\textstyle   H _ 0
+\textstyle   H _ 0
+\textstyle   H _ 0
+\textstyle   x
+\textstyle   H _ 0
+\textstyle   x
+\textstyle   H _ { 1 }
+\textstyle   H _ 0
+\textstyle   H _ { 1 }
+\textstyle   x
+\textstyle   \theta  
+\textstyle \theta
+\textstyle   H _ 0 :   \theta = 0 . 5
+\textstyle   H _ 1 :   \theta   \neq   0 . 5
+\textstyle   H _ 0
+\textstyle   x
+\textstyle   H _ 0
+\textstyle   X   \sim   N ( \mu ,   \sigma ^ 2 )
+\textstyle   \mu   =   n p   =   n \theta   =   9 8 , 4 5 1   \times   0 . 5   =   4 9 , 2 2 5 . 5
+\textstyle   \sigma ^ 2   =   n \theta   ( 1 - \theta )   =   9 8 , 4 5 1 \times0 . 5 \times0 . 5   =   2 4 , 6 1 2 . 7 5
+{ \displaystyle   { \begin { a l i g n e d } P ( X \geq   x \mid   \mu   = 4 9 2 2 5 . 5 ) = \int   _ { x = 4 9 5 8 1 } ^ { 9 8 4 5 1 } { \frac   { 1 } { \sqrt   { 2 \pi   \sigma   ^ { 2 } } } } e ^ { - ( { \frac   { u - \mu   } { \sigma   } } ) ^ { 2 } / 2 } d u \\=\int   _ { x = 4 9 5 8 1 } ^ { 9 8 4 5 1 } { \frac   { 1 } { \sqrt   { 2 \pi   ( 2 4 , 6 1 2 . 7 5 ) } } } e ^ { - { \frac   { ( u - 4 9 2 2 5 . 5 ) ^ { 2 } } { 2 4 6 1 2 . 7 5 } } / 2 } d u \approx   0 . 0 1 1 7 . \end { a l i g n e d } } }
+\textstyle   x \approx   0 . 4 9 6 4
+\textstyle   p   \approx   2 \times   0 . 0 1 1 7   =   0 . 0 2 3 5
+\textstyle   H _ 0
+\textstyle   \pi ( H _ 0 )   =   \pi ( H _ 1 )   =   0 . 5
+\textstyle \theta
+H _ { 1 }
+\textstyle   H _ 0
+  P ( H _ 0   \mid   k )   =   \frac { P ( k   \mid   H _ 0 )   \pi ( H _ 0 ) } { P ( k   \mid   H _ 0 )   \pi ( H _ 0 )   +   P ( k   \mid   H _ 1 )   \pi ( H _ 1 ) } .
+\textstyle   k   =   4 9 , 5 8 1
+\textstyle   n   =   9 8 , 4 5 1
+{ \displaystyle   { \begin { a l i g n e d } P ( k \mid   H _ { 0 } ) & = { n   \choose   k } ( 0 . 5 ) ^ { k } ( 1 - 0 . 5 ) ^ { n - k } \approx   1 . 9 5 \times   1 0 ^ { - 4 } \\P ( k \mid   H _ { 1 } ) & = \int   _ { 0 } ^ { 1 } { n   \choose   k } \theta   ^ { k } ( 1 - \theta   ) ^ { n - k } d \theta   = { n   \choose   k } \mathrm   { \mathrm   { B }   }   ( k + 1 , n - k + 1 ) = 1 / ( n + 1 ) \approx   1 . 0 2 \times   1 0 ^ { - 5 } \end { a l i g n e d } } }
+\textstyle   \mathrm { \Beta } ( a , b )
+P ( \textstyle   H _ 0   \mid   k )   \approx   0 . 9 5
+\textstyle   H _ 0
+\textstyle   H _ { 1 }
+\textstyle   P ( \theta   \mid   x ,   n )
+\textstyle   \theta  
+\textstyle   \pi ( \theta   \in   [ 0 , 1 ] )   =   1
+P ( \theta   \mid   k , n ) = { \mathrm     { \mathrm { B }   } } ( k + 1 , n - k + 1 ) .
+P ( \theta   > 0 . 5 \mid   k , n )
+\int   _ { { 0 . 5 } } ^ { 1 } { \mathrm     { \mathrm { B }   } } ( 4 9 5 8 2 , 4 8 8 7 1 ) \approx   0 . 9 8 3 .
+\textstyle   H _ 0
+\textstyle   H _ { 1 }
+\textstyle   H _ 0
+\textstyle   H _ { 1 }
+\textstyle   \theta  
+\textstyle   [ 0 ,   1 ]
+\textstyle   H _ 0
+\textstyle   \theta \approx0 . 5 0 0
+\textstyle   H _ { 1 }
+\textstyle   \theta  
+\textstyle   \theta  
+\textstyle   H _ { 1 }
+\textstyle   H _ 0
+\textstyle   H _ 0
+\textstyle   H _ { 1 }
+\textstyle   \theta   \approx   0 . 5 0 4
+\textstyle \theta   \approx   0 . 5 0 0
+\textstyle   \theta  
+\textstyle   \theta  
+\theta  
+\approx  
+\theta = 0 . 5
+H _ { 0 }
+x \approx   0 . 5 0 3 6
+x
+2 . 2 8 \sigma
+H _ { 0 }
+\textstyle   \theta   =   0 . 5
+\textstyle   \theta  
+\textstyle   H _ 0
+\textstyle   H _ { 1 }
+\textstyle   H _ 2 :   \theta   =   x
+\textstyle   \theta  
+\textstyle   H _ 0
+\textstyle   H _ { 2 }

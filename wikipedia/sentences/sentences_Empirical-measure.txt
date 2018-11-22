@@ -1,0 +1,35 @@
+P
+X _ { 1 } , X _ { 2 } , \dots   , X _ { n }
+P
+F
+X _ { 1 } , X _ { 2 } , \dots  
+P _ { n } ( A ) = { 1   \over   n } \sum   _ { { i = 1 } } ^ { n } I _ { A } ( X _ { i } ) = { \frac     { 1 } { n } } \sum   _ { { i = 1 } } ^ { n } \delta   _ { { X _ { i } } } ( A )
+I _ { A }
+\delta   _ { X }
+A _ { i }
+{ \displaystyle   X _ { i } = n P _ { n } ( A _ { i } ) }
+{ \displaystyle   P ( A _ { i } ) }
+{ \displaystyle   C o v ( X _ { i } , X _ { j } ) = n P ( A _ { i } ) ( \delta   _ { i j } - P ( A _ { j } ) ) }
+{ \bigl   ( } P _ { n } ( c ) { \bigr   ) } _ { { c \in   { \mathcal     { C } } } }
+{ \mathcal   { C } }
+P _ { n }
+f : S \to   { \mathbb     { R } }
+f \mapsto   P _ { n } f = \int   _ { S } f \,dP_ { n } = { \frac     { 1 } { n } } \sum   _ { { i = 1 } } ^ { n } f ( X _ { i } )
+f
+P _ { n } f
+{ \mathbb     { E } } f
+{ \frac     { 1 } { n } } { \mathbb     { E } } ( f - { \mathbb     { E } } f ) ^ { 2 }
+P _ { n } f
+{ \mathbb     { E } } f
+f
+{ \mathcal   { C } }
+{ \mathcal   { F } }
+c \in   { \mathcal     { C } }
+f \in   { \mathcal     { F } }
+\|P_ { n } - P \|_ { { \mathcal     { C } } } = \sup   _ { { c \in   { \mathcal     { C } } } } | P _ { n } ( c ) - P ( c ) | \to   0 ,
+\|P_ { n } - P \|_ { { \mathcal     { F } } } = \sup   _ { { f \in   { \mathcal     { F } } } } | P _ { n } f - { \mathbb     { E } } f | \to   0 .
+X _ { 1 } , \dots   , X _ { n }
+F _ { n } ( x ) = P _ { n } ( ( - \infty   , x ] ) = P _ { n } I _ { { ( - \infty   , x ] } } .
+{ \mathcal     { C } } = \{ ( - \infty   , x ] : x \in   { \mathbb     { R } } \ } .
+{ \mathcal   { C } }
+\sup   _ { F } \|F_ { n } ( x ) - F ( x ) \|_ { \infty   } \to   0

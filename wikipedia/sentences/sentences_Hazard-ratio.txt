@@ -1,0 +1,16 @@
+h ( t ) = \lim   _ { { \Delta   t \rightarrow   0 } } { \frac     { { \mathrm     { o b s e r v e d \;events \;in \;interval } } [ t , t + \Delta   t ] / N ( t ) } { \Delta   t } }
+t
+t + \Delta   t
+t
+\Delta   t
+\Delta   t
+h _ { 0 } ( t )
+\log   h ( t ) = f ( h _ { 0 } ( t ) , \alpha   + \beta   _ { 1 } X _ { 1 } + \cdots   + \beta   _ { k } X _ { k } ) . \ ,
+e ^ { \beta   }
+\beta  
+\beta  
+\beta  
+S _ { 1 } ( t ) = S _ { 0 } ( t ) ^ { r }
+{ \displaystyle   S _ { 0 } ( t ) = 0 . 2 }
+{ \displaystyle   S _ { 1 } ( t ) = 0 . 2 ^ { 2 } = 0 . 0 4 }
+e ^ { \beta   }

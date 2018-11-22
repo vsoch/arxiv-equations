@@ -1,0 +1,23 @@
+\mathbf   { x }   \in   \mathbb   { R }   ^ { n }
+\log ( \operatorname   { E }   ( Y \mid   \mathbf   { x }   ) ) = \alpha   + \mathbf   { \beta   }   ' \mathbf   { x }   ,
+\alpha   \in   \mathbb   { R }  
+\mathbf   { \beta   }   \in   \mathbb   { R }   ^ { n }
+\log ( \operatorname   { E }   ( Y \mid   \mathbf   { x }   ) ) = { \boldsymbol   { \theta   } } ' \mathbf   { x }   , \ ,
+\operatorname   { E }   ( Y \mid   \mathbf   { x }   ) = e ^ { { \boldsymbol   { \theta   } } ' \mathbf   { x }   } . \ ,
+{ \displaystyle   \lambda   : = \operatorname   { E }   ( Y \mid   x ) = e ^ { \theta   ' x } , \ , }
+{ \displaystyle   p ( y \mid   x ; \theta   ) = { \frac   { \lambda   ^ { y } } { y ! } } e ^ { - \lambda   } = { \frac   { e ^ { y \theta   ' x } e ^ { - e ^ { \theta   ' x } } } { y ! } } }
+x _ { i } \in   \mathbb   { R }   ^ { n + 1 } , \,i = 1 , \ldots   , m
+{ \displaystyle   y _ { 1 } , \ldots   , y _ { m } \in   \mathbb   { N }   }
+p ( y _ { 1 } , \ldots   , y _ { m } \mid   x _ { 1 } , \ldots   , x _ { m } ; \theta   ) = \prod   _ { i = 1 } ^ { m } { \frac   { e ^ { y _ { i } \theta   ' x _ { i } } e ^ { - e ^ { \theta   ' x _ { i } } } } { y _ { i } ! } } .
+{ \displaystyle   L ( \theta   \mid   X , Y ) = \prod   _ { i = 1 } ^ { m } { \frac   { e ^ { y _ { i } \theta   ' x _ { i } } e ^ { - e ^ { \theta   ' x _ { i } } } } { y _ { i } ! } } . }
+{ \displaystyle   \ell   ( \theta   \mid   X , Y ) = \log   L ( \theta   \mid   X , Y ) = \sum   _ { i = 1 } ^ { m } \left ( y _ { i } \theta   ' x _ { i } - e ^ { \theta   ' x _ { i } } - \log ( y _ { i } ! ) \right ) . }
+{ \displaystyle   \ell   ( \theta   \mid   X , Y ) = \sum   _ { i = 1 } ^ { m } \left ( y _ { i } \theta   ' x _ { i } - e ^ { \theta   ' x _ { i } } \right ) . }
+{ \frac   { \partial   \ell   ( \theta   \mid   X , Y ) } { \partial   \theta   } } = 0
+- \ell   ( \theta   \mid   X , Y )
+{ \displaystyle   \log ( \operatorname   { E }   ( Y \mid   x ) ) = \log ( { \text { e x p o s u r e } } ) + \theta   ' x }
+{ \displaystyle   \log ( \operatorname   { E }   ( Y \mid   x ) ) - \log ( { \text { e x p o s u r e } } ) = \log   \left ( { \frac   { \operatorname   { E }   ( Y \mid   x ) } { \text { e x p o s u r e } } } \right ) = \theta   ' x }
+{ \displaystyle   \sum   _ { i = 1 } ^ { m } \log ( p ( y _ { i } ; e ^ { \theta   ' x _ { i } } ) ) , }
+{ \displaystyle   p ( y _ { i } ; e ^ { \theta   ' x _ { i } } ) }
+{ \displaystyle   e ^ { \theta   ' x _ { i } } }
+{ \displaystyle   \sum   _ { i = 1 } ^ { m } \log ( p ( y _ { i } ; e ^ { \theta   ' x _ { i } } ) ) - \lambda   \left \|\theta   \right \|_ { 2 } ^ { 2 } , }
+\lambda  

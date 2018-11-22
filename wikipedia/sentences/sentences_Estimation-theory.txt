@@ -1,0 +1,49 @@
+\mathbf   { x }   = { \begin { b m a t r i x } x [ 0 ] \\x [ 1 ] \\\vdots   \\x [ N - 1 ] \end { b m a t r i x } } .
+\mathbf   { \theta   }   = { \begin { b m a t r i x } \theta   _ { 1 } \\\theta   _ { 2 } \\\vdots   \\\theta   _ { M } \end { b m a t r i x } } ,
+p ( \mathbf   { x }   | \mathbf   { \theta   }   ) . \ ,
+\pi   ( \mathbf   { \theta   }   ) . \ ,
+{ \hat   { \mathbf   { \theta   }   } }
+\mathbf   { e }   = { \hat   { \mathbf   { \theta   }   } } - \mathbf   { \theta   }  
+x [ n ]
+N
+A
+w [ n ]
+\sigma   ^ { 2 }
+{ \mathcal   { N } } ( 0 , \sigma   ^ { 2 } )
+A
+x [ n ] = A + w [ n ] \quad   n = 0 , 1 , \dots   , N - 1
+A
+{ \hat   { A } } _ { 1 } = x [ 0 ]
+{ \hat   { A } } _ { 2 } = { \frac   { 1 } { N } } \sum   _ { n = 0 } ^ { N - 1 } x [ n ]
+A
+\mathrm   { E }   \left [ { \hat   { A } } _ { 1 } \right ] = \mathrm   { E }   \left [ x [ 0 ] \right ] = A
+\mathrm   { E }   \left [ { \hat   { A } } _ { 2 } \right ] = \mathrm   { E }   \left [ { \frac   { 1 } { N } } \sum   _ { n = 0 } ^ { N - 1 } x [ n ] \right ] = { \frac   { 1 } { N } } \left [ \sum   _ { n = 0 } ^ { N - 1 } \mathrm   { E }   \left [ x [ n ] \right ] \right ] = { \frac   { 1 } { N } } \left [ N A \right ] = A
+\mathrm   { v a r }   \left ( { \hat   { A } } _ { 1 } \right ) = \mathrm   { v a r }   \left ( x [ 0 ] \right ) = \sigma   ^ { 2 }
+\mathrm   { v a r }   \left ( { \hat   { A } } _ { 2 } \right ) = \mathrm   { v a r }   \left ( { \frac   { 1 } { N } } \sum   _ { n = 0 } ^ { N - 1 } x [ n ] \right ) { \overset   { \text { i n d e p e n d e n c e } } { = } } { \frac   { 1 } { N ^ { 2 } } } \left [ \sum   _ { n = 0 } ^ { N - 1 } \mathrm   { v a r }   ( x [ n ] ) \right ] = { \frac   { 1 } { N ^ { 2 } } } \left [ N \sigma   ^ { 2 } \right ] = { \frac   { \sigma   ^ { 2 } } { N } }
+w [ n ]
+p ( w [ n ] ) = { \frac   { 1 } { \sigma   { \sqrt   { 2 \pi   } } } } \exp   \left ( - { \frac   { 1 } { 2 \sigma   ^ { 2 } } } w [ n ] ^ { 2 } \right )
+x [ n ]
+x [ n ]
+{ \mathcal   { N } } ( A , \sigma   ^ { 2 } )
+p ( x [ n ] ; A ) = { \frac   { 1 } { \sigma   { \sqrt   { 2 \pi   } } } } \exp   \left ( - { \frac   { 1 } { 2 \sigma   ^ { 2 } } } ( x [ n ] - A ) ^ { 2 } \right )
+\mathbf   { x }  
+p ( \mathbf   { x }   ; A ) = \prod   _ { n = 0 } ^ { N - 1 } p ( x [ n ] ; A ) = { \frac   { 1 } { \left ( \sigma   { \sqrt   { 2 \pi   } } \right ) ^ { N } } } \exp   \left ( - { \frac   { 1 } { 2 \sigma   ^ { 2 } } } \sum   _ { n = 0 } ^ { N - 1 } ( x [ n ] - A ) ^ { 2 } \right )
+\ln   p ( \mathbf   { x }   ; A ) = - N \ln   \left ( \sigma   { \sqrt   { 2 \pi   } } \right ) - { \frac   { 1 } { 2 \sigma   ^ { 2 } } } \sum   _ { n = 0 } ^ { N - 1 } ( x [ n ] - A ) ^ { 2 }
+{ \hat   { A } } = \arg   \max   \ln   p ( \mathbf   { x }   ; A )
+{ \frac   { \partial   } { \partial   A } } \ln   p ( \mathbf   { x }   ; A ) = { \frac   { 1 } { \sigma   ^ { 2 } } } \left [ \sum   _ { n = 0 } ^ { N - 1 } ( x [ n ] - A ) \right ] = { \frac   { 1 } { \sigma   ^ { 2 } } } \left [ \sum   _ { n = 0 } ^ { N - 1 } x [ n ] - N A \right ]
+0 = { \frac   { 1 } { \sigma   ^ { 2 } } } \left [ \sum   _ { n = 0 } ^ { N - 1 } x [ n ] - N A \right ] = \sum   _ { n = 0 } ^ { N - 1 } x [ n ] - N A
+{ \hat   { A } } = { \frac   { 1 } { N } } \sum   _ { n = 0 } ^ { N - 1 } x [ n ]
+N
+{ \mathcal   { I } } ( A ) = \mathrm   { E }   \left ( \left [ { \frac   { \partial   } { \partial   A } } \ln   p ( \mathbf   { x }   ; A ) \right ] ^ { 2 } \right ) = - \mathrm   { E }   \left [ { \frac   { \partial   ^ { 2 } } { \partial   A ^ { 2 } } } \ln   p ( \mathbf   { x }   ; A ) \right ]
+{ \frac   { \partial   } { \partial   A } } \ln   p ( \mathbf   { x }   ; A ) = { \frac   { 1 } { \sigma   ^ { 2 } } } \left [ \sum   _ { n = 0 } ^ { N - 1 } x [ n ] - N A \right ]
+{ \frac   { \partial   ^ { 2 } } { \partial   A ^ { 2 } } } \ln   p ( \mathbf   { x }   ; A ) = { \frac   { 1 } { \sigma   ^ { 2 } } } ( - N ) = { \frac   { - N } { \sigma   ^ { 2 } } }
+- \mathrm   { E }   \left [ { \frac   { \partial   ^ { 2 } } { \partial   A ^ { 2 } } } \ln   p ( \mathbf   { x }   ; A ) \right ] = { \frac   { N } { \sigma   ^ { 2 } } }
+\mathrm   { v a r }   \left ( { \hat   { A } } \right ) \geq   { \frac   { 1 } { \mathcal   { I } } }
+\mathrm   { v a r }   \left ( { \hat   { A } } \right ) \geq   { \frac   { \sigma   ^ { 2 } } { N } }
+N
+A
+1 , 2 , \dots   , N
+{ \frac   { k + 1 } { k } } m - 1 = m + { \frac   { m } { k } } - 1
+{ \frac   { 1 } { k } } { \frac   { ( N - k ) ( N + 1 ) } { ( k + 2 ) } } \approx   { \frac   { N ^ { 2 } } { k ^ { 2 } } } { \text {   f o r   s m a l l   s a m p l e s   } } k \ll   N
+N / k
+{ \frac   { m } { k } }

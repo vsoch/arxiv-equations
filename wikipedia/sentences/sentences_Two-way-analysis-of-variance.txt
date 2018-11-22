@@ -1,0 +1,36 @@
+I
+i \in   \{ 1 , \ldots   , I \ }
+J
+j \in   \{ 1 , \ldots   , J \ }
+( i , j )
+I \times   J
+( i , j )
+n _ { i j }
+k
+k \in   \{ 1 , \ldots   , n _ { { i j } } \ }
+n _ { { i + } } = \sum   _ { { j = 1 } } ^ { J } n _ { { i j } }
+n _ { { + j } } = \sum   _ { { i = 1 } } ^ { I } n _ { { i j } }
+n = \sum   _ { { i , j } } n _ { { i j } } = \sum   _ { i } n _ { { i + } } = \sum   _ { j } n _ { { + j } }
+K
+\forall   i , j \;n_ { { i j } } = K
+\forall   i , j   \; n_ { i j }   =   \frac { n _ { i + }   \cdot   n _ { + j } } { n }
+n
+Y _ { { i j k } }
+y _ { { i j k } }
+k
+( i , j )
+\mu   _ { i j }
+\sigma   ^ { 2 }
+Y _ { { i j k } } \,|\,\mu   _ { { i j } } , \sigma   ^ { 2 } \;{ \overset     { i . i . d . } { \sim   } } \;{ \mathcal     { N } } ( \mu   _ { { i j } } , \sigma   ^ { 2 } )
+\mu   _ { { i j } } = \mu   + \alpha   _ { i } + \beta   _ { j } + \gamma   _ { { i j } }
+\mu  
+\alpha   _ { i }
+i
+\beta   _ { j }
+j
+\gamma   _ { i j }
+( i , j )
+\epsilon   _ { i j k }
+n
+Y _ { { i j k } } = \mu   _ { { i j } } + \epsilon   _ { { i j k } } { \text {   w i t h   } } \epsilon   _ { { i j k } } { \overset     { i . i . d . } { \sim   } } { \mathcal     { N } } ( 0 , \sigma   ^ { 2 } )
+\sum   _ { i } \alpha   _ { i } = \sum   _ { j } \beta   _ { j } = \sum   _ { i } \sum   _ { j } \gamma   _ { { i j } } = 0

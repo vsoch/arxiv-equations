@@ -1,0 +1,22 @@
+{ \frac     { \partial   f _ { t } ( z ) } { \partial   t } } = - z f _ { t } ^ { \prime   } ( z ) { \frac     { \zeta   ( t ) + z } { \zeta   ( t ) - z } }
+{ \dfrac     { \partial   g _ { t } ( z ) } { \partial   t } } = g _ { t } ( z ) { \dfrac     { \zeta   ( t ) + g _ { t } ( z ) } { \zeta   ( t ) - g _ { t } ( z ) } } .
+{ \frac     { \partial   f _ { t } ( z ) } { \partial   t } } = { \frac     { 2 f _ { t } ^ { \prime   } ( z ) } { \zeta   ( t ) - z } }
+{ \dfrac     { \partial   g _ { t } ( z ) } { \partial   t } } = { \dfrac     { 2 } { g _ { t } ( z ) - \zeta   ( t ) } } .
+\displaystyle   f _ { t } ( \zeta   ( t ) ) = \gamma   ( t )
+\displaystyle   \zeta   ( t ) = g _ { t } ( \gamma   ( t ) )
+f _ { t } ( z ) = { \sqrt     { z ^ { 2 } - 4 t } }
+g _ { t } ( z ) = { \sqrt     { z ^ { 2 } + 4 t } }
+\gamma   ( t ) = 2 i { \sqrt     { t } }
+D _ { t }
+2 i { \sqrt     { t } }
+\displaystyle   \zeta   ( t ) = { \sqrt     { \kappa   } } B ( t )
+c = { \frac     { ( 8 - 3 \kappa   ) ( \kappa   - 6 ) } { 2 \kappa   } } .
+{ \displaystyle   x _ { 0 } + i y _ { 0 } = z _ { 0 } \in   \mathbb   { H }   }
+{ \displaystyle   \mathbb   { P }   [ \gamma   ~ { \text { p a s s e s   t o   t h e   l e f t } } ~ z _ { 0 } ] = { \frac   { 1 } { 2 } } + { \frac   { \Gamma   ( 4 / \kappa   ) } { { \sqrt   { \pi   } } \,\Gamma   ( { \frac   { 8 - \kappa   } { 2 \kappa   } } ) } } { \frac   { x _ { 0 } } { y _ { 0 } } } \,_ { 2 } F _ { 1 } \left ( { \frac   { 1 } { 2 } } , { \frac   { \kappa   } { 4 } } , { \frac   { 3 } { 2 } } , - \left ( { \frac   { x _ { 0 } } { y _ { 0 } } } \right ) ^ { 2 } \right ) }
+\Gamma  
+{ \displaystyle   _ { 2 } F _ { 1 } ( a , b , c , d ) }
+{ \displaystyle   h ( x , y ) : = \mathbb   { P }   [ \gamma   ~ { \text { p a s s e s   t o   t h e   l e f t } } ~ x + i y ] }
+{ \displaystyle   w : = { \frac   { x } { y } } }
+{ \displaystyle   { \frac   { \kappa   } { 2 } } \partial   _ { w w } h ( w ) + { \frac   { 4 w } { w ^ { 2 } + 1 } } \partial   _ { w } h = 0 }
+{ \displaystyle   1 - { \frac   { 1 } { \pi   } } \arg ( z _ { 0 } ) }
+d = 1 + { \frac     { \kappa   } { 8 } } .

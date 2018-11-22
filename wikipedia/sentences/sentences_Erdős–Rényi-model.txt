@@ -1,0 +1,15 @@
+p ^ M   ( 1 - p ) ^ { { n   \choose   2 } - M } .
+2 ^ \binom { n } { 2 }
+\tbinom { n } { 2 } p
+M = \tbinom { n } { 2 }   p
+  G ( n ,   \tbinom { n } { 2 }   p )  
+\tbinom { n } { 2 }   p
+{ \displaystyle   P ( \deg ( v ) = k ) = { n - 1   \choose   k } p ^ { k } ( 1 - p ) ^ { n - 1 - k } , }
+{ \displaystyle   P ( \deg ( v ) = k ) \to   { \frac   { ( n p ) ^ { k } \mathrm   { e }   ^ { - n p } } { k ! } } \quad   { \text {   a s   } } n \to   \infty   { \text {   a n d   } } n p = { \text { c o n s t a n t } } , }
+{ \displaystyle   p < { \tfrac   { ( 1 - \varepsilon   ) \ln   n } { n } } }
+{ \displaystyle   p > { \tfrac   { ( 1 + \varepsilon   ) \ln   n } { n } } }
+{ \displaystyle   { \tfrac   { \ln   n } { n } } }
+p ' _ c = \tfrac { 1 } { \langle   k \rangle }
+p ' _ c
+  P _ \infty =   p ' [ 1 - \exp ( - \langle   k   \rangle   P _ \infty ) ] .   \ ,  
+{ \displaystyle   N ( n ) = { \tbinom   { n } { 2 } } p }

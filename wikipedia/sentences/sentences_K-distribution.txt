@@ -1,0 +1,23 @@
+X
+\sigma  
+L
+\sigma  
+\mu  
+\nu  
+X
+x > 0
+f _ X ( x ; \mu , \nu , L ) =   \frac { 2   \, \xi ^ { ( \beta   +   1 ) / 2 }   x ^ { ( \beta   -   1 ) / 2 } } { \Gamma ( L ) \Gamma ( \nu ) }   K _ \alpha   (   2   \sqrt { \xi   x } ) ,  
+\alpha   =   \nu - L ,
+\beta   =   L   +   \nu   -   1 ,
+\xi   =   L \nu / \mu   ,
+K
+L
+\mu  
+\nu  
+  M _ X ( s )   =   \left ( \frac { \xi } { s } \right ) ^ { \beta / 2 }   \exp   \left (   \frac { \xi } { 2 s }   \right )   W _ { - \beta / 2 , \alpha / 2 }   \left ( \frac { \xi } { s } \right ) ,  
+W _ { - \beta / 2 , \alpha / 2 } ( \cdot )
+  \mu_n   =   \xi ^ { - n }   \frac { \Gamma ( L + n ) \Gamma ( \nu + n ) } { \Gamma ( L ) \Gamma ( \nu ) } .  
+\operatorname   { E } ( X ) = \mu  
+\operatorname   { v a r } ( X ) = \mu   ^ { 2 } { \frac     { \nu   + L + 1 } { L \nu   } } .
+L
+\nu .

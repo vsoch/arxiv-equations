@@ -1,0 +1,32 @@
+N ( \omega   ) = \sum   _ { { n = 1 } } ^ { m } 1 _ { { A _ { n } } } ( \omega   ) , \qquad   \omega   \in   \Omega   ,
+N _ { k } ( \omega   ) = \sum   _ { { \scriptstyle   J \subset   \{ 1 , \ldots   , m \} \atop   \scriptstyle   | J | = k } } 1 _ { { \cap   _ { { j \in   J } } A _ { j } } } ( \omega   ) , \qquad   \omega   \in   \Omega   ,
+\sum   _ { { n = 0 } } ^ { m } 1 _ { { \{ N = n \}}}c_ { n } = \sum   _ { { k = 0 } } ^ { m } N _ { k } \sum   _ { { l = 0 } } ^ { k } ( - 1 ) ^ { { k - l } } { \binom     k l } c _ { l } ,
+\textstyle   { \binom     k l }
+\textstyle   { \binom     n k }
+\sum   _ { { k = 0 } } ^ { m } { \binom     n k } \sum   _ { { l = 0 } } ^ { k } ( - 1 ) ^ { { k - l } } { \binom     k l } c _ { l } = \sum   _ { { l = 0 } } ^ { m } \underbrace   { \sum   _ { { k = l } } ^ { n } ( - 1 ) ^ { { k - l } } { \binom     n k } { \binom     k l } } _ { { = : \,( * ) } } c _ { l } ,
+{ \begin { a l i g n e d } ( * ) & = \sum   _ { { k = l } } ^ { n } ( - 1 ) ^ { { k - l } } { \frac     { n ! } { k ! \,( n - k ) ! } } \,{ \frac     { k ! } { l ! \,( k - l ) ! } } \\&=\underbrace   { { \frac     { n ! } { l ! \,( n - l ) ! } } } _ { { = { \binom     n l } } } \underbrace   { \sum   _ { { k = l } } ^ { n } ( - 1 ) ^ { { k - l } } { \frac     { ( n - l ) ! } { ( n - k ) ! \,( k - l ) ! } } } _ { { = : \,( * * ) } } \\\end { a l i g n e d } }
+{ \begin { a l i g n e d } ( * * ) & = \sum   _ { { j = 0 } } ^ { { n - l } } ( - 1 ) ^ { { j } } { \frac     { ( n - l ) ! } { ( n - l - j ) ! \,j ! } } \\&=\sum   _ { { j = 0 } } ^ { { n - l } } ( - 1 ) ^ { { j } } { \binom     { n - l } { j } } = ( 1 - 1 ) ^ { { n - l } } = \delta   _ { { l n } } , \end { a l i g n e d } }
+\sum   _ { { n = 0 } } ^ { m } 1 _ { { \{ N = n \}}}x ^ { n } = \sum   _ { { k = 0 } } ^ { m } N _ { k } ( x - 1 ) ^ { k } .
+\sum   _ { { n = 0 } } ^ { m } 1 _ { { \{ N = n \}}}x ^ { n } = \sum   _ { { k = 0 } } ^ { m } N _ { k } \underbrace   { \sum   _ { { l = 0 } } ^ { k } { \binom     k l } ( - 1 ) ^ { { k - l } } x ^ { l } } _ { { = \,( x - 1 ) ^ { k } } } ,
+{ \begin { a l i g n e d } E : V ^ { { { \mathbb     { N } } _ { 0 } } } & \to   V ^ { { { \mathbb     { N } } _ { 0 } } } , \\E ( c _ { 0 } , c _ { 1 } , c _ { 2 } , c _ { 3 } , \ldots   ) & \mapsto   ( c _ { 1 } , c _ { 2 } , c _ { 3 } , \ldots   ) , \\\end { a l i g n e d } }
+{ \begin { a l i g n e d } \Delta   : V ^ { { { \mathbb     { N } } _ { 0 } } } & \to   V ^ { { { \mathbb     { N } } _ { 0 } } } , \\\Delta   ( c _ { 0 } , c _ { 1 } , c _ { 2 } , c _ { 3 } \ldots   ) & \mapsto   ( c _ { 1 } - c _ { 0 } , c _ { 2 } - c _ { 1 } , c _ { 3 } - c _ { 2 } , \ldots   ) . \\\end { a l i g n e d } }
+\sum   _ { { n = 0 } } ^ { m } 1 _ { { \{ N = n \}}}E ^ { n } = \sum   _ { { k = 0 } } ^ { m } N _ { k } \Delta   ^ { k } ,
+\sum   _ { { n = 0 } } ^ { m } 1 _ { { \{ N = n \}}}E ^ { n } = \prod   _ { { j = 1 } } ^ { m } ( 1 _ { { A _ { j } ^ { { { \mathrm     c } } } } } I + 1 _ { { A _ { j } } } E )
+{ \begin { a l i g n e d } 1 _ { { A _ { j } ^ { { { \mathrm     c } } } } } I + 1 _ { { A _ { j } } } E & = I - 1 _ { { A _ { j } } } I + 1 _ { { A _ { j } } } E \\&=I + 1 _ { { A _ { j } } } ( E - I ) = I + 1 _ { { A _ { j } } } \Delta   , \qquad   j \in   \{ 0 , \ldots   , m \}.\end { a l i g n e d } }
+\sum   _ { { n = 0 } } ^ { m } 1 _ { { \{ N = n \}}}E ^ { n } = \sum   _ { { k = 0 } } ^ { m } \sum   _ { { \scriptstyle   J \subset   \{ 1 , \ldots   , m \} \atop   \scriptstyle   | J | = k } } 1 _ { { \cap   _ { { j \in   J } } A _ { j } } } \Delta   ^ { k } ,
+\sum   _ { { n = 0 } } ^ { m } 1 _ { { \{ N = n \}}}c_ { n } = \sum   _ { { k = 0 } } ^ { m } N _ { k } ( \Delta   ^ { k } c ) _ { 0 } .
+S _ { k } = { \mathbb     { E } } [ N _ { k } ] = \sum   _ { { \scriptstyle   J \subset   \{ 1 , \ldots   , m \} \atop   \scriptstyle   | J | = k } } { \mathbb     { P } } { \biggl   ( } \bigcap   _ { { j \in   J } } A _ { j } { \biggr   ) } , \qquad   k \in   \{ 0 , \ldots   , m \ } ,
+\sum   _ { { n = 0 } } ^ { m } { \mathbb     { P } } ( N = n ) x ^ { n } = \sum   _ { { k = 0 } } ^ { m } S _ { k } ( x - 1 ) ^ { k }
+\sum   _ { { n = 0 } } ^ { m } { \mathbb     { P } } ( N = n ) E ^ { n } = \sum   _ { { k = 0 } } ^ { m } S _ { k } \Delta   ^ { k }
+\sum   _ { { n = 0 } } ^ { m } { \mathbb     { P } } ( N = n ) \,c_ { n } = \sum   _ { { k = 0 } } ^ { m } S _ { k } \,( \Delta   ^ { k } c ) _ { 0 } .
+E = { \begin { p m a t r i x } 0 & 1 & 0 & \cdots   & 0 \\0 & 0 & 1 & \ddots   & \vdots   \\\vdots   & \ddots   & \ddots   & \ddots   & 0 \\0 & \cdots   & 0 & 0 & 1 \\0 & \cdots   & 0 & 0 & 0 \end { p m a t r i x } } , \qquad   \Delta   = { \begin { p m a t r i x } - 1 & 1 & 0 & \cdots   & 0 \\0 & - 1 & 1 & \ddots   & \vdots   \\\vdots   & \ddots   & \ddots   & \ddots   & 0 \\0 & \cdots   & 0 & - 1 & 1 \\0 & \cdots   & 0 & 0 & - 1 \end { p m a t r i x } } ,
+\textstyle   { \binom     k n }
+{ \mathbb     { P } } ( N = n ) = \sum   _ { { k = n } } ^ { m } ( - 1 ) ^ { { k - n } } { \binom     k n } S _ { k } , \qquad   n \in   \{ 0 , \ldots   , m \ } ,
+{ \mathbb     { P } } ( N \geq   n ) = \sum   _ { { k = n } } ^ { m } ( - 1 ) ^ { { k - n } } { \binom     { k - 1 } { n - 1 } } S _ { k } , \qquad   n \in   \{ 1 , \ldots   , m \ } ,
+\Delta   ^ { k } = ( E - I ) ^ { k } = \sum   _ { { j = 0 } } ^ { k } { \binom     k j } ( - 1 ) ^ { { k - j } } E ^ { j } , \qquad   k \in   { \mathbb     { N } } _ { 0 } .
+{ \mathbb     { P } } ( N \geq   n ) = \sum   _ { { k = n } } ^ { m } S _ { k } \sum   _ { { j = n } } ^ { k } { \binom     k j } ( - 1 ) ^ { { k - j } } .
+\sum   _ { { j = n } } ^ { k } { \binom     k j } ( - 1 ) ^ { { k - j } } = - \sum   _ { { j = 0 } } ^ { { n - 1 } } { \binom     k j } ( - 1 ) ^ { { k - j } } = ( - 1 ) ^ { { k - n } } { \binom     { k - 1 } { n - 1 } } .
+{ \mathbb     { P } } { \biggl   ( } \bigcap   _ { { j \in   J } } A _ { j } { \biggr   ) } = { \frac     { ( m - | J | ) ! } { m ! } } .
+\textstyle   { \binom     m k }
+S _ { k } = { \binom     m k } { \frac     { ( m - k ) ! } { m ! } } = { \frac     1 { k ! } } .
+{ \mathbb     { E } } [ x ^ { N } ] = \sum   _ { { k = 0 } } ^ { m } { \frac     { ( x - 1 ) ^ { k } } { k ! } } , \qquad   x \in   { \mathbb     { R } } .

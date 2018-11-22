@@ -1,0 +1,2 @@
+\scriptstyle   1 / { \sqrt   { N } }
+\scriptstyle   1 / { \sqrt   { N } }

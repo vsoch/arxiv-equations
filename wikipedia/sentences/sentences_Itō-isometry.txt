@@ -1,0 +1,12 @@
+W : [ 0 , T ] \times   \Omega   \to   { \mathbb     { R } }
+T > 0
+X : [ 0 , T ] \times   \Omega   \to   { \mathbb     { R } }
+{ \mathcal     { F } } _ { { * } } ^ { { W } }
+\mathbb { E }   \left [   \left (   \int_0 ^ T   X _ t   \, \mathrm { d }   W _ t   \right ) ^ 2   \right ]   =   \mathbb { E }   \left [   \int_0 ^ T   X _ t ^ 2   \, \mathrm { d }   t   \right ] ,
+\mathbb   { E }  
+{ \displaystyle   L _ { \mathrm   { a d }   } ^ { 2 } ( [ 0 , T ] \times   \Omega   ) }
+{ \displaystyle   L ^ { 2 } ( \Omega   ) }
+{ \displaystyle   { \begin { a l i g n e d } ( X , Y ) _ { L _ { \mathrm   { a d }   } ^ { 2 } ( [ 0 , T ] \times   \Omega   ) } & : = \mathbb   { E }   \left ( \int   _ { 0 } ^ { T } X _ { t } \,Y_ { t } \,\mathrm   { d }   t \right ) \end { a l i g n e d } } }
+{ \displaystyle   ( A , B ) _ { L ^ { 2 } ( \Omega   ) } : = \mathbb   { E }   ( A B ) . }
+{ \displaystyle   \mathbb   { E }   \left [ \left ( \int   _ { 0 } ^ { T } X _ { t } \,\mathrm   { d }   W _ { t } \right ) \left ( \int   _ { 0 } ^ { T } Y _ { t } \,\mathrm   { d }   W _ { t } \right ) \right ] = \mathbb   { E }   \left [ \int   _ { 0 } ^ { T } X _ { t } Y _ { t } \,\mathrm   { d }   t \right ] }
+{ \displaystyle   X , Y \in   L _ { \mathrm   { a d }   } ^ { 2 } ( [ 0 , T ] \times   \Omega   ) }

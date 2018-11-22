@@ -1,0 +1,73 @@
+\mathbb   { Z }  
+\mathbb   { Z }   ^ { d }
+\mathbb   { Z }  
+Z _ { 1 } , Z _ { 2 } , \dots  
+S _ { 0 } = 0 \ , \ !
+S _ { n } = \sum   _ { j = 1 } ^ { n } Z _ { j } .
+\{ S _ { n } \ } \ , \ !
+\mathbb   { Z }  
+E ( S _ { n } ) \ , \ !
+S _ { n } \ , \ !
+E ( S _ { n } ) = \sum   _ { j = 1 } ^ { n } E ( Z _ { j } ) = 0 .
+E ( Z _ { n } ^ { 2 } ) = 1
+E ( S _ { n } ^ { 2 } ) = \sum   _ { i = 1 } ^ { n } \sum   _ { j = 1 } ^ { n } E ( Z _ { j } Z _ { i } ) = n .
+E ( | S _ { n } | ) \ , \ !
+{ \sqrt   { n } }
+\lim   _ { n \to   \infty   } { \frac   { E ( | S _ { n } | ) } { \sqrt   { n } } } = { \sqrt   { \frac   { 2 } { \pi   } } } .
+N
+\mathbb   { Z }  
+a / ( a + b )
+S _ { n } = k
+n   \choose   ( n + k ) / 2
+S _ { n } = k
+2 ^ { - n } { n \choose   ( n + k ) / 2 }
+n
+\mathbb   { Z }  
+P [ S _ { 0 } = k ]
+2 P [ S _ { 1 } = k ]
+2 ^ { 2 } P [ S _ { 2 } = k ]
+2 ^ { 3 } P [ S _ { 3 } = k ]
+2 ^ { 4 } P [ S _ { 4 } = k ]
+2 ^ { 5 } P [ S _ { 5 } = k ]
+\mathbb   { Z }  
+i = 0 , \pm   1 , \pm   2 , \dots   .
+\,0 < p < 1
+\,P_ { i , i + 1 } = p = 1 - P _ { i , i - 1 } .
+{ \displaystyle   P ( r ) = { \frac   { 2 r } { N } } e ^ { - r ^ { 2 } / N } }
+\sigma   ^ { 2 } = { \frac   { t } { \delta   t } } \,\varepsilon   ^ { 2 } ,
+\varepsilon  
+\delta   t
+\sigma   ^ { 2 } = 6 \,D \,t
+D = { \frac   { \varepsilon   ^ { 2 } } { 6 \delta   t } }
+{ \vec   { R } }
+R _ { x }
+R _ { y }
+R _ { z }
+D = { \frac   { \varepsilon   ^ { 2 } } { 4 \delta   t } }
+D = { \frac   { \varepsilon   ^ { 2 } } { 2 \delta   t } }
+\Phi   ^ { - 1 } ( z , \mu   , \sigma   )
+\sum   _ { i = 0 } ^ { n } { X _ { i } }
+{ \mathcal   { N } }
+{ \mathcal   { N } }
+{ \mathcal   { N } }
+{ \sqrt   { E | S _ { n } ^ { 2 } | } } = \sigma   { \sqrt   { n } } .
+{ \sqrt   { n } }
+{ \sqrt   { n } }
+\sigma   ^ { 2 }
+t
+t ^ { 2 / d _ { w } }
+d _ { w }
+S ( t )
+N
+S _ { N } ( t )
+X _ { 1 } , X _ { 2 } , \dots   , X _ { k }
+X _ { 1 } = 0
+{ X _ { i + 1 } }
+X _ { i }
+p _ { v , w , k } ( G )
+p _ { 0 , 0 , 2 k }
+2 k
+p ( x , y )
+\omega  
+\omega  
+\omega  

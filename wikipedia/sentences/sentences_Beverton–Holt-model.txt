@@ -1,0 +1,4 @@
+n _ { t + 1 } = { \frac   { R _ { 0 } n _ { t } } { 1 + n _ { t } / M } } .
+n _ { t } = { \frac   { K n _ { 0 } } { n _ { 0 } + ( K - n _ { 0 } ) R _ { 0 } ^ { - t } } } .
+{ \frac   { d N } { d t } } = r N \left ( 1 - { \frac   { N } { K } } \right ) ,
+N ( t ) = { \frac   { K N ( 0 ) } { N ( 0 ) + ( K - N ( 0 ) ) e ^ { - r t } } } .

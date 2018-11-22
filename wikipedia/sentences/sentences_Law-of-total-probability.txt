@@ -1,0 +1,22 @@
+\left \{ { B _ { n } : n = 1 , 2 , 3 , \ldots   } \right \ }
+B _ { n }
+A
+{ \displaystyle   \Pr ( A ) = \sum   _ { n } \Pr ( A \cap   B _ { n } ) }
+{ \displaystyle   \Pr ( A ) = \sum   _ { n } \Pr ( A \mid   B _ { n } ) \Pr ( B _ { n } ) , }
+n
+{ \displaystyle   \Pr ( B _ { n } ) = 0 }
+{ \displaystyle   \Pr ( A \mid   B _ { n } ) }
+\Pr ( A )
+B _ { n }
+C
+B _ { n }
+\Pr ( A \mid   C ) = \sum   _ { n } \Pr ( A \mid   C \cap   B _ { n } ) \Pr ( B _ { n } \mid   C ) = \sum   _ { n } \Pr ( A \mid   C \cap   B _ { n } ) \Pr ( B _ { n } )
+A
+B _ { n }
+A
+\Pr ( A )
+{ \displaystyle   { \begin { a l i g n e d } \Pr ( A ) & = \Pr ( A \mid   B _ { X } ) \cdot   \Pr ( B _ { X } ) + \Pr ( A \mid   B _ { Y } ) \cdot   \Pr ( B _ { Y } ) \\[4pt ] & = { 9 9   \over   1 0 0 } \cdot   { 6   \over   1 0 } + { 9 5   \over   1 0 0 } \cdot   { 4   \over   1 0 } = { { 5 9 4 + 3 8 0 }   \over   1 0 0 0 } = { 9 7 4   \over   1 0 0 0 } \end { a l i g n e d } } }
+{ \displaystyle   \Pr ( B _ { X } ) = { 6   \over   1 0 } }
+{ \displaystyle   \Pr ( B _ { Y } ) = { 4   \over   1 0 } }
+{ \displaystyle   \Pr ( A \mid   B _ { X } ) = { 9 9   \over   1 0 0 } }
+{ \displaystyle   \Pr ( A \mid   B _ { Y } ) = { 9 5   \over   1 0 0 } }

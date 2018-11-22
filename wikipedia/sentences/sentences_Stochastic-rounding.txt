@@ -1,0 +1,12 @@
+{ \displaystyle   \aleph   _ { 0 } }
+{ \displaystyle   y = \mathrm   { f l o o r }   ( x ) = \left \lfloor   x \right \rfloor   = - \left \lceil   - x \right \rceil   }
+{ \displaystyle   y = \mathrm   { c e i l }   ( x ) = \left \lceil   x \right \rceil   = - \left \lfloor   - x \right \rfloor   }
+{ \displaystyle   y = \mathrm   { t r u n c a t e }   ( x ) = \operatorname   { s g n } ( x ) \left \lfloor   \left | x \right | \right \rfloor   = - \operatorname   { s g n } ( x ) \left \lceil   - \left | x \right | \right \rceil   }
+{ \displaystyle   y = \operatorname   { s g n } ( x ) \left \lceil   \left | x \right | \right \rceil   = - \operatorname   { s g n } ( x ) \left \lfloor   - \left | x \right | \right \rfloor   }
+{ \displaystyle   y = \left \lfloor   x + 0 . 5 \right \rfloor   = - \left \lceil   - x - 0 . 5 \right \rceil   = \left \lceil   { \frac   { \lfloor   2 x \rfloor   } { 2 } } \right \rceil   }
+{ \displaystyle   y = \left \lceil   x - 0 . 5 \right \rceil   = - \left \lfloor   - x + 0 . 5 \right \rfloor   = \left \lfloor   { \frac   { \lceil   2 x \rceil   } { 2 } } \right \rfloor   }
+{ \displaystyle   y = \operatorname   { s g n } ( x ) \left \lceil   \left | x \right | - 0 . 5 \right \rceil   = - \operatorname   { s g n } ( x ) \left \lfloor   - \left | x \right | + 0 . 5 \right \rfloor   }
+{ \displaystyle   y = \operatorname   { s g n } ( x ) \left \lfloor   \left | x \right | + 0 . 5 \right \rfloor   = - \operatorname   { s g n } ( x ) \left \lceil   - \left | x \right | - 0 . 5 \right \rceil   }
+{ \displaystyle   \operatorname   { R o u n d }   ( x ) = { \begin { c a s e s } \lfloor   x \rfloor   & { \text {   w i t h   p r o b a b i l i t y   } } 1 - ( x - \lfloor   x \rfloor   ) \\\lfloor   x \rfloor   + 1 & { \text {   w i t h   p r o b a b i l i t y   } } { x - \lfloor   x \rfloor   } \end { c a s e s } } }
+{ \displaystyle   \mathrm   { r o u n d T o M u l t i p l e }   ( x , m ) = \mathrm   { r o u n d }   ( x / m ) \times   m }
+{ \displaystyle   \mathrm   { r o u n d T o P o w e r }   ( x , b ) = b ^ { \mathrm   { r o u n d }   ( \log   _ { b } x ) } }

@@ -1,0 +1,7 @@
+Z = { \underset     { s \in   { \mathbf     { R } } } { \operatorname   { a r g m a x } } } \ ( W ( s ) - s ^ { 2 } ) ,
+V ( a , c ) = { \underset     { s \in   { \mathbf     { R } } } { \operatorname   { a r g m a x } } } \ ( W ( s ) - c ( s - a ) ^ { 2 } ) ,
+f _ { c } ( t ) = { \frac     { 1 } { 2 } } g _ { c } ( t ) g _ { c } ( - t )
+{ \hat     { g } } _ { c } ( s ) = { \frac     { ( 2 / c ) ^ { { 1 / 3 } } } { \operatorname   { A i } ( i ( 2 c ^ { 2 } ) ^ { { - 1 / 3 } } s ) } } , \ \ \ s \in   { \mathbf     { R } }
+f _ { Z } ( z ) \sim   { \frac     { 1 } { 2 } } { \frac     { 4 ^ { { 4 / 3 } } | z | } { \operatorname   { A i } ' ( { \tilde     { a } } _ { 1 } ) } } \exp   \left ( - { \frac     { 2 } { 3 } } | z | ^ { 3 } + 2 ^ { { 1 / 3 } } { \tilde     { a } } _ { 1 } | z | \right ) { \text {   a s   } } z \rightarrow   \infty  
+{ \tilde     { a } } _ { 1 } \approx   - 2 . 3 3 8 1
+\operatorname   { A i } ' ( { \tilde     { a } } _ { 1 } ) \approx   0 . 7 0 2 2

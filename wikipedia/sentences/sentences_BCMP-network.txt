@@ -1,0 +1,6 @@
+{ \displaystyle   \scriptstyle   { \mu   _ { j } } }
+{ \displaystyle   L ( s ) = { \frac   { N ( s ) } { D ( s ) } } . }
+P _ { i j }
+{ \displaystyle   1 - \sum   _ { j = 1 } ^ { m } P _ { i j } }
+{ \displaystyle   \pi   ( x _ { 1 } , x _ { 2 } , \ldots   , x _ { m } ) = C \pi   _ { 1 } ( x _ { 1 } ) \pi   _ { 2 } ( x _ { 2 } ) \cdots   \pi   _ { m } ( x _ { m } ) , }
+{ \displaystyle   \scriptstyle   { \pi   _ { i } ( \cdot   ) } }

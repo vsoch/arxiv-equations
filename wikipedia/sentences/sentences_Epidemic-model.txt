@@ -1,0 +1,143 @@
+{ \frac     { d S } { d t } } = - { \frac     { \beta   I S } { N } }
+{ \frac     { d I } { d t } } = { \frac     { \beta   I S } { N } } - \gamma   I
+{ \frac     { d R } { d t } } = \gamma   I
+{ \frac     { d S } { d t } } + { \frac     { d I } { d t } } + { \frac     { d R } { d t } } = 0
+S ( t ) + I ( t ) + R ( t ) = { \textrm     { C o n s t a n t } } = N
+N
+R _ { 0 } = { \frac     { \beta   } { \gamma   } }
+T _ { { c } } = \beta   ^ { { - 1 } }
+T _ { { r } } = \gamma   ^ { { - 1 } }
+T _ { { r } } / T _ { { c } } .
+{ \displaystyle   S ( t ) = S ( 0 ) e ^ { - R _ { 0 } ( R ( t ) - R ( 0 ) ) / N } }
+{ \displaystyle   S ( 0 ) }
+R ( 0 )
+t \rightarrow   + \infty  
+{ \displaystyle   R _ { \infty   } = N - S ( 0 ) e ^ { - R _ { 0 } ( R _ { \infty   } - R ( 0 ) ) / N } }
+{ \displaystyle   S ( 0 ) = 0 }
+{ \frac     { d I } { d t } } = ( R _ { 0 } S / N - 1 ) \gamma   I
+R _ { { 0 } } > { \frac     { N } { S ( 0 ) } } ,
+{ \frac     { d I } { d t } } ( 0 ) > 0 ,
+R _ { { 0 } } < { \frac     { N } { S ( 0 ) } } ,
+{ \frac     { d I } { d t } } ( 0 ) < 0 ,
+F = \beta   I ,
+N
+F = \beta   { \frac     { I } { N } } .
+{ \displaystyle   { \mathcal   { S } } ( u ) = S ( t ) }
+{ \displaystyle   { \mathcal   { S } } ( u ) = S ( 0 ) u }
+{ \displaystyle   { \mathcal   { I } } ( u ) = N - R ( 0 ) + \rho   \ln ( u ) - S ( 0 ) u }
+{ \displaystyle   { \mathcal   { R } } ( u ) = R ( 0 ) - \rho   \ln ( u ) }
+{ \displaystyle   t = \int   _ { u } ^ { 1 } { \frac   { N } { \beta   s ( N - R ( 0 ) + \rho   \ln ( s ) - S ( 0 ) s ) } } d s }
+{ \displaystyle   \rho   = { \frac   { \gamma   N } { \beta   } } }
+{ \displaystyle   ( { \mathcal   { S } } ( 1 ) , { \mathcal   { I } } ( 1 ) , { \mathcal   { R } } ( 1 ) ) = ( S ( 0 ) , N - R ( 0 ) - S ( 0 ) , R ( 0 ) ) ; }
+{ \displaystyle   u _ { T } < u < 1 }
+{ \displaystyle   u _ { T } }
+{ \displaystyle   { \mathcal   { I } } ( u _ { T } ) = 0 }
+R _ { { \infty   } }
+{ \displaystyle   u _ { T } = e ^ { - ( R _ { \infty   } - R ( 0 ) ) / \rho   } ( = S _ { \infty   } / S ( 0 ) }
+{ \displaystyle   S ( 0 ) \neq   0 ) }
+{ \displaystyle   I _ { \infty   } = 0 }
+{ \displaystyle   S ( t ) = S ( 0 ) e ^ { - \xi   ( t ) } }
+{ \displaystyle   I ( t ) = N - S ( t ) - R ( t ) }
+{ \displaystyle   R ( t ) = R ( 0 ) + N { \frac   { \gamma   } { \beta   } } \xi   ( t ) }
+{ \displaystyle   \xi   ( t ) = { \frac   { \beta   \int   _ { 0 } ^ { t } I ( t ^ { * } ) \,dt ^ { * } } { N } } }
+\xi   ( t )
+t
+{ \displaystyle   e ^ { - \xi   ( t ) } = u }
+\mu  
+\Lambda  
+{ \frac     { d S } { d t } } = \Lambda   - \mu   S - \beta   I S
+{ \displaystyle   { \frac   { d I } { d t } } = \beta   I S - \gamma   I - \mu   I }
+{ \frac     { d R } { d t } } = \gamma   I - \mu   R
+\left ( S ( t ) , I ( t ) , R ( t ) \right ) = \left ( { \frac     { \Lambda   } { \mu   } } , 0 , 0 \right ) .
+R _ { 0 } = { \frac     { \beta   \Lambda   } { \mu   ( \mu   + \gamma   ) } } ,
+R _ { 0 } \leq   1 \Rightarrow   \lim   _ { { t \rightarrow   \infty   } } \left ( S ( t ) , I ( t ) , R ( t ) \right ) = { \textrm     { D F E } } = \left ( { \frac     { \Lambda   } { \mu   } } , 0 , 0 \right )
+R _ { 0 } > 1 , I ( 0 ) > 0 \Rightarrow   \lim   _ { { t \rightarrow   \infty   } } \left ( S ( t ) , I ( t ) , R ( t ) \right ) = { \textrm     { E E } } = \left ( { \frac     { \gamma   + \mu   } { \beta   } } , { \frac     { \mu   } { \beta   } } \left ( R _ { 0 } - 1 \right ) , { \frac     { \gamma   } { \beta   } } \left ( R _ { 0 } - 1 \right ) \right ) .
+R _ { 0 }
+{ \frac     { d S } { d t } } = - { \frac     { \beta   S I } { N } } + \gamma   I
+{ \frac     { d I } { d t } } = { \frac     { \beta   S I } { N } } - \gamma   I
+{ \frac     { d S } { d t } } + { \frac     { d I } { d t } } = 0 \Rightarrow   S ( t ) + I ( t ) = N
+{ \frac     { d I } { d t } } = \left ( \beta   N - \gamma   \right ) I - \beta   I ^ { 2 }
+\forall   I ( 0 ) > 0
+{ \frac     { \beta   N } { \gamma   } } \leq   1 \Rightarrow   \lim   _ { { t \rightarrow   + \infty   } } I ( t ) = 0
+{ \frac     { \beta   N } { \gamma   } } > 1 \Rightarrow   \lim   _ { { t \rightarrow   + \infty   } } I ( t ) = { \frac     { \beta   N - \gamma   } { \beta   } }
+I = y ^ { { - 1 } }
+I ( t ) = { \frac     { I _ { \infty   } } { 1 + V e ^ { { - \chi   ( t - t _ { 0 } ) } } } }
+{ \displaystyle   I _ { \infty   } = ( \beta   N - \gamma   ) / \beta   }
+{ \displaystyle   \chi   = \gamma   - \beta   }
+V = I _ { \infty   } / I _ { 0 } - 1
+S ( t ) = N - I ( t )
+{ \tfrac     { d M } { d T } } = B - \delta   M - \mu   M
+{ \tfrac     { d S } { d T } } = \delta   M - \beta   S I - \mu   S
+{ \tfrac     { d I } { d T } } = \beta   S I - \gamma   I - \mu   I
+{ \tfrac     { d R } { d T } } = \gamma   I - \mu   R
+a ^ { - 1 }
+{ \frac     { d S } { d t } } = \mu   N - \mu   S - \beta   { \frac     { I } { N } } S
+{ \frac     { d E } { d t } } = \beta   { \frac     { I } { N } } S - ( \mu   + a ) E
+{ \frac     { d I } { d t } } = a E - ( \gamma   + \mu   ) I
+{ \frac     { d R } { d t } } = \gamma   I - \mu   R .
+S + E + I + R = N
+N
+R _ { 0 } = { \frac     { a } { \mu   + a } } { \frac     { \beta   } { \mu   + \gamma   } } .
+\left ( S ( 0 ) , E ( 0 ) , I ( 0 ) , R ( 0 ) \right ) \in   \left \{ ( S , E , I , R ) \in   [ 0 , N ] ^ { 4 } : S \geq   0 , E \geq   0 , I \geq   0 , R \geq   0 , S + E + I + R = N \right \ }
+R _ { 0 } \leq   1 \Rightarrow   \lim   _ { { t \rightarrow   + \infty   } } \left ( S ( t ) , E ( t ) , I ( t ) , R ( t ) \right ) = D F E = \left ( N , 0 , 0 , 0 \right )
+R _ { 0 } > 1 , I ( 0 ) > 0 \Rightarrow   \lim   _ { { t \rightarrow   + \infty   } } \left ( S ( t ) , E ( t ) , I ( t ) , R ( t ) \right ) = E E .
+\beta   ( t )
+{ \frac     { d E _ { 1 } } { d t } } = \beta   ( t ) I _ { 1 } - ( \gamma   + a ) E _ { 1 }
+{ \frac     { d I _ { 1 } } { d t } } = a E _ { 1 } - ( \gamma   + \mu   ) I _ { 1 }
+{ \color   { b l u e } { { \mathcal     { S } } \rightarrow   { \mathcal     { E } } \rightarrow   { \mathcal     { I } } \rightarrow   { \mathcal     { S } } } }
+{ \tfrac     { d S } { d T } } = B - \beta   S I - \mu   S + \gamma   I
+{ \tfrac     { d E } { d T } } = \beta   S I - ( \epsilon   + \mu   ) E
+{ \tfrac     { d I } { d T } } = \varepsilon   E - ( \gamma   + \mu   ) I
+{ \color   { b l u e } { { \mathcal     { M } } \rightarrow   { \mathcal     { S } } \rightarrow   { \mathcal     { E } } \rightarrow   { \mathcal     { I } } \rightarrow   { \mathcal     { R } } } }
+{ \tfrac     { d M } { d T } } = B - \delta   M - \mu   M
+{ \tfrac     { d S } { d T } } = \delta   M - \beta   S I - \mu   S
+{ \tfrac     { d E } { d T } } = \beta   S I - ( \varepsilon   + \mu   ) E
+{ \tfrac     { d I } { d T } } = \varepsilon   E - ( \gamma   + \mu   ) I
+{ \tfrac     { d R } { d T } } = \gamma   I - \mu   R
+{ \color   { b l u e } { { \mathcal     { M } } \rightarrow   { \mathcal     { S } } \rightarrow   { \mathcal     { E } } \rightarrow   { \mathcal     { I } } \rightarrow   { \mathcal     { R } } \rightarrow   { \mathcal     { S } } } }
+F = \beta   ( t ) { \frac     { I } { N } } , \beta   ( t + T ) = \beta   ( t )
+{ \frac     { d S } { d t } } = \mu   N - \mu   S - \beta   ( t ) { \frac     { I } { N } } S
+{ \frac     { d I } { d t } } = \beta   ( t ) { \frac     { I } { N } } S - ( \gamma   + \mu   ) I
+R = N - S - I
+{ \frac     { 1 } { T } } \int   _ { { 0 } } ^ { { T } } { \frac     { \beta   ( t ) } { \mu   + \gamma   } } d t < 1 \Rightarrow   \lim   _ { { t \rightarrow   + \infty   } } \left ( S ( t ) , I ( t ) \right ) = D F E = \left ( N , 0 \right ) ,
+V
+P \in   ( 0 , 1 )
+{ \frac     { d S } { d t } } = \mu   N ( 1 - P ) - \mu   S - \beta   { \frac     { I } { N } } S
+{ \frac     { d I } { d t } } = \beta   { \frac     { I } { N } } S - ( \mu   + \gamma   ) I
+{ \frac     { d V } { d t } } = \mu   N P - \mu   V
+V
+\lim   _ { { t \rightarrow   + \infty   } } V ( t ) = N P ,
+S
+I
+R _ { 0 } ( 1 - P ) \leq   1 \Rightarrow   \lim   _ { { t \rightarrow   + \infty   } } \left ( S ( t ) , I ( t ) \right ) = D F E = \left ( N \left ( 1 - P \right ) , 0 \right )
+R _ { 0 } ( 1 - P ) > 1 , I ( 0 ) > 0 \Rightarrow   \lim   _ { { t \rightarrow   + \infty   } } \left ( S ( t ) , I ( t ) \right ) = E E = \left ( { \frac     { N } { R _ { 0 } ( 1 - P ) } } , N \left ( R _ { 0 } ( 1 - P ) - 1 \right ) \right ) .
+  P   <   P ^ { * } =   1 - \frac { 1 } { R _ 0 }    
+P = P ( I ) , P ^ { { \prime   } } ( I ) > 0 .
+P ( 0 ) \geq   P ^ { { * } } ,
+{ \frac     { d S } { d t } } = \mu   N ( 1 - P ) - \mu   S - \rho   S - \beta   { \frac     { I } { N } } S
+{ \frac     { d V } { d t } } = \mu   N P + \rho   S - \mu   V
+P \geq   1 - \left ( 1 + { \frac     { \rho   } { \mu   } } \right ) { \frac     { 1 } { R _ { 0 } } }
+{ \frac     { d S } { d t } } = \mu   N - \mu   S - \beta   { \frac     { I } { N } } S , S ( n T ^ { + } ) = ( 1 - p ) S ( n T ^ { - } ) n = 0 , 1 , 2 , \dots  
+{ \frac     { d V } { d t } } = - \mu   V , V ( n T ^ { + } ) = V ( n T ^ { - } ) + p S ( n T ^ { - } ) n = 0 , 1 , 2 , \dots  
+S ^ { * } ( t ) = 1 - { \frac     { p } { 1 - ( 1 - p ) E ^ { { - \mu   T } } } } E ^ { { - \mu   M O D ( t , T ) } }
+R _ { 0 } \int   _ { { 0 } } ^ { { T } } { S ^ { * } ( t ) d t } < 1
+s ( t , a ) , i ( t , a ) , r ( t , a )
+S ( t ) = \int   _ { 0 } ^ { { a _ { M } } } { s ( t , a ) d a }
+I ( t ) = \int   _ { 0 } ^ { { a _ { M } } } { i ( t , a ) d a }
+R ( t ) = \int   _ { 0 } ^ { { a _ { M } } } { r ( t , a ) d a }
+a _ { M } \leq   + \infty  
+\partial   _ { t } s ( t , a ) + \partial   _ { a } s ( t , a ) = - \mu   ( a ) s ( a , t ) - s ( a , t ) \int   _ { { 0 } } ^ { { a _ { M } } } { k ( a , a _ { 1 } ; t ) i ( a _ { 1 } , t ) d a _ { 1 } }
+\partial   _ { t } i ( t , a ) + \partial   _ { a } i ( t , a ) = s ( a , t ) \int   _ { { 0 } } ^ { { a _ { M } } } { k ( a , a _ { 1 } ; t ) i ( a _ { 1 } , t ) d a _ { 1 } } - \mu   ( a ) i ( a , t ) - \gamma   ( a ) i ( a , t )
+\partial   _ { t } r ( t , a ) + \partial   _ { a } r ( t , a ) = - \mu   ( a ) r ( a , t ) + \gamma   ( a ) i ( a , t )
+F ( a , t , i ( \cdot   , \cdot   ) ) = \int   _ { { 0 } } ^ { { a _ { M } } } { k ( a , a _ { 1 } ; t ) i ( a _ { 1 } , t ) d a _ { 1 } }
+k ( a , a _ { 1 } ; t )
+i ( t , 0 ) = r ( t , 0 ) = 0
+s ( t , 0 ) = \int   _ { { 0 } } ^ { { a _ { M } } } { \left ( \varphi   _ { s } ( a ) s ( a , t ) + \varphi   _ { i } ( a ) i ( a , t ) + \varphi   _ { r } ( a ) r ( a , t ) \right ) d a }
+\varphi   _ { j } ( a ) , j = s , i , r
+n ( t , a ) = s ( t , a ) + i ( t , a ) + r ( t , a )
+\partial   _ { t } n ( t , a ) + \partial   _ { a } n ( t , a ) = - \mu   ( a ) n ( a , t )
+\varphi   ( . )
+\mu   ( a )
+1 = \int   _ { 0 } ^ { { a _ { M } } } { \varphi   ( a ) \exp   \left ( - \int   _ { 0 } ^ { a } { \mu   ( q ) d q } \right ) d a }
+n ^ { * } ( a ) = C \exp   \left ( - \int   _ { 0 } ^ { a } { \mu   ( q ) d q } \right ) ,
+D F S ( a ) = \left ( n ^ { * } ( a ) , 0 , 0 \right ) .

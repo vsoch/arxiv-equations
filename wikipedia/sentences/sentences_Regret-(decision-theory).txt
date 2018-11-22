@@ -1,0 +1,40 @@
+x
+x
+E
+x
+x
+y
+x
+y = H x + w
+H
+n \times   m
+m
+w
+C _ { w }
+{ \hat     { x } } = G y
+x
+y
+G
+m \times   n
+M S E = E \left ( | | { \hat     { x } } - x | | ^ { 2 } \right ) = T r ( G C _ { w } G ^ { * } ) + x ^ { * } ( I - G H ) ^ { * } ( I - G H ) x .
+x
+x
+G
+x
+{ \hat     { x } } ^ { o } = G ( x ) y .
+{ \hat     { x } } ^ { o }
+M S E ^ { o } = E \left ( | | { \hat     { x } } ^ { o } - x | | ^ { 2 } \right ) = T r ( G ( x ) C _ { w } G ( x ) ^ { * } ) + x ^ { * } ( I - G ( x ) H ) ^ { * } ( I - G ( x ) H ) x .
+G ( x )
+M S E ^ { o }
+G
+{ \displaystyle   G ( x ) = x x ^ { * } H ^ { * } ( C _ { w } + H x x ^ { * } H ^ { * } ) ^ { - 1 } . }
+G ( x ) = { \frac     { 1 } { 1 + x ^ { * } H ^ { * } C _ { w } ^ { { - 1 } } H x } } x x ^ { * } H ^ { * } C _ { w } ^ { { - 1 } } .
+G ( x )
+M S E ^ { o }
+M S E ^ { o } = { \frac     { x ^ { * } x } { 1 + x ^ { * } H ^ { * } C _ { w } ^ { { - 1 } } H x } } .
+x
+G
+R ( x , G ) = M S E - M S E ^ { o } = T r ( G C _ { w } G ^ { * } ) + x ^ { * } ( I - G H ) ^ { * } ( I - G H ) x - { \frac     { x ^ { * } x } { 1 + x ^ { * } H ^ { * } C _ { w } ^ { { - 1 } } H x } } .
+{ \displaystyle   \sup   _ { x \in   E } R ( x , G ) . }
+x
+x

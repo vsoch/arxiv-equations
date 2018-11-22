@@ -1,0 +1,7 @@
+k
+n - k
+{ \displaystyle   S = \sum   _ { i = 1 } ^ { n } r _ { i } ( \beta   ) ^ { 2 } , }
+{ \displaystyle   r _ { i } ( \beta   ) = y _ { i } - f ( x _ { i } , \beta   ) , }
+{ \displaystyle   r _ { ( j ) } ( \beta   ) }
+{ \displaystyle   S ( \beta   ) = \sum   _ { j = 1 } ^ { n } r _ { ( j ) } ( \beta   ) ^ { 2 } , }
+{ \displaystyle   S _ { k } ( \beta   ) = \sum   _ { j = 1 } ^ { k } r _ { ( j ) } ( \beta   ) ^ { 2 } . }

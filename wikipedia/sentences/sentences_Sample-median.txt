@@ -1,0 +1,121 @@
+{ \displaystyle   ( 4 + 5 ) / 2 }
+{ \displaystyle   4 . 5 }
+{ \displaystyle   ( n + 1 ) / 2 }
+{ \displaystyle   \mathrm   { m e d i a n }   ( a ) = { \frac   { a _ { \lceil   \#x \div   2 \rceil   } + a _ { \lceil   \#x \div   2 + 1 \rceil   } } { 2 } } }
+\scriptstyle   { \bar     { x } } = { \frac     { 1 } { n } } \sum   _ { { i = 1 } } ^ { n } x _ { i }
+\operatorname   { P }   ( X \leq   m ) \geq   { \frac   { 1 } { 2 } } { \text {   a n d   } } \operatorname   { P }   ( X \geq   m ) \geq   { \frac   { 1 } { 2 } } \ , \ !
+\int   _ { ( - \infty   , m ] } d F ( x ) \geq   { \frac   { 1 } { 2 } } { \text {   a n d   } } \int   _ { [ m , \infty   ) } d F ( x ) \geq   { \frac   { 1 } { 2 } } \ , \ !
+\operatorname   { P }   ( X \leq   m ) = \operatorname   { P }   ( X \geq   m ) = \int   _ { - \infty   } ^ { m } f ( x ) \,dx = { \frac   { 1 } { 2 } } . \ , \ !
+E ( \left | X - c \right | ) \ ,
+{ \displaystyle   E ( | X - c | - | X | ) , }
+{ \tilde   { X } }
+{ \bar   { X } }
+{ \displaystyle   { \frac   { \left | { \tilde   { X } } - { \bar   { X } } \right | } { \sigma   } } \leq   \left ( { \frac   { 3 } { 5 } } \right ) ^ { \frac   { 1 } { 2 } } }
+{ \displaystyle   { \frac   { | { \tilde   { X } } - \mathrm   { m o d e }   | } { \sigma   } } \leq   3 ^ { \frac   { 1 } { 2 } } . }
+{ \displaystyle   { \begin { a l i g n e d } | \mu   - m | = | \operatorname   { E }   ( X - m ) | & \leq   \operatorname   { E }   ( | X - m | ) \\&\leq   \operatorname   { E }   ( | X - \mu   | ) \\&\leq   { \sqrt   { \operatorname   { E }   \left ( ( X - \mu   ) ^ { 2 } \right ) } } = \sigma   . \end { a l i g n e d } } }
+{ \displaystyle   a \mapsto   \operatorname   { E }   ( | X - a | ) . \ , }
+{ \displaystyle   { \begin { a l i g n e d } \|\mu   - m \|=\|\operatorname   { E }   ( X - m ) \|&\leq   \operatorname   { E }   \|X - m \|\\&\leq   \operatorname   { E }   ( \|X - \mu   \|)\\&\leq   { \sqrt   { \operatorname   { E }   \left ( \|X - \mu   \|^ { 2 } \right ) } } = { \sqrt   { \operatorname   { t r a c e }   \left ( \operatorname   { v a r }   ( X ) \right ) } } \end { a l i g n e d } } }
+{ \displaystyle   a \mapsto   \operatorname   { E }   ( \|X - a \ | ) . \ , }
+{ \displaystyle   f [ E ( x ) ] \leq   E [ f ( x ) ] }
+{ \displaystyle   f ( m ) \leq   \operatorname   { M e d i a n }   [ f ( x ) ] }
+{ \displaystyle   f ^ { - 1 } \left ( \,( - \infty   , t ] \,\right ) = \{ x \in   R \mid   f ( x ) \leq   t \ } }
+f ( x )
+m
+{ \frac   { 1 } { 4 n f ( m ) ^ { 2 } } }
+m
+f ( x )
+n
+p
+p
+p
+{ \frac   { p ( 1 - p ) } { n f ( x _ { p } ) ^ { 2 } } }
+f ( x _ { p } )
+p
+{ \displaystyle   N = 2 n + 1 }
+v
+n
+{ \displaystyle   v - 1 }
+n
+{ \displaystyle   v + 1 }
+i
+{ \displaystyle   v - 1 }
+k
+{ \displaystyle   v + 1 }
+i
+k
+n
+v
+v
+v
+v
+{ \displaystyle   F ( v - 1 ) }
+{ \displaystyle   f ( v ) }
+{ \displaystyle   1 - F ( v ) }
+m
+v
+{ \displaystyle   \Pr ( m = v ) = \sum   _ { i = 0 } ^ { n } \sum   _ { k = 0 } ^ { n } { \frac   { N ! } { i ! ( N - i - k ) ! k ! } } [ F ( v - 1 ) ] ^ { i } [ f ( v ) ] ^ { N - i - k } [ 1 - F ( v ) ] ^ { k } . }
+v
+{ \displaystyle   f ( v ) }
+{ \displaystyle   f ( v ) }
+{ \displaystyle   p r ( m = v ) }
+v
+v
+{ \displaystyle   f ( v ) \,dv }
+2 n
+n
+v
+n
+n
+{ \displaystyle   F ( v ) }
+2 n
+2 n + 1
+v
+{ \displaystyle   f ( v ) { \frac   { ( 2 n ) ! } { n ! n ! } } [ F ( v ) ] ^ { n } [ 1 - F ( v ) ] ^ { n } ( 2 n + 1 ) \,dv . }
+\alpha  
+\beta  
+{ \displaystyle   \mathrm   { B }   ( \alpha   , \beta   ) = ( \alpha   - 1 ) ! ( \beta   - 1 ) ! / ( \alpha   + \beta   - 1 ) ! }
+{ \displaystyle   f ( v ) = d F ( v ) / d v }
+\alpha  
+\beta  
+{ \displaystyle   ( n + 1 ) }
+{ \displaystyle   { \frac   { [ F ( v ) ] ^ { n } [ 1 - F ( v ) ] ^ { n } } { \mathrm   { B }   ( n + 1 , n + 1 ) } } \,dF ( v ) }
+{ \displaystyle   F ( v ) }
+{ \displaystyle   1 / ( 4 ( N + 2 ) ) }
+{ \displaystyle   { \frac   { 1 } { 4 ( N + 2 ) f ( m ) ^ { 2 } } } . }
+{ \displaystyle   f ( v ) }
+( 2 f ( x ) ) ^ { - 2 }
+n ^ { - { \frac   { 1 } { 2 } } } ( \nu   - m )
+\nu  
+k
+n ^ { - { \frac   { 1 } { 4 } } }
+N = 2 n + 1
+{ \displaystyle   { \frac   { 2 } { \pi   } } { \frac   { N + 2 } { N } } }
+{ \displaystyle   { \frac   { 2 } { \pi   } } }
+N
+C D = { \frac   { 1 } { n } } { \frac   { \sum   | m - x | } { m } }
+{ \displaystyle   \exp   \left [ \log   \left ( { \frac   { t _ { a } } { t _ { b } } } \right ) - z _ { \alpha   } \left ( \operatorname   { v a r }   \left [ \log   \left ( { \frac   { t _ { a } } { t _ { b } } } \right ) \right ] \right ) ^ { \frac   { 1 } { 2 } } \right ] }
+{ \displaystyle   \operatorname   { v a r }   [ \log ( t _ { a } ) ] = { \frac   { 1 } { n } } \left [ { \frac   { s _ { a } ^ { 2 } } { t _ { a } ^ { 2 } } } + \left ( { \frac   { x _ { a } - { \bar   { x } } } { t _ { a } } } \right ) ^ { 2 } - 1 \right ] }
+{ \displaystyle   \operatorname   { v a r }   \left [ \log   \left ( { \frac   { t _ { a } } { t _ { b } } } \right ) \right ] = \operatorname   { v a r }   [ \log ( t _ { a } ) ] + \operatorname   { v a r }   [ \log ( t _ { b } ) ] - 2 r ( \operatorname   { v a r }   [ \log ( t _ { a } ) ] \operatorname   { v a r }   [ \log ( t _ { b } ) ] ) ^ { \frac   { 1 } { 2 } } }
+d _ { i a } = | x _ { i a } - { \bar   { x } } _ { a } |
+d _ { i b } = | x _ { i b } - { \bar   { x } } _ { b } |
+d
+{ \displaystyle   { \displaystyle   x _ { \text { m e d o i d } } = { \text { a r g m i n } } _ { y \in   \{ x _ { 1 } , x _ { 2 } , \cdots   , x _ { n } \}}\sum   _ { i = 1 } ^ { n } d ( y , x _ { i } ) . } }
+{ \displaystyle   a \mapsto   { \frac   { 1 } { N } } \sum   _ { n } ( \|x_ { n } - a \ | ) , \ , }
+{ \displaystyle   a \mapsto   { \frac   { 1 } { N } } \sum   _ { n } { ( \|x_ { n } - a \|-\|x_ { n } \ | ) } ; }
+m
+x
+F ( x )
+w
+f ( x )
+{ \displaystyle   m _ { \text { i n t } } = m + w \left [ { \frac   { 1 } { 2 } } - { \frac   { F ( m ) - { \frac   { 1 } { 2 } } } { f ( m ) } } \right ] . }
+k
+j
+i
+{ \displaystyle   m _ { \text { i n t } } = m + { \frac   { w } { 2 } } \left [ { \frac   { k - i } { j } } \right ] . }
+x
+y
+x
+| \alpha   - \alpha   ^ { * } |
+\alpha   ^ { * }
+\alpha  
+( \alpha   - \alpha   ^ { * } ) ^ { 2 }

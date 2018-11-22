@@ -1,0 +1,4 @@
+{ \displaystyle   { \widehat   { \kappa   } } = \left ( { \frac   { P _ { b } - P _ { a } } { \left ( 1 / a ^ { \widehat   { \theta   } } \right ) - \left ( 1 / b ^ { \widehat   { \theta   } } \right ) } } \right ) ^ { 1 / { \widehat   { \theta   } } } }
+{ \displaystyle   { \widehat   { \theta   } } \;=\;{ \frac   { \log ( 1 - P _ { a } ) - \log ( 1 - P _ { b } ) } { \log ( b ) - \log ( a ) } } . }
+{ \displaystyle   { \mbox { e s t i m a t e d   m e d i a n } } = { \widehat   { \kappa   } } \cdot   2 ^ { 1 / { \widehat   { \theta   } } } , \ , }
+{ \displaystyle   { \mbox { m e d i a n } } = \kappa   \,2 ^ { 1 / \theta   } . \ , }

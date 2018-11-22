@@ -1,0 +1,79 @@
+m ( \theta   _ { 0 } ) \equiv   \operatorname   { E } [ \,g ( Y _ { t } , \theta   _ { 0 } ) \,]=0 ,
+{ \hat     { m } } ( \theta   ) \equiv   { \frac     { 1 } { T } } \sum   _ { { t = 1 } } ^ { T } g ( Y _ { t } , \theta   )
+\scriptstyle   { \hat     { m } } ( \theta   ) \,\approx   \;\operatorname   { E } [ g ( Y _ { t } , \theta   ) ] \,=\,m ( \theta   )
+{ \displaystyle   \scriptstyle   { \hat   { m } } ( \theta   ) \;\approx   \;m ( \theta   _ { 0 } ) \;=\;0 }
+\scriptstyle   { \hat   { \theta   } }
+\scriptstyle   { \hat     { m } } ( \;\!{ \hat     \theta   } \ ; \ ! )
+\scriptstyle   { \hat     { m } } ( \theta   )
+{ \displaystyle   \|{ \hat   { m } } ( \theta   ) \|_ { W } ^ { 2 } = { \hat   { m } } ( \theta   ) ^ { \mathsf   { T } } \,W { \hat   { m } } ( \theta   ) , }
+{ \displaystyle   m ^ { \mathsf   { T } } }
+\scriptstyle   { \hat     { W } }
+{ \displaystyle   { \hat   { \theta   } } = \operatorname   { a r g }   \min   _ { \theta   \in   \Theta   } { \bigg   ( } { \frac   { 1 } { T } } \sum   _ { t = 1 } ^ { T } g ( Y _ { t } , \theta   ) { \bigg   ) } ^ { \mathsf   { T } } { \hat   { W } } { \bigg   ( } { \frac   { 1 } { T } } \sum   _ { t = 1 } ^ { T } g ( Y _ { t } , \theta   ) { \bigg   ) } }
+\scriptstyle   { \hat     { W } }
+{ \displaystyle   { \hat   { \theta   } } { \xrightarrow   { p } } \theta   _ { 0 } \ { \text { a s } } \ T \to   \infty   . }
+{ \hat     { W } } _ { T } { \xrightarrow     { p } } W ,
+\,W \operatorname   { E } [ \,g ( Y _ { t } , \theta   ) \,]=0
+\,\theta   = \theta   _ { 0 } ,
+\Theta   \subset   { \mathbb     { R } } ^ { { k } }
+\,g ( Y , \theta   )
+\operatorname   { E } [ \,\textstyle   \sup   _ { { \theta   \in   \Theta   } } \lVert   g ( Y , \theta   ) \rVert   \,]<\infty   .
+\theta   _ { 0 }
+W \operatorname   { E } [ \nabla   _ { \theta   } g ( Y _ { t } , \theta   _ { 0 } ) ]
+{ \displaystyle   G = \operatorname   { E }   [ \,\nabla   _ { \!\theta   } \,g ( Y _ { t } , \theta   _ { 0 } ) \,],\qquad   \Omega   = \operatorname   { E }   [ \,g ( Y _ { t } , \theta   _ { 0 } ) g ( Y _ { t } , \theta   _ { 0 } ) ^ { \mathsf   { T } } \ , ] }
+{ \displaystyle   { \sqrt   { T } } { \big   ( } { \hat   { \theta   } } - \theta   _ { 0 } { \big   ) } \ { \xrightarrow   { d } } \ { \mathcal   { N } } { \big   [ } 0 , ( G ^ { \mathsf   { T } } W G ) ^ { - 1 } G ^ { \mathsf   { T } } W \Omega   W ^ { \mathsf   { T } } G ( G ^ { \mathsf   { T } } W ^ { \mathsf   { T } } G ) ^ { - 1 } { \big   ] } . }
+{ \hat   { \theta   } }
+\Theta   \subset   { \mathbb     { R } } ^ { { k } }
+\,g ( Y , \theta   )
+\theta   _ { 0 }
+\operatorname   { E } [ \,\lVert   g ( Y _ { t } , \theta   ) \rVert   ^ { 2 } \,]<\infty   ,
+\operatorname   { E } [ \,\textstyle   \sup   _ { { \theta   \in   N } } \lVert   \nabla   _ { \theta   } g ( Y _ { t } , \theta   ) \rVert   \,]<\infty   ,
+G ' W G
+W \propto   \ \Omega   ^ { { - 1 } }
+{ \displaystyle   { \sqrt   { T } } { \big   ( } { \hat   { \theta   } } - \theta   _ { 0 } { \big   ) } \ { \xrightarrow   { d } } \ { \mathcal   { N } } { \big   [ } 0 , ( G ^ { \mathsf   { T } } \,\Omega   ^ { - 1 } G ) ^ { - 1 } { \big   ] } }
+W = \Omega   ^ { { - 1 } }
+W = \Omega   ^ { { - 1 } }
+\,V ( W ) - V ( \Omega   ^ { { - 1 } } )
+{ \displaystyle   \,=( G ^ { \mathsf   { T } } W G ) ^ { - 1 } G ^ { \mathsf   { T } } W \Omega   W G ( G ^ { \mathsf   { T } } W G ) ^ { - 1 } - ( G ^ { \mathsf   { T } } \Omega   ^ { - 1 } G ) ^ { - 1 } }
+{ \displaystyle   \,=( G ^ { \mathsf   { T } } W G ) ^ { - 1 } { \Big   ( } G ^ { \mathsf   { T } } W \Omega   W G - G ^ { \mathsf   { T } } W G ( G ^ { \mathsf   { T } } \Omega   ^ { - 1 } G ) ^ { - 1 } G ^ { \mathsf   { T } } W G { \Big   ) } ( G ^ { \mathsf   { T } } W G ) ^ { - 1 } }
+{ \displaystyle   \,=( G ^ { \mathsf   { T } } W G ) ^ { - 1 } G ^ { \mathsf   { T } } W \Omega   ^ { 1 / 2 } { \Big   ( } I - \Omega   ^ { - 1 / 2 } G ( G ^ { \mathsf   { T } } \Omega   ^ { - 1 } G ) ^ { - 1 } G ^ { \mathsf   { T } } \Omega   ^ { - 1 / 2 } { \Big   ) } \Omega   ^ { 1 / 2 } W G ( G ^ { \mathsf   { T } } W G ) ^ { - 1 } }
+{ \displaystyle   \,=A ( I - B ) A ^ { \mathsf   { T } } , }
+B ^ { 2 } = B
+{ \displaystyle   I - B = ( I - B ) ( I - B ) ^ { \mathsf   { T } } }
+{ \displaystyle   \,=A ( I - B ) ( I - B ) ^ { \mathsf   { T } } A ^ { \mathsf   { T } } = { \Big   ( } A ( I - B ) { \Big   ) } { \Big   ( } A ( I - B ) { \Big   ) } ^ { \mathsf   { T } } \geq   0 }
+{ \displaystyle   { \hat   { W } } _ { T } ( { \hat   { \theta   } } ) = { \bigg   ( } { \frac   { 1 } { T } } \sum   _ { t = 1 } ^ { T } g ( Y _ { t } , { \hat   { \theta   } } ) g ( Y _ { t } , { \hat   { \theta   } } ) ^ { \mathsf   { T } } { \bigg   ) } ^ { - 1 } . }
+\scriptstyle   { \hat     \theta   } _ { { ( 1 ) } }
+{ \displaystyle   { \hat   { W } } _ { T } ( { \hat   { \theta   } } _ { ( 1 ) } ) }
+\scriptstyle   { \hat   { \theta   } }
+{ \hat     { W } } _ { T }
+{ \displaystyle   { \hat   { \theta   } } _ { ( i + 1 ) } = \operatorname   { a r g }   \min   _ { \theta   \in   \Theta   } { \bigg   ( } { \frac   { 1 } { T } } \sum   _ { t = 1 } ^ { T } g ( Y _ { t } , \theta   ) { \bigg   ) } ^ { \mathsf   { T } } { \hat   { W } } _ { T } ( { \hat   { \theta   } } _ { ( i ) } ) { \bigg   ( } { \frac   { 1 } { T } } \sum   _ { t = 1 } ^ { T } g ( Y _ { t } , \theta   ) { \bigg   ) } }
+\scriptstyle   { \hat   { \theta   } }
+{ \displaystyle   { \hat   { \theta   } } = \operatorname   { a r g }   \min   _ { \theta   \in   \Theta   } { \bigg   ( } { \frac   { 1 } { T } } \sum   _ { t = 1 } ^ { T } g ( Y _ { t } , \theta   ) { \bigg   ) } ^ { \mathsf   { T } } { \hat   { W } } _ { T } ( \theta   ) { \bigg   ( } { \frac   { 1 } { T } } \sum   _ { t = 1 } ^ { T } g ( Y _ { t } , \theta   ) { \bigg   ) } }
+{ \hat     { m } } ( { \hat     \theta   } )
+{ \hat     { m } } ( \theta   ) = 0
+\theta  
+\theta   _ { 0 }
+m ( \theta   _ { 0 } ) = 0
+H _ { 0 } : \ m ( \theta   _ { 0 } ) = 0
+H _ { 1 } : \ m ( \theta   ) \neq   0 , \ \forall   \theta   \in   \Theta  
+H _ { 0 }
+{ \displaystyle   J \equiv   T \cdot   { \bigg   ( } { \frac   { 1 } { T } } \sum   _ { t = 1 } ^ { T } g ( Y _ { t } , { \hat   { \theta   } } ) { \bigg   ) } ^ { \mathsf   { T } } { \hat   { W } } _ { T } { \bigg   ( } { \frac   { 1 } { T } } \sum   _ { t = 1 } ^ { T } g ( Y _ { t } , { \hat   { \theta   } } ) { \bigg   ) } \ { \xrightarrow   { d } } \ \chi   _ { k - \ell   } ^ { 2 } }
+H _ { 0 } ,
+{ \hat   { \theta   } }
+\theta   _ { 0 }
+{ \hat     { W } } _ { T }
+\Omega   ^ { { - 1 } }
+\Omega   ^ { { - 1 } }
+\Omega   ^ { { - 1 } }
+H _ { 1 }
+J \ { \xrightarrow     { p } } \ \infty  
+H _ { 1 }
+\chi   _ { { k - \ell   } } ^ { 2 }
+H _ { 0 }
+J > q _ { { 0 . 9 5 } } ^ { { \chi   _ { { k - \ell   } } ^ { 2 } } }
+H _ { 0 }
+J < q _ { { 0 . 9 5 } } ^ { { \chi   _ { { k - \ell   } } ^ { 2 } } }
+{ \displaystyle   \operatorname   { E }   [ \,x_ { t } ( y _ { t } - x _ { t } ^ { \mathsf   { T } } \beta   ) \,]=0 }
+{ \displaystyle   \operatorname   { E }   [ \,x_ { t } ( y _ { t } - x _ { t } ^ { \mathsf   { T } } \beta   ) / \sigma   ^ { 2 } ( x _ { t } ) \,]=0 }
+{ \displaystyle   \operatorname   { E }   [ \,z_ { t } ( y _ { t } - x _ { t } ^ { \mathsf   { T } } \beta   ) \,]=0 }
+\operatorname   { E } [ \,\nabla   _ { { \!\beta   } } \,g ( x _ { t } , \beta   ) \cdot   ( y _ { t } - g ( x _ { t } , \beta   ) ) \,]=0
+\operatorname   { E } [ \,\nabla   _ { { \!\theta   } } \ln   f ( x _ { t } , \theta   ) \,]=0

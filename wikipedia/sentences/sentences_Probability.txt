@@ -1,0 +1,39 @@
+\phi   ( x ) = c e ^ { - h ^ { 2 } x ^ { 2 } } ,
+h
+c
+P ( A )
+p ( A )
+{ \text { P r } } ( A )
+{ \displaystyle   { \overline   { A } } , A ^ { \complement   } , \neg   A }
+{ \displaystyle   { \sim   } A }
+= 1 - { \tfrac   { 1 } { 6 } } = { \tfrac   { 5 } { 6 } }
+P ( A \cap   B )
+P ( A { \mbox {   a n d   } } B ) = P ( A \cap   B ) = P ( A ) P ( B ) , \ ,
+{ \tfrac   { 1 } { 2 } } \times   { \tfrac   { 1 } { 2 } } = { \tfrac   { 1 } { 4 } }
+P ( A \cap   B )
+{ \displaystyle   P ( A { \mbox {   a n d   } } B ) = P ( A \cap   B ) = 0 }
+P ( A \cup   B )
+{ \displaystyle   P ( A { \mbox {   o r   } } B ) = P ( A \cup   B ) = P ( A ) + P ( B ) - P ( A \cap   B ) = P ( A ) + P ( B ) - 0 = P ( A ) + P ( B ) }
+P ( 1 { \mbox {   o r   } } 2 ) = P ( 1 ) + P ( 2 ) = { \tfrac   { 1 } { 6 } } + { \tfrac   { 1 } { 6 } } = { \tfrac   { 1 } { 3 } } .
+{ \displaystyle   P \left ( A { \hbox {   o r   } } B \right ) = P ( A \cup   B ) = P \left ( A \right ) + P \left ( B \right ) - P \left ( A { \mbox {   a n d   } } B \right ) . }
+{ \tfrac   { 1 3 } { 5 2 } } + { \tfrac   { 1 2 } { 5 2 } } - { \tfrac   { 3 } { 5 2 } } = { \tfrac   { 1 1 } { 2 6 } }
+P ( A \mid   B )
+P ( A \mid   B ) = { \frac   { P ( A \cap   B ) } { P ( B ) } } . \ ,
+P ( B ) = 0
+P ( A \mid   B )
+1 / 2
+1 / 3
+A _ { 1 }
+A _ { 2 }
+B
+A _ { 1 }
+A _ { 2 }
+A
+P ( A | B ) \propto   P ( A ) P ( B | A )
+A
+B
+P ( A ) \in   [ 0 , 1 ] \ ,
+{ \displaystyle   P ( A ^ { \complement   } ) = 1 - P ( A ) \ , }
+{ \begin { a l i g n e d } P ( A \cup   B ) & = P ( A ) + P ( B ) - P ( A \cap   B ) \\P ( A \cup   B ) & = P ( A ) + P ( B ) \qquad   { \mbox { i f   A   a n d   B   a r e   m u t u a l l y   e x c l u s i v e } } \\\end { a l i g n e d } }
+{ \begin { a l i g n e d } P ( A \cap   B ) & = P ( A | B ) P ( B ) = P ( B | A ) P ( A ) \\P ( A \cap   B ) & = P ( A ) P ( B ) \qquad   { \mbox { i f   A   a n d   B   a r e   i n d e p e n d e n t } } \\\end { a l i g n e d } }
+P ( A \mid   B ) = { \frac   { P ( A \cap   B ) } { P ( B ) } } = { \frac   { P ( B | A ) P ( A ) } { P ( B ) } } \ ,

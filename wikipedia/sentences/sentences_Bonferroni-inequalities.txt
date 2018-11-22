@@ -1,0 +1,27 @@
+{ \displaystyle   \mathbb   { P }   \left ( \bigcup   _ { i } A _ { i } \right ) \leq   \sum   _ { i } { \mathbb   { P }   } ( A _ { i } ) . }
+n = 1
+\mathbb   { P }   ( A _ { 1 } ) \leq   \mathbb   { P }   ( A _ { 1 } ) .
+n
+{ \displaystyle   { \mathbb   { P }   } \left ( \bigcup   _ { i = 1 } ^ { n } A _ { i } \right ) \leq   \sum   _ { i = 1 } ^ { n } { \mathbb   { P }   } ( A _ { i } ) . }
+{ \displaystyle   \mathbb   { P }   ( A \cup   B ) = \mathbb   { P }   ( A ) + \mathbb   { P }   ( B ) - \mathbb   { P }   ( A \cap   B ) , }
+{ \displaystyle   \mathbb   { P }   \left ( \bigcup   _ { i = 1 } ^ { n + 1 } A _ { i } \right ) = \mathbb   { P }   \left ( \bigcup   _ { i = 1 } ^ { n } A _ { i } \right ) + \mathbb   { P }   ( A _ { n + 1 } ) - \mathbb   { P }   \left ( \bigcup   _ { i = 1 } ^ { n } A _ { i } \cap   A _ { n + 1 } \right ) . }
+{ \displaystyle   { \mathbb   { P }   } { \biggl   ( } \bigcup   _ { i = 1 } ^ { n } A _ { i } \cap   A _ { n + 1 } { \biggr   ) } \geq   0 , }
+{ \displaystyle   \mathbb   { P }   \left ( \bigcup   _ { i = 1 } ^ { n + 1 } A _ { i } \right ) \leq   \mathbb   { P }   \left ( \bigcup   _ { i = 1 } ^ { n } A _ { i } \right ) + \mathbb   { P }   ( A _ { n + 1 } ) , }
+{ \displaystyle   \mathbb   { P }   \left ( \bigcup   _ { i = 1 } ^ { n + 1 } A _ { i } \right ) \leq   \sum   _ { i = 1 } ^ { n } \mathbb   { P }   ( A _ { i } ) + \mathbb   { P }   ( A _ { n + 1 } ) = \sum   _ { i = 1 } ^ { n + 1 } \mathbb   { P }   ( A _ { i } ) . }
+{ \displaystyle   A _ { 1 } , A _ { 2 } , A _ { 3 } , \dots   }
+{ \displaystyle   \mathbb   { P }   \left ( \bigcup   _ { i } A _ { i } \right ) \leq   \sum   _ { i } \mathbb   { P }   ( A _ { i } ) }
+{ \displaystyle   B _ { 1 } , B _ { 2 } , B _ { 3 } , \dots   }
+{ \displaystyle   \mathbb   { P }   \left ( \bigcup   _ { i } B _ { i } \right ) = \sum   _ { i } \mathbb   { P }   ( B _ { i } ) }
+B \subset   A
+{ \displaystyle   \mathbb   { P }   ( B ) \leq   \mathbb   { P }   ( A ) }
+{ \displaystyle   \mathbb   { P }   ( A ) = \mathbb   { P }   ( B ) + \mathbb   { P }   ( A - B ) }
+A _ { i }
+{ \displaystyle   B _ { i } = A _ { i } - \bigcup   _ { j = 1 } ^ { i - 1 } A _ { j } }
+{ \displaystyle   B _ { i } \subset   A _ { i } }
+{ \displaystyle   \bigcup   _ { i = 1 } ^ { \infty   } B _ { i } = \bigcup   _ { i = 1 } ^ { \infty   } A _ { i } }
+{ \displaystyle   \mathbb   { P }   \left ( \bigcup   _ { i } A _ { i } \right ) = \mathbb   { P }   \left ( \bigcup   _ { i } B _ { i } \right ) = \sum   _ { i } \mathbb   { P }   ( B _ { i } ) \leq   \sum   _ { i } \mathbb   { P }   ( A _ { i } ) }
+S _ { 1 } : = \sum   _ { i = 1 } ^ { n } { \mathbb   { P }   } ( A _ { i } ) ,
+{ \displaystyle   S _ { 2 } : = \sum   _ { 1 \leq   i < j \leq   n } { \mathbb   { P }   } \left ( A _ { i } \cap   A _ { j } \right ) , }
+{ \displaystyle   S _ { k } : = \sum   _ { 1 \leq   i _ { 1 } < \cdots   < i _ { k } \leq   n } { \mathbb   { P }   } \left ( A _ { i _ { 1 } } \cap   \cdots   \cap   A _ { i _ { k } } \right ) }
+{ \displaystyle   { \mathbb   { P }   } \left ( \bigcup   _ { i = 1 } ^ { n } A _ { i } \right ) \leq   \sum   _ { j = 1 } ^ { k } ( - 1 ) ^ { j - 1 } S _ { j } , }
+{ \displaystyle   { \mathbb   { P }   } \left ( \bigcup   _ { i = 1 } ^ { n } A _ { i } \right ) \geq   \sum   _ { j = 1 } ^ { k } ( - 1 ) ^ { j - 1 } S _ { j } . }

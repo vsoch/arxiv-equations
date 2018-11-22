@@ -1,0 +1,18 @@
+y
+y _ { i }
+i = 1 , 2 , \dots   , n
+f ( y _ { i } | \mu   _ { i } , \sigma   _ { i } , \nu   _ { i } , \tau   _ { i } )
+( \mu   _ { i } , \sigma   _ { i } , \nu   _ { i } , \tau   _ { i } )
+\mu   _ { i }
+\sigma   _ { i }
+{ \begin { a l i g n e d } g _ { 1 } ( \mu   ) = \eta   _ { 1 } = X _ { 1 } \beta   _ { 1 } + \sum   _ { { j = 1 } } ^ { { J _ { 1 } } } { h } _ { { j 1 } } ( x _ { { j 1 } } ) \\g_ { 2 } ( \sigma   ) = \eta   _ { 2 } = X _ { 2 } \beta   _ { 2 } + \sum   _ { { j = 1 } } ^ { { J _ { 2 } } } { h } _ { { j 2 } } ( x _ { { j 2 } } ) \\g_ { 3 } ( \nu   ) = \eta   _ { 3 } = X _ { 3 } \beta   _ { 3 } + \sum   _ { { j = 1 } } ^ { { J _ { 3 } } } { h } _ { { j 3 } } ( x _ { { j 3 } } ) \\g_ { 4 } ( \tau   ) = \eta   _ { 4 } = X _ { 4 } \beta   _ { 4 } + \sum   _ { { j = 1 } } ^ { { J _ { 4 } } } { h } _ { { j 4 } } ( x _ { { j 4 } } ) \end { a l i g n e d } }
+\eta   _ { k }
+n
+\beta   _ { k } ^ { { T } } = ( \beta   _ { { 1 k } } , \beta   _ { { 2 k } } , \ldots   , \beta   _ { { J ' _ { { k } } k } } )
+J ' _ { k }
+X _ { k }
+n \times   J ' _ { k }
+h _ { { j k } }
+x _ { { j k } }
+j = 1 , 2 , \ldots   , J _ { { k } }
+k = 1 , 2 , 3 , 4

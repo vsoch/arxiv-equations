@@ -1,0 +1,49 @@
+D
+f
+H
+g _ { \gamma   _ { n } }
+D
+N
+{ \displaystyle   f ( t ) \approx   { \hat   { f } } _ { N } ( t ) : = \sum   _ { n = 1 } ^ { N } a _ { n } g _ { \gamma   _ { n } } ( t ) }
+g _ { \gamma   _ { n } }
+\gamma   _ { n }
+D
+a _ { n }
+g _ { \gamma   _ { n } }
+D
+{ \displaystyle   \gamma   _ { N } }
+a _ { N }
+{ \displaystyle   R _ { N + 1 } = f - { \hat   { f } } _ { N } }
+R _ { n }
+f
+\min   _ { x } \|f - D x \|_ { 2 } ^ { 2 } \ { \text {   s u b j e c t   t o   } } \ \|x \|_ { 0 } \leq   N ,
+\|x \|_ { 0 }
+L _ { 0 }
+x
+x
+{ \displaystyle   x _ { \gamma   _ { n } } = a _ { n } }
+f
+f
+D
+f
+f
+D
+f ( t )
+D
+{ \displaystyle   g _ { i } }
+{ \displaystyle   ( a _ { n } ) _ { n = 1 } ^ { N } }
+{ \displaystyle   ( \gamma   _ { n } ) _ { n = 1 } ^ { N } }
+R _ { 1 } \,\leftarrow   \,f ( t )
+n \,\leftarrow   \,1
+g _ { \gamma   _ { n } } \in   D
+| \langle   R _ { n } , g _ { \gamma   _ { n } } \rangle   |
+a _ { n } \,\leftarrow   \,\langle   R _ { n } , g _ { \gamma   _ { n } } \rangle  
+R _ { n + 1 } \,\leftarrow   \,R_ { n } - a _ { n } g _ { \gamma   _ { n } }
+n \,\leftarrow   \,n + 1
+\|R_ { n } \|<\mathrm   { t h r e s h o l d }  
+{ \displaystyle   R _ { n } \to   0 }
+f
+\|R_ { n } \ |
+N
+{ \displaystyle   \|f \|^ { 2 } = \|R_ { N + 1 } \|^ { 2 } + \sum   _ { n = 1 } ^ { N } { | a _ { n } | ^ { 2 } } }
+D

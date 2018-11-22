@@ -1,0 +1,20 @@
+x   \in   [ 0 , n ]
+{ \frac     { 1 } { ( n - 1 ) ! } } \sum   _ { { k = 0 } } ^ { { \lfloor   x \rfloor   } } ( - 1 ) ^ { k } { \binom     { n } { k } } ( x - k ) ^ { { n - 1 } }
+{ \frac     { 1 } { n ! } } \sum   _ { { k = 0 } } ^ { { \lfloor   x \rfloor   } } ( - 1 ) ^ { k } { \binom     { n } { k } } ( x - k ) ^ { n }
+{ \frac   { n } { 2 } }
+{ \frac   { n } { 2 } }
+\begin { c a s e s }                                       \text { a n y   v a l u e   i n   }   [ 0 , 1 ]     &   \text { f o r   }   n = 1       \\                   \frac { n } { 2 }                             &   \text { o t h e r w i s e }                                   \end { c a s e s }
+\frac { n } { 1 2 }
+- \tfrac { 6 } { 5 n }
+{ \displaystyle   { \left ( { \frac   { \mathrm   { e }   ^ { t } - 1 } { t } } \right ) } ^ { n } }
+{ \left ( \frac { \mathrm { e } ^ { i t } - 1 } { i t } \right ) } ^ n
+  X   =   \sum_ { k = 1 } ^ n   U _ k .  
+{ \displaystyle   f _ { X } ( x ; n ) = { \frac   { 1 } { 2 ( n - 1 ) ! } } \sum   _ { k = 0 } ^ { n } ( - 1 ) ^ { k } { n   \choose   k } ( x - k ) ^ { n - 1 } \operatorname   { s g n } ( x - k ) }
+{ \displaystyle   \operatorname   { s g n } ( x - k ) = { \begin { c a s e s } - 1 & x < k \\0 & x = k \\1 & x > k . \end { c a s e s } } }
+{ \displaystyle   f _ { X } ( x ; n ) = { \frac   { 1 } { ( n - 1 ) ! } } \sum   _ { j = 0 } ^ { n - 1 } a _ { j } ( k , n ) x ^ { j } }
+{ \displaystyle   a _ { j } ( k , n ) = { \begin { c a s e s } 1 & k = 0 , j = n - 1 \\0 & k = 0 , j < n - 1 \\a_ { j } ( k - 1 , n ) + ( - 1 ) ^ { n + k - j - 1 } { n   \choose   k } { { n - 1 }   \choose   j } k ^ { n - j - 1 } & k > 0 \end { c a s e s } } }
+  f _ X ( x ) =   \begin { c a s e s }   1                 &   0 \le   x   \le   1   \\ 0             &   \text { o t h e r w i s e }   \end { c a s e s }  
+  f _ X ( x ) =   \begin { c a s e s }   x                 &   0 \le   x   \le   1 \\ 2 - x             &   1 \le   x   \le   2   \end { c a s e s }  
+{ \displaystyle   f _ { X } ( x ) = { \begin { c a s e s } { \frac   { 1 } { 2 } } x ^ { 2 } & 0 \leq   x \leq   1 \\{ \frac   { 1 } { 2 } } ( - 2 x ^ { 2 } + 6 x - 3 ) & 1 \leq   x \leq   2 \\{ \frac   { 1 } { 2 } } ( x ^ { 2 } - 6 x + 9 ) & 2 \leq   x \leq   3 \end { c a s e s } } }
+{ \displaystyle   f _ { X } ( x ) = { \begin { c a s e s } { \frac   { 1 } { 6 } } x ^ { 3 } & 0 \leq   x \leq   1 \\{ \frac   { 1 } { 6 } } ( - 3 x ^ { 3 } + 1 2 x ^ { 2 } - 1 2 x + 4 ) & 1 \leq   x \leq   2 \\{ \frac   { 1 } { 6 } } ( 3 x ^ { 3 } - 2 4 x ^ { 2 } + 6 0 x - 4 4 ) & 2 \leq   x \leq   3 \\{ \frac   { 1 } { 6 } } ( - x ^ { 3 } + 1 2 x ^ { 2 } - 4 8 x + 6 4 ) & 3 \leq   x \leq   4 \end { c a s e s } } }
+{ \displaystyle   f _ { X } ( x ) = { \begin { c a s e s } { \frac   { 1 } { 2 4 } } x ^ { 4 } & 0 \leq   x \leq   1 \\{ \frac   { 1 } { 2 4 } } ( - 4 x ^ { 4 } + 2 0 x ^ { 3 } - 3 0 x ^ { 2 } + 2 0 x - 5 ) & 1 \leq   x \leq   2 \\{ \frac   { 1 } { 2 4 } } ( 6 x ^ { 4 } - 6 0 x ^ { 3 } + 2 1 0 x ^ { 2 } - 3 0 0 x + 1 5 5 ) & 2 \leq   x \leq   3 \\{ \frac   { 1 } { 2 4 } } ( - 4 x ^ { 4 } + 6 0 x ^ { 3 } - 3 3 0 x ^ { 2 } + 7 8 0 x - 6 5 5 ) & 3 \leq   x \leq   4 \\{ \frac   { 1 } { 2 4 } } ( x ^ { 4 } - 2 0 x ^ { 3 } + 1 5 0 x ^ { 2 } - 5 0 0 x + 6 2 5 ) & 4 \leq   x \leq   5 \end { c a s e s } } }

@@ -1,0 +1,17 @@
+b > 0
+{ \displaystyle   n > 0 }
+\mu   > 0
+{ \displaystyle   x > \mu   }
+{ \displaystyle   { \frac   { b ^ { n } { ( x - \mu   ) } ^ { - 1 - n } } { \left ( e ^ { \frac   { b } { x - \mu   } } - 1 \right ) \Gamma   ( n ) \zeta   ( n ) } } }
+\Gamma   ( n )
+\zeta   ( n )
+{ \displaystyle   { \begin { c a s e s } \mu   + { \frac   { b \zeta   ( n - 1 ) } { ( n - 1 ) \zeta   ( n ) } } & { \text { i f } } \ n > 2 \\{ \text { I n d e t e r m i n a t e } } & { \text { o t h e r w i s e } } \ \end { c a s e s } } }
+{ \displaystyle   { \begin { c a s e s } { \frac   { b ^ { 2 } \left ( - ( n - 2 ) { \zeta   ( n - 1 ) } ^ { 2 } + ( n - 1 ) \zeta   ( n - 2 ) \zeta   ( n ) \right ) } { ( n - 2 ) { ( n - 1 ) } ^ { 2 } { \zeta   ( n ) } ^ { 2 } } } & { \text { i f } } \ n > 3 \\{ \text { I n d e t e r m i n a t e } } & { \text { o t h e r w i s e } } \ \end { c a s e s } } }
+{ \displaystyle   f ( x ; \mu   , b , n ) = { \frac   { b ^ { n } { ( x - \mu   ) } ^ { - 1 - n } } { \left ( e ^ { \frac   { b } { x - \mu   } } - 1 \right ) \Gamma   ( n ) \zeta   ( n ) } } }
+\Gamma   ( n )
+\zeta   ( n )
+{ \displaystyle   f ( \mu   ) = 0 \ , }
+{ \displaystyle   \mu   > 0 \ , }
+{ \displaystyle   f ( x ) \sim   A { ( x - \mu   ) } ^ { - \alpha   - 1 } \ , . }
+{ \displaystyle   X \sim   \mathrm   { D a v i s }   ( b = 1 , n = 4 , \mu   = 0 ) \ , }
+{ \displaystyle   { \tfrac   { 1 } { X } } \sim   \mathrm   { P l a n c k }   }

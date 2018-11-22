@@ -1,0 +1,10 @@
+{ \displaystyle   U = { { \sum   _ { \min   } ^ { + \infty   } { ( R _ { r } - R _ { \min   } } ) P _ { r } }   \over   { \sqrt   { \sum   _ { - \infty   } ^ { \min   } { ( R _ { r } - R _ { \min   } } ) ^ { 2 } P _ { r } } } } = { \frac   { \mathbb   { E }   [ ( R _ { r } - R _ { \min   } ) _ { + } ] } { \sqrt   { \mathbb   { E }   [ ( R _ { r } - R _ { \min   } ) _ { - } ^ { 2 } ] } } } , }
+R _ { r }
+P _ { r }
+R _ { r }
+{ \displaystyle   R _ { \min   } }
+{ \displaystyle   r = \min   }
+{ \displaystyle   ( X ) _ { + } = { \begin { c a s e s } X & { \text { i f   } } X \geq   0 \\0 & { \text { e l s e } } \end { c a s e s } } }
+{ \displaystyle   ( X ) _ { - } = ( - X ) _ { + } }
+{ \displaystyle   \mathbb   { E }   [ ( R _ { r } - R _ { \min   } ) _ { + } ] }
+{ \displaystyle   \mathbb   { E }   [ ( R _ { r } - R _ { \min   } ) _ { - } ^ { 2 } ] }

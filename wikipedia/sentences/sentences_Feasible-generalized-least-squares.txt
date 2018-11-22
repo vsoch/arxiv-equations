@@ -1,0 +1,51 @@
+{ \displaystyle   \{ y _ { i } , x _ { i j } \}_ { i = 1 , \dots   , n , j = 2 , \dots   , k } }
+{ \displaystyle   \mathbf   { y }   = \left ( y _ { 1 } , \dots   , y _ { n } \right ) ^ { \mathtt   { T } } }
+{ \displaystyle   \mathbf   { X }   = \left ( \mathbf   { x }   _ { 1 } ^ { \mathtt   { T } } , \dots   , \mathbf   { x }   _ { n } ^ { \mathtt   { T } } \right ) ^ { \mathtt   { T } } }
+{ \displaystyle   \mathbf   { x }   _ { i } = \left ( 1 , x _ { 2 i } , \dots   , x _ { k i } \right ) }
+\mathbf   { y }  
+\mathbf   { X }  
+\mathbf   { X }  
+\mathbf   { X }  
+\mathbf { \Omega }
+{ \displaystyle   \mathbf   { y }   = \mathbf   { X }   \mathbf   { \beta   }   + \mathbf   { \varepsilon   }   , \qquad   \operatorname   { E }   [ \varepsilon   \mid   \mathbf   { X }   ] = 0 , \ \operatorname   { C o v }   [ \varepsilon   \mid   \mathbf   { X }   ] = \mathbf   { \Omega   }   . }
+{ \displaystyle   \beta   \in   \mathbb   { R }   ^ { k } }
+\mathbf   { b }  
+\mathbf { \beta }
+\mathbf   { b }  
+{ \displaystyle   \mathbf   { y }   - \mathbf   { X }   \mathbf   { b }   }
+\mathbf { \beta }
+{ \displaystyle   \mathbf   { \hat   { \beta   } }   = { \underset   { b } { \operatorname   { a r g m i n }   } } \,( \mathbf   { y }   - \mathbf   { X }   \mathbf   { b }   ) ^ { \mathtt   { T } } \,\mathbf   { \Omega   }   ^ { - 1 } ( \mathbf   { y }   - \mathbf   { X }   \mathbf   { b }   ) , }
+\mathbf   { b }  
+{ \displaystyle   \mathbf   { \hat   { \beta   } }   = \left ( \mathbf   { X }   ^ { \mathtt   { T } } \mathbf   { \Omega   }   ^ { - 1 } \mathbf   { X }   \right ) ^ { - 1 } \mathbf   { X }   ^ { \mathtt   { T } } \mathbf   { \Omega   }   ^ { - 1 } \mathbf   { y }   . }
+{ \displaystyle   \operatorname   { E }   [ { \hat   { \beta   } } \mid   \mathbf   { X }   ] = \beta   }
+{ \displaystyle   \operatorname   { C o v }   [ { \hat   { \beta   } } \mid   \mathbf   { X }   ] = ( \mathbf   { X }   ^ { \mathtt   { T } } \Omega   ^ { - 1 } \mathbf   { X }   ) ^ { - 1 } }
+{ \displaystyle   \mathbf   { \Omega   }   = \mathbf   { C }   \mathbf   { C }   ^ { \mathtt   { T } } }
+{ \displaystyle   \mathbf   { y }   = \mathbf   { X }   \mathbf   { \beta   }   + \mathbf   { \varepsilon   }   }
+{ \displaystyle   \mathbf   { C }   ^ { - 1 } }
+{ \displaystyle   \mathbf   { y }   ^ { * } = \mathbf   { X }   ^ { * } \mathbf   { \beta   }   + \mathbf   { \varepsilon   }   ^ { * } }
+{ \displaystyle   \mathbf   { y }   ^ { * } = \mathbf   { C }   ^ { - 1 } \mathbf   { y }   }
+{ \displaystyle   \mathbf   { X }   ^ { * } = \mathbf   { C }   ^ { - 1 } \mathbf   { X }   }
+{ \displaystyle   \mathbf   { \varepsilon   }   ^ { * } = \mathbf   { C }   ^ { - 1 } \mathbf   { \varepsilon   }   }
+{ \displaystyle   \operatorname   { V a r }   [ \varepsilon   ^ { * } \mid   \mathbf   { X }   ] = \mathbf   { C }   ^ { - 1 } \mathbf   { \Omega   }   \left ( \mathbf   { C }   ^ { - 1 } \right ) ^ { \mathtt   { T } } = \mathbf   { I }   }
+\mathbf   { I }  
+\mathbf { \beta }
+{ \displaystyle   \left ( \mathbf   { y }   ^ { * } - \mathbf   { X }   ^ { * } \mathbf   { \beta   }   \right ) ^ { \mathtt   { T } } ( \mathbf   { y }   ^ { * } - \mathbf   { X }   ^ { * } \mathbf   { \beta   }   ) = ( \mathbf   { y }   - \mathbf   { X }   \mathbf   { b }   ) ^ { \mathtt   { T } } \,\mathbf   { \Omega   }   ^ { - 1 } ( \mathbf   { y }   - \mathbf   { X }   \mathbf   { b }   ) . }
+\Omega  
+\Omega  
+\widehat   \Omega  
+\sigma   ^ { 2 } * ( X ' X ) ^ { { - 1 } }
+{ \displaystyle   { \widehat   { \beta   } } _ { \text { O L S } } = ( X ' X ) ^ { - 1 } X ' y }
+{ \displaystyle   { \widehat   { u } } _ { j } = ( Y - X { \widehat   { \beta   } } _ { \text { O L S } } ) _ { j } }
+\Omega  
+\widehat   { u } _ { j }
+\widehat   { \Omega   } _ { { O L S } }
+{ \displaystyle   { \widehat   { \Omega   } } _ { \text { O L S } } = \operatorname   { d i a g }   ( { \widehat   { \sigma   } } _ { 1 } ^ { 2 } , { \widehat   { \sigma   } } _ { 2 } ^ { 2 } , \dots   , { \widehat   { \sigma   } } _ { n } ^ { 2 } ) . }
+\beta   _ { { F G L S 1 } }
+{ \displaystyle   { \widehat   { \Omega   } } _ { \text { O L S } } }
+{ \displaystyle   { \widehat   { \beta   } } _ { F G L S 1 } = ( X ' { \widehat   { \Omega   } } _ { \text { O L S } } ^ { - 1 } X ) ^ { - 1 } X ' { \widehat   { \Omega   } } _ { \text { O L S } } ^ { - 1 } y }
+\widehat   { u } _ { { F G L S 1 } } = Y - X \widehat   \beta   _ { { F G L S 1 } }
+\widehat   { \Omega   } _ { { F G L S 1 } } = \operatorname   { d i a g } ( \widehat   { \sigma   } _ { { F G L S 1 , 1 } } ^ { 2 } , \widehat   { \sigma   } _ { { F G L S 1 , 2 } } ^ { 2 } , \dots   , \widehat   { \sigma   } _ { { F G L S 1 , n } } ^ { 2 } )
+\widehat   \beta   _ { { F G L S 2 } } = ( X ' \widehat   { \Omega   } _ { { F G L S 1 } } ^ { { - 1 } } X ) ^ { { - 1 } } X ' \widehat   { \Omega   } _ { { F G L S 1 } } ^ { { - 1 } } y
+\widehat   { \Omega   }
+{ \sqrt     { n } } ( { \hat     \beta   } _ { { F G L S } } - \beta   ) \ { \xrightarrow     { d } } \ { \mathcal     { N } } \!\left ( 0 , \,V \right ) .
+{ \displaystyle   V = \operatorname   { p - l i m }   ( X ' \Omega   ^ { - 1 } X / T ) }

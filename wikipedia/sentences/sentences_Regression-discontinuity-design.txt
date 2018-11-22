@@ -1,0 +1,9 @@
+{ \displaystyle   Y = \alpha   + \tau   D + \beta   _ { 1 } ( X - c ) + \beta   _ { 2 } D ( X - c ) + \varepsilon   , }
+c
+D
+X \geq   c
+h
+c - h \leq   X \leq   c + h
+{ \displaystyle   Y = \alpha   + \beta   _ { 1 } x _ { i } + \beta   _ { 2 } c _ { i } + \beta   _ { 3 } c _ { i } ^ { 2 } + \beta   _ { 4 } c _ { i } ^ { 3 } + \varepsilon   , }
+{ \displaystyle   x _ { i } = { \begin { c a s e s } 1 { \text {   i f   } } c _ { i } \geq   { \bar   { c } } \\0 { \text {   i f   } } c _ { i } < { \bar   { c } } \end { c a s e s } } }
+\bar { c }

@@ -1,0 +1,17 @@
+m
+{ P } = \left [ { \begin { m a t r i x } { T } & { \mathbf     { T } } ^ { 0 } \\{ \mathbf     { 0 } } & 1 \end { m a t r i x } } \right ] ,
+{ T }
+m \times   m
+{ \mathbf     { T } } ^ { 0 } + { T } { \mathbf     { 1 } } = { \mathbf     { 1 } }
+{ T }
+\{ 0 , 1 , 2 , . . . \ }
+{ T }
+\tau  
+{ \mathrm     { P H } } _ { { d } } ( { \boldsymbol     { \tau   } } , { T } )
+{ \mathrm     { D P H } } ( { \boldsymbol     { \tau   } } , { T } )
+F ( k ) = 1 - { \boldsymbol     { \tau   } } { T } ^ { { k } } { \mathbf     { 1 } } ,
+k = 0 , 1 , 2 , . . .
+f ( k ) = { \boldsymbol     { \tau   } } { T } ^ { { k - 1 } } { \mathbf     { T ^ { { 0 } } } } ,
+k = 1 , 2 , . . .
+E [ K ( K - 1 ) . . . ( K - n + 1 ) ] = n ! { \boldsymbol     { \tau   } } ( I - { T } ) ^ { { - n } } { T } ^ { { n - 1 } } { \mathbf     { 1 } } ,
+I

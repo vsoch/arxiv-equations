@@ -1,0 +1,41 @@
+\operatorname   { c o v }   ( X , Y ) = \operatorname   { E }   { { \big   [ } ( X - \operatorname   { E }   [ X ] ) ( Y - \operatorname   { E }   [ Y ] ) { \big   ] } } ,
+{ \displaystyle   { \begin { a l i g n e d } \operatorname   { c o v }   ( X , Y ) & = \operatorname   { E }   \left [ \left ( X - \operatorname   { E }   \left [ X \right ] \right ) \left ( Y - \operatorname   { E }   \left [ Y \right ] \right ) \right ] \\&=\operatorname   { E }   \left [ X Y - X \operatorname   { E }   \left [ Y \right ] - \operatorname   { E }   \left [ X \right ] Y + \operatorname   { E }   \left [ X \right ] \operatorname   { E }   \left [ Y \right ] \right ] \\&=\operatorname   { E }   \left [ X Y \right ] - \operatorname   { E }   \left [ X \right ] \operatorname   { E }   \left [ Y \right ] - \operatorname   { E }   \left [ X \right ] \operatorname   { E }   \left [ Y \right ] + \operatorname   { E }   \left [ X \right ] \operatorname   { E }   \left [ Y \right ] \\&=\operatorname   { E }   \left [ X Y \right ] - \operatorname   { E }   \left [ X \right ] \operatorname   { E }   \left [ Y \right ] . \end { a l i g n e d } } }
+\operatorname   { E }   [ X Y ] \approx   \operatorname   { E }   [ X ] \operatorname   { E }   [ Y ]
+\mathbf   { X }   \in   \mathbb   { R }   ^ { m }
+\mathbf   { Y }   \in   \mathbb   { R }   ^ { n }
+{ \begin { a l i g n e d } \operatorname   { c o v }   ( \mathbf   { X }   , \mathbf   { Y }   ) & = \operatorname   { E }   \left [ ( \mathbf   { X }   - \operatorname   { E }   [ \mathbf   { X }   ] ) ( \mathbf   { Y }   - \operatorname   { E }   [ \mathbf   { Y }   ] ) ^ { \mathrm   { T }   } \right ] \\&=\operatorname   { E }   \left [ \mathbf   { X }   \mathbf   { Y }   ^ { \mathrm   { T }   } \right ] - \operatorname   { E }   [ \mathbf   { X }   ] \operatorname   { E }   [ \mathbf   { Y }   ] ^ { \mathrm   { T }   } , \end { a l i g n e d } }
+{ \displaystyle   \mathbf   { X }   = { \begin { b m a t r i x } X _ { 1 } & X _ { 2 } & \dots   & X _ { m } \end { b m a t r i x } } ^ { \mathrm   { T }   } }
+{ \displaystyle   \Sigma   ( \mathbf   { X }   ) = \operatorname   { c o v }   ( \mathbf   { X }   , \mathbf   { X }   ) . }
+E ( X )
+{ \displaystyle   E ( Y ) }
+{ \displaystyle   \operatorname   { c o v }   ( X , Y ) = { \frac   { 1 } { n } } \sum   _ { i = 1 } ^ { n } ( x _ { i } - E ( X ) ) ( y _ { i } - E ( Y ) ) . }
+{ \displaystyle   \operatorname   { c o v }   ( X , Y ) = { \frac   { 1 } { n ^ { 2 } } } \sum   _ { i = 1 } ^ { n } \sum   _ { j = 1 } ^ { n } { \frac   { 1 } { 2 } } ( x _ { i } - x _ { j } ) \cdot   ( y _ { i } - y _ { j } ) = { \frac   { 1 } { n ^ { 2 } } } \sum   _ { i } \sum   _ { j > i } ( x _ { i } - x _ { j } ) \cdot   ( y _ { i } - y _ { j } ) . }
+{ \displaystyle   \operatorname   { c o v }   ( X , Y ) = \sum   _ { i = 1 } ^ { n } p _ { i } \cdot   ( x _ { i } - E ( X ) ) \cdot   ( y _ { i } - E ( Y ) ) . }
+{ \displaystyle   \mu   _ { X } = 3 / 2 }
+{ \displaystyle   \mu   _ { Y } = 2 . }
+{ \displaystyle   \sigma   _ { X } = 1 / 2 }
+{ \displaystyle   \sigma   _ { Y } = { \sqrt   { 1 / 2 } } . }
+{ \displaystyle   { \begin { a l i g n e d } & \operatorname   { c o v }   ( X , Y ) = \sigma   _ { X Y } = \sum   _ { ( x , y ) \in   S } f ( x , y ) ( x - \mu   _ { X } ) ( y - \mu   _ { Y } ) \\={ } & \left ( { \frac   { 1 } { 4 } } \right ) \left ( 1 - { \frac   { 3 } { 2 } } \right ) ( 1 - 2 ) + \left ( { \frac   { 1 } { 4 } } \right ) \left ( 1 - { \frac   { 3 } { 2 } } \right ) ( 2 - 2 ) \\&{ } + ( 0 ) \left ( 1 - { \frac   { 3 } { 2 } } \right ) ( 3 - 2 ) + ( 0 ) \left ( 2 - { \frac   { 3 } { 2 } } \right ) ( 1 - 2 ) \\&{ } + \left ( { \frac   { 1 } { 4 } } \right ) \left ( 2 - { \frac   { 3 } { 2 } } \right ) ( 2 - 2 ) + \left ( { \frac   { 1 } { 4 } } \right ) \left ( 2 - { \frac   { 3 } { 2 } } \right ) ( 3 - 2 ) \\={ } & { \frac   { 1 } { 4 } } . \end { a l i g n e d } } }
+{ \displaystyle   \operatorname   { c o v }   ( X , X ) = \operatorname   { v a r }   ( X ) \equiv   \sigma   ^ { 2 } ( X ) \equiv   \sigma   _ { X } ^ { 2 } . }
+{ \displaystyle   { \begin { a l i g n e d } \operatorname   { c o v }   ( X , a ) & = 0 \\\operatorname   { c o v }   ( X , X ) & = \operatorname   { v a r }   ( X ) \\\operatorname   { c o v }   ( X , Y ) & = \operatorname   { c o v }   ( Y , X ) \\\operatorname   { c o v }   ( a X , b Y ) & = a b \,\operatorname   { c o v }   ( X , Y ) \\\operatorname   { c o v }   ( X + a , Y + b ) & = \operatorname   { c o v }   ( X , Y ) \\\operatorname   { c o v }   ( a X + b Y , c W + d V ) & = a c \,\operatorname   { c o v }   ( X , W ) + a d \,\operatorname   { c o v }   ( X , V ) + b c \,\operatorname   { c o v }   ( Y , W ) + b d \,\operatorname   { c o v }   ( Y , V ) \end { a l i g n e d } } }
+{ \displaystyle   \sigma   ^ { 2 } \left ( \sum   _ { i = 1 } ^ { n } a _ { i } X _ { i } \right ) = \sum   _ { i = 1 } ^ { n } a _ { i } ^ { 2 } \sigma   ^ { 2 } ( X _ { i } ) + 2 \sum   _ { i , j \,:\,i < j } a _ { i } a _ { j } \operatorname   { c o v }   ( X _ { i } , X _ { j } ) = \sum   _ { i , j } { a _ { i } a _ { j } \operatorname   { c o v }   ( X _ { i } , X _ { j } ) } }
+{ \displaystyle   X , Y }
+{ \displaystyle   \operatorname   { c o v }   ( X , Y ) = \int   _ { \mathbb   { R }   } \int   _ { \mathbb   { R }   } F _ { ( X , Y ) } ( x , y ) - F _ { X } ( x ) F _ { Y } ( y ) \,dx \,dy }
+{ \displaystyle   F _ { ( X , Y ) } ( x , y ) }
+{ \displaystyle   ( X , Y ) }
+{ \displaystyle   F _ { X } ( x ) , F _ { Y } ( y ) }
+{ \displaystyle   \Sigma   ( \mathbf   { A }   \mathbf   { X }   ) = \operatorname   { E }   [ \mathbf   { A }   \mathbf   { X }   \mathbf   { X }   ^ { \mathrm   { T }   } \mathbf   { A }   ^ { \mathrm   { T }   } ] - \operatorname   { E }   [ \mathbf   { A }   \mathbf   { X }   ] \operatorname   { E }   [ \mathbf   { X }   ^ { \mathrm   { T }   } \mathbf   { A }   ^ { \mathrm   { T }   } ] = \mathbf   { A }   \Sigma   ( \mathbf   { X }   ) \mathbf   { A }   ^ { \mathrm   { T }   } . }
+{ \displaystyle   \operatorname   { E }   [ X Y ] = \operatorname   { E }   [ X ] \cdot   \operatorname   { E }   [ Y ] . }
+{ \displaystyle   { \begin { a l i g n e d } \operatorname   { c o v }   ( X , Y ) & = \operatorname   { c o v }   ( X , X ^ { 2 } ) \\&=\operatorname   { E }   [ X \cdot   X ^ { 2 } ] - \operatorname   { E }   [ X ] \cdot   \operatorname   { E }   [ X ^ { 2 } ] \\&=\operatorname   { E }   \left [ X ^ { 3 } \right ] - \operatorname   { E }   [ X ] \operatorname   { E }   [ X ^ { 2 } ] \\&=0 - 0 \cdot   \operatorname   { E }   [ X ^ { 2 } ] \\&=0 . \end { a l i g n e d } } }
+{ \displaystyle   | \operatorname   { c o v }   ( X , Y ) | \leq   { \sqrt   { \sigma   ^ { 2 } ( X ) \sigma   ^ { 2 } ( Y ) } } }
+{ \displaystyle   Z = X - { \frac   { \operatorname   { c o v }   ( X , Y ) } { \sigma   ^ { 2 } ( Y ) } } Y . }
+{ \displaystyle   { \begin { a l i g n e d } 0 \leq   \sigma   ^ { 2 } ( Z ) & = \operatorname   { c o v }   \left ( X - { \frac   { \operatorname   { c o v }   ( X , Y ) } { \sigma   ^ { 2 } ( Y ) } } Y , X - { \frac   { \operatorname   { c o v }   ( X , Y ) } { \sigma   ^ { 2 } ( Y ) } } Y \right ) \\[12pt ] & = \sigma   ^ { 2 } ( X ) - { \frac   { ( \operatorname   { c o v }   ( X , Y ) ) ^ { 2 } } { \sigma   ^ { 2 } ( Y ) } } . \end { a l i g n e d } } }
+{ \displaystyle   \textstyle   { \overline   { \mathbf   { q }   } } = \left [ q _ { j k } \right ] }
+{ \displaystyle   q _ { j k } = { \frac   { 1 } { N - 1 } } \sum   _ { i = 1 } ^ { N } \left ( X _ { i j } - { \bar   { X } } _ { j } \right ) \left ( X _ { i k } - { \bar   { X } } _ { k } \right ) , }
+\textstyle   \mathbf   { X }  
+\textstyle   N - 1
+\textstyle   N
+\operatorname   { E } ( X )
+\mathbf   { \bar   { X } }  
+\operatorname   { E } ( X )
+{ \displaystyle   q _ { j k } = { \frac   { 1 } { N } } \sum   _ { i = 1 } ^ { N } \left ( X _ { i j } - \operatorname   { E }   ( X _ { j } ) \right ) \left ( X _ { i k } - \operatorname   { E }   ( X _ { k } ) \right ) . }

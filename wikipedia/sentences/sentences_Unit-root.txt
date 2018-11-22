@@ -1,0 +1,37 @@
+\{ y _ { t } , t = 1 , \ldots   , \infty   \ }
+y _ { t } = a _ { 1 } y _ { { t - 1 } } + a _ { 2 } y _ { { t - 2 } } + \cdots   + a _ { p } y _ { { t - p } } + \varepsilon   _ { t } .
+{ \displaystyle   \{ \varepsilon   _ { t } , t = 0 , \ldots   , \infty   \ } }
+\sigma   ^ { 2 }
+y _ { 0 } = 0
+m = 1
+m ^ { p } - m ^ { { p - 1 } } a _ { 1 } - m ^ { { p - 2 } } a _ { 2 } - \cdots   - a _ { p } = 0
+I ( 1 )
+y _ { t } = a _ { { 1 } } y _ { { t - 1 } } + \varepsilon   _ { t }
+a _ 1 = 1
+m - a _ { 1 } = 0
+m = 1
+t
+y _ { { t } } = y _ { { t - 1 } } + \varepsilon   _ { t } .
+y _ { t } = y _ { 0 } + \sum   _ { { j = 1 } } ^ { t } \varepsilon   _ { j }
+y _ { t }
+\operatorname   { V a r } ( y _ { t } ) = \sum   _ { { j = 1 } } ^ { t } \sigma   ^ { 2 } = t \sigma   ^ { 2 } .
+\operatorname   { V a r } ( y _ { { 1 } } ) = \sigma   ^ { 2 }
+\operatorname   { V a r } ( y _ { { 2 } } ) = 2 \sigma   ^ { 2 }
+\Delta   y _ { { t } } = y _ { { t } } - y _ { { t - 1 } } = \varepsilon   _ { { t } }
+y _ { { t } } = a _ { { 1 } } y _ { { t - 1 } } + a _ { { 2 } } y _ { { t - 2 } } + \varepsilon   _ { { t } }
+( 1 - \lambda   _ { { 1 } } L ) ( 1 - \lambda   _ { { 2 } } L ) y _ { { t } } = \varepsilon   _ { { t } }
+L y _ { { t } } = y _ { { t - 1 } }
+\lambda   _ { { 2 } } = 1
+z _ { { t } } = \Delta   y _ { { t } }
+z _ { { t } } = \lambda   _ { { 1 } } z _ { { t - 1 } } + \varepsilon   _ { { t } }
+| \lambda   _ { 1 } | < 1
+\lambda   _ { { 1 } }
+Y _ { t }
+\Delta   Y _ { t } = Y _ { t } - Y _ { { t - 1 } }
+y _ { t } = y _ { { t - 1 } } + c + e _ { t }
+e _ t
+y _ { t }
+y _ { t } = a + c t
+y _ { t } = k \cdot   t + u _ { t }
+u _ { t }
+y _ { t }

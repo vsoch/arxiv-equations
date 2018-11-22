@@ -1,0 +1,15 @@
+{ \displaystyle   P = { \begin { p m a t r i x } a _ { 0 } & a _ { 1 } & a _ { 2 } & a _ { 3 } & . . . \\a_ { 0 } & a _ { 1 } & a _ { 2 } & a _ { 3 } & . . . \\0 & a _ { 0 } & a _ { 1 } & a _ { 2 } & . . . \\0 & 0 & a _ { 0 } & a _ { 1 } & . . . \\...&...&...&...&...\\\end { p m a t r i x } } }
+{ \displaystyle   a _ { n } = { \frac   { \lambda   ^ { n } } { n ! } } e ^ { - \lambda   } }
+{ \displaystyle   = \lambda   }
+{ \displaystyle   = \mu   }
+{ \displaystyle   = \rho   = { \frac   { \lambda   } { \mu   } } }
+{ \displaystyle   L = \rho   + { \frac   { 1 } { 2 } } \left ( { \frac   { \rho   ^ { 2 } } { 1 - \rho   } } \right ) ; }
+{ \displaystyle   L _ { Q } = { \frac   { 1 } { 2 } } \left ( { \frac   { \rho   ^ { 2 } } { 1 - \rho   } } \right ) ; }
+{ \displaystyle   \omega   = { \frac   { 1 } { \mu   } } + { \frac   { \rho   } { 2 \mu   ( 1 - \rho   ) } } ; }
+{ \displaystyle   \omega   _ { Q } = { \frac   { \rho   } { 2 \mu   ( 1 - \rho   ) } } }
+{ \displaystyle   E ( W ) = { \frac   { \rho   \tau   } { 2 ( 1 - \rho   ) } } \left ( 1 + { \frac   { \sigma   ^ { 2 } } { \tau   ^ { 2 } } } \right ) }
+{ \displaystyle   { W _ { M } } = { \frac   { \rho   \tau   } { 1 - \rho   } } }
+{ \displaystyle   { W _ { D } } = { \frac   { \rho   \tau   } { 2 ( 1 - \rho   ) } } }
+{ \displaystyle   { \begin { a l i g n e d } \pi   _ { 0 } & = 1 - \lambda   \\\pi   _ { 1 } & = ( 1 - \lambda   ) ( e ^ { \lambda   } - 1 ) \\\pi   _ { n } & = ( 1 - \lambda   ) \left ( e ^ { n \lambda   } + \sum   _ { k = 1 } ^ { n - 1 } e ^ { k \lambda   } ( - 1 ) ^ { n - k } \left [ { \frac   { ( k \lambda   ) ^ { n - k } } { ( n - k ) ! } } + { \frac   { ( k \lambda   ) ^ { n - k - 1 } } { ( n - k - 1 ) ! } } \right ] \right ) \quad   ( n \geq   2 ) . \end { a l i g n e d } } }
+{ \frac     { 1 } { 2 \mu   } } \cdot   { \frac     { 2 - \rho   } { 1 - \rho   } } .
+{ \frac     { 1 } { 2 \mu   } } \cdot   { \frac     { \rho   } { 1 - \rho   } } .

@@ -1,0 +1,2 @@
+V = { \frac     { 1 } { ( \sum   _ { { i = 1 } } ^ { N } q _ { i } m _ { i } ) ^ { 2 } } } \sum   _ { { i = 1 } } ^ { N } q _ { i } ( 1 - q _ { i } ) m _ { { i } } ^ { { 2 } } \left ( a _ { i } - { \frac     { \sum   _ { { j = 1 } } ^ { N } q _ { j } a _ { j } m _ { j } } { \sum   _ { { j = 1 } } ^ { N } q _ { j } m _ { j } } } \right ) ^ { 2 } .
+V = { \frac     { 1 - q } { q M _ { { \text { b a t c h } } } ^ { 2 } } } \sum   _ { { i = 1 } } ^ { N } m _ { { i } } ^ { { 2 } } \left ( a _ { i } - a _ { { \text { b a t c h } } } \right ) ^ { 2 } .

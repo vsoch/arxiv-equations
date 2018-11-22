@@ -1,0 +1,88 @@
+          y _ { t }   =   \alpha   +   \beta   x _ { t } ^ { * }   +   \varepsilon_t \,, \quad   t = 1 , \ldots , T ,    
+x _ { t } ^ { * }
+          x _ { t }   =   x _ { t } ^ { * }   +   \eta_ { t } \ ,    
+\eta_ { t }
+x _ { t } ^ { * }
+y _ { t }
+x _ { t }
+          \hat { \beta }   =   \frac { \tfrac { 1 } { T } \sum_ { t = 1 } ^ T ( x _ t - \bar { x } ) ( y _ t - \bar { y } ) }                                             { \tfrac { 1 } { T } \sum_ { t = 1 } ^ T ( x _ t - \bar { x } ) ^ 2 } \ , ,      
+T
+          \hat { \beta }   \xrightarrow { p }               \frac { \operatorname { C o v } [ \,x_t , y _ t \,]}{ \operatorname { V a r } [ \,x_t \,]}       = \frac { \beta   \sigma ^ 2 _ { x ^ * } }   { \sigma_ { x ^ * } ^ 2   +   \sigma_ \eta ^ 2 }               =   \frac { \beta }   { 1   +   \sigma_ \eta ^ 2 / \sigma_ { x ^ * } ^ 2 } \ , .      
+\beta  
+y
+x
+x ^ { * }
+y _ { t }
+x _ { t }
+\beta   _ { x } = { \frac     { \operatorname   { C o v } [ \,x_ { t } , y _ { t } \,]}{ \operatorname   { V a r } [ \,x_ { t } \ , ] } } .
+\beta  
+y
+x
+y
+x
+y ^ { * }
+x ^ { * }
+g ( \cdot   )
+\begin { c a s e s }       x   =   x ^ { * }   +   \eta ,   \\   y   =   y ^ { * }   +   \varepsilon ,   \\   y ^ *   =   g ( x ^ * \!,w \,|\,\theta ) ,       \end { c a s e s }
+\theta  
+w
+\eta  
+y
+x
+w
+n
+\left \{   y _ { i } ,   x _ { i } ,   w _ { i }   \right \}_ { i   =   1 ,   \dots ,   n }
+x ^ { * }
+y ^ { * }
+\varepsilon  
+\eta  
+g ( \cdot   )
+y ^ { * }
+x ^ { * }
+y ^ { * }
+x ^ { * }
+x
+x ^ { * }
+\eta  
+x ^ { * }
+\eta   \perp   x ^ *
+\operatorname { E } [ \eta | x ^ * ] \,=\,0 ,
+\eta \,\perp \,x ,
+x
+x   =   1 0   s
+x ^ { * }
+x ^ { * }
+\eta  
+x ^ { * }
+\alpha   =   \operatorname { P r } [ \eta   =   - 1   |   x ^ *   =   1 ]
+\beta   = \operatorname { P r } [ \eta   =   1   |   x ^ * = 0 ]
+\alpha   +   \beta   <   1
+{ \begin { c a s e s } y _ { t } = \alpha   + \beta   x _ { t } ^ { * } + \varepsilon   _ { t } , \\x_ { t } = x _ { t } ^ { * } + \eta   _ { t } , \end { c a s e s } }
+\scriptstyle   ( x _ { t } , \,y_ { t } ) _ { { t = 1 } } ^ { T }
+{ \hat     \beta   } = { \frac     { { \hat     { K } } ( n _ { 1 } , n _ { 2 } + 1 ) } { { \hat     { K } } ( n _ { 1 } + 1 , n _ { 2 } ) } } , \quad   n _ { 1 } , n _ { 2 } > 0 ,
+{ \hat     \beta   } = { \frac     { { \tfrac     { 1 } { T } } \sum   _ { { t = 1 } } ^ { T } ( x _ { t } - { \bar     x } ) ( y _ { t } - { \bar     y } ) ^ { 2 } } { { \tfrac     { 1 } { T } } \sum   _ { { t = 1 } } ^ { T } ( x _ { t } - { \bar     x } ) ^ { 2 } ( y _ { t } - { \bar     y } ) } } \   .
+{ \hat     \beta   } = { \frac     { { \tfrac     { 1 } { T } } \sum   _ { { t = 1 } } ^ { T } ( z _ { t } - { \bar     z } ) ( y _ { t } - { \bar     y } ) } { { \tfrac     { 1 } { T } } \sum   _ { { t = 1 } } ^ { T } ( z _ { t } - { \bar     z } ) ( x _ { t } - { \bar     x } ) } } \   .
+{ \begin { c a s e s } y _ { t } = \alpha   + \beta   ' x _ { t } ^ { * } + \varepsilon   _ { t } , \\x_ { t } = x _ { t } ^ { * } + \eta   _ { t } . \end { c a s e s } }
+\begin { a l i g n }           &   z _ t   =   \left (   1 \ z_ { t 1 } ' \ z_ { t 2 } ' \ z_ { t 3 } ' \ z_ { t 4 } ' \ z_ { t 5 } ' \ z_ { t 6 } ' \ z_ { t 7 } '   \right ) ' ,   \quad   \text { w h e r e }   \\     & z_ { t 1 }   =   x _ t   \circ   x _ t   \\     & z_ { t 2 }   =   x _ t   y _ t   \\     & z_ { t 3 }   =   y _ t ^ 2   \\     & z_ { t 4 }   =   x _ t   \circ   x _ t   \circ   x _ t   -   3 \big ( \operatorname { E } [ x _ t x _ t ' ]   \circ   I _ k \big ) x _ t   \\     & z_ { t 5 }   =   x _ t   \circ   x _ t   y _ t   -   2 \big ( \operatorname { E } [ y _ t x _ t ' ]   \circ   I _ k \big ) x _ t   -   y _ t \big ( \operatorname { E } [ x _ t x _ t ' ]   \circ   I _ k \big ) \iota_k   \\     & z_ { t 6 }   =   x _ t   y _ t ^ 2   -   \operatorname { E } [ y _ t ^ 2 ] x _ t   -   2 y _ t \operatorname { E } [ x _ t y _ t ]   \\     & z_ { t 7 }   =   y _ t ^ 3   -   3 y _ t \operatorname { E } [ y _ t ^ 2 ]       \end { a l i g n }
+\circ  
+{ \hat     \beta   } = { \big   ( } X ' Z ( Z ' Z ) ^ { { - 1 } } Z ' X { \big   ) } ^ { { - 1 } } X ' Z ( Z ' Z ) ^ { { - 1 } } Z ' y .
+{ \begin { c a s e s } y _ { t } = g ( x _ { t } ^ { * } ) + \varepsilon   _ { t } , \\x_ { t } = x _ { t } ^ { * } + \eta   _ { t } . \end { c a s e s } }
+g ( x ^ { * } ) = a + b \ln   { \big   ( } e ^ { { c x ^ { * } } } + d { \big   ) }
+f _ { { x ^ { * } } } ( x ) = { \begin { c a s e s } A e ^ { { - B e ^ { { C x } } + C D x } } ( e ^ { { C x } } + E ) ^ { { - F } } , & { \text { i f } } \ d > 0 \\Ae ^ { { - B x ^ { 2 } + C x } } & { \text { i f } } \ d = 0 \end { c a s e s } }
+x _ { t } ^ { * } = \pi   _ { 0 } ' z _ { t } + \sigma   _ { 0 } \zeta   _ { t } ,
+f _ { \zeta   } ( v ; \,\gamma   ) = \phi   ( v ) \,\textstyle   \sum   _ { { j = 1 } } ^ { J } \!\gamma   _ { j } v ^ { j }
+m _ { t } ( \theta   ) = A ( z _ { t } ) { \frac     { 1 } { S } } \sum   _ { { s = 1 } } ^ { S } H ( x _ { t } , y _ { t } , z _ { t } , v _ { { t s } } ; \theta   ) \sum   _ { { j = 1 } } ^ { J } \!\gamma   _ { j } v _ { { t s } } ^ { j } ,
+{ \begin { a l i g n e d } & H _ { 1 } ( x _ { t } , y _ { t } , z _ { t } , v _ { { t s } } ; \theta   ) = y _ { t } - g ( { \hat     \pi   } ' z _ { t } + \sigma   v _ { { t s } } , \beta   ) , \\&H_ { 2 } ( x _ { t } , y _ { t } , z _ { t } , v _ { { t s } } ; \theta   ) = z _ { t } y _ { t } - ( { \hat     \pi   } ' z _ { t } + \sigma   v _ { { t s } } ) g ( { \hat     \pi   } ' z _ { t } + \sigma   v _ { { t s } } , \beta   ) \end { a l i g n e d } }
+{ \begin { c a s e s } x _ { { 1 t } } = x _ { t } ^ { * } + \eta   _ { { 1 t } } , \\x_ { { 2 t } } = x _ { t } ^ { * } + \eta   _ { { 2 t } } , \end { c a s e s } }
+\operatorname   { E } [ \,y_ { t } | x _ { t } \,]=\int   g ( x _ { t } ^ { * } , \beta   ) f _ { { x ^ { * } | x } } ( x _ { t } ^ { * } | x _ { t } ) d x _ { t } ^ { * } ,
+{ \hat     f } _ { { x ^ { * } | x } } ( x ^ { * } | x ) = { \frac     { { \hat     f } _ { { x ^ { * } } } ( x ^ { * } ) } { { \hat     f } _ { { x } } ( x ) } } \prod   _ { { j = 1 } } ^ { k } { \hat     f } _ { { \eta   _ { { j } } } } { \big   ( } x _ { { j } } - x _ { { j } } ^ { * } { \big   ) } ,
+\begin { a l i g n }       &   \hat   \varphi_ { \eta_j } ( v )   =   \frac { \hat \varphi_ { x _ j } ( v , 0 ) } { \hat \varphi_ { x ^ * _ j } ( v ) } ,   \quad   \text { w h e r e   }           \hat \varphi_ { x _ j } ( v _ 1 , v _ 2 )   =   \frac { 1 } { T } \sum_ { t = 1 } ^ T   e ^ { i v _ 1 x _ { 1 t j } + i v _ 2 x _ { 2 t j } } ,   \\     \hat \varphi_ { x ^ * _ j } ( v )   =   \exp   \int_0 ^ v   \frac { \partial \hat \varphi_ { x _ j } ( 0 , v _ 2 ) / \partial   v _ 1 } { \hat \varphi_ { x _ j } ( 0 , v _ 2 ) } d v _ 2 ,   \\   & \hat   \varphi_x ( u )   =   \frac { 1 } { 2 T } \sum_ { t = 1 } ^ T   \Big (   e ^ { i u ' x _ { 1 t } }   +   e ^ { i u ' x _ { 2 t } }   \Big ) ,   \quad           \hat   \varphi_ { x ^ * } ( u )   =   \frac { \hat \varphi_x ( u ) } { \prod_ { j = 1 } ^ k   \hat \varphi_ { \eta_j } ( u _ j ) } .       \end { a l i g n }
+{ \hat     f } _ { x } ( x ) = { \frac     { 1 } { ( 2 \pi   ) ^ { k } } } \int   _ { { - C } } ^ { { C } } \cdots   \int   _ { { - C } } ^ { C } e ^ { { - i u ' x } } { \hat     \varphi   } _ { x } ( u ) d u .
+{ \begin { c a s e s } y _ { t } = \textstyle   \sum   _ { { j = 1 } } ^ { k } \beta   _ { j } g _ { j } ( x _ { t } ^ { * } ) + \sum   _ { { j = 1 } } ^ { \ell   } \beta   _ { { k + j } } w _ { { j t } } + \varepsilon   _ { t } , \\x_ { { 1 t } } = x _ { t } ^ { * } + \eta   _ { { 1 t } } , \\x_ { { 2 t } } = x _ { t } ^ { * } + \eta   _ { { 2 t } } , \end { c a s e s } }
+          \hat { \beta }   =   \big ( \hat { \operatorname { E } } [ \,\xi_t \xi_t ' \,]\big ) ^ { - 1 }   \hat { \operatorname { E } } [ \,\xi_t   y _ t \ , ] ,      
+\xi   _ { t } ' = ( g _ { 1 } ( x _ { t } ^ { * } ) , \cdots   , g _ { k } ( x _ { t } ^ { * } ) , w _ { { 1 , t } } , \cdots   , w _ { { l , t } } ) .
+\operatorname   { E } [ \,w_ { t } h ( x _ { t } ^ { * } ) \,]={ \frac     { 1 } { 2 \pi   } } \int   _ { { - \infty   } } ^ { \infty   } \varphi   _ { h } ( - u ) \psi   _ { w } ( u ) d u ,
+\varphi   _ { h } ( u ) = \int   e ^ { { i u x } } h ( x ) d x
+          \psi_w ( u )   =   \operatorname { E } [ \,w_te ^ { i u x ^ * } \,]               = \frac { \operatorname { E } [ w _ t e ^ { i u x _ { 1 t } } ] } { \operatorname { E } [ e ^ { i u x _ { 1 t } } ] }                                   \exp   \int_0 ^ u   i \frac { \operatorname { E } [ x _ { 2 t } e ^ { i v x _ { 1 t } } ] } { \operatorname { E } [ e ^ { i v x _ { 1 t } } ] } d v      
+\scriptstyle   { \hat   { \beta   } }
+          \hat { g } ( x )   =   \frac { \hat { \operatorname { E } } [ \,y_tK_h ( x ^ * _ t   -   x ) \,]}{ \hat { \operatorname { E } } [ \,K_h ( x ^ * _ t   -   x ) \ , ] } ,      

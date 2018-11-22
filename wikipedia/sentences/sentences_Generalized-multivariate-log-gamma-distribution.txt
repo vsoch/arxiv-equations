@@ -1,0 +1,24 @@
+\boldsymbol { Y }   \sim   \mathrm { G } \text { - } \mathrm { M V L G } ( \delta , \nu , \boldsymbol { \lambda } , \boldsymbol { \mu } )
+\boldsymbol { Y } = ( Y _ { 1 } , \dots , Y _ { k } )
+f ( y _ 1 , \dots , y _ k ) =   \delta ^ { \nu } \sum_ { n = 0 } ^ \infty   \frac { ( 1 - \delta ) ^ { n }   \prod_ { i = 1 } ^ k   \mu_i   \lambda_i ^ { - \nu - n } } { [ \Gamma ( \nu + n ) ] ^ { k - 1 } \Gamma ( \nu ) n ! }   \exp \bigg \{ ( \nu   + n ) \sum_ { i = 1 } ^ k   \mu_i   y _ i   -   \sum_ { i = 1 } ^ k   \frac { 1 } { \lambda_i } \exp \{ \mu_i   y _ i \}\bigg \ } ,
+  \boldsymbol { y } \in   \mathbb { R } ^ { k } ,   \nu > 0 ,   \lambda_ { j } > 0 ,   \mu_ { j } > 0
+j = 1 , \dots , k ,   \delta = \det ( \boldsymbol { \Omega } ) ^ { \frac { 1 } { k - 1 } } ,
+    \boldsymbol { \Omega } = \left (   \begin { a r r a y } { c c c c }       1   &   \sqrt { \mathrm { a b s } ( \rho_ { 1 2 } ) }   &   \cdots   &   \sqrt { \mathrm { a b s } ( \rho_ { 1 k } ) }   \\   \sqrt { \mathrm { a b s } ( \rho_ { 1 2 } ) }   &   1   &   \cdots   &   \sqrt { \mathrm { a b s } ( \rho_ { 2 k } ) }   \\   \vdots   &   \vdots   &   \ddots   &   \vdots   \\   \sqrt { \mathrm { a b s } ( \rho_ { 1 k } ) }   &   \sqrt { \mathrm { a b s } ( \rho_ { 2 k } ) }   &   \cdots   &   1   \end { a r r a y }   \right ) ,    
+\rho   _ { i j }
+Y _ { i }
+Y _ j
+  \det ( \cdot )
+\mathrm { a b s } ( \cdot )
+\boldsymbol { g } = ( \delta , \nu , \boldsymbol { \lambda } ^ T , \boldsymbol { \mu } ^ T )
+M _ { \boldsymbol { Y } } ( \boldsymbol { t } )   = \delta ^ \nu   \bigg ( \prod_ { i = 1 } ^ k   \lambda_i ^ { t _ i / \mu_i } \bigg ) \sum_ { n = 0 } ^ \infty   \frac { \Gamma ( \nu   + n ) } { \Gamma ( \nu ) n ! }   ( 1 - \delta ) ^ n   \prod_ { i = 1 } ^ k   \frac { \Gamma ( \nu + n + t _ i / \mu_i ) } { \Gamma ( \nu + n ) } .
+r ^ \text { t h }
+Y _ { i }
+{ \mu_i } ' _ r = \left [ \frac { ( \lambda_i / \delta ) ^ { t _ i / \mu_i } } { \Gamma ( \nu ) } \sum_ { k = 0 } ^ r   \binom { r } { k } \left [ \frac { \ln ( \lambda_i / \delta ) } { \mu_i } \right ] ^ { r - k }   \frac { \partial ^ k \Gamma ( \nu + t _ i / \mu_i ) } { \partial   t _ i ^ k } \right ] _ { t _ i = 0 } .
+Y _ { i }
+  \operatorname { E } ( Y _ { i } ) = \frac { 1 } { \mu_i } \big [ \ln ( \lambda_i / \delta ) + \digamma ( \nu ) \big ] ,  
+  \operatorname { v a r } ( Z _ i ) = \digamma ^ { [ 1 ] } ( \nu ) / ( \mu_i ) ^ 2
+\digamma ( \nu )
+\digamma ^ { [ 1 ] } ( \nu )
+\nu  
+\boldsymbol { T } \sim   \mathrm { G } \text { - } \mathrm { M V G B } ( \delta , \nu , \boldsymbol { \lambda } , \boldsymbol { \mu } )
+f ( t _ 1 , \dots , t _ k ;   \delta , \nu , \boldsymbol { \lambda } , \boldsymbol { \mu } ) ) =   \delta ^ \nu   \sum_ { n = 0 } ^ \infty   \frac { ( 1 - \delta ) ^ n   \prod_ { i = 1 } ^ k   \mu_i   \lambda_i ^ { - \nu - n } } { [ \Gamma ( \nu + n ) ] ^ { k - 1 } \Gamma ( \nu ) n ! } \exp \bigg \{ - ( \nu   + n ) \sum_ { i = 1 } ^ k   \mu_i   t _ i   -   \sum_ { i = 1 } ^ k   \frac { 1 } { \lambda_i }   \exp \{ - \mu_i   t _ i \}\bigg \},\quad   t _ i \in   \mathbb { R } .

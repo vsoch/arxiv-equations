@@ -1,0 +1,2 @@
+{ \displaystyle   P ( Z = z | d o ( X = x ) ) }
+{ \displaystyle   P ( Z = z | d o ( X = x ) ) }

@@ -1,0 +1,2 @@
+{ \displaystyle   C _ { D } = { \frac   { 2 \sum   _ { i = 1 } ^ { S } x _ { i } y _ { i } } { ( D _ { x } + D _ { y } ) X Y } } }
+{ \displaystyle   C _ { H } = { \frac   { 2 \sum   _ { i = 1 } ^ { S } x _ { i } y _ { i } } { \left ( { \sum   _ { i = 1 } ^ { S } x _ { i } ^ { 2 }   \over   X ^ { 2 } } + { \sum   _ { i = 1 } ^ { S } y _ { i } ^ { 2 }   \over   Y ^ { 2 } } \right ) X Y } } \ , . }
