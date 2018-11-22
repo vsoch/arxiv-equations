@@ -53,13 +53,19 @@ for method, equation_list in equations.items():
 equation_fh.close()
 labels_fh.close()
 
-# Remove empty lines in the file (sort of a hack, yeah :) )
+# Remove last empty newline
 os.system("sed -i '/^$/d' equation_sentences.txt")
 os.system("sed -i '/^$/d' equation_sentence_labels.txt")
 
-################################################################################
-# Step 2. Build word2vec model
+# Sanity check - length of files should be equal
+os.system('cat equation_sentences.txt | wc -l')
+os.system('cat equation_sentence_labels.txt | wc -l')
+# 66280
+# 66280
 
+
+################################################################################
+# Step 2. Build models (lda and word2vec)
 
 from wordfish.analysis import ( 
     build_models, 
@@ -69,3 +75,16 @@ from wordfish.analysis import (
     export_vectors
 )
 
+# We will build lda and word2vec models
+
+base_dir = os.getcwd()
+method_names = ["lda","word2vec"]
+models = dict()
+
+# Define the corpus to be "equation_sentences.txt" for each
+for method_name in method_names:
+    corpus = {"methods_%s" % method_name:["equation_sentences.txt"]}
+    model = build_models(corpus, model_type=method_name)
+    models.update(model)
+
+# STOPPED HERE - wordfish needs to be updated for python :3)

@@ -30,6 +30,17 @@ that can be easily extracted! For example:
    'tex': '2^{n\\mathrm {H} (k/n)}'},
 ```
 
-## 3. Build Word2Vec Equations Models
+## 3. Extract Equation Tokens
 
-Next, I built a word2vec model for the equations with [2.modelEquations.py](2.modelEquations.py).
+This was very fun to do! I wanted to call a token either a single character, **or** a known
+latex string (e.g., `/begin`) and put them together in a sentence for word2vec. I did this using
+as the first step in [2.modelEquations.py](2.modelEquations.py).
+
+## 4. Build Word2Vec Equations Models
+
+For the second step (also in [2.modelEquations.py](2.modelEquations.py)) I could 
+easily use the functions from [wordfish](https://vsoch.github.io/2016/2016-wordfish/)
+to build a word2vec model and extract vectors to describe the tokens. Then, an average
+vector could be used to combine a set of features (from a label) to describe the full
+equation. I can cluster both the feature (single token) vectors along with the equations,
+and see if the method clusters makes sense.

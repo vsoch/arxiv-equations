@@ -159,5 +159,6 @@ for method in methods:
         if len(equation_list) > 0:
             equations[method] = equation_list
 
+
 save_json(equations,"wikipedia_equations.json")
 pickle.dump(equations, open('wikipedia-equations.pkl', 'wb'))
