@@ -1,7 +1,9 @@
-from repofish.utils import ( save_json, save_txt, convert_unicode )
+from repofish.utils import ( save_txt, convert_unicode )
 from repofish.wikipedia import get_page
 from wikipedia import WikipediaPage
 from exceptions import KeyError
+import pickle
+import json
 
 ## STEP 1: METHODS #############################################################
 #  Get a list of (disambiguated) methods from Wikipedia
@@ -9,6 +11,12 @@ from exceptions import KeyError
 methods_url = "https://en.wikipedia.org/wiki/List_of_statistics_articles"
 topic = "List_of_statistics_articles"
 result = WikipediaPage(topic)
+
+def save_json(json_obj,output_file, mode='w'):
+    with open(output_file, mode) as filey:
+        filey.writelines(json.dumps(json_obj, sort_keys=True,indent=4, separators=(',', ': ')))
+    return output_file
+
 
 # Save list of methods in case it changes
 methods = set(result.links)
@@ -60,11 +68,17 @@ disambiguations = (
 for pair in disambiguations:
     methods = update_method_name(methods, pair[0], pair[1])
 
-removals = ['MetaNSUE', 'Player wins']
+removals = ['MetaNSUE',
+            'Player wins',
+            'Energy statistics (disambiguation)',
+            "Understanding the patterns in Big Data 'dark matter' with GT data mining",
+            'The Unscrambler',
+            'Path space (disambiguation)']
 
 # in the list, but wikipedia doesn't have defined
 for removal in removals:
-    methods.remove(remove)
+    if removal in methods:
+        methods.remove(removal)
 
 # Save list to file, wikipedia changes!
 save_txt('\n'.join(list(methods)), "wikipedia_methods.txt")
@@ -84,28 +98,34 @@ def get_attribute(entry, name):
 
 for method in methods:
     if method not in results:
-        result = WikipediaPage(method)
 
-        # Show a visual check!
-        print("Matching %s to %s" %(method,result.title))
-        entry = { 'categories': result.categories,
+        try:
+            result = WikipediaPage(method)
+
+            # Show a visual check!
+            print("Matching %s to %s" %(method,result.title))
+            entry = { 'categories': result.categories,
                   'title': result.title,
                   'method': method,
                   'url': result.url,
                   'summary': result.summary,
                   'images': result.images }
 
-        # We can use links to calculate relatedness
-        entry['links'] = get_attribute(result, 'links')
-        entry['references'] = get_attribute(result, 'references')
+            # We can use links to calculate relatedness
+            entry['links'] = get_attribute(result, 'links')
+            entry['references'] = get_attribute(result, 'references')
 
-        results[method] = entry
+            results[method] = entry
+        except:
+            removals.append(method)
+        
 
 # Not sure why this is under statistics
 del results["Safety in numbers"]
 save_json(results, "wikipedia_methods.json")
+pickle.dump(results, open('wikipedia-methods.pkl', 'wb'))
 len(results)
-#2786
+#2799
 
 
 ## STEP 2: BUILD MODELS ########################################################
