@@ -1,5 +1,8 @@
 #!/usr/bin/env python
 
+import os
+import pickle
+
 # Here we want to parse the equations to build a word2vec model based on equation symbols
 equations = pickle.load(open('wikipedia-equations.pkl', 'rb'))
 
@@ -42,3 +45,6 @@ with open("equation_sentences.txt","w") as filey:
             tokens = extract_tokens(tex)
             characters = " ".join(tokens)
             filey.writelines("%s\n" % characters)
+
+# Remove empty lines in the file (sort of a hack, yeah :) )
+os.system("sed -i '/^$/d' equation_sentences.txt")
