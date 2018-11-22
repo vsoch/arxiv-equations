@@ -3,16 +3,12 @@
 import os
 import pickle
 
+
+################################################################################
+# Step 1. Extract equation sentences, write to file tokenized (separated by space)
+
 # Here we want to parse the equations to build a word2vec model based on equation symbols
 equations = pickle.load(open('wikipedia-equations.pkl', 'rb'))
-
-from wordfish.analysis import ( 
-    build_models, 
-    save_models, 
-    export_models_tsv,
-    DeepTextAnalyzer, 
-    export_vectors
-)
 
 # We want to represent known symbols (starting with //) as words, the rest characters
 
@@ -34,17 +30,42 @@ def extract_tokens(tex):
         else:
             tokens.append(tex[0])
             tex = tex[1:]
+
+    # When we get down here, the regexp doesn't match anymore! Add remaining
+    if len(tex) > 0:
+        tokens = tokens + [t for t in tex]
     return tokens
             
 
 # First save sentences to one massive file
-with open("equation_sentences.txt","w") as filey:
-    for method, equation_list in equations.items():
-        for equation in equation_list:
-            tex = equation["tex"].replace('\n',' ')
-            tokens = extract_tokens(tex)
-            characters = " ".join(tokens)
-            filey.writelines("%s\n" % characters)
+# Note - I did a check to ensure no empty token lists were returned
+equation_fh = open("equation_sentences.txt","w")
+labels_fh = open("equation_sentence_labels.txt","w")
+
+for method, equation_list in equations.items():
+    for equation in equation_list:
+        tex = equation["tex"].replace('\n',' ')
+        tokens = extract_tokens(tex)
+        characters = " ".join(tokens)
+        equation_fh.write("%s\n" % characters)
+        labels_fh.write("%s\n" % method)       
+
+equation_fh.close()
+labels_fh.close()
 
 # Remove empty lines in the file (sort of a hack, yeah :) )
 os.system("sed -i '/^$/d' equation_sentences.txt")
+os.system("sed -i '/^$/d' equation_sentence_labels.txt")
+
+################################################################################
+# Step 2. Build word2vec model
+
+
+from wordfish.analysis import ( 
+    build_models, 
+    save_models, 
+    export_models_tsv,
+    DeepTextAnalyzer, 
+    export_vectors
+)
+
