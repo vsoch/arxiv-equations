@@ -1,5 +1,6 @@
 from repofish.utils import ( save_txt, convert_unicode )
 from repofish.wikipedia import get_page
+from bs4 import BeautifulSoup
 from wikipedia import WikipediaPage
 from exceptions import KeyError
 import pickle
@@ -128,6 +129,34 @@ len(results)
 #2799
 
 
-## STEP 2: BUILD MODELS ########################################################
+## STEP 2: EQUATIONS ###########################################################
+#  I could store these together, but the data structure becomes very large
+#  to save together as json
 
-print('Vanessasaur, write me!')
+equations = dict()
+
+for method in methods:
+    if method not in equations:
+        print("Extracting equations from %s" %(method))
+        result = WikipediaPage(method)
+        html = result.html()
+        soup = BeautifulSoup(html, 'lxml')
+
+        equation_list = []
+
+        # Equations are represented as images
+        images = soup.findAll('img')
+        for image in images:
+            image_class = image.get("class")
+            if image_class != None:
+                if any(re.search("tex|math",x) for x in image_class):
+                    png = image.get("src")
+                    tex = image.get("alt")
+                    entry = {"png":png,
+                             "tex":tex}
+                    equation_list.append(entry)
+
+        if len(equation_list) > 0:
+            equations[method] = equation_list
+
+save_json(results,"wikipedia_equations.json")
