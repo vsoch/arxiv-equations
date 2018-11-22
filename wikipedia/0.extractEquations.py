@@ -144,7 +144,7 @@ for method in methods:
 
         equation_list = []
 
-        # Equations are represented as images
+        # Equations are represented as images, they map to annotations
         images = soup.findAll('img')
         for image in images:
             image_class = image.get("class")
@@ -159,4 +159,5 @@ for method in methods:
         if len(equation_list) > 0:
             equations[method] = equation_list
 
-save_json(results,"wikipedia_equations.json")
+save_json(equations,"wikipedia_equations.json")
+pickle.dump(equations, open('wikipedia-equations.pkl', 'wb'))
