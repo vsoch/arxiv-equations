@@ -25,7 +25,7 @@ pickle files (ending in *.pkl). The extraction is fairly easy to do because each
 annotation in the page) has a "fallback" image (with a class with the name including math or tex)
 that can be easily extracted! For example:
 
-```json
+```python
   {'png': 'https://wikimedia.org/api/rest_v1/media/math/render/svg/b7c3ba47cc5436c389f86a3f617a191d0dbe4877',
    'tex': '2^{n\\mathrm {H} (k/n)}'},
 ```
