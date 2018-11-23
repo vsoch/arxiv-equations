@@ -30,6 +30,9 @@ that can be easily extracted! For example:
    'tex': '2^{n\\mathrm {H} (k/n)}'},
 ```
 
+This "master" file we can use for one word2vec model, and for a domain specific model (doc2vec)
+we can generate a single file under [sentences](sentences) that has the sentences grouped by wikipedia page.
+
 ## 3. Extract Equation Tokens
 
 This was very fun to do! I wanted to call a token either a single character, **or** a known
@@ -44,3 +47,12 @@ to build a word2vec model and extract vectors to describe the tokens. Then, an a
 vector could be used to combine a set of features (from a label) to describe the full
 equation. I can cluster both the feature (single token) vectors along with the equations,
 and see if the method clusters makes sense.
+
+After this step we have:
+
+ - [word2vec models](models) to describe either the entire wikipedia corpus, or subset of domains (pages)
+ - [vectors of the embeddings](vectors) that represent the embeddings for the tokens, or individual characters
+
+And the (last) step that @vsoch is going to do is to map the original equations onto the embeddings, meaning
+that if we understand each equation to be a set of the characters, we can average over them to get a vector for
+the equation. This is taking a bit longer than anticipated because I'm doing a lot of work to update wordfish :)

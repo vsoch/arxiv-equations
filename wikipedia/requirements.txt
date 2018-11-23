@@ -1,0 +1,3 @@
+wordfish>=1.1.6
+repofish>=0.0.10
+beautifulsoup4>=4.6.0

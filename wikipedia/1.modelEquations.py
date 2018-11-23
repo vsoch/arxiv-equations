@@ -2,7 +2,7 @@
 
 import os
 import pickle
-
+from glob import glob
 
 ################################################################################
 # Step 1. Extract equation sentences, write to file tokenized (separated by space)
@@ -83,14 +83,14 @@ for method, equation_list in equations.items():
             characters = " ".join(tokens)
             filey.write("%s\n" % characters)
 
-
 ################################################################################
 # Step 2. Build models (word2vec and doc2vec)
 # This first model will use ALL the data to train, and then we will derive
 # topic-specific vectors based on averages of the input vectors
 
 from wordfish.analysis import ( 
-    build_models, 
+    train_doc2vec_model,
+    train_word2vec_model,
     save_models, 
     export_models_tsv,
     DeepTextAnalyzer, 
@@ -106,44 +106,39 @@ if not os.path.exists(output_dir):
 
 models = dict()
 
-corpus = {"methods_word2vec" % method_name:["equation_sentences.txt"]}
-
 # We aren't modeling words, so skip over removal of stop / non-enlish
-model = build_models(corpus, 
-                     model_type="equations_word2vec",
-                     remove_stop_words=False,
-                     remove_non_english_words=False)
+models['equations_word2vec'] = train_word2vec_model(text_files=['equation_sentences.txt'], 
+                                                    remove_stop_words=False,
+                                                    remove_non_english_words=False)
 
-models.update(model)
+# Now train doc2vec - here we want to treat each file of equations as a document
+docs = glob('%s/*.txt' %sentence_dir)
 
-# Now train doc2vec - here we want to generate one
+# Derive labels
+labels = [os.path.basename(x).strip('.txt').strip('sentences_') for x in docs]
+
+# len(docs)
+# Out[62]: 1894
+
+models['equations_doc2vec'] = train_doc2vec_model(text_labels=labels,
+                                                  text_files=docs,
+                                                  remove_non_english_chars=False,
+                                                  remove_stop_words=False)
 
 # Save models as vectors
 export_models_tsv(models, output_dir)
 save_models(models, output_dir)
 
-#vectors_dir = "%s/analysis/models/vectors" %base_dir
-#os.mkdir(vectors_dir)
-#export_vectors(models,output_dir=vectors_dir)
+# Export vectors
+vectors_dir = "%s/vectors" % base_dir
+if not os.path.exists(vectors_dir):
+    os.mkdir(vectors_dir)
 
-## Now for each method, save a vector representation
-vectors = pandas.DataFrame(columns=range(300))
-model = models["methods_word2vec"]
-tempfile = "/tmp/repofish.txt"
-analyzer = DeepTextAnalyzer(model)
+export_vectors(models, vectors_dir)
 
-for method,result in results.iteritems():
-    print "Generating model for method %s" %(method)
-    summary = convert_unicode(result["summary"]).replace("\n"," ")
-    save_txt(summary,tempfile)
-    vectors.loc[method] = analyzer.text2mean_vector(tempfile)
+# Save a similarity matrix (this takes some time)
+simmat = extract_similarity_matrix(models['equations_word2vec'])
+simmat.to_csv('%s/equations_word2vex_similarities.tsv' %output_dir, sep='\t')
 
 
-vectors.to_csv("%s/method_vectors.tsv" %model_dir,sep="\t",encoding="utf-8")
-
-# Compare similarity, for kicks and giggles
-sim = vectors.T.corr()
-sim.to_csv("%s/method_vectors_similarity.tsv" %model_dir,sep="\t",encoding="utf-8")
-
-
-# STOPPED HERE - wordfish needs to be updated for python :3)
+# STOPPED HERE - need to next save a vector representation for each full equation
