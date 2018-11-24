@@ -53,6 +53,23 @@ After this step we have:
  - [word2vec models](models) to describe either the entire wikipedia corpus, or subset of domains (pages)
  - [vectors of the embeddings](vectors) that represent the embeddings for the tokens, or individual characters
 
-And the (last) step that @vsoch is going to do is to map the original equations onto the embeddings, meaning
-that if we understand each equation to be a set of the characters, we can average over them to get a vector for
-the equation. This is taking a bit longer than anticipated because I'm doing a lot of work to update wordfish :)
+I actually did the above for all equations (across all wikipedia topics) with word2vec, and for
+doc2vec, but I'm going to hold off using doc2vec for anything because I don't totally 
+understand what it's doing yet.
+
+## 5. Map Equations to Embedding Space
+
+I have two choices now. I can either take the average of some set of equation vectors that I've derived for
+a topic, **or** work in a space with all the vectors (and labels to describe multiple cases of the same topic).
+I think I want to try the latter first, because taking some kind of average could dilute the signal.
+So as a first sanity check, I'd want to see that equations from the same topic are similar, meaning
+that their topics cluster together. So I will do the following:
+
+ - Start with character embeddings that are derived across entire set of equations, across all topics
+ - For each topic, for each equation, map it to the space by generating it's vector (an average of it's character embeddings present in the model)
+ - Now we have a vector representation (the same length, 300) for every equation!
+ - Do clustering of the equation vectors, and (sanity check) the similar labels should cluster together.
+
+I might go back at this point and choose more specific labels for kinds of math, as opposed to the statistics articles list that I chose. When there is a model that seems to be reasonably good, then I can do the same thing, but for equations in archive. For each paper in archive, I can again map the equations it includes to this space, and determine it's
+"math topics" signature. These proportions can help us determine the domains of math that are highest priority for
+penrose, and it's also just a really cool and interesting question anyway! 

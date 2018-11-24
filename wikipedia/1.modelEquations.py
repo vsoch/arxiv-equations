@@ -91,9 +91,8 @@ for method, equation_list in equations.items():
 from wordfish.analysis import ( 
     train_doc2vec_model,
     train_word2vec_model,
-    save_models, 
-    export_models_tsv,
     DeepTextAnalyzer, 
+    save_models, 
     export_vectors
 )
 
@@ -136,9 +135,15 @@ if not os.path.exists(vectors_dir):
 
 export_vectors(models, vectors_dir)
 
+################################################################################
+# Step 3. Export similarity matrix (not sure this is useful, but why not)
+# It's a similarity matrix between the *characters* so I don't expect it to be
+
 # Save a similarity matrix (this takes some time)
 simmat = extract_similarity_matrix(models['equations_word2vec'])
 simmat.to_csv('%s/equations_word2vex_similarities.tsv' %output_dir, sep='\t')
 
 
+################################################################################
+# Step 4. Use character embeddings to derive vector for each 
 # STOPPED HERE - need to next save a vector representation for each full equation
