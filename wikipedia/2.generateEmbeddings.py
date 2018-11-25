@@ -48,3 +48,5 @@ for method, items in equations.items():
 # organized by the topic. We also have one compiled data frame with all 
 # labels.
 compiled_embeddings.to_csv('%s/compiled_embeddings.tsv' %vectors_dir, sep="\t", encoding="utf-8")
+
+

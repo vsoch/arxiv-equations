@@ -1,0 +1,38 @@
+#!/usr/bin/env python
+
+# Now let's derive equations from core mathematics ideas (not statistics articles)
+# Organized by (AbstractTopic, PageTopic)
+pages = [
+ ( "Algrebra", "Linear Algebra"),
+ ( "Algrebra", "Multilinear Algrebra"),
+ ( "Algrebra", "Abstract Algebra"),
+ ( "Algrebra", "Elementary Algrebra"),
+ ( "Arithmetic", "Number theory"),
+ ( "Calculus", "Mathematical Analysis"),
+ ( "Calculus", "Differential equations"),
+ ( "Calculus", "Dynamical systems theory"),
+ ( "Calculus", "Numerical analysis"),
+ ( "Calculus", "Mathematical Optimization"),
+ ( "Calculus", "Functional analysis"),
+ ( "Geometry", "Discrete Geometry"),
+ ( "Geometry", "Algebraic Geometry"),
+ ( "Geometry", "Analytic Geometry"),
+ ( "Geometry", "Differential Geometry"),
+ ( "Geometry", "Finite Geometry"),
+ ( "Geometry", "Topology"), 
+ ( "Geometry", "Trigonometry"),
+ ( "Foundations of Mathematics", "Philosophy of mathematics"), 
+ ( "Foundations of Mathematics", "Mathematical logic"),
+ ( "Foundations of Mathematics", "Set theory"),
+ ( "Foundations of Mathematics", "Category theory"),
+ ( "Applied", "Mathematics Mathematical physics"),
+ ( "Applied", "Mathematics Probability Theory"),
+ ( "Applied", "Mathematics Mathematical statistics"), 
+ ( "Applied", "Mathematics Statistics"),
+ ( "AppliedMathematics Game theory"),
+ ( "Applied", "Mathematics Information theory"), 
+ ( "Applied", "Mathematics Computer science"),
+ ( "Applied", "Mathematics Theory of Computation"),
+ ( "Applied", "Mathematics Control theory"),
+ ( "Others", "Order theory"),
+ ( "Others", "Graph theory")]
