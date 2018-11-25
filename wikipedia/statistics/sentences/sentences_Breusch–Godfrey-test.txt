@@ -1,9 +1,0 @@
-{ \displaystyle   Y _ { t } = \beta   _ { 1 } + \beta   _ { 2 } X _ { t , 1 } + \beta   _ { 3 } X _ { t , 2 } + u _ { t } \ , }
-u _ t   =   \rho_1   u _ { t - 1 }   +   \rho_2   u _ { t - 2 }     +   \cdots   +   \rho_p   u _ { t - p }   +   \varepsilon_t .   \ ,  
-\hat { u } _ t
-  \hat { u } _ t   =   \alpha_0   +   \alpha_1   X _ { t , 1 }   +   \alpha_2   X _ { t , 2 }   +   \rho_1   \hat { u } _ { t - 1 }   +   \rho_2   \hat { u } _ { t - 2 }   +   \cdots   +   \rho_p   \hat { u } _ { t - p }   +   \varepsilon_t   \ ,  
-R ^ { 2 }
-n   R ^ 2 \,\sim \,\chi ^ 2 _ p ,   \ ,  
-{ H _ 0 :   \lbrace   \rho_i   =   0   \text {   f o r   a l l   }   i   \rbrace   }
-\hat { u } _ t
-n = T - p ,   \ ,  

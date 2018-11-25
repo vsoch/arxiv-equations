@@ -1,4 +1,0 @@
-{ \textstyle   n }
-{ \textstyle   { \frac   { 1 } { n } } . }
-N
-{ \textstyle   { \frac   { 1 } { N } } . }

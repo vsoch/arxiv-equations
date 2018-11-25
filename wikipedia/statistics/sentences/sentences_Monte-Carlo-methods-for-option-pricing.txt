@@ -1,5 +1,0 @@
-\ S_ { t } \ ,
-  \mu   \ ,
-\sigma   \ ,
-d S _ { t } = \mu   S _ { t } \,dt + \sigma   S _ { t } \,dW_ { t } \ ,
-d W _ { t } \ ,

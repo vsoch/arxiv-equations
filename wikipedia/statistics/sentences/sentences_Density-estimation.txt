@@ -1,1 +1,0 @@
-p ( { \mbox { d i a b e t e s } } = 1 | { \mbox { g l u } } ) = { \frac     { p ( { \mbox { g l u } } | { \mbox { d b . } } = 1 ) \,p ( { \mbox { d b . } } = 1 ) } { p ( { \mbox { g l u } } | { \mbox { d b . } } = 1 ) \,p ( { \mbox { d b . } } = 1 ) + p ( { \mbox { g l u } } | { \mbox { d b . } } = 0 ) \,p ( { \mbox { d b . } } = 0 ) } }

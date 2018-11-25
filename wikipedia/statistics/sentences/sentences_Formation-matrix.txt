@@ -1,8 +1,0 @@
-{ \displaystyle   L ( \theta   ) }
-{ \displaystyle   L ( \theta   ) }
-{ \displaystyle   L ( \theta   ) }
-{ \displaystyle   L ( \theta   ) }
-{ \displaystyle   j ^ { i j } }
-g ^ { i j }
-g _ { i j }
-{ \displaystyle   g _ { i k } g ^ { k j } = \delta   _ { i } ^ { j } }

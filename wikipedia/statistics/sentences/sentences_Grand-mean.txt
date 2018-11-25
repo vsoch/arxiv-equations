@@ -1,4 +1,0 @@
-{ \displaystyle   S S Q _ { t o t a l } = \sum   ( X - G M ) ^ { 2 } }
-{ \textstyle   { \frac   { 1 } { N } } \sum   _ { i = 1 } ^ { N } x _ { i g } }
-{ \textstyle   { \bar   { x } } _ { g } }
-{ \textstyle   { \frac   { 1 } { G } } \sum   _ { g = 1 } ^ { G } { \bar   { x } } _ { g } }

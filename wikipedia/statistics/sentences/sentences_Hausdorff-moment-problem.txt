@@ -1,5 +1,0 @@
-{ \displaystyle   m _ { n } = \int   _ { 0 } ^ { 1 } x ^ { n } \,d \mu   ( x ) }
-( - 1 ) ^ k ( \Delta ^ k   m ) _ n   \geq   0
-( \Delta   m ) _ n   =   m _ { n + 1 }   -   m _ n .
-( - 1 ) ^ k ( \Delta ^ k   m ) _ n   =   \int_0 ^ 1   x ^ n   ( 1 - x ) ^ k   d \mu ( x ) ,
-\Delta ^ 4   m _ 6   =   m _ 6   -   4 m _ 7   +   6 m _ 8   -   4 m _ 9   +   m _ { 1 0 }   =   \int   x ^ 6   ( 1 - x ) ^ 4   d \mu ( x )   \geq   0 .

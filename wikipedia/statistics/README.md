@@ -1,69 +1,103 @@
 # Equation Mapping: Statistics
 
 Here we will derive vectors based on equations from [statistics topics](https://en.wikipedia.org/wiki/List_of_statistics_articles). You should have already installed the required python
-modules in [requirements.txt](../requirements.txt)
+modules in [requirements.txt](../requirements.txt). 
 
-## 1. Create List of Statistical Methods
+I first started with these steps in separate files, but I find it easier to provide one cohesive 
+analysis file, now represented at [statisticsAnalysis.py](statisticsAnalysis.py). The goal of this 
+step is to build a word2vec model that has character vectors derived from a huge corpus
+of equations.
 
-We first need to find the "right" wikipedia pages to parse equations from. I'm also interested
-in the applications, so I'm parsing methods too. For this step, I used [0.extractEquations.py](0.extractEquations.py).
-I save the list of methods to [wikipedia_methods.txt](wikipedia_methods.txt) and equations
-to [wikipedia_equations.json](wikipedia_equations.json) along with the similarly named
-pickle files (ending in *.pkl). The extraction is fairly easy to do because each equation (an
-annotation in the page) has a "fallback" image (with a class with the name including math or tex)
-that can be easily extracted! For example:
+## Overall Strategy
+
+The general goal is to:
+
+ 1. Create a word2vec model using (some set) of equations from wikipedia
+ 2. Use the character (latex token) embeddings to map a set of topics (via their equations) to the model space 
+ 3. compare similarity of the topics
+
+For a first shot, I did all of the above with *just* the statistics articles, however
+while I think this would build a good model of the character relationships (over 66K equations present!)
+there isn't enough specificity for kinds of math equations in the articles, so you get a clustering
+(TSNE) that looks like this:
+
+![img/tsne_statistics_articles.png](img/tsne_statistics_articles.png)
+
+This likely means that the articles each have a varied set of equation types (which is logical) 
+with a few articles representing a specific kind of math equation (the cleaner clusters around the
+outside). What that tells us is that while the model might be good as a base, we need to
+generate topic equation embeddings from a more meaningful set. This second set (portion of work)
+is in the  [math](../math) directory. Here we will continue to describe generating the overall 
+model.
+
+
+## 1. Create List of Statistics Articles
+
+We first need a crapton of wikipedia pages to parse equations from. This means
+getting a list of links from the [statistics topics](https://en.wikipedia.org/wiki/List_of_statistics_articles) 
+page, and then (manually) disambiguating the terms when appropriate. These manual
+steps are now preserved in the code to be reproducible.
+
+At the end of this step, we have a list of final articles (wikipedia pages) we will
+use for the model in [wikipedia_statistics_articles.txt](wikipedia_statistics_articles.txt).
+
+## 2. Obtain Articles and Metadata
+
+From our list of articles above, we now want to populate a lookup dictionary
+with metadata about each article. This step pulls the entire page from Wikipedia,
+and saves fields such as links, images, url, etc. This is the starting data
+structure we need to keep in the case of needing to go back and redo any
+portions of the analysis.
+
+At the end of this procedure we will have a [wikipedia_statistics_articles.json](wikipedia_statistics_articles.json) 
+and matching [wikipedia_statistics_articles.pkl](wikipedia_statistics_articles.pkl) to each
+store the same data structure. 
+
+## 3. Equation Extraction
+
+From our articles, the equations are represented as an attribute of an image.
+Wikipedia does this because browsers that don't support MathJax (or similar)
+can fall back to showing the image itself. We can take advantage of this
+and find the images having a particular class, and then extracting the raw
+latex from it. We thus:
+
+ 1. use BeautifulSoup to parse the raw html of each article (subpage)
+ 2. find equations in images based on their class
+ 3. save the equations, and image, to an equations data structure organized by the topic page
+
+Here is an example of an entry in the list of equations
 
 ```python
   {'png': 'https://wikimedia.org/api/rest_v1/media/math/render/svg/b7c3ba47cc5436c389f86a3f617a191d0dbe4877',
    'tex': '2^{n\\mathrm {H} (k/n)}'},
 ```
 
-This "master" file we can use for one word2vec model, and for a domain specific model (doc2vec)
-we can generate a single file under [sentences](sentences) that has the sentences grouped by wikipedia page.
-Note that I'm not currently doing anything with doc2vec.
+At the end of this step, we have a data structure with indices as article name,
+and indexing into a list of equations that were extracted. We save both as
+[wikipedia_statistics_equations.json](wikipedia_statistics_equations.json) and
+[wikipedia_statistics_equations.pkl](wikipedia_statistics_equations.pkl).
 
-## 2. Extract Equation Tokens
+## 4. Word2Vec Model
 
-This was very fun to do! I wanted to call a token either a single character, **or** a known
-latex string (e.g., `/begin`) and put them together in a sentence for word2vec. I did this using
-as the first step in [1.modelEquations.py](1.modelEquations.py). This gave me two files,
-[equation_sentences.txt](equation_sentences.txt) and it's matching labels file.
+The first step here was to extract "sentences" of the equations, meaning a text
+file of equation "sentences," where each sentence is a set of characters (or LaTeX symbol)
+delimited by white spaces. This was first done by way of calling the 
+[helpers](helpers.py) function `extract_tokens`, but ultimately done by the
+same function integrated into the class `TrainEquations` now a part of wordfish.
+Before we run `TrainEquations`, we have saved a single file with every extracted equation sentence, [equation_statistics_sentences.txt](equation_statistics_sentences.txt), and one for the labels, 
+[equation_statistics_labels.txt](equation_statistics_labels.txt), respectively.
 
-
-## 3. Build Word2Vec Equations Models
-
-For the second step (also in [2.modelEquations.py](2.modelEquations.py)) I could 
-easily use the functions from [wordfish](https://vsoch.github.io/2016/2016-wordfish/)
-to build a word2vec model and extract vectors to describe the tokens. Then, an average
-vector could be used to combine a set of features (from a label) to describe the full
-equation. I can cluster both the feature (single token) vectors along with the equations,
-and see if the method clusters makes sense.
+With these sentences, I could then use the `TrainEquations` method from wordfish
+to break apart the equation sentences by single character or LaTex symbol (e.g., `/begin`)
+and then build the Word2Vec model from it.
 
 After this step we have:
 
  - [word2vec models](models) to describe either the entire wikipedia corpus, or subset of domains (pages)
  - [vectors of the embeddings](vectors) that represent the embeddings for the tokens, or individual characters
 
-I actually did the above for all equations (across all wikipedia topics) with word2vec, and for
-doc2vec, but I'm going to hold off using doc2vec for anything because I don't totally 
-understand what it's doing yet.
 
-## 4. Map Equations to Embedding Space
+## Next step
 
-I had two choices now. I could either take the average of some set of equation vectors that I derived for
-a topic, **or** work in a space with all the vectors (and labels to describe multiple cases of the same topic).
-I decided to work with all the vectors and labels because taking some kind of average could dilute the signal.
-The following steps are done in the script [2.generateEmbeddings.py](2.generateEmbeddings.py).
-
-### Are equations from the same topic similar?
-As a first sanity check, I'd want to see that equations from the same topic are similar, meaning
-that their topics cluster together. So I did the following:
-
- - Start with character embeddings that are derived across entire set of equations, across all topics
- - For each topic, for each equation, map it to the space by generating it's vector (an average of it's character embeddings present in the model)
- - Now we have a vector representation (the same length, 300) for every equation!
- - Do clustering of the equation vectors, and (sanity check) the similar labels should cluster together (in progress)
-
-I might go back at this point and choose more specific labels for kinds of math, as opposed to the statistics articles list that I chose. When there is a model that seems to be reasonably good, then I can do the same thing, but for equations in archive. For each paper in archive, I can again map the equations it includes to this space, and determine it's
-"math topics" signature. These proportions can help us determine the domains of math that are highest priority for
-penrose, and it's also just a really cool and interesting question anyway! 
+Our next step is to map the math equations to this embedding space. See the [analysis](../analysis)
+folder for doing this.

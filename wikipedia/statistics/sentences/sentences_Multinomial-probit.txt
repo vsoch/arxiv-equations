@@ -1,7 +1,0 @@
-{ \displaystyle   Y _ { i } | x _ { 1 , i } , \ldots   , x _ { k , i } \ \sim   \operatorname   { C a t e g o r i c a l }   ( p _ { i , 1 } , \ldots   , p _ { i , m } ) , { \text {   f o r   } } i = 1 , \dots   , n }
-\Pr [ Y _ { i } = h | x _ { { 1 , i } } , \ldots   , x _ { { k , i } } ] = p _ { { i , h } } , { \text {   f o r   } } i = 1 , \dots   , n ,
-{ \begin { a l i g n e d } Y _ { i } ^ { { 1 \ast   } } & = { \boldsymbol     \beta   } _ { 1 } \cdot   { \mathbf     { X } } _ { i } + \varepsilon   _ { 1 } \,\\Y_ { i } ^ { { 2 \ast   } } & = { \boldsymbol     \beta   } _ { 2 } \cdot   { \mathbf     { X } } _ { i } + \varepsilon   _ { 2 } \,\\\ldots   & \ldots   \\Y_ { i } ^ { { m \ast   } } & = { \boldsymbol     \beta   } _ { m } \cdot   { \mathbf     { X } } _ { i } + \varepsilon   _ { m } \,\\\end { a l i g n e d } }
-{ \boldsymbol     \varepsilon   } \sim   { \mathcal     { N } } ( 0 , { \boldsymbol     \Sigma   } )
-Y _ { i } = { \begin { c a s e s } 1 & { \text { i f   } } Y _ { i } ^ { { 1 \ast   } } > Y _ { i } ^ { { 2 \ast   } } , \ldots   , Y _ { i } ^ { { m \ast   } } \\2 & { \text { i f   } } Y _ { i } ^ { { 2 \ast   } } > Y _ { i } ^ { { 1 \ast   } } , Y _ { i } ^ { { 3 \ast   } } , \ldots   , Y _ { i } ^ { { m \ast   } } \\\ldots   & \ldots   \\m & { \text { o t h e r w i s e . } } \end { c a s e s } }
-Y _ { i } = \arg   \max   _ { { h = 1 } } ^ { m } Y _ { i } ^ { { h \ast   } }
-\scriptstyle   { \boldsymbol     \Sigma   }

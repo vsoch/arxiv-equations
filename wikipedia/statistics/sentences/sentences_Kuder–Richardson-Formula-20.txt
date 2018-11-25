@@ -1,3 +1,0 @@
-{ \displaystyle   r = { \frac   { K } { K - 1 } } \left [ 1 - { \frac   { \sum   _ { i = 1 } ^ { K } p _ { i } q _ { i } } { \sigma   _ { X } ^ { 2 } } } \right ] }
-{ \displaystyle   \sigma   _ { X } ^ { 2 } = { \frac   { \sum   _ { i = 1 } ^ { n } ( X _ { i } - { \bar   { X } } ) ^ { 2 } \,{ } } { n } } . }
-{ \displaystyle   { \frac   { n } { n - 1 } } }

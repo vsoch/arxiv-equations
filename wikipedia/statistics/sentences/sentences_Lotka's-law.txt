@@ -1,6 +1,0 @@
-x
-{ \displaystyle   1 / x ^ { a } }
-{ \displaystyle   X ^ { n } Y = C }
-{ \displaystyle   Y = C / X ^ { n } , \ , }
-C
-n   \approx   2

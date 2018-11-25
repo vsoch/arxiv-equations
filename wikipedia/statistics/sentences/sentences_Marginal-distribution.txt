@@ -1,7 +1,0 @@
-{ \displaystyle   \Pr ( X = x ) = \sum   _ { y } \Pr ( X = x , Y = y ) = \sum   _ { y } \Pr ( X = x \mid   Y = y ) \Pr ( Y = y ) , }
-{ \displaystyle   p _ { X } ( x ) = \int   _ { y } p _ { X , Y } ( x , y ) \,\mathrm   { d }   y = \int   _ { y } p _ { X \mid   Y } ( x \mid   y ) \,p_ { Y } ( y ) \,\mathrm   { d }   y , }
-{ \displaystyle   p _ { X } ( x ) = \int   _ { y } p _ { X \mid   Y } ( x \mid   y ) \,p_ { Y } ( y ) \,\mathrm   { d }   y = \mathbb   { E }   _ { Y } [ p _ { X \mid   Y } ( x \mid   y ) ] }
-{ \displaystyle   \mathbb   { E }   _ { Y } [ f ( Y ) ] = \int   _ { y } f ( y ) p _ { Y } ( y ) \,\mathrm   { d }   y . }
-{ \displaystyle   p _ { X } ( x ) = \int   _ { y } p _ { X \mid   Y } ( x \mid   y ) \,p_ { Y } ( y ) \,\mathrm   { d }   y = \int   _ { y } \delta   ( x - g ( y ) ) \,p_ { Y } ( y ) \,\mathrm   { d }   y , }
-{ \displaystyle   P ( H | L ) }
-{ \displaystyle   P ( H , L ) }

@@ -1,4 +1,0 @@
-\chi   ' = \sum   _ { { i = 1 } } ^ { n } k _ { i } s _ { i } ^ { 2 } .
-k _ { i }
-{ \displaystyle   k _ { i } = { \frac   { 1 } { \nu   _ { i } + 1 } } }
-\nu   _ { { \chi   ' } } \approx   { \frac     { \displaystyle   \left ( \sum   _ { { i = 1 } } ^ { n } k _ { i } s _ { i } ^ { 2 } \right ) ^ { 2 } } { \displaystyle   \sum   _ { { i = 1 } } ^ { n } { \frac     { ( k _ { i } s _ { i } ^ { 2 } ) ^ { 2 } } { \nu   _ { i } } } } }

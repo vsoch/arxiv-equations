@@ -1,7 +1,0 @@
-{ \displaystyle   q = 1 - \lambda   }
-e _ q ( x )   =   \begin { c a s e s }   \exp ( x )   &   \text { i f   } q = 1 ,   \\[6pt ]   [ 1 + ( 1 - q ) x ] ^ { 1 / ( 1 - q ) }   &   \text { i f   } q   \ne   1   \text {   a n d   }   1 + ( 1 - q ) x   > 0 ,   \\[6pt ]   0 ^ { 1 / ( 1 - q ) }   &   \text { i f   } q   \ne   1 \text {   a n d   } 1 + ( 1 - q ) x   \le   0 ,   \\[6pt ]   \end { c a s e s }  
-{ \displaystyle   \ln   _ { q } ( x ) = { \begin { c a s e s } \ln ( x ) & { \text { i f   } } x > 0 { \text {   a n d   } } q = 1 \\[8pt ] { \dfrac   { x ^ { 1 - q } - 1 } { 1 - q } } & { \text { i f   } } x > 0 { \text {   a n d   } } q \neq   1 \\[8pt ] { \text { U n d e f i n e d   } } & { \text { i f   } } x \leq   0 \\[8pt ] \end { c a s e s } } }
-\begin { c a s e s }   e _ q (   \ln_q ( x ) )   =   x   &   ( x > 0 ) \\ \ln_q (   e _ q ( x )   )   =   x   &   ( 0 < e _ q ( x ) < \infty ) \\ \end { c a s e s }
-q \to   1
-{ \displaystyle   \left ( 1 + { \frac   { x } { N } } \right ) ^ { N } \approx   { \rm   { e } } ^ { x } }
-{ \displaystyle   x ^ { 1 - { \frac   { 1 } { N } } } - 1 = { \rm   { e } } ^ { \left ( 1 - { \frac   { 1 } { N } } \right ) \log ( x ) } - 1 \approx   \left ( 1 - { \tfrac   { 1 } { N } } \right ) \log ( x ) }

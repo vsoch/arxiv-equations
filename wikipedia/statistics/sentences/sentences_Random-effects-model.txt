@@ -1,8 +1,0 @@
-Y _ { i j } = \mu   + U _ { i } + W _ { i j } , \ ,
-Y _ { i j } = \mu   + \beta   _ { 1 } \mathrm   { S e x }   _ { i j } + \beta   _ { 2 } \mathrm   { R a c e }   _ { i j } + \beta   _ { 3 } \mathrm   { P a r e n t s E d u c }   _ { i j } + U _ { i } + W _ { i j } , \ ,
-{ \overline   { Y } } _ { i \bullet   } = { \frac   { 1 } { n } } \sum   _ { j = 1 } ^ { n } Y _ { i j }
-{ \overline   { Y } } _ { \bullet   \bullet   } = { \frac   { 1 } { m n } } \sum   _ { i = 1 } ^ { m } \sum   _ { j = 1 } ^ { n } Y _ { i j }
-S S W = \sum   _ { i = 1 } ^ { m } \sum   _ { j = 1 } ^ { n } ( Y _ { i j } - { \overline   { Y } } _ { i \bullet   } ) ^ { 2 } \ ,
-S S B = n \sum   _ { i = 1 } ^ { m } ( { \overline   { Y } } _ { i \bullet   } - { \overline   { Y } } _ { \bullet   \bullet   } ) ^ { 2 } \ ,
-{ \frac   { 1 } { m ( n - 1 ) } } E ( S S W ) = \sigma   ^ { 2 }
-{ \frac   { 1 } { ( m - 1 ) n } } E ( S S B ) = { \frac   { \sigma   ^ { 2 } } { n } } + \tau   ^ { 2 } .

@@ -1,8 +1,0 @@
-p _ { { i _ { 1 } , \ldots   , i _ { n } } } ( f _ { 1 } , \ldots   , f _ { n } )
-p _ { { i _ { 1 } , \ldots   , i _ { { n - 1 } } } } ( f _ { 1 } , \ldots   , f _ { { n - 1 } } ) = \int   _ { { - \infty   } } ^ { { \infty   } } p _ { { i _ { 1 } , \ldots   , i _ { n } } } ( f _ { 1 } , \ldots   , f _ { n } ) \,df_ { n }
-p _ { { i _ { 1 } , \ldots   , i _ { n } } } ( f _ { 1 } , \ldots   , f _ { n } ) = p _ { { i _ { 1 } } } ( f _ { 1 } ) p _ { { i _ { 2 } ; i _ { 1 } } } ( f _ { 2 } \mid   f _ { 1 } ) \cdots   p _ { { i _ { n } ; i _ { { n - 1 } } } } ( f _ { n } \mid   f _ { { n - 1 } } ) ,
-p _ { { i ; j } } ( f _ { i } \mid   f _ { j } )
-i > j
-p _ { { i _ { 3 } ; i _ { 1 } } } ( f _ { 3 } \mid   f _ { 1 } ) = \int   _ { { - \infty   } } ^ { \infty   } p _ { { i _ { 3 } ; i _ { 2 } } } ( f _ { 3 } \mid   f _ { 2 } ) p _ { { i _ { 2 } ; i _ { 1 } } } ( f _ { 2 } \mid   f _ { 1 } ) \,df_ { 2 } .
-P ( t + s ) = P ( t ) P ( s ) \ ,
-P ( t ) = P ^ { t } . \ ,

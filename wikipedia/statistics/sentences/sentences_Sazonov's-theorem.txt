@@ -1,1 +1,0 @@
-{ \displaystyle   \sum   _ { i \in   I } \|T ( e _ { i } ) \|_ { H } ^ { 2 } < + \infty   . }

@@ -1,5 +1,0 @@
-\oplus  
-M _ { { i _ { 1 } } } \oplus   M _ { { i _ { 2 } } } \oplus   \cdots   \oplus   M _ { { i _ { d } } } \ ,
-\oplus  
-{ \begin { a l i g n e d } & { } \qquad   ( M _ { { i _ { 1 } } } \oplus   \dots   \oplus   M _ { { i _ { d } } } ) \oplus   ( M _ { { i _ { 1 } } } \oplus   \dots   \oplus   M _ { { i _ { { k - 1 } } } } \oplus   M _ { { i _ { { k + 1 } } } } \oplus   \dots   \oplus   M _ { { i _ { d } } } ) \\&=M_ { { i _ { 1 } } } \oplus   M _ { { i _ { 1 } } } \oplus   \dots   \oplus   M _ { { i _ { { k - 1 } } } } \oplus   M _ { { i _ { { k - 1 } } } } \oplus   M _ { { i _ { k } } } \oplus   M _ { { i _ { { k + 1 } } } } \oplus   M _ { { i _ { { k + 1 } } } } \oplus   \dots   \oplus   M _ { { i _ { d } } } \oplus   M _ { { i _ { d } } } \\&=0 \oplus   \dots   \oplus   0 \oplus   M _ { { i _ { k } } } \oplus   0 \oplus   \dots   \oplus   0 \\&=M_ { { i _ { k } } } \,\end { a l i g n e d } }
-{ \begin { a l i g n e d } { \mathrm     { P } } \{ d = 1 \}&={ \frac     { 1 } { n } } \\[2pt ] { \mathrm     { P } } \{ d = k \}&={ \frac     { 1 } { k ( k - 1 ) } } \qquad   ( k = 2 , 3 , \dots   , n ) . \,\end { a l i g n e d } }

@@ -1,1 +1,0 @@
-{ \displaystyle   \pi   _ { i j } = \pi   _ { i } \times   \pi   _ { j } . }

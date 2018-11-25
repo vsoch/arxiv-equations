@@ -1,1 +1,0 @@
-Y _ { { t } } = X _ { { t } } { \mbox {   f o r   } } t < \zeta   ,

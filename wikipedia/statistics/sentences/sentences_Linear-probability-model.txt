@@ -1,7 +1,0 @@
-Y
-X
-\Pr ( Y = 1 | X = x ) = x ' \beta   .
-E [ Y | X ] = \Pr ( Y = 1 | X ) = x ' \beta   ,
-\operatorname   { V a r } ( Y | X = x )
-\beta  
-[ 0 , 1 ]

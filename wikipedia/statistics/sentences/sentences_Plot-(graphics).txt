@@ -1,6 +1,0 @@
-{ \vec   { x } } ( i ) \approx   { \vec   { x } } ( j ) , \ ,
-i
-j
-{ \vec   { x } }
-\ln ( k )
-1 / T

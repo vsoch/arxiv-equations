@@ -1,2 +1,0 @@
-  \begin { a l i g n }   P   & =   1   -   \frac { N - 1 } { N }   \cdot   \frac { N - 2 } { N   -   1 }   \cdot   \cdots   \cdot   \frac { N - n } { N   -   ( n   -   1 ) }   \\[8pt ]   & \stackrel { \text { C a n c e l i n g : } } { = }   1   -   \frac { N   -   n } N   \\[8pt ]   & =   \frac   n N   \\[8pt ]   & =   \frac { 1 0 0 } { 1 0 0 0 }   \\[8pt ]   & =   1 0 \% \end { a l i g n }  
-  P   =   1 - \left ( 1 - \frac { 1 } { N } \right ) ^ n   =   1   -   \left ( \frac { 9 9 9 } { 1 0 0 0 } \right ) ^ { 1 0 0 }   =   0 . 0 9 5 2 \dots   \approx   9 . 5 \ %  

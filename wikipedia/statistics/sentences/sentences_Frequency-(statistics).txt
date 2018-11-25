@@ -1,6 +1,0 @@
-i
-n _ { i }
-f _ { i } = { \frac     { n _ { i } } { N } } = { \frac     { n _ { i } } { \sum   _ { j } n _ { j } } } .
-f _ { i }
-i
-{ \displaystyle   n _ { i } = 0 }

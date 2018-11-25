@@ -1,4 +1,0 @@
-z _ { i } = F ( x _ { i } ) ,
-D ^ { + } = \mathrm   { m a x }   \left [ i / n - z _ { i } \right ] ,
-D ^ { - } = \mathrm   { m a x }   \left [ z _ { i } - ( i - 1 ) / n \right ] ,
-V = D ^ { + } + D ^ { - } .

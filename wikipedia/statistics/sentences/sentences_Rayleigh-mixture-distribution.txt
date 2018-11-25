@@ -1,3 +1,0 @@
-{ \displaystyle   f ( x ; \sigma   ) = { \frac   { x } { \sigma   ^ { 2 } } } e ^ { - x ^ { 2 } / 2 \sigma   ^ { 2 } } , \quad   x \geq   0 , }
-{ \displaystyle   f ( x ; \sigma   , n ) = \int   _ { 0 } ^ { \infty   } { \frac   { r e ^ { - r ^ { 2 } / 2 \sigma   ^ { 2 } } } { \sigma   ^ { 2 } } } \tau   ( x , r ; n ) \,\mathrm   { d }   r , }
-{ \displaystyle   \tau   ( x , r ; n ) }

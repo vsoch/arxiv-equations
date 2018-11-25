@@ -1,4 +1,0 @@
-{ \displaystyle   { \vec   { s } } = ( s _ { 1 } , s _ { 2 } , s _ { 2 } , \dots   ) }
-{ \displaystyle   { \vec   { n } } = ( n _ { 1 } , n _ { 2 } , n _ { 2 } , \dots   ) }
-{ \displaystyle   { \vec   { e } } = ( e _ { 1 } , e _ { 2 } , e _ { 2 } , \dots   ) }
-{ \displaystyle   P = f ( { \vec   { s } } , { \vec   { n } } , { \vec   { e } } ) . }

@@ -1,1 +1,0 @@
-{ \displaystyle   { \text { L M } } = n R ^ { 2 } . }

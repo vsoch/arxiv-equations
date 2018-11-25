@@ -1,2 +1,0 @@
-\operatorname   { P r } ( a _ { 1 } , \dots   , a _ { n } ; \theta   ) = { n !   \over   \theta   ( \theta   + 1 ) \cdots   ( \theta   + n - 1 ) } \prod   _ { { j = 1 } } ^ { n } { \theta   ^ { { a _ { j } } }   \over   j ^ { { a _ { j } } } a _ { j } ! } ,
-{ \displaystyle   a _ { 1 } + 2 a _ { 2 } + 3 a _ { 3 } + \cdots   + k a _ { k } = \sum   _ { k } k a _ { k } = n . \ , }

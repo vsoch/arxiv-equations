@@ -1,1 +1,0 @@
-f ( n ; b , c ) \propto   n ^ { { - b } } \exp ( - c ( \log   n ) ^ { 2 } ) ,

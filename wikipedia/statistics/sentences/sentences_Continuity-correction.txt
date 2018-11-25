@@ -1,3 +1,0 @@
-P ( X \leq   x )   =   P ( X < x + 1 )
-P ( Y \leq   x + 1 / 2 )
-P ( X \leq   x ) = P ( X < x + 1 ) \approx   P ( Y \leq   x + 1 / 2 )

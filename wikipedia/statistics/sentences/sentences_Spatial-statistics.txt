@@ -1,9 +1,0 @@
-I
-C
-G
-I
-C
-G
-I
-C
-{ \displaystyle   q = 1 - { \frac   { 1 } { N \sigma   ^ { 2 } } } \sum   _ { h = 1 } ^ { L } N _ { h } \sigma   _ { h } ^ { 2 } }

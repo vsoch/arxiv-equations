@@ -1,9 +1,0 @@
-\varphi  
-\nabla   \varphi  
-J
-  J   =   \chi   C   \nabla \varphi  
-C
-\chi  
-\chi  
-\varphi  
-  \chi ( \varphi )  

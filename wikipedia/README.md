@@ -7,6 +7,11 @@ page. We will do this for the following topic groups on wikipedia:
  - [statistics](statistics)
  - [mathematics](math)
 
+I think what I eventually want to do is use the larger equation corpus (from statistics) to derive
+an embedding vector for each token (a character or latex symbol). Then to get the embeddings that
+I'm interested in to compare to equations in Arxiv papers, to map equations in the [math](math)
+articles to this space. So - [statistics](statistics) will build the underlying model, and
+[math](math) will give it context.
 
 ## 1. Install Requirements
 

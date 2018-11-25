@@ -1,1 +1,0 @@
-z _ { i } = \Phi   ^ { { - 1 } } \left ( { \frac     { i - a } { n + 1 - 2 a } } \right ) ,

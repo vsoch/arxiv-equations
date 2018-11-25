@@ -1,6 +1,0 @@
-{ \displaystyle   { \hat   { y } } = E \{ y \mid   x \}=\beta   x . }
-{ \displaystyle   ( \beta   x ) ^ { 2 } , ( \beta   x ) ^ { 3 } , \ldots   , ( \beta   x ) ^ { k } }
-{ \displaystyle   y = \alpha   x + \gamma   _ { 1 } { \hat   { y } } ^ { 2 } + \cdots   + \gamma   _ { k - 1 } { \hat   { y } } ^ { k } + \varepsilon   , }
-\gamma   _ { 1 } ~
-~ \gamma   _ { { k - 1 } }
-\gamma   ~

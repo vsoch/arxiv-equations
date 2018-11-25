@@ -1,1 +1,0 @@
-f ( y ) = { \frac     { 1 } { \left ( 1 - I ( f < 0 ) - \operatorname { s g n } ( f ) \Phi   ( 0 , m , { \sqrt     { s } } ) \right ) { \sqrt     { 2 \pi   s ^ { 2 } } } } } \exp   \left \{ - { \frac     { 1 } { 2 s ^ { 2 } } } \left ( { \frac     { y ^ { f } } { f } } - m \right ) ^ { 2 } \right \ }

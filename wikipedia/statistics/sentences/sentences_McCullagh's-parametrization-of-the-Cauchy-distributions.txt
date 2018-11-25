@@ -1,5 +1,0 @@
-f ( x ) = { 1   \over   \pi   ( 1 + x ^ { 2 } ) }
-f ( x ) = { 1   \over   \pi   \left \vert   \sigma   \right \vert   ( 1 + { \frac     { ( x - \mu   ) ^ { 2 } } { \sigma   ^ { 2 } } } ) } \ , ,
-f ( x ) = { \left \vert   \Im   { \theta   } \right \vert     \over   \pi   \left \vert   x - \theta   \right \vert   ^ { 2 } } \ , ,
-\Im   { \theta   } = \sigma  
-Y ^ { * } = { a Y + b   \over   c Y + d } \sim   C \left ( { a \theta   + b   \over   c \theta   + d } \right )

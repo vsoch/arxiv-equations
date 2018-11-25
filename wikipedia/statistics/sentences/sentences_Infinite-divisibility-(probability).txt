@@ -1,3 +1,0 @@
-  \begin { a r r a y } { c c c c }   X _ { 1 1 }   \\ X_ { 2 1 }   &   X _ { 2 2 }   \\ X_ { 3 1 }   &   X _ { 3 2 }   &   X _ { 3 3 }   \\ \vdots   &   \vdots   &   \vdots   &   \ddots   \end { a r r a y }  
-\lim_ { n \to \infty }   \, \max_ { 1   \le   k   \le   n }   \; P (   \left |   X _ { n k }   \right |   >   \varepsilon   )   =   0   \text {   f o r   e v e r y   } \varepsilon   >   0 .
-\lim_ { n \rightarrow \infty }   n p _ n   =   \lambda ,

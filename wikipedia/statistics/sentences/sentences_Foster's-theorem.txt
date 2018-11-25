@@ -1,6 +1,0 @@
-{ \displaystyle   V : S \to   \mathbb   { R }   }
-{ \displaystyle   V ( i ) \geq   0 { \text {   } } \forall   { \text {   } } i \in   S }
-\sum_ { j   \in   S } p _ { i j } V ( j )   <   { \infty }
-i   \in   F
-{ \displaystyle   \sum   _ { j \in   S } p _ { i j } V ( j ) \leq   V ( i ) - \varepsilon   }
-  i   \notin   F

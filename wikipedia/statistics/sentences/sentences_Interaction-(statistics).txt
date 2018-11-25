@@ -1,7 +1,0 @@
-Y = c + a x _ { 1 } + b x _ { 2 } + { \text { e r r o r } } \ ,
-Y = c + a x _ { 1 } + b x _ { 2 } + d ( x _ { 1 } \times   x _ { 2 } ) + { \text { e r r o r } } \ ,
-d ( x _ { 1 } \times   x _ { 2 } )
-{ \tbinom   { n } { 0 } } + { \tbinom   { n } { 1 } } + { \tbinom   { n } { 2 } } + \cdots   + { \tbinom   { n } { n } } = 2 ^ { n }
-{ \tbinom   { n } { 0 } } + { \tbinom   { n } { 1 } } + { \tbinom   { n } { 2 } } = 1 + { \tfrac   { 1 } { 2 } } n + { \tfrac   { 1 } { 2 } } n ^ { 2 }
-Y = c + a x _ { 1 } + b x _ { 2 } + d ( x _ { 1 } \times   x _ { 2 } ) + { \text { e r r o r } } \ ,
-{ \displaystyle   ( x _ { 1 } \times   x _ { 2 } ) }

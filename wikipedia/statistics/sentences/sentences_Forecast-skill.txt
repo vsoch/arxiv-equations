@@ -1,2 +1,0 @@
-\ { \mathit     { M S E } } = { \frac     { \sum   _ { { t = 1 } } ^ { N } { E _ { t } ^ { 2 } } } { N } }
-\ { \mathit     { S S } } = 1 - { \frac     { { \mathit     { M S E } } _ { { \text { f o r e c a s t } } } } { { \mathit     { M S E } } _ { { \text { r e f } } } } }

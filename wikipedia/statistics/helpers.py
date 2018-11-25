@@ -25,3 +25,18 @@ def extract_tokens(tex):
         tokens = tokens + [t for t in tex]
     return tokens
 
+def update_method_name(methods, old_name, new_name):
+    '''update the set by removing an old name (usually a disambuguation error)
+       with a new name
+
+       Parameters
+       ==========
+       methods: the set of methods
+       oldName: the name to remove
+       newName: the name to add
+    '''
+    if old_name in methods:
+        methods.remove(old_name)
+    methods.add(new_name)
+    return methods
+

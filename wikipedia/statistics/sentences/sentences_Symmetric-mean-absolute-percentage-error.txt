@@ -1,6 +1,0 @@
-{ \displaystyle   { \text { S M A P E } } = { \frac   { 1 0 0 \%}{ n } } \sum   _ { t = 1 } ^ { n } { \frac   { \left | F _ { t } - A _ { t } \right | } { ( | A _ { t } | + | F _ { t } | ) / 2 } } }
-{ \displaystyle   { \text { S M A P E } } = { \frac   { 1 } { n } } \sum   _ { t = 1 } ^ { n } { \frac   { \left | F _ { t } - A _ { t } \right | } { ( A _ { t } + F _ { t } ) / 2 } } }
-{ \displaystyle   A _ { t } + F _ { t } < 0 }
-{ \displaystyle   A _ { t } + F _ { t } = 0 }
-{ \displaystyle   { \text { S M A P E } } = { \frac   { 1 0 0 \%}{ n } } \sum   _ { t = 1 } ^ { n } { \frac   { | F _ { t } - A _ { t } | } { | A _ { t } | + | F _ { t } | } } }
-{ \displaystyle   { \text { S M A P E } } = { \frac   { \sum   _ { t = 1 } ^ { n } \left | F _ { t } - A _ { t } \right | } { \sum   _ { t = 1 } ^ { n } ( A _ { t } + F _ { t } ) } } }

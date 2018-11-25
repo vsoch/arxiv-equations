@@ -1,4 +1,0 @@
-  f _ X ( x )   =   \frac { 1 } { \sqrt { 2 \pi \sigma ^ 2 } }   e ^ {   - \frac { ( x - \mu ) ^ 2 } { 2 \sigma ^ 2 }   } .  
-f ( t )   =   \frac { \Gamma ( \frac { \nu + 1 } { 2 } ) }   { \sqrt { \nu \pi } \,\Gamma ( \frac { \nu } { 2 } ) }   \left ( 1 + \frac { t ^ 2 } { \nu }   \right ) ^ { - \frac { \nu + 1 } { 2 } } , \ !
-\nu  
-\Gamma  

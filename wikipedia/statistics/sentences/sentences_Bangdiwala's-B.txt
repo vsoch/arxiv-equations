@@ -1,1 +1,0 @@
-{ \displaystyle   B = { \frac   { \Sigma   n _ { i i } ^ { 2 } } { \Sigma   n _ { i . } n _ { . i } } } }

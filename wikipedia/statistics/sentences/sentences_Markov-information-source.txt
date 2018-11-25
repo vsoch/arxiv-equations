@@ -1,3 +1,0 @@
-f : S \to   \Gamma  
-f ( s _ { k } )
-s _ { k }

@@ -1,1 +1,0 @@
-{ \displaystyle   X = T + e }

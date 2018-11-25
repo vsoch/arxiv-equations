@@ -1,8 +1,0 @@
-\theta   _ { i }
-N _ { i }
-z _ { i j }
-w _ { i j }
-N _ { i }
-w _ { i j }
-w _ { i j }
-z _ { i j }

@@ -1,5 +1,0 @@
-1   -   \left ( 1 - \frac { 1 } { 1 0 0 0 0 } \right ) ^ { 2 0 0 0 0 }   \approx   8 6 \ %
-  P ( I | E )   =   P ( E | I )   \cdot   \frac { P ( I )   } { P ( E ) }      
-  P ( E )   =   P ( E | I )   \cdot   P ( I )   +   P ( E | \sim   I )   \cdot   [ 1   -   P ( I ) ]  
-  \operatorname { O d d s } ( I | E )   \ge   \operatorname { O d d s } ( I ) \cdot   P ( E | I )      
-  P ( I | E )   \approx   P ( E | I ) \cdot   \operatorname { O d d s } ( I )      

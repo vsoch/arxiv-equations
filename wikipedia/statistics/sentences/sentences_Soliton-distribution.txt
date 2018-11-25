@@ -1,5 +1,0 @@
-{ \displaystyle   p ( 1 ) = { \frac   { 1 } { N } } , }
-{ \displaystyle   p ( k ) = { \frac   { 1 } { k ( k - 1 ) } } \qquad   ( k = 2 , 3 , \dots   , N ) . \ , }
-{ \displaystyle   t ( i ) = { \frac   { 1 } { i M } } , \qquad   \qquad   ( i = 1 , 2 , \dots   , M - 1 ) , \ , }
-{ \displaystyle   t ( i ) = { \frac   { \ln ( R / \delta   ) } { M } } , \qquad   ( i = M ) , \ , }
-{ \displaystyle   t ( i ) = 0 , \qquad   \qquad   ( i = M + 1 , \dots   , N ) . \ , }

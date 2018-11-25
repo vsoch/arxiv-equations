@@ -1,5 +1,0 @@
-{ \displaystyle   \operatorname   { E }   _ { \theta   } \{ \delta   ( X ) \}=g ( \theta   ) { \text {   f o r   a l l   } } \theta   . \ , }
-{ \displaystyle   \operatorname   { V a r }   _ { \theta   } ( \delta   ( X ) ) \geq   \sup   _ { \Delta   } { \frac   { \left [ g ( \theta   + \Delta   ) - g ( \theta   ) \right ] ^ { 2 } } { \operatorname   { E }   _ { \theta   } \left [ { \tfrac   { p ( X ; \theta   + \Delta   ) } { p ( X ; \theta   ) } } - 1 \right ] ^ { 2 } } } . }
-\chi   ^ { 2 }
-{ \displaystyle   p ( \cdot   ; \theta   + \Delta   ) }
-{ \displaystyle   p ( \cdot   ; \theta   ) }

@@ -1,9 +1,0 @@
-y = a + b x + c z + u
-z = d + f x + e
-y = ( a + c d ) + ( b + c f ) x + ( u + c e ) .
-y _ { i } = x _ { i } \beta   + z _ { i } \delta   + u _ { i } , \qquad   i = 1 , \dots   , n
-X = \left [ { \begin { a r r a y } { c } x _ { 1 } \\\vdots   \\x_ { n } \end { a r r a y } } \right ] \in   { \mathbb     { R } } ^ { { n \times   p } } ,
-Y = \left [ { \begin { a r r a y } { c } y _ { 1 } \\\vdots   \\y_ { n } \end { a r r a y } } \right ] , \quad   Z = \left [ { \begin { a r r a y } { c } z _ { 1 } \\\vdots   \\z_ { n } \end { a r r a y } } \right ] , \quad   U = \left [ { \begin { a r r a y } { c } u _ { 1 } \\\vdots   \\u_ { n } \end { a r r a y } } \right ] \in   { \mathbb     { R } } ^ { { n \times   1 } } .
-{ \displaystyle   { \widehat   { \beta   } } = ( X ' X ) ^ { - 1 } X ' Y \ , }
-{ \displaystyle   { \begin { a l i g n e d } { \widehat   { \beta   } } & = ( X ' X ) ^ { - 1 } X ' ( X \beta   + Z \delta   + U ) \\&=( X ' X ) ^ { - 1 } X ' X \beta   + ( X ' X ) ^ { - 1 } X ' Z \delta   + ( X ' X ) ^ { - 1 } X ' U \\&=\beta   + ( X ' X ) ^ { - 1 } X ' Z \delta   + ( X ' X ) ^ { - 1 } X ' U . \end { a l i g n e d } } }
-{ \displaystyle   { \begin { a l i g n e d } E [ { \widehat   { \beta   } } \mid   X ] & = \beta   + ( X ' X ) ^ { - 1 } E [ X ' Z \mid   X ] \delta   \\&=\beta   + { \text { b i a s } } . \end { a l i g n e d } } }

@@ -1,3 +1,0 @@
-{ \displaystyle   P _ { F A } }
-{ \displaystyle   P _ { D } }
-{ \displaystyle   1 - P _ { D } }

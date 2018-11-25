@@ -1,5 +1,0 @@
-\bar   c   =   \frac   { \sum_ { i = 1 } ^ m   \sum_ { j = 1 } ^ n   \mbox { n o .   o f   d e f e c t s   f o r   }   x _ { i j } } { m }
-\bar   c   \pm   3 \sqrt { \bar   c }
-\bar   c _ i   =   \sum_ { j = 1 } ^ n   \mbox { n o .   o f   d e f e c t s   f o r   }   x _ { i j }
-\bar   c   \pm   3 \sqrt { \bar   c }
-{ \bar   { c } }

@@ -1,1 +1,0 @@
-y _ { t } = F ( y _ { { t - 1 } } , y _ { { t - 2 } } , y _ { { t - 3 } } , \ldots   , u _ { { t } } , u _ { { t - 1 } } , u _ { { t - 2 } } , u _ { { t - 3 } } , \ldots   ) + \varepsilon   _ { t }

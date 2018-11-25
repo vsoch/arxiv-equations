@@ -1,9 +1,0 @@
-\hat   L
-{ \displaystyle   \mathrm   { A I C }   \,=\,2k - 2 \ln ( { \hat   { L } } ) }
-{ \displaystyle   \mathrm   { A I C c }   \,=\,\mathrm   { A I C }   + { \frac   { 2 k ^ { 2 } + 2 k } { n - k - 1 } } }
-{ \displaystyle   y \mapsto   \,{ \frac   { 1 } { y } } { \frac   { 1 } { \sqrt   { 2 \pi   \sigma   ^ { 2 } } } } \,\exp   \left ( - { \frac   { \left ( \ln   y - \mu   \right ) ^ { 2 } } { 2 \sigma   ^ { 2 } } } \right ) }
-{ \displaystyle   \ln   { \mathcal   { L } } ( \mu   , \sigma   ^ { 2 } ) \,=\,-{ \frac   { n } { 2 } } \ln ( 2 \pi   ) - { \frac   { n } { 2 } } \ln   \sigma   ^ { 2 } - { \frac   { 1 } { 2 \sigma   ^ { 2 } } } \sum   _ { i = 1 } ^ { n } ( x _ { i } - \mu   ) ^ { 2 } }
-{ \displaystyle   { \hat   { \sigma   } } ^ { 2 } = \mathrm   { R S S }   / n }
-{ \displaystyle   \mathrm   { R S S }   }
-\textstyle   { \mathrm     { R S S } } = \sum   _ { { i = 1 } } ^ { n } ( y _ { i } - f ( x _ { i } ; { \hat     { \theta   } } ) ) ^ { 2 }
-{ \displaystyle   - { \frac   { n } { 2 } } \ln ( 2 \pi   ) - { \frac   { n } { 2 } } \ln ( { \hat   { \sigma   } } ^ { 2 } ) - { \frac   { 1 } { 2 { \hat   { \sigma   } } ^ { 2 } } } \mathrm   { R S S }   \,=\,-{ \frac   { n } { 2 } } \ln ( \mathrm   { R S S }   / n ) + C _ { 1 } }

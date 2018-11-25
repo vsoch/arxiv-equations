@@ -1,9 +1,0 @@
-z _ { { i j } } = \left \vert   y _ { { i j } } - { \tilde     { y } } _ { j } \right \vert  
-{ \tilde     { y } } _ { j }
-F = { \frac     { ( N - p ) } { ( p - 1 ) } } { \frac     { \sum   _ { { j = 1 } } ^ { { p } } n _ { j } ( { \tilde     { z } } _ { { \cdot   j } } - { \tilde     { z } } _ { { \cdot   \cdot   } } ) ^ { 2 } } { \sum   _ { { j = 1 } } ^ { { p } } \sum   _ { { i = 1 } } ^ { { n _ { j } } } ( z _ { { i j } } - { \tilde     { z } } _ { { \cdot   j } } ) ^ { 2 } } }
-{ \tilde     { z } } _ { { \cdot   j } }
-z _ { i j }
-{ \tilde     { z } } _ { { \cdot   \cdot   } }
-z _ { i j }
-{ \displaystyle   d _ { 1 } = p - 1 }
-{ \displaystyle   d _ { 2 } = N - p }

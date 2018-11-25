@@ -1,9 +1,0 @@
-{ \displaystyle   s _ { a } = { \frac   { 1 } { n } } \sum   _ { i = 1 } ^ { n } \sin   \theta   _ { i } , }
-{ \displaystyle   c _ { a } = { \frac   { 1 } { n } } \sum   _ { i = 1 } ^ { n } \cos   \theta   _ { i } . }
-{ \displaystyle   \theta   _ { a } = \arctan ( c _ { a } , s _ { a } ) . }
-{ \displaystyle   \sigma   _ { \theta   } = \arcsin ( \varepsilon   ) \left [ 1 + \left ( { \tfrac   { 2 } { \sqrt   { 3 } } } - 1 \right ) \varepsilon   ^ { 3 } \right ] , }
-{ \displaystyle   \varepsilon   = { \sqrt   { 1 - ( s _ { a } ^ { 2 } + c _ { a } ^ { 2 } ) } } . }
-\varepsilon  
-\varepsilon  
-{ \tfrac   { \pi   } { 2 } }
-{ \displaystyle   { \tfrac   { \pi   } { \sqrt   { 3 } } } }

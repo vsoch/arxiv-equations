@@ -1,8 +1,0 @@
-P ( S )
-S .
-P ( S )
-P ( S ) = q ^ { { N _ { { \text { s a m p l e } } } ( S ) } } \times   ( 1 - q ) ^ { { ( N _ { { \text { p o p } } } - N _ { { \text { s a m p l e } } } ( S ) ) } }
-q
-N _ { { \text { s a m p l e } } } ( S )
-S
-N _ { { \text { p o p } } }

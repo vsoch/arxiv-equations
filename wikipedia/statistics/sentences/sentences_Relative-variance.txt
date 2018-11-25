@@ -1,8 +1,0 @@
-\sigma   ^ { 2 }
-\mu  
-D   =   { \sigma ^ 2   \over   \mu   } .
-\mu  
-\sigma / \mu
-\mu_k / \sigma ^ k
-\sigma ^ 2 _ W / \mu_W
-\mu / \sigma

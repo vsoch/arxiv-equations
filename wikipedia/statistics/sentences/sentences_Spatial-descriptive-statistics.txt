@@ -1,4 +1,0 @@
-{ \displaystyle   { \widehat   { K } } ( t ) = \lambda   ^ { - 1 } \sum   _ { i \neq   j } { \frac   { I ( d _ { i j } < t ) } { n } } , }
-{ \displaystyle   { \widehat   { K } } ( t ) }
-{ \displaystyle   { \widehat   { L } } ( t ) = \left ( { \frac   { { \widehat   { K } } ( t ) } { \pi   } } \right ) ^ { 1 / 2 } . }
-{ \displaystyle   t - { \widehat   { L } } ( t ) }

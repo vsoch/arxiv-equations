@@ -1,4 +1,0 @@
-\Theta   _ { 1 } \leq   \Theta   _ { 2 } .
-{ \displaystyle   x _ { n + 1 } = r x _ { n } ( 1 - x _ { n } ) }
-y ( t ) = A \cdot   \sin ( \omega   t + \phi   ) ,
-R ^ { + } \times   R ^ { + } \times   S ^ { 1 } .

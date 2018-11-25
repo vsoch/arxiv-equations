@@ -1,1 +1,0 @@
-{ \displaystyle   R _ { \mathrm   { V A R I M A X }   } = \operatorname   { a r g }   \max   _ { R } \left ( { \frac   { 1 } { p } } \sum   _ { j = 1 } ^ { k } \sum   _ { i = 1 } ^ { p } ( \Lambda   R ) _ { i j } ^ { 4 } - \sum   _ { j = 1 } ^ { k } \left ( { \frac   { 1 } { p } } \sum   _ { i = 1 } ^ { p } ( \Lambda   R ) _ { i j } ^ { 2 } \right ) ^ { 2 } \right ) . }

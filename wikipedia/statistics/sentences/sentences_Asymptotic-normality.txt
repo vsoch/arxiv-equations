@@ -1,3 +1,0 @@
-Y _ i = \frac { Z _ i - a _ i } { b _ i }
-P \left ( \frac { Z _ n - a _ n } { b _ n }   \le   x   \right )   \approx   F ( x )   ,
-P ( Z _ n   \le   z )   \approx   F \left ( \frac { z - a _ n } { b _ n } \right )   .

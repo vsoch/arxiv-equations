@@ -1,2 +1,0 @@
-{ \displaystyle   \Delta   t _ { i j } }
-{ \displaystyle   \Psi   _ { i j } = { \sqrt   { \Delta   x _ { i j } ^ { 2 } + \Delta   y _ { i j } ^ { 2 } + ( s v _ { m a x } \Delta   t _ { i j } ) ^ { 2 } } } }

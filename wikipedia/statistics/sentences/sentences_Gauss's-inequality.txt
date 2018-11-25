@@ -1,1 +1,0 @@
-{ \displaystyle   \Pr ( \mid   X - m \mid   > k ) \leq   { \begin { c a s e s } \left ( { \frac   { 2 \tau   } { 3 k } } \right ) ^ { 2 } & { \text { i f   } } k \geq   { \frac   { 2 \tau   } { \sqrt   { 3 } } } \\[6pt ] 1 - { \frac   { k } { \tau   { \sqrt   { 3 } } } } & { \text { i f   } } 0 \leq   k \leq   { \frac   { 2 \tau   } { \sqrt   { 3 } } } . \end { c a s e s } } }

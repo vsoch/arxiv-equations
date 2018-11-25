@@ -1,1 +1,0 @@
-{ \displaystyle   \varphi   _ { X + Y } ( t ) = \varphi   _ { X } ( t ) \cdot   \varphi   _ { Y } ( t ) . \ , }

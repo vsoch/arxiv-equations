@@ -1,5 +1,0 @@
-Y A = p \times   E P + ( 1 - p ) ( 1 - E P )
-E P = { \frac     { Y A + p - 1 } { 2 p - 1 } }
-p = { \tfrac     { 1 } { 6 } }
-Y A = { \tfrac     { 3 } { 4 } }
-E P = ( { \tfrac     { 3 } { 4 } } + { \tfrac     { 1 } { 6 } } - 1 ) / ( 2 \times   { \tfrac     { 1 } { 6 } } - 1 ) = { \tfrac     { 1 } { 8 } }

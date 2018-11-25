@@ -1,6 +1,0 @@
-X _ { { t } } = \mu   + \Phi   D _ { { t } } + \Pi   _ { { p } } X _ { { t - p } } + \cdots   + \Pi   _ { { 1 } } X _ { { t - 1 } } + e _ { { t } } , \quad   t = 1 , \dots   , T
-\Delta   X _ { t } = \mu   + \Phi   D _ { { t } } + \Pi   X _ { { t - p } } + \Gamma   _ { { p - 1 } } \Delta   X _ { { t - p + 1 } } + \cdots   + \Gamma   _ { { 1 } } \Delta   X _ { { t - 1 } } + \varepsilon   _ { t } , \quad   t = 1 , \dots   , T
-\Gamma   _ { i } = \Pi   _ { 1 } + \cdots   + \Pi   _ { i } - I , \quad   i = 1 , \dots   , p - 1 . \ ,
-\Delta   X _ { { t } } = \mu   + \Phi   D _ { { t } } - \Gamma   _ { { p - 1 } } \Delta   X _ { { t - p + 1 } } - \cdots   - \Gamma   _ { { 1 } } \Delta   X _ { { t - 1 } } + \Pi   X _ { { t - 1 } } + \varepsilon   _ { { t } } , \quad   t = 1 , \cdots   , T
-\Gamma   _ { i } = \left ( \Pi   _ { { i + 1 } } + \cdots   + \Pi   _ { p } \right ) , \quad   i = 1 , \dots   , p - 1 . \ ,
-\Pi   = \Pi   _ { { 1 } } + \cdots   + \Pi   _ { { p } } - I . \ ,

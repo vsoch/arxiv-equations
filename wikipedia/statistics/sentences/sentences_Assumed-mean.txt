@@ -1,9 +1,0 @@
-{ \displaystyle   d _ { i } = x _ { i } - x _ { 0 } \ , }
-{ \displaystyle   A = \sum   _ { i = 1 } ^ { N } d _ { i } \ , }
-{ \displaystyle   B = \sum   _ { i = 1 } ^ { N } d _ { i } ^ { 2 } \ , }
-{ \displaystyle   D = { \frac   { A } { N } } \ , }
-{ \displaystyle   { \overline   { x } } = x _ { 0 } + D \ , }
-{ \displaystyle   \sigma   = { \sqrt   { \frac   { B - N D ^ { 2 } } { N } } } \ , }
-{ \displaystyle   \sigma   = { \sqrt   { \frac   { B - N D ^ { 2 } } { N - 1 } } } \ , }
-{ \displaystyle   x _ { 0 } + C S \times   { \frac   { A } { N } } = 1 7 5 . 5 + 3 \times   - 5 5 / 1 0 0 = 1 7 3 . 8 5 }
-{ \displaystyle   C S { \sqrt   { \frac   { B - { \frac   { A ^ { 2 } } { N } } } { N - 1 } } } = 5 . 5 7 }

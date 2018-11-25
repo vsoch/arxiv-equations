@@ -1,3 +1,0 @@
-{ \mathbb     { Z } } / 7 { \mathbb     { Z } }
-\sum   _ { { b = 1 } } ^ { B } m _ { { v b } } m _ { { w b } } = \Lambda  
-f ( x _ { 1 } , \ldots   , x _ { d } ) \  

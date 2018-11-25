@@ -1,4 +1,0 @@
-{ \displaystyle   p _ { j } = P r o b ( { x _ { j } } ) . }
-{ \displaystyle   w _ { j } = 0 . 5 p _ { j } + \sum   _ { k < j } { p _ { k } } . }
-{ \displaystyle   1 \leq   j \leq   n }
-{ \displaystyle   \sum   _ { k < j } { P r o b ( x _ { k } ) } }

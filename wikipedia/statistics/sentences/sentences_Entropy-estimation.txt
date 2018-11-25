@@ -1,5 +1,0 @@
-f ( x )
-{ \displaystyle   H _ { m a x } = \log   n }
-{ \displaystyle   H ( X ) = - { \frac   { \sum   _ { i = 1 } ^ { n } f ( x _ { i } ) \log   f ( x _ { i } ) } { H _ { m a x } } } }
-{ \displaystyle   H ( X )   =   - \int_ \mathbb { X }   f ( x ) \log   f ( x ) \,dx }
-{ \displaystyle     H ( X )     =     -   \sum_ { i = 1 } ^ n f ( x _ i ) \log   \left ( \frac { f ( x _ i ) } { w ( x _ i ) }   \right )   }

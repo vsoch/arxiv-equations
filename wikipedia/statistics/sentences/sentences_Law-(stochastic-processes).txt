@@ -1,3 +1,0 @@
-X _ { { t } } : \Omega   \to   S : \omega   \mapsto   X ( t , \omega   )
-\left ( \Phi   _ { { X } } ( \omega   ) \right ) ( t ) : = X _ { { t } } ( \omega   ) .
-{ \mathcal     { L } } _ { { X } } : = \left ( \Phi   _ { { X } } \right ) _ { { * } } ( { \mathbf     { P } } ) = { \mathbf     P } \circ   \Phi   _ { X } ^ { { - 1 } }

@@ -1,7 +1,0 @@
-\phi   \approx   { \textbf     { A } } x
-x = ( { \textbf     { A } } ^ { { { \mathrm     { T } } } } { \textbf     { A } } ) ^ { { - 1 } } { \textbf     { A } } ^ { { { \mathrm     { T } } } } \phi   .
-x = { \textbf     { A } } ^ { { { \mathrm     { T } } } } \phi  
-\tan   { 2 \omega   \tau   } = { \frac     { \sum   _ { j } \sin   2 \omega   t _ { j } } { \sum   _ { j } \cos   2 \omega   t _ { j } } } .
-P _ { x } ( \omega   ) = { \frac     { 1 } { 2 } } \left ( { \frac     { \left [ \sum   _ { j } X _ { j } \cos   \omega   ( t _ { j } - \tau   ) \right ] ^ { 2 } } { \sum   _ { j } \cos   ^ { 2 } \omega   ( t _ { j } - \tau   ) } } + { \frac     { \left [ \sum   _ { j } X _ { j } \sin   \omega   ( t _ { j } - \tau   ) \right ] ^ { 2 } } { \sum   _ { j } \sin   ^ { 2 } \omega   ( t _ { j } - \tau   ) } } \right )
-{ \displaystyle   \phi   ( t ) = A \sin   \omega   t + B \cos   \omega   t . }
-{ \displaystyle   \phi   ( t ) = A \sin   \omega   t + B \cos   \omega   t + C . }

@@ -1,5 +1,0 @@
-{ \displaystyle   [ y _ { t } ] _ { t = 1 } ^ { T } }
-{ \displaystyle   y _ { t } = D _ { t } + z _ { t } + \varepsilon   _ { t } }
-{ \displaystyle   D _ { t } }
-{ \displaystyle   z _ { t } }
-{ \displaystyle   \varepsilon   _ { t } }

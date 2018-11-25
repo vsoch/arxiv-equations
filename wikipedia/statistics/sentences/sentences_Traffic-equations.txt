@@ -1,7 +1,0 @@
-\lambda   _ { i }
-\gamma   _ { i }
-\lambda   _ { i } = \gamma   _ { i } + \sum   _ { { j = 1 } } ^ { m } p _ { { j i } } \lambda   _ { j } .
-\lambda   ( I - P ) = \gamma   \ , ,
-\lambda   _ { i }
-\gamma   _ { i }
-\lambda   _ { i } = \sum   _ { { j = 1 } } ^ { m } p _ { { j i } } \lambda   _ { j } .

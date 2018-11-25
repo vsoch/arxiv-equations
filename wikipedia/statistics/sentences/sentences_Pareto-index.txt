@@ -1,8 +1,0 @@
-\left ( { \frac     { x _ { { \mathrm     { m } } } } { x } } \right ) ^ { \alpha   }
-p + q = 1
-p   >   q
-{ \displaystyle   \alpha   = \log   _ { p / q } 1 / q = \log ( 1 / q ) / \log ( p / q ) = \log ( q ) / \log ( q / p ) . }
-{ \displaystyle   q = 1 / n }
-{ \displaystyle   \alpha   = \log   _ { n - 1 } ( n ) . }
-{ \displaystyle   \alpha   = \log   _ { X / Y } ( X + Y ) / Y , }
-{ \displaystyle   \alpha   = \log   _ { X } ( X + 1 ) . }

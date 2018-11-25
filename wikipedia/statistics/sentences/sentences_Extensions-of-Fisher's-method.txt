@@ -1,3 +1,0 @@
-{ \displaystyle   X = - 2 \sum   _ { i = 1 } ^ { k } \log   _ { e } ( p _ { i } ) \sim   \chi   ^ { 2 } ( 2 k ) . }
-{ \displaystyle   \operatorname   { E }   [ c \chi   ^ { 2 } ( k ' ) ] = c k ' , }
-{ \displaystyle   \operatorname   { V a r }   [ c \chi   ^ { 2 } ( k ' ) ] = 2 c ^ { 2 } k ' . }

@@ -1,7 +1,0 @@
-n
-y _ t   =   f ( t )   +   e _ t
-y _ { t }
-t
-y _ t   =   y _ { t - 1 }   +   c   +   u _ t
-u _ { t }
-z _ t   =   y _ t   -   y _ { t - 1 }

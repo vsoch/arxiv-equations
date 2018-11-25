@@ -76,8 +76,6 @@ for pair in pages:
 
 save_pretty_json(results, "wikipedia_math_articles.json")
 
-
-
 ## STEP 2: EQUATIONS ###########################################################
 
 equations = dict()
@@ -110,92 +108,6 @@ for pair in pages:
         if len(equation_list) > 0:
             equations[method] = equation_list
 
-
-save_pretty_json(equations, "wikipedia_math_equations.json")
-pickle.dump(equations, open('wikipedia_math_equations.pkl', 'wb'))
-
-
-## STEP 3: WORD2VEC MODEL ######################################################
-
-from wordfish.analysis import ( 
-    DeepEquationAnalyzer, 
-    TrainEquations, 
-    Word2Vec, 
-    extract_vectors,
-    extract_similarity_matrix
-)
-
-# Derive a list of all equations
-equations_list = []
-labels = []
-domains = []
-for method, eqlist in equations.items():
-    for eq in eqlist:
-        equations_list.append(eq['tex'])
-        domains.append(eq['domain'])
-        labels.append(eq['topic'])
-
-# len(labels)
-# 889
-
-sentences = TrainEquations(text_list=equations_list,
-                           remove_stop_words=False,
-                           remove_non_english_chars=False)
-
-model = Word2Vec(sentences, size=300, workers=8, min_count=1)
-
-
-# Save things
-base_dir = os.getcwd()
-output_dir = os.path.join(base_dir, 'models')
-if not os.path.exists(output_dir):
-    os.mkdir(output_dir)
-
-model.save("%s/wikipedia_math_equations.word2vec" % output_dir)
-
-# Export vectors
-vectors_dir = "%s/vectors" % base_dir
-if not os.path.exists(vectors_dir):
-    os.mkdir(vectors_dir)
-
-vectors = extract_vectors(model)
-vectors.to_csv('%s/wikipedia_math_equation_character_vectors.tsv' %vectors_dir, sep='\t')
-
-## STEP 3: Similarity of Characters ############################################
-
-simmat = extract_similarity_matrix(model)
-simmat.to_csv('%s/wikipedia_math_equations_character_similarities.tsv' % output_dir, sep='\t')
-
-
-## STEP 4: EQUATION EMBEDDINGS #################################################
-
-# First let's generate based on specific topic
-analyzer = DeepEquationAnalyzer(model)
-compiled_embeddings = pandas.DataFrame(columns=range(model.vector_size))
-
-for method, items in equations.items():
-
-    # Create a data frame of embeddings for each
-    count = 0
-    print("Generating embeddings for method %s" %(method))
-    embeddings = pandas.DataFrame(columns=range(model.vector_size))
-
-    for item in items:
-        label = "%s|%s|%s" %(item['domain'], method, count)
-        tex = item['tex']
-        embeddings.loc[label] = analyzer.text2mean_vector(item['tex'])
-        count += 1
-
-    method_name = method.replace(' ', '-').replace('/','_')
-    file_name = "%s/embeddings_%s.tsv" % ( vectors_dir, method_name )
-    embeddings.to_csv(file_name, sep="\t", encoding="utf-8")
-
-    # This might be a bad idea, we will find out!
-    compiled_embeddings = compiled_embeddings.append(embeddings)
-
-# At the end of this loop, we have a data frame for each set of embeddings
-# organized by the topic. We also have one compiled data frame with all 
-# labels.
-compiled_embeddings.to_csv('%s/compiled_math_embeddings.tsv' % vectors_dir, sep="\t", encoding="utf-8")
-
-# TODO create a mean vector on the level of domains
+# The next step is to load these equations, and map them to the space
+# of characters generated from the statistics model. See the "analysis"
+# subfolder for these next steps.

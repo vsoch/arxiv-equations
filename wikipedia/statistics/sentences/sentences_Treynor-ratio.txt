@@ -1,6 +1,0 @@
-T   =   \frac { r _ i   -   r _ f } { \beta_i }  
-T   \equiv
-r _ i   \equiv  
-r _ f   \equiv  
-\beta_i     \equiv  
-{ \displaystyle   T = { \frac   { 0 . 2 - 0 . 0 5 } { 1 . 5 } } = 0 . 1 }

@@ -1,4 +1,0 @@
-u - d
-F _ { Y } ( y ) = { \frac     { F ( y ) - F ( a ) } { F ( b ) - F ( a ) } } \ ,
-F _ { Y } ( y ) = { \frac     { F ( y ) - F ( a - ) } { F ( b ) - F ( a - ) } } \ ,
-{ F ( b ) - F ( a ) }

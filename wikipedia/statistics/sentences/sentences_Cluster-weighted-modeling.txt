@@ -1,2 +1,0 @@
-{ \displaystyle   p ( y , x ) = \sum   _ { 1 } ^ { n } w _ { j } p _ { j } ( y , x ) , }
-{ \displaystyle   p _ { j } ( y , x ) = p _ { j } ( y | x ) p _ { j } ( x ) , }

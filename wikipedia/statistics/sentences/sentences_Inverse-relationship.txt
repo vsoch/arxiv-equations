@@ -1,2 +1,0 @@
-{ \displaystyle   y = k / x }
-{ \displaystyle   \ y \prime   = { \frac   { - k } { x ^ { 2 } } } \   }

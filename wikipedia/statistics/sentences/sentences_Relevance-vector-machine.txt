@@ -1,5 +1,0 @@
-k ( \mathbf { x } , \mathbf { x ' } )   =   \sum_ { j = 1 } ^ N   \frac { 1 } { \alpha_j }   \varphi ( \mathbf { x } , \mathbf { x } _ j ) \varphi ( \mathbf { x } ' , \mathbf { x } _ j )  
-\varphi  
-\alpha   _ { j }
-w   \sim   N ( 0 , \alpha ^ { - 1 } I )
-\mathbf { x } _ 1 , \ldots , \mathbf { x } _ N

@@ -1,1 +1,0 @@
-P ( \left | X - \mu   \right | \geq   \lambda   \sigma   ) \leq   { \frac     { 4 } { 9 \lambda   ^ { 2 } } } .

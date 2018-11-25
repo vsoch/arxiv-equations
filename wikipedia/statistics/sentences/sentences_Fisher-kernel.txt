@@ -1,2 +1,0 @@
-U _ { X } = \nabla   _ { { \theta   } } \log   P ( X | \theta   )
-K ( X _ { i } , X _ { j } ) = U _ { { X _ { i } } } ^ { T } I ^ { { - 1 } } U _ { { X _ { j } } }

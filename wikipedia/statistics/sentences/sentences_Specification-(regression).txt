@@ -1,8 +1,0 @@
-{ \displaystyle   y = f ( s , x ) }
-y
-s
-x ,
-{ \displaystyle   \ln   y = \ln   y _ { 0 } + \rho   s + \beta   _ { 1 } x + \beta   _ { 2 } x ^ { 2 } + \varepsilon   }
-\varepsilon  
-\rho  
-\beta  

@@ -1,4 +1,0 @@
-Y _ { i } = C + \alpha   \sin ( \omega   T _ { i } + \phi   ) + E _ { i }
-Y _ { i } = ( B _ { 0 } + B _ { 1 } T _ { i } ) + \alpha   \sin ( 2 \pi   \omega   T _ { i } + \phi   ) + E _ { i }
-Y _ { i } = ( B _ { 0 } + B _ { 1 } T _ { i } + B _ { 2 } T _ { i } ^ { 2 } ) + \alpha   \sin ( 2 \pi   \omega   T _ { i } + \phi   ) + E _ { i }
-Y _ { i } = C + ( B _ { 0 } + B _ { 1 } T _ { i } ) \sin ( 2 \pi   \omega   T _ { i } + \phi   ) + E _ { i }

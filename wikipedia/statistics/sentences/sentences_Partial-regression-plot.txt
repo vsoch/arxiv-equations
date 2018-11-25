@@ -1,2 +1,0 @@
-Y _ { { \bullet   [ i ] } } { \mathrm     { \ versus \ }}X_ { { i \bullet   [ i ] } }
-\beta   _ { { i } }

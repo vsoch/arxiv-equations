@@ -1,1 +1,0 @@
-{ \displaystyle   N S E = 1 - { \frac   { \sum   _ { t = 1 } ^ { T } \left ( Q _ { m } ^ { t } - Q _ { o } ^ { t } \right ) ^ { 2 } } { \sum   _ { t = 1 } ^ { T } \left ( Q _ { o } ^ { t } - { \overline   { Q _ { o } } } \right ) ^ { 2 } } } }

@@ -1,7 +1,0 @@
-\mathbf   { P }   \left ( \left \{ \omega   \in   \Omega   \left | \lim   _ { s \to   t } { \big   | } X _ { s } ( \omega   ) - X _ { t } ( \omega   ) { \big   | } = 0 \right . \right \}\right ) = 1 .
-\lim   _ { s \to   t } \mathbf   { E }   \left [ { \big   | } X _ { s } - X _ { t } { \big   | } ^ { 2 } \right ] = 0 .
-\lim_ { s   \to   t }   \mathbf { P }   \left (   \left \{   \omega   \in   \Omega   \left |   \big |   X _ { s }   ( \omega )   -   X _ { t }   ( \omega )   \big |   \geq   \varepsilon   \right .   \right \} \right )   =   0 .
-\lim_ { s   \to   t }   \mathbf { E }   \left [   \frac { \big |   X _ { s }   -   X _ { t }   \big | } { 1   +   \big |   X _ { s }   -   X _ { t }   \big | }   \right ]   =   0 .
-\lim_ { s   \to   t }   F _ { s }   ( x )   =   F _ { t }   ( x )
-A _ { t }   =   \left \{   \omega   \in   \Omega   \left |   \lim_ { s   \to   t }   \big |   X _ { s }   ( \omega )   -   X _ { t }   ( \omega )   \big |   \neq   0   \right .   \right \ } ,
-A   =   \bigcup_ { t   \in   T }   A _ { t } .

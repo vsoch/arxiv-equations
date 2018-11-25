@@ -1,7 +1,0 @@
-{ \displaystyle   { \begin { a l i g n e d } E & = { \frac   { 1 } { 2 } } \cdot   2 + { \frac   { 1 } { 4 } } \cdot   4 + { \frac   { 1 } { 8 } } \cdot   8 + { \frac   { 1 } { 1 6 } } \cdot   1 6 + \cdots   \\&=1 + 1 + 1 + 1 + \cdots   \\&=\infty   \,.\end { a l i g n e d } } }
-{ \displaystyle   \Delta   E ( U ) = \sum   _ { k = 1 } ^ { \infty   } { \frac   { 1 } { 2 ^ { k } } } \left [ \ln ( w + 2 ^ { k } - c ) - \ln ( w ) \right ] < \infty   \ , . }
-{ \displaystyle   { \begin { a l i g n e d } E & = \sum   _ { k = 1 } ^ { L } { \frac   { 1 } { 2 ^ { k } } } \cdot   2 ^ { k } + \sum   _ { k = L + 1 } ^ { \infty   } { \frac   { 1 } { 2 ^ { k } } } \cdot   W \\&={ L } ~ + ~ { \frac   { W } { 2 ^ { L } } } \,\,.\end { a l i g n e d } } }
-\bar { g } ( w , c )   =   \sum_ { k = 1 } ^ \infty   p _ k   \ln   \left ( \frac { w - c + D _ k } { w } \right )
-\bar { g } ( w , c ) > 0 .
-w - c + D _ k   =   0 ,
-c _ \mathrm { m a x }   =   w + D _ 1 ,

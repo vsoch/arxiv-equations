@@ -1,6 +1,0 @@
-{ \displaystyle   I _ { q ( \theta   ) } ^ { - 1 } = { \dot   { q } } ( \theta   ) I ^ { - 1 } ( \theta   ) { \dot   { q } } ( \theta   ) ' }
-{ \displaystyle   \psi   _ { q ( \theta   ) } = { \dot   { q } } ( \theta   ) I ^ { - 1 } ( \theta   ) { \dot   { \ell   } } ( \theta   ) }
-{ \displaystyle   \scriptstyle   { \dot   { \ell   } } ( \theta   ) }
-{ \displaystyle   \scriptstyle   Z _ { \theta   } \,\sim   \,{ \mathcal   { N } } ( 0 , \,I_ { q ( \theta   ) } ^ { - 1 } ) }
-{ \displaystyle   { \sqrt   { n } } ( T _ { n } - q ( \theta   ) ) \ { \xrightarrow   { d } } \ Z_ { \theta   } + \Delta   _ { \theta   } , }
-{ \displaystyle   { \begin { p m a t r i x } { \sqrt   { n } } ( T _ { n } - q ( \theta   ) ) - { \tfrac   { 1 } { \sqrt   { n } } } \sum   _ { i = 1 } ^ { n } \psi   _ { q ( \theta   ) } ( x _ { i } ) \\{ \tfrac   { 1 } { \sqrt   { n } } } \sum   _ { i = 1 } ^ { n } \psi   _ { q ( \theta   ) } ( x _ { i } ) \end { p m a t r i x } } \ { \xrightarrow   { d } } \ { \begin { p m a t r i x } \Delta   _ { \theta   } \\Z_ { \theta   } \end { p m a t r i x } } . }

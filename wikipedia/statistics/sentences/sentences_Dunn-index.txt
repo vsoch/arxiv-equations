@@ -1,5 +1,0 @@
-\Delta   _ { i } = { \underset     { x , y \in   C _ { i } } { { \text { m a x } } } } d ( x , y )
-{ \displaystyle   \Delta   _ { i } = { \dfrac   { 1 } { | C _ { i } | ( | C _ { i } | - 1 ) } } { \underset   { x , y \in   C _ { i } , x \neq   y } { \sum   } } d ( x , y ) }
-\Delta   _ { i } = { \dfrac     { { \underset     { x \in   C _ { i } } { \sum   } } d ( x , \mu   ) } { | C _ { i } | } } , \mu   = { \dfrac     { { \underset     { x \in   C _ { i } } { \sum   } } x } { | C _ { i } | } }
-\delta   ( C _ { i } , C _ { j } )
-  \mathit { D I } _ m   =   \frac {   \underset {   1   \leqslant   i   <   j   \leqslant   m } { \text { m i n } }   \left . \delta ( C _ i , C _ j ) \right . } {   \underset {   1   \leqslant   k   \leqslant   m } { \text { m a x } }   \left . \Delta_k \right . }  

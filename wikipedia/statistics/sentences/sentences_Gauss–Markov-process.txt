@@ -1,5 +1,0 @@
-{ \textbf     { E } } ( X ^ { { 2 } } ( t ) ) = \sigma   ^ { { 2 } }
-\beta   ^ { { - 1 } }
-{ \textbf     { R } } _ { { x } } ( \tau   ) = \sigma   ^ { { 2 } } e ^ { { - \beta   | \tau   | } } . \ ,
-{ \textbf     { S } } _ { { x } } ( j \omega   ) = { \frac     { 2 \sigma   ^ { { 2 } } \beta   } { \omega   ^ { { 2 } } + \beta   ^ { { 2 } } } } . \ ,
-{ \textbf     { S } } _ { { x } } ( s ) = { \frac     { 2 \sigma   ^ { { 2 } } \beta   } { - s ^ { { 2 } } + \beta   ^ { { 2 } } } } = { \frac     { { \sqrt     { 2 \beta   } } \,\sigma   } { ( s + \beta   ) } } \cdot   { \frac     { { \sqrt     { 2 \beta   } } \,\sigma   } { ( - s + \beta   ) } } .

@@ -1,6 +1,0 @@
-m
-n
-m
-n
-m \times   n
-( m \times   n ) / t

@@ -1,6 +1,0 @@
-\mu  
-\mu  
-{ \displaystyle   3 5 \leq   \mu   \leq   4 5 }
-\mathrm { P r } ( x | \mu )   =   f ( x   -   \mu )
-\mathrm { P r } ( x | s )   =   f ( x / s )
-\mathrm { P r } ( s | I )   \;\propto \; 1 / s

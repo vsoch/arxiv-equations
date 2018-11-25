@@ -1,3 +1,0 @@
-\scriptstyle   d ^ { * } _ { i j }
-\scriptstyle   d ^ { } _ { i j }
-E   =   \frac { 1 } { \sum \limits_ { i < j } d ^ { * } _ { i j } } \sum_ { i < j } \frac { ( d ^ { * } _ { i j } - d _ { i j } ) ^ 2 } { d ^ { * } _ { i j } } .

@@ -1,3 +1,0 @@
-{ \displaystyle   \mathrm   { H Q C }   = - 2 L _ { m a x } + 2 k \ln ( \ln ( n ) ) , \   }
-{ \displaystyle   L _ { m a x } }
-{ \displaystyle   \ln   \ln   n }

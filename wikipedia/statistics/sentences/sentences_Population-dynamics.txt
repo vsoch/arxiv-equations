@@ -1,9 +1,0 @@
-{ \dfrac   { d N } { d t } } { \dfrac   { 1 } { N } } = r
-d N / d t
-N _ { t + 1 } = \lambda   N _ { t }
-{ \dfrac   { d N } { d T } } = r N
-{ \dfrac   { d N } { d T } }
-{ \dfrac   { d N } { d T } } = r N { \Big   ( } 1 - { \dfrac   { N } { K } } { \Big   ) }
-{ \Big   ( } 1 - { \dfrac   { N } { K } } { \Big   ) }
-N _ { t + 1 } = N _ { t } + r N _ { t } ( 1 - { N _ { t } / K } )
-N _ { 1 } = N _ { 0 } + B - D + I - E

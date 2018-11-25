@@ -1,1 +1,0 @@
-f ( x ; x _ { 0 } , \lambda   , k ) = { \begin { c a s e s } { \frac     { k } { \lambda   } } \left ( { \frac     { x - x _ { 0 } } { \lambda   } } \right ) ^ { { k - 1 } } e ^ { { - ( ( x - x _ { 0 } ) / \lambda   ) ^ { { k } } } } & x \geq   x _ { 0 } , \\0 & x < x _ { 0 } , \end { c a s e s } }

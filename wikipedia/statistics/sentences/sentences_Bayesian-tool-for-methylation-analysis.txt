@@ -1,2 +1,0 @@
-{ \displaystyle   f ( A \mid   m ) = \prod   _ { p } \phi   \left ( A _ { p } \mid   A _ { \text { b a s e } } + r \sum   _ { c } C _ { c p } , \nu   ^ { - 1 } \right ) , }
-\phi  
