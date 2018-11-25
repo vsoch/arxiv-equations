@@ -3,6 +3,7 @@
 import os
 import pickle
 from glob import glob
+from helpers import extract_tokens
 
 ################################################################################
 # Step 1. Extract equation sentences, write to file tokenized (separated by space)
@@ -10,32 +11,6 @@ from glob import glob
 # Here we want to parse the equations to build a word2vec model based on equation symbols
 equations = pickle.load(open('wikipedia-equations.pkl', 'rb'))
 
-# We want to represent known symbols (starting with //) as words, the rest characters
-
-def extract_tokens(tex):
-    '''walk through a LaTeX string, and grab chunks that correspond with known
-       identifiers, meaning anything that starts with \ and ends with one or
-       more whitespaces, a bracket, a ^ or underscore.
-    '''
-    regexp = r'\\(.*?)(\w+|\{|\(|\_|\^)'
-    tokens = []
-    while re.search(regexp, tex) and len(tex) > 0:
-        match = re.search(regexp, tex)
-        # Only take the chunk if it's starting at 0
-        if match.start() == 0:
-            tokens.append(tex[match.start():match.end()])
-            # And update the string
-            tex = tex[match.end():]
-        # Otherwise, add the next character to the tokens list
-        else:
-            tokens.append(tex[0])
-            tex = tex[1:]
-
-    # When we get down here, the regexp doesn't match anymore! Add remaining
-    if len(tex) > 0:
-        tokens = tokens + [t for t in tex]
-    return tokens
-            
 # Word2vec Input sentences -----------------------------------------------------
 # First save sentences to one massive file! This will be for word2vec
 # Note - I did a check to ensure no empty token lists were returned
@@ -79,6 +54,8 @@ for method, equation_list in equations.items():
     with open(filename, "w") as filey:
         for equation in equation_list:
             tex = equation["tex"].replace('\n',' ')
+            # Note - we wouldn't need to do this anymore, I added an EquationTraining
+            # class to wordfish.analysis
             tokens = extract_tokens(tex)
             characters = " ".join(tokens)
             filey.write("%s\n" % characters)
@@ -142,8 +119,3 @@ export_vectors(models, vectors_dir)
 # Save a similarity matrix (this takes some time)
 simmat = extract_similarity_matrix(models['equations_word2vec'])
 simmat.to_csv('%s/equations_word2vex_similarities.tsv' %output_dir, sep='\t')
-
-
-################################################################################
-# Step 4. Use character embeddings to derive vector for each 
-# STOPPED HERE - need to next save a vector representation for each full equation

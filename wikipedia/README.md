@@ -59,10 +59,13 @@ understand what it's doing yet.
 
 ## 5. Map Equations to Embedding Space
 
-I have two choices now. I can either take the average of some set of equation vectors that I've derived for
+I had two choices now. I could either take the average of some set of equation vectors that I derived for
 a topic, **or** work in a space with all the vectors (and labels to describe multiple cases of the same topic).
-I think I want to try the latter first, because taking some kind of average could dilute the signal.
-So as a first sanity check, I'd want to see that equations from the same topic are similar, meaning
+I decided to work with all the vectors and labels because taking some kind of average could dilute the signal.
+The following steps are done in the script [2.generateEmbeddings.py](2.generateEmbeddings.py).
+
+### Are equations from the same topic similar?
+As a first sanity check, I'd want to see that equations from the same topic are similar, meaning
 that their topics cluster together. So I will do the following:
 
  - Start with character embeddings that are derived across entire set of equations, across all topics
