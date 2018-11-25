@@ -1,0 +1,20 @@
+T ( F _ { n } )
+( F _ { n } )
+T ( F ) = \int   ( x - \mu   ) ^ { k } \,dF ( x )
+\mu   = E [ X ]
+T _ { n } = m _ { k } = T ( F _ { n } ) = { \frac   { 1 } { n } } \sum   _ { i = 1 } ^ { n } ( x _ { i } - { \overline   { x } } ) ^ { k } .
+T ( F ) = \sum   _ { i = 1 } ^ { k } { \frac   { ( \int   _ { A _ { i } } \,dF - p _ { i } ) ^ { 2 } } { p _ { i } } } ,
+T ( F ) = \int   ( F ( x ) - F _ { 0 } ( x ) ) ^ { 2 } \,w ( x ; F _ { 0 } ) \,dF_ { 0 } ( x ) ,
+w ( x ; F _ { 0 } ) = [ F _ { 0 } ( x ) ( 1 - F _ { 0 } ( x ) ) ] ^ { - 1 }
+V _ { m n } = { \frac   { 1 } { n ^ { m } } } \sum   _ { i _ { 1 } = 1 } ^ { n } \cdots   \sum   _ { i _ { m } = 1 } ^ { n } h ( x _ { i _ { 1 } } , x _ { i _ { 2 } } , \dots   , x _ { i _ { m } } ) ,
+V _ { 2 , n } = { \frac   { 1 } { n ^ { 2 } } } \sum   _ { i = 1 } ^ { n } \sum   _ { j = 1 } ^ { n } h ( x _ { i } , x _ { j } ) .
+V _ { 2 , n } = { \frac   { 1 } { n ^ { 2 } } } \sum   _ { i = 1 } ^ { n } \sum   _ { j = 1 } ^ { n } { \frac   { 1 } { 2 } } ( x _ { i } - x _ { j } ) ^ { 2 } = { \frac   { 1 } { n } } \sum   _ { i = 1 } ^ { n } ( x _ { i } - { \bar   { x } } ) ^ { 2 } ,
+s ^ { 2 } = { n   \choose   2 } ^ { - 1 } \sum   _ { i < j } { \frac   { 1 } { 2 } } ( x _ { i } - x _ { j } ) ^ { 2 } = { \frac   { 1 } { n - 1 } } \sum   _ { i = 1 } ^ { n } ( x _ { i } - { \bar   { x } } ) ^ { 2 }
+\sigma   ^ { 2 }
+( \mu   _ { 4 } - \sigma   ^ { 4 } ) / n
+\mu   _ { 4 } = E ( X - E ( X ) ) ^ { 4 }
+E [ h ^ { 2 } ( X _ { 1 } , X _ { 2 } ) ] < \infty   , \,E | h ( X _ { 1 } , X _ { 1 } ) | < \infty   ,
+E [ h ( x , X _ { 1 } ) ] \equiv   0
+n V _ { 2 , n } { \stackrel   { d } { \longrightarrow   } } \sum   _ { k = 1 } ^ { \infty   } \lambda   _ { k } Z _ { k } ^ { 2 } ,
+Z _ { k }
+\lambda   _ { k }

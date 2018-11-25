@@ -1,4 +1,0 @@
-\sum { ( | A   -   F | ) } \over \sum { A }
-A
-F
-M A P E   =   \frac { \sum ( w \cdot | A - F | ) } { \sum ( w \cdot   A ) }

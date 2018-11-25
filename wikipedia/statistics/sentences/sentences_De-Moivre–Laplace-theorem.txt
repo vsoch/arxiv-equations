@@ -1,0 +1,41 @@
+n
+p
+n
+n p
+{ \displaystyle   { \sqrt   { n p ( 1 - p ) } } }
+n
+p
+{ \displaystyle   0 }
+1
+{ n   \choose   k } \, p ^ k   q ^ { n - k }   \simeq   \frac { 1 } { \sqrt { 2   \pi   n p q } } \,e ^ { - \frac { ( k - n p ) ^ 2 } { 2 n p q } } ,   \qquad   p + q = 1 , \ p ,   q   >   0
+{ \displaystyle   \left ( X \!\,-\!\,np \right ) \!/\!{ \sqrt   { n p q } } }
+\textstyle   X
+{ \displaystyle   n \!\to   \!\infty   }
+X
+c
+X
+k
+{ \displaystyle   k = n p + c { \sqrt   { n p q } } }
+c
+k
+\mu  
+\sigma  
+{ \displaystyle   f ' \!( x ) \!=\!-\!\,{ \frac   { x - \mu   } { \sigma   ^ { 2 } } } f ( x ) }
+{ \displaystyle   \int   _ { - \infty   } ^ { \infty   } \!f ( x ) \,dx \!=\!1 }
+{ \displaystyle   \textstyle   p ( k \!+\!1 ) \!-\!p ( k ) }
+{ \displaystyle   \textstyle   n \!\to   \!\infty   }
+{ \displaystyle   { \frac   { f ' \!( x ) } { f \!( x ) } } \!\cdot   \!-\!\,{ \frac   { \sigma   ^ { 2 } } { x - \mu   } } \!\to   \!1 }
+{ \displaystyle   n \!\to   \!\infty   }
+{ \displaystyle   { \begin { a l i g n e d } { \frac   { f ' \!( x ) } { f \!( x ) } } { \frac   { n p q } { n p \!\,-\!\,k } } \!&={ \frac   { p \left ( n , k + 1 \right ) - p \left ( n , k \right ) } { p \left ( n , k \right ) } } { \frac   { \sqrt   { n p q } } { - c } } \\&={ \frac   { n p - k - q } { k q + q } } { \frac   { \sqrt   { n p q } } { - c } } \\&={ \frac   { - c { \sqrt   { n p q } } - q } { n p q + c q { \sqrt   { n p q } } + q } } { \frac   { \sqrt   { n p q } } { - c } } \\&\to   1 \end { a l i g n e d } } }
+{ \displaystyle   - c n p q }
+{ \displaystyle   n \!\to   \!\infty   }
+\textstyle   k
+\textstyle   c
+{ \displaystyle   \textstyle   { 0 . 5 } / \!{ \sqrt   { n p q } } }
+n !   \simeq     n ^ n   e ^ { - n } \sqrt { 2   \pi   n } \qquad   \text { a s   }   n   \to   \infty .
+{ \begin { a l i g n e d } { n   \choose   k } p ^ { k } q ^ { { n - k } } & = { \frac     { n ! } { k ! ( n - k ) ! } } p ^ { k } q ^ { { n - k } } \\&\simeq   { \frac     { n ^ { n } e ^ { { - n } } { \sqrt     { 2 \pi   n } } } { k ^ { k } e ^ { { - k } } { \sqrt     { 2 \pi   k } } ( n - k ) ^ { { n - k } } e ^ { { - ( n - k ) } } { \sqrt     { 2 \pi   ( n - k ) } } } } p ^ { k } q ^ { { n - k } } \\&={ \sqrt     { { \frac     { n } { 2 \pi   k \left ( n - k \right ) } } } } { \frac     { n ^ { n } } { k ^ { k } \left ( n - k \right ) ^ { { n - k } } } } p ^ { k } q ^ { { n - k } } \\&={ \sqrt     { { \frac     { n } { 2 \pi   k \left ( n - k \right ) } } } } \left ( { \frac     { n p } { k } } \right ) ^ { k } \left ( { \frac     { n q } { n - k } } \right ) ^ { { n - k } } \end { a l i g n e d } }
+{ \tfrac     { k } { n } } \to   p
+{ \begin { a l i g n e d } { n   \choose   k } p ^ { k } q ^ { { n - k } } & \simeq   { \sqrt     { { \frac     { 1 } { 2 \pi   n { \frac     { k } { n } } \left ( 1 - { \frac     { k } { n } } \right ) } } } } \left ( { \frac     { n p } { k } } \right ) ^ { { k } } \left ( { \frac     { n q } { n - k } } \right ) ^ { { n - k } } \\&\simeq   { \frac     { 1 } { { \sqrt     { 2 \pi   n p q } } } } \left ( { \frac     { n p } { k } } \right ) ^ { { k } } \left ( { \frac     { n q } { n - k } } \right ) ^ { { n - k } } \qquad   p + q = 1 \\\end { a l i g n e d } }
+{ \displaystyle   \ln   \left ( 1 + x \right ) \simeq   x - { \frac   { x ^ { 2 } } { 2 } } + { \frac   { x ^ { 3 } } { 3 } } - \cdots   }
+{ \displaystyle   { \begin { a l i g n e d } { n   \choose   k } p ^ { k } q ^ { n - k } & \simeq   { \frac   { 1 } { \sqrt   { 2 \pi   n p q } } } \exp   \left \{ \ln   \left ( \left ( { \frac   { n p } { k } } \right ) ^ { k } \right ) + \ln   \left ( \left ( { \frac   { n q } { n - k } } \right ) ^ { n - k } \right ) \right \}\\&={ \frac   { 1 } { \sqrt   { 2 \pi   n p q } } } \exp   \left \{ - k \ln   \left ( { \frac   { k } { n p } } \right ) + ( k - n ) \ln   \left ( { \frac   { n - k } { n q } } \right ) \right \}\\&={ \frac   { 1 } { \sqrt   { 2 \pi   n p q } } } \exp   \left \{ - k \ln   \left ( { \frac   { n p + x { \sqrt   { n p q } } } { n p } } \right ) + ( k - n ) \ln   \left ( { \frac   { n - n p - x { \sqrt   { n p q } } } { n q } } \right ) \right \}\\&={ \frac   { 1 } { \sqrt   { 2 \pi   n p q } } } \exp   \left \{ - k \ln   \left ( { 1 + x { \sqrt   { \frac   { q } { n p } } } } \right ) + ( k - n ) \ln   \left ( { 1 - x { \sqrt   { \frac   { p } { n q } } } } \right ) \right \}\qquad   p + q = 1 \\&={ \frac   { 1 } { \sqrt   { 2 \pi   n p q } } } \exp   \left \{ - k \left ( { x { \sqrt   { \frac   { q } { n p } } } } - { \frac   { x ^ { 2 } q } { 2 n p } } + \cdots   \right ) + ( k - n ) \left ( { - x { \sqrt   { \frac   { p } { n q } } } - { \frac   { x ^ { 2 } p } { 2 n q } } } - \cdots   \right ) \right \}\\&={ \frac   { 1 } { \sqrt   { 2 \pi   n p q } } } \exp   \left \{ \left ( - n p - x { \sqrt   { n p q } } \right ) \left ( { x { \sqrt   { \frac   { q } { n p } } } } - { \frac   { x ^ { 2 } q } { 2 n p } } + \cdots   \right ) + \left ( n p + x { \sqrt   { n p q } } - n \right ) \left ( - x { \sqrt   { \frac   { p } { n q } } } - { \frac   { x ^ { 2 } p } { 2 n q } } - \cdots   \right ) \right \}\\&={ \frac   { 1 } { \sqrt   { 2 \pi   n p q } } } \exp   \left \{ \left ( - n p - x { \sqrt   { n p q } } \right ) \left ( x { \sqrt   { \frac   { q } { n p } } } - { \frac   { x ^ { 2 } q } { 2 n p } } + \cdots   \right ) - \left ( n q - x { \sqrt   { n p q } } \right ) \left ( - x { \sqrt   { \frac   { p } { n q } } } - { \frac   { x ^ { 2 } p } { 2 n q } } - \cdots   \right ) \right \}\\&={ \frac   { 1 } { \sqrt   { 2 \pi   n p q } } } \exp   \left \{ \left ( - x { \sqrt   { n p q } } + { \frac   { 1 } { 2 } } x ^ { 2 } q - x ^ { 2 } q + \cdots   \right ) + \left ( x { \sqrt   { n p q } } + { \frac   { 1 } { 2 } } x ^ { 2 } p - x ^ { 2 } p - \cdots   \right ) \right \}\\&={ \frac   { 1 } { \sqrt   { 2 \pi   n p q } } } \exp   \left \{ - { \frac   { 1 } { 2 } } x ^ { 2 } q - { \frac   { 1 } { 2 } } x ^ { 2 } p - \cdots   \right \}\\&={ \frac   { 1 } { \sqrt   { 2 \pi   n p q } } } \exp   \left \{ - { \frac   { 1 } { 2 } } x ^ { 2 } ( p + q ) - \cdots   \right \}\\&\simeq   { \frac   { 1 } { \sqrt   { 2 \pi   n p q } } } \exp   \left \{ - { \frac   { 1 } { 2 } } x ^ { 2 } \right \}\\&={ \frac   { 1 } { \sqrt   { 2 \pi   n p q } } } e ^ { \frac   { - ( k - n p ) ^ { 2 } } { 2 n p q } } \\\end { a l i g n e d } } }
+\simeq  

@@ -1,0 +1,23 @@
+y _ { { i t } } = y _ { { - i , t } } ' \gamma   _ { i } + x _ { { i t } } ' \;\!\beta   _ { i } + u _ { { i t } } , \quad   i = 1 , \ldots   , m ,
+y _ { i } = Y _ { { - i } } \gamma   _ { i } + X _ { i } \beta   _ { i } + u _ { i } , \quad   i = 1 , \ldots   , m ,
+Y \Gamma   = X \mathrm { B }   + U . \ ,
+Y = X \mathrm { B }   \Gamma   ^ { { - 1 } } + U \Gamma   ^ { { - 1 } } = X \Pi   + V . \ ,
+\scriptstyle   { \hat     \Pi   }
+\scriptstyle   { \frac     1 T } X ' \!X
+\scriptstyle   { \hat     { Y } } _ { { \!-i } }
+\scriptstyle   { \hat     { Y } } _ { { \!-i } }
+y _ { i } = { \begin { p m a t r i x } Y _ { { - i } } & X _ { i } \end { p m a t r i x } } { \begin { p m a t r i x } \gamma   _ { i } \\\beta   _ { i } \end { p m a t r i x } } + u _ { i } \equiv   Z _ { i } \delta   _ { i } + u _ { i } ,
+{ \hat     \delta   } _ { i } = { \big   ( } { \hat     { Z } } ' _ { i } { \hat     { Z } } _ { i } { \big   ) } ^ { { - 1 } } { \hat     { Z } } ' _ { i } y _ { i } = { \big   ( } Z ' _ { i } P Z _ { i } { \big   ) } ^ { { - 1 } } Z ' _ { i } P y _ { i } ,
+y _ { i } = Y _ { { - i } } \gamma   _ { i } + X _ { i } \beta   _ { i } + u _ { i } \equiv   Z _ { i } \delta   _ { i } + u _ { i }
+{ \displaystyle   Y _ { - i } = X \Pi   + U _ { - i } }
+Y _ { { - i } }
+X _ { { - i } }
+X
+Z
+{ \hat     \delta   } _ { i } = { \Big   ( } Z ' _ { i } ( I - \lambda   M ) Z _ { i } { \Big   ) } ^ { { \!-1 } } Z ' _ { i } ( I - \lambda   M ) y _ { i } ,
+{ \Big   ( } { \begin { b m a t r i x } y _ { i } \\Y_ { { - i } } \end { b m a t r i x } } M _ { i } { \begin { b m a t r i x } y _ { i } & Y _ { { - i } } \end { b m a t r i x } } { \Big   ) } { \Big   ( } { \begin { b m a t r i x } y _ { i } \\Y_ { { - i } } \end { b m a t r i x } } M { \begin { b m a t r i x } y _ { i } & Y _ { { - i } } \end { b m a t r i x } } { \Big   ) } ^ { { \!-1 } }
+{ \Big   | } { \begin { b m a t r i x } y _ { i } & Y _ { { - i } } \end { b m a t r i x } } ' M _ { i } { \begin { b m a t r i x } y _ { i } & Y _ { { - i } } \end { b m a t r i x } } - \lambda   { \begin { b m a t r i x } y _ { i } & Y _ { { - i } } \end { b m a t r i x } } ' M { \begin { b m a t r i x } y _ { i } & Y _ { { - i } } \end { b m a t r i x } } { \Big   | } = 0
+{ \hat     \delta   } = { \Big   ( } Z ' ( I - \kappa   M ) Z { \Big   ) } ^ { { \!-1 } } Z ' ( I - \kappa   M ) y ,
+\delta   = { \begin { b m a t r i x } \beta   _ { i } & \gamma   _ { i } \end { b m a t r i x } }
+Z = { \begin { b m a t r i x } X _ { i } & Y _ { { - i } } \end { b m a t r i x } }
+I - \kappa   M = I - M = P

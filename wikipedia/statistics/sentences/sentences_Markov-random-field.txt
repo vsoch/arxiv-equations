@@ -1,0 +1,58 @@
+G = ( V , E )
+{ \displaystyle   X = ( X _ { v } ) _ { v \in   V } }
+V
+G
+{ \displaystyle   X _ { u } \perp   \!\!\!\perp   X _ { v } \mid   X _ { V \setminus   \{ u , v \ } } }
+{ \displaystyle   X _ { v } \perp   \!\!\!\perp   X _ { V \setminus   \operatorname   { N }   [ v ] } \mid   X _ { \operatorname   { N }   ( v ) } }
+{ \textstyle   \operatorname   { N }   ( v ) }
+v
+{ \displaystyle   \operatorname   { N }   [ v ] = v \cup   \operatorname   { N }   ( v ) }
+v
+X _ A   \perp \!\!\!\perp   X _ B   \mid   X _ S
+A
+B
+S
+{ \displaystyle   X = ( X _ { v } ) _ { v \in   V } }
+P ( X = x )
+x
+X
+P ( X = x )
+X
+x
+X
+x
+{ \displaystyle   X _ { v } }
+G
+P ( X = x )   =   \prod_ { C   \in   \operatorname { c l } ( G ) }   \phi_C   ( x _ C )  
+X
+G
+{ \displaystyle   \operatorname   { c l }   ( G ) }
+G
+{ \displaystyle   x _ { C } }
+V
+f _ { k }
+  P ( X = x )   =   \frac { 1 } { Z }   \exp   \left (   \sum_ { k }   w _ k ^ { \top }   f _ k   ( x _ {   \{   k   \}}) \right )
+  w _ k ^ { \top }   f _ k   ( x _ {   \{   k   \}}) = \sum_ { i = 1 } ^ { N _ k }   w _ { k , i }   \cdot   f _ { k , i } ( x _ { \{ k \ } } )
+  Z   =   \sum_ { x   \in   \mathcal { X } }   \exp   \left ( \sum_ { k }   w _ k ^ { \top }   f _ k ( x _ {   \{   k   \} })\right ) .
+{ \mathcal   { X } }
+f _ { k , i }
+f _ { k , i } ( x _ { \{ k \}}) = 1
+x _ { \{ k \ } }
+N _ k = | \operatorname { d o m } ( C _ k ) |
+f _ { k , i }
+w _ { k , i }   =   \log   \phi ( c _ { k , i } )
+c _ { k , i }
+C _ { k }
+{ \mathcal   { X } }
+  Z [ J ]   =   \sum_ { x   \in   \mathcal { X } }   \exp   \left ( \sum_ { k }   w _ k ^ { \top }   f _ k ( x _ {   \{   k   \} }) + \sum_v   J _ v   x _ v \right )
+E [ X _ v ]   =   \frac { 1 } { Z }   \left . \frac { \partial   Z [ J ] } { \partial   J _ v } \right | _ { J _ v = 0 } .
+C [ X _ u ,   X _ v ]   =   \frac { 1 } { Z }   \left . \frac { \partial ^ 2   Z [ J ] } { \partial   J _ u   \partial   J _ v } \right | _ { J _ u = 0 ,   J _ v = 0 } .
+G = ( V , E )
+X = ( X _ v ) _ { v \in   V }   \sim   \mathcal   N   ( \boldsymbol   \mu ,   \Sigma )  
+{ \displaystyle   ( \Sigma   ^ { - 1 } ) _ { u v } = 0 \quad   { \text { i f f } } \quad   \{ u , v \}\notin   E . }
+  V '   =   \{   v _ 1   , \ldots ,   v _ i   \ }  
+  W '   =   \{   w _ 1   , \ldots ,   w _ j   \ }  
+u   \notin   V ' , W '
+o
+\phi   _ { k }
+o

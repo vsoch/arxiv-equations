@@ -1,0 +1,56 @@
+Q ( x )
+x
+Q ( x )
+x
+Y
+\mu  
+\sigma   ^ { 2 }
+{ \displaystyle   X = { \frac   { Y - \mu   } { \sigma   } } }
+{ \displaystyle   P ( Y > y ) = P ( X > x ) = Q ( x ) }
+{ \displaystyle   x = { \frac   { y - \mu   } { \sigma   } } }
+Q ( x )   =   \frac { 1 } { \sqrt { 2 \pi } }   \int_x ^ \infty   \exp \left ( - \frac { u ^ 2 } { 2 } \right )   \, du .
+Q ( x )   =   1   -   Q ( - x )   =   1   -   \Phi ( x ) \ , \ ! ,
+\Phi   ( x )
+{ \begin { a l i g n e d } Q ( x ) & = { \frac     { 1 } { 2 } } \left ( { \frac     { 2 } { { \sqrt     { \pi   } } } } \int   _ { { x / { \sqrt     { 2 } } } } ^ { \infty   } \exp   \left ( - t ^ { 2 } \right ) \,dt \right ) \\&={ \frac     { 1 } { 2 } } - { \frac     { 1 } { 2 } } \operatorname   { e r f } \left ( { \frac     { x } { { \sqrt     { 2 } } } } \right ) ~ ~ { \text {   - o r - } } \\&={ \frac     { 1 } { 2 } } \operatorname   { e r f c } \left ( { \frac     { x } { { \sqrt     { 2 } } } } \right ) . \end { a l i g n e d } }
+Q ( x )   =   \frac { 1 } { \pi }   \int_0 ^ { \frac { \pi } { 2 } }   \exp   \left (   -   \frac { x ^ 2 } { 2   \sin ^ 2   \theta }   \right )   d \theta .
+\phi   ( x )
+\left ( { \frac     { x } { 1 + x ^ { 2 } } } \right ) \phi   ( x ) < Q ( x ) < { \frac     { \phi   ( x ) } { x } } , \qquad   x > 0 ,
+Q ( x ) = \int   _ { x } ^ { \infty   } \phi   ( u ) \,du < \int   _ { x } ^ { \infty   } { \frac     u x } \phi   ( u ) \,du = \int   _ { { { \frac     { x ^ { 2 } } { 2 } } } } ^ { \infty   } { \frac     { e ^ { { - v } } } { x { \sqrt     { 2 \pi   } } } } \,dv = - { \biggl   . } { \frac     { e ^ { { - v } } } { x { \sqrt     { 2 \pi   } } } } { \biggr   | } _ { { { \frac     { x ^ { 2 } } { 2 } } } } ^ { \infty   } = { \frac     { \phi   ( x ) } { x } } .
+\phi   ' ( u ) = - u \phi   ( u )
+\left ( 1 + { \frac     1 { x ^ { 2 } } } \right ) Q ( x ) = \int   _ { x } ^ { \infty   } \left ( 1 + { \frac     1 { x ^ { 2 } } } \right ) \phi   ( u ) \,du > \int   _ { x } ^ { \infty   } \left ( 1 + { \frac     1 { u ^ { 2 } } } \right ) \phi   ( u ) \,du = - { \biggl   . } { \frac     { \phi   ( u ) } u } { \biggr   | } _ { x } ^ { \infty   } = { \frac     { \phi   ( x ) } x } .
+{ \displaystyle   Q ( x ) \approx   { \frac   { \phi   ( x ) } { \sqrt   { 1 + x ^ { 2 } } } } , \qquad   x \geq   0 . }
+{ \displaystyle   Q _ { a } ( x ) = { \frac   { \phi   ( x ) } { ( 1 - a ) x + a { \sqrt   { x ^ { 2 } + b } } } } . }
+x \geq   0
+{ \displaystyle   a = 0 . 3 4 4 }
+{ \displaystyle   b = 5 . 3 3 4 }
+{ \displaystyle   a = 0 . 3 3 9 }
+{ \displaystyle   b = 5 . 5 1 0 }
+{ \displaystyle   a = 1 / \pi   }
+{ \displaystyle   b = 2 \pi   }
+Q ( x ) \leq   e ^ { - \frac { x ^ 2 } { 2 } } ,   \qquad   x > 0
+Q ( x ) \leq   \tfrac { 1 } { 4 } e ^ { - x ^ 2 } + \tfrac { 1 } { 4 } e ^ { - \frac { x ^ 2 } { 2 } }   \leq   \tfrac { 1 } { 2 } e ^ { - \frac { x ^ 2 } { 2 } } ,   \qquad   x > 0
+Q ( x ) \approx   \frac { 1 } { 1 2 } e ^ { - \frac { x ^ 2 } { 2 } } + \frac { 1 } { 4 } e ^ { - \frac { 2 } { 3 }   x ^ 2 } ,   \qquad   x > 0  
+Q ( x )
+{ \displaystyle   x \in   [ 0 , \infty   ) }
+\{ A , B \ }
+{ \displaystyle   f ( x ; A , B ) = { \frac   { \left ( 1 - e ^ { - A x } \right ) e ^ { - x ^ { 2 } } } { B { \sqrt   { \pi   } } x } } \approx   \operatorname   { e r f c }   \left ( x \right ) . }
+{ \displaystyle   f ( x ; A , B ) }
+{ \displaystyle   \operatorname   { e r f c }   ( x ) }
+{ \displaystyle   [ 0 , R ] }
+{ \displaystyle   \{ A , B \}={ \underset   { \{ A , B \}}{ \arg   \min   } } { \frac   { 1 } { R } } \int   _ { 0 } ^ { R } | f ( x ; A , B ) - \operatorname   { e r f c }   ( x ) | d x . }
+{ \displaystyle   R = 2 0 }
+{ \displaystyle   \{ A , B \}=\{ 1 . 9 8 , 1 . 1 3 5 \ } , }
+{ \displaystyle   \forall   x \geq   0 . }
+Q ( x )
+{ \displaystyle   \operatorname   { e r f c }   ( x ) }
+{ \displaystyle   Q ( x ) \approx   { \frac   { \left ( 1 - e ^ { - 1 . 4 x } \right ) e ^ { - { \frac   { x ^ { 2 } } { 2 } } } } { 1 . 1 3 5 { \sqrt   { 2 \pi   } } x } } , x \geq   0 . }
+{ \displaystyle   Q ^ { - 1 } ( y ) = { \sqrt   { 2 } } \ \mathrm   { e r f }   ^ { - 1 } ( 1 - 2 y ) = { \sqrt   { 2 } } \ \mathrm   { e r f c }   ^ { - 1 } ( 2 y ) }
+{ \displaystyle   Q ^ { - 1 } ( y ) }
+{ \displaystyle   \mathrm   { Q { \text { - } } f a c t o r }   = 2 0 \log   _ { 1 0 } \!\left ( Q ^ { - 1 } ( y ) \right ) \!~\mathrm   { d B }   }
+{ \displaystyle   Q ( \mathbf   { x }   ) = \mathbb   { P }   ( \mathbf   { X }   \geq   \mathbf   { x }   ) , }
+{ \displaystyle   \mathbf   { X }   \sim   { \mathcal   { N } } ( \mathbf   { 0 }   , \,\Sigma   ) }
+\Sigma  
+{ \displaystyle   \mathbf   { x }   = \gamma   \Sigma   \mathbf   { l }   ^ { * } }
+{ \displaystyle   \mathbf   { l }   ^ { * } > \mathbf   { 0 }   }
+\gamma   > 0
+\gamma  

@@ -1,0 +1,4 @@
+{ \displaystyle   { \begin { a r r a y } { r | l } { \text { S t e m } } & { \text { L e a f } } \\\hline   4 & 4 ~ 6 ~ 7 ~ 9 \\5 & \\6 & 3 ~ 4 ~ 6 ~ 8 ~ 8 \\7 & 2 ~ 2 ~ 5 ~ 6 \\8 & 1 ~ 4 ~ 8 \\9 & \\10 & 6 \end { a r r a y } } }
+{ \displaystyle   6 \mid   3 = 6 3 }
+{ \displaystyle   { \begin { a r r a y } { r | l } { \text { S t e m } } & { \text { L e a f } } \\\hline   - 2 & 4 \\-1 & 2 \\-0 & 3 \\0 & 4 ~ 6 ~ 6 \\1 & 7 \\2 & 5 \\3 & \\4 & \\5 & 7 \end { a r r a y } } }
+{ \displaystyle   - 2 \mid   4 = - 2 4 }

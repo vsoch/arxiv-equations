@@ -1,0 +1,3 @@
+          \max_ { \pi_ { i } ,   \theta }   \sum_ { i = 1 } ^ n   \ln   \pi_ { i }        
+            s . t .   \sum_ { i = 1 } ^ n   \pi_ { i }   =   1 ,   \sum_ { i = 1 } ^ n   \pi_ { i }   h ( y _ { i } ; \theta )   =   0    
+      \mathcal { L }   =   \sum_ { i = 1 } ^ n   \ln   \pi_ { i }   +   \mu   ( 1 -   \sum_ { i = 1 } ^ n   \pi_ { i } ) - n \tau '   \sum_ { i = 1 } ^ n   \pi_ { i }   h ( y _ { i } ; \theta )  

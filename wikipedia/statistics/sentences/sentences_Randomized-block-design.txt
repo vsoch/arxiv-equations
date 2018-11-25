@@ -1,0 +1,12 @@
+\vdots  
+\vdots  
+\vdots  
+\cdots  
+\vdots  
+Y _ { i j } = \mu   + T _ { i } + B _ { j } + \mathrm   { r a n d o m \ error }  
+{ \overline   { Y } }
+{ \overline   { Y } } _ { i \cdot   } - { \overline   { Y } }
+{ \overline   { Y } } _ { i \cdot   }
+{ \overline   { Y } } _ { \cdot   j } - { \overline   { Y } }
+{ \overline   { Y } } _ { \cdot   j }
+\operatorname   { V a r }   ( X - Y ) = \operatorname   { V a r }   ( X ) + \operatorname   { V a r }   ( Y ) - 2 \operatorname   { C o v }   ( X , Y ) .

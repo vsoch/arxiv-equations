@@ -1,6 +1,0 @@
-C = \sum   _ { i = 1 } ^ { r } c _ { i } \mu   _ { i }
-\sum   _ { i = 1 } ^ { r } c _ { i } = 0 .
-{ \hat   { C } } = \sum   _ { i = 1 } ^ { r } c _ { i } { \bar   { Y } } _ { i }
-s _ { \hat   { C } } ^ { 2 } = { \hat   { \sigma   } } _ { e } ^ { 2 } \sum   _ { i = 1 } ^ { r } { \frac   { c _ { i } ^ { 2 } } { n _ { i } } } ,
-{ \hat   { \sigma   } } _ { e } ^ { 2 }
-{ \hat   { C } } \pm   \,s_ { \hat   { C } } { \sqrt   { \left ( r - 1 \right ) F _ { \alpha   ; r - 1 ; N - r } } }

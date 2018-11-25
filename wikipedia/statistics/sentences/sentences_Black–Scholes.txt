@@ -1,0 +1,122 @@
+S ( t )
+V ( S , t )
+C ( S , t )
+P ( S , t )
+K
+r
+\mu  
+S
+\sigma  
+t
+{ \displaystyle   = 0 }
+{ \displaystyle   = T }
+\Pi  
+N ( x )
+N ( x ) = { \frac   { 1 } { \sqrt   { 2 \pi   } } } \int   _ { - \infty   } ^ { x } e ^ { - { \frac   { z ^ { 2 } } { 2 } } } \,dz
+N ' ( x )
+N ' ( x ) = { \frac   { 1 } { \sqrt   { 2 \pi   } } } e ^ { - { \frac   { x ^ { 2 } } { 2 } } }
+{ \frac   { \partial   V } { \partial   t } } + { \frac   { 1 } { 2 } } \sigma   ^ { 2 } S ^ { 2 } { \frac   { \partial   ^ { 2 } V } { \partial   S ^ { 2 } } } + r S { \frac   { \partial   V } { \partial   S } } - r V = 0
+{ \displaystyle   { \begin { a l i g n e d } C ( S _ { t } , t ) & = N ( d _ { 1 } ) S _ { t } - N ( d _ { 2 } ) K e ^ { - r ( T - t ) } \\d_ { 1 } & = { \frac   { 1 } { \sigma   { \sqrt   { T - t } } } } \left [ \ln   \left ( { \frac   { S _ { t } } { K } } \right ) + \left ( r + { \frac   { \sigma   ^ { 2 } } { 2 } } \right ) ( T - t ) \right ] \\d_ { 2 } & = d _ { 1 } - \sigma   { \sqrt   { T - t } } \\\end { a l i g n e d } } }
+{ \displaystyle   { \begin { a l i g n e d } P ( S _ { t } , t ) & = K e ^ { - r ( T - t ) } - S _ { t } + C ( S _ { t } , t ) \\&=N ( - d _ { 2 } ) K e ^ { - r ( T - t ) } - N ( - d _ { 1 } ) S _ { t } \end { a l i g n e d } } \ , }
+N ( \cdot   )
+T - t
+S _ { t }
+K
+r
+\sigma  
+{ \displaystyle   { \begin { a l i g n e d } C ( F , \tau   ) & = D \left [ N ( d _ { + } ) F - N ( d _ { - } ) K \right ] \\d_ { \pm   } & = { \frac   { 1 } { \sigma   { \sqrt   { \tau   } } } } \left [ \ln   \left ( { \frac   { F } { K } } \right ) \pm   { \frac   { 1 } { 2 } } \sigma   ^ { 2 } \tau   \right ] \\d_ { \pm   } & = d _ { \mp   } \pm   \sigma   { \sqrt   { \tau   } } \end { a l i g n e d } } }
+\tau   = T - t
+D = e ^ { - r \tau   }
+F = e ^ { r \tau   } S = { \frac   { S } { D } }
+S = D F
+C - P = D ( F - K ) = S - D K
+P ( F , \tau   ) = D \left [ N ( - d _ { - } ) K - N ( - d _ { + } ) F \right ]
+N ( d _ { \pm   } )
+d _ { \pm   }
+d _ { + }
+C = D \left [ N ( d _ { + } ) F - N ( d _ { - } ) K \right ]
+C = D N ( d _ { + } ) F - D N ( d _ { - } ) K
+D N ( d _ { + } ) F
+D N ( d _ { - } ) K
+N ( d _ { + } ) ~ F
+N ( d _ { - } ) ~ K
+N ( d _ { + } ) F
+N ( d _ { + } )
+N ( d _ { - } ) K
+N ( d _ { - } ) ,
+N ( d _ { + } )
+N ( d _ { - } )
+d _ { \pm   }
+N ( d _ { \pm   } )
+N ( d _ { - } ) K
+N ( d _ { + } ) F
+d _ { \pm   }
+{ \frac   { 1 } { 2 } } \sigma   ^ { 2 }
+\left ( r \pm   { \frac   { 1 } { 2 } } \sigma   ^ { 2 } \right ) \tau   ,
+m = { \frac   { 1 } { \sigma   { \sqrt   { \tau   } } } } \ln   \left ( { \frac   { F } { K } } \right )
+{ \frac   { 1 } { 2 } } \sigma   ^ { 2 }
+N ( d _ { 1 } ) , N ( d _ { 2 } )
+S _ { T } \in   ( 0 , \infty   )
+p ( S , T ) = { \frac   { N ^ { \prime   } [ d _ { 2 } ( S _ { T } ) ] } { S _ { T } \sigma   { \sqrt   { T } } } }
+d _ { 2 } = d _ { 2 } ( K )
+N ( d _ { 2 } )
+N ( d _ { 1 } )
+S N ( d _ { 1 } )
+{ \frac   { \partial   C } { \partial   S } }
+N ( d _ { 1 } ) \ ,
+- N ( - d _ { 1 } ) = N ( d _ { 1 } ) - 1 \ ,
+{ \frac   { \partial   ^ { 2 } C } { \partial   S ^ { 2 } } }
+{ \frac   { N ' ( d _ { 1 } ) } { S \sigma   { \sqrt   { T - t } } } } \ ,
+{ \frac   { \partial   C } { \partial   \sigma   } }
+S N ' ( d _ { 1 } ) { \sqrt   { T - t } } \ ,
+{ \frac   { \partial   C } { \partial   t } }
+- { \frac   { S N ' ( d _ { 1 } ) \sigma   } { 2 { \sqrt   { T - t } } } } - r K e ^ { - r ( T - t ) } N ( d _ { 2 } ) \ ,
+- { \frac   { S N ' ( d _ { 1 } ) \sigma   } { 2 { \sqrt   { T - t } } } } + r K e ^ { - r ( T - t ) } N ( - d _ { 2 } ) \ ,
+{ \frac   { \partial   C } { \partial   r } }
+K ( T - t ) e ^ { - r ( T - t ) } N ( d _ { 2 } ) \ ,
+- K ( T - t ) e ^ { - r ( T - t ) } N ( - d _ { 2 } ) \ ,
+[ t , t + d t ]
+q S _ { t } \,dt
+q
+{ \displaystyle   C ( S _ { t } , t ) = e ^ { - r ( T - t ) } [ F N ( d _ { 1 } ) - K N ( d _ { 2 } ) ] \ , }
+{ \displaystyle   P ( S _ { t } , t ) = e ^ { - r ( T - t ) } [ K N ( - d _ { 2 } ) - F N ( - d _ { 1 } ) ] \ , }
+{ \displaystyle   F = S _ { t } e ^ { ( r - q ) ( T - t ) } \ , }
+d _ { 1 } , d _ { 2 }
+{ \displaystyle   d _ { 1 } = { \frac   { 1 } { \sigma   { \sqrt   { T - t } } } } \left [ \ln   \left ( { \frac   { S _ { t } } { K } } \right ) + ( r - q + { \frac   { 1 } { 2 } } \sigma   ^ { 2 } ) ( T - t ) \right ] }
+{ \displaystyle   d _ { 2 } = d _ { 1 } - \sigma   { \sqrt   { T - t } } = { \frac   { 1 } { \sigma   { \sqrt   { T - t } } } } \left [ \ln   \left ( { \frac   { S _ { t } } { K } } \right ) + ( r - q - { \frac   { 1 } { 2 } } \sigma   ^ { 2 } ) ( T - t ) \right ] }
+\delta  
+t _ { 1 } , t _ { 2 } , \ldots  
+S _ { t } = S _ { 0 } ( 1 - \delta   ) ^ { n ( t ) } e ^ { u t + \sigma   W _ { t } }
+n ( t )
+t
+C ( S _ { 0 } , T ) = e ^ { - r T } [ F N ( d _ { 1 } ) - K N ( d _ { 2 } ) ] \ ,
+F = S _ { 0 } ( 1 - \delta   ) ^ { n ( T ) } e ^ { r T } \ ,
+{ \frac   { \partial   V } { \partial   t } } + { \frac   { 1 } { 2 } } \sigma   ^ { 2 } S ^ { 2 } { \frac   { \partial   ^ { 2 } V } { \partial   S ^ { 2 } } } + r S { \frac   { \partial   V } { \partial   S } } - r V \leq   0
+V ( S , T ) = H ( S )
+V ( S , t ) \geq   H ( S )
+H ( S )
+S
+s *
+S - X
+{ \displaystyle   C = e ^ { - r ( T - t ) } N ( d _ { 2 } ) . \ , }
+{ \displaystyle   P = e ^ { - r ( T - t ) } N ( - d _ { 2 } ) . \ , }
+{ \displaystyle   C = S e ^ { - q ( T - t ) } N ( d _ { 1 } ) . \ , }
+{ \displaystyle   P = S e ^ { - q ( T - t ) } N ( - d _ { 1 } ) , }
+r _ { { F O R } }
+r _ { { D O M } }
+{ \displaystyle   C = e ^ { - r _ { D O M } T } N ( d _ { 2 } ) \ , }
+{ \displaystyle   P = e ^ { - r _ { D O M } T } N ( - d _ { 2 } ) \ , }
+{ \displaystyle   C = S e ^ { - r _ { F O R } T } N ( d _ { 1 } ) \ , }
+{ \displaystyle   P = S e ^ { - r _ { F O R } T } N ( - d _ { 1 } ) \ , }
+\sigma  
+\sigma   ( K )
+C _ { v }
+C = \lim   _ { { \epsilon   \to   0 } } { \frac     { C _ { v } ( K - \epsilon   ) - C _ { v } ( K ) } { \epsilon   } }
+C = - { \frac     { d C _ { v } } { d K } }
+\sigma  
+K
+C = - { \frac     { d C _ { v } ( K , \sigma   ( K ) ) } { d K } } = - { \frac     { \partial   C _ { v } } { \partial   K } } - { \frac     { \partial   C _ { v } } { \partial   \sigma   } } { \frac     { \partial   \sigma   } { \partial   K } }
+{ \displaystyle   - { \frac   { \partial   C _ { v } } { \partial   K } } = - { \frac   { \partial   ( S N ( d _ { 1 } ) - K e ^ { - r ( T - t ) } N ( d _ { 2 } ) ) } { \partial   K } } = e ^ { - r ( T - t ) } N ( d _ { 2 } ) = C _ { \text { n o   s k e w } } }
+{ \frac     { \partial   C _ { v } } { \partial   \sigma   } }
+{ \frac     { \partial   \sigma   } { \partial   K } }
+{ \displaystyle   C = C _ { \text { n o   s k e w } } - { \text { V e g a } } _ { v } \cdot   { \text { S k e w } } }

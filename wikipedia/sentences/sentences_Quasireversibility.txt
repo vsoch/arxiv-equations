@@ -1,5 +1,0 @@
-\pi  
-\pi   ( { \mathbf     x } ) q ' ( { \mathbf     x } , { \mathbf     { x ' } } ) = \pi   ( { \mathbf     { x ' } } ) q ( { \mathbf     { x ' } } , { \mathbf     x } )
-\alpha  
-\alpha   = \sum   _ { { { \mathbf     { x ' } } \in   M _ { { { \mathbf     x } } } } } q ( { \mathbf     x } , { \mathbf     { x ' } } ) = \sum   _ { { { \mathbf     { x ' } } \in   M _ { { { \mathbf     x } } } } } q ' ( { \mathbf     x } , { \mathbf     { x ' } } )
-\scriptstyle   { { \mathbf     { x ' } } \in   M _ { { { \mathbf     x } } } }

@@ -1,0 +1,54 @@
+\xi   \ ,
+\omega   \ ,
+\alpha   \ ,
+x \in   ( - \infty   ; + \infty   ) \ !
+{ \displaystyle   { \frac   { 2 } { \omega   { \sqrt   { 2 \pi   } } } } e ^ { - { \frac   { ( x - \xi   ) ^ { 2 } } { 2 \omega   ^ { 2 } } } } \int   _ { - \infty   } ^ { \alpha   \left ( { \frac   { x - \xi   } { \omega   } } \right ) } { \frac   { 1 } { \sqrt   { 2 \pi   } } } e ^ { - { \frac   { t ^ { 2 } } { 2 } } } \ dt }
+\Phi   \left ( { \frac     { x - \xi   } { \omega   } } \right ) - 2 T \left ( { \frac     { x - \xi   } { \omega   } } , \alpha   \right )
+T ( h , a )
+\xi   + \omega   \delta   { \sqrt     { { \frac     { 2 } { \pi   } } } }
+\delta   = { \frac     { \alpha   } { { \sqrt     { 1 + \alpha   ^ { 2 } } } } }
+{ \displaystyle   \xi   + \omega   m _ { o } ( \alpha   ) }
+\omega   ^ { 2 } \left ( 1 - { \frac     { 2 \delta   ^ { 2 } } { \pi   } } \right )
+\gamma   _ { 1 } = { \frac     { 4 - \pi   } { 2 } } { \frac     { \left ( \delta   { \sqrt     { 2 / \pi   } } \right ) ^ { 3 } } { \left ( 1 - 2 \delta   ^ { 2 } / \pi   \right ) ^ { { 3 / 2 } } } }
+2 ( \pi   - 3 ) { \frac     { \left ( \delta   { \sqrt     { 2 / \pi   } } \right ) ^ { 4 } } { \left ( 1 - 2 \delta   ^ { 2 } / \pi   \right ) ^ { 2 } } }
+M _ { X } \left ( t \right ) = 2 \exp   \left ( \xi   t + { \frac     { \omega   ^ { 2 } t ^ { 2 } } { 2 } } \right ) \Phi   \left ( \omega   \delta   t \right )
+{ \displaystyle   e ^ { i t \xi   - t ^ { 2 } \omega   ^ { 2 } / 2 } \left ( 1 + i \,{ \textrm   { E r f i } } \left ( { \frac   { \delta   \omega   t } { \sqrt   { 2 } } } \right ) \right ) }
+\phi   ( x )
+\phi   ( x ) = { \frac     { 1 } { { \sqrt     { 2 \pi   } } } } e ^ { { - { \frac     { x ^ { 2 } } { 2 } } } }
+\Phi   ( x ) = \int   _ { { - \infty   } } ^ { { x } } \phi   ( t ) \ dt = { \frac     { 1 } { 2 } } \left [ 1 + \operatorname   { e r f } \left ( { \frac     { x } { { \sqrt     { 2 } } } } \right ) \right ]
+\alpha  
+f ( x ) = 2 \phi   ( x ) \Phi   ( \alpha   x ) . \ ,
+x \rightarrow   { \frac     { x - \xi   } { \omega   } }
+\alpha   = 0
+\alpha  
+\alpha   > 0
+\alpha   < 0
+\xi  
+\omega  
+\alpha  
+f ( x ) = { \frac     { 2 } { \omega   } } \phi   \left ( { \frac     { x - \xi   } { \omega   } } \right ) \Phi   \left ( \alpha   \left ( { \frac     { x - \xi   } { \omega   } } \right ) \right ) . \ ,
+  \gamma_1  
+( - 1 , 1 )
+\alpha  
+{ \displaystyle   m _ { o } }
+{ \displaystyle   m _ { o } ( \alpha   ) \approx   \mu   _ { z } - { \frac   { \gamma   _ { 1 } \sigma   _ { z } } { 2 } } - { \frac   { \mathrm   { s g n }   ( \alpha   ) } { 2 } } \exp   \left ( - { \frac   { 2 \pi   } { | \alpha   | } } \right ) }
+{ \displaystyle   \mu   _ { z } = { \sqrt   { \frac   { 2 } { \pi   } } } \delta   }
+{ \displaystyle   \sigma   _ { z } = { \sqrt   { 1 - \mu   _ { z } ^ { 2 } } } }
+\xi  
+\omega  
+\alpha  
+\alpha   = 0
+\alpha  
+{ \displaystyle   | \delta   | = { \sqrt   { { \frac   { \pi   } { 2 } } { \frac   { | { \hat   { \gamma   } } _ { 1 } | ^ { \frac   { 2 } { 3 } } } { | { \hat   { \gamma   } } _ { 1 } | ^ { \frac   { 2 } { 3 } } + ( ( 4 - \pi   ) / 2 ) ^ { \frac   { 2 } { 3 } } } } } } }
+\delta   = { \frac     { \alpha   } { { \sqrt     { 1 + \alpha   ^ { 2 } } } } }
+{ \displaystyle   { \hat   { \gamma   } } _ { 1 } }
+\delta  
+{ \displaystyle   { \hat   { \gamma   } } _ { 1 } }
+{ \hat     { \alpha   } } = \delta   / { \sqrt     { 1 - \delta   ^ { 2 } } }
+{ \delta   = 1 }
+{ \displaystyle   \gamma   _ { 1 } \approx   0 . 9 9 5 2 7 1 7 }
+\alpha  
+{ \displaystyle   | { \hat   { \gamma   } } _ { 1 } | = \min ( 0 . 9 9 , | ( 1 / n ) \sum   { ( ( x _ { i } - { \bar   { x } } ) / s ) ^ { 3 } } | ) }
+{ \displaystyle   e ^ { - k x ^ { 2 } } }
+k
+{ \displaystyle   e ^ { - k | x | } }

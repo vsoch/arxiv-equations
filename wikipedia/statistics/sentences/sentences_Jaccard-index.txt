@@ -1,0 +1,61 @@
+  J ( A , B )   =   { { | A   \cap   B | } \over { | A   \cup   B | } }   =   { { | A   \cap   B | } \over { | A |   +   | B |   -   | A   \cap   B | } } .
+  0 \le   J ( A , B ) \le   1 .
+  d _ J ( A , B )   =   1   -   J ( A , B )   =   {   {   | A   \cup   B |   -   | A   \cap   B |   }   \over   | A   \cup   B |   } .
+A   \triangle   B   =   ( A   \cup   B )   -   ( A   \cap   B )
+\mu  
+X
+J _ \mu ( A , B )   =   { { \mu ( A   \cap   B ) }   \over   { \mu ( A   \cup   B ) } }
+d _ \mu ( A , B )   =   1   -   J _ \mu ( A , B )   =   { { \mu ( A   \triangle   B ) }   \over   { \mu ( A   \cup   B ) } }
+\mu ( A   \cup   B )   =   0
+\infty  
+M _ { 1 1 }
+M _ { 0 1 }
+M _ { 1 0 }
+M _ { 0 0 }
+M _ { 0 0 }
+M _ { 1 0 }
+M _ { 0 1 }
+M _ { 1 1 }
+M _ { 1 1 }   +   M _ { 0 1 }   +   M _ { 1 0 }   +   M _ { 0 0 }   =   n .
+J   =   { M _ { 1 1 }   \over   M _ { 0 1 }   +   M _ { 1 0 }   +   M _ { 1 1 } } .
+d _ J   =   { M _ { 0 1 }   +   M _ { 1 0 }   \over   M _ { 0 1 }   +   M _ { 1 0 }   +   M _ { 1 1 } }   =   1   -   J .
+M _ { 0 0 }
+\mathbf { x }   =   ( x _ 1 ,   x _ 2 ,   \ldots ,   x _ n )
+\mathbf { y }   =   ( y _ 1 ,   y _ 2 ,   \ldots ,   y _ n )
+x _ i ,   y _ i   \geq   0
+J ( \mathbf { x } ,   \mathbf { y } )   =   \frac { \sum_i   \min ( x _ i ,   y _ i ) } { \sum_i   \max ( x _ i ,   y _ i ) } ,
+d _ J ( \mathbf { x } ,   \mathbf { y } )   =   1   -   J ( \mathbf { x } ,   \mathbf { y } ) .
+f
+g
+X
+\mu  
+J ( f ,   g )   =   \frac { \int \min ( f ,   g )   d \mu } { \int   \max ( f ,   g )     d \mu } ,
+\max  
+\min  
+d _ J ( f ,   g )   =   1   -   J ( f ,   g ) .
+A ,   B   \subseteq   X
+J _ \mu ( A , B )   =   J ( \chi_A ,   \chi_B ) ,
+\chi   _ { A }
+\chi_B
+X _ { i }
+  \land   ,   \lor  
+T _ { s }
+  T _ s ( X , Y )   =     \frac { \sum_i   (   X _ i   \land   Y _ i ) } { \sum_i   (   X _ i   \lor   Y _ i ) }
+T _ d ( X , Y )   =   - \log_2   (   T _ s ( X , Y )   )  
+  1   -   T _ s
+  f ( A , B )   = \frac {   A   \cdot   B } { \vert   A \vert ^ 2   + \vert   B \vert ^ 2   -     A   \cdot   B   }  
+A   \cdot   B   =   \sum_i   A _ i B _ i   =   \sum_i   (   A _ i   \land   B _ i )
+{ \vert   A \vert } ^ 2   =   \sum_i   A _ i ^ 2   =   \sum_i   A _ i  
+  T _ s  
+f
+1 - f
+1 - T _ { s }
+1 - f
+f
+1 - f
+W
+  A _ i   \in   \{ 0 , W _ i \ }  
+{ \displaystyle   J = S / ( 2 - S ) }
+{ \displaystyle   S = 2 J / ( 1 + J ) }
+J
+S

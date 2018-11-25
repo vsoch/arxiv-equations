@@ -1,0 +1,5 @@
+X _ { n + 1 } = \sum   _ { j = 1 } ^ { X _ { n } } \xi   _ { j } ^ { ( n ) }
+\{ \xi   _ { j } ^ { ( n ) } : n , j \in   \mathbb   { N }   \ }
+\xi   _ { j } ^ { ( n ) }
+\lim   _ { n \to   \infty   } \Pr ( X _ { n } = 0 ) . \ ,
+x _ { n + 1 } = e ^ { \lambda   ( x _ { n } - 1 ) } , \ ,

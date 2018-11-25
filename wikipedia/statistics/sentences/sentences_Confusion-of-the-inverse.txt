@@ -1,0 +1,10 @@
+  \begin { a l i g n }   &   { } \qquad   P ( \text { m a l i g n a n t } | \text { p o s i t i v e } )   \\[8pt ]   &   =   \frac { P ( \text { p o s i t i v e } | \text { m a l i g n a n t } )   P ( \text { m a l i g n a n t } ) } { P ( \text { p o s i t i v e } | \text { m a l i g n a n t } )   P ( \text { m a l i g n a n t } )   +   P ( \text { p o s i t i v e } | \text { b e n i g n } )   P ( \text { b e n i g n } ) }   \\[8pt ]   &   =   \frac { ( 0 . 8 0   \cdot   0 . 0 1 ) } { ( 0 . 8 0   \cdot   0 . 0 1 )   +   ( 0 . 1 0   \cdot   0 . 9 9 ) }   =   0 . 0 7 5   \end { a l i g n }  
+P ( \text { i l l } )   =   1 \% = 0 . 0 1 \text {   a n d   } P ( \text { w e l l } ) = 9 9 \%=0 . 9 9 .
+P ( \text { p o s i t i v e } | \text { w e l l } ) = 1 \%,\text {   a n d   }   P ( \text { n e g a t i v e } | \text { w e l l } ) = 9 9 \ % .
+P ( \text { n e g a t i v e } | \text { i l l } ) = 1 \%\text {   a n d   } P ( \text { p o s i t i v e } | \text { i l l } )   =   9 9 \ % .  
+P ( \text { w e l l } \cap \text { n e g a t i v e } ) = P ( \text { w e l l } ) \times   P ( \text { n e g a t i v e } | \text { w e l l } ) = 9 9 \%\times99 \%=98 . 0 1 \ % .
+P ( \text { i l l } \cap \text { p o s i t i v e } )   =   P ( \text { i l l } ) \times   P ( \text { p o s i t i v e } | \text { i l l } )   =   1 \%\times99 \% = 0 . 9 9 \ % .
+P ( \text { w e l l } \cap \text { p o s i t i v e } ) = P ( \text { w e l l } ) \times   P ( \text { p o s i t i v e } | \text { w e l l } ) = 9 9 \%\times1 \%=0 . 9 9 \ % .
+P ( \text { i l l } \cap \text { n e g a t i v e } ) = P ( \text { i l l } ) \times   P ( \text { n e g a t i v e } | \text { i l l } )   =   1 \%\times1 \% = 0 . 0 1 \ % .
+  \begin { a l i g n }   P ( \text { p o s i t i v e } )   &   { }   = P ( \text { w e l l   } \cap \text {   p o s i t i v e } )   +   P ( \text { i l l }   \cap   \text { p o s i t i v e } )   \\ & { }   =   0 . 9 9 \%+0 . 9 9 \%=1 . 9 8 \%. \end { a l i g n }  
+P ( \text { i l l } | \text { p o s i t i v e } ) = \frac { P ( \text { i l l } \cap \text { p o s i t i v e } ) }   { P ( \text { p o s i t i v e } ) }   =   \frac { 0 . 9 9 \%}{ 1 . 9 8 \%}= 50 \ % .

@@ -1,0 +1,12 @@
+f _ { W L } ( \theta   ; \mu   , c ) = \sum   _ { n = - \infty   } ^ { \infty   } { \sqrt   { \frac   { c } { 2 \pi   } } } \,{ \frac   { e ^ { - c / 2 ( \theta   + 2 \pi   n - \mu   ) } } { ( \theta   + 2 \pi   n - \mu   ) ^ { 3 / 2 } } }
+\theta   + 2 \pi   n - \mu   \leq   0
+c
+\mu  
+{ \displaystyle   f _ { W L } ( \theta   ; \mu   , c ) = { \frac   { 1 } { 2 \pi   } } \sum   _ { n = - \infty   } ^ { \infty   } e ^ { - i n ( \theta   - \mu   ) - { \sqrt   { c | n | } } \,( 1 - i \operatorname   { s g n }   { n } ) } = { \frac   { 1 } { 2 \pi   } } \left ( 1 + 2 \sum   _ { n = 1 } ^ { \infty   } e ^ { - { \sqrt   { c n } } } \cos   \left ( n ( \theta   - \mu   ) - { \sqrt   { c n } } \,\right ) \right ) }
+z = e ^ { i \theta   }
+{ \displaystyle   \langle   z ^ { n } \rangle   = \int   _ { \Gamma   } e ^ { i n \theta   } \,f_ { W L } ( \theta   ; \mu   , c ) \,d \theta   = e ^ { i n \mu   - { \sqrt   { c | n | } } \,( 1 - i \operatorname   { s g n } ( n ) ) } . }
+\Gamma   \ ,
+2 \pi  
+{ \displaystyle   \langle   z \rangle   = e ^ { i \mu   - { \sqrt   { c } } ( 1 - i ) } }
+{ \displaystyle   \theta   _ { \mu   } = \mathrm   { A r g }   \langle   z \rangle   = \mu   + { \sqrt   { c } } }
+{ \displaystyle   R = | \langle   z \rangle   | = e ^ { - { \sqrt   { c } } } }

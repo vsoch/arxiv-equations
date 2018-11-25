@@ -1,0 +1,1 @@
+{ \displaystyle   R i s k = { \frac   { \mbox { n u m b e r   o f   p e r s o n s   e x p e r i e n c i n g   e v e n t   ( f o o d   p o i s o n i n g ) } } { \mbox { n u m b e r   o f   p e r s o n s   e x p o s e d   t o   r i s k   f a c t o r   ( f o o d ) } } } { c n } }

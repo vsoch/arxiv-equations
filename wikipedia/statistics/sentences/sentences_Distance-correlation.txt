@@ -1,0 +1,111 @@
+{ \begin { a l i g n e d } a _ { { j , k } } & = \|X_ { j } - X _ { k } \|,\qquad   j , k = 1 , 2 , \ldots   , n , \\b_ { { j , k } } & = \|Y_ { j } - Y _ { k } \|,\qquad   j , k = 1 , 2 , \ldots   , n , \end { a l i g n e d } }
+{ \displaystyle   A _ { j , k } : = a _ { j , k } - { \overline   { a } } _ { j \cdot   } - { \overline   { a } } _ { \cdot   k } + { \overline   { a } } _ { \cdot   \cdot   } , \qquad   B _ { j , k } : = b _ { j , k } - { \overline   { b } } _ { j \cdot   } - { \overline   { b } } _ { \cdot   k } + { \overline   { b } } _ { \cdot   \cdot   } , }
+{ \displaystyle   \textstyle   { \overline   { a } } _ { j \cdot   } }
+{ \displaystyle   \textstyle   { \overline   { a } } _ { \cdot   k } }
+{ \displaystyle   \textstyle   { \overline   { a } } _ { \cdot   \cdot   } }
+{ \displaystyle   \operatorname   { d C o v }   _ { n } ^ { 2 } ( X , Y ) : = { \frac   { 1 } { n ^ { 2 } } } \sum   _ { j = 1 } ^ { n } \sum   _ { k = 1 } ^ { n } A _ { j , k } \,B_ { j , k } . }
+a _ { \mu   } ( x ) : = \operatorname   { E } [ \|X - x \|],\quad   D ( \mu   ) : = \operatorname   { E } [ a _ { \mu   } ( X ) ] , \quad   d _ { \mu   } ( x , x ' ) : = \|x - x ' \|-a_ { \mu   } ( x ) - a _ { \mu   } ( x ' ) + D ( \mu   ) .
+\operatorname   { d C o v } ^ { 2 } ( X , Y ) : = \operatorname   { E } { \big   [ } d _ { \mu   } ( X , X ' ) d _ { \nu   } ( Y , Y ' ) { \big   ] } .
+{ \displaystyle   { \begin { a l i g n e d } \operatorname   { d C o v }   ^ { 2 } ( X , Y ) : = { } & \operatorname   { E }   [ \|X - X ' \|\,\|Y - Y ' \|]+\operatorname   { E }   [ \|X - X ' \|]\,\operatorname   { E }   [ \|Y - Y ' \|]\\&\qquad   { } - \operatorname   { E }   [ \|X - X ' \|\,\|Y - Y ' ' \|]-\operatorname   { E }   [ \|X - X ' ' \|\,\|Y - Y ' \|]\\={ } & \operatorname   { E }   [ \|X - X ' \|\,\|Y - Y ' \|]+\operatorname   { E }   [ \|X - X ' \|]\,\operatorname   { E }   [ \|Y - Y ' \|]\\&\qquad   { } - 2 \operatorname   { E }   [ \|X - X ' \|\,\|Y - Y ' ' \|],\end { a l i g n e d } } }
+\textstyle   ( X , Y ) ,
+\textstyle   ( X ' , Y ' ) ,
+\textstyle   ( X ' ' , Y ' ' )
+{ \displaystyle   \textstyle   ( X ' , Y ' ) }
+\textstyle   ( X ' ' , Y ' ' )
+X
+Y
+\operatorname   { d C o v } ^ { 2 } ( X , Y ) = \operatorname   { c o v } ( \|X - X ' \|,\|Y - Y ' \|)-2 \operatorname   { c o v } ( \|X - X ' \|,\|Y - Y ' ' \ | ) .
+{ \displaystyle   \operatorname   { d C o v }   ^ { 2 } ( X , Y ) = { \frac   { 1 } { c _ { p } c _ { q } } } \int   _ { \mathbb   { R }   ^ { p + q } } { \frac   { \left | \varphi   _ { X , Y } ( s , t ) - \varphi   _ { X } ( s ) \varphi   _ { Y } ( t ) \right | ^ { 2 } } { | s | _ { p } ^ { 1 + p } | t | _ { q } ^ { 1 + q } } } \,dt \,ds }
+{ \displaystyle   \varphi   _ { X , Y } ( s , t ) }
+{ \displaystyle   \varphi   _ { X } ( s ) }
+{ \displaystyle   \varphi   _ { Y } ( t ) }
+( { c _ { p } c _ { q } } { | s | _ { p } ^ { { 1 + p } } | t | _ { q } ^ { { 1 + q } } } ) ^ { { - 1 } }
+\operatorname   { d V a r } ^ { 2 } ( X ) : = \operatorname   { E } [ \|X - X ' \|^ { 2 } ] + \operatorname   { E } ^ { 2 } [ \|X - X ' \|]-2 \operatorname   { E } [ \|X - X ' \|\,\|X - X ' ' \ | ] ,
+\operatorname   { E }  
+X '
+X
+X ' '
+X
+X '
+X
+X '
+\operatorname   { d V a r } _ { n } ^ { 2 } ( X ) : = \operatorname   { d C o v } _ { n } ^ { 2 } ( X , X ) = { \tfrac     { 1 } { n ^ { 2 } } } \sum   _ { { k , \ell   } } A _ { { k , \ell   } } ^ { 2 } ,
+\operatorname   { d C o r } ( X , Y ) = { \frac     { \operatorname   { d C o v } ( X , Y ) } { { \sqrt     { \operatorname   { d V a r } ( X ) \,\operatorname   { d V a r } ( Y ) } } } } ,
+0 \leq   \operatorname   { d C o r } _ { n } ( X , Y ) \leq   1
+0 \leq   \operatorname   { d C o r } ( X , Y ) \leq   1
+\operatorname   { d C o r } ( X , Y ) = 0
+\operatorname   { d C o r } _ { n } ( X , Y ) = 1
+Y = A + b \,{ \mathbf     { C } } X
+\mathbf   { C }  
+\operatorname   { d C o v } ( X , Y ) \geq   0
+\operatorname   { d C o v } _ { n } ( X , Y ) \geq   0
+\operatorname   { d C o v } ^ { 2 } ( a _ { 1 } + b _ { 1 } \,{ \mathbf     { C } } _ { 1 } \,X , a _ { 2 } + b _ { 2 } \,{ \mathbf     { C } } _ { 2 } \,Y ) = | b _ { 1 } \,b_ { 2 } | \operatorname   { d C o v } ^ { 2 } ( X , Y )
+a _ { 1 } , a _ { 2 }
+b _ { 1 } , b _ { 2 }
+{ \mathbf     { C } } _ { 1 } , { \mathbf     { C } } _ { 2 }
+( X _ { 1 } , Y _ { 1 } )
+( X _ { 2 } , Y _ { 2 } )
+\operatorname   { d C o v } ( X _ { 1 } + X _ { 2 } , Y _ { 1 } + Y _ { 2 } ) \leq   \operatorname   { d C o v } ( X _ { 1 } , Y _ { 1 } ) + \operatorname   { d C o v } ( X _ { 2 } , Y _ { 2 } ) .
+X _ { 1 }
+Y _ { 1 }
+X _ { 2 }
+Y _ 2
+X _ { 1 } , X _ { 2 } , Y _ { 1 } , Y _ { 2 }
+\operatorname   { d C o v } ( X , Y ) = 0
+\operatorname   { d C o v } _ { n } ^ { 2 } ( X , Y )
+\operatorname   { d C o v } ^ { 2 } ( X , Y )
+{ \displaystyle   { \begin { a l i g n e d } \operatorname   { E }   [ \operatorname   { d C o v }   _ { n } ^ { 2 } ( X , Y ) ] & = { \frac   { n - 1 } { n ^ { 2 } } } \left \{ ( n - 2 ) \operatorname   { d C o v }   ^ { 2 } ( X , Y ) + \operatorname   { E }   [ \|X - X ' \|]\,\operatorname   { E }   [ \|Y - Y ' \|]\right \}\\[6pt ] & = { \frac   { n - 1 } { n ^ { 2 } } } \operatorname   { E }   [ \|X - X ' \|]\,\operatorname   { E }   [ \|Y - Y ' \|].\end { a l i g n e d } } }
+\operatorname   { d C o v } ^ { 2 } ( X , Y )
+\operatorname   { d V a r } ( X ) = 0
+X = \operatorname   { E } [ X ]
+\operatorname   { d V a r } _ { n } ( X ) = 0
+\operatorname   { d V a r } ( A + b \,{ \mathbf     { C } } \,X ) = | b | \operatorname   { d V a r } ( X )
+\mathbf   { C }  
+{ \displaystyle   \operatorname   { d V a r }   ( X + Y ) \leq   \operatorname   { d V a r }   ( X ) + \operatorname   { d V a r }   ( Y ) }
+{ \displaystyle   { \begin { a l i g n e d } \operatorname   { d C o v }   ^ { 2 } ( X , Y ; \alpha   ) : = { } & \operatorname   { E }   [ \|X - X ' \|^ { \alpha   } \,\|Y - Y ' \|^ { \alpha   } ] + \operatorname   { E }   [ \|X - X ' \|^ { \alpha   } ] \,\operatorname   { E }   [ \|Y - Y ' \|^ { \alpha   } ] \\&\qquad   { } - 2 \operatorname   { E }   [ \|X - X ' \|^ { \alpha   } \,\|Y - Y ' ' \|^ { \alpha   } ] . \end { a l i g n e d } } }
+0 < \alpha   < 2
+X
+Y
+\operatorname   { d C o v } ^ { 2 } ( X , Y ; \alpha   ) = 0
+\alpha   = 2
+( X , Y )
+\operatorname   { d C o r } ( X , Y ; \alpha   = 2 )
+a _ { { k , \ell   } }
+b _ { { k , \ell   } }
+\alpha  
+0 < \alpha   \leq   2
+\alpha  
+\operatorname   { d C o v } _ { n } ^ { 2 } ( X , Y ; \alpha   ) : = { \frac     { 1 } { n ^ { 2 } } } \sum   _ { { k , \ell   } } A _ { { k , \ell   } } \,B_ { { k , \ell   } } .
+\operatorname   { d C o v }
+X
+Y
+X
+\mu  
+d
+a _ { \mu   } ( x ) : = \operatorname   { E } [ d ( X , x ) ]
+D ( \mu   ) : = \operatorname   { E } [ a _ { \mu   } ( X ) ]
+a _ \mu
+X
+d _ { \mu   } ( x , x ' ) : = d ( x , x ' ) - a _ { \mu   } ( x ) - a _ { \mu   } ( x ' ) + D ( \mu   )
+Y
+\nu  
+\operatorname   { d C o v } ^ { 2 } ( X , Y ) : = \operatorname   { E } { \big   [ } d _ { \mu   } ( X , X ' ) d _ { \nu   } ( Y , Y ' ) { \big   ] } .
+X , Y
+( M , d )
+( M , d ^ { { 1 / 2 } } )
+\operatorname   { d C o v } ^ { 2 } ( X , Y ) = 0
+X , Y
+\operatorname   { d C o v } ^ { 2 } ( X , Y )
+\operatorname   { d C o v } ( X , Y )
+\operatorname   X , Y
+\operatorname   X
+\operatorname   { d C o v } ^ { 2 } ( X , Y ) .
+X
+X
+\operatorname   { d C o r } ^ { 2 } ( X , Y )
+\operatorname   { c o v } ( X , Y ) ^ { 2 } = \operatorname   { E } \left [ { \big   ( } X - \operatorname   { E } ( X ) { \big   ) } { \big   ( } X ^ { { \mathrm     { ' } } } - \operatorname   { E } ( X ^ { { \mathrm     { ' } } } ) { \big   ) } { \big   ( } Y - \operatorname   { E } ( Y ) { \big   ) } { \big   ( } Y ^ { { \mathrm     { ' } } } - \operatorname   { E } ( Y ^ { { \mathrm     { ' } } } ) { \big   ) } \right ]
+X _ { U } : = U ( X ) - \operatorname   { E } _ { X } \left [ U ( X ) \mid   \left \{ U ( t ) \right \}\right ]
+\operatorname   { c o v } _ { { U , V } } ^ { 2 } ( X , Y ) : = \operatorname   { E } \left [ X _ { U } X _ { U } ^ { { \mathrm     { ' } } } Y _ { V } Y _ { V } ^ { { \mathrm     { ' } } } \right ]
+\operatorname   { c o v } _ { W } ( X , Y ) .
+\operatorname   { c o v } _ { { { \mathrm     { W } } } } ( X , Y ) = \operatorname   { d C o v } ( X , Y ) ,
+\operatorname   { c o v } _ { { { \mathrm     { i d } } } } ( X , Y ) = \left \vert   \operatorname   { c o v } ( X , Y ) \right \vert   .

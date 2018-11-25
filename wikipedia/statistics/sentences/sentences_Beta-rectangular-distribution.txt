@@ -1,0 +1,19 @@
+\alpha   > 0
+\beta   > 0
+{ \displaystyle   0 < \theta   < 1 }
+x \in   ( a , b ) \ !
+{ \begin { c a s e s } { \frac     { \theta   \Gamma   ( \alpha   + \beta   ) } { \Gamma   ( \alpha   ) \Gamma   ( \beta   ) } } { \frac     { ( x - a ) ^ { { \alpha   - 1 } } ( b - x ) ^ { { \beta   - 1 } } } { ( b - a ) ^ { { \alpha   + \beta   + 1 } } } } + { \frac     { 1 - \theta   } { b - a } } & { \text { f o r   } } x \in   [ a , b ] \\0 & { \text { o t h e r w i s e } } \end { c a s e s } }
+{ \begin { c a s e s } 0 & { \text { f o r   } } x \leq   a \\\theta   I _ { z } ( \alpha   , \beta   ) + { \frac     { ( 1 - \theta   ) ( x - a ) } { b - a } } & { \text { f o r   } } x \in   [ a , b ] \\1 & { \text { f o r   } } x \geq   b \end { c a s e s } }
+z = ( x - a ) / ( b - a )
+a + ( b - a ) \left ( { \frac     { \theta   \alpha   } { \alpha   + \beta   } } + { \frac     { 1 - \theta   } { 2 } } \right )
+( b - a ) ^ { 2 } \left ( { \frac     { \theta   \,\alpha   ( \alpha   + 1 ) } { k ( k + 1 ) } } + { \frac     { 1 - \theta   } { 3 } } - { \frac     { { \bigl   ( } k + \theta   ( \alpha   - \beta   ) { \bigr   ) } ^ { 2 } } { 4 k ^ { 2 } } } \right )
+k = \alpha   + \beta  
+p ( x | \alpha   , \beta   , \theta   ) = { \begin { c a s e s } { \frac     { \theta   \Gamma   ( \alpha   + \beta   ) } { \Gamma   ( \alpha   ) \Gamma   ( \beta   ) } } { \frac     { ( x - a ) ^ { { \alpha   - 1 } } ( b - x ) ^ { { \beta   - 1 } } } { ( b - a ) ^ { { \alpha   + \beta   + 1 } } } } + { \frac     { 1 - \theta   } { b - a } } & { \mathrm     { f o r } } \ a \leq   x \leq   b , \\[8pt ] 0 & { \mathrm     { f o r } } \ x < a \ { \mathrm     { o r } } \ x > b \end { c a s e s } }
+\Gamma   ( \cdot   )
+F ( x | \alpha   , \beta   , \theta   ) = \theta   I _ { z } ( \alpha   , \beta   ) + { \frac     { ( 1 - \theta   ) ( x - a ) } { b - a } } \quad   \quad   { \mathrm     { f o r } } \ a \leq   x \leq   b ,
+z = { \dfrac     { x - a } { b - a } }
+I _ { z } ( \alpha   , \beta   )
+{ \begin { a l i g n e d } E ( x ) & { } = { \frac     { a + 4 m + b } { 6 } } \\\operatorname   { V a r } ( x ) & { } = { \frac     { ( b - a ) ^ { 2 } } { 3 6 } } \end { a l i g n e d } }
+E ( x ) = { \frac     { \theta   ( a + 4 m + b ) + 3 ( 1 - \theta   ) ( a + b ) } { 6 } } .
+\operatorname   { V a r } ( x ) = { \frac     { ( b - a ) ^ { 2 } ( 3 - 2 \theta   ) } { 3 6 } } ,
+\operatorname   { V a r } ( x ) = { \frac     { ( b - a ) ^ { 2 } ( 3 - 2 \theta   ^ { 2 } ) } { 3 6 } } .

@@ -1,0 +1,5 @@
+( F ( z ) , G ( z ) )
+- \infty  
+\infty   .
+( - \infty   , \infty   )
+[ 0 , 1 ] \times   [ 0 , 1 ] .

@@ -1,0 +1,1 @@
+{ \displaystyle   p = 1 - \textstyle   \sum   _ { C _ { i } \neq   C _ { \text { m a x , x } } } \int   \limits   _ { x \in   H _ { i } } P ( C _ { i } | x ) p ( x ) \,dx }

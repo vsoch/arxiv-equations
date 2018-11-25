@@ -1,0 +1,8 @@
+{ \displaystyle   y _ { i t } = a + b x _ { i t } + \varepsilon   _ { i t } }
+{ \displaystyle   \varepsilon   _ { i t } }
+{ \displaystyle   \varepsilon   _ { i t } }
+i
+t
+{ \displaystyle   \varepsilon   _ { i t } }
+i
+t

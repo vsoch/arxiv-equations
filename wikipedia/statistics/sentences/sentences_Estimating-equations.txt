@@ -1,0 +1,4 @@
+f ( x ; \lambda   ) = \left \{ { \begin { m a t r i x } \lambda   e ^ { { - \lambda   x } } , & \;x \geq   0 , \\0 , & \;x < 0 . \end { m a t r i x } } \right .
+{ \bar   { x } }
+{ \bar     { x } } = \lambda   ^ { { - 1 } } ,
+m = \lambda   ^ { { - 1 } } \ln   2 .

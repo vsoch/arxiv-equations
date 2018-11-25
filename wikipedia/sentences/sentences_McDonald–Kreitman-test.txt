@@ -1,2 +1,0 @@
-\alpha   = 1 - { \frac     { D _ { s } P _ { n } } { D _ { n } P _ { s } } }
-{ \displaystyle   N I = { \frac   { P _ { n } / P _ { s } } { D _ { n } / D _ { s } } } }

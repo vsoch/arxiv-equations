@@ -1,0 +1,158 @@
+\operatorname   { P r }   ( X = x _ { k } ) = p _ { k } \quad   { \mbox {   f o r   } } k = 1 , 2 , \ldots  
+H ( X )   =   -   \sum_ { k \ge   1 } p _ k \log   p _ k   .
+{ \displaystyle   H ( X ) = - \int   _ { - \infty   } ^ { \infty   } p ( x ) \log   p ( x ) \,dx . }
+H ( X )
+d x
+{ \displaystyle   \operatorname   { E }   ( f _ { j } ( X ) ) \geq   a _ { j } \quad   { \mbox {   f o r   } } j = 1 , \ldots   , n }
+{ \displaystyle   p ( x ) = \exp   \left ( \sum   _ { j = 0 } ^ { n } \lambda   _ { j } f _ { j } ( x ) \right ) \quad   { \mbox {   f o r   a l l   } } x \in   S }
+{ \displaystyle   f _ { 0 } ( x ) = 1 }
+\lambda   _ { 0 }
+{ \displaystyle   { \boldsymbol   { \lambda   } } = ( \lambda   _ { 1 } , \ldots   , \lambda   _ { n } ) }
+a _ { 0 } = 1
+p
+{ \displaystyle   \max   _ { \lambda   _ { 0 } ; { \boldsymbol   { \lambda   } } } \left \{ \sum   _ { j = 0 } ^ { n } \lambda   _ { j } a _ { j } - \int   \exp   \left ( \sum   _ { j = 0 } ^ { n } \lambda   _ { j } f _ { j } ( x ) \right ) d x \right \}\quad   \mathrm   { s u b j e c t \;to : \;\;} { \boldsymbol   { \lambda   } } \geq   \mathbf   { 0 }   }
+\boldsymbol \lambda
+{ \displaystyle   \operatorname   { E }   ( f _ { j } ( X ) ) = a _ { j } \quad   { \mbox {   f o r   } } j = 1 , \ldots   , n , }
+{ \displaystyle   { \boldsymbol   { \lambda   } } \geq   \mathbf   { 0 }   }
+{ \displaystyle   \operatorname   { E }   ( f _ { j } ( X ) ) \geq   a _ { j } \quad   { \mbox {   f o r   } } j = 1 , \ldots   , n }
+{ \displaystyle   \operatorname   { P r }   ( X = x _ { k } ) = \exp   \left ( \sum   _ { j = 0 } ^ { n } \lambda   _ { j } f _ { j } ( x _ { k } ) \right ) \quad   { \mbox {   f o r   } } k = 1 , 2 , \ldots   }
+{ \displaystyle   f _ { 0 } = 1 }
+{ \displaystyle   \lambda   _ { 0 } , \;{ \boldsymbol   { \lambda   } } = ( \lambda   _ { 1 } , \ldots   , \lambda   _ { n } ) }
+a _ { 0 } = 1
+{ \displaystyle   \max   _ { \lambda   _ { 0 } ; { \boldsymbol   { \lambda   } } } \left \{ \sum   _ { j = 0 } ^ { n } \lambda   _ { j } a _ { j } - \sum   _ { k \geq   1 } \exp   \left ( \sum   _ { j = 0 } ^ { n } \lambda   _ { j } f _ { j } ( x _ { k } ) \right ) \right \}\quad   \mathrm   { s u b j e c t \;to : \;\;} { \boldsymbol   { \lambda   } } \geq   \mathbf   { 0 }   }
+{ \displaystyle   { \boldsymbol   { \lambda   } } \geq   \mathbf   { 0 }   }
+\int   _ { - \infty   } ^ { \infty   } f _ { j } ( x ) p ( x ) d x = a _ { j }
+{ \displaystyle   J ( p ) = \int   _ { - \infty   } ^ { \infty   } p ( x ) \ln   { p ( x ) } d x - \eta   _ { 0 } \left ( \int   _ { - \infty   } ^ { \infty   } p ( x ) d x - 1 \right ) - \sum   _ { j = 1 } ^ { n } \lambda   _ { j } \left ( \int   _ { - \infty   } ^ { \infty   } f _ { j } ( x ) p ( x ) d x - a _ { j } \right ) }
+\eta   _ { 0 }
+{ \displaystyle   \lambda   _ { j } , j \geq   1 }
+n
+{ \displaystyle   { \frac   { \delta   J } { \delta   p } } \left ( p \right ) = \ln   { p ( x ) } + 1 - \eta   _ { 0 } - \sum   _ { j = 1 } ^ { n } \lambda   _ { j } f _ { j } ( x ) = 0 }
+{ \displaystyle   \lambda   _ { 0 } : = \eta   _ { 0 } - 1 }
+{ \displaystyle   p ( x ) = e ^ { - 1 + \eta   _ { 0 } } \cdot   e ^ { \sum   _ { j = 1 } ^ { n } \lambda   _ { j } f _ { j } ( x ) } = \exp   \left ( \sum   _ { j = 0 } ^ { n } \lambda   _ { j } f _ { j } ( x ) \right ) \ ; . }
+p
+p '
+\alpha   \in   ( 0 , 1 )
+{ \displaystyle   q = \alpha   \cdot   p + ( 1 - \alpha   ) \cdot   p ' }
+{ \displaystyle   \mathrm   { s u p p }   ( q ) = \mathrm   { s u p p }   ( p ) \cup   \mathrm   { s u p p }   ( p ' ) }
+{ \displaystyle   { \mathcal   { H } } ( q ) \geq   \alpha   { \mathcal   { H } } ( p ) + ( 1 - \alpha   ) { \mathcal   { H } } ( p ' ) }
+{ \displaystyle   \alpha   \longrightarrow   1 }
+{ \displaystyle   \alpha   \longrightarrow   0 }
+{ \displaystyle   { \mathcal   { H } } ( q ) \geq   { \mathcal   { H } } ( p ) , { \mathcal   { H } } ( p ' ) }
+{ \displaystyle   p , p ' }
+{ \displaystyle   { \vec   { \lambda   } } , { \vec   { \lambda   } } ' \in   \mathbb   { R }   ^ { n } }
+{ \displaystyle   p ( x ) = { \frac   { e ^ { \langle   { \vec   { \lambda   } } , { \vec   { f } } ( x ) \rangle   } } { C ( { \vec   { \lambda   } } ) } } }
+p '
+{ \displaystyle   C ( { \vec   { \lambda   } } ) = \int   _ { x \in   \mathbb   { R }   } e ^ { \langle   { \vec   { \lambda   } } , { \vec   { f } } ( x ) \rangle   } ~ d x }
+{ \displaystyle   D \log ( C ( \cdot   ) ) \vert   _ { \vec   { \lambda   } } = \left . { \frac   { D C ( \cdot   ) } { C ( \cdot   ) } } \right | _ { \vec   { \lambda   } } = \mathbb   { E }   _ { p } [ { \vec   { f } } ( X ) ] = { \vec   { a } } }
+{ \displaystyle   { \vec   { \lambda   } } ' }
+{ \displaystyle   u = { \vec   { \lambda   } } ' - { \vec   { \lambda   } } \in   \mathbb   { R }   ^ { n } }
+{ \displaystyle   0 = \langle   u , { \vec   { a } } - { \vec   { a } } \rangle   = D _ { u } \log ( C ( \cdot   ) ) \vert   _ { { \vec   { \lambda   } } ' } - D _ { u } \log ( C ( \cdot   ) ) \vert   _ { \vec   { \lambda   } } = D _ { u } ^ { 2 } \log ( C ( \cdot   ) ) \vert   _ { \vec   { \gamma   } } }
+{ \displaystyle   { \vec   { \gamma   } } = \theta   { \vec   { \lambda   } } + ( 1 - \theta   ) { \vec   { \lambda   } } ' }
+\theta   \in   ( 0 , 1 )
+{ \displaystyle   { \begin { a r r a y } { r c l } 0 & = & D _ { u } ^ { 2 } \log ( C ( \cdot   ) ) \vert   _ { \vec   { \gamma   } } \\&=&\left . D _ { u } \left ( { \frac   { D _ { u } C ( \cdot   ) } { C ( \cdot   ) } } \right ) \right | _ { \vec   { \gamma   } } \\&=&\left . { \frac   { D _ { u } ^ { 2 } C ( \cdot   ) } { C ( \cdot   ) } } \right | _ { \vec   { \gamma   } } - \left . { \frac   { ( D _ { u } C ( \cdot   ) ) ^ { 2 } } { C ( \cdot   ) ^ { 2 } } } \right | _ { \vec   { \gamma   } } \\&=&\mathbb   { E }   _ { q } [ ( \langle   u , { \vec   { f } } ( X ) \rangle   ) ^ { 2 } ] - \left ( \mathbb   { E }   _ { q } [ \langle   u , { \vec   { f } } ( X ) \rangle   ] \right ) ^ { 2 } = \mathrm   { V a r }   _ { q } ( \langle   u , { \vec   { f } } ( X ) \rangle   ) \\\end { a r r a y } } }
+q
+{ \vec     { \gamma   } }
+{ \displaystyle   \langle   u , { \vec   { f } } ( X ) \rangle   }
+u = 0
+{ \displaystyle   { \vec   { \lambda   } } ' - { \vec   { \lambda   } } = u = 0 }
+{ \displaystyle   p , p ' }
+p ( x ) = \exp   { ( \ln   { p ( x ) } ) }
+\ln   { p ( x ) } \rightarrow   f ( x )
+\int   \exp   { ( f ( x ) ) } f ( x ) d x = - H
+p ( x )
+\int   p ( x ) f ( x ) d x = - H
+\ln   { p ( x ) } \rightarrow   f ( x )
+f ( x )
+\operatorname   { P r }   ( a _ { j - 1 } \leq   X < a _ { j } ) = p _ { j } \quad   { \mbox {   f o r   } } j = 1 , \ldots   , k
+p ( x | \lambda   ) = { \begin { c a s e s } \lambda   e ^ { - \lambda   x } & x \geq   0 , \\0 & x < 0 , \end { c a s e s } }
+p ( x | \mu   , \sigma   ) = { \frac   { 1 } { \sigma   { \sqrt   { 2 \pi   } } } } e ^ { - { \frac   { ( x - \mu   ) ^ { 2 } } { 2 \sigma   ^ { 2 } } } } ,
+\operatorname   { P r }   ( X = x _ { k } ) = C r ^ { x _ { k } } \quad   { \mbox {   f o r   } } k = 1 , \ldots   , n
+\operatorname   { P r }   ( X = x _ { k } ) = C r ^ { x _ { k } } \quad   { \mbox {   f o r   } } k = 1 , 2 , \ldots   ,
+{ \displaystyle   C = { \frac   { 1 } { \mu   - 1 } } , \quad   \quad   r = { \frac   { \mu   - 1 } { \mu   } } , }
+\theta   _ { i }
+\theta   _ { i }
+2 \pi  
+\mathbb   { R }  
+p ( x ) = c \exp   { ( \lambda   _ { 1 } x + \lambda   _ { 2 } x ^ { 2 } + \lambda   _ { 3 } x ^ { 3 } ) }
+\lambda   _ { 3 } = 0
+{ \displaystyle   E ( x ) = \mu   }
+{ \displaystyle   D ( x ) = d }
+{ \displaystyle   N ( m , d ^ { 2 } ) }
+{ \displaystyle   D ( x ) = { \sqrt   { E [ ( x - \mu   ) ^ { 2 } ] } } }
+{ \displaystyle   D ( x ) = E ( | x - \mu   | ) }
+{ \displaystyle   f ( x ) = c \exp ( a x + b { [ x - \mu   ] _ { - } } ^ { 2 } ) }
+{ \displaystyle   D ( x ) = { \sqrt   { E [ { ( x - \mu   ) _ { - } } ^ { 2 } ] } } }
+{ \displaystyle   [ x ] _ { - } : = \max \{ 0 , - x \ } }
+\Gamma   ( x ) = \int   _ { 0 } ^ { \infty   } e ^ { - t } t ^ { x - 1 } d t
+\psi   ( x ) = { \frac   { d } { d x } } \ln   \Gamma   ( x ) = { \frac   { \Gamma   ' ( x ) } { \Gamma   ( x ) } }
+B ( p , q ) = { \frac   { \Gamma   ( p ) \Gamma   ( q ) } { \Gamma   ( p + q ) } }
+f ( k ) = { \frac   { 1 } { b - a + 1 } }
+\{ a , a + 1 , . . . , b - 1 , b \ } \ ,
+f ( x ) = { \frac   { 1 } { b - a } }
+[ a , b ] \ ,
+f ( k ) = p ^ { k } ( 1 - p ) ^ { 1 - k }
+{ \displaystyle   \operatorname   { E }   ( k ) = p \ , }
+\{ 0 , 1 \ } \ ,
+f ( k ) = ( 1 - p ) ^ { k - 1 } \,p
+{ \displaystyle   \operatorname   { E }   ( k ) = { \frac   { 1 } { p } } \ , }
+{ \displaystyle   \mathbb   { N }   \setminus   \left \{ 0 \right \}=\{ 1 , 2 , 3 , . . . \ } }
+f ( x ) = \lambda   \exp   \left ( - \lambda   x \right )
+{ \displaystyle   \operatorname   { E }   ( x ) = { \frac   { 1 } { \lambda   } } \ , }
+[ 0 , \infty   ) \ ,
+f ( x ) = { \frac   { 1 } { 2 b } } \exp   \left ( - { \frac   { | x - \mu   | } { b } } \right )
+{ \displaystyle   \operatorname   { E }   ( | x - \mu   | ) = b \ , }
+( - \infty   , \infty   ) \ ,
+{ \displaystyle   f ( x ) = { \frac   { \lambda   \,e ^ { - ( x - m ) \lambda   s \kappa   ^ { s } } } { \kappa   + 1 / \kappa   } } \,( s \!=\!\operatorname   { s g n } ( x \!-\!m ) ) }
+{ \displaystyle   \operatorname   { E }   ( ( x - m ) s \kappa   ^ { s } ) = 1 / \lambda   \ , }
+( - \infty   , \infty   ) \ ,
+f ( x ) = { \frac   { \alpha   x _ { m } ^ { \alpha   } } { x ^ { \alpha   + 1 } } }
+{ \displaystyle   \operatorname   { E }   ( \ln ( x ) ) = { \frac   { 1 } { \alpha   } } + \ln ( x _ { m } ) \ , }
+[ x _ { m } , \infty   ) \ ,
+f ( x ) = { \frac   { 1 } { \sqrt   { 2 \pi   \sigma   ^ { 2 } } } } \exp   \left ( - { \frac   { ( x - \mu   ) ^ { 2 } } { 2 \sigma   ^ { 2 } } } \right )
+{ \displaystyle   \operatorname   { E }   ( x ) = \mu   , \,\operatorname   { E }   ( ( x - \mu   ) ^ { 2 } ) = \sigma   ^ { 2 } }
+( - \infty   , \infty   ) \ ,
+f ( \theta   ) = { \frac   { 1 } { 2 \pi   I _ { 0 } ( \kappa   ) } } \exp   { ( \kappa   \cos   { ( \theta   - \mu   ) } ) }
+{ \displaystyle   \operatorname   { E }   ( \cos   \theta   ) = { \frac   { I _ { 1 } ( \kappa   ) } { I _ { 0 } ( \kappa   ) } } \cos   \mu   , \,\operatorname   { E }   ( \sin   \theta   ) = { \frac   { I _ { 1 } ( \kappa   ) } { I _ { 0 } ( \kappa   ) } } \sin   \mu   }
+[ 0 , 2 \pi   ) \ ,
+f ( x ) = { \frac   { x } { \sigma   ^ { 2 } } } \exp   \left ( - { \frac   { x ^ { 2 } } { 2 \sigma   ^ { 2 } } } \right )
+{ \displaystyle   \operatorname   { E }   ( x ^ { 2 } ) = 2 \sigma   ^ { 2 } , \operatorname   { E }   ( \ln ( x ) ) = { \frac   { \ln ( 2 \sigma   ^ { 2 } ) - \gamma   _ { \mathrm   { E }   } } { 2 } } \ , }
+[ 0 , \infty   ) \ ,
+f ( x ) = { \frac   { x ^ { \alpha   - 1 } ( 1 - x ) ^ { \beta   - 1 } } { B ( \alpha   , \beta   ) } }
+0 \leq   x \leq   1
+{ \displaystyle   \operatorname   { E }   ( \ln ( x ) ) = \psi   ( \alpha   ) - \psi   ( \alpha   + \beta   ) \ , }
+{ \displaystyle   \operatorname   { E }   ( \ln ( 1 - x ) ) = \psi   ( \beta   ) - \psi   ( \alpha   + \beta   ) \ , }
+[ 0 , 1 ] \ ,
+f ( x ) = { \frac   { 1 } { \pi   ( 1 + x ^ { 2 } ) } }
+{ \displaystyle   \operatorname   { E }   ( \ln ( 1 + x ^ { 2 } ) ) = 2 \ln   2 }
+( - \infty   , \infty   ) \ ,
+f ( x ) = { \frac   { 2 } { 2 ^ { k / 2 } \Gamma   ( k / 2 ) } } x ^ { k - 1 } \exp   \left ( - { \frac   { x ^ { 2 } } { 2 } } \right )
+{ \displaystyle   \operatorname   { E }   ( x ^ { 2 } ) = k , \,\operatorname   { E }   ( \ln ( x ) ) = { \frac   { 1 } { 2 } } \left [ \psi   \left ( { \frac   { k } { 2 } } \right ) \!+\!\ln ( 2 ) \right ] }
+[ 0 , \infty   ) \ ,
+f ( x ) = { \frac   { 1 } { 2 ^ { k / 2 } \Gamma   ( k / 2 ) } } x ^ { { \frac   { k } { 2 } } \!-\!1 } \exp   \left ( - { \frac   { x } { 2 } } \right )
+{ \displaystyle   \operatorname   { E }   ( x ) = k , \,\operatorname   { E }   ( \ln ( x ) ) = \psi   \left ( { \frac   { k } { 2 } } \right ) + \ln ( 2 ) }
+[ 0 , \infty   ) \ ,
+f ( x ) = { \frac   { \lambda   ^ { k } } { ( k - 1 ) ! } } x ^ { k - 1 } \exp ( - \lambda   x )
+{ \displaystyle   \operatorname   { E }   ( x ) = k / \lambda   , \,\operatorname   { E }   ( \ln ( x ) ) = \psi   ( k ) - \ln ( \lambda   ) }
+[ 0 , \infty   ) \ ,
+f ( x ) = { \frac   { x ^ { k - 1 } \exp ( - { \frac   { x } { \theta   } } ) } { \theta   ^ { k } \Gamma   ( k ) } }
+{ \displaystyle   \operatorname   { E }   ( x ) = k \theta   , \,\operatorname   { E }   ( \ln ( x ) ) = \psi   ( k ) + \ln ( \theta   ) }
+[ 0 , \infty   ) \ ,
+f ( x ) = { \frac   { 1 } { \sigma   x { \sqrt   { 2 \pi   } } } } \exp   \left ( - { \frac   { ( \ln   x - \mu   ) ^ { 2 } } { 2 \sigma   ^ { 2 } } } \right )
+{ \displaystyle   \operatorname   { E }   ( \ln ( x ) ) = \mu   , \operatorname   { E }   ( ( \ln ( x ) - \mu   ) ^ { 2 } ) = \sigma   ^ { 2 } \ , }
+[ 0 , \infty   ) \ ,
+f ( x ) = { \frac   { 1 } { a ^ { 3 } } } { \sqrt   { \frac   { 2 } { \pi   } } } \,x ^ { 2 } \exp   \left ( - { \frac   { x ^ { 2 } } { 2 a ^ { 2 } } } \right )
+{ \displaystyle   \operatorname   { E }   ( x ^ { 2 } ) = 3 a ^ { 2 } , \,\operatorname   { E }   ( \ln ( x ) ) \!=\!1 \!+\!\ln   \left ( { \frac   { a } { \sqrt   { 2 } } } \right ) \!-\!{ \frac   { \gamma   _ { \mathrm   { E }   } } { 2 } } }
+[ 0 , \infty   ) \ ,
+f ( x ) = { \frac   { k } { \lambda   ^ { k } } } x ^ { k - 1 } \exp   \left ( - { \frac   { x ^ { k } } { \lambda   ^ { k } } } \right )
+{ \displaystyle   \operatorname   { E }   ( x ^ { k } ) = \lambda   ^ { k } , \operatorname   { E }   ( \ln ( x ) ) = \ln ( \lambda   ) - { \frac   { \gamma   _ { \mathrm   { E }   } } { k } } \ , }
+[ 0 , \infty   ) \ ,
+f _ { X } ( { \vec   { x } } ) =
+{ \frac   { \exp   \left ( - { \frac   { 1 } { 2 } } ( { \vec   { x } } - { \vec   { \mu   } } ) ^ { \top   } \Sigma   ^ { - 1 } \cdot   ( { \vec   { x } } - { \vec   { \mu   } } ) \right ) } { ( 2 \pi   ) ^ { N / 2 } \left | \Sigma   \right | ^ { 1 / 2 } } }
+{ \displaystyle   \operatorname   { E }   ( { \vec   { x } } ) = { \vec   { \mu   } } , \,\operatorname   { E }   ( ( { \vec   { x } } - { \vec   { \mu   } } ) ( { \vec   { x } } - { \vec   { \mu   } } ) ^ { T } ) = \Sigma   \ , }
+\mathbb   { R }   ^ { n }
+f ( k ) = { n   \choose   k } p ^ { k } ( 1 - p ) ^ { n - k }
+{ \displaystyle   \operatorname   { E }   ( x ) = \mu   , f \in   { \text { n - g e n e r a l i z e d   b i n o m i a l   d i s t r i b u t i o n } } }
+{ \displaystyle   \left \{ 0 , { \ldots   } , n \right \ } }
+{ \displaystyle   f ( k ) = { \frac   { \lambda   ^ { k } \exp ( - \lambda   ) } { k ! } } }
+{ \displaystyle   \operatorname   { E }   ( x ) = \lambda   , f \in   { \infty   } { \text { - g e n e r a l i z e d   b i n o m i a l   d i s t r i b u t i o n } } }
+{ \displaystyle   \mathbb   { N }   \cup   \left \{ 0 \right \ } }

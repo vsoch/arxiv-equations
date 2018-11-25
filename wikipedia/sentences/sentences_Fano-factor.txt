@@ -1,5 +1,0 @@
-F = { \frac     { \sigma   _ { W } ^ { 2 } } { \mu   _ { W } } } ,
-\sigma   _ { W } ^ { 2 }
-\mu   _ { W }
-R = { \frac     { F W H M } { \mu   } } = 2 . 3 5 { \sqrt     { { \frac     { F w } { E } } } } ,
-w

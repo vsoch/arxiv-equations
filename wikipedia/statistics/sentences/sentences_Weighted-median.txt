@@ -1,0 +1,21 @@
+n
+x _ { 1 } , x _ { 2 } , . . . , x _ { n }
+w _ 1 ,   w _ 2 , . . . , w _ n
+\sum_ { i = 1 } ^ n   w _ i   =   1
+x _ { k }
+{ \displaystyle   \sum   _ { i = 1 } ^ { k - 1 } w _ { i } \leq   1 / 2 }
+\sum_ { i   =   k   +   1 } ^ { n }   w _ i   \le   1 / 2  
+1 / 2
+{ \displaystyle   \sum   _ { i = 1 } ^ { k - 1 } w _ { i } < 1 / 2 }
+\sum_ { i   =   k   +   1 } ^ { n }   w _ i   =   1 / 2  
+{ \displaystyle   \sum   _ { i = 1 } ^ { k - 1 } w _ { i } = 1 / 2 }
+{ \displaystyle   \sum   _ { i = k + 1 } ^ { n } w _ { i } < 1 / 2 }
+{ \displaystyle   \{ 1 ; 2 ; 3 ; 4 ; 5 ; \ } }
+{ \displaystyle   \{ 0 . 1 5 ; 0 . 1 ; 0 . 2 ; 0 . 3 ; 0 . 2 5 ; \ } }
+{ \displaystyle   \{ 1 ; 2 ; 3 ; 4 ; \ } }
+{ \displaystyle   \{ 0 . 2 5 ; 0 . 2 5 ; 0 . 2 5 ; 0 . 2 5 ; \ } }
+{ \displaystyle   \{ 1 ; 2 ; 2 . 5 ; 3 ; 4 ; \ } }
+{ \displaystyle   \{ 0 . 2 5 ; 0 . 2 5 ; 0 ; 0 . 2 5 ; 0 . 2 5 ; \ } }
+{ \displaystyle   \{ 1 ; 2 ; 3 ; 4 ; \ } }
+{ \displaystyle   \{ 0 . 4 9 ; 0 . 0 1 ; 0 . 2 5 ; 0 . 2 5 ; \ } }
+O ( n \log   n )

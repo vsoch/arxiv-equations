@@ -1,0 +1,37 @@
+\mu   ,
+{ \displaystyle   s > 0 , }
+{ \displaystyle   x \in   ( - \infty   , \infty   ) }
+{ \displaystyle   { \frac   { e ^ { - { \frac   { x - \mu   } { s } } } } { s \left ( 1 + e ^ { - { \frac   { x - \mu   } { s } } } \right ) ^ { 2 } } } }
+{ \displaystyle   { \frac   { 1 } { 1 + e ^ { - { \frac   { x - \mu   } { s } } } } } }
+\mu  
+\mu  
+\mu  
+{ \displaystyle   { \frac   { s ^ { 2 } \pi   ^ { 2 } } { 3 } } }
+{ \displaystyle   0 }
+{ \displaystyle   6 / 5 }
+{ \displaystyle   \ln   s + 2 }
+{ \displaystyle   e ^ { \mu   t } \mathrm   { B }   ( 1 - s t , 1 + s t ) }
+{ \displaystyle   t \in   ( - 1 / s , 1 / s ) }
+\Beta
+e ^ { { i t \mu   } } { \frac     { \pi   s t } { \sinh ( \pi   s t ) } }
+{ \displaystyle   f ( x ; \mu   , s ) = { \frac   { e ^ { - { \frac   { x - \mu   } { s } } } } { s \left ( 1 + e ^ { - { \frac   { x - \mu   } { s } } } \right ) ^ { 2 } } } = { \frac   { 1 } { s \left ( e ^ { \frac   { x - \mu   } { 2 s } } + e ^ { - { \frac   { x - \mu   } { 2 s } } } \right ) ^ { 2 } } } = { \frac   { 1 } { 4 s } } \operatorname   { s e c h }   ^ { 2 } \!\left ( { \frac   { x - \mu   } { 2 s } } \right ) . }
+F ( x ; \mu   , s ) = { \frac     { 1 } { 1 + e ^ { { - { \frac     { x - \mu   } { s } } } } } } = { \frac     1 2 } + { \frac     1 2 } \;\operatorname   { t a n h } \!\left ( { \frac     { x - \mu   } { 2 s } } \right ) .
+Q ( p ; \mu   , s ) = \mu   + s \,\ln   \left ( { \frac     { p } { 1 - p } } \right ) .
+Q ' ( p ; s ) = { \frac     { s } { p ( 1 - p ) } } .
+s
+\sigma  
+s \,=\,q \,\sigma  
+{ \displaystyle   q \,=\,{ \sqrt   { 3 } } / { \pi   } \,=\,0 . 5 5 1 3 2 8 8 9 5 \ldots   }
+{ \displaystyle   X \sim   \mathrm   { G u m b e l }   ( \alpha   _ { X } , \beta   ) }
+{ \displaystyle   Y \sim   \mathrm   { G u m b e l }   ( \alpha   _ { Y } , \beta   ) }
+{ \displaystyle   X - Y \sim   \mathrm   { L o g i s t i c }   ( \alpha   _ { X } - \alpha   _ { Y } , \beta   ) \ , }
+X
+{ \displaystyle   Y \sim   \mathrm   { G u m b e l }   ( \alpha   , \beta   ) }
+{ \displaystyle   X + Y \nsim   \mathrm   { L o g i s t i c }   ( 2 \alpha   , \beta   ) \ , }
+{ \displaystyle   E ( X + Y ) = 2 \alpha   + 2 \beta   \gamma   \neq   2 \alpha   = E \left ( \mathrm   { L o g i s t i c }   ( 2 \alpha   , \beta   ) \right ) }
+{ \displaystyle   \left ( \alpha   = e ^ { \mu   } , \beta   = { \frac   { 1 } { s } } \right ) }
+{ \displaystyle   \left ( \alpha   = e ^ { \mu   } , \beta   = { \frac   { 1 } { s } } , \gamma   \right ) }
+{ \displaystyle   \mu   + \beta   \log ( e ^ { X } - 1 ) \sim   \operatorname   { L o g i s t i c }   ( \mu   , \beta   ) . }
+{ \displaystyle   \mu   - \beta   \log   \left ( { \frac   { X } { Y } } \right ) \sim   \operatorname   { L o g i s t i c }   ( \mu   , \beta   ) . }
+{ \displaystyle   { \begin { a l i g n e d } \operatorname   { E }   [ ( X - \mu   ) ^ { n } ] & = \int   _ { - \infty   } ^ { \infty   } ( x - \mu   ) ^ { n } \,dF ( x ) \\&=\int   _ { 0 } ^ { 1 } { \big   ( } Q ( p ) - \mu   { \big   ) } ^ { n } \,dp = s ^ { n } \int   _ { 0 } ^ { 1 } \left [ \ln   \!\left ( { \frac   { p } { 1 - p } } \right ) \right ] ^ { n } \,dp . \end { a l i g n e d } } }
+{ \displaystyle   \operatorname   { E }   [ ( X - \mu   ) ^ { n } ] = s ^ { n } \pi   ^ { n } ( 2 ^ { n } - 2 ) \cdot   | B _ { n } | . }

@@ -1,0 +1,6 @@
+E [ U ] = E [ X Z ] = E [ X ] E [ Z ] = E [ X ] \cdot   0 = 0
+{ \displaystyle   { \begin { a l i g n e d } \operatorname   { c o v }   ( U , X ) & = \operatorname   { E }   [ ( U - \operatorname   { E }   [ U ] ) ( X - \operatorname   { E }   [ X ] ) ] = \operatorname   { E }   [ U ( X - { \tfrac   { 1 } { 2 } } ) ] \\&=\operatorname   { E }   [ X ^ { 2 } Z - { \tfrac   { 1 } { 2 } } X Z ] = \operatorname   { E }   [ ( X ^ { 2 } - { \tfrac   { 1 } { 2 } } X ) Z ] = \operatorname   { E }   [ ( X ^ { 2 } - { \tfrac   { 1 } { 2 } } X ) ] \operatorname   { E }   [ Z ] = 0 \end { a l i g n e d } } }
+\Pr ( U = a \mid   X = b ) = \Pr ( U = a )
+\Pr ( U = 1 \mid   X = 0 ) = \Pr ( X Z = 1 \mid   X = 0 ) = 0
+\Pr ( U = 1 ) = \Pr ( X Z = 1 ) = 1 / 4
+\Pr ( U = 1 \mid   X = 0 ) \neq   \Pr ( U = 1 )

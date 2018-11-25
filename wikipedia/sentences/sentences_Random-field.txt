@@ -1,9 +1,0 @@
-( \Omega   , { \mathcal   { F } } , P )
-  \{   F _ t   :   t   \in   T   \ }
-F _ t
-{ \displaystyle   P ( X _ { i } = x _ { i } | X _ { j } = x _ { j } , i \neq   j ) = P ( X _ { i } = x _ { i } | X _ { j } = x _ { j } , j \in   \partial   _ { i } ) , \ , }
-{ \displaystyle   ( x _ { j } ) _ { j } }
-i
-\partial   _ { i }
-i
-  P ( X _ i = x _ i | \partial_i )   =   \frac { P ( \omega ) } { \sum_ { \omega ' } P ( \omega ' ) } ,    

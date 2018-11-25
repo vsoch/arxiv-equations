@@ -1,0 +1,37 @@
+{ \textstyle   \mathbb   { R }   ^ { d } }
+{ \textstyle   d }
+{ \textstyle   \mathbb   { R }   ^ { d } }
+{ \textstyle   \mathbb   { R }   ^ { d } }
+{ \textstyle   P }
+{ \textstyle   Q }
+{ \textstyle   P }
+{ \textstyle   m }
+{ \textstyle   P = \{ ( p _ { 1 } , w _ { p 1 } ) , ( p _ { 2 } , w _ { p 2 } ) , . . . , ( p _ { m } , w _ { p m } ) \ } }
+{ \textstyle   p _ { i } }
+{ \textstyle   w _ { p i } }
+{ \textstyle   Q = \{ ( q _ { 1 } , w _ { q 1 } ) , ( q _ { 2 } , w _ { q 2 } ) , . . . , ( q _ { n } , w _ { q n } ) \ } }
+{ \textstyle   n }
+{ \textstyle   D = [ d _ { i , j } ] }
+{ \textstyle   p _ { i } }
+{ \textstyle   q _ { j } }
+{ \textstyle   F = [ f _ { i , j } ] }
+{ \textstyle   f _ { i , j } }
+{ \textstyle   p _ { i } }
+{ \textstyle   q _ { j } }
+{ \displaystyle   \min   { \sum   _ { i = 1 } ^ { m } \sum   _ { j = 1 } ^ { n } f _ { i , j } d _ { i , j } } }
+{ \displaystyle   f _ { i , j } \geq   0 , 1 \leq   i \leq   m , 1 \leq   j \leq   n }
+{ \displaystyle   \sum   _ { j = 1 } ^ { n } { f _ { i , j } } \leq   w _ { p i } , 1 \leq   i \leq   m }
+{ \displaystyle   \sum   _ { i = 1 } ^ { m } { f _ { i , j } } \leq   w _ { q j } , 1 \leq   j \leq   n }
+{ \displaystyle   \sum   _ { i = 1 } ^ { m } \sum   _ { j = 1 } ^ { n } f _ { i , j } = \min   \left \{ \ \sum   _ { i = 1 } ^ { m } w _ { p i } , \quad   \sum   _ { j = 1 } ^ { n } w _ { q j } \ \right \ } }
+{ \textstyle   F }
+{ \displaystyle   E M D ( P , Q ) = { \frac   { \sum   _ { i = 1 } ^ { m } \sum   _ { j = 1 } ^ { n } f _ { i , j } d _ { i , j } } { \sum   _ { i = 1 } ^ { m } \sum   _ { j = 1 } ^ { n } f _ { i , j } } } }
+\pi   : P \to   Q
+P ' \subset   P
+Q ' \subset   Q
+| P - Q | _ { \pi   } = | P \setminus   P ' | + | Q \setminus   Q ' |
+P \setminus   P '
+P '
+P \setminus   P '
+| P \setminus   P ' |
+Q ' \subset   Q
+{ \displaystyle   { \begin { a r r a y } { r l } { \text { E M D } } _ { 0 } & = 0 \\{ \text { E M D } } _ { i + 1 } & = P _ { i } + { \text { E M D } } _ { i } - Q _ { i } \\{ \text { T o t a l   D i s t a n c e } } & = \sum   | { \text { E M D } } _ { i } | \end { a r r a y } } }

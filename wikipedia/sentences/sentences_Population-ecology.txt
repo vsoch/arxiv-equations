@@ -1,2 +1,0 @@
-{ \frac   { d N } { d T } } = B - D = b N - d N = ( b - d ) N = r N ,
-{ \frac   { d N } { d T } } = a N \left ( 1 - { \frac   { N } { K } } \right ) ,

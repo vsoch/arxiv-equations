@@ -1,0 +1,74 @@
+p _ { 1 } , \ldots   , p _ { { k - 1 } }
+\left [ \prod   _ { { i = 1 } } ^ { { k - 1 } } B ( a _ { i } , b _ { i } ) \right ] ^ { { - 1 } } p _ { k } ^ { { b _ { { k - 1 } } - 1 } } \prod   _ { { i = 1 } } ^ { { k - 1 } } \left [ p _ { i } ^ { { a _ { i } - 1 } } \left ( \sum   _ { { j = i } } ^ { k } p _ { j } \right ) ^ { { b _ { { i - 1 } } - ( a _ { i } + b _ { i } ) } } \right ]
+p _ { k } = 1 - \sum   _ { { i = 1 } } ^ { { k - 1 } } p _ { i }
+B ( x , y )
+b _ { { i - 1 } } = a _ { i } + b _ { i }
+2 \leqslant   i \leqslant   k - 1
+b _ { 0 }
+p _ { 1 } , p _ { 2 } , p _ { 3 }
+\left [ \prod   _ { { i = 1 } } ^ { { 3 } } B ( a _ { i } , b _ { i } ) \right ] ^ { { - 1 } } p _ { 1 } ^ { { a _ { 1 } - 1 } } p _ { 2 } ^ { { a _ { 2 } - 1 } } p _ { 3 } ^ { { a _ { 3 } - 1 } } p _ { 4 } ^ { { b _ { 3 } - 1 } } \left ( p _ { 2 } + p _ { 3 } + p _ { 4 } \right ) ^ { { b _ { 1 } - \left ( a _ { 2 } + b _ { 2 } \right ) } } \left ( p _ { 3 } + p _ { 4 } \right ) ^ { { b _ { 2 } - \left ( a _ { 3 } + b _ { 3 } \right ) } }
+p _ { 1 } + p _ { 2 } + p _ { 3 } < 1
+p _ { 4 } = 1 - p _ { 1 } - p _ { 2 } - p _ { 3 }
+z _ { 1 } , \ldots   , z _ { { k - 1 } }
+{ \displaystyle   z _ { 1 } = p _ { 1 } , z _ { 2 } = p _ { 2 } / \left ( 1 - p _ { 1 } \right ) , z _ { 3 } = p _ { 3 } / \left ( 1 - ( p _ { 1 } + p _ { 2 } ) \right ) , \ldots   , z _ { i } = p _ { i } / \left ( 1 - \left ( p _ { 1 } + \cdots   + p _ { i - 1 } \right ) \right ) }
+p _ { 1 } , \ldots   , p _ { k }
+z _ { i }
+a _ { i } , b _ { i }
+i = 1 , \ldots   , k - 1
+x _ { 1 } + \cdots   + x _ { k } \leqslant   1
+{ \displaystyle   \prod   _ { i = 1 } ^ { k } { \frac   { x _ { i } ^ { \alpha   _ { i } - 1 } \left ( 1 - x _ { 1 } - \cdots   - x _ { i } \right ) ^ { \gamma   _ { i } } } { B ( \alpha   _ { i } , \beta   _ { i } ) } } }
+\gamma   _ { j } = \beta   _ { j } - \alpha   _ { { j + 1 } } - \beta   _ { { j + 1 } }
+1 \leqslant   j \leqslant   k - 1
+\gamma   _ { k } = \beta   _ { k } - 1
+k
+x _ { { k + 1 } } = 1 - \sum   _ { { i = 1 } } ^ { k } x _ { i }
+k - 1
+x _ { k } = 1 - \sum   _ { { i = 1 } } ^ { { k - 1 } } x _ { i }
+X = \left ( X _ { 1 } , \ldots   , X _ { k } \right ) \sim   G D _ { k } \left ( \alpha   _ { 1 } , \ldots   , \alpha   _ { k } ; \beta   _ { 1 } , \ldots   , \beta   _ { k } \right )
+E \left [ X _ { 1 } ^ { { r _ { 1 } } } X _ { 2 } ^ { { r _ { 2 } } } \cdots   X _ { k } ^ { { r _ { k } } } \right ] = \prod   _ { { j = 1 } } ^ { k } { \frac     { \Gamma   \left ( \alpha   _ { j } + \beta   _ { j } \right ) \Gamma   \left ( \alpha   _ { j } + r _ { j } \right ) \Gamma   \left ( \beta   _ { j } + \delta   _ { j } \right ) } { \Gamma   \left ( \alpha   _ { j } \right ) \Gamma   \left ( \beta   _ { j } \right ) \Gamma   \left ( \alpha   _ { j } + \beta   _ { j } + r _ { j } + \delta   _ { j } \right ) } }
+\delta   _ { j } = r _ { { j + 1 } } + r _ { { j + 2 } } + \cdots   + r _ { k }
+j = 1 , 2 , \cdots   , k - 1
+\delta   _ { k } = 0
+E \left ( X _ { j } \right ) = { \frac     { \alpha   _ { j } } { \alpha   _ { j } + \beta   _ { j } } } \prod   _ { { m = 1 } } ^ { { j - 1 } } { \frac     { \beta   _ { m } } { \alpha   _ { m } + \beta   _ { m } } } .
+b _ { { i - 1 } } = a _ { i } + b _ { i }
+2 \leqslant   i \leqslant   k
+X = \left ( X _ { 1 } , \ldots   , X _ { k } \right ) \sim   G D _ { k } \left ( \alpha   _ { 1 } , \ldots   , \alpha   _ { k } ; \beta   _ { 1 } , \ldots   , \beta   _ { k } \right )
+Y | X
+n
+Y = \left ( Y _ { 1 } , \ldots   , Y _ { k } \right )
+Y _ { j } = y _ { j }
+1 \leqslant   j \leqslant   k
+y _ { { k + 1 } } = n - \sum   _ { { i = 1 } } ^ { k } y _ { i }
+X | Y
+X | Y \sim   G D _ { k } \left ( { \alpha   ' } _ { 1 } , \ldots   , { \alpha   ' } _ { k } ; { \beta   ' } _ { 1 } , \ldots   , { \beta   ' } _ { k } \right )
+{ \alpha   ' } _ { j } = \alpha   _ { j } + y _ { j }
+{ \beta   ' } _ { j } = \beta   _ { j } + \sum   _ { { i = j + 1 } } ^ { { k + 1 } } y _ { i }
+1 \leqslant   k .
+k + 1
+X = ( X _ { 1 } , \ldots   , X _ { k } )
+j
+X \sim   D ( \alpha   _ { 1 } , \ldots   , \alpha   _ { k } , \alpha   _ { { k + 1 } } )
+  X
+\alpha   _ { i }
+k + 1
+\alpha   _ { i }
+i
+i
+\alpha   _ { i }
+\geq   1
+j
+j
+n
+X
+X \sim   G D ( \alpha   _ { 1 } , \ldots   , \alpha   _ { k } ; \beta   _ { 1 } , \ldots   , \beta   _ { k } )
+k + 1
+j = 1 , \ldots   , k
+\alpha   _ { j }
+j
+\beta   _ { j }
+j
+k + 1
+k + 1
+n
+\alpha  
+\beta  

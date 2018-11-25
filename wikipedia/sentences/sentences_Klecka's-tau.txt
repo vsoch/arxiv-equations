@@ -1,1 +1,0 @@
-{ \displaystyle   \tau   = { \frac   { n _ { c o r r } - \sum   _ { i = 1 } ^ { T } p _ { i } n _ { i } } { N - \sum   _ { i = 1 } ^ { T } p _ { i } n _ { i } } } }

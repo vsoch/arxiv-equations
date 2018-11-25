@@ -1,0 +1,28 @@
+  \mathrm { S N R }   =   \frac { P _ \mathrm { s i g n a l } } { P _ \mathrm { n o i s e } } ,  
+  \mathrm { S N R }   =   \frac { \sigma ^ 2 _ \mathrm { s i g n a l } } { \sigma ^ 2 _ \mathrm { n o i s e } } .  
+  \mathrm { S N R }   =   \frac { P _ \mathrm { s i g n a l } } { P _ \mathrm { n o i s e } }   =   \left   (   \frac { A _ \mathrm { s i g n a l } } { A _ \mathrm { n o i s e }   }   \right   ) ^ 2 ,  
+P _ { { \mathrm     { s i g n a l , d B } } } = 1 0 \log   _ { { 1 0 } } \left ( P _ { { \mathrm     { s i g n a l } } } \right )
+P _ { { \mathrm     { n o i s e , d B } } } = 1 0 \log   _ { { 1 0 } } \left ( P _ { { \mathrm     { n o i s e } } } \right ) .
+{ \mathrm     { S N R _ { { d B } } } } = 1 0 \log   _ { { 1 0 } } \left ( { \mathrm     { S N R } } \right ) .
+{ \mathrm     { S N R _ { { d B } } } } = 1 0 \log   _ { { 1 0 } } \left ( { \frac     { P _ { { \mathrm     { s i g n a l } } } } { P _ { { \mathrm     { n o i s e } } } } } \right ) .
+  1 0   \log_ { 1 0 }   \left   (   \frac { P _ \mathrm { s i g n a l } } { P _ \mathrm { n o i s e } }   \right   )   =   1 0   \log_ { 1 0 }   \left   (   P _ \mathrm { s i g n a l }   \right   )   -   1 0   \log_ { 1 0 }   \left   (   P _ \mathrm { n o i s e }   \right   ) .  
+{ \mathrm     { S N R _ { { d B } } } } = { P _ { { \mathrm     { s i g n a l , d B } } } - P _ { { \mathrm     { n o i s e , d B } } } } .
+  \mathrm { S N R _ { d B } }   =   1 0   \log_ { 1 0 }   \left   [   \left   (   \frac { A _ \mathrm { s i g n a l } } { A _ \mathrm { n o i s e } }   \right   ) ^ 2   \right   ]   =   2 0   \log_ { 1 0 }   \left   (   \frac { A _ \mathrm { s i g n a l } } { A _ \mathrm { n o i s e } }   \right   )     =   \left   (   { A _ \mathrm { s i g n a l , d B }   -   A _ \mathrm { n o i s e , d B } } \right   ) .  
+    \mathrm { P }   =   V _ \mathrm { r m s } I _ \mathrm { r m s }  
+  \mathrm { P } =   \frac { V _ \mathrm { r m s } ^ { 2 } } { R }   =   I _ \mathrm { r m s } ^ { 2 }   R  
+R = 1   \Omega
+  \mathrm { P } =   V _ \mathrm { r m s } ^ { 2 }   =   \frac { A ^ { 2 } } { 2 }  
+    \mathrm { S N R }   =   \frac { \mu } { \sigma }  
+\mu  
+\sigma  
+{ \mathrm     { ( S N R ) _ { { C , A M } } } } = { \frac     { A _ { C } ^ { 2 } ( 1 + k _ { a } ^ { 2 } P ) } { 2 W N _ { 0 } } }
+k _ a
+\mathrm { ( S N R ) _ { O , A M } }   =   \frac { A _ c ^ 2   k _ a ^ 2   P }   { 2   W   N _ 0 }  
+\mathrm { ( S N R ) _ { C , F M } }   =   \frac { A _ c ^ 2 }   { 2   W   N _ 0 }  
+\mathrm { ( S N R ) _ { O , F M } }   =   \frac { A _ c ^ 2   k _ f ^ 2   P }   { 2   N _ 0   W ^ 3 }  
+  \mathrm { D R _ { d B } }   =   \mathrm { S N R _ { d B } }   =   2 0   \log_ { 1 0 } ( 2 ^ n )   \approx   6 . 0 2   \cdot   n  
+  \mathrm { S N R _ { d B } }   \approx   2 0   \log_ { 1 0 }   ( 2 ^ n   \sqrt   { 3 / 2 } )   \approx   6 . 0 2   \cdot   n   +   1 . 7 6 1  
+  \mathrm { D R _ { d B } }   =   6 . 0 2   \cdot   2 ^ m  
+  \mathrm { S N R _ { d B } }   =   6 . 0 2   \cdot   ( n - m )  
+\sigma  
+\sigma  

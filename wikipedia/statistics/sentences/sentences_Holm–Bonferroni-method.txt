@@ -1,0 +1,107 @@
+H _ { { 1 } } , . . . , H _ { { m } }
+m
+P _ { { 1 } } , . . . , P _ { { m } }
+P _ { ( 1 ) }   \ldots   P _ { ( m ) }
+H _ { { ( 1 ) } } \ldots   H _ { { ( m ) } }
+\alpha  
+k
+P _ { { ( k ) } } > { \frac     { \alpha   } { m + 1 - k } }
+H _ { { ( 1 ) } } \ldots   H _ { { ( k - 1 ) } }
+H _ { { ( k ) } } \ldots   H _ { { ( m ) } }
+k = 1
+k
+F W E R \leq   \alpha  
+F W E R
+{ \displaystyle   { \frac   { \alpha   } { m } } }
+\alpha  
+\alpha  
+{ \displaystyle   { \frac   { \alpha   } { m } } }
+\alpha  
+{ \displaystyle   { \frac   { \alpha   } { m } } , { \frac   { \alpha   } { m - 1 } } , . . . , { \frac   { \alpha   } { 2 } } , { \frac   { \alpha   } { 1 } } }
+k
+{ \displaystyle   H _ { ( 1 ) } , . . . , H _ { ( k - 1 ) } }
+{ \displaystyle   H _ { ( k ) } , . . . , H _ { ( m ) } }
+k = 1
+k
+H _ { { ( 1 ) } } \ldots   H _ { { ( m ) } }
+P _ { { ( 1 ) } } \leq   P _ { { ( 2 ) } } \leq   \ldots   \leq   P _ { { ( m ) } }
+I _ { 0 }
+m _ { { 0 } }
+\alpha  
+h
+{ \displaystyle   H _ { ( 1 ) } \ldots   H _ { ( h - 1 ) } }
+{ \displaystyle   h - 1 \leq   m - m _ { 0 } }
+{ \frac     { 1 } { m - h + 1 } } \leq   { \frac     { 1 } { m _ { 0 } } }
+h
+{ \displaystyle   P _ { ( h ) } \leq   { \frac   { \alpha   } { m - h + 1 } } }
+{ \frac     { \alpha   } { m _ { 0 } } }
+{ \frac     { \alpha   } { m _ { 0 } } }
+A = \left \{ P _ { i } \leq   { \frac     { \alpha   } { m _ { { 0 } } } } { \text {   f o r   s o m e   } } i \in   I _ { { 0 } } \right \ }
+I _ { 0 }
+\Pr ( A ) \leq   \alpha  
+\alpha  
+m
+2 ^ { m }
+H _ { i }
+H _ { 1 } , . . . , H _ { m }
+\alpha  
+H _ { i }
+\alpha  
+H _ { { ( 1 ) } }
+\bigcap   \nolimits   _ { { i = 1 } } ^ { m } { { H _ { i } } }
+H _ { 1 } , . . . , H _ { m }
+H _ { { ( 1 ) } }
+\alpha   / m
+H _ { { ( 1 ) } }
+P _ { { ( 1 ) } }
+m
+\alpha   / m
+H _ { { ( 2 ) } }
+H _ { { ( 1 ) } }
+H _ { { ( 2 ) } }
+H _ { { ( 1 ) } }
+P _ { { ( 2 ) } } \leq   \alpha   / ( m - 1 )
+H _ { { ( 2 ) } }
+1 \leq   i \leq   m
+H _ { 1 } , . . . , H _ { 4 }
+p _ { 1 } = 0 . 0 1
+p _ { 2 } = 0 . 0 4
+p _ { 3 } = 0 . 0 3
+p _ { 4 } = 0 . 0 0 5
+\alpha   = 0 . 0 5
+H _ { 4 } = H _ { { ( 1 ) } }
+p _ { 4 } = p _ { { ( 1 ) } } = 0 . 0 0 5
+\alpha   / 4 = 0 . 0 1 2 5
+p _ { 1 } = p _ { { ( 2 ) } } = 0 . 0 1 < 0 . 0 1 6 7 = \alpha   / 3
+H _ { 1 } = H _ { { ( 2 ) } }
+H _ { 3 }
+p _ { 3 } = p _ { { ( 3 ) } } = 0 . 0 3 > 0 . 0 2 5 = \alpha   / 2
+H _ { 1 }
+H _ { 4 }
+H _ { 2 }
+H _ { 3 }
+\alpha   = 0 . 0 5
+p _ { 2 } = p _ { { ( 4 ) } } = 0 . 0 4 < 0 . 0 5 = \alpha  
+H _ { 2 }
+{ \frac     { \alpha   } { m } } , { \frac     { \alpha   } { m - 1 } } , . . . , { \frac     { \alpha   } { 1 } }
+1 - ( 1 - \alpha   ) ^ { { 1 / m } } , 1 - ( 1 - \alpha   ) ^ { { 1 / ( m - 1 ) } } , . . . , 1 - ( 1 - \alpha   ) ^ { { 1 } }
+P _ { { ( 1 ) } } , . . . , P _ { { ( m ) } }
+H _ { ( i ) }
+0 \leq   w _ { { ( i ) } }
+P _ { { ( i ) } }
+H _ { ( i ) }
+P _ { { ( j ) } } \leq   { \frac     { w _ { { ( j ) } } } { \sum   _ { { k = j } } ^ { m } { w _ { { ( k ) } } } } } \alpha   , \quad   j = 1 , . . . , i
+\widetilde   { p } _ { { ( i ) } } = \max   _ { { j \leq   i } } \left \{ ( m - j + 1 ) p _ { { ( j ) } } \right \}_ { { 1 } }
+\{ x \}_ { { 1 } } \equiv   \min ( x , 1 )
+\widetilde   { p } _ { 1 } = 0 . 0 3
+\widetilde   { p } _ { 2 } = 0 . 0 6
+\widetilde   { p } _ { 3 } = 0 . 0 6
+\widetilde   { p } _ { 4 } = 0 . 0 2
+H _ { 1 }
+H _ { 4 }
+\alpha   = 0 . 0 5
+\widetilde   { p } _ { { ( i ) } } = \max   _ { { j \leq   i } } \left \{ { \frac     { \sum   _ { { k = j } } ^ { m } { w _ { { ( k ) } } } } { w _ { { ( j ) } } } } p _ { { ( j ) } } \right \}_ { { 1 } }
+\{ x \}_ { { 1 } } \equiv   \min ( x , 1 )
+H _ { { ( 1 ) } } \ldots   H _ { { ( k ) } }
+k
+P _ { { ( k ) } } \leq   { \frac     { \alpha   } { m + 1 - k } }

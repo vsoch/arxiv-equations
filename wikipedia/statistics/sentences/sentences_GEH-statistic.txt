@@ -1,0 +1,1 @@
+{ \displaystyle   G E H = { \sqrt   { \frac   { 2 ( M - C ) ^ { 2 } } { M + C } } } }

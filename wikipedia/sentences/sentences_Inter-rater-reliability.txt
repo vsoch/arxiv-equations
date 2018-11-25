@@ -1,9 +1,0 @@
-r
-\rho  
-r
-\rho  
-r
-\rho  
-\bar { x }   \pm   1 . 9 6   s
-\bar { x }   \pm   2   s
-\bar { x }   \pm     t _ { 0 . 0 5 , n - 1 }   s \sqrt { 1 + \frac { 1 } { n } }

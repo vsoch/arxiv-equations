@@ -1,6 +1,0 @@
-n { \bar     p } = { \frac     { \sum   _ { { i = 1 } } ^ { m } \sum   _ { { j = 1 } } ^ { n } { \begin { c a s e s } 1 & { \mbox { i f   } } x _ { { i j } } { \mbox {   d e f e c t i v e } } \\0 & { \mbox { o t h e r w i s e } } \end { c a s e s } } } { m } }
-n { \bar     p } \pm   3 { \sqrt     { n { \bar     p } ( 1 - { \bar     p } ) } }
-n { \bar     p } _ { i } = \sum   _ { { j = 1 } } ^ { n } { \begin { c a s e s } 1 & { \mbox { i f   } } x _ { { i j } } { \mbox {   d e f e c t i v e } } \\0 & { \mbox { o t h e r w i s e } } \end { c a s e s } }
-{ \displaystyle   n { \bar   { p } } \pm   3 { \sqrt   { n { \bar   { p } } ( 1 - { \bar   { p } } ) } } }
-\bar   p
-n

@@ -1,8 +1,0 @@
-{ \mathbb     { X } } = ( x _ { 1 } , \ldots   , x _ { n } ) ,
-x _ { i } \sim   p ( x _ { i } | \theta   )
-\theta   \sim   p ( \theta   | \alpha   ) ,
-p ( { \mathbb     { X } } | \alpha   )
-p ( { \mathbb     { X } } | \alpha   ) = \int   _ { \theta   } p ( { \mathbb     { X } } | \theta   ) \,p ( \theta   | \alpha   ) \ \operatorname   { d } \!\theta  
-{ \displaystyle   { \mathcal   { L } } ( \psi   ; \mathbb   { X }   ) = p ( \mathbb   { X }   | \psi   ) = \int   _ { \lambda   } p ( \mathbb   { X }   | \lambda   , \psi   ) \,p ( \lambda   | \psi   ) \ \operatorname   { d }   \!\lambda   }
-p ( x | M ) = \int   p ( x | \theta   , M ) \,p ( \theta   | M ) \,\operatorname   { d } \!\theta  
-{ \frac     { p ( M _ { 1 } | x ) } { p ( M _ { 2 } | x ) } } = { \frac     { p ( M _ { 1 } ) } { p ( M _ { 2 } ) } } \,{ \frac     { p ( x | M _ { 1 } ) } { p ( x | M _ { 2 } ) } }

@@ -1,0 +1,2 @@
+d _ { { X } } ( s , t ) = { \sqrt     { { \mathbf     { E } } { \big   [ } | X _ { { s } } - X _ { { t } } | ^ { { 2 } } ] } } . \ ,
+{ \mathbf     { E } } \left [ \sup   _ { { t \in   T } } X _ { { t } } \right ] \leq   2 4 \int   _ { 0 } ^ { { + \infty   } } { \sqrt     { \log   N ( T , d _ { { X } } ; \varepsilon   ) } } \,{ \mathrm     { d } } \varepsilon   .

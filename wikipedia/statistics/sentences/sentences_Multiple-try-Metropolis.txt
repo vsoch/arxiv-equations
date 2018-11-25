@@ -1,0 +1,48 @@
+Q ( x ' ; x ^ { t } ) = { \mathcal     { N } } ( x ^ { t } ; \sigma   ^ { 2 } I ) \ ,
+\pi   ( x ) \ ,
+Q ( x ' ; x ^ { t } ) = { \mathcal     { N } } ( x ^ { t } ; { \mathbf     { \Sigma   } } )
+\mathbf { \Sigma }
+\sigma   ^ { 2 } \ ,
+\sigma   ^ { 2 } \ ,
+Q ( x ' ; x ^ { t } ) = { \mathcal     { N } } ( x ^ { t } ; I ) \ ,
+N \ ,
+{ \sqrt     { N } } \ ,
+\sigma   ^ { 2 } \ ,
+\mathbf { \Sigma }
+Q ( x ' ; x ^ { t } ) = { \mathcal     { N } } ( x ^ { t } ; I ) \ ,
+\langle   x ^ { 2 } \rangle   = \int   _ { { - \infty   } } ^ { { \infty   } } x ^ { 2 } { \frac     { 1 } { { \sqrt     { 2 \pi   } } } } e ^ { { - { \frac     { x ^ { 2 } } { 2 } } } } = 1
+N \ ,
+r   \ ,
+P _ { n } ( r ) \propto   r ^ { { n - 1 } } e ^ { { - r ^ { 2 } / 2 } }
+r = { \sqrt     { N - 1 } } \ ,
+\approx   { \sqrt     { N } } \ ,
+N \ ,
+\sigma   ^ { 2 } \ ,
+\sigma   ^ { 2 } \rightarrow   \sigma   ^ { 2 } / N
+\sigma   \ ,
+\sigma   / { \sqrt     { N } }
+\sigma   \ ,
+Q ( { \mathbf     { x } } , { \mathbf     { y } } )
+Q ( { \mathbf     { x } } , { \mathbf     { y } } ) > 0
+Q ( { \mathbf     { y } } , { \mathbf     { x } } ) > 0
+\pi   ( { \mathbf     { x } } )
+w ( { \mathbf     { x } } , { \mathbf     { y } } ) = \pi   ( { \mathbf     { x } } ) Q ( { \mathbf     { x } } , { \mathbf     { y } } ) \lambda   ( { \mathbf     { x } } , { \mathbf     { y } } )
+\lambda   ( { \mathbf     { x } } , { \mathbf     { y } } )
+\mathbf   { x }  
+\mathbf   { y }  
+\mathbf   { x }  
+{ \mathbf     { y } } _ { 1 } , \ldots   , { \mathbf     { y } } _ { k }
+Q ( { \mathbf     { x } } , . )
+w ( { \mathbf     { y } } _ { j } , { \mathbf     { x } } )
+\mathbf   { y }  
+\mathbf   { y }   _ { i }
+{ \mathbf     { x } } _ { 1 } , \ldots   , { \mathbf     { x } } _ { { k - 1 } }
+Q ( { \mathbf     { y } } , . )
+{ \mathbf     { x } } _ { k } = { \mathbf     { x } }
+\mathbf   { y }  
+r = { \text { m i n } } \left ( 1 , { \frac     { w ( { \mathbf     { y } } _ { 1 } , { \mathbf     { x } } ) + \ldots   + w ( { \mathbf     { y } } _ { k } , { \mathbf     { x } } ) } { w ( { \mathbf     { x } } _ { 1 } , { \mathbf     { y } } ) + \ldots   + w ( { \mathbf     { x } } _ { k } , { \mathbf     { y } } ) } } \right )
+\pi   ( { \mathbf     { x } } )
+Q ( { \mathbf     { x } } , { \mathbf     { y } } )
+\lambda   ( { \mathbf     { x } } , { \mathbf     { y } } ) = { \frac     { 1 } { Q ( { \mathbf     { x } } , { \mathbf     { y } } ) } }
+w ( { \mathbf     { x } } , { \mathbf     { y } } ) = \pi   ( { \mathbf     { x } } )
+2 k - 1

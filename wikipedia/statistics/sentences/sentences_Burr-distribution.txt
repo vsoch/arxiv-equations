@@ -1,0 +1,16 @@
+c > 0 \ !
+k > 0 \ !
+x > 0 \ !
+c k { \frac     { x ^ { { c - 1 } } } { ( 1 + x ^ { c } ) ^ { { k + 1 } } } } \ !
+1 - \left ( 1 + x ^ { c } \right ) ^ { { - k } }
+{ \displaystyle   \mu   _ { 1 } = k \operatorname   { \mathrm   { B }   }   ( k - 1 / c , \,1 + 1 / c ) }
+\left ( 2 ^ { { { \frac     { 1 } { k } } } } - 1 \right ) ^ { { \frac     { 1 } { c } } }
+\left ( { \frac     { c - 1 } { k c + 1 } } \right ) ^ { { \frac     { 1 } { c } } }
+{ \displaystyle   - \mu   _ { 1 } ^ { 2 } + \mu   _ { 2 } }
+{ \displaystyle   { \frac   { 2 \mu   _ { 1 } ^ { 3 } - 3 \mu   _ { 1 } \mu   _ { 2 } + \mu   _ { 3 } } { \left ( - \mu   _ { 1 } ^ { 2 } + \mu   _ { 2 } \right ) ^ { 3 / 2 } } } }
+{ \displaystyle   { \frac   { - 3 \mu   _ { 1 } ^ { 4 } + 6 \mu   _ { 1 } ^ { 2 } \mu   _ { 2 } - 4 \mu   _ { 1 } \mu   _ { 3 } + \mu   _ { 4 } } { \left ( - \mu   _ { 1 } ^ { 2 } + \mu   _ { 2 } \right ) ^ { 2 } } } - 3 }
+{ \displaystyle   \mu   _ { r } = k \operatorname   { \mathrm   { B }   }   \left ( { \frac   { c k - r } { c } } , \,{ \frac   { c + r } { c } } \right ) }
+f ( x ; c , k ) = c k { \frac     { x ^ { { c - 1 } } } { ( 1 + x ^ { c } ) ^ { { k + 1 } } } } \ !
+{ \displaystyle   f ( x ; c , k , \lambda   ) = { \frac   { c k } { \lambda   } } \left ( { \frac   { x } { \lambda   } } \right ) ^ { c - 1 } \left [ 1 + \left ( { \frac   { x } { \lambda   } } \right ) ^ { c } \right ] ^ { - k - 1 } }
+{ \displaystyle   F ( x ; c , k ) = 1 - \left ( 1 + x ^ { c } \right ) ^ { - k } }
+{ \displaystyle   F ( x ; c , k , \lambda   ) = 1 - \left [ 1 + \left ( { \frac   { x } { \lambda   } } \right ) ^ { c } \right ] ^ { - k } }

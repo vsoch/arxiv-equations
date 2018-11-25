@@ -1,0 +1,18 @@
+A
+B
+i = 1 , \ldots   , r ; j = 1 , \ldots   , k
+n _ { { i j } } =
+( A _ { i } , B _ { j } )
+\chi   ^ { 2 } = \sum   _ { { i , j } } { \frac     { ( n _ { { i j } } - { \frac     { n _ { { i . } } n _ { { . j } } } { n } } ) ^ { 2 } } { { \frac     { n _ { { i . } } n _ { { . j } } } { n } } } }
+V = { \sqrt     { { \frac     { \varphi   ^ { 2 } } { \min ( k - 1 , r - 1 ) } } } } = { \sqrt     { { \frac     { \chi   ^ { 2 } / n } { \min ( k - 1 , r - 1 ) } } } }
+\varphi  
+\chi   ^ { 2 }
+n
+k
+r
+{ \displaystyle   { \tilde   { V } } = { \sqrt   { \frac   { { \tilde   { \varphi   } } ^ { 2 } } { \min ( { \tilde   { k } } - 1 , { \tilde   { r } } - 1 ) } } } }
+{ \displaystyle   { \tilde   { \varphi   } } ^ { 2 } = \max   \left ( 0 , \varphi   ^ { 2 } - { \frac   { ( k - 1 ) ( r - 1 ) } { n - 1 } } \right ) }
+{ \displaystyle   { \tilde   { k } } = k - { \frac   { ( k - 1 ) ^ { 2 } } { n - 1 } } }
+{ \displaystyle   { \tilde   { r } } = r - { \frac   { ( r - 1 ) ^ { 2 } } { n - 1 } } }
+{ \displaystyle   { \tilde   { V } } }
+{ \displaystyle   E [ \varphi   ^ { 2 } ] = { \frac   { ( k - 1 ) ( r - 1 ) } { n - 1 } } }

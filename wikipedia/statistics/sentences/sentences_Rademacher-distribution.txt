@@ -1,0 +1,19 @@
+k   \in   \{ - 1 , 1 \ } \ ,
+f ( k ) = \left \{ { \begin { m a t r i x } 1 / 2 & { \mbox { i f   } } k = - 1 , \\1 / 2 & { \mbox { i f   } } k = + 1 , \\0 & { \mbox { o t h e r w i s e . } } \end { m a t r i x } } \right .
+  F ( k )   =             \begin { c a s e s }             0 ,       &   k   <   - 1   \\      1 / 2 ,   &   - 1   \leq   k   <   1   \\      1 ,       &   k   \geq   1           \end { c a s e s }          
+0 \ ,
+0 \ ,
+1 \ ,
+0 \ ,
+- 2 \ ,
+\ln ( 2 ) \ ,
+\cosh ( t ) \ ,
+\cos ( t ) \ ,
+  f ( k )   =   \left \{ \begin { m a t r i x }   1 / 2   &   \mbox   { i f   } k = - 1 ,   \\ 1 / 2   &   \mbox   { i f   } k = + 1 ,   \\ 0   &   \mbox   { o t h e r w i s e . } \end { m a t r i x } \right .
+  f (   k   )   =   \frac {   1   } {   2   }   \left (     \delta   \left (   k   -   1   \right )   +   \delta   \left (   k   +   1   \right )     \right ) .  
+{ \displaystyle   \Pr   \left ( \left | { \frac   { \sum   _ { i = 1 } ^ { n } X _ { i } } { \sqrt   { n } } } \right | \leq   1 \right ) \geq   0 . 5 . }
+{ \displaystyle   \Pr   \left ( \sum   _ { i } x _ { i } a _ { i } > t | | a | | _ { 2 } \right ) \leq   e ^ { - { \frac   { t ^ { 2 } } { 2 } } } }
+{ \displaystyle   \Pr   \left ( | | Y | | > s t \right ) \leq   \left [ { \frac   { 1 } { c } } \Pr ( | | Y | | > t ) \right ] ^ { c s ^ { 2 } } }
+{ \displaystyle   c _ { 1 } \left [ \sum   { \left | a _ { i } \right | ^ { 2 } } \right ] ^ { \frac   { 1 } { 2 } } \leq   \left ( E \left [ \left | \sum   { a _ { i } x _ { i } } \right | ^ { p } \right ] \right ) ^ { \frac   { 1 } { p } } \leq   c _ { 2 } \left [ \sum   { \left | a _ { i } \right | ^ { 2 } } \right ] ^ { \frac   { 1 } { 2 } } }
+{ \displaystyle   c _ { 2 } \leq   c _ { 1 } { \sqrt   { p } } . }
+\frac { X + 1 } { 2 }

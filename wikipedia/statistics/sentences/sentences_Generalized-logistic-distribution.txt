@@ -1,0 +1,10 @@
+{ \displaystyle   F ( x ; \alpha   ) = { \frac   { 1 } { ( 1 + e ^ { - x } ) ^ { \alpha   } } } \equiv   ( 1 + e ^ { - x } ) ^ { - \alpha   } , \quad   \alpha   > 0 . }
+{ \displaystyle   f ( x ; \alpha   ) = { \frac   { \alpha   e ^ { - x } } { \left ( 1 + e ^ { - x } \right ) ^ { \alpha   + 1 } } } , \quad   \alpha   > 0 . }
+{ \displaystyle   F ( x ; \alpha   ) = 1 - { \frac   { e ^ { - \alpha   x } } { ( 1 + e ^ { - x } ) ^ { \alpha   } } } , \quad   \alpha   > 0 . }
+{ \displaystyle   f ( x ; \alpha   ) = { \frac   { \alpha   e ^ { - \alpha   x } } { ( 1 + e ^ { - x } ) ^ { \alpha   + 1 } } } , \quad   \alpha   > 0 . }
+{ \displaystyle   f ( x ; \alpha   ) = { \frac   { 1 } { B ( \alpha   , \alpha   ) } } { \frac   { e ^ { - \alpha   x } } { ( 1 + e ^ { - x } ) ^ { 2 \alpha   } } } , \quad   \alpha   > 0 . }
+M ( t ) = { \frac     { \Gamma   ( \alpha   - t ) \Gamma   ( \alpha   + t ) } { ( \Gamma   ( \alpha   ) ) ^ { 2 } } } , \quad   - \alpha   < t < \alpha   .
+F ( x ; \alpha   ) = { \frac     { \left ( e ^ { x } + 1 \right ) \Gamma   ( \alpha   ) e ^ { { \alpha   ( - x ) } } \left ( e ^ { { - x } } + 1 \right ) ^ { { - 2 \alpha   } } \,_ { 2 } { \tilde     { F } } _ { 1 } \left ( 1 , 1 - \alpha   ; \alpha   + 1 ; - e ^ { x } \right ) } { B ( \alpha   , \alpha   ) } } , \quad   \alpha   > 0 .
+{ \displaystyle   f ( x ; \alpha   , \beta   ) = { \frac   { 1 } { B ( \alpha   , \beta   ) } } { \frac   { e ^ { - \beta   x } } { ( 1 + e ^ { - x } ) ^ { \alpha   + \beta   } } } , \quad   \alpha   , \beta   > 0 . }
+M ( t ) = { \frac     { \Gamma   ( \beta   - t ) \Gamma   ( \alpha   + t ) } { \Gamma   ( \alpha   ) \Gamma   ( \beta   ) } } , \quad   - \alpha   < t < \beta   .
+F ( x ; \alpha   , \beta   ) = { \frac     { \left ( e ^ { x } + 1 \right ) \Gamma   ( \alpha   ) e ^ { { \beta   ( - x ) } } \left ( e ^ { { - x } } + 1 \right ) ^ { { - \alpha   - \beta   } } \,_ { 2 } { \tilde     { F } } _ { 1 } \left ( 1 , 1 - \beta   ; \alpha   + 1 ; - e ^ { x } \right ) } { B ( \alpha   , \beta   ) } } , \quad   \alpha   , \beta   > 0 .

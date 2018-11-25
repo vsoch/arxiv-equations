@@ -1,0 +1,15 @@
+R _ { 1 }
+R _ { n }
+R _ 1 '
+R _ n '
+R _ { i }
+R _ i '
+{ \displaystyle   \,L \prec   M }
+\,N
+{ \displaystyle   \,p \in   ( 0 , 1 ] }
+\,pL + ( 1 - p ) N \prec   p M + ( 1 - p ) N ,
+{ \displaystyle   \,L \prec   M }
+p = ( R _ 1 ,   \ldots ,   R _ n )
+p ' = ( R ' _ 1 ,   \ldots ,   R ' _ n )
+R _ i \cap \{ x , y \}^ 2 = R ' _ i \cap   \{ x , y \}^ 2
+f ( p ) \cap \{ x , y \}^ 2 = f ( p ' ) \cap   \{ x , y \}^ 2

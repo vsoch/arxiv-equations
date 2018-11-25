@@ -1,0 +1,2 @@
+{ \displaystyle   P = { \begin { p m a t r i x } A _ { 1 } ^ { \ast   } & A _ { 2 } ^ { \ast   } \\A_ { 0 } ^ { \ast   } & A _ { 1 } & A _ { 2 } \\&A_ { 0 } & A _ { 1 } & A _ { 2 } \\&&A_ { 0 } & A _ { 1 } & A _ { 2 } \\&&&\ddots   & \ddots   & \ddots   \end { p m a t r i x } } }
+{ \displaystyle   Q = { \begin { p m a t r i x } B _ { 0 0 } & B _ { 0 1 } \\B_ { 1 0 } & A _ { 1 } & A _ { 2 } \\&A_ { 0 } & A _ { 1 } & A _ { 2 } \\&&A_ { 0 } & A _ { 1 } & A _ { 2 } \\&&&A_ { 0 } & A _ { 1 } & A _ { 2 } \\&&&&\ddots   & \ddots   & \ddots   \end { p m a t r i x } } }

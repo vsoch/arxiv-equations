@@ -1,1 +1,0 @@
-\operatorname   { P R E S S } = \sum   _ { { i = 1 } } ^ { n } ( y _ { i } - { \hat     { y } } _ { { i , - i } } ) ^ { 2 }

@@ -1,0 +1,13 @@
+P = \left ( { \begin { a r r a y } { c c } Q & R \\{ \mathbf     { 0 } } & I _ { r } \end { a r r a y } } \right ) ,
+N = \sum   _ { { k = 0 } } ^ { \infty   } Q ^ { k } = ( I _ { t } - Q ) ^ { { - 1 } } ,
+N _ { 2 } = N ( 2 N _ { { \operatorname   { d g } } } - I _ { t } ) - N _ { { \operatorname   { s q } } } ,
+{ \mathbf     { t } } = N { \mathbf     { 1 } } ,
+( 2 N - I _ { t } ) { \mathbf     { t } } - { \mathbf     { t } } _ { { \operatorname   { s q } } } ,
+H = ( N - I _ { t } ) N _ { { \operatorname   { d g } } } ^ { { - 1 } } .
+B = N R .
+P = { \begin { b m a t r i x } 1 / 2 & 1 / 2 & 0 & 0 \\0 & 1 / 2 & 1 / 2 & 0 \\1 / 2 & 0 & 0 & 1 / 2 \\0 & 0 & 0 & 1 \end { b m a t r i x } } .
+{ \displaystyle   { \begin { a l i g n e d } N & = ( I - Q ) ^ { - 1 } = \left ( { \begin { b m a t r i x } 1 & 0 & 0 \\0 & 1 & 0 \\0 & 0 & 1 \end { b m a t r i x } } - { \begin { b m a t r i x } 1 / 2 & 1 / 2 & 0 \\0 & 1 / 2 & 1 / 2 \\1 / 2 & 0 & 0 \end { b m a t r i x } } \right ) ^ { - 1 } \\[4pt ] & = { \begin { b m a t r i x } 1 / 2 & - 1 / 2 & 0 \\0 & 1 / 2 & - 1 / 2 \\-1 / 2 & 0 & 1 \end { b m a t r i x } } ^ { - 1 } = { \begin { b m a t r i x } 4 & 4 & 2 \\2 & 4 & 2 \\2 & 2 & 2 \end { b m a t r i x } } . \end { a l i g n e d } } }
+{ \mathbf     { t } } = N { \mathbf     { 1 } } = { \begin { b m a t r i x } 4 & 4 & 2 \\2 & 4 & 2 \\2 & 2 & 2 \end { b m a t r i x } } { \begin { b m a t r i x } 1 \\1 \\1 \end { b m a t r i x } } = { \begin { b m a t r i x } 1 0 \\8 \\6 \end { b m a t r i x } } .
+\lambda  
+{ \displaystyle   { \frac   { p } { ( p + q ) } } { \frac   { w } { ( w + q ) } } { \frac   { d } { ( d + q ) } } }
+{ \displaystyle   { \frac   { p } { ( p + q ) } } { \frac   { 1 } { ( w + q ) } } \lambda   }

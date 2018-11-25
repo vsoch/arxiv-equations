@@ -1,0 +1,13 @@
+\mu_i - \mu_j   \ ,  
+{ \displaystyle   1 - \alpha   }
+0 \leq   \alpha   \leq   1
+  q _ s   =   \frac { Y _ A   -   Y _ B } { S E } ,  
+{ \displaystyle   q _ { \alpha   } }
+{ \displaystyle   \alpha   , 0 \leq   \alpha   \leq   1 }
+{ \bar   { y } }
+{ \bar   { y } }
+{ \displaystyle   q = { \frac   { ( { \overline   { y } } _ { \max   } - { \overline   { y } } _ { \min   } ) } { S { \sqrt   { 2 / n } } } } }
+{ \sqrt   { 2 } }
+\bar { y } _ { i \bullet } - \bar { y } _ { j \bullet }   \pm   \frac { q _ { \alpha ; k ; N - k } } { \sqrt { 2 } } \widehat { \sigma } _ \varepsilon   \sqrt { \frac { 2 } { n } }   \qquad   i , j = 1 , \ldots , k \quad   i \neq   j .
+\widehat { \sigma } _ \varepsilon
+\bar { y } _ { i \bullet } - \bar { y } _ { j \bullet }   \pm   \frac { q _ { \alpha ; k ; N - k } } { \sqrt { 2 } } \widehat { \sigma } _ \varepsilon   \sqrt { \frac { 1 } { n } _ { i }   +   \frac { 1 } { n } _ { j } }   \qquad  

@@ -1,0 +1,24 @@
+{ \text { ( 1 ) } } \quad   { \hat     { { \textbf     { x } } } } _ { { k } } \leftarrow   { \hat     { { \textbf     { x } } } } _ { { k - 1 } } + \Delta   { \textrm     { T } } \ { \textbf     { } } { \hat     { { \textbf     { v } } } } _ { { k - 1 } }
+{ \text { ( 2 ) } } \quad   { \hat     { { \textbf     { v } } } } _ { { k } } \leftarrow   { \hat     { { \textbf     { v } } } } _ { { k - 1 } }
+{ \displaystyle   { \text { ( 3 ) } } \quad   { \hat   { \textbf   { r } } } _ { k } \leftarrow   { \textbf   { x } } _ { k } - { \hat   { \textbf   { x } } } _ { k } }
+{ \displaystyle   { \text { ( 4 ) } } \quad   { \hat   { \textbf   { x } } } _ { k } \leftarrow   { \hat   { \textbf   { x } } } _ { k } + ( \alpha   ) \ { \hat   { \textbf   { r } } } _ { k } }
+{ \displaystyle   { \text { ( 5 ) } } \quad   { \hat   { \textbf   { v } } } _ { k } \leftarrow   { \hat   { \textbf   { v } } } _ { k } + ( \beta   / [ \Delta   { \textrm   { T } } ] ) \ { \hat   { \textbf   { r } } } _ { k } }
+\quad   0 < \alpha   < 1
+\quad   0 < \beta   \leq   2
+\quad   0 < 4 - 2 \alpha   - \beta  
+0 < \beta   < 1
+T
+\sigma   _ { w } ^ { 2 }
+\sigma   _ { v } ^ { 2 }
+\lambda   = { \frac     { \sigma   _ { w } T ^ { 2 } } { \sigma   _ { v } } }
+r = { \frac     { 4 + \lambda   - { \sqrt     { 8 \lambda   + \lambda   ^ { 2 } } } } { 4 } }
+\alpha   = 1 - r ^ { 2 }
+\beta   = 2 \left ( 2 - \alpha   \right ) - 4 { \sqrt     { 1 - \alpha   } }
+s
+{ \displaystyle   s = { \frac   { \sigma   _ { v } ^ { 2 } } { 1 - \alpha   ^ { 2 } } } }
+{ \hat     { { \textbf     { x } } } } _ { { k } } \leftarrow   { \hat     { { \textbf     { x } } } } _ { { k } } + ( \alpha   ) \ { \hat     { { \textbf     { r } } } } _ { { k } }
+{ \begin { a l i g n e d } \lambda   & = { \frac     { \sigma   _ { w } T ^ { 2 } } { \sigma   _ { v } } } \\\alpha   & = { \frac     { - \lambda   ^ { 2 } + { \sqrt     { \lambda   ^ { 4 } + 1 6 \lambda   ^ { 2 } } } } { 8 } } \end { a l i g n e d } }
+{ \hat     { { \textbf     { x } } } } _ { { k } } \leftarrow   { \hat     { { \textbf     { x } } } } _ { { k } } + ( \alpha   ) \ { \textbf     { r } } _ { { k } }
+{ \hat     { { \textbf     { v } } } } _ { { k } } \leftarrow   { \hat     { { \textbf     { v } } } } _ { { k } } + ( \beta   / [ \Delta   { \textrm     { T } } ] ) \ { \textbf     { r } } _ { { k } }
+{ \displaystyle   { \hat   { \textbf   { a } } } _ { k } \leftarrow   { \hat   { \textbf   { a } } } _ { k } + ( 2 \gamma   / [ \Delta   { \textrm   { T } } ] ^ { \textrm   { 2 } } ) \ { \textbf   { r } } _ { k } }
+{ \begin { a l i g n e d } \lambda   & = { \frac     { \sigma   _ { w } T ^ { 2 } } { \sigma   _ { v } } } \\[2ex ] b & = { \frac     { \lambda   } { 2 } } - 3 \\c & = { \frac     { \lambda   } { 2 } } + 3 \\d & = - 1 \\p & = c - { \frac     { b ^ { 2 } } { 3 } } \\q & = { \frac     { 2 b ^ { 3 } } { 2 7 } } - { \frac     { b c } { 3 } } + d \\v & = { \sqrt     { q ^ { 2 } + { \frac     { 4 p ^ { 3 } } { 2 7 } } } } \\z & = - { \sqrt [   { 3 } ] { q + { \frac     { v } { 2 } } } } \\s & = z - { \frac     { p } { 3 z } } - { \frac     { b } { 3 } } \\[2ex ] \alpha   & = 1 - s ^ { 2 } \\\beta   & = 2 ( 1 - s ) ^ { 2 } \\\gamma   & = { \frac     { \beta   ^ { 2 } } { 2 \alpha   } } \end { a l i g n e d } }

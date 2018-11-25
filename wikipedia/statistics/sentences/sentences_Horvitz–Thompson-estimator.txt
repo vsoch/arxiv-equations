@@ -1,0 +1,17 @@
+Y _ { i } , i = 1 , 2 , \ldots   , n
+\pi   _ { i }
+{ \hat     { Y } } _ { { H T } } = \sum   _ { { i = 1 } } ^ { n } \pi   _ { i } ^ { { - 1 } } Y _ { i } ,
+{ \hat     { \mu   } } _ { { H T } } = N ^ { { - 1 } } { \hat     { Y } } _ { { H T } } = N ^ { { - 1 } } \sum   _ { { i = 1 } } ^ { n } \pi   _ { i } ^ { { - 1 } } Y _ { i } .
+\pi   _ { i }
+\pi   _ { i } ^ { { - 1 } } Y _ { i }
+\pi  
+\mu  
+{ \hat     { \mu   } } _ { { H T } }
+{ \displaystyle   \mathbf   { E }   { \bar   { X } } _ { n } ^ { H T } }
+{ \displaystyle   \mathbf   { E }   { \bar   { X } } _ { n } ^ { H T } = \mathbf   { E }   { \frac   { 1 } { N } } \sum   _ { i = 1 } ^ { n } { \frac   { \mathbf   { X }   _ { I _ { i } } } { \pi   _ { I _ { i } } } } }
+{ \displaystyle   = \mathbf   { E }   { \frac   { 1 } { N } } \sum   _ { i = 1 } ^ { N } { \frac   { X _ { i } } { \pi   _ { i } } } 1 _ { i \in   D _ { n } } }
+{ \displaystyle   = \sum   _ { b = 1 } ^ { B } P ( D _ { n } ^ { ( b ) } ) [ { \frac   { 1 } { N } } \sum   _ { i = 1 } ^ { N } { \frac   { X _ { i } } { \pi   _ { i } } } 1 _ { i \in   D _ { n } ^ { ( b ) } } ] }
+{ \displaystyle   = { \frac   { 1 } { N } } \sum   _ { i = 1 } ^ { N } { \frac   { X _ { i } } { \pi   _ { i } } } \sum   _ { b = 1 } ^ { B } 1 _ { i \in   D _ { n } ^ { ( b ) } } P ( D _ { n } ^ { ( b ) } ) }
+{ \displaystyle   = { \frac   { 1 } { N } } \sum   _ { i = 1 } ^ { N } ( { \frac   { X _ { i } } { \pi   _ { i } } } ) \pi   _ { i } }
+{ \displaystyle   = { \frac   { 1 } { N } } \sum   _ { i = 1 } ^ { N } X _ { i } }
+{ \displaystyle   w h e r e ~ D _ { n } = \{ x _ { 1 } , x _ { 2 } , . . . , x _ { n } \ } }

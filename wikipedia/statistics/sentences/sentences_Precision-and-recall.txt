@@ -1,0 +1,35 @@
+{ \displaystyle   { \text { p r e c i s i o n } } = { \frac   { | \{ { \text { r e l e v a n t   d o c u m e n t s } } \}\cap   \{ { \text { r e t r i e v e d   d o c u m e n t s } } \}|}{ | \{ { \text { r e t r i e v e d   d o c u m e n t s } } \ } | } } }
+{ \displaystyle   { \text { r e c a l l } } = { \frac   { | \{ { \text { r e l e v a n t   d o c u m e n t s } } \}\cap   \{ { \text { r e t r i e v e d   d o c u m e n t s } } \}|}{ | \{ { \text { r e l e v a n t   d o c u m e n t s } } \ } | } } }
+{ \displaystyle   \mathrm   { T P R }   = { \frac   { \mathrm   { T P }   } { P } } = { \frac   { \mathrm   { T P }   } { \mathrm   { T P }   + \mathrm   { F N }   } } = 1 - \mathrm   { F N R }   }
+{ \displaystyle   \mathrm   { T N R }   = { \frac   { \mathrm   { T N }   } { N } } = { \frac   { \mathrm   { T N }   } { \mathrm   { T N }   + \mathrm   { F P }   } } = 1 - \mathrm   { F P R }   }
+{ \displaystyle   \mathrm   { P P V }   = { \frac   { \mathrm   { T P }   } { \mathrm   { T P }   + \mathrm   { F P }   } } }
+{ \displaystyle   \mathrm   { N P V }   = { \frac   { \mathrm   { T N }   } { \mathrm   { T N }   + \mathrm   { F N }   } } }
+{ \displaystyle   \mathrm   { F N R }   = { \frac   { \mathrm   { F N }   } { P } } = { \frac   { \mathrm   { F N }   } { \mathrm   { F N }   + \mathrm   { T P }   } } = 1 - \mathrm   { T P R }   }
+{ \displaystyle   \mathrm   { F P R }   = { \frac   { \mathrm   { F P }   } { N } } = { \frac   { \mathrm   { F P }   } { \mathrm   { F P }   + \mathrm   { T N }   } } = 1 - \mathrm   { T N R }   }
+{ \displaystyle   \mathrm   { F D R }   = { \frac   { \mathrm   { F P }   } { \mathrm   { F P }   + \mathrm   { T P }   } } = 1 - \mathrm   { P P V }   }
+{ \displaystyle   \mathrm   { F O R }   = { \frac   { \mathrm   { F N }   } { \mathrm   { F N }   + \mathrm   { T N }   } } = 1 - \mathrm   { N P V }   }
+{ \displaystyle   \mathrm   { A C C }   = { \frac   { \mathrm   { T P }   + \mathrm   { T N }   } { P + N } } = { \frac   { \mathrm   { T P }   + \mathrm   { T N }   } { \mathrm   { T P }   + \mathrm   { T N }   + \mathrm   { F P }   + \mathrm   { F N }   } } }
+{ \displaystyle   F _ { 1 } = 2 \cdot   { \frac   { \mathrm   { P P V }   \cdot   \mathrm   { T P R }   } { \mathrm   { P P V }   + \mathrm   { T P R }   } } = { \frac   { 2 \mathrm   { T P }   } { 2 \mathrm   { T P }   + \mathrm   { F P }   + \mathrm   { F N }   } } }
+{ \displaystyle   \mathrm   { M C C }   = { \frac   { \mathrm   { T P }   \times   \mathrm   { T N }   - \mathrm   { F P }   \times   \mathrm   { F N }   } { \sqrt   { ( \mathrm   { T P }   + \mathrm   { F P }   ) ( \mathrm   { T P }   + \mathrm   { F N }   ) ( \mathrm   { T N }   + \mathrm   { F P }   ) ( \mathrm   { T N }   + \mathrm   { F N }   ) } } } }
+{ \displaystyle   \mathrm   { B M }   = \mathrm   { T P R }   + \mathrm   { T N R }   - 1 }
+{ \displaystyle   \mathrm   { M K }   = \mathrm   { P P V }   + \mathrm   { N P V }   - 1 }
+{ \displaystyle   { \text { P r e c i s i o n } } = { \frac   { t p } { t p + f p } } \ , }
+{ \displaystyle   { \text { R e c a l l } } = { \frac   { t p } { t p + f n } } \ , }
+{ \displaystyle   { \text { T r u e   n e g a t i v e   r a t e } } = { \frac   { t n } { t n + f p } } \ , }
+{ \displaystyle   { \text { A c c u r a c y } } = { \frac   { t p + t n } { t p + t n + f p + f n } } \ , }
+{ \displaystyle   { \text { B a l a n c e d   A c c u r a c y } } = { \frac   { T P R + T N R } { 2 } } \ , }
+{ \displaystyle   { \text { P r e d i c t e d   p o s i t i v e   c o n d i t i o n   r a t e } } = { \frac   { t p + f p } { t p + f p + t n + f n } } \ , }
+{ \displaystyle   F = 2 \cdot   { \frac   { \mathrm   { p r e c i s i o n }   \cdot   \mathrm   { r e c a l l }   } { \mathrm   { p r e c i s i o n }   + \mathrm   { r e c a l l }   } } }
+F _ { 1 }
+F _ { \beta   }
+\beta  
+{ \displaystyle   F _ { \beta   } = ( 1 + \beta   ^ { 2 } ) \cdot   { \frac   { \mathrm   { p r e c i s i o n }   \cdot   \mathrm   { r e c a l l }   } { \beta   ^ { 2 } \cdot   \mathrm   { p r e c i s i o n }   + \mathrm   { r e c a l l }   } } }
+F
+F _ { 2 }
+F _ { 0 . 5 }
+F _ { \beta   }
+\beta  
+{ \displaystyle   E _ { \alpha   } = 1 - { \frac   { 1 } { { \frac   { \alpha   } { P } } + { \frac   { 1 - \alpha   } { R } } } } }
+{ \displaystyle   ( \alpha   , 1 - \alpha   ) }
+{ \displaystyle   F _ { \beta   } = 1 - E _ { \alpha   } }
+\alpha   = { \frac   { 1 } { 1 + \beta   ^ { 2 } } }

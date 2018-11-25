@@ -1,0 +1,32 @@
+{ \displaystyle   { \underset   { n \times   1 } { \mathbf   { y }   } } = { \underset   { n \times   p } { \mathbf   { X }   } } \quad   { \underset   { p \times   1 } { \boldsymbol   { \beta   } } } \quad   + \quad   { \underset   { n \times   1 } { \boldsymbol   { \epsilon   } } } }
+{ \displaystyle   { \boldsymbol   { \epsilon   } } \sim   { \mathcal   { N } } \left ( 0 , \sigma   ^ { 2 } \mathbf   { I }   \right ) }
+{ \displaystyle   { \boldsymbol   { \beta   } } = \left [ \beta   _ { 0 } \,\beta   _ { 1 } \dots   \beta   _ { p - 1 } \right ] ^ { \mathsf   { T } } }
+p
+\mathbf   { X }  
+{ \displaystyle   \mathbf   { b }   = \left ( \mathbf   { X }   ^ { \mathsf   { T } } \mathbf   { X }   \right ) ^ { - 1 } \mathbf   { X }   ^ { \mathsf   { T } } \mathbf   { y }   }
+\mathbf   { y }  
+{ \displaystyle   \mathbf   { \hat   { y } }   = \mathbf   { X }   \mathbf   { b }   = \mathbf   { X }   \left ( \mathbf   { X }   ^ { \mathsf   { T } } \mathbf   { X }   \right ) ^ { - 1 } \mathbf   { X }   ^ { \mathsf   { T } } \mathbf   { y }   = \mathbf   { H }   \mathbf   { y }   }
+{ \displaystyle   \mathbf   { H }   \equiv   \mathbf   { X }   ( \mathbf   { X }   ^ { \mathsf   { T } } \mathbf   { X }   ) ^ { - 1 } \mathbf   { X }   ^ { \mathsf   { T } } }
+i
+\mathbf { H }   \ ,
+{ \displaystyle   h _ { i } \equiv   \mathbf   { x }   _ { i } ^ { \mathsf   { T } } ( \mathbf   { X }   ^ { \mathsf   { T } } \mathbf   { X }   ) ^ { - 1 } \mathbf   { x }   _ { i } }
+i
+i
+{ \displaystyle   \mathbf   { e }   = \mathbf   { y }   - \mathbf   { \hat   { y } }   = \left ( \mathbf   { I }   - \mathbf   { H }   \right ) \mathbf   { y }   }
+e _ { i }
+D _ { i }
+{ \displaystyle   i \;( \forall   i = 1 , \dots   , n ) }
+i
+{ \displaystyle   D _ { i } = { \frac   { \sum   _ { j = 1 } ^ { n } \left ( { \hat   { y } } _ { j } - { \hat   { y } } _ { j ( i ) } \right ) ^ { 2 } } { p s ^ { 2 } } } }
+{ \displaystyle   { \hat   { y } } _ { j ( i ) } }
+i
+{ \displaystyle   s ^ { 2 } \equiv   \left ( n - p \right ) ^ { - 1 } \mathbf   { e }   ^ { \top   } \mathbf   { e }   }
+{ \displaystyle   D _ { i } = { \frac   { e _ { i } ^ { 2 } } { s ^ { 2 } p } } \left [ { \frac   { h _ { i } } { ( 1 - h _ { i } ) ^ { 2 } } } \right ] }
+p
+n - p
+\mathbf   { X }  
+{ \displaystyle   F _ { 0 . 5 } ( p , n - p ) }
+n
+D _ i > 1
+D _ { i }
+\beta  

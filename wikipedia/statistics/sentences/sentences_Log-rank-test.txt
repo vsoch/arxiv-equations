@@ -1,0 +1,50 @@
+j
+N _ { { 1 j } }
+N _ { { 2 j } }
+j
+N _ { j } = N _ { { 1 j } } + N _ { { 2 j } }
+O _ { { 1 j } }
+O _ { { 2 j } }
+j
+O _ { j } = O _ { { 1 j } } + O _ { { 2 j } }
+O _ { j }
+j
+O _ { { 1 j } }
+N _ { j }
+N _ { { 1 j } }
+O _ { j }
+E _ { { 1 j } } = { \frac     { O _ { j } } { N _ { j } } } N _ { { 1 j } }
+V _ { j } = { \frac     { O _ { j } ( N _ { { 1 j } } / N _ { j } ) ( 1 - N _ { { 1 j } } / N _ { j } ) ( N _ { j } - O _ { j } ) } { N _ { j } - 1 } }
+O _ { { 1 j } }
+E _ { { 1 j } }
+{ \displaystyle   Z = { \frac   { \sum   _ { j = 1 } ^ { J } ( O _ { 1 j } - E _ { 1 j } ) } { \sqrt   { \sum   _ { j = 1 } ^ { J } V _ { j } } } } { \xrightarrow   { d } } \ N ( 0 , 1 ) . }
+\alpha  
+Z > z _ { \alpha   }
+z _ { \alpha   }
+\alpha  
+\lambda  
+n
+d
+n d
+( \log   { \lambda   } ) \,{ \sqrt     { { \frac     { n \,d } { 4 } } } }
+\alpha  
+1 - \beta  
+n = { \frac     { 4 \,( z _ { \alpha   } + z _ { \beta   } ) ^ { 2 } } { d \log   ^ { 2 } { \lambda   } } }
+z _ { \alpha   }
+z _ { \beta   }
+Z _ { 1 }
+Z _ { 2 }
+Z _ { 1 }
+\lambda  
+  d _ 1  
+  d _ 2  
+d _ { 1 } \leq   d _ { 2 }
+Z _ { 1 }
+Z _ { 2 }
+\log   { \lambda   } \,{ \sqrt     { { \frac     { n \,d_ { 1 } } { 4 } } } }
+\log   { \lambda   } \,{ \sqrt     { { \frac     { n \,d_ { 2 } } { 4 } } } }
+{ \sqrt     { { \frac     { d _ { 1 } } { d _ { 2 } } } } }
+Z
+D
+{ \hat     { \lambda   } }
+\log   { { \hat     { \lambda   } } } \approx   Z \,{ \sqrt     { 4 / D } }

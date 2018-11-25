@@ -1,0 +1,31 @@
+n   =   \sum_ { i = 1 } ^ k { m _ i } .
+M _ i   =   \sum_ { j = 1 } ^ i { m _ j } .
+k   =   \left   \lceil   \frac { \max   x   -   \min   x } { h }   \right   \rceil .
+{ \displaystyle   k = \lceil   { \sqrt   { n } } \rceil   \ , }
+{ \displaystyle   k = \lceil   \log   _ { 2 } n \rceil   + 1 , \ , }
+k   =   \lceil   2   n ^ { 1 / 3 } \rceil ,
+  k   =   1   +   \log_2 (   n   )   +   \log_2   \left (   1   +     \frac   {   | g _ 1 |   } { \sigma_ { g _ 1 } }   \right )  
+g _ { 1 }
+  \sigma_ { g _ 1 }   =   \sqrt   {   \frac   {   6 ( n - 2 )   } {   ( n + 1 ) ( n + 3 )   }   }    
+h   =   \frac { 3 . 5   \hat   \sigma } { n ^ { 1 / 3 } } ,
+\hat   \sigma
+h   =   2   \frac { \operatorname { I Q R } ( x ) } { n ^ { 1 / 3 } } ,
+{ \displaystyle   { \underset   { h } { \operatorname   { a r g \,min }   } } { \hat   { J } } ( h ) = { \underset   { h } { \operatorname   { a r g \,min }   } } \left ( { \frac   { 2 } { ( n - 1 ) h } } - { \frac   { n + 1 } { n ^ { 2 } ( n - 1 ) h } } \sum   _ { k } N _ { k } ^ { 2 } \right ) }
+N _ { k }
+  \underset { h } { \operatorname { a r g \,min } }   \frac {   2   \bar { m }   -   v   }   { h ^ 2 }  
+\textstyle   \bar { m }
+\textstyle   v
+\textstyle   h
+\textstyle   \bar { m } = \frac { 1 } { k }   \sum_ { i = 1 } ^ { k }     m _ i
+\textstyle   v =   \frac { 1 } { k }   \sum_ { i = 1 } ^ { k }   ( m _ i   -   \bar { m } ) ^ 2  
+n ^ { 1 / 3 }
+n
+n
+s
+n   h / s
+\sqrt { s / ( n   h ) }
+h / s
+h
+s / n ^ { 1 / 3 }
+k
+{ \displaystyle   n ^ { 1 / 3 } }

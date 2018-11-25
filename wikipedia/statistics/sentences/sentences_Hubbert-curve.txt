@@ -1,0 +1,1 @@
+{ \displaystyle   x = { e ^ { - t }   \over   ( 1 + e ^ { - t } ) ^ { 2 } } = { 1   \over   2 + 2 \cosh   t } = { 1   \over   4 } \operatorname   { s e c h }   ^ { 2 } { t   \over   2 } . }

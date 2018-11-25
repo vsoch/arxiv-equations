@@ -1,0 +1,26 @@
+\Gamma   ( t ; \gamma   , \lambda   )
+{ \displaystyle   \nu   ( x ) = \gamma   x ^ { - 1 } \exp ( - \lambda   x ) , }
+x
+{ \displaystyle   [ x , x + d x ) }
+\nu   ( x ) d x .
+\gamma  
+\lambda  
+\mu  
+v
+\gamma   = \mu   ^ { 2 } / v
+\lambda   = \mu   / v
+t
+{ \displaystyle   X _ { t } \equiv   \Gamma   ( t ; \gamma   , \lambda   ) }
+t
+\gamma   t / \lambda  
+\gamma   t / \lambda   ^ { 2 } .
+f
+{ \displaystyle   f ( x ; t , \gamma   , \lambda   ) = { \frac   { \lambda   ^ { \gamma   t } } { \Gamma   ( \gamma   t ) } } x ^ { \gamma   t \,-\,1 } e ^ { - \lambda   x } . }
+\alpha  
+{ \displaystyle   \alpha   \Gamma   ( t ; \gamma   , \lambda   ) \simeq   \Gamma   ( t ; \gamma   , \lambda   / \alpha   ) }
+{ \displaystyle   \Gamma   ( t ; \gamma   _ { 1 } , \lambda   ) + \Gamma   ( t ; \gamma   _ { 2 } , \lambda   ) \simeq   \Gamma   ( t ; \gamma   _ { 1 } + \gamma   _ { 2 } , \lambda   ) }
+\mathbb   { E }   ( X _ { t } ^ { n } ) = \lambda   ^ { - n } \Gamma   ( \gamma   t + n ) / \Gamma   ( \gamma   t ) , \ \quad   n \geq   0 ,
+\Gamma   ( z )
+\mathbb   { E }   { \Big   ( } \exp ( \theta   X _ { t } ) { \Big   ) } = ( 1 - \theta   / \lambda   ) ^ { - \gamma   t } , \ \quad   \theta   < \lambda  
+\operatorname   { C o r r }   ( X _ { s } , X _ { t } ) = { \sqrt   { s / t } } , \ s < t
+X ( t ) .

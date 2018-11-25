@@ -1,0 +1,23 @@
+k
+k > 2 ,
+p
+p = 1
+p = 0
+p = 2
+p = \infty
+x \in   \{ R , G , B \}^ { N }
+S \in   R ^ { N }
+S \in   \{ 0 { \text {   f o r   b a c k g r o u n d } } , 1 { \text {   f o r   f o r e g r o u n d / o b j e c t   t o   b e   d e t e c t e d } } \}^ { N }
+E ( x , S , C , \lambda   )
+E ( x , S , C , \lambda   ) = E _ { { { \rm   { c o l o r } } } } + E _ { { { \rm   { c o h e r e n c e } } } }
+{ \arg   \min   } _ { S } E ( x , S , C , \lambda   )
+P r ( x | S ) = K
+( - E )
+E
+E _ { { { \rm   { c o l o r } } } }
+E _ { { { \rm   { c o h e r e n c e } } } }
+E _ { { { \rm   { c o l o r } } } }
+E _ { { { \rm   { c o h e r e n c e } } } }
+2 4 n + 1 4 m
+n
+m

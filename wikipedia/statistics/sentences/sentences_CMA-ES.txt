@@ -1,0 +1,244 @@
+x
+f ( x )
+f
+\mathbb   { R }   ^ { n }
+f
+f
+\lambda  
+m
+\sigma  
+C = I
+p _ { \sigma   } = 0
+p _ { c } = 0
+i
+\{ 1 . . . \lambda   \ }
+\lambda  
+x _ { i }
+m
+\sigma   ^ { 2 } C
+f _ { i }
+x _ { i }
+x _ { { 1 . . . \lambda   } }
+x _ { { s ( 1 ) . . . s ( \lambda   ) } }
+s ( i )
+f _ { { 1 . . . \lambda   } }
+i
+m '
+m
+m - m '
+x _ { i } - m '
+m
+( x _ { 1 } , . . . ,
+x _ { \lambda   } )
+p _ { \sigma   }
+( p _ { \sigma   } ,
+\sigma   ^ { { - 1 } } C ^ { { - 1 / 2 } } ( m - m ' ) )
+p _ { c }
+( p _ { c } ,
+\sigma   ^ { { - 1 } } ( m - m ' ) ,
+| | p _ { \sigma   } | | )
+C
+( C ,
+p _ { c } ,
+{ ( x _ { 1 } - m ' ) } / { \sigma   } , . . . ,
+{ ( x _ { \lambda   } - m ' ) } / { \sigma   } )
+\sigma  
+( \sigma   ,
+| | p _ { \sigma   } | | )
+m
+x _ { 1 }
+n
+k
+m _ { k } \in   { \mathbb     { R } } ^ { n }
+\sigma   _ { k } > 0
+C _ { k }
+n \times   n
+C _ { 0 } = I
+p _ { \sigma   } \in   { \mathbb     { R } } ^ { n } , p _ { c } \in   { \mathbb     { R } } ^ { n }
+\lambda   > 1
+x _ { i } \in   { \mathbb     { R } } ^ { n }
+\textstyle   { \mathcal     { N } } ( m _ { k } , \sigma   _ { k } ^ { 2 } C _ { k } )
+i = 1 , . . . , \lambda  
+{ \begin { a l i g n e d } x _ { i } \ &\sim   \ { \mathcal     { N } } ( m _ { k } , \sigma   _ { k } ^ { 2 } C _ { k } ) \\&\sim   \ m_ { k } + \sigma   _ { k } \times   { \mathcal     { N } } ( 0 , C _ { k } ) \end { a l i g n e d } }
+m _ { k }
+x _ { i }
+f : { \mathbb     { R } } ^ { n } \to   { \mathbb     { R } }
+f
+\{ x _ { { i : \lambda   } } \;|\;i = 1 \dots   \lambda   \}=\{ x _ { i } \;|\;i = 1 \dots   \lambda   \}\;\;{ \text { a n d } } \;\;f ( x _ { { 1 : \lambda   } } ) \leq   \dots   \leq   f ( x _ { { \mu   : \lambda   } } ) \leq   f ( x _ { { \mu   + 1 : \lambda   } } ) \dots   ,
+{ \begin { a l i g n e d } m _ { { k + 1 } } & = \sum   _ { { i = 1 } } ^ { { \mu   } } w _ { i } \,x_ { { i : \lambda   } } \\&=m_ { k } + \sum   _ { { i = 1 } } ^ { { \mu   } } w _ { i } \,( x _ { { i : \lambda   } } - m _ { k } ) \end { a l i g n e d } }
+w _ { 1 } \geq   w _ { 2 } \geq   \dots   \geq   w _ { \mu   } > 0
+\mu   \leq   \lambda   / 2
+\textstyle   \mu   _ { w } : = 1 / \sum   _ { { i = 1 } } ^ { \mu   } w _ { i } ^ { 2 } \approx   \lambda   / 4
+i : \lambda  
+\sigma   _ { k }
+p _ { \sigma   }
+p _ { \sigma   } \gets   \underbrace   { ( 1 - c _ { \sigma   } ) } _ { { \!\!\!\!\!{ \text { d i s c o u n t   f a c t o r } } \!\!\!\!\!}}\,p_ { \sigma   } + \overbrace   { { \sqrt     { 1 - ( 1 - c _ { \sigma   } ) ^ { 2 } } } } ^ { { \!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!{ \text { c o m p l e m e n t s   f o r   d i s c o u n t e d   v a r i a n c e } } \!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!}}\underbrace   { { \sqrt     { \mu   _ { w } } } \,C_ { k } ^ { { \;-1 / 2 } } \,{ \frac     { \overbrace   { m _ { { k + 1 } } - m _ { k } } ^ { { \!\!\!{ \text { d i s p l a c e m e n t   o f } } \;m \!\!\!}}}{ \sigma   _ { k } } } } _ { { \!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!{ \text { d i s t r i b u t e d   a s } } \;{ \mathcal     { N } } ( 0 , I ) \;{ \text { u n d e r   n e u t r a l   s e l e c t i o n } } \ ! \ ! \ ! \ ! \ ! \ ! \ ! \ ! \ ! \ ! \ ! \ ! \ ! \ ! \ ! \ ! \ ! \ ! } }
+\sigma   _ { { k + 1 } } = \sigma   _ { k } \times   \exp   { \bigg   ( } { \frac     { c _ { \sigma   } } { d _ { \sigma   } } } \underbrace   { \left ( { \frac     { \|p_ { \sigma   } \|}{ E \|{ \mathcal     { N } } ( 0 , I ) \|}}-1 \right ) } _ { { \!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!{ \text { u n b i a s e d   a b o u t   0   u n d e r   n e u t r a l   s e l e c t i o n } } \!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!}}{ \bigg   ) }
+c _ { \sigma   } ^ { { - 1 } } \approx   n / 3
+p _ { \sigma   }
+{ \displaystyle   c _ { \sigma   } \ll   1 }
+{ \displaystyle   ( 1 - c _ { \sigma   } ) ^ { k } \approx   \exp ( - c _ { \sigma   } k ) }
+{ \displaystyle   c _ { \sigma   } ^ { - 1 } }
+{ \displaystyle   c _ { \sigma   } ^ { - 1 } \ln ( 2 ) \approx   0 . 7 c _ { \sigma   } ^ { - 1 } }
+\mu   _ { w } = \left ( \sum   _ { { i = 1 } } ^ { \mu   } w _ { i } ^ { 2 } \right ) ^ { { - 1 } }
+1 \leq   \mu   _ { w } \leq   \mu  
+w _ { i }
+C _ { k } ^ { { \;-1 / 2 } } = { \sqrt     { C _ { k } } } ^ { { \;-1 } } = { \sqrt     { C _ { k } ^ { { \;-1 } } } }
+C _ { k }
+d _ { \sigma   }
+d _ { \sigma   } = \infty  
+c _ { \sigma   } = 0
+\sigma   _ { k }
+\|p_ { \sigma   } \ |
+{ \begin { a l i g n e d } E \|{ \mathcal     { N } } ( 0 , I ) \|&={ \sqrt     { 2 } } \,\Gamma   ( ( n + 1 ) / 2 ) / \Gamma   ( n / 2 ) \\&\approx   { \sqrt     { n } } \,( 1 - 1 / ( 4 \,n ) + 1 / ( 2 1 \,n ^ { 2 } ) ) \end { a l i g n e d } }
+C _ { k } ^ { { - 1 } }
+\textstyle   \left ( { \frac     { m _ { { k + 2 } } - m _ { { k + 1 } } } { \sigma   _ { { k + 1 } } } } \right ) ^ { T } \!C_ { k } ^ { { - 1 } } { \frac     { m _ { { k + 1 } } - m _ { { k } } } { \sigma   _ { k } } } \approx   0
+p _ { c } \gets   \underbrace   { ( 1 - c _ { c } ) } _ { { \!\!\!\!\!{ \text { d i s c o u n t   f a c t o r } } \!\!\!\!\!}}\,p_ { c } + \underbrace   { { \mathbf     { 1 } } _ { { [ 0 , \alpha   { \sqrt     { n } } ] } } ( \|p_ { \sigma   } \|)}_ { { { \text { i n d i c a t o r   f u n c t i o n } } } } \overbrace   { { \sqrt     { 1 - ( 1 - c _ { c } ) ^ { 2 } } } } ^ { { \!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!{ \text { c o m p l e m e n t s   f o r   d i s c o u n t e d   v a r i a n c e } } \!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!}}\underbrace   { { \sqrt     { \mu   _ { w } } } \,{ \frac     { m _ { { k + 1 } } - m _ { k } } { \sigma   _ { k } } } } _ { { \!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!{ \text { d i s t r i b u t e d   a s } } \;{ \mathcal     { N } } ( 0 , C _ { k } ) \;{ \text { u n d e r   n e u t r a l   s e l e c t i o n } } \ ! \ ! \ ! \ ! \ ! \ ! \ ! \ ! \ ! \ ! \ ! \ ! \ ! \ ! \ ! \ ! \ ! \ ! \ ! \ ! \ ! \ ! \ ! \ ! \ ! \ ! \ ! \ ! \ ! \ ! \ ! \ ! \ ! \ ! \ ! \ ! } }
+C _ { { k + 1 } } = \underbrace   { ( 1 - c _ { 1 } - c _ { \mu   } + c _ { s } ) } _ { { \!\!\!\!\!{ \text { d i s c o u n t   f a c t o r } } \!\!\!\!\!}}\,C_ { k } + c _ { 1 } \underbrace   { p _ { c } p _ { c } ^ { T } } _ { { \!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!{ \text { r a n k   o n e   m a t r i x } } \!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!}}+\,c_ { \mu   } \underbrace   { \sum   _ { { i = 1 } } ^ { \mu   } w _ { i } { \frac     { x _ { { i : \lambda   } } - m _ { k } } { \sigma   _ { k } } } \left ( { \frac     { x _ { { i : \lambda   } } - m _ { k } } { \sigma   _ { k } } } \right ) ^ { T } } _ { { { \text { r a n k } } \;\min ( \mu   , n ) \;{ \text { m a t r i x } } } }
+T
+c _ { c } ^ { { - 1 } } \approx   n / 4
+p _ { c }
+\alpha   \approx   1 . 5
+{ \mathbf     { 1 } } _ { { [ 0 , \alpha   { \sqrt     { n } } ] } } ( \|p_ { \sigma   } \ | )
+\|p_ { \sigma   } \|\in   [ 0 , \alpha   { \sqrt     { n } } ]
+\|p_ { \sigma   } \|\leq   \alpha   { \sqrt     { n } }
+c _ { s } = ( 1 - { \mathbf     { 1 } } _ { { [ 0 , \alpha   { \sqrt     { n } } ] } } ( \|p_ { \sigma   } \|)^ { 2 } ) \,c_ { 1 } c _ { c } ( 2 - c _ { c } )
+c _ { 1 } \approx   2 / n ^ { 2 }
+c _ { \mu   } \approx   \mu   _ { w } / n ^ { 2 }
+\mu  
+1 - c _ { 1 }
+p _ { c }
+( x _ { { i : \lambda   } } - m _ { k } ) / \sigma   _ { k }
+{ \mathcal     { N } } ( 0 , C _ { { k + 1 } } )
+\lambda  
+\lambda   = 1 0
+\lambda   = 1 0 n
+\mu   _ { w } \approx   \lambda   / 4
+\lambda  
+\lambda  
+\mu  
+\lambda  
+\mathbb   { R }   ^ { n }
+f ( x ) = { \textstyle   { \frac     { 1 } { 2 } } } ( x - x ^ { * } ) ^ { T } H ( x - x ^ { * } )
+C _ { k }
+H
+g \circ   f
+g
+f
+C _ { k }
+H ^ { { - 1 } }
+m
+m _ { { k + 1 } } = \arg   \max   _ { { m } } \sum   _ { { i = 1 } } ^ { \mu   } w _ { i } \log   p _ { { \mathcal     { N } } } ( x _ { { i : \lambda   } } | m )
+\log   p _ { { \mathcal     { N } } } ( x ) = - { \frac     { 1 } { 2 } } \log   \det ( 2 \pi   C ) - { \frac     { 1 } { 2 } } ( x - m ) ^ { T } C ^ { { - 1 } } ( x - m )
+x
+m
+C
+m _ { { k + 1 } }
+C
+C
+C
+\mu  
+C _ { k }
+\sum   _ { { i = 1 } } ^ { \mu   } w _ { i } { \frac     { x _ { { i : \lambda   } } - m _ { k } } { \sigma   _ { k } } } \left ( { \frac     { x _ { { i : \lambda   } } - m _ { k } } { \sigma   _ { k } } } \right ) ^ { T } = \arg   \max   _ { { C } } \sum   _ { { i = 1 } } ^ { \mu   } w _ { i } \log   p _ { { \mathcal     { N } } } \left ( \left . { \frac     { x _ { { i : \lambda   } } - m _ { k } } { \sigma   _ { k } } } \right | C \right )
+\mu   \geq   n
+C
+\mu   < n
+p _ { { \mathcal     { N } } } ( x | C )
+x
+C
+c _ { 1 } = 0
+c _ { \mu   } = 1
+C _ { { k + 1 } }
+{ \displaystyle   E f ( x ) }
+c _ { \sigma   } = 0
+c _ { 1 } = 0
+{ \displaystyle   E f ( x ) }
+{ \begin { a l i g n e d } { \nabla   } _ { { \!\theta   } } E ( f ( x ) | \theta   ) & = \nabla   _ { { \!\theta   } } \int   _ { { { \mathbb     R } ^ { n } } } f ( x ) p ( x ) { \mathrm     { d } } x \\&=\int   _ { { { \mathbb     R } ^ { n } } } f ( x ) \nabla   _ { { \!\theta   } } p ( x ) { \mathrm     { d } } x \\&=\int   _ { { { \mathbb     R } ^ { n } } } f ( x ) p ( x ) \nabla   _ { { \!\theta   } } \ln   p ( x ) { \mathrm     { d } } x \\&=E ( f ( x ) \nabla   _ { { \!\theta   } } \ln   p ( x | \theta   ) ) \end { a l i g n e d } }
+p ( x ) = p ( x | \theta   )
+\theta  
+\nabla   _ { { \!\theta   } } \ln   p ( x | \theta   ) = { \frac     { \nabla   _ { { \!\theta   } } p ( x ) } { p ( x ) } }
+{ \displaystyle   E f ( x ) }
+{ \begin { a l i g n e d } { \tilde     { \nabla   } } E ( f ( x ) | \theta   ) & = F _ { \theta   } ^ { { - 1 } } \nabla   _ { { \!\theta   } } E ( f ( x ) | \theta   ) \end { a l i g n e d } }
+F _ { { \theta   } }
+{ \begin { a l i g n e d } { \tilde     { \nabla   } } E ( f ( x ) | \theta   ) & = F _ { \theta   } ^ { { - 1 } } E ( f ( x ) \nabla   _ { { \!\theta   } } \ln   p ( x | \theta   ) ) \\&=E ( f ( x ) F _ { \theta   } ^ { { - 1 } } \nabla   _ { { \!\theta   } } \ln   p ( x | \theta   ) ) \end { a l i g n e d } }
+{ \tilde     { \nabla   } } \widehat   { E } _ { \theta   } ( f ) : = - \sum   _ { { i = 1 } } ^ { \lambda   } \overbrace   { w _ { i } } ^ { { \!\!\!\!{ \text { p r e f e r e n c e   w e i g h t } } \!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!}}\underbrace   { F _ { \theta   } ^ { { - 1 } } \nabla   _ { { \!\theta   } } \ln   p ( x _ { { i : \lambda   } } | \theta   ) } _ { { \!\!\!\!\!{ \text { c a n d i d a t e   d i r e c t i o n   f r o m   } } x _ { { i : \lambda   } } \!\!\!\!\!}}\quad   { \mathrm     { w i t h ~ } } w _ { i } = - f ( x _ { { i : \lambda   } } ) / \lambda  
+i : \lambda  
+w _ { i }
+i
+w _ { i }
+f ( X ) , X \sim   p ( . | \theta   )
+f ( x _ { { i : \lambda   } } )
+w
+w _ { i } = w \left ( { \frac     { { \mathsf     { r a n k } } ( f ( x _ { { i : \lambda   } } ) ) - 1 / 2 } { \lambda   } } \right )
+f
+f
+f
+f
+f
+\theta   = [ m _ { k } ^ { T } { \mathrm     { v e c } } ( C _ { k } ) ^ { T } \sigma   _ { k } ] ^ { T } \in   { \mathbb     { R } } ^ { { n + n ^ { 2 } + 1 } }
+p ( . | \theta   )
+{ \mathcal     N } ( m _ { k } , \sigma   _ { k } ^ { 2 } C _ { k } )
+\sigma   _ { k }
+F _ { { \theta   | \sigma   _ { k } } } ^ { { - 1 } } = \left [ { \begin { a r r a y } { c c } \sigma   _ { k } ^ { 2 } C _ { k } & 0 \\0 & 2 C _ { k } \otimes   C _ { k } \end { a r r a y } } \right ]
+\ln   p ( x | \theta   ) = \ln   p ( x | m _ { k } , \sigma   _ { k } ^ { 2 } C _ { k } ) = - { \frac     { 1 } { 2 } } ( x - m _ { k } ) ^ { T } \sigma   _ { k } ^ { { - 2 } } C _ { k } ^ { { - 1 } } ( x - m _ { k } ) \,-\,{ \frac     { 1 } { 2 } } \ln   \det ( 2 \pi   \sigma   _ { k } ^ { 2 } C _ { k } )
+{ \begin { a l i g n e d } m _ { { k + 1 } } & = m _ { k } - \underbrace   { [ { \tilde     { \nabla   } } \widehat   { E } _ { \theta   } ( f ) ] _ { { 1 , \dots   , n } } } _ { { \!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!{ \text { n a t u r a l   g r a d i e n t   f o r   m e a n } } \!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!}}\\&=m_ { k } + \sum   _ { { i = 1 } } ^ { \lambda   } w _ { i } ( x _ { { i : \lambda   } } - m _ { k } ) \end { a l i g n e d } }
+{ \begin { a l i g n e d } C _ { { k + 1 } } & = C _ { k } + c _ { 1 } ( p _ { c } p _ { c } ^ { T } - C _ { k } ) - c _ { \mu   } \,{ \mathrm     { m a t } } ( \overbrace   { [ { \tilde     { \nabla   } } \widehat   { E } _ { \theta   } ( f ) ] _ { { n + 1 , \dots   , n + n ^ { 2 } } } } ^ { { \!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!{ \text { n a t u r a l   g r a d i e n t   f o r   c o v a r i a n c e   m a t r i x } } \!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!}})\\&=C_ { k } + c _ { 1 } ( p _ { c } p _ { c } ^ { T } - C _ { k } ) + c _ { \mu   } \sum   _ { { i = 1 } } ^ { \lambda   } w _ { i } \left ( { \frac     { x _ { { i : \lambda   } } - m _ { k } } { \sigma   _ { k } } } \left ( { \frac     { x _ { { i : \lambda   } } - m _ { k } } { \sigma   _ { k } } } \right ) ^ { T } - C _ { k } \right ) \end { a l i g n e d } }
+c _ { 1 } = c _ { \sigma   } = 0
+{ \tilde     { \nabla   } } \widehat   { E } _ { \theta   } ( f )
+{ \displaystyle   c _ { \mu   } }
+m
+C
+w
+m
+C
+x _ { { i : \lambda   } } \sim   { \mathcal     N } ( m _ { k } , \sigma   _ { k } ^ { 2 } C _ { k } )
+E ( m _ { { k + 1 } } \,|\,m_ { k } ) = m _ { k }
+E ( \log   \sigma   _ { { k + 1 } } \,|\,\sigma   _ { k } ) = \log   \sigma   _ { k }
+E ( C _ { { k + 1 } } \,|\,C_ { k } ) = C _ { k }
+f
+h : { \mathbb     { R } } ^ { n } \to   { \mathbb     { R } }
+f : x \mapsto   g ( h ( x ) )
+g : { \mathbb     { R } } \to   { \mathbb     { R } }
+f
+g
+h : { \mathbb     { R } } ^ { n } \to   { \mathbb     { R } }
+\alpha   > 0
+f : x \mapsto   h ( \alpha   x )
+\sigma   _ { 0 } \propto   1 / \alpha  
+m _ { 0 } \propto   1 / \alpha  
+h : { \mathbb     { R } } ^ { n } \to   { \mathbb     { R } }
+z \in   { \mathbb     { R } } ^ { n }
+f : x \mapsto   h ( R x )
+R
+m _ { 0 } = R ^ { { - 1 } } z
+R
+R ^ { { - 1 } } { R ^ { { - 1 } } } ^ { T }
+x ^ { * }
+m _ { 0 }
+\sigma   _ { 0 }
+k
+\|m_ { k } - x ^ { * } \|\;\approx   \;\|m_ { 0 } - x ^ { * } \|\times   e ^ { { - c k } }
+c > 0
+{ \frac     { 1 } { k } } \sum   _ { { i = 1 } } ^ { k } \log   { \frac     { \|m_ { i } - x ^ { * } \|}{ \|m_ { { i - 1 } } - x ^ { * } \|}}\;=\;{ \frac     { 1 } { k } } \log   { \frac     { \|m_ { k } - x ^ { * } \|}{ \|m_ { { 0 } } - x ^ { * } \|}}\;\to   \;-c < 0 \quad   { \text { f o r } } \;k \to   \infty   \ ; ,
+E \log   { \frac     { \|m_ { k } - x ^ { * } \|}{ \|m_ { { k - 1 } } - x ^ { * } \|}}\;\to   \;-c < 0 \quad   { \text { f o r } } \;k \to   \infty   \ ; .
+\exp ( - c )
+c
+0 . 1 \lambda   / n
+\lambda  
+n
+\sigma  
+C
+c
+0 . 2 5 \lambda   / n
+w _ { i }
+\lambda  
+n
+{ \begin { a l i g n e d } x _ { i } & \sim   \ m_ { k } + \sigma   _ { k } \times   { \mathcal     { N } } ( 0 , C _ { k } ) \\&\sim   \ m_ { k } + \sigma   _ { k } \times   C _ { k } ^ { { 1 / 2 } } { \mathcal     { N } } ( 0 , I ) \end { a l i g n e d } }
+\underbrace   { C _ { k } ^ { { - 1 / 2 } } x _ { i } } _ { { { \text { r e p r e s e n t e d   i n   t h e   e n c o d e   s p a c e } } \!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!}}\sim   \ \underbrace   { C _ { k } ^ { { - 1 / 2 } } m _ { k } } { } + \sigma   _ { k } \times   { \mathcal     { N } } ( 0 , I )
+m _ { 0 } \in   { \mathbb     { R } } ^ { n }
+\sigma   _ { 0 } > 0
+n < 5
+1 0 n
+1 0 0 n
+c _ { c } = 1
+c _ { c } = c _ { \sigma   } = 1

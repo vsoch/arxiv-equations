@@ -1,0 +1,48 @@
+W
+N
+i   =   1 ,   . . . ,   N
+x _ { 1 , i }
+x _ { 2 , i }
+i   =   1 ,   . . . ,   N
+| x _ { 2 , i }   -   x _ { 1 , i } |
+\sgn ( x _ { 2 , i }   -   x _ { 1 , i } )
+\operatorname   { s g n }  
+| x _ { 2 , i }   -   x _ { 1 , i } |   =   0
+N _ r
+N _ r
+| x _ { 2 , i }   -   x _ { 1 , i } |
+R _ { i }
+W
+W = \sum   _ { { i = 1 } } ^ { { N _ { r } } } [ \operatorname { s g n } ( x _ { { 2 , i } } - x _ { { 1 , i } } ) \cdot   R _ { i } ]
+W
+{ \frac     { N _ { r } ( N _ { r } + 1 ) ( 2 N _ { r } + 1 ) } { 6 } }
+W
+H _ { 0 }
+{ \displaystyle   | W | > W _ { c r i t i c a l , N _ { r } } }
+N _ r
+W
+N _ r   \ge   1 0
+z = { \frac     { W } { \sigma   _ { W } } } , \sigma   _ { W } = { \sqrt     { { \frac     { N _ { r } ( N _ { r } + 1 ) ( 2 N _ { r } + 1 ) } { 6 } } } }
+H _ { 0 }
+| z | > z _ { { c r i t i c a l } }
+H _ { 0 }
+i
+x _ { 2 , i }
+x _ { 1 , i }
+x _ { 2 , i }   -   x _ { 1 , i }
+\operatorname   { s g n }  
+\text { a b s }
+i
+x _ { 2 , i }
+x _ { 1 , i }
+x _ { 2 , i }   -   x _ { 1 , i }
+\operatorname   { s g n }  
+\text { a b s }
+R _ { i }
+\sgn   \cdot   R _ i
+\operatorname   { s g n }  
+\text { a b s }
+R _ { i }
+N _ { r } = 1 0 - 1 = 9 , | W | = | 1 . 5 + 1 . 5 - 3 - 4 - 5 - 6 + 7 + 8 + 9 | = 9 .
+{ \displaystyle   | W | < W _ { \alpha   = 0 . 0 5 , \ 9 { \text { ,   t w o - s i d e d } } } = 3 5 }
+{ \displaystyle   \therefore   { \text { f a i l e d   t o   r e j e c t   } } H _ { 0 } . }

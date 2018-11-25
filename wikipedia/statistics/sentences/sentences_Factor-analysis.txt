@@ -1,0 +1,100 @@
+p
+x _ { 1 } , \dots   , x _ { p }
+\mu   _ { 1 } , \dots   , \mu   _ { p }
+l _ { i j }
+k
+F _ { j }
+i \in   { 1 , \dots   , p }
+{ \displaystyle   j \in   { 1 , \dots   , k } , }
+k < p
+x _ { i } - \mu   _ { i } = l _ { i 1 } F _ { 1 } + \cdots   + l _ { i k } F _ { k } + \varepsilon   _ { i } . \ ,
+\varepsilon   _ { i }
+i
+x - \mu   = L F + \varepsilon   . \ ,
+n
+x _ { p \times   n }
+L _ { p \times   k }
+F _ { k \times   n }
+x
+F
+L
+F
+F
+\varepsilon  
+\mathrm   { E }   ( F ) = 0 .
+\mathrm   { C o v }   ( F ) = I
+F
+L
+\mathrm   { C o v }   ( x - \mu   ) = \Sigma  
+F
+\mathrm   { C o v }   ( x - \mu   ) = \mathrm   { C o v }   ( L F + \varepsilon   ) , \ ,
+\Sigma   = L \mathrm   { C o v }   ( F ) L ^ { T } + \mathrm   { C o v }   ( \varepsilon   ) , \ ,
+\Sigma   = L L ^ { T } + \Psi   . \ ,
+Q
+L = L Q
+F = Q ^ { T } F
+N _ { a }
+N _ { p }
+N _ { i }
+N _ { i } = 1 0 0 0
+N _ { a } = 1 0
+x _ { a i }
+x _ { a }
+x _ { a i }
+z _ { a i } = { \frac   { x _ { a i } - \mu   _ { a } } { \sigma   _ { a } } }
+\mu   _ { a } = { \tfrac   { 1 } { N _ { i } } } \sum   _ { i } x _ { a i }
+{ \displaystyle   \sigma   _ { a } ^ { 2 } = { \tfrac   { 1 } { N _ { i } - 1 } } \sum   _ { i } ( x _ { a i } - \mu   _ { a } ) ^ { 2 } }
+{ \begin { m a t r i x } z _ { 1 , i } & = & \ell   _ { 1 , 1 } F _ { 1 , i } & + & \ell   _ { 1 , 2 } F _ { 2 , i } & + & \varepsilon   _ { 1 , i } \\\vdots   & & \vdots   & & \vdots   & & \vdots   \\z_ { 1 0 , i } & = & \ell   _ { 1 0 , 1 } F _ { 1 , i } & + & \ell   _ { 1 0 , 2 } F _ { 2 , i } & + & \varepsilon   _ { 1 0 , i } \end { m a t r i x } }
+z _ { a i } = \sum   _ { p } \ell   _ { a p } F _ { p i } + \varepsilon   _ { a i }
+F _ { 1 , i }
+F _ { 2 , i }
+\ell   _ { a p }
+Z = L F + \epsilon  
+\sum   _ { i } F _ { p i } F _ { q i } = \delta   _ { p q }
+\delta   _ { p q }
+p \neq   q
+p = q
+\sum   _ { i } F _ { p i } \varepsilon   _ { a i } = 0
+\sum   _ { i } z _ { a i } z _ { b i } = \sum   _ { p } \ell   _ { a p } \ell   _ { b p } + \sum   _ { i } \varepsilon   _ { a i } \varepsilon   _ { b i }
+{ \displaystyle   N _ { a } \times   N _ { a } }
+N _ { a }
+h _ { a } ^ { 2 } = 1 - \psi   _ { a } = \sum   _ { p } \ell   _ { a p } \ell   _ { a p }
+z _ { a i }
+F _ { p i }
+\ell   _ { a p }
+\varepsilon   ^ { 2 } = \sum   _ { a b , a \neq   b } \left [ \sum   _ { i } z _ { a i } z _ { b i } - \sum   _ { p } \ell   _ { a p } \ell   _ { b p } \right ] ^ { 2 }
+\mathbf   { z }   _ { a }
+\mathbf   { F }   _ { 1 }
+\mathbf   { F }   _ { 2 }
+{ \hat   { \mathbf   { z }   } } _ { a }
+{ \boldsymbol   { \varepsilon   } } _ { a }
+\mathbf   { z }   _ { a } = { \hat   { \mathbf   { z }   } } _ { a } + { \boldsymbol   { \varepsilon   } } _ { a }
+{ \hat   { \mathbf   { z }   } } _ { a }
+{ \hat   { \mathbf   { z }   } } _ { a } = \ell   _ { a 1 } \mathbf   { F }   _ { 1 } + \ell   _ { a 2 } \mathbf   { F }   _ { 2 }
+| { \hat   { \mathbf   { z }   } } _ { a } | ^ { 2 } = h _ { a } ^ { 2 }
+\mathbf   { z }   _ { b }
+\mathbf   { z }   _ { a }
+\mathbf   { z }   _ { b }
+r _ { a b }
+z _ { a i }
+F _ { p i }
+\varepsilon   _ { a i }
+N _ { i }
+\mathbf   { z }   _ { a }
+\mathbf   { F }   _ { p }
+{ \boldsymbol   { \varepsilon   } } _ { a }
+\mathbf   { z }   _ { a } \cdot   \mathbf   { z }   _ { a } = 1
+N _ { p }
+\mathbf   { z }   _ { a } = \sum   _ { p } \ell   _ { a p } \mathbf   { F }   _ { p } + { \boldsymbol   { \varepsilon   } } _ { a }
+\mathbf   { F }   _ { p } \cdot   { \boldsymbol   { \varepsilon   } } _ { a } = 0
+{ \hat   { \mathbf   { z }   } } _ { a } = \sum   _ { p } \ell   _ { a p } \mathbf   { F }   _ { p }
+\mathbf   { F }   _ { p } \cdot   \mathbf   { F }   _ { q } = \delta   _ { p q }
+\mathbf   { z }   _ { a }
+r _ { a b } = \mathbf   { z }   _ { a } \cdot   \mathbf   { z }   _ { b }
+\mathbf   { z }   _ { a }
+\mathbf   { z }   _ { b }
+{ \hat   { r } } _ { a b } = { \hat   { \mathbf   { z }   } } _ { a } \cdot   { \hat   { \mathbf   { z }   } } _ { b }
+\varepsilon   ^ { 2 } = \sum   _ { a , b \neq   a } \left ( r _ { a b } - { \hat   { r } } _ { a b } \right ) ^ { 2 }
+r _ { a b } - { \hat   { r } } _ { a b } = { \boldsymbol   { \varepsilon   } } _ { a } \cdot   { \boldsymbol   { \varepsilon   } } _ { b }
+{ \hat   { z } } _ { a }
+h _ { a } ^ { 2 } = { \hat   { \mathbf   { z }   } } _ { a } \cdot   { \hat   { \mathbf   { z }   } } _ { a } = \sum   _ { p } \ell   _ { a p } \ell   _ { a p }

@@ -1,0 +1,126 @@
+y _ { i }
+{ \displaystyle   y _ { i } = \beta   _ { 1 } x _ { i 1 } + \beta   _ { 2 } x _ { i 2 } + \cdots   + \beta   _ { p } x _ { i p } + \varepsilon   _ { i } , }
+{ \displaystyle   y _ { i } = x _ { i } ^ { T } \beta   + \varepsilon   _ { i } , \ , }
+x _ { i }
+y = X \beta   + \varepsilon   , \ ,
+\sum   _ { j = 1 } ^ { n } X _ { i j } \beta   _ { j } = y _ { i } , \ ( i = 1 , 2 , \dots   , m ) ,
+X
+{ \displaystyle   X _ { i 1 } = 1 }
+\mathbf   { X }   { \boldsymbol   { \beta   } } = \mathbf   { y }   ,
+{ \displaystyle   \mathbf   { X }   = { \begin { b m a t r i x } X _ { 1 1 } & X _ { 1 2 } & \cdots   & X _ { 1 n } \\X_ { 2 1 } & X _ { 2 2 } & \cdots   & X _ { 2 n } \\\vdots   & \vdots   & \ddots   & \vdots   \\X_ { m 1 } & X _ { m 2 } & \cdots   & X _ { m n } \end { b m a t r i x } } , \qquad   { \boldsymbol   { \beta   } } = { \begin { b m a t r i x } \beta   _ { 1 } \\\beta   _ { 2 } \\\vdots   \\\beta   _ { n } \end { b m a t r i x } } , \qquad   \mathbf   { y }   = { \begin { b m a t r i x } y _ { 1 } \\y_ { 2 } \\\vdots   \\y_ { m } \end { b m a t r i x } } . }
+{ \boldsymbol   { \beta   } }
+{ \hat   { \boldsymbol   { \beta   } } } = { \underset   { \boldsymbol   { \beta   } } { \operatorname   { a r g \,min }   } } \,S ( { \boldsymbol   { \beta   } } ) ,
+{ \displaystyle   S ( { \boldsymbol   { \beta   } } ) = \sum   _ { i = 1 } ^ { m } { \bigl   | } y _ { i } - \sum   _ { j = 1 } ^ { n } X _ { i j } \beta   _ { j } { \bigr   | } ^ { 2 } = { \bigl   \|}\mathbf   { y }   - \mathbf   { X }   { \boldsymbol   { \beta   } } { \bigr   \|}^ { 2 } . }
+\mathbf   { X }  
+( \mathbf   { X }   ^ { \rm   { T } } \mathbf   { X }   ) { \hat   { \boldsymbol   { \beta   } } } = \mathbf   { X }   ^ { \rm   { T } } \mathbf   { y }   .
+\mathbf   { X }   ^ { \rm   { T } } \mathbf   { X }  
+\mathbf   { X }  
+{ \displaystyle   \mathbf   { X }   ^ { \rm   { T } } \mathbf   { y }   }
+{ \hat   { \boldsymbol   { \beta   } } }
+{ \displaystyle   { \hat   { \boldsymbol   { \beta   } } } = ( \mathbf   { X }   ^ { \rm   { T } } \mathbf   { X }   ) ^ { - 1 } \mathbf   { X }   ^ { \rm   { T } } \mathbf   { y }   . }
+{ \displaystyle   S ( b ) = \sum   _ { i = 1 } ^ { m } ( y _ { i } - x _ { i } ^ { \mathrm   { T }   } b ) ^ { 2 } = ( y - X b ) ^ { \mathrm   { T }   } ( y - X b ) , }
+b = { \hat   { \beta   } }
+{ \displaystyle   { \hat   { \beta   } } = \operatorname   { a r g m i n }   _ { b \in   \mathbb   { R }   ^ { p } } S ( b ) = ( X ^ { \mathrm   { T }   } X ) ^ { - 1 } X ^ { \mathrm   { T }   } y \   . }
+{ \hat   { y } } = X { \hat   { \beta   } } = P y ,
+{ \displaystyle   P X = X }
+{ \displaystyle   { \hat   { \varepsilon   } } = y - { \hat   { y } } = y - X { \hat   { \beta   } } = M y = M ( X \beta   + \varepsilon   ) = ( M X ) \beta   + M \varepsilon   = M \varepsilon   . }
+{ \displaystyle   s ^ { 2 } = { \frac   { { \hat   { \varepsilon   } } ^ { \mathrm   { T }   } { \hat   { \varepsilon   } } } { n - p } } = { \frac   { ( M y ) ^ { \mathrm   { T }   } M y } { n - p } } = { \frac   { y ^ { \mathrm   { T }   } M ^ { \mathrm   { T }   } M y } { n - p } } = { \frac   { y ^ { \mathrm   { T }   } M y } { n - p } } = { \frac   { S ( { \hat   { \beta   } } ) } { n - p } } , \qquad   { \hat   { \sigma   } } ^ { 2 } = { \frac   { n - p } { n } } \;s ^ { 2 } }
+\scriptstyle   { \hat   { \sigma   } } ^ { 2 }
+{ \displaystyle   R ^ { 2 } = { \frac   { \sum   ( { \hat   { y } } _ { i } - { \overline   { y } } ) ^ { 2 } } { \sum   ( y _ { i } - { \overline   { y } } ) ^ { 2 } } } = { \frac   { y ^ { \mathrm   { T }   } P ^ { \mathrm   { T }   } L P y } { y ^ { \mathrm   { T }   } L y } } = 1 - { \frac   { y ^ { \mathrm   { T }   } M y } { y ^ { \mathrm   { T }   } L y } } = 1 - { \frac   { \rm   { R S S } } { \rm   { T S S } } } }
+y _ { i } = \alpha   + \beta   x _ { i } + \varepsilon   _ { i } .
+{ \displaystyle   { \begin { a l i g n e d } { \hat   { \beta   } } & = { \frac   { \sum   { x _ { i } y _ { i } } - { \frac   { 1 } { n } } \sum   { x _ { i } } \sum   { y _ { i } } } { \sum   { x _ { i } ^ { 2 } } - { \frac   { 1 } { n } } ( \sum   { x _ { i } } ) ^ { 2 } } } = { \frac   { \operatorname   { C o v }   [ x , y ] } { \operatorname   { V a r }   [ x ] } } \\{ \hat   { \alpha   } } & = { \overline   { y } } - { \hat   { \beta   } } \,{ \overline   { x } } \ ,\end { a l i g n e d } } }
+{ \hat   { \beta   } }
+X _ { 1 }
+X _ { 2 }
+{ \hat   { \beta   } } = { \rm   { a r g } } \min   _ { \beta   } \,\lVert   y - X \beta   \rVert   ,
+{ \hat   { \beta   } }
+( \mathbf   { y }   - X { \hat   { \boldsymbol   { \beta   } } } ) ^ { \rm   { T } } X = 0 .
+\mathbf   { y }   - X { \hat   { \boldsymbol   { \beta   } } }
+( \mathbf   { y }   - X { \hat   { \boldsymbol   { \beta   } } } ) \cdot   X \mathbf   { v }  
+\mathbf   { y }   - X { \boldsymbol   { \hat   { \beta   } } }
+\mathbf   { y }   - X { \boldsymbol   { \beta   } }
+{ \hat   { \boldsymbol   { \gamma   } } }
+[ X \ K ]
+{ \hat   { \mathbf   { r }   } } \triangleq   \mathbf   { y }   - X { \hat   { \boldsymbol   { \beta   } } } = K { \hat   { \boldsymbol   { \gamma   } } } .
+\mathbf   { y }   = { \begin { b m a t r i x } X & K \end { b m a t r i x } } { \begin { p m a t r i x } { \hat   { \boldsymbol   { \beta   } } } \\{ \hat   { \boldsymbol   { \gamma   } } } \end { p m a t r i x } } ,
+{ \begin { p m a t r i x } { \hat   { \boldsymbol   { \beta   } } } \\{ \hat   { \boldsymbol   { \gamma   } } } \end { p m a t r i x } } = { \begin { b m a t r i x } X & K \end { b m a t r i x } } ^ { - 1 } \mathbf   { y }   = { \begin { b m a t r i x } ( X ^ { \rm   { T } } X ) ^ { - 1 } X ^ { \rm   { T } } \\( K ^ { \rm   { T } } K ) ^ { - 1 } K ^ { \rm   { T } } \end { b m a t r i x } } \mathbf   { y }   .
+\mathrm   { E }   { \big   [ } \,x_ { i } ( y _ { i } - x _ { i } ^ { T } \beta   ) \,{ \big   ] } = 0 .
+{ \displaystyle   \operatorname   { E }   [ \,\varepsilon   \mid   X \,]=0 . }
+\Pr   \!{ \big   [ } \,\operatorname   { r a n k }   ( X ) = p \,{ \big   ] } = 1 .
+\operatorname   { V a r }   [ \,\varepsilon   \mid   X \,]=\sigma   ^ { 2 } I _ { n } ,
+\varepsilon   \mid   X \sim   { \mathcal   { N } } ( 0 , \sigma   ^ { 2 } I _ { n } ) .
+\scriptstyle   { \hat   { \beta   } }
+\operatorname   { E }   [ \,{ \hat   { \beta   } } \mid   X \,]=\beta   , \quad   \operatorname   { E }   [ \,s ^ { 2 } \mid   X \,]=\sigma   ^ { 2 } .
+\scriptstyle   { \hat   { \beta   } }
+{ \displaystyle   \operatorname   { V a r }   [ \,{ \hat   { \beta   } } \mid   X \,]=\sigma   ^ { 2 } ( X ^ { T } X ) ^ { - 1 } = \sigma   ^ { 2 } Q . }
+\scriptstyle   { \hat   { \beta   } } _ { j }
+{ \displaystyle   { \widehat   { \operatorname   { s . \!e . }   } } ( { \hat   { \beta   } } _ { j } ) = { \sqrt   { s ^ { 2 } ( X ^ { T } X ) _ { j j } ^ { - 1 } } } }
+\scriptstyle   { \hat   { \beta   } }
+\operatorname   { C o v }   [ \,{ \hat   { \beta   } } , { \hat   { \varepsilon   } } \mid   X \,]=0 .
+\scriptstyle   { \hat   { \beta   } }
+\scriptstyle   { \tilde   { \beta   } }
+\operatorname   { V a r }   [ \,{ \tilde   { \beta   } } \mid   X \,]-\operatorname   { V a r }   [ \,{ \hat   { \beta   } } \mid   X \,]\geq   0
+\scriptstyle   { \hat   { \beta   } }
+{ \displaystyle   { \hat   { \beta   } } \ \sim   \ { \mathcal   { N } } { \big   ( } \beta   , \ \sigma   ^ { 2 } ( X ^ { \mathrm   { T }   } X ) ^ { - 1 } { \big   ) } }
+s ^ { 2 } \ \sim   \ { \frac   { \sigma   ^ { 2 } } { n - p } } \cdot   \chi   _ { n - p } ^ { 2 }
+\scriptstyle   { \hat   { \beta   } }
+{ \hat   { \beta   } }
+{ \displaystyle   { \hat   { \beta   } } ^ { ( j ) } - { \hat   { \beta   } } = - { \frac   { 1 } { 1 - h _ { j } } } ( X ^ { \mathrm   { T }   } X ) ^ { - 1 } x _ { j } ^ { \mathrm   { T }   } { \hat   { \varepsilon   } } _ { j } \ , , }
+{ \displaystyle   { \hat   { y } } _ { j } ^ { ( j ) } - { \hat   { y } } _ { j } = x _ { j } ^ { \mathrm   { T }   } { \hat   { \beta   } } ^ { ( j ) } - x _ { j } ^ { T } { \hat   { \beta   } } = - { \frac   { h _ { j } } { 1 - h _ { j } } } \,{ \hat   { \varepsilon   } } _ { j } }
+y = X _ { 1 } \beta   _ { 1 } + X _ { 2 } \beta   _ { 2 } + \varepsilon   ,
+{ \hat   { \varepsilon   } }
+\scriptstyle   { \hat   { \beta   } } _ { 2 }
+M _ { 1 } y = M _ { 1 } X _ { 2 } \beta   _ { 2 } + \eta   \ , ,
+{ \displaystyle   A \colon   \quad   Q ^ { T } \beta   = c , \ , }
+{ \displaystyle   { \hat   { \beta   } } ^ { c } = { \hat   { \beta   } } - ( X ^ { T } X ) ^ { - 1 } Q { \Big   ( } Q ^ { T } ( X ^ { T } X ) ^ { - 1 } Q { \Big   ) } ^ { - 1 } ( Q ^ { T } { \hat   { \beta   } } - c ) . }
+{ \hat   { \beta   } } ^ { c } = R ( R ^ { T } X ^ { T } X R ) ^ { - 1 } R ^ { T } X ^ { T } y + { \Big   ( } I _ { p } - R ( R ^ { T } X ^ { T } X R ) ^ { - 1 } R ^ { T } X ^ { T } X { \Big   ) } Q ( Q ^ { T } Q ) ^ { - 1 } c ,
+{ \hat   { \beta   } }
+{ \hat   { \sigma   } } ^ { 2 }
+{ \hat   { \beta   } }
+( { \hat   { \beta   } } - \beta   ) \ { \xrightarrow   { d } } \ { \mathcal   { N } } { \big   ( } 0 , \;\sigma   ^ { 2 } Q _ { x x } ^ { - 1 } { \big   ) } ,
+Q _ { x x } = X ^ { T } X .
+\hat { \beta }
+{ \displaystyle   \beta   _ { j } \in   { \bigg   [ } \ { \hat   { \beta   } } _ { j } \pm   q _ { 1 - { \frac   { \alpha   } { 2 } } } ^ { { \mathcal   { N } } ( 0 , 1 ) } \!{ \sqrt   { { \hat   { \sigma   } } ^ { 2 } \left [ Q _ { x x } ^ { - 1 } \right ] _ { j j } } } \ { \bigg   ] } }
+{ \displaystyle   ( { \hat   { \sigma   } } ^ { 2 } - \sigma   ^ { 2 } ) \ { \xrightarrow   { d } } \ { \mathcal   { N } } \left ( 0 , \;\operatorname   { E }   \left [ \varepsilon   _ { i } ^ { 4 } \right ] - \sigma   ^ { 4 } \right ) . }
+x _ { 0 }
+{ \displaystyle   y _ { 0 } = x _ { 0 } ^ { \mathrm   { T }   } \beta   }
+{ \displaystyle   { \hat   { y } } _ { 0 } = x _ { 0 } ^ { \mathrm   { T }   } { \hat   { \beta   } } }
+\hat { \beta }
+{ \displaystyle   \left ( { \hat   { y } } _ { 0 } - y _ { 0 } \right ) \ { \xrightarrow   { d } } \ { \mathcal   { N } } \left ( 0 , \;\sigma   ^ { 2 } x _ { 0 } ^ { \mathrm   { T }   } Q _ { x x } ^ { - 1 } x _ { 0 } \right ) , }
+y _ { 0 }
+{ \displaystyle   y _ { 0 } \in   \left [ \ x_ { 0 } ^ { \mathrm   { T }   } { \hat   { \beta   } } \pm   q _ { 1 - { \frac   { \alpha   } { 2 } } } ^ { { \mathcal   { N } } ( 0 , 1 ) } \!{ \sqrt   { { \hat   { \sigma   } } ^ { 2 } x _ { 0 } ^ { \mathrm   { T }   } Q _ { x x } ^ { - 1 } x _ { 0 } } } \ \right ] }
+w _ { i } = \beta   _ { 1 } + \beta   _ { 2 } h _ { i } + \beta   _ { 3 } h _ { i } ^ { 2 } + \varepsilon   _ { i } .
+\beta   _ { 1 }
+\beta   _ { 2 }
+\beta   _ { 3 }
+{ \displaystyle   { \hat   { \sigma   } } _ { j } = \left ( { \hat   { \sigma   } } ^ { 2 } \left [ Q _ { x x } ^ { - 1 } \right ] _ { j j } \right ) ^ { \frac   { 1 } { 2 } } }
+t = { \hat   { \beta   } } _ { j } / { \hat   { \sigma   } } _ { j }
+R ^ { 2 }
+R ^ { 2 }
+{ \displaystyle   { \overline   { R } } ^ { 2 } = 1 - { \frac   { n - 1 } { n - p } } ( 1 - R ^ { 2 } ) }
+{ \hat   { y } }
+{ \displaystyle   r ( \theta   ) = { \frac   { p } { 1 - e \cos ( \theta   ) } } }
+r ( \theta )
+p
+e
+\theta  
+r ( \theta )
+e
+p
+r ( \theta )
+{ \displaystyle   { \frac   { 1 } { r ( \theta   ) } } = { \frac   { 1 } { p } } - { \frac   { e } { p } } \cos ( \theta   ) }
+{ \displaystyle   A ^ { T } A { \binom   { x } { y } } = A ^ { T } b }
+x
+{ \frac   { 1 } { p } }
+y
+{ \displaystyle   { \frac   { e } { p } } }
+A
+{ \frac   { 1 } { p } }
+{ \displaystyle   { \frac   { e } { p } } }
+b
+{ \displaystyle   { \frac   { 1 } { r ( \theta   ) } } }
+{ \displaystyle   A = { \begin { b m a t r i x } 1 & - 0 . 7 3 1 3 5 4 \\1 & - 0 . 7 0 7 1 0 7 \\1 & - 0 . 6 1 5 6 6 1 \\1 & \ 0 . 0 5 2 3 3 6 \\1 & 0 . 3 0 9 0 1 7 \\1 & 0 . 4 3 8 3 7 1 \end { b m a t r i x } } }
+{ \displaystyle   b = { \begin { b m a t r i x } 0 . 2 1 2 2 0 \\0 . 2 1 9 5 8 \\0 . 2 4 7 4 1 \\0 . 4 5 0 7 1 \\0 . 5 2 8 8 3 \\0 . 5 6 8 2 0 \end { b m a t r i x } } }
+{ \displaystyle   { \binom   { x } { y } } = { \binom   { 0 . 4 3 4 7 8 } { 0 . 3 0 4 3 5 } } }
+{ \displaystyle   p = { \frac   { 1 } { x } } = 2 . 3 0 0 0 }
+{ \displaystyle   e = p \cdot   y = 0 . 7 0 0 0 1 }

@@ -1,8 +1,0 @@
-{ \displaystyle   y _ { t } \rightarrow   0 }
-y _ { t }
-y _ { t }
-{ \displaystyle   y _ { t } = 0 }
-{ \displaystyle   D M \sim   N ( 0 , 1 ) }
-D M
-{ \displaystyle   \mathrm   { M A S E }   = { \frac   { 1 } { T } } \sum   _ { t = 1 } ^ { T } \left ( { \frac   { \left | e _ { t } \right | } { { \frac   { 1 } { T - 1 } } \sum   _ { t = 2 } ^ { T } \left | Y _ { t } - Y _ { t - 1 } \right | } } \right ) = { \frac   { \sum   _ { t = 1 } ^ { T } \left | e _ { t } \right | } { { \frac   { T } { T - 1 } } \sum   _ { t = 2 } ^ { T } \left | Y _ { t } - Y _ { t - 1 } \right | } } }
-{ \displaystyle   \mathrm   { M A S E }   = { \frac   { 1 } { T } } \sum   _ { t = 1 } ^ { T } \left ( { \frac   { \left | e _ { t } \right | } { { \frac   { 1 } { T - m } } \sum   _ { t = m + 1 } ^ { T } \left | Y _ { t } - Y _ { t - m } \right | } } \right ) = { \frac   { \sum   _ { t = 1 } ^ { T } \left | e _ { t } \right | } { { \frac   { T } { T - m } } \sum   _ { t = m + 1 } ^ { T } \left | Y _ { t } - Y _ { t - m } \right | } } }

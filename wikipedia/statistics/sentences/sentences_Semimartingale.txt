@@ -1,0 +1,5 @@
+X _ { t } = M _ { t } + A _ { t }
+H \cdot   X _ { t } \equiv   1 _ { { \{ t > T \}}}A ( X _ { t } - X _ { T } ) .
+\left \{ H \cdot   X _ { t } : H { { \rm   { \ is \ simple \ predictable \ and \ }}}|H | \leq   1 \right \ }
+M _ { t } = X _ { 0 } + \int   _ { 0 } ^ { t } \sigma   _ { s } \,dW_ { s } , \ A_ { t } = \int   _ { 0 } ^ { t } b _ { s } \,ds .
+[ X ] _ { t } = \sum   _ { { s \leq   t } } \Delta   X _ { s } ^ { 2 }

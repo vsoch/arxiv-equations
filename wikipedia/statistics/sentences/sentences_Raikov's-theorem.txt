@@ -1,0 +1,18 @@
+X
+{ \displaystyle   M ^ { 1 } ( X ) }
+X
+E _ x
+x \in   X
+{ \displaystyle   x _ { 0 } \in   X , \lambda   > 0 }
+{ \displaystyle   \lambda   E _ { x _ { 0 } } }
+{ \displaystyle   \mu   = e ( \lambda   E _ { x _ { 0 } } ) = e ^ { - \lambda   } ( E _ { 0 } + \lambda   E _ { x _ { 0 } } + \lambda   ^ { 2 } E _ { 2 x _ { 0 } } / 2 ! + \ldots   + \lambda   ^ { n } E _ { n x _ { 0 } } / n ! + \ldots   ) . }
+\mu  
+{ \displaystyle   \lambda   E _ { x _ { 0 } } }
+{ \displaystyle   \mu   = \mu   _ { 1 } * \mu   _ { 2 } }
+{ \displaystyle   \mu   _ { j } \in   M ^ { 1 } ( X ) }
+x _ { 0 }
+\mu   _ { j }
+x _ { 0 }
+n
+{ \displaystyle   n \neq   2 }
+\mu   _ { j }

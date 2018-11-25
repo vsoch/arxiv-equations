@@ -1,0 +1,74 @@
+\Theta   \ ,
+{ \mathcal   { X } }
+{ \mathcal   { A } }
+\Theta   \ ,
+{ \mathcal   { X } }
+{ \mathcal   { A } }
+x \in   { \mathcal     { X } } \ , \ !
+F ( x \mid   \theta   ) \ , \ !
+\theta   \in   \Theta   \ , \ !
+\delta   : { { \mathcal     { X } } } \rightarrow   { { \mathcal     { A } } }
+x \in   { \mathcal     { X } }
+\delta   ( x ) \in   { \mathcal     { A } } \ , \ !
+L : \Theta   \times   { \mathcal     { A } } \rightarrow   { \mathbb     { R } }
+a \in   { \mathcal     { A } }
+\theta   \in   \Theta  
+x \in   { \mathcal   { X } }
+L ( \theta   , \delta   ( x ) ) \ , \ !
+R ( \theta   , \delta   ) = \operatorname   { E } _ { { F ( x \mid   \theta   ) } } [ { L ( \theta   , \delta   ( x ) ) ] } . \ , \ !
+\delta \ , \ !
+\theta \ , \ !
+\delta   ^ { * } \ , \ !
+\delta \ , \ !
+R ( \theta   , \delta   ^ { * } ) \leq   R ( \theta   , \delta   )
+\theta \ , \ !
+\theta \ , \ !
+\theta \ , \ !
+\delta \ , \ !
+\theta \ , \ !
+\theta \ , \ !
+\pi   ( \theta   ) \ , \ !
+\Theta   \ , \ !
+\delta \ , \ !
+\pi   ( \theta   ) \ , \ !
+r ( \pi   , \delta   ) = \operatorname   { E } _ { { \pi   ( \theta   ) } } [ R ( \theta   , \delta   ) ] . \ , \ !
+\delta \ , \ !
+r ( \pi   , \delta   ) \ , \ !
+\pi   ( \theta   ) \ , \ !
+\delta \ , \ !
+x \ , \ !
+x \in   { \mathcal     { X } } \ , \ !
+x \ , \ !
+\theta   \in   \Theta   \ , \ !
+x \ , \ !
+\rho   ( \pi   , \delta   \mid   x ) = \operatorname   { E } _ { { \pi   ( \theta   \mid   x ) } } [ L ( \theta   , \delta   ( x ) ) ] . \ , \ !
+\theta \ , \ !
+x \ , \ !
+\pi   ( \theta   ) \ , \ !
+F ( x \mid   \theta   ) \ , \ !
+x \ , \ !
+\delta \ , \ !
+x \ , \ !
+\delta   ( x ) \ , \ !
+\pi   ( \theta   ) \ , \ !
+\delta   ( x ) \ , \ !
+\Theta   \ , \ !
+{ \mathcal   { X } }
+x \sim   \theta   \ , \ !
+\theta   \sim   \pi   \ , \ !
+\delta \ , \ !
+x \in   { \mathcal   { X } }
+x \ , \ !
+\delta \ , \ !
+\delta \ , \ !
+\delta   ( x ) \ ! \ ,
+x \ , \ !
+\delta   ( x ) \ , \ !
+x \ , \ !
+X \subseteq   { \mathcal     { X } }
+\pi   ( \theta   ) \ , \ !
+x \ , \ !
+\pi   ( \theta   \mid   x ) \ , \ !
+x \ , \ !
+\pi   ( \theta   ) \ , \ !
+\theta \ , \ !

@@ -1,5 +1,0 @@
-{ \displaystyle   { \hat   { y } } = { \hat   { f } } ( \mathbf   { x }   ) = { \hat   { b } } + \sum   _ { i } x _ { i } }
-x _ { i }
-{ \displaystyle   { \hat   { y } } = { \hat   { f } } ( \mathbf   { x }   ) = { \hat   { b } } + \sum   _ { i } { \hat   { w } } _ { i } x _ { i } }
-{ \displaystyle   { \hat   { y } } < 0 }
-{ \displaystyle   { \hat   { y } } \geq   0 }

@@ -1,0 +1,4 @@
+{ \displaystyle   \Sigma   _ { X Y } = \operatorname   { E }   ( X ^ { T } Y ) \ , , }
+{ \displaystyle   \operatorname   { C O V V }   ( X , Y ) = \operatorname   { T r }   ( \Sigma   _ { X Y } \Sigma   _ { Y X } ) \ , . }
+{ \displaystyle   \operatorname   { V A V }   ( X ) = \operatorname   { T r }   ( \Sigma   _ { X X } ^ { 2 } ) \ , . }
+{ \displaystyle   \mathrm   { R V }   ( X , Y ) = { \frac   { \operatorname   { C O V V }   ( X , Y ) } { \sqrt   { \operatorname   { V A V }   ( X ) \operatorname   { V A V }   ( Y ) } } } \ , . }

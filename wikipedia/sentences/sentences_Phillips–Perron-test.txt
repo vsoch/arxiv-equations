@@ -1,6 +1,0 @@
-\rho   = 1
-{ \displaystyle   \Delta   y _ { t } = ( \rho   - 1 ) y _ { t - 1 } + u _ { t } \ , }
-\Delta  
-y _ { t }
-y _ { t - 1 }
-{ \displaystyle   \Delta   y _ { t } }

@@ -1,0 +1,6 @@
+  \text { S t a n d a r d   e r r o r }   \approx   \sqrt { \frac { p ( 1 - p ) } { n } }
+\approx   1 . 2 9 / \sqrt { n } \ ,
+\approx   0 . 9 8 / \sqrt { n } \ ,
+\approx   0 . 8 2 / \sqrt { n } \ ,
+\operatorname { F P C }   =   \sqrt { \frac { N - n } { N - 1 } } .
+  \text { S t a n d a r d   e r r o r   o f   d i f f e r e n c e }   =   \sqrt { \frac { p + q - ( p - q ) ^ 2 } { n } }   =   \sqrt { \frac { p + q - p ^ 2 + 2 p q - q ^ 2 } { n } } .

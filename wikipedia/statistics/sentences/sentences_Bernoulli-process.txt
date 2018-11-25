@@ -1,0 +1,53 @@
+2 = \{ H , T \ } .
+2 = \{ H , T \ }
+\Omega   = 2 ^ { { \mathbb     { N } } } = \{ H , T \}^ { { \mathbb     { N } } }
+\Omega   = 2 ^ { { \mathbb     { Z } } }
+( \Omega ,   \mathcal { F } )
+{ \mathcal   { F } }
+\{ p , 1 - p \ }
+P = \{ p , 1 - p \}^ { { \mathbb     { N } } }
+P = \{ p , 1 - p \}^ { { \mathbb     { Z } } }
+[ \omega   _ { 1 } , \omega   _ { 2 } , \cdots   \omega   _ { n } ]
+1 , 2 , \cdots   , n
+P ( [ \omega   _ { 1 } , \omega   _ { 2 } , \cdots   , \omega   _ { n } ] ) = p ^ { k } ( 1 - p ) ^ { { n - k } }
+{ \displaystyle   P ( X _ { 1 } = x _ { 1 } , X _ { 2 } = x _ { 2 } , \cdots   , X _ { n } = x _ { n } ) = p ^ { k } ( 1 - p ) ^ { n - k } }
+X _ { i }
+{ \displaystyle   x _ { i } = [ \omega   _ { i } = H ] }
+1
+{ \displaystyle   \omega   _ { i } = H }
+{ \displaystyle   0 }
+{ \displaystyle   \omega   _ { i } = T }
+P
+\lim   _ { { n \to   \infty   } } p ^ { n } = 0
+0 \leq   p < 1
+( \Omega   , { \mathcal   { F } } , P )
+H
+1
+T
+{ \displaystyle     0   }
+{ \displaystyle   { \bar   { X } } _ { n } : = { \frac   { 1 } { n } } \sum   _ { i = 1 } ^ { n } X _ { i } }
+p
+{ \displaystyle   \mathbb   { E }   [ X _ { i } ] = \mathbb   { P }   ( [ X _ { i } = 1 ] ) = p , }
+X _ { i }
+N ( k , n ) = { n   \choose   k } = { \frac     { n ! } { k ! ( n - k ) ! } }
+{ \displaystyle   \mathbb   { P }   ( [ S _ { n } = k ] ) = { n   \choose   k } p ^ { k } ( 1 - p ) ^ { n - k } , }
+{ \displaystyle   S _ { n } = \sum   _ { i = 1 } ^ { n } X _ { i } }
+S _ { n }
+n \to   \infty  
+n ! = { \sqrt     { 2 \pi   n } } \;n ^ { n } e ^ { { - n } } \left ( 1 + { \mathcal     { O } } \left ( { \frac     { 1 } { n } } \right ) \right )
+2 ^ { n }
+2 ^ { { n H } }
+H \leq   1
+n \to   \infty  
+H = - p \log   _ { 2 } p - ( 1 - p ) \log   _ { 2 } ( 1 - p )
+\Omega   = 2 ^ { { \mathbb     { Z } } }
+T X _ { i } = X _ { { i + 1 } }
+\omega   \in   \Omega  
+P ( T \omega   ) = P ( \omega   )
+( \Omega ,   \mathcal { F } )
+T : { \mathcal     { F } } \to   { \mathcal     { F } }
+( \Omega ,   \mathcal { F } )
+{ \mathbb     { Z } } ^ { x } = \{ n \in   { \mathbb     { Z } } : X _ { n } ( x ) = 1 \ } \ ,
+{ \mathbb     { Z } } ^ { x }
+\mathbb   { N }  
+{ \mathbb     { Z } } ^ { x }

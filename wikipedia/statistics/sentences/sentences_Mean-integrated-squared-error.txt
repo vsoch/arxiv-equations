@@ -1,0 +1,1 @@
+\operatorname   { E } \|f_ { n } - f \|_ { 2 } ^ { 2 } = \operatorname   { E } \int   ( f _ { n } ( x ) - f ( x ) ) ^ { 2 } \,dx

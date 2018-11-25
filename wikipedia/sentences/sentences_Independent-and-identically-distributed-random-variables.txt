@@ -1,7 +1,0 @@
-{ \displaystyle   \mathbb   { I }   \subseteq   \mathbb   { R }   }
-X
-Y
-{ \displaystyle   P [ x \geq   X ] = P [ x \geq   Y ] , \,\forall   x \in   \mathbb   { I }   }
-X
-Y
-{ \displaystyle   P [ y \geq   Y ] = P [ y \geq   Y | x \geq   X ] \land   P [ x \geq   X ] = P [ x \geq   X | y \geq   Y ] \,\forall   x , y \in   \mathbb   { I }   }

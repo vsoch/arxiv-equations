@@ -1,0 +1,33 @@
+\Pr ( S | W ) = { \frac     { \Pr ( W | S ) \cdot   \Pr ( S ) } { \Pr ( W | S ) \cdot   \Pr ( S ) + \Pr ( W | H ) \cdot   \Pr ( H ) } }
+\Pr ( S | W )
+\Pr ( S )
+\Pr ( W | S )
+\Pr ( H )
+\Pr ( W | H )
+\Pr ( S ) = 0 . 8 ; \Pr ( H ) = 0 . 2
+\Pr ( S ) = 0 . 5 ; \Pr ( H ) = 0 . 5
+\Pr ( S | W ) = { \frac     { \Pr ( W | S ) } { \Pr ( W | S ) + \Pr ( W | H ) } }
+\Pr ( W | S )
+\Pr ( W | H )
+p = { \frac     { p _ { 1 } p _ { 2 } \cdots   p _ { N } } { p _ { 1 } p _ { 2 } \cdots   p _ { N } + ( 1 - p _ { 1 } ) ( 1 - p _ { 2 } ) \cdots   ( 1 - p _ { N } ) } }
+p
+p _ { 1 }
+p ( S | W _ { 1 } )
+p _ { 2 }
+p ( S | W _ { 2 } )
+p _ { N }
+p ( S | W _ { N } )
+{ \frac     { 1 } { p } } - 1 = { \frac     { ( 1 - p _ { 1 } ) ( 1 - p _ { 2 } ) \dots   ( 1 - p _ { N } ) } { p _ { 1 } p _ { 2 } \dots   p _ { N } } }
+\ln   \left ( { \frac     { 1 } { p } } - 1 \right ) = \sum   _ { { i = 1 } } ^ { N } \left [ \ln ( 1 - p _ { i } ) - \ln   p _ { i } \right ]
+\eta   = \sum   _ { { i = 1 } } ^ { N } \left [ \ln ( 1 - p _ { i } ) - \ln   p _ { i } \right ]
+{ \frac     { 1 } { p } } - 1 = e ^ { \eta   }
+p = { \frac     { 1 } { 1 + e ^ { \eta   } } }
+\Pr   ' ( S | W ) = { \frac     { s \cdot   \Pr ( S ) + n \cdot   \Pr ( S | W ) } { s + n } }
+\Pr   ' ( S | W )
+s
+\Pr ( S )
+n
+\Pr ( S | W )
+\Pr ( S )
+P r ( S )
+p = C ^ { { - 1 } } ( - 2 \ln ( p _ { 1 } p _ { 2 } \cdots   p _ { N } ) , 2 N ) \ ,

@@ -1,9 +1,0 @@
-{ \mathbf     { b } }
-\operatorname   { s u p p } ( { \mathbf     { b } } ) = \{ i : { \mathbf     { b } } _ { i } \neq   0 \ }
-{ \mathbf     { b } } _ { i }
-i
-{ \mathbf     { b } }
-{ \hat     { { \mathbf     { b } } } }
-{ \mathbf     { b } }
-P ( \operatorname   { s u p p } ( { \hat     { { \mathbf     { b } } } } ) = \operatorname   { s u p p } ( { \mathbf     { b } } ) ) \rightarrow   1
-  n \rightarrow   \infty  

@@ -1,0 +1,14 @@
+f ( x _ i ) \approx   y _ i .
+  S   =   \sum_ { i = 1 } ^ n   | y _ i   -   f ( x _ i ) | .  
+S ( \mathbf { \beta } ,   b )   =   \sum_i   |   \mathbf { x } ' _ i   \mathbf { \beta }   +   b   -   y _ i   |
+\mathbf { x } ' _ 1   \mathbf { \beta }   +   b   -   y _ 1   \leq     k
+\mathbf { \beta }
+  \text { M i n i m i z e }   \sum_ { i = 1 } ^ n   | y _ i   -   a _ 0   -   a _ 1 x _ { i 1 }   -   a _ 2 x _ { i 2 }   -   \cdots   -   a _ k x _ { i k } |
+{ \displaystyle   a _ { 0 } , \ldots   , a _ { k } }
+  \text { M i n i m i z e }   \sum_ { i = 1 } ^ n   u _ i
+{ \displaystyle   a _ { 0 } , \ldots   , a _ { k } }
+{ \displaystyle   u _ { 1 } , \ldots   , u _ { n } }
+{ \displaystyle   u _ { i } \geq   y _ { i } - a _ { 0 } - a _ { 1 } x _ { i 1 } - a _ { 2 } x _ { i 2 } - \cdots   - a _ { k } x _ { i k } \,\ \,\ \,\ \,\ \,\ { \text { f o r   } } i = 1 , \ldots   , n }
+{ \displaystyle   u _ { i } \geq   - [ y _ { i } - a _ { 0 } - a _ { 1 } x _ { i 1 } - a _ { 2 } x _ { i 2 } - \cdots   - a _ { k } x _ { i k } ] \,\ \,\ { \text {   f o r   } } i = 1 , \ldots   , n . }
+u _ { i }
+| y _ i   -   a _ 0   -   a _ 1 x _ { i 1 }   -   a _ 2 x _ { i 2 }   -   \cdots   -   a _ k x _ { i k } |

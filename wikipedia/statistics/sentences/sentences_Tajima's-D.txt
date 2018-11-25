@@ -1,0 +1,36 @@
+S
+\pi  
+E [ \pi   ] = \theta   = E \left [ { \frac     { S } { \sum   _ { { i = 1 } } ^ { { n - 1 } } { \frac     { 1 } { i } } } } \right ] = 4 N \mu  
+E [ \pi   ] = \theta   = E \left [ { \frac     { S } { \sum   _ { { i = 1 } } ^ { { n - 1 } } { \frac     { 1 } { i } } } } \right ] = 2 N \mu  
+\mu  
+S
+\pi  
+D \ ,
+\theta   \ ,
+d \ ,
+d \ ,
+{ \sqrt     { { \hat     { V } } ( d ) } }
+D = { \frac     { d } { { \sqrt     { { \hat     { V } } ( d ) } } } }
+D \ ,
+D \ ,
+D = { \frac     { d } { { \sqrt     { { \hat     { V } } ( d ) } } } } = { \frac     { { \hat     { k } } - { \frac     { S } { a _ { 1 } } } } { { \sqrt     { [ e _ { 1 } S + e _ { 2 } S ( S - 1 ) ] } } } }
+e _ { 1 } = { \frac     { c _ { 1 } } { a _ { 1 } } }
+e _ { 2 } = { \frac     { c _ { 2 } } { a _ { 1 } ^ { 2 } + a _ { 2 } } }
+c _ { 1 } = b _ { 1 } - { \frac     { 1 } { a _ { 1 } } }
+c _ { 2 } = b _ { 2 } - { \frac     { n + 2 } { a _ { { 1 } } n } } + { \frac     { a _ { 2 } } { a _ { { 1 } } ^ { { 2 } } } }
+b _ { 1 } = { \frac     { n + 1 } { 3 ( n - 1 ) } }
+b _ { 2 } = { \frac     { 2 ( n ^ { { 2 } } + n + 3 ) } { 9 n ( n - 1 ) } }
+a _ { 1 } = \sum   _ { { i = 1 } } ^ { { n - 1 } } { \frac     { 1 } { i } }
+a _ { 2 } = \sum   _ { { i = 1 } } ^ { { n - 1 } } { \frac     { 1 } { i ^ { 2 } } }
+{ \hat     { k } } \ ,
+{ \frac     { S } { a _ { 1 } } }
+n \ ,
+N
+( i , j )
+{ \displaystyle   { \hat   { k } } = { \frac   { \sum   \sum   _ { i < j } k _ { i j } } { \binom   { n } { 2 } } } . }
+S
+{ \displaystyle   E ( S ) = a _ { 1 } M . }
+{ \displaystyle   M = 4 N \mu   }
+{ \displaystyle   \theta   = 4 N \mu   }
+{ 3 + 2 + 2 + 3 + 1 + 3 + 2 + 2 + 1 + 1   \over   1 0 } = 2
+d = 2 - 1 . 9 2 = . 0 8

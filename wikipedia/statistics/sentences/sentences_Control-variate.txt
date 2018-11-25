@@ -1,0 +1,36 @@
+\mu  
+m
+{ \mathbb     { E } } \left [ m \right ] = \mu  
+t
+{ \mathbb     { E } } \left [ t \right ] = \tau  
+m ^ { \star   } = m + c \left ( t - \tau   \right ) \ ,
+\mu  
+c
+m ^ { { \star   } }
+{ \displaystyle   { \textrm   { V a r } } \left ( m ^ { \star   } \right ) = { \textrm   { V a r } } \left ( m \right ) + c ^ { 2 } \,{ \textrm   { V a r } } \left ( t \right ) + 2 c \,{ \textrm   { C o v } } \left ( m , t \right ) . }
+{ \displaystyle   c ^ { \star   } = - { \frac   { { \textrm   { C o v } } \left ( m , t \right ) } { { \textrm   { V a r } } \left ( t \right ) } } }
+m ^ { { \star   } }
+{ \displaystyle   { \begin { a l i g n e d } { \textrm   { V a r } } \left ( m ^ { \star   } \right ) & = { \textrm   { V a r } } \left ( m \right ) - { \frac   { \left [ { \textrm   { C o v } } \left ( m , t \right ) \right ] ^ { 2 } } { { \textrm   { V a r } } \left ( t \right ) } } \\&=\left ( 1 - \rho   _ { m , t } ^ { 2 } \right ) { \textrm   { V a r } } \left ( m \right ) \end { a l i g n e d } } }
+{ \displaystyle   \rho   _ { m , t } = { \textrm   { C o r r } } \left ( m , t \right ) \ , }
+m
+t
+\vert   \rho   _ { { m , t } } \vert  
+{ \textrm     { C o v } } \left ( m , t \right )
+{ \textrm     { V a r } } \left ( t \right )
+\rho   _ { { m , t } } \ ;
+{ \mathbb     { E } } \left [ t \right ] = \tau  
+\mu  
+t
+m
+{ \displaystyle   | \rho   _ { m , t } | }
+I = \int   _ { 0 } ^ { 1 } { \frac     { 1 } { 1 + x } } \,{ \mathrm     { d } } x
+f ( U )
+{ \displaystyle   f ( U ) = { \frac   { 1 } { 1 + U } } }
+u _ { 1 } , \cdots   , u _ { n }
+{ \displaystyle   I \approx   { \frac   { 1 } { n } } \sum   _ { i } f ( u _ { i } ) . }
+{ \displaystyle   g ( U ) = 1 + U }
+{ \displaystyle   \mathbb   { E }   \left [ g \left ( U \right ) \right ] = \int   _ { 0 } ^ { 1 } ( 1 + x ) \,\mathrm   { d }   x = { \tfrac   { 3 } { 2 } } }
+I \approx   { \frac     { 1 } { n } } \sum   _ { i } f ( u _ { i } ) + c \left ( { \frac     { 1 } { n } } \sum   _ { i } g ( u _ { i } ) - 3 / 2 \right ) .
+n = 1 5 0 0
+c ^ { \star   } \approx   0 . 4 7 7 3
+I = \ln   2 \approx   0 . 6 9 3 1 4 7 1 8

@@ -1,0 +1,69 @@
+# Equation Mapping: Statistics
+
+Here we will derive vectors based on equations from [statistics topics](https://en.wikipedia.org/wiki/List_of_statistics_articles). You should have already installed the required python
+modules in [requirements.txt](../requirements.txt)
+
+## 1. Create List of Statistical Methods
+
+We first need to find the "right" wikipedia pages to parse equations from. I'm also interested
+in the applications, so I'm parsing methods too. For this step, I used [0.extractEquations.py](0.extractEquations.py).
+I save the list of methods to [wikipedia_methods.txt](wikipedia_methods.txt) and equations
+to [wikipedia_equations.json](wikipedia_equations.json) along with the similarly named
+pickle files (ending in *.pkl). The extraction is fairly easy to do because each equation (an
+annotation in the page) has a "fallback" image (with a class with the name including math or tex)
+that can be easily extracted! For example:
+
+```python
+  {'png': 'https://wikimedia.org/api/rest_v1/media/math/render/svg/b7c3ba47cc5436c389f86a3f617a191d0dbe4877',
+   'tex': '2^{n\\mathrm {H} (k/n)}'},
+```
+
+This "master" file we can use for one word2vec model, and for a domain specific model (doc2vec)
+we can generate a single file under [sentences](sentences) that has the sentences grouped by wikipedia page.
+Note that I'm not currently doing anything with doc2vec.
+
+## 2. Extract Equation Tokens
+
+This was very fun to do! I wanted to call a token either a single character, **or** a known
+latex string (e.g., `/begin`) and put them together in a sentence for word2vec. I did this using
+as the first step in [1.modelEquations.py](1.modelEquations.py). This gave me two files,
+[equation_sentences.txt](equation_sentences.txt) and it's matching labels file.
+
+
+## 3. Build Word2Vec Equations Models
+
+For the second step (also in [2.modelEquations.py](2.modelEquations.py)) I could 
+easily use the functions from [wordfish](https://vsoch.github.io/2016/2016-wordfish/)
+to build a word2vec model and extract vectors to describe the tokens. Then, an average
+vector could be used to combine a set of features (from a label) to describe the full
+equation. I can cluster both the feature (single token) vectors along with the equations,
+and see if the method clusters makes sense.
+
+After this step we have:
+
+ - [word2vec models](models) to describe either the entire wikipedia corpus, or subset of domains (pages)
+ - [vectors of the embeddings](vectors) that represent the embeddings for the tokens, or individual characters
+
+I actually did the above for all equations (across all wikipedia topics) with word2vec, and for
+doc2vec, but I'm going to hold off using doc2vec for anything because I don't totally 
+understand what it's doing yet.
+
+## 4. Map Equations to Embedding Space
+
+I had two choices now. I could either take the average of some set of equation vectors that I derived for
+a topic, **or** work in a space with all the vectors (and labels to describe multiple cases of the same topic).
+I decided to work with all the vectors and labels because taking some kind of average could dilute the signal.
+The following steps are done in the script [2.generateEmbeddings.py](2.generateEmbeddings.py).
+
+### Are equations from the same topic similar?
+As a first sanity check, I'd want to see that equations from the same topic are similar, meaning
+that their topics cluster together. So I did the following:
+
+ - Start with character embeddings that are derived across entire set of equations, across all topics
+ - For each topic, for each equation, map it to the space by generating it's vector (an average of it's character embeddings present in the model)
+ - Now we have a vector representation (the same length, 300) for every equation!
+ - Do clustering of the equation vectors, and (sanity check) the similar labels should cluster together (in progress)
+
+I might go back at this point and choose more specific labels for kinds of math, as opposed to the statistics articles list that I chose. When there is a model that seems to be reasonably good, then I can do the same thing, but for equations in archive. For each paper in archive, I can again map the equations it includes to this space, and determine it's
+"math topics" signature. These proportions can help us determine the domains of math that are highest priority for
+penrose, and it's also just a really cool and interesting question anyway! 

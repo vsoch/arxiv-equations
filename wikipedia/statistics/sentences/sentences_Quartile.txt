@@ -1,0 +1,2 @@
+{ \text { L o w e r   f e n c e } } = Q _ { 1 } - 1 . 5 ( { \mathrm     { I Q R } } ) \ ,
+{ \text { U p p e r   f e n c e } } = Q _ { 3 } + 1 . 5 ( { \mathrm     { I Q R } } ) , \ ,

@@ -1,0 +1,12 @@
+E ( X ) = \mu
+E ( Y ) = \nu
+( X   -   \mu )   ( Y   -   \nu )
+\operatorname { c o v } ( X ,   Y )
+\mu  
+P ( A \cap   B )
+P ( A ,   \ B ) .
+{ \overline   { x } }
+\sigma  
+\operatorname { v a r } ( X )
+\sigma_X ^ 2
+\sigma   ^ { 2 }

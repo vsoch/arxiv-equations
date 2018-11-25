@@ -1,0 +1,12 @@
+\cdots  
+\cdots  
+\cdots  
+\cdots  
+\vdots  
+\vdots  
+\vdots  
+\ddots
+\vdots  
+\cdots  
+{ \displaystyle   T = k \left ( k - 1 \right ) { \frac   { \sum   \limits   _ { j = 1 } ^ { k } \left ( X _ { \bullet   j } - { \frac   { N } { k } } \right ) ^ { 2 } } { \sum   \limits   _ { i = 1 } ^ { b } X _ { i \bullet   } \left ( k - X _ { i \bullet   } \right ) } } }
+{ \displaystyle   T > \chi   _ { 1 - \alpha   , k - 1 } ^ { 2 } }

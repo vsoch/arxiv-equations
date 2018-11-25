@@ -1,5 +1,0 @@
-n = 8
-k = 4
-{ \frac     { 8 ! } { 4 ! ( 8 - 4 ) ! } } = 7 0
-{ \displaystyle   { \binom   { 4 } { 1 } } = 4 }
-{ \displaystyle   { \binom   { 4 } { 3 } } = 4 }

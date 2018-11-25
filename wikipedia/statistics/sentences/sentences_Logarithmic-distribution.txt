@@ -1,0 +1,15 @@
+0 < p < 1
+{ \displaystyle   k \in   \{ 1 , 2 , 3 , \ldots   \ } }
+{ \displaystyle   { \frac   { - 1 } { \ln ( 1 - p ) } } { \frac   { p ^ { k } } { k } } }
+{ \displaystyle   1 + { \frac   { \mathrm   { B }   ( p ; k + 1 , 0 ) } { \ln ( 1 - p ) } } }
+{ \displaystyle   { \frac   { - 1 } { \ln ( 1 - p ) } } { \frac   { p } { 1 - p } } }
+1
+{ \displaystyle   - { \frac   { p ^ { 2 } + p \ln ( 1 - p ) } { ( 1 - p ) ^ { 2 } ( \ln ( 1 - p ) ) ^ { 2 } } } }
+{ \displaystyle   { \frac   { \ln ( 1 - p e ^ { t } ) } { \ln ( 1 - p ) } } { \text {   f o r   } } t < - \ln   p }
+{ \displaystyle   { \frac   { \ln ( 1 - p e ^ { i t } ) } { \ln ( 1 - p ) } } }
+{ \displaystyle   { \frac   { \ln ( 1 - p z ) } { \ln ( 1 - p ) } } { \text {   f o r   } } | z | < { \frac   { 1 } { p } } }
+- \ln ( 1 - p ) = p + { \frac     { p ^ { 2 } } { 2 } } + { \frac     { p ^ { 3 } } { 3 } } + \cdots   .
+\sum   _ { { k = 1 } } ^ { { \infty   } } { \frac     { - 1 } { \ln ( 1 - p ) } } \;{ \frac     { p ^ { k } } { k } } = 1 .
+f ( k ) = { \frac     { - 1 } { \ln ( 1 - p ) } } \;{ \frac     { p ^ { k } } { k } }
+F ( k ) = 1 + { \frac     { \mathrm { B }   ( p ; k + 1 , 0 ) } { \ln ( 1 - p ) } }
+\sum   _ { { i = 1 } } ^ { N } X _ { i }

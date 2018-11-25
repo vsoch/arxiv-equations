@@ -1,0 +1,42 @@
+{ \displaystyle   { \underset   { \mathbf   { S }   } { \operatorname   { a r g \,min }   } } \sum   _ { i = 1 } ^ { k } \sum   _ { \mathbf   { x }   \in   S _ { i } } \left \|\mathbf   { x }   - { \boldsymbol   { \mu   } } _ { i } \right \|^ { 2 } = { \underset   { \mathbf   { S }   } { \operatorname   { a r g \,min }   } } \sum   _ { i = 1 } ^ { k } | S _ { i } | \operatorname   { V a r }   S _ { i } }
+{ \displaystyle   { \underset   { \mathbf   { S }   } { \operatorname   { a r g \,min }   } } \sum   _ { i = 1 } ^ { k } \,{ \frac   { 1 } { 2 | S _ { i } | } } \,\sum   _ { \mathbf   { x }   , \mathbf   { y }   \in   S _ { i } } \left \|\mathbf   { x }   - \mathbf   { y }   \right \|^ { 2 } }
+{ \displaystyle   \sum   _ { \mathbf   { x }   \in   S _ { i } } \left \|\mathbf   { x }   - { \boldsymbol   { \mu   } } _ { i } \right \|^ { 2 } = \sum   _ { \mathbf   { x }   \neq   \mathbf   { y }   \in   S _ { i } } ( \mathbf   { x }   - { \boldsymbol   { \mu   } } _ { i } ) ( { \boldsymbol   { \mu   } } _ { i } - \mathbf   { y }   ) }
+S _ { i } ^ { ( t ) } = { \big   \{ } x _ { p } : { \big   \|}x_ { p } - m _ { i } ^ { ( t ) } { \big   \|}^ { 2 } \leq   { \big   \|}x_ { p } - m _ { j } ^ { ( t ) } { \big   \|}^ { 2 } \ \forall   j , 1 \leq   j \leq   k { \big   \ } } ,
+x _ { p }
+S ^ { ( t ) }
+m _ { i } ^ { ( t + 1 ) } = { \frac   { 1 } { | S _ { i } ^ { ( t ) } | } } \sum   _ { x _ { j } \in   S _ { i } ^ { ( t ) } } x _ { j }
+{ \displaystyle   O ( n ^ { d k + 1 } ) }
+O ( n k d i )
+{ \displaystyle   i = 2 ^ { \Omega   ( { \sqrt   { n } } ) } }
+[ 0 , 1 ] ^ { d }
+\sigma   ^ { 2 }
+{ \displaystyle   O ( n ^ { 3 4 } k ^ { 3 4 } d ^ { 8 } \log   ^ { 4 } ( n ) / \sigma   ^ { 6 } ) }
+1 / \sigma  
+O ( d n ^ { 4 } M ^ { 2 } )
+\{ 1 , \dots   , M \}^ { d }
+L _ { 1 }
+{ \displaystyle   \phi   ( S _ { j } ) }
+S _ j
+{ \displaystyle   \sum   _ { x \in   S _ { j } } ( x - \mu   _ { j } ) ^ { 2 } }
+\mu   _ { j }
+{ \displaystyle   \{ S _ { j } \}_ { j \in   \{ 1 , \cdots   k \ } } }
+{ \displaystyle   n , m \in   \{ 1 \cdots   k \ } }
+{ \displaystyle   x \in   S _ { n } }
+{ \displaystyle   \Delta   ( m , n , x ) = \phi   ( S _ { n } ) + \phi   ( S _ { m } ) - \phi   ( S _ { n } \backslash   \{ x \})-\phi   ( S _ { m } \cup   \{ x \ } ) }
+{ \displaystyle   x , n , m }
+x
+S _ { n }
+S _ m
+{ \displaystyle   \Delta   ( m , n , x ) }
+{ \displaystyle   x , n , m }
+x
+S _ { n }
+S _ m
+{ \displaystyle   x , n , m }
+{ \displaystyle   \Delta   ( m , n , x ) < 0 }
+\Delta  
+{ \displaystyle   \Delta   ( x , n , m ) = { \frac   { \mid   S _ { n } \mid   } { \mid   S _ { n } \mid   - 1 } } \cdot   \lVert   \mu   _ { n } - x \rVert   ^ { 2 } - { \frac   { \mid   S _ { m } \mid   } { \mid   S _ { m } \mid   + 1 } } \cdot   \lVert   \mu   _ { m } - x \rVert   ^ { 2 } }
+k = 3
+k = 2
+k = 3
+k = 2

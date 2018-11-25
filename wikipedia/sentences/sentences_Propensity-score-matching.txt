@@ -1,4 +1,0 @@
-p ( x ) \ { \stackrel     { { \mathrm     { d e f } } } { = } } \ \Pr ( T = 1 | X = x ) .
-Y ( 0 ) , Y ( 1 ) \perp   T \,|\,X
-\perp  
-{ \displaystyle   Y ( 0 ) , Y ( 1 ) \perp   ( T \,|\,p ( X ) ) . }

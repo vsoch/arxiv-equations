@@ -1,0 +1,5 @@
+\Pr ( U > u ) = { \begin { c a s e s } 1 & : \ u < 1 , \\u ^ { - D } & : \ u \geq   1 . \end { c a s e s } }
+\Pr ( U > u ) = O ( u ^ { - k } ) ,
+{ \displaystyle   { \frac   { \partial   \varphi   ( x , t ) } { \partial   t } } = - { \frac   { \partial   } { \partial   x } } f ( x , t ) \varphi   ( x , t ) + \gamma   { \frac   { \partial   ^ { \alpha   } \varphi   ( x , t ) } { \partial   | x | ^ { \alpha   } } } }
+{ \displaystyle   F _ { k } \left [ { \frac   { \partial   ^ { \alpha   } \varphi   ( x , t ) } { \partial   | x | ^ { \alpha   } } } \right ] = k ^ { \alpha   } F _ { k } [ \varphi   ( x , t ) ] }
+{ \displaystyle   \langle   | x | ^ { \theta   } \rangle   \propto   t ^ { \theta   / \alpha   } { \text {   i f   } } \theta   \leq   \alpha   . }

@@ -1,0 +1,7 @@
+{ \displaystyle   l i f t = { \frac   { P ( A \cap   B ) } { P ( A ) * P ( B ) } } }
+{ \displaystyle   \operatorname   { s u p p }   ( A \Rightarrow   0 ) = P ( A \land   0 ) = P ( A ) P ( 0 \mid   A ) = P ( 0 ) P ( A \mid   0 ) }
+{ \displaystyle   \operatorname   { s u p p }   ( B \Rightarrow   1 ) = P ( B \land   1 ) = P ( B ) P ( 1 \mid   B ) = P ( 1 ) P ( B \mid   1 ) }
+  \operatorname { c o n f } ( A   \Rightarrow   0 )   =   P ( 0 \mid   A )
+  \operatorname { c o n f } ( B   \Rightarrow   1 )   =   P ( 1 \mid   B )
+{ \displaystyle   \operatorname   { l i f t }   ( A \Rightarrow   0 ) = { \frac   { P ( 0 \mid   A ) } { P ( 0 ) } } = { \frac   { P ( A \land   0 ) } { P ( A ) P ( 0 ) } } }
+{ \displaystyle   \operatorname   { l i f t }   ( B \Rightarrow   1 ) = { \frac   { P ( 1 \mid   B ) } { P ( 1 ) } } = { \frac   { P ( B \land   1 ) } { P ( B ) P ( 1 ) } } }

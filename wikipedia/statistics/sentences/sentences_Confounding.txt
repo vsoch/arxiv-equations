@@ -1,0 +1,10 @@
+{ \displaystyle   P ( y \mid   { \text { d o } } ( x ) ) }
+{ \displaystyle   P ( y \mid   { \text { d o } } ( x ) ) = P ( y \mid   x ) }
+{ \displaystyle   P ( y \mid   x ) }
+{ \displaystyle   P ( y \mid   d o ( x ) ) \neq   P ( y \mid   x ) }
+{ \displaystyle   P ( y \mid   d o ( x ) ) }
+{ \displaystyle   P ( y \mid   d o ( x ) ) = \sum   _ { z } P ( y \mid   x , z ) P ( z ) }
+\leftarrow  
+\rightarrow  
+{ \begin { a l i g n e d } P ( Y = { \text { r e c o v e r e d } } \ |\ do ( x = { \text { g i v e   d r u g } } ) ) & = P ( Y = { \text { r e c o v e r e d } } \ |\ X = { \text { g i v e   d r u g } } , Z = { \text { m a l e } } ) P ( Z = { \text { m a l e } } ) \\&+P ( Y = { \text { r e c o v e r e d } } \ |\ X = { \text { g i v e   d r u g } } , Z = { \text { f e m a l e } } ) P ( Z = { \text { f e m a l e } } ) \end { a l i g n e d } }
+2 ^ { { k } }

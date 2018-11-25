@@ -1,6 +1,0 @@
-X _ { 1 } , \ldots   , X _ { n }
-P [ X _ { 1 } , \ldots   , X _ { n } ] = \prod   _ { i = 1 } ^ { n } P [ X _ { i } | p a _ { i } ]
-p a _ { i }
-X _ { i }
-A , B , C , D
-{ \displaystyle   P [ A , B , C , D ] = P [ A ] \cdot   P [ B ] \cdot   P [ C , D | A , B ] }

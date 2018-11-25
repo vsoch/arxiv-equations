@@ -1,0 +1,6 @@
+{ \displaystyle   { \bar   { u } } = { \frac   { \sum   _ { i = 1 } ^ { m } \sum   _ { j = 1 } ^ { n } { \mbox { n o .   o f   d e f e c t s   f o r   } } x _ { i j } } { m n } } }
+{ \displaystyle   { \bar   { u } } \pm   3 { \sqrt   { \frac   { \bar   { u } } { n } } } }
+{ \displaystyle   { \bar   { u } } _ { i } = { \frac   { \sum   _ { j = 1 } ^ { n } { \mbox { n o .   o f   d e f e c t s   f o r   } } x _ { i j } } { n } } }
+{ \displaystyle   { \bar   { u } } \pm   3 { \sqrt   { \frac   { \bar   { u } } { n } } } }
+{ \bar     u }
+{ \displaystyle   u _ { i } = { \frac   { x _ { i } } { n _ { i } } } }

@@ -1,0 +1,280 @@
+M = \sum   _ { { i = 1 } } ^ { K } ( f _ { m } - f _ { i } )
+M = K f _ { m } - N
+v = 1 - { \frac     { f _ { m } } { N } }
+{ \frac     { ( { \frac     { f _ { m } } { N } } ) - { \frac     { 1 } { K } } } { { \frac     { N } { K } } { \frac     { ( K - 1 ) } { N } } } } = { \frac     { M } { N ( K - 1 ) } }
+M o d V R = 1 - { \frac     { K f _ { m } - N } { N ( K - 1 ) } } = { \frac     { K ( N - f _ { m } ) } { N ( K - 1 ) } } = { \frac     { K v } { K - 1 } }
+R a n V R = 1 - { \frac     { f _ { m } - f _ { l } } { f _ { m } } } = { \frac     { f _ { l } } { f _ { m } } }
+A v D e v = 1 - { \frac     { 1 } { 2 N } } { \frac     { K } { K - 1 } } \sum   _ { { i = 1 } } ^ { K } | f _ { i } - { \frac     { N } { K } } |
+M N D i f = 1 - { \frac     { 1 } { N ( K - 1 ) } } \sum   _ { { i = 1 } } ^ { { K - 1 } } \sum   _ { { j = i + 1 } } ^ { K } | f _ { i } - f _ { j } |
+V a r N C = 1 - { \frac     { 1 } { N ^ { 2 } } } { \frac     { K } { ( K - 1 ) } } \sum   ( f _ { i } - { \frac     { N } { K } } ) ^ { 2 }
+S t D e v _ { 1 } = 1 - { \sqrt     { { \frac     { \sum   _ { { i = 1 } } ^ { K } ( f _ { i } - { \frac     { N } { K } } ) ^ { 2 } } { ( N - { \frac     { N } { K } } ) ^ { 2 } + ( K - 1 ) ( { \frac     { N } { K } } ) ^ { 2 } } } } }
+  S t D e v _ 2   =   1   -   \sqrt {   \frac {   \sum ^ {   K   -   1   } _ {   i   =   1   }   \sum ^ K _ { j   =   i   +   1   }   (   f _ i   -   f _ j   ) ^ 2   } {   N ^ 2   (   K   -   1   ) }   }
+H R e l = { \frac     { - \sum   p _ { i } l o g _ { 2 } p _ { i } } { \log   _ { 2 } K } }
+\log_2 ( K )
+  B   =   1   -   \sqrt {   1   -   [   \sqrt [ k ]   {   \Pi_ {   i   =   1   } ^ k   \frac {   f _ i   K   } {   N   }   }   ] ^ 2   }  
+M 1 = 1 - \sum   _ { { i = 1 } } ^ { K } p _ { i } ^ { 2 }
+p _ { i } = f _ { i } / N
+M 2 = { \frac     { K } { K - 1 } } \left ( 1 - \sum   _ { { i = 1 } } ^ { K } p _ { i } ^ { 2 } \right )
+p _ { i } = f _ { i } / N
+{ \frac     { K } { K - 1 } }
+M 4 = { \frac     { \sum   _ { { i = 1 } } ^ { K } | X _ { i } - m | } { 2 \sum   _ { { i = 1 } } ^ { K } X _ { i } } }
+M 6 = K \left [ 1 - { \frac     { \sum   _ { { i = 1 } } ^ { K } | X _ { i } - m | } { 2 N } } \right ]
+m = { \frac     { \sum   _ { { i = 1 } } ^ { K } X _ { i } } { N } }
+M 6 = K \left [ 1 - { \frac     { \sum   _ { { i = 1 } } ^ { K } | p _ { i } - { \frac     { 1 } { N } } | } { 2 } } \right ]
+\sum   _ { { i = 1 } } ^ { K } p _ { i } ^ { 2 }
+I C = \sum   { \frac     { f _ { i } ( f _ { i } - 1 ) } { n ( n - 1 ) } }
+D = 1 - \sum   _ { { i = 1 } } ^ { K } { { \frac     { n _ { i } ( n _ { i } - 1 ) } { n ( n - 1 ) } } }
+u \sim   1 - \sum   _ { { i = 1 } } ^ { K } p _ { i } ^ { 2 }
+u = { \frac     { c ( x , y ) } { n ^ { 2 } - n } }
+u \sim   1 - \sum   _ { { i = 1 } } ^ { K } p _ { i } ^ { 2 }
+H ^ { 2 } = 2 \left ( 1 - \sum   _ { { i = 1 } } ^ { K } p _ { i } ^ { 2 } \right )
+M 7 = { \frac     { \sum   _ { { i = 1 } } ^ { K } \sum   _ { { j = 1 } } ^ { L } | R _ { i } - R | } { 2 \sum   R _ { i } } }
+R _ { { i j } } = { \frac     { O _ { { i j } } } { E _ { { i j } } } } = { \frac     { O _ { { i j } } } { n _ { i } p _ { j } } }
+R = { \frac     { \sum   _ { { i = 1 } } ^ { K } \sum   _ { { j = 1 } } ^ { L } R _ { { i j } } } { \sum   _ { { i = 1 } } ^ { K } n _ { i } } }
+p _ { i }
+p _ { i }
+  I _ B   =   \frac {   \log (   N !   )   -   \sum_ {   i   =   1   } ^ K   (   \log (   n _ i !   )   )   } {   N   }
+E _ { B } = I _ { B } / I _ { { B ( \max   ) } }
+N _ { a } = { \frac     { 1 } { \left [ \sum   _ { { i = 1 } } ^ { K } p _ { i } ^ { a } \right ] ^ { { a - 1 } } } }
+E _ { { a , b } } = { \frac     { N _ { a } } { N _ { b } } }
+E _ { 4 } = { \frac     { N _ { 2 } } { N _ { 1 } } }
+E _ { 5 } = { \frac     { N _ { 2 } - 1 } { N _ { 1 } - 1 } }
+I _ { { M a r g } } = { \frac     { S - 1 } { l o g _ { e } N } }
+I _ { { \mathrm     { M e n } } } = { \frac     { S } { { \sqrt     { N } } } }
+Q = { \frac     { { \frac     { 1 } { 2 } } ( n _ { { R 1 } } + n _ { { R 2 } } ) + \sum   _ { { j = R _ { 1 } + 1 } } ^ { { R _ { 2 } - 1 } } n _ { j } } { l o g ( R _ { 2 } / R _ { 1 } ) } }
+H = \log   _ { e } N - { \frac     { 1 } { N } } \sum   n _ { i } p _ { i } \log ( p _ { i } )
+S D ( H ) = { \frac     { 1 } { N } } \left [ \sum   p _ { i } [ \log   _ { e } ( p _ { i } ) ] ^ { 2 } - H ^ { 2 } \right ]
+\operatorname   { v a r } ( H ) = { \frac     { \sum   p _ { i } [ \log ( p _ { i } ) ] ^ { 2 } - \left [ \sum   p _ { i } \log ( p _ { i } ) \right ] ^ { 2 } } { N } } + { \frac     { K - 1 } { 2 N ^ { 2 } } } + { \frac     { - 1 + \sum   p _ { i } ^ { 2 } - \sum   p _ { i } ^ { { - 1 } } \log ( p _ { i } ) + \sum   p _ { i } ^ { { - 1 } } \sum   p _ { i } \log ( p _ { i } ) } { 6 N ^ { 3 } } }
+J = { \frac     { H } { \log   _ { e } ( S ) } }
+{ } ^ { q } H = { \frac     { 1 } { 1 - q } } \;\ln   \left ( \sum   _ { { i = 1 } } ^ { K } p _ { i } ^ { q } \right )
+{ } ^ { q } H = \ln   \left ( { 1   \over   { \sqrt [   { q - 1 } ] { { \sum   _ { { i = 1 } } ^ { K } p _ { i } p _ { i } ^ { { q - 1 } } } } } } \right ) = \ln ( { } ^ { q } \!D )
+{ } ^ q \!D
+D = { \frac     { N - { \sqrt     { \sum   _ { { i = 1 } } ^ { K } n _ { i } } } } { N - { \sqrt     { N } } } }
+E = { \frac     { N - { \sqrt     { \sum   _ { { i = 1 } } ^ { K } n _ { i } } } } { N - { \frac     { N } { { \sqrt     { K } } } } } }
+K = \alpha   \ln ( 1 + { \frac     { N } { \alpha   } } )
+E ( n _ { r } ) = \alpha   { \frac     { X ^ { r } } { r } }
+N = { \frac     { \alpha   X } { 1 - X } }
+K = - \alpha   \ln ( 1 - X )
+\operatorname   { v a r } ( \alpha   ) = { \frac     { \alpha   } { \ln ( X ) ( 1 - X ) } }
+D _ { w } = m a x [ { \frac     { c _ { i } } { K } } - { \frac     { i } { N } } ]
+E = { \frac     { 1 } { D } } / K
+E _ { 1 } = { \frac     { 1 - D } { 1 - { \frac     { 1 } { K } } } }
+E _ { 2 } = { \frac     { \log   _ { e } ( D ) } { \log   _ { e } ( K ) } }
+E = { \frac     { e ^ { H } - 1 } { K - 1 } }
+E = { \frac     { e ^ { H } } { K } }
+E = 1 - \sum   _ { { i = 1 } } ^ { K } \sum   _ { { j = i + 1 } } ^ { K } { \frac     { p _ { i } - p _ { j } } { K } }
+B = 1 - { \frac     { 2 } { \pi   } } a r c t a n ( \theta   )
+E _ { c } = { \frac     { O - { \frac     { 1 } { K } } } { 1 - { \frac     { 1 } { K } } } }
+E _ { d } = { \frac     { O - { \frac     { 1 } { K } } - { \frac     { K - 1 } { N } } } { 1 - { \frac     { 1 } { K } } - { \frac     { K - 1 } { N } } } }
+O = 1 - { \frac     { 1 } { 2 } } | p _ { i } - { \frac     { 1 } { K } } |
+R _ { { i k } } = { \frac     { H _ { \max   } - H _ { { \mathrm     { o b s } } } } { H _ { \max   } - H _ { \min   } } }
+X = \sum   x _ { { i j } }
+X = \sum   x _ { { k j } }
+H ( X ) = \sum   { \frac     { x _ { { i j } } } { X } } \log   { \frac     { X } { x _ { { i j } } } }
+H ( Y ) = \sum   { \frac     { x _ { { k j } } } { Y } } \log   { \frac     { Y } { x _ { { k j } } } }
+H _ { \min   } = { \frac     { X } { X + Y } } H ( X ) + { \frac     { Y } { X + Y } } H ( Y )
+H _ { \max   } = \sum   \left ( { \frac     { x _ { { i j } } } { X + Y } } \log   { \frac     { X + Y } { x _ { { i j } } } } + { \frac     { x _ { { k j } } } { X + Y } } \log   { \frac     { X + Y } { x _ { { k j } } } } \right )
+H _ { { \mathrm     { o b s } } } = \sum   { \frac     { x _ { { i j } } + x _ { { k j } } } { X + Y } } \log   { \frac     { X + Y } { x _ { { i j } } + x _ { { k j } } } }
+X _ { n }
+X _ { n }
+f _ { n }
+f _ { n } = E [ X _ { n } ] = K - { \binom     { N } { n } } ^ { { - 1 } } \sum   _ { { i = 1 } } ^ { K } { \binom     { N - N _ { i } } { n } }
+f ( 0 ) = 0 , \ f ( 1 ) = 1 , \ f ( N ) = K
+V = { \frac     { H - E ( H ) } { S D ( H ) } }
+S D ( H ) = { \frac     { 1 } { N } } \left [ \sum   p _ { i } [ \log   _ { e } ( p _ { i } ) ] ^ { 2 } - H ^ { 2 } \right ]
+I _ { { L G } } = { \frac     { K } { K ' } }
+S _ { { T D } } = 2 { \frac     { \sum   \sum   _ { { i < j } } \omega   _ { { i j } } } { s ( s - 1 ) } }
+{ \displaystyle   I Q V = { \frac   { K ( 1 0 0 ^ { 2 } - \sum   _ { i = 1 } ^ { K } p _ { i } ^ { 2 } ) } { 1 0 0 ^ { 2 } ( K - 1 ) } } = { \frac   { K } { K - 1 } } ( 1 - \sum   _ { i = 1 } ^ { K } ( p _ { i } / 1 0 0 ) ^ { 2 } ) }
+{ \displaystyle   E _ { a } = \Sigma   _ { i = 1 } ^ { a } p _ { i } l o g ( p _ { i } ) }
+{ \displaystyle   H = \Sigma   _ { i = 1 } ^ { r } { \frac   { n _ { i } ( E - E _ { i } ) } { N E } } }
+D = { \frac     { 1 } { 2 } } \sum   _ { { i = 1 } } ^ { K } \left | { \frac     { A _ { i } } { A } } - { \frac     { B _ { i } } { B } } \right |
+A = \sum   _ { { i = 1 } } ^ { K } A _ { i }
+B = \sum   _ { { i = 1 } } ^ { K } B _ { i }
+G T = D \left ( 1 - { \frac     { A } { A + B } } \right )
+S I = { \frac     { 1 } { 2 } } \sum   _ { { i = 1 } } ^ { K } | { \frac     { A _ { i } } { A } } - { \frac     { t _ { i } - A _ { i } } { T - A } } |
+A = \sum   _ { { i = 1 } } ^ { K } A _ { i }
+T = \sum   _ { { i = 1 } } ^ { K } t _ { i }
+H = 1 - \sum   _ { { i = 1 } } ^ { K } \sum   _ { { j = 1 } } ^ { i } { \sqrt     { p _ { i } p _ { j } } }
+L _ { { x y } } = { \frac     { 1 } { N } } \sum   _ { { i = 1 } } ^ { K } { \frac     { X _ { i } Y _ { i } } { X _ { { \mathrm     { t o t } } } } }
+I _ { R } = { \frac     { p _ { { x x } } - p _ { x } } { 1 - p _ { x } } }
+p _ { { x x } } = { \frac     { \sum   _ { { i = 1 } } ^ { K } x _ { i } p _ { i } } { N _ { x } } }
+I I = \sum   _ { { i = 1 } } ^ { K } { \frac     { A _ { i } } { A } } { \frac     { A _ { i } } { t _ { i } } }
+M I I = { \frac     { I I - { \frac     { A } { T } } } { 1 - { \frac     { A } { T } } } }
+G S = { \frac     { 1 } { 2 } } \sum   _ { { i = 1 } } ^ { K } | { \frac     { A _ { i } } { A } } - { \frac     { t _ { i } } { T } } |
+A = \sum   _ { { i = 1 } } ^ { K } A _ { i }
+T = \sum   _ { { i = 1 } } ^ { K } t _ { i }
+I E = \sum   _ { { i = 1 } } ^ { K } { \frac     { A _ { i } } { A } } { \frac     { B _ { i } } { t _ { i } } }
+A = \sum   _ { { i = 1 } } ^ { K } A _ { i }
+  O   =   \frac {   a   } {   \sqrt {   (   a   +   b   ) (   a   +   c   )   }   }  
+  K   =   \frac {   a   } {   2   }   (   \frac {   1   } {   a   +   b   }   +   \frac {   1   } {   a   +   c   }   )  
+  Q   =   \frac {   a d   -   b c   } {   a d   +   b c   }
+  Y   =   \frac {   \sqrt {   a d   }   -   \sqrt {   b c   }   } {   \sqrt {   a d   }   +   \sqrt {   b c   }   }
+  B U B   =   \frac {   \sqrt {   a d   }   +   a   } {   \sqrt {   a d   }   +   a   +   b   +   c   }  
+  H   =   \frac {   (   a   +   d   )   -   (   b   +   c   )   } {   a   +   b   +   c   +   d   }
+  R T   =   \frac {   (   a   +   d   )   } {   a   +   2 (   b   +   c   )   +   d   }
+  S S   =   \frac {   2 (   a   +   d   )   } {   2 (   a   +   d   )   +   b   +   c   }
+  S B D   =   \sqrt {   \frac {   b   +   c   } {   a   +   b   +   c   +   d   }   }
+  R R   =   \frac {   a   } {   a   +   b   +   c   +   d   }  
+  \phi   =   \frac {   a d   -   b c   } {   \sqrt {   (   a   +   b   )   (   a   +   c   )   (   b   +   c   )   (   c   +   d   )   }   }  
+  S   =   \frac {   b   +   c   } {   b   +   c   +   d   }  
+  S   =   \frac {   a   } {   a   +   m i n (   b ,   c   )   }  
+  D   =   \frac {   a d   -   b c   } {   \sqrt {   (   a   +   b   +   c   +   d   )   (   a   +   b   )   (   a   +   c   )   }   }  
+  F   =   \frac {   a   (   a   +   b   +   c   +   d   )     } {   (   a   +   b   )   (   a   +   c   )   }  
+  S M   =   \frac {   a   +   d     } {   (   a   +   b   +   c   +   d   )   }  
+  F   =   \frac {   (   a   +   b   +   c   +   d   )   (   a   -   0 . 5   ) ^ 2   } {   (   a   +   b   )   (   a   +   c   )   }  
+  S   =   l o g   [   \frac {   n   (   |   a d   -   b c   |   -   \frac {   n   } {   2   }   ) ^ 2   } {   (   a   +   b   )   (   a   +   c   )   (   b   +   d   ) (   c   +   d   )   }   ]  
+  M   =   \frac {   4   (   a d   -   b c   )   } {   (   a   +   d   ) ^ 2   +   (   b   +   c   ) ^ 2   }  
+  P   =   \frac {   a b   +   b c     } {   a b   +   2 b c   +   c d   }  
+  H D   =   \frac {   1   } {   2   }   (   \frac {   a   } {   a   +   b   +   c   }   +   \frac {   d   } {   b   +   c   +   d   }   )    
+{ \displaystyle   B = { \frac   { a - ( a + b ) ( a + c ) } { a + m i n ( b , c ) - ( a + b ) ( a + c ) } } }
+{ \displaystyle   G = { \frac   { a - ( a + b ) ( a + c ) } { a + b + c - ( a + b ) ( a + c ) } } }
+{ \displaystyle   G = { \frac   { a - ( a + b ) ( a + c ) } { \sqrt   { ( 1 - ( a + b ) ^ { 2 } ) ( 1 - ( a + c ) ^ { 2 } ) } } } }
+{ \displaystyle   G _ { M } = { \frac   { a - ( a + b ) ( a + c ) } { 1 - { \frac   { | b - c | } { 2 } } - ( a + b ) ( a + c ) } } }
+{ \displaystyle   I = { \frac   { 2 ( a d - b c ) } { K ( 2 a + b + c ) } } }
+{ \displaystyle   I = { \frac   { a - ( a + b ) ( a + c ) } { ( a + c ) ( a + d ) ( b + d ) ( c + d ) } } }
+{ \displaystyle   S D = { \frac   { b + c } { b + c + d } } }
+{ \displaystyle   T I = 1 - { \frac   { a } { b + c + d } } }
+{ \displaystyle   P S I = a - b c }
+C Z I = { \frac     { \sum   \min ( x _ { i } , x _ { j } ) } { \sum   ( x _ { i } + x _ { j } ) } }
+d ( { \mathbf     { p } } , { \mathbf     { q } } ) = \sum   _ { { i = 1 } } ^ { n } { \frac     { | p _ { i } - q _ { i } | } { | p _ { i } | + | q _ { i } | } }
+C C = { \frac     { 2 c } { s _ { 1 } + s _ { 2 } } }
+J = { \frac     { A } { A + B + C } }
+  J   =   \frac {   1   } {   A   }   (   \frac {   1   } {   A   +   B   +   C   }   )
+  S E (   J   )   =   \sqrt {   \frac {   A   (   B   +   C   )   }   {   N   (   A   +   B   +   C   ) ^ 3   }   }
+D = { \frac     { 2 A } { 2 A + B + C } }
+M = { \frac     { N - B - C } { N } }
+I _ { m } = { \frac     { \sum   x ( x - 1 ) } { n m ( m - 1 ) } }
+I _ { m } = n { \frac     { \sum   x ^ { 2 } - \sum   x } { \left ( \sum   x \right ) ^ { 2 } - \sum   x } }
+I _ { m } = { \frac     { n \ IMC } { n m - 1 } }
+I _ { m } \left ( \sum   x - 1 \right ) + n - \sum   x
+z = { \frac     { I _ { m } - 1 } { 2 / n m ^ { 2 } } }
+{ \displaystyle   C _ { D } = { \frac   { 2 \sum   _ { i = 1 } ^ { S } x _ { i } y _ { i } } { ( D _ { x } + D _ { y } ) X Y } } }
+{ \displaystyle   C _ { H } = { \frac   { 2 \sum   _ { i = 1 } ^ { S } x _ { i } y _ { i } } { \left ( { \sum   _ { i = 1 } ^ { S } x _ { i } ^ { 2 }   \over   X ^ { 2 } } + { \sum   _ { i = 1 } ^ { S } y _ { i } ^ { 2 }   \over   Y ^ { 2 } } \right ) X Y } } }
+M _ { u } = { \frac     { \chi   _ { { 0 . 9 7 5 } } ^ { 2 } - k + \sum   x } { \sum   x - 1 } }
+M _ { c } = { \frac     { \chi   _ { { 0 . 0 2 5 } } ^ { 2 } - k + \sum   x } { \sum   x - 1 } }
+I _ { p } = 0 . 5 + 0 . 5 \left ( { \frac     { I _ { d } - M _ { c } } { k - M _ { c } } } \right )
+I _ { p } = 0 . 5 \left ( { \frac     { I _ { d } - 1 } { M _ { u } - 1 } } \right )
+I _ { p } = - 0 . 5 \left ( { \frac     { I _ { d } - 1 } { M _ { u } - 1 } } \right )
+I _ { p } = - 0 . 5 + 0 . 5 \left ( { \frac     { I _ { d } - M _ { u } } { M _ { u } } } \right )
+E _ { 1 } = { \frac     { I - I _ { \min   } } { I _ { \max   } - I _ { \min   } } }
+E _ { 2 } = { \frac     { I } { I _ { \max   } } }
+  H   =   \sqrt {   \frac {   p _ {   m a x   }   (   1 -   p _ {   m i n   }   )   }   {   p _ {   m i n   }   ( 1 - p _ {   m a x   }   )   }   }
+{ \displaystyle   S = { \frac   { | A \cap   B | } { | A \cap   B | + \alpha   | A - B | + \beta   | B - A | } } }
+{ \displaystyle   S _ { 1 } = { \frac   { | A \cap   B | } { | A \cap   B | + \beta   \left ( \alpha   a + ( 1 - \alpha   ) b \right ) } } }
+{ \displaystyle   a = \min   \left ( | X - Y | , | Y - X | \right ) }
+{ \displaystyle   b = \max   \left ( | X - Y | , | Y - X | \right ) }
+{ \displaystyle   S S ( A , B ) = { \frac   { | d ( A ) \cap   d ( B ) | } { | d ( A ) + d ( B ) | } } }
+{ \displaystyle   S 2 = { \frac   { | d ( A ) \cap   d ( B ) | } { m i n ( | d ( A ) | , | d ( B ) ) | } } }
+{ \displaystyle   S 3 = { \frac   { 2 | d ( A ) \cap   d ( B ) | } { | d ( A ) + d ( B ) | } } }
+d _ { { j k } } = { \sqrt     { \sum   _ { { i = 1 } } ^ { N } ( x _ { { i j } } - x _ { { i k } } ) ^ { 2 } } }
+{ \displaystyle   G D = { \frac   { \Sigma   _ { i = 1 } ^ { n } w _ { i } d _ { i } } { \Sigma   _ { i = 1 } ^ { n } w _ { i } } } }
+d _ { { j k } } = \sum   _ { { i = 1 } } ^ { N } | x _ { { i j } } - x _ { { i k } } |
+D _ { { P Q } } = { \frac     { 1 } { r } } \sum   _ { { j = 1 } } ^ { r } \sum   _ { { i = 1 } } ^ { k } | p _ { { j i } } - q _ { { j i } } |
+A = \sum   x _ { { i j } }
+B = \sum   x _ { { i k } }
+J = \sum   \min ( x _ { { i j } } , x _ { { j k } } )
+d _ { { j k } } = A + B - 2 J
+d _ { { j k } } = { \frac     { A + B - 2 J } { A + B } }
+d _ { { j k } } = { \frac     { A + B - 2 J } { A + B - J } }
+d _ { { j k } } = 1 - { \frac     { 1 } { 2 } } \left ( { \frac     { J } { A } } + { \frac     { J } { B } } \right )
+c _ { a } = \sum   _ { { i = 1 } } ^ { a } p _ { j }
+D = 2 \sum   _ { { a = i } } ^ { K } { \frac     { d _ { a } } { K - 1 } }
+H = { \frac     { 1 } { N - 1 } } { \frac     { s ^ { 2 } } { m ^ { 2 } } }
+P C I = { \frac     { X _ { t } } { Z } } \left [ 1 - \left | { \frac     { \sum   _ { { i = 1 } } ^ { { r _ { + } } } X _ { + } } { X _ { t } } } - { \frac     { \sum   _ { { i = 1 } } ^ { { r _ { - } } } X _ { - } } { X _ { t } } } \right | \right ]
+X _ { t } = \sum   _ { { i = 1 } } ^ { { r _ { + } } } | X _ { + } | + \sum   _ { { i = 1 } } ^ { { r _ { - } } } | X _ { - } |
+P C I _ { 2 } = { \frac     { \sum   _ { { i = 1 } } ^ { K } \sum   _ { { j = 1 } } ^ { i } k _ { i } k _ { j } d _ { { i j } } } { \delta   } }
+\delta   = { \frac     { N ^ { 2 } } { 2 } } d _ { \max   }
+\delta   = { \frac     { N ^ { 2 } - 1 } { 2 } } d _ { \max   }
+D _ { 1 } : d _ { { i j } } = | r _ { i } - r _ { j } | - 1
+D _ { 2 } : d _ { { i j } } = | r _ { i } - r _ { j } |
+D _ { 3 } : d _ { { i j } } = | r _ { i } - r _ { j } | ^ { p }
+D p _ { { i j } } : d _ { { i j } } = [ | r _ { i } - r _ { j } | - ( m - 1 ) ] ^ { p }
+A = U \left ( 1 - { \frac     { S - 1 } { K - 1 } } \right )
+A _ { { \mathrm     { o v e r a l l } } } = \sum   w _ { i } A _ { i }
+p = \prod   _ { { i = 1 } } ^ { n } \left ( 1 - { \frac     { i } { k } } \right )
+{ \displaystyle   p = \exp   \left ( { \frac   { - n ^ { 2 } } { 2 k } } \right ) }
+{ \displaystyle   \log   _ { e } \left ( 1 - { \frac   { i } { k } } \right ) \approx   - { \frac   { i } { k } } }
+{ \displaystyle   n = 1 . 2 { \sqrt   { k } } }
+{ \displaystyle   n = 2 . 4 4 8 { \sqrt   { k } } \approx   2 . 5 { \sqrt   { k } } }
+n = 1 . 2 { \sqrt     { { \frac     { 1 } { \sum   _ { { i = 1 } } ^ { k } { \frac     { 1 } { c _ { i } } } } } } }
+n \approx   2 . 5 { \sqrt     { { \frac     { 1 } { \sum   _ { { i = 1 } } ^ { k } { \frac     { 1 } { c _ { i } } } } } } }
+{ \displaystyle   n = 1 . 2 { \sqrt   { \frac   { k } { 2 j + 1 } } } }
+{ \displaystyle   n \approx   2 . 5 { \sqrt   { \frac   { k } { 2 j + 1 } } } }
+{ \displaystyle   - \log   _ { 1 0 } \left ( { \frac   { 1 + 2 d } { 3 6 5 } } \right ) , }
+n
+S   =   \{ o _ 1 ,   \ldots ,   o _ n \ }
+S
+{ \displaystyle   X = \{ X _ { 1 } , \ldots   , X _ { r } \ } }
+{ \displaystyle   Y = \{ Y _ { 1 } , \ldots   , Y _ { s } \ } }
+a
+S
+X
+Y
+b
+S
+X
+Y
+c
+S
+X
+Y
+d
+S
+X
+Y
+R
+{ \displaystyle   R = { \frac   { a + b } { a + b + c + d } } = { \frac   { a + b } { n   \choose   2 } } }
+a + b
+X
+Y
+c   +   d
+X
+Y
+S
+n
+X   =   \{   X _ 1 ,   X _ 2 ,   \ldots   ,   X _ r   \ }
+Y   =   \{   Y _ 1 ,   Y _ 2 ,   \ldots   ,   Y _ s   \ }
+X
+Y
+{ \displaystyle   \left [ n _ { i j } \right ] }
+{ \displaystyle   n _ { i j } }
+X _ { i }
+Y _ j
+{ \displaystyle   n _ { i j } = | X _ { i } \cap   Y _ { j } | }
+Y _ { 1 }
+Y _ 2
+\ldots  
+Y _ s
+X _ { 1 }
+{ \displaystyle   n _ { 1 1 } }
+{ \displaystyle   n _ { 1 2 } }
+{ \displaystyle   \ldots   }
+{ \displaystyle   n _ { 1 s } }
+a _ { 1 }
+X _ { 2 }
+{ \displaystyle   n _ { 2 1 } }
+{ \displaystyle   n _ { 2 2 } }
+\ldots  
+{ \displaystyle   n _ { 2 s } }
+a _ { 2 }
+\vdots  
+\vdots  
+\vdots  
+\ddots  
+\vdots  
+\vdots  
+X _ r
+{ \displaystyle   n _ { r 1 } }
+{ \displaystyle   n _ { r 2 } }
+{ \displaystyle   \ldots   }
+{ \displaystyle   n _ { r s } }
+a _ r
+b _ { 1 }
+b _ { 2 }
+\ldots  
+b _ s
+{ \displaystyle   { \text {   A d j u s t e d I n d e x   } } = { \frac   { { \text {   I n d e x   } } - { \text {   E x p e c t e d I n d e x   } } } { { \text {   M a x I n d e x   } } - { \text {   E x p e c t e d I n d e x   } } } } }
+{ \displaystyle   A R I = { \frac   { \sum   _ { i j } { \binom   { n _ { i j } } { 2 } } - [ \sum   _ { i } { \binom   { a _ { i } } { 2 } } \sum   _ { j } { \binom   { b _ { j } } { 2 } } ] / { \binom   { n } { 2 } } } { { \frac   { 1 } { 2 } } [ \sum   _ { i } { \binom   { a _ { i } } { 2 } } + \sum   _ { j } { \binom   { b _ { j } } { 2 } } ] - [ \sum   _ { i } { \binom   { a _ { i } } { 2 } } \sum   _ { j } { \binom   { b _ { j } } { 2 } } ] / { \binom   { n } { 2 } } } } }
+{ \displaystyle   n _ { i j } , a _ { i } , b _ { j } }
+X
+Y

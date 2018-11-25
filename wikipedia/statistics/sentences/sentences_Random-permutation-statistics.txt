@@ -1,0 +1,305 @@
+\scriptstyle   { \mathcal     { P } }
+\scriptstyle   { \mathcal     { Z } }
+{ \displaystyle   \operatorname   { S E T }   ( \operatorname   { C Y C }   ( { \mathcal   { Z } } ) ) = { \mathcal   { P } } . }
+\exp   \log   { \frac     { 1 } { 1 - z } } = { \frac     { 1 } { 1 - z } }
+\sum   _ { { n \geq   0 } } { \frac     { n ! } { n ! } } z ^ { n } = { \frac     { 1 } { 1 - z } } .
+{ \displaystyle   \scriptstyle   \operatorname   { S E T }   }
+{ \displaystyle   \scriptstyle   \operatorname   { S E T }   _ { 2 } }
+{ \displaystyle   \scriptstyle   \operatorname   { C Y C }   ( { \mathcal   { Z } } ) }
+\log   { \frac     { 1 } { 1 - z } } = \sum   _ { { k \geq   1 } } { \frac     { z ^ { k } } { k } }
+\scriptstyle   b ( k ) : { \mathbb     { N } } \rightarrow   { \mathbb     { R } }
+b ( \sigma   ) = \sum   _ { { c \in   \sigma   } } b ( c )
+\sigma  
+g ( z , u ) = 1 + \sum   _ { { n \geq   1 } } \left ( \sum   _ { { \sigma   \in   S _ { n } } } u ^ { { b ( \sigma   ) } } \right ) { \frac     { z ^ { n } } { n ! } } = \exp   \sum   _ { { k \geq   1 } } u ^ { { b ( k ) } } { \frac     { z ^ { k } } { k } }
+{ \frac     { \partial   } { \partial   u } } g ( z , u ) { \Bigg   | } _ { { u = 1 } } = { \frac     { 1 } { 1 - z } } \sum   _ { { k \geq   1 } } b ( k ) { \frac     { z ^ { k } } { k } } = \sum   _ { { n \geq   1 } } \left ( \sum   _ { { \sigma   \in   S _ { n } } } b ( \sigma   ) \right ) { \frac     { z ^ { n } } { n ! } }
+g ( z ) = \exp   \left ( z + { \frac     { 1 } { 2 } } z ^ { 2 } \right ) .
+I ( n )
+I ( n ) = n ! [ z ^ { n } ] g ( z ) = n ! \sum   _ { { a + 2 b = n } } { \frac     { 1 } { a ! \;2 ^ { b } \;b ! } } = n ! \sum   _ { { b = 0 } } ^ { { \lfloor   n / 2 \rfloor   } } { \frac     { 1 } { ( n - 2 b ) ! \;2 ^ { b } \;b ! } } .
+g ( z ) = \exp   \left ( \sum   _ { { d \mid   m } } { \frac     { z ^ { d } } { d } } \right ) .
+n ! [ z ^ { n } ] g ( z ) = n ! \sum   _ { { a + p b = n } } { \frac     { 1 } { a ! \;p ^ { b } \;b ! } } = n ! \sum   _ { { b = 0 } } ^ { { \lfloor   n / p \rfloor   } } { \frac     { 1 } { ( n - p b ) ! \;p ^ { b } \;b ! } } .
+{ \mathcal   { Q } }
+{ \displaystyle   { \mathcal   { Q } } = \operatorname   { S E T }   \left ( \sum   _ { d \mid   k } \operatorname   { C Y C }   _ { = d } ( { \mathcal   { Z } } ) \right ) . }
+Q _ { k } ( z ) = \exp   \left ( \sum   _ { { d \mid   k } } { \frac     { z ^ { d } } { d } } \right ) .
+p _ { { n , d } }
+q _ { { n , k } }
+\sum   _ { { d | k } } p _ { { n , d } } = q _ { { n , k } } .
+\sum   _ { { d | k } } q _ { { n , d } } \times   \mu   ( k / d ) = p _ { { n , k } } .
+Q ( z ) = \sum   _ { { d \mid   k } } \mu   ( k / d ) \times   Q _ { d } ( z ) = \sum   _ { { d \mid   k } } \mu   ( k / d ) \exp   \left ( \sum   _ { { m \mid   d } } { \frac     { z ^ { m } } { m } } \right ) .
+n ! [ z ^ { n } ] Q ( z ) .
+Q ( z ) = { { \rm   { e } } } ^ { z } - { { \rm   { e } } } ^ { { z + 1 / 2 \,z ^ { 2 } } } - { { \rm   { e } } } ^ { { z + 1 / 3 \,z ^ { 3 } } } + { { \rm   { e } } } ^ { { z + 1 / 2 \,z ^ { 2 } + 1 / 3 \,z ^ { 3 } + 1 / 6 \,z ^ { 6 } } }
+2 0 , 2 4 0 , 1 4 7 0 , 1 0 6 4 0 , 8 3 1 6 0 , 5 8 4 6 4 0 , 4 4 9 6 0 3 0 , 4 2 6 5 8 4 4 0 , 3 7 1 7 6 2 8 2 0 , 3 5 9 4 8 7 1 2 8 0 , \ldots  
+Q ( z ) = - { { \rm   { e } } } ^ { { z + 1 / 2 \,z ^ { 2 } + 1 / 4 \,z ^ { 4 } } } + { { \rm   { e } } } ^ { { z + 1 / 2 \,z ^ { 2 } + 1 / 4 \,z ^ { 4 } + 1 / 8 \,z ^ { 8 } } }
+5 0 4 0 , 4 5 3 6 0 , 4 5 3 6 0 0 , 3 3 2 6 4 0 0 , 3 9 9 1 6 8 0 0 , 3 6 3 2 4 2 8 8 0 , 3 8 7 4 5 9 0 7 2 0 , 3 4 7 6 7 5 3 2 8 0 0 , \ldots  
+Q ( z ) = { { \rm   { e } } } ^ { { z + 1 / 2 \,z ^ { 2 } } } - { { \rm   { e } } } ^ { { z + 1 / 2 \,z ^ { 2 } + 1 / 4 \,z ^ { 4 } } } - { { \rm   { e } } } ^ { { z + 1 / 2 \,z ^ { 2 } + 1 / 3 \,{ z } ^ { { 3 } } + 1 / 6 \,z ^ { 6 } } } + { { \rm   { e } } } ^ { { z + 1 / 2 \,z ^ { 2 } + 1 / 3 \,z ^ { 3 } + 1 / 4 \,z ^ { 4 } + 1 / 6 \,z ^ { 6 } + 1 / 1 2 \,z ^ { { 1 2 } } } }
+4 2 0 , 3 3 6 0 , 3 0 2 4 0 , 4 0 3 2 0 0 , 4 0 1 9 4 0 0 , 8 0 1 6 6 2 4 0 , 9 6 5 2 8 4 3 2 0 , 1 2 1 7 3 4 4 1 2 8 0 , 1 6 2 8 5 0 2 8 7 6 0 0 , \ldots  
+{ \displaystyle   \exp   \left ( - z + \sum   _ { k \geq   1 } { \frac   { z ^ { k } } { k } } \right ) = { \frac   { e ^ { - z } } { 1 - z } } . }
+1 / ( 1 - z )
+D ( n )
+D ( n ) = n ! \sum   _ { { k = 0 } } ^ { n } { \frac     { ( - 1 ) ^ { k } } { k ! } } \;\approx   \;{ \frac     { n ! } { e } } .
+n ! / e
+1 / e .
+A _ p
+{ \begin { m a t r i x } 1 \leq   p \leq   n \end { m a t r i x } }
+\left | \bigcup   _ { p } A _ { p } \right | = \sum   _ { p } \left | A _ { p } \right | \;-\;\sum   _ { { p < q } } \left | A _ { p } \cap   A _ { q } \right | \;+\;\sum   _ { { p < q < r } } \left | A _ { p } \cap   A _ { q } \cap   A _ { r } \right | \;-\;\cdots   \;\pm   \;\left | A _ { p } \cap   \;\cdots   \;\cap   A _ { s } \right | .
+\left | A _ { p } \right | = ( n - 1 ) ! \;,\;\;\left | A _ { p } \cap   A _ { q } \right | = ( n - 2 ) ! \;,\;\;\left | A _ { p } \cap   A _ { q } \cap   A _ { r } \right | = ( n - 3 ) ! \;,\;\ldots  
+n ! \;\;-\;\;{ n   \choose   1 } ( n - 1 ) ! \;\;+\;\;{ n   \choose   2 } ( n - 2 ) ! \;\;-\;\;{ n   \choose   3 } ( n - 3 ) ! \;\;+\;\;\cdots   \;\;\pm   \;\;{ n   \choose   n } ( n - n ) !
+{ \displaystyle   n ! \left ( 1 - { \frac   { 1 } { 1 ! } } + { \frac   { 1 } { 2 ! } } - { \frac   { 1 } { 3 ! } } + \cdots   \pm   { \frac   { 1 } { n ! } } \right ) = n ! \sum   _ { k = 0 } ^ { n } { \frac   { ( - 1 ) ^ { k } } { k ! } } }
+D ( n , m )
+[ n ]
+k = 1
+g ( z , u )
+{ \displaystyle   g ( z , u ) = \exp   \left ( - z + u z + \sum   _ { k \geq   1 } { \frac   { z ^ { k } } { k } } \right ) = { \frac   { e ^ { - z } } { 1 - z } } e ^ { u z } . }
+{ \displaystyle   [ u ^ { m } ] g ( z , u ) = { \frac   { e ^ { - z } } { 1 - z } } { \frac   { z ^ { m } } { m ! } } }
+{ \displaystyle   D ( n , m ) = n ! [ z ^ { n } ] [ u ^ { m } ] g ( z , u ) = { \frac   { n ! } { m ! } } [ z ^ { n - m } ] { \frac   { e ^ { - z } } { 1 - z } } = { \frac   { n ! } { m ! } } \sum   _ { k = 0 } ^ { n - m } { \frac   { ( - 1 ) ^ { k } } { k ! } } . }
+{ \displaystyle   D ( n , m ) = { n   \choose   m } D ( n - m , 0 ) \;\;{ \text {   a n d   } } \;\;{ \frac   { D ( n , m ) } { n ! } } \approx   { \frac   { e ^ { - 1 } } { m ! } } }
+D _ { 0 } ( n )
+D _ { 1 } ( n )
+g ( z , u ) = \exp   \left ( - u z + u \log   { \frac     { 1 } { 1 - z } } \right ) = \exp ( - u z ) \left ( { \frac     { 1 } { 1 - z } } \right ) ^ { u } .
+q ( z )
+D _ { 0 } ( n )
+q ( z ) = { \frac     { 1 } { 2 } } \times   g ( z , - 1 ) + { \frac     { 1 } { 2 } } \times   g ( z , 1 ) = { \frac     { 1 } { 2 } } \exp ( - z ) { \frac     { 1 } { 1 - z } } + { \frac     { 1 } { 2 } } \exp ( z ) ( 1 - z ) .
+D _ { 0 } ( n ) = n ! [ z ^ { n } ] q ( z ) = { \frac     { 1 } { 2 } } n ! \sum   _ { { k = 0 } } ^ { n } { \frac     { ( - 1 ) ^ { k } } { k ! } } + { \frac     { 1 } { 2 } } n ! { \frac     { 1 } { n ! } } - { \frac     { 1 } { 2 } } n ! { \frac     { 1 } { ( n - 1 ) ! } }
+{ \frac     { 1 } { 2 } } n ! \sum   _ { { k = 0 } } ^ { n } { \frac     { ( - 1 ) ^ { k } } { k ! } } + { \frac     { 1 } { 2 } } ( 1 - n ) \sim   { \frac     { 1 } { 2 e } } n ! + { \frac     { 1 } { 2 } } ( 1 - n ) .
+D _ { 0 } ( n )
+D ( n )
+D _ { 1 } ( n ) = { \frac     { 1 } { 2 } } n ! \sum   _ { { k = 0 } } ^ { n } { \frac     { ( - 1 ) ^ { k } } { k ! } } - { \frac     { 1 } { 2 } } ( 1 - n ) .
+D _ { 0 } ( n )
+D _ { 1 } ( n )
+n - 1 .
+\left ( { \frac     { { 9 9   \choose   4 9 } } { { 1 0 0   \choose   5 0 } } } \right ) ^ { { 1 0 0 } } = { \frac     { 1 } { 2 ^ { { 1 0 0 } } } } ,
+2 n
+n
+n
+g ( z , u ) = \exp   \left ( z + { \frac     { z ^ { 2 } } { 2 } } + { \frac     { z ^ { 3 } } { 3 } } + \cdots   + u { \frac     { z ^ { { n + 1 } } } { n + 1 } } + u { \frac     { z ^ { { n + 2 } } } { n + 2 } } + \cdots   \right )
+{ \frac     { 1 } { 1 - z } } \exp   \left ( ( u - 1 ) \left ( { \frac     { z ^ { { n + 1 } } } { n + 1 } } + { \frac     { z ^ { { n + 2 } } } { n + 2 } } + \cdots   \right ) \right ) ,
+{ \displaystyle   [ z ^ { 2 n } ] [ u ] g ( z , u ) , }
+n
+2 ( n + 1 ) > 2 n
+[ z ^ { { 2 n } } ] [ u ] g ( z , u ) = [ z ^ { { 2 n } } ] [ u ] { \frac     { 1 } { 1 - z } } \left ( 1 + ( u - 1 ) \left ( { \frac     { z ^ { { n + 1 } } } { n + 1 } } + { \frac     { z ^ { { n + 2 } } } { n + 2 } } + \cdots   \right ) \right ) ,
+[ z ^ { { 2 n } } ] [ u ] g ( z , u ) = [ z ^ { { 2 n } } ] { \frac     { 1 } { 1 - z } } \left ( { \frac     { z ^ { { n + 1 } } } { n + 1 } } + { \frac     { z ^ { { n + 2 } } } { n + 2 } } + \cdots   \right ) = \sum   _ { { k = n + 1 } } ^ { { 2 n } } { \frac     { 1 } { k } } = H _ { { 2 n } } - H _ { n } .
+H _ { { 2 n } } - H _ { n } \sim   \log   2 - { \frac     { 1 } { 4 n } } + { \frac     { 1 } { 1 6 n ^ { 2 } } } - { \frac     { 1 } { 1 2 8 n ^ { 4 } } } + { \frac     { 1 } { 2 5 6 n ^ { 6 } } } - { \frac     { 1 7 } { 4 0 9 6 n ^ { 8 } } } + \cdots   ,
+[ z ^ { { 2 n } } ] [ u ] g ( z , u ) < \log   2 \quad   { \mbox { a n d } } \quad   1 - [ z ^ { { 2 n } } ] [ u ] g ( z , u ) > 1 - \log   2 = 0 . 3 0 6 8 5 2 8 1 ,
+2 n
+n
+p _ { k } = \Pr [ { \mbox { t h e r e   i s   a   c y c l e   o f   l e n g t h   } } k ] ,
+\Pr [ { \mbox { t h e r e   i s   a   c y c l e   o f   l e n g t h } } > n ] = \sum   _ { { k = n + 1 } } ^ { { 2 n } } p _ { k } .
+k > n
+k
+{ { 2 n }   \choose   k } \cdot   { \frac     { k ! } { k } } \cdot   ( 2 n - k ) ! .
+{ { 2 n }   \choose   k }
+k
+{ \frac     { k ! } { k } }
+k
+( 2 n - k ) !
+p _ { k } = { \frac     { { { 2 n }   \choose   k } \cdot   { \frac     { k ! } { k } } \cdot   ( 2 n - k ) ! } { ( 2 n ) ! } } = { \frac     1 k } .
+\Pr [ { \mbox { t h e r e   i s   a   c y c l e   o f   l e n g t h } } > n ] = \sum   _ { { k = n + 1 } } ^ { { 2 n } } { \frac     1 k } = H _ { { 2 n } } - H _ { n } .
+{ \mathcal   { Q } }
+{ \displaystyle   { \mathcal   { Q } } = \operatorname   { S E T }   \left ( \sum   _ { q \geq   1 } \operatorname   { C Y C }   _ { = q } ( { \mathcal   { Z } } ) \times   \sum   _ { p = 1 } ^ { q } { q   \choose   p } { \mathcal   { U } } ^ { p } \right ) . }
+G ( z , u ) = \exp   \left ( \sum   _ { { q \geq   1 } } { \frac     { z ^ { q } } { q } } \sum   _ { { p = 1 } } ^ { q } { q   \choose   p } u ^ { p } \right ) .
+\exp   \left ( \sum   _ { { q \geq   1 } } { \frac     { z ^ { q } } { q } } ( u + 1 ) ^ { q } - \sum   _ { { q \geq   1 } } { \frac     { z ^ { q } } { q } } \right )
+\exp   \left ( \log   { \frac     { 1 } { 1 - ( u + 1 ) z } } - \log   { \frac     { 1 } { 1 - z } } \right ) = { \frac     { 1 - z } { 1 - ( u + 1 ) z } } .
+( 1 - z ) \sum   _ { { q \geq   0 } } ( u + 1 ) ^ { q } z ^ { q } .
+[ z ^ { n } ] G ( z , u ) = ( u + 1 ) ^ { n } - ( u + 1 ) ^ { { n - 1 } }
+[ u ^ { k } ] [ z ^ { n } ] G ( z , u ) = { n   \choose   k } - { n - 1   \choose   k } .
+{ n   \choose   k }
+1 - { \frac     { ( n - 1 ) ! } { k ! ( n - 1 - k ) ! } } { \frac     { k ! ( n - k ) ! } { n ! } } = 1 - { \frac     { n - k } { n } } = { \frac     { k } { n } } .
+G ( z , u )
+G = S _ { m }
+{ \displaystyle   \operatorname   { S E T }   _ { = m } ( \operatorname   { C Y C }   ( { \mathcal   { Z } } ) ) }
+g _ { m } ( z ) = { \frac     { 1 } { | S _ { m } | } } \left ( \log   { \frac     { 1 } { 1 - z } } \right ) ^ { m } = { \frac     { 1 } { m ! } } \left ( \log   { \frac     { 1 } { 1 - z } } \right ) ^ { m } .
+( - 1 ) ^ { { n + m } } n ! \;[z ^ { n } ] g _ { m } ( z ) = s ( n , m )
+g _ { m } ( z )
+n ! [ z ^ { n } ] g _ { m } ( z ) = \left [ { \begin { m a t r i x } n \\m \end { m a t r i x } } \right ] .
+s _ { n } ( w ) = \sum   _ { { m = 0 } } ^ { n } s ( n , m ) w ^ { m } .
+g _ { m } ( z ) = \sum   _ { { n \geq   m } } { \frac     { ( - 1 ) ^ { { n + m } } } { n ! } } s ( n , m ) z ^ { n }
+( - 1 ) ^ { m } g _ { m } ( z ) w ^ { m } = \sum   _ { { n \geq   m } } { \frac     { ( - 1 ) ^ { n } } { n ! } } s ( n , m ) w ^ { m } z ^ { n } .
+\sum   _ { { m \geq   0 } } ( - 1 ) ^ { m } g _ { m } ( z ) w ^ { m } = \sum   _ { { m \geq   0 } } \sum   _ { { n \geq   m } } { \frac     { ( - 1 ) ^ { n } } { n ! } } s ( n , m ) w ^ { m } z ^ { n } = \sum   _ { { n \geq   0 } } { \frac     { ( - 1 ) ^ { n } } { n ! } } z ^ { n } \sum   _ { { m = 0 } } ^ { n } s ( n , m ) w ^ { m } .
+g _ { m } ( z )
+s _ { n } ( w )
+( 1 - z ) ^ { w } = \sum   _ { { n \geq   0 } } { w   \choose   n } ( - 1 ) ^ { n } z ^ { n } = \sum   _ { { n \geq   0 } } { \frac     { ( - 1 ) ^ { n } } { n ! } } s _ { n } ( w ) z ^ { n } .
+z ^ n
+s _ { n } ( w ) = w \;( w - 1 ) \;( w - 2 ) \;\cdots   \;( w - ( n - 1 ) ) = ( w ) _ { n } ,
+{ \frac     { \partial   } { \partial   u } } g ( z , u ) { \Bigg   | } _ { { u = 1 } } = { \frac     { 1 } { 1 - z } } \sum   _ { { k \geq   1 } } b ( k ) { \frac     { z ^ { k } } { k } } = { \frac     { 1 } { 1 - z } } { \frac     { z ^ { m } } { m } }
+{ \frac     { 1 } { m } } z ^ { m } \;+\;{ \frac     { 1 } { m } } z ^ { { m + 1 } } \;+\;{ \frac     { 1 } { m } } z ^ { { m + 2 } } \;+\;\cdots  
+{ \frac     { 1 } { 1 - z } } \sum   _ { { k = 1 } } ^ { m } { \frac     { z ^ { k } } { k } } { \mbox {   a n d   } } [ z ^ { n } ] { \frac     { 1 } { 1 - z } } \sum   _ { { k = 1 } } ^ { m } { \frac     { z ^ { k } } { k } } = H _ { m } { \mbox {   f o r   } } n \geq   m
+g ( z , u )
+g ( z , u ) = \exp   \left ( - z + u z + \log   { \frac     { 1 } { 1 - z } } \right ) = { \frac     { 1 } { 1 - z } } \exp ( - z + u z ) .
+E ( X ^ { m } ) = E \left ( \sum   _ { { k = 0 } } ^ { m } \left \{ { \begin { m a t r i x } m \\k \end { m a t r i x } } \right \}( X ) _ { k } \right ) = \sum   _ { { k = 0 } } ^ { m } \left \{ { \begin { m a t r i x } m \\k \end { m a t r i x } } \right \}E ( ( X ) _ { k } ) ,
+( X ) _ { k }
+g ( z , u )
+E ( ( X ) _ { k } ) = [ z ^ { n } ] \left ( { \frac     { d } { d u } } \right ) ^ { k } g ( z , u ) { \Bigg   | } _ { { u = 1 } } = [ z ^ { n } ] { \frac     { z ^ { k } } { 1 - z } } \exp ( - z + u z ) { \Bigg   | } _ { { u = 1 } } = [ z ^ { n } ] { \frac     { z ^ { k } } { 1 - z } } ,
+k > n
+k < = n
+E ( X ^ { m } ) = \sum   _ { { k = 0 } } ^ { n } \left \{ { \begin { m a t r i x } m \\k \end { m a t r i x } } \right \ } .
+\sigma  
+k
+k
+E [ F _ { k } ]
+d
+k
+d
+d
+k .
+u ^ { d } .
+E [ F _ { 6 } ] .
+g ( z , u ) = \exp   \left ( u z - z + u ^ { 2 } { \frac     { z ^ { 2 } } { 2 } } - { \frac     { z ^ { 2 } } { 2 } } + u ^ { 3 } { \frac     { z ^ { 3 } } { 3 } } - { \frac     { z ^ { 3 } } { 3 } } + u ^ { 6 } { \frac     { z ^ { 6 } } { 6 } } - { \frac     { z ^ { 6 } } { 6 } } + \log   { \frac     { 1 } { 1 - z } } \right )
+{ \frac     { 1 } { 1 - z } } \exp   \left ( u z - z + u ^ { 2 } { \frac     { z ^ { 2 } } { 2 } } - { \frac     { z ^ { 2 } } { 2 } } + u ^ { 3 } { \frac     { z ^ { 3 } } { 3 } } - { \frac     { z ^ { 3 } } { 3 } } + u ^ { 6 } { \frac     { z ^ { 6 } } { 6 } } - { \frac     { z ^ { 6 } } { 6 } } \right ) .
+\left . { \frac     { \partial   } { \partial   u } } g ( z , u ) \right | _ { { u = 1 } } = \left . { \frac     { z + z ^ { 2 } + z ^ { 3 } + z ^ { 6 } } { 1 - z } } \exp   \left ( u z - z + u ^ { 2 } { \frac     { z ^ { 2 } } { 2 } } - { \frac     { z ^ { 2 } } { 2 } } + u ^ { 3 } { \frac     { z ^ { 3 } } { 3 } } - { \frac     { z ^ { 3 } } { 3 } } + u ^ { 6 } { \frac     { z ^ { 6 } } { 6 } } - { \frac     { z ^ { 6 } } { 6 } } \right ) \right | _ { { u = 1 } }
+{ \frac     { z + z ^ { 2 } + z ^ { 3 } + z ^ { 6 } } { 1 - z } } .
+E [ F _ { 6 } ] = 4
+n \geq   6
+g ( z , u ) = \exp   \left ( \sum   _ { { d \mid   k } } \left ( u ^ { d } { \frac     { z ^ { d } } { d } } - { \frac     { z ^ { d } } { d } } \right ) + \log   { \frac     { 1 } { 1 - z } } \right ) = { \frac     { 1 } { 1 - z } } \exp   \left ( \sum   _ { { d \mid   k } } \left ( u ^ { d } { \frac     { z ^ { d } } { d } } - { \frac     { z ^ { d } } { d } } \right ) \right ) .
+\left . { \frac     { \partial   } { \partial   u } } g ( z , u ) \right | _ { { u = 1 } } = \left . { \frac     { \sum   _ { { d \mid   k } } z ^ { d } } { 1 - z } } \exp   \left ( \sum   _ { { d \mid   k } } \left ( u ^ { d } { \frac     { z ^ { d } } { d } } - { \frac     { z ^ { d } } { d } } \right ) \right ) \right | _ { { u = 1 } } = { \frac     { \sum   _ { { d \mid   k } } z ^ { d } } { 1 - z } } .
+E [ F _ { k } ]
+\tau   ( k )
+k
+n \geq   k .
+1
+n = 1
+n
+k
+k
+g ( z , u )
+b ( k )
+b ( k )
+g ( z , u )
+g ( z , u ) = \left ( { \frac     { 1 } { 1 - z } } \right ) ^ { u }
+{ \frac     { \partial   } { \partial   u } } g ( z , u ) { \Bigg   | } _ { { u = 1 } } = { \frac     { 1 } { 1 - z } } \sum   _ { { k \geq   1 } } b ( k ) { \frac     { z ^ { k } } { k } } = { \frac     { 1 } { 1 - z } } \sum   _ { { k \geq   1 } } { \frac     { z ^ { k } } { k } } = { \frac     { 1 } { 1 - z } } \log   { \frac     { 1 } { 1 - z } } .
+H _ { n }
+\log   n
+g ( z , u )
+{ \mathcal   { P } }
+n / 2
+u
+g ( z , u ) = \exp   \left ( u \sum   _ { { k > \lfloor   { \frac     { n } { 2 } } \rfloor   } } ^ { \infty   } { \frac     { z ^ { k } } { k } } + \sum   _ { { k = 1 } } ^ { { \lfloor   { \frac     { n } { 2 } } \rfloor   } } { \frac     { z ^ { k } } { k } } \right ) .
+{ \frac   { n } { 2 } }
+n ! [ u z ^ { n } ] g ( z , u ) = n ! [ z ^ { n } ] \exp   \left ( \sum   _ { { k = 1 } } ^ { { \lfloor   { \frac     { n } { 2 } } \rfloor   } } { \frac     { z ^ { k } } { k } } \right ) \sum   _ { { k > \lfloor   { \frac     { n } { 2 } } \rfloor   } } ^ { \infty   } { \frac     { z ^ { k } } { k } }
+n ! [ z ^ { n } ] \exp   \left ( \log   { \frac     { 1 } { 1 - z } } - \sum   _ { { k > \lfloor   { \frac     { n } { 2 } } \rfloor   } } ^ { \infty   } { \frac     { z ^ { k } } { k } } \right ) \sum   _ { { k > \lfloor   { \frac     { n } { 2 } } \rfloor   } } ^ { \infty   } { \frac     { z ^ { k } } { k } }
+n ! [ z ^ { n } ] { \frac     { 1 } { 1 - z } } \exp   \left ( - \sum   _ { { k > \lfloor   { \frac     { n } { 2 } } \rfloor   } } ^ { \infty   } { \frac     { z ^ { k } } { k } } \right ) \sum   _ { { k > \lfloor   { \frac     { n } { 2 } } \rfloor   } } ^ { \infty   } { \frac     { z ^ { k } } { k } } = n ! [ z ^ { n } ] { \frac     { 1 } { 1 - z } } \sum   _ { { m = 0 } } ^ { \infty   } { \frac     { ( - 1 ) ^ { m } } { m ! } } \left ( \sum   _ { { k > \lfloor   { \frac     { n } { 2 } } \rfloor   } } ^ { \infty   } { \frac     { z ^ { k } } { k } } \right ) ^ { { m + 1 } }
+z
+m + 1
+\lfloor   { \frac     { n } { 2 } } \rfloor  
+m > 0
+[ z ^ { n } ] .
+n ! [ z ^ { n } ] { \frac     { 1 } { 1 - z } } \sum   _ { { k > \lfloor   { \frac     { n } { 2 } } \rfloor   } } ^ { \infty   } { \frac     { z ^ { k } } { k } } = n ! \sum   _ { { k = \lfloor   { \frac     { n } { 2 } } \rfloor   + 1 } } ^ { n } { \frac     { 1 } { k } } .
+\sum   _ { { k = 1 } } ^ { n } { \frac     { 1 } { k } } - \sum   _ { { k = 1 } } ^ { { \lfloor   { \frac     { n } { 2 } } \rfloor   } } { \frac     { 1 } { k } } = \sum   _ { { k = 1 } } ^ { n } { \frac     { 1 } { k } } - 2 \sum   _ { { k = 1 } } ^ { { \lfloor   { \frac     { n } { 2 } } \rfloor   } } { \frac     { 1 } { 2 k } } = \sum   _ { { k = 1   \atop   k \;{ \text { e v e n } } } } ^ { n } ( 1 - 2 ) { \frac     { 1 } { k } } + \sum   _ { { k = 1   \atop   k \;{ \text { o d d } } } } ^ { n } { \frac     { 1 } { k } }
+n ! \sum   _ { { k = 1 } } ^ { n } { \frac     { ( - 1 ) ^ { { k + 1 } } } { k } } \sim   n ! \log   2 .
+{ \displaystyle   ( 1 \;2 \;34 ) }
+( 1 \;2 ) \;( 2 \;3 ) \;( 3 \;4 )
+b ( k )
+k - 1
+g ( z , u ) = \left ( { \frac     { 1 } { 1 - u z } } \right ) ^ { { 1 / u } }
+{ \frac     { \partial   } { \partial   u } } g ( z , u ) { \Bigg   | } _ { { u = 1 } } = { \frac     { 1 } { 1 - z } } \sum   _ { { k \geq   1 } } ( k - 1 ) { \frac     { z ^ { k } } { k } } = { \frac     { z } { ( 1 - z ) ^ { 2 } } } - { \frac     { 1 } { 1 - z } } \log   { \frac     { 1 } { 1 - z } } .
+T ( n )
+{ \displaystyle   T ( n ) = n - H _ { n } . }
+\log   n
+g ( z , u )
+( - 1 ) ^ { m } n ! \;[z ^ { n } ] [ u ^ { m } ] g ( z , u ) = \left [ { \begin { m a t r i x } n \\n - m \end { m a t r i x } } \right ]
+( - 1 ) ^ { { n + m } } n ! \;[z ^ { n } ] [ u ^ { m } ] g ( z , u ) | _ { { u = 1 / u } } | _ { { z = u z } } = \left [ { \begin { m a t r i x } n \\m \end { m a t r i x } } \right ]
+[ u ^ { m } ] g ( z , u ) | _ { { u = 1 / u } } | _ { { z = u z } } = [ u ^ { m } ] \left ( { \frac     { 1 } { 1 - z } } \right ) ^ { u } = { \frac     { 1 } { m ! } } \left ( \log   { \frac     { 1 } { 1 - z } } \right ) ^ { m } ,
+\sigma  
+b ( k )
+k ^ 2
+{ \frac     { \partial   } { \partial   u } } g ( z , u ) { \Bigg   | } _ { { u = 1 } } = { \frac     { 1 } { 1 - z } } \sum   _ { { k \geq   1 } } k ^ { 2 } { \frac     { z ^ { k } } { k } } = { \frac     { 1 } { 1 - z } } { \frac     { z } { ( 1 - z ) ^ { 2 } } } = { \frac     { z } { ( 1 - z ) ^ { 3 } } } .
+{ \frac     { 1 } { n } } [ z ^ { n } ] { \frac     { z } { ( 1 - z ) ^ { 3 } } } = { \frac     { 1 } { n } } { \frac     { 1 } { 2 } } n ( n + 1 ) = { \frac     { 1 } { 2 } } ( n + 1 ) .
+[ n ]
+b ( k )
+m
+m = k
+{ \frac     { \partial   } { \partial   u } } g ( z , u ) { \Bigg   | } _ { { u = 1 } } = { \frac     { 1 } { 1 - z } } \sum   _ { { k \geq   1 } } b ( k ) { \frac     { z ^ { k } } { k } } = { \frac     { 1 } { 1 - z } } \;m \;{ \frac     { z ^ { m } } { m } } = { \frac     { z ^ { m } } { 1 - z } } .
+{ \frac     { 1 } { n } } [ z ^ { n } ] { \frac     { z ^ { m } } { 1 - z } } = { \begin { c a s e s } { \frac     { 1 } { n } } , & { \mbox { i f   } } n \geq   m \\0 , & { \mbox { o t h e r w i s e . } } \end { c a s e s } }
+{ \begin { m a t r i x } { k   \choose   m } \end { m a t r i x } }
+{ \begin { m a t r i x } { k   \choose   m } \end { m a t r i x } }
+{ \begin { m a t r i x } { k   \choose   m } = 0 \end { m a t r i x } }
+{ \frac     { \partial   } { \partial   u } } g ( z , u ) { \Bigg   | } _ { { u = 1 } } = { \frac     { 1 } { 1 - z } } \sum   _ { { k \geq   m } } { k   \choose   m } { \frac     { z ^ { k } } { k } } = { \frac     { 1 } { 1 - z } } { \frac     { 1 } { m } } { \frac     { z ^ { m } } { ( 1 - z ) ^ { m } } } = { \frac     { 1 } { m } } { \frac     { z ^ { m } } { ( 1 - z ) ^ { { m + 1 } } } } .
+{ n   \choose   m } ^ { { - 1 } } [ z ^ { n } ] { \frac     { 1 } { m } } { \frac     { z ^ { m } } { ( 1 - z ) ^ { { m + 1 } } } } = { n   \choose   m } ^ { { - 1 } } { \frac     { 1 } { m } } [ z ^ { { n - m } } ] { \frac     { 1 } { ( 1 - z ) ^ { { m + 1 } } } }
+{ \frac     { 1 } { m } } { n   \choose   m } ^ { { - 1 } } { ( n - m ) \;+\;m   \choose   m } = { \frac     { 1 } { m } } .
+{ \displaystyle   \operatorname   { S E T }   ( \operatorname   { C Y C }   _ { \operatorname   { o d d }   } ( { \mathcal   { Z } } ) ) \operatorname   { S E T }   _ { \operatorname   { e v e n }   } ( \operatorname   { C Y C }   _ { \operatorname   { e v e n }   } ( { \mathcal   { Z } } ) ) . }
+\exp   \left ( { \frac     { 1 } { 2 } } \log   { \frac     { 1 + z } { 1 - z } } \right ) \cosh   \left ( { \frac     { 1 } { 2 } } \log   { \frac     { 1 } { 1 - z ^ { 2 } } } \right )
+{ \frac     { 1 } { 2 } } \exp   \left ( { \frac     { 1 } { 2 } } \left ( \log   { \frac     { 1 + z } { 1 - z } } + \log   { \frac     { 1 } { 1 - z ^ { 2 } } } \right ) \right ) + { \frac     { 1 } { 2 } } \exp   \left ( { \frac     { 1 } { 2 } } \left ( \log   { \frac     { 1 + z } { 1 - z } } - \log   { \frac     { 1 } { 1 - z ^ { 2 } } } \right ) \right ) .
+{ \frac     { 1 } { 2 } } \exp   \left ( { \frac     { 1 } { 2 } } \log   { \frac     { 1 } { ( 1 - z ) ^ { 2 } } } \right ) + { \frac     { 1 } { 2 } } \exp   \left ( { \frac     { 1 } { 2 } } \log ( 1 + z ) ^ { 2 } \right )
+{ \frac     { 1 } { 2 } } { \frac     { 1 } { 1 - z } } + { \frac     { 1 } { 2 } } ( 1 + z ) = 1 + z + { \frac     { 1 } { 2 } } { \frac     { z ^ { 2 } } { 1 - z } } .
+n \geq   2
+n ! / 2
+( 1 \;8 \;9 \;11 \;13 )
+( 1 \;9 \;13 \;8 \;11 )
+( 5 \;13 \;6 \;9 )
+( 5 \;6 ) \;( 9 \;13 )
+{ \displaystyle   \operatorname   { S E T }   ( \operatorname   { C Y C }   _ { \operatorname   { o d d }   } ( { \mathcal   { Z } } ) ) \operatorname   { S E T }   _ { \operatorname   { e v e n }   } ( \operatorname   { C Y C }   _ { = 2 } ( { \mathcal   { Z } } ) ) \operatorname   { S E T }   _ { \operatorname   { e v e n }   } ( \operatorname   { C Y C }   _ { = 4 } ( { \mathcal   { Z } } ) ) \operatorname   { S E T }   _ { \operatorname   { e v e n }   } ( \operatorname   { C Y C }   _ { = 6 } ( { \mathcal   { Z } } ) ) \cdots   }
+\exp   \left ( { \frac     { 1 } { 2 } } \log   { \frac     { 1 + z } { 1 - z } } \right ) \prod   _ { { m \geq   1 } } \cosh   { \frac     { z ^ { { 2 m } } } { 2 m } } = { \sqrt     { { \frac     { 1 + z } { 1 - z } } } } \prod   _ { { m \geq   1 } } \cosh   { \frac     { z ^ { { 2 m } } } { 2 m } } .
+{ \displaystyle   \operatorname   { S E T }   ( \operatorname   { C Y C }   _ { \operatorname   { o d d }   } ( { \mathcal   { Z } } ) ) \left ( \operatorname   { S E T }   _ { = 3 } ( \operatorname   { C Y C }   _ { = 2 } ( { \mathcal   { Z } } ) ) + \operatorname   { C Y C }   _ { = 2 } ( { \mathcal   { Z } } ) \operatorname   { C Y C }   _ { = 4 } ( { \mathcal   { Z } } ) + \operatorname   { C Y C }   _ { = 6 } ( { \mathcal   { Z } } ) \right ) }
+{ \sqrt     { { \frac     { 1 + z } { 1 - z } } } } \left ( { \frac     { 1 } { 6 } } \left ( { \frac     { z ^ { 2 } } { 2 } } \right ) ^ { 3 } + { \frac     { z ^ { 2 } } { 2 } } { \frac     { z ^ { 4 } } { 4 } } + { \frac     { z ^ { 6 } } { 6 } } \right ) = { \frac     { 5 } { 1 6 } } z ^ { 6 } { \sqrt     { { \frac     { 1 + z } { 1 - z } } } } .
+0 , 0 , 0 , 0 , 0 , 2 2 5 , 1 5 7 5 , 6 3 0 0 , 5 6 7 0 0 , 4 2 5 2 5 0 , 4 6 7 7 7 5 0 , 4 6 7 7 7 5 0 0 , 6 0 8 1 0 7 5 0 0 , \ldots  
+{ \displaystyle   \operatorname   { S E T }   ( \operatorname   { C Y C }   _ { \operatorname   { o d d }   } ( { \mathcal   { Z } } ) ) \left ( \operatorname   { S E T }   _ { \geq   1 } ( \operatorname   { C Y C }   _ { = 2 } ( { \mathcal   { Z } } ) ) + \operatorname   { S E T }   _ { \geq   1 } ( \operatorname   { C Y C }   _ { = 4 } ( { \mathcal   { Z } } ) ) + \operatorname   { S E T }   _ { \geq   1 } ( \operatorname   { C Y C }   _ { = 6 } ( { \mathcal   { Z } } ) ) + \cdots   \right ) }
+{ \sqrt     { { \frac     { 1 + z } { 1 - z } } } } \left ( \exp   \left ( { \frac     { z ^ { 2 } } { 2 } } \right ) - 1 \,+\,\exp   \left ( { \frac     { z ^ { 4 } } { 4 } } \right ) - 1 \,+\,\exp   \left ( { \frac     { z ^ { 6 } } { 6 } } \right ) - 1 \,+\,\cdots   \right ) .
+0 , 1 , 3 , 1 5 , 7 5 , 4 0 5 , 2 8 3 5 , 2 2 1 5 5 , 1 9 9 3 9 5 , 1 8 2 8 5 7 5 , \ldots  
+{ \displaystyle   \operatorname   { S E T }   ( \operatorname   { C Y C }   _ { \operatorname   { o d d }   } ( { \mathcal   { Z } } ) ) \operatorname   { S E T }   ( \operatorname   { C Y C }   _ { = 2 } ( { \mathcal   { Z } } ) + \operatorname   { C Y C }   _ { = 4 } ( { \mathcal   { Z } } ) ) }
+{ \sqrt     { { \frac     { 1 + z } { 1 - z } } } } \exp   \left ( { \frac     { z ^ { 2 } } { 2 } } + { \frac     { z ^ { 4 } } { 4 } } \right ) .
+1 , 2 , 6 , 2 4 , 1 2 0 , 6 0 0 , 4 2 0 0 , 2 8 5 6 0 , 2 5 7 0 4 0 , 2 2 0 7 5 2 0 , 2 4 2 8 2 7 2 0 , 2 5 8 1 2 8 6 4 0 , \ldots  
+\mathcal { Z }
+g ( z ) = h ( z ) { \sqrt     { { \frac     { 1 + z } { 1 - z } } } } ,
+h ( z )
+{ \frac     { 1 } { 1 + z } } \;g ( z ) = h ( z ) \;{ \frac     { 1 } { { \sqrt     { 1 - z ^ { 2 } } } } }
+{ \frac     { 1 } { 1 + z } } \;g ( z ) = { \frac     { 1 } { 1 - z } } \;g ( - z ) \quad   { \mbox {   o r   } } \quad   ( 1 - z ) \;g ( z ) = ( 1 + z ) \;g ( - z ) .
+{ \displaystyle   g _ { n } = [ z ^ { n } ] g ( z ) }
+{ \frac     { g _ { { 2 m + 1 } } } { ( 2 m + 1 ) ! } } - { \frac     { g _ { { 2 m } } } { ( 2 m ) ! } } = - { \frac     { g _ { { 2 m + 1 } } } { ( 2 m + 1 ) ! } } + { \frac     { g _ { { 2 m } } } { ( 2 m ) ! } } \quad   { \mbox {   o r   } } \quad   2 { \frac     { g _ { { 2 m + 1 } } } { ( 2 m + 1 ) ! } } = 2 { \frac     { g _ { { 2 m } } } { ( 2 m ) ! } }
+g _ { { 2 m + 1 } } = ( 2 m + 1 ) g _ { { 2 m } } \ , .
+\sum   _ { { \pi   \in   S _ { n } } } { \frac     { \sigma   ( \pi   ) } { \nu   ( \pi   ) + 1 } } = ( - 1 ) ^ { { n + 1 } } { \frac     { n } { n + 1 } } ,
+n !
+[ n ]
+\sigma   ( \pi   )
+\pi  
+\sigma   ( \pi   ) = 1
+\pi  
+\sigma   ( \pi   ) = - 1
+\pi  
+\nu   ( \pi   )
+\pi  
+\pi  
+\sigma   ( \pi   ) = \prod   _ { { c \in   \pi   } } ( - 1 ) ^ { { | c | - 1 } } ,
+\pi  
+{ \displaystyle   \operatorname   { S E T }   ( - { \mathcal   { Z } } + { \mathcal   { V } } { \mathcal   { Z } } + \operatorname   { C Y C }   _ { = 1 } ( { \mathcal   { Z } } ) + { \mathcal   { U } } \operatorname   { C Y C }   _ { = 2 } ( { \mathcal   { Z } } ) + { \mathcal   { U } } ^ { 2 } \operatorname   { C Y C }   _ { = 3 } ( { \mathcal   { Z } } ) + { \mathcal   { U } } ^ { 3 } \operatorname   { C Y C }   _ { = 4 } ( { \mathcal   { Z } } ) + \cdots   ) }
+{ \mathcal   { U } }
+{ \mathcal   { V } }
+g ( z , u , v ) = \exp   \left ( - z + v z + \sum   _ { { k \geq   1 } } u ^ { { k - 1 } } { \frac     { z ^ { k } } { k } } \right )
+\exp   \left ( - z + v z + { \frac     { 1 } { u } } \log   { \frac     { 1 } { 1 - u z } } \right ) = \exp ( - z + v z ) \left ( { \frac     { 1 } { 1 - u z } } \right ) ^ { { 1 / u } } .
+n ! [ z ^ { n } ] g ( z , - 1 , v ) = n ! [ z ^ { n } ] \exp ( - z + v z ) ( 1 + z ) = \sum   _ { { \pi   \in   S _ { n } } } \sigma   ( \pi   ) v ^ { { \nu   ( \pi   ) } }
+n ! [ z ^ { n } ] \int   _ { 0 } ^ { 1 } g ( z , - 1 , v ) d v = \sum   _ { { \pi   \in   S _ { n } } } { \frac     { \sigma   ( \pi   ) } { \nu   ( \pi   ) + 1 } } .
+\int   _ { 0 } ^ { 1 } g ( z , - 1 , v ) d v = \exp ( - z ) ( 1 + z ) \left ( { \frac     { 1 } { z } } \exp ( z ) - { \frac     { 1 } { z } } \right )
+\left ( { \frac     { 1 } { z } } + 1 \right ) \left ( 1 - \exp ( - z ) \right ) = { \frac     { 1 } { z } } + 1 - \exp ( - z ) - { \frac     { 1 } { z } } \exp ( - z ) .
+1 / z
+n
+n ! [ z ^ { n } ] \left ( - \exp ( - z ) - { \frac     { 1 } { z } } \exp ( - z ) \right ) = n ! \left ( - ( - 1 ) ^ { n } { \frac     { 1 } { n ! } } - ( - 1 ) ^ { { n + 1 } } { \frac     { 1 } { ( n + 1 ) ! } } \right )
+( - 1 ) ^ { { n + 1 } } \left ( 1 - { \frac     { 1 } { n + 1 } } \right ) = ( - 1 ) ^ { { n + 1 } } { \frac     { n } { n + 1 } } ,
+g ( z , u , v )
+n \times   n
+d ( n ) = \det ( A _ { n } ) = { \begin { v m a t r i x } a & & b & & b & & \cdots   & & b \\b & & a & & b & & \cdots   & & b \\b & & b & & a & & \cdots   & & b \\\vdots   & & \vdots   & & \vdots   & & \ddots   & & \vdots   \\b & & b & & b & & \cdots   & & a \end { v m a t r i x } } .
+a , b \neq   0
+\det ( A ) = \sum   _ { { \pi   \in   S _ { n } } } \sigma   ( \pi   ) \prod   _ { { i = 1 } } ^ { n } A _ { { i , \pi   ( i ) } } .
+\pi  
+{ \displaystyle   a ^ { f } b ^ { n - f } }
+\pi  
+d ( n ) = b ^ { n } n ! [ z ^ { n } ] g \left ( z , - 1 , { \frac     { a } { b } } \right ) = b ^ { n } n ! [ z ^ { n } ] \exp   \left ( { \frac     { a - b } { b } } z \right ) ( 1 + z )
+b ^ { n } \left ( { \frac     { a - b } { b } } \right ) ^ { n } + b ^ { n } n \left ( { \frac     { a - b } { b } } \right ) ^ { { n - 1 } } = ( a - b ) ^ { n } + n b ( a - b ) ^ { { n - 1 } }
+d ( n ) = ( a + ( n - 1 ) b ) ( a - b ) ^ { { n - 1 } } \ , .
+( - 1 ) ^ { n } ( n - 2 ) !
+\sigma   ( \pi   )
+\pi  
+\sigma   ( \pi   ) = \prod   _ { { c \in   \pi   } } ( - 1 ) ^ { { | c | - 1 } }
+\pi  
+{ \mathcal   { Q } }
+{ \displaystyle   { \mathcal   { Q } } = \operatorname   { S E T }   ( { \mathcal   { V } } \operatorname   { C Y C }   _ { 1 } ( { \mathcal   { Z } } ) + { \mathcal   { U } } { \mathcal   { V } } \operatorname   { C Y C }   _ { = 2 } ( { \mathcal   { Z } } ) ) + { \mathcal   { U } } ^ { 2 } { \mathcal   { V } } \operatorname   { C Y C }   _ { = 3 } ( { \mathcal   { Z } } ) + { \mathcal   { U } } ^ { 3 } { \mathcal   { V } } \operatorname   { C Y C }   _ { = 4 } ( { \mathcal   { Z } } ) + { \mathcal   { U } } ^ { 4 } { \mathcal   { V } } \operatorname   { C Y C }   _ { = 5 } ( { \mathcal   { Z } } ) + \cdots   ) }
+{ \mathcal   { U } }
+{ \mathcal   { V } }
+Q ( z , u , v ) = \exp   \left ( v { \frac     { z } { 1 } } + v u { \frac     { z ^ { 2 } } { 2 } } + v u ^ { 2 } { \frac     { z ^ { 3 } } { 3 } } + v u ^ { 3 } { \frac     { z ^ { 4 } } { 4 } } + v u ^ { 4 } { \frac     { z ^ { 5 } } { 5 } } + \cdots   \right ) .
+Q ( z , u , v ) = \exp   \left ( { \frac     { v } { u } } \left ( { \frac     { z u } { 1 } } + { \frac     { z ^ { 2 } u ^ { 2 } } { 2 } } + { \frac     { z ^ { 3 } u ^ { 3 } } { 3 } } + { \frac     { z ^ { 4 } u ^ { 4 } } { 4 } } + { \frac     { z ^ { 5 } u ^ { 5 } } { 5 } } + \cdots   \right ) \right )
+\exp   \left ( { \frac     { v } { u } } \log   { \frac     { 1 } { 1 - u z } } \right ) = \left ( { \frac     { 1 } { 1 - u z } } \right ) ^ { { { \frac     { v } { u } } } } .
+Q _ { 1 } ( z , v )
+Q _ { 2 } ( z , v )
+Q _ { 1 } ( z , v ) = { \frac     { 1 } { 2 } } Q ( z , + 1 , v ) + { \frac     { 1 } { 2 } } Q ( z , - 1 , v ) = { \frac     { 1 } { 2 } } \left ( { \frac     { 1 } { 1 - z } } \right ) ^ { v } + { \frac     { 1 } { 2 } } \left ( { \frac     { 1 } { 1 + z } } \right ) ^ { { - v } }
+Q _ { 2 } ( z , v ) = { \frac     { 1 } { 2 } } Q ( z , + 1 , v ) - { \frac     { 1 } { 2 } } Q ( z , - 1 , v ) = { \frac     { 1 } { 2 } } \left ( { \frac     { 1 } { 1 - z } } \right ) ^ { v } - { \frac     { 1 } { 2 } } \left ( { \frac     { 1 } { 1 + z } } \right ) ^ { { - v } } .
+G ( z , v ) = \left . { \frac     { d } { d v } } ( Q _ { 1 } ( z , v ) - Q _ { 2 } ( z , v ) ) \right | _ { { v = 1 } }
+\left . { \frac     { d } { d v } } \left ( { \frac     { 1 } { 1 + z } } \right ) ^ { { - v } } \right | _ { { v = 1 } } = - \left . \log   { \frac     { 1 } { 1 + z } } \left ( { \frac     { 1 } { 1 + z } } \right ) ^ { { - v } } \right | _ { { v = 1 } } = - ( 1 + z ) \log   { \frac     { 1 } { 1 + z } } .
+- n ! [ z ^ { n } ] ( 1 + z ) \log   { \frac     { 1 } { 1 + z } } = - n ! \left ( { \frac     { ( - 1 ) ^ { n } } { n } } + { \frac     { ( - 1 ) ^ { { n - 1 } } } { n - 1 } } \right )
+- n ! ( - 1 ) ^ { { n - 1 } } \left ( - { \frac     { 1 } { n } } + { \frac     { 1 } { n - 1 } } \right ) = n ! ( - 1 ) ^ { n } { \frac     { n - ( n - 1 ) } { n ( n - 1 ) } }
+n ! ( - 1 ) ^ { n } { \frac     { 1 } { n ( n - 1 ) } } = ( - 1 ) ^ { n } ( n - 2 ) !

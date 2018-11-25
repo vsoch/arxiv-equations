@@ -1,4 +1,0 @@
-{ \displaystyle   G \rightarrow   \infty   }
-{ \displaystyle   V _ { c } ( \beta   ) }
-{ \displaystyle   V ( \beta   ) }
-{ \displaystyle   { \frac   { V _ { c } ( { \hat   { \beta   } } ) } { V ( { \hat   { \beta   } } ) } } = 1 + ( n - 1 ) \rho   }

@@ -1,0 +1,10 @@
+y _ { { i } }
+x _ { i }
+{ \displaystyle   f ( y _ { i } V x _ { i } ) = { \frac   { e ^ { - \mu   _ { i } } \mu   _ { i } ^ { y _ { i } } } { y _ { i } ! } } }
+b _ { { 0 } }
+{ \displaystyle   E [ y _ { t } V x _ { t } ] = m ( x _ { t } , b _ { 0 } ) = \mu   _ { t } }
+{ \displaystyle   x _ { t } \centerdot   }
+b _ { { 0 } }
+{ \displaystyle   l _ { i } ( b ) = \Sigma   [ y _ { i t } \log ( m ( x _ { i t } , b ) ) - m ( x _ { i t } , b ) ] = 0 }
+{ \displaystyle   m = ( x _ { t } , b _ { 0 } ) = e x p ( x _ { t } b _ { 0 } ) }
+{ \displaystyle   x _ { t } b _ { 0 } }

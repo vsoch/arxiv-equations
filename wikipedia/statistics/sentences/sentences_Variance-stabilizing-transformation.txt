@@ -1,0 +1,22 @@
+y = { \sqrt     { x } } \ ,
+{ \displaystyle   \operatorname   { v a r }   ( X ) = h ( \mu   ) , \ , }
+{ \displaystyle   y \propto   \int   ^ { x } { \frac   { 1 } { \sqrt   { h ( \mu   ) } } } \,d \mu   , }
+{ \displaystyle   y = \int   ^ { x } { \frac   { d \mu   } { \sqrt   { s ^ { 2 } \mu   ^ { 2 } } } } = { \frac   { 1 } { s } } \ln ( x ) \propto   \log ( x ) \ , . }
+{ \displaystyle   y = \int   ^ { x } { \frac   { d \mu   } { \sqrt   { \sigma   ^ { 2 } + s ^ { 2 } \mu   ^ { 2 } } } } = { \frac   { 1 } { s } } \operatorname   { a s i n h }   { \frac   { x } { \sigma   / s } } \propto   \operatorname   { a s i n h }   { \frac   { x } { \lambda   } } \ , . }
+X
+E [ X ] = \mu  
+{ \displaystyle   \mathrm   { V a r }   ( X ) = \sigma   ^ { 2 } }
+Y = g ( X )
+g
+Y = g ( x )
+Y = g ( X ) \approx   g ( \mu   ) + g ' ( \mu   ) ( X - \mu   )
+E [ Y ] = g ( \mu   )
+{ \displaystyle   \mathrm   { V a r }   [ Y ] = \sigma   ^ { 2 } g ' ( \mu   ) ^ { 2 } }
+X
+E [ X ] = \mu  
+{ \displaystyle   \mathrm   { V a r }   [ X ] = h ( \mu   ) }
+g
+Y = g ( X )
+{ \displaystyle   \mathrm   { V a r }   [ Y ] \approx   h ( \mu   ) g ' ( \mu   ) ^ { 2 } = \mathrm   { c o n s t a n t }   }
+{ \frac     { d g } { d \mu   } } = { \frac     { C } { { \sqrt     { h ( \mu   ) } } } }
+g ( \mu   ) = \int   { \frac     { C d \mu   } { { \sqrt     { h ( \mu   ) } } } }

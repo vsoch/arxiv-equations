@@ -1,0 +1,68 @@
+{ \textstyle   T }
+{ \textstyle   \theta   }
+{ \textstyle   { X } _ { 1 } , . . . , { X } _ { n } }
+{ \textstyle   T }
+{ \textstyle   { V a r } _ { \theta   } \left [ T \left ( { X } _ { 1 } , . . . , { X } _ { n } \right ) \right ] < \infty   \quad   \forall   \quad   \theta   \in   \Theta   }
+{ \textstyle   { E } _ { \theta   } \left ( T \right ) }
+{ \textstyle   \theta   \quad   \forall   \quad   \theta   \in   \Theta   }
+{ \textstyle   { \frac   { d } { d \theta   } } \int   { T \left ( { X } _ { 1 } , . . . , { X } _ { n } \right ) } \prod   _ { i = 1 } ^ { n } { f \left ( { x } _ { i } | \theta   \right ) } d { x } _ { 1 } . . . d { x } _ { n } = \int   { T \left ( { X } _ { 1 } , . . . , { X } _ { n } \right ) \left [ { \frac   { \partial   } { \partial   \theta   } } \prod   _ { i = 1 } ^ { n } { f \left ( { x } _ { i } | \theta   \right ) } \right ] } d { x } _ { 1 } . . . d { x } _ { n } }
+{ \boldsymbol   { x } }
+{ \displaystyle   \{ z _ { 1 } , \ldots   , z _ { m } \ } }
+{ \displaystyle   \{ x _ { 1 } , \ldots   , x _ { m } \}\in   { \mathfrak   { X } } ^ { m } }
+{ \displaystyle   \rho   ( x _ { 1 } , \ldots   , x _ { m } ) = s }
+{ \displaystyle   { \mathfrak   { X } } ^ { m } }
+\mathfrak   S
+s
+{ \displaystyle   \{ x _ { 1 } , \ldots   , x _ { m } \ } }
+{ \displaystyle   \{ { \breve   { \theta   } } _ { 1 } , \ldots   , { \breve   { \theta   } } _ { N } \ } }
+{ \displaystyle   { \breve   { \theta   } } _ { j } = h ^ { - 1 } ( s , { \breve   { z } } _ { 1 } ^ { j } , \ldots   , { \breve   { z } } _ { m } ^ { j } ) }
+{ \displaystyle   \{ { \breve   { z } } _ { 1 } ^ { j } , \ldots   , { \breve   { z } } _ { m } ^ { j } \ } }
+{ \displaystyle   \{ Z _ { 1 } , \ldots   , Z _ { m } | S = s \ } }
+x _ { i }
+{ \displaystyle   \{ X _ { 1 } , \ldots   , X _ { m } | S = s \ } }
+{ \displaystyle   { \mathfrak   { U } } , { \mathfrak   { X } } }
+{ \displaystyle   { \boldsymbol   { x } } = \{ x _ { 1 } , \ldots   , x _ { m } \ } }
+{ \displaystyle   ( g _ { \theta   } , Z ) }
+\theta  
+{ \displaystyle   { \boldsymbol   { x } } = \{ g _ { \theta   } ( z _ { 1 } ) , \ldots   , g _ { \theta   } ( z _ { m } ) \ } . }
+{ \displaystyle   ( g _ { \theta   } , { \boldsymbol   { z } } ) }
+{ \displaystyle   \{ x _ { 1 } , \ldots   , x _ { m } \ } }
+\mathfrak   S
+{ \displaystyle   s = \rho   ( x _ { 1 } , \ldots   , x _ { m } ) = \rho   ( g _ { \theta   } ( z _ { 1 } ) , \ldots   , g _ { \theta   } ( z _ { m } ) ) = h ( \theta   , z _ { 1 } , \ldots   , z _ { m } ) , \qquad   \qquad   \qquad   ( 1 ) }
+{ \displaystyle   { \boldsymbol   { z } } = \{ z _ { 1 } , \ldots   , z _ { m } \ } }
+\sum   _ { i = 1 } ^ { m } x _ { i }
+{ \displaystyle   g _ { p } ( u ) = 1 }
+{ \displaystyle   u \leq   p }
+{ \displaystyle   g _ { \lambda   } ( u ) = - \log   u / \lambda   }
+{ \displaystyle   s _ { p } = \sum   _ { i = 1 } ^ { m } I _ { [ 0 , p ] } ( u _ { i } ) }
+{ \displaystyle   s _ { \lambda   } = - { \frac   { 1 } { \lambda   } } \sum   _ { i = 1 } ^ { m } \log   u _ { i } . }
+[ 0 , A ]
+{ \displaystyle   \{ c , c / 2 , c / 3 \ } }
+{ \displaystyle   s ' _ { A } = 1 1 / 6 c }
+{ \displaystyle   g _ { a } ( u ) = u a }
+{ \displaystyle   s _ { A } = \sum   _ { i = 1 } ^ { m } u _ { i } a }
+{ \displaystyle   \{ 0 . 8 , 0 . 8 , 0 . 8 \ } }
+{ \displaystyle   { \breve   { a } } = 0 . 7 6 c }
+{ \displaystyle   s _ { A } = \max \{ x _ { 1 } , \ldots   , x _ { m } \ } }
+s _ { 1 } = \sum   _ { { i = 1 } } ^ { m } \log   x _ { i }
+s _ { 2 } = \min   _ { { i = 1 , \ldots   , m } } \{ x _ { i } \ }
+{ \displaystyle   f ( x ; n ) = 1 / n I _ { \{ 1 , 2 , \ldots   , n \}}( x ) }
+{ \displaystyle   s _ { n } = \max   _ { i } x _ { i } }
+{ \displaystyle   f ( x ; p ) = p ^ { x } ( 1 - p ) ^ { 1 - x } I _ { \{ 0 , 1 \}}( x ) }
+{ \displaystyle   s _ { P } = \sum   _ { i = 1 } ^ { m } x _ { i } }
+{ \displaystyle   f ( x ; n , p ) = { \binom   { n } { x } } p ^ { x } ( 1 - p ) ^ { n - x } I _ { 0 , 1 , \ldots   , n } ( x ) }
+{ \displaystyle   s _ { P } = \sum   _ { i = 1 } ^ { m } x _ { i } }
+{ \displaystyle   f ( x ; p ) = p ( 1 - p ) ^ { x } I _ { \{ 0 , 1 , \ldots   \}}( x ) }
+{ \displaystyle   s _ { P } = \sum   _ { i = 1 } ^ { m } x _ { i } }
+{ \displaystyle   f ( x ; \mu   ) = \mathrm   { e }   ^ { - \mu   x } \mu   ^ { x } / x ! I _ { \{ 0 , 1 , \ldots   \}}( x ) }
+{ \displaystyle   s _ { M } = \sum   _ { i = 1 } ^ { m } x _ { i } }
+{ \displaystyle   f ( x ; a , b ) = 1 / ( b - a ) I _ { [ a , b ] } ( x ) }
+{ \displaystyle   s _ { A } = \min   _ { i } x _ { i } ; s _ { B } = \max   _ { i } x _ { i } }
+{ \displaystyle   f ( x ; \lambda   ) = \lambda   \mathrm   { e }   ^ { - \lambda   x } I _ { [ 0 , \infty   ] } ( x ) }
+{ \displaystyle   s _ { \Lambda   } = \sum   _ { i = 1 } ^ { m } x _ { i } }
+{ \displaystyle   f ( x ; a , k ) = { \frac   { a } { k } } \left ( { \frac   { x } { k } } \right ) ^ { - a - 1 } I _ { [ k , \infty   ] } ( x ) }
+{ \displaystyle   s _ { A } = \sum   _ { i = 1 } ^ { m } \log   x _ { i } ; s _ { K } = \min   _ { i } x _ { i } }
+{ \displaystyle   f ( x , \mu   , \sigma   ) = 1 / ( { \sqrt   { 2 \pi   } } \sigma   ) \mathrm   { e }   ^ { - ( x - \mu   ^ { 2 } ) / ( 2 \sigma   ^ { 2 } ) } }
+{ \displaystyle   s _ { M } = \sum   _ { i = 1 } ^ { m } x _ { i } ; s _ { \Sigma   } = { \sqrt   { \sum   _ { i = 1 } ^ { m } ( x _ { i } - { \bar   { x } } ) ^ { 2 } } } }
+{ \displaystyle   f ( x ; r , \lambda   ) = \lambda   / \Gamma   ( r ) ( \lambda   x ) ^ { r - 1 } \mathrm   { e }   ^ { - \lambda   x } I _ { [ 0 , \infty   ] } ( x ) }
+{ \displaystyle   s _ { \Lambda   } = \sum   _ { i = 1 } ^ { m } x _ { i } ; s _ { K } = \prod   _ { i = 1 } ^ { m } x _ { i } }

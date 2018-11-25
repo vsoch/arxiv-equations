@@ -1,0 +1,31 @@
+\ \sigma  
+\ \mu  
+| \mu   |
+\ \sigma  
+\ \mu  
+{ \displaystyle   c _ { \rm   { v } } = { \frac   { \sigma   } { \mu   } } . }
+{ \displaystyle   { ( Q _ { 3 } - Q _ { 1 } ) / 2 } }
+{ \displaystyle   { ( Q _ { 1 } + Q _ { 3 } ) / 2 } }
+s \ ,
+{ \bar   { x } }
+{ \displaystyle   { \widehat   { c _ { \rm   { v } } } } = { \frac   { s } { \bar   { x } } } }
+{ \displaystyle   { \widehat   { c _ { \rm   { v } } } } ^ { * } = { \bigg   ( } 1 + { \frac   { 1 } { 4 n } } { \bigg   ) } { \widehat   { c _ { \rm   { v } } } } }
+{ \displaystyle   { \widehat   { c _ { \rm   { v } } } } _ { \rm   { l n } } = { \sqrt   { \mathrm   { e }   ^ { s _ { \rm   { l n } } ^ { 2 } } - 1 } } }
+{ \displaystyle   { s _ { \rm   { l n } } } \ , }
+s _ b   \ ,
+{ \displaystyle   s _ { \rm   { l n } } = s _ { b } \ln ( b ) \ , }
+{ \displaystyle   { \widehat   { c _ { \rm   { v } } } } _ { \rm   { l n } } \ , }
+{ \displaystyle   \mathrm   { G C V _ { K } }   = { \mathrm   { e }   ^ { s _ { \rm   { l n } } } \!\!-1 } }
+{ \displaystyle   c _ { \rm   { v } } \ , }
+s _ { l n }   \ ,
+{ \displaystyle   c _ { \rm   { v } } \ , }
+{ \displaystyle   \mathrm   { d }   F _ { c _ { \rm   { v } } } = { \frac   { 2 } { \pi   ^ { 1 / 2 } \Gamma   \left ( { \frac   { n - 1 } { 2 } } \right ) } } \;\mathrm   { e }   ^ { - { \frac   { n } { 2 \left ( { \frac   { \sigma   } { \mu   } } \right ) ^ { 2 } } } { \frac   { { c _ { \rm   { v } } } ^ { 2 } } { 1 + { c _ { \rm   { v } } } ^ { 2 } } } } { \frac   { { c _ { \rm   { v } } } ^ { n - 2 } } { ( 1 + { c _ { \rm   { v } } } ^ { 2 } ) ^ { n / 2 } } } \sideset   { } { ^ { \prime   } } \sum   _ { i = 0 } ^ { n - 1 } { \frac   { ( n - 1 ) ! \,\Gamma   \left ( { \frac   { n - i } { 2 } } \right ) } { ( n - 1 - i ) ! \,i ! \,}}{ \frac   { n ^ { i / 2 } } { 2 ^ { i / 2 } \left ( { \frac   { \sigma   } { \mu   } } \right ) ^ { i } } } { \frac   { 1 } { ( 1 + { c _ { \rm   { v } } } ^ { 2 } ) ^ { i / 2 } } } \,\mathrm   { d }   c _ { \rm   { v } } , }
+\sideset { } { ^ \prime } \sum
+{ \mu_k } / { \sigma ^ k }
+\mu   _ { k }
+\sigma ^ 2 / \mu
+\mu / \sigma
+\sigma ^ 2   /   \mu ^ 2
+\mu_k / \sigma ^ k
+\sigma ^ 2 / \mu
+\sigma ^ 2 _ W / \mu_W

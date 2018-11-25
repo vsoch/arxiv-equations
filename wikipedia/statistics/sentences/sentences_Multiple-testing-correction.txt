@@ -1,0 +1,36 @@
+V
+S
+R
+U
+T
+m   -   R
+m _ { 0 }
+m   -   m _ 0
+m
+m
+m _ { 0 }
+m   -   m _ 0
+V
+S
+T
+U
+{ \displaystyle   R = V + S }
+m
+m _ { 0 }
+R
+S
+T
+U
+V
+{ \displaystyle   { \bar   { \alpha   } } = 1 - \left ( 1 - \alpha   _ { \{ { \text { p e r   c o m p a r i s o n } } \}}\right ) ^ { m } . }
+{ \bar     { \alpha   } }
+{ \displaystyle   { \bar   { \alpha   } } \leq   m \cdot   \alpha   _ { \{ { \text { p e r   c o m p a r i s o n } } \ } } , }
+{ \displaystyle   0 . 2 6 4 9 = 1 - ( 1 - . 0 5 ) ^ { 6 } \leq   . 0 5 \times   6 = 0 . 3 }
+{ \bar     { \alpha   } }
+{ \displaystyle   \alpha   _ { \mathrm   { \{ p e r \ comparison \}} }={ \alpha   } / m }
+m
+\alpha   _ { { \mathrm     { \{ p e r \ comparison \ } } } }
+{ \displaystyle   \alpha   _ { \{ { \text { p e r   c o m p a r i s o n } } \}}=1 - { ( 1 - { \alpha   } ) } ^ { 1 / m } }
+i = 1
+i > 1
+{ \displaystyle   \alpha   _ { \mathrm   { \{ p e r \ comparison \}} }={ \alpha   } / ( m - i + 1 ) }

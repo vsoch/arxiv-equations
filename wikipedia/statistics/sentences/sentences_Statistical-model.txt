@@ -1,0 +1,36 @@
+S , { \mathcal     { P } }
+S
+{ \mathcal   { P } }
+S
+{ \mathcal   { P } }
+{ \mathcal   { P } }
+{ \mathcal   { P } }
+{ \mathcal     { P } } = \{ P _ { { \theta   } } : \theta   \in   \Theta   \ }
+\Theta  
+P _ { { \theta   _ { 1 } } } = P _ { { \theta   _ { 2 } } } \Rightarrow   \theta   _ { 1 } = \theta   _ { 2 }
+S , { \mathcal     { P } }
+S
+\theta  
+S
+P _ { { \theta   } }
+\Theta  
+\theta  
+{ \mathcal     { P } } = \{ P _ { { \theta   } } : \theta   \in   \Theta   \ }
+S
+{ \mathcal   { P } }
+{ \mathcal   { P } }
+S , { \mathcal     { P } }
+{ \mathcal     { P } } = \{ P _ { { \theta   } } : \theta   \in   \Theta   \ }
+\Theta  
+{ \displaystyle   \Theta   \subseteq   \mathbb   { R }   ^ { k } }
+\mathbb   { R }  
+{ \displaystyle   { \mathcal   { P } } = \left \{ P _ { \mu   , \sigma   } ( x ) \equiv   { \frac   { 1 } { { \sqrt   { 2 \pi   } } \sigma   } } \exp   \left ( - { \frac   { ( x - \mu   ) ^ { 2 } } { 2 \sigma   ^ { 2 } } } \right ) : \mu   \in   \mathbb   { R }   , \sigma   > 0 \right \ } }
+\theta   \in   \Theta  
+\theta  
+\Theta  
+\Theta  
+k   \rightarrow   \infty
+n \rightarrow   \infty  
+{ \displaystyle   k / n \rightarrow   0 }
+n \rightarrow   \infty  
+{ \mathcal   { P } }

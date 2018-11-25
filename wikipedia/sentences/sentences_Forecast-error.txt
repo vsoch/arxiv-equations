@@ -1,9 +1,0 @@
-e ( t )
-{ \displaystyle   e ( t ) = y ( t ) - { \hat   { y } } ( t | t - 1 ) }
-y ( t )
-{ \displaystyle   { \hat   { y } } ( t | t - 1 ) }
-y ( t )
-y ( t )
-{ \displaystyle   { \hat   { y } } ( t | t - 1 ) }
-{ \displaystyle   y ( t + h ) }
-{ \displaystyle   { \hat   { y } } ( t + h | t ) }

@@ -1,5 +1,0 @@
-{ \displaystyle   \int   _ { A } e ^ { - \varphi   ( x ) } \,dx < \infty   . }
-{ \displaystyle   \lim   _ { \theta   \to   \infty   } { \frac   { 1 } { \theta   } } \log   \int   _ { A } e ^ { - \theta   \varphi   ( x ) } \,dx = - \mathop   { \mathrm   { e s s \,inf }   }   _ { x \in   A } \varphi   ( x ) , }
-{ \displaystyle   \int   _ { A } e ^ { - \theta   \varphi   ( x ) } \,dx \approx   \exp   \left ( - \theta   \mathop   { \mathrm   { e s s \,inf }   }   _ { x \in   A } \varphi   ( x ) \right ) . }
-{ \displaystyle   \mathbf   { P }   _ { \theta   } ( A ) = \left ( \int   _ { A } e ^ { - \theta   \varphi   ( x ) } \,dx \right ) { \bigg   / } \left ( \int   _ { \mathbf   { R }   ^ { d } } e ^ { - \theta   \varphi   ( y ) } \,dy \right ) }
-\lim   _ { { \varepsilon   \downarrow   0 } } \varepsilon   \log   { \mathbf     { P } } { \big   [ } { \sqrt     { \varepsilon   } } X \in   A { \big   ] } = - { \mathop     { { \mathrm     { e s s \,inf } } } } _ { { x \in   A } } { \frac     { x ^ { 2 } } { 2 } }

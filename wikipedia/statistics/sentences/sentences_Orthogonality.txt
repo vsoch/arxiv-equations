@@ -1,0 +1,16 @@
+\langle   x ,   y   \rangle
+{ \displaystyle   x \perp   y }
+\langle   f ,   g \rangle_w   =   \int_a ^ b   f ( x ) g ( x ) w ( x ) \,dx .
+{ \displaystyle   \langle   f , g \rangle   _ { w } = 0 . }
+\|f \|_w   =   \sqrt { \langle   f ,   f \rangle_w }
+{ \displaystyle   \langle   f _ { i } , f _ { j } \rangle   _ { w } = 0 \quad   i \neq   j . }
+{ \displaystyle   \langle   f _ { i } , f _ { j } \rangle   _ { w } = \delta   _ { i , j } , }
+{ \displaystyle   \delta   _ { i , j } = \left \{ { \begin { m a t r i x } 1 , & & i = j \\0 , & & i \neq   j \end { m a t r i x } } \right . }
+\mathbf { v } _ k   =   \sum_ { i = 0 \atop   a i + k   <   n } ^ { n / a }   \mathbf { e } _ i
+\int_ { - 1 } ^ 1   \left ( 2 t + 3 \right ) \left ( 4 5 t ^ 2 + 9 t - 1 7 \right ) \,dt   =   0
+1 / \sqrt { 1 - x ^ 2 } .
+  \psi_m  
+\psi   _ { n }
+  \langle   \psi_m   |   \psi_n   \rangle   =   0  
+  \psi_m  
+\psi   _ { n }

@@ -1,0 +1,56 @@
+f * g
+f \star   g
+{ \displaystyle   ( f \star   g ) ( \tau   ) \ { \stackrel   { \mathrm   { d e f }   } { = } } \int   _ { - \infty   } ^ { \infty   } f ^ { * } ( t ) \ g ( t + \tau   ) \,dt }
+f ^ { * }
+f
+\tau  
+t + \tau  
+( f \star   g ) [ n ] \ { \stackrel   { \mathrm   { d e f }   } { = } } \sum   _ { m = - \infty   } ^ { \infty   } f ^ { * } [ m ] \ g [ m + n ] .
+X
+Y
+Y - X
+f \star   g
+f * g
+X + Y
+f
+g
+g
+f
+g
+( f \star   g )
+f
+g
+f
+*
+{ \displaystyle   [ f ( t ) \star   g ( t ) ] ( t ) = [ f ^ { * } ( - t ) * g ( t ) ] ( t ) . }
+{ \displaystyle   [ f ( t ) \star   g ( t ) ] ( t ) = [ g ^ { * } ( t ) \star   f ^ { * } ( t ) ] ( - t ) . }
+{ \displaystyle   f \star   g = f * g . }
+f \star   g = g \star   f
+{ \displaystyle   \left ( f \star   g \right ) \star   \left ( f \star   g \right ) = \left ( f \star   f \right ) \star   \left ( g \star   g \right ) }
+{ \displaystyle   { \mathcal   { F } } \left \{ f \star   g \right \}={ \mathcal   { F } } \left \{ f \right \}^ { * } \cdot   { \mathcal   { F } } \left \{ g \right \ } , }
+{ \mathcal   { F } }
+{ \displaystyle   { \mathcal   { F } } \left \{ f ( - t ) \right \}={ \mathcal   { F } } \left \{ f ( t ) \right \}^ { * } }
+{ \displaystyle   g \star   \left ( f * h \right ) = \left ( g \star   f \right ) * h . }
+{ \displaystyle   ( X _ { t } , Y _ { t } ) }
+{ \displaystyle   \gamma   _ { X Y } ( \tau   ) = \operatorname   { E }   \left [ \left ( X _ { t } - \mu   _ { X } \right ) \left ( Y _ { t + \tau   } - \mu   _ { Y } \right ) \right ] , }
+{ \displaystyle   \rho   _ { X Y } ( \tau   ) = { \frac   { 1 } { \sigma   _ { X } \sigma   _ { Y } } } \operatorname   { E }   \left [ \left ( X _ { t } - \mu   _ { X } \right ) \left ( Y _ { t + \tau   } - \mu   _ { Y } \right ) \right ] = { \frac   { 1 } { \sigma   _ { X } \sigma   _ { Y } } } \gamma   _ { X Y } ( \tau   ) , }
+\mu   _ { X }
+\sigma   _ { X }
+( X _ { t } )
+( Y _ { t } )
+\operatorname   { E }   [ \   ]
+{ \displaystyle   ( X _ { t } , Y _ { t } ) }
+{ \displaystyle   \tau   _ { \mathrm   { d e l a y }   } = { \underset   { t \in   \mathbb   { R }   } { \operatorname   { a r g \,max }   } } ( ( f \star   g ) ( t ) ) }
+t ( x , y )
+f ( x , y )
+{ \displaystyle   { \frac   { 1 } { n } } \sum   _ { x , y } { \frac   { 1 } { \sigma   _ { f } \sigma   _ { t } } } \left ( f ( x , y ) - { \overline   { f } } \right ) \left ( t ( x , y ) - { \overline   { t } } \right ) }
+n
+t ( x , y )
+f ( x , y )
+{ \overline   { f } }
+\sigma   _ { f }
+F ( x , y ) = f ( x , y ) - { \overline   { f } }
+T ( x , y ) = t ( x , y ) - { \overline   { t } }
+\left \langle   { \frac   { F } { \|F \|}},{ \frac   { T } { \|T \|}}\right \rangle  
+\langle   \cdot   , \cdot   \rangle  
+\|\cdot   \ |

@@ -1,0 +1,6 @@
+\pi   ( z ) = { \frac     { ( 1 - z ) ( 1 - \rho   ) g ( \lambda   ( 1 - z ) ) } { g ( \lambda   ( 1 - z ) ) - z } }
+{ \displaystyle   P = { \begin { p m a t r i x } a _ { 0 } & a _ { 1 } & a _ { 2 } & a _ { 3 } & a _ { 4 } & \cdots   \\a_ { 0 } & a _ { 1 } & a _ { 2 } & a _ { 3 } & a _ { 4 } & \cdots   \\0 & a _ { 0 } & a _ { 1 } & a _ { 2 } & a _ { 3 } & \cdots   \\0 & 0 & a _ { 0 } & a _ { 1 } & a _ { 2 } & \cdots   \\0 & 0 & 0 & a _ { 0 } & a _ { 1 } & \cdots   \\\vdots   & \vdots   & \vdots   & \vdots   & \vdots   & \ddots   \end { p m a t r i x } } }
+{ \displaystyle   a _ { v } = \int   _ { 0 } ^ { \infty   } e ^ { - \lambda   u } { \frac   { ( \lambda   u ) ^ { v } } { v ! } } { \text { d } } F ( u ) ~ { \text {   f o r   } } v \geq   0 }
+\phi   ( s )
+{ \displaystyle   \phi   ( s ) = g [ s + \lambda   - \lambda   \phi   ( s ) ] }
+W ^ { \ast   } ( s ) = { \frac     { ( 1 - \rho   ) s g ( s ) } { s - \lambda   ( 1 - g ( s ) ) } }

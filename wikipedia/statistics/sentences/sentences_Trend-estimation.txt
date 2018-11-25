@@ -1,0 +1,20 @@
+t
+y _ { t }
+a
+b
+{ \displaystyle   \sum   _ { t } [ y _ { t } - ( { \hat   { a } } t + { \hat   { b } } ) ] ^ { 2 } }
+y _ { t } = a t + b + e _ { t } \ ,
+a
+b
+e
+e
+e
+{ \hat   { a } }
+{ \displaystyle   { \hat   { b } } , }
+{ \displaystyle   { \hat   { y } } = { \hat   { a } } t + { \hat   { b } } }
+y _ { t }
+{ \displaystyle   { \hat   { e } } _ { t } }
+e _ t
+e _ t
+a
+{ \hat   { a } }

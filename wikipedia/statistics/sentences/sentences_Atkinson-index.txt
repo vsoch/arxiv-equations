@@ -1,0 +1,37 @@
+\varepsilon  
+\varepsilon  
+\varepsilon  
+\varepsilon  
+\varepsilon  
+\varepsilon = 0
+{ \displaystyle   A _ \varepsilon }
+\varepsilon = \infty
+A _ \varepsilon = 1
+{ \displaystyle   A _ \varepsilon }
+\varepsilon  
+\varepsilon  
+{ \displaystyle   A _ \varepsilon }
+{ \displaystyle   A _ \varepsilon }
+A _ \varepsilon ( y _ 1 , \ldots , y _ N ) =   \begin { c a s e s }   1 - \frac { 1 } { \mu } \left ( \frac { 1 } { N } \sum_ { i = 1 } ^ { N } y _ { i } ^ { 1 - \varepsilon } \right ) ^ { 1 / ( 1 - \varepsilon ) }   &   \mbox { f o r } \ 0   \leq   \epsilon   \neq   1   \\ 1 - \frac { 1 } { \mu } \left ( \prod_ { i = 1 } ^ { N } y _ { i } \right ) ^ { 1 / N }   &   \mbox { f o r } \ \varepsilon = 1 ,   \end { c a s e s }  
+y _ { { i } }
+\mu  
+A _ \varepsilon ( y _ 1 , \ldots , y _ N ) = A _ \varepsilon ( y _ { \sigma ( 1 ) } , \ldots , y _ { \sigma ( N ) } )
+\sigma  
+A _ \varepsilon ( y _ 1 , \ldots , y _ N )   =   0
+y _ i   =   \mu
+i
+\Delta   > 0
+y _ { i }
+y _ { j }
+y _ i   -   \Delta   >   y _ j   +   \Delta
+A _ \varepsilon ( \{ y _ 1 , \ldots , y _ N \},\ldots , \{ y _ 1 , \ldots , y _ N \})=A_ \varepsilon ( y _ 1 , \ldots , y _ N )
+A _ \varepsilon ( y _ 1 , \ldots , y _ N )   =   A _ \varepsilon (   k y _ 1 , \ldots , k y _ N )
+k > 0
+{ \displaystyle   A _ { \varepsilon   } ( y _ { g i } : g = 1 , \ldots   , G , i = 1 , \ldots   , N _ { g } ) = \sum   _ { g = 1 } ^ { G } w _ { g } A _ { \varepsilon   } ( y _ { g 1 } , \ldots   , y _ { g N _ { g } } ) + A _ { \varepsilon   } ( \mu   _ { 1 } , \ldots   , \mu   _ { G } ) }
+g
+i
+\mu_g
+g
+w _ { g }
+\mu_g ,   \mu ,   N
+N _ { g }

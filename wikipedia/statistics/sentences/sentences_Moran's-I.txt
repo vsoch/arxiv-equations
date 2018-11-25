@@ -1,0 +1,21 @@
+{ \displaystyle   I = { \frac   { N } { W } } { \frac   { \sum   _ { i } \sum   _ { j } w _ { i j } ( x _ { i } - { \bar   { x } } ) ( x _ { j } - { \bar   { x } } ) } { \sum   _ { i } ( x _ { i } - { \bar   { x } } ) ^ { 2 } } } }
+N
+i
+j
+x
+{ \bar   { x } }
+x
+w _ { i j }
+{ \displaystyle   w _ { i i } = 0 }
+W
+w _ { i j }
+I
+w _ { i j }
+k
+E ( I ) = { \frac     { - 1 } { N - 1 } }
+{ \displaystyle   \operatorname   { V a r }   ( I ) = { \frac   { N S _ { 4 } - S _ { 3 } S _ { 5 } } { ( N - 1 ) ( N - 2 ) ( N - 3 ) W ^ { 2 } } } - ( E ( I ) ) ^ { 2 } }
+{ \displaystyle   S _ { 1 } = { \frac   { 1 } { 2 } } \sum   _ { i } \sum   _ { j } ( w _ { i j } + w _ { j i } ) ^ { 2 } }
+{ \displaystyle   S _ { 2 } = \sum   _ { i } \left ( \sum   _ { j } w _ { i j } + \sum   _ { j } w _ { j i } \right ) ^ { 2 } }
+{ \displaystyle   S _ { 3 } = { \frac   { N ^ { - 1 } \sum   _ { i } ( x _ { i } - { \bar   { x } } ) ^ { 4 } } { ( N ^ { - 1 } \sum   _ { i } ( x _ { i } - { \bar   { x } } ) ^ { 2 } ) ^ { 2 } } } }
+{ \displaystyle   S _ { 4 } = ( N ^ { 2 } - 3 N + 3 ) S _ { 1 } - N S _ { 2 } + 3 W ^ { 2 } }
+{ \displaystyle   S _ { 5 } = ( N ^ { 2 } - N ) S _ { 1 } - 2 N S _ { 2 } + 6 W ^ { 2 } }

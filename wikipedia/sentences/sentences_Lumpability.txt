@@ -1,6 +1,0 @@
-{ \displaystyle   \scriptstyle   { T = \{ t _ { 1 } , t _ { 2 } , \ldots   \ } } }
-{ \displaystyle   \{ X _ { i } \ } }
-{ \displaystyle   \sum   _ { m \in   t _ { j } } q ( n , m ) = \sum   _ { m \in   t _ { j } } q ( n ' , m ) , }
-{ \displaystyle   \sum   _ { m \in   t _ { j } } p ( n , m ) = \sum   _ { m \in   t _ { j } } p ( n ' , m ) , }
-{ \displaystyle   P = { \begin { p m a t r i x } { \frac   { 1 } { 2 } } & { \frac   { 3 } { 8 } } & { \frac   { 1 } { 1 6 } } & { \frac   { 1 } { 1 6 } } \\{ \frac   { 7 } { 1 6 } } & { \frac   { 7 } { 1 6 } } & 0 & { \frac   { 1 } { 8 } } \\{ \frac   { 1 } { 1 6 } } & 0 & { \frac   { 1 } { 2 } } & { \frac   { 7 } { 1 6 } } \\0 & { \frac   { 1 } { 1 6 } } & { \frac   { 3 } { 8 } } & { \frac   { 9 } { 1 6 } } \end { p m a t r i x } } }
-{ \displaystyle   P _ { t } = { \begin { p m a t r i x } { \frac   { 7 } { 8 } } & { \frac   { 1 } { 8 } } \\{ \frac   { 1 } { 1 6 } } & { \frac   { 1 5 } { 1 6 } } \end { p m a t r i x } } }

@@ -1,0 +1,12 @@
+\eta_X   =   \frac { \sigma_X } { \mu_X } ,
+\eta_X
+X
+\mu   _ { X }
+X
+\sigma   _ { X }
+X
+F _ X   =   \frac { \sigma_X ^ 2 } { \mu_X } .
+{ \displaystyle   N _ { X } = \eta   _ { X } ^ { 2 } = { \frac   { \sigma   _ { X } ^ { 2 } } { \mu   _ { X } ^ { 2 } } } . }
+P ( \mathbf   { x }   , t )
+\mathbf   { x }  
+t

@@ -1,0 +1,65 @@
+{ \textstyle   D = [ d _ { i j } ] }
+{ \textstyle   d _ { i j } }
+{ \textstyle   i ^ { t h } }
+{ \textstyle   j ^ { t h } }
+{ \textstyle   d _ { i j } = { \sqrt   { ( x _ { i } - x _ { j } ) ^ { 2 } + ( y _ { i } - y _ { j } ) ^ { 2 } } } }
+{ \displaystyle   S t r a i n _ { D } ( x _ { 1 } , x _ { 2 } , . . . , x _ { N } ) = { \Biggl   ( } { \frac   { \sum   _ { i , j } { \bigl   ( } b _ { i j } - \langle   x _ { i } , x _ { j } \rangle   { \bigr   ) } ^ { 2 } } { \sum   _ { i , j } b _ { i j } ^ { 2 } } } { \Biggr   ) } ^ { 1 / 2 } }
+b _ { i j }
+B
+{ \textstyle   B = X X ' }
+{ \textstyle   B }
+{ \textstyle   D }
+{ \textstyle   D ^ { ( 2 ) } = [ d _ { i j } ^ { 2 } ] }
+{ \textstyle   B = - { \frac   { 1 } { 2 } } J D ^ { ( 2 ) } J }
+{ \textstyle   J = I - { \frac   { 1 } { n } } 1 1 ' }
+{ \textstyle   n }
+{ \textstyle   m }
+{ \textstyle   \lambda   _ { 1 } , \lambda   _ { 2 } , . . . , \lambda   _ { m } }
+{ \textstyle   e _ { 1 } , e _ { 2 } , . . . , e _ { m } }
+{ \textstyle   B }
+{ \textstyle   m }
+{ \textstyle   X = E _ { m } \Lambda   _ { m } ^ { 1 / 2 } }
+{ \textstyle   E _ { m } }
+{ \textstyle   m }
+{ \textstyle   \Lambda   _ { m } }
+{ \textstyle   m }
+{ \textstyle   B }
+{ \displaystyle   S t r e s s _ { D } ( x _ { 1 } , x _ { 2 } , . . . , x _ { N } ) = { \Biggl   ( } \sum   _ { i \neq   j = 1 , . . . , N } { \bigl   ( } d _ { i j } - \|x_ { i } - x _ { j } \|{ \bigr   ) } ^ { 2 } { \Biggr   ) } ^ { 1 / 2 } }
+{ \displaystyle   S t r e s s _ { D } ( x _ { 1 } , x _ { 2 } , . . . , x _ { N } ) = { \Biggl   ( } { \frac   { \sum   _ { i , j } { \bigl   ( } d _ { i j } - \|x_ { i } - x _ { j } \|{ \bigr   ) } ^ { 2 } } { \sum   _ { i , j } d _ { i j } ^ { 2 } } } { \Biggr   ) } ^ { 1 / 2 } }
+{ \textstyle   p }
+{ \textstyle   d _ { i j } ^ { p } }
+{ \textstyle   - d _ { i j } ^ { 2 p } }
+{ \textstyle   p = 1 }
+{ \textstyle   x }
+{ \textstyle   f ( x ) }
+{ \textstyle   x }
+{ \textstyle   d }
+{ \displaystyle   S t r e s s = { \sqrt   { \frac   { \sum   { \bigl   ( } f ( x ) - d { \bigr   ) } ^ { 2 } } { \sum   d ^ { 2 } } } } }
+{ \textstyle   f ( x ) }
+I
+\delta   _ { i , j } : =
+i
+j
+\Delta   : = { \begin { p m a t r i x } \delta   _ { 1 , 1 } & \delta   _ { 1 , 2 } & \cdots   & \delta   _ { 1 , I } \\\delta   _ { 2 , 1 } & \delta   _ { 2 , 2 } & \cdots   & \delta   _ { 2 , I } \\\vdots   & \vdots   & & \vdots   \\\delta   _ { I , 1 } & \delta   _ { I , 2 } & \cdots   & \delta   _ { I , I } \end { p m a t r i x } } .
+\Delta  
+I
+x _ { 1 } , \ldots   , x _ { I } \in   \mathbb   { R }   ^ { N }
+\|x_ { i } - x _ { j } \|\approx   \delta   _ { i , j }
+i , j \in   { 1 , \dots   , I }
+\|\cdot   \ |
+I
+\mathbb   { R }   ^ { N }
+N
+x _ { i }
+I
+x _ { i }
+\|x_ { i } - x _ { j } \ |
+\mathbb   { R }  
+\mathbb   { R }   ^ { N }
+N
+\mathbb   { R }  
+N
+x _ { i }
+( x _ { 1 } , \ldots   , x _ { I } )
+\min   _ { x _ { 1 } , \ldots   , x _ { I } } \sum   _ { i < j } ( \|x_ { i } - x _ { j } \|-\delta   _ { i , j } ) ^ { 2 } . \ ,
+Q = N ( N - 1 ) / 2

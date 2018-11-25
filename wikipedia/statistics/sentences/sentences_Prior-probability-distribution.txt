@@ -1,0 +1,40 @@
+p = 0
+p = 1
+{ \displaystyle   K L = \int   p ( t ) \int   p ( x | t ) \log   { \frac   { p ( x | t ) } { p ( x ) } } \,dx \,dt . }
+t
+x
+{ \displaystyle   p ( x | t ) }
+{ \displaystyle   p ( x ) }
+t
+{ \displaystyle   \log   \,[p ( x ) ] }
+t
+{ \displaystyle   K L = \int   p ( t ) \int   p ( x | t ) \log [ p ( x | t ) ] \,dx \,dt \,-\,\int   \log [ p ( x ) ] \,\int   p ( t ) p ( x | t ) \,dt \,dx . }
+t
+{ \displaystyle   p ( x , t ) }
+{ \displaystyle   p ( x ) }
+{ \displaystyle   K L = \int   p ( t ) \int   p ( x | t ) \log [ p ( x | t ) ] \,dx \,dt \,-\,\int   p ( x ) \log [ p ( x ) ] \,dx . }
+{ \displaystyle   H ( x ) = - \int   p ( x ) \log [ p ( x ) ] \,dx . }
+{ \displaystyle   K L = - \int   p ( t ) H ( x | t ) \,dt + \,H ( x ) . }
+t
+x
+t
+x
+x
+t
+x
+{ \displaystyle   2 \pi   e v }
+v
+{ \displaystyle   H = \log   { \sqrt   { 2 \pi   e / [ N I ( x * ) ] } } }
+N
+{ \displaystyle   x * }
+t
+{ \displaystyle   K L = - \log [ 1 { \sqrt   { k I ( x * ) } } ] - \,\int   p ( x ) \log [ p ( x ) ] \,dx . }
+k
+{ \displaystyle   x * }
+{ \displaystyle   x * }
+x
+{ \displaystyle   p ( x ) }
+x
+{ \displaystyle   K L = - \int   p ( x ) \log [ p ( x ) / { \sqrt   { k I ( x ) } } ] \,dx . }
+A _ { 1 } , A _ { 2 } , \ldots   , A _ { n }
+P ( A _ { i } | B ) = { \frac   { P ( B | A _ { i } ) P ( A _ { i } ) } { \sum   _ { j } P ( B | A _ { j } ) P ( A _ { j } ) } } \ , ,

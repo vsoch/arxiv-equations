@@ -1,3 +1,0 @@
-\tan   S = { \sqrt   { \left ( { \frac   { \partial   z } { \partial   x } } \right ) ^ { 2 } + \left ( { \frac   { \partial   z } { \partial   y } } \right ) ^ { 2 } } }
-\tan   A = \left ( { \frac   { \left ( { \frac   { - \partial   z } { \partial   y } } \right ) } { \left ( { \frac   { \partial   z } { \partial   x } } \right ) } } \right )
-A = 2 7 0 ^ { \circ   } + \arctan   \left ( { \frac   { \left ( { \frac   { \partial   z } { \partial   x } } \right ) } { \left ( { \frac   { \partial   z } { \partial   y } } \right ) } } \right ) - 9 0 ^ { \circ   } \left ( { \frac   { \left ( { \frac   { \partial   z } { \partial   y } } \right ) } { \left | { \frac   { \partial   z } { \partial   y } } \right | } } \right )

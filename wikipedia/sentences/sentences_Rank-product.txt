@@ -1,7 +1,0 @@
-e _ { g , i }
-r _ { g , i }
-R P ( g ) = ( \Pi_ { i = 1 } ^ k r _ { g , i } ) ^ { 1 / k }
-\mathrm { E } _ { \mathrm { R P } } ( g ) = c / p
-\mathrm { p f p } ( g ) = \mathrm { E } _ { R P } ( g ) / \mathrm { r a n k } ( g )
-\mathrm { r a n k } ( g )
-\mathrm { R P }

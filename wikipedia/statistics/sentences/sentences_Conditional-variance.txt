@@ -1,0 +1,26 @@
+{ \displaystyle   \operatorname   { V a r }   ( Y | X ) = \operatorname   { E }   ( ( Y - \operatorname   { E }   ( Y \mid   X ) ) ^ { 2 } \mid   X ) . }
+{ \displaystyle   \operatorname   { E }   ( Y \mid   X ) }
+{ \displaystyle   \operatorname   { E }   ( Y \mid   X ) }
+\operatorname   { V a r }   ( Y | X )
+f : { \mathbb     { R } } \to   { \mathbb     { R } }
+{ \displaystyle   { \begin { a l i g n e d } \operatorname   { E }   [ ( Y - f ( X ) ) ^ { 2 } ] & = \operatorname   { E }   [ ( Y - \operatorname   { E }   ( Y | X ) \,\,+\,\,\operatorname   { E }   ( Y | X ) - f ( X ) ) ^ { 2 } ] \\&=\operatorname   { E }   [ \operatorname   { E }   \{ ( Y - \operatorname   { E }   ( Y | X ) \,\,+\,\,\operatorname   { E }   ( Y | X ) - f ( X ) ) ^ { 2 } | X \}]\\&=\operatorname   { E }   [ \operatorname   { V a r }   ( Y | X ) ] + \operatorname   { E }   [ ( \operatorname   { E }   ( Y | X ) - f ( X ) ) ^ { 2 } ] \,.\end { a l i g n e d } } }
+{ \displaystyle   f ( X ) = \operatorname   { E }   ( Y | X ) }
+{ \displaystyle   S = \{ x _ { 1 } , x _ { 1 } , \dots   \ } }
+\operatorname   { V a r } ( Y | X = x )
+\operatorname   { V a r }   ( Y | X = x ) = \operatorname   { E }   ( ( Y - \operatorname   { E }   ( Y \mid   X = x ) ) ^ { 2 } \mid   X = x ) ,
+{ \displaystyle   \operatorname   { E }   ( Z \mid   X = x ) }
+x \in   S
+\operatorname   { V a r } ( Y | X = x )
+\operatorname   { V a r }   _ { Y \mid   X } ( Y | x ) .
+\operatorname   { V a r } ( Y | X = x )
+\operatorname   { V a r } ( Y | X = x )
+\operatorname   { V a r }   ( Y | X )
+{ \displaystyle   v : S \to   \mathbb   { R }   }
+{ \displaystyle   v ( x ) = \operatorname   { V a r }   ( Y | X = x ) }
+{ \displaystyle   v ( X ) = \operatorname   { V a r }   ( Y | X ) }
+{ \displaystyle   P _ { Y | X } }
+{ \displaystyle   P _ { Y | X } }
+{ \displaystyle   P _ { Y | X } : { \mathcal   { B } } \times   \mathbb   { R }   \to   [ 0 , 1 ] }
+{ \displaystyle   P _ { Y | X } ( U , x ) = P ( Y \in   U | X = x ) }
+{ \displaystyle   \operatorname   { V a r }   ( Y | X = x ) = \int   ( y - \int   y ' P _ { Y | X } ( d y ' | x ) ) ^ { 2 } P _ { Y | X } ( d y | x ) . }
+{ \displaystyle   \operatorname   { V a r }   ( Y ) = \operatorname   { E }   ( \operatorname   { V a r }   ( Y \mid   X ) ) + \operatorname   { V a r }   ( \operatorname   { E }   ( Y \mid   X ) ) . }

@@ -1,0 +1,3 @@
+\displaystyle   \omega   _ { { m , n } } ( x ) = { \frac     { e ^ { { - x + \pi   i ( m / 2 - n ) } } } { \Gamma   ( 1 + n - m / 2 ) } } U ( m / 2 - n , 1 + m , x ) .
+x X ' ' + ( x + 1 + m ) X ' + ( n + { \tfrac     { 1 } { 2 } } m + 1 ) X .
+\omega   _ { { 2 n } } ( x ) = \omega   _ { { 0 , n } } ( x ) .

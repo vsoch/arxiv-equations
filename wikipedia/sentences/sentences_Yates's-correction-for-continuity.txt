@@ -1,4 +1,0 @@
-\sum   _ { { i = 1 } } ^ { N } O _ { i } = 2 0 \ ,
-\chi   _ { { \text { Y a t e s } } } ^ { 2 } = \sum   _ { { i = 1 } } ^ { { N } } { ( | O _ { i } - E _ { i } | - 0 . 5 ) ^ { 2 }   \over   E _ { i } }
-\chi   _ { { \text { Y a t e s } } } ^ { 2 } = { \frac     { N ( | a d - b c | - N / 2 ) ^ { 2 } } { N _ { S } N _ { F } N _ { A } N _ { B } } } .
-\chi   _ { { \text { Y a t e s } } } ^ { 2 } = { \frac     { N ( \max ( 0 , | a d - b c | - N / 2 ) ) ^ { 2 } } { N _ { S } N _ { F } N _ { A } N _ { B } } } .

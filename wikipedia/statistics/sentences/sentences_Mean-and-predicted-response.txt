@@ -1,0 +1,27 @@
+{ \displaystyle   y _ { i } = \alpha   + \beta   x _ { i } + \varepsilon   _ { i } \ , }
+y _ { i }
+x _ { i }
+\alpha  
+\beta  
+\hat { y } _ d = \hat \alpha + \hat \beta   x _ d   ,
+{ \displaystyle   y _ { d } = \alpha   + \beta   x _ { d } + \varepsilon   _ { d } \ , }
+{ \hat   { \alpha   } }
+\hat \beta  
+{ \displaystyle   { \hat   { E } } ( y \mid   x _ { d } ) \equiv   { \hat   { y } } _ { d } \ ! }
+{ \displaystyle   \operatorname   { V a r }   \left ( { \hat   { \alpha   } } + { \hat   { \beta   } } x _ { d } \right ) = \operatorname   { V a r }   \left ( { \hat   { \alpha   } } \right ) + \left ( \operatorname   { V a r }   { \hat   { \beta   } } \right ) x _ { d } ^ { 2 } + 2 x _ { d } \operatorname   { C o v }   \left ( { \hat   { \alpha   } } , { \hat   { \beta   } } \right ) . }
+{ \displaystyle   \operatorname   { V a r }   \left ( { \hat   { \alpha   } } + { \hat   { \beta   } } x _ { d } \right ) = \sigma   ^ { 2 } \left ( { \frac   { 1 } { m } } + { \frac   { \left ( x _ { d } - { \bar   { x } } \right ) ^ { 2 } } { \sum   ( x _ { i } - { \bar   { x } } ) ^ { 2 } } } \right ) , }
+{ \displaystyle   \sum   ( x _ { i } - { \bar   { x } } ) ^ { 2 } = \sum   x _ { i } ^ { 2 } - { \frac   { 1 } { m } } \left ( \sum   x _ { i } \right ) ^ { 2 } . }
+{ \displaystyle   \operatorname   { V a r }   \left ( y _ { d } - \left [ { \hat   { \alpha   } } + { \hat   { \beta   } } x _ { d } \right ] \right ) = \operatorname   { V a r }   ( y _ { d } ) + \operatorname   { V a r }   \left ( { \hat   { \alpha   } } + { \hat   { \beta   } } x _ { d } \right ) . }
+{ \displaystyle   \operatorname   { V a r }   ( y _ { d } ) = \sigma   ^ { 2 } }
+{ \displaystyle   { \begin { a l i g n e d } \operatorname   { V a r }   \left ( y _ { d } - \left [ { \hat   { \alpha   } } + { \hat   { \beta   } } x _ { d } \right ] \right ) & = \sigma   ^ { 2 } + \sigma   ^ { 2 } \left ( { \frac   { 1 } { m } } + { \frac   { \left ( x _ { d } - { \bar   { x } } \right ) ^ { 2 } } { \sum   ( x _ { i } - { \bar   { x } } ) ^ { 2 } } } \right ) \\[4pt ] & = \sigma   ^ { 2 } \left ( 1 + { \frac   { 1 } { m } } + { \frac   { ( x _ { d } - { \bar   { x } } ) ^ { 2 } } { \sum   ( x _ { i } - { \bar   { x } } ) ^ { 2 } } } \right ) . \end { a l i g n e d } } }
+1 0 0 ( 1 - \alpha ) \ %  
+{ \displaystyle   y _ { d } \pm   t _ { { \frac   { \alpha   } { 2 } } , m - n - 1 } { \sqrt   { \operatorname   { V a r }   } } }
+y
+y
+\hat   \alpha
+{ \hat   { \beta   } }
+\alpha   +   \beta   x _ d
+{ \displaystyle   y _ { i } = \sum   _ { j = 1 } ^ { n } X _ { i j } \beta   _ { j } + \varepsilon   _ { i } \ , }
+{ \displaystyle   y _ { d } = \sum   _ { j = 1 } ^ { n } X _ { d j } { \hat   { \beta   } } _ { j } }
+{ \displaystyle   \operatorname   { V a r }   \left ( \sum   _ { j = 1 } ^ { n } X _ { d j } { \hat   { \beta   } } _ { j } \right ) = \sum   _ { i = 1 } ^ { n } \sum   _ { j = 1 } ^ { n } X _ { d i } S _ { i j } X _ { d j } , }
+{ \displaystyle   \mathbf   { S }   = \sigma   ^ { 2 } \left ( \mathbf   { X ^ { \mathsf   { T } } X }   \right ) ^ { - 1 } . }

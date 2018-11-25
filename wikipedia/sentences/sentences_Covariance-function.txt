@@ -1,8 +1,0 @@
-C ( x , y ) : = \operatorname   { c o v } ( Z ( x ) , Z ( y ) ) . \ ,
-X = \sum   _ { { i = 1 } } ^ { N } w _ { i } Z ( x _ { i } )
-\operatorname   { v a r } ( X ) = \sum   _ { { i = 1 } } ^ { N } \sum   _ { { j = 1 } } ^ { N } w _ { i } C ( x _ { i } , x _ { j } ) w _ { j } .
-C ( x _ { i } , x _ { j } ) = C ( x _ { i } + h , x _ { j } + h ) \ ,
-C _ { s } ( h ) = C ( 0 , h ) = C ( x , x + h ) \ ,
-C ( x , y ) = C _ { s } ( y - x ) . \ ,
-C ( d ) = \exp ( - d / V )
-  C ( d )   =   \exp ( - ( d / V ) ^ 2 )  

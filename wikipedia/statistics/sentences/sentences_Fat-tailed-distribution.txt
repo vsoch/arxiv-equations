@@ -1,0 +1,7 @@
+\Pr [ X > x ] \sim   x ^ { { - \alpha   } } { \text {   a s   } } x \to   \infty   , \qquad   \alpha   > 0 . \ ,
+\alpha  
+{ \displaystyle   \alpha   < 3 }
+{ \displaystyle   \alpha   > 3 }
+{ \displaystyle   \alpha   > 3 }
+  \sim  
+x

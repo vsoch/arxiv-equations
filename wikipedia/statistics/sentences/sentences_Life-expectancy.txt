@@ -1,0 +1,19 @@
+e _ { x }
+x
+x
+x + n
+\,_ { n } p _ { x } \ !
+x
+x
+x + 1
+q _ { x } \ !
+x
+\,e_ { x } \ !
+x
+K ( x )
+x
+e _ { x } = E [ K ( x ) ] = \sum   _ { k = 0 } ^ { \infty   } k \,Pr ( K ( x ) = k ) = \sum   _ { k = 0 } ^ { \infty   } k \,\,_ { k } p _ { x } \,\,q_ { x + k } .
+{ } _ { k } p _ { x } \,q_ { x + k } = { } _ { k } p _ { x } - { } _ { k + 1 } p _ { x }
+e _ { x } = \sum   _ { k = 1 } ^ { \infty   } { } \,_ { k } p _ { x } .
+x
+e _ { x } + 1 / 2

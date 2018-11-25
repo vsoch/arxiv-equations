@@ -1,0 +1,3 @@
+L ( x ) = p ( r \mid   x ) ,
+P ( x ) = p ( x \mid   r ) ,
+P ( x ) = p ( x \mid   r ) = { \frac     { p ( r \mid   x ) p ( x ) } { p ( r ) } } .

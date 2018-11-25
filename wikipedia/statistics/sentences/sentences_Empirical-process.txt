@@ -1,0 +1,18 @@
+F _ n ( x ) = \frac { 1 } { n } \sum_ { i = 1 } ^ n   I _ { ( - \infty , x ] } ( X _ i ) ,
+G _ { n } ( A ) = { \sqrt     { n } } ( P _ { n } ( A ) - P ( A ) )
+f \mapsto   G _ { n } f = { \sqrt     { n } } ( P _ { n } - P ) f = { \sqrt     { n } } \left ( { \frac     { 1 } { n } } \sum   _ { { i = 1 } } ^ { n } f ( X _ { i } ) - { \mathbb     { E } } f \right )
+G _ { n } ( A )
+G _ { n } f
+N ( 0 , { \mathbb     { E } } ( f - { \mathbb     { E } } f ) ^ { 2 } )
+{ \mathbb     { E } } f
+{ \mathbb     { E } } f ^ { 2 }
+{ \bigl   ( } G _ { n } ( c ) { \bigr   ) } _ { { c \in   { \mathcal     { C } } } }
+{ \mathcal   { C } }
+{ \bigl   ( } G _ { n } f { \bigr   ) } _ { { f \in   { \mathcal     { F } } } }
+{ \mathcal   { F } }
+\mathbb   { R }  
+F _ { n } ( x ) = P _ { n } ( ( - \infty   , x ] ) = P _ { n } I _ { { ( - \infty   , x ] } } .
+{ \mathcal     { C } } = \{ ( - \infty   , x ] : x \in   { \mathbb     { R } } \ } .
+{ \mathcal   { C } }
+{ \sqrt     { n } } ( F _ { n } ( x ) - F ( x ) )
+\ell   ^ { \infty   } ( { \mathbb     { R } } )

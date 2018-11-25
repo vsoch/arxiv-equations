@@ -1,4 +1,0 @@
-n
-n
-{ \displaystyle   O ( n ^ { - 2 } ) }
-O ( n ^ { - 1 } )

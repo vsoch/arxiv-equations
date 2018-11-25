@@ -1,0 +1,12 @@
+Q = { \begin { p m a t r i x } - \lambda   & \lambda   \\\mu   & - ( \mu   + \lambda   ) & \lambda   \\&\mu   & - ( \mu   + \lambda   ) & \lambda   \\&&\mu   & - ( \mu   + \lambda   ) & \lambda   & \\&&&&\ddots   \end { p m a t r i x } }
+p _ { k } ( t ) = e ^ { { - ( \lambda   + \mu   ) t } } \left [ \rho   ^ { { { \frac     { k - i } { 2 } } } } I _ { { k - i } } ( a t ) + \rho   ^ { { { \frac     { k - i - 1 } { 2 } } } } I _ { { k + i + 1 } } ( a t ) + ( 1 - \rho   ) \rho   ^ { { k } } \sum   _ { { j = k + i + 2 } } ^ { { \infty   } } \rho   ^ { { - j / 2 } } I _ { j } ( a t ) \right ]
+\rho   = \lambda   / \mu  
+a = 2 { \sqrt     { \lambda   \mu   } }
+I _ { k }
+\pi   _ { i } = ( 1 - \rho   ) \rho   ^ { i } . \ ,
+f ( t ) = { \begin { c a s e s } { \frac     { 1 } { t { \sqrt     { \rho   } } } } e ^ { { - ( \lambda   + \mu   ) t } } I _ { 1 } ( 2 t { \sqrt     { \lambda   \mu   } } ) & t > 0 \\0 & { \text { o t h e r w i s e } } \end { c a s e s } }
+{ \mathbb     E } ( e ^ { { - \theta   F } } ) = { \frac     { 1 } { 2 \lambda   } } ( \lambda   + \mu   + \theta   - { \sqrt     { ( \lambda   + \mu   + \theta   ) ^ { 2 } - 4 \lambda   \mu   } } )
+{ \frac     { 1 + { \frac     { \lambda   } { \mu   } } } { \mu   ^ { 2 } ( 1 - { \frac     { \lambda   } { \mu   } } ) ^ { 3 } } } .
+f ( t ) = { \begin { c a s e s } ( \mu   - \lambda   ) e ^ { { - ( \mu   - \lambda   ) t } } & t > 0 \\0 & { \text { o t h e r w i s e . } } \end { c a s e s } }
+W ^ { \ast   } ( s | x ) = { \frac     { ( 1 - \rho   ) ( 1 - \rho   r ^ { 2 } ) e ^ { { - [ \lambda   ( 1 - r ) + s ] x } } } { ( 1 - \rho   r ^ { 2 } ) - \rho   ( 1 - r ) ^ { 2 } e ^ { { - ( \mu   / r - \lambda   r ) x } } } }
+\lambda   r ^ { 2 } - ( \lambda   + \mu   + s ) r + \mu   = 0 .

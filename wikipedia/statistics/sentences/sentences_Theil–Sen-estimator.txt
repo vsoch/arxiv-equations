@@ -1,0 +1,2 @@
+{ \displaystyle   1 - { \frac   { 1 } { \sqrt   { 2 } } } \approx   2 9 . 3 \ % , }
+O ( n { \sqrt     { \log   n } } )

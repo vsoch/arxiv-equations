@@ -1,0 +1,41 @@
+S ( t ) = \Pr ( T > t )
+F ( t ) = \Pr ( T \leq   t ) = 1 - S ( t ) .
+f ( t ) = F ' ( t ) = { \frac     { d } { d t } } F ( t ) .
+S ( t ) = \Pr ( T > t ) = \int   _ { t } ^ { { \infty   } } f ( u ) \,du = 1 - F ( t ) .
+s ( t ) = S ' ( t ) = { \frac     { d } { d t } } S ( t ) = { \frac     { d } { d t } } \int   _ { t } ^ { { \infty   } } f ( u ) \,du = { \frac     { d } { d t } } [ 1 - F ( t ) ] = - f ( t ) .
+\lambda  
+{ \displaystyle   \lambda   ( t ) = \lim   _ { d t \rightarrow   0 } { \frac   { \Pr ( t \leq   T < t + d t ) } { d t \cdot   S ( t ) } } = { \frac   { f ( t ) } { S ( t ) } } = - { \frac   { S ' ( t ) } { S ( t ) } } . }
+\mu  
+{ \displaystyle   \mu   ( x ) = - { d   \over   d x } \ln ( S ( x ) ) = { \frac   { f ( x ) } { S ( x ) } } }
+{ \displaystyle   \forall   x \geq   0 \left ( h ( x ) \geq   0 \right ) }
+{ \displaystyle   \int   _ { 0 } ^ { \infty   } h ( x ) d x = \infty   }
+[ 0 , \infty   ]
+\Lambda  
+\,\Lambda   ( t ) = - \log   S ( t )
+\,S ( t ) = \exp ( - \Lambda   ( t ) )
+{ \frac     { d } { d t } } \Lambda   ( t ) = - { \frac     { S ' ( t ) } { S ( t ) } } = \lambda   ( t ) .
+\Lambda   ( t ) = \int   _ { 0 } ^ { { t } } \lambda   ( u ) \,du
+\Lambda   ( t )
+\lambda   ( t )
+\exp ( - t )
+{ \displaystyle   S ( t ) = \exp [ - \Lambda   ( t ) ] = { \frac   { f ( t ) } { \lambda   ( t ) } } , \quad   t > 0 . }
+t _ { 0 }
+t _ { 0 }
+T - t _ { 0 }
+t _ { 0 } + t
+t _ { 0 }
+P ( T \leq   t _ { 0 } + t \mid   T > t _ { 0 } ) = { \frac     { P ( t _ { 0 } < T \leq   t _ { 0 } + t ) } { P ( T > t _ { 0 } ) } } = { \frac     { F ( t _ { 0 } + t ) - F ( t _ { 0 } ) } { S ( t _ { 0 } ) } } .
+{ \frac     { d } { d t } } { \frac     { F ( t _ { 0 } + t ) - F ( t _ { 0 } ) } { S ( t _ { 0 } ) } } = { \frac     { f ( t _ { 0 } + t ) } { S ( t _ { 0 } ) } }
+{ \frac     { 1 } { S ( t _ { 0 } ) } } \int   _ { 0 } ^ { { \infty   } } t \,f ( t _ { 0 } + t ) \,dt = { \frac     { 1 } { S ( t _ { 0 } ) } } \int   _ { { t _ { 0 } } } ^ { { \infty   } } S ( t ) \,dt ,
+t _ { 0 } = 0
+L ( \theta   ) = \prod   _ { { T _ { i } \in   u n c . } } \Pr ( T = T _ { i } \mid   \theta   ) \prod   _ { { i \in   l . c . } } \Pr ( T < T _ { i } \mid   \theta   ) \prod   _ { { i \in   r . c . } } \Pr ( T > T _ { i } \mid   \theta   ) \prod   _ { { i \in   i . c . } } \Pr ( T _ { { i , l } } < T < T _ { { i , r } } \mid   \theta   ) .
+T _ { i }
+\Pr ( T = T _ { i } \mid   \theta   ) = f ( T _ { i } \mid   \theta   ) .
+T _ { i }
+\Pr ( T < T _ { i } \mid   \theta   ) = F ( T _ { i } \mid   \theta   ) = 1 - S ( T _ { i } \mid   \theta   ) .
+T _ { i }
+\Pr ( T > T _ { i } \mid   \theta   ) = 1 - F ( T _ { i } \mid   \theta   ) = S ( T _ { i } \mid   \theta   ) .
+T _ { { i , r } }
+T _ { { i , l } }
+\Pr ( T _ { { i , l } } < T < T _ { { i , r } } \mid   \theta   ) = S ( T _ { { i , l } } \mid   \theta   ) - S ( T _ { { i , r } } \mid   \theta   ) .
+T _ { i }

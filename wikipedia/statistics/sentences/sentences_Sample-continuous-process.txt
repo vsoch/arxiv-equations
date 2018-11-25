@@ -1,0 +1,1 @@
+{ \begin { c a s e s } X _ { { t } } \sim   { \mathrm     { U n i f } } ( \{ X _ { { t - 1 } } - 1 , X _ { { t - 1 } } + 1 \}),&t { \mbox {   a n   i n t e g e r ; } } \\X_ { { t } } = X _ { { \lfloor   t \rfloor   } } , & t { \mbox {   n o t   a n   i n t e g e r ; } } \end { c a s e s } }

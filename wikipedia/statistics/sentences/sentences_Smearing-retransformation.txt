@@ -1,0 +1,3 @@
+{ \displaystyle   f ( X ) }
+{ \displaystyle   \sigma   ^ { 2 } }
+{ \displaystyle   y = \exp ( f ( X ) ) \exp ( { \frac   { 1 } { 2 } } \sigma   ^ { 2 } ) . }

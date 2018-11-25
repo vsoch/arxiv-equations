@@ -1,0 +1,12 @@
+\mu  
+{ \displaystyle   { \hat   { \mu   } } _ { j } }
+j
+r _ { j }
+{ \displaystyle   { \hat   { \mu   } } _ { j } }
+{ \displaystyle   { \hat   { r } } _ { j } }
+{ \displaystyle   r _ { j } = b _ { j } ^ { 2 } + \tau   _ { j } ^ { 2 } }
+j
+{ \displaystyle   { \hat   { r } } _ { j } }
+y
+x
+b _ { j }

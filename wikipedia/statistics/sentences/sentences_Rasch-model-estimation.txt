@@ -1,0 +1,21 @@
+{ \displaystyle   \Pr \{ X _ { n i } = 1 \}={ \frac   { \exp ( { \beta   _ { n } } - { \delta   _ { i } } ) } { 1 + \exp ( { \beta   _ { n } } - { \delta   _ { i } } ) } } , }
+\beta   _ { n }
+n
+\delta   _ { i }
+i
+x _ { { n i } }
+{ \displaystyle   \Lambda   = { \frac   { \prod   _ { n } \prod   _ { i } \exp ( x _ { n i } ( \beta   _ { n } - \delta   _ { i } ) ) } { \prod   _ { n } \prod   _ { i } ( 1 + \exp ( \beta   _ { n } - \delta   _ { i } ) ) } } . }
+{ \displaystyle   \log   \Lambda   = \sum   _ { n } ^ { N } \beta   _ { n } r _ { n } - \sum   _ { i } ^ { I } \delta   _ { i } s _ { i } - \sum   _ { n } ^ { N } \sum   _ { i } ^ { I } \log ( 1 + \exp ( \beta   _ { n } - \delta   _ { i } ) ) }
+{ \displaystyle   r _ { n } = \sum   _ { i } ^ { I } x _ { n i } }
+{ \displaystyle   s _ { i } = \sum   _ { n } ^ { N } x _ { n i } }
+\delta   _ { i }
+\beta   _ { n }
+{ \displaystyle   s _ { i } = \sum   _ { n } ^ { N } p _ { n i } , \quad   i = 1 , \dots   , I }
+{ \displaystyle   r _ { n } = \sum   _ { i } ^ { I } p _ { n i } , \quad   n = 1 , \dots   , N }
+{ \displaystyle   p _ { n i } = \exp ( \beta   _ { n } - \delta   _ { i } ) / ( 1 + \exp ( \beta   _ { n } - \delta   _ { i } ) ) }
+{ \displaystyle   ( I - 1 ) / I }
+\delta   _ { i }
+{ \displaystyle   ( I - 1 ) / I }
+{ \displaystyle   \Lambda   = \prod   _ { n } \Pr \{ ( x _ { n i } ) \mid   r _ { n } \}={ \frac   { \exp ( \sum   _ { i } - s _ { i } \delta   _ { i } ) } { \prod   _ { n } \gamma   _ { r } } } }
+{ \displaystyle   \gamma   _ { r } = \sum   _ { ( x ) \mid   r } \exp ( - \sum   _ { i } x _ { n i } \delta   _ { i } ) }
+{ \displaystyle   \gamma   _ { 2 } = \exp ( - \delta   _ { 1 } - \delta   _ { 2 } ) + \exp ( - \delta   _ { 1 } - \delta   _ { 3 } ) + \exp ( - \delta   _ { 2 } - \delta   _ { 3 } ) . }

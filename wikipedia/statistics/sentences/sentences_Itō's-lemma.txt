@@ -1,0 +1,52 @@
+d X _ { t } = \mu   _ { t } \,dt + \sigma   _ { t } \,dB_ { t } ,
+d f = { \frac   { \partial   f } { \partial   t } } \,dt + { \frac   { \partial   f } { \partial   x } } \,dx + { \frac   { 1 } { 2 } } { \frac   { \partial   ^ { 2 } f } { \partial   x ^ { 2 } } } \,dx ^ { 2 } + \cdots   .
+d f = { \frac   { \partial   f } { \partial   t } } \,dt + { \frac   { \partial   f } { \partial   x } } ( \mu   _ { t } \,dt + \sigma   _ { t } \,dB_ { t } ) + { \frac   { 1 } { 2 } } { \frac   { \partial   ^ { 2 } f } { \partial   x ^ { 2 } } } \left ( \mu   _ { t } ^ { 2 } \,dt ^ { 2 } + 2 \mu   _ { t } \sigma   _ { t } \,dt \,dB_ { t } + \sigma   _ { t } ^ { 2 } \,dB_ { t } ^ { 2 } \right ) + \cdots   .
+d f = \left ( { \frac   { \partial   f } { \partial   t } } + \mu   _ { t } { \frac   { \partial   f } { \partial   x } } + { \frac   { \sigma   _ { t } ^ { 2 } } { 2 } } { \frac   { \partial   ^ { 2 } f } { \partial   x ^ { 2 } } } \right ) d t + \sigma   _ { t } { \frac   { \partial   f } { \partial   x } } \,dB_ { t }
+d X _ { t } = \mu   _ { t } \,dt + \sigma   _ { t } \,dB_ { t }
+d f ( t , X _ { t } ) = \left ( { \frac   { \partial   f } { \partial   t } } + \mu   _ { t } { \frac   { \partial   f } { \partial   x } } + { \frac   { \sigma   _ { t } ^ { 2 } } { 2 } } { \frac   { \partial   ^ { 2 } f } { \partial   x ^ { 2 } } } \right ) d t + \sigma   _ { t } { \frac   { \partial   f } { \partial   x } } \,dB_ { t } .
+\mathbf   { X }   _ { t } = ( X _ { t } ^ { 1 } , X _ { t } ^ { 2 } , \ldots   , X _ { t } ^ { n } ) ^ { T }
+d \mathbf   { X }   _ { t } = { \boldsymbol   { \mu   } } _ { t } \,dt + \mathbf   { G }   _ { t } \,d \mathbf   { B }   _ { t }
+{ \boldsymbol   { \mu   } } _ { t }
+\mathbf   { G }   _ { t }
+{ \begin { a l i g n e d } d f ( t , \mathbf   { X }   _ { t } ) & = { \frac   { \partial   f } { \partial   t } } \,dt + \left ( \nabla   _ { \mathbf   { X }   } f \right ) ^ { T } \,d \mathbf   { X }   _ { t } + { \frac   { 1 } { 2 } } \left ( d \mathbf   { X }   _ { t } \right ) ^ { T } \left ( H _ { \mathbf   { X }   } f \right ) \,d \mathbf   { X }   _ { t } , \\&=\left \{ { \frac   { \partial   f } { \partial   t } } + \left ( \nabla   _ { \mathbf   { X }   } f \right ) ^ { T } { \boldsymbol   { \mu   } } _ { t } + { \frac   { 1 } { 2 } } { \text { T r } } \left [ \mathbf   { G }   _ { t } ^ { T } \left ( H _ { \mathbf   { X }   } f \right ) \mathbf   { G }   _ { t } \right ] \right \}dt + \left ( \nabla   _ { \mathbf   { X }   } f \right ) ^ { T } \mathbf   { G }   _ { t } \,d \mathbf   { B }   _ { t } \end { a l i g n e d } }
+d p _ { s } ( t ) = - p _ { s } ( t ) h ( t ) \,dt .
+p _ { s } ( t ) = \exp   \left ( - \int   _ { 0 } ^ { t } h ( u ) \,du \right ) .
+S ( t ^ { - } )
+d _ { j } S ( t )
+d _ { j } S ( t ) = \lim   _ { \Delta   t \to   0 } ( S ( t + \Delta   t ) - S ( t ^ { - } ) )
+\eta   ( S ( t ^ { - } ) , z )
+E [ d _ { j } S ( t ) ] = h ( S ( t ^ { - } ) ) \,dt \int   _ { z } z \eta   ( S ( t ^ { - } ) , z ) \,dz .
+d J _ { S } ( t )
+d J _ { S } ( t ) = d _ { j } S ( t ) - E [ d _ { j } S ( t ) ] = S ( t ) - S ( t ^ { - } ) - \left ( h ( S ( t ^ { - } ) ) \int   _ { z } z \eta   \left ( S ( t ^ { - } ) , z \right ) \,dz \right ) \,dt .
+d _ { j } S ( t ) = E [ d _ { j } S ( t ) ] + d J _ { S } ( t ) = h ( S ( t ^ { - } ) ) \left ( \int   _ { z } z \eta   ( S ( t ^ { - } ) , z ) \,dz \right ) d t + d J _ { S } ( t ) .
+g ( S ( t ) , t )
+\eta   _ { g } ( )
+g ( t ^ { - } )
+S ( t ^ { - } )
+g
+g ( t ) - g ( t ^ { - } ) = h ( t ) \,dt \int   _ { \Delta   g } \,\Delta   g \eta   _ { g } ( \cdot   ) \,d \Delta   g + d J _ { g } ( t ) .
+S
+g ( S ( t ) , t )
+d g ( t ) = \left ( { \frac   { \partial   g } { \partial   t } } + \mu   { \frac   { \partial   g } { \partial   S } } + { \frac   { \sigma   ^ { 2 } } { 2 } } { \frac   { \partial   ^ { 2 } g } { \partial   S ^ { 2 } } } + h ( t ) \int   _ { \Delta   g } \left ( \Delta   g \eta   _ { g } ( \cdot   ) \,d { \Delta   } g \right ) \,\right ) d t + { \frac   { \partial   g } { \partial   S } } \sigma   \,dW ( t ) + d J _ { g } ( t ) .
+{ \begin { a l i g n e d } f ( X _ { t } ) & = f ( X _ { 0 } ) + \sum   _ { i = 1 } ^ { d } \int   _ { 0 } ^ { t } f _ { i } ( X _ { s - } ) \,dX_ { s } ^ { i } + { \frac   { 1 } { 2 } } \sum   _ { i , j = 1 } ^ { d } \int   _ { 0 } ^ { t } f _ { i , j } ( X _ { s - } ) \,d [ X ^ { i } , X ^ { j } ] _ { s } \\&\qquad   + \sum   _ { s \leq   t } \left ( \Delta   f ( X _ { s } ) - \sum   _ { i = 1 } ^ { d } f _ { i } ( X _ { s - } ) \,\Delta   X _ { s } ^ { i } - { \frac   { 1 } { 2 } } \sum   _ { i , j = 1 } ^ { d } f _ { i , j } ( X _ { s - } ) \,\Delta   X _ { s } ^ { i } \,\Delta   X _ { s } ^ { j } \right ) . \end { a l i g n e d } }
+{ \displaystyle   { \begin { a l i g n e d } f ( t , X _ { t } ^ { 1 } , . . . , X _ { t } ^ { d } ) & = f ( 0 , X _ { 0 } ^ { 1 } , . . . , X _ { 0 } ^ { d } ) + \int   _ { 0 } ^ { t } { \dot   { f } } ( { s _ { - } } , X _ { s _ { - } } ^ { 1 } , . . . , X _ { s _ { - } } ^ { d } ) d { s } \\&+\sum   _ { i = 1 } ^ { n } \int   _ { 0 } ^ { t } f _ { i } ( { s _ { - } } , X _ { s _ { - } } ^ { 1 } , . . . , X _ { s _ { - } } ^ { d } ) \,dX_ { s } ^ { ( c , i ) } \\&+{ \frac   { 1 } { 2 } } \sum   _ { i _ { 1 } , . . , i _ { d } = 1 } ^ { d } \int   _ { 0 } ^ { t } f _ { i _ { 1 } , . . , i _ { d } } ( { s _ { - } } , X _ { s _ { - } } ^ { 1 } , . . . , X _ { s _ { - } } ^ { d } ) \,dX_ { s } ^ { ( c , i _ { 1 } ) } . . . X _ { s } ^ { ( c , i _ { d } ) } \\&+\sum   _ { 0 < s \leq   t } \left [ f ( s , X _ { s } ^ { 1 } , . . . , X _ { s } ^ { d } ) - f ( { s _ { - } } , X _ { s _ { - } } ^ { 1 } , . . . , X _ { s _ { - } } ^ { d } ) \right ] \end { a l i g n e d } } }
+{ \displaystyle   X ^ { c , i } }
+{ \begin { a l i g n e d } d \log ( S ) & = f ^ { \prime   } ( S ) \,dS + { \frac   { 1 } { 2 } } f ^ { \prime   \prime   } ( S ) S ^ { 2 } \sigma   ^ { 2 } \,dt \\&={ \frac   { 1 } { S } } \left ( \sigma   S \,dB + \mu   S \,dt \right ) - { \frac   { 1 } { 2 } } \sigma   ^ { 2 } \,dt \\&=\sigma   \,dB + \left ( \mu   - { \tfrac   { \sigma   ^ { 2 } } { 2 } } \right ) \,dt . \end { a l i g n e d } }
+\log ( S _ { t } ) = \log ( S _ { 0 } ) + \sigma   B _ { t } + \left ( \mu   - { \tfrac   { \sigma   ^ { 2 } } { 2 } } \right ) t ,
+S _ { t } = S _ { 0 } \exp   \left ( \sigma   B _ { t } + \left ( \mu   - { \tfrac   { \sigma   ^ { 2 } } { 2 } } \right ) t \right ) .
+{ \begin { a l i g n e d } d \log ( Y ) & = { \frac   { 1 } { Y } } \,dY - { \frac   { 1 } { 2 Y ^ { 2 } } } \,d [ Y ] \\&=dX - { \tfrac   { 1 } { 2 } } \,d [ X ] . \end { a l i g n e d } }
+Y _ { t } = \exp   \left ( X _ { t } - X _ { 0 } - { \tfrac   { 1 } { 2 } } [ X ] _ { t } \right ) .
+d f ( t , S _ { t } ) = \left ( { \frac   { \partial   f } { \partial   t } } + { \frac   { 1 } { 2 } } \left ( S _ { t } \sigma   \right ) ^ { 2 } { \frac   { \partial   ^ { 2 } f } { \partial   S ^ { 2 } } } \right ) \,dt + { \frac   { \partial   f } { \partial   S } } \,dS_ { t } .
+d V _ { t } = r \left ( V _ { t } - { \frac   { \partial   f } { \partial   S } } S _ { t } \right ) \,dt + { \frac   { \partial   f } { \partial   S } } \,dS_ { t } .
+{ \frac   { \partial   f } { \partial   t } } + { \frac   { \sigma   ^ { 2 } S ^ { 2 } } { 2 } } { \frac   { \partial   ^ { 2 } f } { \partial   S ^ { 2 } } } + r S { \frac   { \partial   f } { \partial   S } } - r f = 0 .
+{ \displaystyle   \mathbf   { X }   _ { t } }
+{ \displaystyle   d \mathbf   { X }   _ { t } = d { \begin { p m a t r i x } X _ { t } ^ { 1 } \\X_ { t } ^ { 2 } \end { p m a t r i x } } = { \begin { p m a t r i x } \mu   _ { t } ^ { 1 } \\\mu   _ { t } ^ { 2 } \end { p m a t r i x } } d t + { \begin { p m a t r i x } \sigma   _ { t } ^ { 1 } \\\sigma   _ { t } ^ { 2 } \end { p m a t r i x } } d B _ { t } }
+{ \displaystyle   d ( X _ { t } ^ { 1 } X _ { t } ^ { 2 } ) }
+{ \displaystyle   \mu   _ { t } = { \begin { p m a t r i x } \mu   _ { t } ^ { 1 } \\\mu   _ { t } ^ { 2 } \end { p m a t r i x } } }
+{ \displaystyle   \mathbf   { G }   = { \begin { p m a t r i x } \sigma   _ { t } ^ { 1 } \\\sigma   _ { t } ^ { 2 } \end { p m a t r i x } } }
+{ \displaystyle   f ( t \mathbf   { X }   _ { t } ) = X _ { t } ^ { 1 } X _ { t } ^ { 2 } }
+{ \displaystyle   { \frac   { \partial   f } { \partial   t } } = 0 , \ ( \nabla   _ { \mathbf   { X }   } f ) ^ { T } = ( X _ { t } ^ { 2 } \ \ X_ { t } ^ { 1 } ) }
+{ \displaystyle   H _ { \mathbf   { X }   } f = { \begin { p m a t r i x } 0 & 1 \\1 & 0 \end { p m a t r i x } } }
+{ \displaystyle   { \begin { a l i g n e d } d ( X _ { t } ^ { 1 } X _ { t } ^ { 2 } ) & = d f ( t , \mathbf   { X }   _ { t } ) \\&=0 \cdot   d t + ( X _ { t } ^ { 2 } \ \ X_ { t } ^ { 1 } ) d \mathbf   { X }   _ { t } + { \frac   { 1 } { 2 } } ( d X _ { t } ^ { 1 } \ \ dX_ { t } ^ { 2 } ) { \begin { p m a t r i x } 0 & 1 \\1 & 0 \end { p m a t r i x } } { \begin { p m a t r i x } d X _ { t } ^ { 1 } \\dX_ { t } ^ { 2 } \end { p m a t r i x } } \\&=X_ { t } ^ { 2 } d X _ { t } ^ { 1 } + X _ { t } ^ { 1 } d X _ { t } ^ { 2 } + d X _ { t } ^ { 1 } d X _ { t } ^ { 2 } \end { a l i g n e d } } }
+{ \displaystyle   { \begin { a l i g n e d } d ( X _ { t } ^ { 1 } X _ { t } ^ { 2 } ) & = \left \{ 0 + ( X _ { t } ^ { 2 } \ \ X_ { t } ^ { 1 } ) { \begin { p m a t r i x } \mu   _ { t } ^ { 1 } \\\mu   _ { t } ^ { 2 } \end { p m a t r i x } } + { \frac   { 1 } { 2 } } { \text { T r } } \left [ ( \sigma   _ { t } ^ { 1 } \ \ \sigma   _ { t } ^ { 2 } ) { \begin { p m a t r i x } 0 & 1 \\1 & 0 \end { p m a t r i x } } { \begin { p m a t r i x } \sigma   _ { t } ^ { 1 } \\\sigma   _ { t } ^ { 2 } \end { p m a t r i x } } \right ] \right \}dt + ( X _ { t } ^ { 2 } \sigma   _ { t } ^ { 1 } + X _ { t } ^ { 1 } \sigma   _ { t } ^ { 2 } ) d B _ { t } \\&=\left ( X _ { t } ^ { 2 } \mu   _ { t } ^ { 1 } + X _ { t } ^ { 1 } \mu   _ { t } ^ { 2 } + \sigma   _ { t } ^ { 1 } \sigma   _ { t } ^ { 2 } \right ) d t + ( X _ { t } ^ { 2 } \sigma   _ { t } ^ { 1 } + X _ { t } ^ { 1 } \sigma   _ { t } ^ { 2 } ) d B _ { t } \end { a l i g n e d } } }
+{ \displaystyle   X _ { t } ^ { 1 } X _ { t } ^ { 2 } }

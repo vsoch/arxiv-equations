@@ -1,0 +1,6 @@
+M = { \frac     { \max   x + \min   x } { 2 } } .
+x / 2 ,
+x / n .
+\operatorname   { v a r } ( M ) = { \frac     { \pi   ^ { 2 } } { 2 4 \ln ( n ) } } .
+\operatorname   { v a r } ( M ) = { \frac     { \pi   ^ { 2 } } { 1 2 } }
+\max   \left | x _ { i } - m \right |

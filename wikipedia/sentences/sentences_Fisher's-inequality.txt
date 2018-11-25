@@ -1,1 +1,0 @@
-{ \displaystyle   { \binom   { v } { s } } }

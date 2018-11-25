@@ -1,3 +1,0 @@
-{ \displaystyle   z _ { i j } = \mu   _ { j } + \epsilon   _ { i j } }
-{ \displaystyle   z _ { i j } \ \sim   \ { \mathcal   { N } } ( \beta   _ { j } , \,\sigma   _ { i } ^ { 2 } ) . }
-{ \displaystyle   \beta   \ \sim   \ { \mathcal   { N } } ( \beta   ^ { * } , \Sigma   ^ { * } ) . }

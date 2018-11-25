@@ -1,9 +1,0 @@
-X _ 1 ,   \dots ,   X _ n \sim   N ( \mu , \sigma ^ 2 ) \ ,
-\overline { X } = { X _ 1   +   \cdots   +   X _ n   \over   n }
-{ \displaystyle   { \overline   { X } } \sim   N \left ( \mu   , { \frac   { \sigma   ^ { 2 } } { n } } \right ) . }
-e _ { i } = X _ { i } - \mu   , \ ,
-r _ { i } = X _ { i } - \overline   { X } .
-{ \frac     1 { \sigma   ^ { 2 } } } \sum   _ { { i = 1 } } ^ { n } e _ { i } ^ { 2 } \sim   \chi   _ { n } ^ { 2 } .
-{ \frac     1 { \sigma   ^ { 2 } } } \sum   _ { { i = 1 } } ^ { n } r _ { i } ^ { 2 } \sim   \chi   _ { { n - 1 } } ^ { 2 } .
-{ \displaystyle   { \frac   { { \overline   { X } } _ { n } - \mu   } { S _ { n } / { \sqrt   { n } } } } , }
-S _ { n }

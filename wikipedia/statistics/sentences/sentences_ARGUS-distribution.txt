@@ -1,0 +1,19 @@
+c > 0
+{ \displaystyle   \chi   > 0 }
+{ \displaystyle   x \in   ( 0 , c ) \ ! }
+{ \displaystyle   \mu   = c { \sqrt   { \pi   / 8 } } \;{ \frac   { \chi   e ^ { - { \frac   { \chi   ^ { 2 } } { 4 } } } I _ { 1 } ( { \tfrac   { \chi   ^ { 2 } } { 4 } } ) } { \Psi   ( \chi   ) } } }
+\Psi   ( x )
+{ \displaystyle   { \frac   { c } { { \sqrt   { 2 } } \chi   } } { \sqrt   { ( \chi   ^ { 2 } - 2 ) + { \sqrt   { \chi   ^ { 4 } + 4 } } } } }
+{ \displaystyle   c ^ { 2 } \!\left ( 1 - { \frac   { 3 } { \chi   ^ { 2 } } } + { \frac   { \chi   \phi   ( \chi   ) } { \Psi   ( \chi   ) } } \right ) - \mu   ^ { 2 } }
+{ \displaystyle   f ( x ; \chi   , c ) = { \frac   { \chi   ^ { 3 } } { { \sqrt   { 2 \pi   } } \,\Psi   ( \chi   ) } } \cdot   { \frac   { x } { c ^ { 2 } } } { \sqrt   { 1 - { \frac   { x ^ { 2 } } { c ^ { 2 } } } } } \exp   { \bigg   \{ } - { \frac   { 1 } { 2 } } \chi   ^ { 2 } { \Big   ( } 1 - { \frac   { x ^ { 2 } } { c ^ { 2 } } } { \Big   ) } { \bigg   \ } } , }
+{ \displaystyle   0 \leq   x < c }
+\chi  
+c
+{ \displaystyle   \Psi   ( \chi   ) = \Phi   ( \chi   ) - \chi   \phi   ( \chi   ) - { \tfrac   { 1 } { 2 } } , }
+{ \displaystyle   \Phi   ( x ) }
+{ \displaystyle   \phi   ( x ) }
+{ \displaystyle   F ( x ) = 1 - { \frac   { \Psi   \left ( \chi   { \sqrt   { 1 - x ^ { 2 } / c ^ { 2 } } } \right ) } { \Psi   ( \chi   ) } } }
+{ \displaystyle   1 - { \frac   { 3 } { \chi   ^ { 2 } } } + { \frac   { \chi   \phi   ( \chi   ) } { \Psi   ( \chi   ) } } = { \frac   { 1 } { n } } \sum   _ { i = 1 } ^ { n } { \frac   { x _ { i } ^ { 2 } } { c ^ { 2 } } } }
+{ \displaystyle   \scriptstyle   { \hat   { \chi   } } }
+{ \displaystyle   f ( x ) = { \frac   { 2 ^ { - p } \chi   ^ { 2 ( p + 1 ) } } { \Gamma   ( p + 1 ) - \Gamma   ( p + 1 , \,{ \tfrac   { 1 } { 2 } } \chi   ^ { 2 } ) } } \cdot   { \frac   { x } { c ^ { 2 } } } \left ( 1 - { \frac   { x ^ { 2 } } { c ^ { 2 } } } \right ) ^ { p } \exp   \left \{ - { \frac   { 1 } { 2 } } \chi   ^ { 2 } \left ( 1 - { \frac   { x ^ { 2 } } { c ^ { 2 } } } \right ) \right \},\qquad   0 \leq   x \leq   c , }
+{ \displaystyle   { \frac   { c } { { \sqrt   { 2 } } \chi   } } { \sqrt   { ( \chi   ^ { 2 } - 2 p - 1 ) + { \sqrt   { \chi   ^ { 2 } ( \chi   ^ { 2 } - 4 p + 2 ) + ( 1 + 2 p ) ^ { 2 } } } } } }

@@ -1,0 +1,43 @@
+n
+2 ^ { n } - 1
+n
+g : { \mathcal   { X } } \rightarrow   { \mathcal   { Y } }
+{ \boldsymbol   { x } } \in   { \mathcal   { X } }
+y \in   { \mathcal   { Y } }
+\mathbf   { D }   = \{ ( { \boldsymbol   { x } } _ { 1 } , y _ { 1 } ) , \dots   , ( { \boldsymbol   { x } } _ { n } , y _ { n } ) \ }
+h : { \mathcal   { X } } \rightarrow   { \mathcal   { Y } }
+g
+{ \boldsymbol   { x } } _ { i }
+y
+{ \mathcal   { X } }
+{ \mathcal   { X } }
+g : { \mathcal   { X } } \rightarrow   { \mathcal   { Y } }
+{ \mathcal   { X } }
+{ \mathcal   { Y } }
+h : { \mathcal   { X } } \rightarrow   { \mathcal   { Y } }
+p ( { \rm   { l a b e l } } | { \boldsymbol   { x } } , { \boldsymbol   { \theta   } } ) = f \left ( { \boldsymbol   { x } } ; { \boldsymbol   { \theta   } } \right )
+{ \boldsymbol   { x } }
+{ \boldsymbol   { \theta   } }
+p ( { { \boldsymbol   { x } } | { \rm   { l a b e l } } } )
+p ( { \rm   { l a b e l } } | { \boldsymbol   { \theta   } } )
+p ( { \rm   { l a b e l } } | { \boldsymbol   { x } } , { \boldsymbol   { \theta   } } ) = { \frac   { p ( { { \boldsymbol   { x } } | { \rm   { l a b e l , { \boldsymbol   { \theta   } } } } } ) p ( { \rm   { l a b e l | { \boldsymbol   { \theta   } } } } ) } { \sum   _ { L \in   { \text { a l l   l a b e l s } } } p ( { \boldsymbol   { x } } | L ) p ( L | { \boldsymbol   { \theta   } } ) } } .
+p ( { \rm   { l a b e l } } | { \boldsymbol   { x } } , { \boldsymbol   { \theta   } } ) = { \frac   { p ( { { \boldsymbol   { x } } | { \rm   { l a b e l , { \boldsymbol   { \theta   } } } } } ) p ( { \rm   { l a b e l | { \boldsymbol   { \theta   } } } } ) } { \int   _ { L \in   { \text { a l l   l a b e l s } } } p ( { \boldsymbol   { x } } | L ) p ( L | { \boldsymbol   { \theta   } } ) \operatorname   { d }   L } } .
+{ \boldsymbol   { \theta   } }
+p ( { \boldsymbol   { \theta   } } )
+{ \boldsymbol   { \theta   } }
+{ \boldsymbol   { \theta   } } ^ { * } = \arg   \max   _ { \boldsymbol   { \theta   } } p ( { \boldsymbol   { \theta   } } | \mathbf   { D }   )
+{ \boldsymbol   { \theta   } } ^ { * }
+{ \boldsymbol   { \theta   } }
+p ( { \boldsymbol   { \theta   } } | \mathbf   { D }   )
+{ \boldsymbol   { \theta   } }
+p ( { \boldsymbol   { \theta   } } | \mathbf   { D }   ) = \left [ \prod   _ { i = 1 } ^ { n } p ( y _ { i } | { \boldsymbol   { x } } _ { i } , { \boldsymbol   { \theta   } } ) \right ] p ( { \boldsymbol   { \theta   } } ) .
+{ \boldsymbol   { \theta   } } ^ { * }
+{ \boldsymbol   { x } }
+{ \boldsymbol   { \theta   } }
+p ( { \rm   { l a b e l } } | { \boldsymbol   { x } } ) = \int   p ( { \rm   { l a b e l } } | { \boldsymbol   { x } } , { \boldsymbol   { \theta   } } ) p ( { \boldsymbol   { \theta   } } | \mathbf   { D }   ) \operatorname   { d }   { \boldsymbol   { \theta   } } .
+p ( { \rm   { l a b e l } } | { \boldsymbol   { \theta   } } )
+p ( { \rm   { l a b e l } } | { \boldsymbol   { \theta   } } )
+{ \boldsymbol   { \theta   } }
+{ \boldsymbol   { \mu   } } _ { 1 }
+{ \boldsymbol   { \mu   } } _ { 2 }
+{ \boldsymbol   { \Sigma   } }

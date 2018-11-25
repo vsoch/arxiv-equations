@@ -1,0 +1,21 @@
+\sum   _ { { i = 1 } } ^ { n } X _ { i } \sim   Y
+{ \displaystyle   X _ { 1 } , X _ { 2 } , \dots   , X _ { n } }
+Y
+{ \displaystyle   X _ { 1 } , X _ { 2 } , \dots   , X _ { n } }
+X _ { i }
+Y
+{ \displaystyle   \sum   _ { i = 1 } ^ { n } \mathrm   { B e r n o u l l i }   ( p ) \sim   \mathrm   { B i n o m i a l }   ( n , p ) \qquad   0 < p < 1 \quad   n = 1 , 2 , \dots   }
+{ \displaystyle   \sum   _ { i = 1 } ^ { n } \mathrm   { B i n o m i a l }   ( n _ { i } , p ) \sim   \mathrm   { B i n o m i a l }   \left ( \sum   _ { i = 1 } ^ { n } n _ { i } , p \right ) \qquad   0 < p < 1 \quad   n _ { i } = 1 , 2 , \dots   }
+{ \displaystyle   \sum   _ { i = 1 } ^ { n } \mathrm   { N e g a t i v e B i n o m i a l }   ( n _ { i } , p ) \sim   \mathrm   { N e g a t i v e B i n o m i a l }   \left ( \sum   _ { i = 1 } ^ { n } n _ { i } , p \right ) \qquad   0 < p < 1 \quad   n _ { i } = 1 , 2 , \dots   }
+{ \displaystyle   \sum   _ { i = 1 } ^ { n } \mathrm   { G e o m e t r i c }   ( p ) \sim   \mathrm   { N e g a t i v e B i n o m i a l }   ( n , p ) \qquad   0 < p < 1 \quad   n = 1 , 2 , \dots   }
+{ \displaystyle   \sum   _ { i = 1 } ^ { n } \mathrm   { P o i s s o n }   ( \lambda   _ { i } ) \sim   \mathrm   { P o i s s o n }   \left ( \sum   _ { i = 1 } ^ { n } \lambda   _ { i } \right ) \qquad   \lambda   _ { i } > 0 }
+\sum   _ { { i = 1 } } ^ { n } { \mathrm     { N o r m a l } } ( \mu   _ { i } , \sigma   _ { i } ^ { 2 } ) \sim   { \mathrm     { N o r m a l } } \left ( \sum   _ { { i = 1 } } ^ { n } \mu   _ { i } , \sum   _ { { i = 1 } } ^ { n } \sigma   _ { i } ^ { 2 } \right ) \qquad   - \infty   < \mu   _ { i } < \infty   \quad   \sigma   _ { i } ^ { 2 } > 0
+\sum   _ { { i = 1 } } ^ { n } { \mathrm     { C a u c h y } } ( a _ { i } , \gamma   _ { i } ) \sim   { \mathrm     { C a u c h y } } \left ( \sum   _ { { i = 1 } } ^ { n } a _ { i } , \sum   _ { { i = 1 } } ^ { n } \gamma   _ { i } \right ) \qquad   - \infty   < a _ { i } < \infty   \quad   \gamma   _ { i } > 0
+\sum   _ { { i = 1 } } ^ { n } { \mathrm     { G a m m a } } ( \alpha   _ { i } , \beta   ) \sim   { \mathrm     { G a m m a } } \left ( \sum   _ { { i = 1 } } ^ { n } \alpha   _ { i } , \beta   \right ) \qquad   \alpha   _ { i } > 0 \quad   \beta   > 0
+\sum   _ { { i = 1 } } ^ { n } { \mathrm     { E x p o n e n t i a l } } ( \theta   ) \sim   { \mathrm     { G a m m a } } ( n , \theta   ) \qquad   \theta   > 0 \quad   n = 1 , 2 , \dots  
+\sum   _ { { i = 1 } } ^ { n } \chi   ^ { 2 } ( r _ { i } ) \sim   \chi   ^ { 2 } \left ( \sum   _ { { i = 1 } } ^ { n } r _ { i } \right ) \qquad   r _ { i } = 1 , 2 , \dots  
+\sum   _ { { i = 1 } } ^ { r } N ^ { 2 } ( 0 , 1 ) \sim   \chi   _ { r } ^ { 2 } \qquad   r = 1 , 2 , \dots  
+\sum   _ { { i = 1 } } ^ { n } ( X _ { i } - { \bar     X } ) ^ { 2 } \sim   \sigma   ^ { 2 } \chi   _ { { n - 1 } } ^ { 2 } , \quad  
+X _ { 1 } , \dots   , X _ { n }
+N ( \mu   , \sigma   ^ { 2 } )
+{ \displaystyle   { \bar   { X } } = { \frac   { 1 } { n } } \sum   _ { i = 1 } ^ { n } X _ { i } . }

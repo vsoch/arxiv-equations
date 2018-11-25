@@ -1,0 +1,37 @@
+( \Omega   , { \mathcal   { F } } , P )
+E \in   { \mathcal   { F } }
+P ( E ) = 1
+E
+E
+{ \displaystyle   P ( E ^ { C } ) = 0 }
+{ \displaystyle   E \subseteq   \Omega   }
+{ \mathcal   { F } }
+E ^ C
+N \in \mathcal   F
+{ \displaystyle   P ( N ) = 0 }
+P
+E
+{ \displaystyle   ( \{ H , T \},2 ^ { \{ H , T \}},P ) }
+{ \displaystyle   \{ H \ } }
+\{ T \ }
+{ \displaystyle   P ( H ) = p \in   ( 0 , 1 ) }
+{ \displaystyle   P ( T ) = 1 - p }
+{ \displaystyle   \omega   _ { 1 } , \omega   _ { 2 } , \ldots   }
+{ \displaystyle   ( X _ { i } ) _ { i \in   \mathbb   { N }   } }
+X _ i ( \omega ) = \omega_i
+X _ { i }
+i
+n
+{ \displaystyle   P ( X _ { i } = H , \ i = 1 , 2 , \dots   , n ) = \left ( P ( X _ { 1 } = H ) \right ) ^ { n } = p ^ { n } }
+n \rightarrow   \infty  
+p \in   ( 0 , 1 )
+p
+T
+p ^ { 1 , 0 0 0 , 0 0 0 } \neq   0
+1   -   p ^ { 1 , 0 0 0 , 0 0 0 }
+{ \displaystyle   G ( n , p _ { n } ) }
+G ( n , p )
+n
+p
+\varepsilon   > 0
+{ \displaystyle   p _ { n } < { \tfrac   { ( 1 + \varepsilon   ) \ln   n } { n } } }

@@ -1,2 +1,0 @@
-Y ( x _ { 1 } , \dots   , x _ { n } ) = a _ { 0 } + \sum   \limits   _ { { i = 1 } } ^ { m } a _ { i } f _ { i }
-Y ( x _ { 1 } , \dots   , x _ { n } ) = a _ { 0 } + \sum   \limits   _ { { i = 1 } } ^ { n } { a _ { i } } x _ { i } + \sum   \limits   _ { { i = 1 } } ^ { n } { \sum   \limits   _ { { j = i } } ^ { n } { a _ { { i j } } } } x _ { i } x _ { j } + \sum   \limits   _ { { i = 1 } } ^ { n } { \sum   \limits   _ { { j = i } } ^ { n } { \sum   \limits   _ { { k = j } } ^ { n } { a _ { { i j k } } } } } x _ { i } x _ { j } x _ { k } + \cdots  

@@ -1,8 +1,0 @@
-  Q   =   n \left ( n + 2 \right ) \sum_ { k = 1 } ^ h \frac { \hat { \rho } ^ 2 _ k } { n - k }  
-\hat { \rho } _ k
-H _ { 0 }
-\chi   _ { { ( h ) } } ^ { 2 }
-  Q   >   \chi_ { 1 - \alpha , h } ^ 2  
-\chi_ { 1 - \alpha , h } ^ 2
-h - p - q
-  Q _ \text { B P }   =   n   \sum_ { k = 1 } ^ h   \hat { \rho } ^ 2 _ k ,  

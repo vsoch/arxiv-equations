@@ -1,0 +1,62 @@
+{ \displaystyle   y _ { i t } ~ = ~ \gamma   _ { s ( i ) } + \lambda   _ { t } + \delta   I ( s ( i ) { \text {   i s   t h e   t r e a t m e n t   g r o u p ,   } } t { \text {   i s   i n   t h e   a f t e r   p e r i o d } } ) + \varepsilon   _ { i t } }
+y _ { { i t } }
+i
+t
+s ( i )
+i
+{ \displaystyle   I ( \dots   ) }
+{ \displaystyle   ( \dots   ) }
+Y
+\gamma_s
+s
+\lambda_t
+\delta  
+{ \displaystyle   \varepsilon   _ { i t } }
+{ \displaystyle   { \begin { a l i g n e d } n _ { s } & = { \text {   n u m b e r   o f   i n d i v i d u a l s   i n   g r o u p   } } s \\{ \overline   { y } } _ { s t } & = { \frac   { 1 } { n _ { s } } } \sum   _ { i = 1 } ^ { n } y _ { i t } \ I ( s ( i ) ~ = ~ s ) , \\{ \overline   { \gamma   } } _ { s } & = { \frac   { 1 } { n _ { s } } } \sum   _ { i = 1 } ^ { n } \gamma   _ { s } ( i ) \ I ( s ( i ) ~ = ~ s ) ~ = ~ \gamma   _ { s } , \\{ \overline   { \lambda   } } _ { s t } & = { \frac   { 1 } { n _ { s } } } \sum   _ { i = 1 } ^ { n } \lambda   _ { t } \ I ( s ( i ) ~ = ~ s ) ~ = ~ \lambda   _ { t } , \\D_ { s t } & = { \frac   { 1 } { n _ { s } } } \sum   _ { i = 1 } ^ { n } I ( s ( i ) ~ = ~ { \text {   t r e a t m e n t ,   } } t { \text {   i n   a f t e r   p e r i o d } } ) \ I ( s ( i ) ~ = ~ s ) ~ = ~ I ( s ~ = ~ { \text {   t r e a t m e n t ,   } } t { \text {   i n   a f t e r   p e r i o d } } ) , \\{ \overline   { \varepsilon   } } _ { s t } & = { \frac   { 1 } { n _ { s } } } \sum   _ { i = 1 } ^ { n } \varepsilon   _ { i t } \ I ( s ( i ) ~ = ~ s ) , \end { a l i g n e d } } }
+s = 1 , 2
+t = 1 , 2
+D _ { { s t } }
+{ \displaystyle   { \begin { a l i g n e d } & ( { \overline   { y } } _ { 1 1 } - { \overline   { y } } _ { 1 2 } ) - ( { \overline   { y } } _ { 2 1 } - { \overline   { y } } _ { 2 2 } ) \\[6pt ] = { } & { \big   [ } ( \gamma   _ { 1 } + \lambda   _ { 1 } + \delta   D _ { 1 1 } + { \overline   { \varepsilon   } } _ { 1 1 } ) - ( \gamma   _ { 1 } + \lambda   _ { 2 } + \delta   D _ { 1 2 } + { \overline   { \varepsilon   } } _ { 1 2 } ) { \big   ] } \\&\qquad   { } - { \big   [ } ( \gamma   _ { 2 } + \lambda   _ { 1 } + \delta   D _ { 2 1 } + { \overline   { \varepsilon   } } _ { 2 1 } ) - ( \gamma   _ { 2 } + \lambda   _ { 2 } + \delta   D _ { 2 2 } + { \overline   { \varepsilon   } } _ { 2 2 } ) { \big   ] } \\[6pt ] = { } & \delta   ( D _ { 1 1 } - D _ { 1 2 } ) + \delta   ( D _ { 2 2 } - D _ { 2 1 } ) + { \overline   { \varepsilon   } } _ { 1 1 } - { \overline   { \varepsilon   } } _ { 1 2 } + { \overline   { \varepsilon   } } _ { 2 2 } - { \overline   { \varepsilon   } } _ { 2 1 } . \end { a l i g n e d } } }
+{ \displaystyle   \operatorname   { E }   \left [ ( { \overline   { y } } _ { 1 1 } - { \overline   { y } } _ { 1 2 } ) - ( { \overline   { y } } _ { 2 1 } - { \overline   { y } } _ { 2 2 } ) \right ] ~ = ~ \delta   ( D _ { 1 1 } - D _ { 1 2 } ) + \delta   ( D _ { 2 2 } - D _ { 2 1 } ) . }
+{ \displaystyle   s = 2 }
+t   =   2
+D _ { { 2 2 } } = 1
+D _ { { 1 1 } } = D _ { { 1 2 } } = D _ { { 2 1 } } = 0
+{ \displaystyle   { \hat   { \delta   } } ~ = ~ ( { \overline   { y } } _ { 1 1 } - { \overline   { y } } _ { 1 2 } ) - ( { \overline   { y } } _ { 2 1 } - { \overline   { y } } _ { 2 2 } ) , }
+D _ { { s t } }
+{ \displaystyle   \gamma   _ { 1 } = 0 }
+\lambda   _ { 2 } - \lambda   _ { 1 }
+s = 1
+s = 2
+\lambda   _ { { s t } } ~ : ~ \lambda   _ { { 2 2 } } - \lambda   _ { { 2 1 } } \neq   \lambda   _ { { 1 2 } } - \lambda   _ { { 1 1 } }
+y _ { { s t } }
+s = 2
+s = 1
+t = 2
+y _ { { 2 2 } }
+y _ { { 1 2 } }
+y _ { { 1 2 } } - y _ { { 2 2 } }
+t = 1
+y _ { { 2 1 } }
+y _ { { 1 1 } }
+y _ { { 1 1 } } - y _ { { 2 1 } }
+y _ { { 2 1 } } - y _ { { 2 2 } }
+y _ { { 1 1 } } - y _ { { 1 2 } }
+( y _ { { 1 1 } } - y _ { { 2 1 } } ) - ( y _ { { 1 2 } } - y _ { { 2 2 } } )
+y ~ = ~ \beta   _ { 0 } + \beta   _ { 1 } T + \beta   _ { 2 } S + \beta   _ { 3 } ( T \cdot   S ) + \varepsilon  
+T
+1
+t = 2
+S
+1
+s = 2
+( T \cdot   S )
+S = T = 1
+{ \displaystyle   { \begin { a l i g n e d } { \hat   { \beta   } } _ { 0 } & = { \widehat   { E } } ( y \mid   T = 0 , ~ S = 0 ) \\[8pt ] { \hat   { \beta   } } _ { 1 } & = { \widehat   { E } } ( y \mid   T = 1 , ~ S = 0 ) - { \widehat   { E } } ( y \mid   T = 0 , ~ S = 0 ) \\[8pt ] { \hat   { \beta   } } _ { 2 } & = { \widehat   { E } } ( y \mid   T = 0 , ~ S = 1 ) - { \widehat   { E } } ( y \mid   T = 0 , ~ S = 0 ) \\[8pt ] { \hat   { \beta   } } _ { 3 } & = { \big   [ } { \widehat   { E } } ( y \mid   T = 1 , ~ S = 1 ) - { \widehat   { E } } ( y \mid   T = 0 , ~ S = 1 ) { \big   ] } \\&\qquad   { } - { \big   [ } { \widehat   { E } } ( y \mid   T = 1 , ~ S = 0 ) - { \widehat   { E } } ( y \mid   T = 0 , ~ S = 0 ) { \big   ] } , \end { a l i g n e d } } }
+{ \displaystyle   { \widehat   { E } } ( \dots   \mid   \dots   ) }
+T = 1
+S = 0
+{ \displaystyle   { \begin { a l i g n e d } { \widehat   { E } } ( y \mid   T = 1 , ~ S = 0 ) & = { \widehat   { E } } ( y \mid   { \text {   a f t e r   p e r i o d ,   c o n t r o l } } ) \\[3pt ] \\&={ \frac   { { \widehat   { E } } ( y \ I ( { \text {   a f t e r   p e r i o d ,   c o n t r o l } } ) ) } { { \widehat   { P } } ( { \text {   a f t e r   p e r i o d ,   c o n t r o l } } ) } } \\[3pt ] \\&={ \frac   { \sum   _ { i = 1 } ^ { n } y _ { i , { \text { a f t e r } } } I ( i { \text {   i n   c o n t r o l } } ) } { n _ { \text { c o n t r o l } } } } = { \overline   { y } } _ { \text { c o n t r o l ,   a f t e r } } \\[3pt ] \\&={ \overline   { y } } _ { \text { 1 2 } } \end { a l i g n e d } } }
+T
+S
+{ \displaystyle   { \hat   { \beta   } } _ { 3 } ~ = ~ ( y _ { 1 1 } - y _ { 2 1 } ) - ( y _ { 1 2 } - y _ { 2 2 } ) . }

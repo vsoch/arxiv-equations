@@ -1,2 +1,0 @@
-{ \displaystyle   e ( c ) = n \prod   _ { i = 1 } ^ { m } p _ { i } ( c _ { i } ) . }
-\alpha  

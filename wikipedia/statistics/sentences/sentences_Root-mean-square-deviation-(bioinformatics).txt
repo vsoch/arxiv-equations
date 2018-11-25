@@ -1,0 +1,5 @@
+\mathrm   { R M S D }   = { \sqrt   { { \frac   { 1 } { N } } \sum   _ { i = 1 } ^ { N } \delta   _ { i } ^ { 2 } } }
+n
+\mathbf   { v }  
+\mathbf   { w }  
+{ \begin { a l i g n e d } \mathrm   { R M S D }   ( \mathbf   { v }   , \mathbf   { w }   ) & = { \sqrt   { { \frac   { 1 } { n } } \sum   _ { i = 1 } ^ { n } \|v_ { i } - w _ { i } \|^ { 2 } } } \\&={ \sqrt   { { \frac   { 1 } { n } } \sum   _ { i = 1 } ^ { n } ( ( { v _ { i } } _ { x } - { w _ { i } } _ { x } ) ^ { 2 } + ( { v _ { i } } _ { y } - { w _ { i } } _ { y } ) ^ { 2 } + ( { v _ { i } } _ { z } - { w _ { i } } _ { z } ) ^ { 2 } } } ) \end { a l i g n e d } }

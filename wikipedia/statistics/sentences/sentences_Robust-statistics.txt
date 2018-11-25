@@ -1,0 +1,92 @@
+n
+( X _ 1 , \dots , X _ n )
+x _ 1 , \dots , x _ n
+\overline { X _ n } : = \frac { X _ 1 + \cdots + X _ n } { n }
+{ \overline   { x } }
+  x _ 1 , \dots , x _ n
+( \Omega , \mathcal { A } , P )
+( \mathcal { X } , \Sigma )
+\Theta  
+p \in \mathbb { N } ^ *
+( \Gamma , S )
+( \Omega , \mathcal { A } , P )
+( \mathcal { X } , \Sigma ) = ( \mathbb { R } , \mathcal { B } )
+\Theta = \mathbb { R } \times \mathbb { R } ^ +
+( \Gamma , S ) = ( \mathbb { R } , \mathcal { B } )
+n \in \mathbb { N } ^ *
+X _ 1 , \dots , X _ n : ( \Omega ,     \mathcal { A } ) \rightarrow ( \mathcal { X } , \Sigma )
+( x _ 1 , \dots , x _ n )
+T _ n : ( \mathcal { X } ^ n , \Sigma ^ n ) \rightarrow ( \Gamma , S )
+i \in \{ 1 , \dots , n \ }
+E I F _ i
+i
+{ \displaystyle   E I F _ { i } : x \in   { \mathcal   { X } } \mapsto   n \cdot   ( T _ { n } ( x _ { 1 } , \dots   , x _ { i - 1 } , x , x _ { i + 1 } , \dots   , x _ { n } ) - T _ { n } ( x _ { 1 } , \dots   , x _ { i - 1 } , x _ { i } , x _ { i + 1 } , \dots   , x _ { n } ) ) }
+x
+A
+\Sigma  
+\theta \in \Theta
+F
+A
+T : A \rightarrow \Gamma
+( T _ n ) _ { n \in \mathbb { N } }
+\forall   \theta \in \Theta ,   T ( F _ \theta ) = \theta
+F
+G
+A
+F
+G
+d T _ { G - F } ( F )   =   \lim_ { t \rightarrow   0 ^ + } \frac { T ( t G + ( 1 - t ) F )   -   T ( F ) } { t }
+T
+F
+G - F
+x \in \mathcal { X }
+\Delta_x
+\{ x \ }
+G = \Delta_x
+I F ( x ;   T ;   F ) : = \lim_ { t \rightarrow   0 ^ + } \frac { T ( t \Delta_x + ( 1 - t ) F )   -   T ( F ) } { t } .
+x
+t
+\rho   ^ { * }
+\gamma ^ *
+\lambda ^ *
+\rho ^ * : = \inf_ { r > 0 } \{ r : I F ( x ; T ; F ) = 0 ,   | x | > r \ }
+\gamma ^ * ( T ; F )   : =   \sup_ { x \in \mathcal { X } } | I F ( x ;   T   ;   F ) |
+\lambda ^ * ( T ; F )   : =   \sup_ { ( x , y ) \in \mathcal { X } ^ 2 \atop   x \neq   y } \left \|\frac { I F ( y   ;   T ;   F )   -   I F ( x ;   T   ;   F ) } { y - x } \right \ |
+x
+y
+y
+x
+\prod_ { i = 1 } ^ n   f ( x _ i )
+\sum_ { i = 1 } ^ n - \log   f ( x _ i )
+\sum_ { i = 1 } ^ n   \rho ( x _ i )
+\rho  
+\sum_ { i = 1 } ^ n   \rho ( x _ i )
+\rho  
+\sum_ { i = 1 } ^ n   \psi ( x _ i )   =   0
+\psi ( x )   =   \frac { d \rho ( x ) } { d x }
+\rho  
+\rho  
+\psi  
+\rho  
+\psi  
+\rho   ( x )
+\rho  
+T
+\psi  
+\psi  
+I F ( x ; T , F )   =   M ^ { - 1 } \psi ( x , T ( F ) )
+p \times   p
+{ \displaystyle   M = - \int   _ { \mathcal   { X } } \left ( { \frac   { \partial   \psi   ( x , \theta   ) } { \partial   \theta   } } \right ) _ { T ( F ) } \,dF ( x ) . }
+\psi  
+\psi  
+\nu  
+{ \displaystyle   \psi   ( x ) = { \frac   { x } { x ^ { 2 } + \nu   } } . }
+\nu   = 1
+\nu  
+\nu  
+\nu  
+\psi  
+\nu  
+  \hat \mu   =   2 7 . 4 0 ,   \hat \sigma   =   3 . 8 1 ,   \hat \nu   =   2 . 1 3 .
+\nu   =   4
+\hat \mu   =   2 7 . 4 9 ,   \hat \sigma   =   4 . 5 1 .

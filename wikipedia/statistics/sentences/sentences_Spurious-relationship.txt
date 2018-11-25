@@ -1,0 +1,15 @@
+y   =   a _ 0   +   a _ 1 x _ 1   +   a _ 2 x _ 2   +   \cdots   +   a _ k x _ k   +   e
+y
+x _ { j }
+e
+x _ { j }
+a _ { j }
+a _ { j } = 0
+a _ { j } \neq   0
+x _ { j }
+a _ { j } = 0
+x _ { j }
+a _ { j } \neq   0
+x _ { j }
+x _ { j }
+x _ { j }

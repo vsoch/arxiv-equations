@@ -1,0 +1,99 @@
+{ \displaystyle   { \mathcal   { L } } ( \theta   \,;x ) }
+{ \displaystyle   \{ f ( \cdot   \,;\theta   ) \mid   \theta   \in   \Theta   \ } }
+\theta  
+\theta  
+{ \displaystyle   { \mathcal   { L } } ( \theta   \,;x ) }
+{ \displaystyle   { \hat   { \theta   } } \in   \{ { \underset   { \theta   \in   \Theta   } { \operatorname   { a r g \,max }   } } \ { \mathcal   { L } } ( \theta   \,;x ) \ } , }
+{ \displaystyle   \ell   ( \theta   \,;x ) = \ln   { \mathcal   { L } } ( \theta   \,;x ) , }
+{ \displaystyle   { \hat   { \ell   } } ( \theta   \,;x ) = { \frac   { 1 } { n } } \ln   { \mathcal   { L ( \theta   \,;x ) } } . }
+\ell  
+{ \displaystyle   { \hat   { \ell   } } }
+x
+\Theta  
+{ \displaystyle   { \hat   { \ell   } } ( \theta   \,;x ) }
+{ \displaystyle   { \hat   { \ell   } } ( \theta   \,;x ) = { \frac   { 1 } { n } } \sum   _ { i = 1 } ^ { n } \ln   f ( x _ { i } \mid   \theta   ) , }
+\ell   ( \theta   ) = \operatorname   { E }   [ \,\ln   f ( x _ { i } \mid   \theta   ) \ , ]
+{ \displaystyle   f ( \cdot   \,;\theta   _ { 0 } ) }
+{ \hat   { \theta   } }
+{ \displaystyle   { \hat   { \theta   } } _ { \mathrm   { m l e }   } \ { \xrightarrow   { \text { p } } } \ \theta   _ { 0 } . }
+{ \displaystyle   { \hat   { \theta   } } _ { \mathrm   { m l e }   } \ { \xrightarrow   { \text { a . s . } } } \ \theta   _ { 0 } . }
+{ \displaystyle   f ( \cdot   \,;\theta   _ { 0 } ) }
+{ \displaystyle   f ( \cdot   \,;\theta   _ { 0 } ) }
+\theta   \neq   \theta   _ { 0 } \quad   \Leftrightarrow   \quad   f ( \cdot   \mid   \theta   ) \neq   f ( \cdot   \mid   \theta   _ { 0 } ) .
+{ \displaystyle   \operatorname   { P }   \!{ \big   [ } \;\ln   f ( x \mid   \theta   ) \;\in   \;\mathbb   { C }   ^ { 0 } ( \Theta   ) \;{ \big   ] } = 1 . }
+{ \big   | } \ln   f ( x \mid   \theta   ) { \big   | } < D ( x ) \quad   { \text {   f o r   a l l   } } \theta   \in   \Theta   .
+{ \displaystyle   \sup   _ { \theta   \in   \Theta   } { \big   | } { \hat   { \ell   } } ( \theta   \mid   x ) - \ell   ( \theta   ) \,{ \big   | } \ { \xrightarrow   { \text { p } } } \ 0 . }
+{ \displaystyle   { \hat   { \ell   } } ( \theta   \mid   x ) }
+{ \hat   { \theta   } }
+\sup   _ { \theta   \in   \Theta   } { \big   \|}\;{ \hat   { \ell   } } ( x \mid   \theta   ) - \ell   ( \theta   ) \;{ \big   \|}\ { \xrightarrow   { \text { a . s . } } } \ 0 .
+{ \displaystyle   f ( \cdot   \,;\theta   _ { 0 } ) }
+{ \displaystyle   { \sqrt   { n } } { \big   ( } { \hat   { \theta   } } _ { \mathrm   { m l e }   } - \theta   _ { 0 } { \big   ) } \ { \xrightarrow   { d } } \ { \mathcal   { N } } ( 0 , \,I ^ { - 1 } ) }
+{ \widehat   { \theta   } }
+\theta  
+g ( \theta )
+\theta  
+{ \displaystyle   \alpha   = g ( \theta   ) }
+{ \widehat   { \alpha   } } = g ( \,{ \widehat   { \theta   } } \ , ) . \ ,
+{ \bar   { L } } ( \alpha   ) = \sup   _ { \theta   : \alpha   = g ( \theta   ) } L ( \theta   ) . \ ,
+y = g ( x )
+g
+f _ { Y } ( y ) = { \frac   { f _ { X } ( x ) } { | g ' ( x ) | } }
+X
+Y
+{ \sqrt   { n } } ( { \hat   { \theta   } } _ { \text { m l e } } - \theta   _ { 0 } ) \ \ { \xrightarrow   { d } } \ \ { \mathcal   { N } } ( 0 , \ I ^ { - 1 } ) ,
+I
+I _ { j k } = \operatorname   { E }   _ { X } { \bigg   [ } \;{ - { \frac   { \partial   ^ { 2 } \ln   f _ { \theta   _ { 0 } } ( X _ { t } ) } { \partial   \theta   _ { j } \,\partial   \theta   _ { k } } } } \;{ \bigg   ] } .
+{ \displaystyle   b _ { h } \equiv   \operatorname   { E }   { \bigg   [ } \;( { \hat   { \theta   } } _ { \mathrm   { m l e }   } - \theta   _ { 0 } ) _ { h } \;{ \bigg   ] } = { \frac   { 1 } { n } } \sum   _ { i , j , k = 1 } ^ { n } I ^ { h i } I ^ { j k } { \big   ( } { \frac   { 1 } { 2 } } K _ { i j k } + J _ { j , i k } { \big   ) } }
+{ \displaystyle   I ^ { j k } }
+{ \displaystyle   I ^ { - 1 } }
+{ \displaystyle   { \tfrac   { 1 } { 2 } } K _ { i j k } + J _ { j , i k } = \operatorname   { E }   _ { X } { \bigg   [ } \;{ \frac   { 1 } { 2 } } { \frac   { \partial   ^ { 3 } \ln   f _ { \theta   _ { 0 } } ( X _ { t } ) } { \partial   \theta   _ { i } \,\partial   \theta   _ { j } \,\partial   \theta   _ { k } } } + { \frac   { \partial   \ln   f _ { \theta   _ { 0 } } ( X _ { t } ) } { \partial   \theta   _ { j } } } { \frac   { \partial   ^ { 2 } \ln   f _ { \theta   _ { 0 } } ( X _ { t } ) } { \partial   \theta   _ { i } \,\partial   \theta   _ { k } } } \;{ \bigg   ] } . }
+{ \displaystyle   { \hat   { \theta   } } _ { \text { m l e } } ^ { * } = { \hat   { \theta   } } _ { \text { m l e } } - { \hat   { b } } . }
+{ \displaystyle   \operatorname   { P }   ( \theta   \mid   x _ { 1 } , x _ { 2 } , \ldots   , x _ { n } ) = { \frac   { f ( x _ { 1 } , x _ { 2 } , \ldots   , x _ { n } \mid   \theta   ) \operatorname   { P }   ( \theta   ) } { \operatorname   { P }   ( x _ { 1 } , x _ { 2 } , \ldots   , x _ { n } ) } } }
+P ( \theta   )
+{ \displaystyle   \operatorname   { P }   ( x _ { 1 } , x _ { 2 } , \ldots   , x _ { n } ) }
+{ \displaystyle   f ( x _ { 1 } , x _ { 2 } , \ldots   , x _ { n } \mid   \theta   ) \operatorname   { P }   ( \theta   ) }
+P ( \theta   )
+f ( x _ { 1 } , x _ { 2 } , \ldots   , x _ { n } \mid   \theta   )
+{ \displaystyle   \operatorname   { P }   ( \theta   ) }
+{ \hat   { n } }
+{ \hat   { n } }
+{ \displaystyle   { \begin { a l i g n e d } \operatorname   { P }   { \big   [ } \;\mathrm   { H }   = 4 9 \mid   p = { \tfrac   { 1 } { 3 } } \;{ \big   ] } & = { \binom   { 8 0 } { 4 9 } } ( { \tfrac   { 1 } { 3 } } ) ^ { 4 9 } ( 1 - { \tfrac   { 1 } { 3 } } ) ^ { 3 1 } \approx   0 . 0 0 0 , \\[6pt ] \operatorname   { P }   { \big   [ } \;\mathrm   { H }   = 4 9 \mid   p = { \tfrac   { 1 } { 2 } } \;{ \big   ] } & = { \binom   { 8 0 } { 4 9 } } ( { \tfrac   { 1 } { 2 } } ) ^ { 4 9 } ( 1 - { \tfrac   { 1 } { 2 } } ) ^ { 3 1 } \approx   0 . 0 1 2 , \\[6pt ] \operatorname   { P }   { \big   [ } \;\mathrm   { H }   = 4 9 \mid   p = { \tfrac   { 2 } { 3 } } \;{ \big   ] } & = { \binom   { 8 0 } { 4 9 } } ( { \tfrac   { 2 } { 3 } } ) ^ { 4 9 } ( 1 - { \tfrac   { 2 } { 3 } } ) ^ { 3 1 } \approx   0 . 0 5 4 . \end { a l i g n e d } } }
+{ \displaystyle   L ( p ) = f _ { D } ( \mathrm   { H }   = 4 9 \mid   p ) = { \binom   { 8 0 } { 4 9 } } p ^ { 4 9 } ( 1 - p ) ^ { 3 1 } , }
+{ \displaystyle   { \begin { a l i g n e d } { 0 } & { } = { \frac   { \partial   } { \partial   p } } \left ( { \binom   { 8 0 } { 4 9 } } p ^ { 4 9 } ( 1 - p ) ^ { 3 1 } \right ) , \\[8pt ] { 0 } & { } = 4 9 p ^ { 4 8 } ( 1 - p ) ^ { 3 1 } - 3 1 p ^ { 4 9 } ( 1 - p ) ^ { 3 0 } \\[8pt ] & { } = p ^ { 4 8 } ( 1 - p ) ^ { 3 0 } \left [ 4 9 ( 1 - p ) - 3 1 p \right ] \\[8pt ] & { } = p ^ { 4 8 } ( 1 - p ) ^ { 3 0 } \left [ 4 9 - 8 0 p \right ] \end { a l i g n e d } } }
+{ \mathcal   { N } } ( \mu   , \sigma   ^ { 2 } )
+f ( x \mid   \mu   , \sigma   ^ { 2 } ) = { \frac   { 1 } { { \sqrt   { 2 \pi   \sigma   ^ { 2 } } } \ }}\exp   { \left ( - { \frac   { ( x - \mu   ) ^ { 2 } } { 2 \sigma   ^ { 2 } } } \right ) } ,
+f ( x _ { 1 } , \ldots   , x _ { n } \mid   \mu   , \sigma   ^ { 2 } ) = \prod   _ { i = 1 } ^ { n } f ( x _ { i } \mid   \mu   , \sigma   ^ { 2 } ) = \left ( { \frac   { 1 } { 2 \pi   \sigma   ^ { 2 } } } \right ) ^ { n / 2 } \exp   \left ( - { \frac   { \sum   _ { i = 1 } ^ { n } ( x _ { i } - \mu   ) ^ { 2 } } { 2 \sigma   ^ { 2 } } } \right ) ,
+f ( x _ { 1 } , \ldots   , x _ { n } \mid   \mu   , \sigma   ^ { 2 } ) = \left ( { \frac   { 1 } { 2 \pi   \sigma   ^ { 2 } } } \right ) ^ { n / 2 } \exp   \left ( - { \frac   { \sum   _ { i = 1 } ^ { n } ( x _ { i } - { \bar   { x } } ) ^ { 2 } + n ( { \bar   { x } } - \mu   ) ^ { 2 } } { 2 \sigma   ^ { 2 } } } \right ) ,
+{ \bar   { x } }
+{ \mathcal   { L } } ( \mu   , \sigma   ) = f ( x _ { 1 } , \ldots   , x _ { n } \mid   \mu   , \sigma   )
+{ \displaystyle   \log   { \Big   ( } { \mathcal   { L } } ( \mu   , \sigma   ) { \Big   ) } = - { \frac   { \,n \,}{ 2 } } \log ( 2 \pi   \sigma   ^ { 2 } ) - { \frac   { 1 } { 2 \sigma   ^ { 2 } } } \sum   _ { i = 1 } ^ { n } ( \,x_ { i } - \mu   \,)^ { 2 } }
+{ \displaystyle   { \begin { a l i g n e d } 0 & = { \frac   { \partial   } { \partial   \mu   } } \log   { \Big   ( } { \mathcal   { L } } ( \mu   , \sigma   ) { \Big   ) } = 0 - { \frac   { \;-2 \!n ( { \bar   { x } } - \mu   ) \;}{ 2 \sigma   ^ { 2 } } } . \end { a l i g n e d } } }
+{ \displaystyle   { \hat   { \mu   } } = { \bar   { x } } = \sum   _ { i = 1 } ^ { n } { \frac   { \,x_ { i } \,}{ n } } . }
+{ \displaystyle   \operatorname   { E }   { \big   [ } \;{ \widehat   { \mu   } } \;{ \big   ] } = \mu   , \ , }
+{ \widehat   { \mu   } }
+{ \displaystyle   { \begin { a l i g n e d } 0 & = { \frac   { \partial   } { \partial   \sigma   } } \log   { \Bigg   [ } \left ( { \frac   { 1 } { 2 \pi   \sigma   ^ { 2 } } } \right ) ^ { n / 2 } \exp   \left ( - { \frac   { \sum   _ { i = 1 } ^ { n } ( x _ { i } - { \bar   { x } } ) ^ { 2 } + n ( { \bar   { x } } - \mu   ) ^ { 2 } } { 2 \sigma   ^ { 2 } } } \right ) { \Bigg   ] } \\[6pt ] & = { \frac   { \partial   } { \partial   \sigma   } } \left [ { \frac   { n } { 2 } } \log   \left ( { \frac   { 1 } { 2 \pi   \sigma   ^ { 2 } } } \right ) - { \frac   { \sum   _ { i = 1 } ^ { n } ( x _ { i } - { \bar   { x } } ) ^ { 2 } + n ( { \bar   { x } } - \mu   ) ^ { 2 } } { 2 \sigma   ^ { 2 } } } \right ] \\[6pt ] & = - { \frac   { \,n \,}{ \sigma   } } + { \frac   { \sum   _ { i = 1 } ^ { n } ( x _ { i } - { \bar   { x } } ) ^ { 2 } + n ( { \bar   { x } } - \mu   ) ^ { 2 } } { \sigma   ^ { 3 } } } \end { a l i g n e d } } }
+{ \displaystyle   { \widehat   { \sigma   } } ^ { 2 } = { \frac   { 1 } { n } } \sum   _ { i = 1 } ^ { n } ( x _ { i } - \mu   ) ^ { 2 } . }
+\mu   = { \widehat   { \mu   } }
+{ \displaystyle   { \widehat   { \sigma   } } ^ { 2 } = { \frac   { 1 } { n } } \sum   _ { i = 1 } ^ { n } ( x _ { i } - { \bar   { x } } ) ^ { 2 } = { \frac   { 1 } { n } } \sum   _ { i = 1 } ^ { n } x _ { i } ^ { 2 } - { \frac   { 1 } { n ^ { 2 } } } \sum   _ { i = 1 } ^ { n } \sum   _ { j = 1 } ^ { n } x _ { i } x _ { j } . }
+\delta   _ { i } \equiv   \mu   - x _ { i }
+{ \displaystyle   { \widehat   { \sigma   } } ^ { 2 } = { \frac   { 1 } { n } } \sum   _ { i = 1 } ^ { n } ( \mu   - \delta   _ { i } ) ^ { 2 } - { \frac   { 1 } { n ^ { 2 } } } \sum   _ { i = 1 } ^ { n } \sum   _ { j = 1 } ^ { n } ( \mu   - \delta   _ { i } ) ( \mu   - \delta   _ { j } ) . }
+{ \displaystyle   \operatorname   { E }   { \big   [ } \;\delta   _ { i } \;{ \big   ] } = 0 }
+{ \displaystyle   \operatorname   { E }   { \big   [ } \;\delta   _ { i } ^ { 2 } \;{ \big   ] } = \sigma   ^ { 2 } }
+{ \displaystyle   \operatorname   { E }   { \big   [ } \;{ \widehat   { \sigma   } } ^ { 2 } \;{ \big   ] } = { \frac   { \,n - 1 \,}{ n } } \sigma   ^ { 2 } . }
+{ \widehat   { \sigma   } }
+{ \widehat   { \sigma   } }
+\theta   = ( \mu   , \sigma   ^ { 2 } )
+{ \widehat   { \theta   } } = \left ( { \widehat   { \mu   } } , { \widehat   { \sigma   } } ^ { 2 } \right ) .
+{ \displaystyle   \log   { \Big   ( } { \mathcal   { L } } ( { \hat   { \mu   } } , { \hat   { \sigma   } } ) { \Big   ) } = { \frac   { \,-n \;\;}{ 2 } } { \big   ( } \,\log ( 2 \pi   { \hat   { \sigma   } } ^ { 2 } ) + 1 \,{ \big   ) } }
+f ( x , y ) = f ( x ) f ( y ) \ ,
+{ \displaystyle   ( x _ { 1 } , \ldots   , x _ { n } ) }
+{ \displaystyle   ( \mu   _ { 1 } , \ldots   , \mu   _ { n } ) }
+{ \displaystyle   { \mathit   { \Sigma   } } }
+{ \displaystyle   f ( x _ { 1 } , \ldots   , x _ { n } ) = { \frac   { 1 } { ( 2 \pi   ) ^ { n / 2 } { \sqrt   { { \text { d e t } } ( { \mathit   { \Sigma   } } ) } } } } \exp   \left ( - { \frac   { 1 } { 2 } } \left [ x _ { 1 } - \mu   _ { 1 } , \ldots   , x _ { n } - \mu   _ { n } \right ] { \mathit   { \Sigma   } } ^ { - 1 } \left [ x _ { 1 } - \mu   _ { 1 } , \ldots   , x _ { n } - \mu   _ { n } \right ] ^ { \mathrm   { T }   } \right ) }
+f ( x , y ) = { \frac   { 1 } { 2 \pi   \sigma   _ { x } \sigma   _ { y } { \sqrt   { 1 - \rho   ^ { 2 } } } } } \exp   \left [ - { \frac   { 1 } { 2 ( 1 - \rho   ^ { 2 } ) } } \left ( { \frac   { ( x - \mu   _ { x } ) ^ { 2 } } { \sigma   _ { x } ^ { 2 } } } - { \frac   { 2 \rho   ( x - \mu   _ { x } ) ( y - \mu   _ { y } ) } { \sigma   _ { x } \sigma   _ { y } } } + { \frac   { ( y - \mu   _ { y } ) ^ { 2 } } { \sigma   _ { y } ^ { 2 } } } \right ) \right ]
+x _ { i }
+\sigma   ^ { 2 }
+{ \displaystyle   { \hat   { x } } _ { i } }
+{ \bar   { x } }
+{ \widehat   { \sigma   } } ^ { 2 }
+{ \displaystyle   { \widehat   { \sigma   } } ^ { 2 } = { \frac   { 1 } { n } } \sum   _ { i = 1 } ^ { n } ( { \hat   { x } } _ { i } - { \bar   { x } } ) ^ { 2 } . }

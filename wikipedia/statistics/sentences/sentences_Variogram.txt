@@ -1,0 +1,101 @@
+{ \displaystyle   2 \gamma   ( \mathbf   { s }   _ { 1 } , \mathbf   { s }   _ { 2 } ) }
+{ \displaystyle   Z ( \mathbf   { s }   ) }
+{ \displaystyle   \gamma   ( h ) }
+{ \mathbf     { s } } _ { 1 }
+{ \displaystyle   \mathbf   { s }   _ { 2 } }
+h
+{ \displaystyle   \gamma   ( h ) = { \frac   { 1 } { 2 V } } \iiint   _ { V } \left [ f ( M + h ) - f ( M ) \right ] ^ { 2 } d V , }
+M
+V
+f ( M )
+V
+f ( M )
+M
+M
+h
+{ \displaystyle   \gamma   ( h ) }
+{ \mathbf     { s } } _ { 1 }
+{ \displaystyle   \mathbf   { s }   _ { 2 } }
+M
+\mathbf   { s }  
+f
+Z
+{ \displaystyle   2 \gamma   ( \mathbf   { s }   _ { 1 } , \mathbf   { s }   _ { 2 } ) = { \text { v a r } } \left ( Z ( \mathbf   { s }   _ { 1 } ) - Z ( \mathbf   { s }   _ { 2 } ) \right ) = E \left [ ( ( Z ( \mathbf   { s }   _ { 1 } ) - \mu   ( \mathbf   { s }   _ { 1 } ) ) - ( Z ( \mathbf   { s }   _ { 2 } ) - \mu   ( \mathbf   { s }   _ { 2 } ) ) ) ^ { 2 } \right ] . }
+\mu  
+{ \mathbf     { s } } _ { 1 }
+s _ { 2 }
+{ \mathbf     { s } } _ { 1 }
+{ \displaystyle   \mathbf   { s }   _ { 2 } }
+{ \displaystyle   2 \gamma   ( \mathbf   { s }   _ { 1 } , \mathbf   { s }   _ { 2 } ) = E \left [ \left ( Z ( \mathbf   { s }   _ { 1 } ) - Z ( \mathbf   { s }   _ { 2 } ) \right ) ^ { 2 } \right ] . }
+\gamma   _ { s } ( h ) = \gamma   ( 0 , 0 + h )
+{ \displaystyle   h = \mathbf   { s }   _ { 2 } - \mathbf   { s }   _ { 1 } }
+{ \displaystyle   \gamma   ( \mathbf   { s }   _ { 1 } , \mathbf   { s }   _ { 2 } ) = \gamma   _ { s } ( \mathbf   { s }   _ { 2 } - \mathbf   { s }   _ { 1 } ) . }
+\gamma   _ { i } ( h ) : = \gamma   _ { s } ( h e _ { 1 } )
+{ \displaystyle   h = \|\mathbf   { s }   _ { 2 } - \mathbf   { s }   _ { 1 } \ | }
+{ \displaystyle   \gamma   ( \mathbf   { s }   _ { 1 } , \mathbf   { s }   _ { 2 } ) = \gamma   _ { i } ( h ) . }
+i
+s
+\gamma  
+{ \displaystyle   \gamma   ( \mathbf   { s }   _ { 1 } , \mathbf   { s }   _ { 2 } ) \geq   0 }
+{ \displaystyle   \gamma   ( \mathbf   { s }   _ { 1 } , \mathbf   { s }   _ { 1 } ) = \gamma   _ { i } ( 0 ) = E \left ( ( Z ( \mathbf   { s }   _ { 1 } ) - Z ( \mathbf   { s }   _ { 1 } ) ) ^ { 2 } \right ) = 0 }
+{ \displaystyle   Z ( \mathbf   { s }   _ { 1 } ) - Z ( \mathbf   { s }   _ { 1 } ) = 0 }
+w _ { 1 } , \ldots   , w _ { N }
+\sum   _ { { i = 1 } } ^ { N } w _ { i } = 0
+{ \displaystyle   s _ { 1 } , \ldots   , s _ { N } }
+{ \displaystyle   \sum   _ { i = 1 } ^ { N } \sum   _ { j = 1 } ^ { N } w _ { i } \gamma   ( \mathbf   { s }   _ { i } , \mathbf   { s }   _ { j } ) w _ { j } \leq   0 }
+v a r ( X )
+X = \sum   _ { { i = 1 } } ^ { N } w _ { i } Z ( x _ { i } )
+{ \displaystyle   2 \gamma   ( \mathbf   { s }   _ { 1 } , \mathbf   { s }   _ { 2 } ) = C ( \mathbf   { s }   _ { 1 } , \mathbf   { s }   _ { 1 } ) + C ( \mathbf   { s }   _ { 2 } , \mathbf   { s }   _ { 2 } ) - 2 C ( \mathbf   { s }   _ { 1 } , \mathbf   { s }   _ { 2 } ) }
+{ \displaystyle   2 \gamma   ( \mathbf   { s }   _ { 1 } , \mathbf   { s }   _ { 2 } ) = C ( \mathbf   { s }   _ { 1 } , \mathbf   { s }   _ { 1 } ) + C ( \mathbf   { s }   _ { 2 } , \mathbf   { s }   _ { 2 } ) - 2 C ( \mathbf   { s }   _ { 1 } , \mathbf   { s }   _ { 2 } ) + ( E \left [ Z ( \mathbf   { s }   _ { 1 } ) \right ] - E \left [ Z ( \mathbf   { s }   _ { 2 } ) \right ] ) ^ { 2 } }
+C ( h ) = 0
+h \not   = 0
+{ \displaystyle   v a r ( Z ( \mathbf   { s }   ) ) }
+{ \displaystyle   \gamma   ( \mathbf   { s }   _ { 1 } , \mathbf   { s }   _ { 2 } ) = E \left [ | Z ( \mathbf   { s }   _ { 1 } ) - Z ( \mathbf   { s }   _ { 2 } ) | ^ { 2 } \right ] = \gamma   ( \mathbf   { s }   _ { 2 } , \mathbf   { s }   _ { 1 } ) }
+\gamma   _ { s } ( h ) = \gamma   _ { s } ( - h )
+{ \displaystyle   \lim   _ { h \to   \infty   } \gamma   _ { s } ( h ) = v a r ( Z ( \mathbf   { s }   ) ) }
+Z
+{ \displaystyle   \mathbf   { s }   = ( x , y ) }
+x
+y
+\mathbf   { s }  
+( x , y , z , t )
+B
+{ \displaystyle   Z ( \mathbf   { s }   _ { i } ) = z _ { i } }
+k
+z _ 1 , \ldots , z _ k
+{ \displaystyle   \mathbf   { s }   _ { 1 } , \ldots   , \mathbf   { s }   _ { k } }
+h
+{ \displaystyle   h \pm   \delta   }
+\gamma  
+h
+{ \displaystyle   { \hat   { \gamma   } } ( h \pm   \delta   ) }
+{ \displaystyle   { \hat   { \gamma   } } ( h \pm   \delta   ) : = { \frac   { 1 } { 2 | N ( h \pm   \delta   ) | } } \sum   _ { ( i , j ) \in   N ( h \pm   \delta   ) } | z _ { i } - z _ { j } | ^ { 2 } }
+h
+\delta  
+{ \displaystyle   N ( h \pm   \delta   ) \equiv   \{ ( \mathbf   { s }   _ { i } , \mathbf   { s }   _ { j } ) : | \mathbf   { s }   _ { i } , \mathbf   { s }   _ { j } | = h \pm   \delta   ; i , j = 1 , \ldots   , N \ } }
+{ \displaystyle   | N ( h \pm   \delta   ) | }
+i , j
+{ \displaystyle   | z _ { i } - z _ { j } | ^ { 2 } }
+{ \displaystyle   | N ( h \pm   \delta   ) | }
+{ \displaystyle   ( z _ { a } , z _ { b } ) , ( z _ { c } , z _ { d } ) }
+{ \displaystyle   h \pm   \delta   }
+{ \displaystyle   ( z _ { a } , z _ { b } ) , ( z _ { c } , z _ { d } ) }
+{ \displaystyle   ( z _ { b } , z _ { a } ) , ( z _ { d } , z _ { c } ) }
+{ \displaystyle   z _ { i } = Z ( \mathbf   { s }   _ { i } ) }
+{ \displaystyle   Z ( \mathbf   { s }   ) }
+{ \displaystyle   E \left [ { \hat   { \gamma   } } ( h ) \right ] = { \frac   { 1 } { 2 | N ( h ) | } } \sum   _ { ( i , j ) \in   N ( h ) } E \left [ | Z ( s _ { i } ) - Z ( s _ { j } ) | ^ { 2 } \right ] = { \frac   { 1 } { 2 | N ( h ) | } } \sum   _ { ( i , j ) \in   N ( h ) } 2 \gamma   ( s _ { j } - s _ { i } ) = { \frac   { 2 | N ( h ) | } { 2 | N ( h ) | } } \gamma   ( h ) }
+n
+s
+r
+h
+\gamma   ( h ) = ( s - n ) ( 1 - \exp ( - h / ( r a ) ) ) + n 1 _ { { ( 0 , \infty   ) } } ( h )
+\gamma   ( h ) = ( s - n ) \left ( \left ( { \frac     { 3 h } { 2 r } } - { \frac     { h ^ { 3 } } { 2 r ^ { 3 } } } \right ) 1 _ { { ( 0 , r ) } } ( h ) + 1 _ { { [ r , \infty   ) } } ( h ) \right ) + n 1 _ { { ( 0 , \infty   ) } } ( h )
+\gamma   ( h ) = ( s - n ) \left ( 1 - \exp   \left ( - { \frac     { h ^ { 2 } } { r ^ { 2 } a } } \right ) \right ) + n 1 _ { { ( 0 , \infty   ) } } ( h )
+a
+a = 1 / 3
+1 _ { A } ( h )
+h \in   A
+{ \displaystyle   ( Z ( \mathbf   { s }   _ { 1 } ) - Z ( \mathbf   { s }   _ { 2 } ) ) ^ { 2 } }
+{ \displaystyle   | Z ( \mathbf   { s }   _ { 1 } ) - Z ( \mathbf   { s }   _ { 2 } ) | }
+{ \displaystyle   | Z ( \mathbf   { s }   _ { 1 } ) - Z ( \mathbf   { s }   _ { 2 } ) | ^ { 0 . 5 } }
+{ \displaystyle   2 \gamma   ( \mathbf   { s }   _ { 1 } , \mathbf   { s }   _ { 2 } ) = E \left [ \left | Z ( \mathbf   { s }   _ { 1 } ) - Z ( \mathbf   { s }   _ { 2 } ) \right | ^ { \alpha   } \right ] }

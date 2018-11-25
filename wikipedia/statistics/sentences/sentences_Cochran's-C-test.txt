@@ -1,0 +1,2 @@
+C _ { j } = { \frac     { S _ { j } ^ { 2 } } { \displaystyle   \sum   _ { { i = 1 } } ^ { N } S _ { i } ^ { 2 } } }
+C _ { { \text { U L } } } ( \alpha   , n , N ) = \left [ 1 + { \frac     { N - 1 } { F _ { { \text { c } } } ( \alpha   / N , ( n - 1 ) , ( N - 1 ) ( n - 1 ) ) } } \right ] ^ { { - 1 } } .

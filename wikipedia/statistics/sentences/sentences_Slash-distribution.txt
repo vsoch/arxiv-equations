@@ -1,0 +1,6 @@
+x \in ( - \infty , \infty )
+{ \displaystyle   { \begin { c a s e s } { \frac   { \varphi   ( 0 ) - \varphi   ( x ) } { x ^ { 2 } } } & x \neq   0 \\{ \frac   { 1 } { 2 { \sqrt   { 2 \pi   } } } } & x = 0 \\\end { c a s e s } } }
+{ \begin { c a s e s } \Phi   ( x ) - \left [ \varphi   ( 0 ) - \varphi   ( x ) \right ] / x & x \neq   0 \\1 / 2 & x = 0 \\\end { c a s e s } }
+{ \sqrt     { 2 \pi   } } { \Big   ( } \varphi   ( t ) + t \Phi   ( t ) - \max \{ t , 0 \}{ \Big   ) }
+f ( x ) = { \frac     { \varphi   ( 0 ) - \varphi   ( x ) } { x ^ { 2 } } } .
+\lim   _ { { x \to   0 } } f ( x ) = { \frac     { \varphi   ( 0 ) } { 2 } } = { \frac     { 1 } { 2 { \sqrt     { 2 \pi   } } } }

@@ -1,0 +1,21 @@
+\mathbb   { P }  
+S _ { 1 } , . . . , S _ { n }
+\omega  
+H ( S _ { 1 } ( \omega   ) , S _ { 2 } ( \omega   ) , \dots   , S _ { n } ( \omega   ) ) = : H ( \omega   )
+H _ { 0 } = { D F } _ { T } \int   _ { \omega   } H ( \omega   ) \,d { \mathbb     { P } } ( \omega   )
+{ D F } _ { T }
+H _ { 0 } \approx   { D F } _ { T } { \frac     { 1 } { N } } \sum   _ { { \omega   \in   { \text { s a m p l e   s e t } } } } H ( \omega   )
+d S = \mu   S \,dt + \sigma   S \,dW_ { t } .
+\delta   t
+d t
+\delta   t
+S ( k \delta   t ) = S ( 0 ) \exp   \left ( \sum   _ { { i = 1 } } ^ { { k } } \left [ \left ( \mu   - { \frac     { \sigma   ^ { 2 } } { 2 } } \right ) \delta   t + \sigma   \varepsilon   _ { i } { \sqrt     { \delta   t } } \right ] \right )
+\varepsilon   _ { i }
+\omega  
+\{ \varepsilon   _ { 1 } , \dots   , \varepsilon   _ { M } \ }
+H ( \omega   ) = { \frac     1 { M } } \sum   _ { { k = 1 } } ^ { { M } } S ( k \delta   t ) .
+\epsilon   = { \mathcal     { O } } \left ( N ^ { { - 1 / 2 } } \right )
+\{ \varepsilon   _ { 1 } , \dots   , \varepsilon   _ { M } \ }
+\{ - \varepsilon   _ { 1 } , \dots   , - \varepsilon   _ { M } \ }
+\varepsilon   _ { i }
+{ \displaystyle   - \varepsilon   _ { i } }

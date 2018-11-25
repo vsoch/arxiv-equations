@@ -1,3 +1,0 @@
-{ \displaystyle   f ( \mathbf   { x }   \,;\,M , Z ) \;dS ^ { n - 1 } \;=\;{ } _ { 1 } F _ { 1 } ( { \textstyle   { \frac   { 1 } { 2 } } } ; { \textstyle   { \frac   { n } { 2 } } } ; Z ) ^ { - 1 } \;\cdot   \;\exp   \left ( { { \textrm   { t r } } \;ZM ^ { T } \mathbf   { x }   \mathbf   { x }   ^ { T } M } \right ) \;dS ^ { n - 1 } }
-{ \displaystyle   f ( \mathbf   { x }   \,;\,M , Z ) \;dS ^ { n - 1 } \;=\;{ } _ { 1 } F _ { 1 } ( { \textstyle   { \frac   { 1 } { 2 } } } ; { \textstyle   { \frac   { n } { 2 } } } ; Z ) ^ { - 1 } \;\cdot   \;\exp   \left ( { \mathbf   { x }   ^ { T } M Z M ^ { T } \mathbf   { x }   } \right ) \;dS ^ { n - 1 } }
-{ \displaystyle   { } _ { 1 } F _ { 1 } ( \cdot   ; \cdot   , \cdot   ) }

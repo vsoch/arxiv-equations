@@ -1,0 +1,67 @@
+X _ { 1 } , \ldots   , X _ { n }
+F
+{ \displaystyle   \{ F _ { \theta   } : \theta   \in   \Theta   \ } }
+F _ { n }
+X _ { 1 } , \ldots   , X _ { n }
+F
+X _ { i }
+F
+{ \displaystyle   v _ { n } ( x ) = { \sqrt   { n } } [ F _ { n } ( x ) - F ( x ) ] . }
+v _ { n }
+x
+v _ { n }
+{ \displaystyle   v _ { n } ( x ) = u _ { n } ( t ) }
+{ \displaystyle   t = F ( x ) }
+u _ { n }
+{ \displaystyle   U _ { i } = F ( X _ { i } ) }
+[ 0 , 1 ]
+X _ { i }
+F
+v _ { n }
+{ \displaystyle   \psi   ( v _ { n } , F ) }
+F
+{ \displaystyle   \varphi   ( u _ { n } ) }
+{ \displaystyle   \psi   ( v _ { n } , F ) = \varphi   ( u _ { n } ) }
+{ \displaystyle   \sup   _ { x } | v _ { n } ( x ) | = \sup   _ { t } | u _ { n } ( t ) | , \quad   \sup   _ { x } { \frac   { | v _ { n } ( x ) | } { a ( F ( x ) ) } } = \sup   _ { t } { \frac   { | u _ { n } ( t ) | } { a ( t ) } } }
+{ \displaystyle   \int   _ { - \infty   } ^ { \infty   } v _ { n } ^ { 2 } ( x ) \,dF ( x ) = \int   _ { 0 } ^ { 1 } u _ { n } ^ { 2 } ( t ) \,dt . }
+F
+F
+F
+F
+{ \displaystyle   F = F _ { \theta   _ { n } } }
+\theta_n
+X _ { 1 } , \ldots   , X _ { n }
+{ \displaystyle   { \hat   { \theta   } } _ { n } }
+\theta  
+{ \displaystyle   { \hat   { v } } _ { n } ( x ) = { \sqrt   { n } } [ F _ { n } ( x ) - F _ { { \hat   { \theta   } } _ { n } } ( x ) ] }
+v _ { n }
+{ \displaystyle   { \hat   { u } } _ { n } ( t ) = { \hat   { v } } _ { n } ( x ) }
+{ \displaystyle   t = F _ { { \hat   { \theta   } } _ { n } } ( x ) }
+n \to   \infty  
+F _ { { \theta   } }
+{ \displaystyle   { \hat   { \theta   } } _ { n } }
+\theta  
+{ \displaystyle   { \hat   { v } } _ { n } }
+{ \displaystyle   { \hat   { v } } _ { n } }
+w _ { n }
+{ \displaystyle   { \hat   { v } } _ { n } ( x ) - K _ { n } ( x ) = w _ { n } ( x ) }
+K _ n ( x )
+{ \displaystyle   { \hat   { v } } _ { n } ( x ) }
+w _ { n }
+K _ { n }
+w _ { n }
+{ \displaystyle   F _ { { \hat   { \theta   } } _ { n } } ( x ) }
+x
+\theta_n
+{ \displaystyle   \omega   _ { n } ( t ) = w _ { n } ( x ) , t = F _ { { \hat   { \theta   } } _ { n } } ( x ) }
+[ 0 , 1 ]
+{ \displaystyle   F _ { { \hat   { \theta   } } _ { n } } }
+{ \displaystyle   { \hat   { v } } _ { n } }
+w _ { n }
+{ \displaystyle   { \hat   { v } } _ { n } }
+w _ { n }
+w _ { n }
+{ \displaystyle   { \hat   { v } } _ { n } }
+w _ { n }
+X _ { 1 } , \ldots   , X _ { n }
+{ \mathbb     R } ^ { d }

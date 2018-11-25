@@ -1,5 +1,0 @@
-{ \displaystyle   Z ( \mathbf   { s }   ) = m ( \mathbf   { s }   ) + \varepsilon   ' ( \mathbf   { s }   ) + \varepsilon   ' ' }
-{ \displaystyle   \textstyle   { m ( \mathbf   { s }   ) } }
-{ \displaystyle   \textstyle   { \varepsilon   ' ( \mathbf   { s }   ) } }
-{ \displaystyle   \textstyle   { \varepsilon   ' ' } }
-{ \displaystyle   \textstyle   { \mathbf   { s }   } }

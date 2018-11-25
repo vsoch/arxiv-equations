@@ -1,6 +1,0 @@
-{ \displaystyle   \operatorname   { c o v }   ( X , Y ) = \operatorname   { E }   ( \operatorname   { c o v }   ( X , Y \mid   Z ) ) + \operatorname   { c o v }   ( \operatorname   { E }   ( X \mid   Z ) , \operatorname   { E }   ( Y \mid   Z ) ) . }
-\operatorname { c o v } [ X , Y ]   =   \operatorname { E } [ X Y ]   -   \operatorname { E } [ X ] \operatorname { E } [ Y ]
-=   \operatorname { E } [ \operatorname { E } [ X Y \mid   Z ] ]   -   \operatorname { E } [ \operatorname { E } [ X \mid   Z ] ] \operatorname { E } [ \operatorname { E } [ Y \mid   Z ] ]
-=   \operatorname { E } \!\left [ \operatorname { c o v } [ X , Y \mid   Z ]   +   \operatorname { E } [ X \mid   Z ] \operatorname { E } [ Y \mid   Z ] \right ]   -   \operatorname { E } [ \operatorname { E } [ X \mid   Z ] ] \operatorname { E } [ \operatorname { E } [ Y \mid   Z ] ]
-=   \operatorname { E } \!\left [ \operatorname { c o v } [ X , Y \mid   Z ] ]   +   \operatorname { E } [ \operatorname { E } [ X \mid   Z ] \operatorname { E } [ Y \mid   Z ] \right ]   -   \operatorname { E } [ \operatorname { E } [ X \mid   Z ] ] \operatorname { E } [ \operatorname { E } [ Y \mid   Z ] ]
-=   \operatorname { E } ( \operatorname { c o v } ( X , Y   \mid   Z ) ) + \operatorname { c o v } ( \operatorname { E } ( X \mid   Z ) , \operatorname { E } ( Y \mid   Z ) )

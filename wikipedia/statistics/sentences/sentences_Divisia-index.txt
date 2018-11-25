@@ -1,0 +1,5 @@
+{ \displaystyle   p _ { i } ( t ) }
+{ \displaystyle   q _ { i } ( t ) }
+{ \displaystyle   \sum   _ { i } p ( 0 ) * q ( 0 ) = P ( 0 ) Q ( 0 ) . }
+{ \displaystyle   \sum   _ { i } p ( t ) * q ( t ) = P ( t ) Q ( t ) . }
+{ \displaystyle   s _ { j , t } ^ { * } = { \frac   { 1 } { 2 } } ( s _ { j , t } + s _ { j , t - 1 } ) }

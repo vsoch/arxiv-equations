@@ -1,2 +1,0 @@
-F ( x ; k , \lambda ;   \alpha )   =   \left [   1 -   e ^ { - ( x / \lambda ) ^ k }   \right ] ^ \alpha     \ ,
-f ( x ; k , \lambda ;   \alpha )   =     \alpha       \frac { k } { \lambda }   \left [ \frac { x } { \lambda } \right ] ^ { k - 1 }   \left [ 1 -   e ^ { - ( x / \lambda ) ^ k }   \right ] ^ { \alpha - 1 }   e ^ { - ( x / \lambda ) ^ k }         \ ,

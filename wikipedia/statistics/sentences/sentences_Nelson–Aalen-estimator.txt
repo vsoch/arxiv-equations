@@ -1,0 +1,5 @@
+{ \tilde     { H } } ( t ) = \sum   _ { { t _ { i } \leq   t } } { \frac     { d _ { i } } { n _ { i } } } ,
+d _ { i }
+t _ { i }
+n _ { i }
+t _ { i }

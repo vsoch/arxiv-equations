@@ -1,1 +1,0 @@
-{ \displaystyle   \pi_i = \begin { c a s e s }   0   &   \text {   w h e n   }   i = 0 \\ ( 1 - \delta ) \delta ^ { i - 1 }   & \text {   w h e n   }   i > 0   \end { c a s e s } }

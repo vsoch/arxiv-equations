@@ -1,0 +1,37 @@
+d ( { \mathbf     { x } } ) = { \mathbf     { x } }
+R ( \theta   , d ) = { \mathbb     { E } } _ { \theta   } [ | { \mathbf     { \theta   - X } } | ^ { 2 } ]
+= \int   ( { \mathbf     { \theta   - x } } ) ^ { T } ( { \mathbf     { \theta   - x } } ) \left ( { \frac     { 1 } { 2 \pi   } } \right ) ^ { { n / 2 } } e ^ { { ( - 1 / 2 ) ( { \mathbf     { \theta   - x } } ) ^ { T } ( { \mathbf     { \theta   - x } } ) } } m ( d x )
+{ \displaystyle   = n . }
+d ' ( { \mathbf     { x } } ) = { \mathbf     { x } } - { \frac     { \alpha   } { | { \mathbf     { x } } | ^ { 2 } } } { \mathbf     { x } }
+\alpha   = n - 2
+d '
+d
+R ( \theta   , d ' ) = { \mathbb     { E } } _ { \theta   } \left [ \left | { \mathbf     { \theta   - X } } + { \frac     { \alpha   } { | { \mathbf     { X } } | ^ { 2 } } } { \mathbf     { X } } \right | ^ { 2 } \right ]
+= { \mathbb     { E } } _ { \theta   } \left [ | { \mathbf     { \theta   - X } } | ^ { 2 } + 2 ( { \mathbf     { \theta   - X } } ) ^ { T } { \frac     { \alpha   } { | { \mathbf     { X } } | ^ { 2 } } } { \mathbf     { X } } + { \frac     { \alpha   ^ { 2 } } { | { \mathbf     { X } } | ^ { 4 } } } | { \mathbf     { X } } | ^ { 2 } \right ]
+= { \mathbb     { E } } _ { \theta   } \left [ | { \mathbf     { \theta   - X } } | ^ { 2 } \right ] + 2 \alpha   { \mathbb     { E } } _ { \theta   } \left [ { \frac     { { \mathbf     { ( \theta   - X ) ^ { T } X } } } { | { \mathbf     { X } } | ^ { 2 } } } \right ] + \alpha   ^ { 2 } { \mathbb     { E } } _ { \theta   } \left [ { \frac     { 1 } { | { \mathbf     { X } } | ^ { 2 } } } \right ]
+\alpha  
+h : { \mathbf     { x } } \mapsto   h ( { \mathbf     { x } } ) \in   { \mathbb     { R } }
+1 \leq   i \leq   n
+h
+x _ { i }
+{ \mathbb     { E } } _ { \theta   } [ ( \theta   _ { i } - X _ { i } ) h ( { \mathbf     { X } } ) | X _ { j } = x _ { j } ( j \neq   i ) ] = \int   ( \theta   _ { i } - x _ { i } ) h ( { \mathbf     { x } } ) \left ( { \frac     { 1 } { 2 \pi   } } \right ) ^ { { n / 2 } } e ^ { { - ( 1 / 2 ) { \mathbf     { ( x - \theta   ) } } ^ { T } { \mathbf     { ( x - \theta   ) } } } } m ( d x _ { i } )
+= \left [ h ( { \mathbf     { x } } ) \left ( { \frac     { 1 } { 2 \pi   } } \right ) ^ { { n / 2 } } e ^ { { - ( 1 / 2 ) { \mathbf     { ( x - \theta   ) } } ^ { T } { \mathbf     { ( x - \theta   ) } } } } \right ] _ { { x _ { i } = - \infty   } } ^ { \infty   } - \int   { \frac     { \partial   h } { \partial   x _ { i } } } ( { \mathbf     { x } } ) \left ( { \frac     { 1 } { 2 \pi   } } \right ) ^ { { n / 2 } } e ^ { { - ( 1 / 2 ) { \mathbf     { ( x - \theta   ) } } ^ { T } { \mathbf     { ( x - \theta   ) } } } } m ( d x _ { i } )
+= - { \mathbb     { E } } _ { \theta   } \left [ { \frac     { \partial   h } { \partial   x _ { i } } } ( { \mathbf     { X } } ) | X _ { j } = x _ { j } ( j \neq   i ) \right ] .
+{ \mathbb     { E } } _ { \theta   } [ ( \theta   _ { i } - X _ { i } ) h ( { \mathbf     { X } } ) ] = - { \mathbb     { E } } _ { \theta   } \left [ { \frac     { \partial   h } { \partial   x _ { i } } } ( { \mathbf     { X } } ) \right ] .
+h ( { \mathbf     { x } } ) = { \frac     { x _ { i } } { | { \mathbf     { x } } | ^ { 2 } } } .
+h
+{ \frac     { \partial   h } { \partial   x _ { i } } } = { \frac     { 1 } { | { \mathbf     { x } } | ^ { 2 } } } - { \frac     { 2 x _ { i } ^ { 2 } } { | { \mathbf     { x } } | ^ { 4 } } }
+{ \mathbb     { E } } _ { \theta   } \left [ { \frac     { { \mathbf     { ( \theta   - X ) ^ { T } X } } } { | { \mathbf     { X } } | ^ { 2 } } } \right ] = \sum   _ { { i = 1 } } ^ { n } { \mathbb     { E } } _ { \theta   } \left [ ( \theta   _ { i } - X _ { i } ) { \frac     { X _ { i } } { | { \mathbf     { X } } | ^ { 2 } } } \right ]
+= - \sum   _ { { i = 1 } } ^ { n } { \mathbb     { E } } _ { \theta   } \left [ { \frac     { 1 } { | { \mathbf     { X } } | ^ { 2 } } } - { \frac     { 2 X _ { i } ^ { 2 } } { | { \mathbf     { X } } | ^ { 4 } } } \right ]
+= - ( n - 2 ) { \mathbb     { E } } _ { \theta   } \left [ { \frac     { 1 } { | { \mathbf     { X } } | ^ { 2 } } } \right ] .
+d '
+R ( \theta   , d ' ) = n - 2 \alpha   ( n - 2 ) { \mathbb     { E } } _ { \theta   } \left [ { \frac     { 1 } { | { \mathbf     { X } } | ^ { 2 } } } \right ] + \alpha   ^ { 2 } { \mathbb     { E } } _ { \theta   } \left [ { \frac     { 1 } { | { \mathbf     { X } } | ^ { 2 } } } \right ] .
+\alpha  
+{ \displaystyle   \alpha   = n - 2 , }
+R ( \theta   , d ' ) = R ( \theta   , d ) - ( n - 2 ) ^ { 2 } { \mathbb     { E } } _ { \theta   } \left [ { \frac     { 1 } { | { \mathbf     { X } } | ^ { 2 } } } \right ]
+R ( \theta   , d ' ) < R ( \theta   , d ) .
+d
+h ( { \mathbf     { X } } ) = { \frac     { { \mathbf     { X } } } { | { \mathbf     { X } } | ^ { 2 } } } .
+{ \mathbf     { x } } = 0
+h ( { \mathbf     { X } } ) = { \frac     { { \mathbf     { X } } } { \epsilon   + | { \mathbf     { X } } | ^ { 2 } } }
+\epsilon   \to   0

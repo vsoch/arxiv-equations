@@ -1,6 +1,0 @@
-{ \hat   { a } }
-A
-{ \hat     b }
-B
-C ^ { { - 1 } } = \omega   A ^ { { - 1 } } + ( 1 - \omega   ) B ^ { { - 1 } } \ , ,
-{ \hat     c } = C ( \omega   A ^ { { - 1 } } { \hat     a } + ( 1 - \omega   ) B ^ { { - 1 } } { \hat     b } ) \ , .

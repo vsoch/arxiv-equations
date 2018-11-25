@@ -1,0 +1,96 @@
+\sigma ^ 2   =   \bar { ( x ^ 2 ) }   -   \bar   x ^ 2   =   \displaystyle \frac   { \sum_ { i = 1 } ^ N   x _ i ^ 2   -   ( \sum_ { i = 1 } ^ N   x _ i ) ^ 2 / N } { N } .   \ !
+{ \displaystyle   s ^ { 2 } = \displaystyle   { \left ( { \frac   { \sum   _ { i = 1 } ^ { n } x _ { i } ^ { 2 } } { n } } - \left ( { \frac   { \sum   _ { i = 1 } ^ { n } x _ { i } } { n } } \right ) ^ { 2 } \right ) } \cdot   { \frac   { n } { n - 1 } } . \ ! }
+{ \displaystyle   \operatorname   { V a r }   ( X - K ) = \operatorname   { V a r }   ( X ) . }
+K
+s ^ 2   =   \displaystyle \frac   { \sum_ { i = 1 } ^ n   ( x _ i - K ) ^ 2   -   ( \sum_ { i = 1 } ^ n   ( x _ i - K ) ) ^ 2 / n } { n - 1 } .   \ !
+K
+( x _ i   -   K )
+K
+\bar   x   =   \displaystyle   \frac   { \sum_ { j = 1 } ^ n   x _ j } { n }
+\mathrm { v a r i a n c e }   =   s ^ 2   =   \displaystyle \frac   { \sum_ { i = 1 } ^ n   ( x _ i   -   \bar   x ) ^ 2 } { n - 1 }   \ !
+x _ { i }
+\bar   x _ n   =   \frac { ( n - 1 )   \, \bar   x _ { n - 1 }   +   x _ n } { n }   =   \bar   x _ { n - 1 }   +   \frac { x _ n   -   \bar   x _ { n - 1 } } { n }   \ !
+{ \displaystyle   s _ { n } ^ { 2 } = { \frac   { ( n - 2 ) } { ( n - 1 ) } } \,s_ { n - 1 } ^ { 2 } + { \frac   { ( x _ { n } - { \bar   { x } } _ { n - 1 } ) ^ { 2 } } { n } } = s _ { n - 1 } ^ { 2 } + { \frac   { ( x _ { n } - { \bar   { x } } _ { n - 1 } ) ^ { 2 } } { n } } - { \frac   { s _ { n - 1 } ^ { 2 } } { ( n - 1 ) } } , \quad   n > 1 }
+{ \displaystyle   \sigma   _ { n } ^ { 2 } = { \frac   { ( n - 1 ) \,\sigma   _ { n - 1 } ^ { 2 } + ( x _ { n } - { \bar   { x } } _ { n - 1 } ) ( x _ { n } - { \bar   { x } } _ { n } ) } { n } } = \sigma   _ { n - 1 } ^ { 2 } + { \frac   { ( x _ { n } - { \bar   { x } } _ { n - 1 } ) ( x _ { n } - { \bar   { x } } _ { n } ) - \sigma   _ { n - 1 } ^ { 2 } } { n } } . }
+\textstyle \sum_ { i = 1 } ^ n   ( x _ i   -   \bar   x _ n ) ^ 2
+M _ { 2 , n }
+M _ { 2 , n } \! = M_ { 2 , n - 1 }   +   ( x _ n   -   \bar   x _ { n - 1 } ) ( x _ n   -   \bar   x _ n )
+s ^ 2 _ n   =   \frac { M _ { 2 , n } } { n - 1 }
+\sigma   _ { n } ^ { 2 } = { \frac     { M _ { { 2 , n } } } { n } }
+M _ k   =   \bar   x _ k
+S _ k   =   M _ { 2 , k }
+X
+X _ A
+X _ B
+\delta \! = \bar   x _ B   -   \bar   x _ A
+\bar   x _ X   =   \bar   x _ A   +   \delta \cdot \frac { n _ B } { n _ X }
+M _ { 2 , X }   =   M _ { 2 , A }   +   M _ { 2 , B }   +   \delta ^ 2 \cdot \frac { n _ A   n _ B } { n _ X }
+n _ A   \approx   n _ B
+\bar   x _ B   -   \bar   x _ A
+n _ B   =   1
+\bar   x _ X   =   \frac { n _ A   \bar   x _ A   +   n _ B   \bar   x _ B } { n _ A   +   n _ B }
+M _ { 3 , X }   =   M _ { 3 , A }   +   M _ { 3 , B }   +   \delta ^ 3 \frac { n _ A   n _ B   ( n _ A   -   n _ B ) } { n _ X ^ 2 }   +   3 \delta \frac { n _ A M _ { 2 , B }   -   n _ B M _ { 2 , A } } { n _ X }
+{ \displaystyle   { \begin { a l i g n e d } M _ { 4 , X } = M _ { 4 , A } + M _ { 4 , B } & { } + \delta   ^ { 4 } { \frac   { n _ { A } n _ { B } \left ( n _ { A } ^ { 2 } - n _ { A } n _ { B } + n _ { B } ^ { 2 } \right ) } { n _ { X } ^ { 3 } } } \\&{ } + 6 \delta   ^ { 2 } { \frac   { n _ { A } ^ { 2 } M _ { 2 , B } + n _ { B } ^ { 2 } M _ { 2 , A } } { n _ { X } ^ { 2 } } } + 4 \delta   { \frac   { n _ { A } M _ { 3 , B } - n _ { B } M _ { 3 , A } } { n _ { X } } } \\\end { a l i g n e d } } }
+M _ k
+\Sigma ( x   -   \overline { x } ) ^ k
+g _ 1   =   \frac { \sqrt { n }   M _ 3 } { M _ 2 ^ { 3 / 2 } } ,
+g _ 2   =   \frac { n   M _ 4 } { M _ 2 ^ 2 } - 3 .
+B   =   \{ x \ }
+\delta \! = x   -   m
+m '   =   m   +   \frac { \delta } { n }
+M _ 2 '   =   M _ 2   +   \delta ^ 2   \frac {   n - 1 } { n }
+M _ 3 '   =   M _ 3   +   \delta ^ 3   \frac {   ( n   -   1 )   ( n   -   2 ) } { n ^ 2 }   -   \frac { 3 \delta   M _ 2 } { n }
+M _ 4 '   =   M _ 4   +   \frac { \delta ^ 4   ( n   -   1 )   ( n ^ 2   -   3 n   +   3 ) } { n ^ 3 }   +   \frac { 6 \delta ^ 2   M _ 2 } { n ^ 2 }   -   \frac { 4 \delta   M _ 3 } { n }
+\delta   /   n
+  H ( x _ k ) = \frac { h ( x _ k ) } { A }
+h ( x _ k )
+H ( x _ k )
+x _ { k }
+A =   \sum_ { k = 1 } ^ { K }   h ( x _ k )   \,\Delta   x _ k
+n
+x ( t )
+    m _ n ^ { ( h ) }   =   \sum_ { k = 1 } ^ { K }     x _ k ^ n   \, H ( x _ k )   \Delta   x _ k                           =   \frac { 1 } { A }   \sum_ { k = 1 } ^ { K }     x _ k ^ n   \, h ( x _ k )   \Delta   x _ k  
+    \theta_n ^ { ( h ) } =   \sum_ { k = 1 } ^ { K }   \Big ( x _ k - m _ 1 ^ { ( h ) } \Big ) ^ n   \, H ( x _ k ) \Delta   x _ k                                 =   \frac { 1 } { A }   \sum_ { k = 1 } ^ { K }   \Big ( x _ k - m _ 1 ^ { ( h ) } \Big ) ^ n   \, h ( x _ k )   \Delta   x _ k  
+^ { ( h ) }
+\Delta   x _ k = \Delta   x
+I =   A / \Delta   x
+    m _ n ^ { ( h ) } =   \frac { 1 } { I }   { \sum_ { k = 1 } ^ { K }   x _ k ^ n   \, h ( x _ k ) }  
+    \theta_n ^ { ( h ) } =   \frac { 1 } { I } { \sum_ { k = 1 } ^ { K }   \Big ( x _ k - m _ 1 ^ { ( h ) } \Big ) ^ n   \, h ( x _ k ) }  
+Q
+( \gamma_ { 0 , q } , \mu_ { q } , \sigma ^ 2 _ { q } , \alpha_ { 3 , q } , \alpha_ { 4 , q } )   \quad  
+{ \displaystyle   q = 1 , 2 , \ldots   , Q }
+\gamma   _ { n }
+n
+{ \displaystyle   \gamma   _ { n , q } = m _ { n , q } \gamma   _ { 0 , q } \qquad   \quad   { \textrm   { f o r } } \quad   n = 1 , 2 , 3 , 4 \quad   { \text {   a n d   } } \quad   q = 1 , 2 , \dots   , Q }
+\gamma_ { 0 , q }
+q ^ { t h }
+\Delta   t
+\gamma  
+Q
+Q
+{ \displaystyle   \gamma   _ { n , c } = \sum   _ { q = 1 } ^ { Q } \gamma   _ { n , q } \quad   \quad   { \textrm   { f o r } } \quad   n = 0 , 1 , 2 , 3 , 4 }
+_ c
+\gamma  
+\gamma  
+    m _ { n , c } = \frac { \gamma_ { n , c } } { \gamma_ { 0 , c } }   \quad   \textrm { f o r }   \quad   n = 1 , 2 , 3 , 4  
+m _ { n }
+  \theta_n   =   E [ ( x - \mu ) ^ n ] )
+{ \displaystyle   \mu   _ { c } = m _ { 1 , c } \qquad   \sigma   _ { c } ^ { 2 } = \theta   _ { 2 , c } \qquad   \alpha   _ { 3 , c } = { \frac   { \theta   _ { 3 , c } } { \sigma   _ { c } ^ { 3 } } } \qquad   \alpha   _ { 4 , c } = { \frac   { \theta   _ { 4 , c } } { \sigma   _ { c } ^ { 4 } } } - 3 }
+\operatorname { C o v } ( X , Y )   =   \displaystyle \frac   { \sum_ { i = 1 } ^ n   x _ i   y _ i   -   ( \sum_ { i = 1 } ^ n   x _ i ) ( \sum_ { i = 1 } ^ n   y _ i ) / n } { n } .   \ !
+k _ x
+{ \displaystyle   k _ { y } , }
+{ \displaystyle   \operatorname   { C o v }   ( X , Y ) = \operatorname   { C o v }   ( X - k _ { x } , Y - k _ { y } ) = \displaystyle   { \frac   { \sum   _ { i = 1 } ^ { n } ( x _ { i } - k _ { x } ) ( y _ { i } - k _ { y } ) - ( \sum   _ { i = 1 } ^ { n } ( x _ { i } - k _ { x } ) ) ( \sum   _ { i = 1 } ^ { n } ( y _ { i } - k _ { y } ) ) / n } { n } } . \ ! }
+\bar   x   =   \displaystyle   \sum_ { i = 1 } ^ n   x _ i / n
+\bar   y   =   \displaystyle   \sum_ { i = 1 } ^ n   y _ i / n
+\operatorname { C o v } ( X , Y )   =   \displaystyle \frac   { \sum_ { i = 1 } ^ n   ( x _ i   -   \bar   x ) ( y _ i   -   \bar   y ) } { n } .   \ !
+\textstyle \sum   x _ i
+\textstyle \sum   y _ i
+\textstyle   C _ n   =   \sum_ { i = 1 } ^ n   ( x _ i   -   \bar   x _ n ) ( y _ i   -   \bar   y _ n )
+{ \displaystyle   { \begin { a l i g n e d a t } { 2 } { \bar   { x } } _ { n } & = { \bar   { x } } _ { n - 1 } & \,+\,&{ \frac   { x _ { n } - { \bar   { x } } _ { n - 1 } } { n } } \\{ \bar   { y } } _ { n } & = { \bar   { y } } _ { n - 1 } & \,+\,&{ \frac   { y _ { n } - { \bar   { y } } _ { n - 1 } } { n } } \\C_ { n } & = C _ { n - 1 } & \,+\,&( x _ { n } - { \bar   { x } } _ { n } ) ( y _ { n } - { \bar   { y } } _ { n - 1 } ) \\&=C_ { n - 1 } & \,+\,&( x _ { n } - { \bar   { x } } _ { n - 1 } ) ( y _ { n } - { \bar   { y } } _ { n } ) \\\end { a l i g n e d a t } } }
+\textstyle   ( x _ n   -   \bar   x _ n )   =   \frac { n - 1 } { n } ( x _ n   -   \bar   x _ { n - 1 } )
+\textstyle   \frac { n - 1 } { n } ( x _ n   -   \bar   x _ { n - 1 } ) ( y _ n   -   \bar   y _ { n - 1 } )
+\begin { a l i g n }   \operatorname { C o v } _ N ( X , Y )   =   \frac { C _ N } { N }   & =   \frac { \operatorname { C o v } _ { N - 1 } ( X , Y ) \cdot ( N - 1 )   +   ( x _ n   -   \bar   x _ n ) ( y _ n   -   \bar   y _ { n - 1 } ) } { N } \\    &= \frac { \operatorname { C o v } _ { N - 1 } ( X , Y ) \cdot ( N - 1 )   +   ( y _ n   -   \bar   y _ n ) ( x _ n   -   \bar   x _ { n - 1 } ) } { N } \\    &= \frac { \operatorname { C o v } _ { N - 1 } ( X , Y ) \cdot ( N - 1 )   +   \frac { N - 1 } { N } ( x _ n   -   \bar   x _ { n - 1 } ) ( y _ n   -   \bar   y _ { n - 1 } ) } { N } .   \end { a l i g n }
+{ \displaystyle   C _ { X } = C _ { A } + C _ { B } + ( { \bar   { x } } _ { A } - { \bar   { x } } _ { B } ) ( { \bar   { y } } _ { A } - { \bar   { y } } _ { B } ) \cdot   { \frac   { n _ { A } n _ { B } } { n _ { X } } } . }
+{ \displaystyle   w _ { 1 } , \dots   w _ { N } }
+{ \displaystyle   { \begin { a l i g n e d a t } { 2 } { \bar   { x } } _ { n + k } & = { \bar   { x } } _ { n } & \,+\,&{ \frac   { \sum   _ { i = n + 1 } ^ { n + k } w _ { i } ( x _ { i } - { \bar   { x } } _ { n } ) } { \sum   _ { i = 1 } ^ { n + k } w _ { i } } } \\{ \bar   { y } } _ { n + k } & = { \bar   { y } } _ { n } & \,+\,&{ \frac   { \sum   _ { i = n + 1 } ^ { n + k } w _ { i } ( y _ { i } - { \bar   { y } } _ { n } ) } { \sum   _ { i = 1 } ^ { n + k } w _ { i } } } \\C_ { n + k } & = C _ { n } & \,+\,&\sum   _ { i = n + 1 } ^ { n + k } w _ { i } ( x _ { i } - { \bar   { x } } _ { n + k } ) ( y _ { i } - { \bar   { y } } _ { n } ) \\&=C_ { n } & \,+\,&\sum   _ { i = n + 1 } ^ { n + k } w _ { i } ( x _ { i } - { \bar   { x } } _ { n } ) ( y _ { i } - { \bar   { y } } _ { n + k } ) \\\end { a l i g n e d a t } } }
+{ \displaystyle   \operatorname   { C o v }   _ { N } ( X , Y ) = { \frac   { C _ { N } } { \sum   _ { i = 1 } ^ { N } w _ { i } } } }

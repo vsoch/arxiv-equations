@@ -1,0 +1,19 @@
+{ \displaystyle   \Pr ( B _ { n } = B ) = { \frac   { \prod   _ { b \in   B } ( | b | - 1 ) ! } { n ! } } }
+{ \displaystyle   { \frac   { \theta   + | B | \alpha   } { n + \theta   } } , }
+{ \displaystyle   { \frac   { | b | - \alpha   } { n + \theta   } } . }
+{ \displaystyle   \Pr ( B _ { n } = B ) = { \frac   { ( \theta   + \alpha   ) _ { | B | - 1 , \alpha   } } { ( \theta   + 1 ) _ { n - 1 , 1 } } } \prod   _ { b \in   B } ( 1 - \alpha   ) _ { | b | - 1 , 1 } }
+( a ) _ { 0 , c }   =   1
+b   >   0
+  ( a ) _ { b , c }   =   \prod_ { i = 0 } ^ { b - 1 } ( a + i c )   =     \begin { c a s e s }   a ^ b   &   \text { i f   } c   =   0 ,   \\ \\ \dfrac { c ^ b \,\Gamma ( a / c   +   b ) } { \Gamma ( a / c ) }   &   \text { o t h e r w i s e } .     \end { c a s e s }  
+\theta   > 0
+{ \displaystyle   \Pr ( B _ { n } = B ) = { \frac   { \Gamma   ( \theta   ) } { \Gamma   ( \theta   + n ) } } { \dfrac   { \alpha   ^ { | B | } \,\Gamma   ( \theta   / \alpha   + | B | ) } { \Gamma   ( \theta   / \alpha   ) } } \prod   _ { b \in   B } { \dfrac   { \Gamma   ( | b | - \alpha   ) } { \Gamma   ( 1 - \alpha   ) } } . }
+\alpha  
+{ \displaystyle   \Pr ( B _ { n } = B ) = { \frac   { \Gamma   ( \theta   ) \,\theta   ^ { | B | } } { \Gamma   ( \theta   + n ) } } \prod   _ { b \in   B } \Gamma   ( | b | ) . }
+\theta  
+{ \displaystyle   \Pr ( B _ { n } = B ) = { \frac   { \alpha   ^ { | B | - 1 } \,\Gamma   ( | B | ) } { \Gamma   ( n ) } } \prod   _ { b \in   B } { \frac   { \Gamma   ( | b | - \alpha   ) } { \Gamma   ( 1 - \alpha   ) } } . }
+{ \displaystyle   \theta   = 0 . 5 , \ \alpha   = 0 }
+{ \displaystyle   \Pr ( C _ { i } = c \mid   C _ { 1 } , \ldots   , C _ { i - 1 } ) = { \begin { c a s e s } { \dfrac   { \theta   + | B | \alpha   } { \theta   + i - 1 } } & { \text { i f   } } c \in   { \text { n e w   b l o c k } } , \\\\{ \dfrac   { | b | - \alpha   } { \theta   + i - 1 } } & { \text { i f   } } c \in   b ; \end { c a s e s } } }
+n
+{ \displaystyle   { \begin { a l i g n e d } \sum   _ { k = 1 } ^ { n } { \frac   { \theta   } { \theta   + k - 1 } } = \theta   \cdot   ( \Psi   ( \theta   + n ) - \Psi   ( \theta   ) ) \end { a l i g n e d } } }
+\Psi ( \theta )
+{ \displaystyle   { \begin { a l i g n e d } { \frac   { \Gamma   ( \theta   + n + \alpha   ) \Gamma   ( \theta   + 1 ) } { \alpha   \Gamma   ( \theta   + n ) \Gamma   ( \theta   + \alpha   ) } } - { \frac   { \theta   } { \alpha   } } . \end { a l i g n e d } } }

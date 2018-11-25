@@ -1,0 +1,9 @@
+{ \displaystyle   \sigma   _ { X Y } = E [ ( X - \mu   _ { X } ) \,( Y - \mu   _ { Y } ) ] }
+{ \displaystyle   \rho   _ { X Y } = E [ ( X - \mu   _ { X } ) \,( Y - \mu   _ { Y } ) ] / ( \sigma   _ { X } \sigma   _ { Y } ) }
+{ \displaystyle   { \text { c o v } } _ { X Y } = \sigma   _ { X Y } = \rho   _ { X Y } \sigma   _ { X } \sigma   _ { Y } }
+\sigma   _ { X X }
+\sigma   _ { X } ^ { 2 } ,
+{ \displaystyle   \sigma   _ { X Y } ( m ) = E [ ( X _ { n } - \mu   _ { X } ) \,( Y _ { n + m } - \mu   _ { Y } ) ] , }
+{ \displaystyle   \rho   _ { X Y } ( m ) = E [ ( X _ { n } - \mu   _ { X } ) \,( Y _ { n + m } - \mu   _ { Y } ) ] / ( \sigma   _ { X } \sigma   _ { Y } ) . }
+{ \displaystyle   \sigma   _ { X X } ( m ) = E [ ( X _ { n } - \mu   _ { X } ) \,( X _ { n + m } - \mu   _ { X } ) ] , }
+{ \displaystyle   \rho   _ { X X } ( m ) = E [ ( X _ { n } - \mu   _ { X } ) \,( X _ { n + m } - \mu   _ { X } ) ] / ( \sigma   _ { X } ^ { 2 } ) . }

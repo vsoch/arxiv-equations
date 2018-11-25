@@ -1,0 +1,10 @@
+E \sum   _ { j } ( { \hat     { Y } } _ { j } - E ( Y _ { j } \mid   X _ { j } ) ) ^ { 2 } / \sigma   ^ { 2 } ,
+{ \hat     { Y } } _ { j }
+C _ { p } = { S S E _ { p }   \over   S ^ { 2 } } - N + 2 P ,
+S S E _ { p } = \sum   _ { { i = 1 } } ^ { N } ( Y _ { i } - Y _ { { p i } } ) ^ { 2 }
+  Y   =   \beta_0   +   \beta_1X_1 + . . . + \beta_pX_p   +   \epsilon  
+{ \displaystyle   \beta   _ { 0 } . . . \beta   _ { p } }
+{ \displaystyle   X _ { 1 } . . . X _ { p } }
+\epsilon  
+  C _ p = \frac { 1 } { n } ( R S S   +   2 d \hat { \sigma } ^ 2 )  
+  \hat { \sigma } ^ 2  

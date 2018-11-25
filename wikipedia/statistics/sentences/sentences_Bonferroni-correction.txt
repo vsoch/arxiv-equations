@@ -1,0 +1,20 @@
+\alpha   / m
+\alpha  
+m
+m = 2 0
+\alpha   =   0 . 0 5
+{ \displaystyle   \alpha   = 0 . 0 5 / 2 0 = 0 . 0 0 2 5 }
+{ \displaystyle   H _ { 1 } , \ldots   , H _ { m } }
+{ \displaystyle   p _ { 1 } , \ldots   , p _ { m } }
+m
+m _ { 0 }
+H _ { { i } }
+{ \displaystyle   p _ { i } \leq   { \frac   { \alpha   } { m } } }
+{ \displaystyle   \leq   \alpha   }
+{ \displaystyle   { \text { F W E R } } = P \left \{ \bigcup   _ { i = 1 } ^ { m _ { 0 } } \left ( p _ { i } \leq   { \frac   { \alpha   } { m } } \right ) \right \}\leq   \sum   _ { i = 1 } ^ { m _ { 0 } } \left \{ P \left ( p _ { i } \leq   { \frac   { \alpha   } { m } } \right ) \right \}=m_ { 0 } { \frac   { \alpha   } { m } } \leq   m { \frac   { \alpha   } { m } } = \alpha   . }
+\alpha   / m
+\alpha  
+\alpha  
+m
+1 - \alpha
+1 - { \frac     { \alpha   } { m } }

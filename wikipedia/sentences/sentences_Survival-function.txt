@@ -1,5 +1,0 @@
-S ( t ) = P ( \{ T > t \})=\int   _ { t } ^ { \infty   } f ( u ) \,du = 1 - F ( t ) .
-{ \displaystyle   F ( t ) = \operatorname   { P }   ( T \leq   t ) , }
-S ( u ) \leq   S ( t )
-u > t
-S ( t ) = 1 - F ( t )

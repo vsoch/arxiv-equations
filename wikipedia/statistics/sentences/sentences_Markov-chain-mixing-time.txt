@@ -1,0 +1,1 @@
+| \Pr ( X _ t   \in   A )   -   \pi ( A ) |   \leq   1 / 4  

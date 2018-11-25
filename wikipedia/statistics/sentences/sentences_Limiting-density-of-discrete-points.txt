@@ -1,0 +1,44 @@
+{ \displaystyle   h ( X ) = - \int   p ( x ) \log   p ( x ) \,dx . }
+  P ( x )  
+{ \displaystyle   p ( x ) }
+{ \displaystyle   { \frac   { 1 } { d x } } }
+N
+\{ x _ i \ }
+N \to   \infty  
+m ( x )
+{ \displaystyle   \lim   _ { N \to   \infty   } { \frac   { 1 } { N } } \,( { \mbox { n u m b e r   o f   p o i n t s   i n   } } a < x < b ) = \int   _ { a } ^ { b } m ( x ) \,dx }
+{ \displaystyle   \lim   _ { N \rightarrow   \infty   } H _ { N } ( X ) = \log ( N ) - \int   p ( x ) \log   { \frac   { p ( x ) } { m ( x ) } } \,dx . }
+{ \displaystyle   \log ( N ) }
+{ \displaystyle   H ( X ) = - \int   p ( x ) \log   { \frac   { p ( x ) } { m ( x ) } } \,dx . }
+{ \displaystyle   \log ( N ) }
+{ \displaystyle   H _ { N } ( X ) \sim   \log ( N ) + H ( X ) }
+  m ( x )  
+N
+  m ( x )  
+  m ( x )  
+x
+N
+  m ( x )  
+{ \displaystyle   H _ { N } ( X ) }
+N
+x
+{ \displaystyle   \log ( N ) }
+{ \displaystyle   H ( X ) }
+x
+{ \displaystyle   p ( x ) }
+  m ( x )  
+H ( X )
+m ( x )
+{ \displaystyle   p ( x ) }
+  m ( x )  
+{ \displaystyle   p ( x ) }
+m ( x )
+p ( x )
+{ \displaystyle   \log ( N ) }
+{ \displaystyle   H ( X ) }
+{ \displaystyle   \log ( N ) }
+  m ( x )  
+r
+{ \displaystyle   p ( x ) }
+h ( X )
+{ \displaystyle   H _ { N } ( X ) \approx   \log ( N ) - \log ( r ) + h ( X ) }

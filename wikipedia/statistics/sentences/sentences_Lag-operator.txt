@@ -1,0 +1,28 @@
+X = \{ X _ { 1 } , X _ { 2 } , \dots   \ } \ ,
+\,LX_ { t } = X _ { { t - 1 } }
+\;t > 1 \ ,
+{ \displaystyle   \,BX_ { t } = X _ { t - 1 } }
+\;t > 1 \ ,
+\,X_ { t } = L X _ { { t + 1 } }
+\;t \geq   1 \ ,
+\,L ^ { { - 1 } } X _ { { t } } = X _ { { t + 1 } } \ ,
+\,L ^ { k } X _ { { t } } = X _ { { t - k } } . \ ,
+\varepsilon   _ { t } = X _ { t } - \sum   _ { { i = 1 } } ^ { p } \varphi   _ { i } X _ { { t - i } } = \left ( 1 - \sum   _ { { i = 1 } } ^ { p } \varphi   _ { i } L ^ { i } \right ) X _ { t } \ ,
+\varphi   ( L ) X _ { t } = \theta   ( L ) \varepsilon   _ { t } \ ,
+\varphi   ( L )
+\theta   ( L )
+\varphi   ( L ) = 1 - \sum   _ { { i = 1 } } ^ { p } \varphi   _ { i } L ^ { i } \ ,
+\theta   ( L ) = 1 + \sum   _ { { i = 1 } } ^ { q } \theta   _ { i } L ^ { i } . \ ,
+X _ { t } = { \frac     { \theta   ( L ) } { \varphi   ( L ) } } \varepsilon   _ { t } ,
+\varphi   ( L ) X _ { t } = \theta   ( L ) \varepsilon   _ { t } \ , .
+[ \ ]_ { + }
+{ \displaystyle   \varphi   \left ( 1 \right ) }
+{ \displaystyle   \varphi   \left ( 1 \right ) = 1 - \sum   _ { i = 1 } ^ { p } \varphi   _ { i } }
+{ \displaystyle   \nabla   }
+{ \displaystyle   { \begin { a r r a y } { l c r } \nabla   X _ { t } & = X _ { t } - X _ { t - 1 } \\\nabla   X _ { t } & = ( 1 - L ) X _ { t } ~ . \end { a r r a y } } }
+{ \displaystyle   { \begin { a l i g n e d } \nabla   ( \nabla   X _ { t } ) & = \nabla   X _ { t } - \nabla   X _ { t - 1 } \\\nabla   ^ { 2 } X _ { t } & = ( 1 - L ) \nabla   X _ { t } \\\nabla   ^ { 2 } X _ { t } & = ( 1 - L ) ( 1 - L ) X _ { t } \\\nabla   ^ { 2 } X _ { t } & = ( 1 - L ) ^ { 2 } X _ { t } ~ . \end { a l i g n e d } } }
+{ \displaystyle   \nabla   ^ { i } X _ { t } = ( 1 - L ) ^ { i } X _ { t } \   . }
+\Omega   _ { t }
+E [ X _ { { t + j } } | \Omega   _ { t } ] = E _ { t } [ X _ { { t + j } } ] \ , .
+L ^ { n } E _ { t } [ X _ { { t + j } } ] = E _ { { t - n } } [ X _ { { t + j - n } } ] \ , ,
+B ^ { n } E _ { t } [ X _ { { t + j } } ] = E _ { t } [ X _ { { t + j - n } } ] \ , .

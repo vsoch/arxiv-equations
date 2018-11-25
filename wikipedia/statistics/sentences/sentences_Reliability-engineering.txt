@@ -1,0 +1,5 @@
+{ \displaystyle   ( { \text { R e l i a b i l i t y } } = 1 - { \text { P r o b a b i l i t y   o f   F a i l u r e } } ) ; }
+R ( t ) = P r \{ T > t \}=\int   _ { t } ^ { \infty   } f ( x ) \,dx \   \ !
+f ( x ) \ !
+t
+t \ !

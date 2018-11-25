@@ -1,2 +1,0 @@
-{ \displaystyle   \operatorname   { E }   ( { \text { p r o j e c t } } ) = \sum   { \operatorname   { E }   ( { \text { t a s k } } ) } }
-{ \displaystyle   \operatorname   { S E }   ( { \text { p r o j e c t } } ) = { \sqrt   { \sum   { \operatorname   { S E }   ( { \text { t a s k } } ) ^ { 2 } } } } }

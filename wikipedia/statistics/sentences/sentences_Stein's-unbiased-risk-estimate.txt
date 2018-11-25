@@ -1,0 +1,23 @@
+\mu   \in   { { \mathbb     R } } ^ { d }
+x \in   { { \mathbb     R } } ^ { d }
+\mu  
+\sigma   ^ { 2 }
+h ( x )
+\mu  
+x
+h ( x ) = x + g ( x )
+g
+{ \displaystyle   \operatorname   { S U R E }   ( h ) = d \sigma   ^ { 2 } + \|g ( x ) \|^ { 2 } + 2 \sigma   ^ { 2 } \sum   _ { i = 1 } ^ { d } { \frac   { \partial   } { \partial   x _ { i } } } g _ { i } ( x ) = - d \sigma   ^ { 2 } + \|g ( x ) \|^ { 2 } + 2 \sigma   ^ { 2 } \sum   _ { i = 1 } ^ { d } { \frac   { \partial   } { \partial   x _ { i } } } h _ { i } ( x ) , }
+g _ { i } ( x )
+i
+g ( x )
+\|\cdot   \ |
+h ( x )
+{ \displaystyle   \operatorname   { E }   _ { \mu   } \{ \operatorname   { S U R E }   ( h ) \}=\operatorname   { M S E }   ( h ) , \ , \ ! }
+{ \displaystyle   \operatorname   { M S E }   ( h ) = \operatorname   { E }   _ { \mu   } \|h ( x ) - \mu   \|^ { 2 } . }
+\mu  
+\mu  
+{ \displaystyle   \operatorname   { E }   _ { \mu   } \|h ( x ) - \mu   \|^ { 2 } = \operatorname   { E }   _ { \mu   } \{ \operatorname   { S U R E }   ( h ) \ } . }
+{ \displaystyle   { \begin { a l i g n e d } \operatorname   { E }   _ { \mu   } \|h ( x ) - \mu   \|^ { 2 } & = \operatorname   { E }   _ { \mu   } \|g ( x ) + x - \mu   \|^ { 2 } \\&=\operatorname   { E }   _ { \mu   } \|g ( x ) \|^ { 2 } + \operatorname   { E }   _ { \mu   } \|x - \mu   \|^ { 2 } + 2 \operatorname   { E }   _ { \mu   } g ( x ) ^ { T } ( x - \mu   ) \\&=\operatorname   { E }   _ { \mu   } \|g ( x ) \|^ { 2 } + d \sigma   ^ { 2 } + 2 \operatorname   { E }   _ { \mu   } g ( x ) ^ { T } ( x - \mu   ) . \end { a l i g n e d } } }
+{ \displaystyle   { \begin { a l i g n e d } \operatorname   { E }   _ { \mu   } g ( x ) ^ { T } ( x - \mu   ) & = \int   _ { { \mathbb   { R }   } ^ { d } } { \frac   { 1 } { \sqrt   { 2 \pi   \sigma   ^ { 2 d } } } } \exp   \left ( - { \frac   { \|x - \mu   \|^ { 2 } } { 2 \sigma   ^ { 2 } } } \right ) \sum   _ { i = 1 } ^ { d } g _ { i } ( x ) ( x _ { i } - \mu   _ { i } ) d ^ { d } x \\&=\sigma   ^ { 2 } \sum   _ { i = 1 } ^ { d } \int   _ { { \mathbb   { R }   } ^ { d } } { \frac   { 1 } { \sqrt   { 2 \pi   \sigma   ^ { 2 d } } } } \exp   \left ( - { \frac   { \|x - \mu   \|^ { 2 } } { 2 \sigma   ^ { 2 } } } \right ) { \frac   { d g _ { i } } { d x _ { i } } } d ^ { d } x \\&=\sigma   ^ { 2 } \sum   _ { i = 1 } ^ { d } \operatorname   { E }   _ { \mu   } { \frac   { d g _ { i } } { d x _ { i } } } . \end { a l i g n e d } } }
+{ \displaystyle   \operatorname   { E }   _ { \mu   } \|h ( x ) - \mu   \|^ { 2 } = \operatorname   { E }   _ { \mu   } \left ( d \sigma   ^ { 2 } + \|g ( x ) \|^ { 2 } + 2 \sigma   ^ { 2 } \sum   _ { i = 1 } ^ { d } { \frac   { d g _ { i } } { d x _ { i } } } \right ) . }

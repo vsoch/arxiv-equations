@@ -1,0 +1,41 @@
+\sigma   ( X )
+\sigma  
+m
+\sigma   ( X ) = \sum   _ { i < j \leq   n } w _ { i j } ( d _ { i j } ( X ) - \delta   _ { i j } ) ^ { 2 }
+w _ { i j } \geq   0
+( i , j )
+{ \displaystyle   d _ { i j } ( X ) }
+i
+j
+\delta   _ { i j }
+m
+w _ { i j }
+X
+\sigma   ( X )
+m
+\sigma   ( X )
+\sigma  
+\sigma  
+Z
+\sigma  
+\sigma   ( X ) = \sum   _ { i < j \leq   n } w _ { i j } ( d _ { i j } ( X ) - \delta   _ { i j } ) ^ { 2 } = \sum   _ { i < j } w _ { i j } \delta   _ { i j } ^ { 2 } + \sum   _ { i < j } w _ { i j } d _ { i j } ^ { 2 } ( X ) - 2 \sum   _ { i < j } w _ { i j } \delta   _ { i j } d _ { i j } ( X )
+C
+{ \displaystyle   X ' V X }
+\sum   _ { i < j } w _ { i j } \delta   _ { i j } d _ { i j } ( X ) = \,\operatorname   { t r }   \,X ' B ( X ) X \geq   \,\operatorname   { t r }   \,X ' B ( Z ) Z
+{ \displaystyle   B ( Z ) }
+b _ { i j } = - { \frac   { w _ { i j } \delta   _ { i j } } { d _ { i j } ( Z ) } }
+d _ { i j } ( Z ) \neq   0 , i \neq   j
+{ \displaystyle   b _ { i j } = 0 }
+d _ { i j } ( Z ) = 0 , i \neq   j
+b _ { i i } = - \sum   _ { j = 1 , j \neq   i } ^ { n } b _ { i j }
+\tau   ( X , Z )
+\sigma   ( X ) = C + \,\operatorname   { t r }   \,X ' V X - 2 \,\operatorname   { t r }   \,X ' B ( X ) X
+\leq   C + \,\operatorname   { t r }   \,X ' V X - 2 \,\operatorname   { t r }   \,X ' B ( Z ) Z = \tau   ( X , Z )
+{ \displaystyle   Z \leftarrow   X ^ { k - 1 } }
+X ^ { k } \leftarrow   \min   _ { X } \tau   ( X , Z )
+\sigma   ( X ^ { k - 1 } ) - \sigma   ( X ^ { k } ) < \epsilon  
+\delta   _ { i j }
+w _ { i j }
+\delta   _ { i j } ^ { - \alpha   }
+\alpha  
+\alpha   = 2

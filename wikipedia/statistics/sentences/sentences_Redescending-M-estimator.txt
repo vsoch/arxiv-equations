@@ -1,0 +1,4 @@
+{ \displaystyle   { \frac   { \int   \Psi   ^ { 2 } \,dF \,\!}{ ( \int   \Psi   ' \,dF \,\!)^ { 2 } } } }
+{ \displaystyle   \Psi   ( x ) = { \begin { c a s e s } x , & 0 \leq   | x | \leq   a { \text {   ( c e n t r a l   s e g m e n t ) } } \\a \,\operatorname   { s i g n }   ( x ) , & a \leq   | x | \leq   b { \text {   ( h i g h   a n d   l o w   f l a t   s e g m e n t s ) } } \\{ \frac   { a ( r - | x | ) } { r - b } } \,\operatorname   { s i g n }   ( x ) , & b \leq   | x | \leq   r { \text {   ( e n d   s l o p e s ) } } \\0 , & r \leq   | x | \qquad   \,{ \text { ( l e f t   a n d   r i g h t   t a i l s ) } } \end { c a s e s } } }
+{ \displaystyle   \Psi   ( x ) = x ( 1 - ( x / k ) ^ { 2 } ) ^ { 2 } ; \ |x | \leq   k }
+{ \displaystyle   \Psi   ( x ) = \sin   { ( x ) } ; \ -\pi   \leq   x \leq   \pi   }

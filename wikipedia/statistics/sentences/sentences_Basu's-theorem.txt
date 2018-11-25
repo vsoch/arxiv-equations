@@ -1,0 +1,39 @@
+{ \displaystyle   ( P _ { \theta   } ; \theta   \in   \Theta   ) }
+{ \displaystyle   ( X , { \mathcal   { A } } ) }
+{ \displaystyle   T , A }
+{ \displaystyle   ( X , { \mathcal   { A } } ) }
+{ \displaystyle   ( Y , { \mathcal   { B } } ) }
+T
+\theta  
+A
+\theta  
+T
+A
+{ \displaystyle   P _ { \theta   } ^ { T } }
+{ \displaystyle   P _ { \theta   } ^ { A } }
+T
+A
+{ \displaystyle   A ^ { - 1 } ( B ) }
+B
+A
+B \in   { \mathcal   { B } }
+{ \displaystyle   P _ { \theta   } ^ { A } ( B ) = P _ { \theta   } ( A ^ { - 1 } B ) = \int   _ { Y } P _ { \theta   } ( A ^ { - 1 } ( B ) \mid   T = t ) \ P_ { \theta   } ^ { T } ( d t ) . }
+{ \displaystyle   P _ { \theta   } ^ { A } }
+\theta  
+A
+{ \displaystyle   P _ { \theta   } ( \cdot   \mid   T = t ) }
+\theta  
+T
+{ \displaystyle   \int   _ { Y } { \big   [ } P ( A ^ { - 1 } ( B ) \mid   T = t ) - P ^ { A } ( B ) { \big   ] } \ P_ { \theta   } ^ { T } ( d t ) = 0 . }
+t
+\theta  
+T
+{ \displaystyle   g ( t ) = P ( A ^ { - 1 } ( B ) \mid   T = t ) - P ^ { A } ( B ) }
+{ \displaystyle   P _ { \theta   } ^ { T } }
+t
+{ \displaystyle   P ( A ^ { - 1 } ( B ) \mid   T = t ) = P ^ { A } ( B ) }
+t
+A
+T
+{ \displaystyle   { \widehat   { \mu   } } = { \frac   { \sum   X _ { i } } { n } } , }
+{ \displaystyle   { \widehat   { \sigma   } } ^ { 2 } = { \frac   { \sum   \left ( X _ { i } - { \bar   { X } } \right ) ^ { 2 } } { n - 1 } } , }

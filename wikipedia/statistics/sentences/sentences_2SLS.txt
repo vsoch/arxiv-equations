@@ -1,0 +1,113 @@
+{ \displaystyle   Y = X \beta   + U }
+X
+{ \displaystyle   { \widehat   { \beta   } } }
+{ \displaystyle   \operatorname   { c o v }   ( X , { \widehat   { U } } ) = 0 }
+{ \displaystyle   \min   _ { \widehat   { \beta   } } ( Y - { \widehat   { \beta   } } X ) ' ( Y - { \widehat   { \beta   } } X ) }
+{ \displaystyle   X ' ( Y - { \widehat   { \beta   } } X ) = X ' { \widehat   { U } } = 0 }
+{ \displaystyle   \operatorname   { c o v }   ( X , U ) \neq   0 }
+X
+Y
+X
+Y
+X
+{ \displaystyle   y = \alpha   + \beta   x + u }
+{ \displaystyle   { \widehat   { \beta   } } = { \frac   { \operatorname   { c o v }   ( x , y ) } { \operatorname   { v a r }   ( x ) } } }
+y
+{ \displaystyle   { \begin { a l i g n e d } { \widehat   { \beta   } } & = { \frac   { \operatorname   { c o v }   ( x , y ) } { \operatorname   { v a r }   ( x ) } } = { \frac   { \operatorname   { c o v }   ( x , \alpha   + \beta   x + u ) } { \operatorname   { v a r }   ( x ) } } \\[6pt ] & = { \frac   { \operatorname   { c o v }   ( x , \alpha   + \beta   x ) } { \operatorname   { v a r }   ( x ) } } + { \frac   { \operatorname   { c o v }   ( x , u ) } { \operatorname   { v a r }   ( x ) } } = \beta   ^ { * } + { \frac   { \operatorname   { c o v }   ( x , u ) } { \operatorname   { v a r }   ( x ) } } , \end { a l i g n e d } } }
+\beta   ^ { * }
+\beta   ^ { * }
+{ \displaystyle   \beta   . }
+{ \displaystyle   \operatorname   { c o v }   ( x , u ) \neq   0 }
+{ \vec   { \beta   } }
+x
+u
+z
+u
+z
+x
+u
+( Z \perp   \!\!\!\perp   Y ) _ { { G _ { { \overline   { X } } } } } \qquad   ( Z \not   \!\!{ \perp   \!\!\!\perp   } X ) _ { G }
+\perp \!\!\!\perp
+G _ { \overline { X } }
+( Z \perp   \!\!\!\perp   Y _ { x } ) \qquad   ( Z \not   \!\!{ \perp   \!\!\!\perp   } X )
+\perp \!\!\!\perp
+G _ { \overline { X } }
+\rightarrow  
+\rightarrow  
+G _ { \overline { X } }
+G _ { \overline { X } }
+\rightarrow  
+\leftrightarrow  
+{ \displaystyle   y _ { i } = X _ { i } \beta   + e _ { i } , }
+y _ { i }
+X _ { i }
+e _ { i }
+y _ { i }
+X _ { i }
+\beta  
+\beta  
+y _ { i }
+X _ { i }
+y _ { i }
+\beta  
+{ \displaystyle   { \widehat   { \beta   } } _ { \mathrm   { O L S }   } = ( X ' X ) ^ { - 1 } X ' y = ( X ' X ) ^ { - 1 } X ' ( X \beta   + e ) = \beta   + ( X ' X ) ^ { - 1 } X ' e }
+{ \displaystyle   \operatorname   { c o v }   ( X , y ) }
+\beta  
+{ \displaystyle   x _ { i } = Z _ { i } \gamma   + v _ { i } , }
+{ \displaystyle   { \widehat   { \beta   } } _ { \mathrm   { I V }   } = ( Z ' X ) ^ { - 1 } Z ' y }
+{ \displaystyle   Z ' e = 0 }
+{ \displaystyle   { \widehat   { \beta   } } _ { \mathrm   { I V }   } = ( Z ' X ) ^ { - 1 } Z ' y = ( Z ' X ) ^ { - 1 } Z ' X \beta   + ( Z ' X ) ^ { - 1 } Z ' e \rightarrow   \beta   }
+{ \displaystyle   Z ' e = 0 }
+{ \displaystyle   Z ' e = 0 }
+{ \displaystyle   { \widehat   { \beta   } } _ { \mathrm   { G M M }   } = ( X ' P _ { Z } X ) ^ { - 1 } X ' P _ { Z } y , }
+{ \displaystyle   P _ { Z } }
+{ \displaystyle   P _ { Z } = Z ( Z ' Z ) ^ { - 1 } Z ' }
+\beta_ { G M M }
+  \widehat { \beta } _ \mathrm { G M M }   =   ( X ^ \mathrm { T }   Z ( Z ^ \mathrm { T }   Z ) ^ { - 1 } Z ^ \mathrm { T }   X ) ^ { - 1 } X ^ \mathrm { T }   Z ( Z ^ \mathrm { T }   Z ) ^ { - 1 } Z ^ \mathrm { T }   y
+X ^ \mathrm { T }   Z ,   Z ^ \mathrm { T }   Z
+Z ^ \mathrm { T } X
+  \begin { a l i g n }   \widehat { \beta } _ \mathrm { G M M }   & =   ( Z ^ \mathrm { T }   X ) ^ { - 1 } ( Z ^ \mathrm { T }   Z ) ( X ^ \mathrm { T }   Z ) ^ { - 1 } X ^ \mathrm { T }   Z ( Z ^ \mathrm { T }   Z ) ^ { - 1 } Z ^ \mathrm { T }   y \\ &=  ( Z ^ \mathrm { T }   X ) ^ { - 1 } ( Z ^ \mathrm { T }   Z ) ( Z ^ \mathrm { T }   Z ) ^ { - 1 } Z ^ \mathrm { T }   y \\ &=( Z ^ \mathrm { T }   X ) ^ { - 1 } Z ^ \mathrm { T } y   \\ &=\widehat { \beta } _ \mathrm { I V }   \end { a l i g n }  
+{ \displaystyle   Z ' v = 0 }
+  X   =   Z   \delta   +   \text { e r r o r s }  
+\widehat { \delta } = ( Z ^ \mathrm { T }   Z ) ^ { - 1 } Z ^ \mathrm { T } X ,   \ ,
+{ \displaystyle   { \widehat   { X } } = Z { \widehat   { \delta   } } = { \color   { P r o c e s s B l u e } Z ( Z ^ { \mathrm   { T }   } Z ) ^ { - 1 } Z ^ { \mathrm   { T }   } } X = { \color   { P r o c e s s B l u e } P _ { Z } } X . \ , }
+{ \displaystyle   Y = { \widehat   { X } } \beta   + \mathrm   { n o i s e }   , \ , }
+{ \displaystyle   \beta   _ { 2 S L S } = \left ( X ^ { \mathrm   { T }   } { \color   { P r o c e s s B l u e } P _ { Z } } X \right ) ^ { - 1 } X ^ { \mathrm   { T }   } { \color   { P r o c e s s B l u e } P _ { Z } } Y . }
+  ( \widehat   X ^ \mathrm { T } \widehat   X ) ^ { - 1 } \widehat   X ^ \mathrm { T } Y
+  \widehat   X   =   P _ Z   X
+P _ Z  
+    P _ Z ^ \mathrm { T } P _ Z = P _ Z   P _ Z   =   P _ Z
+{ \displaystyle   \beta   _ { 2 S L S } = ( { \widehat   { X } } ^ { \mathrm   { T }   } { \widehat   { X } } ) ^ { - 1 } { \widehat   { X } } ^ { \mathrm   { T }   } Y = \left ( X ^ { \mathrm   { T }   } P _ { Z } ^ { \mathrm   { T }   } P _ { Z } X \right ) ^ { - 1 } X ^ { \mathrm   { T }   } P _ { Z } ^ { \mathrm   { T }   } Y = \left ( X ^ { \mathrm   { T }   } P _ { Z } X \right ) ^ { - 1 } X ^ { \mathrm   { T }   } P _ { Z } Y . }
+\beta  
+\beta  
+Z
+x = g ( z , u ) \ ,
+y = f ( x , u ) \ ,
+f
+g
+Z
+U
+Z ,   X
+Y
+X
+Y
+{ \text { A C E } } = \Pr ( y \mid   { \text { d o } } ( x ) ) = \operatorname   { E } _ { u } [ f ( x , u ) ] .
+Z
+( X , Y )
+X
+f
+g
+Z
+\max   _ { x } \sum   _ { y } [ \max   _ { z } \Pr ( y , x \mid   z ) ] \leq   1 .
+\beta  
+T R ^ 2
+{ \displaystyle   y _ { i t } = x _ { i t } \beta   + c _ { i } + u _ { i t } }
+c _ { i }
+x _ { { i t } }
+{ \displaystyle   u _ { i s } }
+{ \displaystyle   z _ { i } = ( z _ { i 1 } , \ldots   , z _ { i t } ) }
+z _ { { i } }
+c _ { i }
+u _ { { i t } }
+t = 1 , \ldots   , T
+{ \displaystyle   E [ u _ { i t } \mid   z _ { i } , c _ { i } ] = 0 [ 1 ] }

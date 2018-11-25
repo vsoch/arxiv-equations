@@ -1,0 +1,20 @@
+r _ { h } \ ,
+h \ ,
+{ \displaystyle   Y = { \text { c o n s t a n t } } + { \text { e r r o r } } }
+s _ { { { \bar     { Y } } } } = s / { \sqrt     { N } }
+s _ { { { \bar     { Y } } } } = s / { \sqrt     { N } }
+{ \displaystyle   Y = { \text { c o n s t a n t } } + { \text { e r r o r } } }
+r _ { h } = c _ { h } / c _ { 0 } \ ,
+{ \displaystyle   c _ { h } = { \frac   { 1 } { N } } \sum   _ { t = 1 } ^ { N - h } \left ( Y _ { t } - { \bar   { Y } } \right ) \left ( Y _ { t + h } - { \bar   { Y } } \right ) }
+{ \displaystyle   c _ { 0 } = { \frac   { 1 } { N } } \sum   _ { t = 1 } ^ { N } \left ( Y _ { t } - { \bar   { Y } } \right ) ^ { 2 } }
+{ \displaystyle   c _ { h } = { \frac   { 1 } { N - h } } \sum   _ { t = 1 } ^ { N - h } \left ( Y _ { t } - { \bar   { Y } } \right ) \left ( Y _ { t + h } - { \bar   { Y } } \right ) }
+\alpha   \ ,
+B = \pm   z _ { { 1 - \alpha   / 2 } } S E ( r _ { h } ) \ ,
+r _ { h } \ ,
+h \ ,
+\alpha   \ ,
+{ \displaystyle   S E ( r _ { 1 } ) = { \frac   { 1 } { \sqrt   { N } } } }
+S E ( r _ { h } ) = { \sqrt     { \frac     { 1 + 2 \sum   _ { { i = 1 } } ^ { { h - 1 } } r _ { i } ^ { 2 } } { N } } }
+h > 1 . \ ,
+\pm   { \frac     { z _ { { 1 - \alpha   / 2 } } } { { \sqrt     { N } } } }
+{ \displaystyle   \pm   z _ { 1 - \alpha   / 2 } { \sqrt   { { \frac   { 1 } { N } } \left ( 1 + 2 \sum   _ { i = 1 } ^ { k } r _ { i } ^ { 2 } \right ) } } }

@@ -1,0 +1,24 @@
+p _ { { j _ { 1 } j _ { 2 } } } p _ { { j _ { 2 } j _ { 3 } } } \cdots   p _ { { j _ { { n - 1 } } j _ { n } } } p _ { { j _ { n } j _ { 1 } } } = p _ { { j _ { 1 } j _ { n } } } p _ { { j _ { n } j _ { { n - 1 } } } } \cdots   p _ { { j _ { 3 } j _ { 2 } } } p _ { { j _ { 2 } j _ { 1 } } }
+j _ { 1 } , j _ { 2 } , \ldots   , j _ { n } \in   S .
+p _ { { i j } } p _ { { j l } } p _ { { l k } } p _ { { k i } } = p _ { { i k } } p _ { { k l } } p _ { { l j } } p _ { { j i } } .
+X
+\pi  
+{ \displaystyle   p _ { j i } = { \frac   { \pi   _ { i } p _ { i j } } { \pi   _ { j } } } }
+s
+t
+{ \displaystyle   { \text { P } } ( X _ { n + 1 } = t , X _ { n } = i _ { n } , \ldots   , X _ { 0 } = s | X _ { 0 } = s ) }
+{ \displaystyle   = p _ { s i _ { 1 } } p _ { i _ { 1 } i _ { 2 } } \cdots   p _ { i _ { n } t } }
+{ \displaystyle   = { \frac   { p _ { s t } } { p _ { t s } } } p _ { t i _ { n } } p _ { i _ { n } i _ { n - 1 } } \cdots   p _ { i _ { 1 } s } }
+{ \displaystyle   = { \frac   { p _ { s t } } { p _ { t s } } } { \text { P } } ( X _ { n + 1 } }
+{ \displaystyle   = s , X _ { n } }
+{ \displaystyle   = i _ { 1 } , \ldots   , X _ { 0 } = t | X _ { 0 } = t ) }
+n
+{ \displaystyle   i _ { 1 } , i _ { 2 } , \ldots   , i _ { n } }
+{ \displaystyle   p _ { s t } ^ { ( n ) } = { \frac   { p _ { s t } } { p _ { t s } } } p _ { t s } ^ { ( n ) } }
+{ \displaystyle   { \frac   { p _ { s t } ^ { ( n ) } } { p _ { t s } ^ { ( n ) } } } = { \frac   { p _ { s t } } { p _ { t s } } } }
+n
+\infty  
+{ \displaystyle   \lim   _ { n \to   \infty   } p _ { i j } ^ { ( n ) } = \pi   _ { j } }
+{ \displaystyle   { \frac   { \pi   _ { t } } { \pi   _ { s } } } = { \frac   { p _ { s t } } { p _ { t s } } } }
+q _ { { j _ { 1 } j _ { 2 } } } q _ { { j _ { 2 } j _ { 3 } } } \cdots   q _ { { j _ { { n - 1 } } j _ { n } } } q _ { { j _ { n } j _ { 1 } } } = q _ { { j _ { 1 } j _ { n } } } q _ { { j _ { n } j _ { { n - 1 } } } } \cdots   q _ { { j _ { 3 } j _ { 2 } } } q _ { { j _ { 2 } j _ { 1 } } }
+j _ { 1 } , j _ { 2 } , \ldots   , j _ { n } \in   S .

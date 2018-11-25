@@ -1,0 +1,33 @@
+X \ , \ !
+Y \ , \ !
+i , j \ , \ !
+| X _ { { i } } - X _ { { j } } | ^ { { 2 } } = | Y _ { { i } } - Y _ { { j } } | ^ { { 2 } } \ , \ !
+G , K \ , \ !
+X \ , \ !
+Y \ , \ !
+G _ { { i j } } = X _ { i } \cdot   X _ { j } , K _ { { i j } } = Y _ { i } \cdot   Y _ { j } \ , \ !
+i , j \ , \ !
+G , K \ , \ !
+G _ { { i i } } + G _ { { j j } } - G _ { { i j } } - G _ { { j i } } = K _ { { i i } } + K _ { { j j } } - K _ { { i j } } - K _ { { j i } } \ , \ !
+Y \ , \ !
+{ \displaystyle   \sum   _ { i } Y _ { i } = 0 \Leftrightarrow   ( \sum   _ { i } Y _ { i } ) \cdot   ( \sum   _ { i } Y _ { i } ) = 0 \Leftrightarrow   \sum   _ { i , j } Y _ { i } \cdot   Y _ { j } = 0 \Leftrightarrow   \sum   _ { i , j } K _ { i j } = 0 }
+T ( Y ) = { \dfrac     { 1 } { 2 N } } \sum   _ { { i , j } } | Y _ { { i } } - Y _ { { j } } | ^ { { 2 } }
+\tau   = m a x \{ \eta   _ { { i j } } | Y _ { { i } } - Y _ { { j } } | ^ { 2 } \ } \ , \ !
+\eta   _ { { i j } } = 1 \ , \ !
+\eta   _ { { i j } } = 0 \ , \ !
+| Y _ { { i } } - Y _ { { j } } | ^ { 2 } \leq   N \tau   \ , \ !
+T ( Y ) = { \dfrac     { 1 } { 2 N } } \sum   _ { { i , j } } | Y _ { { i } } - Y _ { { j } } | ^ { { 2 } } \leq   { \dfrac     { 1 } { 2 N } } \sum   _ { { i , j } } ( N \tau   ) ^ { 2 } = { \dfrac     { N ^ { 3 } \tau   ^ { 2 } } { 2 } } \ , \ !
+{ \begin { a l i g n e d } T ( Y ) & { } = { \dfrac     { 1 } { 2 N } } \sum   _ { { i , j } } | Y _ { { i } } - Y _ { { j } } | ^ { { 2 } } \\&{ } = { \dfrac     { 1 } { 2 N } } ( \sum   _ { { i , j } } ( Y _ { { i } } ^ { 2 } + Y _ { { j } } ^ { 2 } - Y _ { { i } } \cdot   Y _ { { j } } - Y _ { { j } } \cdot   Y _ { { i } } ) \\&{ } = { \dfrac     { 1 } { 2 N } } ( \sum   _ { { i , j } } Y _ { { i } } ^ { 2 } + \sum   _ { { i , j } } Y _ { { j } } ^ { 2 } - \sum   _ { { i , j } } Y _ { { i } } \cdot   Y _ { { j } } - \sum   _ { { i , j } } Y _ { { j } } \cdot   Y _ { { i } } ) \\&{ } = { \dfrac     { 1 } { 2 N } } ( \sum   _ { { i , j } } Y _ { { i } } ^ { 2 } + \sum   _ { { i , j } } Y _ { { j } } ^ { 2 } - 0 - 0 ) \\&{ } = { \dfrac     { 1 } { N } } ( \sum   _ { { i } } Y _ { { i } } ^ { 2 } ) = { \dfrac     { 1 } { N } } ( T r ( K ) ) \\\end { a l i g n e d } } \ , \ !
+T r ( K ) \ , \ !
+K \succeq   0 \ , \ !
+\forall   i , j \ , \ !
+\eta   _ { { i j } } = 1 , G _ { { i i } } + G _ { { j j } } - G _ { { i j } } - G _ { { j i } } = K _ { { i i } } + K _ { { j j } } - K _ { { i j } } - K _ { { j i } } \ , \ !
+K \ , \ !
+Y \ , \ !
+K _ { { i j } } = \sum   _ { { \alpha   = 1 } } ^ { { N } } ( \lambda   _ { { \alpha   } } V _ { { \alpha   i } } V _ { { \alpha   j } } ) \ , \ !
+V _ { { \alpha   i } } \ , \ !
+V _ { { \alpha   } } \ , \ !
+\lambda   _ { { \alpha   } } \ , \ !
+\alpha   \ , \ !
+Y _ { i } \ , \ !
+{ \sqrt     { \lambda   _ { { \alpha   } } } } V _ { { \alpha   i } } \ , \ !

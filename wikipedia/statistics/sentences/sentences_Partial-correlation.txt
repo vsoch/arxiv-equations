@@ -1,0 +1,22 @@
+\mathbf   { w }   _ { X } ^ { * }
+\mathbf   { w }   _ { Y } ^ { * }
+\mathbf   { w }   _ { X } ^ { * } = \arg   \min   _ { \mathbf   { w }   } \left \{ \sum   _ { i = 1 } ^ { N } ( x _ { i } - \langle   \mathbf   { w }   , \mathbf   { z }   _ { i } \rangle   ) ^ { 2 } \right \ }
+\mathbf   { w }   _ { Y } ^ { * } = \arg   \min   _ { \mathbf   { w }   } \left \{ \sum   _ { i = 1 } ^ { N } ( y _ { i } - \langle   \mathbf   { w }   , \mathbf   { z }   _ { i } \rangle   ) ^ { 2 } \right \ }
+{ \displaystyle   \langle   \mathbf   { w }   , \mathbf   { v }   \rangle   }
+{ \displaystyle   e _ { X , i } = x _ { i } - \langle   \mathbf   { w }   _ { X } ^ { * } , \mathbf   { z }   _ { i } \rangle   }
+{ \displaystyle   e _ { Y , i } = y _ { i } - \langle   \mathbf   { w }   _ { Y } ^ { * } , \mathbf   { z }   _ { i } \rangle   }
+{ \displaystyle   { \hat   { \rho   } } _ { X Y \cdot   \mathbf   { Z }   } = { \frac   { N \sum   _ { i = 1 } ^ { N } e _ { X , i } e _ { Y , i } - \sum   _ { i = 1 } ^ { N } e _ { X , i } \sum   _ { i = 1 } ^ { N } e _ { Y , i } } { { \sqrt   { N \sum   _ { i = 1 } ^ { N } e _ { X , i } ^ { 2 } - \left ( \sum   _ { i = 1 } ^ { N } e _ { X , i } \right ) ^ { 2 } } } ~ { \sqrt   { N \sum   _ { i = 1 } ^ { N } e _ { Y , i } ^ { 2 } - \left ( \sum   _ { i = 1 } ^ { N } e _ { Y , i } \right ) ^ { 2 } } } } } }
+{ \displaystyle   = { \frac   { N \sum   _ { i = 1 } ^ { N } e _ { X , i } e _ { Y , i } } { { \sqrt   { N \sum   _ { i = 1 } ^ { N } e _ { X , i } ^ { 2 } } } ~ { \sqrt   { N \sum   _ { i = 1 } ^ { N } e _ { Y , i } ^ { 2 } } } } } . }
+{ \displaystyle   Z _ { 0 } \in   \mathbf   { Z }   , }
+\rho   _ { X Y \cdot   \mathbf   { Z }   } = { \frac   { \rho   _ { X Y \cdot   \mathbf   { Z }   \setminus   \{ Z _ { 0 } \}}-\rho   _ { X Z _ { 0 } \cdot   \mathbf   { Z }   \setminus   \{ Z _ { 0 } \}}\rho   _ { Z _ { 0 } Y \cdot   \mathbf   { Z }   \setminus   \{ Z _ { 0 } \}}}{ { \sqrt   { 1 - \rho   _ { X Z _ { 0 } \cdot   \mathbf   { Z }   \setminus   \{ Z _ { 0 } \}}^ { 2 } } } { \sqrt   { 1 - \rho   _ { Z _ { 0 } Y \cdot   \mathbf   { Z }   \setminus   \{ Z _ { 0 } \}}^ { 2 } } } } } .
+{ \mathcal   { O } } ( n ^ { 3 } )
+\rho   _ { X Y \cdot   Z } = { \frac   { \rho   _ { X Y } - \rho   _ { X Z } \rho   _ { Z Y } } { { \sqrt   { 1 - \rho   _ { X Z } ^ { 2 } } } { \sqrt   { 1 - \rho   _ { Z Y } ^ { 2 } } } } } .
+{ \mathcal   { O } } ( n ^ { 3 } )
+\mathbf   { V }   \setminus   \{ X _ { i } , X _ { j } \ }
+\rho   _ { X _ { i } X _ { j } \cdot   \mathbf   { V }   \setminus   \{ X _ { i } , X _ { j } \}}=-{ \frac   { p _ { i j } } { \sqrt   { p _ { i i } p _ { j j } } } } .
+{ \hat   { \rho   } } _ { X Y \cdot   \mathbf   { Z }   }
+z ( { \hat   { \rho   } } _ { X Y \cdot   \mathbf   { Z }   } ) = { \frac   { 1 } { 2 } } \ln   \left ( { \frac   { 1 + { \hat   { \rho   } } _ { X Y \cdot   \mathbf   { Z }   } } { 1 - { \hat   { \rho   } } _ { X Y \cdot   \mathbf   { Z }   } } } \right ) .
+{ \displaystyle   H _ { 0 } : \rho   _ { X Y \cdot   \mathbf   { Z }   } = 0 }
+{ \displaystyle   H _ { A } : \rho   _ { X Y \cdot   \mathbf   { Z }   } \neq   0 }
+{ \sqrt   { N - | \mathbf   { Z }   | - 3 } } \cdot   | z ( { \hat   { \rho   } } _ { X Y \cdot   \mathbf   { Z }   } ) | > \Phi   ^ { - 1 } ( 1 - \alpha   / 2 ) ,
+{ \displaystyle   \varphi   ( h ) = \rho   _ { X _ { 0 } X _ { h } \,\cdot   \,\{ X _ { 1 } , \,\dots   \,,X_ { h - 1 } \ } } . }

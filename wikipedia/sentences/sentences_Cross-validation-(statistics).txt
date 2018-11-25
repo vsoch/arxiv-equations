@@ -1,7 +1,0 @@
-{ \displaystyle   { \frac   { 1 } { n } } \sum   _ { i = 1 } ^ { n } ( y _ { i } - a - { \boldsymbol   { \beta   } } ^ { T } \mathbf   { x }   _ { i } ) ^ { 2 } = { \frac   { 1 } { n } } \sum   _ { i = 1 } ^ { n } ( y _ { i } - a - \beta   _ { 1 } x _ { i 1 } - \dots   - \beta   _ { p } x _ { i p } ) ^ { 2 } }
-{ \displaystyle   C _ { p } ^ { n } }
-{ \displaystyle   C _ { p } ^ { n } }
-{ \displaystyle   C _ { 3 0 } ^ { 1 0 0 } \approx   3 \times   1 0 ^ { 2 5 } . }
-{ \displaystyle   C _ { 1 } ^ { n } = n }
-C _ { k } ^ { n }
-n

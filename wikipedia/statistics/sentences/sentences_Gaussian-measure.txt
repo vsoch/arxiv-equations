@@ -1,0 +1,10 @@
+\sqrt { N }
+\gamma   ^ { { n } } ( A ) = { \frac     { 1 } { { \sqrt     { 2 \pi   } } ^ { { n } } } } \int   _ { { A } } \exp   \left ( - { \frac     { 1 } { 2 } } \|x \|_ { { { \mathbb     { R } } ^ { { n } } } } ^ { { 2 } } \right ) \,{ \mathrm     { d } } \lambda   ^ { { n } } ( x )
+{ \frac     { { \mathrm     { d } } \gamma   ^ { { n } } } { { \mathrm     { d } } \lambda   ^ { { n } } } } ( x ) = { \frac     { 1 } { { \sqrt     { 2 \pi   } } ^ { { n } } } } \exp   \left ( - { \frac     { 1 } { 2 } } \|x \|_ { { { \mathbb     { R } } ^ { { n } } } } ^ { { 2 } } \right ) .
+\gamma   _ { { \mu   , \sigma   ^ { { 2 } } } } ^ { { n } } ( A ) : = { \frac     { 1 } { { \sqrt     { 2 \pi   \sigma   ^ { { 2 } } } } ^ { { n } } } } \int   _ { { A } } \exp   \left ( - { \frac     { 1 } { 2 \sigma   ^ { { 2 } } } } \|x - \mu   \|_ { { { \mathbb     { R } } ^ { { n } } } } ^ { { 2 } } \right ) \,{ \mathrm     { d } } \lambda   ^ { { n } } ( x ) .
+\gamma   _ { { \mu   , \sigma   ^ { { 2 } } } } ^ { { n } }
+\lambda   ^ { { n } } \ll   \gamma   ^ { { n } } \ll   \lambda   ^ { { n } }
+\ll  
+\gamma   ^ { { n } } ( A ) = \sup \{ \gamma   ^ { { n } } ( K ) | K \subseteq   A , K { \mbox {   i s   c o m p a c t } } \ } ,
+{ \frac     { { \mathrm     { d } } ( T _ { { h } } ) _ { { * } } ( \gamma   ^ { { n } } ) } { { \mathrm     { d } } \gamma   ^ { { n } } } } ( x ) = \exp   \left ( \langle   h , x \rangle   _ { { { \mathbb     { R } } ^ { { n } } } } - { \frac     { 1 } { 2 } } \|h \|_ { { { \mathbb     { R } } ^ { { n } } } } ^ { { 2 } } \right ) ,
+Z \sim   { \mathrm     { N o r m a l } } ( \mu   , \sigma   ^ { { 2 } } ) \implies   { \mathbb     { P } } ( Z \in   A ) = \gamma   _ { { \mu   , \sigma   ^ { { 2 } } } } ^ { { n } } ( A ) .

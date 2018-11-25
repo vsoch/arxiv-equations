@@ -1,0 +1,178 @@
+p
+p
+( p - 1 )
+k ( x , y )
+\alpha   _ { i }
+x _ { i }
+x
+\textstyle   \sum   _ { i } \alpha   _ { i } k ( x _ { i } , x ) = \mathrm   { c o n s t a n t }   .
+k ( x , y )
+y
+x
+x
+x _ { i }
+x
+n
+( { \vec   { x } } _ { 1 } , y _ { 1 } ) , \,\ldots   , \,( { \vec   { x } } _ { n } , y _ { n } )
+y _ { i }
+{ \vec   { x } } _ { i }
+{ \vec   { x } } _ { i }
+p
+{ \vec   { x } } _ { i }
+y _ { i } = 1
+y _ { i } = - 1
+{ \vec   { x } } _ { i }
+{ \vec   { x } }
+{ \vec   { w } } \cdot   { \vec   { x } } - b = 0 , \ ,
+{ \vec   { w } }
+{ \vec   { w } }
+{ \tfrac   { b } { \|{ \vec   { w } } \ | } }
+{ \vec   { w } }
+{ \vec   { w } } \cdot   { \vec   { x } } - b = 1 \ ,
+{ \vec   { w } } \cdot   { \vec   { x } } - b = - 1 . \ ,
+{ \tfrac   { 2 } { \|{ \vec   { w } } \ | } }
+\|{ \vec   { w } } \ |
+i
+{ \vec   { w } } \cdot   { \vec   { x } } _ { i } - b \geq   1 ,
+y _ { i } = 1
+{ \vec   { w } } \cdot   { \vec   { x } } _ { i } - b \leq   - 1 ,
+y _ { i } = - 1 .
+y _ { i } ( { \vec   { w } } \cdot   { \vec   { x } } _ { i } - b ) \geq   1 , \quad   { \text {   f o r   a l l   } } 1 \leq   i \leq   n . \qquad   \qquad   ( 1 )
+\|{ \vec   { w } } \ |
+{ \displaystyle   y _ { i } ( { \vec   { w } } \cdot   { \vec   { x } } _ { i } - b ) \geq   1 , }
+{ \displaystyle   i = 1 , \,\ldots   , \,n }
+{ \vec   { w } }
+b
+{ \displaystyle   { \vec   { x } } \mapsto   \operatorname   { s g n } ( { \vec   { w } } \cdot   { \vec   { x } } - b ) }
+{ \displaystyle   { \vec   { x } } _ { i } }
+{ \displaystyle   { \vec   { x } } _ { i } }
+{ \displaystyle   \max   \left ( 0 , 1 - y _ { i } ( { \vec   { w } } \cdot   { \vec   { x } } _ { i } - b ) \right ) . }
+y _ { i }
+{ \displaystyle   ( { \vec   { w } } \cdot   { \vec   { x } } _ { i } - b ) }
+{ \vec   { x } } _ { i }
+{ \displaystyle   \left [ { \frac   { 1 } { n } } \sum   _ { i = 1 } ^ { n } \max   \left ( 0 , 1 - y _ { i } ( { \vec   { w } } \cdot   { \vec   { x } } _ { i } - b ) \right ) \right ] + \lambda   \lVert   { \vec   { w } } \rVert   ^ { 2 } , }
+\lambda  
+{ \vec   { x } } _ { i }
+\lambda  
+{ \displaystyle   k ( { \vec   { x _ { i } } } , { \vec   { x _ { j } } } ) = ( { \vec   { x _ { i } } } \cdot   { \vec   { x _ { j } } } ) ^ { d } }
+{ \displaystyle   k ( { \vec   { x _ { i } } } , { \vec   { x _ { j } } } ) = ( { \vec   { x _ { i } } } \cdot   { \vec   { x _ { j } } } + 1 ) ^ { d } }
+{ \displaystyle   k ( { \vec   { x _ { i } } } , { \vec   { x _ { j } } } ) = \exp ( - \gamma   \|{ \vec   { x _ { i } } } - { \vec   { x _ { j } } } \|^ { 2 } ) }
+\gamma   > 0
+\gamma   = 1 / { 2 \sigma   ^ { 2 } }
+{ \displaystyle   k ( { \vec   { x _ { i } } } , { \vec   { x _ { j } } } ) = \tanh ( \kappa   { \vec   { x _ { i } } } \cdot   { \vec   { x _ { j } } } + c ) }
+\kappa   > 0
+c < 0
+{ \displaystyle   \varphi   ( { \vec   { x _ { i } } } ) }
+{ \displaystyle   k ( { \vec   { x _ { i } } } , { \vec   { x _ { j } } } ) = \varphi   ( { \vec   { x _ { i } } } ) \cdot   \varphi   ( { \vec   { x _ { j } } } ) }
+{ \displaystyle   \textstyle   { \vec   { w } } = \sum   _ { i } \alpha   _ { i } y _ { i } \varphi   ( { \vec   { x } } _ { i } ) }
+{ \displaystyle   \textstyle   { \vec   { w } } \cdot   \varphi   ( { \vec   { x } } ) = \sum   _ { i } \alpha   _ { i } y _ { i } k ( { \vec   { x } } _ { i } , { \vec   { x } } ) }
+{ \displaystyle   \left [ { \frac   { 1 } { n } } \sum   _ { i = 1 } ^ { n } \max   \left ( 0 , 1 - y _ { i } ( w \cdot   x _ { i } - b ) \right ) \right ] + \lambda   \lVert   w \rVert   ^ { 2 } . \qquad   ( 2 ) }
+\lambda  
+{ \displaystyle   i \in   \{ 1 , \,\ldots   , \,n \ } }
+{ \displaystyle   \zeta   _ { i } = \max   \left ( 0 , 1 - y _ { i } ( w \cdot   x _ { i } - b ) \right ) }
+{ \displaystyle   \zeta   _ { i } }
+{ \displaystyle   y _ { i } ( w \cdot   x _ { i } - b ) \geq   1 - \zeta   _ { i } . }
+{ \displaystyle   { \text { m i n i m i z e   } } { \frac   { 1 } { n } } \sum   _ { i = 1 } ^ { n } \zeta   _ { i } + \lambda   \|w \|^ { 2 } }
+{ \displaystyle   { \text { s u b j e c t   t o   } } y _ { i } ( w \cdot   x _ { i } - b ) \geq   1 - \zeta   _ { i } \,{ \text {   a n d   } } \,\zeta   _ { i } \geq   0 , \,{ \text { f o r   a l l   } } i . }
+{ \displaystyle   { \text { m a x i m i z e } } \,\,f ( c _ { 1 } \ldots   c _ { n } ) = \sum   _ { i = 1 } ^ { n } c _ { i } - { \frac   { 1 } { 2 } } \sum   _ { i = 1 } ^ { n } \sum   _ { j = 1 } ^ { n } y _ { i } c _ { i } ( x _ { i } \cdot   x _ { j } ) y _ { j } c _ { j } , }
+{ \displaystyle   { \text { s u b j e c t   t o   } } \sum   _ { i = 1 } ^ { n } c _ { i } y _ { i } = 0 , \,{ \text { a n d   } } 0 \leq   c _ { i } \leq   { \frac   { 1 } { 2 n \lambda   } } \;{ \text { f o r   a l l   } } i . }
+  c _ i
+  c _ i
+{ \displaystyle   { \vec   { w } } = \sum   _ { i = 1 } ^ { n } c _ { i } y _ { i } { \vec   { x } } _ { i } }
+{ \displaystyle   c _ { i } = 0 }
+{ \displaystyle   { \vec   { x } } _ { i } }
+{ \displaystyle   0 < c _ { i } < ( 2 n \lambda   ) ^ { - 1 } }
+{ \displaystyle   { \vec   { x } } _ { i } }
+{ \displaystyle   { \vec   { w } } }
+  b
+{ \displaystyle   { \vec   { x } } _ { i } }
+{ \displaystyle   y _ { i } ( { \vec   { w } } \cdot   { \vec   { x } } _ { i } - b ) = 1 \iff   b = { \vec   { w } } \cdot   { \vec   { x } } _ { i } - y _ { i } . }
+{ \displaystyle   y _ { i } ^ { - 1 } = y _ { i } }
+{ \displaystyle   y _ { i } = \pm   1 }
+{ \displaystyle   \varphi   ( { \vec   { x } } _ { i } ) . }
+  k
+{ \displaystyle   k ( { \vec   { x } } _ { i } , { \vec   { x } } _ { j } ) = \varphi   ( { \vec   { x } } _ { i } ) \cdot   \varphi   ( { \vec   { x } } _ { j } ) }
+{ \displaystyle   { \vec   { w } } }
+{ \displaystyle   { \vec   { w } } = \sum   _ { i = 1 } ^ { n } c _ { i } y _ { i } \varphi   ( { \vec   { x } } _ { i } ) , }
+{ \displaystyle   c _ { i } }
+{ \displaystyle   { \begin { a l i g n e d } { \text { m a x i m i z e } } \,\,f ( c _ { 1 } \ldots   c _ { n } ) & = \sum   _ { i = 1 } ^ { n } c _ { i } - { \frac   { 1 } { 2 } } \sum   _ { i = 1 } ^ { n } \sum   _ { j = 1 } ^ { n } y _ { i } c _ { i } ( \varphi   ( { \vec   { x } } _ { i } ) \cdot   \varphi   ( { \vec   { x } } _ { j } ) ) y _ { j } c _ { j } \\&=\sum   _ { i = 1 } ^ { n } c _ { i } - { \frac   { 1 } { 2 } } \sum   _ { i = 1 } ^ { n } \sum   _ { j = 1 } ^ { n } y _ { i } c _ { i } k ( { \vec   { x } } _ { i } , { \vec   { x } } _ { j } ) y _ { j } c _ { j } \\\end { a l i g n e d } } }
+{ \displaystyle   { \text { s u b j e c t   t o   } } \sum   _ { i = 1 } ^ { n } c _ { i } y _ { i } = 0 , \,{ \text { a n d   } } 0 \leq   c _ { i } \leq   { \frac   { 1 } { 2 n \lambda   } } \;{ \text { f o r   a l l   } } i . }
+  c _ i
+i
+{ \displaystyle   0 < c _ { i } < ( 2 n \lambda   ) ^ { - 1 } }
+{ \displaystyle   \varphi   ( { \vec   { x } } _ { i } ) }
+{ \displaystyle   { \begin { a l i g n e d } b = { \vec   { w } } \cdot   \varphi   ( { \vec   { x } } _ { i } ) - y _ { i } & = \left [ \sum   _ { k = 1 } ^ { n } c _ { k } y _ { k } \varphi   ( { \vec   { x } } _ { k } ) \cdot   \varphi   ( { \vec   { x } } _ { i } ) \right ] - y _ { i } \\&=\left [ \sum   _ { k = 1 } ^ { n } c _ { k } y _ { k } k ( { \vec   { x } } _ { k } , { \vec   { x } } _ { i } ) \right ] - y _ { i } . \end { a l i g n e d } } }
+{ \displaystyle   { \vec   { z } } \mapsto   \operatorname   { s g n } ( { \vec   { w } } \cdot   \varphi   ( { \vec   { z } } ) - b ) = \operatorname   { s g n }   \left ( \left [ \sum   _ { i = 1 } ^ { n } c _ { i } y _ { i } k ( { \vec   { x } } _ { i } , { \vec   { z } } ) \right ] - b \right ) . }
+{ \displaystyle   f ( { \vec   { w } } , b ) = \left [ { \frac   { 1 } { n } } \sum   _ { i = 1 } ^ { n } \max   \left ( 0 , 1 - y _ { i } ( w \cdot   x _ { i } - b ) \right ) \right ] + \lambda   \lVert   w \rVert   ^ { 2 } . }
+f
+{ \vec   { w } }
+b
+n
+{ \displaystyle   { \text { m a x i m i z e } } \,\,f ( c _ { 1 } \ldots   c _ { n } ) = \sum   _ { i = 1 } ^ { n } c _ { i } - { \frac   { 1 } { 2 } } \sum   _ { i = 1 } ^ { n } \sum   _ { j = 1 } ^ { n } y _ { i } c _ { i } ( x _ { i } \cdot   x _ { j } ) y _ { j } c _ { j } , }
+{ \displaystyle   { \text { s u b j e c t   t o   } } \sum   _ { i = 1 } ^ { n } c _ { i } y _ { i } = 0 , \,{ \text { a n d   } } 0 \leq   c _ { i } \leq   { \frac   { 1 } { 2 n \lambda   } } \;{ \text { f o r   a l l   } } i . }
+{ \displaystyle   i \in   \{ 1 , \,\ldots   , \,n \ } }
+  c _ i
+{ \displaystyle   \partial   f / \partial   c _ { i } }
+{ \displaystyle   ( c _ { 1 } ' , \,\ldots   , \,c_ { n } ' ) }
+X _ { 1 } \ldots   X _ { n }
+y _ { 1 } \ldots   y _ { n }
+y _ { n + 1 }
+X _ { { n + 1 } }
+f
+{ \displaystyle   f ( X _ { n + 1 } ) }
+y _ { n + 1 }
+\ell   ( y , z )
+z
+y
+{ \displaystyle   \varepsilon   ( f ) = \mathbb   { E }   \left [ \ell   ( y _ { n + 1 } , f ( X _ { n + 1 } ) ) \right ] . }
+{ \displaystyle   X _ { n + 1 } , \,y_ { n + 1 } }
+{ \displaystyle   { \hat   { \varepsilon   } } ( f ) = { \frac   { 1 } { n } } \sum   _ { k = 1 } ^ { n } \ell   ( y _ { k } , f ( X _ { k } ) ) . }
+X _ { k } , \,y_ { k }
+n
+{ \mathcal   { H } }
+{ \mathcal   { H } }
+f
+\lVert   f \rVert   _ { \mathcal   { H } } < k
+{ \mathcal   { R } } ( f ) = \lambda   _ { k } \lVert   f \rVert   _ { \mathcal   { H } }
+{ \displaystyle   { \hat   { f } } = \mathrm   { a r g }   \min   _ { f \in   { \mathcal   { H } } } { \hat   { \varepsilon   } } ( f ) + { \mathcal   { R } } ( f ) . }
+{ \mathcal   { R } } ( f )
+f
+{ \displaystyle   { \hat   { w } } , b : x \mapsto   \operatorname   { s g n } ( { \hat   { w } } \cdot   x - b ) }
+{ \displaystyle   \left [ { \frac   { 1 } { n } } \sum   _ { i = 1 } ^ { n } \max   \left ( 0 , 1 - y _ { i } ( w \cdot   x _ { i } - b ) \right ) \right ] + \lambda   \lVert   w \rVert   ^ { 2 } . }
+\ell   ( y , z ) = \max   \left ( 0 , 1 - y z \right ) .
+\ell   _ { s q } ( y , z ) = ( y - z ) ^ { 2 }
+{ \displaystyle   \ell   _ { \log   } ( y , z ) = \ln ( 1 + e ^ { - y z } ) . }
+{ \displaystyle   X , \,y }
+y _ { x }
+y
+X = x
+y _ { x } = { \begin { c a s e s } 1 & { \text { w i t h   p r o b a b i l i t y   } } p _ { x } \\-1 & { \text { w i t h   p r o b a b i l i t y   } } 1 - p _ { x } \end { c a s e s } }
+f ^ { * } ( x ) = { \begin { c a s e s } 1 & { \text { i f   } } p _ { x } \geq   1 / 2 \\-1 & { \text { o t h e r w i s e } } \end { c a s e s } }
+f _ { s q } ( x ) = \mathbb   { E }   \left [ y _ { x } \right ]
+{ \displaystyle   f _ { \log   } ( x ) = \ln   \left ( p _ { x } / ( { 1 - p _ { x } } ) \right ) }
+{ \displaystyle   \operatorname   { s g n } ( f _ { s q } ) = \operatorname   { s g n } ( f _ { \log   } ) = f ^ { * } }
+y _ { x }
+f ^ { * }
+{ \mathcal   { R } }
+\gamma  
+\gamma  
+\gamma  
+C \in   \{ 2 ^ { - 5 } , 2 ^ { - 3 } , \dots   , 2 ^ { 1 3 } , 2 ^ { 1 5 } \ }
+\gamma   \in   \{ 2 ^ { - 1 5 } , 2 ^ { - 1 3 } , \dots   , 2 ^ { 1 } , 2 ^ { 3 } \ }
+\gamma  
+{ \mathcal   { D } }
+{ \displaystyle   { \mathcal   { D } } ^ { \star   } = \{ { \vec   { x } } _ { i } ^ { \star   } \mid   { \vec   { x } } _ { i } ^ { \star   } \in   \mathbb   { R }   ^ { p } \}_ { i = 1 } ^ { k } \ , }
+{ \displaystyle   { { \vec   { w } } , b , { \vec   { y ^ { \star   } } } } }
+{ \displaystyle   { \frac   { 1 } { 2 } } \|{ \vec   { w } } \|^ { 2 } }
+i = 1 , \dots   , n
+j = 1 , \dots   , k
+{ \displaystyle   y _ { i } ( { \vec   { w } } \cdot   { \vec   { x _ { i } } } - b ) \geq   1 , \ , }
+{ \displaystyle   y _ { j } ^ { \star   } ( { \vec   { w } } \cdot   { \vec   { x _ { j } ^ { \star   } } } - b ) \geq   1 , }
+y _ { j } ^ { \star   } \in   \{ - 1 , 1 \ } . \ ,
+{ \frac   { 1 } { 2 } } \|w \|^ { 2 }
+{ \displaystyle   { \begin { c a s e s } y _ { i } - \langle   w , x _ { i } \rangle   - b \leq   \varepsilon   \\\langle   w , x _ { i } \rangle   + b - y _ { i } \leq   \varepsilon   \end { c a s e s } } }
+x _ { i }
+y _ { i }
+\langle   w , x _ { i } \rangle   + b
+\varepsilon  
+\varepsilon  

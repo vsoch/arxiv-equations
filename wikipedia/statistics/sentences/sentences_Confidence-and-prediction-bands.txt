@@ -1,0 +1,8 @@
+{ \hat     { f } } ( x ) \pm   w ( x )
+{ \displaystyle   \Pr   { \Big   ( } { \hat   { f } } ( x ) - w ( x ) \leq   f ( x ) \leq   { \hat   { f } } ( x ) + w ( x ) { \Big   ) } = 1 - \alpha   , }
+\hat { f } ( x )
+{ \hat     { f } } ( x ) \pm   w ( x )
+{ \displaystyle   \Pr   { \Big   ( } { \hat   { f } } ( x ) - w ( x ) \leq   f ( x ) \leq   { \hat   { f } } ( x ) + w ( x ) \;\;{ \text {   f o r   a l l   } } x { \Big   ) } = 1 - \alpha   . }
+{ \hat     { f } } ( x ) \pm   w ( x )
+{ \displaystyle   \Pr   { \Big   ( } { \hat   { f } } ( x ) - w ( x ) \leq   y ^ { * } \leq   { \hat   { f } } ( x ) + w ( x ) { \Big   ) } = 1 - \alpha   , }
+\hat { f } ( x )

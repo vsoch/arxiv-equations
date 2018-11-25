@@ -1,0 +1,4 @@
+  A f   =   \lim_ { t \rightarrow   0 }   \frac { T _ t f   -   f } { t } ,
+R _ \lambda   f   =   \int_0 ^ \infty   e ^ { - \lambda   t } T _ t   f \,dt .
+R _ \lambda   R _ \mu   =   R _ \mu   R _ \lambda   =   ( R _ \mu - R _ \lambda ) / ( \lambda - \mu ) .
+  \begin { a l i g n }   &   R _ \lambda   =   ( \lambda   -   A ) ^ { - 1 } ,   \\ & A   =   \lambda   -   R _ \lambda ^ { - 1 } .   \end { a l i g n }  

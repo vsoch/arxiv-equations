@@ -1,0 +1,6 @@
+{ \displaystyle   \lbrace   Y _ { t } \rbrace   _ { t = 1 } ^ { n } }
+{ \displaystyle   \lbrace   X _ { t } \rbrace   _ { t = 1 } ^ { n } }
+{ \displaystyle   s _ { i } ^ { 2 } = ( n _ { i } - 1 ) ^ { - 1 } \sum   _ { j } ( y _ { i j } - { \bar   { y } } _ { i } ) ^ { 2 } }
+{ \displaystyle   i = 1 , 2 , . . . , k }
+{ \displaystyle   j = 1 , 2 , . . . , n _ { i } }
+{ \displaystyle   n _ { i } > 5 }

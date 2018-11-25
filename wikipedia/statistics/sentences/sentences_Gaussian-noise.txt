@@ -1,0 +1,6 @@
+p
+z
+p _ { G } ( z ) = { \frac     { 1 } { \sigma   { \sqrt     { 2 \pi   } } } } e ^ { { - { \frac     { ( z - \mu   ) ^ { 2 } } { 2 \sigma   ^ { 2 } } } } }
+z
+\mu  
+\sigma  

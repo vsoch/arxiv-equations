@@ -1,0 +1,5 @@
+q _ { i i }   =   - \sum_ { j \neq   i }   q _ { i j } .
+0   \leq   - q _ { i i }   <   \infty
+0   \leq   q _ { i j }   :   \mathrm { f o r } \; i   \neq   j  
+\sum_j   q _ { i j }   =   0   :   \mathrm { f o r } \;\mathrm { a l l } \; i  
+Q = \begin { p m a t r i x }   - \lambda   &   \lambda   \\ \mu   &   - ( \mu + \lambda )   &   \lambda   \\ &\mu   &   - ( \mu + \lambda )   &   \lambda   \\ &&\mu   &   - ( \mu + \lambda )   &   \lambda   & \\ &&&&\ddots   \end { p m a t r i x } .

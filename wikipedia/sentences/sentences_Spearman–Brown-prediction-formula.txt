@@ -1,4 +1,0 @@
-{ \rho   } _ { { x x ' } } ^ { * }
-{ \displaystyle   { \rho   } _ { x x ' } ^ { * } = { \frac   { n { \rho   } _ { x x ' } } { 1 + ( n - 1 ) { \rho   } _ { x x ' } } } }
-{ \rho   } _ { { x x ' } }
-{ \displaystyle   n = { \frac   { { \rho   } _ { x x ' } ^ { * } ( 1 - { \rho   } _ { x x ' } ) } { { \rho   } _ { x x ' } ( 1 - { \rho   } _ { x x ' } ^ { * } ) } } }

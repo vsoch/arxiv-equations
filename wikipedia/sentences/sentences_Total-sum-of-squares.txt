@@ -1,3 +1,0 @@
-{ \mathrm     { T S S } } = \sum   _ { { i = 1 } } ^ { { n } } \left ( y _ { { i } } - { \bar     { y } } \right ) ^ { 2 }
-{ \bar   { y } }
-{ \mathbf     { T } } = { \mathbf     { W } } + { \mathbf     { B } } ,

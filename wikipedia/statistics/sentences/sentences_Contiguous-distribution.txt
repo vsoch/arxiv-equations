@@ -1,0 +1,1 @@
+{ \displaystyle   R = ( { \text { m e a n   d i s t a n c e } } ) \times   2 { \sqrt   { \text { d e n s i t y } } } }

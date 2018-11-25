@@ -1,0 +1,7 @@
+( 1 - B ) ^ { 2 } = 1 - 2 B + B ^ { 2 } \ , ,
+B ^ { 2 } X _ { t } = X _ { { t - 2 } } \ , ,
+( 1 - B ) ^ { 2 } X _ { t } = X _ { t } - 2 X _ { { t - 1 } } + X _ { { t - 2 } } .
+{ \begin { a l i g n e d } ( 1 - B ) ^ { d } & = \sum   _ { { k = 0 } } ^ { { \infty   } } \;{ d   \choose   k } \;( - B ) ^ { k } \\&=\sum   _ { { k = 0 } } ^ { { \infty   } } \;{ \frac     { \prod   _ { { a = 0 } } ^ { { k - 1 } } ( d - a ) \ ( - B ) ^ { k } } { k ! } } \\&=1 - d B + { \frac     { d ( d - 1 ) } { 2 ! } } B ^ { 2 } - \cdots   \,.\end { a l i g n e d } }
+( 1 - B ) ^ { d } X _ { t } = \varepsilon   _ { t } ,
+X _ { t } - d X _ { { t - 1 } } + { \frac     { d ( d - 1 ) } { 2 ! } } X _ { { t - 2 } } - \cdots   = \varepsilon   _ { t } .
+\left ( 1 - \sum   _ { { i = 1 } } ^ { p } \phi   _ { i } B ^ { i } \right ) \left ( 1 - B \right ) ^ { d } X _ { t } = \left ( 1 + \sum   _ { { i = 1 } } ^ { q } \theta   _ { i } B ^ { i } \right ) \varepsilon   _ { t } \ , .

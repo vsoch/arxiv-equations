@@ -1,0 +1,6 @@
+Q _ { M }
+{ \displaystyle   Q _ { M } ( a , b ) = \int   _ { b } ^ { \infty   } x \left ( { \frac   { x } { a } } \right ) ^ { M - 1 } \exp   \left ( - { \frac   { x ^ { 2 } + a ^ { 2 } } { 2 } } \right ) I _ { M - 1 } ( a x ) \,dx }
+{ \displaystyle   Q _ { M } ( a , b ) = \exp   \left ( - { \frac   { a ^ { 2 } + b ^ { 2 } } { 2 } } \right ) \sum   _ { k = 1 - M } ^ { \infty   } \left ( { \frac   { a } { b } } \right ) ^ { k } I _ { k } ( a b ) }
+{ \displaystyle   I _ { M - 1 } }
+{ \displaystyle   { \begin { a l i g n e d } Q _ { M } ( a , b ) & = 1 - e ^ { - a ^ { 2 } / 2 } \sum   _ { k = 0 } ^ { \infty   } \left ( { \frac   { a ^ { 2 } } { 2 } } \right ) ^ { k } { \frac   { \gamma   ( M + k , { \frac   { b ^ { 2 } } { 2 } } ) } { k ! \Gamma   ( M + k ) } } \\[6pt ] & = 1 - e ^ { - a ^ { 2 } / 2 } \sum   _ { k = 0 } ^ { \infty   } \left ( { \frac   { a ^ { 2 } } { 2 } } \right ) ^ { k } { \frac   { P ( M + k , { \frac   { b ^ { 2 } } { 2 } } ) } { k ! } } \end { a l i g n e d } } }
+P ( s , x )

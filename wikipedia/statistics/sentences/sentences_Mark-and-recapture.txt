@@ -1,0 +1,21 @@
+{ \displaystyle   { \hat   { N } } = { \frac   { K n } { k } } , }
+k / K
+n / N
+{ \frac     { k } { K } } = { \frac     { n } { N } } .
+{ \displaystyle   { \hat   { N } } = { \frac   { K n } { k } } , }
+{ \displaystyle   { \hat   { N } } = { \frac   { K n } { k } } = { \frac   { 1 0 \times   1 5 } { 5 } } = 3 0 }
+{ \displaystyle   { \hat   { N } } _ { C } = { \frac   { ( K + 1 ) ( n + 1 ) } { k + 1 } } - 1 }
+{ \displaystyle   { \hat   { N } } _ { C } = { \frac   { ( K + 1 ) ( n + 1 ) } { k + 1 } } - 1 = { \frac   { 1 1 \times   1 6 } { 6 } } - 1 = 2 8 . 3 }
+{ \textstyle   { \hat   { N } } _ { C } }
+{ \displaystyle   \operatorname   { v a r }   ( { \hat   { N } } _ { C } ) = { \frac   { ( K + 1 ) ( n + 1 ) ( K - k ) ( n - k ) } { ( k + 1 ) ( k + 1 ) ( k + 2 ) } } . }
+1 0 0 ( 1 - \alpha ) \ %
+{ \displaystyle   K + n - k + { \frac   { ( K - k + 0 . 5 ) ( n - k + 0 . 5 ) } { ( k + 0 . 5 ) } } \exp ( \pm   z _ { \alpha   / 2 } { \hat   { \sigma   } } _ { 0 . 5 } ) }
+{ \textstyle   z _ { \alpha   / 2 } }
+{ \displaystyle   1 - \alpha   / 2 }
+{ \displaystyle   { \hat   { \sigma   } } _ { 0 . 5 } = { \sqrt   { { \frac   { 1 } { k + 0 . 5 } } + { \frac   { 1 } { K - k + 0 . 5 } } + { \frac   { 1 } { n - k + 0 . 5 } } + { \frac   { k + 0 . 5 } { ( n - k + 0 . 5 ) ( K - k + 0 . 5 ) } } } } }
+1 0 0 ( 1 - \alpha ) \ %
+N \approx   { \frac     { ( K - 1 ) ( n - 1 ) } { k - 2 } } \pm   { \sqrt     { { \frac     { ( K - 1 ) ( n - 1 ) ( K - k + 1 ) ( n - k + 1 ) } { ( k - 2 ) ( k - 2 ) ( k - 3 ) } } } }
+{ \displaystyle   P = { \frac   { 5 } { 1 0 } } f q + { \frac   { 5 } { 9 0 } } ( 1 - f ) ( 1 - q ) }
+{ \displaystyle   P = ( { \frac   { 5 } { 1 0 } } q - { \frac   { 5 } { 9 0 } } ( 1 - q ) ) f + { \frac   { 5 } { 9 0 } } ( 1 - q ) }
+{ \displaystyle   ( { \frac   { 5 } { 1 0 } } q - { \frac   { 5 } { 9 0 } } ( 1 - q ) ) > 0 }
+{ \displaystyle   q > { \frac   { 1 } { 1 0 } } }

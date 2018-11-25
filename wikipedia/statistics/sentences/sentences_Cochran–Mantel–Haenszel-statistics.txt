@@ -1,0 +1,5 @@
+{ \displaystyle   R = { { \sum   _ { i = 1 } ^ { K } { { A _ { i } D _ { i } }   \over   T _ { i } } }   \over   { \sum   _ { i = 1 } ^ { K } { { B _ { i } C _ { i } }   \over   T _ { i } } } } , }
+{ \displaystyle   H _ { 0 } : R = 1 }
+{ \displaystyle   H _ { 1 } : R \neq   1 }
+{ \displaystyle   \xi   _ { C M H } = { [ { \sum   _ { i = 1 } ^ { K } ( A _ { i } - { N _ { 1 i } M _ { 1 i }   \over   T _ { i } } ) ] ^ { 2 } }   \over   { \sum   _ { i = 1 } ^ { K } { N _ { 1 i } N _ { 2 i } M _ { 1 i } M _ { 2 i }   \over   T _ { i } ^ { 2 } ( T _ { i } - 1 ) } } } . }
+\chi   ^ { 2 }

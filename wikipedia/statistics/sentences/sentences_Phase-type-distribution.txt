@@ -1,0 +1,26 @@
+S , \;m \times   m
+{ \boldsymbol   { \alpha   } }
+x \in   [ 0 ; \infty   ) \ !
+{ \boldsymbol     { \alpha   } } e ^ { { x S } } { \boldsymbol     { S } } ^ { { 0 } }
+1 - { \boldsymbol     { \alpha   } } e ^ { { x S } } { \boldsymbol     { 1 } }
+- { \boldsymbol     { \alpha   } } { S } ^ { { - 1 } } { \mathbf     { 1 } }
+2 { \boldsymbol     { \alpha   } } { S } ^ { { - 2 } } { \mathbf     { 1 } } - ( { \boldsymbol     { \alpha   } } { S } ^ { { - 1 } } { \mathbf     { 1 } } ) ^ { { 2 } }
+- { \boldsymbol     { \alpha   } } ( t I + S ) ^ { { - 1 } } { \boldsymbol     { S } } ^ { { 0 } } + \alpha   _ { { 0 } }
+- { \boldsymbol     { \alpha   } } ( i t I + S ) ^ { { - 1 } } { \boldsymbol     { S } } ^ { { 0 } } + \alpha   _ { { 0 } }
+{ Q } = \left [ { \begin { m a t r i x } 0 & { \mathbf     { 0 } } \\{ \mathbf     { S } } ^ { 0 } & { S } \\\end { m a t r i x } } \right ] ,
+F ( x ) = 1 - { \boldsymbol     { \alpha   } } \exp ( { S } x ) { \mathbf     { 1 } } ,
+f ( x ) = { \boldsymbol     { \alpha   } } \exp ( { S } x ) { \mathbf     { S ^ { { 0 } } } } ,
+E [ X ^ { { n } } ] = ( - 1 ) ^ { { n } } n ! { \boldsymbol     { \alpha   } } { S } ^ { { - n } } { \mathbf     { 1 } } .
+{ \displaystyle   M ( s ) = \alpha   _ { 0 } + { \boldsymbol   { \alpha   } } ( s I - S ) ^ { - 1 } \mathbf   { S ^ { 0 } }   , }
+{ \boldsymbol     { \alpha   } } = ( \alpha   _ { 1 } , \alpha   _ { 2 } , \alpha   _ { 3 } , \alpha   _ { 4 } , . . . , \alpha   _ { n } )
+\sum   _ { { i = 1 } } ^ { n } \alpha   _ { i } = 1
+{ S } = \left [ { \begin { m a t r i x } - \lambda   _ { 1 } & 0 & 0 & 0 & 0 \\0 & - \lambda   _ { 2 } & 0 & 0 & 0 \\0 & 0 & - \lambda   _ { 3 } & 0 & 0 \\0 & 0 & 0 & - \lambda   _ { 4 } & 0 \\0 & 0 & 0 & 0 & - \lambda   _ { 5 } \\\end { m a t r i x } } \right ] .
+f ( x ) = \sum   _ { { i = 1 } } ^ { n } \alpha   _ { i } \lambda   _ { i } e ^ { { - \lambda   _ { i } x } } = \sum   _ { { i = 1 } } ^ { n } \alpha   _ { i } f _ { { X _ { i } } } ( x ) ,
+F ( x ) = 1 - \sum   _ { { i = 1 } } ^ { n } \alpha   _ { i } e ^ { { - \lambda   _ { i } x } } = \sum   _ { { i = 1 } } ^ { n } \alpha   _ { i } F _ { { X _ { i } } } ( x ) .
+X _ { i } \sim   E x p ( \lambda   _ { i } )
+{ \boldsymbol     { \alpha   } } = ( 1 , 0 , 0 , 0 , 0 ) ,
+{ S } = \left [ { \begin { m a t r i x } - \lambda   & \lambda   & 0 & 0 & 0 \\0 & - \lambda   & \lambda   & 0 & 0 \\0 & 0 & - \lambda   & \lambda   & 0 \\0 & 0 & 0 & - \lambda   & \lambda   \\0 & 0 & 0 & 0 & - \lambda   \\\end { m a t r i x } } \right ] .
+{ \boldsymbol     { \alpha   } } = ( \alpha   _ { 1 } , 0 , 0 , \alpha   _ { 2 } , 0 , 0 ) ,
+{ S } = \left [ { \begin { m a t r i x } - \beta   _ { 1 } & \beta   _ { 1 } & 0 & 0 & 0 & 0 \\0 & - \beta   _ { 1 } & \beta   _ { 1 } & 0 & 0 & 0 \\0 & 0 & - \beta   _ { 1 } & 0 & 0 & 0 \\0 & 0 & 0 & - \beta   _ { 2 } & \beta   _ { 2 } & 0 \\0 & 0 & 0 & 0 & - \beta   _ { 2 } & \beta   _ { 2 } \\0 & 0 & 0 & 0 & 0 & - \beta   _ { 2 } \\\end { m a t r i x } } \right ] .
+S = \left [ { \begin { m a t r i x } - \lambda   _ { { 1 } } & p _ { { 1 } } \lambda   _ { { 1 } } & 0 & \dots   & 0 & 0 \\0 & - \lambda   _ { { 2 } } & p _ { { 2 } } \lambda   _ { { 2 } } & \ddots   & 0 & 0 \\\vdots   & \ddots   & \ddots   & \ddots   & \ddots   & \vdots   \\0 & 0 & \ddots   & - \lambda   _ { { k - 2 } } & p _ { { k - 2 } } \lambda   _ { { k - 2 } } & 0 \\0 & 0 & \dots   & 0 & - \lambda   _ { { k - 1 } } & p _ { { k - 1 } } \lambda   _ { { k - 1 } } \\0 & 0 & \dots   & 0 & 0 & - \lambda   _ { { k } } \end { m a t r i x } } \right ]
+{ \boldsymbol     { \alpha   } } = ( 1 , 0 , \dots   , 0 ) ,

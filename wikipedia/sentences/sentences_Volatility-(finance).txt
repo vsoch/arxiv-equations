@@ -1,9 +1,0 @@
-{ \displaystyle   \sigma   _ { \text { T } } = \sigma   _ { \text { a n n u a l l y } } { \sqrt   { T } } . }
-{ \displaystyle   \sigma   _ { \text { P } } = \sigma   _ { \text { d a i l y } } { \sqrt   { P } } . }
-{ \displaystyle   \sigma   _ { \text { a n n u a l l y } } = 0 . 0 1 { \sqrt   { 2 5 2 } } = 0 . 1 5 8 7 . }
-\sigma   _ { { \text { m o n t h l y } } } = 0 . 1 5 8 7 { \sqrt     { { \tfrac     { 1 } { 1 2 } } } } = 0 . 0 4 5 8 .
-{ \displaystyle   \sigma   _ { \text { m o n t h l y } } = 0 . 0 1 { \sqrt   { \tfrac   { 2 5 2 } { 1 2 } } } = 0 . 0 4 5 8 . }
-\sigma   _ { T } = T ^ { { 1 / \alpha   } } \sigma   . \ ,
-{ \displaystyle   \log ( 1 + y ) = y - { \tfrac   { 1 } { 2 } } y ^ { 2 } + { \tfrac   { 1 } { 3 } } y ^ { 3 } - { \tfrac   { 1 } { 4 } } y ^ { 4 } + \cdots   }
-{ \mathrm     { C A G R } } \approx   { \mathrm     { A R } } - { \tfrac     { 1 } { 2 } } \sigma   ^ { 2 }
-{ \mathrm     { C A G R } } \approx   { \mathrm     { A R } } - { \tfrac     { 1 } { 2 } } k \sigma   ^ { 2 }

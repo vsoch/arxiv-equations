@@ -1,0 +1,1 @@
+{ \displaystyle   q _ { n , \nu   } = { \frac   { \max \{ \,x_ { 1 } , \ \dots   , \ x_ { n } \,\}-\min \{ \,x_ { 1 } , \ \dots   , \ x_ { n } \}}{ s } } = \max   _ { i , j = 1 , \dots   , n } \left \{ { \frac   { x _ { i } - x _ { j } } { s } } \right \ } }

@@ -1,0 +1,20 @@
+{ \displaystyle   y = \beta   _ { 0 } + \beta   _ { 1 } x + \varepsilon   , \ , }
+{ \displaystyle   y = \beta   _ { 0 } + \beta   _ { 1 } x + \beta   _ { 2 } x ^ { 2 } + \varepsilon   . \ , }
+{ \displaystyle   \beta   _ { 1 } + \beta   _ { 2 } ( 2 x + 1 ) . }
+{ \displaystyle   \beta   _ { 1 } + 2 \beta   _ { 2 } x . }
+{ \displaystyle   y = \beta   _ { 0 } + \beta   _ { 1 } x + \beta   _ { 2 } x ^ { 2 } + \beta   _ { 3 } x ^ { 3 } + \cdots   + \beta   _ { n } x ^ { n } + \varepsilon   . \ , }
+{ \displaystyle   y _ { i } \,=\,\beta   _ { 0 } + \beta   _ { 1 } x _ { i } + \beta   _ { 2 } x _ { i } ^ { 2 } + \cdots   + \beta   _ { m } x _ { i } ^ { m } + \varepsilon   _ { i } \ ( i = 1 , 2 , \dots   , n ) }
+\mathbf   { X }  
+\vec   y
+{ \displaystyle   { \vec   { \beta   } } }
+{ \displaystyle   { \vec   { \varepsilon   } } }
+\mathbf   { X }  
+\vec   y
+{ \displaystyle   { \begin { b m a t r i x } y _ { 1 } \\y_ { 2 } \\y_ { 3 } \\\vdots   \\y_ { n } \end { b m a t r i x } } = { \begin { b m a t r i x } 1 & x _ { 1 } & x _ { 1 } ^ { 2 } & \dots   & x _ { 1 } ^ { m } \\1 & x _ { 2 } & x _ { 2 } ^ { 2 } & \dots   & x _ { 2 } ^ { m } \\1 & x _ { 3 } & x _ { 3 } ^ { 2 } & \dots   & x _ { 3 } ^ { m } \\\vdots   & \vdots   & \vdots   & \ddots   & \vdots   \\1 & x _ { n } & x _ { n } ^ { 2 } & \dots   & x _ { n } ^ { m } \end { b m a t r i x } } { \begin { b m a t r i x } \beta   _ { 0 } \\\beta   _ { 1 } \\\beta   _ { 2 } \\\vdots   \\\beta   _ { m } \end { b m a t r i x } } + { \begin { b m a t r i x } \varepsilon   _ { 1 } \\\varepsilon   _ { 2 } \\\varepsilon   _ { 3 } \\\vdots   \\\varepsilon   _ { n } \end { b m a t r i x } } , }
+{ \displaystyle   { \vec   { y } } = \mathbf   { X }   { \vec   { \beta   } } + { \vec   { \varepsilon   } } . \ , }
+{ \displaystyle   { \widehat   { \vec   { \beta   } } } = ( \mathbf   { X }   ^ { \mathsf   { T } } \mathbf   { X }   ) ^ { - 1 } \;\mathbf   { X }   ^ { \mathsf   { T } } { \vec   { y } } , \ , }
+\mathbf   { X }  
+x _ { i }
+{ \displaystyle   x \in   \mathbb   { R }   ^ { d _ { x } } }
+{ \displaystyle   \varphi   ( x ) \in   \mathbb   { R }   ^ { d _ { \varphi   } } }
+{ \displaystyle   [ 1 , x ] { \mathbin   { \stackrel   { \varphi   } { \rightarrow   } } } [ 1 , x , x ^ { 2 } , \ldots   , x ^ { d } ] }

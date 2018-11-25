@@ -1,0 +1,23 @@
+{ \displaystyle   { \hat   { f } } ( x ) = \lim   _ { n \rightarrow   \infty   } \;{ \frac   { 1 } { n } } \sum   _ { k = 0 } ^ { n - 1 } f ( T ^ { k } x ) . }
+{ \bar     f } = { \frac     1 { \mu   ( X ) } } \int   f \,d \mu   . \quad   { \text {   ( F o r   a   p r o b a b i l i t y   s p a c e ,   } } \mu   ( X ) = 1 . )
+{ \hat     f } \in   L ^ { 1 } ( \mu   ) . \ ,
+{ \hat     f } \circ   T = { \hat     f } \ ,
+\int   { \hat     f } \,d \mu   = \int   f \,d \mu   .
+{ \bar     f } = { \hat     f } \ ,
+{ \displaystyle   \lim   _ { n \rightarrow   \infty   } \;{ \frac   { 1 } { n } } \sum   _ { k = 0 } ^ { n - 1 } f ( T ^ { k } x ) = { \frac   { 1 } { \mu   ( X ) } } \int   f \,d \mu   }
+{ \displaystyle   \lim   _ { n \rightarrow   \infty   } \;{ \frac   { 1 } { n } } \sum   _ { k = 0 } ^ { n - 1 } f ( T ^ { k } x ) = E ( f \mid   { \mathcal   { C } } ) ( x ) , }
+E ( f | { \mathcal     { C } } )
+{ \mathcal   { C } }
+{ \mathcal   { C } }
+{ \displaystyle   \lim   _ { n \rightarrow   \infty   } \;{ \frac   { 1 } { n } } \sum   _ { k = 0 } ^ { n - 1 } f ( T ^ { k } x ) = E ( f ) . }
+\lim   _ { { N \to   \infty   } } { 1   \over   N } \sum   _ { { n = 0 } } ^ { { N - 1 } } U ^ { { n } } x = P x ,
+{ \displaystyle   { \frac   { 1 } { N } } \sum   _ { n = 0 } ^ { N - 1 } U ^ { n } }
+x \in   H
+\ker ( I - U )
+{ \displaystyle   { \overline   { \operatorname   { r a n }   ( I - U ) } } }
+N
+{ \displaystyle   \lim   _ { N \to   \infty   } { 1   \over   N } \sum   _ { n = 0 } ^ { N - 1 } U ^ { n } ( I - U ) = \lim   _ { N \to   \infty   } { 1   \over   N } ( I - U ^ { N } ) = 0 }
+U f ( x ) = f ( T x ) \ ,
+{ \frac     { 1 } { T } } \int   _ { 0 } ^ { T } U _ { t } \,dt
+{ \displaystyle   { \frac   { \mu   ( A ) } { \mu   ( X ) } } = { \frac   { 1 } { \mu   ( X ) } } \int   \chi   _ { A } \,d \mu   = \lim   _ { n \rightarrow   \infty   } \;{ \frac   { 1 } { n } } \sum   _ { k = 0 } ^ { n - 1 } \chi   _ { A } ( T ^ { k } x ) }
+{ \displaystyle   { \frac   { R _ { 1 } + \cdots   + R _ { n } } { n } } \rightarrow   { \frac   { \mu   ( X ) } { \mu   ( A ) } } \quad   { \text { ( a l m o s t   s u r e l y ) } } }

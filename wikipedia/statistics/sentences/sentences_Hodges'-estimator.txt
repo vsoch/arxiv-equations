@@ -1,0 +1,11 @@
+\scriptstyle \hat \theta_n
+          \sqrt { n } ( \hat \theta_n   -   \theta ) \ \xrightarrow { d } \ L_ \theta \   .      
+\scriptstyle \hat \theta ^ H _ n
+          \hat \theta_n ^ H   =   \begin { c a s e s } \hat \theta_n ,   &   \text { i f   }   | \hat \theta_n |   \geq   n ^ { - 1 / 4 } ,   \text {   a n d }   \\ 0 ,   &   \text { i f   }   | \hat \theta_n |   <   n ^ { - 1 / 4 } . \end { c a s e s }      
+\scriptstyle \hat \theta_n
+\begin { a l i g n }           &   n ^ \alpha ( \hat \theta_n ^ H   -   \theta )   \ \xrightarrow { d } \ 0 ,   \qquad \text { w h e n   }   \theta   =   0 ,   \\     &\sqrt { n } ( \hat \theta_n ^ H   -   \theta ) \ \xrightarrow { d } \ L_ \theta ,   \quad   \text { w h e n   }   \theta \neq   0 ,       \end { a l i g n }
+\scriptstyle \hat \theta_n
+\scriptstyle \hat \theta_n
+\scriptstyle \bar { x }
+\scriptstyle \hat \theta ^ H _ n   \;=\; \bar { x } \cdot \mathbf { 1 } \{ | \bar   x | \,\geq \,n ^ { - 1 / 4 } \ }
+\scriptstyle \hat \theta_n ^ H

@@ -1,0 +1,2 @@
+\Pr ( \text { e x a c t } ) = \sum_ { \mathbf { y } \,:\,T ( \mathbf { y } ) \ge   T ( \mathbf { x ) } }   \Pr ( \mathbf { y } )
+  \sum   \frac { ( \text { o b s e r v e d } - \text { e x p e c t e d } ) ^ 2 } { \text { e x p e c t e d } }   =   \sum_ { k = 1 } ^ 6   \frac { ( X _ k   -   n / 6 ) ^ 2 } { n / 6 } ,  

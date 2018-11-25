@@ -1,0 +1,37 @@
+X = ( X _ { t } )
+\mu   _ { t } = E [ X _ { t } ]
+{ \displaystyle   C _ { X X } ( t , s ) = { \text { c o v } } ( X _ { t } , X _ { s } ) = E [ ( X _ { t } - \mu   _ { t } ) ( X _ { s } - \mu   _ { s } ) ] = E [ X _ { t } X _ { s } ] - \mu   _ { t } \mu   _ { s } , \ , }
+X = ( X _ { 1 } , X _ { 2 } , . . . , X _ { n } )
+{ \displaystyle   C _ { X _ { i } X _ { j } } ( t , s ) = { \text { c o v } } ( X _ { i , t } , X _ { j , s } ) }
+X _ { t }
+X _ { s }
+{ \displaystyle   \mu   _ { t } = \mu   _ { s } = \mu   }
+{ \displaystyle   C _ { X X } ( t , s ) = C _ { X X } ( s - t ) = C _ { X X } ( \tau   ) , }
+{ \displaystyle   \tau   = | s - t | }
+{ \displaystyle   C _ { X X } ( 0 ) = \sigma   ^ { 2 } }
+{ \displaystyle   \rho   _ { X X } ( \tau   ) = { \frac   { C _ { X X } ( \tau   ) } { \sigma   ^ { 2 } } } }
+{ \displaystyle   - 1 \leq   \rho   _ { X X } ( \tau   ) \leq   1 }
+Y _ { t }
+Y _ { t } = \sum   _ { { k = - \infty   } } ^ { \infty   } a _ { k } X _ { { t + k } } \ ,
+{ \displaystyle   C _ { Y Y } ( \tau   ) = \sum   _ { k , l = - \infty   } ^ { \infty   } a _ { k } a _ { l } C _ { X X } ( \tau   + k - l ) . \ , }
+{ \displaystyle   u ' ( x , t ) }
+{ \displaystyle   U ( x , t ) }
+x
+{ \displaystyle   U ( x , t ) = \langle   U ( x , t ) \rangle   + u ' ( x , t ) , }
+{ \displaystyle   U ( x , t ) }
+{ \displaystyle   \langle   U ( x , t ) \rangle   }
+{ \displaystyle   \langle   U ( x , t ) \rangle   }
+{ \displaystyle   u ' ( x , t ) }
+{ \displaystyle   \langle   U ( x , t ) \rangle   }
+{ \displaystyle   \langle   u ' c ' \rangle   }
+{ \displaystyle   c ' = c - \langle   c \rangle   }
+{ \displaystyle   J _ { { \text { t u r b u l e n c e } } _ { x } } = \langle   u ' c ' \rangle   \approx   D _ { T _ { x } } { \frac   { \partial   \langle   c \rangle   } { \partial   x } } . }
+{ \displaystyle   C _ { X X } \equiv   \langle   u ' ( t _ { 0 } ) u ' ( t _ { 0 } + \tau   ) \rangle   }
+{ \displaystyle   C _ { X X } \equiv   \langle   u ' ( x _ { 0 } ) u ' ( x _ { 0 } + r ) \rangle   , }
+\tau  
+r
+{ \displaystyle   D _ { T _ { x } } }
+{ \displaystyle   D _ { T _ { x } } = \int   _ { \tau   } ^ { \infty   } u ' ( t _ { 0 } ) u ' ( t _ { 0 } + \tau   ) \,d \tau   . }
+{ \displaystyle   D _ { T _ { x } } \approx   [ 0 . 3 \pm   0 . 1 ] \left [ { \frac   { \langle   u ' u ' \rangle   + \langle   u \rangle   ^ { 2 } } { \langle   u ' u ' \rangle   } } \right ] \int   _ { \tau   } ^ { \infty   } u ' ( t _ { 0 } ) u ' ( t _ { 0 } + \tau   ) \,d \tau   . }
+{ \displaystyle   D _ { T _ { x } } \approx   [ 0 . 4 \pm   0 . 1 ] \left [ { \frac   { 1 } { \langle   u ' u ' \rangle   } } \right ] \int   _ { r } ^ { \infty   } u ' ( x _ { 0 } ) u ' ( x _ { 0 } + r ) \,dr , }
+r

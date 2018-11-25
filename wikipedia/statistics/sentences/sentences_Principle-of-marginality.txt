@@ -1,0 +1,3 @@
+{ \displaystyle   y _ { i } = a + b x _ { i } + c z _ { i } + d ( x _ { i } z _ { i } ) + e _ { i } , }
+{ \displaystyle   b + d z _ { i } }
+z _ { i }

@@ -1,6 +1,0 @@
-\mu   _ { S }
-\sigma   _ { S }
-\mu   _ { N }
-\sigma   _ { N }
-d ' = { \frac   { \mu   _ { S } - \mu   _ { N } } { \sqrt   { { \frac   { 1 } { 2 } } ( \sigma   _ { S } ^ { 2 } + \sigma   _ { N } ^ { 2 } ) } } }
-{ \displaystyle   d ' = { \sqrt   { 2 } } Z ( { \mbox { A U C } } ) . }

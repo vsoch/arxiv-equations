@@ -1,0 +1,33 @@
+\theta  
+\theta  
+\theta  
+\theta  
+\theta  
+{ \hat   { \theta   } }
+\theta  
+\theta   _ { 0 }
+  \frac {   (   \widehat {   \theta } - \theta_0   ) ^ 2   } { \operatorname { v a r } ( \hat   \theta   ) }  
+\frac { \widehat { \theta } - \theta_0 } { \operatorname { s e } ( \hat \theta ) }
+\operatorname { s e } ( \widehat \theta )
+  \frac { 1 } { \sqrt { I _ n ( M L E ) } }  
+  I _ n  
+{ \hat     { \theta   } } _ { n }
+{ \hat     { \theta   } } _ { n }
+\times  
+{ \sqrt     { n } } ( { \hat     { \theta   } } _ { n } - \theta   ) { \xrightarrow     { { \mathcal     { D } } } } N ( 0 , V )
+\times  
+H _ { 0 } : R \theta   = r
+H _ { 1 } : R \theta   \neq   r
+{ \displaystyle   ( R { \hat   { \theta   } } _ { n } - r ) ^ { ' } [ R ( { \hat   { V } } _ { n } / n ) R ^ { ' } ] ^ { - 1 } ( R { \hat   { \theta   } } _ { n } - r ) \quad   { \xrightarrow   { \mathcal   { D } } } \quad   \chi   _ { Q } ^ { 2 } }
+{ \hat     { V } } _ { n }
+{ \sqrt     { n } } ( { \hat     { \theta   } } _ { n } - \theta   ) { \xrightarrow     { { \mathcal     { D } } } } N ( 0 , V )
+R { \sqrt     { n } } ( { \hat     { \theta   } } _ { n } - \theta   ) = { \sqrt     { n } } ( R { \hat     { \theta   } } _ { n } - r ) { \xrightarrow     { { \mathcal     { D } } } } N ( 0 , R V R ^ { { ' } } )
+{ \displaystyle   { \sqrt   { n } } ( R { \hat   { \theta   } } _ { n } - r ) ^ { ' } [ R V R ^ { ' } ] ^ { - 1 } { \sqrt   { n } } ( R { \hat   { \theta   } } _ { n } - r ) { \xrightarrow   { \mathcal   { D } } } \chi   _ { Q } ^ { 2 } }
+{ \displaystyle   ( R { \hat   { \theta   } } _ { n } - r ) ^ { ' } [ R ( V / n ) R ^ { ' } ] ^ { - 1 } ( R { \hat   { \theta   } } _ { n } - r ) \quad   { \xrightarrow   { \mathcal   { D } } } \quad   \chi   _ { Q } ^ { 2 } }
+{ \displaystyle   { \hat   { V } } _ { n } \sim   \mathrm   { X }   _ { n - P } ^ { 2 } }
+V
+{ \displaystyle   ( R { \hat   { \theta   } } _ { n } - r ) ^ { ' } [ R ( { \hat   { V } } _ { n } / n ) R ^ { ' } ] ^ { - 1 } ( R { \hat   { \theta   } } _ { n } - r ) \quad   { \xrightarrow   { \mathcal   { D } } } \quad   F ( Q , n - P ) }
+H _ { 0 } : c ( \theta   ) = 0
+H _ { 1 } : c ( \theta   ) \neq   0
+{ \displaystyle   c \left ( { \hat   { \theta   } } _ { n } \right ) ' \left [ c ' \left ( { \hat   { \theta   } } _ { n } \right ) \left ( { \hat   { V } } _ { n } / n \right ) c ' \left ( { \hat   { \theta   } } _ { n } \right ) ' \right ] ^ { - 1 } c \left ( { \hat   { \theta   } } _ { n } \right ) \quad   { \xrightarrow   { \mathcal   { D } } } \quad   \chi   _ { Q } ^ { 2 } }
+{ \displaystyle   c ' ( { \hat   { \theta   } } _ { n } ) }

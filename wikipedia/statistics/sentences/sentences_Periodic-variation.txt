@@ -1,0 +1,11 @@
+{ \displaystyle   S e a s o n a l \ effect = { \frac   { T \cdot   S \cdot   C \cdot   I } { T \cdot   C \cdot   I } } \times   1 0 0 \ ={ \frac   { Y } { T \cdot   C \cdot   I } } \times   1 0 0 }
+{ \displaystyle   S \cdot   C \cdot   I }
+{ \displaystyle   Y = T \cdot   S \cdot   C \cdot   I }
+{ \displaystyle   { \frac   { Y } { T } } = S \cdot   C \cdot   I }
+{ \displaystyle   { \frac   { Y } { S } } \times   1 0 0 = { \frac   { T \cdot   S \cdot   C \cdot   I } { S } } \times   1 0 0 = ( T \cdot   C \cdot   I ) \times   1 0 0 }
+{ \displaystyle   Y _ { i } = a + b t + \alpha   \sin ( 2 \pi   \omega   T _ { i } + \phi   ) + E _ { i } }
+{ \displaystyle   Y _ { i } = a + b t + ( \sum   _ { k = 1 } ^ { K } \alpha   _ { k } \cdot   \sin ( { \tfrac   { 2 \pi   k t } { m } } ) + \beta   _ { k } \cdot   \cos ( { \tfrac   { 2 \pi   k t } { n } } ) ) + E _ { i } }
+  Y _ t - S _ t = T _ t + E _ t
+  Y _ t / S _ t = T _ t * E _ t
+  Y _ t = S _ t * T _ t * E _ t  
+  l o g   Y _ t = l o g S _ t + l o g T _ t + l o g E _ t  

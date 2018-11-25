@@ -1,0 +1,6 @@
+{ \displaystyle   { \begin { a l i g n e d } \sum   _ { i = 1 } ^ { k } { p _ { i } } & = 1 \\[8pt ] \sum   _ { i = 1 } ^ { k } { m _ { i } } & = n \sum   _ { i = 1 } ^ { k } { p _ { i } } = \sum   _ { i = 1 } ^ { k } x _ { i } \end { a l i g n e d } } }
+{ \displaystyle   X ^ { 2 } = \sum   _ { i = 1 } ^ { k } { \frac   { ( x _ { i } - m _ { i } ) ^ { 2 } } { m _ { i } } } = \sum   _ { i = 1 } ^ { k } { { \frac   { x _ { i } ^ { 2 } } { m _ { i } } } - n } }
+{ \displaystyle   X ^ { 2 } - { X ' } ^ { 2 } = \sum   _ { i = 1 } ^ { k } { \frac   { x _ { i } ^ { 2 } } { m _ { i } } } - \sum   _ { i = 1 } ^ { k } { \frac   { x _ { i } ^ { 2 } } { m ' _ { i } } } }
+{ \displaystyle   1 5 0 \times   { \frac   { 3 4 9 } { 6 5 0 } } \approx   8 0 . 5 4 }
+{ \displaystyle   { \frac   { \left ( { \text { o b s e r v e d } } - { \text { e x p e c t e d } } \right ) ^ { 2 } } { \text { e x p e c t e d } } } = { \frac   { \left ( 9 0 - 8 0 . 5 4 \right ) ^ { 2 } } { 8 0 . 5 4 } } \approx   1 . 1 1 }
+{ \displaystyle   ( { \text { n u m b e r   o f   r o w s } } - 1 ) ( { \text { n u m b e r   o f   c o l u m n s } } - 1 ) = ( 3 - 1 ) ( 4 - 1 ) = 6 }

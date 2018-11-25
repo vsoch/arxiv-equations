@@ -1,0 +1,6 @@
+{ \displaystyle   \lambda   _ { n } = p _ { 1 } + \cdots   + p _ { n } . }
+S _ n   =   X _ 1   +   \cdots   +   X _ n .
+S _ { n }
+\sum   _ { { k = 0 } } ^ { \infty   } \left | \Pr ( S _ { n } = k ) - { \lambda   _ { n } ^ { k } e ^ { { - \lambda   _ { n } } }   \over   k ! } \right | < 2 \sum   _ { { i = 1 } } ^ { n } p _ { i } ^ { 2 } .
+\lambda   _ { n }
+{ \displaystyle   \sum   _ { k = 0 } ^ { \infty   } \left | \Pr ( S _ { n } = k ) - { \lambda   _ { n } ^ { k } e ^ { - \lambda   _ { n } }   \over   k ! } \right | < 2 ( 1 \wedge   { \frac   { 1 } { \lambda   } } _ { n } ) \sum   _ { i = 1 } ^ { n } p _ { i } ^ { 2 } . }

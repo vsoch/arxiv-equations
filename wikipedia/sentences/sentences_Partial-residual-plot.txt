@@ -1,3 +1,0 @@
-  \mathrm { R e s i d u a l s }   +   \hat { \beta } _ i X _ i   \mathrm { \ versus \ } X_i    
-\hat { \beta } _ i
-  \hat { \beta } _ i X _ i   \mathrm { \ versus \ } X_i .  

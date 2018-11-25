@@ -1,1 +1,0 @@
-\operatorname   { s c o r e }   ( \mathbf   { X }   _ { i } , k ) = { \boldsymbol   { \beta   } } _ { k } \cdot   \mathbf   { X }   _ { i } ,

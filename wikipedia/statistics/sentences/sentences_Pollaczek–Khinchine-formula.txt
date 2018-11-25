@@ -1,0 +1,16 @@
+{ \displaystyle   L = \rho   + { \frac   { \rho   ^ { 2 } + \lambda   ^ { 2 } \operatorname   { V a r }   ( S ) } { 2 ( 1 - \rho   ) } } }
+\lambda  
+1 / \mu  
+\rho   = \lambda   / \mu  
+\rho   < 1
+\lambda   _ { a }
+\lambda_s
+W = W ' + \mu   ^ { { - 1 } }
+W '
+\mu  
+L = \lambda   W
+\lambda  
+W = { \frac     { \rho   + \lambda   \mu   { \text { V a r } } ( S ) } { 2 ( \mu   - \lambda   ) } } + \mu   ^ { { - 1 } } .
+W ' = { \frac     { L } { \lambda   } } - \mu   ^ { { - 1 } } = { \frac     { \rho   + \lambda   \mu   { \text { V a r } } ( S ) } { 2 ( \mu   - \lambda   ) } } .
+\pi   ( z ) = { \frac     { ( 1 - z ) ( 1 - \rho   ) g ( \lambda   ( 1 - z ) ) } { g ( \lambda   ( 1 - z ) ) - z } }
+{ \displaystyle   W ^ { \ast   } ( s ) = { \frac   { ( 1 - \rho   ) s } { s - \lambda   ( 1 - g ( s ) ) } } }

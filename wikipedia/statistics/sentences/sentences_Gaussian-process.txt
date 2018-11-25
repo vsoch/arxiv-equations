@@ -1,0 +1,51 @@
+t _ { 1 } , \ldots   , t _ { k }
+T
+{ \displaystyle   \mathbf   { X }   _ { t _ { 1 } , \ldots   , t _ { k } } = ( \mathbf   { X }   _ { t _ { 1 } } , \ldots   , \mathbf   { X }   _ { t _ { k } } ) }
+{ \displaystyle   ( \mathbf   { X }   _ { t _ { 1 } } , \ldots   , \mathbf   { X }   _ { t _ { k } } ) }
+\left \{ X _ { t } ; t \in   T \right \ }
+t _ { 1 } , \ldots   , t _ { k }
+\sigma   _ { \ell   j }
+\mu   _ { \ell   }
+{ \displaystyle   \sigma   _ { j j } > 0 }
+{ \displaystyle   s _ { 1 } , s _ { 2 } , \ldots   , s _ { k } \in   \mathbb   { R }   }
+\operatorname   { E }   \left ( \exp   \left ( i \ \sum   _ { \ell   = 1 } ^ { k } s _ { \ell   } \ \mathbf   { X }   _ { t _ { \ell   } } \right ) \right ) = \exp   \left ( - { \frac   { 1 } { 2 } } \,\sum   _ { \ell   , j } \sigma   _ { \ell   j } s _ { \ell   } s _ { j } + i \sum   _ { \ell   } \mu   _ { \ell   } s _ { \ell   } \right ) .
+i
+{ \sqrt   { - 1 } }
+\sigma   _ { \ell   j }
+\mu   _ { \ell   }
+{ \displaystyle   K _ { \operatorname   { C }   } ( x , x ' ) = C }
+{ \displaystyle   K _ { \operatorname   { L }   } ( x , x ' ) = x ^ { T } x ' }
+{ \displaystyle   K _ { \operatorname   { G N }   } ( x , x ' ) = \sigma   ^ { 2 } \delta   _ { x , x ' } }
+{ \displaystyle   K _ { \operatorname   { S E }   } ( x , x ' ) = \exp   { \Big   ( } - { \frac   { \|d \|^ { 2 } } { 2 \ell   ^ { 2 } } } { \Big   ) } }
+{ \displaystyle   K _ { \operatorname   { O U }   } ( x , x ' ) = \exp   \left ( - { \frac   { | d | } { \ell   } } \right ) }
+{ \displaystyle   K _ { \operatorname   { M a t e r n }   } ( x , x ' ) = { \frac   { 2 ^ { 1 - \nu   } } { \Gamma   ( \nu   ) } } { \Big   ( } { \frac   { { \sqrt   { 2 \nu   } } | d | } { \ell   } } { \Big   ) } ^ { \nu   } K _ { \nu   } { \Big   ( } { \frac   { { \sqrt   { 2 \nu   } } | d | } { \ell   } } { \Big   ) } }
+{ \displaystyle   K _ { \operatorname   { P }   } ( x , x ' ) = \exp   \left ( - { \frac   { 2 \sin   ^ { 2 } \left ( { \frac   { d } { 2 } } \right ) } { \ell   ^ { 2 } } } \right ) }
+{ \displaystyle   K _ { \operatorname   { R Q }   } ( x , x ' ) = ( 1 + | d | ^ { 2 } ) ^ { - \alpha   } , \quad   \alpha   \geq   0 }
+d = x - x '
+x
+x '
+K _ { \nu   }
+\nu  
+\Gamma   ( \nu   )
+\nu  
+y
+f ( x )
+{ \displaystyle   f ( x ) \sim   N ( 0 , K ( \theta   , x , x ' ) ) }
+{ \displaystyle   K ( \theta   , x , x ' ) }
+{ \displaystyle   ( x , x ' ) }
+{ \displaystyle   \log   p ( f ( x ) | \theta   , x ) = - { \frac   { 1 } { 2 } } f ( x ) ^ { T } K ( \theta   , x , x ' ) ^ { - 1 } f ( x ) - { \frac   { 1 } { 2 } } \log   \det ( K ( \theta   , x , x ' ) ) - { \frac   { | x | } { 2 } } \log   2 \pi   }
+f ( x ^ { * } )
+{ \displaystyle   p ( y ^ { * } \mid   x ^ { * } , f ( x ) , x ) = N ( y ^ { * } \mid   A , B ) }
+A = K ( \theta   , x ^ { * } , x ) K ( \theta   , x , x ' ) ^ { - 1 } f ( x )
+B = K ( \theta   , x ^ { * } , x ^ { * } ) - K ( \theta   , x ^ { * } , x ) K ( \theta   , x , x ' ) ^ { - 1 } K ( \theta   , x ^ { * } , x ) ^ { T }
+{ \displaystyle   K ( \theta   , x ^ { * } , x ) }
+{ \displaystyle   K ( \theta   , x , x ' ) }
+f ( x )
+{ \displaystyle   K ( \theta   , x ^ { * } , x ^ { * } ) }
+f ( x ^ { * } )
+f ( x )
+f ( x ^ { * } )
+f ( x )
+{ \displaystyle   y ( \mathbf   { x }   ) }
+{ \displaystyle   \mathbf   { x }   ^ { ( 1 ) } , \mathbf   { x }   ^ { ( 2 ) } , \ldots   , \mathbf   { x }   ^ { ( N ) } }
+{ \displaystyle   P ( y ( \mathbf   { x }   ^ { ( 1 ) } ) , y ( \mathbf   { x }   ^ { ( 2 ) } ) , \ldots   , y ( \mathbf   { x }   ^ { ( N ) } ) ) }

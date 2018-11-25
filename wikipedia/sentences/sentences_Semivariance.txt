@@ -1,3 +1,0 @@
-z ( x _ { i } + h ) - z ( x _ { i } )
-2 { \hat     \gamma   } ( h )
-{ \hat     \gamma   } ( h )

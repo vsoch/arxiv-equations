@@ -1,0 +1,82 @@
+{ \displaystyle   { \hat   { f } } ( x ) }
+y _ { i }
+f ( x _ { i } )
+{ \displaystyle   { \hat   { f } } ( x _ { i } ) }
+y _ { i }
+{ \displaystyle   { \hat   { f } } ( x ) }
+x _ { i } , y _ { i }
+x
+{ \displaystyle   \{ x _ { i } , Y _ { i } : i = 1 , \dots   , n \ } }
+{ \displaystyle   Y _ { i } = f ( x _ { i } ) + \epsilon   _ { i } }
+{ \displaystyle   \epsilon   _ { i } }
+{ \hat   { f } }
+f
+{ \displaystyle   \sum   _ { i = 1 } ^ { n } \{ Y _ { i } - { \hat   { f } } ( x _ { i } ) \}^ { 2 } + \lambda   \int   { \hat   { f } } ' ' ( x ) ^ { 2 } \,dx . }
+\lambda   \geq   0
+f
+x _ { i }
+\lambda   \to   0
+\lambda   \to   \infty  
+x _ { i }
+\epsilon   _ { i }
+{ \displaystyle   { \hat   { f } } ( x _ { i } ) ; i = 1 , \ldots   , n }
+{ \displaystyle   { \hat   { f } } ( x ) }
+{ \displaystyle   { \hat   { m } } = ( { \hat   { f } } ( x _ { 1 } ) , \ldots   , { \hat   { f } } ( x _ { n } ) ) ^ { T } }
+{ \displaystyle   \int   { \hat   { f } } ' ' ( x ) ^ { 2 } \,dx }
+{ \displaystyle   ( x _ { i } , { \hat   { f } } ( x _ { i } ) ) }
+{ \displaystyle   { \hat   { f } } ( x ) = \sum   _ { i = 1 } ^ { n } { \hat   { f } } ( x _ { i } ) f _ { i } ( x ) }
+f _ { i } ( x )
+{ \displaystyle   \int   { \hat   { f } } ' ' ( x ) ^ { 2 } d x = { \hat   { m } } ^ { T } A { \hat   { m } } . }
+\int   f _ { i } ' ' ( x ) f _ { j } ' ' ( x ) d x
+x _ { i }
+Y _ { i }
+{ \hat   { m } }
+{ \displaystyle   A = \Delta   ^ { T } W ^ { - 1 } \Delta   }
+{ \displaystyle   \Delta   _ { i i } = 1 / h _ { i } }
+{ \displaystyle   \Delta   _ { i , i + 1 } = - 1 / h _ { i } - 1 / h _ { i + 1 } }
+{ \displaystyle   \Delta   _ { i , i + 2 } = 1 / h _ { i + 1 } }
+{ \displaystyle   W _ { i - 1 , i } = W _ { i , i - 1 } = h _ { i } / 6 }
+{ \displaystyle   W _ { i i } = ( h _ { i } + h _ { i + 1 } ) / 3 }
+{ \displaystyle   h _ { i } = \xi   _ { i + 1 } - \xi   _ { i } }
+{ \displaystyle   \{ Y - { \hat   { m } } \}^ { T } \{ Y - { \hat   { m } } \}+\lambda   { \hat   { m } } ^ { T } A { \hat   { m } } , }
+Y = ( Y _ { 1 } , \ldots   , Y _ { n } ) ^ { T }
+{ \hat   { m } }
+{ \hat   { m } }
+{ \displaystyle   - 2 \{ Y - { \hat   { m } } \}+2 \lambda   A { \hat   { m } } = 0 }
+{ \hat   { m } } = ( I + \lambda   A ) ^ { - 1 } Y .
+{ \displaystyle   p \sum   _ { i = 1 } ^ { n } \left ( { \frac   { Y _ { i } - { \hat   { f } } \left ( x _ { i } \right ) } { \delta   _ { i } } } \right ) ^ { 2 } + \left ( 1 - p \right ) \int   \left ( { \hat   { f } } ^ { \left ( m \right ) } \left ( x \right ) \right ) ^ { 2 } \,dx }
+p
+[ 0 , 1 ]
+\delta   _ { i } ; i = 1 , \dots   , n
+\delta   _ { i } ^ { - 2 }
+Y _ { i }
+m
+2
+m = 2
+m = 2
+p
+1
+{ \hat   { f } }
+p
+{ \displaystyle   0 }
+{ \hat   { f } }
+p
+S
+S
+p
+{ \hat   { f } }
+{ \displaystyle   \sum   _ { i = 1 } ^ { n } \left ( { \frac   { Y _ { i } - { \hat   { f } } \left ( x _ { i } \right ) } { \delta   _ { i } } } \right ) ^ { 2 } \leq   S }
+p = 0
+p
+\delta   _ { i }
+Y _ { i }
+S
+\left [ n - { \sqrt   { 2 n } } , n + { \sqrt   { 2 n } } \right ]
+S = 0
+S
+x
+x
+{ \displaystyle   f ( x , z ) }
+{ \displaystyle   { \hat   { f } } ( x , z ) }
+{ \displaystyle   \sum   _ { i = 1 } ^ { n } \{ y _ { i } - f ( x _ { i } , z _ { i } ) \}^ { 2 } + \lambda   \int   \left [ \left ( { \frac   { \partial   ^ { 2 } f } { \partial   x ^ { 2 } } } \right ) ^ { 2 } + 2 \left ( { \frac   { \partial   ^ { 2 } f } { \partial   x \partial   z } } \right ) ^ { 2 } + \left ( { \frac   { \partial   ^ { 2 } f } { \partial   z ^ { 2 } } } \right ) ^ { 2 } \right ] { \textrm   { d } } x \,{ \textrm   { d } } z . }
+x , z

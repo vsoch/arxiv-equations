@@ -1,0 +1,25 @@
+{ \displaystyle   { \mathcal   { S N } } ( \mu   , \,\sigma   _ { 1 } , \sigma   _ { 2 } ) }
+{ \displaystyle   \mu   \in   \Re   }
+{ \displaystyle   \sigma   _ { 1 } > 0 }
+{ \displaystyle   \sigma   _ { 2 } > 0 }
+{ \displaystyle   x \in   \Re   }
+{ \displaystyle   A \exp   \left ( - { \frac   { ( x - \mu   ) ^ { 2 } } { 2 \sigma   _ { 1 } ^ { 2 } } } \right ) \quad   { \text { i f   } } x < \mu   }
+{ \displaystyle   A \exp   \left ( - { \frac   { ( x - \mu   ) ^ { 2 } } { 2 \sigma   _ { 2 } ^ { 2 } } } \right ) \quad   { \text { o t h e r w i s e , } } }
+{ \displaystyle   { \text { w h e r e } } \quad   A = { \sqrt   { 2 / \pi   } } ( \sigma   _ { 1 } + \sigma   _ { 2 } ) ^ { - 1 } }
+{ \displaystyle   \mu   + { \sqrt   { 2 / \pi   } } ( \sigma   _ { 2 } - \sigma   _ { 1 } ) }
+\mu  
+{ \displaystyle   ( 1 - 2 / \pi   ) ( \sigma   _ { 2 } - \sigma   _ { 1 } ) ^ { 2 } + \sigma   _ { 1 } \sigma   _ { 2 } }
+{ \displaystyle   \gamma   _ { 3 } = { \sqrt   { \frac   { 2 } { \pi   } } } ( \sigma   _ { 2 } - \sigma   _ { 1 } ) \left [ \left ( { \frac   { 4 } { \pi   } } - 1 \right ) ( \sigma   _ { 2 } - \sigma   _ { 1 } ) ^ { 2 } + \sigma   _ { 1 } \sigma   _ { 2 } \right ] }
+{ \displaystyle   f ( x ; \mu   , \sigma   _ { 1 } , \sigma   _ { 2 } ) = A \exp   \left ( - { \frac   { ( x - \mu   ) ^ { 2 } } { 2 \sigma   _ { 1 } ^ { 2 } } } \right ) \quad   { \text { i f   } } x < \mu   }
+{ \displaystyle   f ( x ; \mu   , \sigma   _ { 1 } , \sigma   _ { 2 } ) = A \exp   \left ( - { \frac   { ( x - \mu   ) ^ { 2 } } { 2 \sigma   _ { 2 } ^ { 2 } } } \right ) \quad   { \text { o t h e r w i s e } } }
+{ \displaystyle   \quad   A = { \sqrt   { 2 / \pi   } } ( \sigma   _ { 1 } + \sigma   _ { 2 } ) ^ { - 1 } . }
+{ \displaystyle   \sigma   _ { 1 } ^ { 2 } = \sigma   _ { 2 } ^ { 2 } = \sigma   _ { * } ^ { 2 } }
+{ \displaystyle   \sigma   _ { * } ^ { 2 } }
+{ \displaystyle   \sigma   _ { 1 } ^ { 2 } = \sigma   _ { 2 } ^ { 2 } = \sigma   _ { * } ^ { 2 } }
+{ \displaystyle   { \mathcal   { S N } } ( \mu   , \,\sigma   ^ { 2 } , \gamma   ) }
+{ \displaystyle   { \mathcal   { S N } } ( \mu   , \,\sigma   ^ { 2 } , \xi   ) }
+{ \displaystyle   { \begin { a l i g n e d } \sigma   ^ { 2 } & = \sigma   _ { 1 } ^ { 2 } ( 1 + \gamma   ) = \sigma   _ { 2 } ^ { 2 } ( 1 - \gamma   ) \\\gamma   & = { \frac   { \sigma   _ { 2 } - \sigma   _ { 1 } } { \sigma   _ { 2 } + \sigma   _ { 1 } } } \\\xi   & = { \sqrt   { 2 / \pi   } } ( \sigma   _ { 2 } - \sigma   _ { 1 } ) \\\gamma   & = \operatorname   { s g n }   ( \xi   ) { \sqrt   { 1 - \left ( { \frac   { { \sqrt   { 1 + 2 \beta   } } - 1 } { \beta   } } \right ) ^ { 2 } } } , \quad   { \text { w h e r e } } \quad   \beta   = { \frac   { \pi   \xi   ^ { 2 } } { 2 \sigma   ^ { 2 } } } . \end { a l i g n e d } } }
+{ \displaystyle   L ( \mu   ) = - \left [ \sum   _ { x _ { i } : x _ { i } < \mu   } ( x _ { i } - \mu   ) ^ { 2 } \right ] ^ { 1 / 3 } - \left [ \sum   _ { x _ { i } : x _ { i } > \mu   } ( x _ { i } - \mu   ) ^ { 2 } \right ] ^ { 1 / 3 } }
+{ \hat   { \mu   } }
+{ \displaystyle   { \hat   { \sigma   } } _ { 1 } ^ { 2 } = { \frac   { - L ( \mu   ) } { N } } \left [ \sum   _ { x _ { i } : x _ { i } < \mu   } ( x _ { i } - \mu   ) ^ { 2 } \right ] ^ { 2 / 3 } , }
+{ \displaystyle   { \hat   { \sigma   } } _ { 2 } ^ { 2 } = { \frac   { - L ( \mu   ) } { N } } \left [ \sum   _ { x _ { i } : x _ { i } > \mu   } ( x _ { i } - \mu   ) ^ { 2 } \right ] ^ { 2 / 3 } , }

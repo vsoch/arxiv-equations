@@ -1,1 +1,0 @@
-{ \text { M P E } } = { \frac     { 1 0 0 \%}{ n } } \sum   _ { { t = 1 } } ^ { n } { \frac     { a _ { t } - f _ { t } } { a _ { t } } }

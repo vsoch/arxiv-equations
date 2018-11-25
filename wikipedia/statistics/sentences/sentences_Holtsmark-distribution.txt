@@ -1,0 +1,16 @@
+\exp   \left [ ~ i t \mu   \!-\!|ct | ^ { { 3 / 2 } } ~ \right ]
+\alpha  
+\beta  
+\beta  
+\varphi   ( t ; \mu   , c ) = \exp   \left [ ~ i t \mu   \!-\!|ct | ^ { \alpha   } ~ \right ] ,
+\alpha  
+\mu  
+\alpha   = 3 / 2 ,
+\varphi   ( t ; \mu   , c ) = \exp   \left [ ~ i t \mu   \!-\!|ct | ^ { { 3 / 2 } } ~ \right ] .
+\mu  
+\mu  
+f ( x ) = { \frac     { 1 } { 2 \pi   } } \int   _ { { - \infty   } } ^ { \infty   } \varphi   ( t ) e ^ { { - i x t } } \,dt .
+\mu  
+{ \displaystyle   { \begin { a l i g n e d } f ( x ; 0 , 1 ) & = { 1   \over   \pi   } \,\Gamma   \left ( { 5   \over   3 } \right ) { _ { 2 } F _ { 3 } } \!\left ( { 5   \over   1 2 } , { 1 1   \over   1 2 } ; { 1   \over   3 } , { 1   \over   2 } , { 5   \over   6 } ; - { 4 x ^ { 6 }   \over   7 2 9 } \right ) \\&{ } \quad   { } - { x ^ { 2 }   \over   3 \pi   } \,{ _ { 3 } F _ { 4 } } \!\left ( { 3   \over   4 } , { 1 } , { 5   \over   4 } ; { 2   \over   3 } , { 5   \over   6 } , { 7   \over   6 } , { 4   \over   3 } ; - { 4 x ^ { 6 }   \over   7 2 9 } \right ) \\&{ } \quad   { } + { 7 x ^ { 4 }   \over   8 1 \pi   } \,\Gamma   \left ( { 4   \over   3 } \right ) { _ { 2 } F _ { 3 } } \!\left ( { 1 3   \over   1 2 } , { 1 9   \over   1 2 } ; { 7   \over   6 } , { 3   \over   2 } , { 5   \over   3 } ; - { 4 x ^ { 6 }   \over   7 2 9 } \right ) , \end { a l i g n e d } } }
+{ \Gamma   ( x ) }
+\;_ { m } F _ { n } ( )

@@ -1,6 +1,0 @@
-\sigma   _ { X } ^ { 2 } = \sigma   _ { T } ^ { 2 } + \sigma   _ { E } ^ { 2 }
-\rho   _ { { x x ' } }
-\rho   _ { { x x ' } } = { \frac     { \sigma   _ { T } ^ { 2 } } { \sigma   _ { X } ^ { 2 } } } = 1 - { \frac     { \sigma   _ { E } ^ { 2 } } { \sigma   _ { X } ^ { 2 } } }
-R ( t ) = 1 - F ( t ) .
-R ( t ) = \exp ( - \lambda   t ) .
-\lambda  

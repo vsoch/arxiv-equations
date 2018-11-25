@@ -1,0 +1,1 @@
+{ \displaystyle   \mathbf   { v }   : = 1 - { \frac   { f _ { m } } { N } } , }

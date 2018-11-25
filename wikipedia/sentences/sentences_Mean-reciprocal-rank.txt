@@ -1,2 +1,0 @@
-{ \text { M R R } } = { \frac     { 1 } { | Q | } } \sum   _ { { i = 1 } } ^ { { | Q | } } { \frac     { 1 } { { \text { r a n k } } _ { i } } } . \ !
-{ \displaystyle   { \text { r a n k } } _ { i } }

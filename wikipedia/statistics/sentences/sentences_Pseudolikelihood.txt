@@ -1,0 +1,21 @@
+{ \displaystyle   X = X _ { 1 } , X _ { 2 } , \ldots   , X _ { n } }
+E
+\lbrace   X _ { i } , X _ { j } \rbrace   \notin   E
+X _ { i }
+X _ { j }
+X _ { i }
+{ \displaystyle   X = x = ( x _ { 1 } , x _ { 2 } , \ldots   , x _ { n } ) }
+{ \displaystyle   \Pr ( X = x ) = \prod   _ { i } \Pr ( X _ { i } = x _ { i } \mid   X _ { j } = x _ { j } { \text {   f o r   a l l   } } j { \text {   f o r   w h i c h   } } \lbrace   X _ { i } , X _ { j } \rbrace   \in   E ) . }
+X
+x
+X = x
+X _ { i }
+X
+x _ { i }
+x
+\Pr ( X = x )
+X
+x
+\Pr ( X = x )
+{ \displaystyle   \log   \Pr ( X = x ) = \sum   _ { i } \log   \Pr ( X _ { i } = x _ { i } \mid   X _ { j } = x _ { j } { \text {   f o r   a l l   } } \lbrace   X _ { i } , X _ { j } \rbrace   \in   E ) . }
+X _ { i }

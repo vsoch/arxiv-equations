@@ -1,0 +1,10 @@
+{ \displaystyle   T ( h , a ) = { \frac   { 1 } { 2 \pi   } } \int   _ { 0 } ^ { a } { \frac   { e ^ { - { \frac   { 1 } { 2 } } h ^ { 2 } ( 1 + x ^ { 2 } ) } } { 1 + x ^ { 2 } } } d x \quad   \left ( - \infty   < h , a < + \infty   \right ) . }
+{ \displaystyle   T ( h , 0 ) = 0 }
+{ \displaystyle   T ( 0 , a ) = { \frac   { 1 } { 2 \pi   } } \arctan ( a ) }
+{ \displaystyle   T ( - h , a ) = T ( h , a ) }
+{ \displaystyle   T ( h , - a ) = - T ( h , a ) }
+{ \displaystyle   T ( h , a ) + T ( a h , { \frac   { 1 } { a } } ) = { \frac   { 1 } { 2 } } \left ( \Phi   ( h ) + \Phi   ( a h ) \right ) - \Phi   ( h ) \Phi   ( a h ) \quad   { \mbox { i f } } \quad   a \geq   0 }
+{ \displaystyle   T ( h , a ) + T ( a h , { \frac   { 1 } { a } } ) = { \frac   { 1 } { 2 } } \left ( \Phi   ( h ) + \Phi   ( a h ) \right ) - \Phi   ( h ) \Phi   ( a h ) - { \frac   { 1 } { 2 } } \quad   { \mbox { i f } } \quad   a < 0 }
+{ \displaystyle   T ( h , 1 ) = { \frac   { 1 } { 2 } } \Phi   ( h ) \left ( 1 - \Phi   ( h ) \right ) }
+{ \displaystyle   \int   T ( 0 , x ) \mathrm   { d }   x = x T ( 0 , x ) - { \frac   { 1 } { 4 \pi   } } \ln ( 1 + x ^ { 2 } ) + C }
+{ \displaystyle   \Phi   ( x ) = { \frac   { 1 } { \sqrt   { 2 \pi   } } } \int   _ { - \infty   } ^ { x } \exp   \left ( - t ^ { 2 } / 2 \right ) \mathrm   { d }   t }

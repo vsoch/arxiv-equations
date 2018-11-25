@@ -1,5 +1,0 @@
-\partial_t   P ( a ,   t | x ,   t _ 0 ) = - \lambda   P ( a ,   t | x ,   t _ 0 ) + \mu   P ( b ,   t | x ,   t _ 0 )
-\partial_t   P ( b ,   t | x ,   t _ 0 ) = \lambda   P ( a ,   t | x ,   t _ 0 ) - \mu   P ( b ,   t | x ,   t _ 0 ) .
-\langle   X   \rangle_s   =   \frac   { a \mu + b \lambda } { \mu + \lambda } .
-  \operatorname { v a r }   \{   X   \}_s   =   \frac   { ( a - b ) ^ 2 \mu \lambda } { ( \mu + \lambda ) ^ 2 } .
-\langle   X ( t ) , X ( s ) \rangle_s   =   \exp ( - ( \lambda + \mu ) | t - s | )   \operatorname { v a r }   \{   X   \}_s .

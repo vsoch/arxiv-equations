@@ -1,0 +1,10 @@
+i
+b
+r
+{ \displaystyle   f \leftarrow   1 }
+{ \displaystyle   r \leftarrow   0 }
+i > 0
+{ \displaystyle   f \leftarrow   f / b }
+{ \displaystyle   r \leftarrow   r + f * ( i \operatorname   { m o d }   b ) }
+{ \displaystyle   i \leftarrow   \lfloor   i / b \rfloor   }
+r

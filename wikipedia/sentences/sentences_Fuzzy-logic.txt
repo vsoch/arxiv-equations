@@ -1,5 +1,0 @@
-{ \displaystyle   S ( x ) = { \frac   { 1 } { 1 + e ^ { - x } } } }
-{ \displaystyle   S ( x ) + S ( - x ) = 1 }
-{ \displaystyle   ( S ( x ) + S ( - x ) ) \cdot   ( S ( y ) + S ( - y ) ) \cdot   ( S ( z ) + S ( - z ) ) = 1 }
-\rightarrow  
-\rightarrow  

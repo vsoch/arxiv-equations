@@ -1,0 +1,215 @@
+{ \displaystyle   q ( \tau   ) }
+{ \mathbf     { Z } } = \{ Z _ { 1 } \dots   Z _ { n } \ }
+\mathbf   { X }  
+Q ( { \mathbf     { Z } } )
+P ( { \mathbf     { Z } } \mid   { \mathbf     { X } } ) \approx   Q ( { \mathbf     { Z } } ) .
+Q ( { \mathbf     { Z } } )
+P ( { \mathbf     { Z } } \mid   { \mathbf     { X } } )
+Q ( { \mathbf     { Z } } )
+P ( { \mathbf     { Z } } \mid   { \mathbf     { X } } )
+d ( Q ; P )
+Q ( { \mathbf     { Z } } )
+d ( Q ; P )
+{ \displaystyle   D _ { \mathrm   { K L }   } ( Q | | P ) \triangleq   \sum   _ { \mathbf   { Z }   } Q ( \mathbf   { Z }   ) \log   { \frac   { Q ( \mathbf   { Z }   ) } { P ( \mathbf   { Z }   \mid   \mathbf   { X }   ) } } . }
+{ \displaystyle   P ( \mathbf   { Z }   \mid   \mathbf   { X }   ) = { \frac   { P ( \mathbf   { X }   \mid   \mathbf   { Z }   ) P ( \mathbf   { Z }   ) } { P ( \mathbf   { X }   ) } } = { \frac   { P ( \mathbf   { X }   \mid   \mathbf   { Z }   ) P ( \mathbf   { Z }   ) } { \int   _ { \mathbf   { Z }   } P ( \mathbf   { X }   , \mathbf   { Z }   ) \,d \mathbf   { Z }   } } }
+{ \mathbf     Z }
+{ \displaystyle   P ( \mathbf   { X }   ) }
+{ \mathbf     Z }
+{ \displaystyle   Q ( \mathbf   { Z }   ) \approx   P ( \mathbf   { Z }   \mid   \mathbf   { X }   ) }
+{ \displaystyle   D _ { \mathrm   { K L }   } ( Q | | P ) = \sum   _ { \mathbf   { Z }   } Q ( \mathbf   { Z }   ) \left [ \log   { \frac   { Q ( \mathbf   { Z }   ) } { P ( \mathbf   { Z }   , \mathbf   { X }   ) } } + \log   P ( \mathbf   { X }   ) \right ] , }
+\log   P ( { \mathbf     { X } } ) = D _ { { { \mathrm     { K L } } } } ( Q | | P ) - \sum   _ { { \mathbf     { Z } } } Q ( { \mathbf     { Z } } ) \log   { \frac     { Q ( { \mathbf     { Z } } ) } { P ( { \mathbf     { Z } } , { \mathbf     { X } } ) } } = D _ { { { \mathrm     { K L } } } } ( Q | | P ) + { \mathcal     { L } } ( Q ) .
+\log   P ( { \mathbf     { X } } )
+Q
+{ \mathcal     { L } } ( Q )
+P
+Q
+Q
+{ \mathcal     { L } } ( Q )
+Q
+P ( { \mathbf     { Z } } \mid   { \mathbf     { X } } )
+{ \mathcal     { L } } ( Q )
+\log   P ( { \mathbf     { X } } )
+{ \mathcal     { L } } ( Q )
+\operatorname   { E } _ { { Q } } [ \log   P ( { \mathbf     { Z } } , { \mathbf     { X } } ) ]
+Q
+{ \displaystyle   D _ { \mathrm   { K L }   } ( Q | | P ) \geq   D _ { \mathrm   { K L }   } ( Q | | Q ^ { * } ) + D _ { \mathrm   { K L }   } ( Q ^ { * } | | P ) , \forall   Q \in   { \mathcal   { C } } }
+{ \mathcal   { C } }
+{ \displaystyle   Q = Q ^ { * } \triangleq   \arg   \min   _ { Q \in   { \mathcal   { C } } } D _ { \mathrm   { K L }   } ( Q | | P ) . }
+{ \displaystyle   Q ^ { * } ( \mathbf   { Z }   ) = q ^ { * } ( \mathbf   { Z }   _ { 1 } | \mathbf   { Z }   _ { 2 } ) q ^ { * } ( \mathbf   { Z }   _ { 2 } ) = q ^ { * } ( \mathbf   { Z }   _ { 2 } | \mathbf   { Z }   _ { 1 } ) q ^ { * } ( \mathbf   { Z }   _ { 1 } ) , }
+{ \displaystyle   \mathbf   { Z }   = \{ \mathbf   { Z _ { 1 } }   , \mathbf   { Z _ { 2 } }   \ } , }
+{ \displaystyle   q ^ { * } ( \mathbf   { Z }   _ { 2 } ) = { \frac   { P ( \mathbf   { X }   ) } { \zeta   ( \mathbf   { X }   ) } } { \frac   { P ( \mathbf   { Z }   _ { 2 } | \mathbf   { X }   ) } { \exp ( D _ { \mathrm   { K L }   } ( q ^ { * } ( \mathbf   { Z }   _ { 1 } | \mathbf   { Z }   _ { 2 } ) | | P ( \mathbf   { Z }   _ { 1 } | \mathbf   { Z }   _ { 2 } , \mathbf   { X }   ) ) ) } } = { \frac   { 1 } { \zeta   ( \mathbf   { X }   ) } } \exp   \mathbb   { E }   _ { q ^ { * } ( \mathbf   { Z }   _ { 1 } | \mathbf   { Z }   _ { 2 } ) } \left ( \log   { \frac   { P ( \mathbf   { Z }   , \mathbf   { X }   ) } { q ^ { * } ( \mathbf   { Z }   _ { 1 } | \mathbf   { Z }   _ { 2 } ) } } \right ) , }
+{ \displaystyle   \zeta   ( \mathbf   { X }   ) = P ( \mathbf   { X }   ) \int   _ { \mathbf   { Z }   _ { 2 } } { \frac   { P ( \mathbf   { Z }   _ { 2 } | \mathbf   { X }   ) } { \exp ( D _ { \mathrm   { K L }   } ( q ^ { * } ( \mathbf   { Z }   _ { 1 } | \mathbf   { Z }   _ { 2 } ) | | P ( \mathbf   { Z }   _ { 1 } | \mathbf   { Z }   _ { 2 } , \mathbf   { X }   ) ) ) } } = \int   _ { \mathbf   { Z }   _ { 2 } } \exp   \mathbb   { E }   _ { q ^ { * } ( \mathbf   { Z }   _ { 1 } | \mathbf   { Z }   _ { 2 } ) } \left ( \log   { \frac   { P ( \mathbf   { Z }   , \mathbf   { X }   ) } { q ^ { * } ( \mathbf   { Z }   _ { 1 } | \mathbf   { Z }   _ { 2 } ) } } \right ) . }
+{ \displaystyle   \zeta   ( \mathbf   { X }   ) }
+{ \displaystyle   P ( \mathbf   { X }   ) \geq   \zeta   ( \mathbf   { X }   ) = \exp ( { \mathcal   { L } } ( Q ^ { * } ) ) }
+{ \displaystyle   \mathbf   { Z }   _ { 1 } }
+{ \displaystyle   \mathbf   { Z }   _ { 2 } , }
+{ \displaystyle   q ^ { * } ( \mathbf   { Z }   _ { 1 } ) }
+{ \displaystyle   q ^ { * } ( \mathbf   { Z }   _ { 2 } ) }
+{ \displaystyle   P ( \mathbf   { Z }   _ { 1 } | \mathbf   { X }   ) }
+{ \displaystyle   P ( \mathbf   { Z }   _ { 2 } | \mathbf   { X }   ) , }
+{ \displaystyle   Q ^ { * } }
+{ \displaystyle   D _ { \mathrm   { K L }   } ( Q | | P ) }
+{ \mathcal   { C } }
+{ \displaystyle   q ^ { * } ( \mathbf   { Z }   _ { 1 } | \mathbf   { Z }   _ { 2 } ) = q ^ { * } ( \mathbf   { Z _ { 1 } }   ) , }
+{ \displaystyle   Q ^ { * } ( \mathbf   { Z }   ) = q ^ { * } ( \mathbf   { Z }   _ { 1 } ) q ^ { * } ( \mathbf   { Z }   _ { 2 } ) , }
+Q ( { \mathbf     { Z } } )
+\mathbf   { Z }  
+{ \mathbf     { Z } } _ { 1 } \dots   { \mathbf     { Z } } _ { M }
+Q ( { \mathbf     { Z } } ) = \prod   _ { { i = 1 } } ^ { M } q _ { i } ( { \mathbf     { Z } } _ { i } \mid   { \mathbf     { X } } )
+q _ { j } ^ { { * } }
+q _ { j }
+q _ { j } ^ { { * } } ( { \mathbf     { Z } } _ { j } \mid   { \mathbf     { X } } ) = { \frac     { e ^ { { \operatorname   { E } _ { { i \neq   j } } [ \ln   p ( { \mathbf     { Z } } , { \mathbf     { X } } ) ] } } } { \int   e ^ { { \operatorname   { E } _ { { i \neq   j } } [ \ln   p ( { \mathbf     { Z } } , { \mathbf     { X } } ) ] } } \,d { \mathbf     { Z } } _ { j } } }
+\operatorname   { E } _ { { i \neq   j } } [ \ln   p ( { \mathbf     { Z } } , { \mathbf     { X } } ) ]
+\ln   q _ { j } ^ { { * } } ( { \mathbf     { Z } } _ { j } \mid   { \mathbf     { X } } ) = \operatorname   { E } _ { { i \neq   j } } [ \ln   p ( { \mathbf     { Z } } , { \mathbf     { X } } ) ] + { \text { c o n s t a n t } }
+q _ { j } ^ { { * } }
+\operatorname   { E } _ { { i \neq   j } } [ \ln   p ( { \mathbf     { Z } } , { \mathbf     { X } } ) ]
+{ \mathbf     { Z } } _ { j }
+{ \displaystyle   { \begin { a l i g n e d } \tau   & \sim   \operatorname   { G a m m a }   ( a _ { 0 } , b _ { 0 } ) \\\mu   & \sim   { \mathcal   { N } } ( \mu   _ { 0 } , ( \lambda   _ { 0 } \tau   ) ^ { - 1 } ) \\\{ x _ { 1 } , \dots   , x _ { N } \}&\sim   { \mathcal   { N } } ( \mu   , \tau   ^ { - 1 } ) \\N & = { \text { n u m b e r   o f   d a t a   p o i n t s } } \end { a l i g n e d } } }
+N
+\mathbf { X }   =   \{ x _ 1 ,   \cdots ,   x _ N \ }
+q ( \mu   , \tau   ) = p ( \mu   , \tau   \mid   x _ { 1 } , \ldots   , x _ { N } )
+\mu  
+\tau   .
+\mu_0 ,   \lambda_0 ,   a _ 0
+b _ { 0 }
+\mu  
+\tau  
+p ( { \mathbf     { X } } , \mu   , \tau   ) = p ( { \mathbf     { X } } \mid   \mu   , \tau   ) p ( \mu   \mid   \tau   ) p ( \tau   )
+  \begin { a l i g n }   p ( \mathbf { X } \mid   \mu , \tau )   &   =   \prod_ { n = 1 } ^ N   \mathcal { N } ( x _ n \mid   \mu , \tau ^ { - 1 } )   \\ p ( \mu \mid   \tau )   &   =   \mathcal { N }   \left   ( \mu \mid   \mu_0 ,   ( \lambda_0   \tau ) ^ { - 1 }   \right   )   \\ p ( \tau )   &   =   \operatorname { G a m m a } ( \tau \mid   a _ 0 ,   b _ 0 )   \end { a l i g n }  
+{ \begin { a l i g n e d } { \mathcal     { N } } ( x \mid   \mu   , \sigma   ^ { 2 } ) & = { \frac     { 1 } { { \sqrt     { 2 \pi   \sigma   ^ { 2 } } } } } e ^ { { { \frac     { - ( x - \mu   ) ^ { 2 } } { 2 \sigma   ^ { 2 } } } } } \\\operatorname   { G a m m a } ( \tau   \mid   a , b ) & = { \frac     { 1 } { \Gamma   ( a ) } } b ^ { a } \tau   ^ { { a - 1 } } e ^ { { - b \tau   } } \end { a l i g n e d } }
+q ( \mu   , \tau   ) = q ( \mu   ) q ( \tau   )
+\mu  
+\tau  
+  \begin { a l i g n }   \ln   q _ \mu ^ * ( \mu )   & =   \operatorname { E } _ { \tau } \left [ \ln   p ( \mathbf { X } \mid   \mu , \tau )   +   \ln   p ( \mu \mid   \tau )   +   \ln   p ( \tau ) \right ]   +   C   \\  &= \operatorname { E } _ { \tau } \left [ \ln   p ( \mathbf { X } \mid   \mu , \tau ) \right ]   +   \operatorname { E } _ { \tau } \left [ \ln   p ( \mu \mid   \tau ) \right ]   +   \operatorname { E } _ { \tau } \left [ \ln   p ( \tau ) \right ]   +   C   \\  &= \operatorname { E } _ { \tau } \left [ \ln   \prod_ { n = 1 } ^ N   \mathcal { N }   \left   ( x _ n \mid   \mu , \tau ^ { - 1 }   \right   ) \right ]   +   \operatorname { E } _ { \tau } \left [ \ln   \mathcal { N }   \left   ( \mu \mid   \mu_0 ,   ( \lambda_0   \tau ) ^ { - 1 }   \right   ) \right ]   +   C _ 2   \\  &= \operatorname { E } _ { \tau } \left [ \ln   \prod_ { n = 1 } ^ N   \sqrt { \frac { \tau } { 2 \pi } }   e ^ { - \frac { ( x _ n - \mu ) ^ 2 \tau } { 2 } } \right ]   +   \operatorname { E } _ { \tau } \left [ \ln   \sqrt { \frac { \lambda_0   \tau } { 2 \pi } }   e ^ { - \frac { ( \mu - \mu_0 ) ^ 2 \lambda_0   \tau } { 2 } } \right ]   +   C _ 2   \\  &= \operatorname { E } _ { \tau } \left [ \sum_ { n = 1 } ^ N   \left ( \frac { 1 } { 2 } ( \ln \tau   -   \ln   2 \pi )   -   \frac { ( x _ n - \mu ) ^ 2 \tau } { 2 } \right ) \right ]   +   \operatorname { E } _ { \tau } \left [ \frac { 1 } { 2 } ( \ln   \lambda_0   +   \ln   \tau   -   \ln   2 \pi )   -   \frac { ( \mu - \mu_0 ) ^ 2 \lambda_0   \tau } { 2 } \right ]   +   C _ 2   \\  &= \operatorname { E } _ { \tau } \left [ \sum_ { n = 1 } ^ N   - \frac { ( x _ n - \mu ) ^ 2 \tau } { 2 } \right ]   +   \operatorname { E } _ { \tau } \left [ - \frac { ( \mu - \mu_0 ) ^ 2 \lambda_0   \tau } { 2 } \right ]   +   \operatorname { E } _ { \tau } \left [ \sum_ { n = 1 } ^ N   \frac { 1 } { 2 } ( \ln \tau   -   \ln   2 \pi ) \right ]   +   \operatorname { E } _ { \tau } \left [ \frac { 1 } { 2 } ( \ln   \lambda_0   +   \ln   \tau   -   \ln   2 \pi ) \right ]   +   C _ 2   \\  &= \operatorname { E } _ { \tau } \left [ \sum_ { n = 1 } ^ N   - \frac { ( x _ n - \mu ) ^ 2 \tau } { 2 } \right ]   +   \operatorname { E } _ { \tau } \left [ - \frac { ( \mu - \mu_0 ) ^ 2 \lambda_0   \tau } { 2 } \right ]   +   C _ 3   \\  &= - \frac { \operatorname { E } _ { \tau } [ \tau ] } { 2 }   \left \{   \sum_ { n = 1 } ^ N   ( x _ n - \mu ) ^ 2   +   \lambda_0 ( \mu - \mu_0 ) ^ 2   \right \} + C_3   \end { a l i g n }  
+C
+C _ { 2 }
+C _ { 3 }
+\mu  
+\operatorname   { E } _ { { \tau   } } [ \ln   p ( \tau   ) ]
+\mu  
+\mu  
+\mu  
+q _ { \mu   } ^ { * } ( \mu   )
+q _ { \mu   } ^ { * } ( \mu   )
+\mu  
+\mu   ^ { 2 }
+\mu  
+\begin { a l i g n }   \ln   q _ \mu ^ * ( \mu )   & =   - \frac { \operatorname { E } _ { \tau } [ \tau ] } { 2 }   \left \{   \sum_ { n = 1 } ^ N   ( x _ n - \mu ) ^ 2   +   \lambda_0 ( \mu - \mu_0 ) ^ 2   \right \} + C_3   \\                  &= -\frac { \operatorname { E } _ { \tau } [ \tau ] } { 2 }   \left \{   \sum_ { n = 1 } ^ N   ( x _ n ^ 2 - 2 x _ n \mu   +   \mu ^ 2 )   +   \lambda_0 ( \mu ^ 2 - 2 \mu_0 \mu   +   \mu_0 ^ 2 )   \right   \} + C_3   \\                  &= -\frac { \operatorname { E } _ { \tau } [ \tau ] } { 2 }   \left \{   \left ( \sum_ { n = 1 } ^ N   x _ n ^ 2 \right ) - 2 \left ( \sum_ { n = 1 } ^ N   x _ n \right ) \mu   +   \left   (   \sum_ { n = 1 } ^ N   \mu ^ 2   \right )   +   \lambda_0 \mu ^ 2 - 2 \lambda_0 \mu_0 \mu   +   \lambda_0 \mu_0 ^ 2   \right \} + C_3   \\                  &= -\frac { \operatorname { E } _ { \tau } [ \tau ] } { 2 }   \left \{   ( \lambda_0 + N ) \mu ^ 2   - 2 \left ( \lambda_0 \mu_0   +   \sum_ { n = 1 } ^ N   x _ n \right ) \mu   +   \left ( \sum_ { n = 1 } ^ N   x _ n ^ 2 \right )   +   \lambda_0 \mu_0 ^ 2   \right \} + C_3   \\                  &= -\frac { \operatorname { E } _ { \tau } [ \tau ] } { 2 }   \left \{   ( \lambda_0 + N ) \mu ^ 2   - 2 \left ( \lambda_0 \mu_0   +   \sum_ { n = 1 } ^ N   x _ n \right ) \mu   \right \} + C_4   \\                  &= -\frac { \operatorname { E } _ { \tau } [ \tau ] } { 2 }   \left \{   ( \lambda_0 + N ) \mu ^ 2   - 2 \left ( \frac { \lambda_0 \mu_0   +   \sum_ { n = 1 } ^ N   x _ n } { \lambda_0 + N }   \right ) ( \lambda_0 + N )   \mu   \right \} + C_4   \\                  &= -\frac { \operatorname { E } _ { \tau } [ \tau ] } { 2 }   \left \{   ( \lambda_0 + N ) \left ( \mu ^ 2   - 2 \left ( \frac { \lambda_0 \mu_0   +   \sum_ { n = 1 } ^ N   x _ n } { \lambda_0 + N } \right )   \mu \right )   \right \} + C_4   \\                  &= -\frac { \operatorname { E } _ { \tau } [ \tau ] } { 2 }   \left \{   ( \lambda_0 + N ) \left ( \mu ^ 2   - 2 \left ( \frac { \lambda_0 \mu_0   +   \sum_ { n = 1 } ^ N   x _ n } { \lambda_0 + N } \right )   \mu   +   \left ( \frac { \lambda_0 \mu_0   +   \sum_ { n = 1 } ^ N   x _ n } { \lambda_0 + N } \right ) ^ 2   -   \left ( \frac { \lambda_0 \mu_0   +   \sum_ { n = 1 } ^ N   x _ n } { \lambda_0 + N } \right ) ^ 2 \right )   \right \} + C_4   \\                  &= -\frac { \operatorname { E } _ { \tau } [ \tau ] } { 2 }   \left \{   ( \lambda_0 + N ) \left ( \mu ^ 2   - 2 \left ( \frac { \lambda_0 \mu_0   +   \sum_ { n = 1 } ^ N   x _ n } { \lambda_0 + N } \right )   \mu   +   \left ( \frac { \lambda_0 \mu_0   +   \sum_ { n = 1 } ^ N   x _ n } { \lambda_0 + N } \right ) ^ 2   \right )   \right \} + C_5   \\                  &= -\frac { \operatorname { E } _ { \tau } [ \tau ] } { 2 }   \left \{   ( \lambda_0 + N ) \left ( \mu - \frac { \lambda_0 \mu_0   +   \sum_ { n = 1 } ^ N   x _ n } { \lambda_0 + N } \right ) ^ 2   \right \} + C_5   \\                  &= -\frac { 1 } { 2 }   ( \lambda_0 + N ) \operatorname { E } _ { \tau } [ \tau ]   \left ( \mu - \frac { \lambda_0 \mu_0   +   \sum_ { n = 1 } ^ N   x _ n } { \lambda_0 + N } \right ) ^ 2   +   C _ 5   \end { a l i g n }
+{ \displaystyle   { \begin { a l i g n e d } q _ { \mu   } ^ { * } ( \mu   ) & \sim   { \mathcal   { N } } ( \mu   \mid   \mu   _ { N } , \lambda   _ { N } ^ { - 1 } ) \\\mu   _ { N } & = { \frac   { \lambda   _ { 0 } \mu   _ { 0 } + N { \bar   { x } } } { \lambda   _ { 0 } + N } } \\\lambda   _ { N } & = ( \lambda   _ { 0 } + N ) \operatorname   { E }   _ { \tau   } [ \tau   ] \\{ \bar   { x } } & = { \frac   { 1 } { N } } \sum   _ { n = 1 } ^ { N } x _ { n } \end { a l i g n e d } } }
+{ \displaystyle   q ( \tau   ) }
+q _ { \tau   } ^ { * } ( \tau   )
+  \begin { a l i g n }   \ln   q _ \tau ^ * ( \tau )   & =   \operatorname { E } _ { \mu } [ \ln   p ( \mathbf { X } \mid   \mu , \tau )   +   \ln   p ( \mu \mid   \tau ) ]   +   \ln   p ( \tau )   +   \text { c o n s t a n t }   \\                    &= ( a _ 0   -   1 )   \ln   \tau   -   b _ 0   \tau   +   \frac { 1 } { 2 }   \ln   \tau   +   \frac { N } { 2 }   \ln   \tau   -   \frac { \tau } { 2 }   \operatorname { E } _ \mu   \left   [   \sum_ { n = 1 } ^ N   ( x _ n - \mu ) ^ 2   +   \lambda_0 ( \mu   -   \mu_0 ) ^ 2   \right   ]   +   \text { c o n s t a n t }   \end { a l i g n }  
+q _ { \tau   } ^ { * } ( \tau   )
+{ \begin { a l i g n e d } q _ { \tau   } ^ { * } ( \tau   ) & \sim   \operatorname   { G a m m a } ( \tau   \mid   a _ { N } , b _ { N } ) \\a_ { N } & = a _ { 0 } + { \frac     { N + 1 } { 2 } } \\b_ { N } & = b _ { 0 } + { \frac     { 1 } { 2 } } \operatorname   { E } _ { \mu   } \left [ \sum   _ { { n = 1 } } ^ { N } ( x _ { n } - \mu   ) ^ { 2 } + \lambda   _ { 0 } ( \mu   - \mu   _ { 0 } ) ^ { 2 } \right ] \end { a l i g n e d } }
+{ \displaystyle   { \begin { a l i g n e d } q _ { \mu   } ^ { * } ( \mu   ) & \sim   { \mathcal   { N } } ( \mu   \mid   \mu   _ { N } , \lambda   _ { N } ^ { - 1 } ) \\\mu   _ { N } & = { \frac   { \lambda   _ { 0 } \mu   _ { 0 } + N { \bar   { x } } } { \lambda   _ { 0 } + N } } \\\lambda   _ { N } & = ( \lambda   _ { 0 } + N ) \operatorname   { E }   _ { \tau   } [ \tau   ] \\{ \bar   { x } } & = { \frac   { 1 } { N } } \sum   _ { n = 1 } ^ { N } x _ { n } \end { a l i g n e d } } }
+{ \begin { a l i g n e d } q _ { \tau   } ^ { * } ( \tau   ) & \sim   \operatorname   { G a m m a } ( \tau   \mid   a _ { N } , b _ { N } ) \\a_ { N } & = a _ { 0 } + { \frac     { N + 1 } { 2 } } \\b_ { N } & = b _ { 0 } + { \frac     { 1 } { 2 } } \operatorname   { E } _ { \mu   } \left [ \sum   _ { { n = 1 } } ^ { N } ( x _ { n } - \mu   ) ^ { 2 } + \lambda   _ { 0 } ( \mu   - \mu   _ { 0 } ) ^ { 2 } \right ] \end { a l i g n e d } }
+  \begin { a l i g n }   \operatorname { E } [ \tau \mid   a _ N ,   b _ N ]   & =   \frac { a _ N } { b _ N }   \\ \operatorname { E }   \left   [ \mu \mid \mu_N , \lambda_N ^ { - 1 }   \right   ]   & =   \mu_N   \\ \operatorname { E } \left [ X ^ 2   \right ]   & =   \operatorname { V a r } ( X )   +   ( \operatorname { E } [ X ] ) ^ 2   \\ \operatorname { E }   \left   [ \mu ^ 2 \mid \mu_N , \lambda_N ^ { - 1 }   \right   ]   & =   \lambda_N ^ { - 1 }   +   \mu_N ^ 2   \end { a l i g n }  
+b _ { N }
+  \begin { a l i g n }   b _ N   & =   b _ 0   +   \frac { 1 } { 2 }   \operatorname { E } _ \mu   \left [ \sum_ { n = 1 } ^ N   ( x _ n - \mu ) ^ 2   +   \lambda_0 ( \mu   -   \mu_0 ) ^ 2 \right ]   \\     &= b_0   +   \frac { 1 } { 2 }   \operatorname { E } _ \mu   \left [   ( \lambda_0 + N ) \mu ^ 2   - 2   \left   ( \lambda_0 \mu_0   +   \sum_ { n = 1 } ^ N   x _ n   \right   ) \mu   +   \left ( \sum_ { n = 1 } ^ N   x _ n ^ 2   \right   )   +   \lambda_0 \mu_0 ^ 2   \right ]   \\     &= b_0   +   \frac { 1 } { 2 }   \left [   ( \lambda_0 + N ) \operatorname { E } _ \mu [ \mu ^ 2 ]   - 2   \left   ( \lambda_0 \mu_0   +   \sum_ { n = 1 } ^ N   x _ n   \right ) \operatorname { E } _ \mu   [ \mu ]   +   \left   ( \sum_ { n = 1 } ^ N   x _ n ^ 2   \right   )   +   \lambda_0 \mu_0 ^ 2   \right ]   \\     &= b_0   +   \frac { 1 } { 2 }   \left [   ( \lambda_0 + N )   \left   ( \lambda_N ^ { - 1 }   +   \mu_N ^ 2   \right   )   - 2   \left   ( \lambda_0 \mu_0   +   \sum_ { n = 1 } ^ N   x _ n   \right ) \mu_N   +   \left ( \sum_ { n = 1 } ^ N   x _ n ^ 2   \right )   +   \lambda_0 \mu_0 ^ 2   \right ]   \\ \end { a l i g n }  
+\begin { a l i g n }   \mu_N   & =   \frac { \lambda_0   \mu_0   +   N   \bar { x } } { \lambda_0   +   N }   \\ \lambda_N   & =   ( \lambda_0   +   N )   \frac { a _ N } { b _ N }   \\ \bar { x }   & =   \frac { 1 } { N } \sum_ { n = 1 } ^ N   x _ n   \\ a_N   & =   a _ 0   +   \frac { N + 1 } { 2 }   \\ b_N   & =   b _ 0   +   \frac { 1 } { 2 }   \left [   ( \lambda_0 + N )   \left   ( \lambda_N ^ { - 1 }   +   \mu_N ^ 2   \right   )   - 2   \left   ( \lambda_0 \mu_0   +   \sum_ { n = 1 } ^ N   x _ n   \right   ) \mu_N   +   \left   ( \sum_ { n = 1 } ^ N   x _ n ^ 2   \right   )   +   \lambda_0 \mu_0 ^ 2   \right ]   \end { a l i g n }
+\mu   _ { N }
+\lambda   _ { N }
+b _ { N }
+\sum   _ { { n = 1 } } ^ { N } x _ { n }
+\sum   _ { { n = 1 } } ^ { N } x _ { n } ^ { 2 } .
+\mu   _ { N }
+a _ { N } .
+\lambda   _ { N }
+\lambda   _ { N } ,
+b _ { N }
+b _ { N } ,
+\lambda   _ { N }
+\mathbf   { X }  
+{ \boldsymbol     \Theta   }
+\mathbf   { Z }  
+p ( { \mathbf     { Z } } , { \boldsymbol     \Theta   } \mid   { \mathbf     { X } } )
+{ \mathbf     { Z } } _ { 1 } , \ldots   , { \mathbf     { Z } } _ { M }
+{ \mathbf     { Z } } _ { j }
+q _ { j } ^ { { * } } ( { \mathbf     { Z } } _ { j } \mid   { \mathbf     { X } } )
+\ln   q _ { j } ^ { { * } } ( { \mathbf     { Z } } _ { j } \mid   { \mathbf     { X } } ) = \operatorname   { E } _ { { i \neq   j } } [ \ln   p ( { \mathbf     { Z } } , { \mathbf     { X } } ) ] + { \text { c o n s t a n t } }
+{ \mathbf     { Z } } _ { j }
+{ \mathbf     { Z } } _ { j }
+{ \begin { a l i g n e d } { \mathbf     { \pi   } } & \sim   \operatorname   { S y m D i r } ( K , \alpha   _ { 0 } ) \\{ \mathbf     { \Lambda   } } _ { { i = 1 \dots   K } } & \sim   { \mathcal     { W } } ( { \mathbf     { W } } _ { 0 } , \nu   _ { 0 } ) \\{ \mathbf     { \mu   } } _ { { i = 1 \dots   K } } & \sim   { \mathcal     { N } } ( { \mathbf     { \mu   } } _ { 0 } , ( \beta   _ { 0 } { \mathbf     { \Lambda   } } _ { i } ) ^ { { - 1 } } ) \\{ \mathbf     { z } } [ i = 1 \dots   N ] & \sim   \operatorname   { M u l t } ( 1 , { \mathbf     { \pi   } } ) \\{ \mathbf     { x } } _ { { i = 1 \dots   N } } & \sim   { \mathcal     { N } } ( { \mathbf     { \mu   } } _ { { z _ { i } } } , { { \mathbf     { \Lambda   } } _ { { z _ { i } } } } ^ { { - 1 } } ) \\K & = { \text { n u m b e r   o f   m i x i n g   c o m p o n e n t s } } \\N & = { \text { n u m b e r   o f   d a t a   p o i n t s } } \end { a l i g n e d } }
+K
+\alpha   _ { 0 }
+{ \mathcal     { W } } ( )
+K
+\mathcal { N } ( )
+{ \mathbf     { X } } = \{ { \mathbf     { x } } _ { 1 } , \dots   , { \mathbf     { x } } _ { N } \ }
+N
+D
+{ \mathbf     { Z } } = \{ { \mathbf     { z } } _ { 1 } , \dots   , { \mathbf     { z } } _ { N } \ }
+z _ { { n k } }
+k = 1 \dots   K
+\mathbf   { \pi   }  
+K
+{ \mathbf     { \mu   } } _ { { i = 1 \dots   K } }
+{ \mathbf     { \Lambda   } } _ { { i = 1 \dots   K } }
+p ( { \mathbf     { X } } , { \mathbf     { Z } } , { \mathbf     { \pi   } } , { \mathbf     { \mu   } } , { \mathbf     { \Lambda   } } ) = p ( { \mathbf     { X } } \mid   { \mathbf     { Z } } , { \mathbf     { \mu   } } , { \mathbf     { \Lambda   } } ) p ( { \mathbf     { Z } } \mid   { \mathbf     { \pi   } } ) p ( { \mathbf     { \pi   } } ) p ( { \mathbf     { \mu   } } \mid   { \mathbf     { \Lambda   } } ) p ( { \mathbf     { \Lambda   } } )
+{ \begin { a l i g n e d } p ( { \mathbf     { X } } \mid   { \mathbf     { Z } } , { \mathbf     { \mu   } } , { \mathbf     { \Lambda   } } ) & = \prod   _ { { n = 1 } } ^ { N } \prod   _ { { k = 1 } } ^ { K } { \mathcal     { N } } ( { \mathbf     { x } } _ { n } \mid   { \mathbf     { \mu   } } _ { k } , { \mathbf     { \Lambda   } } _ { k } ^ { { - 1 } } ) ^ { { z _ { { n k } } } } \\p ( { \mathbf     { Z } } \mid   { \mathbf     { \pi   } } ) & = \prod   _ { { n = 1 } } ^ { N } \prod   _ { { k = 1 } } ^ { K } \pi   _ { k } ^ { { z _ { { n k } } } } \\p ( { \mathbf     { \pi   } } ) & = { \frac     { \Gamma   ( K \alpha   _ { 0 } ) } { \Gamma   ( \alpha   _ { 0 } ) ^ { K } } } \prod   _ { { k = 1 } } ^ { K } \pi   _ { k } ^ { { \alpha   _ { 0 } - 1 } } \\p ( { \mathbf     { \mu   } } \mid   { \mathbf     { \Lambda   } } ) & = \prod   _ { { k = 1 } } ^ { K } { \mathcal     { N } } ( { \mathbf     { \mu   } } _ { k } \mid   { \mathbf     { \mu   } } _ { 0 } , ( \beta   _ { 0 } { \mathbf     { \Lambda   } } _ { k } ) ^ { { - 1 } } ) \\p ( { \mathbf     { \Lambda   } } ) & = \prod   _ { { k = 1 } } ^ { K } { \mathcal     { W } } ( { \mathbf     { \Lambda   } } _ { k } \mid   { \mathbf     { W } } _ { 0 } , \nu   _ { 0 } ) \end { a l i g n e d } }
+{ \begin { a l i g n e d } { \mathcal     { N } } ( { \mathbf     { x } } \mid   { \mathbf     { \mu   } } , { \mathbf     { \Sigma   } } ) & = { \frac     { 1 } { ( 2 \pi   ) ^ { { D / 2 } } } } { \frac     { 1 } { | { \mathbf     { \Sigma   } } | ^ { { 1 / 2 } } } } \exp   \left \{ - { \frac     { 1 } { 2 } } ( { \mathbf     { x } } - { \mathbf     { \mu   } } ) ^ { { { \rm   { T } } } } { \mathbf     { \Sigma   } } ^ { { - 1 } } ( { \mathbf     { x } } - { \mathbf     { \mu   } } ) \right \}\\{ \mathcal     { W } } ( { \mathbf     { \Lambda   } } \mid   { \mathbf     { W } } , \nu   ) & = B ( { \mathbf     { W } } , \nu   ) | { \mathbf     { \Lambda   } } | ^ { { ( \nu   - D - 1 ) / 2 } } \exp   \left ( - { \frac     { 1 } { 2 } } \operatorname   { T r } ( { \mathbf     { W } } ^ { { - 1 } } { \mathbf     { \Lambda   } } ) \right ) \\B ( { \mathbf     { W } } , \nu   ) & = | { \mathbf     { W } } | ^ { { - \nu   / 2 } } \left \{ 2 ^ { { \nu   D / 2 } } \pi   ^ { { D ( D - 1 ) / 4 } } \prod   _ { { i = 1 } } ^ { { D } } \Gamma   \left ( { \frac     { \nu   + 1 - i } { 2 } } \right ) \right \}^ { { - 1 } } \\D & = { \text { d i m e n s i o n a l i t y   o f   e a c h   d a t a   p o i n t } } \end { a l i g n e d } }
+q ( { \mathbf     { Z } } , { \mathbf     { \pi   } } , { \mathbf     { \mu   } } , { \mathbf     { \Lambda   } } ) = q ( { \mathbf     { Z } } ) q ( { \mathbf     { \pi   } } , { \mathbf     { \mu   } } , { \mathbf     { \Lambda   } } )
+{ \begin { a l i g n e d } \ln   q ^ { * } ( { \mathbf     { Z } } ) & = \operatorname   { E } _ { { { \mathbf     { \pi   } } , { \mathbf     { \mu   } } , { \mathbf     { \Lambda   } } } } [ \ln   p ( { \mathbf     { X } } , { \mathbf     { Z } } , { \mathbf     { \pi   } } , { \mathbf     { \mu   } } , { \mathbf     { \Lambda   } } ) ] + { \text { c o n s t a n t } } \\&=\operatorname   { E } _ { { { \mathbf     { \pi   } } } } [ \ln   p ( { \mathbf     { Z } } \mid   { \mathbf     { \pi   } } ) ] + \operatorname   { E } _ { { { \mathbf     { \mu   } } , { \mathbf     { \Lambda   } } } } [ \ln   p ( { \mathbf     { X } } \mid   { \mathbf     { Z } } , { \mathbf     { \mu   } } , { \mathbf     { \Lambda   } } ) ] + { \text { c o n s t a n t } } \\&=\sum   _ { { n = 1 } } ^ { N } \sum   _ { { k = 1 } } ^ { K } z _ { { n k } } \ln   \rho   _ { { n k } } + { \text { c o n s t a n t } } \end { a l i g n e d } }
+\ln   \rho   _ { { n k } } = \operatorname   { E } [ \ln   \pi   _ { k } ] + { \frac     { 1 } { 2 } } \operatorname   { E } [ \ln   | { \mathbf     { \Lambda   } } _ { k } | ] - { \frac     { D } { 2 } } \ln ( 2 \pi   ) - { \frac     { 1 } { 2 } } \operatorname   { E } _ { { { \mathbf     { \mu   } } _ { k } , { \mathbf     { \Lambda   } } _ { k } } } [ ( { \mathbf     { x } } _ { n } - { \mathbf     { \mu   } } _ { k } ) ^ { { { \rm   { T } } } } { \mathbf     { \Lambda   } } _ { k } ( { \mathbf     { x } } _ { n } - { \mathbf     { \mu   } } _ { k } ) ]
+\ln   q ^ { * } ( { \mathbf     { Z } } )
+q ^ { * } ( { \mathbf     { Z } } ) \propto   \prod   _ { { n = 1 } } ^ { N } \prod   _ { { k = 1 } } ^ { K } \rho   _ { { n k } } ^ { { z _ { { n k } } } }
+\rho   _ { { n k } }
+k
+q ^ { * } ( { \mathbf     { Z } } ) = \prod   _ { { n = 1 } } ^ { N } \prod   _ { { k = 1 } } ^ { K } r _ { { n k } } ^ { { z _ { { n k } } } }
+r _ { { n k } } = { \frac     { \rho   _ { { n k } } } { \sum   _ { { j = 1 } } ^ { K } \rho   _ { { n j } } } }
+q ^ { * } ( { \mathbf     { Z } } )
+{ \mathbf     { z } } _ { n }
+r _ { { n k } }
+k = 1 \dots   K
+\operatorname   { E } [ z _ { { n k } } ] = r _ { { n k } } \ ,
+q ( { \mathbf     { \pi   } } , { \mathbf     { \mu   } } , { \mathbf     { \Lambda   } } )
+q ( { \mathbf     { \pi   } } ) \prod   _ { { k = 1 } } ^ { K } q ( { \mathbf     { \mu   } } _ { k } , { \mathbf     { \Lambda   } } _ { k } )
+{ \begin { a l i g n e d } \ln   q ^ { * } ( { \mathbf     { \pi   } } ) & = \ln   p ( { \mathbf     { \pi   } } ) + \operatorname   { E } _ { { { \mathbf     { Z } } } } [ \ln   p ( { \mathbf     { Z } } \mid   { \mathbf     { \pi   } } ) ] + { \text { c o n s t a n t } } \\&=( \alpha   _ { 0 } - 1 ) \sum   _ { { k = 1 } } ^ { K } \ln   \pi   _ { k } + \sum   _ { { n = 1 } } ^ { N } \sum   _ { { k = 1 } } ^ { K } r _ { { n k } } \ln   \pi   _ { k } + { \text { c o n s t a n t } } \end { a l i g n e d } }
+q ^ { * } ( { \mathbf     { \pi   } } )
+q ^ { * } ( { \mathbf     { \pi   } } ) \sim   \operatorname   { D i r } ( { \mathbf     { \alpha   } } ) \ ,
+\alpha   _ { k } = \alpha   _ { 0 } + N _ { k } \ ,
+N _ { k } = \sum   _ { { n = 1 } } ^ { N } r _ { { n k } } \ ,
+\ln   q ^ { * } ( { \mathbf     { \mu   } } _ { k } , { \mathbf     { \Lambda   } } _ { k } ) = \ln   p ( { \mathbf     { \mu   } } _ { k } , { \mathbf     { \Lambda   } } _ { k } ) + \sum   _ { { n = 1 } } ^ { N } \operatorname   { E } [ z _ { { n k } } ] \ln   { \mathcal     { N } } ( { \mathbf     { x } } _ { n } \mid   { \mathbf     { \mu   } } _ { k } , { \mathbf     { \Lambda   } } _ { k } ^ { { - 1 } } ) + { \text { c o n s t a n t } }
+{ \mathbf     { \mu   } } _ { k }
+{ \mathbf     { \Lambda   } } _ { k }
+q ^ { * } ( { \mathbf     { \mu   } } _ { k } , { \mathbf     { \Lambda   } } _ { k } ) = { \mathcal     { N } } ( { \mathbf     { \mu   } } _ { k } \mid   { \mathbf     { m } } _ { k } , ( \beta   _ { k } { \mathbf     { \Lambda   } } _ { k } ) ^ { { - 1 } } ) { \mathcal     { W } } ( { \mathbf     { \Lambda   } } _ { k } \mid   { \mathbf     { W } } _ { k } , \nu   _ { k } )
+{ \begin { a l i g n e d } \beta   _ { k } & = \beta   _ { 0 } + N _ { k } \\{ \mathbf     { m } } _ { k } & = { \frac     { 1 } { \beta   _ { k } } } ( \beta   _ { 0 } { \mathbf     { \mu   } } _ { 0 } + N _ { k } { { \bar     { { \mathbf     { x } } } } } _ { k } ) \\{ \mathbf     { W } } _ { k } ^ { { - 1 } } & = { \mathbf     { W } } _ { 0 } ^ { { - 1 } } + N _ { k } { \mathbf     { S } } _ { k } + { \frac     { \beta   _ { 0 } N _ { k } } { \beta   _ { 0 } + N _ { k } } } ( { { \bar     { { \mathbf     { x } } } } } _ { k } - { \mathbf     { \mu   } } _ { 0 } ) ( { { \bar     { { \mathbf     { x } } } } } _ { k } - { \mathbf     { \mu   } } _ { 0 } ) ^ { { { \rm   { T } } } } \\\nu   _ { k } & = \nu   _ { 0 } + N _ { k } \\N_ { k } & = \sum   _ { { n = 1 } } ^ { N } r _ { { n k } } \\{ { \bar     { { \mathbf     { x } } } } } _ { k } & = { \frac     { 1 } { N _ { k } } } \sum   _ { { n = 1 } } ^ { N } r _ { { n k } } { \mathbf     { x } } _ { n } \\{ \mathbf     { S } } _ { k } & = { \frac     { 1 } { N _ { k } } } \sum   _ { { n = 1 } } ^ { N } ( { \mathbf     { x } } _ { n } - { { \bar     { { \mathbf     { x } } } } } _ { k } ) ( { \mathbf     { x } } _ { n } - { { \bar     { { \mathbf     { x } } } } } _ { k } ) ^ { { { \rm   { T } } } } \end { a l i g n e d } }
+r _ { { n k } }
+\rho   _ { { n k } }
+\operatorname   { E } [ \ln   \pi   _ { k } ]
+\operatorname   { E } [ \ln   | { \mathbf     { \Lambda   } } _ { k } | ]
+\operatorname   { E } _ { { { \mathbf     { \mu   } } _ { k } , { \mathbf     { \Lambda   } } _ { k } } } [ ( { \mathbf     { x } } _ { n } - { \mathbf     { \mu   } } _ { k } ) ^ { { { \rm   { T } } } } { \mathbf     { \Lambda   } } _ { k } ( { \mathbf     { x } } _ { n } - { \mathbf     { \mu   } } _ { k } ) ]
+{ \begin { a l i g n e d } \operatorname   { E } _ { { { \mathbf     { \mu   } } _ { k } , { \mathbf     { \Lambda   } } _ { k } } } [ ( { \mathbf     { x } } _ { n } - { \mathbf     { \mu   } } _ { k } ) ^ { { { \rm   { T } } } } { \mathbf     { \Lambda   } } _ { k } ( { \mathbf     { x } } _ { n } - { \mathbf     { \mu   } } _ { k } ) ] & = D \beta   _ { k } ^ { { - 1 } } + \nu   _ { k } ( { \mathbf     { x } } _ { n } - { \mathbf     { m } } _ { k } ) ^ { { { \rm   { T } } } } { \mathbf     { W } } _ { k } ( { \mathbf     { x } } _ { n } - { \mathbf     { m } } _ { k } ) \\\ln   { { \tilde     { \Lambda   } } } _ { k } & \equiv   \operatorname   { E } [ \ln   | { \mathbf     { \Lambda   } } _ { k } | ] = \sum   _ { { i = 1 } } ^ { D } \psi   \left ( { \frac     { \nu   _ { k } + 1 - i } { 2 } } \right ) + D \ln   2 + \ln   | { \mathbf     { W } } _ { k } | \\\ln   { { \tilde     { \pi   } } } _ { k } & \equiv   \operatorname   { E } \left [ \ln   | \pi   _ { k } | \right ] = \psi   ( \alpha   _ { k } ) - \psi   \left ( \sum   _ { { i = 1 } } ^ { K } \alpha   _ { i } \right ) \end { a l i g n e d } }
+r _ { { n k } } \propto   { { \tilde     { \pi   } } } _ { k } { { \tilde     { \Lambda   } } } _ { k } ^ { { 1 / 2 } } \exp   \left \{ - { \frac     { D } { 2 \beta   _ { k } } } - { \frac     { \nu   _ { k } } { 2 } } ( { \mathbf     { x } } _ { n } - { \mathbf     { m } } _ { k } ) ^ { { { \rm   { T } } } } { \mathbf     { W } } _ { k } ( { \mathbf     { x } } _ { n } - { \mathbf     { m } } _ { k } ) \right \ }
+k
+\beta   _ { k }
+{ \mathbf     { m } } _ { k }
+{ \mathbf     { W } } _ { k }
+\nu   _ { k }
+{ \mathbf     { \mu   } } _ { k }
+{ \mathbf     { \Lambda   } } _ { k }
+N _ { k }
+{ { \bar     { { \mathbf     { x } } } } } _ { k }
+{ \mathbf     { S } } _ { k }
+r _ { { n k } }
+\alpha   _ { { 1 \dots   K } }
+\mathbf   { \pi   }  
+N _ { k }
+r _ { { n k } }
+r _ { { n k } }
+\beta   _ { k }
+{ \mathbf     { m } } _ { k }
+{ \mathbf     { W } } _ { k }
+\nu   _ { k }
+{ \mathbf     { W } } _ { k }
+\nu   _ { k }
+\alpha   _ { { 1 \dots   K } }
+{ { \tilde     { \pi   } } } _ { k }
+{ { \tilde     { \Lambda   } } } _ { k }
+r _ { { n k } }
+r _ { { n k } }
+r _ { { n k } }
+p ( { \mathbf     { Z } } \mid   { \mathbf     { X } } )
+N _ { k }
+{ { \bar     { { \mathbf     { x } } } } } _ { k }
+{ \mathbf     { S } } _ { k }

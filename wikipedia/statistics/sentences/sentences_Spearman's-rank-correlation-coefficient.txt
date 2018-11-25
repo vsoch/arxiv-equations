@@ -1,0 +1,41 @@
+\rho  
+r _ { s }
+\rho  
+\tau  
+X _ { i } , Y _ { i }
+{ \displaystyle   \operatorname   { r g }   X _ { i } , \operatorname   { r g }   Y _ { i } }
+r _ { s }
+{ \displaystyle   r _ { s } = \rho   _ { \operatorname   { r g }   _ { X } , \operatorname   { r g }   _ { Y } } = { \frac   { \operatorname   { c o v }   ( \operatorname   { r g }   _ { X } , \operatorname   { r g }   _ { Y } ) } { \sigma   _ { \operatorname   { r g }   _ { X } } \sigma   _ { \operatorname   { r g }   _ { Y } } } } }
+\rho  
+{ \displaystyle   \operatorname   { c o v }   ( \operatorname   { r g }   _ { X } , \operatorname   { r g }   _ { Y } ) }
+{ \displaystyle   \sigma   _ { \operatorname   { r g }   _ { X } } }
+{ \displaystyle   \sigma   _ { \operatorname   { r g }   _ { Y } } }
+{ \displaystyle   r _ { s } = { 1 - { \frac   { 6 \sum   d _ { i } ^ { 2 } } { n ( n ^ { 2 } - 1 ) } } } . }
+{ \displaystyle   d _ { i } = \operatorname   { r g }   ( X _ { i } ) - \operatorname   { r g }   ( Y _ { i } ) }
+{ \displaystyle   \sigma   _ { \operatorname   { r g }   _ { X } } \sigma   _ { \operatorname   { r g }   _ { Y } } = \operatorname   { V a r }   { \operatorname   { r g }   _ { X } } = \operatorname   { V a r }   { \operatorname   { r g }   _ { Y } } = ( n ^ { 2 } - 1 ) / 1 2 }
+{ \displaystyle   \sigma   _ { r _ { s } } = { \frac   { 0 . 6 3 2 5 } { \sqrt   { n - 1 } } } }
+X _ { i }
+Y _ { i }
+d _ { i } ^ { 2 }
+X _ { i }
+x _ { i }
+Y _ { i }
+y _ { i }
+d _ { i }
+x _ { i }
+y _ { i }
+d _ { i } ^ { 2 }
+d _ { i }
+X _ { i }
+Y _ { i }
+x _ { i }
+y _ { i }
+d _ { i }
+d _ { i } ^ { 2 }
+d _ { i } ^ { 2 }
+\sum   d _ { i } ^ { 2 } = 1 9 4
+\rho   = 1 - { { \frac     { 6 \sum   d _ { i } ^ { 2 } } { n ( n ^ { 2 } - 1 ) } } } .
+\rho   = 1 - { { \frac     { 6 \times   1 9 4 } { 1 0 ( 1 0 ^ { 2 } - 1 ) } } }
+F ( r ) = { 1   \over   2 } \ln   { 1 + r   \over   1 - r } = \operatorname   { a r t a n h } ( r ) .
+z = { \sqrt     { { \frac     { n - 3 } { 1 . 0 6 } } } } F ( r )
+t = r { \sqrt     { { \frac     { n - 2 } { 1 - r ^ { 2 } } } } }

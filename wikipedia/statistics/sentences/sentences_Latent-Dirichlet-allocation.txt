@@ -1,0 +1,143 @@
+\theta   _ { m }
+\varphi   _ { k }
+{ \displaystyle   z _ { m n } }
+{ \displaystyle   w _ { m n } }
+w _ { i j }
+K
+{ \displaystyle   \varphi   _ { 1 } , \dots   , \varphi   _ { K } }
+V
+V
+\theta  
+\varphi  
+\theta  
+\varphi  
+{ \displaystyle   \varphi   _ { 1 } , \dots   , \varphi   _ { K } }
+{ \displaystyle   \theta   _ { 1 } , \dots   , \theta   _ { M } }
+D
+M
+N _ { i }
+{ \displaystyle   \theta   _ { i } \sim   \operatorname   { D i r }   ( \alpha   ) }
+i \in   \{ 1 , \dots   , M \ }
+\mathrm   { D i r }   ( \alpha   )
+\alpha  
+\alpha   <   1
+{ \displaystyle   \varphi   _ { k } \sim   \operatorname   { D i r }   ( \beta   ) }
+k \in   \{ 1 , \dots   , K \ }
+\beta  
+i , j
+i \in   \{ 1 , \dots   , M \ }
+j \in   \{ 1 , \dots   , N _ { i } \ }
+{ \displaystyle   z _ { i , j } \sim   \operatorname   { M u l t i n o m i a l }   ( \theta   _ { i } ) . }
+{ \displaystyle   w _ { i , j } \sim   \operatorname   { M u l t i n o m i a l }   ( \varphi   _ { z _ { i , j } } ) . }
+N _ { i }
+w
+z
+K
+V
+M
+N _ { d = 1 \dots   M }
+N
+N _ { d }
+N = \sum   _ { d = 1 } ^ { M } N _ { d }
+\alpha   _ { k = 1 \dots   K }
+{ \boldsymbol   { \alpha   } }
+\alpha   _ { k }
+\beta   _ { w = 1 \dots   V }
+{ \boldsymbol   { \beta   } }
+\beta   _ { w }
+\varphi   _ { k = 1 \dots   K , w = 1 \dots   V }
+{ \boldsymbol   { \varphi   } } _ { k = 1 \dots   K }
+\theta   _ { d = 1 \dots   M , k = 1 \dots   K }
+{ \boldsymbol   { \theta   } } _ { d = 1 \dots   M }
+z _ { d = 1 \dots   M , w = 1 \dots   N _ { d } }
+\mathbf   { Z }  
+w _ { d = 1 \dots   M , w = 1 \dots   N _ { d } }
+\mathbf   { W }  
+{ \displaystyle   { \begin { a l i g n e d } { \boldsymbol   { \varphi   } } _ { k = 1 \dots   K } & \sim   \operatorname   { D i r i c h l e t }   _ { V } ( { \boldsymbol   { \beta   } } ) \\{ \boldsymbol   { \theta   } } _ { d = 1 \dots   M } & \sim   \operatorname   { D i r i c h l e t }   _ { K } ( { \boldsymbol   { \alpha   } } ) \\z_ { d = 1 \dots   M , w = 1 \dots   N _ { d } } & \sim   \operatorname   { C a t e g o r i c a l }   _ { K } ( { \boldsymbol   { \theta   } } _ { d } ) \\w_ { d = 1 \dots   M , w = 1 \dots   N _ { d } } & \sim   \operatorname   { C a t e g o r i c a l }   _ { V } ( { \boldsymbol   { \varphi   } } _ { z _ { d w } } ) \end { a l i g n e d } } }
+\varphi  
+\theta  
+N _ { }
+{ \displaystyle   P ( { \boldsymbol   { W } } , { \boldsymbol   { Z } } , { \boldsymbol   { \theta   } } , { \boldsymbol   { \varphi   } } ; \alpha   , \beta   ) = \prod   _ { i = 1 } ^ { K } P ( \varphi   _ { i } ; \beta   ) \prod   _ { j = 1 } ^ { M } P ( \theta   _ { j } ; \alpha   ) \prod   _ { t = 1 } ^ { N } P ( Z _ { j , t } \mid   \theta   _ { j } ) P ( W _ { j , t } \mid   \varphi   _ { Z _ { j , t } } ) , }
+{ \boldsymbol   { \varphi   } }
+{ \boldsymbol   { \theta   } }
+{ \displaystyle   { \begin { a l i g n e d } & P ( { \boldsymbol   { Z } } , { \boldsymbol   { W } } ; \alpha   , \beta   ) = \int   _ { \boldsymbol   { \theta   } } \int   _ { \boldsymbol   { \varphi   } } P ( { \boldsymbol   { W } } , { \boldsymbol   { Z } } , { \boldsymbol   { \theta   } } , { \boldsymbol   { \varphi   } } ; \alpha   , \beta   ) \,d { \boldsymbol   { \varphi   } } \,d { \boldsymbol   { \theta   } } \\={ } & \int   _ { \boldsymbol   { \varphi   } } \prod   _ { i = 1 } ^ { K } P ( \varphi   _ { i } ; \beta   ) \prod   _ { j = 1 } ^ { M } \prod   _ { t = 1 } ^ { N } P ( W _ { j , t } \mid   \varphi   _ { Z _ { j , t } } ) \,d { \boldsymbol   { \varphi   } } \int   _ { \boldsymbol   { \theta   } } \prod   _ { j = 1 } ^ { M } P ( \theta   _ { j } ; \alpha   ) \prod   _ { t = 1 } ^ { N } P ( Z _ { j , t } \mid   \theta   _ { j } ) \,d { \boldsymbol   { \theta   } } . \end { a l i g n e d } } }
+\theta  
+\varphi  
+\theta  
+\varphi  
+\theta  
+{ \displaystyle   \int   _ { \boldsymbol   { \theta   } } \prod   _ { j = 1 } ^ { M } P ( \theta   _ { j } ; \alpha   ) \prod   _ { t = 1 } ^ { N } P ( Z _ { j , t } \mid   \theta   _ { j } ) \,d { \boldsymbol   { \theta   } } = \prod   _ { j = 1 } ^ { M } \int   _ { \theta   _ { j } } P ( \theta   _ { j } ; \alpha   ) \prod   _ { t = 1 } ^ { N } P ( Z _ { j , t } \mid   \theta   _ { j } ) \,d \theta   _ { j } . }
+\theta  
+{ \displaystyle   \int   _ { \theta   _ { j } } P ( \theta   _ { j } ; \alpha   ) \prod   _ { t = 1 } ^ { N } P ( Z _ { j , t } \mid   \theta   _ { j } ) \,d \theta   _ { j } . }
+j ^ { t h }
+{ \displaystyle   \int   _ { \theta   _ { j } } P ( \theta   _ { j } ; \alpha   ) \prod   _ { t = 1 } ^ { N } P ( Z _ { j , t } \mid   \theta   _ { j } ) \,d \theta   _ { j } = \int   _ { \theta   _ { j } } { \frac   { \Gamma   \left ( \sum   _ { i = 1 } ^ { K } \alpha   _ { i } \right ) } { \prod   _ { i = 1 } ^ { K } \Gamma   ( \alpha   _ { i } ) } } \prod   _ { i = 1 } ^ { K } \theta   _ { j , i } ^ { \alpha   _ { i } - 1 } \prod   _ { t = 1 } ^ { N } P ( Z _ { j , t } \mid   \theta   _ { j } ) \,d \theta   _ { j } . }
+n _ { j , r } ^ { i }
+j ^ { t h }
+r ^ { t h }
+i ^ { t h }
+n _ { j , r } ^ { i }
+( \cdot   )
+n _ { j , ( \cdot   ) } ^ { i }
+j ^ { t h }
+i ^ { t h }
+{ \displaystyle   \prod   _ { t = 1 } ^ { N } P ( Z _ { j , t } \mid   \theta   _ { j } ) = \prod   _ { i = 1 } ^ { K } \theta   _ { j , i } ^ { n _ { j , ( \cdot   ) } ^ { i } } . }
+\theta   _ { j }
+{ \displaystyle   \int   _ { \theta   _ { j } } { \frac   { \Gamma   \left ( \sum   _ { i = 1 } ^ { K } \alpha   _ { i } \right ) } { \prod   _ { i = 1 } ^ { K } \Gamma   ( \alpha   _ { i } ) } } \prod   _ { i = 1 } ^ { K } \theta   _ { j , i } ^ { \alpha   _ { i } - 1 } \prod   _ { i = 1 } ^ { K } \theta   _ { j , i } ^ { n _ { j , ( \cdot   ) } ^ { i } } \,d \theta   _ { j } = \int   _ { \theta   _ { j } } { \frac   { \Gamma   \left ( \sum   _ { i = 1 } ^ { K } \alpha   _ { i } \right ) } { \prod   _ { i = 1 } ^ { K } \Gamma   ( \alpha   _ { i } ) } } \prod   _ { i = 1 } ^ { K } \theta   _ { j , i } ^ { n _ { j , ( \cdot   ) } ^ { i } + \alpha   _ { i } - 1 } \,d \theta   _ { j } . }
+{ \displaystyle   \int   _ { \theta   _ { j } } { \frac   { \Gamma   \left ( \sum   _ { i = 1 } ^ { K } n _ { j , ( \cdot   ) } ^ { i } + \alpha   _ { i } \right ) } { \prod   _ { i = 1 } ^ { K } \Gamma   ( n _ { j , ( \cdot   ) } ^ { i } + \alpha   _ { i } ) } } \prod   _ { i = 1 } ^ { K } \theta   _ { j , i } ^ { n _ { j , ( \cdot   ) } ^ { i } + \alpha   _ { i } - 1 } \,d \theta   _ { j } = 1 . }
+{ \displaystyle   { \begin { a l i g n e d } & \int   _ { \theta   _ { j } } P ( \theta   _ { j } ; \alpha   ) \prod   _ { t = 1 } ^ { N } P ( Z _ { j , t } \mid   \theta   _ { j } ) \,d \theta   _ { j } = \int   _ { \theta   _ { j } } { \frac   { \Gamma   \left ( \sum   _ { i = 1 } ^ { K } \alpha   _ { i } \right ) } { \prod   _ { i = 1 } ^ { K } \Gamma   ( \alpha   _ { i } ) } } \prod   _ { i = 1 } ^ { K } \theta   _ { j , i } ^ { n _ { j , ( \cdot   ) } ^ { i } + \alpha   _ { i } - 1 } \,d \theta   _ { j } \\[8pt ] = { } & { \frac   { \Gamma   \left ( \sum   _ { i = 1 } ^ { K } \alpha   _ { i } \right ) } { \prod   _ { i = 1 } ^ { K } \Gamma   ( \alpha   _ { i } ) } } { \frac   { \prod   _ { i = 1 } ^ { K } \Gamma   ( n _ { j , ( \cdot   ) } ^ { i } + \alpha   _ { i } ) } { \Gamma   \left ( \sum   _ { i = 1 } ^ { K } n _ { j , ( \cdot   ) } ^ { i } + \alpha   _ { i } \right ) } } \int   _ { \theta   _ { j } } { \frac   { \Gamma   \left ( \sum   _ { i = 1 } ^ { K } n _ { j , ( \cdot   ) } ^ { i } + \alpha   _ { i } \right ) } { \prod   _ { i = 1 } ^ { K } \Gamma   ( n _ { j , ( \cdot   ) } ^ { i } + \alpha   _ { i } ) } } \prod   _ { i = 1 } ^ { K } \theta   _ { j , i } ^ { n _ { j , ( \cdot   ) } ^ { i } + \alpha   _ { i } - 1 } \,d \theta   _ { j } \\[8pt ] = { } & { \frac   { \Gamma   \left ( \sum   _ { i = 1 } ^ { K } \alpha   _ { i } \right ) } { \prod   _ { i = 1 } ^ { K } \Gamma   ( \alpha   _ { i } ) } } { \frac   { \prod   _ { i = 1 } ^ { K } \Gamma   ( n _ { j , ( \cdot   ) } ^ { i } + \alpha   _ { i } ) } { \Gamma   \left ( \sum   _ { i = 1 } ^ { K } n _ { j , ( \cdot   ) } ^ { i } + \alpha   _ { i } \right ) } } . \end { a l i g n e d } } }
+{ \boldsymbol   { \varphi   } }
+{ \boldsymbol   { \varphi   } }
+{ \boldsymbol   { \theta   } }
+{ \displaystyle   { \begin { a l i g n e d } & \int   _ { \boldsymbol   { \varphi   } } \prod   _ { i = 1 } ^ { K } P ( \varphi   _ { i } ; \beta   ) \prod   _ { j = 1 } ^ { M } \prod   _ { t = 1 } ^ { N } P ( W _ { j , t } \mid   \varphi   _ { Z _ { j , t } } ) \,d { \boldsymbol   { \varphi   } } \\[8pt ] = { } & \prod   _ { i = 1 } ^ { K } \int   _ { \varphi   _ { i } } P ( \varphi   _ { i } ; \beta   ) \prod   _ { j = 1 } ^ { M } \prod   _ { t = 1 } ^ { N } P ( W _ { j , t } \mid   \varphi   _ { Z _ { j , t } } ) \,d \varphi   _ { i } \\[8pt ] = { } & \prod   _ { i = 1 } ^ { K } \int   _ { \varphi   _ { i } } { \frac   { \Gamma   \left ( \sum   _ { r = 1 } ^ { V } \beta   _ { r } \right ) } { \prod   _ { r = 1 } ^ { V } \Gamma   ( \beta   _ { r } ) } } \prod   _ { r = 1 } ^ { V } \varphi   _ { i , r } ^ { \beta   _ { r } - 1 } \prod   _ { r = 1 } ^ { V } \varphi   _ { i , r } ^ { n _ { ( \cdot   ) , r } ^ { i } } \,d \varphi   _ { i } \\[8pt ] = { } & \prod   _ { i = 1 } ^ { K } \int   _ { \varphi   _ { i } } { \frac   { \Gamma   \left ( \sum   _ { r = 1 } ^ { V } \beta   _ { r } \right ) } { \prod   _ { r = 1 } ^ { V } \Gamma   ( \beta   _ { r } ) } } \prod   _ { r = 1 } ^ { V } \varphi   _ { i , r } ^ { n _ { ( \cdot   ) , r } ^ { i } + \beta   _ { r } - 1 } \,d \varphi   _ { i } \\[8pt ] = { } & \prod   _ { i = 1 } ^ { K } { \frac   { \Gamma   \left ( \sum   _ { r = 1 } ^ { V } \beta   _ { r } \right ) } { \prod   _ { r = 1 } ^ { V } \Gamma   ( \beta   _ { r } ) } } { \frac   { \prod   _ { r = 1 } ^ { V } \Gamma   ( n _ { ( \cdot   ) , r } ^ { i } + \beta   _ { r } ) } { \Gamma   \left ( \sum   _ { r = 1 } ^ { V } n _ { ( \cdot   ) , r } ^ { i } + \beta   _ { r } \right ) } } . \end { a l i g n e d } } }
+{ \boldsymbol   { \phi   } }
+{ \boldsymbol   { \theta   } }
+{ \displaystyle   P ( { \boldsymbol   { Z } } , { \boldsymbol   { W } } ; \alpha   , \beta   ) = \prod   _ { j = 1 } ^ { M } { \frac   { \Gamma   \left ( \sum   _ { i = 1 } ^ { K } \alpha   _ { i } \right ) } { \prod   _ { i = 1 } ^ { K } \Gamma   ( \alpha   _ { i } ) } } { \frac   { \prod   _ { i = 1 } ^ { K } \Gamma   ( n _ { j , ( \cdot   ) } ^ { i } + \alpha   _ { i } ) } { \Gamma   \left ( \sum   _ { i = 1 } ^ { K } n _ { j , ( \cdot   ) } ^ { i } + \alpha   _ { i } \right ) } } \times   \prod   _ { i = 1 } ^ { K } { \frac   { \Gamma   \left ( \sum   _ { r = 1 } ^ { V } \beta   _ { r } \right ) } { \prod   _ { r = 1 } ^ { V } \Gamma   ( \beta   _ { r } ) } } { \frac   { \prod   _ { r = 1 } ^ { V } \Gamma   ( n _ { ( \cdot   ) , r } ^ { i } + \beta   _ { r } ) } { \Gamma   \left ( \sum   _ { r = 1 } ^ { V } n _ { ( \cdot   ) , r } ^ { i } + \beta   _ { r } \right ) } } . }
+P ( { \boldsymbol   { Z } } \mid   { \boldsymbol   { W } } ; \alpha   , \beta   )
+P ( { \boldsymbol   { W } } ; \alpha   , \beta   )
+P ( { \boldsymbol   { Z } } , { \boldsymbol   { W } } ; \alpha   , \beta   )
+{ \displaystyle   P ( Z _ { ( m , n ) } \mid   { \boldsymbol   { Z _ { - ( m , n ) } } } , { \boldsymbol   { W } } ; \alpha   , \beta   ) = { \frac   { P ( Z _ { ( m , n ) } , { \boldsymbol   { Z _ { - ( m , n ) } } } , { \boldsymbol   { W } } ; \alpha   , \beta   ) } { P ( { \boldsymbol   { Z _ { - ( m , n ) } } } , { \boldsymbol   { W } } ; \alpha   , \beta   ) } } , }
+Z _ { ( m , n ) }
+Z
+n ^ { t h }
+m ^ { t h }
+v ^ { t h }
+{ \boldsymbol   { Z _ { - ( m , n ) } } }
+Z
+Z _ { ( m , n ) }
+Z _ { ( m , n ) }
+{ \displaystyle   P \left ( Z _ { m , n } \mid   { \boldsymbol   { Z _ { - ( m , n ) } } } , { \boldsymbol   { W } } ; \alpha   , \beta   \right ) }
+Z _ { ( m , n ) }
+{ \displaystyle   { \begin { a l i g n e d } P ( & Z _ { ( m , n ) } = k \mid   { \boldsymbol   { Z _ { - ( m , n ) } } } , { \boldsymbol   { W } } ; \alpha   , \beta   ) \\[8pt ] & \propto   P ( Z _ { ( m , n ) } = k , { \boldsymbol   { Z _ { - ( m , n ) } } } , { \boldsymbol   { W } } ; \alpha   , \beta   ) \\[8pt ] & = \left ( { \frac   { \Gamma   \left ( \sum   _ { i = 1 } ^ { K } \alpha   _ { i } \right ) } { \prod   _ { i = 1 } ^ { K } \Gamma   ( \alpha   _ { i } ) } } \right ) ^ { M } \prod   _ { j \neq   m } { \frac   { \prod   _ { i = 1 } ^ { K } \Gamma   \left ( n _ { j , ( \cdot   ) } ^ { i } + \alpha   _ { i } \right ) } { \Gamma   \left ( \sum   _ { i = 1 } ^ { K } n _ { j , ( \cdot   ) } ^ { i } + \alpha   _ { i } \right ) } } \left ( { \frac   { \Gamma   \left ( \sum   _ { r = 1 } ^ { V } \beta   _ { r } \right ) } { \prod   _ { r = 1 } ^ { V } \Gamma   ( \beta   _ { r } ) } } \right ) ^ { K } \prod   _ { i = 1 } ^ { K } \prod   _ { r \neq   v } \Gamma   \left ( n _ { ( \cdot   ) , r } ^ { i } + \beta   _ { r } \right ) { \frac   { \prod   _ { i = 1 } ^ { K } \Gamma   \left ( n _ { m , ( \cdot   ) } ^ { i } + \alpha   _ { i } \right ) } { \Gamma   \left ( \sum   _ { i = 1 } ^ { K } n _ { m , ( \cdot   ) } ^ { i } + \alpha   _ { i } \right ) } } \prod   _ { i = 1 } ^ { K } { \frac   { \Gamma   \left ( n _ { ( \cdot   ) , v } ^ { i } + \beta   _ { v } \right ) } { \Gamma   \left ( \sum   _ { r = 1 } ^ { V } n _ { ( \cdot   ) , r } ^ { i } + \beta   _ { r } \right ) } } \\[8pt ] & \propto   { \frac   { \prod   _ { i = 1 } ^ { K } \Gamma   \left ( n _ { m , ( \cdot   ) } ^ { i } + \alpha   _ { i } \right ) } { \Gamma   \left ( \sum   _ { i = 1 } ^ { K } n _ { m , ( \cdot   ) } ^ { i } + \alpha   _ { i } \right ) } } \prod   _ { i = 1 } ^ { K } { \frac   { \Gamma   \left ( n _ { ( \cdot   ) , v } ^ { i } + \beta   _ { v } \right ) } { \Gamma   \left ( \sum   _ { r = 1 } ^ { V } n _ { ( \cdot   ) , r } ^ { i } + \beta   _ { r } \right ) } } \\[8pt ] & \propto   \prod   _ { i = 1 } ^ { K } \Gamma   \left ( n _ { m , ( \cdot   ) } ^ { i } + \alpha   _ { i } \right ) \prod   _ { i = 1 } ^ { K } { \frac   { \Gamma   \left ( n _ { ( \cdot   ) , v } ^ { i } + \beta   _ { v } \right ) } { \Gamma   \left ( \sum   _ { r = 1 } ^ { V } n _ { ( \cdot   ) , r } ^ { i } + \beta   _ { r } \right ) } } . \end { a l i g n e d } } }
+n _ { j , r } ^ { i , - ( m , n ) }
+n _ { j , r } ^ { i }
+Z _ { ( m , n ) }
+k
+{ \displaystyle   { \begin { a l i g n e d } & \propto   \prod   _ { i \neq   k } \Gamma   \left ( n _ { m , ( \cdot   ) } ^ { i , - ( m , n ) } + \alpha   _ { i } \right ) \prod   _ { i \neq   k } { \frac   { \Gamma   \left ( n _ { ( \cdot   ) , v } ^ { i , - ( m , n ) } + \beta   _ { v } \right ) } { \Gamma   \left ( \sum   _ { r = 1 } ^ { V } n _ { ( \cdot   ) , r } ^ { i , - ( m , n ) } + \beta   _ { r } \right ) } } \Gamma   \left ( n _ { m , ( \cdot   ) } ^ { k , - ( m , n ) } + \alpha   _ { k } + 1 \right ) { \frac   { \Gamma   \left ( n _ { ( \cdot   ) , v } ^ { k , - ( m , n ) } + \beta   _ { v } + 1 \right ) } { \Gamma   \left ( \sum   _ { r = 1 } ^ { V } n _ { ( \cdot   ) , r } ^ { k , - ( m , n ) } + \beta   _ { r } + 1 \right ) } } \\[8pt ] & = \prod   _ { i \neq   k } \Gamma   \left ( n _ { m , ( \cdot   ) } ^ { i , - ( m , n ) } + \alpha   _ { i } \right ) \prod   _ { i \neq   k } { \frac   { \Gamma   \left ( n _ { ( \cdot   ) , v } ^ { i , - ( m , n ) } + \beta   _ { v } \right ) } { \Gamma   \left ( \sum   _ { r = 1 } ^ { V } n _ { ( \cdot   ) , r } ^ { i , - ( m , n ) } + \beta   _ { r } \right ) } } \Gamma   \left ( n _ { m , ( \cdot   ) } ^ { k , - ( m , n ) } + \alpha   _ { k } \right ) { \frac   { \Gamma   \left ( n _ { ( \cdot   ) , v } ^ { k , - ( m , n ) } + \beta   _ { v } \right ) } { \Gamma   \left ( \sum   _ { r = 1 } ^ { V } n _ { ( \cdot   ) , r } ^ { k , - ( m , n ) } + \beta   _ { r } \right ) } } \left ( n _ { m , ( \cdot   ) } ^ { k , - ( m , n ) } + \alpha   _ { k } \right ) { \frac   { n _ { ( \cdot   ) , v } ^ { k , - ( m , n ) } + \beta   _ { v } } { \sum   _ { r = 1 } ^ { V } n _ { ( \cdot   ) , r } ^ { k , - ( m , n ) } + \beta   _ { r } } } \\[8pt ] & = \prod   _ { i } \Gamma   \left ( n _ { m , ( \cdot   ) } ^ { i , - ( m , n ) } + \alpha   _ { i } \right ) \prod   _ { i } { \frac   { \Gamma   \left ( n _ { ( \cdot   ) , v } ^ { i , - ( m , n ) } + \beta   _ { v } \right ) } { \Gamma   \left ( \sum   _ { r = 1 } ^ { V } n _ { ( \cdot   ) , r } ^ { i , - ( m , n ) } + \beta   _ { r } \right ) } } \left ( n _ { m , ( \cdot   ) } ^ { k , - ( m , n ) } + \alpha   _ { k } \right ) { \frac   { n _ { ( \cdot   ) , v } ^ { k , - ( m , n ) } + \beta   _ { v } } { \sum   _ { r = 1 } ^ { V } n _ { ( \cdot   ) , r } ^ { k , - ( m , n ) } + \beta   _ { r } } } \\[8pt ] & \propto   \left ( n _ { m , ( \cdot   ) } ^ { k , - ( m , n ) } + \alpha   _ { k } \right ) { \frac   { n _ { ( \cdot   ) , v } ^ { k , - ( m , n ) } + \beta   _ { v } } { \sum   _ { r = 1 } ^ { V } n _ { ( \cdot   ) , r } ^ { k , - ( m , n ) } + \beta   _ { r } } } \end { a l i g n e d } } }
+K _ { d }
+K _ { w }
+p ( Z _ { d , n } = k ) \propto   { \frac   { \alpha   \beta   } { C _ { k } ^ { \neg   n } + V \beta   } } + { \frac   { C _ { k } ^ { d } \beta   } { C _ { k } ^ { \neg   n } + V \beta   } } + { \frac   { C _ { k } ^ { w } ( \alpha   + C _ { k } ^ { d } ) } { C _ { k } ^ { \neg   n } + V \beta   } }
+a , b
+c
+A = \sum   _ { k = 1 } ^ { K } { \frac   { \alpha   \beta   } { C _ { k } ^ { \neg   n } + V \beta   } }
+B = \sum   _ { k = 1 } ^ { K } { \frac   { C _ { k } ^ { d } \beta   } { C _ { k } ^ { \neg   n } + V \beta   } }
+C = \sum   _ { k = 1 } ^ { K } { \frac   { C _ { k } ^ { w } ( \alpha   + C _ { k } ^ { d } ) } { C _ { k } ^ { \neg   n } + V \beta   } }
+B
+d
+C
+w
+A
+\alpha  
+\beta  
+{ \displaystyle   s \sim   U ( s | \mid   A + B + C ) }
+A
+B
+O ( K _ { d } )
+C
+{ \displaystyle   O ( K _ { w } ) }
+K _ { d }
+K _ { w }
+O ( 1 )
+d
+\Pr ( w \mid   z )
+\Pr ( z \mid   d )
+d

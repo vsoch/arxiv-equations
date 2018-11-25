@@ -1,0 +1,10 @@
+{ \mathcal   { F } }
+\Omega  
+\delta   ( P , Q ) = \sup   _ { A \in   { \mathcal   { F } } } \left | P ( A ) - Q ( A ) \right | .
+{ \displaystyle   \delta   ( P , Q ) \leq   { \sqrt   { { \frac   { 1 } { 2 } } D _ { \mathrm   { K L }   } ( P \parallel   Q ) } } . }
+{ \displaystyle   \delta   ( P , Q ) = { \frac   { 1 } { 2 } } \|P - Q \|_ { 1 } = { \frac   { 1 } { 2 } } \sum   _ { \omega   \in   \Omega   } | P ( \omega   ) - Q ( \omega   ) | . }
+{ \displaystyle   c ( x , y ) = { \mathbf   { 1 }   } _ { x \neq   y } }
+{ \displaystyle   { \frac   { 1 } { 2 } } \|P - Q \|_ { 1 } = \delta   ( P , Q ) = \inf   _ { \pi   } \operatorname   { E }   [ { \mathbf   { 1 }   } _ { P \neq   Q } ] , }
+\pi  
+P
+Q

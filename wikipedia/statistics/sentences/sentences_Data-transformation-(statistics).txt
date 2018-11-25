@@ -1,0 +1,6 @@
+Y = a + b X
+\log ( Y ) = a + b X
+Y = e ^ { a } e ^ { { b X } }
+Y = a + b \log ( X )
+\log ( Y ) = a + b \log ( X )
+Y = e ^ { a } X ^ { { b } }

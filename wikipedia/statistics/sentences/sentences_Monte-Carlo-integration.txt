@@ -1,0 +1,47 @@
+I = \int   _ { { \Omega   } } f ( \overline   { { \mathbf     { x } } } ) \,d \overline   { { \mathbf     { x } } }
+V = \int   _ { { \Omega   } } d \overline   { { \mathbf     { x } } }
+\overline   { { \mathbf     { x } } } _ { 1 } , \cdots   , \overline   { { \mathbf     { x } } } _ { N } \in   \Omega   ,
+I \approx   Q _ { N } \equiv   V { \frac     { 1 } { N } } \sum   _ { { i = 1 } } ^ { N } f ( \overline   { { \mathbf     { x } } } _ { i } ) = V \langle   f \rangle  
+\lim   _ { { N \to   \infty   } } Q _ { N } = I
+{ \mathrm     { V a r } } ( f ) \equiv   \sigma   _ { N } ^ { 2 } = { \frac     { 1 } { N - 1 } } \sum   _ { { i = 1 } } ^ { N } \left ( f ( \overline   { { \mathbf     { x } } } _ { i } ) - \langle   f \rangle   \right ) ^ { 2 } .
+{ \mathrm     { V a r } } ( Q _ { N } ) = { \frac     { V ^ { 2 } } { N ^ { 2 } } } \sum   _ { { i = 1 } } ^ { N } { \mathrm     { V a r } } ( f ) = V ^ { 2 } { \frac     { { \mathrm     { V a r } } ( f ) } { N } } = V ^ { 2 } { \frac     { \sigma   _ { N } ^ { 2 } } { N } }
+\left \{ \sigma   _ { 1 } ^ { 2 } , \sigma   _ { 2 } ^ { 2 } , \sigma   _ { 3 } ^ { 2 } , \ldots   \right \ }
+\delta   Q _ { N } \approx   { \sqrt     { { \mathrm     { V a r } } ( Q _ { N } ) } } = V { \frac     { \sigma   _ { N } } { { \sqrt     { N } } } } ,
+{ \tfrac     { 1 } { { \sqrt     { N } } } }
+V
+{ \tfrac     { 1 } { { \sqrt     { N } } } }
+H \left ( x , y \right ) = { \begin { c a s e s } 1 & { \text { i f   } } x ^ { { 2 } } + y ^ { { 2 } } \leq   1 \\0 & { \text { e l s e } } \end { c a s e s } }
+I _ { \pi   } = \int   _ { \Omega   } H ( x , y ) d x d y = \pi   .
+Q _ { N } = 4 { \frac     { 1 } { N } } \sum   _ { { i = 1 } } ^ { N } H ( x _ { { i } } , y _ { { i } } )
+{ \tfrac     { Q _ { N } - \pi   } { \pi   } }
+{ \tfrac     { 1 } { { \sqrt     { N } } } }
+f ( x ) = { \frac     { 1 } { 1 + \sinh ( 2 x ) \log ( x ) ^ { 2 } } }
+0 . 8 < x < 3
+f ( x , y ) = { \begin { c a s e s } 1 & x ^ { 2 } + y ^ { 2 } < 1 \\0 & x ^ { 2 } + y ^ { 2 } \geq   1 \end { c a s e s } }
+E _ { a } ( f )
+E _ { b } ( f )
+\sigma   _ { a } ^ { 2 } ( f )
+\sigma   _ { b } ^ { 2 } ( f )
+E ( f ) = { \tfrac     { 1 } { 2 } } \left ( E _ { a } ( f ) + E _ { b } ( f ) \right )
+{ \mathrm     { V a r } } ( f ) = { \frac     { \sigma   _ { a } ^ { 2 } ( f ) } { 4 N _ { a } } } + { \frac     { \sigma   _ { b } ^ { 2 } ( f ) } { 4 N _ { b } } }
+{ \frac     { N _ { a } } { N _ { a } + N _ { b } } } = { \frac     { \sigma   _ { a } } { \sigma   _ { a } + \sigma   _ { b } } }
+E _ { g } ( f ; N ) = E \left ( { \tfrac     { f } { g } } ; N \right )
+{ \mathrm     { V a r } } _ { g } ( f ; N ) = { \mathrm     { V a r } } \left ( { \tfrac     { f } { g } } ; N \right )
+g = { \tfrac     { | f | } { I ( | f | ) } }
+V _ { g } ( f ; N )
+g ( x _ { 1 } , x _ { 2 } , \ldots   ) = g _ { 1 } ( x _ { 1 } ) g _ { 2 } ( x _ { 2 } ) \ldots  
+\overline   { { \mathbf     { x } } }
+p ( \overline   { { \mathbf     { x } } } )
+p ( \overline   { { \mathbf     { x } } } )
+p ( \overline   { { \mathbf     { x } } } ) : \qquad   \overline   { { \mathbf     { x } } } _ { 1 } , \cdots   , \overline   { { \mathbf     { x } } } _ { N } \in   V ,
+Q _ { N } \equiv   { \frac     { 1 } { N } } \sum   _ { { i = 1 } } ^ { N } { \frac     { f ( \overline   { { \mathbf     { x } } } _ { i } ) } { p ( \overline   { { \mathbf     { x } } } _ { i } ) } }
+p ( \overline   { { \mathbf     { x } } } )
+\overline   { { \mathbf     { x } } }
+p ( \overline   { { \mathbf     { x } } } )
+{ \displaystyle   p _ { n } ( { \overline   { \mathbf   { x }   } } ) }
+n = 1 , \ldots , N ,
+{ \displaystyle   { \overline   { \mathbf   { x }   } } _ { 1 } , \cdots   , { \overline   { \mathbf   { x }   } } _ { N } \in   V , }
+{ \displaystyle   p _ { n , t } ( { \overline   { \mathbf   { x }   } } ) }
+n = 1 , \ldots , N ,
+t = 1 , \ldots , T ,
+t

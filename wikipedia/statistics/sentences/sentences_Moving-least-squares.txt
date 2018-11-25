@@ -1,0 +1,13 @@
+f : \mathbb   { R }   ^ { n } \to   \mathbb   { R }  
+S   =   \{   ( x _ i , f _ i )   |   f ( x _ i )   =   f _ i   \ }  
+m
+x
+\tilde { p } ( x )
+{ \tilde     { p } }
+\sum_ { i   \in   I }   ( p ( x _ i ) - f _ i ) ^ 2 \theta ( \|x - x _ i \ | )
+p
+m
+\mathbb   { R }   ^ { n }
+\theta ( s )
+s \to   \infty
+\theta ( s )   =   e ^ { - s ^ 2 }

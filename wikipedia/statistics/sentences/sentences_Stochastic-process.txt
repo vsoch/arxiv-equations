@@ -1,0 +1,201 @@
+n
+n
+n
+n
+n
+R ^ { n }
+{ \displaystyle   \{ X ( t ) \}_ { t \in   T } }
+{ \displaystyle   \{ X _ { t } \}_ { t \in   T } }
+{ \displaystyle   \{ X _ { t } \ } }
+{ \displaystyle   \{ X ( t ) \ } }
+X
+X ( t )
+X ( t )
+X ( t )
+X _ { t }
+t
+{ \displaystyle   T = [ 0 , \infty   ) }
+{ \displaystyle   ( X _ { t } , t \geq   0 ) }
+p
+1 - p
+p
+p
+1 - p
+p = 0 . 5
+n
+\mu  
+\mu  
+t
+n
+n
+X _ { 1 } , X _ { 2 } , X _ { 3 } , \dots  
+{ \displaystyle   X _ { 1 } , X _ { 1 } + X _ { 2 } , X _ { 1 } + X _ { 2 } + X _ { 3 } , \dots   }
+X
+n
+{ \displaystyle   0 \leq   t _ { 1 } \leq   \dots   \leq   t _ { n } }
+n - 1
+{ \displaystyle   X _ { t _ { 2 } } - X _ { t _ { 1 } } , \dots   , X _ { t _ { n - 1 } } - X _ { t _ { n } } , }
+{ \displaystyle   I = [ 0 , \infty   ) }
+n
+n
+n
+( \Omega   , { \mathcal   { F } } , P )
+\Omega  
+{ \mathcal   { F } }
+\sigma  
+P
+T
+S
+\sigma  
+\Sigma  
+( \Omega   , { \mathcal   { F } } , P )
+( S , \Sigma   )
+S
+{ \displaystyle   \{ X ( t ) : t \in   T \ } . }
+t \in   T
+X ( t )
+t
+{ \displaystyle   \{ X ( t , \omega   ) : t \in   T \ } }
+t \in   T
+{ \displaystyle   \omega   \in   \Omega   }
+{ \displaystyle   S ^ { T } }
+{ \displaystyle   S ^ { T } }
+S
+t \in   T
+T
+S
+T
+T
+T
+R ^ { 2 }
+n
+t \in   T
+S
+n
+{ \displaystyle   \{ X ( t , \omega   ) : t \in   T \ } }
+\omega   \in   \Omega  
+{ \displaystyle   X ( \cdot   , \omega   ) : T \rightarrow   S , }
+T
+{ \displaystyle   \{ X ( t , \omega   ) : t \in   T \ } }
+\omega   \in   \Omega  
+T
+S
+{ \displaystyle   \{ X ( t ) : t \in   T \ } }
+S
+{ \displaystyle   T = [ 0 , \infty   ) }
+{ \displaystyle   t _ { 1 } \in   [ 0 , \infty   ) }
+{ \displaystyle   t _ { 2 } \in   [ 0 , \infty   ) }
+{ \displaystyle   t _ { 1 } \leq   t _ { 2 } }
+{ \displaystyle   X _ { t _ { 2 } } - X _ { t _ { 1 } } }
+S
+S
+n
+{ \displaystyle   X \colon   \Omega   \rightarrow   S ^ { T } }
+( \Omega   , { \mathcal   { F } } , P )
+X
+{ \displaystyle   \mu   = P \circ   X ^ { - 1 } , }
+P
+\circ  
+{ \displaystyle   X ^ { - 1 } }
+{ \displaystyle   S ^ { T } }
+X
+{ \displaystyle   S ^ { T } }
+S
+t \in   T
+B
+{ \displaystyle   S ^ { T } }
+X
+{ \displaystyle   X ^ { - 1 } ( B ) = \{ \omega   \in   \Omega   : X ( \omega   ) \in   B \ } , }
+X
+{ \displaystyle   \mu   ( B ) = P ( \{ \omega   \in   \Omega   : X ( \omega   ) \in   B \ } ) . }
+X
+\mu  
+{ \displaystyle   \mu   _ { t _ { 1 } , \dots   , t _ { n } } = P \circ   ( X ( { t _ { 1 } } ) , \dots   , X ( { t _ { n } } ) ) ^ { - 1 } , }
+n \geq   1
+t _ { i }
+T
+{ \displaystyle   t _ { i } \subset   T }
+{ \displaystyle   t _ { 1 } , \dots   , t _ { n } }
+T
+C
+n
+{ \displaystyle   S ^ { n } = S \times   \dots   \times   S }
+X
+{ \displaystyle   \mu   _ { t _ { 1 } , \dots   , t _ { n } } ( C ) = P { \Big   ( } { \big   \{ } \omega   \in   \Omega   : { \big   ( } X _ { t _ { 1 } } ( \omega   ) , \dots   , X _ { t _ { n } } ( \omega   ) { \big   ) } \in   C { \big   \}}{ \Big   ) } . }
+X
+t \in   T
+X _ { t }
+n
+{ \displaystyle   t _ { 1 } , \dots   , t _ { n } }
+n
+{ \displaystyle   X _ { t _ { 1 } } , \dots   X _ { t _ { n } } , }
+T
+X
+X
+t \in   T
+X _ { t }
+{ \displaystyle   X _ { t + h } }
+h
+t \in   T
+{ \displaystyle   \{ { \mathcal   { F } } _ { t } \}_ { t \in   T } }
+( \Omega   , { \mathcal   { F } } , P )
+{ \displaystyle   { \mathcal   { F } } _ { s } \subseteq   { \mathcal   { F } } _ { t } \subseteq   { \mathcal   { F } } }
+s \leq   t
+{ \displaystyle   t , s \in   T }
+\leq  
+T
+X _ { t }
+t \in   T
+t
+{ \mathcal   { F } } _ { t }
+t
+X _ { t }
+{ \mathcal   { F } } _ { t }
+\Omega  
+X
+T
+S
+{ \displaystyle   ( \Omega   , { \cal   { F } } , P ) }
+Y
+Y
+t \in   T
+{ \displaystyle   P ( X _ { t } = Y _ { t } ) = 1 , }
+n
+X
+Y
+( \Omega   , { \mathcal   { F } } , P )
+T
+S
+{ \displaystyle   P ( X _ { t } = Y _ { t } { \text {   f o r   a l l   } } t \in   T ) = 1 , }
+X
+Y
+X
+Y
+X
+{ \displaystyle   ( \Omega   , { \cal   { F } } , P ) }
+T
+{ \displaystyle   U \subset   T }
+{ \displaystyle   \Omega   _ { 0 } \subset   \Omega   }
+{ \displaystyle   P ( \Omega   _ { 0 } ) = 0 }
+{ \displaystyle   G \subset   T }
+{ \displaystyle   F \subset   \textstyle   R = ( - \infty   , \infty   ) }
+{ \displaystyle   \{ X _ { t } \in   F { \text {   f o r   a l l   } } t \in   G \cap   U \ } }
+{ \displaystyle   \{ X _ { t } \in   F { \text {   f o r   a l l   } } t \in   G \ } }
+\Omega   _ { 0 }
+n
+[ 0 , 1 ]
+[ 0 , \infty   )
+D
+D
+{ \displaystyle   D [ 0 , 1 ] }
+[ 0 , 1 ]
+n
+X
+T
+X
+t \in   T
+X
+t \in   T
+X
+t \in   T
+n

@@ -1,0 +1,1 @@
+\frac { \mbox { n u m b e r   o f   n e w   c a s e s   i n   t h e   p o p u l a t i o n   a t   r i s k } } { \mbox { n u m b e r   o f   p e r s o n s   a t   r i s k   i n   t h e   p o p u l a t i o n } } = \mbox { R a t e }

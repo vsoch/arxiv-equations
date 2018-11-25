@@ -1,0 +1,76 @@
+{ \displaystyle   { \mathcal   { D } } = \{ d _ { 1 } , d _ { 2 } . . . , d _ { h } \ } }
+{ \displaystyle   p _ { 1 } , p _ { 2 } , . . . , p _ { h } }
+d ^ { * }
+{ \displaystyle   \sum   _ { i = 1 } ^ { h } p _ { i } d _ { i } }
+{ \displaystyle   R ( \theta   , d ^ { * } ) }
+{ \displaystyle   \sum   _ { i = 1 } ^ { h } p _ { i } R ( \theta   , d _ { i } ) }
+{ \displaystyle   d _ { 1 } , . . . , d _ { h } \in   { \mathcal   { D } } }
+{ \displaystyle   p _ { 1 } , . . . p _ { h } }
+{ \mathcal   { A } }
+{ \displaystyle   d ^ { * } ( x , A ) }
+{ \displaystyle   a \in   { \mathcal   { A } } }
+{ \displaystyle   \int   _ { A \in   { \mathcal   { A } } } d ^ { * } ( x , A ) L ( \theta   , A ) d A }
+\mathcal   D
+{ \displaystyle   { \mathcal   { D } } ^ { * } }
+k
+{ \mathcal   { S } }
+{ \displaystyle   ( R ( \theta   _ { 1 } , d ^ { * } ) , . . . R ( \theta   _ { k } , d ^ { * } ) ) , d ^ { * } \in   { \mathcal   { D } } ^ { * } }
+{ \displaystyle   ( R ( \theta   _ { 1 } , d ) , . . . R ( \theta   _ { k } , d ) ) , d \in   { \mathcal   { D } } }
+\theta   _ { 1 }
+\theta   _ { 2 }
+\mathbb   { R }   ^ { 2 }
+R _ { 1 }
+R _ { 2 }
+\theta   _ { 1 }
+\theta   _ { 2 }
+( a , b )
+{ \displaystyle   \{ ( R _ { 1 } , R _ { 2 } ) : R _ { 1 } \leq   a , R _ { 2 } \leq   b \}\cap   { \mathcal   { S } } = ( a , b ) }
+{ \displaystyle   \sup   _ { \theta   \in   \Theta   } R ( \theta   , d ^ { * } ) }
+{ \displaystyle   { \mathcal   { D } } ^ { * } }
+{ \displaystyle   Q ( c ) = \{ ( R _ { 1 } , R _ { 2 } ) : 0 \leq   R _ { 1 } \leq   c , 0 \leq   R _ { 2 } \leq   c \ } }
+c
+{ \mathcal   { S } }
+{ \displaystyle   R _ { 1 } = R _ { 2 } }
+{ \displaystyle   R _ { 2 } > R _ { 1 } }
+{ \displaystyle   R _ { 1 } > R _ { 2 } }
+{ \displaystyle   ( 1 - p ) d _ { 1 } + p d _ { 2 } }
+d _ { 2 }
+{ \displaystyle   ( 1 - p ) d _ { 1 } + p d _ { 2 } }
+0   \leq   p   \leq   1
+{ \displaystyle   r ( \pi   , d ^ { * } ) }
+{ \displaystyle   \pi   _ { 1 } R _ { 1 } + ( 1 - \pi   _ { 1 } ) R _ { 2 } = c }
+\pi   _ { 1 }
+\pi   _ { 2 }
+\theta   _ { 1 }
+\theta   _ { 2 }
+c
+c
+{ \displaystyle   ( 1 - p ) d _ { 1 } + p d _ { 2 } }
+0   \leq   p   \leq   1
+d _ { 1 }
+d _ { 2 }
+\Lambda  
+K
+\Lambda  
+{ \displaystyle   \Lambda   = K }
+\phi   ( x )
+{ \displaystyle   \phi   ( x ) = \left \{ { \begin { a r r a y } { l } 1 & { \text {   i f   } } \Lambda   > K \\p ( x ) & { \text {   i f   } } \Lambda   = K \\0 & { \text {   i f   } } \Lambda   < K \end { a r r a y } } \right . }
+p ( x )
+{ \displaystyle   \Lambda   = k }
+\alpha  
+\alpha  
+p
+{ \displaystyle   p \leq   \lambda   }
+{ \displaystyle   p > \lambda   }
+k
+{ \displaystyle   P ( { \hat   { p } } > k | H _ { 0 } ) = \alpha   }
+{ \displaystyle   { \hat   { p } } > k }
+{ \hat   { p } }
+{ \displaystyle   { \hat   { p } } = k }
+{ \displaystyle   \phi   ( x ) = \left \{ { \begin { a r r a y } { l } 1 & { \text {   i f   } } { \hat   { p } } > k \\\gamma   & { \text {   i f   } } { \hat   { p } } = k \\0 & { \text {   i f   } } { \hat   { p } } < k \end { a r r a y } } \right . }
+\gamma  
+{ \displaystyle   P ( { \hat   { p } } > k | H _ { 0 } ) + \gamma   P ( { \hat   { p } } = k | H _ { 0 } ) = \alpha   }
+U
+L
+{ \displaystyle   \left \{ { \begin { a r r a y } { l } P r ( { \hat   { p } } < k | p = U ) + \gamma   P ( { \hat   { p } } = k | p = U ) & = \alpha   / 2 \\Pr ( { \hat   { p } } > k | p = L ) + \gamma   P ( { \hat   { p } } = k | p = L ) & = \alpha   / 2 \end { a r r a y } } \right . }
+\gamma  

@@ -1,1 +1,0 @@
-{ \displaystyle   \mathbb   { E }   ( W _ { q } ) \approx   \left ( { \frac   { \rho   } { 1 - \rho   } } \right ) \left ( { \frac   { c _ { a } ^ { 2 } + c _ { s } ^ { 2 } } { 2 } } \right ) \tau   }

@@ -1,0 +1,36 @@
+{ \displaystyle   1 / R _ { \mathrm   { T O T }   } }
+{ \displaystyle   k _ { \mathrm   { D }   } }
+k _ { \mathrm   { B }   }
+{ \displaystyle   k _ { \mathrm   { D }   } }
+{ \displaystyle   n _ { \mathrm   { A }   } }
+{ \displaystyle   n _ { \mathrm   { B }   } }
+{ \displaystyle   k _ { \mathrm   { D }   } n _ { \mathrm   { A }   } n _ { \mathrm   { B }   } }
+{ \displaystyle   n _ { \mathrm   { A B }   } }
+{ \displaystyle   k _ { \mathrm   { B }   } n _ { \mathrm   { A B }   } }
+{ \displaystyle   R _ { \mathrm   { T O T }   } }
+{ \displaystyle   R _ { \mathrm   { T O T }   } = k _ { \mathrm   { D }   } n _ { \mathrm   { A }   } n _ { \mathrm   { B }   } + k _ { \mathrm   { B }   } n _ { \mathrm   { A B }   } }
+{ \displaystyle   R _ { \mathrm   { T O T }   } }
+{ \displaystyle   1 / R _ { \mathrm   { T O T }   } }
+{ \displaystyle   P ( { \ce   { { A } +   B   - >   A B } } ) = k _ { D } n _ { A } n _ { B } / R _ { { \ce   { T O T } } } }
+{ \displaystyle   n _ { \mathrm   { A }   } }
+{ \displaystyle   n _ { \mathrm   { B }   } }
+{ \displaystyle   n _ { \mathrm   { A B }   } }
+{ \displaystyle   n _ { \mathrm   { A }   } }
+{ \displaystyle   n _ { \mathrm   { B }   } }
+{ \displaystyle   n _ { \mathrm   { A B }   } }
+{ \displaystyle   n _ { \mathrm   { A }   } = n _ { \mathrm   { B }   } = 1 0 }
+{ \displaystyle   n _ { \mathrm   { A B }   } = 0 }
+{ \displaystyle   k _ { \mathrm   { D }   } = 2 }
+{ \displaystyle   k _ { \mathrm   { B }   } = 1 }
+{ \displaystyle   n _ { \mathrm   { A B }   } }
+N
+{ \displaystyle   n _ { S } }
+{ \displaystyle   n _ { I } }
+{ \displaystyle   n _ { R } }
+{ \displaystyle   N = n _ { S } + n _ { I } + n _ { R } }
+{ \displaystyle   n _ { I } }
+{ \displaystyle   \alpha   n _ { I } }
+{ \displaystyle   { \frac   { d n _ { S } } { d t } } = - { \frac   { \alpha   n _ { S } } { N } } n _ { I } }
+{ \displaystyle   { \frac   { d n _ { I } } { d t } } = \left ( { \frac   { \alpha   n _ { S } } { N } } - \beta   \right ) n _ { I } }
+{ \displaystyle   { \frac   { d n _ { R } } { d t } } = \beta   n _ { I } }
+{ \displaystyle   \mathrm   { E }   [ n | t ] }

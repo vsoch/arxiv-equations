@@ -1,0 +1,3 @@
+\lim_ { t   \to   \infty }   \frac { 1 } { t } \int_0 ^ t   X ( s )   d s =   \frac { \mathbb { E } [ R ] } { \mathbb { E } [ \tau ] } .
+\tau  
+R = \int_0 ^ \tau   X ( s )   d s

@@ -1,0 +1,64 @@
+\tau  
+\rho  
+\tau  
+\rho  
+n
+x
+y
+\{ x _ { i } \}_ { { i \leq   n } }
+\{ y _ { i } \}_ { { i \leq   n } }
+i
+j
+x
+a _ { i j }
+y
+b _ { i j }
+a _ { i j }
+b _ { i j }
+i = j
+a _ { { i j } } = - a _ { { j i } }
+b _ { { i j } } = - b _ { { j i } }
+\Gamma  
+\Gamma   = { \frac     { \sum   _ { { i , j = 1 } } ^ { n } a _ { { i j } } b _ { { i j } } } { { \sqrt     { \sum   _ { { i , j = 1 } } ^ { n } a _ { { i j } } ^ { 2 } \sum   _ { { i , j = 1 } } ^ { n } b _ { { i j } } ^ { 2 } } } } }
+\tau  
+r _ { i }
+s _ { i }
+i
+x
+y
+{ \displaystyle   a _ { i j } = \operatorname   { s g n } ( r _ { j } - r _ { i } ) , \quad   b _ { i j } = \operatorname   { s g n } ( s _ { j } - s _ { i } ) . }
+\sum   a _ { { i j } } b _ { { i j } }
+\sum   a _ { { i j } } ^ { 2 }
+n ( n - 1 ) / 2
+a _ { i j }
+\sum   b _ { { i j } } ^ { 2 }
+{ \displaystyle   \Gamma   = { \frac   { 2 \,( ( { \text { n u m b e r   o f   c o n c o r d a n t   p a i r s } } ) - ( { \text { n u m b e r   o f   d i s c o r d a n t   p a i r s } } ) ) } { \sqrt   { n ( n - 1 ) n ( n - 1 ) } } } = { \text { K e n d a l l ' s   } } \tau   }
+\rho  
+r _ { i }
+s _ { i }
+i
+x
+y
+a _ { { i j } } = r _ { j } - r _ { i }
+b _ { { i j } } = s _ { j } - s _ { i }
+\sum   a _ { { i j } } ^ { 2 }
+\sum   b _ { { i j } } ^ { 2 }
+r _ { i }
+s _ { i }
+1
+n
+\Gamma   = { \frac     { \sum   ( r _ { j } - r _ { i } ) ( s _ { j } - s _ { i } ) } { \sum   ( r _ { j } - r _ { i } ) ^ { 2 } } }
+{ \displaystyle   { \begin { a l i g n e d } \sum   _ { i , j = 1 } ^ { n } ( r _ { j } - r _ { i } ) ( s _ { j } - s _ { i } ) & = \sum   _ { i = 1 } ^ { n } \sum   _ { j = 1 } ^ { n } r _ { i } s _ { i } + \sum   _ { i = 1 } ^ { n } \sum   _ { j = 1 } ^ { n } r _ { j } s _ { j } & - \sum   _ { i = 1 } ^ { n } \sum   _ { j = 1 } ^ { n } r _ { i } s _ { j } - \sum   _ { i = 1 } ^ { n } \sum   _ { j = 1 } ^ { n } r _ { j } s _ { i } \\&=2n \sum   _ { i = 1 } ^ { n } r _ { i } s _ { i } & - 2 \sum   _ { i = 1 } ^ { n } r _ { i } \sum   _ { j = 1 } ^ { n } s _ { j } \\&=2n \sum   _ { i = 1 } ^ { n } r _ { i } s _ { i } & - 2 ( { \frac   { 1 } { 2 } } n ( n + 1 ) ) ^ { 2 } \\&=2n \sum   _ { i = 1 } ^ { n } r _ { i } s _ { i } - { \frac   { 1 } { 2 } } n ^ { 2 } ( n + 1 ) ^ { 2 } \\\end { a l i g n e d } } }
+S = \sum   _ { { i = 1 } } ^ { n } ( r _ { i } - s _ { i } ) ^ { 2 } = 2 \sum   r _ { i } ^ { 2 } - 2 \sum   r _ { i } s _ { i }
+\sum   ( r _ { j } - r _ { i } ) ( s _ { j } - s _ { i } ) = 2 n \sum   r _ { i } ^ { 2 } - { \frac     1 2 } n ^ { 2 } ( n + 1 ) ^ { 2 } - n S
+\sum   r _ { i } ^ { 2 }
+n
+{ \frac     1 6 } n ( n + 1 ) ( 2 n + 1 )
+\sum   ( r _ { j } - r _ { i } ) ( s _ { j } - s _ { i } ) = { \frac     1 6 } n ^ { 2 } ( n ^ { 2 } - 1 ) - n S
+\sum   ( r _ { j } - r _ { i } ) ^ { 2 } = 2 n \sum   r _ { i } ^ { 2 } - 2 \sum   r _ { i } r _ { j }
+= 2 n \sum   r _ { i } ^ { 2 } - 2 ( \sum   r _ { i } ) ^ { 2 } = { \frac     1 6 } n ^ { 2 } ( n ^ { 2 } - 1 )
+\Gamma   _ { R } = 1 - { \frac     { 6 \sum   d _ { i } ^ { 2 } } { n ^ { 3 } - n } }
+{ \displaystyle   d _ { i } = r _ { i } - s _ { i } , }
+\rho  
+\rho  
+r = f - u

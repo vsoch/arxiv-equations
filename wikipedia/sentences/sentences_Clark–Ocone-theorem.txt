@@ -1,8 +1,0 @@
-{ \displaystyle   F ( \sigma   ) = \int   _ { C _ { 0 } } F ( p ) \,\mathrm   { d }   \gamma   ( p ) + \int   _ { 0 } ^ { T } \mathbf   { E }   \left [ \left . { \frac   { \partial   } { \partial   t } } \nabla   _ { H } F ( - ) \right | \Sigma   _ { t } \right ] ( \sigma   ) \,\mathrm   { d }   \sigma   _ { t } . }
-\int   _ { { C _ { { 0 } } } } F ( p ) \,{ \mathrm     { d } } \gamma   ( p ) = { \mathbf     { E } } [ F ]
-\int   _ { 0 } ^ { T } \cdots   \,{ \mathrm     { d } } \sigma   ( t )
-{ \dot     { V } } = { \frac     { \partial   V } { \partial   t } } : [ 0 , T ] \times   C _ { { 0 } } \to   { \mathbb     { R } }
-\int   _ { { C _ { { 0 } } } } { \mathrm     { D } } F ( \sigma   ) ( V ( \sigma   ) ) \,{ \mathrm     { d } } \gamma   ( \sigma   ) = \int   _ { { C _ { { 0 } } } } F ( \sigma   ) \left ( \int   _ { { 0 } } ^ { { T } } { \dot     { V } } _ { { t } } ( \sigma   ) \,{ \mathrm     { d } } \sigma   _ { { t } } \right ) \,{ \mathrm     { d } } \gamma   ( \sigma   ) ,
-\int   _ { { C _ { { 0 } } } } \left \langle   \nabla   _ { { H } } F ( \sigma   ) , V ( \sigma   ) \right \rangle   _ { { L _ { { 0 } } ^ { { 2 , 1 } } } } \,{ \mathrm     { d } } \gamma   ( \sigma   ) = - \int   _ { { C _ { { 0 } } } } F ( \sigma   ) \operatorname   { d i v } ( V ) ( \sigma   ) \,{ \mathrm     { d } } \gamma   ( \sigma   )
-{ \mathbb     { E } } { \big   [ } \langle   \nabla   _ { { H } } F , V \rangle   { \big   ] } = - { \mathbb     { E } } { \big   [ } F \operatorname   { d i v } V { \big   ] } ,
-\operatorname   { d i v } ( V ) ( \sigma   ) : = - \int   _ { { 0 } } ^ { { T } } { \dot     { V } } _ { { t } } ( \sigma   ) \,{ \mathrm     { d } } \sigma   _ { { t } } .

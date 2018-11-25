@@ -1,0 +1,10 @@
+{ \displaystyle   ~ \tau   _ { t } ~ }
+{ \displaystyle   ~ \tau   _ { t } = \theta   _ { t } z _ { t } ~ }
+z _ { t }
+{ \displaystyle   \operatorname   { E }   ( z _ { t } ) = 1 }
+{ \displaystyle   ~ \theta   _ { t } ~ }
+{ \displaystyle   \theta   _ { t } = \alpha   _ { 0 } + \alpha   _ { 1 } \tau   _ { t - 1 } + \cdots   + \alpha   _ { q } \tau   _ { t - q } + \beta   _ { 1 } \theta   _ { t - 1 } + \cdots   + \beta   _ { p } \theta   _ { t - p } = \alpha   _ { 0 } + \sum   _ { i = 1 } ^ { q } \alpha   _ { i } \tau   _ { t - i } + \sum   _ { i = 1 } ^ { p } \beta   _ { i } \theta   _ { t - i } }
+~ \alpha   _ { 0 } > 0 ~
+{ \displaystyle   \alpha   _ { i } \geq   0 }
+{ \displaystyle   \beta   _ { i } \geq   0 }
+{ \displaystyle   ~ i > 0 }

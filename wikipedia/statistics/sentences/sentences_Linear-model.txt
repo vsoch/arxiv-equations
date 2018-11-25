@@ -1,0 +1,6 @@
+( Y _ { i } , X _ { { i 1 } } , \ldots   , X _ { { i p } } ) , \,i = 1 , \ldots   , n
+Y _ { i } = \beta   _ { 0 } + \beta   _ { 1 } \phi   _ { 1 } ( X _ { { i 1 } } ) + \cdots   + \beta   _ { p } \phi   _ { p } ( X _ { { i p } } ) + \varepsilon   _ { i } \qquad   i = 1 , \ldots   , n
+\phi   _ { 1 } , \ldots   , \phi   _ { p }
+{ \hat     { Y } } _ { i } = \beta   _ { 0 } + \beta   _ { 1 } \phi   _ { 1 } ( X _ { { i 1 } } ) + \cdots   + \beta   _ { p } \phi   _ { p } ( X _ { { i p } } ) \qquad   ( i = 1 , \ldots   , n ) ,
+S = \sum   _ { { i = 1 } } ^ { n } \left ( Y _ { i } - \beta   _ { 0 } - \beta   _ { 1 } \phi   _ { 1 } ( X _ { { i 1 } } ) - \cdots   - \beta   _ { p } \phi   _ { p } ( X _ { { i p } } ) \right ) ^ { 2 } .
+X _ { t } = c + \varepsilon   _ { t } + \sum   _ { { i = 1 } } ^ { p } \phi   _ { i } X _ { { t - i } } + \sum   _ { { i = 1 } } ^ { q } \theta   _ { i } \varepsilon   _ { { t - i } } . \ ,

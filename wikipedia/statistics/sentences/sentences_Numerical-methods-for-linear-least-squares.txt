@@ -1,0 +1,24 @@
+\operatorname   { \,min }   \,{ \big   \|}\mathbf   { y }   - X { \boldsymbol   { \beta   } } { \big   \|}^ { 2 }
+{ \boldsymbol   { \beta   } } = S \mathbf   { y }  
+X { \boldsymbol   { \beta   } } = X ( S \mathbf   { y }   ) = ( X S ) \mathbf   { y }  
+\mathbf   { y }  
+{ \hat   { \boldsymbol   { \beta   } } } = ( \mathbf   { X }   ^ { \rm   { T } } \mathbf   { X }   ) ^ { - 1 } \mathbf   { X }   ^ { \rm   { T } } \mathbf   { y }   = \mathbf   { X }   ^ { + } \mathbf   { y }  
+R ^ { \rm   { T } } R { \hat   { \boldsymbol   { \beta   } } } = X ^ { \rm   { T } } \mathbf   { y }   .
+R ^ { \rm   { T } } \mathbf   { z }   = X ^ { \rm   { T } } \mathbf   { y }   ,
+{ \hat   { \boldsymbol   { \beta   } } }
+R { \hat   { \boldsymbol   { \beta   } } } = \mathbf   { z }   .
+\mathbf   { r }   = \mathbf   { y }   - X { \hat   { \boldsymbol   { \beta   } } } .
+{ \displaystyle   X = Q { \begin { p m a t r i x } R \\0 \end { p m a t r i x } } \   }
+r _ { i i } > 0
+{ \displaystyle   Q ^ { \rm   { T } } \mathbf   { r }   = Q ^ { \rm   { T } } \mathbf   { y }   - \left ( Q ^ { \rm   { T } } Q \right ) { \begin { p m a t r i x } R \\0 \end { p m a t r i x } } { \hat   { \boldsymbol   { \beta   } } } = { \begin { b m a t r i x } \left ( Q ^ { \rm   { T } } \mathbf   { y }   \right ) _ { n } - R { \hat   { \boldsymbol   { \beta   } } } \\\left ( Q ^ { \rm   { T } } \mathbf   { y }   \right ) _ { m - n } \end { b m a t r i x } } = { \begin { b m a t r i x } \mathbf   { u }   \\\mathbf   { v }   \end { b m a t r i x } } }
+s = \|\mathbf   { r }   \|^ { 2 } = \mathbf   { r }   ^ { \rm   { T } } \mathbf   { r }   = \mathbf   { r }   ^ { \rm   { T } } Q Q ^ { \rm   { T } } \mathbf   { r }   = \mathbf   { u }   ^ { \rm   { T } } \mathbf   { u }   + \mathbf   { v }   ^ { \rm   { T } } \mathbf   { v }  
+R { \hat   { \boldsymbol   { \beta   } } } = \left ( Q ^ { \rm   { T } } \mathbf   { y }   \right ) _ { n } .
+X = U \Sigma   V ^ { \rm   { T } } \  
+\Sigma  
+\Sigma  
+\mathbf   { X }   \mathbf   { X }   ^ { + } = U \Sigma   V ^ { \rm   { T } } V \Sigma   ^ { + } U ^ { \rm   { T } } = U P U ^ { \rm   { T } } ,
+\Sigma  
+( \mathbf   { X }   \mathbf   { X }   ^ { + } ) ^ { * } = \mathbf   { X }   \mathbf   { X }   ^ { + }
+U P U ^ { \rm   { T } }
+S = \mathbf   { X }   ^ { + }
+\beta   = V \Sigma   ^ { + } U ^ { \rm   { T } } \mathbf   { y }  

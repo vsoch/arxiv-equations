@@ -1,0 +1,82 @@
+\operatorname   { E }   ( \mathbf   { Y }   ) = { \boldsymbol   { \mu   } } = g ^ { - 1 } ( \mathbf   { X }   { \boldsymbol   { \beta   } } )
+\operatorname   { V a r }   ( \mathbf   { Y }   ) = \operatorname   { V }   ( { \boldsymbol   { \mu   } } ) = \operatorname   { V }   ( g ^ { - 1 } ( \mathbf   { X }   { \boldsymbol   { \beta   } } ) ) .
+{ \boldsymbol   { \theta   } }
+\tau  
+{ \displaystyle   f _ { Y } ( \mathbf   { y }   \mid   { \boldsymbol   { \theta   } } , \tau   ) = h ( \mathbf   { y }   , \tau   ) \exp   \left ( { \frac   { \mathbf   { b }   ( { \boldsymbol   { \theta   } } ) ^ { \rm   { T } } \mathbf   { T }   ( y ) - A ( { \boldsymbol   { \theta   } } ) } { d ( \tau   ) } } \right ) . \ , \ ! }
+\tau  
+h ( \mathbf   { y }   , \tau   )
+\mathbf   { b }   ( { \boldsymbol   { \theta   } } )
+\mathbf   { T }   ( y )
+A ( { \boldsymbol   { \theta   } } )
+d ( \tau   )
+Y
+\theta  
+{ \displaystyle   f _ { Y } ( y \mid   \theta   , \tau   ) = h ( y , \tau   ) \exp   \left ( { \frac   { b ( \theta   ) T ( y ) - A ( \theta   ) } { d ( \tau   ) } } \right ) . \ , \ ! }
+{ \boldsymbol   { \theta   } }
+\mathbf   { b }   ( { \boldsymbol   { \theta   } } )
+{ \boldsymbol   { \theta   } }
+{ \boldsymbol   { \theta   } } '
+{ \boldsymbol   { \theta   } } = \mathbf   { b }   ( { \boldsymbol   { \theta   } } ' )
+A ( { \boldsymbol   { \theta   } } )
+\mathbf   { b }   ( { \boldsymbol   { \theta   } } ' )
+\mathbf   { T }   ( y )
+\tau  
+{ \boldsymbol   { \theta   } }
+{ \boldsymbol   { \mu   } } = \operatorname   { E }   ( \mathbf   { Y }   ) = \nabla   A ( { \boldsymbol   { \theta   } } ) . \ , \ !
+Y
+\theta  
+\mu   = \operatorname   { E }   ( Y ) = A ' ( \theta   ) . \ , \ !
+{ \displaystyle   \operatorname   { V a r }   ( \mathbf   { Y }   ) = \nabla   ^ { 2 } A ( { \boldsymbol   { \theta   } } ) d ( \tau   ) . \ , \ ! }
+Y
+\theta  
+\operatorname   { V a r }   ( Y ) = A ' ' ( \theta   ) d ( \tau   ) . \ , \ !
+\eta   = \mathbf   { X }   { \boldsymbol   { \beta   } } . \ ,
+\theta  
+\theta  
+\mu  
+\theta   = b ( \mu   )
+\mu  
+b ( \mu   )
+b ( \mu   ) = \theta   = \mathbf   { X }   { \boldsymbol   { \beta   } }
+\mathbf   { X }   ^ { \rm   { T } } \mathbf   { Y }  
+{ \boldsymbol   { \beta   } }
+{ \displaystyle   \mathbf   { X }   { \boldsymbol   { \beta   } } = g ( \mu   ) \ , \ ! }
+( - \infty   , + \infty   )
+\mathbf   { X }   { \boldsymbol   { \beta   } } = \mu   \ , \ !
+\mu   = \mathbf   { X }   { \boldsymbol   { \beta   } } \ , \ !
+( 0 , + \infty   )
+\mathbf   { X }   { \boldsymbol   { \beta   } } = - \mu   ^ { - 1 } \ , \ !
+\mu   = - ( \mathbf   { X }   { \boldsymbol   { \beta   } } ) ^ { - 1 } \ , \ !
+( 0 , + \infty   )
+{ \displaystyle   \mathbf   { X }   { \boldsymbol   { \beta   } } = \mu   ^ { - 2 } \ , \ ! }
+{ \displaystyle   \mu   = ( \mathbf   { X }   { \boldsymbol   { \beta   } } ) ^ { - 1 / 2 } \ , \ ! }
+0 , 1 , 2 , \ldots  
+{ \displaystyle   \mathbf   { X }   { \boldsymbol   { \beta   } } = \ln ( \mu   ) \ , \ ! }
+{ \displaystyle   \mu   = \exp ( \mathbf   { X }   { \boldsymbol   { \beta   } } ) \ , \ ! }
+\{ 0 , 1 \ }
+{ \displaystyle   \mathbf   { X }   { \boldsymbol   { \beta   } } = \ln   \left ( { \frac   { \mu   } { 1 - \mu   } } \right ) \ , \ ! }
+{ \displaystyle   \mu   = { \frac   { \exp ( \mathbf   { X }   { \boldsymbol   { \beta   } } ) } { 1 + \exp ( \mathbf   { X }   { \boldsymbol   { \beta   } } ) } } = { \frac   { 1 } { 1 + \exp ( - \mathbf   { X }   { \boldsymbol   { \beta   } } ) } } \ , \ ! }
+0 , 1 , \ldots   , N
+[ 0 , K )
+[ 0 , 1 ]
+[ 0 , N ]
+[ 0 , 1 ]
+{ \boldsymbol   { \beta   } } ^ { ( t + 1 ) } = { \boldsymbol   { \beta   } } ^ { ( t ) } + { \mathcal   { J } } ^ { - 1 } ( { \boldsymbol   { \beta   } } ^ { ( t ) } ) u ( { \boldsymbol   { \beta   } } ^ { ( t ) } ) ,
+{ \mathcal   { J } } ( { \boldsymbol   { \beta   } } ^ { ( t ) } )
+u ( { \boldsymbol   { \beta   } } ^ { ( t ) } )
+{ \boldsymbol   { \beta   } } ^ { ( t + 1 ) } = { \boldsymbol   { \beta   } } ^ { ( t ) } + { \mathcal   { I } } ^ { - 1 } ( { \boldsymbol   { \beta   } } ^ { ( t ) } ) u ( { \boldsymbol   { \beta   } } ^ { ( t ) } ) ,
+{ \mathcal   { I } } ( { \boldsymbol   { \beta   } } ^ { ( t ) } )
+g ( p ) = \ln   \left ( { p   \over   1 - p } \right ) .
+[ 0 , 1 ]
+\Phi  
+g ( p ) = \Phi   ^ { - 1 } ( p ) . \ , \ !
+{ \displaystyle   g ( p ) = \log ( - \log ( 1 - p ) ) . }
+{ \displaystyle   \Pr ( 0 ) = \exp ( - \mu   ) , }
+{ \displaystyle   ( 1 - p ) = \Pr ( 0 ) = \exp ( - \mu   ) , }
+{ \displaystyle   ( - \log ( 1 - p ) ) = \mu   . }
+{ \displaystyle   \log ( - \log ( 1 - p ) ) = \log ( \mu   ) . }
+{ \displaystyle   \operatorname   { V a r }   ( Y _ { i } ) = \tau   \mu   _ { i } ( 1 - \mu   _ { i } ) \ , \ ! }
+{ \displaystyle   g ( \mu   _ { m } ) = \eta   _ { m } = \beta   _ { 0 } + X _ { 1 } \beta   _ { 1 } + \cdots   + X _ { p } \beta   _ { p } + \gamma   _ { 2 } + \cdots   + \gamma   _ { m } = \eta   _ { 1 } + \gamma   _ { 2 } + \cdots   + \gamma   _ { m } { \text {   w h e r e   } } \mu   _ { m } = \operatorname   { P }   ( Y \leq   m ) . \ , }
+{ \displaystyle   g ( \mu   _ { m } ) = \eta   _ { m } = \beta   _ { m , 0 } + X _ { 1 } \beta   _ { m , 1 } + \cdots   + X _ { p } \beta   _ { m , p } { \text {   w h e r e   } } \mu   _ { m } = \mathrm   { P }   ( Y = m \mid   Y \in   \{ 1 , m \ } ) . \ , }
+{ \displaystyle   \operatorname   { v a r }   ( Y _ { i } ) = \tau   \mu   _ { i } , \ , }
+{ \displaystyle   \eta   = \beta   _ { 0 } + f _ { 1 } ( x _ { 1 } ) + f _ { 2 } ( x _ { 2 } ) + \cdots   \ , \ ! }

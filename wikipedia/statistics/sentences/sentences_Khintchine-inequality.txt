@@ -1,0 +1,26 @@
+N
+  x _ 1 , \dots , x _ N   \in \mathbb { C }
+\pm   1  
+  \sqrt { | x _ 1 | ^ { 2 } + \cdots   +   | x _ N | ^ { 2 } }
+{ \displaystyle   \{ \varepsilon   _ { n } \}_ { n = 1 } ^ { N } }
+{ \displaystyle   P ( \varepsilon   _ { n } = \pm   1 ) = { \frac   { 1 } { 2 } } }
+{ \displaystyle   n = 1 , \ldots   , N }
+  0 < p < \infty
+{ \displaystyle   x _ { 1 } , \ldots   , x _ { N } \in   \mathbb   { C }   }
+{ \displaystyle   A _ { p } \left ( \sum   _ { n = 1 } ^ { N } | x _ { n } | ^ { 2 } \right ) ^ { 1 / 2 } \leq   \left ( \operatorname   { E }   \left | \sum   _ { n = 1 } ^ { N } \varepsilon   _ { n } x _ { n } \right | ^ { p } \right ) ^ { 1 / p } \leq   B _ { p } \left ( \sum   _ { n = 1 } ^ { N } | x _ { n } | ^ { 2 } \right ) ^ { 1 / 2 } }
+  A _ p , B _ p > 0  
+p
+A _ p , B _ p
+A _ p   =   1
+p \geq   2
+B _ p   =   1
+0   <   p   \le   2
+T
+  L ^ p ( X , \mu )
+  L ^ p ( Y , \nu )  
+1 \leq   p   <   \infty
+  \|T \|<\infty  
+{ \displaystyle   \left \|\left ( \sum   _ { n = 1 } ^ { N } | T f _ { n } | ^ { 2 } \right ) ^ { 1 / 2 } \right \|_ { L ^ { p } ( Y , \nu   ) } \leq   C _ { p } \left \|\left ( \sum   _ { n = 1 } ^ { N } | f _ { n } | ^ { 2 } \right ) ^ { 1 / 2 } \right \|_ { L ^ { p } ( X , \mu   ) } }
+C _ p > 0
+p
+\|T \ |

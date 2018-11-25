@@ -1,0 +1,81 @@
+\textrm { N M } ( k _ 0 , \,p )
+k _ i   \in   \{ 0 , 1 , 2 , \ldots \}, 1 \leq   i \leq   m
+\Gamma \!\left ( \sum_ { i = 0 } ^ m { k _ i } \right ) \frac { p _ 0 ^ { k _ 0 } } { \Gamma ( k _ 0 ) }   \prod_ { i = 1 } ^ m { \frac { p _ i ^ { k _ i } } { k _ i ! } } ,
+  \tfrac { k _ 0 } { p _ 0 } \,p  
+  \tfrac { k _ 0 } { p _ 0 ^ 2 } \,pp '   +   \tfrac { k _ 0 } { p _ 0 } \,\operatorname { d i a g } ( p )  
+\bigg ( \frac { p _ 0 } { 1   -   p ' e ^ { i t } } \bigg ) ^ { \!k_0 }
+x _ { { i , j } }
+0 \leq   i   \leq   2
+0 \leq   j   \leq   3
+i _ { 0 }
+X = \{ X _ 1 ,   X _ 2 ,   X _ 3 \} \sim   N M ( k _ 0 , \{ p _ 1 , p _ 2 , p _ 3 \ } )
+\hat { \mu } _ { i , j }   =   \frac { x _ { i , . } \times   x _ { . , j } } { x _ { . , . } }
+x _ { i , . }   =   \sum_ { j = 0 } ^ { 3 } { x _ { i , j } }
+x _ { . , j }   =   \sum_ { i = 0 } ^ { 2 } { x _ { i , j } }
+x _ { . , . }   =   \sum_ { i = 0 } ^ { 2 } \sum_ { j = 0 } ^ { 3 } { { x _ { i , j } } }
+\hat { \mu } _ { 1 , 1 }   =   \frac { x _ { 1 , . } \times   x _ { . , 1 } } { x _ { . , . } } = \frac { 3 4 \times   6 8 } { 4 0 0 } = 5 . 7 8
+X = \left   \{ X _ 1 = 5 ,   X _ 2 = 1 ,   X _ 3 = 5 \right   \ }
+X   \sim   N M ( k _ 0 = 1 0 ,   \{ p _ 1 = 0 . 2 ,   p _ 2 = 0 . 1 ,   p _ 3 = 0 . 2   \ } )
+p _ 0   =   1   -   \sum_ { i = 1 } ^ 3 { p _ i } = 0 . 5
+N M ( X | k _ 0 , \{ p _ 1 ,   p _ 2 ,   p _ 3 \})= 0 . 0 0 4 6 5 5 8 5 1 1 9 9 9 8 7 8 4  
+c o v [ X _ 1 , X _ 3 ]   =   \frac { 1 0   \times   0 . 2   \times   0 . 2 } { 0 . 5 ^ 2 } = 1 . 6
+\mu_2 = \frac { k _ 0   p _ 2 } { p _ 0 }   =   \frac { 1 0 \times   0 . 1 } { 0 . 5 } = 2 . 0
+\mu_3 = \frac { k _ 0   p _ 3 } { p _ 0 }   =   \frac { 1 0 \times   0 . 2 } { 0 . 5 } = 4 . 0
+c o r r [ X _ 2 , X _ 3 ]   =   \left   ( \frac { \mu_2   \times   \mu_3 } { ( k _ 0 + \mu_2 ) ( k _ 0 + \mu_3 ) }   \right   ) ^ { \frac { 1 } { 2 } }
+c o r r [ X _ 2 , X _ 3 ]   =   \left   ( \frac { 2   \times   4 } { ( 1 0 + 2 ) ( 1 0 + 4 ) }   \right   ) ^ { \frac { 1 } { 2 } }   =   0 . 2 1 8 2 1 7 8 9 0 2 3 5 9 9 2 4 2 .  
+k _ { 0 }
+k _ { 0 }
+X _ { i }
+\left   (   \mu_i =   k _ 0 \frac { p _ i } { p _ 0 } \right   )
+X _ { i }
+X _ { i }
+X = \{ X _ 1 , \cdots , X _ m \ }
+X   \sim   N M ( k _ 0 , \{ p _ 1 , \cdots , p _ m \ } )
+\mu   _ { j }
+X _ { j }
+\{ x _ 1 ,   \cdots , x _ m \ }
+\hat { \mu } _ i = x _ i .
+\hat { \mu } _ j = \frac { x _ { j , . } } { I }
+0 \leq   j   \leq   J
+X _ { 0 }
+\hat { \mu } _ 0   =   3 4 / 3 = 1 1 . 3 3
+X _ { 1 }
+\hat { \mu } _ 1   =   1 8 5 / 3 = 6 1 . 6 7
+X _ { 2 }
+\hat { \mu } _ 2   =   1 2 5 / 3 = 4 1 . 6 7
+X _ 3
+\hat { \mu } _ 3   =   5 6 / 3 = 1 8 . 6 7
+k _ { 0 }
+k _ { 0 }
+\Chi ^ 2   =   \sum_i { \frac { ( x _ i - \mu_i ) ^ 2 } { \mu_i } }
+\mu   _ { i }
+\hat { \mu_i }
+\Chi ^ 2 ( k _ 0 )   =   \sum_ { i } { \frac { ( x _ i - \hat { \mu_i } ) ^ 2 } { \hat { \mu_i }   \left   ( 1 +   \frac { \hat { \mu_i } } { k _ 0 }   \right   ) } }
+k _ { 0 }
+k _ { 0 }
+\Chi ^ 2 ( k _ 0 )
+\mu   _ { j }
+\hat { \mu } _ 1   =   1 8 5 / 3 = 6 1 . 6 7
+\hat { \mu } _ 2   =   1 2 5 / 3 = 4 1 . 6 7
+\hat { \mu } _ 3   =   5 6 / 3 = 1 8 . 6 7
+\Chi ^ 2 ( k _ 0 )   =   5 . 2 6 1 9 4 8
+k _ { 0 }
+x = \{ x _ 1 = 5 , x _ 2 = 1 , x _ 3 = 5 \ }
+k _ { 0 }
+\Chi ^ 2 ( k _ 0 )   =   \sum_ { i = 1 } ^ 3 { \frac { ( x _ i - \hat { \mu_i } ) ^ 2 } { \hat { \mu_i }   \left   ( 1 +   \frac { \hat { \mu_i } } { k _ 0 }   \right   ) } }
+\Chi ^ 2 ( k _ 0 )   =   \frac { ( 5 - 6 1 . 6 7 ) ^ 2 } { 6 1 . 6 7 ( 1 + 6 1 . 6 7 / k _ 0 ) } + \frac { ( 1 - 4 1 . 6 7 ) ^ 2 } { 4 1 . 6 7 ( 1 + 4 1 . 6 7 / k _ 0 ) } + \frac { ( 5 - 1 8 . 6 7 ) ^ 2 } { 1 8 . 6 7 ( 1 + 1 8 . 6 7 / k _ 0 ) } = 5 . 2 6 1 9 4 8 .
+k _ { 0 }
+k _ { 0 }
+k _ { 0 } > 0
+k _ 0 = 2
+\frac { \mu_i } { k _ 0 } p _ 0 = p _ i
+\frac { 6 1 . 6 7 } { k _ 0 } p _ 0 = 3 1 p _ 0 = p _ 1
+2 0 p _ 0 = p _ 2
+9 p _ 0 = p _ 3
+1 - p _ 0 = p _ 1 + p _ 2 + p _ 3 = 6 0 p _ 0
+p _ 0 = \frac { 1 } { 6 1 }
+p _ 1 = \frac { 3 1 } { 6 1 }
+p _ 2 = \frac { 2 0 } { 6 1 }
+p _ 3 = \frac { 9 } { 6 1 }
+x = \{ x _ 1 = 5 , x _ 2 = 1 , x _ 3 = 5 \ }
+X   \sim   N M \left   ( 2 ,   \left   \{ \frac { 3 1 } { 6 1 } ,   \frac { 2 0 } { 6 1 } , \frac { 9 } { 6 1 } \right \} \right   ) .

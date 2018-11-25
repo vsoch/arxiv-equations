@@ -1,0 +1,24 @@
+[ a , b ]
+1 - \alpha
+{ \displaystyle   F ( x _ { i } ) }
+{ \displaystyle   p = F ( x _ { i } ) }
+n
+F
+x _ 1 , \ldots , x _ n \sim   F
+  \hat { F } _ n ( t )   =   \frac { 1 } { n } \sum_ { i = 1 } ^ n 1 \{ x _ i \le   t \ } ,  
+1 \{ A \ }
+F
+  P ( \sup_x | F ( x ) - F _ n ( x ) | > \varepsilon ) \le2e ^ { - 2 n \varepsilon ^ 2 } .  
+X _ { ( j ) }
+j ^ \text { t h }
+[ 0 , 1 ] .
+F
+F
+L ( x )
+U ( x )
+  E ( X )   =   \int_0 ^ 1 ( 1 - F ( x ) ) \,dx ,  
+  \left [ \int_0 ^ 1 ( 1 - U ( x ) ) \,dx ,   \int_0 ^ 1 ( 1 - L ( x ) ) \,dx   \right ] .  
+F
+[ 0 , 1 ]
+F
+E [ F ' ]

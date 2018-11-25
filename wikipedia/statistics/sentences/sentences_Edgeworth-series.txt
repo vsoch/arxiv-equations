@@ -1,0 +1,77 @@
+\chi   ^ { 2 }
+{ \hat   { f } }
+\kappa_r
+{ \hat     { \psi   } }
+\gamma   _ { r }
+{ \displaystyle   { \hat   { f } } ( t ) = \exp   \left [ \sum   _ { r = 1 } ^ { \infty   } \kappa   _ { r } { \frac   { ( i t ) ^ { r } } { r ! } } \right ] }
+{ \displaystyle   { \hat   { \psi   } } ( t ) = \exp   \left [ \sum   _ { r = 1 } ^ { \infty   } \gamma   _ { r } { \frac   { ( i t ) ^ { r } } { r ! } } \right ] , }
+{ \displaystyle   { \hat   { f } } ( t ) = \exp   \left [ \sum   _ { r = 1 } ^ { \infty   } ( \kappa   _ { r } - \gamma   _ { r } ) { \frac   { ( i t ) ^ { r } } { r ! } } \right ] { \hat   { \psi   } } ( t ) \ , . }
+{ \displaystyle   ( i t ) ^ { r } { \hat   { \psi   } } ( t ) }
+{ \displaystyle   ( - 1 ) ^ { r } [ D ^ { r } \psi   ] ( - x ) }
+x
+- x
+{ \displaystyle   f ( x ) = \exp   \left [ \sum   _ { r = 1 } ^ { \infty   } ( \kappa   _ { r } - \gamma   _ { r } ) { \frac   { ( - D ) ^ { r } } { r ! } } \right ] \psi   ( x ) \ , . }
+{ \displaystyle   \phi   ( x ) = { \frac   { 1 } { { \sqrt   { 2 \pi   } } \sigma   } } \exp   \left [ - { \frac   { ( x - \mu   ) ^ { 2 } } { 2 \sigma   ^ { 2 } } } \right ] }
+\mu   =   \kappa_1
+\sigma ^ 2   =   \kappa_2
+{ \displaystyle   f ( x ) = \exp   \left [ \sum   _ { r = 3 } ^ { \infty   } \kappa   _ { r } { \frac   { ( - D ) ^ { r } } { r ! } } \right ] \phi   ( x ) , }
+\gamma   _ { r } = 0
+{ \displaystyle   \exp   \left [ \sum   _ { r = 3 } ^ { \infty   } \kappa   _ { r } { \frac   { ( - D ) ^ { r } } { r ! } } \right ] = \sum   _ { n = 0 } ^ { \infty   } B _ { n } ( 0 , 0 , \kappa   _ { 3 } , \ldots   , \kappa   _ { n } ) { \frac   { ( - D ) ^ { n } } { n ! } } . }
+\phi  
+{ \displaystyle   \phi   ^ { ( n ) } ( x ) = { \frac   { ( - 1 ) ^ { n } } { \sigma   ^ { n } } } H e _ { n } \left ( { \frac   { x - \mu   } { \sigma   } } \right ) \phi   ( x ) , }
+{ \displaystyle   f ( x ) = \phi   ( x ) \sum   _ { n = 0 } ^ { \infty   } { \frac   { 1 } { n ! \sigma   ^ { n } } } B _ { n } ( 0 , 0 , \kappa   _ { 3 } , \ldots   , \kappa   _ { n } ) H e _ { n } \left ( { \frac   { x - \mu   } { \sigma   } } \right ) . }
+{ \displaystyle   F ( x ) = \int   _ { - \infty   } ^ { x } f ( u ) d u = \Phi   ( x ) - \phi   ( x ) \sum   _ { n = 3 } ^ { \infty   } { \frac   { 1 } { n ! \sigma   ^ { n - 1 } } } B _ { n } ( 0 , 0 , \kappa   _ { 3 } , \ldots   , \kappa   _ { n } ) H e _ { n - 1 } \left ( { \frac   { x - \mu   } { \sigma   } } \right ) , }
+\Phi  
+{ \displaystyle   f ( x ) \approx   { \frac   { 1 } { { \sqrt   { 2 \pi   } } \sigma   } } \exp   \left [ - { \frac   { ( x - \mu   ) ^ { 2 } } { 2 \sigma   ^ { 2 } } } \right ] \left [ 1 + { \frac   { \kappa   _ { 3 } } { 3 ! \sigma   ^ { 3 } } } H e _ { 3 } \left ( { \frac   { x - \mu   } { \sigma   } } \right ) + { \frac   { \kappa   _ { 4 } } { 4 ! \sigma   ^ { 4 } } } H e _ { 4 } \left ( { \frac   { x - \mu   } { \sigma   } } \right ) \right ] \ , , }
+{ \displaystyle   H e _ { 3 } ( x ) = x ^ { 3 } - 3 x }
+{ \displaystyle   H e _ { 4 } ( x ) = x ^ { 4 } - 6 x ^ { 2 } + 3 }
+f ( x )
+\exp ( - ( x ^ 2 ) / 4 )
+{ \displaystyle   \{ Z _ { i } \ } }
+\mu  
+\sigma   ^ { 2 }
+X _ { n }
+{ \displaystyle   X _ { n } = { \frac   { 1 } { \sqrt   { n } } } \sum   _ { i = 1 } ^ { n } { \frac   { Z _ { i } - \mu   } { \sigma   } } . }
+F _ { n }
+X _ { n }
+          \lim_ { n \to \infty }   F _ n ( x )   =   \Phi ( x )   \equiv   \int_ { - \infty } ^ x   \tfrac { 1 } { \sqrt { 2 \pi } } e ^ { - \frac { 1 } { 2 } q ^ 2 } d q      
+x
+\mu  
+\sigma   ^ { 2 }
+Z _ { i }
+{ \displaystyle   \kappa   _ { r } }
+X _ { n }
+Z _ { i }
+r   \geq   2
+{ \displaystyle   \kappa   _ { r } ^ { F _ { n } } = { \frac   { n \kappa   _ { r } } { \sigma   ^ { r } n ^ { r / 2 } } } = { \frac   { \lambda   _ { r } } { n ^ { r / 2 - 1 } } } \quad   \mathrm   { w h e r e }   \quad   \lambda   _ { r } = { \frac   { \kappa   _ { r } } { \sigma   ^ { r } } } . }
+{ \displaystyle   \phi   ( x ) = { \frac   { 1 } { \sqrt   { 2 \pi   } } } \exp ( - { \tfrac   { 1 } { 2 } } x ^ { 2 } ) }
+{ \displaystyle   { \hat   { f } } _ { n } ( t ) }
+F _ { n }
+{ \displaystyle   \kappa   _ { 1 } ^ { F _ { n } } - \gamma   _ { 1 } = 0 , }
+{ \displaystyle   \kappa   _ { 2 } ^ { F _ { n } } - \gamma   _ { 2 } = 0 , }
+{ \displaystyle   \kappa   _ { r } ^ { F _ { n } } - \gamma   _ { r } = { \frac   { \lambda   _ { r } } { n ^ { r / 2 - 1 } } } ; \qquad   r \geq   3 . }
+X _ { n }
+{ \displaystyle   f _ { n } ( x ) = \phi   ( x ) \sum   _ { r = 0 } ^ { \infty   } { \frac   { 1 } { r ! } } B _ { r } \left ( 0 , 0 , { \frac   { \lambda   _ { 3 } } { n ^ { 1 / 2 } } } , \ldots   , { \frac   { \lambda   _ { r } } { n ^ { r / 2 - 1 } } } \right ) H e _ { r } ( x ) . }
+n
+{ \displaystyle   { \hat   { f } } _ { n } ( t ) = \left [ 1 + \sum   _ { j = 1 } ^ { \infty   } { \frac   { P _ { j } ( i t ) } { n ^ { j / 2 } } } \right ] \exp ( - t ^ { 2 } / 2 ) \ , , }
+{ \displaystyle   P _ { j } ( x ) }
+{ \displaystyle   3 j }
+f _ { n }
+{ \displaystyle   f _ { n } ( x ) = \phi   ( x ) + \sum   _ { j = 1 } ^ { \infty   } { \frac   { P _ { j } ( - D ) } { n ^ { j / 2 } } } \phi   ( x ) \ , . }
+{ \displaystyle   F _ { n } ( x ) = \Phi   ( x ) + \sum   _ { j = 1 } ^ { \infty   } { \frac   { 1 } { n ^ { j / 2 } } } { \frac   { P _ { j } ( - D ) } { D } } \phi   ( x ) \ , . }
+{ \displaystyle   P _ { m } ( - D ) }
+{ \displaystyle   P _ { m } ( - D ) = \sum   \prod   _ { i } { \frac   { 1 } { k _ { i } ! } } \left ( { \frac   { \lambda   _ { l _ { i } } } { l _ { i } ! } } \right ) ^ { k _ { i } } ( - D ) ^ { s } , }
+{ \displaystyle   \sum   _ { i } i k _ { i } = m }
+{ \displaystyle   l _ { i } = i + 2 }
+{ \displaystyle   s = \sum   _ { i } k _ { i } l _ { i } . }
+{ \displaystyle   { \begin { a l i g n e d } P _ { 3 } ( - D ) & = { \frac   { 1 } { 3 ! } } \left ( { \frac   { \lambda   _ { 3 } } { 3 ! } } \right ) ^ { 3 } ( - D ) ^ { 9 } + { \frac   { 1 } { 1 ! 1 ! } } \left ( { \frac   { \lambda   _ { 3 } } { 3 ! } } \right ) \left ( { \frac   { \lambda   _ { 4 } } { 4 ! } } \right ) ( - D ) ^ { 7 } + { \frac   { 1 } { 1 ! } } \left ( { \frac   { \lambda   _ { 5 } } { 5 ! } } \right ) ( - D ) ^ { 5 } \\&={ \frac   { \lambda   _ { 3 } ^ { 3 } } { 1 2 9 6 } } ( - D ) ^ { 9 } + { \frac   { \lambda   _ { 3 } \lambda   _ { 4 } } { 1 4 4 } } ( - D ) ^ { 7 } + { \frac   { \lambda   _ { 5 } } { 1 2 0 } } ( - D ) ^ { 5 } . \end { a l i g n e d } } }
+{ \displaystyle   { \begin { a l i g n e d } f _ { n } ( x ) & = \phi   ( x ) \\&\quad   - { \frac   { 1 } { n ^ { \frac   { 1 } { 2 } } } } \left ( { \tfrac   { 1 } { 6 } } \lambda   _ { 3 } \,\phi   ^ { ( 3 ) } ( x ) \right ) \\&\quad   + { \frac   { 1 } { n } } \left ( { \tfrac   { 1 } { 2 4 } } \lambda   _ { 4 } \,\phi   ^ { ( 4 ) } ( x ) + { \tfrac   { 1 } { 7 2 } } \lambda   _ { 3 } ^ { 2 } \,\phi   ^ { ( 6 ) } ( x ) \right ) \\&\quad   - { \frac   { 1 } { n ^ { \frac   { 3 } { 2 } } } } \left ( { \tfrac   { 1 } { 1 2 0 } } \lambda   _ { 5 } \,\phi   ^ { ( 5 ) } ( x ) + { \tfrac   { 1 } { 1 4 4 } } \lambda   _ { 3 } \lambda   _ { 4 } \,\phi   ^ { ( 7 ) } ( x ) + { \tfrac   { 1 } { 1 2 9 6 } } \lambda   _ { 3 } ^ { 3 } \,\phi   ^ { ( 9 ) } ( x ) \right ) \\&\quad   + { \frac   { 1 } { n ^ { 2 } } } \left ( { \tfrac   { 1 } { 7 2 0 } } \lambda   _ { 6 } \,\phi   ^ { ( 6 ) } ( x ) + \left ( { \tfrac   { 1 } { 1 1 5 2 } } \lambda   _ { 4 } ^ { 2 } + { \tfrac   { 1 } { 7 2 0 } } \lambda   _ { 3 } \lambda   _ { 5 } \right ) \phi   ^ { ( 8 ) } ( x ) + { \tfrac   { 1 } { 1 7 2 8 } } \lambda   _ { 3 } ^ { 2 } \lambda   _ { 4 } \,\phi   ^ { ( 1 0 ) } ( x ) + { \tfrac   { 1 } { 3 1 1 0 4 } } \lambda   _ { 3 } ^ { 4 } \,\phi   ^ { ( 1 2 ) } ( x ) \right ) \\&\quad   + O \left ( n ^ { - { \frac   { 5 } { 2 } } } \right ) . \end { a l i g n e d } } }
+{ \displaystyle   \phi   ^ { ( n ) } ( x ) = ( - 1 ) ^ { n } H e _ { n } ( x ) \phi   ( x ) }
+H e _ { n }
+\chi   ^ { 2 }
+  X _ i   \sim   \chi ^ 2 ( k = 2 )   \qquad   i = 1 ,   2 ,   3  
+  \bar   X   =   \frac { 1 } { 3 }   \sum_ { i = 1 } ^ { 3 }   X _ i  
+{ \bar   { X } }
+  \bar   X   \sim   \mathrm { G a m m a } \left ( \alpha = n \cdot   k   / 2 ,   \theta =   2 / n   \right )
+\mathrm { G a m m a } \left ( \alpha = 3 ,   \theta =   2 / 3   \right )
+  \bar   X     \xrightarrow { n   \to   \infty }   N ( k ,   2 \cdot   k   / n   )   =   N ( 2 ,   4 / 3   )

@@ -1,0 +1,15 @@
+( X _ { t } , Y _ { t } )
+\gamma   _ { { x x } }
+\gamma   _ { { y y } }
+\gamma   _ { x y }
+\Gamma   _ { { x y } }
+\gamma   _ { x y }
+{ \displaystyle   \Gamma   _ { x y } ( f ) = { \mathcal   { F } } \{ \gamma   _ { x y } \}( f ) = \sum   _ { \tau   = - \infty   } ^ { \infty   } \,\gamma   _ { x y } ( \tau   ) \,e ^ { - 2 \,\pi   \,i \,\tau   \,f } , }
+{ \displaystyle   \gamma   _ { x y } ( \tau   ) = \operatorname   { E }   [ ( x _ { t } - \mu   _ { x } ) ( y _ { t + \tau   } - \mu   _ { y } ) ] }
+\Gamma   _ { { x y } } ( f ) = \Lambda   _ { { x y } } ( f ) + i \Psi   _ { { x y } } ( f ) ,
+\Gamma   _ { { x y } } ( f ) = A _ { { x y } } ( f ) \,e ^ { { i \phi   _ { { x y } } ( f ) } } .
+A _ { { x y } }
+A _ { { x y } } ( f ) = ( \Lambda   _ { { x y } } ( f ) ^ { 2 } + \Psi   _ { { x y } } ( f ) ^ { 2 } ) ^ { { \frac     { 1 } { 2 } } } ,
+\Phi   _ { { x y } }
+{ \displaystyle   { \begin { c a s e s } \tan   ^ { - 1 } ( \Psi   _ { x y } ( f ) / \Lambda   _ { x y } ( f ) ) & { \text { i f   } } \Psi   _ { x y } ( f ) \neq   0 { \text {   a n d   } } \Lambda   _ { x y } ( f ) \neq   0 \\0 & { \text { i f   } } \Psi   _ { x y } ( f ) = 0 { \text {   a n d   } } \Lambda   _ { x y } ( f ) > 0 \\\pm   \pi   & { \text { i f   } } \Psi   _ { x y } ( f ) = 0 { \text {   a n d   } } \Lambda   _ { x y } ( f ) < 0 \\\pi   / 2 & { \text { i f   } } \Psi   _ { x y } ( f ) > 0 { \text {   a n d   } } \Lambda   _ { x y } ( f ) = 0 \\-\pi   / 2 & { \text { i f   } } \Psi   _ { x y } ( f ) < 0 { \text {   a n d   } } \Lambda   _ { x y } ( f ) = 0 \\\end { c a s e s } } }
+\kappa   _ { { x y } } ( f ) = { \frac     { A _ { { x y } } ^ { 2 } } { \Gamma   _ { { x x } } ( f ) \Gamma   _ { { y y } } ( f ) } } ,

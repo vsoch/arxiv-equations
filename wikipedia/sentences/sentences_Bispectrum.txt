@@ -1,3 +1,0 @@
-{ \displaystyle   B ( f _ { 1 } , f _ { 2 } ) = F ^ { * } ( f _ { 1 } + f _ { 2 } ) \cdot   F ( f _ { 1 } ) \cdot   F ( f _ { 2 } ) }
-F
-F ^ { * }

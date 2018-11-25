@@ -1,8 +1,0 @@
-{ \displaystyle   X = A + B + A B + E \ , }
-{ \displaystyle   X = T P ^ { ' } + E \ , }
-{ \displaystyle   A = T _ { a } P _ { a } ^ { ' } + E _ { a } \ , }
-{ \displaystyle   B = T _ { b } P _ { b } ^ { ' } + E _ { b } \ , }
-{ \displaystyle   A B = T _ { a b } P _ { a b } ^ { ' } + E _ { a b } \ , }
-{ \displaystyle   E = T _ { e } P _ { e } ^ { ' } + E _ { e } \ , }
-{ \displaystyle   X = A + B + A B + E \ , }
-{ \displaystyle   X = T _ { a } P _ { a } ^ { ' } + T _ { b } P _ { b } ^ { ' } + T _ { a b } P _ { a b } ^ { ' } + T _ { e } P _ { e } ^ { ' } + E _ { a } + E _ { b } + E _ { a b } + E _ { e } + E \ , }

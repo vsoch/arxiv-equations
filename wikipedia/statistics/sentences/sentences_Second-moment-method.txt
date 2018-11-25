@@ -1,0 +1,21 @@
+  \operatorname { P } (   X   >   0   )   \ge   \frac { ( \operatorname { E } [ X ] ) ^ 2 } { \operatorname { E } [ X ^ 2 ] } .  
+  \operatorname { E } [ X ]   =   \operatorname { E } [   X   \, \mathbf { 1 } _ { \{   X   >   0   \}} ] \le   \operatorname { E } [ X ^ 2 ] ^ { 1 / 2 }   \operatorname { P } (   X   >   0 ) ^ { 1 / 2 } .  
+\operatorname { P } (   X   >   0 )
+E \left [ X _ { n } ^ { 2 } \right ] \leq   c _ { 1 } E [ X _ { n } ] ^ { 2 }
+E \left [ X _ { n } \right ] \geq   c _ { 2 }
+P ( X _ { n } \geq   c _ { 2 } \theta   ) \geq   { \frac     { ( 1 - \theta   ) ^ { 2 } } { c _ { 1 } } } .
+\limsup   _ { { n \to   \infty   } } 1 _ { { X _ { n } > 0 } } > 0
+\inf   _ { { n \to   \infty   } } P ( X _ { n } > 0 ) > 0
+E [ X _ { n } ] ^ { 2 } \leq   E [ X _ { n } ^ { 2 } ] \,E \left [ ( 1 _ { { X _ { n } > 0 } } ) ^ { 2 } \right ] = E [ X _ { n } ^ { 2 } ] \,P ( X _ { n } > 0 ) .
+\inf   _ { n } { \frac     { E \left [ X _ { n } \right ] ^ { 2 } } { E \left [ X _ { n } ^ { 2 } \right ] } } > 0 \ , ,
+{ \displaystyle   P ( v \in   K ) = p ^ { n } . }
+| T _ { n } | = 2 ^ { n }
+E [ X _ { n } ] = 2 ^ { n } \,p ^ { n }
+E \!\left [ X _ { n } ^ { 2 } \right ] = E \!\left [ \sum   _ { { v \in   T _ { n } } } \sum   _ { { u \in   T _ { n } } } 1 _ { { v \in   K } } \,1_ { { u \in   K } } \right ] = \sum   _ { { v \in   T _ { n } } } \sum   _ { { u \in   T _ { n } } } P ( v , u \in   K ) .
+P ( v , u \in   K ) = p ^ { { 2 n - k ( v , u ) } } .
+2 ^ { s } \,2 ^ { { n - s } } \,2 ^ { { n - s - 1 } } = 2 ^ { { 2 n - s - 1 } }
+E \!\left [ X _ { n } ^ { 2 } \right ] = \sum   _ { { s = 0 } } ^ { n } 2 ^ { { 2 n - s - 1 } } p ^ { { 2 n - s } } = { \frac     1 2 } \,( 2 p ) ^ { n } \sum   _ { { s = 0 } } ^ { n } ( 2 p ) ^ { s } = { \frac     1 2 } \,( 2 p ) ^ { n } \,{ \frac     { ( 2 p ) ^ { { n + 1 } } - 1 } { 2 p - 1 } } \leq   { \frac     p { 2 p - 1 } } \,E [ X _ { n } ] ^ { 2 } ,
+P ( v , u \in   K ) = P ( v \in   K ) \,P ( u \in   K )
+X _ { n } = \sum   _ { { v \in   T _ { n } } } 1 _ { { v \in   K } } .
+X _ { n } = \int   f _ { n } ( t ) \,d \mu   ( t ) ,
+{ \begin { a l i g n e d } E \left [ X _ { n } ^ { 2 } \right ] & = E \left [ \int   \int   f _ { n } ( x ) \,f_ { n } ( y ) \,d \mu   ( x ) \,d \mu   ( y ) \right ] \\&=E \left [ \int   \int   E \left [ f _ { n } ( x ) \,f_ { n } ( y ) \right ] \,d \mu   ( x ) \,d \mu   ( y ) \right ] , \end { a l i g n e d } }

@@ -1,0 +1,5 @@
+{ \displaystyle   { \text { B i n   w i d t h } } = 2 \,{ { \text { I Q R } } ( x )   \over   { \sqrt [ { 3 } ] { n } } } }
+{ \displaystyle   \operatorname   { I Q R }   ( x ) }
+n
+{ \displaystyle   x . }
+\scriptstyle   1 + \log_2n

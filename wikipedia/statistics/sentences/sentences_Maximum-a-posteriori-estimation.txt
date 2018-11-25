@@ -1,0 +1,48 @@
+\theta  
+x
+f
+x
+{ \displaystyle   f ( x \mid   \theta   ) }
+x
+\theta  
+{ \displaystyle   \theta   \mapsto   f ( x \mid   \theta   ) \ ! }
+{ \displaystyle   { \hat   { \theta   } } _ { \mathrm   { M L E }   } ( x ) = { \underset   { \theta   } { \operatorname   { a r g \,max }   } } \ f ( x \mid   \theta   ) \ ! }
+\theta  
+g
+\theta  
+\theta  
+\theta  
+{ \displaystyle   \theta   \mapsto   f ( \theta   \mid   x ) = { \frac   { f ( x \mid   \theta   ) \,g ( \theta   ) } { \displaystyle   \int   _ { \Theta   } f ( x \mid   \vartheta   ) \,g ( \vartheta   ) \,d \vartheta   } } \ ! }
+g
+\theta  
+\Theta  
+g
+\theta  
+{ \displaystyle   { \hat   { \theta   } } _ { \mathrm   { M A P }   } ( x ) = { \underset   { \theta   } { \operatorname   { a r g \,max }   } } \ f ( \theta   \mid   x ) = { \underset   { \theta   } { \operatorname   { a r g \,max }   } } \ { \frac   { f ( x \mid   \theta   ) \,g ( \theta   ) } { \displaystyle   \int   _ { \Theta   } f ( x \mid   \vartheta   ) \,g ( \vartheta   ) \,d \vartheta   } } = { \underset   { \theta   } { \operatorname   { a r g \,max }   } } \ f ( x \mid   \theta   ) \,g ( \theta   ) . \ ! }
+\theta  
+\theta  
+g
+{ \displaystyle   L ( \theta   , a ) = { \begin { c a s e s } 0 , & { \text { i f   } } | a - \theta   | < c , \\1 , & { \text { o t h e r w i s e } } , \\\end { c a s e s } } }
+c
+\theta  
+\theta  
+x
+h _ { 1 }
+h _ { 2 }
+h _ { 3 }
+x
+h _ { 1 }
+h _ { 1 }
+x
+x
+( x _ { 1 } , \dots   , x _ { n } )
+N ( \mu   , \sigma   _ { v } ^ { 2 } )
+\mu  
+N ( \mu   _ { 0 } , \sigma   _ { m } ^ { 2 } )
+\mu  
+{ \displaystyle   f ( \mu   ) f ( x \mid   \mu   ) = \pi   ( \mu   ) L ( \mu   ) = { \frac   { 1 } { { \sqrt   { 2 \pi   } } \sigma   _ { m } } } \exp   \left ( - { \frac   { 1 } { 2 } } \left ( { \frac   { \mu   - \mu   _ { 0 } } { \sigma   _ { m } } } \right ) ^ { 2 } \right ) \prod   _ { j = 1 } ^ { n } { \frac   { 1 } { { \sqrt   { 2 \pi   } } \sigma   _ { v } } } \exp   \left ( - { \frac   { 1 } { 2 } } \left ( { \frac   { x _ { j } - \mu   } { \sigma   _ { v } } } \right ) ^ { 2 } \right ) , }
+\mu  
+\sum   _ { j = 1 } ^ { n } \left ( { \frac   { x _ { j } - \mu   } { \sigma   _ { v } } } \right ) ^ { 2 } + \left ( { \frac   { \mu   - \mu   _ { 0 } } { \sigma   _ { m } } } \right ) ^ { 2 } .
+{ \displaystyle   { \hat   { \mu   } } _ { \mathrm   { M A P }   } = { \frac   { \sigma   _ { m } ^ { 2 } \,n } { \sigma   _ { m } ^ { 2 } \,n + \sigma   _ { v } ^ { 2 } } } \left ( { \frac   { 1 } { n } } \sum   _ { j = 1 } ^ { n } x _ { j } \right ) + { \frac   { \sigma   _ { v } ^ { 2 } } { \sigma   _ { m } ^ { 2 } \,n + \sigma   _ { v } ^ { 2 } } } \,\mu   _ { 0 } = { \frac   { \sigma   _ { m } ^ { 2 } \left ( \sum   _ { j = 1 } ^ { n } x _ { j } \right ) + \sigma   _ { v } ^ { 2 } \,\mu   _ { 0 } } { \sigma   _ { m } ^ { 2 } \,n + \sigma   _ { v } ^ { 2 } } } . }
+\sigma   _ { m } \to   \infty  
+{ \displaystyle   { \hat   { \mu   } } _ { \mathrm   { M A P }   } \to   { \hat   { \mu   } } _ { \mathrm   { M L }   } . }

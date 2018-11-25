@@ -1,0 +1,10 @@
+  \mathbf { x ^ T   A   x }   +   \mathbf { b ^ T   x }   +   c  
+  y   \in   \{ 0 , 1   \ }  
+  \mu_ { y = 0 } , \mu_ { y = 1 }  
+  \Sigma_ { y = 0 } ,   \Sigma_ { y = 1 }  
+{ \displaystyle   { \frac   { { \sqrt   { | 2 \pi   \Sigma   _ { y = 1 } | } } ^ { - 1 } \exp   \left ( - { \frac   { 1 } { 2 } } ( x - \mu   _ { y = 1 } ) ^ { T } \Sigma   _ { y = 1 } ^ { - 1 } ( x - \mu   _ { y = 1 } ) \right ) } { { \sqrt   { | 2 \pi   \Sigma   _ { y = 0 } | } } ^ { - 1 } \exp   \left ( - { \frac   { 1 } { 2 } } ( x - \mu   _ { y = 0 } ) ^ { T } \Sigma   _ { y = 0 } ^ { - 1 } ( x - \mu   _ { y = 0 } ) \right ) } } < t }
+t
+  [ x _ 1 ,   \; x_2 ,   \; x_3 ]  
+  [ x _ 1 ,   \; x_2 ,   \; x_3 ,   \; x_1 ^ 2 ,   \; x_1x_2 ,   \; x_1   x _ 3 ,   \; x_2 ^ 2 ,   \; x_2x_3 ,   \; x_3 ^ 2 ]  
+  \; x_1 ^ 2   +   x _ 2 ^ 2   +   x _ 3 ^ 2     \;\ldots     \ ;
+{ \displaystyle   \;x_ { 1 } x _ { 2 } , \;x_ { 1 } x _ { 3 } \;\ldots   \ ; }

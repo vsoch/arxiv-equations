@@ -1,8 +1,0 @@
-P _ { i j }
-P _ { i j }
-{ \displaystyle   \scriptstyle   { \sum   _ { j = 1 } ^ { m } P _ { i j } = 1 } }
-{ \displaystyle   \scriptstyle   { ( k _ { 1 } , k _ { 2 } , \ldots   , k _ { m } ) } }
-{ \displaystyle   S ( K , m ) = \left \{ \mathbf   { k }   \in   \mathbb   { N }   ^ { m } { \text {   s u c h   t h a t   } } \sum   _ { i = 1 } ^ { m } k _ { i } = K \right \ } . }
-{ \displaystyle   \pi   ( k _ { 1 } , k _ { 2 } , \ldots   , k _ { m } ) = { \frac   { 1 } { G ( K ) } } \prod   _ { i = 1 } ^ { m } \left ( { \frac   { e _ { i } } { \mu   _ { i } } } \right ) ^ { k _ { i } } }
-{ \displaystyle   G ( K ) = \sum   _ { \mathbf   { k }   \in   S ( K , m ) } \prod   _ { i = 1 } ^ { m } \left ( { \frac   { e _ { i } } { \mu   _ { i } } } \right ) ^ { k _ { i } } , }
-{ \displaystyle   e _ { i } = \sum   _ { j = 1 } ^ { m } e _ { j } p _ { j i } { \text {   f o r   } } 1 \leq   i \leq   m . }

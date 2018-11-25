@@ -1,0 +1,13 @@
+{ } ^ { q } \!D = { 1   \over   M _ { q - 1 } } = { 1   \over   { \sqrt [ { q - 1 } ] { \sum   _ { i = 1 } ^ { R } p _ { i } p _ { i } ^ { q - 1 } } } } = \left ( { \sum   _ { i = 1 } ^ { R } p _ { i } ^ { q } } \right ) ^ { 1 / ( 1 - q ) }
+{ } ^ { 1 } \!D = { 1   \over   { \prod   _ { i = 1 } ^ { R } p _ { i } ^ { p _ { i } } } } = \exp   \left ( - \sum   _ { i = 1 } ^ { R } p _ { i } \ln ( p _ { i } ) \right )
+{ } ^ { q } \!D = \left ( { \sum   _ { i = 1 } ^ { R } p _ { i } ^ { q } } \right ) ^ { 1 / ( 1 - q ) }
+H ' = - \sum   _ { i = 1 } ^ { R } p _ { i } \ln   p _ { i }
+H ' = - \sum   _ { i = 1 } ^ { R } p _ { i } \ln   p _ { i } = - \sum   _ { i = 1 } ^ { R } \ln   p _ { i } ^ { p _ { i } }
+H ' = - ( \ln   p _ { 1 } ^ { p _ { 1 } } + \ln   p _ { 2 } ^ { p _ { 2 } } + \ln   p _ { 3 } ^ { p _ { 3 } } + \cdots   + \ln   p _ { R } ^ { p _ { R } } )
+H ' = - \ln   p _ { 1 } ^ { p _ { 1 } } p _ { 2 } ^ { p _ { 2 } } p _ { 3 } ^ { p _ { 3 } } \cdots   p _ { R } ^ { p _ { R } } = \ln   \left ( { 1   \over   p _ { 1 } ^ { p _ { 1 } } p _ { 2 } ^ { p _ { 2 } } p _ { 3 } ^ { p _ { 3 } } \cdots   p _ { R } ^ { p _ { R } } } \right ) = \ln   \left ( { 1   \over   { \prod   _ { i = 1 } ^ { R } p _ { i } ^ { p _ { i } } } } \right )
+{ } ^ { q } H = { \frac   { 1 } { 1 - q } } \;\ln   \left ( \sum   _ { i = 1 } ^ { R } p _ { i } ^ { q } \right )
+{ } ^ { q } H = \ln   \left ( { 1   \over   { \sqrt [ { q - 1 } ] { \sum   _ { i = 1 } ^ { R } p _ { i } p _ { i } ^ { q - 1 } } } } \right ) = \ln ( { } ^ { q } \!D )
+\lambda   = \sum   _ { i = 1 } ^ { R } p _ { i } ^ { 2 }
+{ \displaystyle   \ell   = { \frac   { \sum   _ { i = 1 } ^ { R } n _ { i } ( n _ { i } - 1 ) } { N ( N - 1 ) } } }
+{ \displaystyle   { \frac   { 1 } { \lambda   } } = { 1   \over   \sum   _ { i = 1 } ^ { R } p _ { i } ^ { 2 } } = { } ^ { 2 } D }
+{ \displaystyle   1 - \lambda   = 1 - \sum   _ { i = 1 } ^ { R } p _ { i } ^ { 2 } = 1 - { \frac   { 1 } { { } ^ { 2 } D } } }

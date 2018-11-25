@@ -1,0 +1,11 @@
+\Chi ^ 2  
+\Chi ^ 2   =   2 \sum   O _ { i j }   \ln   \frac { O _ { i j } } { E _ { i j } } ,
+\ln   =  
+O _ { i j }   =  
+E _ { i j }   =  
+\Chi ^ 2   =  
+\frac { O _ { i j } } { E _ { i j } } = 1
+\ln ( 1 ) = 0
+\ln ( F _ { i j k } ) = \lambda   +   \lambda ^ A   +   \lambda ^ B   + \lambda ^ C   +   \lambda ^ { A B }     +   \lambda ^ { A C } +   \lambda ^ { B C }     +   \lambda ^ { A B C } ,   \ ,
+F _ { i j k }   =
+\lambda   =

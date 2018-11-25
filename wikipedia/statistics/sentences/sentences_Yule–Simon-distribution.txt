@@ -1,0 +1,47 @@
+\rho   > 0 \ ,
+{ \displaystyle   k \in   \{ 1 , 2 , \dotsc   \ } }
+{ \displaystyle   \rho   \operatorname   { B }   ( k , \rho   + 1 ) }
+{ \displaystyle   1 - k \operatorname   { B }   ( k , \rho   + 1 ) }
+{ \displaystyle   { \frac   { \rho   } { \rho   - 1 } } }
+\rho   > 1
+1
+{ \displaystyle   { \frac   { \rho   ^ { 2 } } { ( \rho   - 1 ) ^ { 2 } ( \rho   - 2 ) } } }
+{ \displaystyle   \rho   > 2 }
+{ \displaystyle   { \frac   { ( \rho   + 1 ) ^ { 2 } { \sqrt   { \rho   - 2 } } } { ( \rho   - 3 ) \rho   } } \ , }
+{ \displaystyle   \rho   > 3 }
+{ \displaystyle   \rho   + 3 + { \frac   { 1 1 \rho   ^ { 3 } - 4 9 \rho   - 2 2 } { ( \rho   - 4 ) ( \rho   - 3 ) \rho   } } }
+{ \displaystyle   \rho   > 4 }
+{ \displaystyle   { \frac   { \rho   } { \rho   + 1 } } { } _ { 2 } F _ { 1 } ( 1 , 1 ; \rho   + 2 ; e ^ { t } ) \,e ^ { t } }
+{ \displaystyle   { \frac   { \rho   } { \rho   + 1 } } { } _ { 2 } F _ { 1 } ( 1 , 1 ; \rho   + 2 ; e ^ { i \,t } ) e ^ { i \,t } }
+{ \displaystyle   f ( k ; \rho   ) = \rho   \operatorname   { B }   ( k , \rho   + 1 ) , }
+k \geq   1
+\rho   > 0
+{ \displaystyle   \operatorname   { B }   }
+{ \displaystyle   f ( k ; \rho   ) = { \frac   { \rho   \Gamma   ( \rho   + 1 ) } { ( k + \rho   ) ^ { \underline   { \rho   + 1 } } } } , }
+\Gamma  
+\rho  
+{ \displaystyle   f ( k ; \rho   ) = { \frac   { \rho   \,\rho   ! \,( k - 1 ) ! } { ( k + \rho   ) ! } } . }
+\rho  
+{ \displaystyle   f ( k ; \rho   ) \approx   { \frac   { \rho   \Gamma   ( \rho   + 1 ) } { k ^ { \rho   + 1 } } } \propto   { \frac   { 1 } { k ^ { \rho   + 1 } } } . }
+f ( k ; \rho   )
+k
+k
+W
+1 / \rho  
+\rho  
+{ \displaystyle   W \sim   \operatorname   { E x p o n e n t i a l }   ( \rho   ) , }
+{ \displaystyle   h ( w ; \rho   ) = \rho   \exp ( - \rho   w ) . }
+{ \displaystyle   K \sim   \operatorname   { G e o m e t r i c }   ( 1 - \exp ( - W ) ) \ , . }
+{ \displaystyle   g ( k ; p ) = p ( 1 - p ) ^ { k - 1 } }
+{ \displaystyle   k \in   \{ 1 , 2 , \dotsc   \ } }
+{ \displaystyle   f ( k ; \rho   ) = \int   _ { 0 } ^ { \infty   } g ( k ; \exp ( - w ) ) h ( w ; \rho   ) \,dw . }
+\rho  
+{ \displaystyle   k _ { 1 } , k _ { 2 } , k _ { 3 } , \dots   , k _ { N } }
+{ \displaystyle   \rho   ^ { ( t + 1 ) } = { \frac   { N + a - 1 } { b + \sum   _ { i = 1 } ^ { N } \sum   _ { j = 1 } ^ { k _ { i } } { \frac   { 1 } { \rho   ^ { ( t ) } + j } } } } , }
+{ \displaystyle   b = 0 , a = 1 }
+\rho  
+\lambda  
+{ \displaystyle   \operatorname   { V a r }   ( { \hat   { \lambda   } } ) = { \frac   { 1 } { { \frac   { N } { { \hat   { \lambda   } } ^ { 2 } } } - \sum   _ { i = 1 } ^ { N } \sum   _ { j = 1 } ^ { k _ { i } } { \frac   { 1 } { ( { \hat   { \lambda   } } + j ) ^ { 2 } } } } } , }
+{ \displaystyle   f ( k ; \rho   , \alpha   ) = { \frac   { \rho   } { 1 - \alpha   ^ { \rho   } } } \;\mathrm   { B }   _ { 1 - \alpha   } ( k , \rho   + 1 ) , \ , }
+0 \leq   \alpha   < 1
+\alpha   = 0

@@ -1,0 +1,18 @@
+d ( A , B ) = \sum   _ { { x \in   A , y \in   B } } { \frac     { d ^ { 2 } ( x , y ) } { | A | + | B | } } - \sum   _ { { x , y \in   A } } { \frac     { d ^ { 2 } ( x , y ) } { | A | } } - \sum   _ { { x , y \in   B } } { \frac     { d ^ { 2 } ( x , y ) } { | B | } } .
+c _ { A }
+n _ { A }
+d ( A , B ) = { \frac     { d ^ { 2 } ( c _ { a } , c _ { b } ) } { 1 / n _ { A } + 1 / n _ { B } } } ,
+d ( A \cup   B , C ) = { \frac     { n _ { A } + n _ { C } } { n _ { A } + n _ { B } + n _ { C } } } d ( A , C ) + { \frac     { n _ { B } + n _ { C } } { n _ { A } + n _ { B } + n _ { C } } } d ( B , C ) - { \frac     { n _ { C } } { n _ { A } + n _ { B } + n _ { C } } } d ( A , B ) .
+d ( A , B )
+A
+B
+n _ { C }
+d ( A , C )
+d ( B , C )
+d ( A \cup   B , C )
+d ( A , C )
+d ( B , C )
+d ( A \cup   B , C )
+d ( A , C )
+d ( B , C )
+d ( A \cup   B , C ) = \min ( d ( A , C ) , d ( B , C ) ) ,

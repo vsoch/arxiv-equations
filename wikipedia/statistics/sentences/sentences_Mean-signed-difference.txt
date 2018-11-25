@@ -1,0 +1,13 @@
+{ \hat     { \theta   } } _ { i }
+\theta   _ { i }
+\theta   _ { i }
+{ \hat     { \theta   } } _ { i }
+{ \displaystyle   { \hat   { \theta   } } _ { i } - \theta   _ { i } . }
+( { \hat     { \theta   } } _ { i } , \theta   _ { i } )
+{ \hat     { \theta   } } _ { i }
+\theta  
+\theta   = \theta   _ { i }
+\theta   _ { i }
+{ \hat     { \theta   } } _ { i }
+\theta   _ { i }
+\operatorname   { M S D } ( { \hat     { \theta   } } ) = \sum   _ { { i = 1 } } ^ { { n } } { \frac     { { \hat     { \theta   _ { { i } } } } - \theta   _ { { i } } } { n } } .

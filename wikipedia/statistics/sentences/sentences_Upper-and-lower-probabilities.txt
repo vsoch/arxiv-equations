@@ -1,0 +1,7 @@
+{ \displaystyle   P ( S ) \ , \ ! }
+{ \displaystyle   m : P ( S ) \rightarrow   R }
+{ \displaystyle   m ( \varnothing   ) = 0 \,\,\,\,\,\,\!;\,\,\,\,\,\,\sum   _ { A \in   P ( X ) } m ( A ) = 1 . \ , \ ! }
+{ \displaystyle   \operatorname   { b e l }   ( A ) = \sum   _ { B \mid   B \subseteq   A } m ( B ) \,\,\,\,;\,\,\,\,\operatorname   { p l }   ( A ) = \sum   _ { B \mid   B \cap   A \neq   \varnothing   } m ( B ) }
+S
+{ \displaystyle   \operatorname   { b e l }   }
+{ \displaystyle   \operatorname   { e n v _ { 1 } }   ( A ) = \inf   _ { p \in   C } p ( A ) \,\,\,\,;\,\,\,\,\operatorname   { e n v _ { 2 } }   ( A ) = \sup   _ { p \in   C } p ( A ) }

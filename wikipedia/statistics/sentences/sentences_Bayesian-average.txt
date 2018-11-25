@@ -1,0 +1,1 @@
+{ \displaystyle   { \bar   { x } } = { C m + \sum   _ { i = 1 } ^ { n } x _ { i }   \over   C + n } }

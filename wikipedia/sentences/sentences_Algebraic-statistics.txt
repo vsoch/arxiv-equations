@@ -1,5 +1,0 @@
-p _ { i } = { \mathrm     { P r } } ( X = i ) , \quad   i = 0 , 1 , 2
-\sum   _ { { i = 0 } } ^ { 2 } p _ { i } = 1 \quad   { \mbox { a n d } } \quad   0 \leq   p _ { i } \leq   1 .
-p _ { i } = { \mathrm     { P r } } ( X = i ) = { 2   \choose   i } q ^ { i } ( 1 - q ) ^ { { 2 - i } }
-4 p _ { 0 } p _ { 2 } - p _ { 1 } ^ { 2 } = 0 . \  
-\sum   _ { { i = 0 } } ^ { 2 } p _ { i } = 1 \quad   { \mbox { a n d } } \quad   0 \leq   p _ { i } \leq   1 ,

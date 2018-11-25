@@ -1,0 +1,30 @@
+\theta  
+\pi ( \theta )
+{ \displaystyle   0 \leq   \theta   \leq   1 }
+{ \displaystyle   \pi   ( \theta   | y ) }
+\theta  
+y
+{ \displaystyle   \pi   ( \theta   | y ) }
+{ \displaystyle   \pi   ( \theta   | y ) = { \frac   { p ( y | \theta   ) \pi   ( \theta   ) } { p ( y ) } } }
+{ \displaystyle   p ( y ) = \int   p ( y | \theta   ) \pi   ( \theta   ) d \theta   }
+y
+{ \displaystyle   \pi   ( \theta   | y ) = { \frac   { f ( y | \theta   ) \pi   ( \theta   ) } { f ( y ) } } }
+{ \displaystyle   f ( y ) = \int   f ( y | \theta   ) \pi   ( \theta   ) d \theta   }
+{ \displaystyle   \pi   ( \theta   | y ) }
+{ \displaystyle   \theta   | y }
+{ \displaystyle   f ( y | \theta   ) }
+y
+\theta  
+\pi ( \theta )
+\theta  
+f ( y )
+y
+{ \displaystyle   \pi   ( \theta   | y ) \propto   f ( y | \theta   ) \pi   ( \theta   ) }
+\pi ( \theta )
+{ \displaystyle   \pi   ( \theta   | y ) }
+\theta  
+\theta  
+{ \displaystyle   0 \leq   \theta   \leq   1 }
+{ \displaystyle   \theta   ^ { \Sigma   y _ { i } } ( 1 - \theta   ) ^ { n - \Sigma   y _ { i } } }
+{ \displaystyle   { \bar   { y } } . }
+\hat { \theta }

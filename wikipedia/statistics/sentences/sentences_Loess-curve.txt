@@ -1,0 +1,42 @@
+n
+\alpha  
+n \alpha
+\alpha  
+\left ( \lambda + 1 \right ) / n
+\lambda  
+\alpha  
+\alpha  
+\alpha  
+{ \displaystyle   w ( x ) = ( 1 - | d | ^ { 3 } ) ^ { 3 } }
+{ \displaystyle   w ( x , z ) }
+{ \mathbb     R } ^ { m }
+{ \displaystyle   x , z \in   \mathbb   { R }   ^ { n } }
+n
+\mathbb   { R }   ^ { n }
+{ \displaystyle   \mathbb   { R }   ^ { n + 1 } }
+{ \displaystyle   x \mapsto   { \hat   { x } } : = ( 1 , x ) }
+{ \displaystyle   \operatorname   { R S S }   _ { x } ( A ) = \sum   _ { i = 1 } ^ { N } ( y _ { i } - A { \hat   { x } } _ { i } ) ^ { T } w _ { i } ( x ) ( y _ { i } - A { \hat   { x } } _ { i } ) . }
+A
+{ \displaystyle   n + 1 \times   n + 1 }
+{ \displaystyle   w _ { i } ( x ) : = w ( x _ { i } , x ) }
+w
+h
+{ \displaystyle   w = h ^ { 2 } }
+{ \displaystyle   y ^ { T } w y = ( h y ) ^ { T } ( h y ) = \operatorname   { T r }   ( h y y ^ { T } h ) = \operatorname   { T r }   ( w y y ^ { T } ) }
+y _ { i }
+{ \displaystyle   { \hat   { x } } _ { i } }
+m \times   N
+Y
+{ \displaystyle   n + 1 \times   N }
+{ \hat     X }
+{ \displaystyle   \operatorname   { T r }   ( W ( x ) ( Y - A { \hat   { X } } ) ^ { T } ( Y - A { \hat   { X } } ) ) }
+W
+N \times   N
+{ \displaystyle   w _ { i } ( x ) }
+A
+{ \displaystyle   A { \hat   { X } } W ( x ) { \hat   { X } } ^ { T } = Y W ( x ) { \hat   { X } } ^ { T } . }
+{ \displaystyle   { \hat   { X } } W ( x ) { \hat   { X } } ^ { T } }
+{ \displaystyle   \operatorname   { R S S }   _ { x } ( A ) }
+{ \displaystyle   A ( x ) = Y W ( x ) { \hat   { X } } ^ { T } ( { \hat   { X } } W ( x ) { \hat   { X } } ^ { T } ) ^ { - 1 } . }
+{ \displaystyle   w ( x , z ) }
+{ \displaystyle   w ( x , z ) = \exp   \left ( - { \frac   { ( x - z ) ^ { 2 } } { 2 \sigma   ^ { 2 } } } \right ) }

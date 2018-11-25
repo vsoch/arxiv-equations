@@ -1,0 +1,7 @@
+I = { \frac     { { \frac     { N } { S _ { { 0 } } } } \sum   _ { { i } } { \sum   _ { { j } } { W _ { { i j } } Z _ { { i } } Z _ { { j } } } } } { \sum   _ { { i } } { Z _ { { i } } ^ { { 2 } } } } }
+Z _ { { i } }
+W _ { i j }
+S _ { 0 } = \sum   _ { { i } } { \sum   _ { { j } } { W _ { { i j } } } }
+I _ { i } = { \frac     { Z _ { i } } { m _ { 2 } } } \sum   _ { j } W _ { { i j } } Z _ { j }
+m _ { 2 } = { \frac     { \sum   _ { i } Z _ { i } ^ { 2 } } { N } }
+I = \sum   _ { i } { \frac     { I _ { i } } { N } }

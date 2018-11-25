@@ -1,0 +1,46 @@
+M _ { 1 }
+M _ { 2 }
+D
+M _ { 1 }
+{ \displaystyle   { \begin { a l i g n e d } P ( M _ { 1 } \mid   D ) & = { \frac   { P ( D \mid   M _ { 1 } ) P ( M _ { 1 } ) } { P ( D ) } } \\&={ \frac   { P ( D \mid   M _ { 1 } ) P ( M _ { 1 } ) } { P ( D \mid   M _ { 1 } ) P ( M _ { 1 } ) + P ( D \mid   M _ { 2 } ) P ( M _ { 2 } ) } } \\&={ \frac   { 1 } { 1 + { \frac   { P ( D \mid   M _ { 2 } ) } { P ( D \mid   M _ { 1 } ) } } { \frac   { P ( M _ { 2 } ) } { P ( M _ { 1 } ) } } } } \end { a l i g n e d } } }
+M _ { 1 }
+M _ { 2 }
+{ \displaystyle   P ( M _ { 1 } ) = P ( M _ { 2 } ) = 1 / 2 }
+{ \displaystyle   P ( M _ { 2 } ) / P ( M _ { 1 } ) = 1 }
+{ \displaystyle   P ( D \mid   M _ { 2 } ) / P ( D \mid   M _ { 1 } ) }
+M _ { 1 }
+\theta  
+M _ { 2 }
+\theta  
+M _ { 1 }
+{ \displaystyle   P ( D \mid   M _ { 1 } ) = \int   d \theta   \,P ( D \mid   \theta   , M _ { 1 } ) P ( \theta   \mid   M _ { 1 } ) }
+M _ { 2 }
+{ \displaystyle   P ( \theta   \mid   D , M _ { 1 } ) }
+{ \displaystyle   Z = P ( D \mid   M ) }
+M
+M _ { 1 }
+M _ { 2 }
+N
+{ \displaystyle   \theta   _ { 1 } , \ldots   , \theta   _ { N } }
+i = 1
+j
+{ \displaystyle   L _ { i } : = \min ( }
+)
+{ \displaystyle   X _ { i } : = \exp ( - i / N ) ; }
+{ \displaystyle   w _ { i } : = X _ { i - 1 } - X _ { i } }
+{ \displaystyle   Z : = Z + L _ { i } \cdot   w _ { i } ; }
+w _ { i }
+L _ i
+Z
+X _ { i }
+\theta   _ { i }
+w _ { i }
+{ \displaystyle   \{ \theta   \mid   P ( D \mid   \theta   , M ) = P ( D \mid   \theta   _ { i - 1 } , M ) \ } }
+{ \displaystyle   \{ \theta   \mid   P ( D \mid   \theta   , M ) = P ( D \mid   \theta   _ { i } , M ) \ } }
+{ \displaystyle   Z : = Z + L _ { i } w _ { i } }
+i
+{ \displaystyle   L _ { i } w _ { i } }
+{ \displaystyle   { \begin { a l i g n e d } P ( D \mid   M ) & = \int   P ( D \mid   \theta   , M ) P ( \theta   \mid   M ) \,d \theta   \\&=\int   P ( D \mid   \theta   , M ) \,dP ( \theta   \mid   M ) \end { a l i g n e d } } }
+{ \displaystyle   f ( \theta   ) = P ( D \mid   \theta   , M ) }
+{ \displaystyle   [ f ( \theta   _ { i - 1 } ) , f ( \theta   _ { i } ) ] }
+\theta  

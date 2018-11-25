@@ -1,0 +1,11 @@
+\scriptstyle   { \pi   }
+{ \displaystyle   \pi   _ { i } = \sum   _ { j \in   S } \pi   _ { j } q _ { j i } , }
+{ \displaystyle   \pi   _ { i } \sum   _ { j \in   S \setminus   \{ i \}}q_ { i j } = \sum   _ { j \in   S \setminus   \{ i \}}\pi   _ { j } q _ { j i } . }
+{ \displaystyle   \pi   _ { i } q _ { i j } }
+{ \displaystyle   j \neq   i }
+\pi   _ { i }
+{ \displaystyle   \pi   _ { i } q _ { i j } = \pi   _ { j } q _ { j i } }
+\pi  
+\pi  
+{ \displaystyle   \pi   _ { i } p _ { i j } = \pi   _ { j } p _ { j i } . }
+\pi  

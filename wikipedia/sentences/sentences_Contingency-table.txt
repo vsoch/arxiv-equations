@@ -1,5 +1,0 @@
-{ \displaystyle   \phi   = \pm   { \sqrt   { \frac   { \chi   ^ { 2 } } { N } } } , }
-C = \sqrt { \frac { \chi ^ 2 } { N + \chi ^ 2 } }
-V = { \sqrt     { { \frac     { \chi   ^ { 2 } } { N ( k - 1 ) } } } } ,
-\sqrt { \frac { k - 1 } { k } }
-{ \displaystyle   { \sqrt [ { \scriptstyle   4 } ] { { r - 1   \over   r } \times   { c - 1   \over   c } } } }

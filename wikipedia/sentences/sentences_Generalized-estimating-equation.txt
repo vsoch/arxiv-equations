@@ -1,8 +1,0 @@
-\mu   _ { i j }
-i
-j
-\beta   _ { k }
-V _ { i }
-U ( \beta   ) = \sum   _ { i = 1 } ^ { N } { \frac   { \partial   \mu   _ { i j } } { \partial   \beta   _ { k } } } V _ { i } ^ { - 1 } \{ Y _ { i } - \mu   _ { i } ( \beta   ) \ } \ , \ !
-\beta   _ { k }
-U ( \beta   ) = 0

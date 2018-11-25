@@ -1,0 +1,24 @@
+m
+m
+v
+m = v
+{ \displaystyle   A : x \mapsto   2 { \sqrt   { x + { \tfrac   { 3 } { 8 } } } } \ , }
+x
+m
+{ \displaystyle   2 { \sqrt   { m + { \tfrac   { 3 } { 8 } } } } - { \tfrac   { 1 } { 4 \,m ^ { 1 / 2 } } } + O \left ( { \tfrac   { 1 } { m ^ { 3 / 2 } } } \right ) }
+{ \displaystyle   1 + O \left ( { \tfrac   { 1 } { m ^ { 2 } } } \right ) }
+m
+{ \displaystyle   2 { \sqrt   { x + c } } }
+{ \displaystyle   { \frac   { { \tfrac   { 3 } { 8 } } - c } { m } } }
+{ \displaystyle   c = { \tfrac   { 3 } { 8 } } }
+x
+m
+y
+A ^ { { - 1 } } : y \mapsto   \left ( { \frac     { y } { 2 } } \right ) ^ { 2 } - { \frac     { 3 } { 8 } }
+m
+y \mapsto   \left ( { \frac     { y } { 2 } } \right ) ^ { 2 } - { \frac     { 1 } { 8 } }
+\operatorname   { E } \left [ 2 { \sqrt     { x + { \tfrac     { 3 } { 8 } } } } \mid   m \right ] = 2 \sum   _ { { x = 0 } } ^ { { + \infty   } } \left ( { \sqrt     { x + { \tfrac     { 3 } { 8 } } } } \cdot   { \frac     { m ^ { x } e ^ { { - m } } } { x ! } } \right ) \mapsto   m
+{ \displaystyle   y \mapsto   { \frac   { 1 } { 4 } } y ^ { 2 } - { \frac   { 1 } { 8 } } + { \frac   { 1 } { 4 } } { \sqrt   { \frac   { 3 } { 2 } } } y ^ { - 1 } - { \frac   { 1 1 } { 8 } } y ^ { - 2 } + { \frac   { 5 } { 8 } } { \sqrt   { \frac   { 3 } { 2 } } } y ^ { - 3 } . }
+A : x \mapsto   { \sqrt     { x + 1 } } + { \sqrt     { x } } . \ ,
+A : x \mapsto   2 { \sqrt     { x } } \ ,
+{ \displaystyle   V [ 2 { \sqrt   { x } } ] \approx   \left ( { \frac   { d ( 2 { \sqrt   { m } } ) } { d m } } \right ) ^ { 2 } V [ x ] = \left ( { \frac   { 1 } { \sqrt   { m } } } \right ) ^ { 2 } m = 1 }

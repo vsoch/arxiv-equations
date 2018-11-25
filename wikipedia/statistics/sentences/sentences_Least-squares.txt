@@ -1,0 +1,49 @@
+( x _ { i } , y _ { i } ) \ !
+x _ { i } \ !
+y _ { i } \ !
+f ( x , \beta   )
+{ \boldsymbol   { \beta   } }
+r _ { i } = y _ { i } - f ( x _ { i } , { \boldsymbol     \beta   } ) .
+S
+{ \displaystyle   S = \sum   _ { i = 1 } ^ { n } { r _ { i } } ^ { 2 } . }
+\beta   _ { 0 }
+\beta   _ { 1 }
+f ( x , \boldsymbol   \beta ) = \beta_0 + \beta_1   x
+{ \displaystyle   { \frac   { \partial   S } { \partial   \beta   _ { j } } } = 2 \sum   _ { i } r _ { i } { \frac   { \partial   r _ { i } } { \partial   \beta   _ { j } } } = 0 , \ j = 1 , \ldots   , m , }
+r _ i = y _ i - f ( x _ i , \boldsymbol   \beta )
+- 2 \sum   _ { i } r _ { i } { \frac     { \partial   f ( x _ { i } , { \boldsymbol     \beta   } ) } { \partial   \beta   _ { j } } } = 0 , \ j = 1 , \ldots   , m .
+f ( x , \beta   ) = \sum   _ { { j = 1 } } ^ { m } \beta   _ { j } \phi   _ { j } ( x ) ,
+\phi   _ { j }
+x
+{ \displaystyle   X _ { i j } = \phi   _ { j } ( x _ { i } ) , }
+  \boldsymbol   \beta
+{ \displaystyle   { \boldsymbol   { \hat   { \beta   } } } = ( X ^ { T } X ) ^ { - 1 } X ^ { T } { \boldsymbol   { y } } . }
+\beta  
+{ \beta   _ { j } } ^ { { k + 1 } } = { \beta   _ { j } } ^ { k } + \Delta   \beta   _ { j } ,
+\Delta   \beta   _ { j }
+{ \boldsymbol     \beta   } ^ { k }
+{ \displaystyle   { \begin { a l i g n e d } f ( x _ { i } , { \boldsymbol   { \beta   } } ) & = f ^ { k } ( x _ { i } , { \boldsymbol   { \beta   } } ) + \sum   _ { j } { \frac   { \partial   f ( x _ { i } , { \boldsymbol   { \beta   } } ) } { \partial   \beta   _ { j } } } \left ( \beta   _ { j } - { \beta   _ { j } } ^ { k } \right ) \\&=f ^ { k } ( x _ { i } , { \boldsymbol   { \beta   } } ) + \sum   _ { j } J _ { i j } \,\Delta   \beta   _ { j } . \end { a l i g n e d } } }
+{ \displaystyle   r _ { i } = y _ { i } - f ^ { k } ( x _ { i } , { \boldsymbol   { \beta   } } ) - \sum   _ { k = 1 } ^ { m } J _ { i k } \,\Delta   \beta   _ { k } = \Delta   y _ { i } - \sum   _ { j = 1 } ^ { m } J _ { i j } \,\Delta   \beta   _ { j } . }
+r _ { i }
+\Delta   \beta   _ { j }
+{ \displaystyle   - 2 \sum   _ { i = 1 } ^ { n } J _ { i j } \left ( \Delta   y _ { i } - \sum   _ { k = 1 } ^ { m } J _ { i k } \,\Delta   \beta   _ { k } \right ) = 0 , }
+{ \displaystyle   \sum   _ { i = 1 } ^ { n } \sum   _ { k = 1 } ^ { m } J _ { i j } J _ { i k } \,\Delta   \beta   _ { k } = \sum   _ { i = 1 } ^ { n } J _ { i j } \,\Delta   y _ { i } \qquad   ( j = 1 , \ldots   , m ) . }
+{ \displaystyle   \mathbf   { ( J ^ { T } J ) \,\Delta   { \boldsymbol   { \beta   } } = J ^ { T } \,\Delta   y }   . \ , }
+f   =   X _ { i 1 } \beta_1   +   X _ { i 2 } \beta_2   + \cdots
+\beta ^ 2 ,   e ^ { \beta   x }
+\partial   f   / \partial   \beta_j
+y = f ( F , k ) = k F \ !
+( F _ i ,   y _ i ) , \ i = 1 , \dots , n \ !
+\varepsilon  
+  y _ i   =   k F _ i   +   \varepsilon_i .   \ ,  
+{ \displaystyle   S = \sum   _ { i = 1 } ^ { n } ( y _ { i } - k F _ { i } ) ^ { 2 } . }
+{ \displaystyle   { \hat   { k } } = { \frac   { \sum   _ { i } F _ { i } y _ { i } } { \sum   _ { i } F _ { i } ^ { 2 } } } . }
+\operatorname   { v a r } ( { \hat     { \beta   } } _ { j } )
+{ \displaystyle   \operatorname   { v a r }   ( { \hat   { \beta   } } _ { j } ) = \sigma   ^ { 2 } ( [ X ^ { T } X ] ^ { - 1 } ) _ { j j } \approx   { \frac   { S } { n - m } } ( [ X ^ { T } X ] ^ { - 1 } ) _ { j j } , }
+y
+\|\beta \|^ 2
+\alpha \|\beta \|^ 2
+\alpha  
+{ \displaystyle   \|\beta   \ | }
+{ \displaystyle   \alpha   \|\beta   \ | }
+\alpha  

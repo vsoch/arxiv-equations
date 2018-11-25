@@ -1,0 +1,8 @@
+{ \mathit     { J B } } = { \frac     { n - k + 1 } { 6 } } \left ( S ^ { 2 } + { \frac     1 4 } ( C - 3 ) ^ { 2 } \right )
+S = { \frac     { { \hat     { \mu   } } _ { 3 } } { { \hat     { \sigma   } } ^ { 3 } } } = { \frac     { { \frac     1 n } \sum   _ { { i = 1 } } ^ { n } ( x _ { i } - { \bar     { x } } ) ^ { 3 } } { \left ( { \frac     1 n } \sum   _ { { i = 1 } } ^ { n } ( x _ { i } - { \bar     { x } } ) ^ { 2 } \right ) ^ { { 3 / 2 } } } } ,
+C = { \frac     { { \hat     { \mu   } } _ { 4 } } { { \hat     { \sigma   } } ^ { 4 } } } = { \frac     { { \frac     1 n } \sum   _ { { i = 1 } } ^ { n } ( x _ { i } - { \bar     { x } } ) ^ { 4 } } { \left ( { \frac     1 n } \sum   _ { { i = 1 } } ^ { n } ( x _ { i } - { \bar     { x } } ) ^ { 2 } \right ) ^ { { 2 } } } } ,
+{ \hat     { \mu   } } _ { 3 }
+{ \hat     { \mu   } } _ { 4 }
+{ \bar   { x } }
+{ \hat   { \sigma   } } ^ { 2 }
+          \mathit { J B }   =   \frac { n - k } { 6 }   \left (   S ^ 2   +   \frac14   ( C - 3 ) ^ 2   \right )      

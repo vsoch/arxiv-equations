@@ -1,0 +1,3 @@
+\xi   ( r )
+P ( k )
+\xi   ( r ) = { \frac     { 1 } { 2 \pi   ^ { 2 } } } \int   d k \,k ^ { 2 } P ( k ) \,{ \frac     { \sin ( k r ) } { k r } }

@@ -1,0 +1,29 @@
+S = \sum   _ { { i = 1 } } ^ { N } X _ { i } \ ,
+N \ ,
+X _ { i } \ ,
+S = \sum   _ { { i = 1 } } ^ { N } X _ { i } \ ,
+N \ ,
+X _ { i } \ ,
+X _ { i } \ ,
+N \ ,
+X _ { i } \ ,
+h { \mathbb     { N } } _ { 0 } \ ,
+h > 0 \ ,
+f _ { k } = P [ X _ { i } = h k ] . \ ,
+X _ { i } \ ,
+{ \displaystyle   P [ N = k ] = p _ { k } = \left ( a + { \frac   { b } { k } } \right ) \cdot   p _ { k - 1 } , ~ ~ k \geq   1 . \ , }
+a
+b
+a + b \geq   0 \ ,
+p _ { 0 } \ ,
+\sum   _ { { k = 0 } } ^ { \infty   } p _ { k } = 1 . \ ,
+W _ { N } ( x ) \ ,
+n
+g _ { k } = P [ S = h k ] \ ,
+g _ { 0 } = W _ { N } ( f _ { 0 } ) \ ,
+{ \displaystyle   g _ { 0 } = p _ { 0 } \cdot   \exp ( f _ { 0 } b ) \quad   { \text {   i f   } } \quad   a = 0 , \ , }
+{ \displaystyle   g _ { 0 } = { \frac   { p _ { 0 } } { ( 1 - f _ { 0 } a ) ^ { 1 + b / a } } } \quad   { \text {   f o r   } } \quad   a \neq   0 , \ , }
+g _ { k } = { \frac     { 1 } { 1 - f _ { 0 } a } } \sum   _ { { j = 1 } } ^ { k } \left ( a + { \frac     { b \cdot   j } { k } } \right ) \cdot   f _ { j } \cdot   g _ { { k - j } } . \ ,
+\scriptstyle   S \,=\,\sum   _ { { i = 1 } } ^ { N } X _ { i }
+\scriptstyle   N \,\sim   \,{ \text { N e g B i n } } ( 3 . 5 , 0 . 3 ) \ ,
+\scriptstyle   X \,\sim   \,{ \text { F r e c h e t } } ( 1 . 7 , 1 )

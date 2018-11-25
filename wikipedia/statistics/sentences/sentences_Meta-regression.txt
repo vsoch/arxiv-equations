@@ -1,0 +1,21 @@
+{ \displaystyle   y _ { j } = \beta   _ { 0 } + \beta   _ { 1 } x _ { 1 j } + \beta   _ { 2 } x _ { 2 j } + \cdots   + \varepsilon   }
+y _ { j }
+j
+\beta   _ { 0 }
+{ \displaystyle   x _ { i . } ( i = 1 \ldots   k ) }
+\varepsilon  
+\theta  
+{ \displaystyle   { \mathcal   { N } } ( \theta   , \sigma   _ { \theta   } ) }
+{ \displaystyle   \sigma   _ { \theta   } ^ { 2 } }
+\theta  
+\varepsilon = 0
+{ \displaystyle   y _ { j } = \beta   _ { 0 } + \beta   _ { 1 } x _ { 1 j } + \beta   _ { 2 } x _ { 2 j } + \cdots   + \eta   _ { j } \ , }
+{ \displaystyle   \sigma   _ { \eta   _ { j } } ^ { 2 } }
+j
+\theta  
+{ \displaystyle   { \mathcal   { N } } ( \theta   , \sigma   _ { i } ) }
+{ \displaystyle   { \mathcal   { N } } ( \theta   , \sigma   _ { \theta   } ) . }
+{ \displaystyle   y _ { j } = \beta   _ { 0 } + \beta   _ { 1 } x _ { 1 j } + \beta   _ { 2 } x _ { 2 j } + \cdots   + \eta   + \varepsilon   _ { j } \ , }
+{ \displaystyle   \sigma   _ { \varepsilon   _ { j } } ^ { 2 } }
+j
+{ \displaystyle   \sigma   _ { \eta   } ^ { 2 } }

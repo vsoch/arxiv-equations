@@ -1,0 +1,5 @@
+P ( x _ { { 1 } } , x _ { { 2 } } , \ldots   , x _ { { n } } )
+P ^ { { \prime   } } ( x _ { 1 } , x _ { 2 } , \ldots   , x _ { n } ) = { \frac     { { \frac     { { \frac     { \prod   _ { { { \mathcal     { T } } _ { { n - 1 } } \subseteq   { \mathcal     { V } } } } p ( { \mathcal     { T } } _ { { n - 1 } } ) } { \prod   _ { { { \mathcal     { T } } _ { { n - 2 } } \subseteq   { \mathcal     { V } } } } p ( { \mathcal     { T } } _ { { n - 2 } } ) } } } { \vdots   } } } { \prod   _ { { { \mathcal     { T } } _ { 1 } \subseteq   { \mathcal     { V } } } } p ( { \mathcal     { T } } _ { 1 } ) } }
+\prod   _ { { { \mathcal     { T } } _ { i } \subseteq   { \mathcal     { V } } } } p ( { \mathcal     { T } } _ { i } )
+\scriptstyle   { \mathcal     { V } }
+P ^ { \prime   } ( x _ { 1 } , x _ { 2 } , x _ { 3 } ) = { \frac     { p ( x _ { 1 } , x _ { 2 } ) p ( x _ { 2 } , x _ { 3 } ) p ( x _ { 1 } , x _ { 3 } ) } { p ( x _ { 1 } ) p ( x _ { { 2 } } ) p ( x _ { 3 } ) } }

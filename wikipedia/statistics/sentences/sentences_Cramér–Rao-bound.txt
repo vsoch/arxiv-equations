@@ -1,0 +1,128 @@
+\theta  
+x
+f ( x ; \theta   )
+\hat { \theta }
+\theta  
+I ( \theta   )
+{ \displaystyle   \operatorname   { v a r }   ( { \hat   { \theta   } } ) \geq   { \frac   { 1 } { I ( \theta   ) } } }
+I ( \theta   )
+{ \displaystyle   I ( \theta   ) = \operatorname   { E }   \left [ \left ( { \frac   { \partial   \ell   ( x ; \theta   ) } { \partial   \theta   } } \right ) ^ { 2 } \right ] = - \operatorname   { E }   \left [ { \frac   { \partial   ^ { 2 } \ell   ( x ; \theta   ) } { \partial   \theta   ^ { 2 } } } \right ] }
+\ell   ( x ; \theta   ) = \log ( f ( x ; \theta   ) )
+\operatorname   { E }  
+x
+\hat { \theta }
+{ \displaystyle   e ( { \hat   { \theta   } } ) = { \frac   { I ( \theta   ) ^ { - 1 } } { \operatorname   { v a r }   ( { \hat   { \theta   } } ) } } }
+{ \displaystyle   e ( { \hat   { \theta   } } ) \leq   1 . }
+T ( X )
+\psi   ( \theta   )
+{ \displaystyle   E \{ T ( X ) \}-\theta   = \psi   ( \theta   ) - \theta   }
+{ \displaystyle   \operatorname   { v a r }   ( T ) \geq   { \frac   { [ \psi   ' ( \theta   ) ] ^ { 2 } } { I ( \theta   ) } } }
+\psi   ' ( \theta   )
+\psi   ( \theta   )
+\theta  
+I ( \theta   )
+\hat { \theta }
+b ( \theta   ) = E \{ { \hat     { \theta   } } \}-\theta  
+\psi   ( \theta   ) = b ( \theta   ) + \theta  
+\psi   ( \theta   )
+( \psi   ' ( \theta   ) ) ^ { 2 } / I ( \theta   )
+\hat { \theta }
+b ( \theta   )
+{ \displaystyle   \operatorname   { v a r }   \left ( { \hat   { \theta   } } \right ) \geq   { \frac   { [ 1 + b ' ( \theta   ) ] ^ { 2 } } { I ( \theta   ) } } . }
+b ( \theta   ) = 0
+{ \displaystyle   \operatorname   { E }   \left ( ( { \hat   { \theta   } } - \theta   ) ^ { 2 } \right ) \geq   { \frac   { [ 1 + b ' ( \theta   ) ] ^ { 2 } } { I ( \theta   ) } } + b ( \theta   ) ^ { 2 } , }
+{ \displaystyle   1 + b ' ( \theta   ) < 1 }
+{ \displaystyle   1 / I ( \theta   ) }
+{ \displaystyle   1 + b ' ( \theta   ) = { \frac   { n } { n + 2 } } < 1 }
+{ \boldsymbol     { \theta   } } = \left [ \theta   _ { 1 } , \theta   _ { 2 } , \dots   , \theta   _ { d } \right ] ^ { T } \in   { \mathbb     { R } } ^ { d }
+f ( x ; { \boldsymbol     { \theta   } } )
+d   \times   d
+I _ { { m , k } }
+{ \displaystyle   I _ { m , k } = \operatorname   { E }   \left [ { \frac   { \partial   } { \partial   \theta   _ { m } } } \log   f \left ( x ; { \boldsymbol   { \theta   } } \right ) { \frac   { \partial   } { \partial   \theta   _ { k } } } \log   f \left ( x ; { \boldsymbol   { \theta   } } \right ) \right ] = - \operatorname   { E }   \left [ { \frac   { \partial   ^ { 2 } } { \partial   \theta   _ { m } \partial   \theta   _ { k } } } \log   f \left ( x ; { \boldsymbol   { \theta   } } \right ) \right ] . }
+{ \boldsymbol     { T } } ( X )
+{ \boldsymbol     { T } } ( X ) = ( T _ { 1 } ( X ) , \ldots   , T _ { d } ( X ) ) ^ { T }
+{ \displaystyle   \operatorname   { E }   [ { \boldsymbol   { T } } ( X ) ] }
+{ \boldsymbol     { \psi   } } ( { \boldsymbol     { \theta   } } )
+{ \boldsymbol     { T } } ( X )
+{ \displaystyle   \operatorname   { c o v }   _ { \boldsymbol   { \theta   } } \left ( { \boldsymbol   { T } } ( X ) \right ) \geq   { \frac   { \partial   { \boldsymbol   { \psi   } } \left ( { \boldsymbol   { \theta   } } \right ) } { \partial   { \boldsymbol   { \theta   } } } } [ I \left ( { \boldsymbol   { \theta   } } \right ) ] ^ { - 1 } \left ( { \frac   { \partial   { \boldsymbol   { \psi   } } \left ( { \boldsymbol   { \theta   } } \right ) } { \partial   { \boldsymbol   { \theta   } } } } \right ) ^ { T } }
+A \geq   B
+A - B
+\partial   { \boldsymbol     { \psi   } } ( { \boldsymbol     { \theta   } } ) / \partial   { \boldsymbol     { \theta   } }
+i j
+\partial   \psi   _ { i } ( { \boldsymbol     { \theta   } } ) / \partial   \theta   _ { j }
+{ \boldsymbol     { T } } ( X )
+{ \boldsymbol   { \theta   } }
+{ \boldsymbol     { \psi   } } \left ( { \boldsymbol     { \theta   } } \right ) = { \boldsymbol     { \theta   } }
+{ \displaystyle   \operatorname   { c o v }   _ { \boldsymbol   { \theta   } } \left ( { \boldsymbol   { T } } ( X ) \right ) \geq   I \left ( { \boldsymbol   { \theta   } } \right ) ^ { - 1 } . }
+{ \displaystyle   \operatorname   { v a r }   _ { \boldsymbol   { \theta   } } ( T _ { m } ( X ) ) = \left [ \operatorname   { c o v }   _ { \boldsymbol   { \theta   } } \left ( { \boldsymbol   { T } } ( X ) \right ) \right ] _ { m m } \geq   \left [ I \left ( { \boldsymbol   { \theta   } } \right ) ^ { - 1 } \right ] _ { m m } \geq   \left ( \left [ I \left ( { \boldsymbol   { \theta   } } \right ) \right ] _ { m m } \right ) ^ { - 1 } . }
+f ( x ;   \theta )
+T ( X )
+x
+f ( x ; \theta   ) > 0
+{ \frac     { \partial   } { \partial   \theta   } } \log   f ( x ; \theta   )
+x
+\theta  
+T
+{ \frac     { \partial   } { \partial   \theta   } } \left [ \int   T ( x ) f ( x ; \theta   ) \,dx \right ] = \int   T ( x ) \left [ { \frac     { \partial   } { \partial   \theta   } } f ( x ; \theta   ) \right ] \,dx
+f ( x ; \theta   )
+x
+\theta  
+f ( x ; \theta   )
+\theta  
+f ( x ; \theta   )
+{ \frac     { \partial   ^ { 2 } } { \partial   \theta   ^ { 2 } } } \left [ \int   T ( x ) f ( x ; \theta   ) \,dx \right ] = \int   T ( x ) \left [ { \frac     { \partial   ^ { 2 } } { \partial   \theta   ^ { 2 } } } f ( x ; \theta   ) \right ] \,dx .
+{ \displaystyle   I ( \theta   ) = - \operatorname   { E }   \left [ { \frac   { \partial   ^ { 2 } } { \partial   \theta   ^ { 2 } } } \log   f ( X ; \theta   ) \right ] . }
+{ \displaystyle   \operatorname   { v a r }   \left ( { \widehat   { \theta   } } \right ) \geq   { \frac   { 1 } { I ( \theta   ) } } = { \frac   { 1 } { - \operatorname   { E }   \left [ { \frac   { \partial   ^ { 2 } } { \partial   \theta   ^ { 2 } } } \log   f ( X ; \theta   ) \right ] } } . }
+T = t ( X )
+\psi   ( \theta   )
+X
+{ \displaystyle   \operatorname   { E }   ( T ) = \psi   ( \theta   ) }
+\theta  
+{ \displaystyle   \operatorname   { v a r }   ( t ( X ) ) \geq   { \frac   { [ \psi   ^ { \prime   } ( \theta   ) ] ^ { 2 } } { I ( \theta   ) } } . }
+X
+f ( x ;   \theta )
+T = t ( X )
+\psi   ( \theta   )
+V
+V = { \frac     { \partial   } { \partial   \theta   } } \ln   f ( X ; \theta   ) = { \frac     { 1 } { f ( X ; \theta   ) } } { \frac     { \partial   } { \partial   \theta   } } f ( X ; \theta   )
+V
+{ \displaystyle   \operatorname   { E }   ( V ) }
+{ \displaystyle   \operatorname   { E }   ( V ) = \int   f ( x ; \theta   ) \left [ { \frac   { 1 } { f ( x ; \theta   ) } } { \frac   { \partial   } { \partial   \theta   } } f ( x ; \theta   ) \right ] \,dx = { \frac   { \partial   } { \partial   \theta   } } \int   f ( x ; \theta   ) \,dx = 0 }
+{ \displaystyle   \operatorname   { c o v }   ( V , T ) }
+V
+T
+{ \displaystyle   \operatorname   { c o v }   ( V , T ) = \operatorname   { E }   ( V T ) }
+{ \displaystyle   \operatorname   { E }   ( V ) = 0 }
+{ \displaystyle   { \begin { a l i g n e d } \operatorname   { c o v }   ( V , T ) & = \operatorname   { E }   \left ( T \cdot   \left [ { \frac   { 1 } { f ( X ; \theta   ) } } { \frac   { \partial   } { \partial   \theta   } } f ( X ; \theta   ) \right ] \right ) \\[6pt ] & = \int   t ( x ) \left [ { \frac   { 1 } { f ( x ; \theta   ) } } { \frac   { \partial   } { \partial   \theta   } } f ( x ; \theta   ) \right ] f ( x ; \theta   ) \,dx \\[6pt ] & = { \frac   { \partial   } { \partial   \theta   } } \left [ \int   t ( x ) f ( x ; \theta   ) \,dx \right ] = \psi   ^ { \prime   } ( \theta   ) \end { a l i g n e d } } }
+{ \displaystyle   { \sqrt   { \operatorname   { v a r }   ( T ) \operatorname   { v a r }   ( V ) } } \geq   \left | \operatorname   { c o v }   ( V , T ) \right | = \left | \psi   ^ { \prime   } ( \theta   ) \right | }
+{ \displaystyle   \operatorname   { v a r }   ( T ) \geq   { \frac   { [ \psi   ^ { \prime   } ( \theta   ) ] ^ { 2 } } { \operatorname   { v a r }   ( V ) } } = { \frac   { [ \psi   ^ { \prime   } ( \theta   ) ] ^ { 2 } } { I ( \theta   ) } } }
+{ \displaystyle   { \boldsymbol   { x } } \sim   N _ { d } \left ( { \boldsymbol   { \mu   } } ( { \boldsymbol   { \theta   } } ) , { \boldsymbol   { C } } ( { \boldsymbol   { \theta   } } ) \right ) }
+{ \displaystyle   I _ { m , k } = { \frac   { \partial   { \boldsymbol   { \mu   } } ^ { T } } { \partial   \theta   _ { m } } } { \boldsymbol   { C } } ^ { - 1 } { \frac   { \partial   { \boldsymbol   { \mu   } } } { \partial   \theta   _ { k } } } + { \frac   { 1 } { 2 } } \operatorname   { t r }   \left ( { \boldsymbol   { C } } ^ { - 1 } { \frac   { \partial   { \boldsymbol   { C } } } { \partial   \theta   _ { m } } } { \boldsymbol   { C } } ^ { - 1 } { \frac   { \partial   { \boldsymbol   { C } } } { \partial   \theta   _ { k } } } \right ) }
+w [ n ]
+N
+\theta  
+\sigma   ^ { 2 }
+w [ n ] \sim   { \mathbb     { N } } _ { N } \left ( \theta   { { \boldsymbol     1 } } , \sigma   ^ { 2 } { { \boldsymbol     I } } \right ) .
+{ \displaystyle   I ( \theta   ) = \left ( { \frac   { \partial   { \boldsymbol   { \mu   } } ( \theta   ) } { \partial   \theta   } } \right ) ^ { T } { \boldsymbol   { C } } ^ { - 1 } \left ( { \frac   { \partial   { \boldsymbol   { \mu   } } ( \theta   ) } { \partial   \theta   } } \right ) = \sum   _ { i = 1 } ^ { N } { \frac   { 1 } { \sigma   ^ { 2 } } } = { \frac   { N } { \sigma   ^ { 2 } } } , }
+{ \displaystyle   \operatorname   { v a r }   \left ( { \hat   { \theta   } } \right ) \geq   { \frac   { \sigma   ^ { 2 } } { N } } . }
+\mu  
+\sigma   ^ { 2 }
+{ \displaystyle   T = { \frac   { \sum   _ { i = 1 } ^ { n } ( X _ { i } - \mu   ) ^ { 2 } } { n } } . }
+\sigma   ^ { 2 }
+E ( T ) = \sigma   ^ { 2 }
+{ \displaystyle   \operatorname   { v a r }   ( T ) = { \frac   { \operatorname   { v a r }   ( X - \mu   ) ^ { 2 } } { n } } = { \frac   { 1 } { n } } \left [ \operatorname   { E }   \left \{ ( X - \mu   ) ^ { 4 } \right \}-\left ( \operatorname   { E }   \{ ( X - \mu   ) ^ { 2 } \}\right ) ^ { 2 } \right ] }
+3 ( \sigma   ^ { 2 } ) ^ { 2 }
+( \sigma   ^ { 2 } ) ^ { 2 }
+{ \displaystyle   \operatorname   { v a r }   ( T ) = { \frac   { 2 ( \sigma   ^ { 2 } ) ^ { 2 } } { n } } . }
+V = { \frac     { \partial   } { \partial   \sigma   ^ { 2 } } } \log   L ( \sigma   ^ { 2 } , X )
+L
+{ \displaystyle   V = { \frac   { \partial   } { \partial   \sigma   ^ { 2 } } } \log   \left [ { \frac   { 1 } { \sqrt   { 2 \pi   \sigma   ^ { 2 } } } } e ^ { - ( X - \mu   ) ^ { 2 } / { 2 \sigma   ^ { 2 } } } \right ] = { \frac   { ( X - \mu   ) ^ { 2 } } { 2 ( \sigma   ^ { 2 } ) ^ { 2 } } } - { \frac   { 1 } { 2 \sigma   ^ { 2 } } } }
+{ \displaystyle   I = - \operatorname   { E }   \left ( { \frac   { \partial   V } { \partial   \sigma   ^ { 2 } } } \right ) = - \operatorname   { E }   \left ( - { \frac   { ( X - \mu   ) ^ { 2 } } { ( \sigma   ^ { 2 } ) ^ { 3 } } } + { \frac   { 1 } { 2 ( \sigma   ^ { 2 } ) ^ { 2 } } } \right ) = { \frac   { \sigma   ^ { 2 } } { ( \sigma   ^ { 2 } ) ^ { 3 } } } - { \frac   { 1 } { 2 ( \sigma   ^ { 2 } ) ^ { 2 } } } = { \frac   { 1 } { 2 ( \sigma   ^ { 2 } ) ^ { 2 } } } . }
+n
+n
+{ \frac     { n } { 2 ( \sigma   ^ { 2 } ) ^ { 2 } } } .
+{ \displaystyle   \operatorname   { v a r }   ( T ) \geq   { \frac   { 1 } { I } } . }
+{ \displaystyle   T = { \frac   { \sum   _ { i = 1 } ^ { n } ( X _ { i } - \mu   ) ^ { 2 } } { n + 2 } } . }
+{ \displaystyle   \operatorname   { v a r }   ( T ) = { \frac   { 2 n ( \sigma   ^ { 2 } ) ^ { 2 } } { ( n + 2 ) ^ { 2 } } } . }
+\left ( 1 - { \frac     { n } { n + 2 } } \right ) \sigma   ^ { 2 } = { \frac     { 2 \sigma   ^ { 2 } } { n + 2 } }
+{ \displaystyle   \operatorname   { M S E }   ( T ) = \left ( { \frac   { 2 n } { ( n + 2 ) ^ { 2 } } } + { \frac   { 4 } { ( n + 2 ) ^ { 2 } } } \right ) ( \sigma   ^ { 2 } ) ^ { 2 } = { \frac   { 2 ( \sigma   ^ { 2 } ) ^ { 2 } } { n + 2 } } }

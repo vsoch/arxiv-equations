@@ -1,0 +1,11 @@
+H _ { 0 }
+H _ { 1 }
+H _ { 0 }
+H _ { 1 }
+\text { : }   \qquad   H _ 0 :   p   =   \tfrac   1 4
+\text { : }   H _ 1 :   p   >   \tfrac   1 4
+P ( \text { r e j e c t   } H _ 0   \mid   H _ 0   \text {   i s   v a l i d } )   =   P ( X   =   2 5 \mid   p = \tfrac   1 4 ) = \left ( \tfrac   1 4 \right ) ^ { 2 5 } \approx10 ^ { - 1 5 } ,
+P ( \text { r e j e c t   } H _ 0   \mid   H _ 0   \text {   i s   v a l i d } )   =   P ( X   \ge   1 0 | p = \tfrac   1 4 )   = \sum_ { k = 1 0 } ^ { 2 5 } P ( X = k \mid   p = \tfrac   1 4 ) \approx   0 { . } 0 7 .
+P ( \text { r e j e c t   } H _ 0   \mid   H _ 0   \text {   i s   v a l i d } )   =   P ( X   \ge   c \mid   p = \tfrac   1 4 )   \le   0 { . } 0 1 .
+c = 1 3
+\alpha  

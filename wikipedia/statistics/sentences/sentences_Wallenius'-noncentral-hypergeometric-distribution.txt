@@ -1,0 +1,45 @@
+m _ { 1 } , m _ { 2 } \in   { \mathbb     { N } }
+N = m _ { 1 } + m _ { 2 }
+n \in   [ 0 , N )
+\omega   \in   { \mathbb     { R } } _ { + }
+{ \displaystyle   x \in   [ x _ { m i n } , x _ { m a x } ] }
+{ \displaystyle   x _ { m i n } = \max ( 0 , n - m _ { 2 } ) }
+{ \displaystyle   x _ { m a x } = \min ( n , m _ { 1 } ) }
+{ \displaystyle   { \binom   { m _ { 1 } } { x } } { \binom   { m _ { 2 } } { n - x } } \int   _ { 0 } ^ { 1 } ( 1 - t ^ { \omega   / D } ) ^ { x } ( 1 - t ^ { 1 / D } ) ^ { n - x } \operatorname   { d }   t }
+{ \displaystyle   D = \omega   ( m _ { 1 } - x ) + ( m _ { 2 } - ( n - x ) ) }
+\mu  
+{ \displaystyle   { \frac   { \mu   } { m _ { 1 } } } + \left ( 1 - { \frac   { n - \mu   } { m _ { 2 } } } \right ) ^ { \omega   } = 1 }
+{ \displaystyle   \approx   { \frac   { N a b } { ( N - 1 ) ( m _ { 1 } b + m _ { 2 } a ) } } \ , }
+{ \displaystyle   a = \mu   ( m _ { 1 } - \mu   ) , \;b = ( n - \mu   ) ( \mu   + m _ { 2 } - n ) }
+{ \displaystyle   \operatorname   { w n c h y p g }   ( x ; n , m _ { 1 } , m _ { 2 } , \omega   ) = \operatorname   { w n c h y p g }   ( n - x ; n , m _ { 2 } , m _ { 1 } , 1 / \omega   ) \ , . }
+{ \displaystyle   \operatorname   { w n c h y p g }   ( x ; n , m _ { 1 } , m _ { 2 } , \omega   ) = }
+{ \displaystyle   \operatorname   { w n c h y p g }   ( x - 1 ; n - 1 , m _ { 1 } , m _ { 2 } , \omega   ) { \frac   { ( m _ { 1 } - x + 1 ) \omega   } { ( m _ { 1 } - x + 1 ) \omega   + m _ { 2 } + x - n } } + }
+{ \displaystyle   \operatorname   { w n c h y p g }   ( x ; n - 1 , m _ { 1 } , m _ { 2 } , \omega   ) { \frac   { m _ { 2 } + x - n + 1 } { ( m _ { 1 } - x ) \omega   + m _ { 2 } + x - n + 1 } } }
+{ \displaystyle   \operatorname   { w n c h y p g }   ( x ; n , m _ { 1 } , m _ { 2 } , \omega   ) = }
+{ \displaystyle   \operatorname   { w n c h y p g }   ( x - 1 ; n - 1 , m _ { 1 } - 1 , m _ { 2 } , \omega   ) { \frac   { m _ { 1 } \omega   } { m _ { 1 } \omega   + m _ { 2 } } } + }
+{ \displaystyle   \operatorname   { w n c h y p g }   ( x ; n - 1 , m _ { 1 } , m _ { 2 } - 1 , \omega   ) { \frac   { m _ { 2 } } { m _ { 1 } \omega   + m _ { 2 } } } \ , . }
+{ \displaystyle   \operatorname   { f }   _ { 1 } ( x ) \leq   \operatorname   { w n c h y p g }   ( x ; n , m _ { 1 } , m _ { 2 } , \omega   ) \leq   \operatorname   { f }   _ { 2 } ( x ) \,,\,\,{ \text { f o r } } \,\,\omega   < 1 \ , , }
+{ \displaystyle   \operatorname   { f }   _ { 1 } ( x ) \geq   \operatorname   { w n c h y p g }   ( x ; n , m _ { 1 } , m _ { 2 } , \omega   ) \geq   \operatorname   { f }   _ { 2 } ( x ) \,,\,\,{ \text { f o r } } \,\,\omega   > 1 \,,{ \text { w h e r e } } }
+{ \displaystyle   \operatorname   { f }   _ { 1 } ( x ) = { \binom   { m _ { 1 } } { x } } { \binom   { m _ { 2 } } { n - x } } { \frac   { n ! } { ( m _ { 1 } + m _ { 2 } / \omega   ) ^ { \underline   { x } } \,( m _ { 2 } + \omega   ( m _ { 1 } - x ) ) ^ { \underline   { n - x } } } } }
+{ \displaystyle   \operatorname   { f }   _ { 2 } ( x ) = { \binom   { m _ { 1 } } { x } } { \binom   { m _ { 2 } } { n - x } } { \frac   { n ! } { ( m _ { 1 } + ( m _ { 2 } - x _ { 2 } ) / \omega   ) ^ { \underline   { x } } \,( m _ { 2 } + \omega   m _ { 1 } ) ^ { \underline   { n - x } } } } \ , , }
+{ \displaystyle   a ^ { \underline   { b } } = a ( a - 1 ) \ldots   ( a - b + 1 ) }
+c \in   { \mathbb     { N } }
+{ \mathbf     { m } } = ( m _ { 1 } , \ldots   , m _ { c } ) \in   { \mathbb     { N } } ^ { c }
+N = \sum   _ { { i = 1 } } ^ { c } m _ { i }
+n \in   [ 0 , N )
+{ \boldsymbol     { \omega   } } = ( \omega   _ { 1 } , \ldots   , \omega   _ { c } ) \in   { \mathbb     { R } } _ { + } ^ { c }
+{ \mathrm     { S } } = \left \{ { \mathbf     { x } } \in   { \mathbb     { Z } } _ { { 0 + } } ^ { c } \,:\,\sum   _ { { i = 1 } } ^ { { c } } x _ { i } = n \right \ }
+{ \displaystyle   \left ( \prod   _ { i = 1 } ^ { c } { \binom   { m _ { i } } { x _ { i } } } \right ) \int   _ { 0 } ^ { 1 } \prod   _ { i = 1 } ^ { c } ( 1 - t ^ { \omega   _ { i } / D } ) ^ { x _ { i } } \operatorname   { d }   t \ , , }
+{ \displaystyle   D = { \boldsymbol   { \omega   } } \cdot   ( \mathbf   { m }   - \mathbf   { x }   ) = \sum   _ { i = 1 } ^ { c } \omega   _ { i } ( m _ { i } - x _ { i } ) }
+{ \displaystyle   \mu   _ { 1 } , \ldots   , \mu   _ { c } }
+{ \displaystyle   \left ( 1 - { \frac   { \mu   _ { 1 } } { m _ { 1 } } } \right ) ^ { 1 / \omega   _ { 1 } } = \left ( 1 - { \frac   { \mu   _ { 2 } } { m _ { 2 } } } \right ) ^ { 1 / \omega   _ { 2 } } = \ldots   = \left ( 1 - { \frac   { \mu   _ { c } } { m _ { c } } } \right ) ^ { 1 / \omega   _ { c } } }
+{ \displaystyle   \wedge   \,\sum   _ { i = 1 } ^ { c } \mu   _ { i } = n \,\wedge   \,\forall   \,i \in   [ 0 , c ] \,:\,0 \leq   \mu   _ { i } \leq   m _ { i } \ , . }
+{ \displaystyle   \operatorname   { m w n c h y p g }   ( ( 0 , \ldots   , 0 , x _ { j } , 0 , \ldots   ) ; n , \mathbf   { m }   , { \boldsymbol   { \omega   } } ) = { \frac   { m _ { j } ^ { \,\,{ \underline   { n } } } } { \left ( { \frac   { 1 } { \omega   _ { j } } } \sum   _ { i = 1 } ^ { c } m _ { i } \omega   _ { i } \right ) ^ { \underline   { n } } } } }
+{ \displaystyle   \mu   _ { i } = m _ { i } ( 1 - e ^ { \omega   _ { i } \theta   } ) }
+{ \displaystyle   \sum   _ { i = 1 } ^ { c } \mu   _ { i } = n }
+{ \displaystyle   \operatorname   { m w n c h y p g }   ( \mathbf   { x }   ; n , \mathbf   { m }   , { \boldsymbol   { \omega   } } ) = \operatorname   { m w n c h y p g }   ( \mathbf   { x }   ; n , \mathbf   { m }   , r { \boldsymbol   { \omega   } } ) \ , \ , }
+r \in   { \mathbb     { R } } _ { + }
+{ \displaystyle   \operatorname   { m w n c h y p g }   \left ( \mathbf   { x }   ; n , \mathbf   { m }   , ( \omega   _ { 1 } , \ldots   , \omega   _ { c - 1 } , \omega   _ { c - 1 } ) \right ) \ , = }
+{ \displaystyle   \operatorname   { m w n c h y p g }   \left ( ( x _ { 1 } , \ldots   , x _ { c - 1 } + x _ { c } ) ; n , ( m _ { 1 } , \ldots   , m _ { c - 1 } + m _ { c } ) , ( \omega   _ { 1 } , \ldots   , \omega   _ { c - 1 } ) \right ) \,\cdot   }
+{ \displaystyle   \operatorname   { h y p g }   ( x _ { c } ; x _ { c - 1 } + x _ { c } , m _ { c } , m _ { c - 1 } + m _ { c } ) \ , , }
+\operatorname   { h y p g } ( x ; n , m , N )

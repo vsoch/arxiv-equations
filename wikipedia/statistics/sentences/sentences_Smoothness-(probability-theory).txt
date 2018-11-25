@@ -1,0 +1,2 @@
+d _ 0   | t | ^ { - \beta }   \leq   \varphi_X ( t )   \leq   d _ 1   | t | ^ { - \beta }   \quad   \text { a s   }   t \to \infty
+d _ 0   | t | ^ { \beta_0 } \exp \big ( - | t | ^ \beta / \gamma \big )   \leq   \varphi_X ( t )   \leq   d _ 1   | t | ^ { \beta_1 } \exp \big ( - | t | ^ \beta / \gamma \big )   \quad   \text { a s   }   t \to \infty

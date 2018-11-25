@@ -1,0 +1,23 @@
+\left \{ X _ { t } \right \ }
+F _ { { X } } ( x _ { { t _ { 1 } + \tau   } } , \ldots   , x _ { { t _ { k } + \tau   } } )
+\left \{ X _ { t } \right \ }
+t _ { 1 } + \tau   , \ldots   , t _ { k } + \tau  
+\left \{ X _ { t } \right \ }
+{ k }
+{ \tau   }
+t _ { 1 } , \ldots   , t _ { k }
+F _ { { X } } ( x _ { { t _ { 1 } + \tau   } } , \ldots   , x _ { { t _ { k } + \tau   } } ) = F _ { { X } } ( x _ { { t _ { 1 } } } , \ldots   , x _ { { t _ { k } } } ) .
+\tau  
+F _ { X } ( \cdot   )
+F _ { { X } }
+X _ { t } = Y \qquad   { \text {   f o r   a l l   } } t .
+X _ { t } = \cos ( t + Y ) \quad   { \text {   f o r   } } t \in   { \mathbb     { R } } .
+{ \mathbb     { E } } [ x ( t ) ] = m _ { x } ( t ) = m _ { x } ( t + \tau   ) \,\,{ \text {   f o r   a l l   } } \,\tau   \in   { \mathbb     { R } }
+{ \mathbb     { E } } [ ( x ( t _ { 1 } ) - m _ { x } ( t _ { 1 } ) ) ( x ( t _ { 2 } ) - m _ { x } ( t _ { 2 } ) ) ] = C _ { x } ( t _ { 1 } , t _ { 2 } ) = C _ { x } ( t _ { 1 } + ( - t _ { 2 } ) , t _ { 2 } + ( - t _ { 2 } ) ) = C _ { x } ( t _ { 1 } - t _ { 2 } , 0 ) .
+t _ { 1 }
+t _ { 2 }
+\,\!C_ { x } ( t _ { 1 } - t _ { 2 } , 0 ) \ ,
+C _ { x } ( \tau   ) \,\!{ \mbox {   w h e r e   } } \tau   = t _ { 1 } - t _ { 2 } .
+\tau   = t _ { 1 } - t _ { 2 }
+\,\!R_ { x } ( t _ { 1 } , t _ { 2 } ) = R _ { x } ( t _ { 1 } - t _ { 2 } ) .
+x ( t ) = \int   e ^ { { - 2 \pi   i \lambda   \cdot   t } } d \omega   _ { { \lambda   } } ,

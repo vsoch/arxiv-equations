@@ -1,0 +1,13 @@
+\beta  
+x _ { j }
+y
+\beta   _ { j }
+y
+{ \displaystyle   r = y - { \hat   { y } } }
+x _ { k }
+r
+x _ { j }
+\beta   _ { j }
+\beta   _ { k }
+x _ { m }
+r

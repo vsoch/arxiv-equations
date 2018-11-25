@@ -1,0 +1,6 @@
+[ 0 , \omega   ]
+[ 0 , X ]
+F ( x ) = P ( X \leq   x ) = P \left ( { \mathrm     { a l l \ observations } } \leq   x \right ) = \left ( { \frac     { x } { \omega   } } \right ) ^ { n } .
+{ \displaystyle   P \left ( X > \omega   { a } \right ) = 1 - a ^ { n } = \alpha   . }
+a = ( 1 - \alpha   ) ^ { { { \frac     { 1 } { n } } } } .
+P \left ( \omega   < { \frac     { X } { a } } \right ) = \alpha   .

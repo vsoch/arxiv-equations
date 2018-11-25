@@ -1,5 +1,0 @@
-{ \displaystyle   \sigma   ^ { 2 } \leq   { \frac   { 1 } { 4 } } ( M - m ) ^ { 2 } . }
-{ \displaystyle   { \sigma   ^ { 2 } + \left ( { \frac   { \text { T h i r d   c e n t r a l   m o m e n t } } { 2 \sigma   ^ { 2 } } } \right ) ^ { 2 } } \leq   { \frac   { 1 } { 4 } } ( M - m ) ^ { 2 } . }
-{ \displaystyle   \sigma   ^ { 2 } \geq   { \frac   { ( M - m ) ^ { 2 } } { 2 n } } }
-{ \displaystyle   \sigma   ^ { 2 } \leq   ( M - \mu   ) ( \mu   - m ) }
-{ \displaystyle   ( M - \mu   ) ( \mu   - m ) - { \frac   { ( M - m ) ^ { 3 } } { 6 } } \leq   \sigma   ^ { 2 } }

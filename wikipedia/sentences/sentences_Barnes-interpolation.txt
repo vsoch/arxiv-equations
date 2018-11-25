@@ -1,8 +1,0 @@
-w _ { { i j } } = \exp   \left ( - { \frac     { r _ { m } ^ { 2 } } { \kappa   } } \right ) , \ ,
-\kappa  
-\kappa   = 5 . 0 5 2 \,\left ( { \frac     { 2 \,\Delta   n } { \pi   } } \right ) ^ { 2 } . \ ,
-f _ { k } ( x , y )
-g _ { 0 } ( x _ { i } , y _ { j } ) = { \frac     { \displaystyle   \sum   _ { k } w _ { { i j } } f _ { k } ( x , y ) } { \displaystyle   \sum   _ { k } w _ { { i j } } } } .
-g _ { 1 } ( x _ { i } , y _ { j } ) = g _ { 0 } ( x _ { i } , y _ { j } ) + \sum   ( f ( x , y ) - g _ { 0 } ( x , y ) ) \exp   \left ( - { \frac     { r _ { m } ^ { 2 } } { \gamma   \kappa   } } \right ) . \ ,
-\gamma  
-\gamma  

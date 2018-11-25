@@ -1,0 +1,37 @@
+{ \frac     { 1 } { N } } \sum   _ { { i = 1 } } ^ { N } { \mathbf     { x } } _ { i } = { \mathbf     { 0 } }
+\mathbf   { x }   _ { i }
+N
+C = { \frac     { 1 } { N } } \sum   _ { { i = 1 } } ^ { N } { \mathbf     { x } } _ { i } { \mathbf     { x } } _ { i } ^ { \top   }
+\lambda   { \mathbf     { v } } = C { \mathbf     { v } }
+\lambda   { \mathbf     { x } } _ { i } ^ { \top   } { \mathbf     { v } } = { \mathbf     { x } } _ { i } ^ { \top   } C { \mathbf     { v } } \quad   \forall   i \in   [ 1 , N ]
+{ \displaystyle   d < N }
+{ \displaystyle   d \geq   N }
+\mathbf   { x }   _ { i }
+\Phi   ( { \mathbf     { x } } _ { i } )
+\Phi   : { \mathbb     { R } } ^ { d } \to   { \mathbb     { R } } ^ { N }
+\Phi  
+\Phi  
+\Phi  
+\Phi  
+K = k ( { \mathbf     { x } } , { \mathbf     { y } } ) = ( \Phi   ( { \mathbf     { x } } ) , \Phi   ( { \mathbf     { y } } ) ) = \Phi   ( { \mathbf     { x } } ) ^ { T } \Phi   ( { \mathbf     { y } } )
+\Phi   ( \mathbf   { x }   )
+\Phi   ( \mathbf   { x }   )
+{ \displaystyle   V ^ { k } }
+{ { \mathbf     { V } } ^ { k } } ^ { T } \Phi   ( { \mathbf     { x } } ) = \left ( \sum   _ { { i = 1 } } ^ { N } { \mathbf     { a _ { i } } } ^ { k } \Phi   ( { \mathbf     { x _ { i } } } ) \right ) ^ { T } \Phi   ( { \mathbf     { x } } )
+\Phi   ( { \mathbf     { x _ { i } } } ) ^ { T } \Phi   ( { \mathbf     { x } } )
+K
+{ \mathbf     { a _ { i } } } ^ { k }
+N \lambda   { \mathbf     { a } } = K { \mathbf     { a } }
+\lambda  
+\mathbf   { a }  
+{ \mathbf     { a } } ^ { k }
+{ \displaystyle   1 = ( \mathbf   { V }   ^ { k } ) ^ { T } \mathbf   { V }   ^ { k } }
+x
+K '
+K ' = K - { \mathbf     { 1 _ { N } } } K - K { \mathbf     { 1 _ { N } } } + { \mathbf     { 1 _ { N } } } K { \mathbf     { 1 _ { N } } }
+{ \mathbf     { 1 _ { N } } }
+1 / N
+K '
+k ( { \boldsymbol     { x } } , { \boldsymbol     { y } } ) = ( { \boldsymbol     { x } } ^ { { \mathrm     { T } } } { \boldsymbol     { y } } + 1 ) ^ { 2 }
+k ( { \boldsymbol     { x } } , { \boldsymbol     { y } } ) = ( { \boldsymbol     { x } } ^ { { \mathrm     { T } } } { \boldsymbol     { y } } + 1 ) ^ { 2 }
+k ( { \boldsymbol     { x } } , { \boldsymbol     { y } } ) = e ^ { { \frac     { - | | { \boldsymbol     { x } } - { \boldsymbol     { y } } | | ^ { 2 } } { 2 \sigma   ^ { 2 } } } } ,

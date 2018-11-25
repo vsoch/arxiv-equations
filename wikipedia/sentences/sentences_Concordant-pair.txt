@@ -1,3 +1,0 @@
-{ \displaystyle   \operatorname   { s g n } ( X _ { 2 } - X _ { 1 } ) \ =\operatorname   { s g n } ( Y _ { 2 } - Y _ { 1 } ) , \   }
-{ \displaystyle   \operatorname   { s g n }   x = \left \{ { \begin { m a t r i x } - 1 & : & x < 0 \\0 & : & x = 0 \\1 & : & x > 0 \end { m a t r i x } } \right . }
-{ \displaystyle   \operatorname   { s g n } ( X _ { 2 } - X _ { 1 } ) \ =-\operatorname   { s g n } ( Y _ { 2 } - Y _ { 1 } ) . \   }

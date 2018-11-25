@@ -1,0 +1,54 @@
+\xi   = { \frac   { x - \mu   } { \sigma   } } , \ \alpha   = { \frac   { a - \mu   } { \sigma   } } , \ \beta   = { \frac   { b - \mu   } { \sigma   } }
+Z = \Phi   ( \beta   ) - \Phi   ( \alpha   )
+f ( x ; \mu   , \sigma   , a , b ) = { \frac   { \phi   ( \xi   ) } { \sigma   Z } } \ ,
+F ( x ; \mu   , \sigma   , a , b ) = { \frac   { \Phi   ( \xi   ) - \Phi   ( \alpha   ) } { Z } }
+\mu   + { \frac   { \phi   ( \alpha   ) - \phi   ( \beta   ) } { Z } } \sigma  
+{ \displaystyle   \mu   + \Phi   ^ { - 1 } \left ( { \frac   { \Phi   ( \alpha   ) + \Phi   ( \beta   ) } { 2 } } \right ) \sigma   }
+\left \{ { \begin { a r r a y } { l l } a , & \mathrm   { i f }   \ \mu   < a \\\mu   , & \mathrm   { i f }   \ a \leq   \mu   \leq   b \\b , & \mathrm   { i f }   \ \mu   > b \end { a r r a y } } \right .
+\sigma   ^ { 2 } \left [ 1 + { \frac   { \alpha   \phi   ( \alpha   ) - \beta   \phi   ( \beta   ) } { Z } } - \left ( { \frac   { \phi   ( \alpha   ) - \phi   ( \beta   ) } { Z } } \right ) ^ { 2 } \right ]
+\ln ( { \sqrt   { 2 \pi   e } } \sigma   Z ) + { \frac   { \alpha   \phi   ( \alpha   ) - \beta   \phi   ( \beta   ) } { 2 Z } }
+{ \displaystyle   e ^ { \mu   t + \sigma   ^ { 2 } t ^ { 2 } / 2 } \left [ { \frac   { \Phi   ( \beta   - \sigma   t ) - \Phi   ( \alpha   - \sigma   t ) } { \Phi   ( \beta   ) - \Phi   ( \alpha   ) } } \right ] }
+{ \displaystyle   X \sim   N ( \mu   , \sigma   ^ { 2 } ) }
+{ \displaystyle   X \in   ( a , b ) , \;-\infty   \leq   a < b \leq   \infty   }
+X
+a < X < b
+f
+a \leq   x \leq   b
+{ \displaystyle   f ( x ; \mu   , \sigma   , a , b ) = { \frac   { \phi   ( { \frac   { x - \mu   } { \sigma   } } ) } { \sigma   \left ( \Phi   ( { \frac   { b - \mu   } { \sigma   } } ) - \Phi   ( { \frac   { a - \mu   } { \sigma   } } ) \right ) } } }
+f = 0
+{ \displaystyle   \phi   ( \xi   ) = { \frac   { 1 } { \sqrt   { 2 \pi   } } } \exp   \left ( - { \frac   { 1 } { 2 } } \xi   ^ { 2 } \right ) }
+\Phi   ( \cdot   )
+{ \displaystyle   \Phi   ( x ) = { \frac   { 1 } { 2 } } \left ( 1 + \operatorname   { e r f }   ( x / { \sqrt   { 2 } } ) \right ) . }
+b = \infty  
+{ \displaystyle   \Phi   \left ( { \tfrac   { b - \mu   } { \sigma   } } \right ) = 1 }
+a = - \infty
+{ \displaystyle   \Phi   \left ( { \tfrac   { a - \mu   } { \sigma   } } \right ) = 0 }
+{ \displaystyle   - \infty   < a < b < + \infty   }
+\sigma   ^ { 2 }
+\sigma  
+f
+\sigma   ^ { 2 }
+a < X < b
+x = a
+{ \displaystyle   x = b }
+\mu  
+\mu   .
+\sigma   ^ { 2 }
+{ \displaystyle   \alpha   = ( a - \mu   ) / \sigma   }
+{ \displaystyle   \beta   = ( b - \mu   ) / \sigma   : }
+{ \displaystyle   \operatorname   { E }   ( X \mid   a < X < b ) = \mu   + \sigma   { \frac   { \phi   ( { \frac   { a - \mu   } { \sigma   } } ) - \phi   ( { \frac   { b - \mu   } { \sigma   } } ) } { \Phi   ( { \frac   { b - \mu   } { \sigma   } } ) - \Phi   ( { \frac   { a - \mu   } { \sigma   } } ) } } \!=\mu   + \sigma   { \frac   { \phi   ( \alpha   ) - \phi   ( \beta   ) } { \Phi   ( \beta   ) - \Phi   ( \alpha   ) } } \ ! }
+{ \displaystyle   \operatorname   { V a r }   ( X \mid   a < X < b ) = \sigma   ^ { 2 } \left [ 1 + { \frac   { { \frac   { a - \mu   } { \sigma   } } \phi   ( { \frac   { a - \mu   } { \sigma   } } ) - { \frac   { b - \mu   } { \sigma   } } \phi   ( { \frac   { b - \mu   } { \sigma   } } ) } { \Phi   ( { \frac   { b - \mu   } { \sigma   } } ) - \Phi   ( { \frac   { a - \mu   } { \sigma   } } ) } } - \left ( { \frac   { \phi   ( { \frac   { a - \mu   } { \sigma   } } ) - \phi   ( { \frac   { b - \mu   } { \sigma   } } ) } { \Phi   ( { \frac   { b - \mu   } { \sigma   } } ) - \Phi   ( { \frac   { a - \mu   } { \sigma   } } ) } } \right ) ^ { 2 } \right ] \!=\sigma   ^ { 2 } \left [ 1 + { \frac   { \alpha   \phi   ( \alpha   ) - \beta   \phi   ( \beta   ) } { \Phi   ( \beta   ) - \Phi   ( \alpha   ) } } - \left ( { \frac   { \phi   ( \alpha   ) - \phi   ( \beta   ) } { \Phi   ( \beta   ) - \Phi   ( \alpha   ) } } \right ) ^ { 2 } \right ] \ ! }
+[ a , b ]
+\mu  
+{ \displaystyle   \;\phi   ( \beta   ) = 0 , \;\Phi   ( \beta   ) = 1 , }
+{ \displaystyle   \operatorname   { E }   ( X \mid   X > a ) = \mu   + \sigma   \phi   ( \alpha   ) / Z , \ ! }
+{ \displaystyle   \operatorname   { V a r }   ( X \mid   X > a ) = \sigma   ^ { 2 } [ 1 + \alpha   \phi   ( \alpha   ) / Z - ( \phi   ( \alpha   ) / Z ) ^ { 2 } ] , }
+{ \displaystyle   Z = 1 - \Phi   ( \alpha   ) . }
+\operatorname   { E }   ( X \mid   X < b ) = \mu   - \sigma   { \frac   { \phi   ( \beta   ) } { \Phi   ( \beta   ) } } \ !
+{ \displaystyle   \operatorname   { V a r }   ( X \mid   X < b ) = \sigma   ^ { 2 } \left [ 1 - \beta   { \frac   { \phi   ( \beta   ) } { \Phi   ( \beta   ) } } - \left ( { \frac   { \phi   ( \beta   ) } { \Phi   ( \beta   ) } } \right ) ^ { 2 } \right ] . \ ! }
+x = \Phi   ^ { - 1 } ( \Phi   ( \alpha   ) + U \cdot   ( \Phi   ( \beta   ) - \Phi   ( \alpha   ) ) ) \sigma   + \mu  
+\Phi  
+\Phi   ^ { - 1 }
+U
+( 0 , 1 )
+( a , b )

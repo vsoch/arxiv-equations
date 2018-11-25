@@ -1,0 +1,63 @@
+f ( x )
+\varepsilon  
+\varepsilon  
+f
+{ \displaystyle   \operatorname   { P }   ( X \geq   a ) \leq   { \frac   { \operatorname   { E }   ( X ) } { a } } . }
+{ \displaystyle   a = { \tilde   { a } } \cdot   \operatorname   { E }   ( X ) }
+{ \displaystyle   { \tilde   { a } } > 0 }
+{ \displaystyle   \operatorname   { P }   ( X \geq   { \tilde   { a } } \cdot   \operatorname   { E }   ( X ) ) \leq   { \frac   { 1 } { \tilde   { a } } } . }
+{ \displaystyle   \mu   ( \{ x \in   X : | f ( x ) | \geq   \varepsilon   \})\leq   { \frac   { 1 } { \varepsilon   } } \int   _ { X } | f | \,d \mu   . }
+{ \displaystyle   \operatorname   { P }   ( | X | \geq   a ) \leq   { \frac   { \operatorname   { E }   ( \varphi   ( | X | ) ) } { \varphi   ( a ) } } . }
+{ \displaystyle   \operatorname   { P }   ( X \geq   a ) \leq   { \frac   { \operatorname   { E }   ( X ^ { n } ) } { a ^ { n } } } . }
+{ \displaystyle   \operatorname   { E }   ( X ) = \operatorname   { P }   ( X < a ) \cdot   { \overline   { a } } + \operatorname   { P }   ( X \geq   a ) \cdot   a }
+a
+{ \overline   { a } }
+X
+{ \displaystyle   \operatorname   { E }   [ X ] = 0 \cdot   { \overline   { a } } + { \dfrac   { E [ X ] } { a } } \cdot   a }
+{ \displaystyle   \operatorname   { P }   ( X < a ) }
+{ \displaystyle   \operatorname   { P }   ( X \geq   a ) }
+{ \displaystyle   \operatorname   { E }   ( X ) = \int   _ { - \infty   } ^ { \infty   } x f ( x ) \,dx }
+{ \displaystyle   \operatorname   { E }   ( X ) = \int   _ { - \infty   } ^ { \infty   } x f ( x ) \,dx = \int   _ { 0 } ^ { \infty   } x f ( x ) \,dx }
+{ \displaystyle   \operatorname   { E }   ( X ) = \int   _ { 0 } ^ { a } x f ( x ) \,dx + \int   _ { a } ^ { \infty   } x f ( x ) \,dx \geq   \int   _ { a } ^ { \infty   } x f ( x ) \,dx \geq   \int   _ { a } ^ { \infty   } a f ( x ) \,dx = a \int   _ { a } ^ { \infty   } f ( x ) \,dx = a \operatorname   { P }   ( x \geq   a ) }
+{ \displaystyle   \Pr ( X \geq   a ) \leq   \operatorname   { E }   ( X ) / a }
+E
+I _ { E }
+E
+{ \displaystyle   I _ { E } = 1 }
+E
+{ \displaystyle   I _ { E } = 0 }
+{ \displaystyle   I _ { ( X \geq   a ) } = 1 }
+{ \displaystyle   X \geq   a }
+{ \displaystyle   I _ { ( X \geq   a ) } = 0 }
+{ \displaystyle   X < a }
+a > 0
+{ \displaystyle   a I _ { ( X \geq   a ) } \leq   X }
+{ \displaystyle   X \geq   a }
+{ \displaystyle   X < a }
+{ \displaystyle   I _ { ( X \geq   a ) } = 0 }
+{ \displaystyle   a I _ { ( X \geq   a ) } = 0 \leq   X }
+{ \displaystyle   X \geq   a }
+{ \displaystyle   I _ { X \geq   a } = 1 }
+{ \displaystyle   a I _ { X \geq   a } = a \leq   X }
+\operatorname   { E }  
+{ \displaystyle   \operatorname   { E }   ( a I _ { ( X \geq   a ) } ) \leq   \operatorname   { E }   ( X ) . }
+{ \displaystyle   a \operatorname   { E }   ( I _ { ( X \geq   a ) } ) = a ( 1 \cdot   \operatorname   { P }   ( X \geq   a ) + 0 \cdot   \operatorname   { P }   ( X < a ) ) = a \operatorname   { P }   ( X \geq   a ) . }
+{ \displaystyle   a \operatorname   { P }   ( X \geq   a ) \leq   \operatorname   { E }   ( X ) }
+f
+  s ( x )   =   \begin { c a s e s }       \varepsilon ,   &   \text { i f   }   f ( x )   \geq   \varepsilon     \\   0 ,   &   \text { i f   }   f ( x )   <   \varepsilon   \end { c a s e s }  
+0 \leq   s ( x ) \leq   f ( x )
+  \int_X   f ( x )   \, d \mu   \geq   \int_X   s ( x )   \, d   \mu   =   \varepsilon   \mu (   \{   x \in   X   :   \, f ( x )   \geq   \varepsilon   \ }   )  
+\varepsilon   > 0  
+\varepsilon  
+\mu ( \{ x \in   X   :   \, f ( x )   \geq   \varepsilon   \}) \leq   { 1 \over   \varepsilon   } \int_X   f   \,d \mu .
+{ \displaystyle   \operatorname   { P }   ( | X - \operatorname   { E }   ( X ) | \geq   a ) \leq   { \frac   { \operatorname   { V a r }   ( X ) } { a ^ { 2 } } } , }
+  \operatorname { V a r } ( X )   =   \operatorname { E } [ ( X   -   \operatorname { E } ( X )   ) ^ 2 ] .  
+( X - \operatorname   { E } ( X ) ) ^ { 2 }
+{ \displaystyle   a ^ { 2 } , }
+{ \displaystyle   \operatorname   { P }   ( ( X - \operatorname   { E }   ( X ) ) ^ { 2 } \geq   a ^ { 2 } ) \leq   { \frac   { \operatorname   { V a r }   ( X ) } { a ^ { 2 } } } . }
+{ \displaystyle   \operatorname   { P }   ( | X - \operatorname   { E }   ( X ) | \geq   a ) = \operatorname   { P }   \left ( ( X - \operatorname   { E }   ( X ) ) ^ { 2 } \geq   a ^ { 2 } \right ) \,{ \overset   { \underset   { \mathrm   { M I }   } { } } { \leq   } } \,{ \frac   { \operatorname   { E }   \left ( ( X - \operatorname   { E }   ( X ) ) ^ { 2 } \right ) } { a ^ { 2 } } } = { \frac   { \operatorname   { V a r }   ( X ) } { a ^ { 2 } } } . }
+{ \displaystyle   \operatorname   { P }   ( | X | \geq   a ) = \operatorname   { P }   { \big   ( } \varphi   ( | X | ) \geq   \varphi   ( a ) { \big   ) } \,{ \overset   { \underset   { \mathrm   { M I }   } { } } { \leq   } } \,{ \frac   { \operatorname   { E }   ( \varphi   ( | X | ) ) } { \varphi   ( a ) } } }
+{ \displaystyle   Q _ { X } ( 1 - p ) \leq   { \frac   { \operatorname   { E }   ( X ) } { p } } , }
+{ \displaystyle   p \leq   \operatorname   { P }   ( X \geq   Q _ { X } ( 1 - p ) ) \,{ \overset   { \underset   { \mathrm   { M I }   } { } } { \leq   } } \,{ \frac   { \operatorname   { E }   ( X ) } { Q _ { X } ( 1 - p ) } } . }
+  M   \succeq   0  
+{ \displaystyle   \operatorname   { P }   ( M \npreceq   a \cdot   I ) \leq   { \frac   { \operatorname   { t r }   \left ( E ( M ) \right ) } { n a } } . }

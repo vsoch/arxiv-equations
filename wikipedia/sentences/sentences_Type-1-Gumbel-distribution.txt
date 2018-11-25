@@ -1,2 +1,0 @@
-{ \displaystyle   f ( x | a , b ) = a b e ^ { - ( b e ^ { - a x } + a x ) } }
-{ \displaystyle   - \infty   < x < \infty   . }

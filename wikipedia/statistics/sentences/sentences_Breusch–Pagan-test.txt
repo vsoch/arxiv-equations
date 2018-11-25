@@ -1,0 +1,13 @@
+y = \beta   _ { 0 } + \beta   _ { 1 } x + u , \ ,
+{ \hat   { u } }
+{ \hat   { u } } ^ { 2 } = \gamma   _ { 0 } + \gamma   _ { 1 } x + v . \ ,
+\sigma   _ { i } ^ { 2 } = h ( z _ { i } ' \gamma   )
+{ \displaystyle   z _ { i } = ( 1 , z _ { 2 i } , \ldots   , z _ { p i } ) }
+( p - 1 ) \ ,
+{ \displaystyle   \gamma   _ { 2 } = \cdots   = \gamma   _ { p } = 0 . }
+{ \displaystyle   { \text { L M } } = \left ( { \frac   { \partial   \ell   } { \partial   \theta   } } \right ) ^ { \mathsf   { T } } \left ( - E \left [ { \frac   { \partial   ^ { 2 } \ell   } { \partial   \theta   \,\partial   \theta   ' } } \right ] \right ) ^ { - 1 } \left ( { \frac   { \partial   \ell   } { \partial   \theta   } } \right ) . }
+y = X \beta   + \varepsilon   .
+{ \displaystyle   e _ { i } ^ { 2 } = \gamma   _ { 1 } + \gamma   _ { 2 } z _ { 2 i } + \cdots   + \gamma   _ { p } z _ { p i } + \eta   _ { i } . }
+n \ ,
+{ \displaystyle   { \text { L M } } = n R ^ { 2 } \ , . }
+\chi   _ { { p - 1 } } ^ { 2 }

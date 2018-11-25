@@ -1,0 +1,13 @@
+\xi  
+\eta  
+\xi  
+{ \displaystyle   { \mathcal   { L } } ( \eta   \mid   \xi   = \mu   ) }
+\mu  
+{ \displaystyle   { \mathcal   { L } } ( \eta   \mid   \xi   = \mu   ) }
+\eta  
+{ \displaystyle   \{ \xi   = \mu   \ } }
+\xi  
+\eta  
+\xi  
+{ \displaystyle   { \mathcal   { L } } _ { \xi   } ( f ) = \exp   \left ( - \int   1 - \exp ( - f ( x ) ) \;\eta   ( \mathrm   { d }   x ) \right ) }
+f

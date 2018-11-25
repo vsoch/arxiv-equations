@@ -1,0 +1,99 @@
+\mathbf   { X }  
+\mathbf   { Z }  
+{ \boldsymbol   { \theta   } }
+L ( \boldsymbol \theta ;   \mathbf { X } ,   \mathbf { Z } )   =   p ( \mathbf { X } ,   \mathbf { Z } | \boldsymbol \theta )
+{ \displaystyle   L ( { \boldsymbol   { \theta   } } ; \mathbf   { X }   ) = p ( \mathbf   { X }   | { \boldsymbol   { \theta   } } ) = \int   p ( \mathbf   { X }   , \mathbf   { Z }   | { \boldsymbol   { \theta   } } ) d \mathbf   { Z }   }
+\mathbf   { Z }  
+Q ( \boldsymbol \theta | \boldsymbol \theta ^ { ( t ) } )
+{ \boldsymbol   { \theta   } }
+\mathbf   { Z }  
+\mathbf   { X }  
+\boldsymbol \theta ^ { ( t ) }
+Q ( \boldsymbol \theta | \boldsymbol \theta ^ { ( t ) } )   =   \operatorname { E } _ { \mathbf { Z } | \mathbf { X } , \boldsymbol \theta ^ { ( t ) } } \left [   \log   L   ( \boldsymbol \theta ; \mathbf { X } , \mathbf { Z } )     \right ]   \ ,
+\boldsymbol \theta ^ { ( t + 1 ) }   =   \underset { \boldsymbol \theta } { \operatorname { a r g \,max } }   \ Q ( \boldsymbol \theta | \boldsymbol \theta ^ { ( t ) } )   \ ,  
+\mathbf   { Z }  
+\mathbf   { X }  
+\mathbf   { Z }  
+{ \boldsymbol   { \theta   } }
+\mathbf   { Z }  
+\mathbf   { Z }  
+\mathbf   { Z }  
+\mathbf   { Z }  
+{ \boldsymbol   { \theta   } }
+{ \boldsymbol   { \theta   } }
+\mathbf   { Z }  
+{ \boldsymbol   { \theta   } }
+\mathbf   { Z }  
+{ \boldsymbol   { \theta   } }
+\mathbf   { Z }  
+{ \boldsymbol   { \theta   } }
+Q ( \boldsymbol \theta | \boldsymbol \theta ^ { ( t ) } )
+\log   p ( \mathbf { X } | \boldsymbol \theta )
+\mathbf   { Z }  
+p ( \mathbf { Z } | \mathbf { X } , \boldsymbol \theta )
+  \log   p ( \mathbf { X } | \boldsymbol \theta )   =   \log   p ( \mathbf { X } , \mathbf { Z } | \boldsymbol \theta )   -   \log   p ( \mathbf { Z } | \mathbf { X } , \boldsymbol \theta )   \ , .  
+\mathbf   { Z }  
+\theta ^ { ( t ) }
+p ( \mathbf { Z } | \mathbf { X } , \boldsymbol \theta ^ { ( t ) } )
+\mathbf   { Z }  
+  \begin { a l i g n }   \log   p ( \mathbf { X } | \boldsymbol \theta )   &   =   \sum_ { \mathbf { Z } }   p ( \mathbf { Z } | \mathbf { X } , \boldsymbol \theta ^ { ( t ) } )   \log   p ( \mathbf { X } , \mathbf { Z } | \boldsymbol \theta )   -   \sum_ { \mathbf { Z } }   p ( \mathbf { Z } | \mathbf { X } , \boldsymbol \theta ^ { ( t ) } )   \log   p ( \mathbf { Z } | \mathbf { X } , \boldsymbol \theta )   \\ & = Q ( \boldsymbol \theta | \boldsymbol \theta ^ { ( t ) } )   +   H ( \boldsymbol \theta | \boldsymbol \theta ^ { ( t ) } )   \,, \end { a l i g n }  
+H ( \boldsymbol \theta | \boldsymbol \theta ^ { ( t ) } )
+{ \boldsymbol   { \theta   } }
+\boldsymbol \theta   =   \boldsymbol \theta ^ { ( t ) }
+  \log   p ( \mathbf { X } | \boldsymbol \theta ^ { ( t ) } )   =   Q ( \boldsymbol \theta ^ { ( t ) } | \boldsymbol \theta ^ { ( t ) } )   +   H ( \boldsymbol \theta ^ { ( t ) } | \boldsymbol \theta ^ { ( t ) } )   \ , ,  
+  \log   p ( \mathbf { X } | \boldsymbol \theta )   -   \log   p ( \mathbf { X } | \boldsymbol \theta ^ { ( t ) } )   =   Q ( \boldsymbol \theta | \boldsymbol \theta ^ { ( t ) } )   -   Q ( \boldsymbol \theta ^ { ( t ) } | \boldsymbol \theta ^ { ( t ) } )     +   H ( \boldsymbol \theta | \boldsymbol \theta ^ { ( t ) } )   -   H ( \boldsymbol \theta ^ { ( t ) } | \boldsymbol \theta ^ { ( t ) } )   \ , ,  
+H ( \boldsymbol \theta | \boldsymbol \theta ^ { ( t ) } )   \ge   H ( \boldsymbol \theta ^ { ( t ) } | \boldsymbol \theta ^ { ( t ) } )
+  \log   p ( \mathbf { X } | \boldsymbol \theta )   -   \log   p ( \mathbf { X } | \boldsymbol \theta ^ { ( t ) } )   \ge   Q ( \boldsymbol \theta | \boldsymbol \theta ^ { ( t ) } )   -   Q ( \boldsymbol \theta ^ { ( t ) } | \boldsymbol \theta ^ { ( t ) } )   \ , .  
+{ \boldsymbol   { \theta   } }
+Q ( \boldsymbol \theta | \boldsymbol \theta ^ { ( t ) } )
+Q ( \boldsymbol \theta ^ { ( t ) } | \boldsymbol \theta ^ { ( t ) } )
+\log   p ( \mathbf { X } | \boldsymbol \theta )
+\log   p ( \mathbf { X } | \boldsymbol \theta ^ { ( t ) } )
+{ \displaystyle   F ( q , \theta   ) : = \operatorname   { E }   _ { q } [ \log   L ( \theta   ; x , Z ) ] + H ( q ) , }
+{ \displaystyle   F ( q , \theta   ) = - D _ { \mathrm   { K L }   } { \big   ( } q { \big   \|}p_ { Z | X } ( \cdot   | x ; \theta   ) { \big   ) } + \log   L ( \theta   ; x ) , }
+{ \displaystyle   p _ { Z | X } ( \cdot   | x ; \theta   ) }
+x
+{ \displaystyle   D _ { K L } }
+q
+F
+{ \displaystyle   q ^ { ( t ) } = \operatorname   { a r g \,max }   _ { q } \ F ( q , \theta   ^ { ( t ) } ) }
+\theta  
+F
+{ \displaystyle   \theta   ^ { ( t + 1 ) } = \operatorname   { a r g \,max }   _ { \theta   } \ F ( q ^ { ( t ) } , \theta   ) }
+\hat { \sigma } ^ { 2 } _ v   =   \frac { 1 } { N }   \sum_ { k = 1 } ^ N   { ( z _ k - \hat { x } _ { k } ) } ^ { 2 }
+\hat { x } _ k
+{ z _ k }
+\hat { \sigma } ^ { 2 } _ w   =       \frac { 1 } { N }   \sum_ { k = 1 } ^ N   { ( \hat { x } _ { k + 1 } - \hat { F } \hat { { x } } _ { k } ) } ^ { 2 }
+\hat { x } _ k
+\hat { x } _ { k + 1 }
+\hat { F }   =   \frac { \sum_ { k = 1 } ^ N   ( \hat { x } _ { k + 1 } - \hat { F }   \hat { x } _ k ) } { \sum_ { k = 1 } ^ N   \hat { x } _ k ^ { 2 } }  
+\mathbf { x }   =   ( \mathbf { x } _ 1 , \mathbf { x } _ 2 , \ldots , \mathbf { x } _ n )
+n
+d
+\mathbf { z }   =   ( z _ 1 , z _ 2 , \ldots , z _ n )
+X _ i   | ( Z _ i   =   1 )   \sim   \mathcal { N } _ d ( \boldsymbol { \mu } _ 1 , \Sigma_1 )
+X _ i   | ( Z _ i   =   2 )   \sim   \mathcal { N } _ d ( \boldsymbol { \mu } _ 2 , \Sigma_2 )
+\operatorname { P }   ( Z _ i   =   1   )   =   \tau_1   \ ,  
+\operatorname { P }   ( Z _ i = 2 )   =   \tau_2   =   1 - \tau_1
+\theta   =   \big (   \boldsymbol { \tau } , \boldsymbol { \mu } _ 1 , \boldsymbol { \mu } _ 2 , \Sigma_1 , \Sigma_2   \big )
+L ( \theta   ; { \mathbf     { x } } ) = \prod   _ { { i = 1 } } ^ { n } \sum   _ { { j = 1 } } ^ { 2 } \tau   _ { j } \ f ( { \mathbf     { x } } _ { i } ; { \boldsymbol     { \mu   } } _ { j } , \Sigma   _ { j } )
+{ \displaystyle   L ( \theta   ; \mathbf   { x }   , \mathbf   { z }   ) = p ( \mathbf   { x }   , \mathbf   { z }   \vert   \theta   ) = \prod   _ { i = 1 } ^ { n } \prod   _ { j = 1 } ^ { 2 } \ [f ( \mathbf   { x }   _ { i } ; { \boldsymbol   { \mu   } } _ { j } , \Sigma   _ { j } ) \tau   _ { j } ] ^ { \mathbb   { I }   ( z _ { i } = j ) } }
+L ( \theta ; \mathbf { x } , \mathbf { z } )   =   \exp   \left \{   \sum_ { i = 1 } ^ n   \sum_ { j = 1 } ^ 2   \mathbb { I } ( z _ i = j )   \big [   \log   \tau_j   - \tfrac { 1 } { 2 }   \log   | \Sigma_j |   - \tfrac { 1 } { 2 } ( \mathbf { x } _ i - \boldsymbol { \mu } _ j ) ^ \top \Sigma_j ^ { - 1 }   ( \mathbf { x } _ i - \boldsymbol { \mu } _ j )   - \tfrac { d } { 2 }   \log ( 2 \pi )   \big ]   \right \ } .  
+\mathbb   { I }  
+f
+\mathbb { I } ( z _ i = j )
+T _ { j , i } ^ { ( t ) }   : =   \operatorname { P } ( Z _ i = j   |   X _ i = \mathbf { x } _ i   ; \theta ^ { ( t ) } )   =   \frac { \tau_j ^ { ( t ) }   \ f ( \mathbf { x } _ i ; \boldsymbol { \mu } _ j ^ { ( t ) } , \Sigma_j ^ { ( t ) } ) } { \tau_1 ^ { ( t ) }   \ f ( \mathbf { x } _ i ; \boldsymbol { \mu } _ 1 ^ { ( t ) } , \Sigma_1 ^ { ( t ) } )   +   \tau_2 ^ { ( t ) }   \ f ( \mathbf { x } _ i ; \boldsymbol { \mu } _ 2 ^ { ( t ) } , \Sigma_2 ^ { ( t ) } ) }  
+{ \displaystyle   { \begin { a l i g n e d } Q ( \theta   | \theta   ^ { ( t ) } ) & = \operatorname   { E }   _ { \mathbf   { Z }   | \mathbf   { X }   , \mathbf   { \theta   }   ^ { ( t ) } } [ \log   L ( \theta   ; \mathbf   { x }   , \mathbf   { Z }   ) ] \\&=\operatorname   { E }   _ { \mathbf   { Z }   | \mathbf   { X }   , \mathbf   { \theta   }   ^ { ( t ) } } [ \log   \prod   _ { i = 1 } ^ { n } L ( \theta   ; \mathbf   { x }   _ { i } , \mathbf   { z }   _ { i } ) ] \\&=\operatorname   { E }   _ { \mathbf   { Z }   | \mathbf   { X }   , \mathbf   { \theta   }   ^ { ( t ) } } [ \sum   _ { i = 1 } ^ { n } \log   L ( \theta   ; \mathbf   { x }   _ { i } , \mathbf   { z }   _ { i } ) ] \\&=\sum   _ { i = 1 } ^ { n } \operatorname   { E }   _ { \mathbf   { Z _ { i } }   | \mathbf   { X }   ; \mathbf   { \theta   }   ^ { ( t ) } } [ \log   L ( \theta   ; \mathbf   { x }   _ { i } , \mathbf   { z }   _ { i } ) ] \\&=\sum   _ { i = 1 } ^ { n } \sum   _ { j = 1 } ^ { 2 } P ( Z _ { i } = j | X _ { i } = \mathbf   { x }   _ { i } ; \theta   ^ { ( t ) } ) \log   L ( \theta   _ { j } ; \mathbf   { x }   _ { i } , \mathbf   { z }   _ { i } ) \\&=\sum   _ { i = 1 } ^ { n } \sum   _ { j = 1 } ^ { 2 } T _ { j , i } ^ { ( t ) } { \big   [ } \log   \tau   _ { j } - { \tfrac   { 1 } { 2 } } \log   | \Sigma   _ { j } | - { \tfrac   { 1 } { 2 } } ( \mathbf   { x }   _ { i } - { \boldsymbol   { \mu   } } _ { j } ) ^ { \top   } \Sigma   _ { j } ^ { - 1 } ( \mathbf   { x }   _ { i } - { \boldsymbol   { \mu   } } _ { j } ) - { \tfrac   { d } { 2 } } \log ( 2 \pi   ) { \big   ] } \end { a l i g n e d } } }
+{ \displaystyle   \log   L ( \theta   ; \mathbf   { x }   _ { i } , \mathbf   { z }   _ { i } ) }
+{ \displaystyle   P ( Z _ { i } | X _ { i } = \mathbf   { x }   _ { i } ; \theta   ^ { ( t ) } ) }
+\mathbf   { x }   _ { i }
+{ \displaystyle   T _ { j , i } }
+\begin { a l i g n } \boldsymbol { \tau } ^ { ( t + 1 ) }   & =   \underset { \boldsymbol { \tau } }   { \operatorname { a r g \,max } } \  Q ( \theta   |   \theta ^ { ( t ) }   )   \\ &= \underset { \boldsymbol { \tau } }   { \operatorname { a r g \,max } }   \ \left \{   \left [     \sum_ { i = 1 } ^ n   T _ { 1 , i } ^ { ( t ) }   \right ]   \log   \tau_1   +   \left [     \sum_ { i = 1 } ^ n   T _ { 2 , i } ^ { ( t ) }   \right ]   \log   \tau_2     \right \} \end { a l i g n }
+\tau ^ { ( t + 1 ) } _ j   =   \frac { \sum_ { i = 1 } ^ n   T _ { j , i } ^ { ( t ) } } { \sum_ { i = 1 } ^ n   ( T _ { 1 , i } ^ { ( t ) }   +   T _ { 2 , i } ^ { ( t ) }   )   }   =   \frac { 1 } { n }   \sum_ { i = 1 } ^ n   T _ { j , i } ^ { ( t ) }
+\begin { a l i g n } ( \boldsymbol { \mu } _ 1 ^ { ( t + 1 ) } , \Sigma_1 ^ { ( t + 1 ) } )   & =   \underset { \boldsymbol { \mu } _ 1 , \Sigma_1 }   { \operatorname { a r g \,max } } \  Q ( \theta   |   \theta ^ { ( t ) }   )   \\ &= \underset { \boldsymbol { \mu } _ 1 , \Sigma_1 }   { \operatorname { a r g \,max } } \  \sum_ { i = 1 } ^ n   T _ { 1 , i } ^ { ( t ) }   \left \{   - \tfrac { 1 } { 2 }   \log   | \Sigma_1 |   - \tfrac { 1 } { 2 } ( \mathbf { x } _ i - \boldsymbol { \mu } _ 1 ) ^ \top \Sigma_1 ^ { - 1 }   ( \mathbf { x } _ i - \boldsymbol { \mu } _ 1 )   \right \} \end { a l i g n }
+\boldsymbol { \mu } _ 1 ^ { ( t + 1 ) }   =   \frac { \sum_ { i = 1 } ^ n   T _ { 1 , i } ^ { ( t ) }   \mathbf { x } _ i } { \sum_ { i = 1 } ^ n   T _ { 1 , i } ^ { ( t ) } }  
+\Sigma_1 ^ { ( t + 1 ) }   =   \frac { \sum_ { i = 1 } ^ n   T _ { 1 , i } ^ { ( t ) }   ( \mathbf { x } _ i   -   \boldsymbol { \mu } _ 1 ^ { ( t + 1 ) } )   ( \mathbf { x } _ i   -   \boldsymbol { \mu } _ 1 ^ { ( t + 1 ) } ) ^ \top   } { \sum_ { i = 1 } ^ n   T _ { 1 , i } ^ { ( t ) } }  
+\boldsymbol { \mu } _ 2 ^ { ( t + 1 ) }   =   \frac { \sum_ { i = 1 } ^ n   T _ { 2 , i } ^ { ( t ) }   \mathbf { x } _ i } { \sum_ { i = 1 } ^ n   T _ { 2 , i } ^ { ( t ) } }  
+\Sigma_2 ^ { ( t + 1 ) }   =   \frac { \sum_ { i = 1 } ^ n   T _ { 2 , i } ^ { ( t ) }   ( \mathbf { x } _ i   -   \boldsymbol { \mu } _ 2 ^ { ( t + 1 ) } )   ( \mathbf { x } _ i   -   \boldsymbol { \mu } _ 2 ^ { ( t + 1 ) } ) ^ \top   } { \sum_ { i = 1 } ^ n   T _ { 2 , i } ^ { ( t ) } }  
+{ \displaystyle   E _ { Z | \theta   ^ { ( t ) } , \mathbf   { x }   } [ \log   L ( \theta   ^ { ( t ) } ; \mathbf   { x }   , \mathbf   { Z }   ) ] \leq   E _ { Z | \theta   ^ { ( t - 1 ) } , \mathbf   { x }   } [ \log   L ( \theta   ^ { ( t - 1 ) } ; \mathbf   { x }   , \mathbf   { Z }   ) ] + \epsilon   }
+\epsilon  

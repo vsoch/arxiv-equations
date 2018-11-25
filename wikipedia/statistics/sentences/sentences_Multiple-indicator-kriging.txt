@@ -1,0 +1,86 @@
+N
+x _ { 1 }
+z ( x _ 1 )
+Z ( x _ 1 )
+A
+N
+{ \displaystyle   Z ( x _ { 1 } ) , Z ( x _ { 2 } ) , \ldots   , Z ( x _ { N } ) }
+z ( x _ i )
+A
+{ \displaystyle   \mathbf   { h }   = x _ { 2 } - x _ { 1 } }
+{ \displaystyle   | \mathbf   { h }   | = h }
+{ \displaystyle   C ( Z ( x _ { 1 } ) , Z ( x _ { 2 } ) ) = C ( Z ( x _ { i } ) , Z ( x _ { i } + \mathbf   { h }   ) ) = C ( h ) }
+{ \displaystyle   \gamma   ( Z ( x _ { 1 } ) , Z ( x _ { 2 } ) ) = \gamma   ( Z ( x _ { i } ) , Z ( x _ { i } + \mathbf   { h }   ) ) = \gamma   ( h ) }
+{ \displaystyle   C ( x _ { i } , x _ { j } ) = C ( Z ( x _ { i } ) , Z ( x _ { j } ) ) }
+{ \displaystyle   \gamma   ( x _ { i } , x _ { j } ) = \gamma   ( Z ( x _ { i } ) , Z ( x _ { j } ) ) }
+{ \displaystyle   \gamma   ( h ) = { \frac   { 1 } { 2 | N ( h ) | } } \sum   _ { ( i , j ) \in   N ( h ) } \left ( Z ( x _ { i } ) - Z ( x _ { j } ) \right ) ^ { 2 } }
+{ \displaystyle   C ( h ) = { \frac   { 1 } { | N ( h ) | } } \sum   _ { ( i , j ) \in   N ( h ) } \left ( Z ( x _ { i } ) - m ( h ) \right ) \left ( Z ( x _ { j } ) - m ( h ) \right ) }
+{ \displaystyle   m ( h ) = { \frac   { 1 } { 2 | N ( h ) | } } \sum   _ { ( i , j ) \in   N ( h ) } Z ( x _ { i } ) + Z ( x _ { j } ) }
+N ( h )
+i , \;j
+| x _ { i } - x _ { j } | = h
+| N ( h ) |
+{ \displaystyle   ( i , \;j ) }
+{ \displaystyle   ( j , \;i ) }
+h
+{ \displaystyle   Z \colon   \mathbb   { R }   ^ { n } \rightarrow   \mathbb   { R }   }
+x _ { 0 }
+z _ i = Z ( x _ i )
+w _ i ( x _ 0 ) , \;i = 1 , \ldots , N
+\hat { Z } ( x _ 0 )   =   \begin { b m a t r i x }           w _ 1   &   w _ 2   &   \cdots   &   w _ N   \end { b m a t r i x }   \cdot   \begin { b m a t r i x }   z _ 1 \\ z_2 \\ \vdots \\ z_N   \end { b m a t r i x }   =   \sum_ { i = 1 } ^ n   w _ i ( x _ 0 )   \times   Z ( x _ i )
+w _ { i }
+x _ { 0 }
+w _ { i }
+Z ( x _ 0 )
+\hat { Z } ( x _ 0 )
+( \hat { Z } ( x ) - Z ( x ) )
+x _ { 0 }
+E \{ Z ( x ) \}=E \{ Z ( x _ { 0 } ) \}=m
+m
+E \{ Z ( x ) \}=\sum_ { k = 0 } ^ p   \beta_k   f _ k ( x )
+E \{ Z ( x ) \ }
+x
+Z ( x _ 0 )
+x _ { 0 }
+{ \displaystyle   Z ( x _ { i } ) , i = 1 , \ldots   , N }
+\hat { Z } ( x _ 0 )
+x _ { 0 }
+Z ( x )
+x _ { 0 }
+{ \displaystyle   \epsilon   ( x _ { 0 } ) = { \hat   { Z } } ( x _ { 0 } ) - Z ( x _ { 0 } ) = { \begin { b m a t r i x } W ^ { T } & - 1 \end { b m a t r i x } } \cdot   { \begin { b m a t r i x } Z ( x _ { 1 } ) & \cdots   & Z ( x _ { N } ) & Z ( x _ { 0 } ) \end { b m a t r i x } } ^ { T } = \sum   _ { i = 1 } ^ { N } w _ { i } ( x _ { 0 } ) \times   Z ( x _ { i } ) - Z ( x _ { 0 } ) }
+\epsilon ( x _ 0 )
+E ( Z ( x _ i ) ) = E ( Z ( x _ 0 ) ) = m
+E \left ( \epsilon ( x _ 0 ) \right ) = 0   \Leftrightarrow   \sum ^ { N } _ { i = 1 } w _ i ( x _ 0 )   \times   E ( Z ( x _ i ) )   -   E ( Z ( x _ 0 ) ) = 0   \Leftrightarrow
+{ \displaystyle   \Leftrightarrow   m \sum   _ { i = 1 } ^ { N } w _ { i } ( x _ { 0 } ) - m = 0 \Leftrightarrow   \sum   _ { i = 1 } ^ { N } w _ { i } ( x _ { 0 } ) = 1 \Leftrightarrow   \mathbf   { 1 }   ^ { T } \cdot   W = 1 }
+E \left [ \epsilon   ( x _ { 0 } ) \right ] = 0
+E \left ( \epsilon ( x _ 0 ) ^ 2 \right )
+{ \displaystyle   { \begin { a r r a y } { r l } \operatorname   { V a r }   ( \epsilon   ( x _ { 0 } ) ) & = \operatorname   { V a r }   \left ( { \begin { b m a t r i x } W ^ { T } & - 1 \end { b m a t r i x } } \cdot   { \begin { b m a t r i x } Z ( x _ { 1 } ) & \cdots   & Z ( x _ { N } ) & Z ( x _ { 0 } ) \end { b m a t r i x } } ^ { T } \right ) = \\&{ \overset   { * } { = } } { \begin { b m a t r i x } W ^ { T } & - 1 \end { b m a t r i x } } \cdot   \operatorname   { V a r }   \left ( { \begin { b m a t r i x } Z ( x _ { 1 } ) & \cdots   & Z ( x _ { N } ) & Z ( x _ { 0 } ) \end { b m a t r i x } } ^ { T } \right ) \cdot   { \begin { b m a t r i x } W \\-1 \end { b m a t r i x } } \end { a r r a y } } }
+{ \displaystyle   \operatorname   { V a r }   ( \epsilon   ( x _ { 0 } ) ) { \overset   { * } { = } } { \begin { b m a t r i x } W ^ { T } & - 1 \end { b m a t r i x } } \cdot   { \begin { b m a t r i x } \operatorname   { V a r }   _ { x _ { i } } & \operatorname   { C o v }   _ { x _ { i } x _ { 0 } } \\\operatorname   { C o v }   _ { x _ { i } x _ { 0 } } ^ { T } & \operatorname   { V a r }   _ { x _ { 0 } } \end { b m a t r i x } } \cdot   { \begin { b m a t r i x } W \\-1 \end { b m a t r i x } } }
+{ \displaystyle   \left \{ \operatorname   { V a r }   _ { x _ { i } } , \operatorname   { V a r }   _ { x _ { 0 } } , \operatorname   { C o v }   _ { x _ { i } x _ { 0 } } \right \ } }
+{ \displaystyle   \left \{ \operatorname   { V a r }   \left ( { \begin { b m a t r i x } Z ( x _ { 1 } ) & \cdots   & Z ( x _ { N } ) \end { b m a t r i x } } ^ { T } \right ) , \operatorname   { V a r }   ( Z ( x _ { 0 } ) ) , \operatorname   { C o v }   \left ( { \begin { b m a t r i x } Z ( x _ { 1 } ) & \cdots   & Z ( x _ { N } ) \end { b m a t r i x } } ^ { T } , Z ( x _ { 0 } ) \right ) \right \ } }
+C ( \mathbf { h } )
+\gamma ( \mathbf { h } )
+Z ( x )
+{ \displaystyle   \left \{ { \begin { a r r a y } { l } \operatorname   { V a r }   ( \epsilon   ( x _ { 0 } ) ) = W ^ { T } \cdot   \operatorname   { V a r }   _ { x _ { i } } \cdot   W - \operatorname   { C o v }   _ { x _ { i } x _ { 0 } } ^ { T } \cdot   W - W ^ { T } \cdot   \operatorname   { C o v }   _ { x _ { i } x _ { 0 } } + \operatorname   { V a r }   _ { x _ { 0 } } \\\operatorname   { V a r }   ( \epsilon   ( x _ { 0 } ) ) = \operatorname   { C o v }   ( 0 ) + \sum   _ { i } \sum   _ { j } w _ { i } w _ { j } \operatorname   { C o v }   ( x _ { i } , x _ { j } ) - 2 \sum   _ { i } w _ { i } C ( x _ { i } , x _ { 0 } ) \end { a r r a y } } \right . }
+x _ { 0 }
+C ( 0 )
+Z ( x )
+A
+A
+{ \displaystyle   { \begin { a l i g n e d } & { \underset   { W } { \text { m i n i m i z e } } } & & W ^ { T } \cdot   \operatorname   { V a r }   _ { x _ { i } } \cdot   W - \operatorname   { C o v }   _ { x _ { i } x _ { 0 } } ^ { T } \cdot   W - W ^ { T } \cdot   \operatorname   { C o v }   _ { x _ { i } x _ { 0 } } + \operatorname   { V a r }   _ { x _ { 0 } } \\&{ \text { s u b j e c t   t o } } & & \mathbf   { 1 }   ^ { T } \cdot   W = 1 \end { a l i g n e d } } }
+{ \displaystyle   { \begin { b m a t r i x } { \hat   { W } } \\\mu   \end { b m a t r i x } } = { \begin { b m a t r i x } \operatorname   { V a r }   _ { x _ { i } } & \mathbf   { 1 }   \\\mathbf   { 1 }   ^ { T } & 0 \end { b m a t r i x } } ^ { - 1 } \cdot   { \begin { b m a t r i x } \operatorname   { C o v }   _ { x _ { i } x _ { 0 } } \\1 \end { b m a t r i x } } = { \begin { b m a t r i x } \gamma   ( x _ { 1 } , x _ { 1 } ) & \cdots   & \gamma   ( x _ { 1 } , x _ { n } ) & 1 \\\vdots   & \ddots   & \vdots   & \vdots   \\\gamma   ( x _ { n } , x _ { 1 } ) & \cdots   & \gamma   ( x _ { n } , x _ { n } ) & 1 \\1 & \cdots   & 1 & 0 \end { b m a t r i x } } ^ { - 1 } { \begin { b m a t r i x } \gamma   ( x _ { 1 } , x ^ { * } ) \\\vdots   \\\gamma   ( x _ { n } , x ^ { * } ) \\1 \end { b m a t r i x } } }
+\mu  
+\sigma_k ^ 2 ( x )
+\mu ( x ) = 0
+{ \displaystyle   c ( x , y ) = \operatorname   { C o v }   ( Z ( x ) , Z ( y ) ) }
+\begin { p m a t r i x } w _ 1   \\ \vdots   \\ w_n   \end { p m a t r i x } =   \begin { p m a t r i x } c ( x _ 1 , x _ 1 )   &   \cdots   &   c ( x _ 1 , x _ n )   \\ \vdots   &   \ddots   &   \vdots     \\ c ( x _ n , x _ 1 )   &   \cdots   &   c ( x _ n , x _ n )     \end { p m a t r i x } ^ { - 1 }   \begin { p m a t r i x } c ( x _ 1 , x _ 0 )   \\ \vdots   \\ c ( x _ n , x _ 0 )   \end { p m a t r i x }  
+Z ( x _ 0 )
+z _ 1   ,   \ldots ,   z _ n
+\hat { Z } ( x _ 0 ) = \begin { p m a t r i x } z _ 1   \\ \vdots   \\ z_n     \end { p m a t r i x } '   \begin { p m a t r i x } c ( x _ 1 , x _ 1 )   &   \cdots   &   c ( x _ 1 , x _ n )     \\ \vdots   &   \ddots   &   \vdots       \\ c ( x _ n , x _ 1 )   &   \cdots   &   c ( x _ n , x _ n )         \end { p m a t r i x } ^ { - 1 }   \begin { p m a t r i x } c ( x _ 1 , x _ 0 )   \\ \vdots   \\ c ( x _ n , x _ 0 ) \end { p m a t r i x }  
+{ \displaystyle   \operatorname   { V a r }   \left ( { \hat   { Z } } ( x _ { 0 } ) - Z ( x _ { 0 } ) \right ) = \underbrace   { c ( x _ { 0 } , x _ { 0 } ) }   _ { \operatorname   { V a r }   ( Z ( x _ { 0 } ) ) } - \underbrace   { { \begin { p m a t r i x } c ( x _ { 1 } , x _ { 0 } ) \\\vdots   \\c ( x _ { n } , x _ { 0 } ) \end { p m a t r i x } } ' { \begin { p m a t r i x } c ( x _ { 1 } , x _ { 1 } ) & \cdots   & c ( x _ { 1 } , x _ { n } ) \\\vdots   & \ddots   & \vdots   \\c ( x _ { n } , x _ { 1 } ) & \cdots   & c ( x _ { n } , x _ { n } ) \end { p m a t r i x } } ^ { - 1 } { \begin { p m a t r i x } c ( x _ { 1 } , x _ { 0 } ) \\\vdots   \\c ( x _ { n } , x _ { 0 } ) \end { p m a t r i x } } }   _ { \operatorname   { V a r }   ( { \hat   { Z } } ( x _ { 0 } ) ) } }
+{ \displaystyle   \operatorname   { V a r }   ( Z ( x _ { 0 } ) ) = \operatorname   { V a r }   ( { \hat   { Z } } ( x _ { 0 } ) ) + \operatorname   { V a r }   \left ( { \hat   { Z } } ( x _ { 0 } ) - Z ( x _ { 0 } ) \right ) . }
+E [ \hat { Z } ( x _ i ) ] = E [ Z ( x _ i ) ]
+\hat { Z } ( x _ i ) = Z ( x _ i )
+\hat { Z } ( x )
+Z ( x )
+\sigma_k ^ 2

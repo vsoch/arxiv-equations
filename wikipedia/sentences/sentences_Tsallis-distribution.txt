@@ -1,1 +1,0 @@
-{ \displaystyle   \lambda   = 1 - q }

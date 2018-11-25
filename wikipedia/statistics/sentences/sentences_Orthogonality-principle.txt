@@ -1,0 +1,63 @@
+{ \hat     { x } } = H y + c
+{ \hat   { x } }
+E \{ ( { \hat     { x } } - x ) y ^ { T } \}=0 ,
+E \{ { \hat     { x } } - x \}=0 .
+\sigma   _ { x } ^ { 2 } .
+y = x + w ,
+\sigma   _ { w } ^ { 2 } .
+{ \hat     { x } } = h y + c
+{ \hat     { x } } = h y + c
+0 = E \{ ( { \hat     { x } } - x ) y \ }
+0 = E \{ ( h x + h w + c - x ) ( x + w ) \ }
+{ \displaystyle   0 = h ( \sigma   _ { x } ^ { 2 } + \sigma   _ { w } ^ { 2 } ) + h m ^ { 2 } + c m - \sigma   _ { x } ^ { 2 } - m ^ { 2 } }
+0 = E \{ { \hat     { x } } - x \ }
+0 = E \{ h x + h w + c - x \ }
+0 = ( h - 1 ) m + c .
+  h   =   \frac { \sigma_x ^ 2 } { \sigma_x ^ 2   + \sigma_w ^ 2 } ,   \quad   c   =   \frac { \sigma_w ^ 2 } { \sigma_x ^ 2 + \sigma_w ^ 2 }   m   ,  
+  \hat { x }   =   \frac { \sigma_x ^ 2 } { \sigma_x ^ 2   + \sigma_w ^ 2 }   y   +   \frac { \sigma_w ^ 2 } { \sigma_x ^ 2   + \sigma_w ^ 2 }   m .
+\sigma   _ { w } ^ { 2 }
+\sigma   _ { x } ^ { 2 }
+V
+\langle   x , y \rangle   = E \{ x ^ { H } y \ }
+W
+V
+{ \hat     { x } } \in   W
+x \in   V
+E \|x - { \hat     { x } } \|^ { 2 }
+{ \hat   { x } }
+x
+V
+x
+y
+W
+y
+W
+x
+{ \hat   { x } }
+W
+e
+W
+W
+V
+x
+V
+{ \hat     { x } } \in   W
+W
+E \{ ( x - { \hat     { x } } ) y ^ { T } \}=0
+y \in   W .
+x
+x = { \hat     { x } } + e \ ,
+{ \hat     { x } } = \sum   _ { i } c _ { { i } } p _ { { i } }
+x
+W
+p _ { { 1 } } , p _ { { 2 } } , \ldots   .
+c _ { i }
+\left \Vert   e \right \Vert   ^ { { 2 } }
+\left \langle   x - \sum   _ { i } c _ { { i } } p _ { { i } } , p _ { { j } } \right \rangle   = 0 .
+\left \langle   x , p _ { { j } } \right \rangle   = \left \langle   \sum   _ { i } c _ { { i } } p _ { { i } } , p _ { { j } } \right \rangle   = \sum   _ { i } c _ { { i } } \left \langle   p _ { { i } } , p _ { { j } } \right \rangle   .
+n
+p _ { i }
+{ \begin { b m a t r i x } \left \langle   x , p _ { { 1 } } \right \rangle   \\\left \langle   x , p _ { { 2 } } \right \rangle   \\\vdots   \\\left \langle   x , p _ { { n } } \right \rangle   \end { b m a t r i x } } = { \begin { b m a t r i x } \left \langle   p _ { { 1 } } , p _ { { 1 } } \right \rangle   & \left \langle   p _ { { 2 } } , p _ { { 1 } } \right \rangle   & \cdots   & \left \langle   p _ { { n } } , p _ { { 1 } } \right \rangle   \\\left \langle   p _ { { 1 } } , p _ { { 2 } } \right \rangle   & \left \langle   p _ { { 2 } } , p _ { { 2 } } \right \rangle   & \cdots   & \left \langle   p _ { { n } } , p _ { { 2 } } \right \rangle   \\\vdots   & \vdots   & \ddots   & \vdots   \\\left \langle   p _ { { 1 } } , p _ { { n } } \right \rangle   & \left \langle   p _ { { 2 } } , p _ { { n } } \right \rangle   & \cdots   & \left \langle   p _ { { n } } , p _ { { n } } \right \rangle   \end { b m a t r i x } } { \begin { b m a t r i x } c _ { { 1 } } \\c_ { { 2 } } \\\vdots   \\c_ { { n } } \end { b m a t r i x } } .
+p _ { i }
+{ \begin { b m a t r i x } c _ { { 1 } } \\c_ { { 2 } } \\\vdots   \\c_ { { n } } \end { b m a t r i x } } = { \begin { b m a t r i x } \left \langle   p _ { { 1 } } , p _ { { 1 } } \right \rangle   & \left \langle   p _ { { 2 } } , p _ { { 1 } } \right \rangle   & \cdots   & \left \langle   p _ { { n } } , p _ { { 1 } } \right \rangle   \\\left \langle   p _ { { 1 } } , p _ { { 2 } } \right \rangle   & \left \langle   p _ { { 2 } } , p _ { { 2 } } \right \rangle   & \cdots   & \left \langle   p _ { { n } } , p _ { { 2 } } \right \rangle   \\\vdots   & \vdots   & \ddots   & \vdots   \\\left \langle   p _ { { 1 } } , p _ { { n } } \right \rangle   & \left \langle   p _ { { 2 } } , p _ { { n } } \right \rangle   & \cdots   & \left \langle   p _ { { n } } , p _ { { n } } \right \rangle   \end { b m a t r i x } } ^ { { - 1 } } { \begin { b m a t r i x } \left \langle   x , p _ { { 1 } } \right \rangle   \\\left \langle   x , p _ { { 2 } } \right \rangle   \\\vdots   \\\left \langle   x , p _ { { n } } \right \rangle   \end { b m a t r i x } } ,
+c _ { i }

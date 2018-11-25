@@ -1,1 +1,0 @@
-{ \frac     { \lambda   \operatorname   E ( S ^ { 2 } ) } { 2 \{ 1 - \lambda   \operatorname   E ( S ) \ } } }

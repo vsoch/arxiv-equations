@@ -1,6 +1,0 @@
-  A _ { i j }   =   \Phi ^ { - 1 } \left ( \frac { R ( X _ { i j } ) } { N + 1 } \right )  
-  \bar { A } _ j   =   \frac { 1 } { n _ j } \sum_ { i = 1 } ^ { n _ j } A _ { i j } \quad   j = 1 , 2 , \ldots ,   k  
-  s ^ 2   =   \frac { 1 } { N - 1 } \sum_ { j = 1 } ^ k \sum_ { i = 1 } ^ { n _ j } A _ { i j } ^ 2  
-  T _ 1   =   \frac { 1 } { s ^ 2 } \sum_ { j = 1 } ^ k n _ j \bar { A } _ j ^ 2  
-  T _ 1   >   \chi_ { \alpha , k - 1 } ^ 2  
-  \left \vert   \bar { A } _ { j _ 1 }   -   \bar { A } _ { j _ 2 } \right \vert   >   s   \,t_ { 1 - \alpha / 2 } \sqrt { \frac { N - 1 - T _ 1 } { N - k } } \sqrt { \frac { 1 } { n _ { j _ 1 } } + \frac { 1 } { n _ { j _ 2 } } }  

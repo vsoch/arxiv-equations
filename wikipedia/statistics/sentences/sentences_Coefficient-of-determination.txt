@@ -1,0 +1,55 @@
+R ^ { 2 } = 1 - { \frac   { \color   { b l u e } { S S _ { \text { r e s } } } } { \color   { r e d } { S S _ { \text { t o t } } } } }
+R ^ { 2 }
+{ \bar   { y } }
+{ \bar   { y } } = { \frac   { 1 } { n } } \sum   _ { i = 1 } ^ { n } y _ { i }
+S S _ { \text { t o t } } = \sum   _ { i } ( y _ { i } - { \bar   { y } } ) ^ { 2 } ,
+S S _ { \text { r e g } } = \sum   _ { i } ( f _ { i } - { \bar   { y } } ) ^ { 2 } ,
+{ \displaystyle   S S _ { \text { r e s } } = \sum   _ { i } ( y _ { i } - f _ { i } ) ^ { 2 } = \sum   _ { i } e _ { i } ^ { 2 } \ , }
+{ \displaystyle   R ^ { 2 } \equiv   1 - { S S _ { \rm   { r e s } }   \over   S S _ { \rm   { t o t } } } \ , }
+{ \begin { a l i g n e d } R ^ { 2 } = 1 - { \text { F V U } } \end { a l i g n e d } }
+{ \displaystyle   S S _ { \text { r e s } } + S S _ { \text { r e g } } = S S _ { \text { t o t } } . \ , }
+{ \displaystyle   R ^ { 2 } = { \frac   { S S _ { \text { r e g } } } { S S _ { \text { t o t } } } } = { \frac   { S S _ { \text { r e g } } / n } { S S _ { \text { t o t } } / n } } }
+{ \displaystyle   f _ { i } = { \hat   { \alpha   } } + { \hat   { \beta   } } q _ { i } \ , }
+{ \hat   { \alpha   } }
+{ \hat   { \beta   } }
+{ \bar   { f } } = { \bar   { y } } . \ ,
+y
+f
+y
+x .
+{ \displaystyle   \rho   _ { { \hat   { \alpha   } } , { \hat   { \beta   } } } = { \mathrm   { c o v }   ( { \hat   { \alpha   } } , { \hat   { \beta   } } )   \over   \sigma   _ { \hat   { \alpha   } } \sigma   _ { \hat   { \beta   } } } , }
+y
+f
+{ \displaystyle   Y _ { i } = \beta   _ { 0 } + \sum   _ { j = 1 } ^ { p } \beta   _ { j } X _ { i , j } + \varepsilon   _ { i } , }
+{ Y _ { i } }
+X _ { { i , 1 } } , \dots   , X _ { { i , p } }
+\varepsilon   _ { i }
+\beta   _ { 0 } , \dots   , \beta   _ { p }
+y
+{ \bar   { y } }
+\min   _ { b } S S _ { { \text { r e s } } } ( b ) \Rightarrow   \min   _ { b } \sum   _ { i } ( y _ { i } - X _ { i } b ) ^ { 2 } \ ,
+X
+S S _ { { t o t } }
+S S _ { { \text { r e s } } }
+{ \bar     R } ^ { 2 }
+{ \displaystyle   R _ { \text { a d j } } ^ { 2 } }
+{ \displaystyle   { \bar   { R } } ^ { 2 } = { 1 - ( 1 - R ^ { 2 } ) { n - 1   \over   n - p - 1 } } }
+{ \displaystyle   { \bar   { R } } ^ { 2 } = { 1 - { S S _ { \text { r e s } } / { \text { d f } } _ { e }   \over   S S _ { \text { t o t } } / { \text { d f } } _ { t } } } }
+R ^ { { 2 } } = { 1 - { { \textit     { V A R } } _ { { \text { r e s } } }   \over   { \textit     { V A R } } _ { { \text { t o t } } } } }
+{ \displaystyle   { \text { V A R } } _ { \text { r e s } } = S S _ { \text { r e s } } / n }
+{ \displaystyle   { \text { V A R } } _ { \text { t o t } } = S S _ { \text { t o t } } / n }
+{ \displaystyle   { \text { V A R } } _ { \text { r e s } } = S S _ { \text { r e s } } / ( n - p - 1 ) }
+{ \displaystyle   { \text { V A R } } _ { \text { t o t } } = S S _ { \text { t o t } } / ( n - 1 ) }
+{ \displaystyle   { \frac   { S S _ { \text {   r e s ,   r e d u c e d } } - S S _ { \text {   r e s ,   f u l l } } } { S S _ { \text {   r e s ,   r e d u c e d } } } } , }
+{ \displaystyle   { \frac   { S S _ { \text { t o t } } - S S _ { \text { r e s } } } { S S _ { \text { t o t } } } } . }
+{ \displaystyle   R ^ { 2 } = 1 - \left ( { { \mathcal   { L } } ( 0 )   \over   { \mathcal   { L } } ( { \hat   { \theta   } } ) } \right ) ^ { 2 / n } }
+{ \displaystyle   { \mathcal   { L } } ( 0 ) }
+{ \displaystyle   { { \mathcal   { L } } ( { \hat   { \theta   } } ) } }
+{ \displaystyle   R ^ { 2 } = 1 - e ^ { { \frac   { 2 } { n } } ( l n ( { \mathcal   { L } } ( 0 ) ) - l n ( { \mathcal   { L } } ( { \hat   { \theta   } } ) ) } = 1 - e ^ { - { \frac   { D } { n } } } }
+{ \displaystyle   { \mathcal   { L } } ( { \hat   { \theta   } } ) }
+{ \displaystyle   R _ { \max   } ^ { 2 } = 1 - ( { \mathcal   { L } } ( 0 ) ) ^ { 2 / n } }
+{ \displaystyle   { \text { n o r m   o f   r e s i d u a l s } } = { \sqrt   { S S _ { \text { r e s } } } } = \|e \ | . }
+S S _ { \text { t o t } }
+x = 1 , \ 2 , \ 3 , \ 4 , \ 5
+y = 1 . 9 , \ 3 . 7 , \ 5 . 8 , \ 8 . 0 , \ 9 . 6
+H _ 0 \colon   R ^ 2 = 0 .

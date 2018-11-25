@@ -1,3 +1,0 @@
-{ \bar   { x } }
-{ \bar     { x } } = { \frac     { \sum   { f \,x } } { \sum   { f } } } .
-{ \bar     { x } } = { \frac     { \sum   { f \,x } } { \sum   { f } } } = { \frac     { 4 0 5 } { 2 0 } } = 2 0 . 2 5

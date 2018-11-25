@@ -1,0 +1,28 @@
+\lambda   ( t )
+t
+R ( t )
+t
+{ \displaystyle   h ( t ) = { \frac   { f ( t ) } { R ( t ) } } }
+f ( t )
+R ( t ) = 1 - F ( t )
+{ \displaystyle   h ( t ) = { \frac   { R ( t _ { 1 } ) - R ( t _ { 2 } ) } { ( t _ { 2 } - t _ { 1 } ) \cdot   R ( t _ { 1 } ) } } = { \frac   { R ( t ) - R ( t + \Delta   t ) } { \Delta   t \cdot   R ( t ) } } \ ! }
+( t _ { 2 } - t _ { 1 } )
+t _ { 1 }
+t
+t _ { 2 }
+\Delta   t
+( t _ { 2 } - t _ { 1 } )
+t
+R ( t )
+h ( t )
+h ( t )
+\Delta   t
+h ( t ) = \lim   _ { \Delta   t \to   0 } { \frac   { R ( t ) - R ( t + \Delta   t ) } { \Delta   t \cdot   R ( t ) } } .
+F ( t )
+\operatorname   { P r }   ( T \leq   t ) = F ( t ) = 1 - R ( t ) , \quad   t \geq   0 . \ !
+{ T }
+F ( t ) = \int   _ { 0 } ^ { t } f ( \tau   ) \,d \tau   . \ !
+h ( t ) = { \frac   { f ( t ) } { 1 - F ( t ) } } = { \frac   { f ( t ) } { R ( t ) } } .
+F ( t ) = \int   _ { 0 } ^ { t } \lambda   e ^ { - \lambda   \tau   } \,d \tau   = 1 - e ^ { - \lambda   t } , \ !
+h ( t ) = { \frac   { f ( t ) } { R ( t ) } } = { \frac   { \lambda   e ^ { - \lambda   t } } { e ^ { - \lambda   t } } } = \lambda   .
+{ \displaystyle   { \frac   { 6 { \text {   f a i l u r e s } } } { 7 5 0 2 { \text {   h o u r s } } } } = 0 . 0 0 0 7 9 9 8 \,{ \frac   { \text { f a i l u r e s } } { \text { h o u r } } } = 7 9 9 . 8 \times   1 0 ^ { - 6 } \,{ \frac   { \text { f a i l u r e s } } { \text { h o u r } } } , }

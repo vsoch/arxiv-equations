@@ -1,8 +1,0 @@
-Y _ { j } = \mu   + x _ { j } ^ { T } \beta   + \xi   _ { j } + \varepsilon   _ { j } , \ ,
-{ \tilde   { Y _ { k } } } = \mu   + x _ { k } ^ { T } \beta   + \xi   _ { k } ,
-{ \widehat   { Y _ { k } } } = \sum   _ { j = 1 } ^ { n } c _ { j , k } Y _ { j } ,
-V = \operatorname   { V a r }   ( { \tilde   { Y _ { k } } } - { \widehat   { Y _ { k } } } ) ,
-\operatorname   { E }   ( { \tilde   { Y _ { k } } } - { \widehat   { Y _ { k } } } ) = 0 .
-{ \tilde   { Y _ { k } } }
-Y _ { k }
-{ \widehat   { Y _ { k } } }

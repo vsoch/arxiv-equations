@@ -1,0 +1,9 @@
+w
+w
+w
+w ^ { { n } }
+1 - w ^ { n }
+1 - p
+{ \displaystyle   1 - p = ( 1 - w ^ { n } ) ^ { k } \ , }
+k = { \frac   { \log ( 1 - p ) } { \log ( 1 - w ^ { n } ) } }
+{ \displaystyle   \operatorname   { S D }   ( k ) = { \frac   { \sqrt   { 1 - w ^ { n } } } { w ^ { n } } } }

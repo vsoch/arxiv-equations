@@ -1,0 +1,14 @@
+\textstyle   x _ { i }
+\textstyle   i = 1 , \ldots , n
+\textstyle   E \left (   x _ { i } \right )     = 0
+\textstyle   E \left (     \left \vert   x _ { i } \right \vert   ^ { p } \right )   < + \infty
+\textstyle   1 \leq   p < + \infty
+  A _ { p } E \left (     \left (     \sum_ { i = 1 } ^ { n } \left \vert   x _ { i } \right \vert   ^ { 2 } \right )   _ { { } } ^ { p / 2 } \right )     \leq   E \left (     \left \vert   \sum_ { i = 1 } ^ { n } x _ { i } \right \vert   ^ { p } \right )     \leq   B _ { p } E \left (     \left (     \sum_ { i = 1 } ^ { n } \left \vert   x _ { i } \right \vert   ^ { 2 } \right )     _ { { } } ^ { p / 2 } \right )  
+\textstyle   A _ { p }
+\textstyle   B _ { p }
+\textstyle   p
+\textstyle   p = 2
+\textstyle   A _ { 2 } = B _ { 2 } = 1
+\textstyle   E \left (   x _ { i } \right )     = 0
+\textstyle   E \left (     \left \vert   x _ { i } \right \vert   ^ { 2 } \right )   < + \infty
+  \mathrm { V a r } \left ( \sum_ { i = 1 } ^ { n } x _ { i } \right ) = E \left (     \left \vert   \sum_ { i = 1 } ^ { n } x _ { i } \right \vert   ^ { 2 } \right )     = \sum_ { i = 1 } ^ { n } \sum_ { j = 1 } ^ { n } E \left (   x _ { i } \overline { x } _ { j } \right )     = \sum_ { i = 1 } ^ { n } E \left (     \left \vert   x _ { i } \right \vert   ^ { 2 } \right )     = \sum_ { i = 1 } ^ { n } \mathrm { V a r } \left ( x _ { i } \right ) .  

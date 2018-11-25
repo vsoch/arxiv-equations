@@ -1,0 +1,2 @@
+\rho  
+D _ { { \text { e f f } } } = 1 + ( m - 1 ) \rho   .

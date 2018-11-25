@@ -1,0 +1,23 @@
+X
+\phi  
+t
+{ \displaystyle   \phi   _ { X - \mu   } ( t ) = \psi   ( t ' \Sigma   t ) }
+\mu  
+\Sigma  
+\psi  
+f ( x ) = k \cdot   g ( ( x - \mu   ) ' \Sigma   ^ { { - 1 } } ( x - \mu   ) )
+k
+x
+n
+\mu  
+\Sigma  
+f ( x )
+g ( z ) = e ^ { - z / 2 }
+x
+e ^ { { - z / 2 } } > 0
+z
+g ( z ) = 0
+z
+\mu   .
+{ \displaystyle   \alpha   I }
+I

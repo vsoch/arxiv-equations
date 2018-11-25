@@ -1,1 +1,0 @@
-{ \displaystyle   { Q _ { 3 } - Q _ { 1 }   \over   Q _ { 3 } + Q _ { 1 } } . }

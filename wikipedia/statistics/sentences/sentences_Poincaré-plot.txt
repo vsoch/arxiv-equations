@@ -1,0 +1,1 @@
+{ \displaystyle   x _ { t } , x _ { t + 1 } , x _ { t + 2 } , \ldots   , }

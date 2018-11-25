@@ -1,0 +1,32 @@
+L ^ 2 ( \mathbb { R } )
+\{ 0 \}\dots   \subset   V _ { 1 } \subset   V _ { 0 } \subset   V _ { { - 1 } } \subset   \dots   \subset   V _ { { - n } } \subset   V _ { { - ( n + 1 ) } } \subset   \dots   \subset   L ^ { 2 } ( \mathbb { R }   )
+f \in   V _ { k } , \;m \in   \mathbb { Z   }  
+g ( x ) = f ( x - m 2 ^ { { k } } )
+V _ { k }
+V _ { k } \subset   V _ { l } , \;k > l ,
+f \in   V _ { k }
+g \in   V _ { l }
+\forall   x \in   \mathbb { R }   : \;g ( x ) = f ( 2 ^ { { k - l } } x )
+\phi  
+\phi   _ { 1 } , \dots   , \phi   _ { r }
+{ \displaystyle   V _ { 0 } \subset   L ^ { 2 } ( \mathbb   { R }   ) }
+{ \displaystyle   L ^ { 2 } ( \mathbb   { R }   ) }
+V _ { 0 } \subset   V _ { { - 1 } }
+a _ { k } = 2 \langle   \phi   ( x ) , \phi   ( 2 x - k ) \rangle  
+| k | \leq   N
+a _ { k } = 0
+| k | > N
+\phi   ( x ) = \sum   _ { { k = - N } } ^ { N } a _ { k } \phi   ( 2 x - k ) .
+\psi   ( x ) : = \sum   _ { { k = - N } } ^ { N } ( - 1 ) ^ { k } a _ { { 1 - k } } \phi   ( 2 x - k ) ,
+W _ { 0 } \subset   V _ { { - 1 } }
+V _ { 0 }
+V _ { { - 1 } }
+V _ { { - 1 } }
+\oplus  
+W _ { 0 }
+V _ { 0 }
+W _ { k }
+W _ { 0 }
+L ^ { 2 } ( \mathbb { R }   ) = { \mbox { c l o s u r e   o f   } } \bigoplus   _ { { k \in   \mathbb { Z   }   } } W _ { k } ,
+\{ \psi   _ { { k , n } } ( x ) = { \sqrt     2 } ^ { { - k } } \psi   ( 2 ^ { { - k } } x - n ) : \;k , n \in   \mathbb { Z   }   \ }
+L ^ { 2 } ( \mathbb { R }   )

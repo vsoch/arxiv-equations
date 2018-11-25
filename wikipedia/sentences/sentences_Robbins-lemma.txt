@@ -1,1 +1,0 @@
-{ \displaystyle   \operatorname   { E }   ( X f ( X - 1 ) ) = \lambda   \operatorname   { E }   ( f ( X ) ) . }

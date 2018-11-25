@@ -1,0 +1,1 @@
+{ \displaystyle   M o M ( P a t i e n t ) = { \frac   { R e s u l t ( P a t i e n t ) } { M e d i a n ( P a t i e n t P o p u l a t i o n ) } } }

@@ -1,0 +1,29 @@
+{ \widehat   { x } } ( n ) = \sum   _ { i = 1 } ^ { p } a _ { i } x ( n - i ) \ ,
+{ \widehat   { x } } ( n )
+x ( n - i )
+{ \displaystyle   p < = n }
+a _ { i }
+e ( n ) = x ( n ) - { \widehat   { x } } ( n ) \ ,
+x ( n )
+a _ { i }
+e ( n ) = \|x ( n ) - { \widehat   { x } } ( n ) \ | \ ,
+\|\cdot   \ |
+{ \widehat   { x } } ( n )
+a _ { i }
+E [ e ^ { 2 } ( n ) ]
+{ \displaystyle   \sum   _ { i = 1 } ^ { p } a _ { i } R ( j - i ) = R ( j ) , }
+\ R ( i ) = E \{ x ( n ) x ( n - i ) \ } \ ,
+{ \displaystyle   R a = r , \ , }
+R
+p \times   p
+r _ { i j } = R ( i - j ) , 0 \leq   i , j < p
+r
+r _ { j } = R ( j ) , 0 < j \leq   p
+a
+e ( n ) = x ( n ) - { \widehat   { x } } ( n ) = x ( n ) - \sum   _ { i = 1 } ^ { p } a _ { i } x ( n - i ) = - \sum   _ { i = 0 } ^ { p } a _ { i } x ( n - i )
+a _ { i }
+a _ { 0 } = - 1
+\ Ra = [ 1 , 0 , . . . , 0 ] ^ { \mathrm   { T }   }
+{ \displaystyle   p - 1 , }
+a _ { i }
+{ \displaystyle   { \begin { a r r a y } { l c l } p = 1 & : & { \widehat   { x } } ( n ) = 1 x ( n - 1 ) \\p = 2 & : & { \widehat   { x } } ( n ) = 2 x ( n - 1 ) - 1 x ( n - 2 ) \\p = 3 & : & { \widehat   { x } } ( n ) = 3 x ( n - 1 ) - 3 x ( n - 2 ) + 1 x ( n - 3 ) \\p = 4 & : & { \widehat   { x } } ( n ) = 4 x ( n - 1 ) - 6 x ( n - 2 ) + 4 x ( n - 3 ) - 1 x ( n - 4 ) \\\end { a r r a y } } }

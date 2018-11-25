@@ -1,0 +1,1 @@
+C ( d ) = { \Bigg   ( } 1 + { \frac     { d ^ { 2 } } { 2 \alpha   k ^ { 2 } } } { \Bigg   ) } ^ { { - \alpha   } }

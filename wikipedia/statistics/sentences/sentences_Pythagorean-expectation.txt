@@ -1,0 +1,7 @@
+{ \displaystyle   \mathrm   { W i n \ Ratio }   = { \frac   { { \text { r u n s   s c o r e d } } ^ { 2 } } { { \text { r u n s   s c o r e d } } ^ { 2 } + { \text { r u n s   a l l o w e d } } ^ { 2 } } } = { \frac   { 1 } { 1 + ( { \text { r u n s   a l l o w e d } } / { \text { r u n s   s c o r e d } } ) ^ { 2 } } } }
+{ \mathrm     { W i n } } = { \frac     { { \text { 8 9 7 } } ^ { { 2 } } } { { \text { 8 9 7 } } ^ { { 2 } } + { \text { 6 9 7 } } ^ { { 2 } } } } = 0 . 6 2 3 5 2 5 8 6 5
+{ \mathrm     { W i n } } = { \frac     { { \text { r u n s   s c o r e d } } ^ { { 1 . 8 3 } } } { { \text { r u n s   s c o r e d } } ^ { { 1 . 8 3 } } + { \text { r u n s   a l l o w e d } } ^ { { 1 . 8 3 } } } } = { \frac     { 1 } { 1 + ( { \text { r u n s   a l l o w e d } } / { \text { r u n s   s c o r e d } } ) ^ { { 1 . 8 3 } } } }
+{ \mathrm     { E x p o n e n t } } = 1 . 5 0 \cdot   \log   \left ( { \frac     { R + R A } G } \right ) + 0 . 4 5
+{ \mathrm     { E x p o n e n t } } = \left ( { \frac     { R + R A } G } \right ) ^ { { . 2 8 7 } }
+{ \mathrm     { W i n } } = { \frac     { { \text { p o i n t s   f o r } } ^ { { 1 3 . 9 1 } } } { { \text { p o i n t s   f o r } } ^ { { 1 3 . 9 1 } } + { \text { p o i n t s   a g a i n s t } } ^ { { 1 3 . 9 1 } } } } .
+{ \text { P y t h a g o r e a n   w i n s } } = { \frac     { { \text { P o i n t s   F o r } } ^ { { 2 . 3 7 } } } { { \text { P o i n t s   F o r } } ^ { { 2 . 3 7 } } + { \text { P o i n t s   A g a i n s t } } ^ { { 2 . 3 7 } } } } \times   1 6 .

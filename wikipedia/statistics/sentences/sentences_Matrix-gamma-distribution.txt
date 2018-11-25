@@ -1,0 +1,10 @@
+{ { \rm   { M G } } } _ { { p } } ( \alpha   , \beta   , { \boldsymbol     \Sigma   } )
+\alpha   > 0
+\beta   > 0
+{ \boldsymbol   { \Sigma   } }
+p \times   p
+\mathbf   { X }  
+p \times   p
+{ \frac     { | { \boldsymbol     \Sigma   } | ^ { { - \alpha   } } } { \beta   ^ { { p \alpha   } } \Gamma   _ { p } ( \alpha   ) } } | { \mathbf     { X } } | ^ { { \alpha   - ( p + 1 ) / 2 } } \exp   \left ( { { \rm   { t r } } } \left ( - { \frac     { 1 } { \beta   } } { \boldsymbol     \Sigma   } ^ { { - 1 } } { \mathbf     { X } } \right ) \right )
+\Gamma_p
+\beta   = 2 , \alpha   = { \frac     { n } { 2 } } .

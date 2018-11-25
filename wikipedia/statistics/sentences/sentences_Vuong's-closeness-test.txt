@@ -1,0 +1,12 @@
+Z = \frac { L R _ N ( \beta_ { M L , 1 } , \beta_ { M L , 2 } ) }   { \sqrt { N } \omega_N }
+  { L R _ N ( \beta_ { M L , 1 } , \beta_ { M L , 2 } ) }   =   L ^ 1 _ N - L ^ 2 _ N - \frac { K _ 1 - K _ 2 }   { 2 }   \log   N
+\omega_N   \ ,
+\omega_N ^ 2
+\ell_i \ ,
+\ell_i   =   \log \frac { f _ 1 ( y _ i | x _ i , \beta_ { M L , 1 } ) } { f _ 2 ( y _ i | x _ i , \beta_ { M L , 2 } ) } .
+2 L R _ N ( \beta_ { M L , 1 } , \beta_ { M L , 2 } ) \ ,
+M _ m ( . , \bold \lambda ) \sim   \Gamma ( b , p ) \ ,
+  \bold \lambda = ( \lambda_1 ,   \lambda_2 ,   \dots ,   \lambda_m ) , \ ,
+m = K _ 1 + K _ 2 , \  b = \frac   1   2   \frac   { \sum \lambda_i }   { \sum \lambda_i ^ 2 }
+p = \frac   1   2   \frac   { { ( \sum \lambda   i ) } ^ 2 }   { \sum \lambda_i ^ 2 } .
+\bold \lambda

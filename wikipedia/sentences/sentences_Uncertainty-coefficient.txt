@@ -1,4 +1,0 @@
-H ( X ) = - \sum   _ { x } P _ { X } ( x ) \log   P _ { X } ( x ) ,
-H ( X | Y ) = - \sum   _ { { x , ~ y } } P _ { { X , Y } } ( x , ~ y ) \log   P _ { { X | Y } } ( x | y ) .
-U ( X | Y ) = { \frac     { H ( X ) - H ( X | Y ) } { H ( X ) } } = { \frac     { I ( X ; Y ) } { H ( X ) } } ,
-{ \begin { a l i g n e d } U ( X , ~ Y ) & = { \frac     { H ( X ) U ( X | Y ) + H ( Y ) U ( Y | X ) } { H ( X ) + H ( Y ) } } \\[8pt ] & = 2 \left [ { \frac     { H ( X ) + H ( Y ) - H ( X , ~ Y ) } { H ( X ) + H ( Y ) } } \right ] . \end { a l i g n e d } }

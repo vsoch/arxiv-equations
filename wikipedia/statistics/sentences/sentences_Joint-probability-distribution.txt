@@ -1,0 +1,39 @@
+X
+Y
+p ( X )
+p ( Y )
+{ \displaystyle   P ( A ) = 1 / 2 \quad   { \text { f o r } } \quad   A \in   \{ 0 , 1 \ } ; }
+{ \displaystyle   P ( B ) = 1 / 2 \quad   { \text { f o r } } \quad   B \in   \{ 0 , 1 \ } . }
+{ \displaystyle   ( A = 0 , B = 0 ) , ( A = 0 , B = 1 ) , ( A = 1 , B = 0 ) , ( A = 1 , B = 1 ) . }
+{ \displaystyle   P ( A , B ) = 1 / 4 \quad   { \text { f o r } } \quad   A , B \in   \{ 0 , 1 \ } . }
+{ \displaystyle   P ( A , B ) = P ( A ) P ( B ) \quad   { \text { f o r } } \quad   A , B \in   \{ 0 , 1 \ } . }
+{ \displaystyle   \mathrm   { P }   ( A = 0 , B = 0 ) = P \{ 1 \}={ \frac   { 1 } { 6 } } , \quad   \quad   \mathrm   { P }   ( A = 1 , B = 0 ) = P \{ 4 , 6 \}={ \frac   { 2 } { 6 } } , }
+{ \displaystyle   \mathrm   { P }   ( A = 0 , B = 1 ) = P \{ 3 , 5 \}={ \frac   { 2 } { 6 } } , \quad   \quad   \mathrm   { P }   ( A = 1 , B = 1 ) = P \{ 2 \}={ \frac   { 1 } { 6 } } . }
+X , Y
+{ \begin { a l i g n e d } \mathrm   { P }   ( X = x \ \mathrm   { a n d }   \ Y = y ) = \mathrm   { P }   ( Y = y \mid   X = x ) \cdot   \mathrm   { P }   ( X = x ) = \mathrm   { P }   ( X = x \mid   Y = y ) \cdot   \mathrm   { P }   ( Y = y ) \end { a l i g n e d } } ,
+\mathrm   { P }   ( Y = y \mid   X = x )
+Y = y
+X = x
+n \ ,
+X _ { 1 } , X _ { 2 } , \dots   , X _ { n }
+{ \displaystyle   { \begin { a l i g n e d } \mathrm   { P }   ( X _ { 1 } = x _ { 1 } , \dots   , X _ { n } = x _ { n } ) & = \mathrm   { P }   ( X _ { 1 } = x _ { 1 } ) \times   \mathrm   { P }   ( X _ { 2 } = x _ { 2 } \mid   X _ { 1 } = x _ { 1 } ) \\&\times   \mathrm   { P }   ( X _ { 3 } = x _ { 3 } \mid   X _ { 1 } = x _ { 1 } , X _ { 2 } = x _ { 2 } ) \\&\dots   \\&\times   P ( X _ { n } = x _ { n } \mid   X _ { 1 } = x _ { 1 } , X _ { 2 } = x _ { 2 } , \dots   , X _ { n - 1 } = x _ { n - 1 } ) . \end { a l i g n e d } } }
+\sum   _ { i } \sum   _ { j } \mathrm   { P }   ( X = x _ { i } \ \mathrm   { a n d }   \ Y = y _ { j } ) = 1 , \ ,
+n \ ,
+X _ { 1 } , X _ { 2 } , \dots   , X _ { n }
+\sum   _ { i } \sum   _ { j } \dots   \sum   _ { k } \mathrm   { P }   ( X _ { 1 } = x _ { 1 i } , X _ { 2 } = x _ { 2 j } , \dots   , X _ { n } = x _ { n k } ) = 1 . \ ;
+f _ { X , Y } ( x , y ) = f _ { Y \mid   X } ( y \mid   x ) f _ { X } ( x ) = f _ { X \mid   Y } ( x \mid   y ) f _ { Y } ( y ) \ ;
+\int   _ { x } \int   _ { y } f _ { X , Y } ( x , y ) \;dy \;dx = 1 .
+{ \displaystyle   { \begin { a l i g n e d } f _ { X , Y } ( x , y ) = f _ { X \mid   Y } ( x \mid   y ) \mathrm   { P }   ( Y = y ) = \mathrm   { P }   ( Y = y \mid   X = x ) f _ { X } ( x ) . \end { a l i g n e d } } }
+{ \displaystyle   { \begin { a l i g n e d } F _ { X , Y } ( x , y ) & = \sum   \limits   _ { t \leq   y } \int   _ { s = - \infty   } ^ { x } f _ { X , Y } ( s , t ) \;ds . \end { a l i g n e d } } }
+X
+Y
+\ P ( X = x \ { \mbox { a n d } } \ Y = y ) = P ( X = x ) \cdot   P ( Y = y )
+\ f_ { X , Y } ( x , y ) = f _ { X } ( x ) \cdot   f _ { Y } ( y )
+A
+X _ { 1 } , \cdots   , X _ { n }
+B
+\mathrm   { P }   ( X _ { 1 } , \ldots   , X _ { n } )
+P ( B ) \cdot   P ( A \mid   B )
+P ( B )
+P ( A \mid   B )
+F ( x , y ) = P ( X \leq   x , Y \leq   y ) .

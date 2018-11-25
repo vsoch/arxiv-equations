@@ -1,0 +1,14 @@
+{ \displaystyle   ( { \boldsymbol   { x } } _ { i } , y _ { i } ) }
+{ \displaystyle   T _ { \theta   } : { \boldsymbol   { x } } \mapsto   T _ { \theta   } { \boldsymbol   { x } } }
+\theta  
+{ \displaystyle   f ( { \boldsymbol   { x } } ) }
+{ \boldsymbol   { x } }
+{ \displaystyle   f ( { \boldsymbol   { x } } ) = f ( T _ { \theta   } { \boldsymbol   { x } } ) , \quad   \forall   { \boldsymbol   { x } } , \theta   . }
+\theta   = 0
+{ \displaystyle   T _ { 0 } { \boldsymbol   { x } } = { \boldsymbol   { x } } }
+{ \displaystyle   \left . { \frac   { \partial   } { \partial   \theta   } } \right | _ { \theta   = 0 } f ( T _ { \theta   } { \boldsymbol   { x } } ) = 0 . }
+f
+f
+{ \displaystyle   f ( { \boldsymbol   { x } } ) = y _ { \mathcal   { P } } , \ \forall   { \boldsymbol   { x } } \in   { \mathcal   { P } } , }
+{ \displaystyle   y _ { \mathcal   { P } } }
+{ \mathcal   { P } }

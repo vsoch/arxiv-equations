@@ -1,0 +1,69 @@
+{ \theta   }
+p _ { i } ( { \theta   } ) = c _ { i } + { \frac     { 1 - c _ { i } } { 1 + e ^ { { - a _ { i } ( { \theta   } - b _ { i } ) } } } }
+{ \theta   }
+a _ { i }
+b _ { i }
+c _ { i }
+P ( t ) = { \frac     { 1 } { 1 + e ^ { { - t } } } } .
+p ( b ) = ( 1 + c ) / 2 ,
+c _ { i }
+p ' ( b ) = a \cdot   ( 1 - c ) / 4 .
+p ( - \infty   ) = c .
+c = 0 ,
+p ( b ) = 1 / 2
+p ' ( b ) = a / 4 ,
+a ( \theta   - b )
+c = 0
+c = 0
+b = 0
+P ( 0 ) = 1 / 2
+P ' ( 0 ) = 1 / 4 .
+a
+b
+c
+[ 0 , 1 ]
+[ c , 1 ] .
+b _ { i }
+{ \theta   }
+c _ { i }
+b _ { i }
+a _ { i }
+a _ { i }
+c _ { i }
+c _ { i }
+c _ { i }
+{ \theta   }
+b _ { i }
+a _ { i }
+b _ { i }
+d _ { i } ,
+1 - c _ { i }
+d _ { i } - c _ { i }
+b _ { i }
+b _ { i }
+b _ { i }
+a _ { i }
+c _ { i }
+d _ { i }
+c _ { i } = 0
+p _ { i } ( \theta   ) = \Phi   \left ( { \frac     { \theta   - b _ { i } } { \sigma   _ { i } } } \right )
+b _ { i }
+{ \sigma   } _ { i }
+a _ { i }
+{ \theta   }
+I ( \theta   ) = p _ { i } ( \theta   ) q _ { i } ( \theta   ) . \ ,
+{ \text { S E } } ( \theta   ) = { \frac     { 1 } { { \sqrt     { I ( \theta   ) } } } } .
+I ( \theta   ) = a _ { i } ^ { 2 } p _ { i } ( \theta   ) q _ { i } ( \theta   ) . \ ,
+I ( \theta   ) = a _ { i } ^ { 2 } { \frac     { ( p _ { i } ( \theta   ) - c _ { i } ) ^ { 2 } } { ( 1 - c _ { i } ) ^ { 2 } } } { \frac     { q _ { i } ( \theta   ) } { p _ { i } ( \theta   ) } } .
+{ \theta   }
+{ \theta   }
+\theta  
+a _ { i } \cong   { \frac     { \rho   _ { { i t } } } { { \sqrt     { 1 - \rho   _ { { i t } } ^ { 2 } } } } }
+\rho   _ { { i t } }
+{ \hat     { \theta   } } = \theta   + \varepsilon  
+\theta  
+\epsilon  
+{ \mbox { S E } } ( { \theta   } )
+\epsilon  
+R _ { \theta   } = { \frac     { { \text { v a r } } [ \theta   ] } { { \text { v a r } } [ { \hat     { \theta   } } ] } } = { \frac     { { \text { v a r } } [ { \hat     { \theta   } } ] - { \text { v a r } } [ \epsilon   ] } { { \text { v a r } } [ { \hat     { \theta   } } ] } }
+\epsilon_n

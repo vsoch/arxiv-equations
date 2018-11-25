@@ -1,0 +1,134 @@
+A R ( p )
+X _ { t } = c + \sum   _ { { i = 1 } } ^ { p } \varphi   _ { i } X _ { { t - i } } + \varepsilon   _ { t } \ ,
+\varphi   _ { 1 } , \ldots   , \varphi   _ { p }
+c
+\varepsilon   _ { t }
+X _ { t } = c + \sum   _ { { i = 1 } } ^ { p } \varphi   _ { i } B ^ { i } X _ { t } + \varepsilon   _ { t }
+{ \displaystyle   \phi   [ B ] X _ { t } = c + \varepsilon   _ { t } \ , . }
+| \varphi   _ { 1 } | \geq   1
+\textstyle   z ^ { p } - \sum   _ { { i = 1 } } ^ { p } \varphi   _ { i } z ^ { { p - i } }
+z _ { i }
+| z _ { i } | < 1
+X _ { t } = c + \varphi   _ { 1 } X _ { { t - 1 } } + \varepsilon   _ { t }
+\varepsilon   _ { t }
+X _ { 1 }
+\varepsilon   _ { 1 }
+X _ { 2 }
+X _ { 1 }
+X _ { 2 }
+\varphi   _ { 1 } \varepsilon   _ { 1 }
+X _ 3
+X _ { 2 }
+X _ 3
+\varphi   _ { 1 } ^ { 2 } \varepsilon   _ { 1 }
+\varepsilon   _ { 1 }
+\phi   ( B ) X _ { t } = \varepsilon   _ { t } \ ,
+X _ { t } = { \frac     { 1 } { \phi   ( B ) } } \varepsilon   _ { t } \ , .
+\varepsilon   _ { t }
+\varepsilon   _ { t }
+\rho   ( \tau   ) = \sum   _ { { k = 1 } } ^ { p } a _ { k } y _ { k } ^ { { - | \tau   | } } ,
+y _ { k }
+\phi   ( B ) = 1 - \sum   _ { { k = 1 } } ^ { p } \varphi   _ { k } B ^ { k }
+\phi   ( \cdot   )
+\varphi   _ { k }
+\varphi  
+\varphi  
+\varphi  
+\varphi   _ { 1 }
+\varphi   _ { 2 }
+\varphi   _ { 1 }
+\varphi   _ { 2 }
+X _ { t } = c + \varphi   X _ { { t - 1 } } + \varepsilon   _ { t } \ ,
+\varepsilon   _ { t }
+\sigma   _ { \varepsilon   } ^ { 2 }
+\varphi   _ { 1 }
+| \varphi   | < 1
+\varphi   = 1
+X _ { t }
+| \varphi   | < 1
+\operatorname   { E } ( X _ { t } )
+\mu  
+\operatorname   { E } ( X _ { t } ) = \operatorname   { E } ( c ) + \varphi   \operatorname   { E } ( X _ { { t - 1 } } ) + \operatorname   { E } ( \varepsilon   _ { t } ) ,
+\mu   = c + \varphi   \mu   + 0 ,
+\mu   = { \frac     { c } { 1 - \varphi   } } .
+c = 0
+{ \textrm     { v a r } } ( X _ { t } ) = \operatorname   { E } ( X _ { t } ^ { 2 } ) - \mu   ^ { 2 } = { \frac     { \sigma   _ { \varepsilon   } ^ { 2 } } { 1 - \varphi   ^ { 2 } } } ,
+\sigma   _ { \varepsilon   }
+\varepsilon   _ { t }
+{ \textrm     { v a r } } ( X _ { t } ) = \varphi   ^ { 2 } { \textrm     { v a r } } ( X _ { { t - 1 } } ) + \sigma   _ { \varepsilon   } ^ { 2 } ,
+B _ { n } = \operatorname   { E } ( X _ { { t + n } } X _ { t } ) - \mu   ^ { 2 } = { \frac     { \sigma   _ { \varepsilon   } ^ { 2 } } { 1 - \varphi   ^ { 2 } } } \,\,\varphi   ^ { { | n | } } .
+\tau   = - 1 / \ln ( \varphi   )
+{ \displaystyle   B _ { n } = K \varphi   ^ { | n | } }
+K
+n
+{ \displaystyle   \varphi   ^ { | n | } = e ^ { | n | \ln   \varphi   } }
+e ^ { { - n / \tau   } }
+\Phi   ( \omega   ) = { \frac     { 1 } { { \sqrt     { 2 \pi   } } } } \,\sum   _ { { n = - \infty   } } ^ { \infty   } B _ { n } e ^ { { - i \omega   n } } = { \frac     { 1 } { { \sqrt     { 2 \pi   } } } } \,\left ( { \frac     { \sigma   _ { \varepsilon   } ^ { 2 } } { 1 + \varphi   ^ { 2 } - 2 \varphi   \cos ( \omega   ) } } \right ) .
+X _ { j }
+\Delta   t = 1
+\tau  
+B _ { n }
+B ( t ) \approx   { \frac     { \sigma   _ { \varepsilon   } ^ { 2 } } { 1 - \varphi   ^ { 2 } } } \,\,\varphi   ^ { { | t | } }
+\Phi   ( \omega   ) = { \frac     { 1 } { { \sqrt     { 2 \pi   } } } } \,{ \frac     { \sigma   _ { \varepsilon   } ^ { 2 } } { 1 - \varphi   ^ { 2 } } } \,{ \frac     { \gamma   } { \pi   ( \gamma   ^ { 2 } + \omega   ^ { 2 } ) } }
+\gamma   = 1 / \tau  
+\tau  
+X _ { t }
+c + \varphi   X _ { { t - 2 } } + \varepsilon   _ { { t - 1 } }
+X _ { { t - 1 } }
+X _ { t } = c \sum   _ { { k = 0 } } ^ { { N - 1 } } \varphi   ^ { k } + \varphi   ^ { N } X _ { { t - N } } + \sum   _ { { k = 0 } } ^ { { N - 1 } } \varphi   ^ { k } \varepsilon   _ { { t - k } } .
+\varphi   ^ { N }
+X _ { t } = { \frac     { c } { 1 - \varphi   } } + \sum   _ { { k = 0 } } ^ { \infty   } \varphi   ^ { k } \varepsilon   _ { { t - k } } .
+X _ { t }
+\varphi   ^ { k }
+\varepsilon   _ { t }
+X _ { t }
+X _ { t }
+\varphi  
+\theta  
+{ \displaystyle   X _ { t + 1 } = X _ { t } + ( 1 - \theta   ) ( \mu   - X _ { t } ) + \epsilon   _ { t + 1 } \ , }
+| \theta   | < 1 \ ,
+\mu  
+X _ { { t + 1 } } = c + \phi   X _ { t } \ ,
+{ \displaystyle   X _ { t + n } }
+{ \displaystyle   \operatorname   { E }   ( X _ { t + n } | X _ { t } ) = \mu   \left [ 1 - \theta   ^ { n } \right ] + X _ { t } \theta   ^ { n } }
+{ \displaystyle   \operatorname   { V a r }   ( X _ { t + n } | X _ { t } ) = \sigma   ^ { 2 } { \frac   { 1 - \theta   ^ { 2 n } } { 1 - \theta   ^ { 2 } } } }
+X _ { t } = \sum   _ { { i = 1 } } ^ { p } \varphi   _ { i } X _ { { t - i } } + \varepsilon   _ { t } . \ ,
+\varphi   _ { i }
+\gamma   _ { m } = \sum   _ { { k = 1 } } ^ { p } \varphi   _ { k } \gamma   _ { { m - k } } + \sigma   _ { \varepsilon   } ^ { 2 } \delta   _ { { m , 0 } } ,
+\gamma   _ { m }
+\sigma   _ { \varepsilon   }
+\delta   _ { { m , 0 } }
+{ \begin { b m a t r i x } \gamma   _ { 1 } \\\gamma   _ { 2 } \\\gamma   _ { 3 } \\\vdots   \\\gamma   _ { p } \\\end { b m a t r i x } } = { \begin { b m a t r i x } \gamma   _ { 0 } & \gamma   _ { { - 1 } } & \gamma   _ { { - 2 } } & \dots   \\\gamma   _ { 1 } & \gamma   _ { 0 } & \gamma   _ { { - 1 } } & \dots   \\\gamma   _ { 2 } & \gamma   _ { { 1 } } & \gamma   _ { { 0 } } & \dots   \\\vdots   & \vdots   & \vdots   & \ddots   \\\gamma   _ { { p - 1 } } & \gamma   _ { { p - 2 } } & \gamma   _ { { p - 3 } } & \dots   \\\end { b m a t r i x } } { \begin { b m a t r i x } \varphi   _ { { 1 } } \\\varphi   _ { { 2 } } \\\varphi   _ { { 3 } } \\\vdots   \\\varphi   _ { { p } } \\\end { b m a t r i x } }
+\{ \varphi   _ { m } ; m = 1 , 2 , \cdots   , p \ } .
+\gamma   _ { 0 } = \sum   _ { { k = 1 } } ^ { p } \varphi   _ { k } \gamma   _ { { - k } } + \sigma   _ { \varepsilon   } ^ { 2 } ,
+\{ \varphi   _ { m } ; m = 1 , 2 , \cdots   , p \ }
+\sigma   _ { \varepsilon   } ^ { 2 } .
+\rho   ( \tau   )
+\rho   ( \tau   ) = \sum   _ { { k = 1 } } ^ { p } \varphi   _ { k } \rho   ( k - \tau   )
+\gamma   _ { 1 } = \varphi   _ { 1 } \gamma   _ { 0 }
+\rho   _ { 1 } = \gamma   _ { 1 } / \gamma   _ { 0 } = \varphi   _ { 1 }
+\gamma   _ { 1 } = \varphi   _ { 1 } \gamma   _ { 0 } + \varphi   _ { 2 } \gamma   _ { { - 1 } }
+\gamma   _ { 2 } = \varphi   _ { 1 } \gamma   _ { 1 } + \varphi   _ { 2 } \gamma   _ { 0 }
+\gamma   _ { { - k } } = \gamma   _ { k }
+\rho   _ { 1 } = \gamma   _ { 1 } / \gamma   _ { 0 } = { \frac     { \varphi   _ { 1 } } { 1 - \varphi   _ { 2 } } }
+\rho   _ { 2 } = \gamma   _ { 2 } / \gamma   _ { 0 } = { \frac     { \varphi   _ { 1 } ^ { 2 } - \varphi   _ { 2 } ^ { 2 } + \varphi   _ { 2 } } { 1 - \varphi   _ { 2 } } }
+X _ { t } = c + \sum   _ { { i = 1 } } ^ { p } \varphi   _ { i } X _ { { t - i } } + \varepsilon   _ { t } ^ { * } \ , .
+{ \mathrm     { V a r } } ( Z _ { t } ) = \sigma   _ { Z } ^ { 2 }
+{ \displaystyle   S ( f ) = { \frac   { \sigma   _ { Z } ^ { 2 } } { | 1 - \sum   _ { k = 1 } ^ { p } \varphi   _ { k } e ^ { - i 2 \pi   f k } | ^ { 2 } } } . }
+S ( f ) = \sigma   _ { Z } ^ { 2 } .
+S ( f ) = { \frac     { \sigma   _ { Z } ^ { 2 } } { | 1 - \varphi   _ { 1 } e ^ { { - 2 \pi   i f } } | ^ { 2 } } } = { \frac     { \sigma   _ { Z } ^ { 2 } } { 1 + \varphi   _ { 1 } ^ { 2 } - 2 \varphi   _ { 1 } \cos   2 \pi   f } }
+\varphi   _ { 1 } > 0
+\varphi   _ { 1 }
+\varphi   _ { 1 } < 0
+z _ { 1 } , z _ { 2 } = { \frac     { 1 } { 2 } } \left ( \varphi   _ { 1 } \pm   { \sqrt     { \varphi   _ { 1 } ^ { 2 } + 4 \varphi   _ { 2 } } } \right )
+\varphi   _ { 1 } ^ { 2 } + 4 \varphi   _ { 2 } < 0
+f ^ { * } = { \frac     { 1 } { 2 \pi   } } \cos   ^ { { - 1 } } \left ( { \frac     { \varphi   _ { 1 } ( \varphi   _ { 2 } - 1 ) } { 4 \varphi   _ { 2 } } } \right )
+\varphi   _ { 1 } > 0
+f = 0
+\varphi   _ { 1 } < 0
+f = 1 / 2
+- 1 \leq   \varphi   _ { 2 } \leq   1 - | \varphi   _ { 1 } |
+S ( f ) = { \frac     { \sigma   _ { Z } ^ { 2 } } { 1 + \varphi   _ { 1 } ^ { 2 } + \varphi   _ { 2 } ^ { 2 } - 2 \varphi   _ { 1 } ( 1 - \varphi   _ { 2 } ) \cos ( 2 \pi   f ) - 2 \varphi   _ { 2 } \cos ( 4 \pi   f ) } }
+X _ { t } = c + \sum   _ { { i = 1 } } ^ { p } \varphi   _ { i } X _ { { t - i } } + \varepsilon   _ { t } \ ,
+\varepsilon   _ { t }
+\varepsilon   _ { t } \ ,

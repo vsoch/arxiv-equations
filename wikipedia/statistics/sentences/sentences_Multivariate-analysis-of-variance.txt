@@ -1,0 +1,11 @@
+\Sigma_ { m o d e l }
+\Sigma_ { r e s } ^ { - 1 }
+A = \Sigma_ { m o d e l }   \times   \Sigma_ { r e s } ^ { - 1 }
+\Sigma_ { m o d e l }   =   \Sigma_ { r e s i d u a l }
+A   \sim   I
+\lambda_p
+A
+\Lambda_ { W i l k s }   =   \prod   _ { 1 . . . p } ( 1 / ( 1   +   \lambda_ { p } ) )   =   \det ( I   +   A ) ^ { - 1 }   =   \det ( \Sigma_ { r e s } ) / \det ( \Sigma_ { r e s }   +   \Sigma_ { m o d e l } )
+\Lambda   _ { { P i l l a i } } = \sum   _ { { 1 . . . p } } ( \lambda   _ { { p } } / ( 1 + \lambda   _ { { p } } ) ) = { \mathrm     { t r } } ( ( I + A ) ^ { { - 1 } } )
+\Lambda_ { L H }   =   \sum   _ { 1 . . . p } ( \lambda_ { p } )   =   \mathrm { t r } ( A )
+\Lambda_ { R o y }   =   m a x _ p ( \lambda_p )   =   \|A \|_ { \infty }

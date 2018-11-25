@@ -1,0 +1,35 @@
+{ \displaystyle   N ( T ) = N ( 0 ) \exp ( - c ( \exp ( a t ) - 1 ) ) }
+a
+b
+c
+{ \displaystyle   f ( t ) = a \mathrm   { e }   ^ { - b \mathrm   { e }   ^ { - c t } } , }
+{ \displaystyle   \lim   _ { t \to   \infty   } a \mathrm   { e }   ^ { - b \mathrm   { e }   ^ { - c t } } = a \mathrm   { e }   ^ { 0 } = a }
+{ \displaystyle   f ( t ) = a / 2 }
+{ \displaystyle   t _ { h w p } = - { \frac   { \ln ( \ln ( 2 ) / b ) } { c } } }
+{ \displaystyle   { \frac   { d ^ { 2 } } { d t ^ { 2 } } } f ( t ) = 0 }
+{ \displaystyle   t _ { m a x } = \ln ( b ) / c }
+{ \displaystyle   t _ { m a x } }
+{ \displaystyle   \max   \left ( { \frac   { d } { d f } } \right ) = { \frac   { a c } { e } } }
+{ \displaystyle   k ^ { r } \propto   { \frac   { 1 } { y ( t ) } } , }
+r = \frac { y ' ( t ) } { y ( t ) }
+{ \displaystyle   N ( t ) = N _ { 0 } ( \exp   \ln ( N _ { I } / N _ { 0 } ) ( 1 - \exp ( - b t ) ) }
+{ \displaystyle   B = \sum   _ { C } ( N _ { C } B _ { C } ) ( E _ { C } { \operatorname   { d }   \!N_ { C }   \over   \operatorname   { d }   \!t } ) }
+{ \displaystyle   X ( t ) = K \exp   \left ( \log   \left ( { \frac   { X ( 0 ) } { K } } \right ) \exp   \left ( - \alpha   t \right ) \right ) = K \left ( { \frac   { X ( 0 ) } { K } } \right ) ^ { \exp ( - \alpha   t ) } }
+\lim_ { t   \rightarrow   + \infty } X ( t ) = K
+  X ^ { \prime } ( t )   =   \alpha   \log \left (   \frac { K } { X ( t ) }   \right )   X ( t )  
+{ \displaystyle   X ^ { \prime   } ( t ) = F \left ( X ( t ) \right ) X ( t ) , \quad   { \mbox { w i t h } } \quad   F ^ { \prime   } ( X ) \leq   0 , }
+  F ( X )   =   \alpha   \left (   1   -   \left ( \frac { X } { K } \right ) ^ { \nu } \right )   \Rightarrow   F ( 0 ) = \alpha   <   + \infty    
+  \lim_ { X   \rightarrow   0 ^ { + }   }   F ( X )   =     \lim_ { X   \rightarrow   0 ^ { + }   }   \alpha   \log \left (   \frac { K } { X } \right )   =   + \infty  
+  X ^ { \prime } ( t )   =   \alpha   \log \left (   \frac { K } { X ( t ) }   \right )   X ( t )  
+  X ^ { \prime } ( t )   =   \alpha   \nu   \left (   1   -   \left ( \frac { X ( t ) } { K } \right ) ^ { \frac { 1 } { \nu } }   \right )   X ( t )  
+\nu   > 0
+\lim_ { \nu   \rightarrow   + \infty }   \nu   \left (   1   -   x ^ { 1 / \nu }   \right )   =   - \log   \left (   x   \right )
+X ( t )   =   \left (   \frac { \nu } { \nu + 1 }   \right ) ^ { \nu }   K  
+X ( t )   =   \frac { K } { e }   =   K   \cdot   \lim_ { \nu   \rightarrow   + \infty }   \left (   \frac { \nu } { \nu + 1 }   \right ) ^ { \nu }  
+X _ { C }
+X > X _ { C }
+F ( X ) = \max \left ( a , \alpha   \log \left (   \frac { K } { X } \right )   \right )
+X _ { C } =   K   \exp \left ( - \frac { a } { \alpha } \right ) .
+X _ { C }
+X _ { C } \approx   1 0 ^ 9  
+X _ { C } \approx   1 0 ^ 6  

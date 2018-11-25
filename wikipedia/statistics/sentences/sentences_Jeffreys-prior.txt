@@ -1,0 +1,60 @@
+p \left ( { \vec     \theta   } \right ) \propto   { \sqrt     { \det   { \mathcal     { I } } \left ( { \vec     \theta   } \right ) } } . \ ,
+L
+{ \vec     \theta   }
+\varphi  
+p ( \varphi   ) \propto   { \sqrt     { I ( \varphi   ) } } \ ,
+p ( \theta   ) \propto   { \sqrt     { I ( \theta   ) } } \ ,
+{ \displaystyle   { \begin { a l i g n e d } p ( \varphi   ) & = p ( \theta   ) \left | { \frac   { d \theta   } { d \varphi   } } \right | \\&\propto   { \sqrt   { I ( \theta   ) \left ( { \frac   { d \theta   } { d \varphi   } } \right ) ^ { 2 } } } = { \sqrt   { \operatorname   { E }   \!\left [ \left ( { \frac   { d \ln   L } { d \theta   } } \right ) ^ { 2 } \right ] \left ( { \frac   { d \theta   } { d \varphi   } } \right ) ^ { 2 } } } \\&={ \sqrt   { \operatorname   { E }   \!\left [ \left ( { \frac   { d \ln   L } { d \theta   } } { \frac   { d \theta   } { d \varphi   } } \right ) ^ { 2 } \right ] } } = { \sqrt   { \operatorname   { E }   \!\left [ \left ( { \frac   { d \ln   L } { d \varphi   } } \right ) ^ { 2 } \right ] } } \\&={ \sqrt   { I ( \varphi   ) } } . \end { a l i g n e d } } }
+{ \displaystyle   p ( \cdot   ) }
+L ( \cdot   )
+{ \displaystyle   p ( \theta   ) = 1 / \theta   }
+{ \displaystyle   \varphi   = \ln ( \theta   ) }
+{ \displaystyle   p ( \varphi   ) = 1 }
+1 / \varphi  
+{ \vec     \varphi   }
+p ( { \vec     \varphi   } ) \propto   { \sqrt     { \det   I ( { \vec     \varphi   } ) } } \ ,
+p ( { \vec     \theta   } ) \propto   { \sqrt     { \det   I ( { \vec     \theta   } ) } } \ ,
+{ \begin { a l i g n e d } p ( { \vec     \varphi   } ) & = p ( { \vec     \theta   } ) \left | \det   { \frac     { \partial   \theta   _ { i } } { \partial   \varphi   _ { j } } } \right | \\&\propto   { \sqrt     { \det   I ( { \vec     \theta   } ) \,{ \det   } ^ { 2 } { \frac     { \partial   \theta   _ { i } } { \partial   \varphi   _ { j } } } } } \\&={ \sqrt     { \det   { \frac     { \partial   \theta   _ { k } } { \partial   \varphi   _ { i } } } \,\det   \operatorname   { E } \!\left [ { \frac     { \partial   \ln   L } { \partial   \theta   _ { k } } } { \frac     { \partial   \ln   L } { \partial   \theta   _ { l } } } \right ] \,\det   { \frac     { \partial   \theta   _ { l } } { \partial   \varphi   _ { j } } } } } \\&={ \sqrt     { \det   \operatorname   { E } \!\left [ \sum   _ { { k , l } } { \frac     { \partial   \theta   _ { k } } { \partial   \varphi   _ { i } } } { \frac     { \partial   \ln   L } { \partial   \theta   _ { k } } } { \frac     { \partial   \ln   L } { \partial   \theta   _ { l } } } { \frac     { \partial   \theta   _ { l } } { \partial   \varphi   _ { j } } } \right ] } } \\&={ \sqrt     { \det   \operatorname   { E } \!\left [ { \frac     { \partial   \ln   L } { \partial   \varphi   _ { i } } } { \frac     { \partial   \ln   L } { \partial   \varphi   _ { j } } } \right ] } } = { \sqrt     { \det   I ( { \vec     \varphi   } ) } } . \end { a l i g n e d } }
+{ \displaystyle   \ln ( L ) }
+{ \displaystyle   f ( L ) }
+{ \vec     \theta   }
+{ \vec     \theta   }
+{ \vec     \theta   }
+x
+f ( x \mid   \mu   ) = { \frac     { e ^ { { - ( x - \mu   ) ^ { 2 } / 2 \sigma   ^ { 2 } } } } { { \sqrt     { 2 \pi   \sigma   ^ { 2 } } } } }
+\sigma  
+\mu  
+{ \displaystyle   { \begin { a l i g n e d } p ( \mu   ) & \propto   { \sqrt   { I ( \mu   ) } } = { \sqrt   { \operatorname   { E }   \!\left [ \left ( { \frac   { d } { d \mu   } } \log   f ( x \mid   \mu   ) \right ) ^ { 2 } \right ] } } = { \sqrt   { \operatorname   { E }   \!\left [ \left ( { \frac   { x - \mu   } { \sigma   ^ { 2 } } } \right ) ^ { 2 } \right ] } } \\&={ \sqrt   { \int   _ { - \infty   } ^ { + \infty   } f ( x \mid   \mu   ) \left ( { \frac   { x - \mu   } { \sigma   ^ { 2 } } } \right ) ^ { 2 } d x } } = 1 . \end { a l i g n e d } } }
+\mu  
+\mu  
+x
+f ( x \mid   \sigma   ) = { \frac     { e ^ { { - ( x - \mu   ) ^ { 2 } / 2 \sigma   ^ { 2 } } } } { { \sqrt     { 2 \pi   \sigma   ^ { 2 } } } } } ,
+\mu  
+\sigma   > 0
+{ \begin { a l i g n e d } p ( \sigma   ) & \propto   { \sqrt     { I ( \sigma   ) } } = { \sqrt     { \operatorname   { E } \!\left [ \left ( { \frac     { d } { d \sigma   } } \log   f ( x \mid   \sigma   ) \right ) ^ { 2 } \right ] } } = { \sqrt     { \operatorname   { E } \!\left [ \left ( { \frac     { ( x - \mu   ) ^ { 2 } - \sigma   ^ { 2 } } { \sigma   ^ { 3 } } } \right ) ^ { 2 } \right ] } } \\&={ \sqrt     { \int   _ { { - \infty   } } ^ { { + \infty   } } f ( x \mid   \sigma   ) \left ( { \frac     { ( x - \mu   ) ^ { 2 } - \sigma   ^ { 2 } } { \sigma   ^ { 3 } } } \right ) ^ { 2 } d x } } = { \sqrt     { { \frac     { 2 } { \sigma   ^ { 2 } } } } } \propto   { \frac     { 1 } { \sigma   } } . \end { a l i g n e d } }
+\log   \sigma   = \int   d \sigma   / \sigma  
+{ \displaystyle   \log   \sigma   ^ { 2 } = 2 \log   \sigma   }
+n
+f ( n \mid   \lambda   ) = e ^ { { - \lambda   } } { \frac     { \lambda   ^ { n } } { n ! } } ,
+\lambda   > 0
+{ \begin { a l i g n e d } p ( \lambda   ) & \propto   { \sqrt     { I ( \lambda   ) } } = { \sqrt     { \operatorname   { E } \!\left [ \left ( { \frac     { d } { d \lambda   } } \log   f ( n \mid   \lambda   ) \right ) ^ { 2 } \right ] } } = { \sqrt     { \operatorname   { E } \!\left [ \left ( { \frac     { n - \lambda   } { \lambda   } } \right ) ^ { 2 } \right ] } } \\&={ \sqrt     { \sum   _ { { n = 0 } } ^ { { + \infty   } } f ( n \mid   \lambda   ) \left ( { \frac     { n - \lambda   } { \lambda   } } \right ) ^ { 2 } } } = { \sqrt     { { \frac     { 1 } { \lambda   } } } } . \end { a l i g n e d } }
+{ \sqrt     { \lambda   } } = \int   d \lambda   / { \sqrt     { \lambda   } }
+\gamma   \in   [ 0 , 1 ]
+1   -   \gamma
+{ \displaystyle   ( H , T ) \in   \{ ( 0 , 1 ) , ( 1 , 0 ) \ } }
+\gamma   ^ { H } ( 1 - \gamma   ) ^ { T }
+\gamma  
+{ \begin { a l i g n e d } p ( \gamma   ) & \propto   { \sqrt     { I ( \gamma   ) } } = { \sqrt     { \operatorname   { E } \!\left [ \left ( { \frac     { d } { d \gamma   } } \log   f ( x \mid   \gamma   ) \right ) ^ { 2 } \right ] } } = { \sqrt     { \operatorname   { E } \!\left [ \left ( { \frac     { H } { \gamma   } } - { \frac     { T } { 1 - \gamma   } } \right ) ^ { 2 } \right ] } } \\&={ \sqrt     { \gamma   \left ( { \frac     { 1 } { \gamma   } } - { \frac     { 0 } { 1 - \gamma   } } \right ) ^ { 2 } + ( 1 - \gamma   ) \left ( { \frac     { 0 } { \gamma   } } - { \frac     { 1 } { 1 - \gamma   } } \right ) ^ { 2 } } } = { \frac     { 1 } { { \sqrt     { \gamma   ( 1 - \gamma   ) } } } } \,.\end { a l i g n e d } }
+\alpha   = \beta   = 1 / 2
+\gamma   = \sin   ^ { 2 } ( \theta   )
+\theta  
+[ 0 , \pi   / 2 ]
+\theta  
+[ 0 , 2 \pi   ]
+N
+{ \vec     { \gamma   } } = ( \gamma   _ { 1 } , \ldots   , \gamma   _ { N } )
+\sum   _ { { i = 1 } } ^ { N } \gamma   _ { i } = 1
+{ \vec     { \gamma   } }
+\gamma   _ { i } = { \phi   _ { i } } ^ { 2 }
+i
+{ \vec     { \phi   } }

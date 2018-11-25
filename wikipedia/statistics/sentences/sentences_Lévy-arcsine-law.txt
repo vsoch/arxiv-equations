@@ -1,0 +1,9 @@
+\Pr   \left [ X \leq   x \right ] = { \frac     { 2 } { \pi   } } \arcsin   \left ( { \sqrt     { x } } \right ) .
+T _ { + } = \left | \{ \,t \in   [ 0 , 1 ] \,\colon   \,W_ { t } > 0 \,\}\right |
+T _ { + }
+\Pr   \left [ T _ { + } \leq   x \right ] = { \frac     { 2 } { \pi   } } \arcsin   \left ( { \sqrt     { x } } \right ) , \qquad   \forall   x \in   [ 0 , 1 ] .
+L = \sup   \left \{ t \in   [ 0 , 1 ] \,\colon   \,W_ { t } = 0 \right \ }
+\Pr   \left [ L \leq   x \right ] = { \frac     { 2 } { \pi   } } \arcsin   \left ( { \sqrt     { x } } \right ) , \qquad   \forall   x \in   [ 0 , 1 ] .
+W _ { M } = \sup \{ W _ { s } \,\colon   \,s \in   [ 0 , 1 ] \ } .
+\Pr   \left [ M \leq   x \right ] = { \frac     { 2 } { \pi   } } \arcsin   \left ( { \sqrt     { x } } \right ) , \qquad   \forall   x \in   [ 0 , 1 ] .
+M _ { t } = \sup \{ W _ { s } \,\colon   \,s \in   [ 0 , t ] \ } ,

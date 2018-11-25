@@ -1,0 +1,53 @@
+{ \displaystyle   P ( A \mid   B ) = { \frac   { P ( A \cap   B ) } { P ( B ) } } , }
+P ( A \cap   B )
+{ \displaystyle   { \frac   { P ( A \cap   B ) } { P ( B ) } } }
+P ( A | B )
+{ \displaystyle   P ( A \cap   B ) = P ( A \mid   B ) P ( B ) }
+P ( A \cup   B ) = P ( A ) + P ( B ) - { \cancelto   { 0 } { P ( A \cap   B ) } }
+A _ B
+A
+B
+{ \displaystyle   A _ { B } = \bigcup   _ { i \geq   1 } { \bigl   ( } { \underset   { j < i } { \cap   } } { \overline   { B _ { j } } } , A _ { i } B _ { i } { \bigr   ) } }
+{ \displaystyle   P ( A _ { B } ) = { \frac   { P ( A \cap   B ) } { P ( B ) } } }
+{ \displaystyle   P ( A _ { B } ) = P ( A \cap   B ) / P ( B ) }
+{ \displaystyle   A _ { B ( n ) } }
+{ \displaystyle   ( A _ { B ( n ) } ) _ { n \geq   1 } }
+{ \displaystyle   P ( { \underset   { n \longrightarrow   \infty   } { \lim   } } { \overline   { A _ { B } ^ { n } } } = P ( A | B ) ) = 1 0 0 \ % }
+{ \displaystyle   P ( X \in   A \mid   Y \in   B ) = { \frac   { \int   _ { y \in   B } \int   _ { x \in   A } f _ { X , Y } ( x , y ) \,dx \,dy } { \int   _ { y \in   B } \int   _ { x \in   \mathbb   { R }   } f _ { X , Y } ( x , y ) \,dx \,dy } } . }
+{ \displaystyle   P ( X \in   A \mid   Y = y _ { 0 } ) = { \frac   { \int   _ { x \in   A } f _ { X , Y } ( x , y _ { 0 } ) \,dx } { \int   _ { x \in   \mathbb   { R }   } f _ { X , Y } ( x , y _ { 0 } ) \,dx } } , }
+{ \displaystyle   P ( X \in   A \mid   Y \in   \cup   _ { i } [ y _ { i } , y _ { i } + \delta   y _ { i } ] ) \approxeq   { \frac   { \sum   _ { i } \int   _ { x \in   A } f _ { X , Y } ( x , y _ { i } ) \,dx \,\delta   y _ { i } } { \sum   _ { i } \int   _ { x \in   \mathbb   { R }   } f _ { X , Y } ( x , y _ { i } ) \,dx \,\delta   y _ { i } } } , }
+P ( A \mid   X = x )
+X = x .
+P ( A | X ) ( \omega   ) = P ( A \mid   X = X ( \omega   ) ) .
+{ \displaystyle   g ( x ) = P ( A \mid   X = x ) , }
+{ \displaystyle   P ( A | X ) = g \circ   X . }
+{ \displaystyle   P ( A | B _ { 1 } \equiv   b _ { 1 } \cdots   B _ { m } \equiv   b _ { m } ) }
+A
+B _ { i }
+b _ { i }
+n
+n
+A
+n
+{ \displaystyle   B _ { i } \equiv   b _ { i } }
+{ \displaystyle   P ^ { n } ( A | B _ { 1 } \equiv   b _ { 1 } \cdots   B _ { m } \equiv   b _ { m } ) = E ( { \overline   { A ^ { n } } } | { \overline   { B _ { 1 } ^ { n } } } = b _ { 1 } \cdots   { \overline   { B _ { m } ^ { n } } } = b _ { m } ) }
+{ \displaystyle   P ( A | B _ { 1 } \equiv   b _ { 1 } \cdots   B _ { m } \equiv   b _ { m } ) = { \underset   { n \longrightarrow   \infty   } { l i m } } P ^ { n } ( A | B _ { 1 } \equiv   b _ { 1 } \cdots   B _ { m } \equiv   b _ { m } ) , }
+{ \displaystyle   b _ { i } n \in   \mathbb   { N }   }
+{ \displaystyle   P ( A | B _ { 1 } \equiv   b _ { 1 } \cdots   B _ { m } \equiv   b _ { m } ) = \sum   _ { i = 1 } ^ { m } b _ { i } P ( A | B _ { i } ) }
+{ \displaystyle   P ( A | B ) = { \tfrac   { P ( A \cap   B ) } { P ( B ) } } = { \tfrac   { 3 / 3 6 } { 1 0 / 3 6 } } = { \tfrac   { 3 } { 1 0 } } , }
+A \cap   B
+A \cap   B
+{ \textstyle   P ( A | B ) = P ( A \cap   B ) / P ( B ) }
+{ \displaystyle   P ( A \cap   B ) = P ( A ) P ( B ) . }
+{ \displaystyle   P ( A | B ) = P ( A ) . }
+{ \displaystyle   P ( B | A ) = P ( B ) }
+{ \displaystyle   P ( A | B ) = P ( A ) \quad   { \text { a n d } } \quad   P ( B | A ) = P ( B ) }
+{ \displaystyle   P ( A | B ) = 0 , \quad   P ( B | A ) = 0 , \quad   { \text { a n d } } \quad   P ( A \cap   B ) = 0 . }
+{ \displaystyle   { \begin { a l i g n e d } P ( B | A ) & = { \frac   { P ( A | B ) P ( B ) } { P ( A ) } } \\\Leftrightarrow   { \frac   { P ( B | A ) } { P ( A | B ) } } & = { \frac   { P ( B ) } { P ( A ) } } \end { a l i g n e d } } }
+P ( A ) = \sum   _ { n } P ( A \cap   B _ { n } ) = \sum   _ { n } P ( A | B _ { n } ) P ( B _ { n } )
+( B _ { n } )
+\Omega  
+{ \begin { a l i g n e d } & { \text { 1 .   } } \omega   \in   B : P ( \omega   | B ) = \alpha   P ( \omega   ) \\&{ \text { 2 .   } } \omega   \notin   B : P ( \omega   | B ) = 0 \\&{ \text { 3 .   } } \sum   _ { \omega   \in   \Omega   } { P ( \omega   | B ) } = 1 . \end { a l i g n e d } }
+{ \displaystyle   { \begin { a l i g n e d } 1 & = \sum   _ { \omega   \in   \Omega   } { P ( \omega   | B ) } \\&=\sum   _ { \omega   \in   B } { P ( \omega   | B ) } + { \cancelto   { 0 } { \sum   _ { \omega   \notin   B } P ( \omega   | B ) } } \\&=\alpha   \sum   _ { \omega   \in   B } { P ( \omega   ) } \\&=\alpha   \cdot   P ( B ) \\\Rightarrow   \alpha   & = { \frac   { 1 } { P ( B ) } } \end { a l i g n e d } } }
+{ \begin { a l i g n e d } { \text { 1 .   } } \omega   \in   B & : P ( \omega   | B ) = { \frac   { P ( \omega   ) } { P ( B ) } } \\{ \text { 2 .   } } \omega   \notin   B & : P ( \omega   | B ) = 0 \end { a l i g n e d } }
+{ \begin { a l i g n e d } P ( A | B ) & = \sum   _ { \omega   \in   A \cap   B } { P ( \omega   | B ) } + { \cancelto   { 0 } { \sum   _ { \omega   \in   A \cap   B ^ { c } } P ( \omega   | B ) } } \\&=\sum   _ { \omega   \in   A \cap   B } { \frac   { P ( \omega   ) } { P ( B ) } } \\&={ \frac   { P ( A \cap   B ) } { P ( B ) } } \end { a l i g n e d } }

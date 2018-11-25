@@ -1,0 +1,13 @@
+{ \displaystyle   P ( A B ) = P ( A | B ) P ( B ) = P ( B | A ) P ( A ) }
+A
+B
+( H )
+( D )
+{ \displaystyle   P ( D | H ) }
+( D )
+( H )
+P ( H )
+P ( D )
+{ \displaystyle   P ( D | H ) P ( H ) }
+{ \displaystyle   P ( H | D ) }
+{ \displaystyle   P ( H | D ) = { \frac   { P ( D | H ) P ( H ) } { P ( D ) } } }

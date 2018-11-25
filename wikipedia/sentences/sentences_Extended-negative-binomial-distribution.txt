@@ -1,5 +1,0 @@
-  f ( k ; m , r , p ) = 0 \qquad   \text {   f o r   } k \in \{ 0 , 1 , \ldots , m - 1 \ }
-  f ( k ; m , r , p )   =   \frac { { k + r - 1   \choose   k }   p ^ k } { ( 1 - p ) ^ { - r } - \sum_ { j = 0 } ^ { m - 1 } { j + r - 1   \choose   j }   p ^ j } \quad \text { f o r   } k \in { \mathbb   N } \text {   w i t h   } k \ge   m ,
-  { k + r - 1   \choose   k }   =   \frac { \Gamma ( k + r ) } { k ! \,\Gamma ( r ) }   =   ( - 1 ) ^ k \,{ - r   \choose   k } \qquad \qquad ( 1 )
-\begin { a l i g n } \varphi ( s ) & = \sum_ { k = m } ^ \infty   f ( k ; m , r , p ) s ^ k \\ &=\frac { ( 1 - p s ) ^ { - r } - \sum_ { j = 0 } ^ { m - 1 } \binom { j + r - 1 } j   ( p s ) ^ j }   { ( 1 - p ) ^ { - r } - \sum_ { j = 0 } ^ { m - 1 } \binom { j + r - 1 } j   p ^ j }   \qquad \text { f o r   }   | s | \le \frac1p . \end { a l i g n }
-  \varphi ( s ) = \frac { 1 - ( 1 - p s ) ^ { - r } } { 1 - ( 1 - p ) ^ { - r } }   \qquad \text { f o r   } | s | \le \frac1p .

@@ -1,0 +1,99 @@
+\frac { \lambda } { \lambda - t } ,   \text {   f o r   }   t   <   \lambda
+\frac { \lambda } { \lambda - i t }
+  \lambda ^ { - 2 }  
+  f ( x ; \lambda )   =   \begin { c a s e s }   \lambda   e ^ { - \lambda   x }   &   x   \ge   0 ,   \\ 0   &   x   <   0 .   \end { c a s e s }
+{ \displaystyle   f ( x ; \lambda   ) = \lambda   e ^ { - \lambda   x } H ( x ) }
+F ( x ; \lambda )   =   \begin { c a s e s }   1 - e ^ { - \lambda   x }   &   x   \ge   0 ,   \\ 0   &   x   <   0 .   \end { c a s e s }
+F ( x ; \lambda )   =   \mathrm   ( 1 - e ^ { - \lambda   x } )   H ( x )
+f ( x ; \beta )   =   \begin { c a s e s }   \frac { 1 } { \beta }   e ^ { - \frac { x } { \beta } }   &   x   \ge   0 ,   \\ 0   &   x   <   0 .   \end { c a s e s }
+{ \displaystyle   \operatorname   { E }   [ X ] = { \frac   { 1 } { \lambda   } } = \beta   , }
+{ \displaystyle   \operatorname   { V a r }   [ X ] = { \frac   { 1 } { \lambda   ^ { 2 } } } = \beta   ^ { 2 } , }
+n \in   \mathbb   { N }  
+{ \displaystyle   \operatorname   { E }   \left [ X ^ { n } \right ] = { \frac   { n ! } { \lambda   ^ { n } } } . }
+n \in   \mathbb   { N }  
+{ \displaystyle   \mu   _ { n } = { \frac   { ! n } { \lambda   ^ { n } } } = { \frac   { n ! } { \lambda   ^ { n } } } \sum   _ { k = 0 } ^ { n } { \frac   { ( - 1 ) ^ { k } } { k ! } } . }
+{ \displaystyle   \operatorname   { m }   [ X ] = { \frac   { \ln ( 2 ) } { \lambda   } } < \operatorname   { E }   [ X ] , }
+{ \displaystyle   | \operatorname   { E }   [ X ] - \operatorname   { m }   [ X ] | = { \frac   { 1 - \ln ( 2 ) } { \lambda   } } < { \frac   { 1 } { \lambda   } } = { \text { s t a n d a r d   d e v i a t i o n } } , }
+{ \displaystyle   \Pr   \left ( T > s + t \mid   T > s \right ) = \Pr ( T > t ) , \qquad   \forall   s , t \geq   0 . }
+{ \displaystyle   { \begin { a l i g n e d } \Pr   \left ( T > s + t \mid   T > s \right ) & = { \frac   { \Pr   \left ( T > s + t \cap   T > s \right ) } { \Pr   \left ( T > s \right ) } } \\[4pt ] & = { \frac   { \Pr   \left ( T > s + t \right ) } { \Pr   \left ( T > s \right ) } } \\[4pt ] & = { \frac   { e ^ { - \lambda   ( s + t ) } } { e ^ { - \lambda   s } } } \\[4pt ] & = e ^ { - \lambda   t } \\[4pt ] & = \Pr ( T > t ) . \end { a l i g n e d } } }
+F ^ { - 1 } ( p ; \lambda )   =   \frac { - \ln ( 1 - p ) } { \lambda } , \qquad   0   \le   p   <   1
+{ \displaystyle   e ^ { \lambda   } }
+e ^ { \lambda_0 }
+{ \displaystyle   { \begin { a l i g n e d } \Delta   ( \lambda   _ { 0 } | | \lambda   ) & = \mathbb   { E }   _ { \lambda   _ { 0 } } \left ( \log   { \frac   { p _ { \lambda   _ { 0 } } ( x ) } { p _ { \lambda   } ( x ) } } \right ) \\&=\mathbb   { E }   _ { \lambda   _ { 0 } } \left ( \log   { \frac   { \lambda   _ { 0 } e ^ { - \lambda   _ { 0 } x } } { \lambda   e ^ { - \lambda   x } } } \right ) \\&=\log ( \lambda   _ { 0 } ) - \log ( \lambda   ) - ( \lambda   _ { 0 } - \lambda   ) E _ { \lambda   _ { 0 } } ( x ) \\&=\log ( \lambda   _ { 0 } ) - \log ( \lambda   ) + { \frac   { \lambda   } { \lambda   _ { 0 } } } - 1 . \end { a l i g n e d } } }
+  \min   \left   \{ X _ 1 , \dotsc , X _ n   \right   \ }  
+{ \displaystyle   \lambda   = \lambda   _ { 1 } + \dotsb   + \lambda   _ { n } . }
+  \begin { a l i g n }   \Pr   \left   ( \min \{ X _ 1 , \dotsc , X _ n   \} > x   \right   )   &   =   \Pr \left ( X _ 1   >   x ,   \dotsc ,   X _ n   >   x \right )   \\ &= \prod_ { i = 1 } ^ n   \Pr ( X _ i   >   x )   \\ &= \prod_ { i = 1 } ^ n   \exp ( - x \lambda_i )   =   \exp \left ( - x \sum_ { i = 1 } ^ n   \lambda_i \right ) .   \end { a l i g n }  
+{ \displaystyle   \Pr   \left ( k \mid   X _ { k } = \min \{ X _ { 1 } , \dotsc   , X _ { n } \}\right ) = { \frac   { \lambda   _ { k } } { \lambda   _ { 1 } + \dotsb   + \lambda   _ { n } } } . }
+  \max \{ X _ 1 , \dotsc , X _ n \ }  
+{ \displaystyle   X _ { 1 } , \dotsc   , X _ { n } }
+n
+{ \displaystyle   X _ { ( 1 ) } , \dotsc   , X _ { ( n ) } }
+i < j
+{ \displaystyle   E [ X _ { ( i ) } X _ { ( j ) } ] }
+{ \displaystyle   X _ { ( i ) } }
+{ \displaystyle   X _ { ( j ) } }
+{ \displaystyle   E [ X _ { ( i ) } X _ { ( j ) } ] = { \frac   { 1 } { ( n - j + 1 ) \lambda   } } E [ X _ { ( i ) } ] + E [ X _ { ( i ) } ^ { 2 } ] = { \frac   { 1 } { ( n - j + 1 ) \lambda   } } { \frac   { 1 } { ( n - i + 1 ) \lambda   } } + { \frac   { 2 } { ( ( n - i + 1 ) \lambda   ) ^ { 2 } } } . }
+{ \displaystyle   { \begin { a l i g n e d } \operatorname   { E }   [ X _ { ( i ) } X _ { ( j ) } ] & = \int   _ { 0 } ^ { \infty   } \operatorname   { E }   [ X _ { ( i ) } X _ { ( j ) } \mid   X _ { ( i ) } = x ] f _ { X _ { ( i ) } } ( x ) \,dx \\&=\int   _ { x = 0 } ^ { \infty   } x \operatorname   { E }   [ X _ { ( j ) } \mid   X _ { ( j ) } \geq   x ] f _ { X _ { ( i ) } } ( x ) \,dx \qquad   ( { \textrm   { s i n c e } } ~ X _ { ( i ) } = x \implies   X _ { ( j ) } \geq   x ) \\&=\int   _ { x = 0 } ^ { \infty   } x \left [ { \frac   { 1 } { ( n - j + 1 ) \lambda   } } + x \right ] f _ { X _ { ( i ) } } ( x ) \,dx \qquad   ( { \text { b y   t h e   m e m o r y l e s s   p r o p e r t y } } ) \\&={ \frac   { 1 } { ( n - j + 1 ) \lambda   } } \operatorname   { E }   [ X _ { ( i ) } ] + \operatorname   { E }   [ X _ { ( i ) } ^ { 2 } ] . \end { a l i g n e d } } }
+{ \displaystyle   X _ { ( i ) } = x }
+{ \displaystyle   X _ { ( j ) } \geq   x }
+{ \displaystyle   \operatorname   { E }   [ X _ { ( j ) } \mid   X _ { ( j ) } \geq   x ] }
+{ \displaystyle   \operatorname   { E }   [ X _ { ( j ) } ] + x }
+X _ { 1 }
+X _ { 2 }
+\lambda   _ { 1 }
+\lambda   _ { 2 }
+{ \displaystyle   Z = X _ { 1 } + X _ { 2 } }
+{ \displaystyle   { \begin { a l i g n e d } f _ { Z } ( z ) = & \int   _ { 0 } ^ { z } f _ { X _ { 1 } } ( x _ { 1 } ) f _ { X _ { 2 } } ( z - x _ { 1 } ) \,dx_ { 1 } \\=&\lambda   _ { 1 } \lambda   _ { 2 } \exp [ - \lambda   _ { 2 } z ] \int   _ { 0 } ^ { z } \exp [ ( \lambda   _ { 2 } - \lambda   _ { 1 } ) x _ { 1 } ] \,dx_ { 1 } \\=&{ \frac   { \lambda   _ { 1 } \lambda   _ { 2 } } { \lambda   _ { 2 } - \lambda   _ { 1 } } } \left ( \exp [ - \lambda   _ { 1 } z ] - \exp [ - \lambda   _ { 2 } z ] \right ) \end { a l i g n e d } } }
+{ \displaystyle   Z = X _ { 1 } + X _ { 2 } }
+{ \displaystyle   { \begin { a l i g n e d } \operatorname   { E }   [ Z ] = & \int   z \,df_ { Z } ( z ) \\[4pt ] = & \lambda   _ { 1 } ^ { - 1 } + \lambda   _ { 2 } ^ { - 1 } \\[4pt ] \operatorname   { v a r }   ( Z ) = & \operatorname   { E }   [ Z ^ { 2 } ] - \operatorname   { E }   [ Z ] ^ { 2 } \\[4pt ] = & \int   z ^ { 2 } \,df_ { Z } ( z ) - ( \lambda   _ { 1 } ^ { - 1 } + \lambda   _ { 2 } ^ { - 1 } ) ^ { 2 } \\[4pt ] = & \lambda   _ { 1 } ^ { - 2 } + \lambda   _ { 2 } ^ { - 2 } \end { a l i g n e d } } }
+{ \displaystyle   { \begin { a l i g n e d } F _ { Z } ( z ) = \Pr ( Z \leq   z ) = & \int   _ { 0 } ^ { z } f _ { Z } ( t ) \,dt \\[4pt ] = & 1 + { \frac   { \lambda   _ { 1 } } { \lambda   _ { 2 } - \lambda   _ { 1 } } } \exp [ - \lambda   _ { 2 } z ] - { \frac   { \lambda   _ { 2 } } { \lambda   _ { 2 } - \lambda   _ { 1 } } } \exp [ - \lambda   _ { 1 } z ] \end { a l i g n e d } } }
+x _ 1 ,   \dotsc ,   x _ n
+{ \bar   { x } }
+  L ( \lambda )   =   \prod_ { i = 1 } ^ n   \lambda   \exp ( - \lambda   x _ i )   =   \lambda ^ n   \exp   \left ( - \lambda   \sum_ { i = 1 } ^ n   x _ i \right ) = \lambda ^ n \exp \left ( - \lambda   n   \overline { x } \right ) ,  
+\overline { x } = { 1   \over   n } \sum_ { i = 1 } ^ n   x _ i
+{ \frac     { { \mathrm     { d } } } { { \mathrm     { d } } \lambda   } } \ln ( L ( \lambda   ) ) = { \frac     { { \mathrm     { d } } } { { \mathrm     { d } } \lambda   } } \left ( n \ln ( \lambda   ) - \lambda   n \overline   { x } \right ) = { \frac     { n } { \lambda   } } - n \overline   { x } \ { \begin { c a s e s } > 0 , & 0 < \lambda   < { \frac     { 1 } { \overline   { x } } } , \\[8pt ] = 0 , & \lambda   = { \frac     { 1 } { \overline   { x } } } , \\[8pt ] < 0 , & \lambda   > { \frac     { 1 } { \overline   { x } } } . \end { c a s e s } }
+{ \displaystyle   { \widehat   { \lambda   } } = { \frac   { 1 } { \overline   { x } } } = { \frac   { n } { \sum   _ { i } x _ { i } } } }
+\lambda  
+{ \overline   { x } }
+1 / \lambda   =   \beta ,
+\beta  
+{ \displaystyle   { \widehat   { \lambda   } } = \left ( { \frac   { n - 2 } { n } } \right ) \left ( { \frac   { 1 } { \bar   { x } } } \right ) = { \frac   { n - 2 } { \sum   _ { i } x _ { i } } } }
+{ \textstyle   { \mbox { I n v - G a m m a } } ( n , \lambda   ) }
+{ \displaystyle   { \mathcal   { I } } ( \lambda   ) }
+\lambda  
+{ \displaystyle   { \mathcal   { I } } ( \lambda   ) = \operatorname   { E }   \left [ \left . \left ( { \frac   { \partial   } { \partial   \lambda   } } \log   f ( x ; \lambda   ) \right ) ^ { 2 } \right | \lambda   \right ] = \int   \left ( { \frac   { \partial   } { \partial   \lambda   } } \log   f ( x ; \lambda   ) \right ) ^ { 2 } f ( x ; \lambda   ) \,dx }
+{ \displaystyle   { \mathcal   { I } } ( \lambda   ) = \int   _ { 0 } ^ { \infty   } \left ( { \frac   { \partial   } { \partial   \lambda   } } \log   \lambda   e ^ { - \lambda   x } \right ) ^ { 2 } \lambda   e ^ { - \lambda   x } \,dx = \int   _ { 0 } ^ { \infty   } \left ( { \frac   { 1 } { \lambda   } } - x \right ) ^ { 2 } \lambda   e ^ { - \lambda   x } \,dx = \lambda   ^ { - 2 } . }
+\lambda  
+{ \displaystyle   { \frac   { 2 n } { { \widehat   { \lambda   } } \chi   _ { { \frac   { \alpha   } { 2 } } , 2 n } ^ { 2 } } } < { \frac   { 1 } { \lambda   } } < { \frac   { 2 n } { { \widehat   { \lambda   } } \chi   _ { 1 - { \frac   { \alpha   } { 2 } } , 2 n } ^ { 2 } } } }
+{ \displaystyle   { \frac   { 2 n { \overline   { x } } } { \chi   _ { { \frac   { \alpha   } { 2 } } , 2 n } ^ { 2 } } } < { \frac   { 1 } { \lambda   } } < { \frac   { 2 n { \overline   { x } } } { \chi   _ { 1 - { \frac   { \alpha   } { 2 } } , 2 n } ^ { 2 } } } }
+{ \displaystyle   \lambda   _ { \text { l o w e r } } = { \widehat   { \lambda   } } \left ( 1 - { \frac   { 1 . 9 6 } { \sqrt   { n } } } \right ) }
+{ \displaystyle   \lambda   _ { \text { u p p e r } } = { \widehat   { \lambda   } } \left ( 1 + { \frac   { 1 . 9 6 } { \sqrt   { n } } } \right ) }
+{ \displaystyle   \operatorname   { G a m m a }   ( \lambda   ; \alpha   , \beta   ) = { \frac   { \beta   ^ { \alpha   } } { \Gamma   ( \alpha   ) } } \lambda   ^ { \alpha   - 1 } \exp ( - \lambda   \beta   ) . }
+  \begin { a l i g n }   p ( \lambda )   & \propto   L ( \lambda )   \times   \mathrm { G a m m a } ( \lambda ;   \alpha ,   \beta )   \\ &= \lambda ^ n   \exp \left   ( - \lambda   n \overline { x }   \right )   \times   \frac { \beta ^ { \alpha } } { \Gamma ( \alpha ) }   \lambda ^ { \alpha - 1 }   \exp ( - \lambda   \beta )   \\ &\propto   \lambda ^ { ( \alpha + n ) - 1 }   \exp ( - \lambda   \left   ( \beta   +   n \overline { x }   \right ) ) .   \end { a l i g n }
+  p ( \lambda )   =   \mathrm { G a m m a } ( \lambda ;   \alpha   +   n ,   \beta   +   n   \overline { x } ) .  
+  \frac { \alpha   +   n } { \beta   +   n   \overline { x } } .  
+T   =   F ^ { - 1 } ( U )
+F ^ { - 1 } ( p ) = \frac { - \ln ( 1 - p ) } { \lambda } .
+T   =   \frac { - \ln ( U ) } { \lambda } .
+{ \displaystyle   \operatorname   { E x p }   \left ( \lambda   \right ) = { \frac   { 1 } { 2 \lambda   } } \operatorname   { E x p }   \left ( { \frac   { 1 } { 2 } } \right ) \sim   { \frac   { 1 } { 2 \lambda   } } \chi   _ { 2 } ^ { 2 } \Rightarrow   \sum   \limits   _ { i = 1 } ^ { n } \operatorname   { E x p }   ( \lambda   ) \sim   { \frac   { 1 } { 2 \lambda   } } \chi   _ { 2 n } ^ { 2 } }
+{ \displaystyle   \lim   _ { n \to   \infty   } n \operatorname   { B e t a }   ( 1 , n ) = \operatorname   { E x p }   ( 1 ) . }
+\sum   _ { i } X _ { i }
+\mu - \beta \log   \left ( \tfrac { e ^ { - X } } { 1 - e ^ { - X } } \right )   \sim   \mathrm { L o g i s t i c } ( \mu , \beta )  
+\mu - \beta \log \left ( \tfrac { X } { Y } \right )   \sim   \mathrm { L o g i s t i c } ( \mu , \beta )  
+\tfrac { e ^ { - X } } { k }   \sim   \mathrm { P o w e r L a w } ( k ,   \lambda )
+{ \displaystyle   { \sqrt   { X } } \sim   \operatorname   { R a y l e i g h }   \left ( 1 / { \sqrt   { 2 \lambda   } } \right ) . }
+  X   \sim   \mathrm { W e i b u l l } ( \tfrac { 1 } { \lambda } , 1 )
+\lim_ { n   \to   \infty } n   \min   \left   ( X _ 1 ,   \ldots ,   X _ n   \right   )   \sim   \textrm { E x p } ( 1 )
+Y   \sim   \mathrm { G e o m e t r i c } ( \tfrac { 1 } { 1 + \lambda } )
+Y   \sim   \Gamma ( \alpha , \tfrac { \beta } { \alpha } )
+\sqrt { X Y }   \sim   \mathrm { K } ( \alpha , \beta )
+{ \displaystyle   { \frac   { X } { Y } } + 1 \sim   \mathrm   { P a r e t o }   ( 1 , n ) }
+Y   \sim   \Gamma ( n , \tfrac { 1 } { \lambda } )
+{ \displaystyle   { \tfrac   { X } { Y } } + 1 \sim   \mathrm   { P a r e t o }   ( 1 , n ) }
+Z   =   \frac { \lambda_X   X } { \lambda_Y   Y }
+f _ Z ( z )   =   \frac { 1 } { ( z   +   1 ) ^ 2 }
+\frac { \lambda_X } { \lambda_Y }
+p _ { \rm   M L } ( x _ { n + 1 }   \mid   x _ 1 ,   \ldots ,   x _ n )   =   \left (   \frac1 { \overline { x } }   \right )   \exp   \left (   -   \frac { x _ { n + 1 } } { \overline { x } }   \right )
+p _ { \rm   C N M L } ( x _ { n + 1 }   \mid   x _ 1 ,   \ldots ,   x _ n )   =   \frac {   n ^ { n + 1 }   \left (   \overline { x }   \right ) ^ n   } {   \left (   n   \overline { x }   +   x _ { n + 1 }   \right ) ^ { n + 1 }   } ,
+{ x _ { n + 1 } } / { \overline { x } }
+{ \displaystyle   { \begin { a l i g n e d } o p e r a t o r n a m e { E } _ { \lambda   _ { 0 } } \left [ \Delta   ( \lambda   _ { 0 } \mid   \mid   p _ { \rm   { M L } } ) \right ] & = \psi   ( n ) + { \frac   { 1 } { n - 1 } } - \log ( n ) \\operatorname { E } _ { \lambda   _ { 0 } } \left [ \Delta   ( \lambda   _ { 0 } \mid   \mid   p _ { \rm   { C N M L } } ) \right ] & = \psi   ( n ) + { \frac   { 1 } { n } } - \log ( n ) \end { a l i g n e d } } }

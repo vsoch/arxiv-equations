@@ -1,0 +1,46 @@
+F M = { \sqrt   { { \frac   { T P } { T P + F P } } \cdot   { \frac   { T P } { T P + F N } } } }
+T P
+F P
+F N
+n
+A _ { 1 }
+A _ { 2 }
+A _ { 1 }
+A _ { 2 }
+k = 2 , \ldots , n - 1
+k
+M = [ m _ { { i , j } } ] \qquad   ( i = 1 , \ldots   , k { \text {   a n d   } } j = 1 , \ldots   , k )
+m _ { { i , j } }
+i
+A _ { 1 }
+j
+A _ { 2 }
+k
+B _ { k } = { \frac     { T _ { k } } { { \sqrt     { P _ { k } Q _ { k } } } } }
+T _ { k } = \sum   _ { { i = 1 } } ^ { { k } } \sum   _ { { j = 1 } } ^ { { k } } m _ { { i , j } } ^ { 2 } - n
+P _ { k } = \sum   _ { { i = 1 } } ^ { { k } } ( \sum   _ { { j = 1 } } ^ { { k } } m _ { { i , j } } ) ^ { 2 } - n
+Q _ { k } = \sum   _ { { j = 1 } } ^ { { k } } ( \sum   _ { { i = 1 } } ^ { { k } } m _ { { i , j } } ) ^ { 2 } - n
+B _ { k }
+k
+B _ { k }
+k
+k
+0 \leq   B _ { k } \leq   1
+T P
+A _ { 1 }
+A _ { 2 }
+F P
+A _ { 1 }
+A _ { 2 }
+F N
+A _ { 2 }
+A _ { 1 }
+T N
+A _ { 1 }
+A _ { 2 }
+T P + F P + F N + T N = n ( n - 1 ) / 2
+F M = { \sqrt   { { \frac   { T P } { T P + F P } } \cdot   { \frac   { T P } { T P + F N } } } }
+T P
+F P
+F N
+1

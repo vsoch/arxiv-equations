@@ -1,0 +1,118 @@
+\beta  
+X
+Y
+Y
+X
+\beta  
+{ \displaystyle   Y \approx   f ( X , \beta   ) . }
+{ \displaystyle   \operatorname   { E }   ( Y | X ) = f ( X , \beta   ) }
+f
+Y
+X
+f
+\beta  
+k
+Y
+N
+{ \displaystyle   ( Y , X ) }
+{ \displaystyle   N < k }
+\beta  
+{ \displaystyle   N = k }
+f
+{ \displaystyle   Y = f ( X , \beta   ) }
+N
+N
+{ \displaystyle   \beta   ) }
+X
+f
+{ \displaystyle   N > k }
+\beta  
+\beta  
+\beta  
+Y
+\beta  
+Y
+\beta   _ { 0 }
+\beta   _ { 1 }
+\beta   _ { 2 }
+X
+X _ { 1 }
+X _ { 2 }
+X _ 3
+Y
+X
+  X
+\beta  
+X ^ { \top   } X
+N
+k
+\epsilon   _ { i }
+{ \displaystyle   ( N - k ) }
+y _ { i }
+n
+x _ { i }
+\beta   _ { 0 }
+\beta   _ { 1 }
+y _ { i } = \beta   _ { 0 } + \beta   _ { 1 } x _ { i } + \varepsilon   _ { i } , \quad   i = 1 , \dots   , n . \ !
+{ \displaystyle   x _ { i } ^ { 2 } }
+y _ { i } = \beta   _ { 0 } + \beta   _ { 1 } x _ { i } + \beta   _ { 2 } x _ { i } ^ { 2 } + \varepsilon   _ { i } , \ i = 1 , \dots   , n . \ !
+x _ { i }
+\beta   _ { 0 }
+\beta   _ { 1 }
+\beta   _ { 2 } .
+\varepsilon   _ { i }
+i
+{ \displaystyle   { \widehat   { y } } _ { i } = { \widehat   { \beta   } } _ { 0 } + { \widehat   { \beta   } } _ { 1 } x _ { i } . }
+e _ { i } = y _ { i } - { \widehat   { y } } _ { i }
+{ \displaystyle   { \widehat   { y } } _ { i } }
+y _ { i }
+{ \displaystyle   S S R = \sum   _ { i = 1 } ^ { n } e _ { i } ^ { 2 } . \ , }
+{ \widehat   { \beta   } } _ { 0 } , { \widehat   { \beta   } } _ { 1 }
+{ \displaystyle   { \widehat   { \beta   } } _ { 1 } = { \frac   { \sum   ( x _ { i } - { \bar   { x } } ) ( y _ { i } - { \bar   { y } } ) } { \sum   ( x _ { i } - { \bar   { x } } ) ^ { 2 } } } { \text {   a n d   } } { \widehat   { \beta   } } _ { 0 } = { \bar   { y } } - { \widehat   { \beta   } } _ { 1 } { \bar   { x } } }
+{ \bar   { x } }
+x
+{ \bar   { y } }
+y
+{ \displaystyle   { \hat   { \sigma   } } _ { \varepsilon   } ^ { 2 } = { \frac   { S S R } { n - 2 } } . \ , }
+{ \displaystyle   ( n - p ) }
+p
+{ \displaystyle   ( n - p - 1 ) }
+p = 1
+n - 2
+{ \displaystyle   { \hat   { \sigma   } } _ { \beta   _ { 1 } } = { \hat   { \sigma   } } _ { \varepsilon   } { \sqrt   { \frac   { 1 } { \sum   ( x _ { i } - { \bar   { x } } ) ^ { 2 } } } } }
+{ \displaystyle   { \hat   { \sigma   } } _ { \beta   _ { 0 } } = { \hat   { \sigma   } } _ { \varepsilon   } { \sqrt   { { \frac   { 1 } { n } } + { \frac   { { \bar   { x } } ^ { 2 } } { \sum   ( x _ { i } - { \bar   { x } } ) ^ { 2 } } } } } = { \hat   { \sigma   } } _ { \beta   _ { 1 } } { \sqrt   { \frac   { \sum   x _ { i } ^ { 2 } } { n } } } }
+p
+y _ { i } = \beta   _ { 1 } x _ { i 1 } + \beta   _ { 2 } x _ { i 2 } + \cdots   + \beta   _ { p } x _ { i p } + \varepsilon   _ { i } , \ ,
+x _ { i j }
+i
+j
+i
+{ \displaystyle   x _ { i 1 } = 1 }
+\beta   _ { 1 }
+p
+\varepsilon   _ { i } = y _ { i } - { \hat   { \beta   } } _ { 1 } x _ { i 1 } - \cdots   - { \hat   { \beta   } } _ { p } x _ { i p } .
+{ \displaystyle   \sum   _ { i = 1 } ^ { n } \sum   _ { k = 1 } ^ { p } x _ { i j } x _ { i k } { \hat   { \beta   } } _ { k } = \sum   _ { i = 1 } ^ { n } x _ { i j } y _ { i } , \ j = 1 , \dots   , p . \ , }
+\mathbf   { ( X ^ { \top   } X ) { \hat   { \boldsymbol   { \beta   } } } = { } X ^ { \top   } Y }   , \ ,
+i j
+\mathbf   { X }  
+x _ { i j }
+i
+Y
+y _ { i }
+j
+{ \displaystyle   { \hat   { \boldsymbol   { \beta   } } } }
+{ \hat   { \beta   } } _ { j }
+\mathbf   { X }  
+n \times   p
+Y
+n \times   1
+{ \displaystyle   { \hat   { \boldsymbol   { \beta   } } } }
+p \times   1
+\mathbf   { { \hat   { \boldsymbol   { \beta   } } } = { } ( X ^ { \top   } X ) ^ { - 1 } X ^ { \top   } Y }   . \ ,
+N = m ^ { n }
+N
+n
+m
+N
+m
+{ \frac   { \log   { 1 0 0 0 } } { \log   { 5 } } } = 4 . 2 9

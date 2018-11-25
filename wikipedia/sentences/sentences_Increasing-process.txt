@@ -1,4 +1,0 @@
-{ \displaystyle   ( X _ { t } ) _ { t \in   M } }
-X _ { t }
-{ \displaystyle   0 = X _ { 0 } \leq   X _ { t _ { 1 } } \leq   \cdots   . }
-M

@@ -1,0 +1,4 @@
+{ \displaystyle   \alpha   = P ( { \text { t e s t   r e j e c t s   } } H _ { 0 } | H _ { 0 } ) . }
+{ \displaystyle   \alpha   = \sup   _ { h \in   H _ { 0 } } P ( { \text { t e s t   r e j e c t s   } } H _ { 0 } | h ) . }
+\alpha  
+\alpha  

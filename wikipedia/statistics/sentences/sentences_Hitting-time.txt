@@ -1,0 +1,7 @@
+\tau   _ { { A } } ( \omega   ) : = \inf \{ t \in   T | X _ { { t } } ( \omega   ) \in   A \ } .
+\tau   _ { r }
+r > 0
+\tau   _ { r }
+{ \mathbb     { E } } \left [ \tau   _ { { r } } \right ] = r ^ { { 2 } } ,
+{ \mathrm     { V a r } } \left [ \tau   _ { { r } } \right ] = ( 2 / 3 ) r ^ { { 4 } } .
+\{ 0 \ }

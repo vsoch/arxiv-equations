@@ -1,0 +1,2 @@
+{ \displaystyle   = \left | { \mathcal   { F } } ^ { - 1 } \left \{ \log   \left ( \left | { \mathcal   { F } } \{ f ( t ) \}\right | ^ { 2 } \right ) \right \}\right | ^ { 2 } . }
+{ \displaystyle   x _ { 1 } * x _ { 2 } \mapsto   x ' _ { 1 } + x ' _ { 2 } . }

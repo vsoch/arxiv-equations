@@ -1,0 +1,18 @@
+F ( x ) = \sum   _ { i = 1 } ^ { n } \,w_ { i } \,P_ { i } ( x ) ,
+f ( x ) = \sum   _ { i = 1 } ^ { n } \,w_ { i } \,p_ { i } ( x ) .
+n = \infty   \ !
+f ( x ) = \int   _ { A } \,w ( a ) \,p ( x ; a ) \,da
+f ( x ; a _ { 1 } , \ldots   , a _ { n } ) = \sum   _ { i = 1 } ^ { n } \,w_ { i } \,p ( x ; a _ { i } )
+f ( x ; a _ { 1 } , \ldots   , a _ { n } , b _ { 1 } , \ldots   , b _ { n } ) = \sum   _ { i = 1 } ^ { n } \,w_ { i } \,p ( x ; a _ { i } , b _ { i } )
+\operatorname   { E }   [ H ( X _ { i } ) ]
+{ \begin { a l i g n e d } \operatorname   { E }   [ H ( X ) ] & = \int   _ { - \infty   } ^ { \infty   } H ( x ) \sum   _ { i = 1 } ^ { n } w _ { i } p _ { i } ( x ) \,dx \\&=\sum   _ { i = 1 } ^ { n } w _ { i } \int   _ { - \infty   } ^ { \infty   } p _ { i } ( x ) H ( x ) \,dx = \sum   _ { i = 1 } ^ { n } w _ { i } \operatorname   { E }   [ H ( X _ { i } ) ] . \end { a l i g n e d } }
+{ \begin { a l i g n e d } \operatorname   { E }   [ ( X - \mu   ) ^ { j } ] & = \sum   _ { i = 1 } ^ { n } w _ { i } \operatorname   { E }   [ ( X _ { i } - \mu   _ { i } + \mu   _ { i } - \mu   ) ^ { j } ] \\&=\sum   _ { i = 1 } ^ { n } \sum   _ { k = 0 } ^ { j } \left ( { \begin { a r r a y } { c } j \\k \end { a r r a y } } \right ) ( \mu   _ { i } - \mu   ) ^ { j - k } w _ { i } \operatorname   { E }   [ ( X _ { i } - \mu   _ { i } ) ^ { k } ] , \end { a l i g n e d } }
+\operatorname   { E }   [ X ] = \mu   = \sum   _ { i = 1 } ^ { n } w _ { i } \mu   _ { i } ,
+{ \displaystyle   \operatorname   { E }   [ ( X - \mu   ) ^ { 2 } ] = \sigma   ^ { 2 } = \sum   _ { i = 1 } ^ { n } w _ { i } ( \mu   _ { i } ^ { 2 } + \sigma   _ { i } ^ { 2 } ) - \mu   ^ { 2 } . }
+x ^ { * } ( \alpha   ) = \left [ \sum   _ { i = 1 } ^ { n } \alpha   _ { i } \Sigma   _ { i } ^ { - 1 } \right ] ^ { - 1 } \times   \left [ \sum   _ { i = 1 } ^ { n } \alpha   _ { i } \Sigma   _ { i } ^ { - 1 } \mu   _ { i } \right ] ,
+{ \mathcal   { S } } _ { n } = \{ \alpha   \in   \mathbb   { R }   ^ { n } : \alpha   _ { i } \in   [ 0 , 1 ] , \sum   _ { i = 1 } ^ { n } \alpha   _ { i } = 1 \ }
+{ \frac   { d h ( \alpha   ) } { d \alpha   } } = 0
+{ \frac   { d \Pi   ( \alpha   ) } { d \alpha   } } = 0
+1 - \alpha   ( 1 - \alpha   ) d _ { M } ( \mu   _ { 1 } , \mu   _ { 2 } , \Sigma   ) ^ { 2 }
+\left | \mu   _ { 1 } - \mu   _ { 2 } \right | > 2 \sigma   ,
+\sigma   ,

@@ -1,0 +1,150 @@
+\alpha  
+{ \displaystyle   x _ { \mathrm   { m }   } = 1 . }
+{ \displaystyle   \alpha   \rightarrow   \infty   , }
+{ \displaystyle   \delta   ( x - x _ { \mathrm   { m }   } ) , }
+\delta  
+\alpha  
+{ \displaystyle   x _ { \mathrm   { m }   } = 1 . }
+{ \displaystyle   x _ { \mathrm   { m }   } > 0 }
+\alpha   > 0
+{ \displaystyle   x \in   [ x _ { \mathrm   { m }   } , \infty   ) }
+{ \displaystyle   { \frac   { \alpha   x _ { \mathrm   { m }   } ^ { \alpha   } } { x ^ { \alpha   + 1 } } } }
+{ \displaystyle   1 - \left ( { \frac   { x _ { \mathrm   { m }   } } { x } } \right ) ^ { \alpha   } }
+{ \displaystyle   { \begin { c a s e s } \infty   & { \text { f o r   } } \alpha   \leq   1 \\{ \dfrac   { \alpha   x _ { \mathrm   { m }   } } { \alpha   - 1 } } & { \text { f o r   } } \alpha   > 1 \end { c a s e s } } }
+x _ \mathrm { m }   \sqrt [ \alpha ] { 2 }
+x _ \mathrm { m }
+{ \displaystyle   { \begin { c a s e s } \infty   & { \text { f o r   } } \alpha   \leq   2 \\{ \dfrac   { x _ { \mathrm   { m }   } ^ { 2 } \alpha   } { ( \alpha   - 1 ) ^ { 2 } ( \alpha   - 2 ) } } & { \text { f o r   } } \alpha   > 2 \end { c a s e s } } }
+{ \displaystyle   { \frac   { 2 ( 1 + \alpha   ) } { \alpha   - 3 } } { \sqrt   { \frac   { \alpha   - 2 } { \alpha   } } } { \text {   f o r   } } \alpha   > 3 }
+\frac { 6 ( \alpha ^ 3 + \alpha ^ 2 - 6 \alpha - 2 ) } { \alpha ( \alpha - 3 ) ( \alpha - 4 ) } \text {   f o r   } \alpha > 4
+{ \displaystyle   \log   \left ( \left ( { \frac   { x _ { \mathrm   { m }   } } { \alpha   } } \right ) \,e ^ { 1 + { \tfrac   { 1 } { \alpha   } } } \right ) }
+\alpha ( - x _ \mathrm { m } t ) ^ \alpha \Gamma ( - \alpha , - x _ \mathrm { m } t ) \text {   f o r   } t < 0
+\alpha ( - i x _ \mathrm { m } t ) ^ \alpha \Gamma ( - \alpha , - i x _ \mathrm { m } t )
+{ \displaystyle   { \mathcal   { I } } ( x _ { \mathrm   { m }   } , \alpha   ) = { \begin { b m a t r i x } { \dfrac   { \alpha   } { x _ { \mathrm   { m }   } ^ { 2 } } } & - { \dfrac   { 1 } { x _ { \mathrm   { m }   } } } \\-{ \dfrac   { 1 } { x _ { \mathrm   { m }   } } } & { \dfrac   { 1 } { \alpha   ^ { 2 } } } \end { b m a t r i x } } }
+\alpha  
+\alpha  
+{ \displaystyle   { \overline   { F } } ( x ) = \Pr ( X > x ) = { \begin { c a s e s } \left ( { \frac   { x _ { \mathrm   { m }   } } { x } } \right ) ^ { \alpha   } & x \geq   x _ { \mathrm   { m }   } , \\1 & x < x _ { \mathrm   { m }   } , \end { c a s e s } } }
+F _ X ( x )   =   \begin { c a s e s }   1 - \left ( \frac { x _ \mathrm { m } } { x } \right ) ^ \alpha   &   x   \ge   x _ \mathrm { m } ,   \\ 0   &   x   <   x _ \mathrm { m } .   \end { c a s e s }
+f _ X ( x ) =   \begin { c a s e s }   \frac { \alpha   x _ \mathrm { m } ^ \alpha } { x ^ { \alpha + 1 } }   &   x   \ge   x _ \mathrm { m } ,   \\ 0   &   x   <   x _ \mathrm { m } .   \end { c a s e s }  
+{ \displaystyle   \operatorname   { E }   ( X ) = { \begin { c a s e s } \infty   & \alpha   \leq   1 , \\{ \frac   { \alpha   x _ { \mathrm   { m }   } } { \alpha   - 1 } } & \alpha   > 1 . \end { c a s e s } } }
+{ \displaystyle   \operatorname   { V a r }   ( X ) = { \begin { c a s e s } \infty   & \alpha   \in   ( 1 , 2 ] , \\\left ( { \frac   { x _ { \mathrm   { m }   } } { \alpha   - 1 } } \right ) ^ { 2 } { \frac   { \alpha   } { \alpha   - 2 } } & \alpha   > 2 . \end { c a s e s } } }
+\mu_n ' =   \begin { c a s e s }   \infty   &   \alpha \le   n ,   \\ \frac { \alpha   x _ \mathrm { m } ^ n } { \alpha - n }   &   \alpha > n .   \end { c a s e s }
+{ \displaystyle   M \left ( t ; \alpha   , x _ { \mathrm   { m }   } \right ) = \operatorname   { E }   \left [ e ^ { t X } \right ] = \alpha   ( - x _ { \mathrm   { m }   } t ) ^ { \alpha   } \Gamma   ( - \alpha   , - x _ { \mathrm   { m }   } t ) }
+M \left ( 0 , \alpha , x _ \mathrm { m } \right ) = 1 .
+\varphi ( t ; \alpha , x _ \mathrm { m } ) = \alpha ( - i x _ \mathrm { m }   t ) ^ \alpha \Gamma ( - \alpha , - i x _ \mathrm { m }   t ) ,
+x _ { 1 }
+x _ { { \text { m } } }
+\alpha  
+x _ { 1 }
+x _ { { \text { m } } }
+X _ { 1 } , X _ { 2 } , X _ { 3 } , \dotsc  
+[ x _ { { \text { m } } } , \infty   )
+x _ { { \text { m } } } > 0
+n
+\min \{ X _ { 1 } , \dotsc   , X _ { n } \ }
+( X _ { 1 } + \dotsb   + X _ { n } ) / \min \{ X _ { 1 } , \dotsc   , X _ { n } \ }
+{ \displaystyle   G = x _ { \text { m } } \exp   \left ( { \frac   { 1 } { \alpha   } } \right ) . }
+{ \displaystyle   H = x _ { \text { m } } \left ( 1 + { \frac   { 1 } { \alpha   } } \right ) . }
+  \overline { F } ( x ) = 1 - F ( x )
+{ \displaystyle   \left [ { \frac   { x } { \sigma   } } \right ] ^ { - \alpha   } }
+{ \displaystyle   x \geq   \sigma   }
+\sigma   >   0 ,   \alpha
+{ \displaystyle   \left [ 1 + { \frac   { x - \mu   } { \sigma   } } \right ] ^ { - \alpha   } }
+{ \displaystyle   x \geq   \mu   }
+\mu   \in   \mathbb   R ,   \sigma   >   0 ,   \alpha
+{ \displaystyle   \left [ 1 + { \frac   { x } { \sigma   } } \right ] ^ { - \alpha   } }
+x \geq   0
+\sigma   >   0 ,   \alpha
+{ \displaystyle   \left [ 1 + \left ( { \frac   { x - \mu   } { \sigma   } } \right ) ^ { 1 / \gamma   } \right ] ^ { - 1 } }
+{ \displaystyle   x \geq   \mu   }
+  \mu   \in   \mathbb   R ,   \sigma ,   \gamma   >   0
+{ \displaystyle   \left [ 1 + \left ( { \frac   { x - \mu   } { \sigma   } } \right ) ^ { 1 / \gamma   } \right ] ^ { - \alpha   } }
+{ \displaystyle   x \geq   \mu   }
+\mu   \in   \mathbb   R ,   \sigma ,   \gamma   >   0 ,   \alpha
+  P ( I V ) ( \sigma ,   \sigma ,   1 ,   \alpha )   =   P ( I ) ( \sigma ,   \alpha ) ,
+  P ( I V ) ( \mu ,   \sigma ,   1 ,   \alpha )   =   P ( I I ) ( \mu ,   \sigma ,   \alpha ) ,
+  P ( I V ) ( \mu ,   \sigma ,   \gamma ,   1 )   =   P ( I I I ) ( \mu ,   \sigma ,   \gamma ) .
+\operatorname   { E }   [ X ]
+{ \displaystyle   \operatorname   { E }   [ X ^ { \delta   } ] }
+\frac { \sigma   \alpha } { \alpha - 1 }
+\alpha   > 1
+\frac { \sigma ^ \delta   \alpha } { \alpha - \delta }
+  \delta   <   \alpha
+  \frac {   \sigma   } { \alpha - 1 }
+\alpha   > 1
+  \frac {   \sigma ^ \delta   \Gamma ( \alpha - \delta ) \Gamma ( 1 + \delta ) } { \Gamma ( \alpha ) }
+- 1   <   \delta   <   \alpha
+\sigma \Gamma ( 1 - \gamma ) \Gamma ( 1   +   \gamma )
+  - 1 < \gamma < 1
+\sigma ^ \delta \Gamma ( 1 - \gamma   \delta ) \Gamma ( 1 + \gamma   \delta )
+- \gamma ^ { - 1 } < \delta < \gamma ^ { - 1 }
+\frac { \sigma \Gamma ( \alpha - \gamma ) \Gamma ( 1 + \gamma ) } { \Gamma ( \alpha ) }
+  - 1 < \gamma < \alpha
+\frac { \sigma ^ \delta \Gamma ( \alpha - \gamma   \delta ) \Gamma ( 1 + \gamma   \delta ) } { \Gamma ( \alpha ) }
+- \gamma ^ { - 1 } < \delta < \alpha / \gamma  
+  f ( y )   =   \frac { y ^ { \gamma_1 - 1 }   ( 1 - y ) ^ { \gamma_2 - 1 } } { B ( \gamma_1 ,   \gamma_2 ) } ,   \qquad   0 < y < 1 ;   \gamma_1 , \gamma_2 > 0 ,
+  W   =   \mu   +   \sigma ( Y ^ { - 1 } - 1 ) ^ \gamma ,   \qquad   \sigma > 0 ,   \gamma > 0 ,
+U _ 1   \sim   \Gamma ( \delta_1 ,   1 )
+U _ 2   \sim   \Gamma ( \delta_2 ,   1 )
+W   =   \mu   +   \sigma   \left ( \frac { U _ 1 } { U _ 2 } \right ) ^ \gamma
+F P ( \sigma ,   \sigma ,   1 ,   1 ,   \alpha )   =   P ( I ) ( \sigma ,   \alpha )
+F P ( \mu ,   \sigma ,   1 ,   1 ,   \alpha )   =   P ( I I ) ( \mu ,   \sigma ,   \alpha )
+F P ( \mu ,   \sigma ,   \gamma ,   1 ,   1 )   =   P ( I I I ) ( \mu ,   \sigma ,   \gamma )
+F P ( \mu ,   \sigma ,   \gamma ,   1 ,   \alpha )   =   P ( I V ) ( \mu ,   \sigma ,   \gamma ,   \alpha ) .
+  Y   =   \log \left ( \frac { X } { x _ \mathrm { m } } \right )  
+  x _ \mathrm { m }   e ^ Y
+{ \displaystyle   { \begin { a l i g n e d } \Pr ( Y < y ) & = \Pr   \left ( \log   \left ( { \frac   { X } { x _ { \mathrm   { m }   } } } \right ) < y \right ) \\&=\Pr ( X < x _ { \mathrm   { m }   } e ^ { y } ) = 1 - \left ( { \frac   { x _ { \mathrm   { m }   } } { x _ { \mathrm   { m }   } e ^ { y } } } \right ) ^ { \alpha   } = 1 - e ^ { - \alpha   y } . \end { a l i g n e d } } }
+x _ { m }
+\alpha  
+\mu = x _ m
+\sigma = x _ m / \alpha
+\xi = 1 / \alpha
+x _ m   =   \sigma / \xi
+\alpha = 1 / \xi
+x
+N
+x _ { m }
+{ \displaystyle   \alpha   x _ { \mathrm   { m }   } ^ { \alpha   } = { \frac   { 1 } { H ( N , \alpha   - 1 ) } } }
+{ \displaystyle   H ( N , \alpha   - 1 ) }
+{ \displaystyle   f ( x ) = { \frac   { \alpha   x _ { \mathrm   { m }   } ^ { \alpha   } } { x ^ { \alpha   + 1 } } } = { \frac   { 1 } { x ^ { s } H ( N , s ) } } }
+{ \displaystyle   s = \alpha   - 1 }
+x
+f ( x )
+x
+\alpha   = 1
+L ( F ) = \frac { \int_ { x _ \mathrm { m } } ^ { x ( F ) } x f ( x ) \,dx } { \int_ { x _ \mathrm { m } } ^ \infty   x f ( x ) \,dx }   = \frac { \int_0 ^ F   x ( F ' ) \,dF ' } { \int_0 ^ 1   x ( F ' ) \,dF ' }
+x ( F ) = \frac { x _ \mathrm { m } } { ( 1 - F ) ^ { \frac { 1 } { \alpha } } }
+L ( F )   =   1 - ( 1 - F ) ^ { 1 - \frac { 1 } { \alpha } } ,
+{ \displaystyle   0 < \alpha   \leq   1 }
+{ \displaystyle   6 2 / ( 7 \times   1 0 ^ { 9 } ) }
+{ \displaystyle   L ( 1 / 2 ) = 1 - L ( 1 - \epsilon   ) }
+{ \displaystyle   1 - ( 1 / 2 ) ^ { 1 - { \frac   { 1 } { \alpha   } } } = \epsilon   ^ { 1 - { \frac   { 1 } { \alpha   } } } }
+\alpha \ge   1
+G   =   1 - 2   \left   ( \int_0 ^ 1 L ( F ) d F   \right   )   =   \frac { 1 } { 2 \alpha - 1 }
+{ \displaystyle   L ( \alpha   , x _ { \mathrm   { m }   } ) = \prod   _ { i = 1 } ^ { n } \alpha   { \frac   { x _ { \mathrm   { m }   } ^ { \alpha   } } { x _ { i } ^ { \alpha   + 1 } } } = \alpha   ^ { n } x _ { \mathrm   { m }   } ^ { n \alpha   } \prod   _ { i = 1 } ^ { n } { \frac   { 1 } { x _ { i } ^ { \alpha   + 1 } } } . }
+{ \displaystyle   \ell   ( \alpha   , x _ { \mathrm   { m }   } ) = n \ln   \alpha   + n \alpha   \ln   x _ { \mathrm   { m }   } - ( \alpha   + 1 ) \sum   _ { i = 1 } ^ { n } \ln   x _ { i } . }
+\ell ( \alpha ,   x _ \mathrm { m } )
+\widehat   x _ \mathrm { m }   =   \min_i   { x _ i } .
+\frac { \partial   \ell } { \partial   \alpha }   =   \frac { n } { \alpha }   +   n   \ln   x _ \mathrm { m }   -   \sum   _ { i = 1 } ^ n   \ln   x _ i   =   0 .
+{ \displaystyle   { \widehat   { \alpha   } } = { \frac   { n } { \sum   _ { i } \ln ( x _ { i } / { \widehat   { x } } _ { \mathrm   { m }   } ) } } . }
+\sigma   =   \frac   { \widehat   \alpha }   { \sqrt   n } .  
+( \hat { x } _ \mathrm { m } , \hat \alpha )
+\hat { x } _ \mathrm { m }
+{ \hat   { \alpha   } }
+\hat { x } _ \mathrm { m }
+{ \hat   { \alpha   } }
+\log   f _ X ( x ) =   \log   \left ( \alpha \frac { x _ \mathrm { m } ^ \alpha } { x ^ { \alpha + 1 } } \right )   =   \log   ( \alpha   x _ \mathrm { m } ^ \alpha )   -   ( \alpha + 1 )   \log   x .
+{ \displaystyle   T = { \frac   { x _ { \mathrm   { m }   } } { U ^ { 1 / \alpha   } } } }
+L   >   0
+H   >   L
+\alpha   > 0
+L   \leqslant   x   \leqslant   H
+\frac { \alpha   L ^ \alpha   x ^ { - \alpha   -   1 } } { 1 - \left ( \frac { L } { H } \right ) ^ \alpha }
+\frac { 1 - L ^ \alpha   x ^ { - \alpha } } { 1 - \left ( \frac { L } { H } \right ) ^ \alpha }
+\frac { L ^ \alpha } { 1   -   \left ( \frac { L } { H } \right ) ^ \alpha }   \cdot   \left ( \frac { \alpha } { \alpha - 1 } \right )   \cdot   \left ( \frac { 1 } { L ^ { \alpha - 1 } }   -   \frac { 1 } { H ^ { \alpha - 1 } } \right ) ,   \alpha \neq   1  
+  L   \left ( 1 -   \frac { 1 } { 2 } \left ( 1 - \left ( \frac { L } { H } \right ) ^ \alpha \right ) \right ) ^ { - \frac { 1 } { \alpha } }
+\frac { L ^ \alpha } { 1   -   \left ( \frac { L } { H } \right ) ^ \alpha }   \cdot   \left ( \frac { \alpha } { \alpha - 2 } \right )   \cdot   \left ( \frac { 1 } { L ^ { \alpha - 2 } }   -   \frac { 1 } { H ^ { \alpha - 2 } } \right ) ,   \alpha \neq   2
+\frac { L ^ { \alpha } } { 1 - \left ( \frac { L } { H } \right ) ^ { \alpha } }   \cdot   \frac { \alpha   *   ( L ^ { k - \alpha } - H ^ { k - \alpha } ) } { ( \alpha - k ) } ,   \alpha   \neq   j  
+\frac { \alpha   L ^ \alpha   x ^ { - \alpha   -   1 } } { 1 - \left ( \frac { L } { H } \right ) ^ \alpha }
+U   =   \frac { 1   -   L ^ \alpha   x ^ { - \alpha } } { 1   -   ( \frac { L } { H } ) ^ \alpha }
+x   =   \left ( - \frac { U   H ^ \alpha   -   U   L ^ \alpha   -   H ^ \alpha } { H ^ \alpha   L ^ \alpha } \right ) ^ { - \frac { 1 } { \alpha } }
+f ( x ; \alpha , x _ \mathrm { m } )   =   \begin { c a s e s }   \tfrac { 1 } { 2 } \alpha   x _ \mathrm { m } ^ \alpha   | x | ^ { - \alpha - 1 }   &   | x | > x _ \mathrm { m }   \\ 0   &   \text { o t h e r w i s e } .   \end { c a s e s }

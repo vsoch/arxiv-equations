@@ -1,0 +1,46 @@
+\tau  
+{ \displaystyle   ( \Omega   , { \mathcal   { F } } , ( { \mathcal   { F } } _ { n } ) _ { n \in   \mathbb   { N }   } , P ) }
+{ \displaystyle   \mathbb   { N }   \cup   \{ + \infty   \ } }
+\tau  
+{ \displaystyle   \mathbb   { F }   = ( { \mathcal   { F } } _ { n } ) _ { n \in   \mathbb   { N }   } }
+{ \displaystyle   \{ \tau   = n \}\in   { \mathcal   { F } } _ { n } }
+n
+\tau  
+{ \displaystyle   ( \Omega   , { \mathcal   { F } } , ( { \mathcal   { F } } _ { t } ) _ { t \in   T } , P ) }
+  T
+{ \displaystyle   T = [ 0 , + \infty   ) }
+\tau  
+{ \displaystyle   \mathbb   { F }   = ( { \mathcal   { F } } _ { t } ) _ { t \in   T } }
+{ \displaystyle   \{ \tau   \leq   t \}\in   { \mathcal   { F } } _ { t } }
+t \in   T
+\tau  
+{ \displaystyle   ( \Omega   , { \mathcal   { F } } , ( { \mathcal   { F } } _ { t } ) _ { t \in   T } , P ) }
+  T
+\tau  
+{ \displaystyle   X = ( X _ { t } ) _ { t \in   T } }
+{ \displaystyle   X _ { t } : = { \begin { c a s e s } 1 & { \text {   i f   } } t \leq   \tau   \\0 & { \text {   i f   } } t > \tau   \end { c a s e s } } }
+{ \displaystyle   \mathbb   { F }   = ( { \mathcal   { F } } _ { t } ) _ { t \in   T } }
+\tau  
++ \infty  
+\tau  
+  T
+( B _ { t } ) _ { t \geq   0 }
+B _ { t }
+( \Omega   , { \mathcal   { F } } , \mathbb   { P }   )
+{ \mathcal   { F } } _ { t }
+( B _ { s } ) ^ { - 1 } ( A )
+0 \leq   s \leq   t
+A \subseteq   \mathbb   { R }  
+{ \mathcal   { F } } _ { t }
+\tau   : = t _ { 0 }
+t _ { 0 }
+a \in   \mathbb   { R }   .
+{ \displaystyle   \tau   : = \inf \{ t \geq   0 \mid   B _ { t } > a \ } }
+{ \displaystyle   \tau   : = \inf \{ t \geq   1 \mid   B _ { s } > 0 { \text {   f o r   a l l   } } s \in   [ t - 1 , t ] \ } }
+\left ( \Omega   , { \mathcal   { F } } , \left \{ { \mathcal   { F } } _ { t } \right \}_ { t \geq   0 } , \mathbb   { P }   \right )
+\tau   _ { 1 } \wedge   \tau   _ { 2 }
+\tau   _ { 1 } \vee   \tau   _ { 2 }
+X _ { t } ^ { \tau   } = X _ { \min ( t , \tau   ) }
+\mathbf   { 1 }   _ { \{ \tau   _ { n } > 0 \}}X ^ { \tau   _ { n } }
+\mathbf   { 1 }   _ { \{ \tau   _ { n } > 0 \}}X ^ { \tau   _ { n } }
+\mathbb   { E }   \left [ \mathbf   { 1 }   _ { \{ \tau   _ { n } > 0 \}}X ^ { \tau   _ { n } } \right ] < \infty  

@@ -1,9 +1,0 @@
-{ \displaystyle   y ^ { * } = \mathbf   { x }   ^ { \mathsf   { T } } \beta   + \epsilon   }
-y ^ { * }
-\mathbf   { x }  
-\beta  
-y ^ { * }
-y = { \begin { c a s e s } 0 ~ ~ { \text { i f } } ~ ~ y ^ { * } \leq   0 , \\1 ~ ~ { \text { i f } } ~ ~ 0 < y ^ { * } \leq   \mu   _ { 1 } , \\2 ~ ~ { \text { i f } } ~ ~ \mu   _ { 1 } < y ^ { * } \leq   \mu   _ { 2 } \\\vdots   \\N ~ ~ { \text { i f } } ~ ~ \mu   _ { { N - 1 } } < y ^ { * } . \end { c a s e s } }
-y
-y ^ { * }
-\beta  

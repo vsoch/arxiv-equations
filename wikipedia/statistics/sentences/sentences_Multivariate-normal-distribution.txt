@@ -1,0 +1,139 @@
+{ \displaystyle   { \boldsymbol   { \mu   } } = \left [ { \begin { s m a l l m a t r i x } 0 \\0 \end { s m a l l m a t r i x } } \right ] }
+{ \displaystyle   { \boldsymbol   { \Sigma   } } = \left [ { \begin { s m a l l m a t r i x } 1 & 3 / 5 \\3 / 5 & 2 \end { s m a l l m a t r i x } } \right ] }
+\mathcal { N } ( \boldsymbol \mu , \,\boldsymbol \Sigma )
+{ \displaystyle   \operatorname   { d e t }   ( 2 \pi   { \boldsymbol   { \Sigma   } } ) ^ { - { \frac   { 1 } { 2 } } } \,e ^ { - { \frac   { 1 } { 2 } } ( \mathbf   { x }   - { \boldsymbol   { \mu   } } ) ' { \boldsymbol   { \Sigma   } } ^ { - 1 } ( \mathbf   { x }   - { \boldsymbol   { \mu   } } ) } , }
+{ \displaystyle   { \frac   { 1 } { 2 } } \ln   \operatorname   { d e t }   \left ( 2 \pi   \mathrm   { e }   { \boldsymbol   { \Sigma   } } \right ) }
+\exp \!\Big (   \boldsymbol \mu ' \mathbf { t }   +   \tfrac { 1 } { 2 }   \mathbf { t } ' \boldsymbol \Sigma   \mathbf { t } \Big )
+\exp \!\Big (   i \boldsymbol \mu ' \mathbf { t }   -   \tfrac { 1 } { 2 }   \mathbf { t } ' \boldsymbol \Sigma   \mathbf { t } \Big )
+{ \displaystyle   \mathbf   { X }   \ \sim   \ { \mathcal   { N } } ( { \boldsymbol   { \mu   } } , \,{ \boldsymbol   { \Sigma   } } ) , }
+{ \displaystyle   \mathbf   { X }   \ \sim   \ { \mathcal   { N } } _ { k } ( { \boldsymbol   { \mu   } } , \,{ \boldsymbol   { \Sigma   } } ) , }
+{ \displaystyle   { \boldsymbol   { \mu   } } = \operatorname   { E }   [ \mathbf   { X }   ] = [ \operatorname   { E }   [ X _ { 1 } ] , \operatorname   { E }   [ X _ { 2 } ] , \ldots   , \operatorname   { E }   [ X _ { k } ] ] ^ { \rm   { T } } , }
+k \times   k
+{ \displaystyle   { \boldsymbol   { \Sigma   } } = : \operatorname   { E }   [ ( \mathbf   { X }   - { \boldsymbol   { \mu   } } ) ( \mathbf   { X }   - { \boldsymbol   { \mu   } } ) ^ { \rm   { T } } ] = [ \operatorname   { C o v }   [ X _ { i } , X _ { j } ] ; 1 \leq   i , j \leq   k ] . }
+{ \displaystyle   { \boldsymbol   { Q } } = { \boldsymbol   { \Sigma   } } ^ { - 1 } }
+{ \displaystyle   \varphi   _ { \mathbf   { X }   } ( \mathbf   { u }   ) = \exp   { \Big   ( } i \mathbf   { u }   ^ { T } { \boldsymbol   { \mu   } } - { \tfrac   { 1 } { 2 } } \mathbf   { u }   ^ { T } { \boldsymbol   { \Sigma   } } \mathbf   { u }   { \Big   ) } . }
+{ \boldsymbol   { \Sigma   } }
+{ \displaystyle   { \begin { a l i g n e d } f _ { \mathbf   { X }   } ( x _ { 1 } , \ldots   , x _ { k } ) & = { \frac   { \exp   \left ( - { \frac   { 1 } { 2 } } ( { \mathbf   { x }   } - { \boldsymbol   { \mu   } } ) ^ { \mathrm   { T }   } { \boldsymbol   { \Sigma   } } ^ { - 1 } ( { \mathbf   { x }   } - { \boldsymbol   { \mu   } } ) \right ) } { \sqrt   { ( 2 \pi   ) ^ { k } | { \boldsymbol   { \Sigma   } } | } } } \end { a l i g n e d } } }
+{ \mathbf   x }
+{ \displaystyle   | { \boldsymbol   { \Sigma   } } | \equiv   \operatorname   { d e t }   { \boldsymbol   { \Sigma   } } }
+{ \boldsymbol   { \Sigma   } }
+{ \boldsymbol   { \Sigma   } }
+1   \times   1
+{ \displaystyle   { \sqrt   { ( { \mathbf   { x }   } - { \boldsymbol   { \mu   } } ) ^ { \mathrm   { T }   } { \boldsymbol   { \Sigma   } } ^ { - 1 } ( { \mathbf   { x }   } - { \boldsymbol   { \mu   } } ) } } }
+{ \mathbf   x }
+{ \boldsymbol \mu }
+k = 1
+{ \displaystyle   f ( x , y ) = { \frac   { 1 } { 2 \pi   \sigma   _ { X } \sigma   _ { Y } { \sqrt   { 1 - \rho   ^ { 2 } } } } } \exp   \left ( - { \frac   { 1 } { 2 ( 1 - \rho   ^ { 2 } ) } } \left [ { \frac   { ( x - \mu   _ { X } ) ^ { 2 } } { \sigma   _ { X } ^ { 2 } } } + { \frac   { ( y - \mu   _ { Y } ) ^ { 2 } } { \sigma   _ { Y } ^ { 2 } } } - { \frac   { 2 \rho   ( x - \mu   _ { X } ) ( y - \mu   _ { Y } ) } { \sigma   _ { X } \sigma   _ { Y } } } \right ] \right ) }
+\sigma   _ { X } > 0
+\sigma   _ { Y } > 0
+{ \boldsymbol     \mu   } = { \begin { p m a t r i x } \mu   _ { X } \\\mu   _ { Y } \end { p m a t r i x } } , \quad   { \boldsymbol     \Sigma   } = { \begin { p m a t r i x } \sigma   _ { X } ^ { 2 } & \rho   \sigma   _ { X } \sigma   _ { Y } \\\rho   \sigma   _ { X } \sigma   _ { Y } & \sigma   _ { Y } ^ { 2 } \end { p m a t r i x } } .
+{ \displaystyle   y ( x ) = \operatorname   { s g n } ( \rho   ) { \frac   { \sigma   _ { Y } } { \sigma   _ { X } } } ( x - \mu   _ { X } ) + \mu   _ { Y } . }
+{ \boldsymbol   { \Sigma   } }
+\operatorname   { r a n k } ( { \boldsymbol     \Sigma   } )
+\mathbf   { x }  
+\operatorname   { r a n k } ( { \boldsymbol     \Sigma   } )
+\mathbb   { R }   ^ { k }
+{ \displaystyle   \{ { \boldsymbol   { \mu   } } + { \boldsymbol   { \Sigma   ^ { 1 / 2 } } } \mathbf   { v }   : \mathbf   { v }   \in   \mathbb   { R }   ^ { k } \ } }
+{ \displaystyle   f ( \mathbf   { x }   ) = \left ( \det   \nolimits   ^ { * } ( 2 \pi   { \boldsymbol   { \Sigma   } } ) \right ) ^ { - { \frac   { 1 } { 2 } } } \,e ^ { - { \frac   { 1 } { 2 } } ( \mathbf   { x }   - { \boldsymbol   { \mu   } } ) ' { \boldsymbol   { \Sigma   } } ^ { + } ( \mathbf   { x }   - { \boldsymbol   { \mu   } } ) } }
+\boldsymbol \Sigma ^ +
+{ \displaystyle   \mu   _ { 1 , \ldots   , N } ( \mathbf   { x }   ) \ { \stackrel   { \mathrm   { d e f }   } { = } } \ \mu   _ { r _ { 1 } , \ldots   , r _ { N } } ( \mathbf   { x }   ) \ { \stackrel   { \mathrm   { d e f }   } { = } } \operatorname   { E }   \left [ \prod   _ { j = 1 } ^ { N } X _ { j } ^ { r _ { j } } \right ] }
+{ \displaystyle   \mu   _ { 1 , \dots   , 2 \lambda   } ( \mathbf   { x }   - { \boldsymbol   { \mu   } } ) = \sum   \left ( \sigma   _ { i j } \sigma   _ { k \ell   } \cdots   \sigma   _ { X Z } \right ) }
+{ \displaystyle   \left \{ 1 , \ldots   , 2 \lambda   \right \ } }
+{ \displaystyle   { \begin { a l i g n e d } & \operatorname   { E }   [ X _ { 1 } X _ { 2 } X _ { 3 } X _ { 4 } X _ { 5 } X _ { 6 } ] \\[8pt ] = { } & \operatorname   { E }   [ X _ { 1 } X _ { 2 } ] \operatorname   { E }   [ X _ { 3 } X _ { 4 } ] \operatorname   { E }   [ X _ { 5 } X _ { 6 } ] + \operatorname   { E }   [ X _ { 1 } X _ { 2 } ] \operatorname   { E }   [ X _ { 3 } X _ { 5 } ] \operatorname   { E }   [ X _ { 4 } X _ { 6 } ] + \operatorname   { E }   [ X _ { 1 } X _ { 2 } ] \operatorname   { E }   [ X _ { 3 } X _ { 6 } ] \operatorname   { E }   [ X _ { 4 } X _ { 5 } ] \\[4pt ] & { } + \operatorname   { E }   [ X _ { 1 } X _ { 3 } ] \operatorname   { [ }   X _ { 2 } X _ { 4 } ] \operatorname   { E }   [ X _ { 5 } X _ { 6 } ] + \operatorname   { E }   [ X _ { 1 } X _ { 3 } ] \operatorname   { E }   [ X _ { 2 } X _ { 5 } ] \operatorname   { E }   [ X _ { 4 } X _ { 6 } ] + \operatorname   { E }   [ X _ { 1 } X _ { 3 } ] \operatorname   { E }   [ X _ { 2 } X _ { 6 } ] \operatorname   { E }   [ X _ { 4 } X _ { 5 } ] \\[4pt ] & { } + \operatorname   { E }   [ X _ { 1 } X _ { 4 } ] \operatorname   { E }   [ X _ { 2 } X _ { 3 } ] \operatorname   { E }   [ X _ { 5 } X _ { 6 } ] + \operatorname   { E }   [ X _ { 1 } X _ { 4 } ] \operatorname   { E }   [ X _ { 2 } X _ { 5 } ] \operatorname   { E }   [ X _ { 3 } X _ { 6 } ] + \operatorname   { E }   [ X _ { 1 } X _ { 4 } ] \operatorname   { E }   [ X _ { 2 } X _ { 6 } ] \operatorname   { E }   [ X _ { 3 } X _ { 5 } ] \\[4pt ] & { } + \operatorname   { E }   [ X _ { 1 } X _ { 5 } ] \operatorname   { E }   [ X _ { 2 } X _ { 3 } ] \operatorname   { E }   [ X _ { 4 } X _ { 6 } ] + \operatorname   { E }   [ X _ { 1 } X _ { 5 } ] \operatorname   { E }   [ X _ { 2 } X _ { 4 } ] \operatorname   { E }   [ X _ { 3 } X _ { 6 } ] + \operatorname   { E }   [ X _ { 1 } X _ { 5 } ] \operatorname   { E }   [ X _ { 2 } X _ { 6 } ] \operatorname   { E }   [ X _ { 3 } X _ { 4 } ] \\[4pt ] & { } + \operatorname   { E }   [ X _ { 1 } X _ { 6 } ] \operatorname   { E }   [ X _ { 2 } X _ { 3 } ] \operatorname   { E }   [ X _ { 4 } X _ { 5 } ] + \operatorname   { E }   [ X _ { 1 } X _ { 6 } ] \operatorname   { E }   [ X _ { 2 } X _ { 4 } ] \operatorname   { E }   [ X _ { 3 } X _ { 5 } ] + \operatorname   { E }   [ X _ { 1 } X _ { 6 } ] \operatorname   { E }   [ X _ { 2 } X _ { 5 } ] \operatorname   { E }   [ X _ { 3 } X _ { 4 } ] . \end { a l i g n e d } } }
+{ \displaystyle   { \tfrac   { ( 2 \lambda   - 1 ) ! } { 2 ^ { \lambda   - 1 } ( \lambda   - 1 ) ! } } }
+{ \displaystyle   [ 1 , \ldots   , 2 \lambda   ] }
+{ \displaystyle   { \begin { a l i g n e d } \operatorname   { E }   \left [ X _ { i } ^ { 4 } \right ] & = 3 \sigma   _ { i i } ^ { 2 } \\[4pt ] \operatorname   { E }   \left [ X _ { i } ^ { 3 } X _ { j } \right ] & = 3 \sigma   _ { i i } \sigma   _ { i j } \\[4pt ] \operatorname   { E }   \left [ X _ { i } ^ { 2 } X _ { j } ^ { 2 } \right ] & = \sigma   _ { i i } \sigma   _ { j j } + 2 \sigma   _ { i j } ^ { 2 } \\[4pt ] \operatorname   { E }   \left [ X _ { i } ^ { 2 } X _ { j } X _ { k } \right ] & = \sigma   _ { i i } \sigma   _ { j k } + 2 \sigma   _ { i j } \sigma   _ { i k } \\[4pt ] \operatorname   { E }   \left [ X _ { i } X _ { j } X _ { k } X _ { n } \right ] & = \sigma   _ { i j } \sigma   _ { k n } + \sigma   _ { i k } \sigma   _ { j n } + \sigma   _ { i n } \sigma   _ { j k } . \end { a l i g n e d } } }
+\sigma   _ { i j }
+{ \displaystyle   E \left [ X _ { i } X _ { j } X _ { k } X _ { n } \right ] }
+{ \displaystyle   \operatorname   { E }   [ X _ { i } ^ { 2 } X _ { k } X _ { n } ] }
+{ \displaystyle   \sigma   _ { i i } = \sigma   _ { i } ^ { 2 } }
+{ \displaystyle   \ln   L = - { \frac   { 1 } { 2 } } \left ( \ln ( | { \boldsymbol   { \Sigma   } } | \,)-( \mathbf   { x }   - { \boldsymbol   { \mu   } } ) ^ { \rm   { T } } { \boldsymbol   { \Sigma   } } ^ { - 1 } ( \mathbf   { x }   - { \boldsymbol   { \mu   } } ) - k \ln ( 2 \pi   ) \right ) }
+{ \displaystyle   \ln   L = - \ln ( | { \boldsymbol   { \Sigma   } } | \,)-( \mathbf   { z }   - { \boldsymbol   { \mu   } } ) ^ { \dagger   } { \boldsymbol   { \Sigma   } } ^ { - 1 } ( \mathbf   { z }   - { \boldsymbol   { \mu   } } ) - k \ln ( \pi   ) }
+\dagger  
+{ } ^ { \rm   T }
+{ \displaystyle   { \begin { a l i g n e d } h \left ( f \right ) & = - \int   _ { - \infty   } ^ { \infty   } \int   _ { - \infty   } ^ { \infty   } \cdots   \int   _ { - \infty   } ^ { \infty   } f ( \mathbf   { x }   ) \ln   f ( \mathbf   { x }   ) \,d \mathbf   { x }   , \\&={ \frac   { 1 } { 2 } } \ln   \left ( \left | 2 \pi   e { \boldsymbol   { \Sigma   } } \right | \right ) = { \frac   { k } { 2 } } \ln   \left ( 2 \pi   e \right ) + { \frac   { 1 } { 2 } } \ln   \left ( \left | { \boldsymbol   { \Sigma   } } \right | \right ) = { \frac   { k } { 2 } } + { \frac   { k } { 2 } } \ln   \left ( 2 \pi   \right ) + { \frac   { 1 } { 2 } } \ln   \left ( \left | { \boldsymbol   { \Sigma   } } \right | \right ) \\\end { a l i g n e d } } }
+\mathcal { N } _ 0 ( \boldsymbol \mu_0 ,   \boldsymbol \Sigma_0 )
+\mathcal { N } _ 1 ( \boldsymbol \mu_1 ,   \boldsymbol \Sigma_1 )
+{ \displaystyle   D _ { \text { K L } } ( { \mathcal   { N } } _ { 0 } \|{ \mathcal   { N } } _ { 1 } ) = { 1   \over   2 } \left \{ \operatorname   { t r }   \left ( { \boldsymbol   { \Sigma   } } _ { 1 } ^ { - 1 } { \boldsymbol   { \Sigma   } } _ { 0 } \right ) + \left ( { \boldsymbol   { \mu   } } _ { 1 } - { \boldsymbol   { \mu   } } _ { 0 } \right ) ^ { \rm   { T } } { \boldsymbol   { \Sigma   } } _ { 1 } ^ { - 1 } ( { \boldsymbol   { \mu   } } _ { 1 } - { \boldsymbol   { \mu   } } _ { 0 } ) - k + \ln   { | { \boldsymbol   { \Sigma   } } _ { 1 } |   \over   | { \boldsymbol   { \Sigma   } } _ { 0 } | } \right \ } , }
+k
+{ \displaystyle   { \boldsymbol   { \mu   } } _ { 1 } = { \boldsymbol   { \mu   } } _ { 0 } }
+{ \displaystyle   D _ { \text { K L } } ( { \mathcal   { C N } } _ { 0 } \|{ \mathcal   { C N } } _ { 1 } ) = \operatorname   { t r }   \left ( { \boldsymbol   { \Sigma   } } _ { 1 } ^ { - 1 } { \boldsymbol   { \Sigma   } } _ { 0 } \right ) - k + \ln   { | { \boldsymbol   { \Sigma   } } _ { 1 } |   \over   | { \boldsymbol   { \Sigma   } } _ { 0 } | } . }
+P
+Q
+{ \displaystyle   { \boldsymbol   { \Sigma   } } _ { 1 } }
+{ \displaystyle   { \boldsymbol   { \Sigma   } } _ { 0 } }
+{ \displaystyle   { \boldsymbol   { \mu   } } _ { 1 } = { \boldsymbol   { \mu   } } _ { 0 } }
+{ \displaystyle   I ( { \boldsymbol   { X } } ) = - { 1   \over   2 } \ln   | { \boldsymbol   { \rho   } } _ { 0 } | , }
+{ \displaystyle   { \boldsymbol   { \rho   } } _ { 0 } }
+{ \displaystyle   { \boldsymbol   { \Sigma   } } _ { 0 } }
+{ \displaystyle   I ( x ; y ) = - { 1   \over   2 } \ln ( 1 - \rho   ^ { 2 } ) . }
+F ( \mathbf   { x }   )
+\mathbf   { X }  
+\mathbf   { X }  
+\mathbf   { x }  
+{ \displaystyle   F ( \mathbf   { x }   ) = \mathbb   { P }   ( \mathbf   { X }   \leq   \mathbf   { x }   ) , \quad   { \text { w h e r e   } } \mathbf   { X }   \sim   { \mathcal   { N } } ( { \boldsymbol   { \mu   } } , \,{ \boldsymbol   { \Sigma   } } ) . }
+F ( \mathbf   { x }   )
+F ( r )
+r
+( { \mathbf   x } - { \boldsymbol \mu } ) ^ T { \boldsymbol \Sigma } ^ { - 1 } ( { \mathbf   x } - { \boldsymbol \mu } )   \leq   \chi ^ 2 _ k ( p ) .
+{ \mathbf   x }
+k
+{ \boldsymbol \mu }
+k
+{ \boldsymbol   { \Sigma   } }
+\chi ^ 2 _ k ( p )
+p
+k
+k   =   2 ,
+{ \displaystyle   { \overline   { F } } ( \mathbf   { x }   ) = 1 - \mathbb   { P }   ( \mathbf   { X }   \leq   \mathbf   { x }   ) }
+{ \displaystyle   \mathbf   { X }   \sim   { \mathcal   { N } } ( { \boldsymbol   { \mu   } } , \,{ \boldsymbol   { \Sigma   } } ) }
+{ \displaystyle   { \overline   { F } } ( \mathbf   { x }   ) = \mathbb   { P }   ( \cup   _ { i } \{ X _ { i } \geq   x _ { i } \})=\mathbb   { P }   ( \max   _ { i } Y _ { i } \geq   0 ) , \quad   { \text { w h e r e   } } \mathbf   { Y }   \sim   { \mathcal   { N } } ( { \boldsymbol   { \mu   } } - \mathbf   { x }   , \,{ \boldsymbol   { \Sigma   } } ) . }
+  \rho   =   0
+{ \mathbf     { x } } = { \begin { b m a t r i x } { \mathbf     { x } } _ { 1 } \\{ \mathbf     { x } } _ { 2 } \end { b m a t r i x } } { \text {   w i t h   s i z e s   } } { \begin { b m a t r i x } q \times   1 \\( N - q ) \times   1 \end { b m a t r i x } }
+  \boldsymbol \mu   =   \begin { b m a t r i x }     \boldsymbol \mu_1   \\  \boldsymbol \mu_2   \end { b m a t r i x }   \text {   w i t h   s i z e s   } \begin { b m a t r i x }   q   \times   1   \\ ( N - q )   \times   1   \end { b m a t r i x }
+  \boldsymbol \Sigma   =   \begin { b m a t r i x }     \boldsymbol \Sigma_ { 1 1 }   &   \boldsymbol \Sigma_ { 1 2 }   \\  \boldsymbol \Sigma_ { 2 1 }   &   \boldsymbol \Sigma_ { 2 2 }   \end { b m a t r i x }   \text {   w i t h   s i z e s   } \begin { b m a t r i x }   q   \times   q   &   q   \times   ( N - q )   \\ ( N - q )   \times   q   &   ( N - q )   \times   ( N - q )   \end { b m a t r i x }
+  \bar { \boldsymbol \mu }   =   \boldsymbol \mu_1   +   \boldsymbol \Sigma_ { 1 2 }   \boldsymbol \Sigma_ { 2 2 } ^ { - 1 }   \left (     \mathbf { a }   -   \boldsymbol \mu_2   \right )  
+{ \displaystyle   { \overline   { \boldsymbol   { \Sigma   } } } = { \boldsymbol   { \Sigma   } } _ { 1 1 } - { \boldsymbol   { \Sigma   } } _ { 1 2 } { \boldsymbol   { \Sigma   } } _ { 2 2 } ^ { - 1 } { \boldsymbol   { \Sigma   } } _ { 2 1 } . }
+\boldsymbol \Sigma_ { 2 2 } ^ { - 1 }
+\boldsymbol \Sigma_ { 2 2 }
+\boldsymbol \Sigma_ { 1 2 }   \boldsymbol \Sigma_ { 2 2 } ^ { - 1 }   \left ( \mathbf { a }   -   \boldsymbol \mu_2   \right )
+\mathcal { N } _ q   \left ( \boldsymbol \mu_1 ,   \boldsymbol \Sigma_ { 1 1 }   \right )
+\mathbf   { x }   _ { 2 }
+\mathbf { y } _ 1 = \mathbf { x } _ 1 - \boldsymbol \Sigma_ { 1 2 } \boldsymbol \Sigma_ { 2 2 } ^ { - 1 } \mathbf { x } _ 2
+X _ 1 \mid   X _ 2 = x _ 2   \ \sim \ \mathcal { N } \left ( \mu_1 + \frac { \sigma_1 } { \sigma_2 } \rho (   x _ 2   -   \mu_2 ) , \, ( 1 - \rho ^ 2 ) \sigma_1 ^ 2 \right ) .  
+\rho  
+  \begin { p m a t r i x }     X _ 1   \\  X_2   \end { p m a t r i x }     \sim   \mathcal { N }   \left (   \begin { p m a t r i x }     \mu_1   \\  \mu_2   \end { p m a t r i x }   ,   \begin { p m a t r i x }     \sigma ^ 2 _ 1   &     \rho   \sigma_1   \sigma_2   \\  \rho   \sigma_1   \sigma_2   &     \sigma ^ 2 _ 2   \end { p m a t r i x }   \right )  
+\operatorname { E } ( X _ 1   \mid   X _ 2 = x _ 2 )   =   \mu_1   +   \rho   \frac { \sigma_1 } { \sigma_2 } ( x _ 2   -   \mu_2 )
+X _ 1 \mid   X _ 2
+  \begin { p m a t r i x }     X _ 1   \\  X_2   \end { p m a t r i x }     \sim   \mathcal { N }   \left (   \begin { p m a t r i x }     0   \\  0   \end { p m a t r i x }   ,   \begin { p m a t r i x }     1   &   \rho   \\  \rho   &   1   \end { p m a t r i x }   \right )  
+\operatorname   { E } ( X _ { 1 } \mid   X _ { 2 } = x _ { 2 } ) = \rho   x _ { 2 }
+  \operatorname { v a r } ( X _ 1   \mid   X _ 2   =   x _ 2 )   =   1 - \rho ^ 2 ;  
+\operatorname   { E } ( X _ { 1 } \mid   X _ { 2 } < z ) = - \rho   { \phi   ( z )   \over   \Phi   ( z ) } ,
+\operatorname   { E } ( X _ { 1 } \mid   X _ { 2 } > z ) = \rho   { \phi   ( z )   \over   ( 1 - \Phi   ( z ) ) } ,
+\operatorname   { E } ( X _ { 1 } \mid   X _ { 2 } = x _ { 2 } ) = \rho   x _ { 2 }
+\operatorname   { E } ( X _ { 1 } \mid   X _ { 2 } < z ) = \rho   E ( X _ { 2 } \mid   X _ { 2 } < z )
+  \boldsymbol \Sigma '   =   \begin { b m a t r i x }   \boldsymbol \Sigma_ { 1 1 }   &   \boldsymbol \Sigma_ { 1 3 }   \\ \boldsymbol \Sigma_ { 3 1 }   &   \boldsymbol \Sigma_ { 3 3 }   \end { b m a t r i x }  
+{ \displaystyle   \mathbf   { X }   \ \sim   { \mathcal   { N } } ( { \boldsymbol   { \mu   } } , { \boldsymbol   { \Sigma   } } ) , }
+M   \times   1
+M   \times   N
+{ \displaystyle   \mathbf   { Y }   \sim   { \mathcal   { N } } \left ( \mathbf   { c }   + \mathbf   { B }   { \boldsymbol   { \mu   } } , \mathbf   { B }   { \boldsymbol   { \Sigma   } } \mathbf   { B }   ^ { \rm   { T } } \right ) }
+  \mathbf { B }   =   \begin { b m a t r i x }     1   &   0   &   0   &   0   &   0   &   \ldots   &   0   \\  0   &   1   &   0   &   0   &   0   &   \ldots   &   0   \\  0   &   0   &   0   &   1   &   0   &   \ldots   &   0   \end { b m a t r i x }  
+Z \sim \mathcal { N } \left ( \mathbf { b } \cdot \boldsymbol \mu ,   \mathbf { b } ^ { \rm   T } \boldsymbol \Sigma   \mathbf { b } \right )
+{ \displaystyle   \mathbf   { B }   = { \begin { b m a t r i x } b _ { 1 } & b _ { 2 } & \ldots   & b _ { n } \end { b m a t r i x } } = \mathbf   { b }   ^ { \rm   { T } } . }
+{ \displaystyle   \mathbf   { X }   \ \sim   { \mathcal   { N } } ( { \boldsymbol   { \mu   } } , { \boldsymbol   { \Sigma   } } ) \iff   \mathbf   { X }   \ \sim   { \boldsymbol   { \mu   } } + \mathbf   { U }   { \boldsymbol   { \Lambda   } } ^ { 1 / 2 } { \mathcal   { N } } ( 0 , \mathbf   { I }   ) \iff   \mathbf   { X }   \ \sim   { \boldsymbol   { \mu   } } + \mathbf   { U }   { \mathcal   { N } } ( 0 , { \boldsymbol   { \Lambda   } } ) . }
+f ( \mathbf { x } ) =   \frac { 1 } { \sqrt   {   ( 2 \pi ) ^ k | \boldsymbol   \Sigma |   }   }     \exp \left ( - { 1   \over   2 }   ( \mathbf { x } - \boldsymbol \mu ) ^ { \rm   T }   \boldsymbol \Sigma ^ { - 1 }   ( { \mathbf   x } - \boldsymbol \mu ) \right )
+\widehat { \boldsymbol \Sigma }   =   { 1   \over   n } \sum_ { i = 1 } ^ n   ( { \mathbf   x } _ i - \overline { \mathbf   x } ) ( { \mathbf   x } _ i - \overline { \mathbf   x } ) ^ T
+E [ \widehat { \boldsymbol \Sigma } ]   =   \frac { n - 1 } { n }   \boldsymbol \Sigma .
+\widehat { \boldsymbol \Sigma }   =   { 1   \over   n - 1 } \sum_ { i = 1 } ^ n   ( \mathbf { x } _ i - \overline { \mathbf { x } } ) ( \mathbf { x } _ i - \overline { \mathbf { x } } ) ^ { \rm   T } .
+\mathcal { W } ^ { - 1 }
+\mathbf { X }   =   \{ \mathbf { x } _ 1 , \dots , \mathbf { x } _ n \} \sim   \mathcal { N } ( \boldsymbol \mu , \boldsymbol \Sigma )
+p ( \boldsymbol \mu , \boldsymbol \Sigma ) = p ( \boldsymbol \mu \mid \boldsymbol \Sigma ) \ p ( \boldsymbol \Sigma ) ,
+p ( \boldsymbol \mu \mid \boldsymbol \Sigma )   \sim \mathcal { N } ( \boldsymbol \mu_0 , m ^ { - 1 } \boldsymbol \Sigma )   ,
+p ( \boldsymbol \Sigma )   \sim   \mathcal { W } ^ { - 1 } ( \boldsymbol \Psi , n _ 0 ) .
+  \begin { a r r a y } { r c l }   p ( \boldsymbol \mu \mid \boldsymbol \Sigma , \mathbf { X } )   &   \sim   &   \mathcal { N } \left ( \frac { n \bar { \mathbf { x } }   +   m \boldsymbol \mu_0 } { n + m } , \frac { 1 } { n + m } \boldsymbol \Sigma \right ) , \\ p ( \boldsymbol \Sigma \mid \mathbf { X } )   &   \sim   &   \mathcal { W } ^ { - 1 } \left ( \boldsymbol \Psi + n \mathbf { S } + \frac { n m } { n + m } ( \bar { \mathbf { x } } - \boldsymbol \mu_0 ) ( \bar { \mathbf { x } } - \boldsymbol \mu_0 ) ' ,   n + n _ 0 \right ) ,   \end { a r r a y }  
+{ \displaystyle   { \begin { a l i g n e d } { \bar   { \mathbf   { x }   } } & = n ^ { - 1 } \sum   _ { i = 1 } ^ { n } \mathbf   { x }   _ { i } , \\\mathbf   { S }   & = n ^ { - 1 } \sum   _ { i = 1 } ^ { n } ( \mathbf   { x }   _ { i } - { \bar   { \mathbf   { x }   } } ) ( \mathbf   { x }   _ { i } - { \bar   { \mathbf   { x }   } } ) ' . \end { a l i g n e d } } }
+\begin { a l i g n }       &   \widehat { \boldsymbol \Sigma }   =   { 1   \over   n }   \sum_ { j = 1 } ^ n   \left ( \mathbf { x } _ j   -   \bar { \mathbf { x } } \right ) \left ( \mathbf { x } _ j   -   \bar { \mathbf { x } } \right ) ^ T   \\    & A   =   { 1   \over   6 n }   \sum_ { i = 1 } ^ n   \sum_ { j = 1 } ^ n   \left [   ( \mathbf { x } _ i   -   \bar { \mathbf { x } } ) ^ T \;\widehat { \boldsymbol \Sigma } ^ { - 1 }   ( \mathbf { x } _ j   -   \bar { \mathbf { x } } )   \right ] ^ 3   \\    & B   =   \sqrt { \frac { n } { 8 k ( k + 2 ) } } \left \{ { 1   \over   n }   \sum_ { i = 1 } ^ n   \left [   ( \mathbf { x } _ i   -   \bar { \mathbf { x } } ) ^ T \;\widehat { \boldsymbol \Sigma } ^ { - 1 }   ( \mathbf { x } _ i   -   \bar { \mathbf { x } } )   \right ] ^ 2   -   k ( k + 2 )   \right \}   \end { a l i g n }
+( 5 0   \le   n   <   4 0 0 )
+n < 5 0
+\scriptstyle   \mu_ \beta ( \mathbf { t } )   =   ( 2 \pi \beta ^ 2 ) ^ { - k / 2 }   e ^ { - | \mathbf { t } | ^ 2 / ( 2 \beta ^ 2 ) }
+{ \displaystyle   { \begin { a l i g n e d } T _ { \beta   } & = \int   _ { \mathbb   { R }   ^ { k } } \left | { 1   \over   n } \sum   _ { j = 1 } ^ { n } e ^ { i \mathbf   { t }   ^ { T } { \widehat   { \boldsymbol   { \Sigma   } } } ^ { - 1 / 2 } ( \mathbf   { x }   _ { j } - { \bar   { \mathbf   { x }   ) } } } - e ^ { - | \mathbf   { t }   | ^ { 2 } / 2 } \right | ^ { 2 } \;{ \boldsymbol   { \mu   } } _ { \beta   } ( \mathbf   { t }   ) \,d \mathbf   { t }   \\&={ 1   \over   n ^ { 2 } } \sum   _ { i , j = 1 } ^ { n } e ^ { - { \beta   ^ { 2 }   \over   2 } ( \mathbf   { x }   _ { i } - \mathbf   { x }   _ { j } ) ^ { T } { \widehat   { \boldsymbol   { \Sigma   } } } ^ { - 1 } ( \mathbf   { x }   _ { i } - \mathbf   { x }   _ { j } ) } - { \frac   { 2 } { n ( 1 + \beta   ^ { 2 } ) ^ { k / 2 } } } \sum   _ { i = 1 } ^ { n } e ^ { - { \frac   { \beta   ^ { 2 } } { 2 ( 1 + \beta   ^ { 2 } ) } } ( \mathbf   { x }   _ { i } - { \bar   { \mathbf   { x }   } } ) ^ { T } { \widehat   { \boldsymbol   { \Sigma   } } } ^ { - 1 } ( \mathbf   { x }   _ { i } - { \bar   { \mathbf   { x }   } } ) } + { \frac   { 1 } { ( 1 + 2 \beta   ^ { 2 } ) ^ { k / 2 } } } \end { a l i g n e d } } }

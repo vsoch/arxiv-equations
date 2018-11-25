@@ -1,0 +1,25 @@
+{ \displaystyle   r = { \frac   { \operatorname   { c o v }   ( X , Y ) } { \sigma   _ { X } \sigma   _ { Y } } } = { \frac   { \sum   _ { i = 1 } ^ { N } ( X _ { i } - { \bar   { X } } ) ( Y _ { i } - { \bar   { Y } } ) } { { \sqrt   { \sum   _ { i = 1 } ^ { N } ( X _ { i } - { \bar   { X } } ) ^ { 2 } } } { \sqrt   { \sum   _ { i = 1 } ^ { N } ( Y _ { i } - { \bar   { Y } } ) ^ { 2 } } } } } . }
+{ \displaystyle   \operatorname   { c o v }   ( X , Y ) }
+X
+Y
+\sigma  
+{ \displaystyle   z = { 1   \over   2 } \ln   \left ( { 1 + r   \over   1 - r } \right ) = \operatorname   { a r c t a n h }   ( r ) , }
+{ 1   \over   2 } \ln   \left ( { { 1 + \rho   }   \over   { 1 - \rho   } } \right ) ,
+{ 1   \over   { \sqrt     { N - 3 } } } ,
+{ \displaystyle   r = { \frac   { \exp ( 2 z ) - 1 } { \exp ( 2 z ) + 1 } } = \operatorname   { t a n h }   ( z ) , }
+{ \displaystyle   \rho   = 0 . 9 }
+{ \displaystyle   N = 3 0 }
+r
+{ \displaystyle   0 . 3 \ % }
+{ \displaystyle   3 . 4 \ % }
+r
+G ( r )
+N
+{ \displaystyle   { \frac   { 6 \rho   - 3 ( 1 - \rho   ^ { 2 } ) G ^ { \prime   \prime   } ( \rho   ) / G ^ { \prime   } ( \rho   ) } { \sqrt   { N } } } + O ( N ^ { - 3 / 2 } ) . }
+G
+{ \displaystyle   \operatorname   { a r c t a n h }   }
+{ \displaystyle   \operatorname   { a r c t a n h }   ( r ) }
+{ \displaystyle   \operatorname   { a r c t a n h }   ( \rho   ) + { \frac   { \rho   } { 2 N } } + O ( N ^ { - 2 } ) }
+{ \displaystyle   { \frac   { 1 } { N } } + { \frac   { 6 - \rho   ^ { 2 } } { 2 N ^ { 2 } } } + O ( N ^ { - 3 } ) }
+\rho  
+{ \displaystyle   { \frac   { z - \operatorname   { a r c t a n h }   ( \rho   ) - { \frac   { \rho   } { 2 N } } } { \sqrt   { { \frac   { 1 } { N } } + { \frac   { 6 - \rho   ^ { 2 } } { 2 N ^ { 2 } } } } } } }

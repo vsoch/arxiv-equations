@@ -1,0 +1,164 @@
+\nu   > 0
+{ \displaystyle   x \in   ( - \infty   , \infty   ) }
+\textstyle \frac { \Gamma   \left ( \frac { \nu + 1 } { 2 }   \right ) }   { \sqrt { \nu \pi } \,\Gamma   \left ( \frac { \nu } { 2 }   \right ) }   \left ( 1 + \frac { x ^ 2 } { \nu }   \right ) ^ { - \frac { \nu + 1 } { 2 } } \ !
+\begin { m a t r i x }             \frac { 1 } { 2 }   +   x   \Gamma   \left (   \frac { \nu + 1 } { 2 }   \right )     \times \\[0 . 5 e m ]             \frac { \,_2F_1   \left   (   \frac { 1 } { 2 } , \frac { \nu + 1 } { 2 } ; \frac { 3 } { 2 } ;                         - \frac { x ^ 2 } { \nu }   \right ) }             { \sqrt { \pi \nu } \,\Gamma   \left ( \frac { \nu } { 2 } \right ) }             \end { m a t r i x }
+\nu   >   1
+\textstyle \frac { \nu } { \nu - 2 }
+\nu   >   2
+1   <   \nu   \le   2
+\nu   >   3
+\textstyle \frac { 6 } { \nu - 4 }
+\nu   >   4
+2   <   \nu   \le   4
+{ \displaystyle   { \begin { m a t r i x } { \frac   { \nu   + 1 } { 2 } } \left [ \psi   \left ( { \frac   { 1 + \nu   } { 2 } } \right ) - \psi   \left ( { \frac   { \nu   } { 2 } } \right ) \right ] \\[0 . 5 e m ] + \ln   { \left [ { \sqrt   { \nu   } } B \left ( { \frac   { \nu   } { 2 } } , { \frac   { 1 } { 2 } } \right ) \right ] } \,{ \scriptstyle   { \text { ( n a t s ) } } } \end { m a t r i x } } }
+\textstyle \frac { K _ { \nu / 2 }   \left ( \sqrt { \nu } | t | \right )                                           \cdot   \left ( \sqrt { \nu } | t |   \right ) ^ { \nu / 2 } }                                           { \Gamma ( \nu / 2 ) 2 ^ { \nu / 2 - 1 } }
+\nu   > 0
+K _ \nu ( x )
+\nu = n - 1
+{ \sqrt   { n } }
+{ \displaystyle   X _ { 1 } , \cdots   , X _ { n } }
+N ( \mu   , \sigma   ^ { 2 } )
+n
+\mu  
+\sigma   ^ { 2 }
+{ \displaystyle   { \bar   { X } } = { \frac   { 1 } { n } } \sum   _ { i = 1 } ^ { n } X _ { i } }
+{ \displaystyle   S ^ { 2 } = { \frac   { 1 } { n - 1 } } \sum   _ { i = 1 } ^ { n } ( X _ { i } - { \bar   { X } } ) ^ { 2 } }
+{ \displaystyle   { \frac   { { \bar   { X } } - \mu   } { \sigma   / { \sqrt   { n } } } } }
+{ \displaystyle   { \frac   { { \bar   { X } } - \mu   } { S / { \sqrt   { n } } } } }
+S
+\sigma  
+n - 1
+f ( t )   =   \frac { \Gamma ( \frac { \nu + 1 } { 2 } ) }   { \sqrt { \nu \pi } \,\Gamma ( \frac { \nu } { 2 } ) }   \left ( 1 + \frac { t ^ 2 } { \nu }   \right ) ^ { \!-\frac { \nu + 1 } { 2 } } , \ !
+\nu  
+\Gamma  
+f ( t )   =   \frac { 1 } { \sqrt { \nu } \,\mathrm { B }   ( \frac { 1 } { 2 } ,   \frac { \nu } { 2 } ) }   \left ( 1 + \frac { t ^ 2 } { \nu }   \right ) ^ { \!-\frac { \nu + 1 } { 2 } } \ ! ,
+  \nu  
+{ \displaystyle   \nu   > 1 }
+{ \displaystyle   { \frac   { \Gamma   ( { \frac   { \nu   + 1 } { 2 } } ) } { { \sqrt   { \nu   \pi   } } \,\Gamma   ( { \frac   { \nu   } { 2 } } ) } } = { \frac   { ( \nu   - 1 ) ( \nu   - 3 ) \cdots   5 \cdot   3 } { 2 { \sqrt   { \nu   } } ( \nu   - 2 ) ( \nu   - 4 ) \cdots   4 \cdot   2 \,}}\cdot   }
+{ \displaystyle   \nu   > 1 }
+{ \displaystyle   { \frac   { \Gamma   ( { \frac   { \nu   + 1 } { 2 } } ) } { { \sqrt   { \nu   \pi   } } \,\Gamma   ( { \frac   { \nu   } { 2 } } ) } } = { \frac   { ( \nu   - 1 ) ( \nu   - 3 ) \cdots   4 \cdot   2 } { \pi   { \sqrt   { \nu   } } ( \nu   - 2 ) ( \nu   - 4 ) \cdots   5 \cdot   3 \,}}\cdot   \ ! }
+{ \nu   }
+\nu  
+\nu  
+{ \displaystyle   F ( t ) = \int   _ { - \infty   } ^ { t } f ( u ) \,du = 1 - { \tfrac   { 1 } { 2 } } I _ { x ( t ) } \left ( { \tfrac   { \nu   } { 2 } } , { \tfrac   { 1 } { 2 } } \right ) , }
+x ( t )   =   \frac { \nu } { { t ^ 2 + \nu } } .
+t ^ 2   <   \nu
+{ \displaystyle   \int   _ { - \infty   } ^ { t } f ( u ) \,du = { \tfrac   { 1 } { 2 } } + t { \frac   { \Gamma   \left ( { \tfrac   { 1 } { 2 } } ( \nu   + 1 ) \right ) } { { \sqrt   { \pi   \nu   } } \,\Gamma   \left ( { \tfrac   { \nu   } { 2 } } \right ) } } \,{ } _ { 2 } F _ { 1 } \left ( { \tfrac   { 1 } { 2 } } , { \tfrac   { 1 } { 2 } } ( \nu   + 1 ) ; { \tfrac   { 3 } { 2 } } ; - { \tfrac   { t ^ { 2 } } { \nu   } } \right ) , }
+\nu  
+\nu   =   1
+F ( t )   =   \tfrac { 1 } { 2 }   +   \tfrac { 1 } { \pi } \arctan ( t ) .
+f ( t )   =     \frac { 1 } { \pi   ( 1 + t ^ 2 ) } .
+\nu   =   2
+F ( t )   =   \tfrac { 1 } { 2 } + \frac { t } { 2 \sqrt { 2 + t ^ 2 } } .
+f ( t )   =   \frac { 1 } { \left ( 2 + t ^ 2 \right ) ^ { \frac { 3 } { 2 } } } .
+\nu   =   3
+f ( t )   =   \frac { 6 \sqrt { 3 } } { \pi \left ( 3 + t ^ 2 \right ) ^ 2 } .
+\nu   =   \infty
+f ( t )   =   \frac { 1 } { \sqrt { 2 \pi } }   e ^ { - \frac { t ^ 2 } { 2 } } .
+x _ 1 ,   \cdots ,   x _ n
+\mu  
+{ \displaystyle   { \begin { a l i g n e d } { \bar   { x } } & = { \frac   { x _ { 1 } + \cdots   + x _ { n } } { n } } , \\s ^ { 2 } & = { \frac   { 1 } { n - 1 } } \sum   _ { i = 1 } ^ { n } ( x _ { i } - { \bar   { x } } ) ^ { 2 } . \end { a l i g n e d } } }
+  t   =   \frac { \bar { x }   -   \mu } { s / \sqrt { n } } .  
+n - 1
+{ \displaystyle   ( \mu   , \sigma   ^ { 2 } ) }
+\mu  
+\sigma   ^ { 2 }
+{ \displaystyle   { \begin { a l i g n e d } p ( \mu   \mid   D , I ) = & \int   p ( \mu   , \sigma   ^ { 2 } \mid   D , I ) \,d \sigma   ^ { 2 } \\=&\int   p ( \mu   \mid   D , \sigma   ^ { 2 } , I ) \,p ( \sigma   ^ { 2 } \mid   D , I ) \,d \sigma   ^ { 2 } , \end { a l i g n e d } } }
+D
+\{ x _ i \ }
+I
+\mu  
+\sigma   ^ { 2 }
+\sigma   ^ { 2 }
+n
+{ \displaystyle   p ( \mu   \mid   \sigma   ^ { 2 } , I ) = { \text { c o n s t } } }
+{ \displaystyle   p ( \sigma   ^ { 2 } \mid   I ) \propto   1 / \sigma   ^ { 2 } }
+{ \displaystyle   { \begin { a l i g n e d } p ( \mu   \mid   D , \sigma   ^ { 2 } , I ) & \sim   N ( { \bar   { x } } , \sigma   ^ { 2 } / n ) , \\p ( \sigma   ^ { 2 } \mid   D , I ) & \sim   \operatorname   { S c a l e - i n v - }   \chi   ^ { 2 } ( \nu   , s ^ { 2 } ) , \end { a l i g n e d } } }
+\nu   =   n   -   1
+s ^ { 2 } = \sum   { \frac     { ( x _ { i } - { \bar     { x } } ) ^ { 2 } } { n - 1 } } .
+{ \displaystyle   { \begin { a l i g n e d } p ( \mu   \mid   D , I ) & \propto   \int   _ { 0 } ^ { \infty   } { \frac   { 1 } { \sqrt   { \sigma   ^ { 2 } } } } \exp   \left ( - { \frac   { 1 } { 2 \sigma   ^ { 2 } } } n ( \mu   - { \bar   { x } } ) ^ { 2 } \right ) \cdot   \sigma   ^ { - \nu   - 2 } \exp ( - \nu   s ^ { 2 } / 2 \sigma   ^ { 2 } ) \,d \sigma   ^ { 2 } \\&\propto   \int   _ { 0 } ^ { \infty   } \sigma   ^ { - \nu   - 3 } \exp   \left ( - { \frac   { 1 } { 2 \sigma   ^ { 2 } } } \left ( n ( \mu   - { \bar   { x } } ) ^ { 2 } + \nu   s ^ { 2 } \right ) \right ) \,d \sigma   ^ { 2 } . \end { a l i g n e d } } }
+{ \displaystyle   z = A / 2 \sigma   ^ { 2 } }
+{ \displaystyle   A = n ( \mu   - { \bar   { x } } ) ^ { 2 } + \nu   s ^ { 2 } }
+{ \displaystyle   d z = - { \frac   { A } { 2 \sigma   ^ { 4 } } } \,d \sigma   ^ { 2 } , }
+{ \displaystyle   p ( \mu   \mid   D , I ) \propto   A ^ { - { \frac   { \nu   + 1 } { 2 } } } \int   _ { 0 } ^ { \infty   } z ^ { ( \nu   - 1 ) / 2 } \exp ( - z ) \,dz . }
+{ \displaystyle   { \begin { a l i g n e d } p ( \mu   \mid   D , I ) & \propto   A ^ { - { \frac   { \nu   + 1 } { 2 } } } \\&\propto   \left ( 1 + { \frac   { n ( \mu   - { \bar   { x } } ) ^ { 2 } } { \nu   s ^ { 2 } } } \right ) ^ { - { \frac   { \nu   + 1 } { 2 } } } . \end { a l i g n e d } } }
+{ \displaystyle   t = { \frac   { \mu   - { \bar   { x } } } { s / { \sqrt   { n } } } } . }
+\mu  
+\sigma   ^ { 2 }
+{ \displaystyle   P ( \mu   \vert   D , I ) }
+{ \displaystyle   { \frac   { s ^ { 2 } } { n } } }
+\nu  
+{ \displaystyle   T = { \frac   { Z } { \sqrt   { V / \nu   } } } = Z { \sqrt   { \frac   { \nu   } { V } } } , }
+\nu  
+( Z + \mu ) \sqrt { \frac { \nu } { V } } .
+\overline { X } _ n   =   \frac { 1 } { n } ( X _ 1 + \cdots + X _ n )
+{ \displaystyle   S _ { n } ^ { 2 } = { \frac   { 1 } { n - 1 } } \sum   _ { i = 1 } ^ { n } \left ( X _ { i } - { \overline   { X } } _ { n } \right ) ^ { 2 } }
+V   =   ( n - 1 ) \frac { S _ n ^ 2 } { \sigma ^ 2 }  
+\nu   =   n   -   1
+{ \displaystyle   Z = \left ( { \overline   { X } } _ { n } - \mu   \right ) { \frac   { \sqrt   { n } } { \sigma   } } }
+{ \overline   { X } } _ { n }
+{ \displaystyle   T \equiv   { \frac   { Z } { \sqrt   { V / \nu   } } } = \left ( { \overline   { X } } _ { n } - \mu   \right ) { \frac   { \sqrt   { n } } { S _ { n } } } , }
+\nu  
+\nu  
+E ( \ln ( \nu + X ^ 2 ) )
+\nu   >   1
+E ( T ^ k ) = \begin { c a s e s }   0   &   k   \text {   o d d } , \quad   0 < k <   \nu \\ \frac { 1 } { \sqrt { \pi } \Gamma \left ( \frac { \nu } { 2 } \right ) } \left [ \Gamma \left ( \frac { k + 1 } { 2 } \right ) \Gamma \left ( \frac { \nu - k } { 2 } \right ) \nu ^ { \frac { k } { 2 } } \right ]   &   k   \text {   e v e n } ,   \quad   0 < k <   \nu . \\ \end { c a s e s }
+\nu  
+0   <   k   <   \nu
+E ( T ^ k ) =   \nu ^ { \frac { k } { 2 } }   \, \prod_ { i = 1 } ^ { \frac { k } { 2 } }   \frac { 2 i - 1 } { \nu   -   2 i }   \qquad   k \text {   e v e n } , \quad   0 < k < \nu .  
+\nu  
+{ \displaystyle   \nu   > 1 }
+\frac { \nu } { \nu - 2 }
+\nu > 2
+\nu   >   3
+\frac { 6 } { \nu - 4 }
+\nu   >   4
+A ( t | \nu )   =   F _ \nu ( t )   -   F _ \nu ( - t )   =   1   -   I _ { \frac { \nu } { \nu   + t ^ 2 } } \left ( \frac { \nu } { 2 } , \frac { 1 } { 2 } \right ) ,
+\mu  
+\sigma  
+X   =   \mu   +   \sigma   T
+T     =   \frac { X   -   \mu } {   \sigma }  
+\frac { x   -   \mu } {   \sigma }  
+\nu  
+p ( x \mid   \nu   , \mu   , \sigma   ) = { \frac     { \Gamma   ( { \frac     { \nu   + 1 } { 2 } } ) } { \Gamma   ( { \frac     { \nu   } { 2 } } ) { \sqrt     { \pi   \nu   } } \sigma   } } \left ( 1 + { \frac     { 1 } { \nu   } } \left ( { \frac     { x - \mu   } { \sigma   } } \right ) ^ { 2 } \right ) ^ { { - { \frac     { \nu   + 1 } { 2 } } } }
+\sigma  
+\sigma  
+\mu  
+\sigma  
+\scriptstyle { s / \sqrt { n } }
+s ^ { 2 } = \sum   { \frac     { ( x _ { i } - { \bar     { x } } ) ^ { 2 } } { n - 1 } } .
+\sigma   ^ { 2 }
+p ( x \mid   \nu   , \mu   , \sigma   ^ { 2 } ) = { \frac     { \Gamma   ( { \frac     { \nu   + 1 } { 2 } } ) } { \Gamma   ( { \frac     { \nu   } { 2 } } ) { \sqrt     { \pi   \nu   \sigma   ^ { 2 } } } } } \left ( 1 + { \frac     { 1 } { \nu   } } { \frac     { ( x - \mu   ) ^ { 2 } } { \sigma   ^ { 2 } } } \right ) ^ { { - { \frac     { \nu   + 1 } { 2 } } } }
+{ \displaystyle   { \begin { a l i g n e d } \operatorname   { E }   ( X ) & = \mu   & { \text { f o r   } } \,\nu   > 1 , \\\operatorname   { v a r }   ( X ) & = \sigma   ^ { 2 } { \frac   { \nu   } { \nu   - 2 } } & { \text { f o r   } } \,\nu   > 2 , \\\operatorname   { m o d e }   ( X ) & = \mu   . \end { a l i g n e d } } }
+\mu  
+a   =   \nu / 2
+b   =   \nu \sigma ^ 2 / 2
+\nu  
+\sigma   ^ { 2 }
+\nu   =   2 a ,   \sigma ^ 2   =   b / a
+\lambda  
+\lambda   =   \frac { 1 } { \sigma ^ 2 }
+p ( x | \nu , \mu , \lambda )   =   \frac { \Gamma ( \frac { \nu   +   1 } { 2 } ) } { \Gamma ( \frac { \nu } { 2 } ) }   \left ( \frac { \lambda } { \pi \nu } \right ) ^ { \frac { 1 } { 2 } }   \left ( 1 + \frac { \lambda ( x - \mu ) ^ 2 } { \nu } \right ) ^ { - \frac { \nu + 1 } { 2 } } .
+{ \displaystyle   { \begin { a l i g n e d } \operatorname   { E }   ( X ) & = \mu   & & { \text { f o r   } } \,\nu   > 1 , \\[5pt ] \operatorname   { v a r }   ( X ) & = { \frac   { 1 } { \lambda   } } { \frac   { \nu   } { \nu   - 2 } } \,&&{ \text { f o r   } } \,\nu   > 2 , \\[5pt ] \operatorname   { m o d e }   ( X ) & = \mu   . \end { a l i g n e d } } }
+\mu  
+a   =   \nu / 2
+b   =   \nu / ( 2 \lambda )
+X
+\nu  
+{ \displaystyle   X ^ { 2 } \sim   \mathrm   { F }   ( \nu   _ { 1 } = 1 , \nu   _ { 2 } = \nu   ) }
+X
+\nu  
+{ \displaystyle   { \frac   { \nu   } { \nu   + X ^ { 2 } } } \sim   \mathrm   { B }   ( { \frac   { 1 } { 2 } } , { \frac   { \nu   } { 2 } } ) }
+  \prod_ { j = 1 } ^ k   \frac { 1 } { ( r + j + a ) ^ 2 + b ^ 2 }     \quad   \quad   r = \ldots ,   - 1 ,   0 ,   1 ,   \ldots     .
+\Pr ( - A   <   T   <   A ) = 0 . 9 ,
+\Pr ( T   <   A )   =   0 . 9 5 ,
+  A = t _ { ( 0 . 0 5 , n - 1 ) }
+\Pr   \left   ( - A   <   \frac { \overline { X } _ n   -   \mu } { \frac { S _ n } { \sqrt { n } } }   <   A   \right ) = 0 . 9 ,
+\Pr \left ( \overline { X } _ n   -   A   \frac { S _ n } { \sqrt { n } }   <   \mu   <   \overline { X } _ n   +   A \frac { S _ n } { \sqrt { n } } \right )   =   0 . 9 .
+\overline { X } _ n \pm   A \frac { S _ n } { \sqrt { n } }
+{ \displaystyle   \mathrm   { U C L }   _ { 1 - \alpha   } = { \overline   { X } } _ { n } + t _ { \alpha   , n - 1 } { \frac   { S _ { n } } { \sqrt   { n } } } . }
+{ \overline   { X } } _ { n }
+{ \displaystyle   { \overline   { X } } _ { n } \pm   A { \frac   { S _ { n } } { \sqrt   { n } } } , }
+{ \displaystyle   1 0 + 1 . 3 7 2 1 8 { \frac   { \sqrt   { 2 } } { \sqrt   { 1 1 } } } = 1 0 . 5 8 5 1 0 . }
+{ \displaystyle   1 0 - 1 . 3 7 2 1 8 { \frac   { \sqrt   { 2 } } { \sqrt   { 1 1 } } } = 9 . 4 1 4 9 0 . }
+{ \displaystyle   \left ( 1 0 - 1 . 3 7 2 1 8 { \frac   { \sqrt   { 2 } } { \sqrt   { 1 1 } } } , 1 0 + 1 . 3 7 2 1 8 { \frac   { \sqrt   { 2 } } { \sqrt   { 1 1 } } } \right ) = ( 9 . 4 1 4 9 0 , 1 0 . 5 8 5 1 0 ) . }

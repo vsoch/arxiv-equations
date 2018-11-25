@@ -1,1 +1,0 @@
-{ \displaystyle   W = \sum   _ { j = 1 } ^ { J } n _ { j } V _ { j } \ , , }

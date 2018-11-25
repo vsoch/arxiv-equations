@@ -1,0 +1,55 @@
+  P ( x , p ) ~ \stackrel { \mathrm { d e f } } { = } ~ \frac { 1 } { \pi \hbar } \int_ { - \infty } ^ \infty   \psi ^ * ( x + y ) \psi ( x - y ) e ^ { 2 i p y / \hbar } \,dy \ ,
+  P ( x , p ) = \frac { 1 } { \pi \hbar } \int_ { - \infty } ^ \infty   \varphi ^ * ( p + q ) \varphi ( p - q ) e ^ { - 2 i x q / \hbar } \,dq
+  P ( \vec { r } , \vec { p } )   =   \frac { 1 } { ( 2   \pi ) ^ 3 }   \int   \psi ^ * ( \vec { r }   +   \hbar \vec { s } / 2 )   \psi   ( \vec { r }   -   \hbar \vec { s } / 2 )   e ^ { i \vec { p }   \cdot   \vec { s } }   \, d ^ 3   s .  
+  P ( x , p ) = \frac { 1 } { \pi \hbar } \int_ { - \infty } ^ \infty   \langle   x + y |   \hat { \rho }   | x - y   \rangle   e ^ { - 2 i p y / \hbar } \,dy ,    
+\langle     \hat { G }     \rangle   = \int \! dx   \,dp ~   P ( x , p ) ~   g ( x , p )       ~ .    
+\int_ { - \infty } ^ \infty   d p \,P ( x , p ) = \langle   x | \hat { \rho } | x   \rangle .
+\int_ { - \infty } ^ \infty   d p \,P ( x , p ) =   | \psi ( x ) | ^ 2
+\int_ { - \infty } ^ \infty   d x \,P ( x , p ) = \langle   p | \hat { \rho } | p   \rangle
+\int_ { - \infty } ^ { \infty } d x \,P ( x , p ) = | \varphi ( p ) | ^ 2
+\int_ { - \infty } ^ \infty   d x \int_ { - \infty } ^ \infty   d p \,P ( x , p ) = T r ( \hat { \rho } )
+\psi ( x )   \rightarrow   \psi ( x ) ^ *   \Rightarrow   P ( x , p )   \rightarrow   P ( x , - p )
+\psi ( x )   \rightarrow   \psi ( - x )   \Rightarrow   P ( x , p )   \rightarrow   P ( - x , - p )
+\psi ( x )   \rightarrow   \psi ( x + y )   \Rightarrow   P ( x , p )   \rightarrow   P ( x + y , p )
+\frac { \partial   P ( x , p ) } { \partial   t } = \frac { - p } { m } \frac { \partial   P ( x , p ) } { \partial   x }
+| \langle   \psi | \theta   \rangle | ^ 2 = 2 \pi \hbar \int_ { - \infty } ^ { \infty } d x \,\int_ { - \infty } ^ \infty   d p \,P_ { \psi } ( x , p ) P _ { \theta } ( x , p )
+g ( x , p ) \equiv \int_ { - \infty } ^ \infty   d y \, \langle   x - y / 2 |   \hat { G }   | x + y / 2   \rangle   e ^ { i p y / \hbar } ,
+\langle   \psi | \hat { G } | \psi \rangle = T r ( \hat { \rho } \hat { G } ) = \int_ { - \infty } ^ \infty   d x \, \int_ { - \infty } ^ \infty   d p   P ( x , p ) g ( x , p ) .  
+\int_ { - \infty } ^ \infty   d x \, \int_ { - \infty } ^ \infty   d p \, P ( x , p ) P _ \theta ( x , p )   \ge   0   ~ ,
+  - \frac   2   h   \leq   P ( x , p )     \leq   \frac   2   h .
+{ \displaystyle   g ( x , p ) = \int   _ { - \infty   } ^ { \infty   } d s ~ e ^ { i p s / \hbar   } \left . \left \langle   x - { \frac   { s } { 2 } } \right . \right | \ { \hat   { G } } \ \left . \left | x + { \frac   { s } { 2 } } \right . \right \rangle   . }
+{ \displaystyle   \langle   x | \ { \hat   { G } } \ |y \rangle   = \int   _ { - \infty   } ^ { \infty   } { d p   \over   h } ~ e ^ { i p ( x - y ) / \hbar   } g \left ( { x + y   \over   2 } , p \right ) , }
+{ \partial   P ( x , p , t )   \over   \partial   t }   =   -   \{ \{   P ( x , p   , t )   ~ , ~   H ( x , p ) \ } \ } ~ ,
+  P ( x , p , t )   =   P ( \star   ( x _ { - t } ( x , p ) , p _ { - t } ( x , p ) ) , 0 )
+x _ { t } ( x , p )
+p _ { t } ( x , p )
+x _ { t = 0 } ( x , p )   =   x
+p _ { t = 0 } ( x , p ) = p
+\star  
+\star  
+U   ( x )   =   2 0   (   1   -   e ^ { - 0 . 1 6 x }   ) ^ 2  
+  U   ( x )   =   0 . 1   x ^ 4  
+U ( x )   =   8 e ^ { - 0 . 2 5   x ^ 2 }  
+{ \displaystyle   P ( x , p ) \geq   0 }
+x
+p
+{ \displaystyle   \psi   ( x ) = e ^ { - a x ^ { 2 } + b x + c } }
+a , b , c
+{ \displaystyle   \mathrm   { R e }   ( a ) > 0 }
+a
+\psi  
+{ \displaystyle   \psi   ( x ) = e ^ { - ( x , A x ) + b \cdot   x + c } }
+A
+b
+c
+\psi  
+\psi  
+\psi  
+{ \displaystyle   F ( x + i p ) }
+\psi  
+{ \displaystyle   F ( x + i p ) = e ^ { g ( x + i p ) } }
+g
+F
+F
+g
+g

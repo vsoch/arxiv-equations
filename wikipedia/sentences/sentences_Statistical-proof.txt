@@ -1,9 +1,0 @@
-{ \bigg   \{ } \Pr ( h ) \geqq   0 { \bigg   \ } }
-{ \bigg   \{ } \Pr ( t ) = 1 { \bigg   \ } }
-{ \bigg   \{ } \Pr   \left ( h _ { 1 } \right ) + \Pr   \left ( h _ { 2 } \right ) = \Pr   \left ( h _ { 1 } o r h _ { 2 } \right ) { \bigg   \ } }
-{ \Bigg   \{ } \Pr ( h _ { 1 } | h _ { 2 } ) { \Bigg   \ } }
-{ \bigg   \{ } \Pr ( h _ { 1 } \And   h _ { 2 } ) { \bigg   \ } }
-{ \bigg   \{ } \Pr ( h _ { 2 } ) { \bigg   \ } }
-{ \bigg   \{ } { \frac     { \Pr ( h _ { 1 } | h _ { 2 } ) = \Pr ( h _ { 1 } \And   h _ { 2 } ) } { \Pr ( h _ { 2 } ) } } { \bigg   \ } }
-{ \bigg   \{ } \Pr ( h _ { 2 } ) > 0 { \bigg   \ } }
-P r [ P a r a m e t e r | D a t a ] = { \frac     { P r [ D a t a | P a r a m e t e r ] \times   P r [ P a r a m e t e r ] } { P r [ D a t a ] } }

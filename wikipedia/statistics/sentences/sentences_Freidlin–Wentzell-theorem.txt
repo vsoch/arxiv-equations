@@ -1,0 +1,4 @@
+{ \displaystyle   { \begin { c a s e s } d X _ { t } ^ { \varepsilon   } = b ( X _ { t } ^ { \varepsilon   } ) \,dt + { \sqrt   { \varepsilon   } } \,dB_ { t } , \\X_ { 0 } ^ { \varepsilon   } = 0 , \end { c a s e s } } }
+{ \displaystyle   I ( \omega   ) = { \frac   { 1 } { 2 } } \int   _ { 0 } ^ { T } | { \dot   { \omega   } } _ { t } - b ( \omega   _ { t } ) | ^ { 2 } \,dt }
+{ \displaystyle   \limsup   _ { \varepsilon   \downarrow   0 } { \big   ( } \varepsilon   \log   \mathbf   { P }   { \big   [ } X ^ { \varepsilon   } \in   F { \big   ] } { \big   ) } \leq   - \inf   _ { \omega   \in   F } I ( \omega   ) }
+{ \displaystyle   \liminf   _ { \varepsilon   \downarrow   0 } { \big   ( } \varepsilon   \log   \mathbf   { P }   { \big   [ } X ^ { \varepsilon   } \in   G { \big   ] } { \big   ) } \geq   - \inf   _ { \omega   \in   G } I ( \omega   ) . }

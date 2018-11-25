@@ -1,0 +1,46 @@
+{ \displaystyle   s = { \sqrt   { \frac   { \sum   _ { i = 1 } ^ { n } ( x _ { i } - { \overline   { x } } ) ^ { 2 } } { n - 1 } } } , }
+\{ x _ { 1 } , x _ { 2 } , \ldots   , x _ { n } \ }
+{ \overline   { x } }
+{ \displaystyle   ( n - 1 ) s ^ { 2 } / \sigma   ^ { 2 } }
+{ \displaystyle   { \sqrt   { n - 1 } } s / \sigma   }
+{ \displaystyle   \operatorname   { E }   [ s ] = c _ { 4 } ( n ) \sigma   }
+\mu   _ { 1 } ( n - 1 ) / { \sqrt   { n - 1 } } .
+{ \displaystyle   c _ { 4 } ( n ) = { \sqrt   { \frac   { 2 } { n - 1 } } } { \frac   { \Gamma   \left ( { \frac   { n } { 2 } } \right ) } { \Gamma   \left ( { \frac   { n - 1 } { 2 } } \right ) } } = 1 - { \frac   { 1 } { 4 n } } - { \frac   { 7 } { 3 2 n ^ { 2 } } } - { \frac   { 1 9 } { 1 2 8 n ^ { 3 } } } + O ( n ^ { - 4 } ) }
+{ \sqrt   { \frac   { 2 } { \pi   } } }
+{ \frac   { \sqrt   { \pi   } } { 2 } }
+{ \displaystyle   2 { \sqrt   { \frac   { 2 } { 3 \pi   } } } }
+{ \displaystyle   { \frac   { 3 } { 4 } } { \sqrt   { \frac   { \pi   } { 2 } } } }
+{ \displaystyle   { \frac   { 8 } { 3 } } { \sqrt   { \frac   { 2 } { 5 \pi   } } } }
+{ \frac   { 5 { \sqrt   { 3 \pi   } } } { 1 6 } }
+{ \displaystyle   { \frac   { 1 6 } { 5 } } { \sqrt   { \frac   { 2 } { 7 \pi   } } } }
+{ \frac   { 3 5 { \sqrt   { \pi   } } } { 6 4 } }
+{ \displaystyle   { \frac   { 1 2 8 } { 1 0 5 } } { \sqrt   { \frac   { 2 } { \pi   } } } }
+{ \displaystyle   { \sqrt   { \frac   { 2 } { \pi   ( 2 k - 1 ) } } } { \frac   { 2 ^ { 2 k - 2 } ( k - 1 ) ! ^ { 2 } } { ( 2 k - 2 ) ! } } }
+{ \displaystyle   { \sqrt   { \frac   { \pi   } { k } } } { \frac   { ( 2 k - 1 ) ! } { 2 ^ { 2 k - 1 } ( k - 1 ) ! ^ { 2 } } } }
+\sigma   { \sqrt   { 1 - c _ { 4 } ^ { 2 } } }
+\sigma   { \sqrt   { c _ { 4 } ^ { - 2 } - 1 } } .
+{ \displaystyle   { \hat   { \sigma   } } = { \sqrt   { { \frac   { 1 } { n - 1 . 5 } } \sum   _ { i = 1 } ^ { n } ( x _ { i } - { \overline   { x } } ) ^ { 2 } } } }
+{ \displaystyle   \operatorname   { E }   \left [ { \hat   { \sigma   } } \right ] = \sigma   \cdot   \left ( 1 + { \frac   { 1 } { 1 6 n ^ { 2 } } } + { \frac   { 3 } { 1 6 n ^ { 3 } } } + O ( n ^ { - 4 } ) \right ) . }
+{ \displaystyle   { \hat   { \sigma   } } = { \sqrt   { { \frac   { 1 } { n - 1 . 5 - { \tfrac   { 1 } { 4 } } \gamma   _ { 2 } } } \sum   _ { i = 1 } ^ { n } \left ( x _ { i } - { \overline   { x } } \right ) ^ { 2 } } } , }
+{ \displaystyle   { \rm   { E } } \left [ s ^ { 2 } \right ] = \sigma   ^ { 2 } \left [ 1 - { \frac   { 2 } { n - 1 } } \sum   _ { k = 1 } ^ { n - 1 } \left ( 1 - { \frac   { k } { n } } \right ) \rho   _ { k } \right ] }
+\rho   _ { k }
+s ^ { 2 }
+{ \displaystyle   \rho   _ { k } = ( 1 - \alpha   ) ^ { k } }
+{ \displaystyle   { \rm   { V R R } } = { \frac   { \alpha   } { 2 - \alpha   } } }
+{ \displaystyle   { \rm   { V a r } } \left [ { \overline   { x } } \right ] = { \frac   { \sigma   ^ { 2 } } { n } } \left [ 1 + 2 \sum   _ { k = 1 } ^ { n - 1 } { \left ( 1 - { \frac   { k } { n } } \right ) \rho   _ { k } } \right ] . }
+{ \displaystyle   \gamma   _ { 1 } \equiv   1 - { \frac   { 2 } { n - 1 } } \sum   _ { k = 1 } ^ { n - 1 } { \left ( 1 - { \frac   { k } { n } } \right ) } \rho   _ { k } }
+{ \displaystyle   \gamma   _ { 2 } \equiv   1 + 2 \sum   _ { k = 1 } ^ { n - 1 } { \left ( 1 - { \frac   { k } { n } } \right ) } \rho   _ { k } }
+{ \displaystyle   { \rm   { E } } \left [ s ^ { 2 } \right ] = \sigma   ^ { 2 } \gamma   _ { 1 } \Rightarrow   { \rm   { E } } \left [ { \frac   { s ^ { 2 } } { \gamma   _ { 1 } } } \right ] = \sigma   ^ { 2 } }
+\gamma   _ { 1 }
+{ \displaystyle   { \rm   { V a r } } \left [ { \overline   { x } } \right ] = { \frac   { \sigma   ^ { 2 } } { n } } \gamma   _ { 2 } }
+\sigma   ^ { 2 }
+{ \displaystyle   { \rm   { V a r } } \left [ { \overline   { x } } \right ] = { \rm   { E } } \left [ { \frac   { s ^ { 2 } } { \gamma   _ { 1 } } } \left ( { \frac   { \gamma   _ { 2 } } { n } } \right ) \right ] = { \rm   { E } } \left [ { \frac   { s ^ { 2 } } { n } } \left \{ { \frac   { n - 1 } { { \frac   { n } { \gamma   _ { 2 } } } - 1 } } \right \}\right ] }
+\rho   _ { k }
+{ \displaystyle   { \rm   { E } } [ s ] \neq   { \sqrt   { { \rm   { E } } \left [ s ^ { 2 } \right ] } } \neq   \sigma   { \sqrt   { \gamma   _ { 1 } } } }
+{ \displaystyle   { \rm   { E } } [ s ] = \sigma   \theta   { \sqrt   { \gamma   _ { 1 } } } \Rightarrow   { \hat   { \sigma   } } = { \frac   { s } { \theta   { \sqrt   { \gamma   _ { 1 } } } } } }
+{ \displaystyle   { \rm   { E } } [ s ] \approx   \sigma   { \sqrt   { \gamma   _ { 1 } } } \Rightarrow   { \hat   { \sigma   } } \approx   { \frac   { s } { \sqrt   { \gamma   _ { 1 } } } } }
+{ \displaystyle   { \rm   { V a r } } \left [ { \overline   { x } } \right ] = { \frac   { \sigma   ^ { 2 } } { n } } \gamma   _ { 2 } }
+{ \displaystyle   \sigma   _ { \overline   { x } } = { \frac   { \sigma   } { \sqrt   { n } } } { \sqrt   { \gamma   _ { 2 } } } }
+{ \displaystyle   { \hat   { \sigma   } } _ { \overline   { x } } = { \frac   { s } { \theta   { \sqrt   { n } } } } { \frac   { \sqrt   { \gamma   _ { 2 } } } { \sqrt   { \gamma   _ { 1 } } } } }
+{ \displaystyle   { \hat   { \sigma   } } _ { \overline   { x } } = { \frac   { s } { c _ { 4 } { \sqrt   { n } } } } }
+{ \displaystyle   { \hat   { \sigma   } } _ { \overline   { x } } \approx   { \frac   { s } { \sqrt   { n } } } { \frac   { \sqrt   { \gamma   _ { 2 } } } { \sqrt   { \gamma   _ { 1 } } } } = { \frac   { s } { \sqrt   { n } } } { \sqrt   { \frac   { n - 1 } { { \frac   { n } { \gamma   _ { 1 } } } - 1 } } } }

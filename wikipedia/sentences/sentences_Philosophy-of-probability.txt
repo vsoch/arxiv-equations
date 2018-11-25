@@ -1,6 +1,0 @@
-P ( A ) = { N _ { A }   \over   N }
-\textstyle   n _ { a }
-{ \mathcal   { A } }
-  \textstyle   n
-{ \displaystyle   \lim   _ { n \to   + \infty   } { n _ { a }   \over   n } = p }
-\textstyle   P ( { \mathcal     { A } } ) = p

@@ -1,0 +1,8 @@
+  X _ { t } = \Lambda_ { t } F _ { t } + e _ { t } ,
+F _ { t } = ( f ^ { \top } _ { t } , \dots , f ^ { \top } _ { t - q } )
+T   \times   N
+X _ { { t } }
+\Lambda_ { t }
+e _ { t }
+f _ { t }
+X _ { { t } }

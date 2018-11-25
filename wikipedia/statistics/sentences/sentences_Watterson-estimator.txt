@@ -1,0 +1,13 @@
+\theta   = 4 N _ { e } \mu  
+N _ e
+\mu  
+n
+n \ll   N _ { e }
+a _ { n }
+\theta  
+{ { \hat     \theta   } _ { w } }
+{ { \hat     \theta   } _ { w } } = { K   \over   a _ { n } } ,
+K
+a _ { n } = \sum   _ { { i = 1 } } ^ { { n - 1 } } { 1   \over   i }
+( n - 1 )
+{ { \hat     \theta   } _ { w } }

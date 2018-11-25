@@ -1,0 +1,21 @@
+g ( y ) \approx   \int   _ { { - \infty   } } ^ { \infty   } \exp ( - 2 \pi   i x y ) f ( x ) \,dx , \qquad   f ( x ) \approx   \int   _ { { - \infty   } } ^ { \infty   } \exp ( 2 \pi   i x y ) g ( y ) \,dy ~ ,
+\int   _ { { - \infty   } } ^ { \infty   } | f ( x ) | ^ { 2 } \,dx = \int   _ { { - \infty   } } ^ { \infty   } | g ( y ) | ^ { 2 } \,dy = 1 ~ .
+H ( | f | ^ { 2 } ) + H ( | g | ^ { 2 } ) \equiv   - \int   _ { { - \infty   } } ^ { \infty   } | f ( x ) | ^ { 2 } \log   | f ( x ) | ^ { 2 } \,dx - \int   _ { { - \infty   } } ^ { \infty   } | g ( y ) | ^ { 2 } \log   | g ( y ) | ^ { 2 } \,dy \geq   0 .
+H ( | f | ^ { 2 } ) + H ( | g | ^ { 2 } ) \geq   \log   { \frac     e 2 } ~ ,
+\|{ \mathcal     F } \|_ { { q , p } } = \sup   _ { { f \in   L ^ { p } ( { \mathbb     R } ) } } { \frac     { \|{ \mathcal     F } f \|_ { q } } { \|f \|_ { p } } } ,
+1 < p \leq   2 ~ ,
+{ \frac     1 p } + { \frac     1 q } = 1 .
+\|{ \mathcal     F } \|_ { { q , p } } = { \sqrt     { p ^ { { 1 / p } } / q ^ { { 1 / q } } } } .
+\|{ \mathcal     F } f \|_ { q } \leq   \left ( p ^ { { 1 / p } } / q ^ { { 1 / q } } \right ) ^ { { 1 / 2 } } \|f \|_ { p } .
+g = { \mathcal     F } f
+\left ( \int   _ { { { \mathbb     R } } } | g ( y ) | ^ { { 2 \beta   } } \,dy \right ) ^ { { 1 / 2 \beta   } } \leq   { \frac     { ( 2 \alpha   ) ^ { { 1 / 4 \alpha   } } } { ( 2 \beta   ) ^ { { 1 / 4 \beta   } } } } \left ( \int   _ { { { \mathbb     R } } } | f ( x ) | ^ { { 2 \alpha   } } \,dx \right ) ^ { { 1 / 2 \alpha   } } .
+{ \frac     1 \beta   } \log   \left ( \int   _ { { { \mathbb     R } } } | g ( y ) | ^ { { 2 \beta   } } \,dy \right ) \leq   { \frac     1 2 } \log   { \frac     { ( 2 \alpha   ) ^ { { 1 / \alpha   } } } { ( 2 \beta   ) ^ { { 1 / \beta   } } } } + { \frac     1 \alpha   } \log   \left ( \int   _ { { { \mathbb     R } } } | f ( x ) | ^ { { 2 \alpha   } } \,dx \right ) .
+{ \frac     { \beta   } { 1 - \beta   } } = - { \frac     { \alpha   } { 1 - \alpha   } }
+{ \frac     { 1 } { 1 - \beta   } } \log   \left ( \int   _ { { { \mathbb     R } } } | g ( y ) | ^ { { 2 \beta   } } \,dy \right ) \geq   { \frac     \alpha   { 2 ( \alpha   - 1 ) } } \log   { \frac     { ( 2 \alpha   ) ^ { { 1 / \alpha   } } } { ( 2 \beta   ) ^ { { 1 / \beta   } } } } - { \frac     { 1 } { 1 - \alpha   } } \log   \left ( \int   _ { { { \mathbb     R } } } | f ( x ) | ^ { { 2 \alpha   } } \,dx \right ) ~ .
+{ \frac     { 1 } { 1 - \alpha   } } \log   \left ( \int   _ { { { \mathbb     R } } } | f ( x ) | ^ { { 2 \alpha   } } \,dx \right ) + { \frac     { 1 } { 1 - \beta   } } \log   \left ( \int   _ { { { \mathbb     R } } } | g ( y ) | ^ { { 2 \beta   } } \,dy \right ) \geq   { \frac     \alpha   { 2 ( \alpha   - 1 ) } } \log   { \frac     { ( 2 \alpha   ) ^ { { 1 / \alpha   } } } { ( 2 \beta   ) ^ { { 1 / \beta   } } } } ;
+H _ { \alpha   } ( | f | ^ { 2 } ) + H _ { \beta   } ( | g | ^ { 2 } ) \geq   { \frac     1 2 } \left ( { \frac     { \log   \alpha   } { \alpha   - 1 } } + { \frac     { \log   \beta   } { \beta   - 1 } } \right ) - \log   2 ~ .
+H ( | f | ^ { 2 } ) + H ( | g | ^ { 2 } ) \geq   \log   { \frac     e 2 } , \quad   { \textrm     { w h e r e } } \quad   g ( y ) \approx   \int   _ { { { \mathbb     R } } } e ^ { { - 2 \pi   i x y } } f ( x ) \,dx ~ ,
+H ( | f | ^ { 2 } ) + H ( | g | ^ { 2 } ) \geq   \log ( \pi   e ) \quad   { \textrm     { f o r } } \quad   g ( y ) \approx   { \frac     1 { { \sqrt     { 2 \pi   } } } } \int   _ { { { \mathbb     R } } } e ^ { { - i x y } } f ( x ) \,dx ~ .
+H ( \phi   ) \leq   \log   { \sqrt     { 2 \pi   e V ( \phi   ) } } ,
+1 / 2 \leq   \exp ( H ( | f | ^ { 2 } ) + H ( | g | ^ { 2 } ) ) / ( 2 e \pi   ) \leq   { \sqrt     { V ( | f | ^ { 2 } ) V ( | g | ^ { 2 } ) } } ~ .
+\forall   \delta   > 0 , \,\mu   \{ x \in   { \mathbb     R } | \phi   _ { 1 } ( x ) \geq   \delta   \}=\mu   \{ x \in   { \mathbb     R } | \phi   _ { 2 } ( x ) \geq   \delta   \ } ,

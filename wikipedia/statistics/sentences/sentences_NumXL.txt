@@ -1,0 +1,5 @@
+\mathbf   { X }   { \boldsymbol   { \beta   } } = \mu   \ , \ !
+\mathbf   { X }   { \boldsymbol   { \beta   } } = \ln   { \left ( { \frac   { \mu   } { 1 - \mu   } } \right ) } \ , \ !
+\mathbf   { X }   { \boldsymbol   { \beta   } } = \ln   { \left ( { \frac   { \mu   } { 1 - \mu   } } \right ) } \ , \ !
+{ \mathbf     { X } } { \boldsymbol     { \beta   } } = \Phi   ^ { { - 1 } } { \left ( \mu   \right ) } \ , \ !
+{ \mathbf     { X } } { \boldsymbol     { \beta   } } = \ln   { \left ( - \ln   { \left ( 1 - \mu   \right ) } \right ) } \ , \ !

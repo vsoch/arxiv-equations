@@ -1,0 +1,6 @@
+n _ t
+n _ { x }
+x
+P ( x )
+P ( x ) \approx   { \frac     { n _ { x } } { n _ { t } } } .
+P ( x ) = \lim   _ { { n _ { t } \rightarrow   \infty   } } { \frac     { n _ { x } } { n _ { t } } } .

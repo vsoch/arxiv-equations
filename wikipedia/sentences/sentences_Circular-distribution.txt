@@ -1,4 +1,0 @@
-{ \displaystyle   p ( \phi   ) \qquad   \qquad   ( 0 \leq   \phi   < 2 \pi   ) , \ , }
-{ \displaystyle   [ x ( \phi   ) , y ( \phi   ) ] = [ r ( \phi   ) \cos   \phi   , \,r ( \phi   ) \sin   \phi   ] , \ , }
-{ \displaystyle   r ( \phi   ) \ , }
-{ \displaystyle   r ( \phi   ) = a + b p ( \phi   ) , \ , }

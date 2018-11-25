@@ -1,3 +1,0 @@
-{ \displaystyle   ( 1 + 2 + 6 ) / 3 = 3 }
-{ \displaystyle   ( 1 + 2 + 2 + 6 + 6 + 6 + 6 + 6 + 6 ) / 9 = 4 . 5 5 5 }
-{ \displaystyle   \sum   _ { i = 1 } ^ { G } n _ { i } ^ { 2 } / \sum   _ { i = 1 } ^ { G } n _ { i } }

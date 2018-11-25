@@ -1,0 +1,125 @@
+{ \displaystyle   \exp   \!\left ( t \mu   + c ^ { 2 } t ^ { 2 } \right ) }
+\alpha   = 2
+{ \displaystyle   \exp   \!{ \Big   [ } \;it \mu   - | c \,t | ^ { \alpha   } \,( 1 - i \beta   \operatorname   { s g n } ( t ) \Phi   ) \;{ \Big   ] } , }
+{ \displaystyle   \Phi   = { \begin { c a s e s } \tan   { \tfrac   { \pi   \alpha   } { 2 } } & { \text { i f   } } \alpha   \neq   1 \\-{ \tfrac   { 2 } { \pi   } } \log   | c \,t | & { \text { i f   } } \alpha   = 1 \end { c a s e s } } }
+  f ( x ) = \frac { 1 } { 2 \pi } \int_ { - \infty } ^ \infty   \varphi ( t ) e ^ { - i x t } \,dt  
+{ \displaystyle   \varphi   ( t ; \alpha   , \beta   , c , \mu   ) = \exp   \left ( i t \mu   - | c t | ^ { \alpha   } \left ( 1 - i \beta   \operatorname   { s g n } ( t ) \Phi   \right ) \right ) }
+{ \displaystyle   \Phi   = { \begin { c a s e s } \tan   \left ( { \frac   { \pi   \alpha   } { 2 } } \right ) & \alpha   \neq   1 \\-{ \frac   { 2 } { \pi   } } \log   | t | & \alpha   = 1 \end { c a s e s } } }
+{ \displaystyle   \varphi   ( t ; \alpha   , \beta   , \gamma   , \delta   ) = \exp   \left ( i t \delta   - | \gamma   t | ^ { \alpha   } \left ( 1 - i \beta   \operatorname   { s g n } ( t ) \Phi   \right ) \right ) }
+{ \displaystyle   \Phi   = { \begin { c a s e s } \left ( | \gamma   t | ^ { 1 - \alpha   } - 1 \right ) \tan   \left ( { \tfrac   { \pi   \alpha   } { 2 } } \right ) & \alpha   \neq   1 \\-{ \frac   { 2 } { \pi   } } \log   | \gamma   t | & \alpha   = 1 \end { c a s e s } } }
+{ \displaystyle   f ( y ; \alpha   , \beta   , 1 , 0 ) }
+{ \displaystyle   y = { \begin { c a s e s } { \frac   { x - \mu   } { \gamma   } } & \alpha   \neq   1 \\{ \frac   { x - \mu   } { \gamma   } } - \beta   { \frac   { 2 } { \pi   } } \ln   \gamma   & \alpha   = 1 \end { c a s e s } } }
+{ \displaystyle   y = { \frac   { x - \delta   } { \gamma   } } . }
+{ \displaystyle   \delta   - \beta   \gamma   \tan   \left ( { \tfrac   { \pi   \alpha   } { 2 } } \right ) . }
+f ( x ; \alpha   , \beta   , c , \mu   )
+Y   =   \sum_ { i = 1 } ^ N   k _ i   ( X _ i - \mu ) \ ,
+s ^ { { - 1 } } f ( y / s ; \alpha   , \beta   , c , 0 )
+{ \displaystyle   s = \left ( \sum   _ { i = 1 } ^ { N } | k _ { i } | ^ { \alpha   } \right ) ^ { \frac   { 1 } { \alpha   } } . }
+{ \displaystyle   f ( x ) \sim   { \frac   { 1 } { | x | ^ { 1 + \alpha   } } } \left ( c ^ { \alpha   } ( 1 + \operatorname   { s g n } ( x ) \beta   ) \sin   \left ( { \frac   { \pi   \alpha   } { 2 } } \right ) { \frac   { \Gamma   ( \alpha   + 1 ) } { \pi   } } \right ) }
+{ \displaystyle   L _ { \alpha   } ( x ) = f ( x ; \alpha   , 1 , \cos ( { \frac   { \pi   \alpha   } { 2 } } ) ^ { 1 / \alpha   } , 0 ) }
+\alpha   < 1
+{ \displaystyle   Y = \sum   _ { i = 1 } ^ { N } X _ { i } }
+{ \displaystyle   X _ { i } \sim   L _ { \alpha   } ( x ) }
+{ \displaystyle   { \frac   { 1 } { \nu   } } L _ { \alpha   } ( { \frac   { x } { \nu   } } ) }
+{ \displaystyle   \nu   = N ^ { 1 / \alpha   } }
+x = 1
+{ \displaystyle   { \mathfrak   { N } } _ { \alpha   } ( \nu   ) = { \frac   { \alpha   } { \Gamma   ( { \frac   { 1 } { \alpha   } } ) } } { \frac   { 1 } { \nu   } } L _ { \alpha   } ( { \frac   { 1 } { \nu   } } ) }
+\nu   > 0
+\alpha   < 1
+{ \displaystyle   { \mathfrak   { N } } _ { \alpha   } ( \nu   ; \nu   _ { 0 } , \theta   ) = { \frac   { \alpha   } { \Gamma   ( { \frac   { 1 } { \alpha   } } ) } } { \frac   { 1 } { \nu   - \nu   _ { 0 } } } L _ { \alpha   } ( { \frac   { \theta   } { \nu   - \nu   _ { 0 } } } ) }
+{ \displaystyle   \nu   > \nu   _ { 0 } }
+\theta   > 0
+\alpha   < 1
+{ \displaystyle   [ \nu   _ { 0 } , \infty   ) }
+{ \displaystyle   \nu   _ { 0 } }
+{ \displaystyle   \theta   }
+{ \displaystyle   \alpha   = { \frac   { 1 } { 2 } } }
+{ \displaystyle   L _ { \frac   { 1 } { 2 } } ( x ) }
+{ \displaystyle   { \mathfrak   { N } } _ { \frac   { 1 } { 2 } } ( \nu   ; \nu   _ { 0 } , \theta   ) }
+{ \displaystyle   4 \theta   }
+{ \displaystyle   { \mathfrak   { N } } _ { \frac   { 1 } { 2 } } ( \nu   ; \nu   _ { 0 } , \theta   ) = { \frac   { 1 } { 4 { \sqrt   { \pi   } } \theta   ^ { 3 / 2 } } } ( \nu   - \nu   _ { 0 } ) ^ { 1 / 2 } e ^ { - { \frac   { \nu   - \nu   _ { 0 } } { 4 \theta   } } } }
+{ \displaystyle   \nu   > \nu   _ { 0 } }
+\theta   > 0
+{ \displaystyle   \nu   _ { 0 } + 6 \theta   }
+{ \displaystyle   { \sqrt   { 2 4 } } \theta   }
+{ \displaystyle   { \mathfrak   { N } } _ { \frac   { 1 } { 2 } } ( \nu   ; \nu   _ { 0 } , \theta   ) }
+{ \displaystyle   \nu   _ { 0 } = 1 0 . 4 }
+{ \displaystyle   \theta   = 1 . 6 }
+{ \displaystyle   \nu   _ { 0 } }
+{ \displaystyle   \int   _ { 0 } ^ { \infty   } e ^ { - z x } L _ { \alpha   } ( x ) d x = e ^ { - z ^ { \alpha   } } }
+\alpha   < 1
+{ \displaystyle   x = 1 / \nu   }
+{ \displaystyle   \int   _ { 0 } ^ { \infty   } \left ( { \frac   { 1 } { 2 \nu   } } e ^ { - { \frac   { | z | } { \nu   } } } \right ) \left ( { \frac   { \alpha   } { \Gamma   ( { \frac   { 1 } { \alpha   } } ) } } { \frac   { 1 } { \nu   } } L _ { \alpha   } ( { \frac   { 1 } { \nu   } } ) \right ) d \nu   = { \frac   { 1 } { 2 } } { \frac   { \alpha   } { \Gamma   ( { \frac   { 1 } { \alpha   } } ) } } e ^ { - | z | ^ { \alpha   } } }
+\alpha   < 1
+{ \displaystyle   { \mathfrak   { N } } _ { \alpha   } ( \nu   ) }
+{ \displaystyle   - ( n + 1 ) }
+{ \displaystyle   L _ { \alpha   } ( x ) }
+{ \displaystyle   \exp   \left ( i t \mu   _ { 1 } + i t \mu   _ { 2 } - | c _ { 1 } t | ^ { \alpha   } - | c _ { 2 } t | ^ { \alpha   } + i \beta   _ { 1 } | c _ { 1 } t | ^ { \alpha   } \operatorname   { s g n } ( t ) \Phi   + i \beta   _ { 2 } | c _ { 2 } t | ^ { \alpha   } \operatorname   { s g n } ( t ) \Phi   \right ) }
+{ \displaystyle   { \begin { a l i g n e d } \mu   & = \mu   _ { 1 } + \mu   _ { 2 } \\|c | & = \left ( | c _ { 1 } | ^ { \alpha   } + | c _ { 2 } | ^ { \alpha   } \right ) ^ { \frac   { 1 } { \alpha   } } \\[6pt ] \beta   & = { \frac   { \beta   _ { 1 } | c _ { 1 } | ^ { \alpha   } + \beta   _ { 2 } | c _ { 2 } | ^ { \alpha   } } { | c _ { 1 } | ^ { \alpha   } + | c _ { 2 } | ^ { \alpha   } } } \end { a l i g n e d } } }
+{ \displaystyle   | x | ^ { - \alpha   - 1 } }
+{ \displaystyle   0 < \alpha   \leqslant   2 }
+f ( x ; \alpha   , 0 , c , 0 )
+\alpha   > 2
+{ \displaystyle   1 + a | t | ^ { \alpha   } \ln   | t | }
+{ \displaystyle   \varphi   _ { \text { s u m } } = \varphi   ^ { n } = u }
+{ \displaystyle   \ln   u = \lim   _ { n \to   \infty   } n \ln   \varphi   = \lim   _ { n \to   \infty   } n a | t | ^ { \alpha   } \ln   | t | . }
+{ \displaystyle   { \begin { a l i g n e d } \ln ( \ln   u ) & = \ln   \left ( \lim   _ { n \to   \infty   } n a | t | ^ { \alpha   } \ln   | t | \right ) \\[5pt ] & = \lim   _ { n \to   \infty   } \ln   \left ( n a | t | ^ { \alpha   } \ln   | t | \right ) = \lim   _ { n \to   \infty   } \left \{ \ln ( n a ) + \alpha   \ln   | t | + \ln ( \ln   | t | ) \right \}\end { a l i g n e d } } }
+{ \displaystyle   \ln   | t | }
+{ \displaystyle   { \tfrac   { - 1 } { \alpha   } } \ln   n , }
+{ \displaystyle   | t | \sim   \left ( { \frac   { - \alpha   \ln   u } { n a \ln   n } } \right ) ^ { 1 / \alpha   } . }
+{ \displaystyle   \left ( { \frac   { n a \ln   n } { \alpha   } } \right ) ^ { \frac   { 1 } { \alpha   } } }
+{ \displaystyle   t ' = ( - \ln   u ) ^ { \frac   { 1 } { \alpha   } } . }
+{ \displaystyle   \exp ( - ( t ' ) ^ { \alpha   } ) }
+{ \displaystyle   \left ( { \frac   { n a \ln   n } { \alpha   } } \right ) ^ { \frac   { 1 } { \alpha   } } }
+\alpha  
+{ \displaystyle   | x | ^ { - 3 } }
+{ \displaystyle   f ( x ) = { \begin { c a s e s } { \frac   { 1 } { 3 } } & | x | \leqslant   1 \\{ \frac   { 1 } { 3 } } x ^ { - 3 } & | x | > 1 \end { c a s e s } } }
+{ \displaystyle   f ( x ) = \int   _ { 1 } ^ { \infty   } { \frac   { 2 } { w ^ { 4 } } } h \left ( { \frac   { x } { w } } \right ) d w }
+{ \displaystyle   h \left ( { \frac   { x } { w } } \right ) = { \begin { c a s e s } { \frac   { 1 } { 2 } } & \left | { \frac   { x } { w } } \right | < 1 , \\0 & \left | { \frac   { x } { w } } \right | > 1 . \end { c a s e s } } }
+{ \displaystyle   { \tfrac   { 1 } { w } } h \left ( { \tfrac   { x } { w } } \right ) }
+{ \displaystyle   { \tfrac   { \sin ( t w ) } { t w } } , }
+{ \displaystyle   \varphi   ( t ) = \int   _ { 1 } ^ { \infty   } { \frac   { 2 \sin ( t w ) } { t w ^ { 4 } } } d w }
+{ \displaystyle   { \begin { a l i g n e d } \varphi   ( t ) - 1 & = \int   _ { 1 } ^ { \infty   } { \frac   { 2 } { w ^ { 3 } } } \left [ { \frac   { \sin ( t w ) } { t w } } - 1 \right ] \,dw \\&=\int   _ { 1 } ^ { \frac   { 1 } { | t | } } { \frac   { 2 } { w ^ { 3 } } } \left [ { \frac   { \sin ( t w ) } { t w } } - 1 \right ] \,dw + \int   _ { \frac   { 1 } { | t | } } ^ { \infty   } { \frac   { 2 } { w ^ { 3 } } } \left [ { \frac   { \sin ( t w ) } { t w } } - 1 \right ] \,dw \\&=\int   _ { 1 } ^ { \frac   { 1 } { | t | } } { \frac   { 2 } { w ^ { 3 } } } \left [ { \frac   { \sin ( t w ) } { t w } } - 1 + \left \{ - { \frac   { t ^ { 2 } w ^ { 2 } } { 3 ! } } + { \frac   { t ^ { 2 } w ^ { 2 } } { 3 ! } } \right \}\right ] \,dw + \int   _ { \frac   { 1 } { | t | } } ^ { \infty   } { \frac   { 2 } { w ^ { 3 } } } \left [ { \frac   { \sin ( t w ) } { t w } } - 1 \right ] \,dw \\&=\int   _ { 1 } ^ { \frac   { 1 } { | t | } } - { \frac   { t ^ { 2 } d w } { 3 w } } + \int   _ { 1 } ^ { \frac   { 1 } { | t | } } { \frac   { 2 } { w ^ { 3 } } } \left [ { \frac   { \sin ( t w ) } { t w } } - 1 + { \frac   { t ^ { 2 } w ^ { 2 } } { 3 ! } } \right ] d w + \int   _ { \frac   { 1 } { | t | } } ^ { \infty   } { \frac   { 2 } { w ^ { 3 } } } \left [ { \frac   { \sin ( t w ) } { t w } } - 1 \right ] d w \\&=\int   _ { 1 } ^ { \frac   { 1 } { | t | } } - { \frac   { t ^ { 2 } d w } { 3 w } } + \left \{ \int   _ { 0 } ^ { \frac   { 1 } { | t | } } { \frac   { 2 } { w ^ { 3 } } } \left [ { \frac   { \sin ( t w ) } { t w } } - 1 + { \frac   { t ^ { 2 } w ^ { 2 } } { 3 ! } } \right ] d w - \int   _ { 0 } ^ { 1 } { \frac   { 2 } { w ^ { 3 } } } \left [ { \frac   { \sin ( t w ) } { t w } } - 1 + { \frac   { t ^ { 2 } w ^ { 2 } } { 3 ! } } \right ] d w \right \}+\int   _ { \frac   { 1 } { | t | } } ^ { \infty   } { \frac   { 2 } { w ^ { 3 } } } \left [ { \frac   { \sin ( t w ) } { t w } } - 1 \right ] d w \\&=\int   _ { 1 } ^ { \frac   { 1 } { | t | } } - { \frac   { t ^ { 2 } d w } { 3 w } } + t ^ { 2 } \int   _ { 0 } ^ { 1 } { \frac   { 2 } { y ^ { 3 } } } \left [ { \frac   { \sin ( y ) } { y } } - 1 + { \frac   { y ^ { 2 } } { 6 } } \right ] d y - \int   _ { 0 } ^ { 1 } { \frac   { 2 } { w ^ { 3 } } } \left [ { \frac   { \sin ( t w ) } { t w } } - 1 + { \frac   { t ^ { 2 } w ^ { 2 } } { 6 } } \right ] d w + t ^ { 2 } \int   _ { 1 } ^ { \infty   } { \frac   { 2 } { y ^ { 3 } } } \left [ { \frac   { \sin ( y ) } { y } } - 1 \right ] d y \\&=-{ \frac   { t ^ { 2 } } { 3 } } \int   _ { 1 } ^ { \frac   { 1 } { | t | } } { \frac   { d w } { w } } + t ^ { 2 } C _ { 1 } - \int   _ { 0 } ^ { 1 } { \frac   { 2 } { w ^ { 3 } } } \left [ { \frac   { \sin ( t w ) } { t w } } - 1 + { \frac   { t ^ { 2 } w ^ { 2 } } { 6 } } \right ] d w + t ^ { 2 } C _ { 2 } \\&={ \frac   { t ^ { 2 } } { 3 } } \ln   | t | + t ^ { 2 } C _ { 3 } - \int   _ { 0 } ^ { 1 } { \frac   { 2 } { w ^ { 3 } } } \left [ { \frac   { \sin ( t w ) } { t w } } - 1 + { \frac   { t ^ { 2 } w ^ { 2 } } { 6 } } \right ] d w \\&={ \frac   { t ^ { 2 } } { 3 } } \ln   | t | + t ^ { 2 } C _ { 3 } - \int   _ { 0 } ^ { 1 } { \frac   { 2 } { w ^ { 3 } } } \left [ { \frac   { t ^ { 4 } w ^ { 4 } } { 5 ! } } + \cdots   \right ] d w \\&={ \frac   { t ^ { 2 } } { 3 } } \ln   | t | + t ^ { 2 } C _ { 3 } - { \mathcal   { O } } \left ( t ^ { 4 } \right ) \end { a l i g n e d } } }
+C _ { 1 } , C _ { 2 }
+C _ { 3 }
+{ \displaystyle   \varphi   ( t ) \sim   1 + { \frac   { t ^ { 2 } } { 3 } } \ln   | t | }
+{ \displaystyle   { \sqrt   { n ( \ln   n ) / 1 2 } } , }
+f ( x ; \alpha , \beta , c , \mu ) = \frac { 1 } { \pi } \Re \left [   \int_0 ^ \infty   e ^ { i t ( x - \mu ) } e ^ { - ( c t ) ^ \alpha ( 1 - i \beta \Phi ) } \,dt \right ] .
+f ( x ; \alpha , \beta , c , \mu ) = \frac { 1 } { \pi } \Re \left [   \int_0 ^ \infty   e ^ { i t ( x - \mu ) } \sum_ { n = 0 } ^ \infty \frac { ( - q t ^ \alpha ) ^ n } { n ! } \,dt \right ]
+q = c ^ \alpha ( 1 - i \beta \Phi )
+f ( x ; \alpha , \beta , c , \mu ) = \frac { 1 } { \pi } \Re \left [   \sum_ { n = 1 } ^ \infty \frac { ( - q ) ^ n } { n ! } \left ( \frac { i } { x - \mu } \right ) ^ { \alpha   n + 1 } \Gamma ( \alpha   n + 1 ) \right ]
+{ \displaystyle   F ^ { - 1 } ( x ) }
+F ( x )
+U
+{ \displaystyle   \left ( - { \tfrac   { \pi   } { 2 } } , { \tfrac   { \pi   } { 2 } } \right ) }
+W
+{ \displaystyle   \alpha   \neq   1 }
+{ \displaystyle   X = \left ( 1 + \zeta   ^ { 2 } \right ) ^ { \frac   { 1 } { 2 \alpha   } } { \frac   { \sin ( \alpha   ( U + \xi   ) ) } { ( \cos ( U ) ) ^ { \frac   { 1 } { \alpha   } } } } \left ( { \frac   { \cos ( U - \alpha   ( U + \xi   ) ) } { W } } \right ) ^ { \frac   { 1 - \alpha   } { \alpha   } } , }
+\alpha   = 1
+{ \displaystyle   X = { \frac   { 1 } { \xi   } } \left \{ \left ( { \frac   { \pi   } { 2 } } + \beta   U \right ) \tan   U - \beta   \log   \left ( { \frac   { { \frac   { \pi   } { 2 } } W \cos   U } { { \frac   { \pi   } { 2 } } + \beta   U } } \right ) \right \ } , }
+{ \displaystyle   \zeta   = - \beta   \tan   { \frac   { \pi   \alpha   } { 2 } } , \qquad   \xi   = { \begin { c a s e s } { \frac   { 1 } { \alpha   } } \arctan ( - \zeta   ) & \alpha   \neq   1 \\{ \frac   { \pi   } { 2 } } & \alpha   = 1 \end { c a s e s } } }
+{ \displaystyle   X \sim   S _ { \alpha   } ( \beta   , 1 , 0 ) }
+\alpha  
+c
+\beta  
+\mu  
+{ \displaystyle   X \sim   S _ { \alpha   } ( \beta   , 1 , 0 ) }
+{ \displaystyle   Y = { \begin { c a s e s } c X + \mu   & \alpha   \neq   1 \\cX + { \frac   { 2 } { \pi   } } \beta   c \log   c + \mu   & \alpha   = 1 \end { c a s e s } } }
+{ \displaystyle   S _ { \alpha   } ( \beta   , c , \mu   ) }
+\alpha   = 2
+\beta   = 0
+{ \displaystyle   f ( x ; \alpha   , \beta   , c , \mu   ) }
+{ \displaystyle   f ( x ; 1 , 0 , 1 , 0 ) . }
+{ \displaystyle   f ( x ; { \tfrac   { 1 } { 2 } } , - 1 , 1 , 0 ) . }
+{ \displaystyle   f ( x ; 2 , 0 , 1 , 0 ) . }
+{ \displaystyle   S _ { \mu   , \nu   } ( z ) }
+{ \displaystyle   f \left ( x ; { \tfrac   { 1 } { 3 } } , 0 , 1 , 0 \right ) = \Re   \left ( { \frac   { 2 e ^ { - { \frac   { i \pi   } { 4 } } } } { 3 { \sqrt   { 3 } } \pi   } } { \frac   { 1 } { \sqrt   { x ^ { 3 } } } } S _ { 0 , { \frac   { 1 } { 3 } } } \left ( { \frac   { 2 e ^ { \frac   { i \pi   } { 4 } } } { 3 { \sqrt   { 3 } } } } { \frac   { 1 } { \sqrt   { x } } } \right ) \right ) }
+S ( x )
+C ( x )
+{ \displaystyle   f \left ( x ; { \tfrac   { 1 } { 2 } } , 0 , 1 , 0 \right ) = { \frac   { 1 } { \sqrt   { 2 \pi   | x | ^ { 3 } } } } \left ( \sin   \left ( { \tfrac   { 1 } { 4 | x | } } \right ) \left [ { \frac   { 1 } { 2 } } - S \left ( { \tfrac   { 1 } { \sqrt   { 2 \pi   | x | } } } \right ) \right ] + \cos   \left ( { \tfrac   { 1 } { 4 | x | } } \right ) \left [ { \frac   { 1 } { 2 } } - C \left ( { \tfrac   { 1 } { \sqrt   { 2 \pi   | x | } } } \right ) \right ] \right ) }
+{ \displaystyle   K _ { v } ( x ) }
+{ \displaystyle   f \left ( x ; { \tfrac   { 1 } { 3 } } , 1 , 1 , 0 \right ) = { \frac   { 1 } { \pi   } } { \frac   { 2 { \sqrt   { 2 } } } { 3 ^ { \frac   { 7 } { 4 } } } } { \frac   { 1 } { \sqrt   { x ^ { 3 } } } } K _ { \frac   { 1 } { 3 } } \left ( { \frac   { 4 { \sqrt   { 2 } } } { 3 ^ { \frac   { 9 } { 4 } } } } { \frac   { 1 } { \sqrt   { x } } } \right ) }
+{ \displaystyle   { } _ { m } F _ { n } }
+{ \displaystyle   { \begin { a l i g n e d } f \left ( x ; { \tfrac   { 4 } { 3 } } , 0 , 1 , 0 \right ) & = { \frac   { 3 ^ { \frac   { 5 } { 4 } } } { 4 { \sqrt   { 2 \pi   } } } } { \frac   { \Gamma   \left ( { \tfrac   { 7 } { 1 2 } } \right ) \Gamma   \left ( { \tfrac   { 1 1 } { 1 2 } } \right ) } { \Gamma   \left ( { \tfrac   { 6 } { 1 2 } } \right ) \Gamma   \left ( { \tfrac   { 8 } { 1 2 } } \right ) } } { } _ { 2 } F _ { 2 } \left ( { \tfrac   { 7 } { 1 2 } } , { \tfrac   { 1 1 } { 1 2 } } ; { \tfrac   { 6 } { 1 2 } } , { \tfrac   { 8 } { 1 2 } } ; { \tfrac   { 3 ^ { 3 } x ^ { 4 } } { 4 ^ { 4 } } } \right ) - { \frac   { 3 ^ { \frac   { 1 1 } { 4 } } x ^ { 3 } } { 4 ^ { 3 } { \sqrt   { 2 \pi   } } } } { \frac   { \Gamma   \left ( { \tfrac   { 1 3 } { 1 2 } } \right ) \Gamma   \left ( { \tfrac   { 1 7 } { 1 2 } } \right ) } { \Gamma   \left ( { \tfrac   { 1 8 } { 1 2 } } \right ) \Gamma   \left ( { \tfrac   { 1 5 } { 1 2 } } \right ) } } { } _ { 2 } F _ { 2 } \left ( { \tfrac   { 1 3 } { 1 2 } } , { \tfrac   { 1 7 } { 1 2 } } ; { \tfrac   { 1 8 } { 1 2 } } , { \tfrac   { 1 5 } { 1 2 } } ; { \tfrac   { 3 ^ { 3 } x ^ { 4 } } { 4 ^ { 4 } } } \right ) \\[6pt ] f \left ( x ; { \tfrac   { 3 } { 2 } } , 0 , 1 , 0 \right ) & = { \frac   { \Gamma   \left ( { \tfrac   { 5 } { 3 } } \right ) } { \pi   } } { } _ { 2 } F _ { 3 } \left ( { \tfrac   { 5 } { 1 2 } } , { \tfrac   { 1 1 } { 1 2 } } ; { \tfrac   { 1 } { 3 } } , { \tfrac   { 1 } { 2 } } , { \tfrac   { 5 } { 6 } } ; - { \tfrac   { 2 ^ { 2 } x ^ { 6 } } { 3 ^ { 6 } } } \right ) - { \frac   { x ^ { 2 } } { 3 \pi   } } { } _ { 3 } F _ { 4 } \left ( { \tfrac   { 3 } { 4 } } , 1 , { \tfrac   { 5 } { 4 } } ; { \tfrac   { 2 } { 3 } } , { \tfrac   { 5 } { 6 } } , { \tfrac   { 7 } { 6 } } , { \tfrac   { 4 } { 3 } } ; - { \tfrac   { 2 ^ { 2 } x ^ { 6 } } { 3 ^ { 6 } } } \right ) + { \frac   { 7 x ^ { 4 } \Gamma   \left ( { \tfrac   { 4 } { 3 } } \right ) } { 3 ^ { 4 } \pi   ^ { 2 } } } { } _ { 2 } F _ { 3 } \left ( { \tfrac   { 1 3 } { 1 2 } } , { \tfrac   { 1 9 } { 1 2 } } ; { \tfrac   { 7 } { 6 } } , { \tfrac   { 3 } { 2 } } , { \tfrac   { 5 } { 3 } } ; - { \tfrac   { 2 ^ { 2 } x ^ { 6 } } { 3 ^ { 6 } } } \right ) \end { a l i g n e d } } }
+{ \displaystyle   W _ { k , \mu   } ( z ) }
+{ \displaystyle   { \begin { a l i g n e d } f \left ( x ; { \tfrac   { 2 } { 3 } } , 0 , 1 , 0 \right ) & = { \frac   { \sqrt   { 3 } } { 6 { \sqrt   { \pi   } } | x | } } \exp   \left ( { \tfrac   { 2 } { 2 7 } } x ^ { - 2 } \right ) W _ { - { \frac   { 1 } { 2 } } , { \frac   { 1 } { 6 } } } \left ( { \tfrac   { 4 } { 2 7 } } x ^ { - 2 } \right ) \\[8pt ] f \left ( x ; { \tfrac   { 2 } { 3 } } , 1 , 1 , 0 \right ) & = { \frac   { \sqrt   { 3 } } { { \sqrt   { \pi   } } | x | } } \exp   \left ( - { \tfrac   { 1 6 } { 2 7 } } x ^ { - 2 } \right ) W _ { { \frac   { 1 } { 2 } } , { \frac   { 1 } { 6 } } } \left ( { \tfrac   { 3 2 } { 2 7 } } x ^ { - 2 } \right ) \\[8pt ] f \left ( x ; { \tfrac   { 3 } { 2 } } , 1 , 1 , 0 \right ) & = { \begin { c a s e s } { \frac   { \sqrt   { 3 } } { { \sqrt   { \pi   } } | x | } } \exp   \left ( { \frac   { 1 } { 2 7 } } x ^ { 3 } \right ) W _ { { \frac   { 1 } { 2 } } , { \frac   { 1 } { 6 } } } \left ( - { \frac   { 2 } { 2 7 } } x ^ { 3 } \right ) & x < 0 \\{ } \\{ \frac   { \sqrt   { 3 } } { 6 { \sqrt   { \pi   } } | x | } } \exp   \left ( { \frac   { 1 } { 2 7 } } x ^ { 3 } \right ) W _ { - { \frac   { 1 } { 2 } } , { \frac   { 1 } { 6 } } } \left ( { \frac   { 2 } { 2 7 } } x ^ { 3 } \right ) & x \geq   0 \end { c a s e s } } \end { a l i g n e d } } }

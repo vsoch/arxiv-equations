@@ -1,0 +1,62 @@
+{ \mathcal   { O } } ( n ^ { 3 } )
+{ \mathcal   { O } } ( 2 ^ { n - 1 } )
+{ \mathcal   { O } } ( n ^ { 2 } )
+\varepsilon  
+\varepsilon  
+D B = { \frac   { 1 } { n } } \sum   _ { i = 1 } ^ { n } \max   _ { j \neq   i } \left ( { \frac   { \sigma   _ { i } + \sigma   _ { j } } { d ( c _ { i } , c _ { j } ) } } \right )
+c _ { x }
+x
+\sigma   _ { x }
+x
+c _ { x }
+d ( c _ { i } , c _ { j } )
+c _ { i }
+c _ { j }
+D = { \frac   { \min   _ { 1 \leq   i < j \leq   n } d ( i , j ) } { \max   _ { 1 \leq   k \leq   n } d ^ { \prime   } ( k ) } } \ , ,
+M
+D
+N
+{ \displaystyle   { \frac   { 1 } { N } } \sum   _ { m \in   M } \max   _ { d \in   D } { | m \cap   d | } }
+R I = { \frac   { T P + T N } { T P + F P + F N + T N } }
+T P
+T N
+F P
+F N
+\beta   \geq   0
+P = { \frac   { T P } { T P + F P } }
+R = { \frac   { T P } { T P + F N } }
+P
+R
+F _ { \beta   } = { \frac   { ( \beta   ^ { 2 } + 1 ) \cdot   P \cdot   R } { \beta   ^ { 2 } \cdot   P + R } }
+\beta   = 0
+F _ { 0 } = P
+\beta   = 0
+\beta  
+T N
+J ( A , B ) = { \frac   { | A \cap   B | } { | A \cup   B | } } = { \frac   { T P } { T P + F P + F N } }
+T N
+T P
+T N
+\beta   = 1
+{ \displaystyle   D S C = { \frac   { 2 T P } { 2 T P + F P + F N } } }
+F M = { \sqrt   { { \frac   { T P } { T P + F P } } \cdot   { \frac   { T P } { T P + F N } } } }
+T P
+F P
+F N
+F M
+P
+R
+B ^ { I }
+B ^ { I I }
+X
+n
+d
+{ \displaystyle   m \ll   n }
+x _ { i }
+Y
+m
+u _ { i }
+y _ { i } \in   Y
+w _ { i }
+x _ { i } \in   X
+{ \displaystyle   H = { \frac   { \sum   _ { i = 1 } ^ { m } { u _ { i } ^ { d } } } { \sum   _ { i = 1 } ^ { m } { u _ { i } ^ { d } } + \sum   _ { i = 1 } ^ { m } { w _ { i } ^ { d } } } } \ , , }

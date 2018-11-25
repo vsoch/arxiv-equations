@@ -1,3 +1,0 @@
-h ( X ) = - \int   _ { { { \mathbb     { R } } ^ { { n } } } } f ( x ) \log   f ( x ) \,dx
-N ( X ) = { \frac     { 1 } { 2 \pi   e } } e ^ { { { \frac     { 2 } { n } } h ( X ) } } .
-N ( X + Y ) \geq   N ( X ) + N ( Y ) . \ ,

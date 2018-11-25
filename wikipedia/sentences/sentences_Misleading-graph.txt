@@ -1,7 +1,0 @@
-{ \text { L i e   f a c t o r } } = { \frac     { { \text { s i z e   o f   e f f e c t   s h o w n   i n   g r a p h i c } } } { { \text { s i z e   o f   e f f e c t   s h o w n   i n   d a t a } } } } ,
-{ \text { s i z e   o f   e f f e c t } } = \left | { \frac     { { \text { s e c o n d   v a l u e } } - { \text { f i r s t   v a l u e } } } { { \text { f i r s t   v a l u e } } } } \right | .
-{ \text { g r a p h   d i s c r e p a n c y   i n d e x } } = 1 0 0 \left ( { \frac     { a } { b } } - 1 \right ) ,
-a = { \text { p e r c e n t a g e   c h a n g e   d e p i c t e d   i n   g r a p h } } ,
-b = { \text { p e r c e n t a g e   c h a n g e   i n   d a t a } } .
-{ \displaystyle   { \text { d a t a - i n k   r a t i o } } = { \frac   { \text { “ i n k ”   u s e d   t o   d i s p l a y   t h e   d a t a } } { \text { t o t a l   “ i n k ”   u s e d   t o   d i s p l a y   t h e   g r a p h i c } } } }
-{ \text { d a t a   d e n s i t y } } = { \frac     { { \text { n u m b e r   o f   e n t r i e s   i n   d a t a   m a t r i x } } } { { \text { a r e a   o f   d a t a   g r a p h i c } } } }

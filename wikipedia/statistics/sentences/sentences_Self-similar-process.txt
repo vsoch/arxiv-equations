@@ -1,0 +1,25 @@
+P ( a ) = \left ( { \frac   { \mu   ^ { a } } { a ! } } \right ) e ^ { - \mu   } ,
+\mu  
+P ( d ) = \left ( { \frac   { \lambda   ^ { d } } { d ! } } \right ) e ^ { - \lambda   } ,
+\lambda  
+P [ T \geq   \ t ] = e ^ { - t / h } , \ ,
+\lim   _ { x \to   \infty   } e ^ { \lambda   x } \Pr [ X > x ] = \infty   \quad   { \mbox { f o r   a l l   } } \lambda   > 0 . \ ,
+Y = ( Y _ { i } : i = 0 , 1 , 2 , . . . , N )
+{ \hat   { \mu   } } = { \text { E } } ( Y _ { i } )
+y _ { i } = Y _ { i } - { \hat   { \mu   } }
+{ \hat   { \sigma   } } ^ { 2 } = { \text { E } } ( y _ { i } ^ { 2 } )
+r ( k ) = { \text { E } } ( y _ { i } , y _ { i + k } ) / { \text { E } } ( y _ { i } ^ { 2 } )
+r ( k ) \sim   k ^ { - d } L ( k )
+Y _ { i } ^ { ( m ) } = ( Y _ { i m - m + 1 } + . . . + Y _ { i m } ) / m
+{ \text { v a r } } [ Y ^ { ( m ) } ] = { \hat   { \sigma   } } ^ { 2 } m ^ { - d }
+\lim   _ { k \to   \infty   } r ( k ) / k ^ { - d } = ( 2 - d ) ( 1 - d ) / 2
+Z _ { i } ^ { ( m ) } = m Y _ { i } ^ { ( m ) }
+Z _ { i } ^ { ( m ) } = ( Y _ { i m - m + 1 } + . . . + Y _ { i m } )
+{ \text { v a r } } [ Z _ { i } ^ { ( m ) } ] = m ^ { 2 } { \text { v a r } } [ Y ^ { ( m ) } ] = ( { \hat   { \sigma   } } ^ { 2 } / { \hat   { \mu   } } ^ { 2 - d } ) { \text { E } } [ Z _ { i } ^ { ( m ) } ] ^ { 2 - d }
+{ \hat   { \mu   } }
+{ \hat   { \sigma   } } ^ { 2 }
+{ \text { v a r } } \,( Y ) = a [ { \text { E } } \,( Y ) ] ^ { p } ,
+K _ { p } ^ { * } ( s ; \theta   , \lambda   ) = \lambda   \kappa   _ { p } ( \theta   ) [ ( 1 + s / \theta   ) ^ { \alpha   } - 1 ]
+\kappa   _ { p } ( \theta   ) = { \dfrac   { \alpha   - 1 } { \alpha   } } \left ( { \dfrac   { \theta   } { \alpha   - 1 } } \right ) ^ { \alpha   }
+\alpha   = { \dfrac   { p - 2 } { p - 1 } }
+\mathrm   { v a r }   ( Z ) \propto   \mathrm   { E }   ( Z ) ^ { p }

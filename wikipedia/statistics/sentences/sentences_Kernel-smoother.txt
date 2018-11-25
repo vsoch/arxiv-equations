@@ -1,0 +1,27 @@
+{ \displaystyle   f : \mathbb   { R }   ^ { p } \to   \mathbb   { R }   }
+K _ { { h _ { \lambda   } } } ( X _ { 0 } , X )
+K _ { { h _ { \lambda   } } } ( X _ { 0 } , X ) = D \left ( { \frac     { \left \|X - X _ { 0 } \right \|}{ h _ { \lambda   } ( X _ { 0 } ) } } \right )
+X , X _ { 0 } \in   { \mathbb     { R } } ^ { p }
+\left \|\cdot   \right \ |
+h _ { \lambda   } ( X _ { 0 } )
+{ \hat     { Y } } ( X ) : { \mathbb     { R } } ^ { p } \to   { \mathbb     { R } }
+X _ { 0 } \in   { \mathbb     { R } } ^ { p }
+{ \hat     { Y } } ( X _ { { 0 } } ) = { \frac     { \sum   \limits   _ { { i = 1 } } ^ { { N } } { K _ { { h _ { { \lambda   } } } } ( X _ { { 0 } } , X _ { { i } } ) Y ( X _ { { i } } ) } } { \sum   \limits   _ { { i = 1 } } ^ { { N } } { K _ { { h _ { { \lambda   } } } } ( X _ { { 0 } } , X _ { { i } } ) } } }
+K ( x ^ { * } , x _ { i } ) = \exp   \left ( - { \frac     { ( x ^ { * } - x _ { i } ) ^ { 2 } } { 2 b ^ { 2 } } } \right )
+h _ { m } ( X _ { 0 } ) = \left \|X_ { 0 } - X _ { { [ m ] } } \right \ |
+X _ { { [ m ] } }
+D ( t ) = { \begin { c a s e s } 1 / m & { \text { i f   } } | t | \leq   1 \\0 & { \text { o t h e r w i s e } } \end { c a s e s } }
+{ \hat     { Y } } ( X _ { 0 } )
+\lambda  
+h _ { \lambda   } ( X _ { 0 } ) = \lambda   = { \text { c o n s t a n t } } ,
+{ \hat     { Y } } ( X _ { { 0 } } )
+{ \hat     { Y } } ( X )
+h _ { \lambda   } ( X _ { 0 } ) = \lambda   = { \text { c o n s t a n t } } .
+{ \begin { a l i g n e d } & \min   _ { { \alpha   ( X _ { 0 } ) , \beta   ( X _ { 0 } ) } } \sum   \limits   _ { { i = 1 } } ^ { N } { K _ { { h _ { { \lambda   } } } } ( X _ { 0 } , X _ { i } ) \left ( Y ( X _ { i } ) - \alpha   ( X _ { 0 } ) - \beta   ( X _ { { 0 } } ) X _ { i } \right ) ^ { 2 } } \\&\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\Downarrow   \\&\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,{ \hat     { Y } } ( X _ { { 0 } } ) = \alpha   ( X _ { { 0 } } ) + \beta   ( X _ { { 0 } } ) X _ { { 0 } } \\\end { a l i g n e d } }
+{ \hat     { Y } } ( X _ { 0 } ) = \left ( 1 , X _ { 0 } \right ) \left ( B ^ { { T } } W ( X _ { 0 } ) B \right ) ^ { { - 1 } } B ^ { { T } } W ( X _ { 0 } ) y
+y = \left ( Y ( X _ { 1 } ) , \dots   , Y ( X _ { N } ) \right ) ^ { T }
+W ( X _ { 0 } ) = \operatorname   { d i a g } \left ( K _ { { h _ { { \lambda   } } } } ( X _ { 0 } , X _ { i } ) \right ) _ { { N \times   N } }
+B ^ { { T } } = \left ( { \begin { m a t r i x } 1 & 1 & \dots   & 1 \\X_ { { 1 } } & X _ { { 2 } } & \dots   & X _ { { N } } \\\end { m a t r i x } } \right )
+{ \underset     { \alpha   ( X _ { { 0 } } ) , \beta   _ { { j } } ( X _ { { 0 } } ) , j = 1 , . . . , d } { { \mathop     { \min   } } } } \,\sum   \limits   _ { { i = 1 } } ^ { { N } } { K _ { { h _ { { \lambda   } } } } ( X _ { { 0 } } , X _ { { i } } ) \left ( Y ( X _ { { i } } ) - \alpha   ( X _ { { 0 } } ) - \sum   \limits   _ { { j = 1 } } ^ { { d } } { \beta   _ { { j } } ( X _ { { 0 } } ) X _ { { i } } ^ { { j } } } \right ) ^ { { 2 } } }
+{ \hat     { Y } } ( X _ { { 0 } } ) = \alpha   ( X _ { { 0 } } ) + \sum   \limits   _ { { j = 1 } } ^ { { d } } { \beta   _ { { j } } ( X _ { { 0 } } ) X _ { { 0 } } ^ { { j } } }
+{ \begin { a l i g n e d } & { \hat     { \beta   } } ( X _ { { 0 } } ) = { \underset     { \beta   ( X _ { { 0 } } ) } { { \mathop     { \arg   \min   } } } } \,\sum   \limits   _ { { i = 1 } } ^ { { N } } { K _ { { h _ { { \lambda   } } } } ( X _ { { 0 } } , X _ { { i } } ) \left ( Y ( X _ { { i } } ) - b ( X _ { { i } } ) ^ { { T } } \beta   ( X _ { { 0 } } ) \right ) } ^ { { 2 } } \\&b ( X ) = \left ( { \begin { m a t r i x } 1 , & X _ { { 1 } } , & X _ { { 2 } } , . . . & X _ { { 1 } } ^ { { 2 } } , & X _ { { 2 } } ^ { { 2 } } , . . . & X _ { { 1 } } X _ { { 2 } } \,\,\,...\\\end { m a t r i x } } \right ) \\&{ \hat     { Y } } ( X _ { { 0 } } ) = b ( X _ { { 0 } } ) ^ { { T } } { \hat     { \beta   } } ( X _ { { 0 } } ) \\\end { a l i g n e d } }

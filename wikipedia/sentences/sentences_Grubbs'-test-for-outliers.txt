@@ -1,6 +1,0 @@
-G = { \frac     { \displaystyle   \max   _ { { i = 1 , \ldots   , N } } \left \vert   Y _ { i } - { \bar     { Y } } \right \vert   } { s } }
-{ \overline   { Y } }
-s
-G = { \frac     { { \bar     { Y } } - Y _ { \min   } } { s } }
-G = { \frac     { Y _ { \max   } - { \bar     { Y } } } { s } }
-G > { \frac     { N - 1 } { { \sqrt     { N } } } } { \sqrt     { { \frac     { t _ { { \alpha   / ( 2 N ) , N - 2 } } ^ { 2 } } { N - 2 + t _ { { \alpha   / ( 2 N ) , N - 2 } } ^ { 2 } } } } }

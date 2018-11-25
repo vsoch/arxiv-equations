@@ -1,6 +1,0 @@
-\max   _ { i } \min ( f ( i ) , i )
-h \approx   0 . 5 4 { \sqrt   { N } }
-{ \displaystyle   h _ { I } = h ^ { 2 } / N _ { a } ^ { ( T ) } }
-{ \displaystyle   N _ { a } ^ { ( T ) } }
-h
-h / \langle   h \rangle   _ { d }

@@ -1,0 +1,80 @@
+{ \displaystyle   K ( t ) = \log   \operatorname   { E }   \left [ e ^ { t X } \right ] . }
+{ \displaystyle   K ( t ) = \sum   _ { n = 1 } ^ { \infty   } \kappa   _ { n } { \frac   { t ^ { n } } { n ! } } = \mu   t + \sigma   ^ { 2 } { \frac   { t ^ { 2 } } { 2 } } + \cdots   . }
+\kappa   _ { n } = K ^ { ( n ) } ( 0 ) .
+{ \displaystyle   H ( t ) = \log   \operatorname   { E }   \left [ e ^ { i t X } \right ] = \sum   _ { n = 1 } ^ { \infty   } \kappa   _ { n } { \frac   { ( i t ) ^ { n } } { n ! } } = \mu   i t - \sigma   ^ { 2 } { \frac   { t ^ { 2 } } { 2 } } + \cdots   }
+{ \displaystyle   { \begin { a l i g n e d } K _ { X + Y } ( t ) & = \log   \operatorname   { E }   \left [ e ^ { t ( X + Y ) } \right ] \\[5pt ] & = \log   \left ( \operatorname   { E }   \left [ e ^ { t X } \right ] \operatorname   { E }   \left [ e ^ { t Y } \right ] \right ) \\[5pt ] & = \log   \operatorname   { E }   \left [ e ^ { t X } \right ] + \log   \operatorname   { E }   \left [ e ^ { t Y } \right ] \\[5pt ] & = K _ { X } ( t ) + K _ { Y } ( t ) , \end { a l i g n e d } } }
+\kappa   _ { n + 1 } = p ( 1 - p ) { \frac   { d \kappa   _ { n } } { d p } } .
+\varepsilon   = \mu   ^ { - 1 } \sigma   ^ { 2 } = \kappa   _ { 1 } ^ { - 1 } \kappa   _ { 2 } ,
+K ' ( t ) = \mu   \cdot   ( 1 + \varepsilon   \cdot   ( e ^ { - t } - 1 ) ) ^ { - 1 } .
+K ' ' ( t ) = g ' ( t ) \cdot   ( 1 + e ^ { t } \cdot   ( \varepsilon   ^ { - 1 } - 1 ) ) ^ { - 1 }
+{ \displaystyle   { \begin { a l i g n e d } & \exists   c > 0 , \,\,F ( x ) = O ( e ^ { c x } ) , x \to   - \infty   ; { \text {   a n d } } \\[4pt ] & \exists   d > 0 , \,\,1 - F ( x ) = O ( e ^ { - d x } ) , x \to   + \infty   ; \end { a l i g n e d } } }
+F
+{ \displaystyle   { \begin { a l i g n e d } y & = ( t + 1 ) \inf   \operatorname   { s u p p }   X - \mu   ( X ) , { \text {   a n d } } \\[5pt ] y & = ( t - 1 ) \sup   \operatorname   { s u p p }   X + \mu   ( X ) , \end { a l i g n e d } } }
+{ \displaystyle   \int   _ { - \infty   } ^ { 0 } \left [ t \inf   \operatorname   { s u p p }   X - K ' ( t ) \right ] \,dt , \qquad   \int   _ { \infty   } ^ { 0 } \left [ t \inf   \operatorname   { s u p p }   X - K ' ( t ) \right ] \,dt }
+K _ { X + c } ( t ) = K _ { X } ( t ) + c t .
+K _ { c } ( t ) = c t
+K _ { X + Y } = K _ { X } + K _ { Y }
+K ( t ) = \log   M ( t ) ,
+f | \theta  
+{ \displaystyle   f ( x \mid   \theta   ) = { \frac   { 1 } { M ( \theta   ) } } e ^ { \theta   x } f ( x ) , }
+{ \displaystyle   K ( t \mid   \theta   ) = K ( t + \theta   ) - K ( \theta   ) . }
+\kappa   _ { 1 } ( X + c ) = \kappa   _ { 1 } ( X ) + c ~ { \text {   a n d } }
+\kappa   _ { n } ( X + c ) = \kappa   _ { n } ( X ) ~ { \text {   f o r   } } ~ n \geq   2 .
+{ \displaystyle   \kappa   _ { n } ( c X ) = c ^ { n } \kappa   _ { n } ( X ) . }
+{ \displaystyle   M ( t ) = 1 + \sum   _ { n = 1 } ^ { \infty   } { \frac   { \mu   ' _ { n } t ^ { n } } { n ! } } = \exp   \left ( \sum   _ { n = 1 } ^ { \infty   } { \frac   { \kappa   _ { n } t ^ { n } } { n ! } } \right ) = \exp ( K ( t ) ) . }
+K ( t ) = \log   M ( t ) .
+\exp ( K ( t ) )
+t = 0
+{ \displaystyle   \mu   ' _ { n } = M ^ { ( n ) } ( 0 ) = \left . { \frac   { \mathrm   { d }   ^ { n } \exp ( K ( t ) ) } { \mathrm   { d }   t ^ { n } } } \right | _ { t = 0 } . }
+\log   M ( t )
+t = 0
+{ \displaystyle   \kappa   _ { n } = K ^ { ( n ) } ( 0 ) = \left . { \frac   { \mathrm   { d }   ^ { n } \log   M ( t ) } { \mathrm   { d }   t ^ { n } } } \right | _ { t = 0 } . }
+\mu   ' _ { n } = \sum   _ { k = 1 } ^ { n } B _ { n , k } ( \kappa   _ { 1 } , \ldots   , \kappa   _ { n - k + 1 } )
+{ \displaystyle   \kappa   _ { n } = \sum   _ { k = 1 } ^ { n } ( - 1 ) ^ { k - 1 } ( k - 1 ) ! B _ { n , k } ( \mu   ' _ { 1 } , \ldots   , \mu   ' _ { n - k + 1 } ) , }
+B _ { { n , k } }
+\mu  
+{ \displaystyle   C ( t ) = \operatorname   { E }   [ e ^ { t ( x - \mu   ) } ] = e ^ { - \mu   t } M ( t ) = \exp ( K ( t ) - \mu   t ) , }
+{ \displaystyle   \mu   _ { n } = C ^ { ( n ) } ( 0 ) = \left . { \frac   { \mathrm   { d }   ^ { n } } { \mathrm   { d }   t ^ { n } } } \exp ( K ( t ) - \mu   t ) \right | _ { t = 0 } = \sum   _ { k = 1 } ^ { n } B _ { n , k } ( 0 , \kappa   _ { 2 } , \ldots   , \kappa   _ { n - k + 1 } ) . }
+{ \displaystyle   { \begin { a l i g n e d } \kappa   _ { n } & = K ^ { ( n ) } ( 0 ) = \left . { \frac   { \mathrm   { d }   ^ { n } } { \mathrm   { d }   t ^ { n } } } ( \log   C ( t ) + \mu   t ) \right | _ { t = 0 } \\[4pt ] & = \sum   _ { k = 1 } ^ { n } ( - 1 ) ^ { k - 1 } ( k - 1 ) ! B _ { n , k } ( 0 , \mu   _ { 2 } , \ldots   , \mu   _ { n - k + 1 } ) . \end { a l i g n e d } } }
+{ \displaystyle   { \begin { a l i g n e d } \mu   ' _ { 1 } = { } & \kappa   _ { 1 } \\[5pt ] \mu   ' _ { 2 } = { } & \kappa   _ { 2 } + \kappa   _ { 1 } ^ { 2 } \\[5pt ] \mu   ' _ { 3 } = { } & \kappa   _ { 3 } + 3 \kappa   _ { 2 } \kappa   _ { 1 } + \kappa   _ { 1 } ^ { 3 } \\[5pt ] \mu   ' _ { 4 } = { } & \kappa   _ { 4 } + 4 \kappa   _ { 3 } \kappa   _ { 1 } + 3 \kappa   _ { 2 } ^ { 2 } + 6 \kappa   _ { 2 } \kappa   _ { 1 } ^ { 2 } + \kappa   _ { 1 } ^ { 4 } \\[5pt ] \mu   ' _ { 5 } = { } & \kappa   _ { 5 } + 5 \kappa   _ { 4 } \kappa   _ { 1 } + 1 0 \kappa   _ { 3 } \kappa   _ { 2 } + 1 0 \kappa   _ { 3 } \kappa   _ { 1 } ^ { 2 } + 1 5 \kappa   _ { 2 } ^ { 2 } \kappa   _ { 1 } + 1 0 \kappa   _ { 2 } \kappa   _ { 1 } ^ { 3 } + \kappa   _ { 1 } ^ { 5 } \\[5pt ] \mu   ' _ { 6 } = { } & \kappa   _ { 6 } + 6 \kappa   _ { 5 } \kappa   _ { 1 } + 1 5 \kappa   _ { 4 } \kappa   _ { 2 } + 1 5 \kappa   _ { 4 } \kappa   _ { 1 } ^ { 2 } + 1 0 \kappa   _ { 3 } ^ { 2 } + 6 0 \kappa   _ { 3 } \kappa   _ { 2 } \kappa   _ { 1 } + 2 0 \kappa   _ { 3 } \kappa   _ { 1 } ^ { 3 } \\&{ } + 1 5 \kappa   _ { 2 } ^ { 3 } + 4 5 \kappa   _ { 2 } ^ { 2 } \kappa   _ { 1 } ^ { 2 } + 1 5 \kappa   _ { 2 } \kappa   _ { 1 } ^ { 4 } + \kappa   _ { 1 } ^ { 6 } . \end { a l i g n e d } } }
+{ \displaystyle   { \begin { a l i g n e d } \mu   _ { 1 } & = 0 \\[4pt ] \mu   _ { 2 } & = \kappa   _ { 2 } \\[4pt ] \mu   _ { 3 } & = \kappa   _ { 3 } \\[4pt ] \mu   _ { 4 } & = \kappa   _ { 4 } + 3 \kappa   _ { 2 } ^ { 2 } \\[4pt ] \mu   _ { 5 } & = \kappa   _ { 5 } + 1 0 \kappa   _ { 3 } \kappa   _ { 2 } \\[4pt ] \mu   _ { 6 } & = \kappa   _ { 6 } + 1 5 \kappa   _ { 4 } \kappa   _ { 2 } + 1 0 \kappa   _ { 3 } ^ { 2 } + 1 5 \kappa   _ { 2 } ^ { 3 } . \end { a l i g n e d } } }
+{ \displaystyle   { \begin { a l i g n e d } \kappa   _ { 1 } = { } & \mu   ' _ { 1 } \\[4pt ] \kappa   _ { 2 } = { } & \mu   ' _ { 2 } - { \mu   ' _ { 1 } } ^ { 2 } \\[4pt ] \kappa   _ { 3 } = { } & \mu   ' _ { 3 } - 3 \mu   ' _ { 2 } \mu   ' _ { 1 } + 2 { \mu   ' _ { 1 } } ^ { 3 } \\[4pt ] \kappa   _ { 4 } = { } & \mu   ' _ { 4 } - 4 \mu   ' _ { 3 } \mu   ' _ { 1 } - 3 { \mu   ' _ { 2 } } ^ { 2 } + 1 2 \mu   ' _ { 2 } { \mu   ' _ { 1 } } ^ { 2 } - 6 { \mu   ' _ { 1 } } ^ { 4 } \\[4pt ] \kappa   _ { 5 } = { } & \mu   ' _ { 5 } - 5 \mu   ' _ { 4 } \mu   ' _ { 1 } - 1 0 \mu   ' _ { 3 } \mu   ' _ { 2 } + 2 0 \mu   ' _ { 3 } { \mu   ' _ { 1 } } ^ { 2 } + 3 0 { \mu   ' _ { 2 } } ^ { 2 } \mu   ' _ { 1 } - 6 0 \mu   ' _ { 2 } { \mu   ' _ { 1 } } ^ { 3 } + 2 4 { \mu   ' _ { 1 } } ^ { 5 } \\[4pt ] \kappa   _ { 6 } = { } & \mu   ' _ { 6 } - 6 \mu   ' _ { 5 } \mu   ' _ { 1 } - 1 5 \mu   ' _ { 4 } \mu   ' _ { 2 } + 3 0 \mu   ' _ { 4 } { \mu   ' _ { 1 } } ^ { 2 } - 1 0 { \mu   ' _ { 3 } } ^ { 2 } + 1 2 0 \mu   ' _ { 3 } \mu   ' _ { 2 } \mu   ' _ { 1 } \\&{ } - 1 2 0 \mu   ' _ { 3 } { \mu   ' _ { 1 } } ^ { 3 } + 3 0 { \mu   ' _ { 2 } } ^ { 3 } - 2 7 0 { \mu   ' _ { 2 } } ^ { 2 } { \mu   ' _ { 1 } } ^ { 2 } + 3 6 0 \mu   ' _ { 2 } { \mu   ' _ { 1 } } ^ { 4 } - 1 2 0 { \mu   ' _ { 1 } } ^ { 6 } \end { a l i g n e d } } }
+\kappa   _ { 2 } = \mu   _ { 2 } \ ,
+\kappa   _ { 3 } = \mu   _ { 3 } \ ,
+\kappa   _ { 4 } = \mu   _ { 4 } - 3 { \mu   _ { 2 } } ^ { 2 } \ ,
+\kappa   _ { 5 } = \mu   _ { 5 } - 1 0 \mu   _ { 3 } \mu   _ { 2 } \ ,
+\kappa   _ { 6 } = \mu   _ { 6 } - 1 5 \mu   _ { 4 } \mu   _ { 2 } - 1 0 { \mu   _ { 3 } } ^ { 2 } + 3 0 { \mu   _ { 2 } } ^ { 3 } \ , .
+\kappa   _ { 3 } = \mu   _ { 3 } \ ,
+\kappa   _ { 4 } = \mu   _ { 4 } - 3 \ ,
+\kappa   _ { 5 } = \mu   _ { 5 } - 1 0 \mu   _ { 3 } \ ,
+\kappa   _ { 6 } = \mu   _ { 6 } - 1 5 \mu   _ { 4 } - 1 0 { \mu   _ { 3 } } ^ { 2 } + 3 0 \ , .
+\kappa   _ { n } = \mu   ' _ { n } - \sum   _ { m = 1 } ^ { n - 1 } { n - 1   \choose   m - 1 } \kappa   _ { m } \mu   _ { n - m } ' .
+{ \displaystyle   \mu   ' _ { n } = \sum   _ { \pi   \,\in   \,\Pi   } \prod   _ { B \,\in   \,\pi   } \kappa   _ { | B | } }
+K ( t _ { 1 } , t _ { 2 } , \dots   , t _ { n } ) = \log   E ( \mathrm   { e }   ^ { \sum   _ { j = 1 } ^ { n } t _ { j } X _ { j } } ) .
+\kappa   ( X _ { 1 } , \dots   , X _ { n } ) = \sum   _ { \pi   } ( | \pi   | - 1 ) ! ( - 1 ) ^ { | \pi   | - 1 } \prod   _ { B \in   \pi   } E \left ( \prod   _ { i \in   B } X _ { i } \right )
+{ \displaystyle   \kappa   ( X , Y , Z ) = \operatorname   { E }   ( X Y Z ) - \operatorname   { E }   ( X Y ) \operatorname   { E }   ( Z ) - \operatorname   { E }   ( X Z ) \operatorname   { E }   ( Y ) - \operatorname   { E }   ( Y Z ) \operatorname   { E }   ( X ) + 2 \operatorname   { E }   ( X ) \operatorname   { E }   ( Y ) \operatorname   { E }   ( Z ) . \ , }
+{ \displaystyle   \kappa   ( X , X , Z ) = \operatorname   { E }   ( X ^ { 2 } Z ) - 2 \operatorname   { E }   ( X Z ) \operatorname   { E }   ( X ) - \operatorname   { E }   ( X ^ { 2 } ) \operatorname   { E }   ( Z ) + 2 \operatorname   { E }   ( X ) ^ { 2 } \operatorname   { E }   ( Z ) , \ , }
+{ \displaystyle   \kappa   ( X , Y , Z ) = \operatorname   { E }   ( X Y Z ) . \ , }
+{ \displaystyle   \kappa   ( X , Y , Z , W ) = \operatorname   { E }   ( X Y Z W ) - \operatorname   { E }   ( X Y ) \operatorname   { E }   ( Z W ) - \operatorname   { E }   ( X Z ) \operatorname   { E }   ( Y W ) - \operatorname   { E }   ( X W ) \operatorname   { E }   ( Y Z ) . \ , }
+{ \displaystyle   \operatorname   { E }   ( X _ { 1 } \cdots   X _ { n } ) = \sum   _ { \pi   } \prod   _ { B \in   \pi   } \kappa   ( X _ { i } : i \in   B ) . }
+{ \displaystyle   \operatorname   { E }   ( X Y Z ) = \kappa   ( X , Y , Z ) + \kappa   ( X , Y ) \kappa   ( Z ) + \kappa   ( X , Z ) \kappa   ( Y ) + \kappa   ( Y , Z ) \kappa   ( X ) + \kappa   ( X ) \kappa   ( Y ) \kappa   ( Z ) . \ , }
+{ \displaystyle   \kappa   ( X + Y , Z _ { 1 } , Z _ { 2 } , \dots   ) = \kappa   ( X , Z _ { 1 } , Z _ { 2 } , \ldots   ) + \kappa   ( Y , Z _ { 1 } , Z _ { 2 } , \ldots   ) . \ , }
+{ \displaystyle   \operatorname   { v a r }   ( X + Y ) = \operatorname   { v a r }   ( X ) + 2 \operatorname   { c o v }   ( X , Y ) + \operatorname   { v a r }   ( Y ) \ , }
+{ \displaystyle   \kappa   _ { n } ( X + Y ) = \sum   _ { j = 0 } ^ { n } { n   \choose   j } \kappa   ( \,\underbrace   { X , \dots   , X }   _ { j } , \underbrace   { Y , \dots   , Y }   _ { n - j } \ , ) . \ , }
+{ \displaystyle   \mu   _ { 3 } ( X ) = \operatorname   { E }   ( \mu   _ { 3 } ( X \mid   Y ) ) + \mu   _ { 3 } ( \operatorname   { E }   ( X \mid   Y ) ) + 3 \operatorname   { c o v }   ( \operatorname   { E }   ( X \mid   Y ) , \operatorname   { v a r }   ( X \mid   Y ) ) . }
+{ \displaystyle   \kappa   ( X _ { 1 } , \dots   , X _ { n } ) = \sum   _ { \pi   } \kappa   ( \kappa   ( X _ { \pi   _ { 1 } } \mid   Y ) , \dots   , \kappa   ( X _ { \pi   _ { b } } \mid   Y ) ) }
+Z ( \beta   ) = \langle   \exp ( - \beta   E ) \rangle   , \ ,
+\langle   A \rangle  
+{ \displaystyle   \operatorname   { E }   [ A ] }
+F ( \beta   ) = - \beta   ^ { - 1 } \log   Z \ ,
+E = \langle   E \rangle   _ { c }
+{ \displaystyle   C = d E / d T = k \beta   ^ { 2 } \langle   E ^ { 2 } \rangle   _ { c } = k \beta   ^ { 2 } ( \langle   E ^ { 2 } \rangle   - \langle   E \rangle   ^ { 2 } ) }
+\langle   E ^ { 2 } \rangle   _ { c }
+\mu  
+{ \displaystyle   \Omega   = - \beta   ^ { - 1 } \log ( \langle   \exp ( - \beta   E - \beta   \mu   N ) \rangle   ) , \ , }
+\Omega  
+{ \displaystyle   1 + \sum   _ { n = 1 } ^ { \infty   } { \frac   { m _ { n } t ^ { n } } { n ! } } = \exp   \left ( \sum   _ { n = 1 } ^ { \infty   } { \frac   { \kappa   _ { n } t ^ { n } } { n ! } } \right ) , }
+{ \displaystyle   { \begin { a l i g n e d } \mu   ' _ { 6 } = { } & \kappa   _ { 6 } + 6 \kappa   _ { 5 } \kappa   _ { 1 } + 1 5 \kappa   _ { 4 } \kappa   _ { 2 } + 1 5 \kappa   _ { 4 } \kappa   _ { 1 } ^ { 2 } + 1 0 \kappa   _ { 3 } ^ { 2 } + 6 0 \kappa   _ { 3 } \kappa   _ { 2 } \kappa   _ { 1 } + 2 0 \kappa   _ { 3 } \kappa   _ { 1 } ^ { 3 } \\&{ } + 1 5 \kappa   _ { 2 } ^ { 3 } + 4 5 \kappa   _ { 2 } ^ { 2 } \kappa   _ { 1 } ^ { 2 } + 1 5 \kappa   _ { 2 } \kappa   _ { 1 } ^ { 4 } + \kappa   _ { 1 } ^ { 6 } \end { a l i g n e d } } }
+{ \displaystyle   { \begin { a l i g n e d } p _ { 6 } ( x ) = { } & \kappa   _ { 6 } \,x + ( 6 \kappa   _ { 5 } \kappa   _ { 1 } + 1 5 \kappa   _ { 4 } \kappa   _ { 2 } + 1 0 \kappa   _ { 3 } ^ { 2 } ) \,x ^ { 2 } + ( 1 5 \kappa   _ { 4 } \kappa   _ { 1 } ^ { 2 } + 6 0 \kappa   _ { 3 } \kappa   _ { 2 } \kappa   _ { 1 } + 1 5 \kappa   _ { 2 } ^ { 3 } ) \,x ^ { 3 } \\&{ } + ( 4 5 \kappa   _ { 2 } ^ { 2 } \kappa   _ { 1 } ^ { 2 } ) \,x ^ { 4 } + ( 1 5 \kappa   _ { 2 } \kappa   _ { 1 } ^ { 4 } ) \,x ^ { 5 } + ( \kappa   _ { 1 } ^ { 6 } ) \,x ^ { 6 } , \end { a l i g n e d } } }
+{ \displaystyle   E ( X _ { 1 } \cdots   X _ { n } ) = \sum   _ { \pi   } \prod   _ { B \,\in   \,\pi   } \kappa   ( X _ { i } : i \in   B ) }
+\kappa  

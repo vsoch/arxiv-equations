@@ -1,3 +1,0 @@
-  \left |   \frac { \partial   Y } { \partial   X _ i }   \right   | _ { \textbf   { x } ^ 0   }  
-  \operatorname { V a r } _ { X _ i }   \left (   E _ { \textbf { X } _ { \sim   i } }   \left (   Y   \mid   X _ i   \right )   \right )  
-{ \displaystyle   { \frac   { \partial   Y } { \partial   x _ { i } } } }

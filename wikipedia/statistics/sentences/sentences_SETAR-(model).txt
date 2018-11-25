@@ -1,0 +1,14 @@
+{ \displaystyle   y _ { t } = \gamma   _ { 0 } + \gamma   _ { 1 } y _ { t - 1 } + \gamma   _ { 2 } y _ { t - 2 } + . . . + \gamma   _ { p } y _ { t - p } + \epsilon   _ { t } . \ , }
+{ \displaystyle   \gamma   _ { i } \ , }
+{ \displaystyle   \epsilon   _ { t } \sim   ^ { i i d } W N ( 0 ; \sigma   ^ { 2 } ) \ , }
+{ \displaystyle   y _ { t } = \mathbf   { X _ { t } \gamma   }   + \sigma   \epsilon   _ { t } . \ , }
+{ \displaystyle   \mathbf   { X _ { t } }   = ( 1 , y _ { t - 1 } , y _ { t - 2 } , \ldots   , y _ { t - p } ) \ , }
+\gamma   \ ,
+{ \displaystyle   \gamma   _ { 0 } , \gamma   _ { 1 } , \gamma   _ { 2 } , . . . , \gamma   _ { p } \ , }
+{ \displaystyle   \epsilon   _ { t } \sim   ^ { i i d } W N ( 0 ; 1 ) \ , }
+{ \displaystyle   y _ { t } = \mathbf   { X _ { t } }   \gamma   ^ { ( j ) } + \sigma   ^ { ( j ) } \epsilon   _ { t } \ , }
+{ \displaystyle   r _ { j - 1 } < z _ { t } < r _ { j } . \ , }
+{ \displaystyle   X _ { t } = ( 1 , y _ { t - 1 } , y _ { t - 2 } , . . . , y _ { t - p } ) \ , }
+{ \displaystyle   - \infty   = r _ { 0 } < r _ { 1 } < \ldots   < r _ { k } = + \infty   \ , }
+{ \displaystyle   \gamma   ^ { ( j ) } \ , }
+{ \displaystyle   \gamma   ^ { ( j ) } \ , }

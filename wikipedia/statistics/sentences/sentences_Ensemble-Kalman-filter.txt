@@ -1,0 +1,92 @@
+\mathbf   { x }  
+n
+\mathbf   { \mu   }  
+Q
+p ( { \mathbf     { x } } ) \propto   \exp   \left ( - { \frac     { 1 } { 2 } } ( { \mathbf     { x } } - { \mathbf     { \mu   } } ) ^ { { { \mathrm     { T } } } } Q ^ { { - 1 } } ( { \mathbf     { x } } - { \mathbf     { \mu   } } ) \right ) .
+\propto  
+p ( { \mathbf     { x } } )
+\mathbf { d }
+R
+H { \mathbf     { x } }
+H
+R
+\mathbf { d }
+R
+\mathbf { d }
+H { \mathbf     { x } }
+\mathbf   { x }  
+p ( { \mathbf     { d } } | { \mathbf     { x } } )
+\mathbf { d }
+\mathbf   { x }  
+p \left ( { \mathbf     { d } } | { \mathbf     { x } } \right ) \propto   \exp   \left ( - { \frac     { 1 } { 2 } } ( { \mathbf     { d } } - H { \mathbf     { x } } ) ^ { { { \mathrm     { T } } } } R ^ { { - 1 } } ( { \mathbf     { d } } - H { \mathbf     { x } } ) \right ) .
+\mathbf   { x }  
+\mathbf { d }
+p \left ( { \mathbf     { x } } | { \mathbf     { d } } \right ) \propto   p \left ( { \mathbf     { d } } | { \mathbf     { x } } \right ) p ( { \mathbf     { x } } ) .
+\mathbf { d }
+{ \mathbf     { { \hat     { x } } } }
+{ \mathbf     { x } } | { \mathbf     { d } }
+p \left ( { \mathbf     { { \hat     { x } } } } \right )
+p \left ( { \mathbf     { { \hat     { x } } } } \right ) \propto   \exp   \left ( - { \frac     { 1 } { 2 } } ( { \mathbf     { { \hat     { x } } } } - { \mathbf     { { \hat     { \mu   } } } } ) ^ { { { \mathrm     { T } } } } { \hat     { Q } } ^ { { - 1 } } ( { \mathbf     { { \hat     { x } } } } - { \mathbf     { { \hat     { \mu   } } } } ) \right ) ,
+{ \mathbf     { { \hat     { \mu   } } } }
+{ \hat   { Q } }
+{ \mathbf     { { \hat     { \mu   } } } } = { \mathbf     { \mu   } } + K \left ( { \mathbf     { d } } - H { \mathbf     { \mu   } } \right ) , \quad   { \hat     { Q } } = \left ( I - K H \right ) Q ,
+K = Q H ^ { { { \mathrm     { T } } } } \left ( H Q H ^ { { { \mathrm     { T } } } } + R \right ) ^ { { - 1 } }
+\mathbf   { x }  
+X = \left [ { \mathbf     { x } } _ { { 1 } } , \ldots   , { \mathbf     { x } } _ { { N } } \right ] = \left [ { \mathbf     { x } } _ { { i } } \right ] .
+X
+n \times   N
+\mathbf { d }
+m \times   N
+D = \left [ { \mathbf     { d } } _ { { 1 } } , \ldots   , { \mathbf     { d } } _ { { N } } \right ] = \left [ { \mathbf     { d } } _ { { i } } \right ] , \quad   { \mathbf     { d } } _ { { i } } = { \mathbf     { d } } + { \mathbf     { \epsilon   _ { { i } } } } , \quad   { \mathbf     { \epsilon   _ { { i } } } } = N ( 0 , R ) ,
+{ \mathbf     { d } } _ { { i } }
+\mathbf { d }
+m
+N ( 0 , R )
+X
+{ \hat     { X } } = X + K ( D - H X )
+H = 1
+x _ { i } = \mu   + \xi   _ { i } , \;\xi   _ { i } \sim   N ( 0 , \sigma   _ { x } ^ { 2 } )
+d _ { i } = d + \epsilon   _ { i } , \;\epsilon   _ { i } \sim   N ( 0 , \sigma   _ { d } ^ { 2 } ) .
+{ \hat     { x } } _ { i } = \left ( { \frac     { 1 / \sigma   _ { x } ^ { 2 } } { 1 / \sigma   _ { x } ^ { 2 } + 1 / \sigma   _ { d } ^ { 2 } } } \mu   + { \frac     { 1 / \sigma   _ { d } ^ { 2 } } { 1 / \sigma   _ { x } ^ { 2 } + 1 / \sigma   _ { d } ^ { 2 } } } d \right ) + \left ( { \frac     { 1 / \sigma   _ { x } ^ { 2 } } { 1 / \sigma   _ { x } ^ { 2 } + 1 / \sigma   _ { d } ^ { 2 } } } \xi   _ { i } + { \frac     { 1 / \sigma   _ { d } ^ { 2 } } { 1 / \sigma   _ { x } ^ { 2 } + 1 / \sigma   _ { d } ^ { 2 } } } \epsilon   _ { i } \right )
+\left ( { \frac     { 1 / \sigma   _ { x } ^ { 2 } } { 1 / \sigma   _ { x } ^ { 2 } + 1 / \sigma   _ { d } ^ { 2 } } } \right ) ^ { 2 } \sigma   _ { x } ^ { 2 } + \left ( { \frac     { 1 / \sigma   _ { d } ^ { 2 } } { 1 / \sigma   _ { x } ^ { 2 } + 1 / \sigma   _ { d } ^ { 2 } } } \right ) ^ { 2 } \sigma   _ { d } ^ { 2 } = { \frac     { 1 } { 1 / \sigma   _ { x } ^ { 2 } + 1 / \sigma   _ { d } ^ { 2 } } }
+Q
+K
+C
+K = C H ^ { { { \mathrm     { T } } } } \left ( H C H ^ { { { \mathrm     { T } } } } + R \right ) ^ { { - 1 } }
+X
+D
+E \left ( X \right ) = { \frac     { 1 } { N } } \sum   _ { { k = 1 } } ^ { { N } } { \mathbf     { x } } _ { { k } } , \quad   C = { \frac     { A A ^ { { T } } } { N - 1 } } ,
+A = X - E \left ( X \right ) { \mathbf     { e } } _ { { 1 \times   N } } = X - { \frac     { 1 } { N } } \left ( X { \mathbf     { e } } _ { { N \times   1 } } \right ) { \mathbf     { e } } _ { { 1 \times   N } } ,
+\mathbf   { e }  
+X ^ { { p } }
+X ^ { { p } } = X + C H ^ { { T } } \left ( H C H ^ { { T } } + R \right ) ^ { { - 1 } } ( D - H X ) ,
+D
+R
+R
+{ \tilde     { D } } { \tilde     { D } } ^ { { T } } / \left ( N - 1 \right )
+{ \tilde     { D } } = D - { \frac     { 1 } { N } } d \,{ \mathbf     { e } } _ { { 1 \times   N } }
+H
+h ( \mathbf   { x }   )
+h ( { \mathbf     { x } } ) = H { \mathbf     { x } } .
+h
+h ( \mathbf   { x }   )
+\mathbf   { x }  
+X ^ { { p } } = X + { \frac     { 1 } { N - 1 } } A \left ( H A \right ) ^ { { T } } P ^ { { - 1 } } ( D - H X )
+H A = H X - { \frac     { 1 } { N } } \left ( \left ( H X \right ) { \mathbf     { e } } _ { { N \times   1 } } \right ) { \mathbf     { e } } _ { { 1 \times   N } } ,
+P = { \frac     { 1 } { N - 1 } } H A \left ( H A \right ) ^ { { T } } + R ,
+\left [ H A \right ] _ { { i } } = H { \mathbf     { x } } _ { { i } } - H { \frac     { 1 } { N } } \sum   _ { { j = 1 } } ^ { { N } } { \mathbf     { x } } _ { { j } } \ =h \left ( { \mathbf     { x } } _ { { i } } \right ) - { \frac     { 1 } { N } } \sum   _ { { j = 1 } } ^ { { N } } h \left ( { \mathbf     { x } } _ { { j } } \right ) .
+h
+H
+h ( { \mathbf     { x } } ) = H { \mathbf     { x + f } }
+\mathbf   { f }  
+h
+m
+P ^ { { - 1 } }
+m
+R
+( R + U V ^ { { T } } ) ^ { { - 1 } } = R ^ { { - 1 } } - R ^ { { - 1 } } U ( I + V ^ { { T } } R ^ { { - 1 } } U ) ^ { { - 1 } } V ^ { { T } } R ^ { { - 1 } } ,
+U = { \frac     { 1 } { N - 1 } } H A , \quad   V = H A ,
+{ \begin { a l i g n e d } P ^ { { - 1 } } & = \left ( R + { \frac     { 1 } { N - 1 } } H A \left ( H A \right ) ^ { { T } } \right ) ^ { { - 1 } } \ =\\&=R ^ { { - 1 } } \left [ I - { \frac     { 1 } { N - 1 } } \left ( H A \right ) \left ( I + \left ( H A \right ) ^ { { T } } R ^ { { - 1 } } { \frac     { 1 } { N - 1 } } \left ( H A \right ) \right ) ^ { { - 1 } } \left ( H A \right ) ^ { { T } } R ^ { { - 1 } } \right ] , \end { a l i g n e d } }
+R
+N
+m

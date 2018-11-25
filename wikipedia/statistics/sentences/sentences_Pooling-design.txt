@@ -1,0 +1,230 @@
+n
+n
+n
+d
+q
+{ \displaystyle   0 , 1 }
+{ \displaystyle   2 ^ { + } }
+{ \displaystyle   { 0 , 1 , \ldots   , k ^ { + } } }
+k \in   \mathbb   { N }  
+s
+{ \displaystyle   t = { \frac   { e } { \log   _ { 2 } ( e ) } } d \log   _ { 2 } ( n ) }
+d
+n
+{ \displaystyle   s - 1 }
+{ \displaystyle   t = \lceil   \log   _ { 2 } ( n ) \rceil   }
+d - 1
+d
+{ \displaystyle   0 . 1 8 7 d + 0 . 5 \log   _ { 2 } ( d ) + 5 . 5 }
+{ \displaystyle   n / d \geq   3 8 }
+{ \displaystyle   d \geq   1 0 }
+{ \displaystyle   n \leq   \lfloor   ( 5 d + 1 ) / 2 \rfloor   }
+{ \displaystyle   n > 3 d }
+{ \displaystyle   n \leq   3 d }
+n
+{ \displaystyle   d \geq   n / \log   _ { 3 / 2 } ( 3 ) \approx   0 . 3 6 9 n }
+{ \displaystyle   t = e d ( 1 + \delta   ) \ln ( n ) }
+d
+n
+{ \displaystyle   n ^ { - \delta   } }
+{ \displaystyle   t = O ( d \log   _ { 2 } n ) }
+{ \displaystyle   d ^ { 2 } \geq   n }
+{ \displaystyle   d ^ { 2 } < n }
+{ \displaystyle   \mathbf   { x }   = ( x _ { 1 } , x _ { 2 } , \dots   , x _ { n } ) }
+n
+{ \mathbf     { x } } \in   \{ 0 , 1 \}^ { n }
+{ \displaystyle   x _ { j } = 1 }
+\mathbf   { x }  
+\mathbf   { x }  
+\mathbf   { x }  
+\mathbf   { x }  
+{ \displaystyle   S \subseteq   \{ 1 , 2 , \dots   , n \ } }
+{ \displaystyle   j \in   S }
+{ \displaystyle   x _ { j } = 1 }
+\mathbf   { x }  
+{ \displaystyle   t ( d , n ) }
+d
+n
+{ \displaystyle   { \bar   { t } } ( d , n ) }
+{ \displaystyle   S _ { j } = \{ j \ } }
+1 \leq   j \leq   n
+{ \displaystyle   { \bar   { t } } ( d , n ) \leq   n }
+{ \displaystyle   t ( d , n ) \leq   { \bar   { t } } ( d , n ) }
+{ \displaystyle   0 \neq   d \neq   n }
+{ \displaystyle   1 \leq   t ( d , n ) }
+{ \displaystyle   0 \neq   d \neq   n }
+{ \displaystyle   1 \leq   t ( d , n ) \leq   { \bar   { t } } ( d , n ) \leq   n }
+{ \mathcal   { S } }
+{ \mathcal   { S } }
+{ \displaystyle   t \geq   \lceil   \log   _ { 2 } { | { \mathcal   { S } } | } \rceil   }
+t
+{ \mathcal   { S } }
+{ \mathcal   { S } }
+t
+{ \displaystyle   \mathbb   { P }   ( { \textrm   { s u c c e s s } } ) }
+{ \displaystyle   \mathbb   { P }   ( { \textrm   { s u c c e s s } } ) \leq   t / \log   _ { 2 } { n   \choose   d } }
+{ \displaystyle   \mathbb   { P }   ( { \textrm   { s u c c e s s } } ) \leq   { \frac   { 2 ^ { t } } { n   \choose   d } } }
+M
+n
+{ \displaystyle   S _ { 1 } , S _ { 2 } , \dots   , S _ { t } }
+{ \displaystyle   t \in   \mathbb   { N }   _ { \geq   0 } }
+t \times   n
+M
+{ \displaystyle   ( M ) _ { i j } = 1 }
+{ \displaystyle   j \in   S _ { i } }
+M
+1
+{ \displaystyle   ( i , j ) { \textrm   { - t h } } }
+{ \displaystyle   i { \textrm   { - t h } } }
+{ \displaystyle   j { \textrm   { - t h } } }
+{ \displaystyle   0 }
+\mathbf   { x }  
+n
+t
+{ \displaystyle   \mathbf   { y }   = ( y _ { 1 } , y _ { 2 } , \dots   , y _ { t } ) }
+t
+{ \displaystyle   \mathbf   { y }   \in   \{ 0 , 1 \}^ { t } }
+{ \displaystyle   y _ { i } = 1 }
+{ \displaystyle   i { \textrm   { - t h } } }
+M
+\mathbf   { y }  
+\mathbf   { y }  
+\mathbf   { x }  
+q
+\mathbf   { v }  
+q
+1
+{ \displaystyle   0 }
+{ \displaystyle   { \hat   { \mathbf   { y }   } } = \mathbf   { y }   + \mathbf   { v }   }
+{ \displaystyle   ( \mathbb   { Z }   / 2 \mathbb   { Z }   ) ^ { n } }
+\mathbf   { x }  
+{ \hat   { \mathbf   { y }   } }
+\mathbf   { y }  
+d
+M
+d
+d
+{ \displaystyle   { \bar   { d } } }
+d
+M
+M
+k
+{ \displaystyle   k \leq   d }
+M
+d
+{ \displaystyle   { \bar   { d } } }
+d
+d
+M
+d
+d
+d
+d
+d
+d
+d
+n
+{ \displaystyle   O ( d \log   _ { 2 } n ) }
+{ \displaystyle   O ( d ^ { 2 } \log   _ { 2 } n ) }
+{ \displaystyle   O \left ( { \frac   { d ^ { 2 } \log   _ { 2 } n } { \log   _ { 2 } d } } \right ) }
+{ \displaystyle   2 ^ { \alpha   _ { 1 } } = 1 6 }
+{ \displaystyle   2 ^ { \alpha   _ { 2 } } = 8 }
+\alpha  
+d
+n
+{ \displaystyle   n \leq   2 d - 2 }
+n
+{ \displaystyle   l = n - d + 1 }
+{ \displaystyle   \alpha   = \lfloor   \log   _ { 2 } { l / d } \rfloor   }
+2 ^ { \alpha   }
+{ \displaystyle   n : = n - 2 ^ { \alpha   } }
+x
+{ \displaystyle   n : = n - 1 - x }
+{ \displaystyle   d : = d - 1 }
+T
+{ \displaystyle   T = { \begin { c a s e s } n & n \leq   2 d - 2 \\( \alpha   + 2 ) d + p - 1 & n \geq   2 d - 1 \end { c a s e s } } }
+{ \displaystyle   n / d }
+{ \displaystyle   T \rightarrow   d \log   _ { 2 } ( n / d ) }
+{ \displaystyle   t = { \frac   { e } { \log   _ { 2 } e } } d \log   _ { 2 } \left ( { \frac   { n } { d } } \right ) }
+s
+{ \displaystyle   d \geq   2 }
+{ \displaystyle   T - B _ { I } ( d , n ) \leq   ( d - 1 ) }
+{ \displaystyle   B _ { I } ( d , n ) = \left \lceil   \log   _ { 2 } \sum   _ { i = 0 } ^ { d } { n   \choose   i } \right \rceil   }
+d
+d
+1
+{ \displaystyle   1 / d }
+{ \displaystyle   0 }
+M
+{ \displaystyle   e d ( 1 + \delta   ) \ln ( n ) }
+{ \displaystyle   n ^ { - \delta   } }
+M
+q
+{ \displaystyle   4 . 3 6 ( { \sqrt   { \delta   } } + { \sqrt   { 1 + \delta   } } ) ^ { 2 } ( 1 - 2 q ) ^ { - 2 } d \log   _ { 2 } { n } }
+{ \displaystyle   n ^ { - \delta   } }
+K
+K
+K
+K
+K
+K
+K
+n
+{ \displaystyle   0 , 1 , }
+{ \displaystyle   2 ^ { + } }
+{ \displaystyle   \{ 0 , 1 , 2 ^ { + } \ } }
+{ \displaystyle   f : \{ 0 , 1 \}^ { N } \to   \{ 0 , 1 \ } }
+{ \displaystyle   f ( { \textbf   { x } } ) = { \textbf   { a } } \cdot   { \textbf   { x } } }
+{ \displaystyle   { \textbf   { a } } \in   \{ 0 , 1 \}^ { N } }
+\textbf { a }
+d
+{ \displaystyle   d \ll   N }
+1
+f
+t
+t
+f
+f
+f
+\textbf { a }
+{ \displaystyle   f ( { \textbf   { p } } ) = 1 }
+n
+{ \displaystyle   { \textbf   { a } } _ { n } = { \textbf   { p } } _ { n } = 1 }
+d
+n
+\textbf { a }
+1
+{ \textbf     { p } }
+{ \displaystyle   f ( { \textbf   { p } } ) = 1 }
+{ \displaystyle   f : \mathbb   { C }   ^ { N } \to   \mathbb   { C }   }
+{ \displaystyle   f ( { \textbf   { x } } ) = { \textbf   { a } } \cdot   { \textbf   { x } } }
+{ \displaystyle   { \textbf   { v } } \in   \mathbb   { C }   ^ { N } }
+\textbf { v }
+\textbf { v }
+\textbf { v }
+{ \displaystyle   M { \textbf   { v } } = { \textbf   { q } } }
+M
+{ \displaystyle   t \times   N }
+\mathbf   { q }  
+{ \displaystyle   d 2 ^ { ( \log   _ { 2 } \log   _ { 2 } N ) ^ { O ( 1 ) } } }
+f
+N
+t
+{ \displaystyle   t = O \left ( { \frac   { d ^ { 2 } \log   _ { 2 } n } { \log   _ { 2 } d } } \right ) }
+{ \displaystyle   t = O ( d \log   _ { 2 } n ) }
+{ \displaystyle   d \to   \infty   }
+n \to   \infty  
+s
+{ \displaystyle   t \leq   { \frac   { e } { \log   _ { 2 } e } } d \log   _ { 2 } { ( n / d ) } }
+{ \displaystyle   \mathbf   { y }   }
+{ \displaystyle   \mathbf   { y }   : = M \mathbf   { x }   }
+\wedge  
+\vee  
+{ \displaystyle   \mathbf   { y }   }
+1
+i
+{ \displaystyle   ( M ) _ { i , j } }
+{ \displaystyle   \mathbf   { x }   _ { j } }
+1
+j
+{ \displaystyle   i { \textrm   { - t h } } }

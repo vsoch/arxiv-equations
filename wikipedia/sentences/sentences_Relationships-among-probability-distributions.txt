@@ -1,6 +1,0 @@
-Z
-n
-X _ { 1 } , \dots   , X _ { n }
-{ \displaystyle   f _ { X _ { i } } ( x ) }
-{ \displaystyle   Z = \sum   _ { i = 1 } ^ { n } { X _ { i } } }
-{ \frac     { X } { { \sqrt     { ( U / \nu   ) } } } }

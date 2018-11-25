@@ -1,0 +1,212 @@
+{ \displaystyle   D _ { \text { K L } } ( P \parallel   Q ) = - \sum   _ { i } P ( i ) \log   \left ( { \frac   { Q ( i ) } { P ( i ) } } \right ) , }
+{ \displaystyle   D _ { \text { K L } } ( P \parallel   Q ) = \sum   _ { i } P ( i ) \log   \left ( { \frac   { P ( i ) } { Q ( i ) } } \right ) . }
+{ \displaystyle   \lim   _ { x \to   0 ^ { + } } x \log ( x ) = 0 . }
+{ \displaystyle   D _ { \text { K L } } ( P \parallel   Q ) = \int   _ { - \infty   } ^ { \infty   } p ( x ) \log   \left ( { \frac   { p ( x ) } { q ( x ) } } \right ) \,dx , }
+{ \displaystyle   D _ { \text { K L } } ( P \parallel   Q ) = \int   _ { X } \log   \left ( { \frac   { d P } { d Q } } \right ) \,dP , }
+{ \displaystyle   { \frac   { d P } { d Q } } }
+{ \displaystyle   D _ { \text { K L } } ( P \parallel   Q ) = \int   _ { X } \log   \left ( { \frac   { d P } { d Q } } \right ) { \frac   { d P } { d Q } } \,dQ , }
+\mu  
+{ \displaystyle   p = { \frac   { d P } { d \mu   } } }
+{ \displaystyle   q = { \frac   { d Q } { d \mu   } } }
+\mu  
+{ \displaystyle   D _ { \text { K L } } ( P \parallel   Q ) = \int   _ { X } p \log   \left ( { \frac   { p } { q } } \right ) \,d \mu   . }
+{ \displaystyle   D _ { \text { K L } } ( P \parallel   Q ) }
+{ \displaystyle   { \begin { a l i g n e d } D _ { \text { K L } } ( Q \parallel   P ) & = \sum   _ { i } Q ( i ) \ln   \left ( { \frac   { Q ( i ) } { P ( i ) } } \right ) \\[6pt ] & = 0 . 3 3 3 \ln   \left ( { \frac   { 0 . 3 3 3 } { 0 . 3 6 } } \right ) + 0 . 3 3 3 \ln   \left ( { \frac   { 0 . 3 3 3 } { 0 . 4 8 } } \right ) + 0 . 3 3 3 \ln   \left ( { \frac   { 0 . 3 3 3 } { 0 . 1 6 } } \right ) \\[6pt ] & = - 0 . 0 2 5 9 6 + ( - 0 . 1 2 1 7 6 ) + 0 . 2 4 4 0 8 \\[6pt ] & = 0 . 0 9 6 3 7 \end { a l i g n e d } } }
+{ \displaystyle   D _ { \text { K L } } ( P \parallel   Q ) }
+{ \displaystyle   D _ { \text { K L } } ( P \parallel   Q ) }
+{ \displaystyle   D _ { \text { K L } } ( P \parallel   Q ) }
+{ \displaystyle   D _ { \text { K L } } ( P \parallel   Q ) }
+{ \displaystyle   D _ { \text { K L } } ( P \parallel   Q ) }
+{ \displaystyle   D _ { \text { K L } } ( Q \parallel   P ) }
+x _ { i }
+q ( x _ { i } ) = 2 ^ { - l _ { i } }
+l _ { i }
+x _ { i }
+Q
+P
+{ \displaystyle   { \begin { a l i g n e d } D _ { \text { K L } } ( P \parallel   Q ) & = - \sum   _ { x } p ( x ) \log   q ( x ) + \sum   _ { x } p ( x ) \log   p ( x ) \\&=\mathrm   { H }   ( P , Q ) - \mathrm   { H }   ( P ) \end { a l i g n e d } } }
+H ( P , Q )
+P
+Q
+H ( P )
+P
+{ \displaystyle   D _ { \text { K L } } ( P \parallel   Q ) \geq   0 , }
+{ \displaystyle   D _ { \text { K L } } ( P \parallel   Q ) }
+{ \displaystyle   \mathrm   { H }   ( P ) }
+{ \displaystyle   \mathrm   { H }   ( P , Q ) }
+{ \displaystyle   { \begin { a l i g n e d } D _ { \text { K L } } ( P \parallel   Q ) & = \int   _ { x _ { a } } ^ { x _ { b } } P ( x ) \log   \left ( { \frac   { P ( x ) } { Q ( x ) } } \right ) \,dx \\[6pt ] & = \int   _ { y _ { a } } ^ { y _ { b } } P ( y ) \log   \left ( { \frac   { P ( y ) \,{ \frac   { d y } { d x } } } { Q ( y ) \,{ \frac   { d y } { d x } } } } \right ) \,dy = \int   _ { y _ { a } } ^ { y _ { b } } P ( y ) \log   \left ( { \frac   { P ( y ) } { Q ( y ) } } \right ) \,dy \end { a l i g n e d } } }
+{ \displaystyle   y _ { a } = y ( x _ { a } ) }
+{ \displaystyle   y _ { b } = y ( x _ { b } ) }
+P _ { 1 } , P _ { 2 }
+{ \displaystyle   P ( x , y ) = P _ { 1 } ( x ) P _ { 2 } ( y ) }
+Q , Q _ { 1 } , Q _ { 2 }
+{ \displaystyle   D _ { \text { K L } } ( P \parallel   Q ) = D _ { \text { K L } } ( P _ { 1 } \parallel   Q _ { 1 } ) + D _ { \text { K L } } ( P _ { 2 } \parallel   Q _ { 2 } ) . }
+{ \displaystyle   D _ { \text { K L } } ( P \parallel   Q ) }
+( p , q )
+{ \displaystyle   ( p _ { 1 } , q _ { 1 } ) }
+{ \displaystyle   ( p _ { 2 } , q _ { 2 } ) }
+{ \displaystyle   D _ { \text { K L } } ( \lambda   p _ { 1 } + ( 1 - \lambda   ) p _ { 2 } \parallel   \lambda   q _ { 1 } + ( 1 - \lambda   ) q _ { 2 } ) \leq   \lambda   D _ { \text { K L } } ( p _ { 1 } \parallel   q _ { 1 } ) + ( 1 - \lambda   ) D _ { \text { K L } } ( p _ { 2 } \parallel   q _ { 2 } ) { \text {   f o r   } } 0 \leq   \lambda   \leq   1 . }
+\mu   _ { 0 } , \mu   _ { 1 }
+{ \displaystyle   \Sigma   _ { 0 } , \Sigma   _ { 1 } . }
+{ \displaystyle   D _ { \text { K L } } ( { \mathcal   { N } } _ { 0 } \parallel   { \mathcal   { N } } _ { 1 } ) = { \frac   { 1 } { 2 } } \left ( \operatorname   { t r }   \left ( \Sigma   _ { 1 } ^ { - 1 } \Sigma   _ { 0 } \right ) + ( \mu   _ { 1 } - \mu   _ { 0 } ) ^ { \mathsf   { T } } \Sigma   _ { 1 } ^ { - 1 } ( \mu   _ { 1 } - \mu   _ { 0 } ) - k + \ln   \left ( { \frac   { \det   \Sigma   _ { 1 } } { \det   \Sigma   _ { 0 } } } \right ) \right ) . }
+{ \displaystyle   D _ { \text { K L } } \left ( { \mathcal   { N } } \left ( ( \mu   _ { 1 } , \ldots   , \mu   _ { k } ) ^ { \mathsf   { T } } , \operatorname   { d i a g }   ( \sigma   _ { 1 } ^ { 2 } , \ldots   , \sigma   _ { k } ^ { 2 } ) \right ) \parallel   { \mathcal   { N } } \left ( \mathbf   { 0 }   , \mathbf   { I }   \right ) \right ) = { 1   \over   2 } \sum   _ { i = 1 } ^ { k } ( \sigma   _ { i } ^ { 2 } + \mu   _ { i } ^ { 2 } - \ln ( \sigma   _ { i } ^ { 2 } ) - 1 ) . }
+{ \displaystyle   D _ { \text { K L } } ( P \parallel   Q ) \neq   D _ { \text { K L } } ( Q \parallel   P ) }
+{ \displaystyle   \{ P _ { 1 } , P _ { 2 } , \ldots   \ } }
+{ \displaystyle   \lim   _ { n \to   \infty   } D _ { \text { K L } } ( P _ { n } \parallel   Q ) = 0 }
+{ \displaystyle   P _ { n } { \xrightarrow   { D } } Q . }
+{ \displaystyle   P _ { n } { \xrightarrow   { D } } P \Rightarrow   P _ { n } { \xrightarrow   { T V } } P , }
+P = P ( \theta   )
+Q = P ( \theta   _ { 0 } )
+\theta   _ { 0 }
+{ \displaystyle   P ( \theta   ) = P ( \theta   _ { 0 } ) + \Delta   \theta   ^ { j } P _ { j } ( \theta   _ { 0 } ) + \cdots   }
+\Delta   \theta   ^ { j } = ( \theta   - \theta   _ { 0 } ) ^ { j }
+{ \displaystyle   P _ { j } \left ( \theta   _ { 0 } \right ) = { \frac   { \partial   P } { \partial   \theta   ^ { j } } } ( \theta   _ { 0 } ) }
+\theta   = \theta   _ { 0 }
+\Delta   \theta   ^ { j }
+{ \displaystyle   \left . { \frac   { \partial   } { \partial   \theta   ^ { j } } } \right | _ { \theta   = \theta   _ { 0 } } D _ { K L } ( P ( \theta   ) \parallel   P ( \theta   _ { 0 } ) ) = 0 , }
+{ \displaystyle   D _ { \text { K L } } ( P ( \theta   ) \parallel   P ( \theta   _ { 0 } ) ) = { \frac   { 1 } { 2 } } \Delta   \theta   ^ { j } \Delta   \theta   ^ { k } g _ { j k } ( \theta   _ { 0 } ) + \cdots   }
+{ \displaystyle   g _ { j k } ( \theta   _ { 0 } ) = \left . { \frac   { \partial   ^ { 2 } } { \partial   \theta   ^ { j } \,\partial   \theta   ^ { k } } } \right | _ { \theta   = \theta   _ { 0 } } D _ { \text { K L } } ( P ( \theta   ) \parallel   P ( \theta   _ { 0 } ) ) }
+\theta   _ { 0 }
+g _ { j k } ( \theta   )
+{ \displaystyle   p _ { ( x , \rho   ) } }
+{ \displaystyle   { \tfrac   { \partial   \log ( p ) } { \partial   \rho   } } , { \tfrac   { \partial   ^ { 2 } \log ( p ) } { \partial   \rho   ^ { 2 } } } , { \tfrac   { \partial   ^ { 3 } \log ( p ) } { \partial   \rho   ^ { 3 } } } }
+{ \displaystyle   { \begin { a l i g n e d } \left | { \frac   { \partial   p } { \partial   \rho   } } \right | & < F ( x ) : \int   _ { x = 0 } ^ { \infty   } F ( x ) \,dx < \infty   , \\\left | { \frac   { \partial   ^ { 2 } p } { \partial   \rho   ^ { 2 } } } \right | & < G ( x ) : \int   _ { x = 0 } ^ { \infty   } G ( x ) \,dx < \infty   \\\left | { \frac   { \partial   ^ { 3 } \log ( p ) } { \partial   \rho   ^ { 3 } } } \right | & < H ( x ) : \int   _ { x = 0 } ^ { \infty   } p ( x , 0 ) H ( x ) \,dx < \xi   < \infty   \end { a l i g n e d } } }
+{ \displaystyle   \left . \int   _ { x = 0 } ^ { \infty   } { \frac   { \partial   p ( x , \rho   ) } { \partial   \rho   } } \right | _ { \rho   = 0 } \,dx = \left . \int   _ { x = 0 } ^ { \infty   } { \frac   { \partial   ^ { 2 } p ( x , \rho   ) } { \partial   \rho   ^ { 2 } } } \right | _ { \rho   = 0 } \,dx = 0 }
+{ \displaystyle   { \mathcal   { D } } ( p ( x , 0 ) \parallel   p ( x , \rho   ) ) = { \frac   { c \rho   ^ { 2 } } { 2 } } + { \mathcal   { O } } ( \rho   ^ { 3 } ) { \text {   a s   } } \rho   \to   0 . }
+{ \displaystyle   \operatorname   { I }   ( m ) = D _ { \text { K L } } ( \delta   _ { i m } \parallel   \{ p _ { i } \ } ) , }
+{ \displaystyle   P ( i ) }
+{ \displaystyle   P ( i ) }
+{ \displaystyle   { \begin { a l i g n e d } I ( X ; Y ) & = D _ { \text { K L } } ( P ( X , Y ) \parallel   P ( X ) P ( Y ) ) \\&=\operatorname   { E }   _ { X } \{ D _ { \text { K L } } ( P ( Y \mid   X ) \parallel   P ( Y ) ) \}\\&=\operatorname   { E }   _ { Y } \{ D _ { \text { K L } } ( P ( X \mid   Y ) \parallel   P ( X ) ) \}\end { a l i g n e d } } }
+{ \displaystyle   P ( X ) P ( Y ) }
+{ \displaystyle   P ( X , Y ) }
+{ \displaystyle   P ( X , Y ) }
+{ \displaystyle   \mathrm   { H }   ( X ) = }
+{ \displaystyle   \operatorname   { E }   [ \operatorname   { I }   _ { X } ( x ) ] }
+=
+{ \displaystyle   \log ( N ) - D _ { \text { K L } } ( p _ { X } ( x ) \parallel   P _ { U } ( X ) ) }
+X
+N
+X
+{ \displaystyle   P _ { U } ( X ) }
+P ( X )
+X
+{ \displaystyle   P _ { U } ( X ) }
+P ( X )
+{ \displaystyle   \mathrm   { H }   ( X \mid   Y ) = }
+{ \displaystyle   \log ( N ) - D _ { \text { K L } } ( P ( X , Y ) \parallel   P _ { U } ( X ) P ( Y ) ) }
+=
+{ \displaystyle   \log ( N ) - D _ { \text { K L } } ( P ( X , Y ) \parallel   P ( X ) P ( Y ) ) - D _ { \text { K L } } ( P ( X ) \parallel   P _ { U } ( X ) ) }
+=
+{ \displaystyle   \mathrm   { H }   ( X ) - I ( X ; Y ) }
+=
+{ \displaystyle   \log ( N ) - \operatorname   { E }   _ { Y } { \bigl   [ } D _ { \text { K L } } ( P ( X \mid   Y ) \parallel   P _ { U } ( X ) ) { \bigr   ] } }
+{ \displaystyle   P ( X , Y ) }
+{ \displaystyle   \mathrm   { H }   ( p , q ) = \operatorname   { E }   _ { p } [ - \log ( q ) ] = \mathrm   { H }   ( p ) + D _ { \text { K L } } ( p \parallel   q ) . }
+{ \displaystyle   p ( x ) \to   p ( x \mid   I ) }
+{ \displaystyle   Y = y }
+X
+{ \displaystyle   p ( x \mid   I ) }
+{ \displaystyle   p ( x \mid   y , I ) }
+{ \displaystyle   p ( x \mid   y , I ) = { \frac   { p ( y \mid   x , I ) p ( x \mid   I ) } { p ( y \mid   I ) } } }
+{ \displaystyle   \mathrm   { H }   { \big   ( } p ( - \mid   y , I ) { \big   ) } = - \sum   _ { x } p ( x \mid   y , I ) \log   p ( x \mid   y , I ) , }
+{ \displaystyle   H ( p ( - \mid   I ) ) }
+{ \displaystyle   p ( x \mid   I ) }
+{ \displaystyle   p ( x \mid   y , I ) }
+{ \displaystyle   D _ { \text { K L } } { \big   ( } p ( - \mid   y , I ) \parallel   p ( - \mid   I ) { \big   ) } = \sum   _ { x } p ( x \mid   y , I ) \log   \left ( { \frac   { p ( x \mid   y , I ) } { p ( x \mid   I ) } } \right ) }
+X
+{ \displaystyle   Y = y }
+{ \displaystyle   Y _ { 2 } = y _ { 2 } }
+x
+{ \displaystyle   p ( x \mid   y _ { 1 } , y _ { 2 } , I ) }
+{ \displaystyle   p ( x \mid   y _ { 1 } , I ) }
+{ \displaystyle   p ( x \mid   I ) }
+{ \displaystyle   \sum   _ { x } p ( x \mid   y _ { 1 } , y _ { 2 } , I ) \log   \left ( { \frac   { p ( x \mid   y _ { 1 } , y _ { 2 } , I ) } { p ( x \mid   I ) } } \right ) }
+{ \displaystyle   \displaystyle   \sum   _ { x } p ( x \mid   y _ { 1 } , I ) \log   \left ( { \frac   { p ( x \mid   y _ { 1 } , I ) } { p ( x \mid   I ) } } \right ) }
+{ \displaystyle   D _ { \text { K L } } { \big   ( } p ( - \mid   y _ { 1 } , y _ { 2 } , I ) \parallel   p ( - \mid   I ) { \big   ) } }
+{ \displaystyle   D _ { \text { K L } } { \big   ( } p ( - \mid   y _ { 1 } , y _ { 2 } , I ) \parallel   p ( - \mid   y _ { 1 } , I ) { \big   ) } + D _ { \text { K L } } { \big   ( } p ( - \mid   y _ { 1 } , I ) \parallel   p ( - \mid   I ) { \big   ) } }
+{ \displaystyle   p ( y _ { 2 } \mid   y _ { 1 } , x , I ) }
+{ \textstyle   D _ { \text { K L } } { \bigl   ( } p ( x \mid   \mathrm   { H }   _ { 1 } ) \parallel   p ( x \mid   H _ { 0 } ) { \bigr   ) } }
+{ \displaystyle   D _ { \text { K L } } ( p ( x \mid   \mathrm   { H }   _ { 1 } ) \parallel   p ( x \mid   H _ { 0 } ) ) \neq   I G = D _ { \text { K L } } ( p ( \mathrm   { H }   \mid   x ) \parallel   p ( \mathrm   { H }   \mid   I ) ) . }
+f _ { 0 }
+{ \displaystyle   D _ { \text { K L } } ( f \parallel   f _ { 0 } ) }
+{ \displaystyle   p ( x , a ) }
+{ \displaystyle   u ( a ) }
+{ \displaystyle   q ( x \mid   a ) u ( a ) }
+{ \displaystyle   D _ { \text { K L } } ( q ( x \mid   a ) u ( a ) \parallel   p ( x , a ) ) = \operatorname   { E }   _ { u ( a ) } \left \{ D _ { \text { K L } } ( q ( x \mid   a ) \parallel   p ( x \mid   a ) ) \right \}+D_ { \text { K L } } ( u ( a ) \parallel   p ( a ) ) , }
+p ( a )
+{ \displaystyle   u ( a ) }
+{ \displaystyle   u ( a ) }
+{ \displaystyle   p ( x \mid   a ) }
+{ \displaystyle   q ( x \mid   a }
+{ \displaystyle   D _ { \text { K L } } ( q ( x \mid   a ) \parallel   p ( x \mid   a ) ) }
+{ \displaystyle   q ( x \mid   a ) = p ( x \mid   a ) }
+{ \displaystyle   u ( a ) }
+{ \displaystyle   u ( a ) }
+m
+p
+m
+p
+m
+{ \displaystyle   \mathrm   { H }   ( p , m ) = \mathrm   { H }   ( p ) + D _ { \text { K L } } ( p \parallel   m ) , }
+{ \displaystyle   D _ { \text { K L } } ( p \parallel   m ) }
+{ \displaystyle   D _ { \text { K L } } ( p \parallel   m ) }
+{ \displaystyle   H ( p , m ) }
+T _ { o }
+p
+{ \displaystyle   s = k \ln ( 1 / p ) }
+k
+{ \displaystyle   \left \{ 1 , 1 / \ln   2 , 1 . 3 8 \times   1 0 ^ { - 2 3 } \right \ } }
+\{
+J / K \ }
+N
+N
+S
+P
+V
+{ \displaystyle   A \equiv   - k \ln ( Z ) }
+Z
+T
+T \times   A
+T , V
+N
+{ \displaystyle   F \equiv   U - T S }
+U
+T
+P
+{ \displaystyle   G = U + P V - T S }
+T _ { o }
+P _ { o }
+{ \displaystyle   W = \Delta   G = N k T _ { o } \Theta   ( V / V _ { o } ) }
+V _ { o } = N k T _ { o } / P _ { o }
+{ \displaystyle   \Theta   ( x ) = x - 1 - \ln   x \geq   0 }
+T _ { o }
+{ \displaystyle   \Delta   I \geq   0 , }
+k \ln ( p / p _ { o } )
+p _ { o }
+V _ { o }
+T _ { o }
+{ \displaystyle   W = T _ { o } \Delta   I }
+{ \displaystyle   \Delta   I = N k \left [ \Theta   \left ( { \frac   { V } { V _ { o } } } \right ) + { \frac   { 3 } { 2 } } \Theta   \left ( { \frac   { T } { T _ { o } } } \right ) \right ] . }
+{ \displaystyle   D _ { \text { K L } } ( P \parallel   Q ) = \operatorname   { T r }   ( P ( \log ( P ) - \log ( Q ) ) ) . }
+{ \displaystyle   D _ { \text { K L } } ( P \parallel   Q ) }
+{ \displaystyle   D _ { \text { K L } } ( P \parallel   Q ) + D _ { \text { K L } } ( Q \parallel   P ) }
+P
+Q
+\lambda  
+{ \displaystyle   D _ { \lambda   } ( P \parallel   Q ) = \lambda   D _ { \text { K L } } ( P \parallel   \lambda   P + ( 1 - \lambda   ) Q ) + ( 1 - \lambda   ) D _ { \text { K L } } ( Q \parallel   \lambda   P + ( 1 - \lambda   ) Q ) , }
+X
+X
+P
+Q
+\lambda  
+1 - \lambda  
+{ \displaystyle   \lambda   = 0 . 5 }
+{ \displaystyle   D _ { \text { J S } } = { \frac   { 1 } { 2 } } D _ { \text { K L } } ( P \parallel   M ) + { \frac   { 1 } { 2 } } D _ { \text { K L } } ( Q \parallel   M ) }
+M
+{ \displaystyle   M = { \frac   { 1 } { 2 } } ( P + Q ) . }
+{ \displaystyle   D _ { J S } }
+P
+Q
+\delta   ( p , q )
+{ \displaystyle   \delta   ( P , Q ) \leq   { \sqrt   { { \frac   { 1 } { 2 } } D _ { \text { K L } } ( P \parallel   Q ) } } }
+\alpha  

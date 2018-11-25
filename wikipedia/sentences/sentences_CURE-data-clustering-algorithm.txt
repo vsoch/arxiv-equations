@@ -1,2 +1,0 @@
-{ \displaystyle   E = \sum   _ { i = 1 } ^ { k } \sum   _ { p \in   C _ { i } } ( p - m _ { i } ) ^ { 2 } , }
-{ \displaystyle   d _ { m i n } , d _ { m e a n } }

@@ -1,0 +1,11 @@
+F ( t ) = n \int   _ { { - \infty   } } ^ { { \infty   } } g ( x ) [ G ( x + t ) - G ( x ) ] ^ { { n - 1 } } { \text { d } } x .
+{ \displaystyle   n \int   _ { 0 } ^ { 1 } x ( G ) [ G ^ { n - 1 } - ( 1 - G ) ^ { n - 1 } ] \,{ \text { d } } G }
+{ \displaystyle   \int   _ { - \infty   } ^ { \infty   } ( 1 - ( 1 - \Phi   ( x ) ) ^ { n } - \Phi   ( x ) ^ { n } ) \,{ \text { d } } x . }
+{ \displaystyle   F ( t ) = \sum   _ { i = 1 } ^ { n } \int   _ { - \infty   } ^ { \infty   } g _ { i } ( x ) \prod   _ { j = 1 , j \neq   i } ^ { n } [ G _ { j } ( x + t ) - G _ { j } ( x ) ] \,{ \text { d } } x . }
+{ \displaystyle   f ( t ) = { \begin { c a s e s } \sum   _ { x = 1 } ^ { N } [ g ( x ) ] ^ { n } & t = 0 \\[6pt ] \sum   _ { x = 1 } ^ { N - t } \left ( { \begin { a l i g n e d a t } { 2 } & [ G ( x + t ) - G ( x - 1 ) ] ^ { n } \\{ } - { } & [ G ( x + t ) - G ( x ) ] ^ { n } \\{ } - { } & [ G ( x + t - 1 ) - G ( x - 1 ) ] ^ { n } \\{ } + { } & [ G ( x + t - 1 ) - G ( x ) ] ^ { n } \\\end { a l i g n e d a t } } \right ) & t = 1 , 2 , 3 \ldots   , N - 1 . \end { c a s e s } } }
+{ \displaystyle   f ( t ) = { \begin { c a s e s } { \frac   { 1 } { N ^ { n - 1 } } } & t = 0 \\[4pt ] \sum   _ { x = 1 } ^ { N - t } \left ( [ { \frac   { t + 1 } { N } } ] ^ { n } - 2 [ { \frac   { t } { N } } ] ^ { n } + [ { \frac   { t - 1 } { N } } ] ^ { n } \right ) & t = 1 , 2 , 3 \ldots   , N - 1 . \end { c a s e s } } }
+{ \displaystyle   n * g \left ( x \right ) }
+{ \displaystyle   \left ( n - 1 \right ) g \left ( x + t \right ) }
+{ \displaystyle   \left ( \int   _ { x } ^ { x + t } g \left ( x \right ) { \text { d } } x \right ) ^ { n - 2 } }
+{ \displaystyle   \left ( G \left ( x + t \right ) - G \left ( x \right ) \right ) ^ { n - 2 } }
+{ \displaystyle   f ( t ) = n \left ( n - 1 \right ) \int   _ { - \infty   } ^ { \infty   } g \left ( x \right ) g \left ( x + t \right ) \left [ G \left ( x + t \right ) - G \left ( x \right ) \right ] ^ { n - 2 } { \text { d } } x }

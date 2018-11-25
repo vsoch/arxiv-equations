@@ -1,0 +1,52 @@
+n
+S   =   \{ o _ 1 ,   \ldots ,   o _ n \ }
+S
+X   =   \{ X _ 1 ,   \ldots ,   X _ r \ }
+Y   =   \{ Y _ 1 ,   \ldots ,   Y _ s \ }
+a
+S
+X
+Y
+b
+S
+X
+Y
+c
+S
+X
+Y
+d
+S
+X
+Y
+R
+  R   =   \frac { a + b } { a + b + c + d }   =   \frac { a + b } { { n   \choose   2   } }
+a + b
+X
+Y
+c   +   d
+X
+Y
+X
+Y
+{ \displaystyle   { n   \choose   2 } }
+{ \displaystyle   n ( n - 1 ) / 2 }
+a   =   | S ^ { * } |
+S ^ { * }   =   \{   ( o _ { i } ,   o _ { j } )   |   o _ { i } ,   o _ { j }   \in   X _ { k } ,   o _ { i } ,   o _ { j }   \in   Y _ { l } \ }
+b   =   | S ^ { * } |
+S ^ { * }   =   \{   ( o _ { i } ,   o _ { j } )   |   o _ { i }   \in   X _ { k _ { 1 } } ,   o _ { j }   \in   X _ { k _ { 2 } } ,   o _ { i }   \in   Y _ { l _ { 1 } } ,   o _ { j }   \in   Y _ { l _ { 2 } } \ }
+c   =   | S ^ { * } |
+S ^ { * }   =   \{   ( o _ { i } ,   o _ { j } )   |   o _ { i } ,   o _ { j }   \in   X _ { k } ,   o _ { i }   \in   Y _ { l _ { 1 } } ,   o _ { j }   \in   Y _ { l _ { 2 } } \ }
+d   =   | S ^ { * } |
+S ^ { * }   =   \{   ( o _ { i } ,   o _ { j } )   |   o _ { i }   \in   X _ { k _ { 1 } } ,   o _ { j }   \in   X _ { k _ { 2 } } ,   o _ { i } ,   o _ { j }   \in   Y _ { l } \ }
+1   \leq   i , j   \leq   n ,   i   \neq   j ,   1   \leq   k ,   k _ { 1 } ,   k _ { 2 }   \leq   r ,   k _ { 1 }   \neq   k _ { 2 } ,   1   \leq   l ,   l _ { 1 } , l _ { 2 }   \leq   s ,   l _ { 1 }   \neq   l _ { 2 }
+X   =   \{   X _ 1 ,   X _ 2 ,   \ldots   ,   X _ r   \ }
+Y   =   \{   Y _ 1 ,   Y _ 2 ,   \ldots   ,   Y _ s   \ }
+\left [ n _ { i j } \right ]
+n _ { i j }
+X _ { i }
+Y _ j
+n _ { i j } = | X _ i   \cap   Y _ j |
+{ \displaystyle   { \begin { a r r a y } { c | c c c c | c } { { }   \atop   X } \!\diagdown   \!^ { Y } & Y _ { 1 } & Y _ { 2 } & \ldots   & Y _ { s } & { \text { S u m s } } \\\hline   X _ { 1 } & n _ { 1 1 } & n _ { 1 2 } & \ldots   & n _ { 1 s } & a _ { 1 } \\X_ { 2 } & n _ { 2 1 } & n _ { 2 2 } & \ldots   & n _ { 2 s } & a _ { 2 } \\\vdots   & \vdots   & \vdots   & \ddots   & \vdots   & \vdots   \\X_ { r } & n _ { r 1 } & n _ { r 2 } & \ldots   & n _ { r s } & a _ { r } \\\hline   { \text { S u m s } } & b _ { 1 } & b _ { 2 } & \ldots   & b _ { s } & \end { a r r a y } } }
+{ \displaystyle   \overbrace   { A R I }   ^ { \text { A d j u s t e d   I n d e x } } = { \frac   { \overbrace   { \sum   _ { i j } { \binom   { n _ { i j } } { 2 } } }   ^ { \text { I n d e x } } - \overbrace   { [ \sum   _ { i } { \binom   { a _ { i } } { 2 } } \sum   _ { j } { \binom   { b _ { j } } { 2 } } ] / { \binom   { n } { 2 } } }   ^ { \text { E x p e c t e d   I n d e x } } } { \underbrace   { { \frac   { 1 } { 2 } } [ \sum   _ { i } { \binom   { a _ { i } } { 2 } } + \sum   _ { j } { \binom   { b _ { j } } { 2 } } ] }   _ { \text { M a x   I n d e x } } - \underbrace   { [ \sum   _ { i } { \binom   { a _ { i } } { 2 } } \sum   _ { j } { \binom   { b _ { j } } { 2 } } ] / { \binom   { n } { 2 } } }   _ { \text { E x p e c t e d   I n d e x } } } } }
+n _ { i j } ,   a _ i ,   b _ j

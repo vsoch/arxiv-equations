@@ -1,0 +1,9 @@
+f
+y _ { i }
+\widehat   { y } _ { i } = f ( x _ { i } )
+x _ { i }
+{ \displaystyle   { \begin { a l i g n e d } { \text { F V U } } & = { { \text { V A R } } _ { \text { e r r } }   \over   { \text { V A R } } _ { \text { t o t } } } = { { \text { S S } } _ { \text { e r r } } / n   \over   { \text { S S } } _ { \text { t o t } } / n } = { { \text { S S } } _ { \text { e r r } }   \over   { \text { S S } } _ { \text { t o t } } } \left ( = 1 - { { \text { S S } } _ { \text { r e g } }   \over   { \text { S S } } _ { \text { t o t } } } , { \text {   o n l y   t r u e   i n   s o m e   c a s e s   s u c h   a s   l i n e a r   r e g r e s s i o n } } \right ) \\[6pt ] & = 1 - R ^ { 2 } , \end { a l i g n e d } } }
+{ \displaystyle   { \begin { a l i g n e d } { \text { S S } } _ { \text { e r r } } & = \sum   _ { i = 1 } ^ { N } \;( y _ { i } - { \widehat   { y } } _ { i } ) ^ { 2 } \\{ \text { S S } } _ { \text { t o t } } & = \sum   _ { i = 1 } ^ { N } \;( y _ { i } - { \bar   { y } } ) ^ { 2 } \\{ \text { S S } } _ { \text { r e g } } & = \sum   _ { i = 1 } ^ { N } \;( { \widehat   { y } } _ { i } - { \bar   { y } } ) ^ { 2 } { \text {   a n d } } \\{ \bar   { y } } & = { \frac   { 1 } { N } } \sum   _ { i = 1 } ^ { N } \;y_ { i } . \end { a l i g n e d } } }
+{ \displaystyle   { \text { F V U } } = { \frac   { \operatorname   { M S E }   ( f ) } { \operatorname   { v a r }   [ Y ] } } , }
+f ( x _ { i } ) = { \bar     { y } }
+{ \hat     { y } } _ { i } = y _ { i }

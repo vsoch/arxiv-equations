@@ -1,0 +1,40 @@
+P ( x , y )
+P ( y | x )
+x
+y
+x
+P ( y | x )
+y
+x
+{ \displaystyle   D = \{ ( x _ { i } ; y _ { i } ) | i \leq   N \in   \mathbb   { Z }   \ } }
+y _ { i }
+x _ { i }
+f ( x )
+\phi   ( x , y )
+{ \displaystyle   f ( x , w ) = \arg   m a x _ { y } w ^ { T } \phi   ( x , y ) }
+{ \displaystyle   w ^ { T } \phi   ( x , y ) }
+{ \displaystyle   c ( x , y ; w ) }
+x
+y
+{ \displaystyle   \arg   m a x }
+{ \displaystyle   P ( y | x ; w ) }
+w
+{ \displaystyle   P ( y | x ; w ) = { \frac   { 1 } { Z ( x ; w ) } } \exp ( w ^ { T } \phi   ( x , y ) ) }
+{ \displaystyle   Z ( x ; w ) = \textstyle   \sum   _ { y } \displaystyle   \exp ( x ^ { T } \phi   ( x , y ) ) }
+{ \displaystyle   L ( w ) = \textstyle   \sum   _ { i } \displaystyle   \log   p ( y ^ { i } | x ^ { i } ; w ) }
+{ \displaystyle   l ^ { \log ( } x ^ { i } , y ^ { i } , c ( x ^ { i } ; w ) ) = - \log   p ( y ^ { i } | x ^ { i } ; w ) = \log   Z ( x ^ { i } ; w ) - w ^ { T } \phi   ( x ^ { i } , y ^ { i } ) }
+{ \displaystyle   { \frac   { \partial   L ( w ) } { \partial   w } } = \textstyle   \sum   _ { i } \displaystyle   \phi   ( x ^ { i } , y ^ { i } ) - E _ { p ( y | x ^ { i } ; w ) } \phi   ( x ^ { i } , y ) }
+{ \displaystyle   E _ { p ( y | x ^ { i } ; w ) } }
+{ \displaystyle   p ( y | x ^ { i } ; w ) }
+m
+n
+{ \displaystyle   Y : \{ y _ { 1 } , y _ { 2 } , \ldots   , y _ { m } \},X : \{ x _ { 1 } , x _ { 2 } , \ldots   , x _ { n } \ } }
+P ( x , y )
+x
+y
+{ \displaystyle   { \widetilde   { y } } \in   Y }
+{ \displaystyle   { \widetilde   { x } } }
+{ \displaystyle   P ( y | x ) }
+P ( k )
+{ \displaystyle   P ( y | x ) = { \frac   { p ( x | y ) p ( y ) } { \textstyle   \sum   _ { i } p ( x | i ) p ( i ) \displaystyle   } } = { \frac   { p ( x | y ) p ( y ) } { p ( x ) } } }
+P ( y | x )

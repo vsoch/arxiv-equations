@@ -1,0 +1,12 @@
+{ \displaystyle   J ( p _ { x } ) = S ( \varphi   _ { x } ) - S ( p _ { x } ) \ , }
+{ \displaystyle   S ( \varphi   _ { x } ) }
+p _ { x }
+S ( p _ { x } )
+p _ { x }
+{ \displaystyle   S ( p _ { x } ) = - \int   p _ { x } ( u ) \log   p _ { x } ( u ) \,du }
+J = S _ { \max   } - S = - \Phi   = - k \ln   Z \ ,
+S
+J
+\Phi  
+Z
+k

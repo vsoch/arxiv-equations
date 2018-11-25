@@ -1,0 +1,12 @@
+{ \textstyle   x _ { 1 } , x _ { 2 } , \cdots   , x _ { n } }
+{ \textstyle   n }
+{ \displaystyle   x _ { \text { m e d o i d } } = { \text { a r g m i n } } _ { y \in   \{ x _ { 1 } , x _ { 2 } , \cdots   , x _ { n } \}}\sum   _ { i = 1 } ^ { n } d ( y , x _ { i } ) . }
+{ \textstyle   O ( n ^ { 2 } ) }
+{ \textstyle   O ( n ) }
+{ \textstyle   O \left ( { \frac   { n \log   n } { \epsilon   ^ { 2 } } } \right ) }
+{ \textstyle   ( 1 + \epsilon   \Delta   ) }
+{ \textstyle   \Delta   }
+{ \textstyle   \Delta   }
+{ \textstyle   O ( n ^ { \frac   { 5 } { 3 } } \log   ^ { \frac   { 4 } { 3 } } n ) }
+{ \textstyle   O ( n ^ { \frac   { 3 } { 2 } } 2 ^ { \Theta   ( d ) } ) }
+{ \textstyle   O ( n \log   n ) }

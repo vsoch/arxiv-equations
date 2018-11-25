@@ -1,0 +1,99 @@
+t f ( x _ { 1 } ) + ( 1 - t ) f ( x _ { 2 } ) ,
+f \left ( t x _ { 1 } + ( 1 - t ) x _ { 2 } \right ) .
+{ \displaystyle   f \left ( t x _ { 1 } + ( 1 - t ) x _ { 2 } \right ) \leq   t f ( x _ { 1 } ) + ( 1 - t ) f ( x _ { 2 } ) . }
+{ \displaystyle   \varphi   \left ( \operatorname   { E }   [ X ] \right ) \leq   \operatorname   { E }   \left [ \varphi   ( X ) \right ] . }
+\varphi  
+x _ { 1 } , x _ { 2 } , \ldots   , x _ { n }
+a _ { i }
+\varphi   \left ( { \frac   { \sum   a _ { i } x _ { i } } { \sum   a _ { i } } } \right ) \leq   { \frac   { \sum   a _ { i } \varphi   ( x _ { i } ) } { \sum   a _ { i } } } \qquad   \qquad   ( 1 )
+\varphi  
+\varphi   \left ( { \frac   { \sum   a _ { i } x _ { i } } { \sum   a _ { i } } } \right ) \geq   { \frac   { \sum   a _ { i } \varphi   ( x _ { i } ) } { \sum   a _ { i } } } . \qquad   \qquad   ( 2 )
+x _ { 1 } = x _ { 2 } = \cdots   = x _ { n }
+\varphi  
+a _ { i }
+\varphi   \left ( { \frac   { \sum   x _ { i } } { n } } \right ) \leq   { \frac   { \sum   \varphi   ( x _ { i } ) } { n } } \qquad   \qquad   ( 3 )
+\varphi   \left ( { \frac   { \sum   x _ { i } } { n } } \right ) \geq   { \frac   { \sum   \varphi   ( x _ { i } ) } { n } } \qquad   \qquad   ( 4 )
+{ \displaystyle   \varphi   ( x ) = \log ( x ) }
+{ \displaystyle   \log   \!\left ( { \frac   { \sum   _ { i = 1 } ^ { n } x _ { i } } { n } } \right ) \geq   { \frac   { \sum   _ { i = 1 } ^ { n } \log   \!\left ( x _ { i } \right ) } { n } } \quad   { \text { o r } } \quad   { \frac   { x _ { 1 } + x _ { 2 } + \cdots   + x _ { n } } { n } } \geq   { \sqrt [ { n } ] { x _ { 1 } \cdot   x _ { 2 } \cdots   x _ { n } } } }
+x
+t
+{ \displaystyle   x _ { i } = g ( t _ { i } ) }
+{ \displaystyle   ( \Omega   , A , \mu   ) }
+{ \displaystyle   \mu   ( \Omega   ) = 1 }
+g
+\mu  
+\varphi  
+\varphi   \left ( \int   _ { \Omega   } g \,d \mu   \right ) \leq   \int   _ { \Omega   } \varphi   \circ   g \,d \mu   .
+\varphi   \left ( \int   _ { a } ^ { b } f ( x ) \,dx \right ) ,
+{ \displaystyle   a , b \in   \mathbb   { R }   }
+{ \displaystyle   f : [ a , b ] \to   \mathbb   { R }   }
+[ a , b ]
+{ \displaystyle   \varphi   \left ( { \frac   { 1 } { b - a } } \int   _ { a } ^ { b } f ( x ) \,dx \right ) \leq   { \frac   { 1 } { b - a } } \int   _ { a } ^ { b } \varphi   ( f ( x ) ) \,dx . }
+{ \displaystyle   ( \Omega   , { \mathfrak   { F } } , \operatorname   { P }   ) }
+{ \displaystyle   \varphi   \left ( \operatorname   { E }   [ X ] \right ) \leq   \operatorname   { E }   \left [ \varphi   ( X ) \right ] . }
+\operatorname   { P }  
+\operatorname   { E }  
+g
+{ \displaystyle   A \subset   \mathbb   { R }   }
+{ \displaystyle   \Pr ( X \in   A ) = 1 }
+{ \displaystyle   a , b \in   \mathbb   { R }   }
+{ \displaystyle   \varphi   ( x ) = a x + b , \forall   x \in   A }
+\operatorname   { E }   [ X ]
+{ \displaystyle   \operatorname   { E }   | \langle   z , X \rangle   | < \infty   }
+{ \displaystyle   \langle   z , \operatorname   { E }   [ X ] \rangle   = \operatorname   { E }   [ \langle   z , X \rangle   ] }
+{ \mathfrak   { G } }
+{ \mathfrak   { F } }
+{ \displaystyle   \varphi   \left ( \operatorname   { E }   \left [ X \mid   { \mathfrak   { G } } \right ] \right ) \leq   \operatorname   { E }   \left [ \varphi   ( X ) \mid   { \mathfrak   { G } } \right ] . }
+{ \displaystyle   \operatorname   { E }   [ \cdot   \mid   { \mathfrak   { G } } ] }
+{ \mathfrak   { G } }
+{ \mathfrak   { G } }
+\mu  
+{ \displaystyle   \sigma   ^ { 2 } \geq   0 }
+\varphi   ( x )
+{ \displaystyle   h ( x ) \triangleq   { \frac   { \varphi   \left ( x \right ) - \varphi   \left ( \mu   \right ) } { \left ( x - \mu   \right ) ^ { 2 } } } - { \frac   { \varphi   ' \left ( \mu   \right ) } { x - \mu   } } . }
+{ \displaystyle   \sigma   ^ { 2 } \inf   { \frac   { \varphi   ' ' ( x ) } { 2 } } \leq   \sigma   ^ { 2 } \inf   h ( x ) \leq   E \left [ \varphi   \left ( X \right ) \right ] - \varphi   \left ( E [ X ] \right ) \leq   \sigma   ^ { 2 } \sup   h ( x ) \leq   \sigma   ^ { 2 } \sup   { \frac   { \varphi   ' ' ( x ) } { 2 } } . }
+\varphi   ( x )
+{ \displaystyle   \varphi   ' ' ( x ) \geq   0 }
+\operatorname   { E }   [ X ]
+{ \displaystyle   \varphi   ( \operatorname   { E }   [ X ] ) }
+{ \displaystyle   X _ { 0 } = \operatorname   { E }   [ X ] }
+{ \displaystyle   \varphi   ( \operatorname   { E }   [ X ] ) }
+{ \displaystyle   \varphi   ( \operatorname   { E }   [ X ] ) \leq   \operatorname   { E }   [ \varphi   ( X ) ] = \operatorname   { E }   [ Y ] , }
+\forall   x _ { 1 } , x _ { 2 } : \qquad   \varphi   \left ( \lambda   _ { 1 } x _ { 1 } + \lambda   _ { 2 } x _ { 2 } \right ) \leq   \lambda   _ { 1 } \,\varphi   ( x _ { 1 } ) + \lambda   _ { 2 } \,\varphi   ( x _ { 2 } ) .
+\varphi   ( \lambda   _ { 1 } x _ { 1 } + \lambda   _ { 2 } x _ { 2 } + \cdots   + \lambda   _ { n } x _ { n } ) \leq   \lambda   _ { 1 } \,\varphi   ( x _ { 1 } ) + \lambda   _ { 2 } \,\varphi   ( x _ { 2 } ) + \cdots   + \lambda   _ { n } \,\varphi   ( x _ { n } ) ,
+{ \begin { a l i g n e d } \varphi   \left ( \sum   _ { i = 1 } ^ { n + 1 } \lambda   _ { i } x _ { i } \right ) & = \varphi   \left ( \lambda   _ { 1 } x _ { 1 } + ( 1 - \lambda   _ { 1 } ) \sum   _ { i = 2 } ^ { n + 1 } { \frac   { \lambda   _ { i } } { 1 - \lambda   _ { 1 } } } x _ { i } \right ) \\&\leq   \lambda   _ { 1 } \,\varphi   ( x _ { 1 } ) + ( 1 - \lambda   _ { 1 } ) \varphi   \left ( \sum   _ { i = 2 } ^ { n + 1 } { \frac   { \lambda   _ { i } } { 1 - \lambda   _ { 1 } } } x _ { i } \right ) . \end { a l i g n e d } }
+\sum   _ { i = 2 } ^ { n + 1 } { \frac   { \lambda   _ { i } } { 1 - \lambda   _ { 1 } } } = 1 ,
+\varphi   \left ( \int   x \,d \mu   _ { n } ( x ) \right ) \leq   \int   \varphi   ( x ) \,d \mu   _ { n } ( x ) ,
+\mu   _ { n } = \sum   _ { i = 1 } ^ { n } \lambda   _ { i } \delta   _ { x _ { i } } .
+x _ { 0 } : = \int   _ { \Omega   } g \,d \mu   ,
+a x + b \leq   \varphi   ( x ) ,
+a x _ { 0 } + b = \varphi   ( x _ { 0 } ) .
+\varphi   \circ   g ( x ) \geq   a g ( x ) + b
+\int   _ { \Omega   } \varphi   \circ   g \,d \mu   \geq   \int   _ { \Omega   } ( a g + b ) \,d \mu   = a \int   _ { \Omega   } g \,d \mu   + b \int   _ { \Omega   } d \mu   = a x _ { 0 } + b = \varphi   ( x _ { 0 } ) = \varphi   \left ( \int   _ { \Omega   } g \,d \mu   \right ) ,
+{ \displaystyle   \varphi   : T \to   \mathbb   { R }   }
+x , y \in   T
+{ \frac   { \varphi   ( x + \theta   \,y ) - \varphi   ( x ) } { \theta   } } ,
+( D \varphi   ) ( x ) \cdot   y : = \lim   _ { \theta   \downarrow   0 } { \frac   { \varphi   ( x + \theta   \,y ) - \varphi   ( x ) } { \theta   } } = \inf   _ { \theta   \neq   0 } { \frac   { \varphi   ( x + \theta   \,y ) - \varphi   ( x ) } { \theta   } } .
+\varphi   ( x ) \leq   \varphi   ( x + y ) - ( D \varphi   ) ( x ) \cdot   y .
+{ \displaystyle   { \mathfrak   { G } } }
+{ \displaystyle   x = \operatorname   { E }   [ X \mid   { \mathfrak   { G } } ] , \,y = X - \operatorname   { E }   [ X \mid   { \mathfrak   { G } } ] }
+{ \displaystyle   \varphi   ( \operatorname   { E }   [ X \mid   { \mathfrak   { G } } ] ) \leq   \varphi   ( X ) - ( D \varphi   ) ( \operatorname   { E }   [ X \mid   { \mathfrak   { G } } ] ) \cdot   ( X - \operatorname   { E }   [ X \mid   { \mathfrak   { G } } ] ) . }
+{ \displaystyle   { \mathfrak   { G } } }
+{ \displaystyle   \operatorname   { E }   \left [ \left [ ( D \varphi   ) ( \operatorname   { E }   [ X \mid   { \mathfrak   { G } } ] ) \cdot   ( X - \operatorname   { E }   [ X \mid   { \mathfrak   { G } } ] ) \right ] \mid   { \mathfrak   { G } } \right ] = ( D \varphi   ) ( \operatorname   { E }   [ X \mid   { \mathfrak   { G } } ] ) \cdot   \operatorname   { E }   [ \left ( X - \operatorname   { E }   [ X \mid   { \mathfrak   { G } } ] \right ) \mid   { \mathfrak   { G } } ] = 0 , }
+{ \displaystyle   \operatorname   { E }   \left [ \left ( \operatorname   { E }   [ X \mid   { \mathfrak   { G } } ] \right ) \mid   { \mathfrak   { G } } \right ] = \operatorname   { E }   [ X \mid   { \mathfrak   { G } } ] . }
+\int   _ { - \infty   } ^ { \infty   } f ( x ) \,dx = 1 .
+{ \textstyle   \varphi   }
+\varphi   \left ( \int   _ { - \infty   } ^ { \infty   } g ( x ) f ( x ) \,dx \right ) \leq   \int   _ { - \infty   } ^ { \infty   } \varphi   ( g ( x ) ) f ( x ) \,dx .
+\varphi   \left ( \int   _ { - \infty   } ^ { \infty   } x \,f ( x ) \,dx \right ) \leq   \int   _ { - \infty   } ^ { \infty   } \varphi   ( x ) \,f ( x ) \,dx .
+{ \displaystyle   { \frac   { d ^ { 2 } g } { d x ^ { 2 } } } ( x ) = 2 n ( 2 n - 1 ) x ^ { 2 n - 2 } \geq   0 \quad   \forall   \ x \in   \mathbb   { R }   }
+{ \displaystyle   g ( \operatorname   { E }   [ X ] ) = ( \operatorname   { E }   [ X ] ) ^ { 2 n } \leq   \operatorname   { E }   [ X ^ { 2 n } ] . }
+{ \displaystyle   l \in   \mathbb   { N }   }
+\varphi   \left ( \sum   _ { i = 1 } ^ { n } g ( x _ { i } ) \lambda   _ { i } \right ) \leq   \sum   _ { i = 1 } ^ { n } \varphi   ( g ( x _ { i } ) ) \lambda   _ { i } ,
+\lambda   _ { 1 } + \cdots   + \lambda   _ { n } = 1 .
+{ \displaystyle   e ^ { \operatorname   { E }   [ X ] } \leq   \operatorname   { E }   \left [ e ^ { X } \right ] , }
+{ \displaystyle   \operatorname   { E }   \left [ e ^ { X } \right ] = e ^ { \operatorname   { E }   [ X ] } \operatorname   { E }   \left [ e ^ { X - \operatorname   { E }   [ X ] } \right ] }
+{ \displaystyle   \operatorname   { E }   [ \varphi   ( Y ) ] \geq   \varphi   ( \operatorname   { E }   [ Y ] ) }
+- D ( p ( x ) \|q ( x ) ) = \int   p ( x ) \log   \left ( { \frac   { q ( x ) } { p ( x ) } } \right ) \,dx \leq   \log   \left ( \int   p ( x ) { \frac   { q ( x ) } { p ( x ) } } \,dx \right ) = \log   \left ( \int   q ( x ) \,dx \right ) = 0
+{ \mathfrak   { G } }
+{ \displaystyle   L ( \operatorname   { E }   [ \delta   ( X ) \mid   { \mathfrak   { G } } ] ) \leq   \operatorname   { E }   [ L ( \delta   ( X ) ) \mid   { \mathfrak   { G } } ] \quad   \Longrightarrow   \quad   \operatorname   { E }   [ L ( \operatorname   { E }   [ \delta   ( X ) \mid   { \mathfrak   { G } } ] ) ] \leq   \operatorname   { E }   [ L ( \delta   ( X ) ) ] . }
+{ \displaystyle   \delta   _ { 1 } ( X ) = \operatorname   { E }   _ { \theta   } [ \delta   ( X ' ) \mid   T ( X ' ) = T ( X ) ] , }

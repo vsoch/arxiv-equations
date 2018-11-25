@@ -1,4 +1,0 @@
-{ \frac     { d N } { d t } } = r N \left ( 1 - { \frac     { N } { K } } \right ) \ ,
-{ \frac     { d N _ { 1 } } { d t } } = r _ { 1 } N _ { 1 } { \frac     { K _ { 1 } - N _ { 1 } - \alpha   N _ { 2 } } { K _ { 1 } } } \ ,
-S = { \frac     { I P } { I + E } }
-\log ( S ) = \log ( c ) + z \log ( A ) \ ,

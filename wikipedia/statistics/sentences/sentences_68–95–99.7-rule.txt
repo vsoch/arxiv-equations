@@ -1,0 +1,8 @@
+{ \displaystyle   { \begin { a l i g n e d } \Pr ( \mu   - \;\,\sigma   \leq   X \leq   \mu   + \;\,\sigma   ) & \approx   0 . 6 8 2 7 \\\Pr ( \mu   - 2 \sigma   \leq   X \leq   \mu   + 2 \sigma   ) & \approx   0 . 9 5 4 5 \\\Pr ( \mu   - 3 \sigma   \leq   X \leq   \mu   + 3 \sigma   ) & \approx   0 . 9 9 7 3 \end { a l i g n e d } } }
+{ \displaystyle   \Pr ( \mu   - 2 \sigma   \leq   X \leq   \mu   + 2 \sigma   ) = \Phi   ( 2 ) - \Phi   ( - 2 ) \approx   0 . 9 7 7 2 - ( 1 - 0 . 9 7 7 2 ) \approx   0 . 9 5 4 5 }
+{ \displaystyle   { \bar   { X } } \pm   2 { \frac   { \sigma   } { \sqrt   { n } } } }
+{ \bar   { X } }
+n
+{ \displaystyle   \operatorname   { e r f }   \left ( { \frac   { x } { \sqrt   { 2 } } } \right ) }
+{ \displaystyle   { \tfrac   { 1 } { 1 - \operatorname   { e r f }   \left ( { \frac   { x } { \sqrt   { 2 } } } \right ) } } }
+{ \displaystyle   { \tfrac   { 1 } { 1 - \operatorname   { e r f }   \left ( { \frac   { x } { \sqrt   { 2 } } } \right ) } } }

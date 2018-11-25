@@ -1,4 +1,0 @@
-{ \displaystyle   L = \lambda   W . }
-{ \displaystyle   L = \lambda   W }
-{ \displaystyle   L = 1 0 \times   0 . 5 = 5 }
-W = { \frac     { L } { \lambda   } } = { \frac     { 2 } { 1 0 } } = 0 . 2

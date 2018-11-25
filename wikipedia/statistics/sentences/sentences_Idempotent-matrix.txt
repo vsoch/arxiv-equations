@@ -1,0 +1,41 @@
+2 \times   2
+3   \times   3
+{ \begin { b m a t r i x } 1 & 0 \\0 & 1 \end { b m a t r i x } }
+{ \begin { b m a t r i x } 2 & - 2 & - 4 \\-1 & 3 & 4 \\1 & - 2 & - 3 \end { b m a t r i x } }
+{ \begin { p m a t r i x } a & b \\c & d \end { p m a t r i x } }
+a = a ^ { 2 } + b c ,
+b = a b + b d ,
+b ( 1 - a - d ) = 0
+b = 0
+d = 1 - a ,
+c = c a + c d ,
+c ( 1 - a - d ) = 0
+c = 0
+d = 1 - a ,
+d = b c + d ^ { 2 } .
+a
+d
+{ \displaystyle   { \begin { p m a t r i x } a & b \\b & 1 - a \end { p m a t r i x } } }
+a ^ { 2 } + b ^ { 2 } = a ,
+a ^ { 2 } - a + b ^ { 2 } = 0 ,
+{ \displaystyle   \left ( a - { \frac   { 1 } { 2 } } \right ) ^ { 2 } + b ^ { 2 } = { \frac   { 1 } { 4 } } }
+{ \displaystyle   M = { \frac   { 1 } { 2 } } { \begin { p m a t r i x } 1 - \cos   \theta   & \sin   \theta   \\\sin   \theta   & 1 + \cos   \theta   \end { p m a t r i x } } }
+{ \displaystyle   { \begin { p m a t r i x } a & b \\c & 1 - a \end { p m a t r i x } } }
+a ^ { 2 } + b c = a
+{ \displaystyle   M M = M }
+M ^ { { - 1 } }
+{ \displaystyle   M = I M = M ^ { - 1 } M M = M ^ { - 1 } M = I }
+{ \displaystyle   A ^ { n } = A }
+n = 2
+n = 1
+{ \displaystyle   A ^ { 1 } = A }
+{ \displaystyle   A ^ { k - 1 } = A }
+{ \displaystyle   A ^ { k } = A ^ { k - 1 } A = A A = A }
+{ \displaystyle   ( y - X \beta   ) ^ { \textsf   { T } } ( y - X \beta   ) }
+{ \displaystyle   { \hat   { \beta   } } = \left ( X ^ { \textsf   { T } } X \right ) ^ { - 1 } X ^ { \textsf   { T } } y }
+{ \displaystyle   { \hat   { e } } = y - X { \hat   { \beta   } } = y - X \left ( X ^ { \textsf   { T } } X \right ) ^ { - 1 } X ^ { \textsf   { T } } y = \left [ I - X \left ( X ^ { \textsf   { T } } X \right ) ^ { - 1 } X ^ { \textsf   { T } } \right ] y = M y . }
+{ \displaystyle   X \left ( X ^ { \textsf   { T } } X \right ) ^ { - 1 } X ^ { \textsf   { T } } }
+{ \displaystyle   { \hat   { e } } ^ { \textsf   { T } } { \hat   { e } } = ( M y ) ^ { \textsf   { T } } ( M y ) = y ^ { \textsf   { T } } M ^ { \textsf   { T } } M y = y ^ { \textsf   { T } } M M y = y ^ { \textsf   { T } } M y . }
+\hat { \beta }
+{ \displaystyle   R ( P ) }
+{ \displaystyle   N ( P ) }

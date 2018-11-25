@@ -1,0 +1,20 @@
+X _ 1 ,   X _ 2 ,   X _ 3 ,   \ldots
+S _ n : = \sum_ { i = 1 } ^ n   X _ i
+S : = ( S _ n ) _ { n \in \N }
+W ^ { ( n ) } ( t )   : =   \frac { S _ { \lfloor   n t \rfloor } } { \sqrt { n } } ,   \qquad   t \in   [ 0 , 1 ] .
+W ^ { ( n ) } ( 1 )
+W ( 1 )
+n \to   \infty  
+W ^ { ( n ) } : = ( W ^ { ( n ) } ( t ) ) _ { t \in   [ 0 , 1 ] }
+\mathcal { D } [ 0 , 1 ]
+W ^ { ( n ) }
+W : = ( W ( t ) ) _ { t \in   [ 0 , 1 ] }
+n \to   \infty .
+X _ 1 ,   X _ 2 ,   X _ 3 ,   \ldots
+{ \displaystyle   G _ { n } ( x ) = { \sqrt   { n } } ( F _ { n } ( x ) - F ( x ) ) }
+\mathcal { D } ( - \infty , \infty )
+{ \displaystyle   \operatorname   { c o v }   [ G ( s ) , G ( t ) ] = E [ G ( s ) G ( t ) ] = \min \{ F ( s ) , F ( t ) \}-F ( s ) F ( t ) . }
+\scriptstyle \sup_t   G _ n ( t )
+\scriptstyle \sup_t   | G _ n ( t ) |
+\mathcal { D } [ 0 , 1 ]
+\|G_n - B _ n \|_ \infty

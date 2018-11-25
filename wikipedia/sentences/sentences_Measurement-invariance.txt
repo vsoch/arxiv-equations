@@ -1,4 +1,0 @@
-{ \displaystyle   f ( { \textit   { Y } } \mid   { \boldsymbol   { \eta   } } , { \textbf   { s } } ) = f ( { \textit   { Y } } \mid   { \boldsymbol   { \eta   } } ) }
-f ( \cdot   )
-{ \displaystyle   { \textit   { Y } } }
-{ \boldsymbol   { \eta   } }

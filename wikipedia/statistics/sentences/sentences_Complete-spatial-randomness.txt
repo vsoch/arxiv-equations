@@ -1,0 +1,15 @@
+\rho  
+k
+V
+\rho  
+P ( k , \rho   , V ) = { \frac     { ( V \rho   ) ^ { k } e ^ { { - ( V \rho   ) } } } { k ! } } . \ , \ !
+\rho   V
+N ^ { { { \mathrm     { t h } } } }
+r
+P _ { N } ( r ) = { \frac     { D } { ( N - 1 ) ! } } { \lambda   } ^ { N } r ^ { { D N - 1 } } e ^ { { - \lambda   r ^ { D } } } ,
+D
+\lambda  
+\lambda   = { \frac     { \rho   \pi   ^ { { { \frac     { D } { 2 } } } } } { \Gamma   ( { \frac     { D } { 2 } } + 1 ) } }
+\Gamma  
+P _ { N } ( r )
+D

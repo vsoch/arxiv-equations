@@ -1,0 +1,20 @@
+D _ { B } ( p , q ) = - \ln   \left ( B C ( p , q ) \right )
+B C ( p , q ) = \sum   _ { { x \in   X } } { \sqrt     { p ( x ) q ( x ) } }
+B C ( p , q ) = \int   { \sqrt     { p ( x ) q ( x ) } } \,dx
+0 \leq   B C \leq   1
+0 \leq   D _ { B } \leq   \infty  
+D _ { B }
+{ \sqrt     { 1 - B C } }
+D _ { B } ( p , q ) = { \frac     { 1 } { 4 } } \ln   \left ( { \frac     1 4 } \left ( { \frac     { \sigma   _ { p } ^ { 2 } } { \sigma   _ { q } ^ { 2 } } } + { \frac     { \sigma   _ { q } ^ { 2 } } { \sigma   _ { p } ^ { 2 } } } + 2 \right ) \right ) + { \frac     { 1 } { 4 } } \left ( { \frac     { ( \mu   _ { p } - \mu   _ { q } ) ^ { { 2 } } } { \sigma   _ { p } ^ { 2 } + \sigma   _ { q } ^ { 2 } } } \right )
+D _ { { B } } ( p , q )
+{ \displaystyle   \sigma   _ { p } ^ { 2 } }
+\mu   _ { p }
+p , q
+p _ { i } = { \mathcal     { N } } ( { \boldsymbol     \mu   } _ { i } , \,{ \boldsymbol     \Sigma   } _ { i } )
+D _ { B } = { 1   \over   8 } ( { \boldsymbol     \mu   } _ { 1 } - { \boldsymbol     \mu   } _ { 2 } ) ^ { T } { \boldsymbol     \Sigma   } ^ { { - 1 } } ( { \boldsymbol     \mu   } _ { 1 } - { \boldsymbol     \mu   } _ { 2 } ) + { 1   \over   2 } \ln   \,\left ( { \det   { \boldsymbol     \Sigma   }   \over   { \sqrt     { \det   { \boldsymbol     \Sigma   } _ { 1 } \,\det   { \boldsymbol     \Sigma   } _ { 2 } } } } \right ) ,
+{ \boldsymbol     \mu   } _ { i }
+{ \boldsymbol     \Sigma   } _ { i }
+{ \boldsymbol     \Sigma   } = { { \boldsymbol     \Sigma   } _ { 1 } + { \boldsymbol     \Sigma   } _ { 2 }   \over   2 } .
+B C ( { \mathbf     { p } } , { \mathbf     { q } } ) = \sum   _ { { i = 1 } } ^ { n } { \sqrt     { p _ { i } q _ { i } } } ,
+p _ { i }
+q _ { i }

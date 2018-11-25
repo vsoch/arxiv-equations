@@ -1,0 +1,1 @@
+b _ { n } = \Delta   p \times   r _ { i } \times   ( b _ { i } - h _ { i } ) - h _ { t }

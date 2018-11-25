@@ -1,8 +1,0 @@
-{ \displaystyle   \mathrm   { M A E }   = { \frac   { \sum   _ { i = 1 } ^ { n } \left | y _ { i } - x _ { i } \right | } { n } } = { \frac   { \sum   _ { i = 1 } ^ { n } \left | e _ { i } \right | } { n } } . }
-{ \displaystyle   \mathrm   { M E }   = { \frac   { \sum   _ { i = 1 } ^ { n } y _ { i } - x _ { i } } { n } } . }
-( x , y )
-{ \displaystyle   | e _ { i } | = | y _ { i } - x _ { i } | }
-y _ { i }
-x _ { i }
-E ( \left | X - c \right | ) \ ,
-{ \displaystyle   E ( | X - c | - | X | ) , }

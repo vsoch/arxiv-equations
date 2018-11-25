@@ -1,6 +1,0 @@
-{ \displaystyle   \{ ( X ( t ) , J ( t ) ) : t \geq   0 \ } }
-{ \displaystyle   \{ ( X ( t ) , J ( t ) ) ; t \geq   0 \ } }
-{ \displaystyle   ( X ( t + s ) - X ( t ) , J ( t + s ) ) }
-{ \displaystyle   ( X ( t ) , J ( t ) ) }
-J ( t )
-{ \displaystyle   \mathbb   { E }   [ f ( X _ { t + s } - X _ { t } ) g ( J _ { t + s } ) | { \mathcal   { F } } _ { t } ] = \mathbb   { E }   _ { J _ { t } , 0 } [ f ( X _ { s } ) g ( J _ { s } ) ] }

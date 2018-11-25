@@ -1,2 +1,0 @@
-\hat { C } _ { p k }
-  \text { P W I }   =   1 0 0   \times   \max_ { i = 1 \dots   N   \atop   j = 1 \dots   M }   \left \{ \left |   \frac { \text { m e a s u r e d   v a l u e } _ { [ i , j ] }   -   \text { a v e r a g e   l i m i t s } _ { [ i , j ] } }   { \text { r a n g e } _ { [ i , j ] } / 2 }   \right | \right \ }  

@@ -1,0 +1,4 @@
+{ \displaystyle   \left ( \mathrm   { i . e . , P ( G G ) = P ( S S ) = P ( G S ) }   = { \frac   { 1 } { 3 } } \right ) }
+{ \displaystyle   \mathrm   { P ( G G \mid   s e e \ gold ) = { \frac   { P ( s e e \ gold \mid   G G ) \times   { \frac   { 1 } { 3 } } } { P ( s e e \ gold \mid   G G ) \times   { \frac   { 1 } { 3 } } + P ( s e e \ gold \mid   S S ) \times   { \frac   { 1 } { 3 } } + P ( s e e \ gold \mid   G S ) \times   { \frac   { 1 } { 3 } } } } }   = { \frac   { 1 } { 1 + 0 + { \frac   { 1 } { 2 } } } } \times   { \frac   { \frac   { 1 } { 3 } } { \frac   { 1 } { 3 } } } = { \frac   { 2 } { 3 } } }
+{ \displaystyle   { \frac   { 1 \times   { \frac   { 1 } { 3 } } } { \frac   { 1 } { 2 } } } = { \frac   { 2 } { 3 } } . }
+{ \displaystyle   { \frac   { \left ( { \frac   { 1 } { 2 } } \right ) } { \left ( { \frac   { 3 } { 4 } } \right ) } } = { \frac   { 2 } { 3 } } . }

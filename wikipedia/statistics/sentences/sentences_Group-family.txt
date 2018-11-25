@@ -1,0 +1,18 @@
+X
+a   \in   R
+{ \textstyle   Y = X + a }
+{ \displaystyle   F _ { Y } ( y ) = P ( Y \leq   y ) = P ( X + a \leq   y ) = P ( X \leq   y - a ) = F _ { X } ( y - a ) }
+{ \displaystyle   a }
+{ \displaystyle   - \infty   }
+{ \displaystyle   \infty   }
+X
+{ \displaystyle   c \in   R ^ { + } }
+{ \textstyle   Y = c X }
+{ \displaystyle   F _ { Y } ( y ) = P ( Y \leq   y ) = P ( c X \leq   y ) = P ( X \leq   y / c ) = F _ { X } ( y / c ) }
+X
+a   \in   R
+{ \displaystyle   c \in   R ^ { + } }
+{ \displaystyle   Y = c X + a }
+{ \displaystyle   F _ { Y } ( y ) = P ( Y \leq   y ) = P ( c X + a \leq   y ) = P ( X \leq   ( y - a ) / c ) = F _ { X } ( ( y - a ) / c ) }
+{ \textstyle   a \in   R }
+{ \displaystyle   c \in   R ^ { + } }

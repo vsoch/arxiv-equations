@@ -1,0 +1,47 @@
+n
+\infty  
+- 2   \log ( \Lambda )
+\chi   ^ { 2 }
+\Theta  
+\Theta_0
+H _ { 0 }
+\Lambda  
+- 2 \log ( \Lambda )
+\chi   ^ { 2 }
+\chi   ^ { 2 }
+\chi   ^ { 2 }
+{ \displaystyle   \chi   ^ { 2 } ( k ) }
+{ \displaystyle   \chi   ^ { 2 } ( k - 1 ) }
+{ \displaystyle   \chi   ^ { 2 } ( 0 ) }
+{ \displaystyle   0 . 5 \chi   ^ { 2 } ( 1 ) }
+{ \displaystyle   \chi   ^ { 2 } ( 3 ) }
+{ \displaystyle   \chi   ^ { 2 } ( 4 ) }
+{ \displaystyle   \chi   ^ { 2 } ( 3 ) }
+{ \displaystyle   \chi   ^ { 2 } ( 1 8 ) }
+{ \displaystyle   \chi   ^ { 2 } ( 1 4 ) }
+{ \displaystyle   { \begin { a l i g n e d } D & = - 2 \ln   \left ( { \frac   { \text { l i k e l i h o o d   f o r   n u l l   m o d e l } } { \text { l i k e l i h o o d   f o r   a l t e r n a t i v e   m o d e l } } } \right ) \\[5pt ] & = 2 \ln   \left ( { \frac   { \text { l i k e l i h o o d   f o r   a l t e r n a t i v e   m o d e l } } { \text { l i k e l i h o o d   f o r   n u l l   m o d e l } } } \right ) \\[5pt ] & = 2 \times   [ \ln ( { \text { l i k e l i h o o d   f o r   a l t e r n a t i v e   m o d e l } } ) - \ln ( { \text { l i k e l i h o o d   f o r   n u l l   m o d e l } } ) ] \\[5pt ] \end { a l i g n e d } } }
+{ \displaystyle   d f _ { \text { a l t } } - d f _ { \text { n u l l } } }
+{ \displaystyle   2 \times   ( - 8 0 1 2 - ( - 8 0 2 4 ) ) = 2 4 }
+{ \displaystyle   3 - 1 = 2 }
+{ \displaystyle   6 \times   1 0 ^ { - 6 } }
+{ \displaystyle   { \begin { a r r a y } { c | c c } X & { \text { H e a d s } } & { \text { T a i l s } } \\\hline   { \text { C o i n   1 } } & k _ { \mathrm   { 1 H }   } & k _ { \mathrm   { 1 T }   } \\{ \text { C o i n   2 } } & k _ { \mathrm   { 2 H }   } & k _ { \mathrm   { 2 T }   } \end { a r r a y } } }
+{ \displaystyle   p _ { \mathrm   { 1 H }   } }
+{ \displaystyle   p _ { \mathrm   { 1 T }   } }
+{ \displaystyle   p _ { \mathrm   { 2 H }   } }
+{ \displaystyle   p _ { \mathrm   { 2 T }   } }
+i   =   1 , 2
+{ \displaystyle   j = \mathrm   { H , T }   }
+0   \le   p _ { i j }   \le   1
+{ \displaystyle   p _ { i \mathrm   { H }   } + p _ { i \mathrm   { T }   } = 1 }
+H _ { 0 }
+  p _ { 1 j }   =   p _ { 2 j }
+n _ { i j }
+p _ { i j }
+{ \displaystyle   n _ { i j } = { \frac   { k _ { i j } } { k _ { i \mathrm   { H }   } + k _ { i \mathrm   { T }   } } } . }
+p _ { i j }
+H _ { 0 }
+{ \displaystyle   m _ { i j } = { \frac   { k _ { 1 j } + k _ { 2 j } } { k _ { \mathrm   { 1 H }   } + k _ { \mathrm   { 2 H }   } + k _ { \mathrm   { 1 T }   } + k _ { \mathrm   { 2 T }   } } } , }
+H _ { 0 }
+\chi ^ 2 ( 1 )
+\chi   ^ { 2 }
+- 2   \log   \Lambda   =   2 \sum_ { i ,   j }   k _ { i j }   \log   \frac { n _ { i j } } { m _ { i j } } .

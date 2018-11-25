@@ -1,0 +1,37 @@
+  \frac { 1 } { Z _ { \text { G U E } ( n ) } }   e ^ { -   \frac { n } { 2 }   \mathrm { t r }   H ^ 2 }  
+  \frac { 1 } { Z _ { \text { G O E } ( n ) } }   e ^ { -   \frac { n } { 4 }   \mathrm { t r }   H ^ 2 }  
+  \frac { 1 } { Z _ { \text { G S E } ( n ) } }   e ^ { -   n   \mathrm { t r }   H ^ 2 }   \ ,  
+\frac { 1 } { Z _ { \beta ,   n } }   \prod_ { k = 1 } ^ n   e ^ { - \frac { \beta   n } { 4 } \lambda_k ^ 2 } \prod_ { i < j } \left | \lambda_j - \lambda_i \right | ^ \beta ~ ,   \quad   ( 1 )
+\beta  
+\lambda_j = \lambda_i
+\lambda_1   <   \ldots   <   \lambda_n   <   \lambda_ { n + 1 }   <   \ldots
+s   =   ( \lambda_ { n + 1 }   -   \lambda_n ) / \langle   s   \rangle
+\langle   s   \rangle   = \langle     \lambda_ { n + 1 }   -   \lambda_n   \rangle
+    p _ 1 ( s )   =   \frac { \pi } { 2 } s \, \mathrm { e } ^ { - \frac { \pi } { 4 }   s ^ 2 }    
+\beta   = 1
+p _ { 2 } ( s ) = { \frac     { 3 2 } { \pi   ^ { 2 } } } s ^ { 2 } { \mathrm     { e } } ^ { { - { \frac     { 4 } { \pi   } } s ^ { 2 } } }
+\beta   = 2
+  p _ 4 ( s )   =   \frac { 2 ^ { 1 8 } } { 3 ^ 6 \pi ^ 3 } s ^ 4   \mathrm { e } ^ { - \frac { 6 4 } { 9 \pi }   s ^ 2 }      
+\beta = 4
+  p _ \beta ( s )  
+  \int_0 ^ \infty   d s \,p_ \beta ( s )   =   1  
+  \int_0 ^ \infty   d s \, s \, p_ \beta ( s )   =   1 ,  
+  \beta   =   1 , 2 , 4  
+  \textstyle   H _ n   =   ( H _ n ( i , j ) ) _ { i , j = 1 } ^ n  
+  \left \{   H _ n ( i ,   j ) ~ ,   \, 1   \leq   i   \leq   j   \leq   n   \right \ }  
+  \left \{   H _ n ( i ,   j ) ~ ,   \, 1   \leq   i   <   j   \leq   n   \right \ }  
+\textstyle   \frac { 1 } { Z _ n }   e ^ { -   n   \mathrm { t r }   V ( H ) } ~ ,  
+  \mu_ { H } ( A )   =   \frac { 1 } { n }   \, \# \left \{   \text { e i g e n v a l u e s   o f   } H \text {   i n   } A   \right \} = N_ { 1 _ A ,   H } ,   \quad   A   \subset   \mathbb { R } .  
+  \mu_ { H }  
+  \frac { N _ { f , H }   -   \int   f ( \lambda )   \, dN ( \lambda ) } { \sigma_ { f ,   n } }   \overset { D } { \longrightarrow }   N ( 0 ,   1 )  
+\lambda   _ { 0 }
+N ( \lambda )
+  \Xi ( \lambda_0 )   =   \sum_j   \delta \Big ( { \cdot }   -   n   \rho ( \lambda_0 )   ( \lambda_j   -   \lambda_0 )   \Big ) ~ ,
+\lambda   _ { j }
+\Xi ( \lambda_0 )
+\lambda   _ { 0 }
+\Xi ( \lambda_0 )
+  K ( x ,   y )   =   \frac { \sin   \pi ( x - y ) } { \pi ( x - y ) }  
+\Xi ( \lambda_0 )
+n \to   \infty  
+\lambda   _ { 0 }

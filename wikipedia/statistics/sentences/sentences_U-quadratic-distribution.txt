@@ -1,0 +1,19 @@
+a : ~ a \in   ( - \infty   , \infty   )
+b : ~ b \in   ( a , \infty   )
+\alpha   : ~ \alpha   \in   ( 0 , \infty   )
+\beta   : ~ \beta   \in   ( - \infty   , \infty   ) ,
+x \in   [ a , b ] \ !
+\alpha   \left ( x - \beta   \right ) ^ { 2 }
+{ \alpha     \over   3 } \left ( ( x - \beta   ) ^ { 3 } + ( \beta   - a ) ^ { 3 } \right )
+{ a + b   \over   2 }
+{ a + b   \over   2 }
+a { \text {   a n d   } } b
+{ 3   \over   2 0 } ( b - a ) ^ { 2 }
+{ \displaystyle   0 }
+{ 3   \over   1 1 2 } ( b - a ) ^ { 4 }
+f ( x | a , b , \alpha   , \beta   ) = \alpha   \left ( x - \beta   \right ) ^ { 2 } , \quad   { \text { f o r   } } x \in   [ a , b ] .
+\beta   = { b + a   \over   2 }
+\alpha   = { 1 2   \over   \left ( b - a \right ) ^ { 3 } }
+\cap  
+M _ { X } ( t ) = { - 3 \left ( e ^ { { a t } } ( 4 + ( a ^ { 2 } + 2 a ( - 2 + b ) + b ^ { 2 } ) t ) - e ^ { { b t } } ( 4 + ( - 4 b + ( a + b ) ^ { 2 } ) t ) \right )   \over   ( a - b ) ^ { 3 } t ^ { 2 } }
+\phi   _ { X } ( t ) = { 3 i \left ( e ^ { { i a t e ^ { { i b t } } } } ( 4 i - ( - 4 b + ( a + b ) ^ { 2 } ) t ) \right )   \over   ( a - b ) ^ { 3 } t ^ { 2 } }

@@ -1,0 +1,4 @@
+{ \displaystyle   H ( X , Y ) = H ( X ) + H ( Y | X ) }
+{ \displaystyle   P ( X , Y ) = P ( X ) P ( Y | X ) }
+{ \displaystyle   \Rightarrow   \log   P ( X , Y ) = \log   P ( X ) + \log   P ( Y | X ) }
+{ \displaystyle   K ( x , y ) = K ( x ) + K ( y | x ) + O ( \log ( K ( x , y ) ) ) }

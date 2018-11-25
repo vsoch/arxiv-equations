@@ -1,0 +1,49 @@
+{ \bar   { x } }
+\sigma  
+{ \displaystyle   z ^ { * } = \Phi   ^ { - 1 } \left ( 1 - { \frac   { \alpha   } { 2 } } \right ) = - \Phi   ^ { - 1 } \left ( { \frac   { \alpha   } { 2 } } \right ) }
+\Phi  
+{ \displaystyle   \alpha   = { 1 - C   \over   2 } }
+{ \displaystyle   \left ( { \bar   { x } } - z ^ { * } { \sigma     \over   { \sqrt   { n } } } , { \bar   { x } } + z ^ { * } { \sigma     \over   { \sqrt   { n } } } \right ) }
+{ \displaystyle   \left ( { \bar   { x } } - t ^ { * } { s   \over   { \sqrt   { n } } } , { \bar   { x } } + t ^ { * } { s   \over   { \sqrt   { n } } } \right ) }
+{ \displaystyle   { \Pr   } _ { \theta   , \varphi   } ( u ( X ) < \theta   < v ( X ) ) = \gamma   { \text {   f o r   a l l   } } ( \theta   , \varphi   ) . }
+{ \displaystyle   { \Pr   } _ { \theta   , \varphi   } ( u ( X ) < \theta   < v ( X ) ) \approx   \gamma   { \text {   f o r   a l l   } } ( \theta   , \varphi   ) \ , }
+{ \displaystyle   { \Pr   } _ { \theta   , \varphi   } ( u ( X ) < \theta   < v ( X ) ) \geq   \gamma   { \text {   f o r   a l l   } } ( \theta   , \varphi   ) \ , }
+\theta  
+{ \displaystyle   \ln ( L ( \theta   ) ) \geq   \ln ( L ( { \hat   { \theta   } } ) ) - { \frac   { 1 } { 2 } } \chi   _ { 1 , 1 - \alpha   } ^ { 2 } }
+{ \displaystyle   { \hat   { \mu   } } = { \bar   { X } } = { \frac   { 1 } { n } } \sum   _ { i = 1 } ^ { n } X _ { i } . }
+{ \displaystyle   { \bar   { x } } = { \frac   { 1 } { 2 5 } } \sum   _ { i = 1 } ^ { 2 5 } x _ { i } = 2 5 0 . 2 { \text {   g r a m s } } . }
+{ \displaystyle   { \frac   { \sigma   } { \sqrt   { n } } } = { \frac   { 2 . 5 { \text {   g } } } { \sqrt   { 2 5 } } } = 0 . 5 { \text {   g r a m s } } }
+Z = { \frac   { { \bar   { X } } - \mu   } { \sigma   / { \sqrt   { n } } } } = { \frac   { { \bar   { X } } - \mu   } { 0 . 5 } }
+{ \displaystyle   P ( - z \leq   Z \leq   z ) = 1 - \alpha   = 0 . 9 5 . }
+{ \begin { a l i g n e d } \Phi   ( z ) & = P ( Z \leq   z ) = 1 - { \tfrac   { \alpha   } { 2 } } = 0 . 9 7 5 , \\[6pt ] z & = \Phi   ^ { - 1 } ( \Phi   ( z ) ) = \Phi   ^ { - 1 } ( 0 . 9 7 5 ) = 1 . 9 6 , \end { a l i g n e d } }
+{ \displaystyle   { \begin { a l i g n e d } 0 . 9 5 & = 1 - \alpha   = P ( - z \leq   Z \leq   z ) = P \left ( - 1 . 9 6 \leq   { \frac   { { \bar   { X } } - \mu   } { \sigma   / { \sqrt   { n } } } } \leq   1 . 9 6 \right ) \\[6pt ] & = P \left ( { \bar   { X } } - 1 . 9 6 { \frac   { \sigma   } { \sqrt   { n } } } \leq   \mu   \leq   { \bar   { X } } + 1 . 9 6 { \frac   { \sigma   } { \sqrt   { n } } } \right ) . \end { a l i g n e d } } }
+{ \displaystyle   { \text { L o w e r   e n d p o i n t } } = { \bar   { X } } - 1 . 9 6 { \frac   { \sigma   } { \sqrt   { n } } } , }
+{ \displaystyle   { \text { U p p e r   e n d p o i n t } } = { \bar   { X } } + 1 . 9 6 { \frac   { \sigma   } { \sqrt   { n } } } . }
+{ \displaystyle   { \begin { a l i g n e d } 0 . 9 5 & = \Pr ( { \bar   { X } } - 1 . 9 6 \times   0 . 5 \leq   \mu   \leq   { \bar   { X } } + 1 . 9 6 \times   0 . 5 ) \\[6pt ] & = \Pr ( { \bar   { X } } - 0 . 9 8 \leq   \mu   \leq   { \bar   { X } } + 0 . 9 8 ) . \end { a l i g n e d } } }
+{ \bar   { X } }
+\mu  
+\!{ \bar   { X } } - 0 { . } 9 8
+\!{ \bar   { X } } + 0 . 9 8 .
+( { \bar   { x } } - 0 . 9 8 , \,{ \bar   { x } } + 0 . 9 8 ) .
+( { \bar   { x } } - 0 . 9 8 ; { \bar   { x } } + 0 . 9 8 ) = ( 2 5 0 . 2 - 0 . 9 8 ; 2 5 0 . 2 + 0 . 9 8 ) = ( 2 4 9 . 2 2 ; 2 5 1 . 1 8 ) . \ ,
+{ \bar   { X } } = ( X _ { 1 } + \cdots   + X _ { n } ) / n \ , ,
+{ \displaystyle   S ^ { 2 } = { \frac   { 1 } { n - 1 } } \sum   _ { i = 1 } ^ { n } ( X _ { i } - { \bar   { X } } \,)^ { 2 } . }
+T = { \frac   { { \bar   { X } } - \mu   } { S / { \sqrt   { n } } } }
+{ \displaystyle   \Pr ( - c \leq   T \leq   c ) = 0 . 9 5 \ , }
+\Pr   \left ( { \bar   { X } } - { \frac   { c S } { \sqrt   { n } } } \leq   \mu   \leq   { \bar   { X } } + { \frac   { c S } { \sqrt   { n } } } \right ) = 0 . 9 5 \ ,
+\left [ { \bar   { x } } - { \frac   { c s } { \sqrt   { n } } } , { \bar   { x } } + { \frac   { c s } { \sqrt   { n } } } \right ] , \ ,
+{ \displaystyle   { \Pr   } _ { \theta   , \varphi   } ( u ( X ) < Y < v ( X ) ) = \gamma   { \text {   f o r   a l l   } } ( \theta   , \varphi   ) . \ , }
+{ \displaystyle   \Pr ( u ( x ) < \Theta   < v ( x ) \mid   X = x ) = \gamma   . \ , }
+X _ { 1 } , X _ { 2 }
+{ \displaystyle   { \bar   { X } } \pm   { \begin { c a s e s } { \dfrac   { | X _ { 1 } - X _ { 2 } | } { 2 } } & { \text { i f   } } | X _ { 1 } - X _ { 2 } | < 1 / 2 \\[8pt ] { \dfrac   { 1 - | X _ { 1 } - X _ { 2 } | } { 2 } } & { \text { i f   } } | X _ { 1 } - X _ { 2 } | \geq   1 / 2 . \end { c a s e s } } }
+{ \displaystyle   { \bar   { X } } \pm   { \frac   { 1 - | X _ { 1 } - X _ { 2 } | } { 4 } } , }
+{ \displaystyle   \theta   _ { 1 } \neq   \theta   }
+\theta   _ { 1 }
+\theta   _ { 1 }
+{ \displaystyle   | X _ { 1 } - X _ { 2 } | \geq   1 / 2 }
+\theta  
+X _ { 1 } , X _ { 2 }
+X _ { 1 } , X _ { 2 }
+X _ { 1 } , X _ { 2 }
+{ \displaystyle   p \geq   1 - \alpha   / 2 }
+1 0 0 ( 1 - \alpha ) \ %

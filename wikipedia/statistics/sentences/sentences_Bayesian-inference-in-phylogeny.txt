@@ -1,0 +1,51 @@
+{ \displaystyle   \pi   _ { j } ( . ) \   }
+{ \displaystyle   j = 1 , 2 , \ldots   , m \   }
+{ \displaystyle   \pi   _ { 1 } = \pi   \   }
+{ \displaystyle   \pi   _ { j } \   }
+{ \displaystyle   j = 2 , 3 , \ldots   , m \   }
+{ \displaystyle   \pi   _ { j } ( \theta   ) = \pi   ( \theta   ) ^ { 1 / [ 1 + \lambda   ( j - 1 ) ] } , \ \ \lambda   > 0 , }
+{ \displaystyle   2 , 3 , \ldots   , m }
+{ \displaystyle   \pi   ( . ) }
+{ \displaystyle   1 / T \   }
+{ \displaystyle   T > 1 \   }
+{ \displaystyle   \theta   ^ { ( j ) } \   }
+j \  
+{ \displaystyle   j = 1 , 2 , \ldots   , m \   }
+i \  
+j \  
+{ \displaystyle   \alpha   = { \frac   { \pi   _ { i } ( \theta   ^ { ( j ) } ) \pi   _ { j } ( \theta   ^ { ( i ) } ) } { \pi   _ { i } ( \theta   ^ { ( i ) } ) \pi   _ { j } ( \theta   ^ { ( j ) } ) } } \   }
+{ \displaystyle   \pi   _ { i } ( \theta   ) / \pi   _ { j } ( \theta   ) \   }
+m \  
+{ \displaystyle   \mathrm   { M C }   ^ { 3 } \   }
+{ \displaystyle   t _ { 8 } \   }
+A \  
+{ \displaystyle   B \   }
+t _ 1 \  
+{ \displaystyle   t _ { 9 } \   }
+{ \displaystyle   m = t _ { 1 } + t _ { 8 } + t _ { 9 } \   }
+{ \displaystyle   m ^ { \star   } = m \exp ( \lambda   ( U _ { 1 } - 0 . 5 ) ) \   }
+{ \displaystyle   U _ { 1 } \   }
+{ \displaystyle   ( 0 , 1 ) \   }
+{ \displaystyle   { \frac   { h ( y ) } { h ( x ) } } \times   { \frac   { { m ^ { \star   } } ^ { 3 } } { m ^ { 3 } } } \   }
+t
+n _ { 1 }
+n _ { 2 }
+\lambda   \  
+{ \displaystyle   p ( t ) = \lambda   e ^ { - \lambda   t } \   }
+{ \displaystyle   1 / 4 \left ( 1 / 4 + 3 / 4 e ^ { - 4 / 3 t } \right ) \   }
+{ \displaystyle   1 / 4 \left ( 1 / 4 - 1 / 4 e ^ { - 4 / 3 t } \right ) \   }
+{ \displaystyle   h ( t ) = \left ( 1 / 4 \right ) ^ { n _ { 1 } + n _ { 2 } } \left ( 1 / 4 + 3 / 4 { e ^ { - 4 / 3 t } } ^ { n _ { 1 } } \right ) \   }
+{ \displaystyle   h ( t ) = \left ( 1 / 4 - 1 / 4 { e ^ { - 4 / 3 t } } ^ { n _ { 2 } } \right ) ( \lambda   e ^ { - \lambda   t } ) \   }
+w \  
+{ \displaystyle   t ^ { \star   } = | t + U | \   }
+U \  
+{ \displaystyle   - w \   }
+w \  
+{ \displaystyle   h ( t ^ { \star   } ) / h ( t ) \   }
+{ \displaystyle   n _ { 1 } = 7 0 \   }
+{ \displaystyle   n _ { 2 } = 3 0 \   }
+w \  
+{ \displaystyle   w = 0 . 1 \   }
+{ \displaystyle   w = 0 . 5 \   }
+{ \displaystyle   5 \   }
+{ \displaystyle   2 0 0 0 \   }

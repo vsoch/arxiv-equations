@@ -1,0 +1,53 @@
+i
+( \mathbf   { x }   _ { i } , y _ { i } )
+w _ { i }
+k
+\mathbf   { x ' }  
+\mathbf   { x }   _ { i }
+{ \hat   { y } } = \operatorname   { s g n }   \sum   _ { i = 1 } ^ { n } w _ { i } y _ { i } k ( \mathbf   { x }   _ { i } , \mathbf   { x ' }   )
+{ \hat   { y } } \in   \{ - 1 , + 1 \ }
+\mathbf   { x ' }  
+y
+k \colon   { \mathcal   { X } } \times   { \mathcal   { X } } \to   \mathbb   { R }  
+\mathbf   { x }   , \mathbf   { x ' }   \in   { \mathcal   { X } }
+\{ ( \mathbf   { x }   _ { i } , y _ { i } ) \}_ { i = 1 } ^ { n }
+y _ { i } \in   \{ - 1 , + 1 \ }
+w _ { i } \in   \mathbb   { R }  
+\operatorname   { s g n }  
+{ \hat   { y } }
+\mathbf   { x }  
+\mathbf   { x ' }  
+{ \mathcal   { X } }
+k ( \mathbf   { x }   , \mathbf   { x ' }   )
+{ \mathcal   { V } }
+k \colon   { \mathcal   { X } } \times   { \mathcal   { X } } \to   \mathbb   { R }  
+k
+\varphi   \colon   { \mathcal   { X } } \to   { \mathcal   { V } }
+k ( \mathbf   { x }   , \mathbf   { x ' }   ) = \langle   \varphi   ( \mathbf   { x }   ) , \varphi   ( \mathbf   { x ' }   ) \rangle   _ { \mathcal   { V } } .
+\langle   \cdot   , \cdot   \rangle   _ { \mathcal   { V } }
+\varphi  
+{ \mathcal   { V } }
+\varphi  
+{ \mathcal   { X } }
+k
+\mu   ( T ) = | T |
+T \subset   X
+T
+\sum   _ { i = 1 } ^ { n } \sum   _ { j = 1 } ^ { n } k ( \mathbf   { x }   _ { i } , \mathbf   { x }   _ { j } ) c _ { i } c _ { j } \geq   0 .
+( \mathbf   { x }   _ { 1 } , \dotsc   , \mathbf   { x }   _ { n } )
+{ \mathcal   { X } }
+n
+( c _ { 1 } , \dots   , c _ { n } )
+k
+{ \mathcal   { X } }
+\varphi  
+\varphi  
+\mathbf   { K }   \in   \mathbb   { R }   ^ { n \times   n }
+\{ \mathbf   { x }   _ { 1 } , \dotsc   , \mathbf   { x }   _ { n } \ }
+{ \displaystyle   K _ { i j } = k ( \mathbf   { x }   _ { i } , \mathbf   { x }   _ { j } ) }
+k
+k
+k
+k
+k
+\mathbf   { K }  

@@ -1,0 +1,53 @@
+{ \hat     { y } } = { \frac     { \sum   _ { i } y _ { i } / \sigma   _ { i } ^ { 2 } } { \sum   _ { i } 1 / \sigma   _ { i } ^ { 2 } } } .
+D ^ { 2 } ( { \hat     { y } } ) = { \frac     { 1 } { \sum   _ { i } 1 / \sigma   _ { i } ^ { 2 } } } .
+\mu  
+n
+{ \displaystyle   X _ { 1 } , X _ { 2 } , . . . , X _ { n } }
+{ \displaystyle   E [ X _ { i } ] = \mu   }
+{ \displaystyle   \forall   i }
+{ \displaystyle   V a r ( X _ { i } ) : = \sigma   _ { i } ^ { 2 } }
+  \sigma_i  
+\sigma  
+n
+\mu  
+{ \displaystyle   { \hat   { \mu   } } }
+{ \displaystyle   { \overline   { X } } = { \frac   { 1 } { n } } \sum   _ { i } X _ { i } }
+{ \displaystyle   E [ { \overline   { X } } ] }
+\mu  
+{ \displaystyle   V a r ( { \overline   { X } } ) = { \frac   { 1 } { n ^ { 2 } } } \sum   _ { i } \sigma   _ { i } ^ { 2 } = \left ( { \frac   { \sigma   } { \sqrt   { n } } } \right ) ^ { 2 } }
+  \sigma_i  
+n
+{ \displaystyle   1 / { \sqrt   { n } } }
+n
+n
+n
+  \sigma_i  
+g
+{ \overline   { X } }
+{ \displaystyle   \sigma   _ { 1 } ^ { 2 } , \sigma   _ { 2 } ^ { 2 } , . . . , \sigma   _ { n } ^ { 2 } }
+\mu  
+{ \displaystyle   { \hat   { \mu   } } = { \frac   { \sum   _ { i } w _ { i } X _ { i } } { \sum   _ { i } w _ { i } } } }
+{ \displaystyle   w _ { i } = 1 / \sigma   _ { i } ^ { 2 } }
+{ \displaystyle   V a r ( { \hat   { \mu   } } ) = { \frac   { \sum   _ { i } w _ { i } ^ { 2 } \sigma   _ { i } ^ { 2 } } { \left ( \sum   _ { i } w _ { i } \right ) ^ { 2 } } } }
+{ \displaystyle   V a r ( { \hat   { \mu   } } _ { \text { o p t } } ) = \left ( \sum   _ { i } \sigma   _ { i } ^ { - 2 } \right ) ^ { - 1 } . }
+{ \displaystyle   V a r ( { \hat   { \mu   } } _ { \text { o p t } } ) < \min   _ { j } \sigma   _ { j } ^ { 2 } }
+{ \displaystyle   { \hat   { \mu   } } _ { \text { o p t } } }
+{ \displaystyle   Y = \sum   _ { i } w _ { i } X _ { i } }
+w _ { i }
+{ \displaystyle   \sum   _ { i } w _ { i } = 1 }
+X _ { i }
+Y
+{ \displaystyle   V a r ( Y ) = \sum   _ { i } w _ { i } ^ { 2 } \sigma   _ { i } ^ { 2 } . }
+{ \displaystyle   V a r ( Y ) }
+{ \displaystyle   V a r ( Y ) }
+{ \displaystyle   \sum   _ { i } w _ { i } = 1 }
+{ \displaystyle   w _ { 0 } }
+{ \displaystyle   V a r ( Y ) = \sum   _ { i } w _ { i } ^ { 2 } \sigma   _ { i } ^ { 2 } - w _ { 0 } ( \sum   _ { i } w _ { i } - 1 ) . }
+{ \displaystyle   k > 0 }
+{ \displaystyle   0 = { \frac   { \partial   } { \partial   w _ { k } } } V a r ( Y ) = 2 w _ { k } \sigma   _ { k } ^ { 2 } - w _ { 0 } , }
+{ \displaystyle   w _ { k } = { \frac   { w _ { 0 } / 2 } { \sigma   _ { k } ^ { 2 } } } . }
+{ \displaystyle   w _ { k } \propto   1 / \sigma   _ { k } ^ { 2 } }
+{ \displaystyle   \sum   _ { i } w _ { i } = 1 }
+{ \displaystyle   { \frac   { 2 } { w _ { 0 } } } = \sum   _ { i } { \frac   { 1 } { \sigma   _ { i } ^ { 2 } } } : = { \frac   { 1 } { \sigma   _ { 0 } ^ { 2 } } } . }
+{ \displaystyle   w _ { k } = { \frac   { 1 } { \sigma   _ { k } ^ { 2 } } } \left ( \sum   _ { i } { \frac   { 1 } { \sigma   _ { i } ^ { 2 } } } \right ) ^ { - 1 } . }
+{ \displaystyle   V a r ( Y ) = \sum   _ { i } { \frac   { \sigma   _ { 0 } ^ { 4 } } { \sigma   _ { i } ^ { 4 } } } \sigma   _ { i } ^ { 2 } = \sigma   _ { 0 } ^ { 4 } \sum   _ { i } { \frac   { 1 } { \sigma   _ { i } ^ { 2 } } } = \sigma   _ { 0 } ^ { 4 } { \frac   { 1 } { \sigma   _ { 0 } ^ { 2 } } } = \sigma   _ { 0 } ^ { 2 } = { \frac   { 1 } { \sum   _ { i } 1 / \sigma   _ { i } ^ { 2 } } } . }

@@ -1,0 +1,10 @@
+  \begin { a r r a y } { r l l }   \text { p o o r } ,   &   \log \frac { p _ 1 } { p _ 2 + p _ 3 + p _ 4 + p _ 5 } ,   &   0   \\[8pt ]   \text { p o o r   o r   f a i r } ,   &   \log \frac { p _ 1 + p _ 2 } { p _ 3 + p _ 4 + p _ 5 } ,   &   1   \\[8pt ]   \text { p o o r ,   f a i r ,   o r   g o o d } ,   &   \log \frac { p _ 1 + p _ 2 + p _ 3 } { p _ 4 + p _ 5 } ,   &   2   \\[8pt ]   \text { p o o r ,   f a i r ,   g o o d ,   o r   v e r y   g o o d } ,   &   \log \frac { p _ 1 + p _ 2 + p _ 3 + p _ 4 } { p _ 5 } ,   &   3   \end { a r r a y }  
+{ \displaystyle   y ^ { * } = \mathbf   { x }   ^ { \mathsf   { T } } \beta   + \varepsilon   , \ , }
+y ^ { * }
+\mathbf   { x }  
+\varepsilon  
+\beta  
+y ^ { * }
+{ \displaystyle   y = { \begin { c a s e s } 0 & { \text { i f   } } y ^ { * } \leq   \mu   _ { 1 } , \\1 & { \text { i f   } } \mu   _ { 1 } < y ^ { * } \leq   \mu   _ { 2 } , \\2 & { \text { i f   } } \mu   _ { 2 } < y ^ { * } \leq   \mu   _ { 3 } , \\\vdots   \\N & { \text { i f   } } \mu   _ { N } < y ^ { * } \end { c a s e s } } }
+\mu   _ { i }
+\beta  

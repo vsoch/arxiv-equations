@@ -1,0 +1,2 @@
+F ( { \mathit   { z } } , \mathbf   { x }   ) = \operatorname   { P r o b }   \lbrace   Z ( \mathbf   { x }   ) \leqslant   { \mathit   { z } } \mid   { \text { i n f o r m a t i o n } } \rbrace   .
+F ( \mathbf   { z }   , \mathbf   { x }   ) = \operatorname   { P r o b }   \lbrace   Z ( \mathbf   { x }   _ { 1 } ) \leqslant   z _ { 1 } , Z ( \mathbf   { x }   _ { 2 } ) \leqslant   z _ { 2 } , . . . , Z ( \mathbf   { x }   _ { N } ) \leqslant   z _ { N } \rbrace   .

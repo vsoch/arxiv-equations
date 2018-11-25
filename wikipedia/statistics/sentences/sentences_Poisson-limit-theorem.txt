@@ -1,0 +1,20 @@
+p _ { n }
+{ \displaystyle   [ 0 , 1 ] }
+{ \displaystyle   n p _ { n } }
+\lambda  
+{ \displaystyle   \lim   _ { n \to   \infty   } { n   \choose   k } p _ { n } ^ { k } ( 1 - p _ { n } ) ^ { n - k } = e ^ { - \lambda   } { \frac   { \lambda   ^ { k } } { k ! } } }
+{ \displaystyle   { \begin { a l i g n e d } { n   \choose   k } p ^ { k } ( 1 - p ) ^ { n - k } & \simeq   \lim   _ { n \to   \infty   } { \frac   { n ( n - 1 ) ( n - 2 ) \dots   ( n - k + 1 ) } { k ! } } \left ( { \frac   { \lambda   } { n } } \right ) ^ { k } \left ( 1 - { \frac   { \lambda   } { n } } \right ) ^ { n - k } \\&=\lim   _ { n \to   \infty   } { \frac   { n ^ { k } + O \left ( n ^ { k - 1 } \right ) } { k ! } } { \frac   { \lambda   ^ { k } } { n ^ { k } } } \left ( 1 - { \frac   { \lambda   } { n } } \right ) ^ { n - k } \\&=\lim   _ { n \to   \infty   } { \frac   { \lambda   ^ { k } } { k ! } } \left ( 1 - { \frac   { \lambda   } { n } } \right ) ^ { n - k } \end { a l i g n e d } } }
+{ \displaystyle   \lim   _ { n \to   \infty   } \left ( 1 - { \frac   { \lambda   } { n } } \right ) ^ { n } = e ^ { - \lambda   } }
+{ \displaystyle   \lim   _ { n \to   \infty   } \left ( 1 - { \frac   { \lambda   } { n } } \right ) ^ { - k } = 1 }
+{ \displaystyle   { n   \choose   k } p ^ { k } ( 1 - p ) ^ { n - k } \simeq   { \frac   { \lambda   ^ { k } e ^ { - \lambda   } } { k ! } } }
+{ \displaystyle   { \begin { a l i g n e d } { n   \choose   k } p ^ { k } ( 1 - p ) ^ { n - k } & = { \frac   { n ! } { ( n - k ) ! k ! } } p ^ { k } ( 1 - p ) ^ { n - k } \\&\simeq   { \frac   { { \sqrt   { 2 \pi   n } } \left ( { \frac   { n } { e } } \right ) ^ { n } } { { \sqrt   { 2 \pi   \left ( n - k \right ) } } \left ( { \frac   { n - k } { e } } \right ) ^ { n - k } k ! } } p ^ { k } ( 1 - p ) ^ { n - k } \\&={ \sqrt   { \frac   { n } { n - k } } } { \frac   { n ^ { n } e ^ { - k } } { \left ( n - k \right ) ^ { n - k } k ! } } p ^ { k } ( 1 - p ) ^ { n - k } \end { a l i g n e d } } }
+n \to   \infty  
+{ \displaystyle   n p = \lambda   }
+{ \displaystyle   { \begin { a l i g n e d } { n   \choose   k } p ^ { k } ( 1 - p ) ^ { n - k } & \simeq   { \frac   { n ^ { n } \,p ^ { k } ( 1 - p ) ^ { n - k } e ^ { - k } } { \left ( n - k \right ) ^ { n - k } k ! } } \\&={ \frac   { n ^ { n } \left ( { \frac   { \lambda   } { n } } \right ) ^ { k } ( 1 - { \frac   { \lambda   } { n } } ) ^ { n - k } e ^ { - k } } { n ^ { n - k } \left ( 1 - { \frac   { k } { n } } \right ) ^ { n - k } k ! } } \\&={ \frac   { \lambda   ^ { k } \left ( 1 - { \frac   { \lambda   } { n } } \right ) ^ { n - k } e ^ { - k } } { \left ( 1 - { \frac   { k } { n } } \right ) ^ { n - k } k ! } } \\&\simeq   { \frac   { \lambda   ^ { k } \left ( 1 - { \frac   { \lambda   } { n } } \right ) ^ { n } e ^ { - k } } { \left ( 1 - { \frac   { k } { n } } \right ) ^ { n } k ! } } \end { a l i g n e d } } }
+n \to   \infty  
+{ \displaystyle   \left ( 1 - { \frac   { x } { n } } \right ) ^ { n } \to   e ^ { - x } }
+{ \displaystyle   { \begin { a l i g n e d } { n   \choose   k } p ^ { k } ( 1 - p ) ^ { n - k } & \simeq   { \frac   { \lambda   ^ { k } e ^ { - \lambda   } e ^ { - k } } { e ^ { - k } k ! } } \\&={ \frac   { \lambda   ^ { k } e ^ { - \lambda   } } { k ! } } \end { a l i g n e d } } }
+G _ { { \mathrm     { b i n } } } ( x ; p , N ) \equiv   \sum   _ { { k = 0 } } ^ { { N } } \left [ { \binom     { N } { k } } p ^ { k } ( 1 - p ) ^ { { N - k } } \right ] x ^ { k } = { \Big   [ } 1 + ( x - 1 ) p { \Big   ] } ^ { { N } }
+N \rightarrow   \infty  
+p N \equiv   \lambda  
+\lim   _ { { N \rightarrow   \infty   } } G _ { { \mathrm     { b i n } } } ( x ; p , N ) = \lim   _ { { N \rightarrow   \infty   } } { \Big   [ } 1 + { \frac     { \lambda   ( x - 1 ) } { N } } { \Big   ] } ^ { { N } } = { \mathrm     { e } } ^ { { \lambda   ( x - 1 ) } } = \sum   _ { { k = 0 } } ^ { { \infty   } } \left [ { \frac     { { \mathrm     { e } } ^ { { - \lambda   } } \lambda   ^ { k } } { k ! } } \right ] x ^ { k }

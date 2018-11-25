@@ -1,0 +1,51 @@
+\beta  
+\beta  
+\beta  
+U _ { { n i } } = \beta   x _ { { n i } } + \varepsilon   _ { { n i } }
+  \varepsilon_ { n i }  
+\beta   _ { n }
+U _ { { n i } } = \beta   _ { n } x _ { { n i } } + \varepsilon   _ { { n i } }
+  \varepsilon_ { n i }  
+\quad   \beta   _ { n } \sim   f ( \beta   | \theta   )
+\beta   _ { n }
+\beta   _ { n }
+\beta   _ { n }
+L _ { { n i } } ( \beta   _ { { n } } ) = { \frac     { e ^ { { \beta   _ { { n } } X _ { { n i } } } } } { \sum   _ { { j } } e ^ { { \beta   _ { { n } } X _ { { n j } } } } } }
+\beta   _ { n }
+\beta   _ { n }
+P _ { { n i } } = \int   L _ { { n i } } ( \beta   ) f ( \beta   | \theta   ) d \beta  
+\beta   _ { n }
+f ( \beta   | \theta   )
+S _ { b }
+E _ { { n i x _ { { n j } } ^ { m } } } = - { \frac     { x _ { { n j } } ^ { m } } { P _ { { n i } } } } \int   \beta   ^ { m } L _ { { n i } } ( \beta   ) L _ { { n j } } ( \beta   ) f ( \beta   ) d \beta   = - x _ { { n j } } ^ { m } \int   \beta   ^ { m } L _ { { n j } } ( \beta   ) { \frac     { L _ { { n i } } ( \beta   ) } { P _ { { n i } } } } f ( \beta   ) d \beta  
+\beta  
+U _ { { n i t } } = \beta   _ { { n } } X _ { { n i t } } + \varepsilon   _ { { n i t } }
+\varepsilon  
+\varepsilon  
+\varepsilon  
+\beta  
+{ \bar     { \beta   } }
+\sigma   ^ { 2 }
+U _ { { n i t } } = ( { \bar     { \beta   } } + \sigma   \eta   _ { { n } } ) X _ { { n i t } } + \varepsilon   _ { { n i t } }
+U _ { { n i t } } = { \bar     { \beta   } } X _ { { n i t } } + ( \sigma   \eta   _ { { n } } X _ { { n i t } } + \varepsilon   _ { { n i t } } )
+U _ { { n i t } } = { \bar     { \beta   } } X _ { { n i t } } + e _ { { n i t } }
+e _ { { n i t } } = \sigma   \eta   _ { { n } } X _ { { n i t } } + \varepsilon   _ { { n i t } }
+\varepsilon   _ { { n i t } }
+\sigma   \eta   _ { { n } } X _ { { n i t } }
+i
+j
+C o v ( e _ { { n i t } } , e _ { { n j t } } ) = \sigma   ^ { 2 } ( X _ { { n i t } } X _ { { n j t } } )
+t
+q
+C o v ( e _ { { n i t } } , e _ { { n i q } } ) = \sigma   ^ { 2 } ( X _ { { n i t } } X _ { { n i q } } )
+\beta   _ { n }
+L _ { { n } } ( \beta   _ { { n } } ) = \prod   _ { { t } } { \frac     { e ^ { { \beta   _ { { n } } X _ { { n i t } } } } } { \sum   _ { { j } } e ^ { { \beta   _ { { n } } X _ { { n j t } } } } } }
+\varepsilon   _ { { n i t } }
+\beta  
+P _ { { n i } } = \int   L _ { { n } } ( \beta   ) f ( \beta   | \theta   ) d \beta  
+f ( \beta   | \theta   )
+\beta   ^ { r }
+r = 1
+L _ { n } ( \beta   ^ { r } )
+r = 2 , . . . , R
+{ \tilde     { P } } _ { { n i } } = { \frac     { \sum   _ { { r } } L _ { { n } } ( \beta   ^ { r } ) } { R } }

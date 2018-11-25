@@ -1,0 +1,3 @@
+{ \displaystyle   { \overline   { X } } = { \frac   { 1 } { n } } \sum   _ { i = 1 } ^ { n } X _ { i } { \text {     a n d     } } { \overline   { Y } } = { \frac   { 1 } { m } } \sum   _ { i = 1 } ^ { m } Y _ { i } }
+{ \displaystyle   S _ { X } ^ { 2 } = { \frac   { 1 } { n - 1 } } \sum   _ { i = 1 } ^ { n } \left ( X _ { i } - { \overline   { X } } \right ) ^ { 2 } { \text {     a n d     } } S _ { Y } ^ { 2 } = { \frac   { 1 } { m - 1 } } \sum   _ { i = 1 } ^ { m } \left ( Y _ { i } - { \overline   { Y } } \right ) ^ { 2 } }
+F = { \frac     { S _ { X } ^ { 2 } } { S _ { Y } ^ { 2 } } }

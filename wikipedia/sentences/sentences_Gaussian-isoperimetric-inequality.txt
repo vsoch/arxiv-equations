@@ -1,7 +1,0 @@
-\scriptstyle   A
-\scriptstyle   { \mathbf     { R } } ^ { n }
-\gamma   ^ { n }
-{ \displaystyle   { \exp ( - \|x \|^ { 2 } / 2 ) } / ( 2 \pi   ) ^ { n / 2 } }
-A _ { \varepsilon   } = \left \{ x \in   { \mathbf     { R } } ^ { n } \,|\,{ \text { d i s t } } ( x , A ) \leq   \varepsilon   \right \ }
-\liminf   _ { { \varepsilon   \to   + 0 } } \varepsilon   ^ { { - 1 } } \left \{ \gamma   ^ { n } ( A _ { \varepsilon   } ) - \gamma   ^ { n } ( A ) \right \}\geq   \varphi   ( \Phi   ^ { { - 1 } } ( \gamma   ^ { n } ( A ) ) ) ,
-\varphi   ( t ) = { \frac     { \exp ( - t ^ { 2 } / 2 ) } { { \sqrt     { 2 \pi   } } } } \quad   { { \rm   { a n d } } } \quad   \Phi   ( t ) = \int   _ { { - \infty   } } ^ { t } \varphi   ( s ) \,ds .

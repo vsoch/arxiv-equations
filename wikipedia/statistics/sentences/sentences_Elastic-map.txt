@@ -1,0 +1,32 @@
+{ \displaystyle   { \mathcal   { S } } }
+{ \displaystyle   { \bf   { w } } _ { j } }
+{ \displaystyle   s \in   { \mathcal   { S } } }
+{ \displaystyle   { \bf   { w } } _ { j } }
+{ \displaystyle   { \mathcal   { S } } }
+{ \displaystyle   K _ { j } = \{ s \ |\ { \bf   { w } } _ { j } { \mbox {   i s   a   h o s t   o f   } } s \ } }
+{ \displaystyle   D = { \frac   { 1 } { 2 } } \sum   _ { j = 1 } ^ { k } \sum   _ { s \in   K _ { j } } \|s - { \bf   { w } } _ { j } \|^ { 2 } }
+\{ s _ { i } \ }
+{ \displaystyle   ( { \bf   { w } } _ { i } , { \bf   { w } } _ { j } ) }
+E
+{ \displaystyle   ( { \bf   { w } } _ { i } , { \bf   { w } } _ { j } , { \bf   { w } } _ { k } ) }
+G
+{ \displaystyle   U _ { E } = { \frac   { 1 } { 2 } } \lambda   \sum   _ { ( { \bf   { w } } _ { i } , { \bf   { w } } _ { j } ) \in   E } \|{ \bf   { w } } _ { i } - { \bf   { w } } _ { j } \|^ { 2 } }
+{ \displaystyle   U _ { G } = { \frac   { 1 } { 2 } } \mu   \sum   _ { ( { \bf   { w } } _ { i } , { \bf   { w } } _ { j } , { \bf   { w } } _ { k } ) \in   G } \|{ \bf   { w } } _ { i } - 2 { \bf   { w } } _ { j } + { \bf   { w } } _ { k } \|^ { 2 } }
+\lambda  
+\mu  
+U = D + U _ { E } + U _ { G } .
+{ \displaystyle   \{ { \bf   { w } } _ { j } \ } }
+U
+{ \displaystyle   { \mathcal   { S } } }
+K _ { j }
+U
+{ \displaystyle   \{ { \bf   { w } } _ { j } \ } }
+\{ K _ { j } \ }
+\{ K _ { j } \ }
+U
+{ \displaystyle   \{ { \bf   { w } } _ { j } \ } }
+U
+\lambda  
+\mu  
+\lambda  
+\mu  

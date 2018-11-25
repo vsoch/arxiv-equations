@@ -1,0 +1,66 @@
+{ \displaystyle   \left \|x \right \|_ { 2 } = \left ( { x _ { 1 } } ^ { 2 } + { x _ { 2 } } ^ { 2 } + \dotsb   + { x _ { n } } ^ { 2 } \right ) ^ { 1 / 2 } . }
+{ \displaystyle   \left \|x \right \|_ { p } = \left ( | x _ { 1 } | ^ { p } + | x _ { 2 } | ^ { p } + \dotsb   + | x _ { n } | ^ { p } \right ) ^ { 1 / p } . }
+p \rightarrow   \infty  
+{ \displaystyle   \left \|x \right \|_ { \infty   } = \max   \left \{ | x _ { 1 } | , | x _ { 2 } | , \dotsc   , | x _ { n } | \right \ } }
+{ \displaystyle   \left \|x \right \|_ { 2 } \leq   \left \|x \right \|_ { 1 } . }
+{ \displaystyle   \left \|x \right \|_ { 1 } \leq   { \sqrt   { n } } \left \|x \right \|_ { 2 } . }
+{ \displaystyle   \left \|x \right \|_ { p } \leq   \left \|x \right \|_ { r } \leq   n ^ { ( 1 / r - 1 / p ) } \left \|x \right \|_ { p } . }
+{ \displaystyle   \|x \|_ { p } = \left ( | x _ { 1 } | ^ { p } + | x _ { 2 } | ^ { p } + \cdots   + | x _ { n } | ^ { p } \right ) ^ { 1 / p } }
+| x _ { 1 } | ^ { p } + | x _ { 2 } | ^ { p } + \dotsb   + | x _ { n } | ^ { p }
+d _ { p } ( x , y ) = \sum   _ { i = 1 } ^ { n } | x _ { i } - y _ { i } | ^ { p }
+{ \displaystyle   C _ { p } ( n ) = n ^ { 1 / p - 1 } \to   \infty   , \qquad   { \text { a s   } } n \to   \infty   }
+( x _ { n } ) \mapsto   \sum   _ { n } 2 ^ { - n } { \frac   { | x _ { n } | } { 1 + | x _ { n } | } } ,
+{ \displaystyle   | x _ { 1 } | ^ { 0 } + | x _ { 2 } | ^ { 0 } + \cdots   + | x _ { n } | ^ { 0 } . }
+{ \displaystyle   { \begin { a l i g n e d } & ( x _ { 1 } , x _ { 2 } , \ldots   , x _ { n } , x _ { n + 1 } , \ldots   ) + ( y _ { 1 } , y _ { 2 } , \ldots   , y _ { n } , y _ { n + 1 } , \ldots   ) \\={ } & ( x _ { 1 } + y _ { 1 } , x _ { 2 } + y _ { 2 } , \ldots   , x _ { n } + y _ { n } , x _ { n + 1 } + y _ { n + 1 } , \ldots   ) , \\[6pt ] & \lambda   \cdot   \left ( x _ { 1 } , x _ { 2 } , \ldots   , x _ { n } , x _ { n + 1 } , \ldots   \right ) \\={ } & ( \lambda   x _ { 1 } , \lambda   x _ { 2 } , \ldots   , \lambda   x _ { n } , \lambda   x _ { n + 1 } , \ldots   ) . \end { a l i g n e d } } }
+{ \displaystyle   \left \|x \right \|_ { p } = \left ( | x _ { 1 } | ^ { p } + | x _ { 2 } | ^ { p } + \cdots   + | x _ { n } | ^ { p } + | x _ { n + 1 } | ^ { p } + \cdots   \right ) ^ { 1 / p } }
+\left ( 1 , { \frac   { 1 } { 2 } } , \ldots   , { \frac   { 1 } { n } } , { \frac   { 1 } { n + 1 } } , \ldots   \right )
+1 ^ { p } + { \frac   { 1 } { 2 ^ { p } } } + \cdots   + { \frac   { 1 } { n ^ { p } } } + { \frac   { 1 } { ( n + 1 ) ^ { p } } } + \cdots   ,
+{ \displaystyle   \left \|x \right \|_ { \infty   } = \sup ( | x _ { 1 } | , | x _ { 2 } | , \dotsc   , | x _ { n } | , | x _ { n + 1 } | , \ldots   ) }
+{ \displaystyle   \left \|x \right \|_ { \infty   } = \lim   _ { p \to   \infty   } \left \|x \right \|_ { p } }
+{ \displaystyle   \|f \|_ { p } \equiv   \left ( \int   _ { S } | f | ^ { p } \;\mathrm   { d }   \mu   \right ) ^ { 1 / p } < \infty   }
+{ \begin { a l i g n e d } ( f + g ) ( x ) & = f ( x ) + g ( x ) , \\( \lambda   f ) ( x ) & = \lambda   f ( x ) \end { a l i g n e d } }
+{ \displaystyle   \|f + g \|_ { p } ^ { p } \leq   2 ^ { p - 1 } \left ( \|f \|_ { p } ^ { p } + \|g \|_ { p } ^ { p } \right ) . }
+t \mapsto   t ^ { p }
+p \geq   1
+{ \displaystyle   { \mathcal   { L } } ^ { p } ( S , \,\mu   ) }
+{ \displaystyle   { \mathcal   { N } } \equiv   \{ f : f = 0 \ \mu   { \text { - a l m o s t   e v e r y w h e r e } } \}=\ker ( \|\cdot   \|_ { p } ) \qquad   \forall   \ 1 \leq   p < \infty   }
+L ^ { p } ( S , \mu   ) \equiv   { \mathcal   { L } } ^ { p } ( S , \mu   ) / { \mathcal   { N } }
+{ \displaystyle   \|f \|_ { \infty   } \equiv   \inf \{ C \geq   0 : | f ( x ) | \leq   C { \text {   f o r   a l m o s t   e v e r y   } } x \ } . }
+{ \displaystyle   \|f \|_ { \infty   } = \lim   _ { p \to   \infty   } \|f \|_ { p } . }
+\langle   f , g \rangle   = \int   _ { S } f ( x ) { \overline   { g ( x ) } } \,\mathrm   { d }   \mu   ( x )
+{ \displaystyle   q = { \frac   { p } { p - 1 } } }
+f \mapsto   \kappa   _ { p } ( g ) ( f ) = \int   f g \,\mathrm   { d }   \mu   \   \  
+f \in   L ^ { p } ( \mu   )
+j _ { p } : L ^ { p } ( \mu   ) { \overset   { \kappa   _ { q } } { \longrightarrow   } } L ^ { q } ( \mu   ) ^ { * } { \overset   { \left ( \kappa   _ { p } ^ { - 1 } \right ) ^ { * } } { \longrightarrow   } } L ^ { p } ( \mu   ) ^ { * * }
+{ \displaystyle   \ \|\mathbf   { 1 }   f ^ { p } \|_ { 1 } \leq   \|\mathbf   { 1 }   \|_ { q / ( q - p ) } \|f ^ { p } \|_ { q / p } }
+{ \displaystyle   \ \|f \|_ { p } \leq   \mu   ( S ) ^ { 1 / p - 1 / q } \|f \|_ { q } }
+{ \displaystyle   \|I \|_ { q , p } = \mu   ( S ) ^ { 1 / p - 1 / q } }
+f = \sum   _ { j = 1 } ^ { n } a _ { j } \mathbf   { 1 }   _ { A _ { j } }
+{ \mathbf   { 1 }   } _ { A _ { j } }
+A _ { j }
+F \subset   A \subset   U \subset   V \quad   { \text { a n d } } \quad   \mu   ( U ) - \mu   ( F ) = \mu   ( U \setminus   F ) < \varepsilon  
+{ \displaystyle   0 \leq   \varphi   \leq   \mathbf   { 1 }   _ { V } \quad   { \text { a n d } } \quad   \int   _ { S } | \mathbf   { 1 }   _ { A } - \varphi   | \,\mathrm   { d }   \mu   < \varepsilon   }
+\forall   f \in   L ^ { p } ( \mathbf   { R }   ^ { d } ) : \qquad   \left \|\tau   _ { t } f - f \right \|_ { p } \to   0 , \quad   { \text {   a s   } } \mathbf   { R }   ^ { d } \ni   t \to   0 ,
+{ \displaystyle   ( \tau   _ { t } f ) ( x ) = f ( x - t ) . }
+{ \displaystyle   N _ { p } ( f ) = \int   _ { S } | f | ^ { p } \,d \mu   < \infty   . }
+N _ { p } ( f + g ) \leq   N _ { p } ( f ) + N _ { p } ( g )
+d _ { p } ( f , g ) = N _ { p } ( f - g ) = \|f - g \|_ { p } ^ { p }
+{ \displaystyle   \||u | + | v | \|_ { p } \geq   \|u \|_ { p } + \|v \|_ { p } }
+V _ { \varepsilon   } = { \Bigl   \{ } f : \mu   { \bigl   ( } \{ x : | f ( x ) | > \varepsilon   \}{ \bigr   ) } < \varepsilon   { \Bigr   \}},\qquad   \varepsilon   > 0
+d ( f , g ) = \int   _ { S } \varphi   { \bigl   ( } | f ( x ) - g ( x ) | { \bigr   ) } \,\mathrm   { d }   \mu   ( x )
+W _ { \varepsilon   } = \left \{ f : \lambda   \left ( \left \{ x : | f ( x ) | > \varepsilon   { \text {   a n d   } } | x | < { \frac   { 1 } { \varepsilon   } } \right \}\right ) < \varepsilon   \right \ }
+\lambda   _ { f } ( t ) = \mu   \left \{ x \in   S : | f ( x ) | > t \right \ }
+\lambda   _ { f } ( t ) \leq   { \frac   { \|f \|_ { p } ^ { p } } { t ^ { p } } }
+\lambda   _ { f } ( t ) \leq   { \frac   { C ^ { p } } { t ^ { p } } }
+{ \displaystyle   \|f \|_ { p , w } = \sup   _ { t > 0 } ~ t \lambda   _ { f } ^ { 1 / p } ( t ) }
+\|f \|_ { p , w } \leq   \|f \|_ { p }
+{ \displaystyle   \|f \|_ { L ^ { p } } ^ { p } = \int   | f ( x ) | ^ { p } d \mu   ( x ) \geq   \int   _ { \{ | f ( x ) | > t \}}t ^ { p } + \int   _ { \{ | f ( x ) | \leq   t \}}|f | ^ { p } \geq   t ^ { p } \mu   ( \{ | f | > t \ } ) }
+1 / p
+t
+{ \displaystyle   \|f \|_ { L ^ { p } } \geq   \sup   _ { t > 0 } t \;\mu   ( \{ | f | > t \})^ { 1 / p } = \|f \|_ { L ^ { p , w } } }
+{ \displaystyle   | | | f | | | _ { L ^ { p , \infty   } } = \sup   _ { 0 < \mu   ( E ) < \infty   } \mu   ( E ) ^ { - 1 / r + 1 / p } \left ( \int   _ { E } | f | ^ { r } \,d \mu   \right ) ^ { 1 / r } }
+{ \displaystyle   \nu   ( A ) \equiv   \int   _ { A } w ( x ) \,\mathrm   { d }   \mu   ( x ) , \qquad   A \in   \Sigma   , }
+{ \displaystyle   \|u \|_ { L ^ { p } ( S , w \,\mathrm   { d }   \mu   ) } \equiv   \left ( \int   _ { S } w ( x ) | u ( x ) | ^ { p } \,\mathrm   { d }   \mu   ( x ) \right ) ^ { 1 / p } }
+\left ( \scriptstyle   L _ { \text { l o c } } ^ { 1 } \right )
+\scriptstyle   L ^ { p } ( G )
+G

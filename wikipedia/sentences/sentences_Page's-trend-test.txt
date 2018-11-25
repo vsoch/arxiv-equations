@@ -1,3 +1,0 @@
-m _ 1   =   m _ 2   =   m _ 3   =   \cdots   =   m _ n \ ,  
-  m _ 1   >   m _ 2   >   m _ 3   >   \cdots   >   m _ n . \ ,
-  {   ( 1 2 L   -   3 k n ( n + 1 ) ^ 2 ) ^ 2   \over   k n ^ 2 ( n ^ 2   -   1 ) ( n   +   1 )   }  

@@ -1,0 +1,242 @@
+\theta   \mapsto   p ( x \mid   \theta   ) \ !
+p ( \theta   ) \ !
+p ( x ) \ !
+{ \displaystyle   p ( \theta   \mid   x ) = { \frac   { p ( x \mid   \theta   ) \,p ( \theta   ) } { \int   p ( x \mid   \theta   ' ) \,p ( \theta   ' ) \,d \theta   ' } } . \ ! }
+s
+n
+q
+{ \displaystyle   p ( s ) = { n   \choose   s } q ^ { s } ( 1 - q ) ^ { n - s } }
+\alpha  
+\beta  
+p ( q ) = { q ^ { \alpha   - 1 } ( 1 - q ) ^ { \beta   - 1 }   \over   \mathrm   { B }   ( \alpha   , \beta   ) }
+\alpha  
+\beta  
+\alpha  
+\beta  
+\alpha  
+\beta  
+\alpha  
+\beta  
+{ \displaystyle   { \begin { a l i g n e d } P ( s , f \mid   q = x ) & = { s + f   \choose   s } x ^ { s } ( 1 - x ) ^ { f } , \\P ( x ) & = { x ^ { \alpha   - 1 } ( 1 - x ) ^ { \beta   - 1 }   \over   \mathrm   { B }   ( \alpha   , \beta   ) } , \\P ( q = x \mid   s , f ) & = { \frac   { P ( s , f \mid   x ) P ( x ) } { \int   P ( s , f \mid   y ) P ( y ) d y } } \\&={ { { s + f   \choose   s } x ^ { s + \alpha   - 1 } ( 1 - x ) ^ { f + \beta   - 1 } / \mathrm   { B }   ( \alpha   , \beta   ) }   \over   \int   _ { y = 0 } ^ { 1 } \left ( { s + f   \choose   s } y ^ { s + \alpha   - 1 } ( 1 - y ) ^ { f + \beta   - 1 } / \mathrm   { B }   ( \alpha   , \beta   ) \right ) d y } \\&={ x ^ { s + \alpha   - 1 } ( 1 - x ) ^ { f + \beta   - 1 }   \over   \mathrm   { B }   ( s + \alpha   , f + \beta   ) } , \end { a l i g n e d } } }
+\alpha  
+\beta  
+\alpha  
+\beta  
+\alpha   - 1
+\beta   - 1
+\alpha  
+\beta  
+x _ { 1 } , \ldots   , x _ { n }
+\alpha   , \,\beta   \ !
+\alpha   + \sum   _ { i = 1 } ^ { n } x _ { i } , \,\beta   + n - \sum   _ { i = 1 } ^ { n } x _ { i } \ !
+\alpha   - 1
+\beta   - 1
+p ( { \tilde   { x } } = 1 ) = { \frac   { \alpha   ' } { \alpha   ' + \beta   ' } }
+\alpha   , \,\beta   \ !
+\alpha   + \sum   _ { i = 1 } ^ { n } x _ { i } , \,\beta   + \sum   _ { i = 1 } ^ { n } N _ { i } - \sum   _ { i = 1 } ^ { n } x _ { i } \ !
+\alpha   - 1
+\beta   - 1
+\operatorname   { B e t a B i n }   ( { \tilde   { x } } | \alpha   ' , \beta   ' )
+\alpha   , \,\beta   \ !
+\alpha   + \sum   _ { i = 1 } ^ { n } x _ { i } , \,\beta   + r n \ !
+\alpha   - 1
+\beta   - 1
+{ \frac   { \beta   - 1 } { r } }
+r
+k , \,\theta   \ !
+{ \displaystyle   k + \sum   _ { i = 1 } ^ { n } x _ { i } , \ { \frac   { \theta   } { n \theta   + 1 } } \ ! }
+k
+{ \displaystyle   { \frac   { 1 } { \theta   } } }
+{ \displaystyle   \operatorname   { N B }   \left ( { \tilde   { x } } \mid   k ' , { \theta   ' } \right ) }
+\alpha   , \,\beta   \ !
+\alpha   + \sum   _ { i = 1 } ^ { n } x _ { i } , \ \beta   + n \ !
+\alpha  
+\beta  
+{ \displaystyle   \operatorname   { N B }   \left ( { \tilde   { x } } \mid   \alpha   ' , { \frac   { 1 } { 1 + \beta   ' } } \right ) }
+{ \boldsymbol   { \alpha   } } \ !
+{ \displaystyle   { \boldsymbol   { \alpha   } } + ( c _ { 1 } , \ldots   , c _ { k } ) , }
+c _ { i }
+\alpha   _ { i } - 1
+i
+{ \displaystyle   { \begin { a l i g n e d } p ( { \tilde   { x } } = i ) & = { \frac   { { \alpha   _ { i } } ' } { \sum   _ { i } { \alpha   _ { i } } ' } } \\&={ \frac   { \alpha   _ { i } + c _ { i } } { \sum   _ { i } \alpha   _ { i } + n } } \end { a l i g n e d } } }
+{ \boldsymbol   { \alpha   } } \ !
+{ \displaystyle   { \boldsymbol   { \alpha   } } + \sum   _ { i = 1 } ^ { n } \mathbf   { x }   _ { i } \ ! }
+\alpha   _ { i } - 1
+i
+{ \displaystyle   \operatorname   { D i r M u l t }   ( { \tilde   { \mathbf   { x }   } } \mid   { \boldsymbol   { \alpha   } } ' ) }
+n = N , \alpha   , \,\beta   \ !
+\alpha   + \sum   _ { i = 1 } ^ { n } x _ { i } , \,\beta   + \sum   _ { i = 1 } ^ { n } N _ { i } - \sum   _ { i = 1 } ^ { n } x _ { i } \ !
+\alpha   - 1
+\beta   - 1
+\alpha   , \,\beta   \ !
+{ \displaystyle   \alpha   + n , \,\beta   + \sum   _ { i = 1 } ^ { n } x _ { i } - n \ ! }
+\alpha   - 1
+\beta   - 1
+\mu   _ { 0 } , \,\sigma   _ { 0 } ^ { 2 } \ !
+{ \displaystyle   { \frac   { 1 } { { \frac   { 1 } { \sigma   _ { 0 } ^ { 2 } } } + { \frac   { n } { \sigma   ^ { 2 } } } } } \left ( { \frac   { \mu   _ { 0 } } { \sigma   _ { 0 } ^ { 2 } } } + { \frac   { \sum   _ { i = 1 } ^ { n } x _ { i } } { \sigma   ^ { 2 } } } \right ) , \left ( { \frac   { 1 } { \sigma   _ { 0 } ^ { 2 } } } + { \frac   { n } { \sigma   ^ { 2 } } } \right ) ^ { - 1 } }
+1 / \sigma   _ { 0 } ^ { 2 }
+\mu   _ { 0 }
+{ \mathcal   { N } } ( { \tilde   { x } } | \mu   _ { 0 } ' , { \sigma   _ { 0 } ^ { 2 } } ' + \sigma   ^ { 2 } )
+\mu   _ { 0 } , \,\tau   _ { 0 } \ !
+{ \displaystyle   { \frac   { \tau   _ { 0 } \mu   _ { 0 } + \tau   \sum   _ { i = 1 } ^ { n } x _ { i } } { \tau   _ { 0 } + n \tau   } } , \,\tau   _ { 0 } + n \tau   }
+\tau   _ { 0 }
+\mu   _ { 0 }
+{ \displaystyle   { \mathcal   { N } } \left ( { \tilde   { x } } \mid   \mu   _ { 0 } ' , { \frac   { 1 } { \tau   _ { 0 } ' } } + { \frac   { 1 } { \tau   } } \right ) }
+\mathbf   { \alpha   , \,\beta   }  
+\mathbf   { \alpha   }   + { \frac   { n } { 2 } } , \,\mathbf   { \beta   }   + { \frac   { \sum   _ { i = 1 } ^ { n } { ( x _ { i } - \mu   ) ^ { 2 } } } { 2 } }
+2 \alpha  
+\beta   / \alpha  
+2 \beta  
+\mu  
+t _ { 2 \alpha   ' } ( { \tilde   { x } } | \mu   , \sigma   ^ { 2 } = \beta   ' / \alpha   ' )
+\nu   , \,\sigma   _ { 0 } ^ { 2 } \ !
+\nu   + n , \,{ \frac   { \nu   \sigma   _ { 0 } ^ { 2 } + \sum   _ { i = 1 } ^ { n } ( x _ { i } - \mu   ) ^ { 2 } } { \nu   + n } } \ !
+\nu  
+\sigma   _ { 0 } ^ { 2 }
+t _ { \nu   ' } ( { \tilde   { x } } | \mu   , { \sigma   _ { 0 } ^ { 2 } } ' )
+\alpha   , \,\beta   \ !
+\alpha   + { \frac   { n } { 2 } } , \,\beta   + { \frac   { \sum   _ { i = 1 } ^ { n } ( x _ { i } - \mu   ) ^ { 2 } } { 2 } } \ !
+2 \alpha  
+\beta   / \alpha  
+2 \beta  
+\mu  
+{ \displaystyle   t _ { 2 \alpha   ' } ( { \tilde   { x } } \mid   \mu   , \sigma   ^ { 2 } = \beta   ' / \alpha   ' ) }
+\mu   _ { 0 } , \,\nu   , \,\alpha   , \,\beta  
+{ \frac   { \nu   \mu   _ { 0 } + n { \bar   { x } } } { \nu   + n } } , \,\nu   + n , \,\alpha   + { \frac   { n } { 2 } } , \ ,
+\beta   + { \tfrac   { 1 } { 2 } } \sum   _ { i = 1 } ^ { n } ( x _ { i } - { \bar   { x } } ) ^ { 2 } + { \frac   { n \nu   } { \nu   + n } } { \frac   { ( { \bar   { x } } - \mu   _ { 0 } ) ^ { 2 } } { 2 } }
+{ \bar   { x } }
+\nu  
+\mu   _ { 0 }
+2 \alpha  
+\mu   _ { 0 }
+2 \beta  
+{ \displaystyle   t _ { 2 \alpha   ' } \left ( { \tilde   { x } } \mid   \mu   ' , { \frac   { \beta   ' ( \nu   ' + 1 ) } { \nu   ' \alpha   ' } } \right ) }
+\mu   _ { 0 } , \,\nu   , \,\alpha   , \,\beta  
+{ \frac   { \nu   \mu   _ { 0 } + n { \bar   { x } } } { \nu   + n } } , \,\nu   + n , \,\alpha   + { \frac   { n } { 2 } } , \ ,
+\beta   + { \tfrac   { 1 } { 2 } } \sum   _ { i = 1 } ^ { n } ( x _ { i } - { \bar   { x } } ) ^ { 2 } + { \frac   { n \nu   } { \nu   + n } } { \frac   { ( { \bar   { x } } - \mu   _ { 0 } ) ^ { 2 } } { 2 } }
+{ \bar   { x } }
+\nu  
+\mu   _ { 0 }
+2 \alpha  
+\mu   _ { 0 }
+2 \beta  
+{ \displaystyle   t _ { 2 \alpha   ' } \left ( { \tilde   { x } } \mid   \mu   ' , { \frac   { \beta   ' ( \nu   ' + 1 ) } { \alpha   ' \nu   ' } } \right ) }
+{ \boldsymbol   { \boldsymbol   { \mu   } } } _ { 0 } , \,{ \boldsymbol   { \Sigma   } } _ { 0 }
+\left ( { \boldsymbol   { \Sigma   } } _ { 0 } ^ { - 1 } + n { \boldsymbol   { \Sigma   } } ^ { - 1 } \right ) ^ { - 1 } \left ( { \boldsymbol   { \Sigma   } } _ { 0 } ^ { - 1 } { \boldsymbol   { \mu   } } _ { 0 } + n { \boldsymbol   { \Sigma   } } ^ { - 1 } \mathbf   { \bar   { x } }   \right ) ,
+\left ( { \boldsymbol   { \Sigma   } } _ { 0 } ^ { - 1 } + n { \boldsymbol   { \Sigma   } } ^ { - 1 } \right ) ^ { - 1 }
+\mathbf   { \bar   { x } }  
+{ \boldsymbol   { \Sigma   } } _ { 0 } ^ { - 1 }
+{ \boldsymbol   { \mu   } } _ { 0 }
+{ \displaystyle   { \mathcal   { N } } ( { \tilde   { \mathbf   { x }   } } \mid   { { \boldsymbol   { \mu   } } _ { 0 } } ' , { { \boldsymbol   { \Sigma   } } _ { 0 } } ' + { \boldsymbol   { \Sigma   } } ) }
+\mathbf   { \boldsymbol   { \mu   } }   _ { 0 } , \,{ \boldsymbol   { \Lambda   } } _ { 0 }
+\left ( { \boldsymbol   { \Lambda   } } _ { 0 } + n { \boldsymbol   { \Lambda   } } \right ) ^ { - 1 } \left ( { \boldsymbol   { \Lambda   } } _ { 0 } { \boldsymbol   { \mu   } } _ { 0 } + n { \boldsymbol   { \Lambda   } } \mathbf   { \bar   { x } }   \right ) , \,\left ( { \boldsymbol   { \Lambda   } } _ { 0 } + n { \boldsymbol   { \Lambda   } } \right )
+\mathbf   { \bar   { x } }  
+\boldsymbol \Lambda_0
+{ \boldsymbol   { \mu   } } _ { 0 }
+{ \displaystyle   { \mathcal   { N } } \left ( { \tilde   { \mathbf   { x }   } } \mid   { { \boldsymbol   { \mu   } } _ { 0 } } ' , ( { { { \boldsymbol   { \Lambda   } } _ { 0 } } ' } ^ { - 1 } + { \boldsymbol   { \Lambda   } } ^ { - 1 } ) ^ { - 1 } \right ) }
+\nu   , \,{ \boldsymbol   { \Psi   } }
+n + \nu   , \,{ \boldsymbol   { \Psi   } } + \sum   _ { i = 1 } ^ { n } ( \mathbf   { x _ { i } }   - { \boldsymbol   { \mu   } } ) ( \mathbf   { x _ { i } }   - { \boldsymbol   { \mu   } } ) ^ { T }
+\nu  
+{ \boldsymbol   { \Psi   } }
+t _ { \nu   ' - p + 1 } \left ( { \tilde   { \mathbf   { x }   } } | { \boldsymbol   { \mu   } } , { \frac   { 1 } { \nu   ' - p + 1 } } { \boldsymbol   { \Psi   } } ' \right )
+\nu   , \,\mathbf   { V }  
+n + \nu   , \,\left ( \mathbf   { V }   ^ { - 1 } + \sum   _ { i = 1 } ^ { n } ( \mathbf   { x _ { i } }   - { \boldsymbol   { \mu   } } ) ( \mathbf   { x _ { i } }   - { \boldsymbol   { \mu   } } ) ^ { T } \right ) ^ { - 1 }
+\nu  
+\mathbf   { V }   ^ { - 1 }
+{ \displaystyle   t _ { \nu   ' - p + 1 } \left ( { \tilde   { \mathbf   { x }   } } \mid   { \boldsymbol   { \mu   } } , { \frac   { 1 } { \nu   ' - p + 1 } } { \mathbf   { V }   ' } ^ { - 1 } \right ) }
+{ \boldsymbol   { \mu   } } _ { 0 } , \,\kappa   _ { 0 } , \,\nu   _ { 0 } , \,{ \boldsymbol   { \Psi   } }
+{ \frac   { \kappa   _ { 0 } { \boldsymbol   { \mu   } } _ { 0 } + n \mathbf   { \bar   { x } }   } { \kappa   _ { 0 } + n } } , \,\kappa   _ { 0 } + n , \,\nu   _ { 0 } + n , \ ,
+{ \boldsymbol   { \Psi   } } + \mathbf   { C }   + { \frac   { \kappa   _ { 0 } n } { \kappa   _ { 0 } + n } } ( \mathbf   { \bar   { x } }   - { \boldsymbol   { \mu   } } _ { 0 } ) ( \mathbf   { \bar   { x } }   - { \boldsymbol   { \mu   } } _ { 0 } ) ^ { T }
+\mathbf   { \bar   { x } }  
+\mathbf   { C }   = \sum   _ { i = 1 } ^ { n } ( \mathbf   { x _ { i } }   - \mathbf   { \bar   { x } }   ) ( \mathbf   { x _ { i } }   - \mathbf   { \bar   { x } }   ) ^ { T }
+\kappa   _ { 0 }
+{ \boldsymbol   { \mu   } } _ { 0 }
+\nu   _ { 0 }
+{ \boldsymbol   { \mu   } } _ { 0 }
+{ \boldsymbol   { \Psi   } } = \nu   _ { 0 } { \boldsymbol   { \Sigma   } } _ { 0 }
+t _ { { \nu   _ { 0 } } ' - p + 1 } \left ( { \tilde   { \mathbf   { x }   } } | { { \boldsymbol   { \mu   } } _ { 0 } } ' , { \frac   { { \kappa   _ { 0 } } ' + 1 } { { \kappa   _ { 0 } } ' ( { \nu   _ { 0 } } ' - p + 1 ) } } { \boldsymbol   { \Psi   } } ' \right )
+{ \boldsymbol   { \mu   } } _ { 0 } , \,\kappa   _ { 0 } , \,\nu   _ { 0 } , \,\mathbf   { V }  
+{ \frac   { \kappa   _ { 0 } { \boldsymbol   { \mu   } } _ { 0 } + n \mathbf   { \bar   { x } }   } { \kappa   _ { 0 } + n } } , \,\kappa   _ { 0 } + n , \,\nu   _ { 0 } + n , \ ,
+\left ( \mathbf   { V }   ^ { - 1 } + \mathbf   { C }   + { \frac   { \kappa   _ { 0 } n } { \kappa   _ { 0 } + n } } ( \mathbf   { \bar   { x } }   - { \boldsymbol   { \mu   } } _ { 0 } ) ( \mathbf   { \bar   { x } }   - { \boldsymbol   { \mu   } } _ { 0 } ) ^ { T } \right ) ^ { - 1 }
+\mathbf   { \bar   { x } }  
+\mathbf   { C }   = \sum   _ { i = 1 } ^ { n } ( \mathbf   { x _ { i } }   - \mathbf   { \bar   { x } }   ) ( \mathbf   { x _ { i } }   - \mathbf   { \bar   { x } }   ) ^ { T }
+\kappa   _ { 0 }
+{ \boldsymbol   { \mu   } } _ { 0 }
+\nu   _ { 0 }
+{ \boldsymbol   { \mu   } } _ { 0 }
+\mathbf   { V }   ^ { - 1 }
+{ \displaystyle   t _ { { \nu   _ { 0 } } ' - p + 1 } \left ( { \tilde   { \mathbf   { x }   } } \mid   { { \boldsymbol   { \mu   } } _ { 0 } } ' , { \frac   { { \kappa   _ { 0 } } ' + 1 } { { \kappa   _ { 0 } } ' ( { \nu   _ { 0 } } ' - p + 1 ) } } { \mathbf   { V }   ' } ^ { - 1 } \right ) }
+U ( 0 , \theta   ) \ !
+x _ { m } , \,k \ !
+\max \{ \,x_ { 1 } , \ldots   , x _ { n } , x _ { \mathrm   { m }   } \},\,k + n \ !
+k
+x _ { m }
+\alpha   , \,\beta   \ !
+\alpha   + n , \,\beta   + \sum   _ { i = 1 } ^ { n } \ln   { \frac   { x _ { i } } { x _ { \mathrm   { m }   } } } \ !
+\alpha  
+\beta  
+x _ { m }
+a , b \ !
+a + n , \,b + \sum   _ { i = 1 } ^ { n } x _ { i } ^ { \beta   } \ !
+a
+b
+\mu   _ { 0 } , \,\tau   _ { 0 } \ !
+\left . \left ( \tau   _ { 0 } \mu   _ { 0 } + \tau   \sum   _ { i = 1 } ^ { n } \ln   x _ { i } \right ) \right / ( \tau   _ { 0 } + n \tau   ) , \,\tau   _ { 0 } + n \tau  
+\tau   _ { 0 }
+\mu   _ { 0 }
+\alpha   , \,\beta   \ !
+\alpha   + { \frac   { n } { 2 } } , \,\beta   + { \frac   { \sum   _ { i = 1 } ^ { n } ( \ln   x _ { i } - \mu   ) ^ { 2 } } { 2 } } \ !
+2 \alpha  
+{ \frac   { \beta   } { \alpha   } }
+2 \beta  
+\alpha   , \,\beta   \ !
+\alpha   + n , \,\beta   + \sum   _ { i = 1 } ^ { n } x _ { i } \ !
+\alpha   - 1
+\beta  
+{ \displaystyle   \operatorname   { L o m a x }   ( { \tilde   { x } } \mid   \beta   ' , \alpha   ' ) }
+\alpha   _ { 0 } , \,\beta   _ { 0 } \ !
+\alpha   _ { 0 } + n \alpha   , \,\beta   _ { 0 } + \sum   _ { i = 1 } ^ { n } x _ { i } \ !
+{ \displaystyle   \alpha   _ { 0 } / \alpha   }
+\beta   _ { 0 }
+{ \displaystyle   \operatorname   { C G }   ( { \tilde   { \mathbf   { x }   } } \mid   \alpha   , { \alpha   _ { 0 } } ' , { \beta   _ { 0 } } ' ) = \operatorname   { \beta   ' }   ( { \tilde   { \mathbf   { x }   } } | \alpha   , { \alpha   _ { 0 } } ' , 1 , { \beta   _ { 0 } } ' ) }
+\alpha   _ { 0 } , \,\beta   _ { 0 } \ !
+\alpha   _ { 0 } + n \alpha   , \,\beta   _ { 0 } + \sum   _ { i = 1 } ^ { n } { \frac   { 1 } { x _ { i } } } \ !
+{ \displaystyle   \alpha   _ { 0 } / \alpha   }
+\beta   _ { 0 }
+\propto   { \frac   { a ^ { \alpha   - 1 } \beta   ^ { \alpha   c } } { \Gamma   ( \alpha   ) ^ { b } } }
+a , \,b , \,c \ !
+a \prod   _ { i = 1 } ^ { n } x _ { i } , \,b + n , \,c + n \ !
+b
+c
+b
+\alpha  
+c
+\beta  
+a
+\propto   { \frac   { p ^ { \alpha   - 1 } e ^ { - \beta   q } } { \Gamma   ( \alpha   ) ^ { r } \beta   ^ { - \alpha   s } } }
+p , \,q , \,r , \,s \ !
+p \prod   _ { i = 1 } ^ { n } x _ { i } , \,q + \sum   _ { i = 1 } ^ { n } x _ { i } , \,r + n , \,s + n \ !
+\alpha  
+r
+p
+\beta  
+s
+q
+{ \frac   { \alpha   - 1 } { \alpha   + \beta   - 2 } } ,
+\alpha   - 1
+\beta   - 1
+{ \frac   { \alpha   } { \alpha   + \beta   } } ,
+\alpha  
+\beta  
+\alpha   - 1
+\beta   - 1
+{ \rm   { B e t a } } ( 1 , 1 )
+\alpha  
+\beta  
+{ \tilde   { x } }
+{ \tilde   { x } }
+{ \mathcal   { N } }
+t _ { n }
+\beta  
+\operatorname   { C G }   ( )
+\operatorname   { \beta   ' }   ( )

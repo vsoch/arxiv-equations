@@ -1,0 +1,25 @@
+X
+T
+E
+X
+{ \displaystyle   { \rho   _ { X T } ^ { 2 } } }
+{ \displaystyle   { \sigma   _ { T } ^ { 2 } } }
+{ \displaystyle   { \sigma   _ { X } ^ { 2 } } }
+{ \displaystyle   \rho   _ { X T } ^ { 2 } = { \frac   { \sigma   _ { T } ^ { 2 } } { \sigma   _ { X } ^ { 2 } } } }
+{ \displaystyle   \rho   _ { X T } ^ { 2 } = { \frac   { \sigma   _ { T } ^ { 2 } } { \sigma   _ { X } ^ { 2 } } } = { \frac   { \sigma   _ { T } ^ { 2 } } { \sigma   _ { T } ^ { 2 } + \sigma   _ { E } ^ { 2 } } } }
+{ \displaystyle   \varepsilon   ( X _ { i } ) = \varepsilon   ( X ' _ { i } ) }
+{ \displaystyle   \sigma   _ { E _ { i } } ^ { 2 } = \sigma   _ { E ' _ { i } } ^ { 2 } }
+{ \displaystyle   \rho   _ { X X ' } = { \frac   { \sigma   _ { X X ' } } { \sigma   _ { X } \sigma   _ { X ' } } } = { \frac   { \sigma   _ { T } ^ { 2 } } { \sigma   _ { X } ^ { 2 } } } = \rho   _ { X T } ^ { 2 } }
+{ \alpha   }
+k
+u _ { { j } }
+j = 1 , \ldots   , k
+i
+{ \displaystyle   X _ { i } = \sum   _ { j = 1 } ^ { k } U _ { i j } }
+{ \displaystyle   \alpha   = { \frac   { k } { k - 1 } } \left ( 1 - { \frac   { \sum   _ { j = 1 } ^ { k } \sigma   _ { U _ { j } } ^ { 2 } } { \sigma   _ { X } ^ { 2 } } } \right ) }
+{ \alpha   }
+{ \alpha   }
+{ \alpha   }
+{ \alpha   }
+{ \alpha   }
+{ \alpha   }

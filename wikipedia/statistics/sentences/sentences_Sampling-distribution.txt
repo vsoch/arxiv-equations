@@ -1,0 +1,27 @@
+n
+\mu  
+\sigma   ^ { 2 }
+\scriptstyle   { \bar     x }
+\scriptstyle   { \mathcal     { N } } ( \mu   , \,\sigma   ^ { 2 } / n )
+\sigma   _ { { { \bar     x } } } = { \frac     { \sigma   } { { \sqrt     { n } } } }
+\sigma  
+n
+{ \mathcal   { N } } ( \mu   , \sigma   ^ { 2 } )
+{ \bar   { X } }
+{ \bar     X } \sim   { \mathcal     { N } } { \Big   ( } \mu   , \,{ \frac     { \sigma   ^ { 2 } } { n } } { \Big   ) }
+{ \displaystyle   { \bar   { X } } \sim   { \mathcal   { T } } { \Big   ( } \mu   , \,{ \frac   { S ^ { 2 } } { n } } { \Big   ) } }
+S
+{ \mathcal   { T } }
+\operatorname   { B e r n o u l l i } ( p )
+{ \bar   { X } }
+n { \bar     X } \sim   \operatorname   { B i n o m i a l } ( n , p )
+{ \mathcal     { N } } ( \mu   _ { 1 } , \sigma   _ { 1 } ^ { 2 } )
+{ \mathcal     { N } } ( \mu   _ { 2 } , \sigma   _ { 2 } ^ { 2 } )
+{ \bar     X } _ { 1 } - { \bar     X } _ { 2 }
+{ \bar     X } _ { 1 } - { \bar     X } _ { 2 } \sim   { \mathcal     { N } } \!\left ( \mu   _ { 1 } - \mu   _ { 2 } , \,{ \frac     { \sigma   _ { 1 } ^ { 2 } } { n _ { 1 } } } + { \frac     { \sigma   _ { 2 } ^ { 2 } } { n _ { 2 } } } \right )
+X _ { { ( k ) } }
+X _ { { ( 1 ) } }
+X _ { { ( n ) } }
+f _ { { X _ { { ( k ) } } } } ( x ) = { \frac     { ( 2 k - 1 ) ! } { ( k - 1 ) ! ^ { 2 } } } f ( x ) { \Big   ( } F ( x ) ( 1 - F ( x ) ) { \Big   ) } ^ { { k - 1 } }
+M = \max   \ X_ { k }
+F _ { M } ( x ) = P ( M \leq   x ) = \prod   P ( X _ { k } \leq   x ) = \left ( F ( x ) \right ) ^ { n }

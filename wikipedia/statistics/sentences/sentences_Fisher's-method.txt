@@ -1,0 +1,5 @@
+X _ { { 2 k } } ^ { 2 } \sim   - 2 \sum   _ { { i = 1 } } ^ { k } \ln ( p _ { i } ) ,
+\alpha   ( k + 1 ) / ( 2 k )
+\alpha  
+Z \sim   { \frac     { \sum   _ { { i = 1 } } ^ { k } Z _ { i } } { { \sqrt     { k } } } } ,
+Z \sim   { \frac     { \sum   _ { { i = 1 } } ^ { k } w _ { i } Z _ { i } } { { \sqrt     { \sum   _ { { i = 1 } } ^ { k } w _ { i } ^ { 2 } } } } } ,

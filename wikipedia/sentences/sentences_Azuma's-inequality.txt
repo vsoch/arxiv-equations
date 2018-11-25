@@ -1,9 +1,0 @@
-| X _ k   -   X _ { k - 1 } |   <   c _ k ,   \ ,  
-P ( X _ N   -   X _ 0   \geq   t )   \leq   \exp \left   ( { - t ^ 2   \over   2   \sum_ { k = 1 } ^ N   c _ k ^ 2 }   \right ) .  
-P ( X _ N   -   X _ 0   \leq   - t )   \leq   \exp \left   ( { - t ^ 2   \over   2   \sum_ { k = 1 } ^ N   c _ k ^ 2 }   \right ) .  
-P ( | X _ N   -   X _ 0 |   \geq   t )   \leq   2 \exp \left   ( { - t ^ 2   \over   2   \sum_ { k = 1 } ^ N   c _ k ^ 2 }   \right ) .  
-X _ i   =   \sum_ { j = 1 } ^ i   F _ j
-{ \displaystyle   \Pr [ X _ { n } > t ] \leq   \exp   \left ( { \frac   { - t ^ { 2 } } { 2 n } } \right ) . }
-{ \displaystyle   t = { \sqrt   { 2 n \ln   n } } }
-{ \displaystyle   \Pr [ X _ { n } > { \sqrt   { 2 n \ln   n } } ] \leq   1 / n , }
-{ \displaystyle   { \sqrt   { 2 n \ln   n } } }

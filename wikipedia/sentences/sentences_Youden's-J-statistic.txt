@@ -1,2 +1,0 @@
-{ \displaystyle   J = { \text { s e n s i t i v i t y } } + { \text { s p e c i f i c i t y } } - 1 }
-{ \displaystyle   J = { \frac   { \text { t r u e   p o s i t i v e s } } { { \text { t r u e   p o s i t i v e s } } + { \text { f a l s e   n e g a t i v e s } } } } + { \frac   { \text { t r u e   n e g a t i v e s } } { { \text { t r u e   n e g a t i v e s } } + { \text { f a l s e   p o s i t i v e s } } } } - 1 }

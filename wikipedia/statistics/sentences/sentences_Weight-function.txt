@@ -1,0 +1,45 @@
+\scriptstyle   w \colon   A \to   { { \mathbb     R } } ^ { + }
+A
+w ( a ) : = 1
+\scriptstyle   f \colon   A \to   { { \mathbb     R } }
+f
+A
+\sum   _ { { a \in   A } } f ( a ) ;
+\scriptstyle   w \colon   A \to   { { \mathbb     R } } ^ { + }
+\sum   _ { { a \in   A } } f ( a ) w ( a ) .
+\sum   _ { { a \in   B } } w ( a ) .
+{ \frac     { 1 } { | A | } } \sum   _ { { a \in   A } } f ( a )
+{ \frac     { \sum   _ { { a \in   A } } f ( a ) w ( a ) } { \sum   _ { { a \in   A } } w ( a ) } } .
+f
+f _ { i }
+\scriptstyle   \sigma   _ { i } ^ { 2 }
+\scriptstyle   w _ { i } = { \frac     1 { \sigma   _ { i } ^ { 2 } } }
+\scriptstyle   \sigma   ^ { 2 } = 1 / \sum   w _ { i }
+w _ { i }
+n
+{ \displaystyle   \scriptstyle   w _ { 1 } , \ldots   , w _ { n } }
+\scriptstyle   { \boldsymbol     { x } } _ { 1 } , \dotsc   , { \boldsymbol     { x } } _ { n }
+{ \frac     { \sum   _ { { i = 1 } } ^ { n } w _ { i } { \boldsymbol     { x } } _ { i } } { \sum   _ { { i = 1 } } ^ { n } w _ { i } } } ,
+\scriptstyle   { \boldsymbol     { x } } _ { i }
+{ \displaystyle   w ( x ) \,dx }
+\Omega  
+\scriptstyle   { { \mathbb     R } } ^ { n }
+\Omega  
+[ a , b ]
+d x
+\scriptstyle   w \colon   \Omega   \to   \mathbb { R }   ^ { + }
+w ( x )
+f \colon   \Omega   \to   { { \mathbb     R } }
+\int   _ { \Omega   } f ( x ) \ dx
+\int   _ { \Omega   } f ( x ) w ( x ) \,dx
+f
+{ \displaystyle   w ( x ) \,dx }
+\Omega  
+\int   _ { E } w ( x ) \ dx ,
+\Omega  
+{ \frac     { 1 } { { \mathrm     { v o l } } ( \Omega   ) } } \int   _ { \Omega   } f ( x ) \ dx
+{ \frac     { \int   _ { \Omega   } f ( x ) \ w ( x ) d x } { \int   _ { \Omega   } w ( x ) \ dx } }
+{ \displaystyle   f \colon   \Omega   \to   { \mathbb   { R } } }
+{ \displaystyle   g \colon   \Omega   \to   { \mathbb   { R } } }
+\langle   f , g \rangle   : = \int   _ { \Omega   } f ( x ) g ( x ) \ dx
+\langle   f , g \rangle   : = \int   _ { \Omega   } f ( x ) g ( x ) \ w ( x ) \ dx .

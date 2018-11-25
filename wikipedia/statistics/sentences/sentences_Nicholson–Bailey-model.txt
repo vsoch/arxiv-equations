@@ -1,0 +1,6 @@
+{ \displaystyle   { \begin { a r r a y } { r c l } H _ { t + 1 } & = & k H _ { t } e ^ { - a P _ { t } } \\P_ { t + 1 } & = & c H _ { t } \left ( 1 - e ^ { - a P _ { t } } \right ) \end { a r r a y } } }
+{ \displaystyle   e ^ { - a P _ { t } } }
+{ \displaystyle   P _ { t } }
+{ \displaystyle   1 - e ^ { - a P _ { t } } }
+{ \displaystyle   { \begin { a r r a y } { r c l } H _ { t + 1 } & = & H _ { t } e ^ { r ( 1 - H _ { t } / K ) } e ^ { - a P _ { t } } \\P_ { t + 1 } & = & c H _ { t } \left ( 1 - e ^ { - a P _ { t } } \right ) \end { a r r a y } } }
+{ \displaystyle   { \begin { a r r a y } { r c l } H ^ { \star   } & = & { \frac   { k \,{ \text { l n } } ( k ) } { ( k - 1 ) \,ac } } \\P ^ { \star   } & = & { \frac   { { \text { l n } } ( k ) } { a } } \end { a r r a y } } }

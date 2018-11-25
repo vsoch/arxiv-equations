@@ -1,0 +1,51 @@
+X _ { 1 } , \dots   , X _ { n } . \ ,
+{ \begin { p m a t r i x } X _ { 1 } \\\vdots   \\X_ { n } \end { p m a t r i x } } .
+{ \bar   { X } }
+{ \begin { p m a t r i x } X _ { 1 } \\\vdots   \\X_ { n } \end { p m a t r i x } } = { \bar   { X } } { \begin { p m a t r i x } 1 \\\vdots   \\1 \end { p m a t r i x } } + { \begin { p m a t r i x } X _ { 1 } - { \bar   { X } } \\\vdots   \\X_ { n } - { \bar   { X } } \end { p m a t r i x } } .
+{ \bar   { X } }
+\sum   _ { i = 1 } ^ { n } ( X _ { i } - { \bar   { X } } ) = 0
+\sum   _ { i = 1 } ^ { n } ( X _ { i } - { \bar   { X } } ) ^ { 2 } = { \begin { V m a t r i x } X _ { 1 } - { \bar   { X } } \\\vdots   \\X_ { n } - { \bar   { X } } \end { V m a t r i x } } ^ { 2 } .
+X _ { i }
+\sigma   ^ { 2 }
+\sigma   ^ { 2 }
+{ \frac   { { \sqrt   { n } } ( { \bar   { X } } - \mu   _ { 0 } ) } { \sqrt   { \sum   \limits   _ { i = 1 } ^ { n } ( X _ { i } - { \bar   { X } } ) ^ { 2 } / ( n - 1 ) } } }
+\mu   _ { 0 }
+X _ { 1 } , \dots   , X _ { n }
+{ \overline   { X } } _ { n } = { X _ { 1 } + \cdots   + X _ { n }   \over   n }
+X _ { i } - { \overline   { X } } _ { n } \ ,
+Y _ { i } = a + b x _ { i } + e _ { i } { \text {   f o r   } } i = 1 , \dots   , n
+{ \widehat   { a } }
+{ \widehat   { b } }
+{ \displaystyle   { \widehat   { e } } _ { i } = y _ { i } - ( { \widehat   { a } } + { \widehat   { b } } x _ { i } ) \ , }
+{ \displaystyle   { \widehat   { e } } _ { 1 } + \cdots   + { \widehat   { e } } _ { n } = 0 , \ , }
+{ \displaystyle   x _ { 1 } { \widehat   { e } } _ { 1 } + \cdots   + x _ { n } { \widehat   { e } } _ { n } = 0 . \ , }
+X _ { 1 } , \ldots   , X _ { n }
+Y _ { 1 } , \ldots   , Y _ { n }
+Z _ { 1 } , \ldots   , Z _ { n }
+{ \begin { a l i g n e d } X _ { i } & = { \bar   { M } } + ( { \bar   { X } } - { \bar   { M } } ) + ( X _ { i } - { \bar   { X } } ) \\Y_ { i } & = { \bar   { M } } + ( { \bar   { Y } } - { \bar   { M } } ) + ( Y _ { i } - { \bar   { Y } } ) \\Z_ { i } & = { \bar   { M } } + ( { \bar   { Z } } - { \bar   { M } } ) + ( Z _ { i } - { \bar   { Z } } ) \end { a l i g n e d } }
+{ \bar   { X } } , { \bar   { Y } } , { \bar   { Z } }
+{ \bar   { M } } = ( { \bar   { X } } + { \bar   { Y } } + { \bar   { Z } } ) / 3
+{ \begin { p m a t r i x } X _ { 1 } \\\vdots   \\X_ { n } \\Y_ { 1 } \\\vdots   \\Y_ { n } \\Z_ { 1 } \\\vdots   \\Z_ { n } \end { p m a t r i x } } = { \bar   { M } } { \begin { p m a t r i x } 1 \\\vdots   \\1 \\1 \\\vdots   \\1 \\1 \\\vdots   \\1 \end { p m a t r i x } } + { \begin { p m a t r i x } { \bar   { X } } - { \bar   { M } } \\\vdots   \\{ \bar   { X } } - { \bar   { M } } \\{ \bar   { Y } } - { \bar   { M } } \\\vdots   \\{ \bar   { Y } } - { \bar   { M } } \\{ \bar   { Z } } - { \bar   { M } } \\\vdots   \\{ \bar   { Z } } - { \bar   { M } } \end { p m a t r i x } } + { \begin { p m a t r i x } X _ { 1 } - { \bar   { X } } \\\vdots   \\X_ { n } - { \bar   { X } } \\Y_ { 1 } - { \bar   { Y } } \\\vdots   \\Y_ { n } - { \bar   { Y } } \\Z_ { 1 } - { \bar   { Z } } \\\vdots   \\Z_ { n } - { \bar   { Z } } \end { p m a t r i x } } .
+{ \bar   { X } } - { \bar   { M } }
+{ \bar   { Y } } - { \bar   { M } }
+{ \overline   { Z } } - { \overline   { M } }
+{ \displaystyle   { \text { S S T } } = n ( { \bar   { X } } - { \bar   { M } } ) ^ { 2 } + n ( { \bar   { Y } } - { \bar   { M } } ) ^ { 2 } + n ( { \bar   { Z } } - { \bar   { M } } ) ^ { 2 } }
+{ \text { S S E } } = \sum   _ { i = 1 } ^ { n } ( X _ { i } - { \bar   { X } } ) ^ { 2 } + \sum   _ { i = 1 } ^ { n } ( Y _ { i } - { \bar   { Y } } ) ^ { 2 } + \sum   _ { i = 1 } ^ { n } ( Z _ { i } - { \bar   { Z } } ) ^ { 2 }
+X _ { i } ; i = 1 , \ldots   , n
+( \mu   , \sigma   ^ { 2 } )
+{ \frac   { \sum   \limits   _ { i = 1 } ^ { n } ( X _ { i } - { \bar   { X } } ) ^ { 2 } } { \sigma   ^ { 2 } } }
+\{ X _ { i } - { \bar   { X } } \ }
+{ \hat   { y } } = H y , \ ,
+{ \hat   { y } }
+{ \displaystyle   \|Hy \|^ { 2 } }
+{ \displaystyle   \|y - H y \|^ { 2 } }
+{ \displaystyle   \operatorname   { t r }   ( H ) = \sum   _ { i } h _ { i i } = \sum   _ { i } { \frac   { \partial   { \hat   { y } } _ { i } } { \partial   y _ { i } } } , }
+H
+\chi   ^ { 2 }
+{ \hat   { r } } = y - H y
+{ \hat   { \sigma   } } ^ { 2 } = { \frac   { \|{ \hat   { r } } \|^ { 2 } } { { \hbox { t r } } \left ( ( I - H ) ' ( I - H ) \right ) } } ,
+{ \displaystyle   { \hat   { \sigma   } } ^ { 2 } = { \frac   { \|{ \hat   { r } } \|^ { 2 } } { n - \operatorname   { t r }   ( 2 H - H H ' ) } } = { \frac   { \|{ \hat   { r } } \|^ { 2 } } { n - 2 \operatorname   { t r }   ( H ) + \operatorname   { t r }   ( H H ' ) } } }
+{ \displaystyle   { \hat   { \sigma   } } ^ { 2 } \approx   { \frac   { \|{ \hat   { r } } \|^ { 2 } } { n - 1 . 2 5 \operatorname   { t r }   ( H ) + 0 . 5 } } . }
+\|{ \hat   { r } } \|^ { 2 }
+{ \hat   { r } } ' \Sigma   ^ { - 1 } { \hat   { r } }
+{ \displaystyle   \|y - H y \|^ { 2 } }

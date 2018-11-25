@@ -1,0 +1,14 @@
+y _ { t } = a + w _ { 0 } x _ { t } + w _ { 1 } x _ { t - 1 } + w _ { 2 } x _ { t - 2 } + . . . + { \text { e r r o r   t e r m } }
+y _ { t } = a + w _ { 0 } x _ { t } + w _ { 1 } x _ { t - 1 } + w _ { 2 } x _ { t - 2 } + . . . + w _ { n } x _ { t - n } + { \text { e r r o r   t e r m } } ,
+p
+w _ { i } = \sum   _ { j = 0 } ^ { n } a _ { j } i ^ { j }
+i = 0 , \dots   , k .
+y _ { t } = a + \lambda   y _ { t - 1 } + b x _ { t } + { \text { e r r o r   t e r m } } ,
+0 \leq   \lambda   < 1
+b + \lambda   b + \lambda   ^ { 2 } b + . . . = b / ( 1 - \lambda   ) .
+w _ { i } = \sum   _ { j = 2 } ^ { n } { \frac   { a _ { j } } { ( i + 1 ) ^ { j } } } ,
+i = 0 , \dots   , \infty   .
+w _ { i } = \sum   _ { j = 2 } ^ { n } a _ { j } ( 1 / j ) ^ { i } ,
+i = 0 , \dots   , \infty  
+w _ { i } = \sum   _ { j = 1 } ^ { n } a _ { j } [ j / ( n + 1 ) ] ^ { i } ,
+i = 0 , \dots   , \infty   .

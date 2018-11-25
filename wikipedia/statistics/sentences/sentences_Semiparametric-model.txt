@@ -1,0 +1,25 @@
+\{ P _ { \theta   } : \theta   \in   \Theta   \ }
+\theta  
+k
+k
+\theta  
+\mathbb   { R }   ^ { k }
+\Theta   \subset   { \mathbb     { R } } ^ { k }
+\theta  
+\theta  
+\Theta   \subset   { \mathbb     { F } }
+\mathbb   { F }  
+\Theta  
+\Theta   \subset   { \mathbb     { R } } ^ { k } \times   { \mathbb     { F } }
+\mathbb   { F }  
+\theta  
+T
+T
+F ( t ) = 1 - \exp   \left ( - \int   _ { 0 } ^ { t } \lambda   _ { 0 } ( u ) e ^ { { \beta   ' x } } d u \right ) ,
+x
+\beta  
+\lambda   _ { 0 } ( u )
+\theta   = ( \beta   , \lambda   _ { 0 } ( u ) )
+\beta  
+\lambda   _ { 0 } ( u )
+\lambda   _ { 0 } ( u )

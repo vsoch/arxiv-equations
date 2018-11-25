@@ -1,8 +1,0 @@
-  f _ X  
-\theta  
-f _ { X } ( \cdot   \,;\theta   )
-\theta  
-\theta  
-\{ f _ { X } ( \cdot   \,;\theta   ) \mid   \theta   \in   \Theta   \ }
-  \Theta
-\theta  

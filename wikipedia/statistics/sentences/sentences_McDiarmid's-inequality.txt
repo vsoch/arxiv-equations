@@ -1,0 +1,24 @@
+{ \vec     { X } } = X _ { 1 } , X _ { 2 } , . . . , X _ { n }
+A
+f : A ^ { n } \to   { \mathbb     { R } }
+{ \displaystyle   B _ { i } = E [ f ( { \vec   { X } } ) | X _ { 1 } , X _ { 2 } , . . . X _ { i } ] }
+X _ { { i + 1 } } , X _ { { i + 2 } } , . . . , X _ { { n } } ,
+X _ { { 1 } } , X _ { { 2 } } , . . . X _ { { i } }
+B _ { i }
+X _ { i }
+{ B _ { i } }
+| B _ { { i + 1 } } - B _ { i } |
+f ( { \vec     { X } } )
+E [ f ( { \vec     { X } } ) ] = B _ { 0 } .
+X _ { 1 } , X _ { 2 } , \dots   , X _ { n }
+f
+\sup   _ { { x _ { 1 } , x _ { 2 } , \dots   , x _ { n } , { \hat     x } _ { i } } } | f ( x _ { 1 } , x _ { 2 } , \dots   , x _ { n } ) - f ( x _ { 1 } , x _ { 2 } , \dots   , x _ { { i - 1 } } , { \hat     x } _ { i } , x _ { { i + 1 } } , \dots   , x _ { n } ) | \leq   c _ { i } \qquad   { \text { f o r } } \quad   1 \leq   i \leq   n \ ; .
+i
+x _ { i }
+f
+c _ { i }
+| B _ { { i + 1 } } - B _ { i } | \leq   c _ { i }
+\varepsilon   > 0
+\Pr   \left \{ f ( X _ { 1 } , X _ { 2 } , \dots   , X _ { n } ) - E [ f ( X _ { 1 } , X _ { 2 } , \dots   , X _ { n } ) ] \geq   \varepsilon   \right \}\leq   \exp   \left ( - { \frac     { 2 \varepsilon   ^ { 2 } } { \sum   _ { { i = 1 } } ^ { n } c _ { i } ^ { 2 } } } \right )
+\Pr   \left \{ E [ f ( X _ { 1 } , X _ { 2 } , \dots   , X _ { n } ) ] - f ( X _ { 1 } , X _ { 2 } , \dots   , X _ { n } ) \geq   \varepsilon   \right \}\leq   \exp   \left ( - { \frac     { 2 \varepsilon   ^ { 2 } } { \sum   _ { { i = 1 } } ^ { n } c _ { i } ^ { 2 } } } \right )
+\Pr   \left \{ | E [ f ( X _ { 1 } , X _ { 2 } , \dots   , X _ { n } ) ] - f ( X _ { 1 } , X _ { 2 } , \dots   , X _ { n } ) | \geq   \varepsilon   \right \}\leq   2 \exp   \left ( - { \frac     { 2 \varepsilon   ^ { 2 } } { \sum   _ { { i = 1 } } ^ { n } c _ { i } ^ { 2 } } } \right ) . \ ;

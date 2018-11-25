@@ -1,0 +1,2 @@
+E ( Y )   =   f ( x )
+E ( Y )   =   \alpha   +   \beta   x .

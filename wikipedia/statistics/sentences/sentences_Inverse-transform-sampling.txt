@@ -1,0 +1,69 @@
+u
+x
+P ( X )
+{ \displaystyle   P ( - \infty   < X < x ) \leq   u }
+P ( X )
+u
+{ \displaystyle   F ^ { - 1 } ( u ) }
+X
+F _ { X }
+Y = F _ { X } ( X )
+Y
+X
+F _ { X }
+F _ { X } ^ { { - 1 } } ( Y )
+X
+x
+F ( x )
+{ \displaystyle   U \sim   \mathrm   { U n i f }   [ 0 , 1 ] }
+X
+{ \displaystyle   F _ { X } ( x ) . }
+F _ X ( x )
+{ \displaystyle   T : [ 0 , 1 ] \mapsto   \mathbb   { R }   }
+{ \displaystyle   T ( U ) { \overset   { d } { = } } X }
+{ \displaystyle   F _ { X } ( x ) = \Pr ( X \leq   x ) = \Pr ( T ( U ) \leq   x ) = \Pr ( U \leq   T ^ { - 1 } ( x ) ) = T ^ { - 1 } ( x ) , { \text {   f o r   } } x \in   \mathbb   { R }   . }
+F _ { X }
+T
+{ \displaystyle   T ( u ) = F _ { X } ^ { - 1 } ( u ) , u \in   [ 0 , 1 ] . }
+X
+{ \displaystyle   F _ { X } ^ { - 1 } ( U ) . }
+X
+F _ { X }
+X
+u
+[ 0 , 1 ]
+{ \displaystyle   U \sim   \mathrm   { U n i f }   [ 0 , 1 ] . }
+{ \displaystyle   F _ { X } ^ { - 1 } ( x ) }
+{ \displaystyle   X = F _ { X } ^ { - 1 } ( u ) }
+X
+F _ X ( x )
+U
+[ 0 , 1 ]
+F _ { X }
+{ \displaystyle   X = F _ { X } ^ { - 1 } ( U ) }
+F _ { X }
+X
+F _ { X }
+{ \displaystyle   U \sim   \mathrm   { U n i f }   ( 0 , 1 ) }
+{ \displaystyle   { \begin { a l i g n e d } F ( x ) = 1 - \exp ( - { \sqrt   { x } } ) \end { a l i g n e d } } }
+{ \displaystyle   F ( F ^ { - 1 } ( u ) ) = u }
+{ \displaystyle   { \begin { a l i g n e d } F ( F ^ { - 1 } ( u ) ) & = u \\1 - \exp   \left ( - { \sqrt   { F ^ { - 1 } ( u ) } } \right ) & = u \\F ^ { - 1 } ( u ) & = ( - \log ( 1 - u ) ) ^ { 2 } \\&=( \log ( 1 - u ) ) ^ { 2 } \end { a l i g n e d } } }
+{ \displaystyle   F _ { X } ( x ) = 1 - e ^ { - \lambda   x } }
+{ \displaystyle   x = F ^ { - 1 } ( y ) = - { \frac   { 1 } { \lambda   } } \ln ( 1 - y ) . }
+y _ { 0 }
+{ \displaystyle   U \sim   U n i f ( 0 , 1 ) }
+{ \displaystyle   x _ { 0 } = F _ { X } ^ { - 1 } ( y _ { 0 } ) = - { \frac   { 1 } { \lambda   } } \ln ( 1 - y _ { 0 } ) , }
+x _ { 0 }
+{ \displaystyle   \varrho   _ { X } ( x ) = \lambda   e ^ { - \lambda   \,x } }
+{ \displaystyle   F ( x ) = 1 - e ^ { - \lambda   \,x } }
+{ \displaystyle   x = F ^ { - 1 } ( y ) = - { \frac   { \ln ( 1 - y ) } { \lambda   } } }
+{ \displaystyle   x = F ^ { - 1 } ( y ) = - { \frac   { 1 } { \lambda   } } \ln ( y ) . }
+F ^ { { - 1 } } ( u ) = \inf   \;\{ x \mid   F ( x ) \geq   u \}\qquad   ( 0 < u < 1 ) .
+F ^ { { - 1 } } ( U )
+{ \displaystyle   { \begin { a l i g n e d } & \Pr ( F ^ { - 1 } ( U ) \leq   x ) \\&{ } = \Pr ( U \leq   F ( x ) ) \quad   & ( { \text { a p p l y i n g   } } F , { \text {   t o   b o t h   s i d e s } } ) \\&{ } = F ( x ) \quad   & ( { \text { b e c a u s e   } } \Pr ( U \leq   y ) = y , { \text {   w h e n   U   i s   u n i f o r m   o n } } ( 0 , 1 ) ) \\\end { a l i g n e d } } }
+( a , b ]
+u
+u
+{ \displaystyle   F ( a ) }
+F ( b )
+{ \displaystyle   F ^ { - 1 } ( u ) }

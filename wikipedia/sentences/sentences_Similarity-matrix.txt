@@ -1,7 +1,0 @@
-{ \displaystyle   s ( x , y ) = - \|x - y \|_ { 2 } ^ { 2 } }
-{ \displaystyle   \|x - y \|_ { 2 } ^ { 2 } }
-{ \displaystyle   ( n , n ) }
-( i , j )
-i
-j
-{ \displaystyle   e ^ { - \|s_ { 1 } - s _ { 2 } \|^ { 2 } / 2 \sigma   ^ { 2 } } }

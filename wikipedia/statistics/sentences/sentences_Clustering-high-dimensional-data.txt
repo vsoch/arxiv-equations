@@ -1,0 +1,16 @@
+\lim   _ { { d \to   \infty   } } { \frac     { d i s t _ { \max   } - d i s t _ { \min   } } { d i s t _ { \min   } } } = 0
+c _ { a }
+\{ x \ }
+c _ { b }
+c _ { c }
+c _ { d }
+\{ y \ }
+c _ { c }
+x
+c _ { { a b } }
+c _ { { a d } }
+2 ^ { d }
+d
+c _ { c }
+x
+y

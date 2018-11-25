@@ -1,6 +1,0 @@
-J ( { \mathbf     { x } } ) = ( { \mathbf     { x } } - { \mathbf     { x } } _ { { b } } ) ^ { { { \mathrm     { T } } } } { \mathbf     { B } } ^ { { - 1 } } ( { \mathbf     { x } } - { \mathbf     { x } } _ { { b } } ) + ( { \mathbf     { y } } - { \mathit     { H } } [ { \mathbf     { x } } ] ) ^ { { { \mathrm     { T } } } } { \mathbf     { R } } ^ { { - 1 } } ( { \mathbf     { y } } - { \mathit     { H } } [ { \mathbf     { x } } ] ) ,
-\mathbf   { B }  
-\mathbf   { R }  
-\nabla   J ( { \mathbf     { x } } ) = 2 { \mathbf     { B } } ^ { { - 1 } } ( { \mathbf     { x } } - { \mathbf     { x } } _ { { b } } ) - 2 { \mathit     { H } } ^ { T } { \mathbf     { R } } ^ { { - 1 } } ( { \mathbf     { y } } - { \mathit     { H } } [ { \mathbf     { x } } ] )
-J ( { \mathbf     { x } } ) = ( { \mathbf     { x } } - { \mathbf     { x } } _ { { b } } ) ^ { { { \mathrm     { T } } } } { \mathbf     { B } } ^ { { - 1 } } ( { \mathbf     { x } } - { \mathbf     { x } } _ { { b } } ) + \sum   _ { { i = 0 } } ^ { { n } } ( { \mathbf     { y } } _ { { i } } - { \mathit     { H } } _ { { i } } [ { \mathbf     { x } } _ { { i } } ] ) ^ { { { \mathrm     { T } } } } { \mathbf     { R } } _ { { i } } ^ { { - 1 } } ( { \mathbf     { y } } _ { { i } } - { \mathit     { H } } _ { { i } } [ { \mathbf     { x } } _ { { i } } ] )
-{ \mathit     { H } }

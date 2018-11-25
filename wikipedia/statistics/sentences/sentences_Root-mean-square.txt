@@ -1,0 +1,52 @@
+\{ x _ { 1 } , x _ { 2 } , \dots   , x _ { n } \ }
+x _ { \mathrm   { r m s }   } = { \sqrt   { { \frac   { 1 } { n } } \left ( x _ { 1 } ^ { 2 } + x _ { 2 } ^ { 2 } + \cdots   + x _ { n } ^ { 2 } \right ) } } .
+T _ { 1 } \leq   t \leq   T _ { 2 }
+f _ { \mathrm   { r m s }   } = { \sqrt   { { 1   \over   { T _ { 2 } - T _ { 1 } } } { \int   _ { T _ { 1 } } ^ { T _ { 2 } } { [ f ( t ) ] } ^ { 2 } \,dt } } } ,
+f _ { \mathrm   { r m s }   } = \lim   _ { T \rightarrow   \infty   } { \sqrt   { { 1   \over   { T } } { \int   _ { 0 } ^ { T } { [ f ( t ) ] } ^ { 2 } \,dt } } } .
+\tau  
+{ \displaystyle   = 2 { \sqrt   { 2 } } \times   { R M S } \approx   2 . 8 \times   { R M S } . }
+{ \displaystyle   = 2 { \sqrt   { 3 } } \times   { R M S } \approx   3 . 5 \times   { R M S } . }
+{ \displaystyle   y = A _ { 0 } \ , }
+{ \displaystyle   A _ { 0 } \ , }
+{ \displaystyle   y = A _ { 1 } \sin ( 2 \pi   f t ) \ , }
+{ \displaystyle   { \frac   { A _ { 1 } } { \sqrt   { 2 } } } }
+{ \displaystyle   y = { \begin { c a s e s } A _ { 1 } & \operatorname   { f r a c }   ( f t ) < 0 . 5 \\-A_ { 1 } & \operatorname   { f r a c }   ( f t ) > 0 . 5 \end { c a s e s } } }
+{ \displaystyle   A _ { 1 } \ , }
+{ \displaystyle   y = A _ { 0 } + { \begin { c a s e s } A _ { 1 } & \operatorname   { f r a c }   ( f t ) < 0 . 5 \\-A_ { 1 } & \operatorname   { f r a c }   ( f t ) > 0 . 5 \end { c a s e s } } }
+{ \displaystyle   { \sqrt   { A _ { 0 } ^ { 2 } + A _ { 1 } ^ { 2 } } } \ , }
+{ \displaystyle   y = { \begin { c a s e s } 0 & \operatorname   { f r a c }   ( f t ) < 0 . 2 5 \\A_ { 1 } & 0 . 2 5 < \operatorname   { f r a c }   ( f t ) < 0 . 5 \\0 & 0 . 5 < \operatorname   { f r a c }   ( f t ) < 0 . 7 5 \\-A_ { 1 } & \operatorname   { f r a c }   ( f t ) > 0 . 7 5 \end { c a s e s } } }
+{ \displaystyle   { \frac   { A _ { 1 } } { \sqrt   { 2 } } } }
+{ \displaystyle   y = \left | 2 A _ { 1 } \operatorname   { f r a c }   ( f t ) - A _ { 1 } \right | }
+{ \displaystyle   A _ { 1 }   \over   { \sqrt   { 3 } } }
+{ \displaystyle   y = 2 A _ { 1 } \operatorname   { f r a c }   ( f t ) - A _ { 1 } \ , }
+{ \displaystyle   A _ { 1 }   \over   { \sqrt   { 3 } } }
+{ \displaystyle   y = { \begin { c a s e s } A _ { 1 } & \operatorname   { f r a c }   ( f t ) < D \\0 & \operatorname   { f r a c }   ( f t ) > D \end { c a s e s } } }
+{ \displaystyle   A _ { 1 } { \sqrt   { D } } }
+{ \displaystyle   y = A _ { 1 } \sin ( t ) - A _ { 1 } \sin   \left ( t - { \frac   { 2 \pi   } { 3 } } \right ) \ , }
+{ \displaystyle   A _ { 1 } { \sqrt   { \frac   { 3 } { 2 } } } }
+{ \displaystyle   R M S _ { \text { T o t a l } } = { \sqrt   { { R M S _ { 1 } } ^ { 2 } + { R M S _ { 2 } } ^ { 2 } + \cdots   + { R M S _ { n } } ^ { 2 } } } }
+{ \displaystyle   R M S _ { \text { T o t a l } } = { \sqrt   { { R M S _ { \text { D C } } } ^ { 2 } + { R M S _ { \text { A C } } } ^ { 2 } } } }
+{ \displaystyle   R M S _ { \text { D C } } }
+{ \displaystyle   R M S _ { \text { A C } } }
+P = I ^ { 2 } R .
+{ \displaystyle   P _ { \text { a v g } } \ , \ ! }
+{ \displaystyle   { } = \left \langle   I ( t ) ^ { 2 } R \right \rangle   \ , \ ! }
+\langle   \ldots   \rangle  
+{ \displaystyle   { } = R \left \langle   I ( t ) ^ { 2 } \right \rangle   \ , \ ! }
+{ \displaystyle   { } = I _ { \text { R M S } } ^ { 2 } R \ , \ ! }
+{ \displaystyle   P _ { \text { A v g } } = { V _ { \text { R M S } } ^ { 2 }   \over   R } . }
+{ \displaystyle   P _ { \text { A v g } } = V _ { \text { R M S } } I _ { \text { R M S } } . }
+{ \displaystyle   I _ { \text { R M S } } = { \sqrt   { { 1   \over   { T _ { 2 } - T _ { 1 } } } \int   _ { T _ { 1 } } ^ { T _ { 2 } } \left [ I _ { \text { p } } \sin ( \omega   t ) \right ] ^ { 2 } d t } } . \ , \ ! }
+{ \displaystyle   I _ { \text { R M S } } = I _ { \text { p } } { \sqrt   { { 1   \over   { T _ { 2 } - T _ { 1 } } } { \int   _ { T _ { 1 } } ^ { T _ { 2 } } { \sin   ^ { 2 } ( \omega   t ) } \,dt } } } . }
+{ \displaystyle   { \begin { a l i g n e d } I _ { \text { R M S } } & = I _ { \text { p } } { \sqrt   { { 1   \over   { T _ { 2 } - T _ { 1 } } } { \int   _ { T _ { 1 } } ^ { T _ { 2 } } { 1 - \cos ( 2 \omega   t )   \over   2 } \,dt } } } \\I_ { \text { R M S } } & = I _ { \text { p } } { \sqrt   { { 1   \over   { T _ { 2 } - T _ { 1 } } } \left [ { t   \over   2 } - { \sin ( 2 \omega   t )   \over   4 \omega   } \right ] _ { T _ { 1 } } ^ { T _ { 2 } } } } \end { a l i g n e d } } }
+{ \displaystyle   I _ { \text { R M S } } = I _ { \text { p } } { \sqrt   { { 1   \over   { T _ { 2 } - T _ { 1 } } } \left [ { t   \over   2 } \right ] _ { T _ { 1 } } ^ { T _ { 2 } } } } = I _ { \text { p } } { \sqrt   { { 1   \over   { T _ { 2 } - T _ { 1 } } } { { T _ { 2 } - T _ { 1 } }   \over   2 } } } = { I _ { \text { p } }   \over   { \sqrt   { 2 } } } . }
+{ \displaystyle   V _ { \text { R M S } } = { V _ { \text { p } }   \over   { \sqrt   { 2 } } } . }
+{ \displaystyle   { v _ { \text { R M S } } } = { \sqrt   { 3 R T   \over   { M } } } }
+x [ n ] = x ( t = n T )
+T
+{ \displaystyle   \sum   _ { n = 1 } ^ { N } { x ^ { 2 } [ n ] } = { \frac   { 1 } { N } } \sum   _ { m = 1 } ^ { N } { \bigl   | } X [ m ] { \bigr   | } ^ { 2 } }
+{ \displaystyle   X [ m ] = \operatorname   { F F T }   \{ x [ n ] \ } }
+{ \displaystyle   \mathrm   { R M S }   \{ x [ n ] \}={ \sqrt   { { \frac   { 1 } { N } } \sum   _ { n } { x ^ { 2 } [ n ] } } } = { \sqrt   { { \frac   { 1 } { N ^ { 2 } } } \sum   _ { m } { { \bigl   | } X [ m ] { \bigr   | } } ^ { 2 } } } = { \sqrt   { \sum   _ { m } { \left | { \frac   { X [ m ] } { N } } \right | ^ { 2 } } } } . }
+{ \bar   { x } }
+\sigma   _ { x }
+{ \displaystyle   x _ { \mathrm   { r m s }   } ^ { 2 } = { \overline   { x } } ^ { 2 } + \sigma   _ { x } ^ { 2 } = { \overline   { x ^ { 2 } } } . }

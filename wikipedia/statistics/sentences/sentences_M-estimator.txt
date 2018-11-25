@@ -1,0 +1,47 @@
+\hat { \theta }
+\widehat   { \theta   } = \arg   \max   _ { { \displaystyle   \theta   } } { \left ( \prod   _ { { i = 1 } } ^ { n } f ( x _ { i } , \theta   ) \right ) } \ , \ !
+{ \displaystyle   { \widehat   { \theta   } } = \arg   \min   _ { \displaystyle   \theta   } { \left ( \sum   _ { i = 1 } ^ { n } - \log   { ( f ( x _ { i } , \theta   ) ) } \right ) } . \ , \ ! }
+\sum   _ { { i = 1 } } ^ { n } \rho   ( x _ { i } , \theta   ) , \ , \ !
+{ \hat     { \theta   } } = \arg   \min   _ { { \displaystyle   \theta   } } \left ( \sum   _ { { i = 1 } } ^ { n } \rho   ( x _ { i } , \theta   ) \right ) \ , \ !
+\sum   _ { { i = 1 } } ^ { n } \rho   ( x _ { i } , \theta   ) . \ , \ !
+( \mathcal { X } , \Sigma )
+( \Theta   \subset   { \mathbb     { R } } ^ { r } , S )
+\theta \in \Theta
+T
+\rho   : { \mathcal     { X } } \times   \Theta   \rightarrow   { \mathbb     { R } }
+F
+{ \mathcal   { X } }
+T ( F ) \in   \Theta  
+\int   _ { { { \mathcal     { X } } } } \rho   ( x , \theta   ) d F ( x )
+T ( F ) : = \arg   \min   _ { { \theta   \in   \Theta   } } \int   _ { { { \mathcal     { X } } } } \rho   ( x , \theta   ) d F ( x )
+\rho   ( x , \theta   ) = - \log ( f ( x , \theta   ) )
+f ( x , \theta   ) = { \frac     { \partial   F ( x , \theta   ) } { \partial   x } }
+\rho  
+{ \widehat   { \theta   } }
+\psi   : { \mathcal     { X } } \times   \Theta   \rightarrow   { \mathbb     { R } } ^ { r }
+{ \mathcal   { X } }
+T ( F ) \in   \Theta  
+\int   _ { { { \mathcal     { X } } } } \psi   ( x , \theta   ) \,dF ( x ) = 0
+\int   _ { { { \mathcal     { X } } } } \psi   ( x , T ( F ) ) \,dF ( x ) = 0
+\psi   ( x , \theta   ) = \left ( { \frac     { \partial   \log ( f ( x , \theta   ) ) } { \partial   \theta   ^ { 1 } } } , \dots   , { \frac     { \partial   \log ( f ( x , \theta   ) ) } { \partial   \theta   ^ { p } } } \right ) ^ { { \mathrm     { T } } }
+u ^ { { \mathrm     { T } } }
+f ( x , \theta   ) = { \frac     { \partial   F ( x , \theta   ) } { \partial   x } }
+\theta  
+\psi   ( x , \theta   ) = \nabla   _ { \theta   } \rho   ( x , \theta   )
+x \rightarrow   \pm   \infty  
+{ \displaystyle   ( { \hat   { \beta   } } _ { n } , { \hat   { \gamma   } } _ { n } ) : = \arg   \max   _ { \beta   , \gamma   } \textstyle   \sum   _ { i = 1 } ^ { N } \displaystyle   q ( w _ { i } , \beta   , \gamma   ) }
+{ \displaystyle   \sum   _ { k = 1 } ^ { N } \triangledown   \beta   q ( w _ { i } , \beta   , \gamma   ) = 0 }
+{ \displaystyle   \sum   _ { i = 1 } ^ { N } \triangledown   \gamma   q ( w _ { i } , \beta   , \gamma   ) = 0 }
+{ \displaystyle   W : = ( W _ { 1 } , w _ { 2 } , . . , w _ { N } ) }
+\beta  
+{ \displaystyle   \sum   _ { i = 1 } ^ { N } \bigtriangledown   \gamma   q ( w _ { i } , \beta   , g ( W , \beta   ) ) = 0 }
+\gamma  
+\psi  
+\psi  
+T ( G )
+\operatorname   { I F } ( x ; T , G ) = - { \frac     { \psi   ( x , T ( G ) ) } { \int   \left [ { \frac     { \partial   \psi   ( y , \theta   ) } { \partial   \theta   } } \right ] f ( y ) { \mathrm     { d } } y } }
+f ( y )
+\rho   ( x , \theta   ) = { \frac     { ( x - \theta   ) ^ { 2 } } { 2 } } , \ , \ !
+{ \displaystyle   \rho   ( x , \theta   ) = | x - \theta   | }
+{ \displaystyle   \psi   ( x , \theta   ) = \operatorname   { s g n } ( x - \theta   ) }
+{ \displaystyle   \psi   ( x , \theta   ) = { \begin { c a s e s } - 1 , & { \mbox { i f   } } x - \theta   < 0 \\1 , & { \mbox { i f   } } x - \theta   > 0 \\\rho   \in   \{ - 1 , 1 \},&{ \mbox { i f   } } x - \theta   = 0 \end { c a s e s } } }

@@ -1,0 +1,387 @@
+{ \mathcal   { N } } ( \mu   , \sigma   ^ { 2 } )
+{ \displaystyle   \mu   \in   \mathbb   { R }   }
+\sigma   ^ { 2 } > 0
+{ \displaystyle   x \in   \mathbb   { R }   }
+{ \displaystyle   { \frac   { 1 } { \sqrt   { 2 \pi   \sigma   ^ { 2 } } } } e ^ { - { \frac   { ( x - \mu   ) ^ { 2 } } { 2 \sigma   ^ { 2 } } } } }
+{ \displaystyle   { \frac   { 1 } { 2 } } \left [ 1 + \operatorname   { e r f }   \left ( { \frac   { x - \mu   } { \sigma   { \sqrt   { 2 } } } } \right ) \right ] }
+{ \displaystyle   \mu   + \sigma   { \sqrt   { 2 } } \operatorname   { e r f }   ^ { - 1 } ( 2 F - 1 ) }
+\mu  
+\mu  
+\mu  
+\sigma   ^ { 2 }
+{ \displaystyle   0 }
+{ \displaystyle   0 }
+{ \displaystyle   { \frac   { 1 } { 2 } } \log ( 2 \pi   e \sigma   ^ { 2 } ) }
+{ \displaystyle   \exp ( \mu   t + \sigma   ^ { 2 } t ^ { 2 } / 2 ) }
+{ \displaystyle   \exp ( i \mu   t - \sigma   ^ { 2 } t ^ { 2 } / 2 ) }
+{ \displaystyle   { \mathcal   { I } } ( \mu   , \sigma   ) = { \begin { p m a t r i x } 1 / \sigma   ^ { 2 } & 0 \\0 & 2 / \sigma   ^ { 2 } \end { p m a t r i x } } }
+{ \displaystyle   { \mathcal   { I } } ( \mu   , \sigma   ^ { 2 } ) = { \begin { p m a t r i x } 1 / \sigma   ^ { 2 } & 0 \\0 & 1 / ( 2 \sigma   ^ { 4 } ) \end { p m a t r i x } } }
+{ \displaystyle   f ( x \mid   \mu   , \sigma   ^ { 2 } ) = { \frac   { 1 } { \sqrt   { 2 \pi   \sigma   ^ { 2 } } } } e ^ { - { \frac   { ( x - \mu   ) ^ { 2 } } { 2 \sigma   ^ { 2 } } } } }
+\mu  
+\sigma  
+\sigma   ^ { 2 }
+\mu   = 0
+\sigma   = 1
+{ \displaystyle   \varphi   ( x ) = { \frac   { 1 } { \sqrt   { 2 \pi   } } } e ^ { - { \frac   { 1 } { 2 } } x ^ { 2 } } }
+1 / { \sqrt   { 2 \pi   } }
+\varphi   ( x )
+1 / 2
+x = 0
+1 / { \sqrt   { 2 \pi   } }
+{ \displaystyle   x = + 1 }
+x = - 1
+{ \displaystyle   \sigma   ^ { 2 } = 1 / 2 }
+{ \displaystyle   \varphi   ( x ) = { \frac   { e ^ { - x ^ { 2 } } } { \sqrt   { \pi   } } } }
+{ \displaystyle   \sigma   ^ { 2 } = 1 / ( 2 \pi   ) }
+{ \displaystyle   \varphi   ( x ) = e ^ { - \pi   x ^ { 2 } } }
+\sigma  
+\mu  
+{ \displaystyle   f ( x \mid   \mu   , \sigma   ^ { 2 } ) = { \frac   { 1 } { \sigma   } } \varphi   \left ( { \frac   { x - \mu   } { \sigma   } } \right ) . }
+1 / \sigma  
+Z
+{ \displaystyle   X = \sigma   Z + \mu   }
+\mu  
+\sigma  
+X
+\mu  
+\sigma   ^ { 2 }
+{ \displaystyle   Z = ( X - \mu   ) / \sigma   }
+X
+{ \displaystyle   f ( x ) = e ^ { a x ^ { 2 } + b x + c } }
+a < 0
+{ \displaystyle   c = b ^ { 2 } / ( 4 a ) + \ln ( - a / \pi   ) / 2 }
+{ \displaystyle   \mu   = - b / ( 2 a ) }
+{ \displaystyle   \sigma   ^ { 2 } = - 1 / ( 2 a ) }
+{ \displaystyle   a = - 1 / 2 }
+b = 0
+{ \displaystyle   c = - \ln ( 2 \pi   ) / 2 }
+\phi  
+\varphi  
+N ( \mu   , \sigma   ^ { 2 } )
+{ \mathcal   { N } } ( \mu   , \sigma   ^ { 2 } )
+X
+\mu  
+\sigma   ^ { 2 }
+{ \displaystyle   X \sim   { \mathcal   { N } } ( \mu   , \sigma   ^ { 2 } ) . }
+\tau  
+\sigma  
+\sigma   ^ { 2 }
+{ \displaystyle   1 / \sigma   ^ { 2 } }
+{ \displaystyle   f ( x ) = { \sqrt   { \frac   { \tau   } { 2 \pi   } } } e ^ { - \tau   ( x - \mu   ) ^ { 2 } / 2 } . }
+\sigma  
+\tau   ^ { \prime   } = 1 / \sigma  
+{ \displaystyle   f ( x ) = { \frac   { \tau   ^ { \prime   } } { \sqrt   { 2 \pi   } } } e ^ { - ( \tau   ^ { \prime   } ) ^ { 2 } ( x - \mu   ) ^ { 2 } / 2 } . }
+x
+f ( x )
+\mu  
+\sigma   > 0
+{ \displaystyle   x = \mu   , }
+{ \displaystyle   x < \mu   , }
+{ \displaystyle   x > \mu   , }
+{ \displaystyle   x = \mu   . }
+x
+f
+{ \displaystyle   x = \mu   - \sigma   }
+{ \displaystyle   x = \mu   + \sigma   . }
+\varphi  
+\mu   = 0
+{ \displaystyle   \sigma   = 1 }
+{ \displaystyle   \varphi   ^ { \prime   } ( x ) = - x \varphi   ( x ) . }
+{ \displaystyle   \varphi   ^ { \prime   \prime   } ( x ) = ( x ^ { 2 } - 1 ) \varphi   ( x ) }
+{ \displaystyle   \varphi   ^ { ( n ) } ( x ) = ( - 1 ) ^ { n } \operatorname   { H e }   _ { n } ( x ) \varphi   ( x ) , }
+{ \displaystyle   \operatorname   { H e }   _ { n } ( x ) }
+X
+\mu  
+\sigma  
+{ \displaystyle   Z = ( X - \mu   ) / \sigma   }
+X
+{ \displaystyle   X ^ { p } }
+{ \displaystyle   | X | ^ { p } }
+\mu  
+X
+\ p
+X
+p
+p
+{ \displaystyle   \operatorname   { E }   \left [ X ^ { p } \right ] = { \begin { c a s e s } 0 & { \text { i f   } } p { \text {   i s   o d d , } } \\\sigma   ^ { p } ( p - 1 ) ! ! & { \text { i f   } } p { \text {   i s   e v e n . } } \end { c a s e s } } }
+n ! !
+n
+n .
+p ,
+{ \displaystyle   \operatorname   { E }   \left [ | X | ^ { p } \right ] = \sigma   ^ { p } ( p - 1 ) ! ! \cdot   \left . { \begin { c a s e s } { \sqrt   { \frac   { 2 } { \pi   } } } & { \text { i f   } } p { \text {   i s   o d d } } \\1 & { \text { i f   } } p { \text {   i s   e v e n } } \end { c a s e s } } \right \}=\sigma   ^ { p } \cdot   { \frac   { 2 ^ { p / 2 } \Gamma   \left ( { \frac   { p + 1 } { 2 } } \right ) } { \sqrt   { \pi   } } } }
+{ \displaystyle   p > - 1 . }
+{ \displaystyle   \mu   \neq   0 , }
+{ } _ { 1 } F _ { 1 }
+U .
+{ \displaystyle   \operatorname   { E }   \left [ X ^ { p } \right ] = \sigma   ^ { p } \cdot   ( - i { \sqrt   { 2 } } ) ^ { p } U \left ( - { \frac   { p } { 2 } } , { \frac   { 1 } { 2 } } , - { \frac   { 1 } { 2 } } \left ( { \frac   { \mu   } { \sigma   } } \right ) ^ { 2 } \right ) , }
+{ \displaystyle   \operatorname   { E }   \left [ | X | ^ { p } \right ] = \sigma   ^ { p } \cdot   2 ^ { p / 2 } { \frac   { \Gamma   \left ( { \frac   { 1 + p } { 2 } } \right ) } { \sqrt   { \pi   } } } { } _ { 1 } F _ { 1 } \left ( - { \frac   { p } { 2 } } , { \frac   { 1 } { 2 } } , - { \frac   { 1 } { 2 } } \left ( { \frac   { \mu   } { \sigma   } } \right ) ^ { 2 } \right ) . }
+p
+\mu  
+{ \displaystyle   0 }
+{ \displaystyle   \mu   ^ { 2 } + \sigma   ^ { 2 } }
+\sigma   ^ { 2 }
+{ \displaystyle   \mu   ^ { 3 } + 3 \mu   \sigma   ^ { 2 } }
+{ \displaystyle   0 }
+{ \displaystyle   \mu   ^ { 4 } + 6 \mu   ^ { 2 } \sigma   ^ { 2 } + 3 \sigma   ^ { 4 } }
+{ \displaystyle   3 \sigma   ^ { 4 } }
+{ \displaystyle   \mu   ^ { 5 } + 1 0 \mu   ^ { 3 } \sigma   ^ { 2 } + 1 5 \mu   \sigma   ^ { 4 } }
+{ \displaystyle   0 }
+{ \displaystyle   \mu   ^ { 6 } + 1 5 \mu   ^ { 4 } \sigma   ^ { 2 } + 4 5 \mu   ^ { 2 } \sigma   ^ { 4 } + 1 5 \sigma   ^ { 6 } }
+{ \displaystyle   1 5 \sigma   ^ { 6 } }
+{ \displaystyle   \mu   ^ { 7 } + 2 1 \mu   ^ { 5 } \sigma   ^ { 2 } + 1 0 5 \mu   ^ { 3 } \sigma   ^ { 4 } + 1 0 5 \mu   \sigma   ^ { 6 } }
+{ \displaystyle   0 }
+{ \displaystyle   \mu   ^ { 8 } + 2 8 \mu   ^ { 6 } \sigma   ^ { 2 } + 2 1 0 \mu   ^ { 4 } \sigma   ^ { 4 } + 4 2 0 \mu   ^ { 2 } \sigma   ^ { 6 } + 1 0 5 \sigma   ^ { 8 } }
+{ \displaystyle   1 0 5 \sigma   ^ { 8 } }
+X
+X
+[ a , b ]
+{ \displaystyle   \operatorname   { E }   \left [ X \mid   a < X < b \right ] = \mu   - \sigma   ^ { 2 } { \frac   { f ( b ) - f ( a ) } { F ( b ) - F ( a ) } } }
+f
+F
+X
+b = \infty  
+f
+X
+\sigma   ^ { 2 }
+\sigma  
+f
+\mu  
+\sigma  
+{ \displaystyle   { \hat   { f } } ( t ) = \int   _ { - \infty   } ^ { \infty   } f ( x ) e ^ { - i t x } \,dx = e ^ { - i \mu   t } e ^ { - { \frac   { 1 } { 2 } } ( \sigma   t ) ^ { 2 } } }
+i
+\mu   = 0
+1 / \sigma  
+\varphi  
+X
+\varphi   _ { X } ( t )
+e ^ { { i t X } }
+t
+t
+{ \displaystyle   \varphi   _ { X } ( t ) = { \hat   { f } } ( - t ) }
+X
+{ \displaystyle   e ^ { t X } }
+t
+f
+\mu  
+\sigma  
+{ \displaystyle   M ( t ) = \operatorname   { E }   [ e ^ { t X } ] = { \hat   { f } } ( i t ) = e ^ { \mu   t } e ^ { { \tfrac   { 1 } { 2 } } \sigma   ^ { 2 } t ^ { 2 } } }
+{ \displaystyle   g ( t ) = \ln   M ( t ) = \mu   t + { \tfrac   { 1 } { 2 } } \sigma   ^ { 2 } t ^ { 2 } }
+t
+\mu  
+\sigma   ^ { 2 }
+\Phi  
+{ \displaystyle   \Phi   ( x ) = { \frac   { 1 } { \sqrt   { 2 \pi   } } } \int   _ { - \infty   } ^ { x } e ^ { - t ^ { 2 } / 2 } \,dt }
+\operatorname { e r f } ( x )
+[ - x , x ]
+{ \displaystyle   \operatorname   { e r f }   ( x ) = { \frac   { 2 } { \sqrt   { \pi   } } } \int   _ { 0 } ^ { x } e ^ { - t ^ { 2 } } \,dt }
+{ \displaystyle   \Phi   ( x ) = { \frac   { 1 } { 2 } } \left [ 1 + \operatorname   { e r f }   \left ( { \frac   { x } { \sqrt   { 2 } } } \right ) \right ] }
+f
+\mu  
+\sigma  
+{ \displaystyle   F ( x ) = \Phi   \left ( { \frac   { x - \mu   } { \sigma   } } \right ) = { \frac   { 1 } { 2 } } \left [ 1 + \operatorname   { e r f }   \left ( { \frac   { x - \mu   } { \sigma   { \sqrt   { 2 } } } } \right ) \right ] }
+Q ( x ) = 1 - \Phi   ( x )
+X
+x
+{ \displaystyle   P ( X > x ) }
+Q
+\Phi  
+\Phi  
+\Phi   ( - x ) = 1 - \Phi   ( x )
+{ \displaystyle   \int   \Phi   ( x ) \,dx = x \Phi   ( x ) + \varphi   ( x ) + C . }
+{ \displaystyle   \Phi   ( x ) = { \frac   { 1 } { 2 } } + { \frac   { 1 } { \sqrt   { 2 \pi   } } } \cdot   e ^ { - x ^ { 2 } / 2 } \left [ x + { \frac   { x ^ { 3 } } { 3 } } + { \frac   { x ^ { 5 } } { 3 \cdot   5 } } + \cdots   + { \frac   { x ^ { 2 n + 1 } } { ( 2 n + 1 ) ! ! } } + \cdots   \right ] }
+! !
+{ \displaystyle   \mu   - n \sigma   }
+{ \displaystyle   \mu   + n \sigma   }
+{ \displaystyle   F ( \mu   + n \sigma   ) - F ( \mu   - n \sigma   ) = \Phi   ( n ) - \Phi   ( - n ) = \operatorname   { e r f }   \left ( { \frac   { n } { \sqrt   { 2 } } } \right ) . }
+{ \displaystyle   n = 1 , 2 , \ldots   , 6 }
+n
+{ \displaystyle   p = F ( \mu   + n \sigma   ) - F ( \mu   - n \sigma   ) }
+{ \displaystyle   { \text { i . e .   } } 1 - p }
+{ \displaystyle   { \text { o r   } } 1 { \text {   i n   } } p }
+{ \displaystyle   \Phi   ^ { - 1 } ( p ) = { \sqrt   { 2 } } \operatorname   { e r f }   ^ { - 1 } ( 2 p - 1 ) , \quad   p \in   ( 0 , 1 ) . }
+\mu  
+\sigma   ^ { 2 }
+{ \displaystyle   F ^ { - 1 } ( p ) = \mu   + \sigma   \Phi   ^ { - 1 } ( p ) = \mu   + \sigma   { \sqrt   { 2 } } \operatorname   { e r f }   ^ { - 1 } ( 2 p - 1 ) , \quad   p \in   ( 0 , 1 ) . }
+\Phi   ^ { { - 1 } } ( p )
+{ \displaystyle   z _ { p } }
+X
+{ \displaystyle   \mu   + z _ { p } \sigma   }
+1 - p
+{ \displaystyle   \mu   \pm   z _ { p } \sigma   }
+{ \displaystyle   2 ( 1 - p ) }
+{ \displaystyle   z _ { 0 . 9 7 5 } }
+\mu   \pm   1 . 9 6 \sigma  
+{ \displaystyle   z _ { p } }
+X
+{ \displaystyle   \mu   \pm   z _ { p } \sigma   }
+p
+{ \displaystyle   { \sqrt   { 2 } } \operatorname   { e r f }   ^ { - 1 } ( p ) = \Phi   ^ { - 1 } \left ( { \frac   { p + 1 } { 2 } } \right ) }
+\Phi   ^ { { - 1 } } ( p )
+p
+{ \displaystyle   z _ { p } }
+p
+{ \displaystyle   z _ { p } }
+p
+{ \displaystyle   \Phi   ^ { - 1 } ( p ) = - { \sqrt   { \ln   { \frac   { 1 } { p ^ { 2 } } } - \ln   \ln   { \frac   { 1 } { p ^ { 2 } } } - \ln ( 2 \pi   ) } } + { \mathcal   { o } } ( 1 ) . }
+\sigma  
+f ( x )
+{ \displaystyle   x \neq   \mu   }
+{ \displaystyle   x = \mu   }
+\sigma   = 0
+\delta  
+\mu  
+{ \displaystyle   f ( x ) = \delta   ( x - \mu   ) . }
+\mu  
+{ \displaystyle   F ( x ) = { \begin { c a s e s } 0 & { \text { i f   } } x < \mu   \\1 & { \text { i f   } } x \geq   \mu   \end { c a s e s } } }
+p ( k )
+n
+{ \displaystyle   n a }
+{ \displaystyle   X _ { 1 } , \ldots   , X _ { n } }
+\sigma   ^ { 2 }
+Z
+{ \sqrt   { n } }
+Z = { \sqrt   { n } } \left ( { \frac   { 1 } { n } } \sum   _ { i = 1 } ^ { n } X _ { i } \right )
+n
+Z
+\sigma   ^ { 2 }
+( X _ { i } )
+B ( n , p )
+n p
+n p ( 1 - p )
+n
+p
+\lambda  
+\lambda  
+\lambda  
+\lambda  
+{ \displaystyle   \chi   ^ { 2 } ( k ) }
+k
+2 k
+k
+{ \displaystyle   t ( \nu   ) }
+\nu  
+\mu  
+\sigma   ^ { 2 }
+N ( \mu   , \sigma   ^ { 2 } )
+X
+f ( x )
+X
+{ \displaystyle   H ( X ) = - \int   _ { - \infty   } ^ { \infty   } f ( x ) \log   f ( x ) \,dx = { \tfrac   { 1 } { 2 } } ( 1 + \log ( 2 \sigma   ^ { 2 } \pi   ) ) }
+{ \displaystyle   f ( x ) \log   f ( x ) }
+f ( x ) = 0
+{ \displaystyle   L = \int   _ { - \infty   } ^ { \infty   } f ( x ) \ln ( f ( x ) ) \,dx - \lambda   _ { 0 } \left ( 1 - \int   _ { - \infty   } ^ { \infty   } f ( x ) \,dx \right ) - \lambda   \left ( \sigma   ^ { 2 } - \int   _ { - \infty   } ^ { \infty   } f ( x ) ( x - \mu   ) ^ { 2 } \,dx \right ) }
+f ( x )
+\mu  
+\sigma  
+{ \displaystyle   \delta   f ( x ) }
+f ( x )
+\delta   L
+L
+{ \displaystyle   0 = \delta   L = \int   _ { - \infty   } ^ { \infty   } \delta   f ( x ) \left ( \ln ( f ( x ) ) + 1 + \lambda   _ { 0 } + \lambda   ( x - \mu   ) ^ { 2 } \right ) \,dx }
+{ \displaystyle   \delta   f ( x ) }
+f ( x )
+f ( x ) = e ^ { - \lambda   _ { 0 } - 1 - \lambda   ( x - \mu   ) ^ { 2 } }
+\lambda   _ { 0 }
+\lambda  
+{ \displaystyle   f ( x , \mu   , \sigma   ) = { \frac   { 1 } { \sqrt   { 2 \pi   \sigma   ^ { 2 } } } } e ^ { - { \frac   { ( x - \mu   ) ^ { 2 } } { 2 \sigma   ^ { 2 } } } } }
+\sigma   _ { 1 } ^ { 2 } + \sigma   _ { 2 } ^ { 2 }
+X _ { 3 } = { \frac   { a X _ { 1 } + b X _ { 2 } - ( a + b ) \mu   } { \sqrt   { a ^ { 2 } + b ^ { 2 } } } } + \mu  
+{ \displaystyle   D _ { \mathrm   { K L }   } ( X _ { 1 } \,\|\,X_ { 2 } ) = { \frac   { ( \mu   _ { 1 } - \mu   _ { 2 } ) ^ { 2 } } { 2 \sigma   _ { 2 } ^ { 2 } } } + { \frac   { 1 } { 2 } } \left ( { \frac   { \sigma   _ { 1 } ^ { 2 } } { \sigma   _ { 2 } ^ { 2 } } } - 1 - \ln   { \frac   { \sigma   _ { 1 } ^ { 2 } } { \sigma   _ { 2 } ^ { 2 } } } \right ) . }
+{ \displaystyle   H ^ { 2 } ( X _ { 1 } , X _ { 2 } ) = 1 - { \sqrt   { \frac   { 2 \sigma   _ { 1 } \sigma   _ { 2 } } { \sigma   _ { 1 } ^ { 2 } + \sigma   _ { 2 } ^ { 2 } } } } e ^ { - { \frac   { 1 } { 4 } } { \frac   { ( \mu   _ { 1 } - \mu   _ { 2 } ) ^ { 2 } } { \sigma   _ { 1 } ^ { 2 } + \sigma   _ { 2 } ^ { 2 } } } } . }
+{ \mathcal   { I } } = { \begin { p m a t r i x } { \frac   { 1 } { \sigma   ^ { 2 } } } & 0 \\0 & { \frac   { 1 } { 2 \sigma   ^ { 4 } } } \end { p m a t r i x } }
+{ \displaystyle   \textstyle   \theta   _ { 1 } = { \frac   { \mu   } { \sigma   ^ { 2 } } } }
+{ \displaystyle   \textstyle   \theta   _ { 2 } = { \frac   { - 1 } { 2 \sigma   ^ { 2 } } } }
+{ \displaystyle   \mu   \mid   x _ { 1 } , \ldots   , x _ { n } \sim   { \mathcal   { N } } \left ( { \frac   { { \frac   { \sigma   ^ { 2 } } { n } } \mu   _ { 0 } + \sigma   _ { 0 } ^ { 2 } { \bar   { x } } } { { \frac   { \sigma   ^ { 2 } } { n } } + \sigma   _ { 0 } ^ { 2 } } } , \left ( { \frac   { n } { \sigma   ^ { 2 } } } + { \frac   { 1 } { \sigma   _ { 0 } ^ { 2 } } } \right ) ^ { - 1 } \right ) }
+{ \displaystyle   { \sqrt   { X _ { 1 } ^ { 2 } + X _ { 2 } ^ { 2 } } } }
+{ \displaystyle   X _ { 1 } ^ { 2 } + \cdots   + X _ { n } ^ { 2 } \sim   \chi   _ { n } ^ { 2 } . }
+{ \displaystyle   t = { \frac   { { \overline   { X } } - \mu   } { S / { \sqrt   { n } } } } = { \frac   { { \frac   { 1 } { n } } ( X _ { 1 } + \cdots   + X _ { n } ) - \mu   } { \sqrt   { { \frac   { 1 } { n ( n - 1 ) } } \left [ ( X _ { 1 } - { \overline   { X } } ) ^ { 2 } + \cdots   + ( X _ { n } - { \overline   { X } } ) ^ { 2 } \right ] } } } \sim   t _ { n - 1 } . }
+{ \displaystyle   F = { \frac   { \left ( X _ { 1 } ^ { 2 } + X _ { 2 } ^ { 2 } + \cdots   + X _ { n } ^ { 2 } \right ) / n } { \left ( Y _ { 1 } ^ { 2 } + Y _ { 2 } ^ { 2 } + \cdots   + Y _ { m } ^ { 2 } \right ) / m } } \sim   F _ { n , m } . }
+{ \displaystyle   f _ { X } ( x ) = N ( \mu   , \sigma   _ { 1 } ^ { 2 } ) { \text {   i f   } } x \leq   \mu   }
+{ \displaystyle   f _ { X } ( x ) = N ( \mu   , \sigma   _ { 2 } ^ { 2 } ) { \text {   i f   } } x \geq   \mu   }
+{ \displaystyle   \operatorname   { E }   ( X ) = \mu   + { \sqrt   { \frac   { 2 } { \pi   } } } ( \sigma   _ { 2 } - \sigma   _ { 1 } ) }
+{ \displaystyle   \operatorname   { V }   ( X ) = \left ( 1 - { \frac   { 2 } { \pi   } } \right ) ( \sigma   _ { 2 } - \sigma   _ { 1 } ) ^ { 2 } + \sigma   _ { 1 } \sigma   _ { 2 } }
+{ \displaystyle   \operatorname   { T }   ( X ) = { \sqrt   { \frac   { 2 } { \pi   } } } ( \sigma   _ { 2 } - \sigma   _ { 1 } ) \left [ \left ( { \frac   { 4 } { \pi   } } - 1 \right ) ( \sigma   _ { 2 } - \sigma   _ { 1 } ) ^ { 2 } + \sigma   _ { 1 } \sigma   _ { 2 } \right ] }
+{ \displaystyle   \textstyle   z _ { ( k ) } = ( x _ { ( k ) } - { \hat   { \mu   } } ) / { \hat   { \sigma   } } }
+{ \displaystyle   \ln   { \mathcal   { L } } ( \mu   , \sigma   ^ { 2 } ) = \sum   _ { i = 1 } ^ { n } \ln   f ( x _ { i } \mid   \mu   , \sigma   ^ { 2 } ) = - { \frac   { n } { 2 } } \ln ( 2 \pi   ) - { \frac   { n } { 2 } } \ln   \sigma   ^ { 2 } - { \frac   { 1 } { 2 \sigma   ^ { 2 } } } \sum   _ { i = 1 } ^ { n } ( x _ { i } - \mu   ) ^ { 2 } . }
+{ \hat   { \mu   } } = { \overline   { x } } \equiv   { \frac   { 1 } { n } } \sum   _ { i = 1 } ^ { n } x _ { i } , \qquad   { \hat   { \sigma   } } ^ { 2 } = { \frac   { 1 } { n } } \sum   _ { i = 1 } ^ { n } ( x _ { i } - { \overline   { x } } ) ^ { 2 } .
+{ \displaystyle   \textstyle   { \hat   { \mu   } } }
+{ \displaystyle   \textstyle   { \overline   { x } } }
+{ \displaystyle   \textstyle   { \hat   { \mu   } } }
+{ \displaystyle   { \hat   { \mu   } } \sim   { \mathcal   { N } } ( \mu   , \sigma   ^ { 2 } / n ) . }
+{ \displaystyle   \textstyle   { \mathcal   { I } } ^ { - 1 } }
+{ \displaystyle   \textstyle   { \hat   { \mu   } } }
+{ \displaystyle   \textstyle   1 / { \sqrt   { n } } }
+{ \displaystyle   \textstyle   { \hat   { \mu   } } }
+{ \displaystyle   { \sqrt   { n } } ( { \hat   { \mu   } } - \mu   ) \,{ \xrightarrow   { d } } \,{ \mathcal   { N } } ( 0 , \sigma   ^ { 2 } ) . }
+{ \displaystyle   \textstyle   { \hat   { \sigma   } } ^ { 2 } }
+{ \displaystyle   \textstyle   { \hat   { \sigma   } } ^ { 2 } }
+{ \displaystyle   \textstyle   { \hat   { \sigma   } } ^ { 2 } }
+{ \displaystyle   s ^ { 2 } = { \frac   { n } { n - 1 } } { \hat   { \sigma   } } ^ { 2 } = { \frac   { 1 } { n - 1 } } \sum   _ { i = 1 } ^ { n } ( x _ { i } - { \overline   { x } } ) ^ { 2 } . }
+{ \displaystyle   \textstyle   { \hat   { \sigma   } } ^ { 2 } }
+{ \displaystyle   \textstyle   { \hat   { \sigma   } } ^ { 2 } }
+{ \displaystyle   \textstyle   { \hat   { \sigma   } } ^ { 2 } }
+{ \displaystyle   \textstyle   { \hat   { \sigma   } } ^ { 2 } }
+{ \displaystyle   s ^ { 2 } \sim   { \frac   { \sigma   ^ { 2 } } { n - 1 } } \cdot   \chi   _ { n - 1 } ^ { 2 } , \qquad   { \hat   { \sigma   } } ^ { 2 } \sim   { \frac   { \sigma   ^ { 2 } } { n } } \cdot   \chi   _ { n - 1 } ^ { 2 } . }
+{ \displaystyle   \textstyle   { \mathcal   { I } } ^ { - 1 } }
+{ \displaystyle   \textstyle   { \hat   { \sigma   } } ^ { 2 } }
+{ \displaystyle   { \sqrt   { n } } ( { \hat   { \sigma   } } ^ { 2 } - \sigma   ^ { 2 } ) \simeq   { \sqrt   { n } } ( s ^ { 2 } - \sigma   ^ { 2 } ) \,{ \xrightarrow   { d } } \,{ \mathcal   { N } } ( 0 , 2 \sigma   ^ { 4 } ) . }
+{ \displaystyle   \textstyle   { \hat   { \mu   } } }
+{ \displaystyle   \textstyle   { \hat   { \mu   } } }
+{ \displaystyle   t = { \frac   { { \hat   { \mu   } } - \mu   } { s / { \sqrt   { n } } } } = { \frac   { { \overline   { x } } - \mu   } { \sqrt   { { \frac   { 1 } { n ( n - 1 ) } } \sum   ( x _ { i } - { \overline   { x } } ) ^ { 2 } } } } \sim   t _ { n - 1 } }
+{ \displaystyle   \mu   \in   \left [ { \hat   { \mu   } } - t _ { n - 1 , 1 - \alpha   / 2 } { \frac   { 1 } { \sqrt   { n } } } s , { \hat   { \mu   } } + t _ { n - 1 , 1 - \alpha   / 2 } { \frac   { 1 } { \sqrt   { n } } } s \right ] \approx   \left [ { \hat   { \mu   } } - | z _ { \alpha   / 2 } | { \frac   { 1 } { \sqrt   { n } } } s , { \hat   { \mu   } } + | z _ { \alpha   / 2 } | { \frac   { 1 } { \sqrt   { n } } } s \right ] , }
+{ \displaystyle   \sigma   ^ { 2 } \in   \left [ { \frac   { ( n - 1 ) s ^ { 2 } } { \chi   _ { n - 1 , 1 - \alpha   / 2 } ^ { 2 } } } , { \frac   { ( n - 1 ) s ^ { 2 } } { \chi   _ { n - 1 , \alpha   / 2 } ^ { 2 } } } \right ] \approx   \left [ s ^ { 2 } - | z _ { \alpha   / 2 } | { \frac   { \sqrt   { 2 } } { \sqrt   { n } } } s ^ { 2 } , s ^ { 2 } + | z _ { \alpha   / 2 } | { \frac   { \sqrt   { 2 } } { \sqrt   { n } } } s ^ { 2 } \right ] , }
+{ \displaystyle   \textstyle   { \hat   { \mu   } } }
+a ( x - y ) ^ { 2 } + b ( x - z ) ^ { 2 } = ( a + b ) \left ( x - { \frac   { a y + b z } { a + b } } \right ) ^ { 2 } + { \frac   { a b } { a + b } } ( y - z ) ^ { 2 }
+{ \frac   { a y + b z } { a + b } }
+{ \frac   { a b } { a + b } } = { \frac   { 1 } { { \frac   { 1 } { a } } + { \frac   { 1 } { b } } } } = ( a ^ { - 1 } + b ^ { - 1 } ) ^ { - 1 } .
+{ \frac   { a b } { a + b } }
+k \times   k
+{ \displaystyle   { \begin { a l i g n e d } & ( \mathbf   { y }   - \mathbf   { x }   ) ' \mathbf   { A }   ( \mathbf   { y }   - \mathbf   { x }   ) + ( \mathbf   { x }   - \mathbf   { z }   ) ' \mathbf   { B }   ( \mathbf   { x }   - \mathbf   { z }   ) \\={ } & ( \mathbf   { x }   - \mathbf   { c }   ) ' ( \mathbf   { A }   + \mathbf   { B }   ) ( \mathbf   { x }   - \mathbf   { c }   ) + ( \mathbf   { y }   - \mathbf   { z }   ) ' ( \mathbf   { A }   ^ { - 1 } + \mathbf   { B }   ^ { - 1 } ) ^ { - 1 } ( \mathbf   { y }   - \mathbf   { z }   ) \end { a l i g n e d } } }
+{ \displaystyle   \mathbf   { c }   = ( \mathbf   { A }   + \mathbf   { B }   ) ^ { - 1 } ( \mathbf   { A }   \mathbf   { y }   + \mathbf   { B }   \mathbf   { z }   ) }
+\mathbf   { x }   ' \mathbf   { A }   \mathbf   { x }   = \sum   _ { i , j } a _ { i j } x _ { i } x _ { j }
+x _ { i } x _ { j } = x _ { j } x _ { i }
+a _ { i j } + a _ { j i }
+{ \displaystyle   \mathbf   { x }   ' \mathbf   { A }   \mathbf   { y }   = \mathbf   { y }   ' \mathbf   { A }   \mathbf   { x }   . }
+\sum   _ { i = 1 } ^ { n } ( x _ { i } - \mu   ) ^ { 2 } = \sum   _ { i = 1 } ^ { n } ( x _ { i } - { \bar   { x } } ) ^ { 2 } + n ( { \bar   { x } } - \mu   ) ^ { 2 }
+{ \bar   { x } } = { \frac   { 1 } { n } } \sum   _ { i = 1 } ^ { n } x _ { i } .
+x \sim   { \mathcal   { N } } ( \mu   , \sigma   ^ { 2 } )
+x \sim   { \mathcal   { N } } ( \mu   , 1 / \tau   )
+\mu   \sim   { \mathcal   { N } } ( \mu   _ { 0 } , 1 / \tau   _ { 0 } ) ,
+{ \displaystyle   { \begin { a l i g n e d } p ( \mathbf   { X }   \mid   \mu   , \tau   ) & = \prod   _ { i = 1 } ^ { n } { \sqrt   { \frac   { \tau   } { 2 \pi   } } } \exp   \left ( - { \frac   { 1 } { 2 } } \tau   ( x _ { i } - \mu   ) ^ { 2 } \right ) \\&=\left ( { \frac   { \tau   } { 2 \pi   } } \right ) ^ { n / 2 } \exp   \left ( - { \frac   { 1 } { 2 } } \tau   \sum   _ { i = 1 } ^ { n } ( x _ { i } - \mu   ) ^ { 2 } \right ) \\&=\left ( { \frac   { \tau   } { 2 \pi   } } \right ) ^ { n / 2 } \exp   \left [ - { \frac   { 1 } { 2 } } \tau   \left ( \sum   _ { i = 1 } ^ { n } ( x _ { i } - { \bar   { x } } ) ^ { 2 } + n ( { \bar   { x } } - \mu   ) ^ { 2 } \right ) \right ] . \end { a l i g n e d } } }
+{ \displaystyle   { \begin { a l i g n e d } p ( \mu   \mid   \mathbf   { X }   ) & \propto   p ( \mathbf   { X }   \mid   \mu   ) p ( \mu   ) \\&=\left ( { \frac   { \tau   } { 2 \pi   } } \right ) ^ { n / 2 } \exp   \left [ - { \frac   { 1 } { 2 } } \tau   \left ( \sum   _ { i = 1 } ^ { n } ( x _ { i } - { \bar   { x } } ) ^ { 2 } + n ( { \bar   { x } } - \mu   ) ^ { 2 } \right ) \right ] { \sqrt   { \frac   { \tau   _ { 0 } } { 2 \pi   } } } \exp   \left ( - { \frac   { 1 } { 2 } } \tau   _ { 0 } ( \mu   - \mu   _ { 0 } ) ^ { 2 } \right ) \\&\propto   \exp   \left ( - { \frac   { 1 } { 2 } } \left ( \tau   \left ( \sum   _ { i = 1 } ^ { n } ( x _ { i } - { \bar   { x } } ) ^ { 2 } + n ( { \bar   { x } } - \mu   ) ^ { 2 } \right ) + \tau   _ { 0 } ( \mu   - \mu   _ { 0 } ) ^ { 2 } \right ) \right ) \\&\propto   \exp   \left ( - { \frac   { 1 } { 2 } } \left ( n \tau   ( { \bar   { x } } - \mu   ) ^ { 2 } + \tau   _ { 0 } ( \mu   - \mu   _ { 0 } ) ^ { 2 } \right ) \right ) \\&=\exp   \left ( - { \frac   { 1 } { 2 } } ( n \tau   + \tau   _ { 0 } ) \left ( \mu   - { \dfrac   { n \tau   { \bar   { x } } + \tau   _ { 0 } \mu   _ { 0 } } { n \tau   + \tau   _ { 0 } } } \right ) ^ { 2 } + { \frac   { n \tau   \tau   _ { 0 } } { n \tau   + \tau   _ { 0 } } } ( { \bar   { x } } - \mu   _ { 0 } ) ^ { 2 } \right ) \\&\propto   \exp   \left ( - { \frac   { 1 } { 2 } } ( n \tau   + \tau   _ { 0 } ) \left ( \mu   - { \dfrac   { n \tau   { \bar   { x } } + \tau   _ { 0 } \mu   _ { 0 } } { n \tau   + \tau   _ { 0 } } } \right ) ^ { 2 } \right ) \end { a l i g n e d } } }
+{ \frac   { n \tau   { \bar   { x } } + \tau   _ { 0 } \mu   _ { 0 } } { n \tau   + \tau   _ { 0 } } }
+n \tau   + \tau   _ { 0 }
+p ( \mu   \mid   \mathbf   { X }   ) \sim   { \mathcal   { N } } \left ( { \frac   { n \tau   { \bar   { x } } + \tau   _ { 0 } \mu   _ { 0 } } { n \tau   + \tau   _ { 0 } } } , { \frac   { 1 } { n \tau   + \tau   _ { 0 } } } \right )
+{ \begin { a l i g n e d } \tau   _ { 0 } ' & = \tau   _ { 0 } + n \tau   \\\mu   _ { 0 } ' & = { \frac   { n \tau   { \bar   { x } } + \tau   _ { 0 } \mu   _ { 0 } } { n \tau   + \tau   _ { 0 } } } \\{ \bar   { x } } & = { \frac   { 1 } { n } } \sum   _ { i = 1 } ^ { n } x _ { i } \end { a l i g n e d } }
+{ \bar   { x } }
+{ \begin { a l i g n e d } { \sigma   _ { 0 } ^ { 2 } } ' & = { \frac   { 1 } { { \frac   { n } { \sigma   ^ { 2 } } } + { \frac   { 1 } { \sigma   _ { 0 } ^ { 2 } } } } } \\\mu   _ { 0 } ' & = { \frac   { { \frac   { n { \bar   { x } } } { \sigma   ^ { 2 } } } + { \frac   { \mu   _ { 0 } } { \sigma   _ { 0 } ^ { 2 } } } } { { \frac   { n } { \sigma   ^ { 2 } } } + { \frac   { 1 } { \sigma   _ { 0 } ^ { 2 } } } } } \\{ \bar   { x } } & = { \frac   { 1 } { n } } \sum   _ { i = 1 } ^ { n } x _ { i } \end { a l i g n e d } }
+x \sim   { \mathcal   { N } } ( \mu   , \sigma   ^ { 2 } )
+{ \displaystyle   p ( \sigma   ^ { 2 } \mid   \nu   _ { 0 } , \sigma   _ { 0 } ^ { 2 } ) = { \frac   { ( \sigma   _ { 0 } ^ { 2 } { \frac   { \nu   _ { 0 } } { 2 } } ) ^ { \nu   _ { 0 } / 2 } } { \Gamma   \left ( { \frac   { \nu   _ { 0 } } { 2 } } \right ) } } ~ { \frac   { \exp   \left [ { \frac   { - \nu   _ { 0 } \sigma   _ { 0 } ^ { 2 } } { 2 \sigma   ^ { 2 } } } \right ] } { ( \sigma   ^ { 2 } ) ^ { 1 + { \frac   { \nu   _ { 0 } } { 2 } } } } } \propto   { \frac   { \exp   \left [ { \frac   { - \nu   _ { 0 } \sigma   _ { 0 } ^ { 2 } } { 2 \sigma   ^ { 2 } } } \right ] } { ( \sigma   ^ { 2 } ) ^ { 1 + { \frac   { \nu   _ { 0 } } { 2 } } } } } }
+{ \displaystyle   { \begin { a l i g n e d } p ( \mathbf   { X }   \mid   \mu   , \sigma   ^ { 2 } ) & = \left ( { \frac   { 1 } { 2 \pi   \sigma   ^ { 2 } } } \right ) ^ { n / 2 } \exp   \left [ - { \frac   { 1 } { 2 \sigma   ^ { 2 } } } \sum   _ { i = 1 } ^ { n } ( x _ { i } - \mu   ) ^ { 2 } \right ] \\&=\left ( { \frac   { 1 } { 2 \pi   \sigma   ^ { 2 } } } \right ) ^ { n / 2 } \exp   \left [ - { \frac   { S } { 2 \sigma   ^ { 2 } } } \right ] \end { a l i g n e d } } }
+S = \sum   _ { i = 1 } ^ { n } ( x _ { i } - \mu   ) ^ { 2 } .
+{ \displaystyle   { \begin { a l i g n e d } p ( \sigma   ^ { 2 } \mid   \mathbf   { X }   ) & \propto   p ( \mathbf   { X }   \mid   \sigma   ^ { 2 } ) p ( \sigma   ^ { 2 } ) \\&=\left ( { \frac   { 1 } { 2 \pi   \sigma   ^ { 2 } } } \right ) ^ { n / 2 } \exp   \left [ - { \frac   { S } { 2 \sigma   ^ { 2 } } } \right ] { \frac   { ( \sigma   _ { 0 } ^ { 2 } { \frac   { \nu   _ { 0 } } { 2 } } ) ^ { \frac   { \nu   _ { 0 } } { 2 } } } { \Gamma   \left ( { \frac   { \nu   _ { 0 } } { 2 } } \right ) } } ~ { \frac   { \exp   \left [ { \frac   { - \nu   _ { 0 } \sigma   _ { 0 } ^ { 2 } } { 2 \sigma   ^ { 2 } } } \right ] } { ( \sigma   ^ { 2 } ) ^ { 1 + { \frac   { \nu   _ { 0 } } { 2 } } } } } \\&\propto   \left ( { \frac   { 1 } { \sigma   ^ { 2 } } } \right ) ^ { n / 2 } { \frac   { 1 } { ( \sigma   ^ { 2 } ) ^ { 1 + { \frac   { \nu   _ { 0 } } { 2 } } } } } \exp   \left [ - { \frac   { S } { 2 \sigma   ^ { 2 } } } + { \frac   { - \nu   _ { 0 } \sigma   _ { 0 } ^ { 2 } } { 2 \sigma   ^ { 2 } } } \right ] \\&={ \frac   { 1 } { ( \sigma   ^ { 2 } ) ^ { 1 + { \frac   { \nu   _ { 0 } + n } { 2 } } } } } \exp   \left [ - { \frac   { \nu   _ { 0 } \sigma   _ { 0 } ^ { 2 } + S } { 2 \sigma   ^ { 2 } } } \right ] \end { a l i g n e d } } }
+{ \begin { a l i g n e d } \nu   _ { 0 } ' & = \nu   _ { 0 } + n \\\nu   _ { 0 } ' { \sigma   _ { 0 } ^ { 2 } } ' & = \nu   _ { 0 } \sigma   _ { 0 } ^ { 2 } + \sum   _ { i = 1 } ^ { n } ( x _ { i } - \mu   ) ^ { 2 } \end { a l i g n e d } }
+{ \begin { a l i g n e d } \nu   _ { 0 } ' & = \nu   _ { 0 } + n \\{ \sigma   _ { 0 } ^ { 2 } } ' & = { \frac   { \nu   _ { 0 } \sigma   _ { 0 } ^ { 2 } + \sum   _ { i = 1 } ^ { n } ( x _ { i } - \mu   ) ^ { 2 } } { \nu   _ { 0 } + n } } \end { a l i g n e d } }
+{ \begin { a l i g n e d } \alpha   ' & = \alpha   + { \frac   { n } { 2 } } \\\beta   ' & = \beta   + { \frac   { \sum   _ { i = 1 } ^ { n } ( x _ { i } - \mu   ) ^ { 2 } } { 2 } } \end { a l i g n e d } }
+x \sim   { \mathcal   { N } } ( \mu   , \sigma   ^ { 2 } )
+{ \begin { a l i g n e d } p ( \mu   \mid   \sigma   ^ { 2 } ; \mu   _ { 0 } , n _ { 0 } ) & \sim   { \mathcal   { N } } ( \mu   _ { 0 } , \sigma   ^ { 2 } / n _ { 0 } ) \\p ( \sigma   ^ { 2 } ; \nu   _ { 0 } , \sigma   _ { 0 } ^ { 2 } ) & \sim   I \chi   ^ { 2 } ( \nu   _ { 0 } , \sigma   _ { 0 } ^ { 2 } ) = I G ( \nu   _ { 0 } / 2 , \nu   _ { 0 } \sigma   _ { 0 } ^ { 2 } / 2 ) \end { a l i g n e d } }
+{ \displaystyle   { \begin { a l i g n e d } { \bar   { x } } & = { \frac   { 1 } { n } } \sum   _ { i = 1 } ^ { n } x _ { i } \\\mu   _ { 0 } ' & = { \frac   { n _ { 0 } \mu   _ { 0 } + n { \bar   { x } } } { n _ { 0 } + n } } \\n_ { 0 } ' & = n _ { 0 } + n \\\nu   _ { 0 } ' & = \nu   _ { 0 } + n \\\nu   _ { 0 } ' { \sigma   _ { 0 } ^ { 2 } } ' & = \nu   _ { 0 } \sigma   _ { 0 } ^ { 2 } + \sum   _ { i = 1 } ^ { n } ( x _ { i } - { \bar   { x } } ) ^ { 2 } + { \frac   { n _ { 0 } n } { n _ { 0 } + n } } ( \mu   _ { 0 } - { \bar   { x } } ) ^ { 2 } \end { a l i g n e d } } }
+\nu   _ { 0 } ' { \sigma   _ { 0 } ^ { 2 } } '
+{ \displaystyle   { \begin { a l i g n e d } p ( \mu   \mid   \sigma   ^ { 2 } ; \mu   _ { 0 } , n _ { 0 } ) & \sim   { \mathcal   { N } } ( \mu   _ { 0 } , \sigma   ^ { 2 } / n _ { 0 } ) = { \frac   { 1 } { \sqrt   { 2 \pi   { \frac   { \sigma   ^ { 2 } } { n _ { 0 } } } } } } \exp   \left ( - { \frac   { n _ { 0 } } { 2 \sigma   ^ { 2 } } } ( \mu   - \mu   _ { 0 } ) ^ { 2 } \right ) \\&\propto   ( \sigma   ^ { 2 } ) ^ { - 1 / 2 } \exp   \left ( - { \frac   { n _ { 0 } } { 2 \sigma   ^ { 2 } } } ( \mu   - \mu   _ { 0 } ) ^ { 2 } \right ) \\p ( \sigma   ^ { 2 } ; \nu   _ { 0 } , \sigma   _ { 0 } ^ { 2 } ) & \sim   I \chi   ^ { 2 } ( \nu   _ { 0 } , \sigma   _ { 0 } ^ { 2 } ) = I G ( \nu   _ { 0 } / 2 , \nu   _ { 0 } \sigma   _ { 0 } ^ { 2 } / 2 ) \\&={ \frac   { ( \sigma   _ { 0 } ^ { 2 } \nu   _ { 0 } / 2 ) ^ { \nu   _ { 0 } / 2 } } { \Gamma   ( \nu   _ { 0 } / 2 ) } } ~ { \frac   { \exp   \left [ { \frac   { - \nu   _ { 0 } \sigma   _ { 0 } ^ { 2 } } { 2 \sigma   ^ { 2 } } } \right ] } { ( \sigma   ^ { 2 } ) ^ { 1 + \nu   _ { 0 } / 2 } } } \\&\propto   { ( \sigma   ^ { 2 } ) ^ { - ( 1 + \nu   _ { 0 } / 2 ) } } \exp   \left [ { \frac   { - \nu   _ { 0 } \sigma   _ { 0 } ^ { 2 } } { 2 \sigma   ^ { 2 } } } \right ] . \end { a l i g n e d } } }
+{ \displaystyle   { \begin { a l i g n e d } p ( \mu   , \sigma   ^ { 2 } ; \mu   _ { 0 } , n _ { 0 } , \nu   _ { 0 } , \sigma   _ { 0 } ^ { 2 } ) & = p ( \mu   \mid   \sigma   ^ { 2 } ; \mu   _ { 0 } , n _ { 0 } ) \,p ( \sigma   ^ { 2 } ; \nu   _ { 0 } , \sigma   _ { 0 } ^ { 2 } ) \\&\propto   ( \sigma   ^ { 2 } ) ^ { - ( \nu   _ { 0 } + 3 ) / 2 } \exp   \left [ - { \frac   { 1 } { 2 \sigma   ^ { 2 } } } \left ( \nu   _ { 0 } \sigma   _ { 0 } ^ { 2 } + n _ { 0 } ( \mu   - \mu   _ { 0 } ) ^ { 2 } \right ) \right ] . \end { a l i g n e d } } }
+{ \begin { a l i g n e d } p ( \mathbf   { X }   \mid   \mu   , \sigma   ^ { 2 } ) & = \left ( { \frac   { 1 } { 2 \pi   \sigma   ^ { 2 } } } \right ) ^ { n / 2 } \exp   \left [ - { \frac   { 1 } { 2 \sigma   ^ { 2 } } } \left ( \sum   _ { i = 1 } ^ { n } ( x _ { i } - \mu   ) ^ { 2 } \right ) \right ] \end { a l i g n e d } }
+{ \begin { a l i g n e d } p ( \mathbf   { X }   \mid   \mu   , \sigma   ^ { 2 } ) & = \left ( { \frac   { 1 } { 2 \pi   \sigma   ^ { 2 } } } \right ) ^ { n / 2 } \exp   \left [ - { \frac   { 1 } { 2 \sigma   ^ { 2 } } } \left ( \sum   _ { i = 1 } ^ { n } ( x _ { i } - { \bar   { x } } ) ^ { 2 } + n ( { \bar   { x } } - \mu   ) ^ { 2 } \right ) \right ] \\&\propto   { \sigma   ^ { 2 } } ^ { - n / 2 } \exp   \left [ - { \frac   { 1 } { 2 \sigma   ^ { 2 } } } \left ( S + n ( { \bar   { x } } - \mu   ) ^ { 2 } \right ) \right ] \end { a l i g n e d } }
+S = \sum   _ { i = 1 } ^ { n } ( x _ { i } - { \bar   { x } } ) ^ { 2 } .
+{ \begin { a l i g n e d } p ( \mu   , \sigma   ^ { 2 } \mid   \mathbf   { X }   ) & \propto   p ( \mu   , \sigma   ^ { 2 } ) \,p ( \mathbf   { X }   \mid   \mu   , \sigma   ^ { 2 } ) \\&\propto   ( \sigma   ^ { 2 } ) ^ { - ( \nu   _ { 0 } + 3 ) / 2 } \exp   \left [ - { \frac   { 1 } { 2 \sigma   ^ { 2 } } } \left ( \nu   _ { 0 } \sigma   _ { 0 } ^ { 2 } + n _ { 0 } ( \mu   - \mu   _ { 0 } ) ^ { 2 } \right ) \right ] { \sigma   ^ { 2 } } ^ { - n / 2 } \exp   \left [ - { \frac   { 1 } { 2 \sigma   ^ { 2 } } } \left ( S + n ( { \bar   { x } } - \mu   ) ^ { 2 } \right ) \right ] \\&=( \sigma   ^ { 2 } ) ^ { - ( \nu   _ { 0 } + n + 3 ) / 2 } \exp   \left [ - { \frac   { 1 } { 2 \sigma   ^ { 2 } } } \left ( \nu   _ { 0 } \sigma   _ { 0 } ^ { 2 } + S + n _ { 0 } ( \mu   - \mu   _ { 0 } ) ^ { 2 } + n ( { \bar   { x } } - \mu   ) ^ { 2 } \right ) \right ] \\&=( \sigma   ^ { 2 } ) ^ { - ( \nu   _ { 0 } + n + 3 ) / 2 } \exp   \left [ - { \frac   { 1 } { 2 \sigma   ^ { 2 } } } \left ( \nu   _ { 0 } \sigma   _ { 0 } ^ { 2 } + S + { \frac   { n _ { 0 } n } { n _ { 0 } + n } } ( \mu   _ { 0 } - { \bar   { x } } ) ^ { 2 } + ( n _ { 0 } + n ) \left ( \mu   - { \frac   { n _ { 0 } \mu   _ { 0 } + n { \bar   { x } } } { n _ { 0 } + n } } \right ) ^ { 2 } \right ) \right ] \\&\propto   ( \sigma   ^ { 2 } ) ^ { - 1 / 2 } \exp   \left [ - { \frac   { n _ { 0 } + n } { 2 \sigma   ^ { 2 } } } \left ( \mu   - { \frac   { n _ { 0 } \mu   _ { 0 } + n { \bar   { x } } } { n _ { 0 } + n } } \right ) ^ { 2 } \right ] \\&\quad   \times   ( \sigma   ^ { 2 } ) ^ { - ( \nu   _ { 0 } / 2 + n / 2 + 1 ) } \exp   \left [ - { \frac   { 1 } { 2 \sigma   ^ { 2 } } } \left ( \nu   _ { 0 } \sigma   _ { 0 } ^ { 2 } + S + { \frac   { n _ { 0 } n } { n _ { 0 } + n } } ( \mu   _ { 0 } - { \bar   { x } } ) ^ { 2 } \right ) \right ] \\&={ \mathcal   { N } } _ { \mu   \mid   \sigma   ^ { 2 } } \left ( { \frac   { n _ { 0 } \mu   _ { 0 } + n { \bar   { x } } } { n _ { 0 } + n } } , { \frac   { \sigma   ^ { 2 } } { n _ { 0 } + n } } \right ) \cdot   { \rm   { I G } } _ { \sigma   ^ { 2 } } \left ( { \frac   { 1 } { 2 } } ( \nu   _ { 0 } + n ) , { \frac   { 1 } { 2 } } \left ( \nu   _ { 0 } \sigma   _ { 0 } ^ { 2 } + S + { \frac   { n _ { 0 } n } { n _ { 0 } + n } } ( \mu   _ { 0 } - { \bar   { x } } ) ^ { 2 } \right ) \right ) . \end { a l i g n e d } }
+X = { \sqrt   { - 2 \ln   U } } \,\cos ( 2 \pi   V ) , \qquad   Y = { \sqrt   { - 2 \ln   U } } \,\sin ( 2 \pi   V ) .
+{ \displaystyle   X = U { \sqrt   { \frac   { - 2 \ln   S } { S } } } , \qquad   Y = V { \sqrt   { \frac   { - 2 \ln   S } { S } } } }
+{ \displaystyle   \Phi   ( x ) = 1 - \varphi   ( x ) \left ( b _ { 1 } t + b _ { 2 } t ^ { 2 } + b _ { 3 } t ^ { 3 } + b _ { 4 } t ^ { 4 } + b _ { 5 } t ^ { 5 } \right ) + \varepsilon   ( x ) , \qquad   t = { \frac   { 1 } { 1 + b _ { 0 } x } } , }
+{ \displaystyle   \Phi   ( x ) = { \frac   { 1 } { 2 } } + \varphi   ( x ) \left ( x + { \frac   { x ^ { 3 } } { 3 } } + { \frac   { x ^ { 5 } } { 3 \cdot   5 } } + { \frac   { x ^ { 7 } } { 3 \cdot   5 \cdot   7 } } + { \frac   { x ^ { 9 } } { 3 \cdot   5 \cdot   7 \cdot   9 } } + \cdots   \right ) }
+{ \displaystyle   z = \Phi   ^ { - 1 } ( p ) = 5 . 5 5 5 6 \left [ 1 - \left ( { \frac   { 1 - p } { p } } \right ) ^ { 0 . 1 1 8 6 } \right ] , \qquad   p \geq   1 / 2 }
+{ \displaystyle   z = - 0 . 4 1 1 5 \left \{ { \frac   { 1 - p } { p } } + \log   \left [ { \frac   { 1 - p } { p } } \right ] - 1 \right \},\qquad   p \geq   1 / 2 }
+{ \displaystyle   { \begin { a l i g n e d } L ( z ) & = \int   _ { z } ^ { \infty   } ( u - z ) \varphi   ( u ) \,du = \int   _ { z } ^ { \infty   } [ 1 - \Phi   ( u ) ] \,du \\[5pt ] L ( z ) & \approx   { \begin { c a s e s } 0 . 4 1 1 5 \left ( { \dfrac   { p } { 1 - p } } \right ) - z , & p < 1 / 2 , \\\\0 . 4 1 1 5 \left ( { \dfrac   { 1 - p } { p } } \right ) , & p \geq   1 / 2 . \end { c a s e s } } \\[5pt ] { \text { o r ,   e q u i v a l e n t l y , } } \\L ( z ) & \approx   { \begin { c a s e s } 0 . 4 1 1 5 \left \{ 1 - \log   \left [ { \frac   { p } { 1 - p } } \right ] \right \},&p < 1 / 2 , \\\\0 . 4 1 1 5 { \dfrac   { 1 - p } { p } } , & p \geq   1 / 2 . \end { c a s e s } } \end { a l i g n e d } } }
+2 / { \sqrt   { 2 \pi   n } }
+- { \frac   { 2 \ell   \ell   } { n } }
+{ \displaystyle   \varphi   { \mathit   { \Delta   } } = { \frac   { h } { \surd   \pi   } } \,e ^ { - \mathrm   { h h }   \Delta   \Delta   } , }
+{ \displaystyle   \operatorname   { N }   { \frac   { 1 } { \alpha   \;{ \sqrt   { \pi   } } } } \;e ^ { - { \frac   { x ^ { 2 } } { \alpha   ^ { 2 } } } } \,dx }
+{ \displaystyle   d f = { \frac   { 1 } { \sqrt   { 2 \sigma   ^ { 2 } \pi   } } } e ^ { - ( x - m ) ^ { 2 } / ( 2 \sigma   ^ { 2 } ) } \,dx }

@@ -1,0 +1,14 @@
+  F _ 2
+F _ { 1 }
+{ \displaystyle   F _ { 2 } ( s ) = \lim   _ { n \rightarrow   \infty   } \operatorname   { P r o b }   \left ( ( \lambda   _ { \max   } - { \sqrt   { 2 n } } ) ( { \sqrt   { 2 } } ) n ^ { 1 / 6 } \leq   s \right ) , }
+\lambda_ { \max }
+{ \sqrt   { 2 n } }
+( \sqrt { 2 } ) n ^ { 1 / 6 }
+n ^ { - 1 / 6 }
+F _ 2 ( s )   =   \det ( I   -   A _ s ) \ ,
+\frac { \mathrm { A i } ( x ) \mathrm { A i } ' ( y )   -   \mathrm { A i } ' ( x ) \mathrm { A i } ( y ) } { x - y } . \ ,
+F _ 2 ( s )   =   \exp \left ( - \int_s ^ \infty   ( x - s ) q ^ 2 ( x ) \,dx \right )
+q ^ { \prime \prime } ( s )   =   s q ( s ) + 2 q ( s ) ^ 3 \ ,
+\displaystyle   q ( s )   \sim   \textrm { A i } ( s ) ,   s \rightarrow \infty .
+F _ 1 ( s ) = \exp \left ( - \frac { 1 } { 2 } \int_s ^ \infty   q ( x ) \,dx \right ) \, \left ( F _ 2 ( s ) \right ) ^ { 1 / 2 }
+F _ 4 ( s / \sqrt { 2 } ) = \cosh \left ( \frac { 1 } { 2 } \int_s ^ \infty   q ( x ) \, dx \right ) \, \left ( F _ 2 ( s ) \right ) ^ { 1 / 2 } .

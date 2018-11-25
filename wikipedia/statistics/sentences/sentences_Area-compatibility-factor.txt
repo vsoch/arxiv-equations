@@ -1,0 +1,4 @@
+{ \displaystyle   F = { \frac   { \sum   _ { x } { } ^ { s } E _ { x , t } ^ { c } { } ^ { s } m _ { x , t } } { \sum   _ { x } { } ^ { s } E _ { x , t } ^ { c } } } \left / { \frac   { \sum   _ { x } E _ { x , t } ^ { c } { } ^ { s } m _ { x , t } } { \sum   _ { x } E _ { x , t } ^ { c } } } \right . }
+{ \displaystyle   { } ^ { s } E _ { x , t } ^ { c } }
+{ \displaystyle   E _ { x , t } ^ { c } }
+{ \displaystyle   { } ^ { s } m _ { x , t } }

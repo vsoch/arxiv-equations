@@ -1,0 +1,6 @@
+{ \displaystyle   { \text { P } } ( A \mid   B ) = { \text { P } } ( A ) { \text {   a n d   } } { \text { P } } ( B \mid   A ) = { \text { P } } ( B ) }
+{ \displaystyle   { \text { P } } ( A \mid   C , B ) < { \text { P } } ( A \mid   C ) . }
+{ \displaystyle   { \tfrac   { 1 } { 2 } } , }
+{ \displaystyle   { \tfrac   { 1 / 4 } { 1 / 2 } } = { \tfrac   { 1 } { 2 } } }
+{ \displaystyle   { \tfrac   { 1 / 2 } { 3 / 4 } } = { \tfrac   { 2 } { 3 } } }
+{ \displaystyle   { \tfrac   { 1 / 4 } { 1 / 2 } } = { \tfrac   { 1 } { 2 } } }

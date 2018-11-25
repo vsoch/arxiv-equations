@@ -1,0 +1,11 @@
+\{ p _ { n } ; n = \dots   , - 1 , 0 , 1 , \dots   \ }
+\dots   , p _ { - 2 } - p _ { - 1 } , p _ { - 1 } - p _ { 0 } , p _ { 0 } - p _ { 1 } , p _ { 1 } - p _ { 2 } , \dots  
+\sigma   \leq   \omega   \leq   2 \sigma  
+| \nu   - \mu   | \leq   { \sqrt     { { \frac     { 3 } { 4 } } } } \omega   ,
+{ \displaystyle   { \frac   { | \nu   - \mu   | } { \sigma   } } \leq   { \sqrt   { \frac   { 3 } { 5 } } } }
+{ \displaystyle   { \frac   { | \nu   - \theta   | } { \sigma   } } \leq   { \sqrt   { 3 } } . }
+{ \displaystyle   { \frac   { | \mu   - \theta   | } { \sigma   } } \leq   { \sqrt   { 3 } } . }
+\gamma   ^ { 2 } - \kappa   \leq   { \frac   { 6 } { 5 } }
+\gamma   ^ { 2 } - \kappa   \leq   { \frac   { 1 8 6 } { 1 2 5 } }
+\ x \neq   c
+c

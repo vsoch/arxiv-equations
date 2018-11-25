@@ -1,0 +1,2 @@
+  \lambda   =   \lambda ^ * + \nu \ , \ !
+  \lambda   =   \text { O v e r a l l   D e a t h   R a t e } , ~ \lambda ^ * = \text { E x p e c t e d   d e a t h   r a t e } , ~ \nu = \text { D i s e a s e - s p e c i f i c   d e a t h   r a t e }

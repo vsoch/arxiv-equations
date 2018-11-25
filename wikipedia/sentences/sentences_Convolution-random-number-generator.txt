@@ -1,6 +1,0 @@
-X \ \sim   \operatorname   { E r l a n g } ( k , \theta   )
-\operatorname   { E x p } ( k \theta   ) \ ,
-\operatorname   { E } [ X ] = { \frac     { 1 } { k \theta   } } + { \frac     { 1 } { k \theta   } } + \cdots   + { \frac     { 1 } { k \theta   } } = { \frac     { 1 } { \theta   } } .
-\operatorname   { E r l a n g } ( k , \theta   )
-X _ { i } \ \sim   \operatorname   { E x p } ( k \theta   )
-X = \sum   _ { { i = 1 } } ^ { k } X _ { i } \sim   \operatorname   { E r l a n g } ( k , \theta   ) .

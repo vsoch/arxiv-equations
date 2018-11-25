@@ -1,0 +1,23 @@
+Q = r \times   [ Q ]
+\left ( a , y \right ) > \left ( b , x \right )
+\left ( b , z \right ) > \left ( c , y \right )
+\left ( a , y \right ) > \left ( b , x \right )
+a + y > b + x
+\left ( b , z \right ) > \left ( c , y \right )
+b + z > c + y
+a + y + b + z > b + x + c + y
+\left ( a , z \right ) > \left ( c , x \right )
+\left ( a , z \right ) < \left ( c , x \right )
+\left ( a , z \right ) = \left ( c , x \right )
+{ \tbinom     { n } { 3 } }
+{ \tbinom     { m } { 3 } }
+\left ( a _ { i } , x \right ) = \left ( a _ { { i + 1 } } , y \right )
+\left ( a , x \right ) \succsim   \left ( b , y \right ) \iff   \phi   _ { A } \left ( a \right ) + \phi   _ { X } \left ( x \right ) \geqslant   \phi   _ { A } \left ( b \right ) + \phi   _ { X } \left ( y \right )
+\phi   ' _ { A } \ ,
+\phi   ' _ { X } \ ,
+\alpha   > 0 , \beta   _ { A } \ ,
+\beta   _ { X } \ ,
+\phi   ' _ { A } = \alpha   \phi   _ { A } + \beta   _ { A } \ ,
+\phi   ' _ { X } = \alpha   \phi   _ { X } + \beta   _ { X } \ ,
+\phi   ' _ { A } , \phi   _ { A } , \phi   ' _ { X } \ ,
+\phi   _ { X } \ ,

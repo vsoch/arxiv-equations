@@ -1,0 +1,146 @@
+\mu  
+\sigma  
+\mu   = 0
+{ \displaystyle   \operatorname   { L o g n o r m a l }   ( \mu   , \,\sigma   ^ { 2 } ) }
+{ \displaystyle   \mu   \in   ( - \infty   , + \infty   ) }
+\sigma   > 0
+x \in   ( 0 , + \infty   )
+{ \displaystyle   { \frac   { 1 } { x \sigma   { \sqrt   { 2 \pi   } } } } \ e ^ { - { \frac   { \left ( \ln   x - \mu   \right ) ^ { 2 } } { 2 \sigma   ^ { 2 } } } } }
+{ \displaystyle   { \frac   { 1 } { 2 } } + { \frac   { 1 } { 2 } } \operatorname   { e r f }   { \Big   [ } { \frac   { \ln   x - \mu   } { { \sqrt   { 2 } } \sigma   } } { \Big   ] } }
+{ \displaystyle   \exp   \left ( \mu   + { \frac   { \sigma   ^ { 2 } } { 2 } } \right ) }
+{ \displaystyle   \exp ( \mu   ) }
+{ \displaystyle   \exp ( \mu   - \sigma   ^ { 2 } ) }
+{ \displaystyle   [ \exp ( \sigma   ^ { 2 } ) - 1 ] \exp ( 2 \mu   + \sigma   ^ { 2 } ) }
+( e ^ { \sigma   ^ { 2 } } \!\!+2 ) { \sqrt   { e ^ { \sigma   ^ { 2 } } \!\!-1 } }
+{ \displaystyle   \exp ( 4 \sigma   ^ { 2 } ) + 2 \exp ( 3 \sigma   ^ { 2 } ) + 3 \exp ( 2 \sigma   ^ { 2 } ) - 6 }
+{ \displaystyle   \log   _ { 2 } ( \sigma   e ^ { \mu   + { \tfrac   { 1 } { 2 } } } { \sqrt   { 2 \pi   } } ) }
+\sum   _ { n = 0 } ^ { \infty   } { \frac   { ( i t ) ^ { n } } { n ! } } e ^ { n \mu   + n ^ { 2 } \sigma   ^ { 2 } / 2 }
+{ \displaystyle   { \begin { p m a t r i x } 1 / \sigma   ^ { 2 } & 0 \\0 & 1 / 2 \sigma   ^ { 4 } \end { p m a t r i x } } }
+\sigma  
+X
+\mu  
+\sigma  
+X
+X
+X = e ^ { \mu   + \sigma   Z }
+Z
+{ \displaystyle   Y = \mu   + \sigma   Z }
+{ \displaystyle   X \sim   e ^ { Y } }
+\log   _ { a } ( Y )
+\log   _ { b } ( Y )
+a , b \neq   1
+e ^ { X }
+{ \displaystyle   a ^ { X } }
+a
+\neq   1
+\mu  
+\sigma  
+m
+v
+{ \displaystyle   \mu   = \ln   \left ( { \frac   { m } { \sqrt   { 1 + { \frac   { v } { m ^ { 2 } } } } } } \right ) , \qquad   \sigma   ^ { 2 } = \ln   \left ( 1 + { \frac   { v } { m ^ { 2 } } } \right ) . }
+{ \displaystyle   \ln ( X ) \sim   { \mathcal   { N } } ( \mu   , \sigma   ^ { 2 } ) . }
+\Phi  
+\varphi  
+{ \displaystyle   { \begin { a l i g n e d } f _ { X } ( x ) & = { \frac   { \rm   { d } } { { \rm   { d } } x } } \Pr ( X \leq   x ) = { \frac   { \rm   { d } } { { \rm   { d } } x } } \Pr ( \ln   X \leq   \ln   x ) \\[6pt ] & = { \frac   { \rm   { d } } { { \rm   { d } } x } } \Phi   \left ( { \frac   { \ln   x - \mu   } { \sigma   } } \right ) \\[6pt ] & = \varphi   \left ( { \frac   { \ln   x - \mu   } { \sigma   } } \right ) { \frac   { \rm   { d } } { { \rm   { d } } x } } \left ( { \frac   { \ln   x - \mu   } { \sigma   } } \right ) \\[6pt ] & = \varphi   \left ( { \frac   { \ln   x - \mu   } { \sigma   } } \right ) { \frac   { 1 } { \sigma   x } } \\[6pt ] & = { \frac   { 1 } { x } } \cdot   { \frac   { 1 } { \sigma   { \sqrt   { 2 \pi   \,}}}}\exp   \left ( - { \frac   { ( \ln   x - \mu   ) ^ { 2 } } { 2 \sigma   ^ { 2 } } } \right ) . \end { a l i g n e d } } }
+{ \displaystyle   F _ { X } ( x ) = \Phi   \left ( { \frac   { ( \ln   x ) - \mu   } { \sigma   } } \right ) }
+\Phi  
+{ \displaystyle   { \frac   { 1 } { 2 } } \left [ 1 + \operatorname   { e r f }   \left ( { \frac   { \ln   x - \mu   } { \sigma   { \sqrt   { 2 } } } } \right ) \right ] = { \frac   { 1 } { 2 } } \operatorname   { e r f c }   \left ( - { \frac   { \ln   x - \mu   } { \sigma   { \sqrt   { 2 } } } } \right ) }
+{ \displaystyle   \operatorname   { E }   [ X ^ { n } ] = e ^ { n \mu   + n ^ { 2 } \sigma   ^ { 2 } / 2 } }
+z = { \frac   { \ln ( x ) - ( \mu   + n \sigma   ^ { 2 } ) } { \sigma   } }
+\operatorname   { E }   [ e ^ { t X } ]
+t
+\operatorname   { E }   [ e ^ { i t X } ]
+\sum   _ { n = 0 } ^ { \infty   } { \frac   { ( i t ) ^ { n } } { n ! } } e ^ { n \mu   + n ^ { 2 } \sigma   ^ { 2 } / 2 }
+\varphi   ( t )
+t
+{ \displaystyle   \varphi   ( t ) \approx   { \frac   { \exp   \left ( - { \frac   { W ^ { 2 } ( t \sigma   ^ { 2 } e ^ { \mu   } ) + 2 W ( t \sigma   ^ { 2 } e ^ { \mu   } ) } { 2 \sigma   ^ { 2 } } } \right ) } { \sqrt   { 1 + W ( t \sigma   ^ { 2 } e ^ { \mu   } ) } } } }
+W
+\varphi  
+{ \displaystyle   \operatorname   { G M }   [ X ] }
+{ \displaystyle   \operatorname   { G S D }   [ X ] }
+X
+\operatorname   { E }   [ X ]
+{ \displaystyle   \operatorname   { S D }   [ X ] }
+{ \displaystyle   \operatorname   { G M }   [ X ] = e ^ { \mu   } }
+{ \displaystyle   \operatorname   { G S D }   [ X ] = e ^ { \sigma   } }
+{ \displaystyle   \operatorname   { G V a r }   [ X ] = e ^ { \sigma   ^ { 2 } } }
+{ \displaystyle   \operatorname   { G C V }   [ X ] = e ^ { \sigma   } - 1 }
+Y = \ln   X
+{ \displaystyle   \operatorname   { M e d }   [ X ] }
+{ \displaystyle   \operatorname   { E }   [ X ] = e ^ { \mu   + { \frac   { 1 } { 2 } } \sigma   ^ { 2 } } = e ^ { \mu   } \cdot   { \sqrt   { e ^ { \sigma   ^ { 2 } } } } = \operatorname   { G M }   [ X ] \cdot   { \sqrt   { \operatorname   { G V a r }   [ X ] } } . }
+e ^ { - { \frac   { 1 } { 2 } } \sigma   ^ { 2 } }
+{ \displaystyle   \operatorname   { E }   [ X ^ { n } ] = e ^ { n \mu   + { \frac   { 1 } { 2 } } n ^ { 2 } \sigma   ^ { 2 } } . }
+{ \displaystyle   { \begin { a l i g n e d } \operatorname   { E }   [ X ] & = e ^ { \mu   + { \tfrac   { 1 } { 2 } } \sigma   ^ { 2 } } , \\[4pt ] \operatorname   { E }   [ X ^ { 2 } ] & = e ^ { 2 \mu   + 2 \sigma   ^ { 2 } } , \\[4pt ] \operatorname   { V a r }   [ X ] & = \operatorname   { E }   [ X ^ { 2 } ] - \operatorname   { [ }   { E } X ] ^ { 2 } = ( \operatorname   { E }   [ X ] ) ^ { 2 } ( e ^ { \sigma   ^ { 2 } } - 1 ) = e ^ { 2 \mu   + \sigma   ^ { 2 } } ( e ^ { \sigma   ^ { 2 } } - 1 ) , \\[4pt ] \operatorname   { S D }   [ X ] & = { \sqrt   { \operatorname   { V a r }   [ X ] } } = \operatorname   { E }   [ X ] { \sqrt   { e ^ { \sigma   ^ { 2 } } - 1 } } = e ^ { \mu   + { \tfrac   { 1 } { 2 } } \sigma   ^ { 2 } } { \sqrt   { e ^ { \sigma   ^ { 2 } } - 1 } } , \end { a l i g n e d } } }
+{ \displaystyle   { \begin { a l i g n e d } \mu   & = \ln   \left ( { \frac   { \operatorname   { E }   [ X ] ^ { 2 } } { \sqrt   { \operatorname   { E }   [ X ^ { 2 } ] } } } \right ) = \ln   \left ( { \frac   { \operatorname   { E }   [ X ] ^ { 2 } } { \sqrt   { \operatorname   { V a r }   [ X ] + \operatorname   { E }   [ X ] ^ { 2 } } } } \right ) , \\[4pt ] \sigma   ^ { 2 } & = \ln   \left ( { \frac   { \operatorname   { E }   [ X ^ { 2 } ] } { \operatorname   { E }   [ X ] ^ { 2 } } } \right ) = \ln   \left ( 1 + { \frac   { \operatorname   { V a r }   [ X ] } { \operatorname   { E }   [ X ] ^ { 2 } } } \right ) . \end { a l i g n e d } } }
+( \ln   f ) ' = 0
+{ \displaystyle   \operatorname   { M o d e }   [ X ] = e ^ { \mu   - \sigma   ^ { 2 } } . }
+F _ { X } = 0 . 5
+{ \displaystyle   \operatorname   { M e d }   [ X ] = e ^ { \mu   } . }
+{ \displaystyle   \operatorname   { C V }   [ X ] }
+{ \displaystyle   { \frac   { \operatorname   { S D }   [ X ] } { \operatorname   { E }   [ X ] } } }
+{ \displaystyle   \operatorname   { C V }   [ X ] = { \sqrt   { e ^ { \sigma   ^ { 2 } } - 1 } } . }
+X
+k
+{ \displaystyle   g ( k ) = \int   _ { k } ^ { \infty   } x f _ { X } ( x ) \,dx . }
+{ \displaystyle   g ( k ) = \operatorname   { E }   [ X \mid   X > k ] P ( X > k ) }
+{ \displaystyle   g ( k ) = \int   _ { k } ^ { \infty   } x f _ { X } ( x ) \,dx = e ^ { \mu   + { \tfrac   { 1 } { 2 } } \sigma   ^ { 2 } } \,\Phi   \!\left ( { \frac   { \mu   + \sigma   ^ { 2 } - \ln   k } { \sigma   } } \right ) }
+X
+k
+{ \displaystyle   { \begin { a l i g n e d } E [ X \mid   X < k ] & = e ^ { \mu   + { \frac   { \sigma   ^ { 2 } } { 2 } } } \cdot   { \frac   { \Phi   \left [ { \frac   { \ln ( k ) - \mu   - \sigma   ^ { 2 } } { \sigma   } } \right ] } { \Phi   \left [ { \frac   { \ln ( k ) - \mu   } { \sigma   } } \right ] } } \\[8pt ] E [ X \mid   X \geqslant   k ] & = e ^ { \mu   + { \frac   { \sigma   ^ { 2 } } { 2 } } } \cdot   { \frac   { \Phi   \left [ { \frac   { \mu   + \sigma   ^ { 2 } - \ln ( k ) } { \sigma   } } \right ] } { 1 - \Phi   \left [ { \frac   { \ln ( k ) - \mu   } { \sigma   } } \right ] } } \end { a l i g n e d } } }
+H
+G
+A
+{ \displaystyle   H = { \frac   { G ^ { 2 } } { A } } . }
+\sigma  
+\sigma  
+{ \displaystyle   \sigma   = 1 { \big   / } { \sqrt   { 6 } } }
+{ \displaystyle   e = 2 . 7 1 8 \ldots   }
+\sigma  
+{ \displaystyle   L ( \mu   , \sigma   ) = \prod   _ { i = 1 } ^ { n } { \frac   { 1 } { x _ { i } } } \varphi   _ { \mu   , \sigma   } ( \ln   x _ { i } ) }
+\varphi   _ { }
+{ \displaystyle   { \mathcal   { N } } ( \mu   , \sigma   ^ { 2 } ) }
+{ \displaystyle   { \begin { a l i g n e d } \ell   ( \mu   , \sigma   \mid   x _ { 1 } , x _ { 2 } , \ldots   , x _ { n } ) & = - \sum   _ { k } \ln   x _ { k } + \ell   _ { N } ( \mu   , \sigma   \mid   \ln   x _ { 1 } , \ln   x _ { 2 } , \dots   , \ln   x _ { n } ) \\&={ \text { c o n s t a n t } } + \ell   _ { N } ( \mu   , \sigma   \mid   \ln   x _ { 1 } , \ln   x _ { 2 } , \dots   , \ln   x _ { n } ) . \end { a l i g n e d } } }
+\ell   _ { L }
+\ell   _ { N }
+\mu  
+\sigma  
+{ \displaystyle   { \widehat   { \mu   } } = { \frac   { \sum   _ { k } \ln   x _ { k } } { n } } , \qquad   { \widehat   { \sigma   } } ^ { 2 } = { \frac   { \sum   _ { k } \left ( \ln   x _ { k } - { \widehat   { \mu   } } \right ) ^ { 2 } } { n } } . }
+{ \boldsymbol   { X } } \sim   { \mathcal   { N } } ( { \boldsymbol   { \mu   } } , \,{ \boldsymbol   { \Sigma   } } )
+{ \boldsymbol   { Y } } = \exp ( { \boldsymbol   { X } } )
+\operatorname   { E }   [ { \boldsymbol   { Y } } ] _ { i } = e ^ { \mu   _ { i } + { \frac   { 1 } { 2 } } \Sigma   _ { i i } } ,
+\operatorname   { V a r }   [ { \boldsymbol   { Y } } ] _ { i j } = e ^ { \mu   _ { i } + \mu   _ { j } + { \frac   { 1 } { 2 } } ( \Sigma   _ { i i } + \Sigma   _ { j j } ) } ( e ^ { \Sigma   _ { i j } } - 1 ) .
+X \sim   { \mathcal   { N } } ( \mu   , \sigma   ^ { 2 } )
+{ \displaystyle   \exp ( X ) \sim   \operatorname   { L o g n o r m a l }   ( \mu   , \sigma   ^ { 2 } ) . }
+{ \displaystyle   X \sim   \operatorname   { L o g n o r m a l }   ( \mu   , \sigma   ^ { 2 } ) }
+\ln ( X ) \sim   { \mathcal   { N } } ( \mu   , \sigma   ^ { 2 } )
+{ \displaystyle   X _ { j } \sim   \operatorname   { L o g n o r m a l }   ( \mu   _ { j } , \sigma   _ { j } ^ { 2 } ) }
+n
+Y = \textstyle   \prod   _ { j = 1 } ^ { n } X _ { j }
+Y
+{ \displaystyle   Y \sim   \operatorname   { L o g n o r m a l }   { \Big   ( } \textstyle   \sum   _ { j = 1 } ^ { n } \mu   _ { j } , \ \sum   _ { j = 1 } ^ { n } \sigma   _ { j } ^ { 2 } { \Big   ) } . }
+{ \displaystyle   X _ { j } \sim   \operatorname   { L o g n o r m a l }   ( \mu   _ { j } , \sigma   _ { j } ^ { 2 } ) \   }
+\sigma  
+\mu  
+Y = \textstyle   \sum   _ { j = 1 } ^ { n } X _ { j }
+Y
+Z
+{ \begin { a l i g n e d } \sigma   _ { Z } ^ { 2 } & = \ln   \!\left [ { \frac   { \sum   e ^ { 2 \mu   _ { j } + \sigma   _ { j } ^ { 2 } } ( e ^ { \sigma   _ { j } ^ { 2 } } - 1 ) } { ( \sum   e ^ { \mu   _ { j } + \sigma   _ { j } ^ { 2 } / 2 } ) ^ { 2 } } } + 1 \right ] , \\\mu   _ { Z } & = \ln   \!\left [ \sum   e ^ { \mu   _ { j } + \sigma   _ { j } ^ { 2 } / 2 } \right ] - { \frac   { \sigma   _ { Z } ^ { 2 } } { 2 } } . \end { a l i g n e d } }
+X _ { j }
+\sigma   _ { j } = \sigma  
+{ \begin { a l i g n e d } \sigma   _ { Z } ^ { 2 } & = \ln   \!\left [ ( e ^ { \sigma   ^ { 2 } } - 1 ) { \frac   { \sum   e ^ { 2 \mu   _ { j } } } { ( \sum   e ^ { \mu   _ { j } } ) ^ { 2 } } } + 1 \right ] , \\\mu   _ { Z } & = \ln   \!\left [ \sum   e ^ { \mu   _ { j } } \right ] + { \frac   { \sigma   ^ { 2 } } { 2 } } - { \frac   { \sigma   _ { Z } ^ { 2 } } { 2 } } . \end { a l i g n e d } }
+{ \displaystyle   X \sim   \operatorname   { L o g n o r m a l }   ( \mu   , \sigma   ^ { 2 } ) }
+X + c
+x \in   ( c , + \infty   )
+\operatorname   { E }   [ X + c ] = \operatorname   { E }   [ X ] + c
+\operatorname   { V a r }   [ X + c ] = \operatorname   { V a r }   [ X ]
+{ \displaystyle   X \sim   \operatorname   { L o g n o r m a l }   ( \mu   , \sigma   ^ { 2 } ) }
+{ \displaystyle   a X \sim   \operatorname   { L o g n o r m a l }   ( \mu   + \ln   a , \ \sigma   ^ { 2 } ) . }
+{ \displaystyle   X \sim   \operatorname   { L o g n o r m a l }   ( \mu   , \sigma   ^ { 2 } ) }
+{ \displaystyle   { \tfrac   { 1 } { X } } \sim   \operatorname   { L o g n o r m a l }   ( - \mu   , \ \sigma   ^ { 2 } ) . }
+{ \displaystyle   X \sim   \operatorname   { L o g n o r m a l }   ( \mu   , \sigma   ^ { 2 } ) }
+{ \displaystyle   X ^ { a } \sim   \operatorname   { L o g n o r m a l }   ( a \mu   , \ a ^ { 2 } \sigma   ^ { 2 } ) }
+{ \displaystyle   a \neq   0 . }
+{ \displaystyle   X \mid   Y \sim   \operatorname   { R a y l e i g h }   ( Y ) \ , }
+{ \displaystyle   Y \sim   \operatorname   { L o g n o r m a l }   ( \mu   , \sigma   ^ { 2 } ) }
+{ \displaystyle   X \sim   \operatorname   { S u z u k i }   ( \mu   , \sigma   ) }
+F ( x ; \mu   , \sigma   ) = \left [ \left ( { \frac   { e ^ { \mu   } } { x } } \right ) ^ { \pi   / ( \sigma   { \sqrt   { 3 } } ) } + 1 \right ] ^ { - 1 } .

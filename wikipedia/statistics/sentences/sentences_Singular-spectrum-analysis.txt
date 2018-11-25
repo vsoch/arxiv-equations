@@ -1,0 +1,146 @@
+\{ X ( t ) : t = 1 , \ldots   , N \ }
+M
+M \times   M
+{ { \textbf     C } } _ { X }
+X ( t )
+{ { \textbf     C } } _ { X }
+c _ { i j }
+| i - j |
+c _ { { i j } } = { \frac     { 1 } { N - | i - j | } } \sum   _ { { t = 1 } } ^ { { N - | i - j | } } X ( t ) X ( t + | i - j | ) .
+{ { \textbf     C } } _ { X }
+N ' \times   M
+{ { \textbf     D } }
+M
+{ { \it   { X ( t ) } } }
+N ' = N - M + 1
+{ { \textbf     C } } _ { X } = { \frac     { 1 } { N ' } } { { \textbf     D } } ^ { { { \rm   { t } } } } { { \textbf     D } } .
+M
+{ { \textbf     E } } _ { k }
+{ { \textbf     C } } _ { X }
+\lambda   _ { k }
+{ { \textbf     C } } _ { { X } }
+{ { \textbf     E } } _ { k }
+{ { \textbf     C } } _ { { X } }
+X ( t )
+\lambda   _ { k } ^ { { 1 / 2 } }
+{ { \textbf     C } } _ { { X } } .
+{ { \textbf     A } } _ { k }
+A _ { k } ( t ) = \sum   _ { { j = 1 } } ^ { { M } } X ( t + j - 1 ) E _ { k } ( j ) .
+M
+\lambda   _ { k }
+\lambda   _ { k } ^ { { 1 / 2 } }
+k
+k ^ { * } = S
+D
+{ { \textbf     R } } _ { K }
+R _ { { K } } ( t ) = { \frac     { 1 } { M _ { t } } } \sum   _ { { k \in   { { \textit     K } } } } \sum   _ { { j = { L _ { t } } } } ^ { { U _ { t } } } A _ { k } ( t - j + 1 ) E _ { k } ( j ) ;
+K
+M _ t
+L _ { t }
+U _ { t }
+L
+N
+\{ X _ { { l } } ( t ) : l = 1 , \dots   , L ; t = 1 , \dots   , N \ }
+L
+M
+L \leq   M
+M
+L
+L = N
+{ { \textbf     X } }
+{ { \textbf     C } } _ { X }
+{ { \textbf     E } } _ { k }
+M
+{ \mathbb     { X } } = ( x _ { 1 } , \ldots   , x _ { { N } } )
+N
+L
+\ ( 1 < L < N )
+K = N - L + 1
+\mathbb   { X }  
+L \!\times   \!K
+{ \mathbf     { X } } = [ X _ { 1 } : \ldots   : X _ { K } ] = ( x _ { { i j } } ) _ { { i , j = 1 } } ^ { { L , K } } = { \begin { b m a t r i x } x _ { 1 } & x _ { 2 } & x _ { 3 } & \ldots   & x _ { { K } } \\x_ { 2 } & x _ { 3 } & x _ { 4 } & \ldots   & x _ { { K + 1 } } \\x_ { 3 } & x _ { 4 } & x _ { 5 } & \ldots   & x _ { { K + 2 } } \\\vdots   & \vdots   & \vdots   & \ddots   & \vdots   \\x_ { { L } } & x _ { { L + 1 } } & x _ { { L + 2 } } & \ldots   & x _ { { N } } \\\end { b m a t r i x } }
+X _ { i } = ( x _ { { i } } , \ldots   , x _ { { i + L - 1 } } ) ^ { { \mathrm     { T } } } \;\quad   ( 1 \leq   i \leq   K )
+L
+\mathbf   { X }  
+\mathbf   { X }  
+x _ { i j }
+i + j = \,{ { \rm   { c o n s t } } }
+\mathbf   { X }  
+{ \mathbf     { S } } = { \mathbf     { X } } { \mathbf     { X } } ^ { { \mathrm     { T } } }
+\lambda   _ { 1 } , \ldots   , \lambda   _ { L }
+\mathbf   { S }  
+\lambda   _ { 1 } \geq   \ldots   \geq   \lambda   _ { L } \geq   0
+U _ { 1 } , \ldots   , U _ { L }
+\mathbf   { S }  
+d = { \mathop     { { \mathrm     { r a n k } } } } { \mathbf     { X } } = \max \{ i , \ { \mbox { s u c h   t h a t } } \ \lambda   _ { i } > 0 \ }
+d = L
+V _ { i } = { \mathbf     { X } } ^ { { \mathrm     { T } } } U _ { i } / { \sqrt     { \lambda   _ { i } } }
+( i = 1 , \ldots   , d )
+\mathbf   { X }  
+{ \mathbf     { X } } = { \mathbf     { X } } _ { 1 } + \ldots   + { \mathbf     { X } } _ { d } ,
+{ \mathbf     { X } } _ { i } = { \sqrt     { \lambda   _ { i } } } U _ { i } V _ { i } ^ { { \mathrm     { T } } }
+( { \sqrt     { \lambda   _ { i } } } , U _ { i } , V _ { i } )
+i
+U _ { i }
+\mathbf   { X }  
+{ \sqrt     { \lambda   _ { i } } }
+\mathbf   { X }  
+{ \sqrt     { \lambda   _ { i } } } V _ { i } = { \mathbf     { X } } ^ { { \mathrm     { T } } } U _ { i }
+\{ 1 , \ldots   , d \ }
+m
+I _ { 1 } , \ldots   , I _ { m }
+I = \{ i _ { 1 } , \ldots   , i _ { p } \ }
+{ \mathbf     { X } } _ { I }
+I
+{ \mathbf     { X } } _ { I } = { \mathbf     { X } } _ { { i _ { 1 } } } + \ldots   + { \mathbf     { X } } _ { { i _ { p } } }
+I = I _ { 1 } , \ldots   , I _ { m }
+\mathbf   { X }  
+{ \mathbf     { X } } = { \mathbf     { X } } _ { { I _ { 1 } } } + \ldots   + { \mathbf     { X } } _ { { I _ { m } } } .
+{ \mathbf     { X } } _ { { I _ { j } } }
+N
+{ \mathbf     { X } } _ { { I _ { k } } }
+\widetilde   { { \mathbb     { X } } } ^ { { ( k ) } } = ( \widetilde   { x } _ { 1 } ^ { { ( k ) } } , \ldots   , \widetilde   { x } _ { N } ^ { { ( k ) } } )
+x _ 1 , \ldots , x _ N
+m
+x _ { n } = \sum   \limits   _ { { k = 1 } } ^ { m } \widetilde   { x } _ { n } ^ { { ( k ) } } \ \ ( n = 1 , 2 , \ldots   , N ) .
+L
+N \rightarrow   \infty  
+N
+L
+L
+L
+\pi   / 2
+\mathbb   { X }  
+d < L
+d
+d
+x _ { { n } } = \sum   _ { { k = 1 } } ^ { d } b _ { k } x _ { { n - k } }
+L > d
+U _ { 1 } , \ldots   , U _ { d }
+L
+x _ { { n } } = \sum   _ { { k = 1 } } ^ { { L - 1 } } a _ { k } x _ { { n - k } }
+( a _ { { L - 1 } } , \ldots   , a _ { 1 } ) ^ { { \mathrm     { T } } }
+U _ { 1 } , \ldots   , U _ { d }
+L _ { x } \times   L _ { y }
+x _ { n } = s _ { n } + e _ { n }
+s _ { n } = \sum   _ { { k = 1 } } ^ { r } a _ { k } s _ { { n - k } }
+e _ { n }
+x _ { n } = \sum   _ { { k = 1 } } ^ { r } a _ { k } x _ { { n - k } } + e _ { n }
+k / N
+s _ { { n } } = \sum   _ { { k = 1 } } ^ { r } a _ { k } s _ { { n - k } }
+s _ { n } = \sum   _ { k } C _ { k } \rho   _ { k } ^ { n } e ^ { { i 2 \pi   \omega   _ { k } n } }
+\omega   _ { k }
+\rho   _ { k }
+C _ { k }
+C _ { k }
+n
+r
+{ \mathop     { { \mathrm     { s p a n } } } } ( U _ { 1 } , \ldots   , U _ { r } )
+x _ { n } = s _ { n } + e _ { n }
+s _ { n } = \sum   _ { { k = 1 } } ^ { r } a _ { k } s _ { { n - k } }
+e _ { n }
+L
+U _ { i } = ( u _ { 1 } , \ldots   , u _ { L } ) ^ { { \mathrm     { T } } }
+2 L - 1
+\widetilde   { x } _ { s }
+L \leq   s \leq   K

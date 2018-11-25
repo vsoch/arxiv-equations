@@ -1,0 +1,6 @@
+d x   =   f ( x , t )   d t   +   d w
+d z   =   h ( x , t )   d t   +   d v
+{ \displaystyle   w , v }
+p ( x , t )
+d p   =   L ( p )   d t   +   p   h ^ T   d z
+L   =   - \sum   \frac { \partial   ( f _ i   p ) } { \partial   x _ i }   +   \frac12   \sum   \frac { \partial ^ 2   p } { \partial   x _ i   \partial   x _ j }

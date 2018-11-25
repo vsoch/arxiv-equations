@@ -1,6 +1,0 @@
-{ \displaystyle   P _ { a } = P _ { 0 } a ^ { D / 2 - 1 } \ , }
-{ \displaystyle   P _ { a _ { j } } = f _ { 0 } f _ { 1 } \cdots   f _ { j } . \ , }
-{ \displaystyle   p \,{ ( 4 a ) _ { + } } = 1 - { \frac   { { \Omega   } ^ { 4 } } { \mho   } } }
-{ \displaystyle   q \,{ ( 4 a ) _ { + / + } } = { \frac   { { \Omega   } ^ { 1 0 } - 2 \,{ \Omega   } ^ { 4 } \,{ \mho   } ^ { 2 } + { \mho   } ^ { 3 } } { { \mho   } ^ { 2 } \,\left ( - { \Omega   } ^ { 4 } + \mho   \right ) } } }
-\mho
-{ \displaystyle   P _ { a } = 1 - b c ^ { 2 a ^ { 1 / 2 } } h ^ { a } \ , }

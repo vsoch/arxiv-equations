@@ -1,0 +1,53 @@
+0   \leq   p   \leq   1
+{ \displaystyle   q = 1 - p }
+{ \displaystyle   k \in   \{ 0 , 1 \ } }
+{ \displaystyle   { \begin { c a s e s } q = 1 - p & { \text { i f   } } k = 0 \\p & { \text { i f   } } k = 1 \end { c a s e s } } }
+{ \displaystyle   { \begin { c a s e s } 0 & { \text { i f   } } k < 0 \\1 - p & { \text { i f   } } 0 \leq   k < 1 \\1 & { \text { i f   } } k \geq   1 \end { c a s e s } } }
+p
+{ \displaystyle   { \begin { c a s e s } 0 & { \text { i f   } } p < 1 / 2 \\1 / 2 & { \text { i f   } } p = 1 / 2 \\1 & { \text { i f   } } p > 1 / 2 \end { c a s e s } } }
+{ \displaystyle   { \begin { c a s e s } 0 & { \text { i f   } } p < 1 / 2 \\0 , 1 & { \text { i f   } } p = 1 / 2 \\1 & { \text { i f   } } p > 1 / 2 \end { c a s e s } } }
+{ \displaystyle   p ( 1 - p ) = p q }
+{ \displaystyle   { \frac   { 1 - 2 p } { \sqrt   { p q } } } }
+{ \displaystyle   { \frac   { 1 - 6 p q } { p q } } }
+{ \displaystyle   - q \ln   q - p \ln   p }
+{ \displaystyle   q + p e ^ { t } }
+{ \displaystyle   q + p e ^ { i t } }
+{ \displaystyle   q + p z }
+{ \displaystyle   { \frac   { 1 } { p q } } }
+p
+{ \displaystyle   q = 1 - p , }
+{ \displaystyle   p \neq   1 / 2 . }
+X
+{ \displaystyle   \Pr ( X = 1 ) = p = 1 - \Pr ( X = 0 ) = 1 - q . }
+f
+{ \displaystyle   f ( k ; p ) = { \begin { c a s e s } p & { \text { i f   } } k = 1 , \\q = 1 - p & { \text { i f   } } k = 0 . \end { c a s e s } } }
+{ \displaystyle   f ( k ; p ) = p ^ { k } ( 1 - p ) ^ { 1 - k } \quad   { \text { f o r   } } k \in   \{ 0 , 1 \ } }
+{ \displaystyle   f ( k ; p ) = p k + ( 1 - p ) ( 1 - k ) \quad   { \text { f o r   } } k \in   \{ 0 , 1 \ } . }
+{ \displaystyle   n = 1 . }
+p ,
+p = 1 / 2
+0 \leq   p \leq   1
+p
+X
+{ \displaystyle   \operatorname   { E }   \left ( X \right ) = p }
+X
+{ \displaystyle   \Pr ( X = 1 ) = p }
+{ \displaystyle   \Pr ( X = 0 ) = q }
+{ \displaystyle   \operatorname   { E }   [ X ] = \Pr ( X = 1 ) \cdot   1 + \Pr ( X = 0 ) \cdot   0 = p \cdot   1 + q \cdot   0 = p . }
+X
+\operatorname   { V a r }   [ X ] = p q = p ( 1 - p )
+{ \displaystyle   \operatorname   { E }   [ X ^ { 2 } ] = \Pr ( X = 1 ) \cdot   1 ^ { 2 } + \Pr ( X = 0 ) \cdot   0 ^ { 2 } = p \cdot   1 ^ { 2 } + q \cdot   0 ^ { 2 } = p }
+\operatorname   { V a r }   [ X ] = \operatorname   { E }   [ X ^ { 2 } ] - \operatorname   { E }   [ X ] ^ { 2 } = p - p ^ { 2 } = p ( 1 - p ) = p q
+{ \frac   { q - p } { \sqrt   { p q } } } = { \frac   { 1 - 2 p } { \sqrt   { p q } } }
+{ \frac   { X - \operatorname   { E }   [ X ] } { \sqrt   { \operatorname   { V a r }   [ X ] } } }
+{ \frac   { q } { \sqrt   { p q } } }
+p
+- { \frac   { p } { \sqrt   { p q } } }
+q
+{ \begin { a l i g n e d } \gamma   _ { 1 } & = \operatorname   { E }   \left [ \left ( { \frac   { X - \operatorname   { E }   [ X ] } { \sqrt   { \operatorname   { V a r }   [ X ] } } } \right ) ^ { 3 } \right ] \\&=p \cdot   \left ( { \frac   { q } { \sqrt   { p q } } } \right ) ^ { 3 } + q \cdot   \left ( - { \frac   { p } { \sqrt   { p q } } } \right ) ^ { 3 } \\&={ \frac   { 1 } { { \sqrt   { p q } } ^ { 3 } } } \left ( p q ^ { 3 } - q p ^ { 3 } \right ) \\&={ \frac   { p q } { { \sqrt   { p q } } ^ { 3 } } } ( q - p ) \\&={ \frac   { q - p } { \sqrt   { p q } } } \end { a l i g n e d } }
+X _ { 1 } , \dots   , X _ { n }
+{ \displaystyle   \sum   _ { k = 1 } ^ { n } X _ { k } \sim   \operatorname   { B }   ( n , p ) }
+{ \displaystyle   \operatorname   { B }   ( 1 , p ) }
+{ \textstyle   \mathrm   { B e r n o u l l i }   ( p ) . }
+{ \textstyle   Y \sim   \mathrm   { B e r n o u l l i }   \left ( { \frac   { 1 } { 2 } } \right ) }
+{ \textstyle   2 Y - 1 }

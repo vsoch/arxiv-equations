@@ -1,0 +1,12 @@
+{ \textstyle   \mu   = \mathrm   { E }   [ X ] }
+{ \displaystyle   { \frac   { \mu   _ { k } } { \sigma   ^ { k } } } , }
+{ \displaystyle   \mu   _ { k } = \operatorname   { E }   \left [ ( X - \mu   ) ^ { k } \right ] = \int   _ { - \infty   } ^ { \infty   } ( x - \mu   ) ^ { k } P ( x ) \,dx , }
+{ \displaystyle   \sigma   ^ { k } = \left ( { \sqrt   { \mathrm   { E }   [ ( X - \mu   ) ^ { 2 } ] } } \right ) ^ { k } . }
+x ^ k ,
+{ \displaystyle   \mu   _ { k } ( \lambda   X ) = \lambda   ^ { k } \mu   _ { k } ( X ) : }
+{ \displaystyle   { \tilde   { \mu   } } _ { 1 } = { \frac   { \mu   _ { 1 } } { \sigma   ^ { 1 } } } = { \frac   { \operatorname   { E }   \left [ ( X - \mu   ) ^ { 1 } \right ] } { ( \operatorname   { E }   \left [ ( X - \mu   ) ^ { 2 } \right ] ) ^ { 1 / 2 } } } = { \frac   { \mu   - \mu   } { \sqrt   { \operatorname   { E }   \left [ ( X - \mu   ) ^ { 2 } \right ] } } } = 0 }
+{ \displaystyle   { \tilde   { \mu   } } _ { 2 } = { \frac   { \mu   _ { 2 } } { \sigma   ^ { 2 } } } = { \frac   { \operatorname   { E }   \left [ ( X - \mu   ) ^ { 2 } \right ] } { ( \operatorname   { E }   \left [ ( X - \mu   ) ^ { 2 } \right ] ) ^ { 2 / 2 } } } = 1 }
+{ \displaystyle   { \tilde   { \mu   } } _ { 3 } = { \frac   { \mu   _ { 3 } } { \sigma   ^ { 3 } } } = { \frac   { \operatorname   { E }   \left [ ( X - \mu   ) ^ { 3 } \right ] } { ( \operatorname   { E }   \left [ ( X - \mu   ) ^ { 2 } \right ] ) ^ { 3 / 2 } } } }
+{ \displaystyle   { \tilde   { \mu   } } _ { 4 } = { \frac   { \mu   _ { 4 } } { \sigma   ^ { 4 } } } = { \frac   { \operatorname   { E }   \left [ ( X - \mu   ) ^ { 4 } \right ] } { ( \operatorname   { E }   \left [ ( X - \mu   ) ^ { 2 } \right ] ) ^ { 4 / 2 } } } }
+{ \frac   { \sigma   } { \mu   } }
+\mu  

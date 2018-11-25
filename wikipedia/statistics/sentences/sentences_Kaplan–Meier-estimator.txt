@@ -1,0 +1,119 @@
+{ \displaystyle   { \widehat   { S } } ( t ) = \prod   \limits   _ { i : \ t_ { i } \leq   t } \left ( 1 - { \frac   { d _ { i } } { n _ { i } } } \right ) , }
+t _ { i }
+t _ { i }
+{ \displaystyle   n _ { i } }
+t _ { i }
+\tau   \geq   0
+S
+\tau  
+{ \displaystyle   S ( t ) = \mathrm   { P r o b }   ( \tau   > t ) }
+{ \displaystyle   t = 0 , 1 , \dots   }
+{ \displaystyle   \tau   _ { 1 } , \dots   , \tau   _ { n } \geq   0 }
+\tau  
+\tau_j
+j
+S
+{ \displaystyle   ( \tau   _ { j } ) _ { j = 1 , \dots   , n } }
+{ \displaystyle   ( \,( { \tilde   { \tau   } } _ { j } , c _ { j } ) \,)_ { j = 1 , \dots   , n } }
+{ \displaystyle   j \in   [ n ] : = \{ 1 , 2 , \dots   , n \ } }
+{ \displaystyle   c _ { j } \geq   0 }
+j
+{ \displaystyle   { \tilde   { \tau   } } _ { j } = \min ( \tau   _ { j } , c _ { j } ) }
+j
+c _ { j }
+S ( t )
+{ \displaystyle   k \in   [ n ] : = \{ 1 , \dots   , n \ } }
+t > 0
+c _ { k }
+k
+t
+{ \displaystyle   c _ { k } \geq   t }
+{ \displaystyle   { \tilde   { \tau   } } _ { k } = t }
+{ \displaystyle   \tau   _ { k } = t }
+k
+{ \displaystyle   c _ { k } \geq   t }
+{ \displaystyle   \mathrm   { P r o b }   ( \tau   _ { k } \geq   t ) = \mathrm   { P r o b }   ( { \tilde   { \tau   } } _ { k } \geq   t ) . }
+{ \displaystyle   X _ { k } = \mathbb   { I }   ( { \tilde   { \tau   } } _ { k } \geq   t ) }
+{ \displaystyle   k \in   C ( t ) : = \{ 1 \leq   k \leq   n \,:\,c_ { k } \geq   t \ } }
+t
+{ \displaystyle   m ( t ) = | C ( t ) | }
+{ \displaystyle   C ( t ) }
+{ \displaystyle   C ( t ) }
+{ \displaystyle   m ( t ) }
+{ \displaystyle   ( X _ { k } ) _ { k \in   C ( t ) } }
+{ \displaystyle   S ( t - 1 ) = \mathrm   { P r o b }   ( \tau   \geq   t ) }
+{ \displaystyle   m ( t ) > 0 }
+{ \displaystyle   S ( t - 1 ) }
+{ \displaystyle   { \hat   { S } } _ { \mathrm   { n a i v e }   } ( t - 1 ) = { \frac   { 1 } { m ( t ) } } \sum   _ { k : c _ { k } \geq   t } X _ { k } = { \frac   { | \{ 1 \leq   k \leq   n \,:\,{ \tilde   { \tau   } } _ { k } \geq   t \}|}{ m ( t ) } } }
+{ \displaystyle   { \tilde   { \tau   } } _ { k } \geq   t }
+{ \displaystyle   c _ { k } \geq   t }
+m ( t )
+m ( t )
+t
+S ( t )
+{ \displaystyle   c _ { k } < t }
+{ \displaystyle   { \tilde   { \tau   } } _ { k } < c _ { k } }
+{ \displaystyle   \mathrm   { P r o b }   ( \tau   \leq   t ) }
+{ \displaystyle   S ( t ) = 1 - \mathrm   { P r o b }   ( \tau   \leq   t ) }
+S ( t )
+{ \displaystyle   { \begin { a l i g n e d } S ( t ) & = \mathrm   { P r o b }   ( \tau   > t | \tau   > t - 1 ) \mathrm   { P r o b }   ( \tau   > t - 1 ) \\&=( 1 - \mathrm   { P r o b }   ( \tau   \leq   t | \tau   > t - 1 ) ) \mathrm   { P r o b }   ( \tau   > t - 1 ) \\&=( 1 - \mathrm   { P r o b }   ( \tau   = t | \tau   \geq   t ) ) \mathrm   { P r o b }   ( \tau   > t - 1 ) \\&=q ( t ) S ( t - 1 ) \,,\end { a l i g n e d } } }
+\tau  
+{ \displaystyle   q ( t ) = 1 - \mathrm   { P r o b }   ( \tau   = t | \tau   \geq   t ) }
+{ \displaystyle   S ( t ) = q ( t ) S ( t - 1 ) }
+{ \displaystyle   S ( t ) = q ( t ) q ( t - 1 ) \cdots   q ( 0 ) . }
+{ \displaystyle   q ( 0 ) = 1 - \mathrm   { P r o b }   ( \tau   = 0 | \tau   > - 1 ) = 1 - \mathrm   { P r o b }   ( \tau   = 0 ) }
+{ \displaystyle   q ( s ) }
+{ \displaystyle   S ( t ) }
+{ \displaystyle   q ( s ) = 1 - \mathrm   { P r o b }   ( \tau   = s | \tau   \geq   s ) }
+{ \displaystyle   k \in   [ n ] }
+{ \displaystyle   c _ { k } \geq   s }
+{ \displaystyle   \mathrm   { P r o b }   ( \tau   = s ) = \mathrm   { P r o b }   ( { \tilde   { \tau   } } _ { k } = s ) }
+{ \displaystyle   \mathrm   { P r o b }   ( \tau   \geq   s ) = \mathrm   { P r o b }   ( { \tilde   { \tau   } } _ { k } \geq   s ) }
+{ \displaystyle   k \in   [ n ] }
+{ \displaystyle   c _ { k } \geq   s }
+{ \displaystyle   \mathrm   { P r o b }   ( \tau   = s | \tau   \geq   s ) = \mathrm   { P r o b }   ( { \tilde   { \tau   } } _ { k } = s ) / \mathrm   { P r o b }   ( { \tilde   { \tau   } } _ { k } \geq   s ) }
+{ \displaystyle   { \hat   { q } } ( s ) = 1 - { \frac   { | \{ 1 \leq   k \leq   n \,:\,c_ { k } \geq   s , { \tilde   { \tau   } } _ { k } = s \}|}{ | \{ 1 \leq   k \leq   n \,:\,c_ { k } \geq   s , { \tilde   { \tau   } } _ { k } \geq   s \}|}}=1 - { \frac   { | \{ 1 \leq   k \leq   n \,:\,{ \tilde   { \tau   } } _ { k } = s \}|}{ | \{ 1 \leq   k \leq   n \,:\,{ \tilde   { \tau   } } _ { k } \geq   s \ } | } } }
+{ \displaystyle   \mathrm   { P r o b }   ( \tau   = s | \tau   \geq   s ) }
+{ \displaystyle   { \hat   { S } } ( t ) = \prod   _ { s = 0 } ^ { t } { \hat   { q } } ( s ) }
+{ \displaystyle   { \hat   { q } } ( s ) = 1 - d ( s ) / n ( s ) }
+{ \displaystyle   d ( s ) = | \{ 1 \leq   k \leq   n \,:\,{ \tilde   { \tau   } } _ { k } = s \ } | }
+s
+{ \displaystyle   n ( s ) = | \{ 1 \leq   k \leq   n \,:\,{ \tilde   { \tau   } } _ { k } \geq   s \ } | }
+s
+{ \displaystyle   d ( s ) = 0 }
+{ \displaystyle   { \hat   { q } } ( s ) = 1 }
+{ \displaystyle   { \hat   { S } } ( t ) }
+{ \displaystyle   d ( s ) = 0 }
+{ \displaystyle   0 \leq   t _ { 1 } < t _ { 2 } < \dots   < t _ { m } }
+s
+{ \displaystyle   d ( s ) > 0 }
+{ \displaystyle   d _ { i } = d ( t _ { i } ) }
+{ \displaystyle   n _ { i } = n ( t _ { i } ) }
+{ \displaystyle   { \hat   { S } } ( t ) = \prod   _ { i : t _ { i } \leq   t } \left ( 1 - { \frac   { d _ { i } } { n _ { i } } } \right ) }
+d _ { i }
+{ \displaystyle   n _ { i } }
+{ \displaystyle   t _ { i } }
+{ \displaystyle   h _ { i } }
+{ \displaystyle   t _ { i } }
+{ \displaystyle   S ( t ) = \prod   \limits   _ { i : \ t_ { i } \leq   t } ( 1 - h _ { i } ) }
+{ \displaystyle   t _ { i } }
+{ \displaystyle   { \mathcal   { L } } ( h _ { j : j \leq   i } | d _ { j : j \leq   i } , n _ { j : j \leq   i } ) = \prod   _ { j = 1 } ^ { i } h _ { j } ^ { d _ { j } } ( 1 - h _ { j } ) ^ { n _ { j } - d _ { j } } }
+{ \displaystyle   \log ( { \mathcal   { L } } ) = \sum   _ { j = 1 } ^ { i } \left ( d _ { j } \log ( h _ { j } ) + ( n _ { j } - d _ { j } ) \log ( 1 - h _ { j } ) \right ) }
+{ \displaystyle   h _ { i } }
+{ \displaystyle   { \frac   { \partial   \log ( { \mathcal   { L } } ) } { \partial   h _ { i } } } = { \frac   { d _ { i } } { { \widehat   { h } } _ { i } } } - { \frac   { n _ { i } - d _ { i } } { 1 - { \widehat   { h } } _ { i } } } = 0 \Rightarrow   { \widehat   { h } } _ { i } = { \frac   { d _ { i } } { n _ { i } } } }
+{ \displaystyle   { \widehat   { S } } ( t ) = \prod   \limits   _ { i : \ t_ { i } \leq   t } \left ( 1 - { \widehat   { h } } _ { i } \right ) = \prod   \limits   _ { i : \ t_ { i } \leq   t } \left ( 1 - { \frac   { d _ { i } } { n _ { i } } } \right ) }
+{ \displaystyle   { \widehat   { \operatorname   { V a r }   } } ( { \widehat   { S } } ( t ) ) = { \widehat   { S } } ( t ) ^ { 2 } \sum   \limits   _ { i : \ t_ { i } \leq   t } { \frac   { d _ { i } } { n _ { i } ( n _ { i } - d _ { i } ) } } , }
+d _ { i }
+n _ { i }
+{ \displaystyle   t _ { i } < t }
+d _ { i }
+{ \displaystyle   n _ { i } }
+h _ { i }
+{ \displaystyle   { \widehat   { h } } _ { i } = d _ { i } / n _ { i } }
+{ \displaystyle   E ( { \widehat   { h } } _ { i } ) = h _ { i } }
+{ \displaystyle   \operatorname   { V a r }   ( { \widehat   { h } } _ { i } ) = h _ { i } ( 1 - h _ { i } ) / n _ { i } }
+{ \displaystyle   { \widehat   { S } } ( t ) }
+{ \displaystyle   { \begin { a l i g n e d } \operatorname   { V a r }   ( \log   { \widehat   { S } } ( t ) ) & \sim   { \frac   { 1 } { { { \widehat   { S } } ( t ) } ^ { 2 } } } \operatorname   { V a r }   ( { \widehat   { S } } ( t ) ) \Rightarrow   \\\operatorname   { V a r }   ( { \widehat   { S } } ( t ) ) & \sim   { { { \widehat   { S } } ( t ) } ^ { 2 } } \operatorname   { V a r }   ( \log   { \widehat   { S } } ( t ) ) \end { a l i g n e d } } }
+{ \displaystyle   \log   { \widehat   { S } } ( t ) = \sum   \limits   _ { i : \ t_ { i } \leq   t } \log   \left ( 1 - { \widehat   { h } } _ { i } \right ) }
+{ \displaystyle   { \begin { a l i g n e d } \operatorname   { V a r }   ( { \widehat   { S } } ( t ) ) & \sim   { { { \widehat   { S } } ( t ) } ^ { 2 } } \operatorname   { V a r }   \left ( \sum   \limits   _ { i : \ t_ { i } \leq   t } \log   \left ( 1 - { \widehat   { h } } _ { i } \right ) \right ) \\&\sim   { { { \widehat   { S } } ( t ) } ^ { 2 } } \sum   \limits   _ { i : \ t_ { i } \leq   t } \operatorname   { V a r }   \left ( \log   \left ( 1 - { \widehat   { h } } _ { i } \right ) \right ) \end { a l i g n e d } } }
+{ \displaystyle   { \begin { a l i g n e d } \operatorname   { V a r }   ( { \widehat   { S } } ( t ) ) & \sim   { { { \widehat   { S } } ( t ) } ^ { 2 } } \sum   _ { i : \ t_ { i } \leq   t } \left ( { \frac   { \partial   \log   \left ( 1 - { \widehat   { h } } _ { i } \right ) } { \partial   { \widehat   { h } } _ { i } } } \right ) ^ { 2 } \operatorname   { V a r }   ( { \widehat   { h } } _ { i } ) \\&={ { { \widehat   { S } } ( t ) } ^ { 2 } } \sum   _ { i : \ t_ { i } \leq   t } \left ( { \frac   { 1 } { 1 - { \widehat   { h } } _ { i } } } \right ) ^ { 2 } { \frac   { { \widehat   { h } } _ { i } ( 1 - { \widehat   { h } } _ { i } ) } { n _ { i } } } \\&={ { { \widehat   { S } } ( t ) } ^ { 2 } } \sum   _ { i : \ t_ { i } \leq   t } { \frac   { { \widehat   { h } } _ { i } } { n _ { i } ( 1 - { \widehat   { h } } _ { i } ) } } \\&={ { { \widehat   { S } } ( t ) } ^ { 2 } } \sum   _ { i : \ t_ { i } \leq   t } { \frac   { d _ { i } } { n _ { i } ( n _ { i } - d _ { i } ) } } \end { a l i g n e d } } }

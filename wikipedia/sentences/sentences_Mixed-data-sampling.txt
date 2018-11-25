@@ -1,4 +1,0 @@
-{ \displaystyle   y _ { t } = \beta   _ { 0 } + \beta   _ { 1 } B ( L ^ { 1 / m } ; \theta   ) x _ { t } ^ { ( m ) } + \varepsilon   _ { t } ^ { ( m ) } , }
-{ \displaystyle   x _ { t } ^ { ( 4 ) } }
-\varepsilon  
-{ \displaystyle   B ( L ^ { 1 / m } ; \theta   ) }

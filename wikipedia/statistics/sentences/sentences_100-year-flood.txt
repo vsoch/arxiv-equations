@@ -1,0 +1,1 @@
+P _ { { e } } = 1 - \left [ 1 - \left ( { \frac     { 1 } { T } } \right ) \right ] ^ { { n } }

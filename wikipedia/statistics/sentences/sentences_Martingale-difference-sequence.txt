@@ -1,0 +1,8 @@
+\{ X _ t ,   \mathcal { F } _ t \}_ { - \infty } ^ { \infty }
+( \Omega   , { \mathcal   { F } } , \mathbb   { P }   )
+X _ { t }
+{ \displaystyle   \mathbb   { E }   \left | X _ { t } \right | < \infty   }
+  \mathbb { E }   \left [ X _ t   |   \mathcal { F } _ { t - 1 } \right ]   =   0 ,   a . s .  
+t
+Y _ { t }
+X _ t = Y _ t - Y _ { t - 1 }

@@ -1,0 +1,15 @@
+X
+m \times   n
+\sigma   ^ { 2 } < \infty  
+{ \displaystyle   Y _ { n } = { \frac   { 1 } { n } } X X ^ { T } }
+{ \displaystyle   \lambda   _ { 1 } , \,\lambda   _ { 2 } , \,\dots   , \,\lambda   _ { m } }
+Y _ { n }
+{ \displaystyle   \mu   _ { m } ( A ) = { \frac   { 1 } { m } } \#\left \{ \lambda   _ { j } \in   A \right \},\quad   A \subset   \mathbb   { R }   . }
+{ \displaystyle   m , \,n \,\to   \,\infty   }
+{ \displaystyle   m / n \,\to   \,\lambda   \in   ( 0 , + \infty   ) }
+{ \displaystyle   \mu   _ { m } \,\to   \,\mu   }
+\mu ( A )   = \begin { c a s e s }   ( 1 - \frac { 1 } { \lambda } )   \mathbf { 1 } _ { 0 \in   A }   +   \nu ( A ) , &   \text { i f   }   \lambda   > 1 \\ \nu ( A ) , &   \text { i f   }   0 \leq   \lambda   \leq   1 ,   \end { c a s e s }  
+d \nu   ( x ) = { \frac     { 1 } { 2 \pi   \sigma   ^ { 2 } } } { \frac     { { \sqrt     { ( \lambda   _ { { + } } - x ) ( x - \lambda   _ { { - } } ) } } } { \lambda   x } } \,{ \mathbf     { 1 } } _ { { [ \lambda   _ { { - } } , \lambda   _ { { + } } ] } } \,dx
+{ \displaystyle   \lambda   _ { \pm   } = \sigma   ^ { 2 } ( 1 \pm   { \sqrt   { \lambda   } } ) ^ { 2 } . }
+1 / \lambda  
+\sigma   ^ { 2 }

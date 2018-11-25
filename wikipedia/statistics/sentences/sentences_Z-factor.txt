@@ -1,0 +1,11 @@
+\mu  
+\sigma  
+\mu   _ { p }
+\sigma   _ { p }
+\mu   _ { n }
+\sigma_n
+{ \displaystyle   { \text { Z - f a c t o r } } = 1 - { 3 ( \sigma   _ { p } + \sigma   _ { n } )   \over   | \mu   _ { p } - \mu   _ { n } | } }
+{ \displaystyle   { \text { E s t i m a t e d   Z - f a c t o r } } = 1 - { 3 ( { \hat   { \sigma   } } _ { p } + { \hat   { \sigma   } } _ { n } )   \over   | { \hat   { \mu   } } _ { p } - { \hat   { \mu   } } _ { n } | } }
+\sigma   _ { p } = \sigma   _ { n }
+\mu   _ { p }
+\mu   _ { n }

@@ -1,0 +1,13 @@
+C _ { { x y } } ( f ) = { \frac     { | G _ { { x y } } ( f ) | ^ { 2 } } { G _ { { x x } } ( f ) G _ { { y y } } ( f ) } }
+0 \leq   C _ { { x y } } ( f ) \leq   1
+y ( t ) = h ( t ) * x ( t )
+Y ( f ) = H ( f ) X ( f )
+G _ { { y y } } = | H ( f ) | ^ { 2 } G _ { { x x } } ( f )
+G _ { { x y } } = H ( f ) G _ { { x x } } ( f )
+G _ { { x x } } ( f )
+C _ { { x y } } ( f ) = { \frac     { | H ( f ) G _ { { x x } } ( f ) | ^ { 2 } } { G _ { { x x } } ( f ) G _ { { y y } } ( f ) } } = { \frac     { | H ( f ) G _ { { x x } } ( f ) | ^ { 2 } } { G _ { { x x } } ^ { 2 } ( f ) | H ( f ) | ^ { 2 } } } = { \frac     { | G _ { { x x } } ( f ) | ^ { 2 } } { G _ { { x x } } ^ { 2 } ( f ) } } = 1
+C _ { { x y } } \leq   1
+1 - C _ { { x y } }
+G _ { { v v } } = C _ { { x y } } G _ { { y y } }
+G _ { { v v } }
+\gamma   ^ { 2 }

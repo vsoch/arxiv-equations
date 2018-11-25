@@ -1,0 +1,70 @@
+L _ { 1 }
+( x _ { { i j } } )
+{ \hat     { m } } _ { { i j } } = a _ { i } b _ { j }
+( { \hat     { m } } _ { { i j } } )
+( m _ { { i j } } )
+\textstyle   x _ { { i + } } = \sum   _ { j } x _ { { i j } } \ ,
+\textstyle   x _ { { + j } } = \sum   _ { i } x _ { { i j } } \ ,
+\log   \ m_ { { i j } } = u + v _ { i } + w _ { j } + z _ { { i j } }
+m _ { { i j } } : = { \mathbb     { E } } ( x _ { { i j } } )
+\sum   _ { i } v _ { i } = \sum   _ { j } w _ { j } = 0
+z _ { { i j } } = 0
+{ \hat     { m } } _ { { i j } } ^ { { ( 0 ) } } : = 1
+\eta   \geq   1
+{ \hat     { m } } _ { { i j } } ^ { { ( 2 \eta   - 1 ) } } = { \frac     { { \hat     { m } } _ { { i j } } ^ { { ( 2 \eta   - 2 ) } } x _ { { i + } } } { \sum   _ { { k = 1 } } ^ { J } { \hat     { m } } _ { { i k } } ^ { { ( 2 \eta   - 2 ) } } } }
+{ \hat     { m } } _ { { i j } } ^ { { ( 2 \eta   ) } } = { \frac     { { \hat     { m } } _ { { i j } } ^ { { ( 2 \eta   - 1 ) } } x _ { { + j } } } { \sum   _ { { k = 1 } } ^ { I } { \hat     { m } } _ { { k j } } ^ { { ( 2 \eta   - 1 ) } } } } .
+( { \hat     { m } } _ { { i j } } ) : = \lim   _ { { \eta   \rightarrow   \infty   } } ( { \hat     { m } } _ { { i j } } ^ { { ( \eta   ) } } )
+x _ { { i + } }
+u _ { i }
+m _ { { i j } } = 0
+( i , j ) \in   S
+{ \hat     { m } } _ { { i j } } ^ { { ( 0 ) } } = 0
+( i , j ) \in   S
+{ \hat     { b } } _ { j } ^ { { ( 0 ) } } : = 1
+\eta   \geq   1
+{ \hat     { a } } _ { i } ^ { { ( \eta   ) } } = { \frac     { x _ { { i + } } } { \sum   _ { j } { \hat     { b } } _ { j } ^ { { ( \eta   - 1 ) } } } } ,
+{ \hat     { b } } _ { j } ^ { { ( \eta   ) } } = { \frac     { x _ { { + j } } } { \sum   _ { i } { \hat     { a } } _ { i } ^ { { ( \eta   ) } } } }
+{ \hat     { m } } _ { { i j } } ^ { { ( 2 \eta   ) } } = { \hat     { a } } _ { i } ^ { { ( \eta   ) } } { \hat     { b } } _ { j } ^ { { ( \eta   ) } }
+( { \hat     { m } } _ { { i j } } ) = { \hat     { a } } { \hat     { b } } ^ { T }
+{ \hat     { a } } = ( { \hat     { a } } _ { 1 } , \ldots   , { \hat     { a } } _ { I } ) ^ { T } = \lim   _ { { \eta   \rightarrow   \infty   } } { \hat     { a } } ^ { { ( \eta   ) } }
+{ \hat     { b } } = ( { \hat     { b } } _ { 1 } , \ldots   , { \hat     { b } } _ { J } ) ^ { T } = \lim   _ { { \eta   \rightarrow   \infty   } } { \hat     { b } } ^ { { ( \eta   ) } }
+m _ { { i j } } = a _ { i } b _ { j } = ( \gamma   a _ { i } ) ( { \frac     { 1 } { \gamma   } } b _ { j } )
+\gamma   > 0
+\sum   _ { i } { \hat     { a } } _ { i } ^ { { ( \eta   ) } } = \sum   _ { i } { \hat     { a } } _ { i } ^ { { ( 1 ) } }
+\eta   \geq   1
+\sum   _ { j } { \hat     { b } } _ { j } ^ { { ( \eta   ) } } = \sum   _ { j } { \hat     { b } } _ { j } ^ { { ( 0 ) } }
+\eta   \geq   0
+m _ { { i j } } = 0
+( i , j ) \in   S
+\delta_ { i j }   =   0
+i , j ) \in   S
+\delta   _ { i j } = 1
+{ \hat     { a } } _ { i } ^ { { ( \eta   ) } } = { \frac     { x _ { { i + } } } { \sum   _ { j } \delta   _ { { i j } } { \hat     { b } } _ { j } ^ { { ( \eta   - 1 ) } } } } ,
+{ \hat     { b } } _ { j } ^ { { ( \eta   ) } } = { \frac     { x _ { { + j } } } { \sum   _ { i } \delta   _ { { i j } } { \hat     { a } } _ { i } ^ { { ( \eta   ) } } } }
+{ \hat     { m } } _ { { i j } } ^ { { ( 2 \eta   ) } } = \delta   _ { { i j } } { \hat     { a } } _ { i } ^ { { ( \eta   ) } } { \hat     { b } } _ { j } ^ { { ( \eta   ) } }
+{ \displaystyle   M = ( m _ { i j } ^ { ( 0 ) } ) \in   \mathbb   { R }   ^ { I \times   J } }
+u \in   { \mathbb     { R } } ^ { I }
+v \in   { \mathbb     { R } } ^ { J }
+{ \hat     { M } } = ( { \hat     { m } } _ { { i j } } ) \in   { \mathbb     { R } } ^ { { I \times   J } }
+\hat { m } _ { i + }   =   \sum_ { j = 1 } ^ n   \hat { m } _ { i j }   =   u _ i
+\hat { m } _ { + j }   =   \sum_ { i = 1 } ^ m   \hat { m } _ { i j }   =   v _ j
+d i a g : { \mathbb     { R } } ^ { k } \longrightarrow   { \mathbb     { R } } ^ { { k \times   k } }
+\eta   \geq   0
+M ^ { { ( 2 \eta   + 1 ) } } = { \text { d i a g } } ( r ^ { { ( \eta   + 1 ) } } ) M ^ { { ( 2 \eta   ) } }
+M ^ { { ( 2 \eta   + 2 ) } } = M ^ { { ( 2 \eta   + 1 ) } } { \text { d i a g } } ( s ^ { { ( \eta   + 1 ) } } )
+r _ { i } ^ { { \eta   + 1 } } = { \frac     { u _ { i } } { \sum   _ { j } m _ { { i j } } ^ { { ( 2 \eta   ) } } } }
+s _ { j } ^ { { \eta   + 1 } } = { \frac     { v _ { j } } { \sum   _ { i } m _ { { i j } } ^ { { ( 2 \eta   + 1 ) } } } }
+{ \hat     { M } } = \lim   _ { { \eta   \rightarrow   \infty   } } M ^ { { ( \eta   ) } } .
+{ \frac     { m _ { { i j } } ^ { { ( 0 ) } } m _ { { h k } } ^ { { ( 0 ) } } } { m _ { { i k } } ^ { { ( 0 ) } } m _ { { h j } } ^ { { ( 0 ) } } } } = { \frac     { m _ { { i j } } ^ { { ( \eta   ) } } m _ { { h k } } ^ { { ( \eta   ) } } } { m _ { { i k } } ^ { { ( \eta   ) } } m _ { { h j } } ^ { { ( \eta   ) } } } } \ \forall   \ \eta   \geq   0 { \text {   a n d   } } i \neq   h , \quad   j \neq   k
+m _ { { i j } } ^ { { ( \eta   ) } } = a _ { i } ^ { { ( \eta   ) } } b _ { j } ^ { { ( \eta   ) } } .
+I J ( 2 + J ) + I J ( 2 + I ) = I ^ { 2 } J + I J ^ { 2 } + 4 I J \ ,
+I ( 1 + J ) + J ( 1 + I ) = 2 I J + I + J \ ,
+x _ { { i + } } > 0 , \ x_ { { + j } } > 0
+( { \hat     { m } } _ { { i j } } )
+X ^ { 2 } = \sum   _ { { i , j } } { \frac     { ( x _ { { i j } } - { \hat     { m _ { { i j } } } } ) ^ { 2 } } { { \hat     { m _ { { i j } } } } } }
+G = 2 \sum   _ { { i , j } } x _ { { i j } } \log   \ { \frac     { x _ { { i j } } } { { \hat     { m } } _ { { i j } } } }
+\mathrm { X }   _ { r } ^ { 2 }
+r = ( I - 1 ) ( J - 1 )
+1 - \mathrm { X }   _ { r } ^ { 2 } ( X ^ { 2 } )
+1 - \mathrm { X }   _ { r } ^ { 2 } ( G )
+p ( X ^ { 2 } ) \approx   0 . 1 8 2 4 6 7 1
