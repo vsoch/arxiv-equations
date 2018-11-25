@@ -39,10 +39,12 @@ for method, items in equations.items():
 
     method_name = method.replace(' ', '-').replace('/','_')
     file_name = "%s/embeddings_%s.tsv" % ( vectors_dir, method_name )
-    vectors.to_csv(file_name, sep="\t", encoding="utf-8")
+    embeddings.to_csv(file_name, sep="\t", encoding="utf-8")
 
     # This might be a bad idea, we will find out!
     compiled_embeddings = compiled_embeddings.append(embeddings)
 
 # At the end of this loop, we have a data frame for each set of embeddings
-# organized by the topic.
+# organized by the topic. We also have one compiled data frame with all 
+# labels.
+compiled_embeddings.to_csv('%s/compiled_embeddings.tsv' %vectors_dir, sep="\t", encoding="utf-8")
