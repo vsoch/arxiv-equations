@@ -100,3 +100,7 @@ for method, items in equations.items():
 # organized by the math topic. We also have one compiled data frame with all 
 # labels.
 all_embeddings.to_csv('%s/compiled_character_math_embeddings.tsv' % vectors_dir, sep="\t", encoding="utf-8")
+sim = all_embeddings.transpose().corr()
+sim.index = all_embeddings.index
+sim.columns = all_embeddings.index
+sim.to_csv('%s/similarity_character_math_embeddings.tsv' % vectors_dir, sep="\t", encoding="utf-8")
