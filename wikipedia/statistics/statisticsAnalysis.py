@@ -160,7 +160,9 @@ os.system('cat equation_statistics_labels.txt | wc -l')
 
 # Now build model - we use all data to train
 
-from wordfish.analysis import ( export_vectors, TrainEquations )
+from wordfish.analysis import ( export_vectors, TrainEquations, TrainCharacters )
+
+## Latex expressions, and symbols
 
 sentences = TrainEquations(text_files=["equation_statistics_sentences.txt"],
                            remove_stop_words=False,
@@ -188,3 +190,16 @@ vectors.to_csv('%s/wikipedia_statistics_equation_character_vectors.tsv' %vectors
 
 # The next step is to map math equations to this space, see the math subfolder,
 # and then the analysis subfolder
+
+## Finally, just characters
+characters = TrainCharacters(text_files=["equation_statistics_sentences.txt"],
+                             remove_stop_words=False,
+                             remove_non_english_chars=False)
+characterModel = Word2Vec(characters, size=300, workers=8, min_count=1)
+characterModel.save("%s/wikipedia_statistics_characters.word2vec" % output_dir)
+characterVectors = extract_vectors(characterModel)
+# vectors.shape
+# characterVectors.shape
+# (96, 300)
+
+characterVectors.to_csv('%s/wikipedia_statistics_single_character_vectors.tsv' %vectors_dir, sep='\t')
